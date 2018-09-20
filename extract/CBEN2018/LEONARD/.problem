@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Leonard works as an algorithmist for a web security company. Now, he has to develop an algorithm which decreases the probability for possible intrusions by increasing the number of possible combinations for access keys according to their length <b>N</b>.</p>\n<p>So, he developed some magical function which increases the number of possible combinations exponentially. This function basically maps the possible combinations as a product of numbers from <b>1</b> to <b>N</b> to an integer <b>P</b>.</p>\n<p>Leonard is suffering from anterograde amnesia and can't remember anything for long so he can't figure out which mathematical function does his function represents. But he is very good when it comes to mathematical pattern recognition.</p>\n<p>Can you help him recognize the pattern of this function?</p>\n\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases.</li>\n<li>Each test case contains a single integer <b>N</b> denoting the length of the access key.</li>\n</ul>\n\n<h3>Output</h3>\n<p>For each test case, output two space separated integers, first being the integer <b>P</b> and the second being the number of digits in <b>P</b></p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10<sup>3</sup></b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>3</sup></b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n12\n19\n31\n\n<b>Output:</b>\n479001600 9\n121645100408832000 18\n8222838654177922817725562880000000 34\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-01-2018",
+    "is_direct_submittable": false,
+    "contest_name": "C-Benders",
+    "languages_supported": "C, CPP14",
+    "todo": false,
+    "time": {
+        "view_start_date": 1517585400,
+        "end_date": 1517596200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1517596200,
+        "submit_start_date": 1517585400,
+        "current": 1537433086
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>metafity</span>",
+    "problem_name": "The Magical Function",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/metafity'>metafity</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "metafity",
+    "contest_code": "CBEN2018",
+    "max_timelimit": "1",
+    "problem_code": "LEONARD"
+}

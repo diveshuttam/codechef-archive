@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nYou are playing a game called yjump. There are <b>N</b> levels. Each level has a tile. The x-coordinate of the tile in level <b>i</b> is <b>x<sub>i</sub></b>. You start at level <b>1</b>, so you are at <b>x<sub>1</sub></b> in the beginning. Then you will jump to the tile at position <b>x<sub>2</sub></b>, then <b>x<sub>3</sub></b> and so on.\n</p>\n<p>\nSo overall, from level <b>i</b>, you can only advance to level <b>i + 1</b>. You are not allowed to skip any level. Also you can jump at most a distance of <b>K</b> in one go. ie. from an x-coordinate of <b>x</b>, you can jump to a tile whose x-coordinate is greater than or equal to <b>(x - K)</b> and is less than or equal to <b>(x + K)</b>.\n</p>\n<p>\nPlease output the maximum level of the game that you can reach by following the conditions defined above.\n</p>\n<h3>Input</h3>\n<ul>\n<li>There is exactly one test case. </li>\n<li>The first line contains two space separated integers: <b>N, K</b> as defined in the problem.</li>\n<li>Second line contains <b>n</b> space separated integers denoting array <b>x</b> i.e. <b>x[1], x[2], .., x[N]</b>.</li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>Print a single line containing a single integer denoting the maximum level that you can reach. </li>\n</ul>\n<h3>Constraints</h3>\n<ul>\n<li><b>1 \u2264 N \u2264 100</b></li>\n<li><b>1 \u2264 K \u2264 1000</b></li>\n<li><b>1 \u2264 x[i] \u2264 1000</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n8 3\n10 12 9 8 10 14 11 16\n\n<b>Output:</b>\n5\n</pre><p> </p>\n<pre><b>Input:</b>\n4 1\n100 101 102 101\n\n<b>Output:</b>\n4\n</pre><h3>Explanation</h3>\n<p><b>Example case 1.</b> You can jump from <b>10 -> 12 -> 9 -> 8 -> 10</b>. But you can't jump from <b>10</b> to <b>14</b> because you have to make jump of length 4 to go from <b>10</b> to <b>14</b> which is not allowed..</p>\n<p><b>Example case 2.</b> You can go till the end which is level <b>4</b>.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Hindustan University Multi Provincial Re-Contest 2015",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1425565800,
+        "end_date": 1425580200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1425580200,
+        "submit_start_date": 1425565800,
+        "current": 1537436646
+    },
+    "problem_author_html_handle": "admin2",
+    "problem_name": "YJump",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin2'>admin2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin2",
+    "contest_code": "HUMP15R",
+    "max_timelimit": "1",
+    "problem_code": "YJUMP"
+}

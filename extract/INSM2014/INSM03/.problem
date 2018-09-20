@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>It's Tejasi's birthday and her mom has prepared hot dogs. There are N hot dogs and M people and her mom wants to divide the hotdogs equally. Tejasi wants to calulate the minimum number of cuts required to distribute the hot dogs equally.<br />\nHelp Tejasi in finding out the number of cuts required.\n</p>\n<p>\nIn order to divide the hot dogs, the number of cuts splitting individual hot dogs must be as small as possible.\n</p>\n<p>\nHelp her calculate the minimum total number of cuts needed to carry out the desired division.\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line contains T the no of test cases.</p>\n<p>The next t lines contain two positive integers, N and M , the number of hot dogs and eaters, respectively.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>The output consists of t lines which contains required minimum number of cuts.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>N,M</b> \u2264 <b>100</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n2 6\n3 4 \n6 2 \n\n<b>Output:</b>\n4\n3\n0\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>If there are two hot dogs and six tasters, it is<br />\nsufficient to split each hot dogs into three equal parts, making a total of four cuts.<br /> On the other hand, if there are three hot dogs and four tasters , one possibility is cutting off three quarters of each hot dogs. Those larger parts will each go to one of the tasters, while the fourth taster<br />\nwill get the three smaller pieces (quarters) left over.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-09-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Insomnia 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1411749000,
+        "end_date": 1411770600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1411770600,
+        "submit_start_date": 1411749000,
+        "current": 1537437415
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>prongs7</span>",
+    "problem_name": "Party Mystery",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/prongs7'>prongs7</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "prongs7",
+    "contest_code": "INSM2014",
+    "max_timelimit": "1",
+    "problem_code": "INSM03"
+}

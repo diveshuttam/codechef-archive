@@ -1,0 +1,87 @@
+{
+    "announcements": "<p> The constraints for n in Laddu hosts Treasure Hunt has been updated.N is upto 10^5 </p>\r\n\r\n\r\n<p>The top 2 Indian college students at the end of the contest are requested to contact the organizers as mentioned in the banner to collect their prize money. </p>\r\n\r\n<p> Editorials would be released tomorrow(20th) evening. </p>",
+    "ip": "149.129.135.113",
+    "code": "QCDJ2016",
+    "duration": "180",
+    "name": "Quark CodeJam Round 1",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": " <p><strong class=\"rules-heading\">About the Contest:</strong></p> <div class=\"rules-body\"> <ul class=\"\"> <li><strong>Organiser: </strong> The contest is hosted by BITS Pilani, K. K. Birla Goa Campus.</li> <li><strong>Prizes: </strong>Only Indian College students are eligible for prizes.<br />Prizes are 1st: 6000, 2nd: 4000</li> <li><strong>Registrations for prizes: </strong>Just need a codechef account.</li> </ul> </div> <p><strong class=\"rules-heading\">Contest Details:</strong></p> <div class=\"rules-body\"> <ul class=\"\"> <li><strong>Duration: </strong>3 hours</li> <li><strong>Start time: </strong>19th November 2016, 2100 hrs IST</li> <li><strong>End time: </strong>20th November 2016, 0000 hrs IST<br /> You may check your timezone <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+QCDJ2016&amp;iso=20161119T21&amp;p1=44&amp;ah=3\" target=\"_blank\">here</a>.</li> </ul> </div> <p><strong class=\"rules-heading\">Registration:</strong></p> <div class=\"rules-body\"> <p>You just need to have a CodeChef username to participate. No seperate registration is required. If you do not have a CodeChef ID create one <a href=\"../user/register\" target=\"_blank\"> here</a>.</p> </div> <p><br /> <strong class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</strong></p> <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct.</a></p> </div> <p><br /> <strong class=\"rules-heading\">Rules and Regulations:</strong></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li> <li>Please contact <a href=\"mailto:lohitmarodia@hotmail.com\" target=\"_blank\">lohitmarodia@hotmail.com</a> for any queries during the contest.</li> </ul> <p><strong class=\"rules-heading\">Judging Criteria:</strong></p> <ul class=\"\"> <li><strong>All the problems have same points allotted to them.</strong></li> <li><strong>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time</strong></li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error). There is no time consumed for a problem that is not solved.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> </ul> <div class=\"\"><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"../ide\" target=\"_blank\">Online IDE</a>.</strong><br /> However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/QCDJ2016/1479484149.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "QRK04": {
+            "allow_submission": false,
+            "name": "Laddu and his Girlfriend",
+            "category_name": "main",
+            "accuracy": 30.23,
+            "successful_submissions": "13",
+            "code": "QRK04",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "QRK07": {
+            "allow_submission": false,
+            "name": "Laddu does Magic",
+            "category_name": "main",
+            "accuracy": 60.14,
+            "successful_submissions": "164",
+            "code": "QRK07",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "QRK02": {
+            "allow_submission": false,
+            "name": "Laddu hosts Treasure Hunt",
+            "category_name": "main",
+            "accuracy": 19.09,
+            "successful_submissions": "58",
+            "code": "QRK02",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "QRK01": {
+            "allow_submission": false,
+            "name": "Laddu attempts CodeJam",
+            "category_name": "main",
+            "accuracy": 32.14,
+            "successful_submissions": "66",
+            "code": "QRK01",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "QRK05": {
+            "allow_submission": false,
+            "name": "Laddu tries Math",
+            "category_name": "main",
+            "accuracy": 42.86,
+            "successful_submissions": "3",
+            "code": "QRK05",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1479580200,
+        "current": 1537434366,
+        "freezing": 0,
+        "start": 1479569400
+    },
+    "user": {
+        "username": ""
+    }
+}

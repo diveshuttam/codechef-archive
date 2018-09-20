@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<h1>Number Mutations</h1>\n<pre>Given a number, we can form number mutations in the following ways\n\n   1. The digits of the number should be arranged in descending order\n   2. The digits of the number should be arranged in ascending order\n   3. The number obtained in (2) must be subtracted from the number obtained  in (1) to form a new number\n   4. Repeat these steps unless the new number has already appeared in a mutation \n\nNote that 0 is a permitted digit. The length of the mutation is the number of distinct numbers in the mutation. The program should read the numbers as input and should output the length of that mutation for each number read as an input.\n</pre>\n<h3>Input</h3>\n<p>A sequence of positive numbers, all less than 10^9, each on its own line, terminated by 0, is the input. The input file contains at most 10 numbers.</p>\n\n<h3>Output</h3>\n<p>The output consists of their lengths exactly in the format indicated below.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n123456789\n1234\n444\n0\n\n\n<b>Output:</b>\n2\n4\n2\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-09-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Insomnia 2010",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1283538600,
+        "end_date": 1283625000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180194,
+        "submit_start_date": 1283538600,
+        "current": 1537439540
+    },
+    "problem_author_html_handle": "xpurgate",
+    "problem_name": "Problem1",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/xpurgate'>xpurgate</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "xpurgate",
+    "contest_code": "INSOMNIA",
+    "max_timelimit": "0.206897",
+    "problem_code": "AX01"
+}

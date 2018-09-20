@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>In our increasingly interconnected world, it has been speculated that everyone on Earth is related to everyone else by no more than six degrees of separation. In this problem, you must write a program to find the maximum degree of separation for a network of people. \nFor any two people, the degree of separation is the minimum number of relationships that must be traversed to connect the two people. For a network, the maximum degree of separation is the largest degree of separation between any two people in the network. If there is a pair of people in the network who are not connected by a chain of relationships, the network is disconnected. \nAs shown below in example, a network can be described as a set of symmetric relationships each of which connects two people. A line can be assumed to represent a relationship between two people. Network in example 1 illustrates a network with 2 as the maximum degree of separation. Network in example 2 is disconnected.\n<h3>Input</h3>\n<p> The input consists of data sets that describe networks of people. For each data set, the first line has two integers: P (2 &le; P &le; 50), the number of people in the network, and R (R &ge; 1), the number of network relationships. Following that first line are R relationships. Each relationship consists of two strings that are names of people in the network who are related. Names are unique and contain no blank spaces. Because a person may be related to more than one other person, a name may appear multiple times in a data set. \nThe final test case is followed by a line containing two zeroes.\nFor eg- \nconsider a relationship in which\nA<->B shows relationship between A and B\nSimilarly, B is related to C i.e, B<->C and C is related to D i.e, C<->D. So, A is somehow related to D i.e,\n A<->B<->C<->D  and degree of separation is 3.\n<h3>Output</h3>\n<p>\nFor each network, display the network number followed by the maximum degree of separation. If the network is disconnected, display DISCONNECTED. Use the format illustrated in the sample output.\n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n4 4\nA B\nC D\nB C\nA C\n<b>Output:</b>\n2\n<b>Input:</b>\n4 2\nA B\nC D\n<b>Output:</b>\nDISCONNECTED\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "TechTrishna 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1331706600,
+        "end_date": 1331760600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1331760600,
+        "submit_start_date": 1331706600,
+        "current": 1537438879
+    },
+    "problem_author_html_handle": "bestankur007",
+    "problem_name": "Relationship",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bestankur007'>bestankur007</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bestankur007",
+    "contest_code": "TCTR2012",
+    "max_timelimit": "0.2",
+    "problem_code": "NOPC4"
+}

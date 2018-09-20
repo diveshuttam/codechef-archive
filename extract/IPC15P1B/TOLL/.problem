@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nByteland is a kingdom with tree topology where there are total <b>N</b> cities numbered from 0 to <b>N</b> - 1. The capital city lies at the root of the tree and has number 0. Each edge in the tree represents an undirected road between two cities. We can assume that distance of each such edge is 1.\n</p>\n\n<p>\nIn this paragraph, we describe the current transportation toll system. There is a toll booth at capital city. Also, King has defined some special cities, where a toll booth is present. Say a person arrives at a toll booth <b>x</b>, and say <b>y</b> is the last toll booth the person has visited. If <b>dist(x, 0) &lt; dist(y, 0)</b>, this person has to pay an amount equal to <b>dist(x, y)</b> <i>i.e.</i> the distance between current booth and the booth last visited by the person. If current booth is the first booth a person has visited today, they don't have to pay anything. Also, in the <b>same day</b>, for a pair of booths <b>(x, y)</b> you have pay toll at most once.\n</p>\n\n<p>King feels that current system is not generating enough profits and he wants to change the structure of the city. First, he defines a parameter <b>P</b> which is used for evaluating how good a structure is. King wants to observe the toll collection for the farthest cities from the capital <i>i.e.</i> leaves of the tree. He assigns to a single person the task of travelling from leaves of the tree to the capital city. This person decides to complete the task in a <b>single day</b>. He'll start from a leaf and visit the root using shortest path possible, come back to another leaf and visit the root using shortest path possible and so on for all the leaves. <b>P</b> is defined as the minimum toll to be paid to do this. <br/>\n</p>\n\n<p>\nKing has decided that he can change parent city of at most one city(except the capital city, which doesn't have any parent). After such modification the tree topology should be preserved and kingdom should remain connected. He wants to maximise the parameter <b>P</b>. Can you find the maximum possible value of <b>P</b> for him? Note that King can choose to not to make any changes.\n</p>\n\n<h3>Input</h3>\n\n<p>\nFirst line contains <b>T</b>, the number of test cases.<br/>\nEach test case consists of <b>N</b> in one line.<br/>\nNext line contains <b>N - 1</b> integers, <b>P<sub>1</sub>, P<sub>2</sub>, ..., P<sub>N - 1</sub></b> where <b>P<sub>i</sub></b> denotes the parent of city number <b>i</b>.\n<br/>\nThe third line contains <b>N</b> integers, <b>S<sub>0</sub>, S<sub>1</sub>, ..., S<sub>N - 1</sub></b> where <b>S<sub>i</sub></b> is 1 if city number <b>i</b> is special, else <b>S<sub>i</sub></b> is 0.\n</p>\n\n\n<h3>Output</h3>\n\n<p>\nFor each test case output the required answer in one line.\n</p>\n\n<h3>Constraints</h3>\n\n<ul>\n    <li>1 \u2264 <b>T</b> \u2264 10<sup>5</sup></li>\n    <li>1 \u2264 <b>N</b> \u2264 10<sup>5</sup></li>\n    <li>1 \u2264 Sum of <b>N</b> for all test cases \u2264 10<sup>6</sup></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n3\n0 0\n1 1 0\n\n<b>Output:</b>\n2\n</pre>\n\n<h3>Explanation</h3>\n<p>\nLets find <b>P</b> for current city first.<br/>\nOne possible way for a person to perform the task for finding <b>P</b> is to visit cities in the order 1, 0, 2, 0.<br/>\nWhen person arrives at city 0 for the first time, he has to pay a toll 1.<br/>\nWhen person arrives at city 0 again he doesn't have to pay anything.<br/>\nHence, <b>P = 1</b>.\n<br/>\n<br/>\nIf King changes parent of city 1 to city 2, then value of <b>P</b> is 2.\n</p>\n<h3>Note:</h3>\n<p>\nLarge input files. Use scanf/print in C/C++.\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-11-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team BlundersPride",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1448724600,
+        "end_date": 1448746200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1448746200,
+        "submit_start_date": 1448724600,
+        "current": 1537435788
+    },
+    "problem_author_html_handle": "blunderspride",
+    "problem_name": "Optimise the toll collection",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/blunderspride'>blunderspride</a>, <a class='problem-tag-small ' href='/tags/problems/dfs'>dfs</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>, <a class='problem-tag-small ' href='/tags/problems/ipc151b'>ipc151b</a>, <a class='problem-tag-small ' href='/tags/problems/tree'>tree</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "blunderspride",
+    "contest_code": "IPC15P1B",
+    "max_timelimit": "2",
+    "problem_code": "TOLL"
+}

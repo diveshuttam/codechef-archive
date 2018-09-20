@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Problem description.</p>\n<p>\u00a0<br />\nRam and Shyam were competing against each other and asked each other competitve problems . It is Shyam's turn and his problem is as follows :<br />\n<br /><br /><br />\n1 .     A string is given . Let \" w \" be the longest substring of length l of the   given string such that it is also its prefix . <br /><br />\n2.     Now he was asked whether its possible to remove some <b>prefix</b> ( meaning some characters from the starting )of the given string so that the remaining string has<br />\n\" w \" string as a substring <b>( not necessarily the longest of the remaining string )</b> and also as its prefix !!<br />\n<br /><br /><br />\nIf its possible to do so , also find the minimum characters to be removed .<br />\nHelp Ram solve this problem !!<br />\n<b>( Remember if \" w \" is NULL print \" NO \")</b>\n</p>\n<h3>Input</h3>\n<p>There would be only one line consisting of the string</p>\n<h3>Output</h3>\n<p>\" YES \" or \" NO \" according to the condition described above</p>\n<p><br /><br />\nIf \" YES \" then also print the number of minimum characters to be removed from the input string .</p>\n<h3>Constraints</h3>\n<p> 1 &lt;=len(string)&lt;=1000000 </p>\n<h3>Example</h3>\n<pre><b>Input:</b>\nabcabcdabc\n\n<b>Output:</b>\nYES\n3\n\n<h3>Explanation</h3>\n<p>The longest substring of the input is \" abc \" which is also the prefix .\nNow we can remove the prefix \" abc \" where the remaining string would become \" abcdabc \". \nWe can easily see that for the remaining string we have the \nsubstring \" abc \" which is the substring as well as the prefix of the remaining string \"abcdabc\" .\n</p></pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-06-2015",
+    "is_direct_submittable": false,
+    "contest_name": "DTU Programming Mania - 2",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1435939200,
+        "end_date": 1435950000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1435950000,
+        "submit_start_date": 1435939200,
+        "current": 1537436208
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>arpitdec5</span>",
+    "problem_name": "Ram and String",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/arpitdec5'>arpitdec5</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "arpitdec5",
+    "contest_code": "DTMA2015",
+    "max_timelimit": "1",
+    "problem_code": "RSTRING"
+}

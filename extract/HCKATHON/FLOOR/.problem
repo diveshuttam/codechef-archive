@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Arunava has learnt to find the sum of first N natural numbers using the expression N(N+1)/2.But now Kartik Sir has asked him to find the sum of floor(N/2) for first N natural numbers where floor(X) is the greatest integer less than or equal to a given real number X.Arunava has not memorized any formula for this. So can you help him. \n\n<h3>Input</h3>\n<p>1st line has an Integer T denoting the number of test cases Each test Case Contains: A single integer N on a new line denoting the number of natural number upto which it needs to be summed.\n\n<h3>Output</h3>\n<p>For each test case output a single line containing required sum as the output \n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n5\n1\n2\n3\n4\n5\n\n\n<b>Output:</b>\n0\n1\n2\n4\n6\n\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-03-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Hackathon",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, GO, PERL, PIKE, NICE, BASH",
+    "todo": false,
+    "time": {
+        "view_start_date": 1300905000,
+        "end_date": 1300926600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180227,
+        "submit_start_date": 1300905000,
+        "current": 1537439250
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>codeislands</span>",
+    "problem_name": "Floor Function",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/codeislands'>codeislands</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "codeislands",
+    "contest_code": "HCKATHON",
+    "max_timelimit": "1",
+    "problem_code": "FLOOR"
+}

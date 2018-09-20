@@ -1,0 +1,33 @@
+{
+    "problem_code": "SCC0106",
+    "problem_author": "learnersclub",
+    "contest_name": "SCC - School Coding Competition",
+    "todo": false,
+    "problem_author_html_handle": "learnersclub",
+    "problem_name": "Who is my Friend",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "SSC2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/learnersclub'>learnersclub</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Blake was invited to a secret society and given a challenge. The challenge was that he has to identify his friends among a lot of people wearing masks. <br />\nIf he wrongly identified he will be banished from the society.<br />\nTo distinguish between different people, each of them, including Blake, was given a number (&lt; 10^6). This number denoted a lot of traits. <br />\nAny one with a number greater than that of blake is his enemy. One can only be his frined if the friends number is co-prime with Blake's.</p>\n<p>Help Blake identify and count his friends.</p>\n<p>Also to be kept in Mind, If Blake is the only one in the society, In order to avoid his loneliness he becomes his own friend.\n</p>\n<h3>Input</h3>\n<p>\nFirst line contains T the number of test cases. <br />\nNext T lines contain one integer N, the number alloted to Blake. <br />\nNote that all the numbers from 1..N-1 are also alloted to the members of the society and all members are present.\n</p>\n<h3>Output</h3>\n<p>T lines, one for the result of each test case, the total number of friends of Blake in the society.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>20000</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000000</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n1\n2\n3\n4\n5\n\n<b>Output:</b>\n1\n1\n2\n2\n4\n</pre>",
+    "category_name": "main",
+    "date_added": "26-04-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/SCC0106",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1461938400,
+        "end_date": 1461949200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1461949200,
+        "submit_start_date": 1461938400,
+        "current": 1537434926
+    },
+    "user": {
+        "username": ""
+    }
+}

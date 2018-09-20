@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Little Anand loves to play chess. But he hates to study. He particularly dislikes geometry. One day his geometry teacher challenged him with a problem in a different fashion. She framed the question, keeping in mind his interest in chess. She asked him ,</p>\n<ul type=\"disc\">\n  <ul type=\"circle\">\n    <li>Given a N by N chess board.</li>\n    <li>In how many ways, a valid chessboard can be        formed with given N.</li>\n    <li>A Chess Board is valid if it has alternate colors on adjacent cells.</li>\n   Anand needs your help . Write a program to get number of chess boards that can be formed with given N.\n  </ul>\n</ul>\n<p><strong>Input :</strong><br />\n  First Line contains T, number of test cases.<br />\n  for next T lines, N is given for each test case</p>\n<p><strong>Output:</strong><br />\n  Output Contains number of valid chess boards.</p>\n<p><strong>sample input:</strong><br />\n  2<br />\n  3<br />\n  4<br />\n  <strong>sample output:</strong><br />\n  14<br />\n  30</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "J.N.E.C. - Dialect",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1300681800,
+        "end_date": 1300696200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180224,
+        "submit_start_date": 1300681800,
+        "current": 1537439264
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>kolechetan</span>",
+    "problem_name": "CHESSBOARD",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kolechetan'>kolechetan</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kolechetan",
+    "contest_code": "DIALECT",
+    "max_timelimit": "22.2222",
+    "problem_code": "DLCT04"
+}

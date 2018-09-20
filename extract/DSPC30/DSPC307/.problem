@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p class=\"MsoNormal\" align=\"center\"><b><u><span>Safe\nMoves</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>Everyone\nhas played a standard chess. Ram and sham play a modified version of chess\nwhere the field is not <span class=\"GramE\">8x8</span> but an <span class=\"SpellE\">NxN</span>.\nThere is one king, N Knights and N-1 queens. At a particular move Ram wishes to\nknow the total number of possible safe moves he can do.</span></p>\n\n<p class=\"MsoNormal\"><span>A safe\nmove is defined as a move where, the new place of move is either not under an\nattack of opponent\u2019s pieces or if both players attack the same place will lead\nto less(not equal) loss of Ram as compared to Sham.</span></p>\n\n<p class=\"MsoNormal\"><span>The loss\nis defined as</span></p>\n\n<p class=\"MsoNormal\"><span>Knight-\n1 point</span></p>\n\n<p class=\"MsoNormal\"><span>Queen- 2\npoint</span></p>\n\n<p class=\"MsoNormal\"><span>King\nshould not be attacked.</span></p>\n\n<p class=\"MsoNormal\"><span>Note:\nAttack on opponent\u2019s king is not a safe move.</span></p>\n\n<p class=\"MsoNormal\"><span>All\nother rules of general chess are followed.</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a9<span class=\"SpellE\">Shahzor</span> Khan</span></p>\n\n<p class=\"MsoNormal\"><span><span> </span></span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><u><span>Input:</span></u></p>\n\n<p class=\"MsoNormal\"><span class=\"SpellE\"><span>Inpu</span></span><span> may contain multiple test cases.</span></p>\n\n<p class=\"MsoNormal\"><span>First\nline contain the Size of field N, Assume N to be below 13</span></p>\n\n<p class=\"MsoNormal\"><span>Second\nline contain number of knights <span class=\"GramE\">n(</span>&lt;=N) and number of\nQueens m(&lt;=N-1) separated by a space</span></p>\n\n<p class=\"MsoNormal\"><span>Next n\nlines will contain 2 integers each, <span class=\"SpellE\">x<span class=\"GramE\">,y</span></span>\ni.e. location of knights</span></p>\n\n<p class=\"MsoNormal\"><span>Next m\nlines will contain 2 integers each <span class=\"SpellE\">x<span class=\"GramE\">,y</span></span>\ni.e. location of Queens</span></p>\n\n<p class=\"MsoNormal\"><span>In last\nline will be the location of king <span class=\"SpellE\">x<span class=\"GramE\">,y</span></span>.</span></p>\n\n<p class=\"MsoNormal\"><span>Similarly\nare for the opponents pieces.</span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><u><span>Output:</span></u></p>\n\n<p class=\"MsoNormal\"><span class=\"GramE\"><span>Single line containing number of safe moves.</span></span><span> Print\nNONE if no such move exists.</span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><u><span>Sample\nInput:</span></u></p>\n\n<p class=\"MsoNormal\"><span>4</span></p>\n\n<p class=\"MsoNormal\"><span>1 1</span></p>\n\n<p class=\"MsoNormal\"><span>2<span class=\"GramE\">,1</span></span></p>\n\n<p class=\"MsoNormal\"><span>2<span class=\"GramE\">,2</span></span></p>\n\n<p class=\"MsoNormal\"><span>4<span class=\"GramE\">,1</span></span></p>\n\n<p class=\"MsoNormal\"><span>2 1</span></p>\n\n<p class=\"MsoNormal\"><span>2<span class=\"GramE\">,3</span></span></p>\n\n<p class=\"MsoNormal\"><span>3<span class=\"GramE\">,4</span></span></p>\n\n<p class=\"MsoNormal\"><span>2<span class=\"GramE\">,4</span></span></p>\n\n<p class=\"MsoNormal\"><span>1<span class=\"GramE\">,4</span></span></p>\n\n<p class=\"MsoNormal\"><span>3</span></p>\n\n<p class=\"MsoNormal\"><span>0 0</span></p>\n\n<p class=\"MsoNormal\"><span>3<span class=\"GramE\">,1</span></span></p>\n\n<p class=\"MsoNormal\"><span>2 0</span></p>\n\n<p class=\"MsoNormal\"><span>1<span class=\"GramE\">,1</span></span></p>\n\n<p class=\"MsoNormal\"><span>3<span class=\"GramE\">,3</span></span></p>\n\n<p class=\"MsoNormal\"><span>1<span class=\"GramE\">,3</span></span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><u><span>Sample\nOutput:</span></u></p>\n\n<p class=\"MsoNormal\"><span>4</span></p>\n\n<p class=\"MsoNormal\"><span>NONE</span></p>\n\n<p class=\"MsoNormal\"><span>&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><b><span>Explanation of output 1</span></b></p>\n\n<p class=\"MsoNormal\"><span>King can\nmove only to 3<span class=\"GramE\">,2</span></span></p>\n\n<p class=\"MsoNormal\"><span>Knight\ncan move 3<span class=\"GramE\">,3</span><span> \n</span>loss-&gt;1 opponent loss-&gt;2</span></p>\n\n<p class=\"MsoNormal\"><span>Queen\ncan move 1<span class=\"GramE\">,2</span> , 3,1</span></p>\n\n<p class=\"MsoNormal\">&nbsp;</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "DreamSpark Contest 3",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1272112200,
+        "end_date": 1272306540,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1272306540,
+        "submit_start_date": 1272112200,
+        "current": 1537439586
+    },
+    "problem_author_html_handle": "ganesha",
+    "problem_name": "SAFE MOVES",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ganesha'>ganesha</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ganesha",
+    "contest_code": "DSPC30",
+    "max_timelimit": "1",
+    "problem_code": "DSPC307"
+}

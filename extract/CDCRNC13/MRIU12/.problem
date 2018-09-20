@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>Problem description.</p>\n<p> Code Crunch Heads use RD-CODE for sending messages. It consists of only dots and dashes in sequence.<br />\nBelow are the RD-CODE for the digits 0 to 9:</p>\n<ul>\n<li>0 -----\n</li><li>1 .----\n</li><li>2 ..---\n</li><li>3 ...--\n</li><li>4 ....-\n</li><li>5 .....\n</li><li>6 -....\n</li><li>7 --...\n</li><li>8 ---..\n</li><li>9 ----.<br />\n<br /><br />\n<br /><br />\nUsing this code, help Code Crunch Members to find out the RD-CODE of their message.<br />\nUsers will enter 10 digit phone no. Convert these numbers to RD-CODE and also find no of dots used in the coded data.\n\n<h3>Input</h3>\n<p>First line T, will have a single integer having number of test cases followed by T lines of input.<br />\n<br /><br />\n<br /><br />\nSecond line will have a 10-digit number N where N is a positive integer &lt; 9999999999.\n</p>\n\n<h3>Output</h3>\n<p>\nFirst line will display the RD-Code for each digit together.<br />\n<br /><br />\nSecond line will display the total number of dots in the RD-CODE.</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n9716733117\n9716335949\n.\n\n<b>Output:</b>\n----.--\u2026.-----\u2026.--\u2026\u2026--\u2026--.----.------\u2026\n23\n----.--\u2026.-----\u2026\u2026.--\u2026--\u2026..----\u2026..-----.\n26\n\n</pre>\n</li></ul>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-10-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Code Crunch 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1382675400,
+        "end_date": 1382707800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1382707800,
+        "submit_start_date": 1382675400,
+        "current": 1537438073
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>rajat_vig</span>",
+    "problem_name": "RD-CODE",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rajat_vig'>rajat_vig</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rajat_vig",
+    "contest_code": "CDCRNC13",
+    "max_timelimit": "0.2",
+    "problem_code": "MRIU12"
+}

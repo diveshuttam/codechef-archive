@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Krishna Murthy is one of the top businessmen in London. He is known for his intelligent and witty tricks. In one of his favourite games:<br /><br />\nHe gives his opponent two similar looking golf balls one made of gold and the other made of silver, he also asks the opponent a number<b> N</b> to assess his intelligence while he challenges him to pick a ball.<br />\nHe has a hidden logic behind the selection process which is:<br /><br />\nIf the opponent gives a number which follows the correct criterion he is intelligent and picks the gold ball and wins the challenge. If not, he picks the silver ball.<br /><br />\nThe criterion is:<br />\nThe number of perfect squares between <b>1</b> and<b> N</b> is a prime number.\u00a0</p>\n<h3>Input</h3>\n<p>The first line contains an integer<b> T</b> which denotes the number of test cases.<br /><br />\n<b>T</b> lines follow each with an integer N which denotes the number selected by the opponent.</p>\n<h3>Output</h3>\n<p>The output must contain a single line to print \"golden ball is selected.\" or \"silver ball is selected.\" </p>\n<h3>Constraints:</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10<sup>3</sup></b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>9</sup></b></li>\n</ul>\n<h3>Example:</h3>\n<pre><b>Input:</b>\n4\n56\n52\n90\n26\n\n<b>Output:</b>\ngolden ball is selected.\ngolden ball is selected.\nsilver ball is selected.\ngolden ball is selected.\n  \n</pre><p>\u00a0</p>\n<h3>Explanation:</h3>\n<p><b>Consider 56, the number of perfect squares between 1 and 56 is 7.i.e.,1,4,9,16,25,36,49.</b> </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ITerate",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457242200,
+        "end_date": 1457328600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457328600,
+        "submit_start_date": 1457242200,
+        "current": 1537435248
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>sushmee04</span>",
+    "problem_name": "TRICKY BALLS",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sushmee04'>sushmee04</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sushmee04",
+    "contest_code": "ITRA2016",
+    "max_timelimit": "1",
+    "problem_code": "ITRA05"
+}

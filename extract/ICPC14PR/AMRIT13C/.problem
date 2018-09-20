@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>This is not a Sub-Task problem</b></p>\n<p>A binary tree is either empty or it consists of a root node and two binary trees, called the left subtree and the right subtree of the root node. Each node of our binary trees will contain one lowercase letter. We say that a binary tree is a binary search tree (BST) if and only if for each node the following conditions hold: (i)All letters in the left subtree of the node occur earlier in the alphabet than the letter in the node. (ii)All letters in the right subtree of the node occur later in the alphabet than the letter in the node. Note that if a tree is a BST, then each subtree of this tree is also a BST. As a consequence, if the tree is non-empty, then both subtrees of the root node are BSTs again. Examples of BSTs with 4 nodes: </p>\n<pre> c b a / \\ / \\ \\ b d a d c / / / \\ a c b d </pre><p> <br/> A pre-order code of a BST is a string obtained in the following way:<br/> (i)The pre-order code of an empty BST is an empty string.<br/> (ii)The pre-order code of a non-empty BST is obtained in the following way: Let L and R be the pre-order codes of the left and right subtree, respectively. Then the pre-order code of the whole BST is the concatenation of the letter in its root node, L and R (in this order).<br/> The pre-order codes for the trees above are \"cbad\", \"badc\" and \"acbd\", respectively.<br/> Consider all BSTs with exactly N nodes containing the first N lowercase letters. Order these trees alphabetically by their pre-order codes. Our sequence of BSTs is one-based, i.e., the index of the first tree in this sequence is 1. Output the pre-order code of the BST at the specified index(K) in this sequence. If K is larger than the number of BSTs with exactly N nodes, output \"-1\".</br/></br/></br/></br/></br/></p>\n<p><br/><br />\n<h3>Input</h3>\n<p> A single line, with 2 integers, N and K.<br/> </br/></p>\n<h3>Output</h3>\n<p>A single line, containing the required string.</p>\n<p><br/><br />\n<h3>Constraints:</h3>\n<p> N is between 1 and 19, inclusive.<br/> K is between 1 and 2,000,000,000, inclusive.<br/> You may assume that the number of our BSTs with 19 nodes doesn't exceed 2,000,000,000.<br />\n<h3>Sample Input 1:</h3>\n<p> 2 2<br/><br />\n<h3>Sample Output 1:</h3>\n<p> ba<br/><br />\n<h3>Explanation:</h3>\n<p> There are 2 BSTs with 2 nodes. The first of them is<br/> </br/></p>\n<pre> a \\ b </pre><p><br/> The second one is </br/></p>\n<pre> b / a </pre><p><br/> The pre-order of the second one is \"ba\", so we output that.<br />\n<h3>Sample Input 2:</h3>\n<p> 15 14023<br/><br />\n<h3>Sample Output 2:</h3>\n<p> abcdeohgfniljkm<br/><br/> </br/></br/></p>\n</br/></p></br/></p></br/></p></br/></p></br/></br/></p></br/></p></br/></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-12-2014",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Practice round 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1417372200,
+        "end_date": 1418837400,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1418837400,
+        "submit_start_date": 1417372200,
+        "current": 1537437122
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>murdocc007</span>",
+    "problem_name": "Encoding Trees",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/murdocc007'>murdocc007</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "murdocc007",
+    "contest_code": "ICPC14PR",
+    "max_timelimit": "1",
+    "problem_code": "AMRIT13C"
+}

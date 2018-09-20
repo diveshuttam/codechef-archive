@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nTwo children Bhima and Shiva are playing a chess game called DieHard. In the game they have a zero based indexing chess board of size (1001 x 1001). Position ( i , j ) on the board denotes i-th row and j-th column. Initially board is empty and  they put a  coin  on position ( x , y ).<br><br>\nNow they start the game by alternating turns. In each turn a player can do one of the following:<br>\n<p><li>move coin   from ( x , y ) to  ( x-i , y ); where  1=< i <= x.</li>\n<p><li>move coin   from ( x , y ) to ( x  , y-j ); where  1=< j <= y. </li>\n<p><li>move coin  from ( x , y ) to ( x-i , y-j ); where  ( 1=< i <= x , 1=< j <= y ) and ( | i - j | < 2 ).</li><br>\n<p>The game ends when no move is possible and the player who cannot make a move loses. Both players play optimally. Being smart, both players calculate the outcome of the game before the game begins. The player who loses tries to maximize the number of turns in the game and player who wins tries to minimize the turns. Bhima starts game.<br>\n\n\n<h3>Input</h3>\n<p>First line contains the number of testcases T.\nEach of next T lines contains two integer ,  x and  y which  denotes position (x,y) of coin at start of game.\n\n<h3>Output</h3>\n<p>Output one line per case.\nThe name of the winner and the number of moves in the game separated by a single space.\n\n<pre>\n<h3>Constraints</h3>\n1 <= T <= 50\n0 <= x , y  <= 1,000.\n\n<h3>Example</h3>\n<b>Input:</b>\n2\n4 4\n3 4\n\n<b>Output:</b>\nBhima 1\nBhima 1\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-09-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Limit de Plazo 2011, IIIT-Allahabad",
+    "languages_supported": "C, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1317223800,
+        "end_date": 1317234600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1317234600,
+        "submit_start_date": 1317223800,
+        "current": 1537439130
+    },
+    "problem_author_html_handle": "saabir",
+    "problem_name": "Chess game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/saabir'>saabir</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "saabir",
+    "contest_code": "LMDPLA11",
+    "max_timelimit": "0.767778 - 1.21222",
+    "problem_code": "LMDP1102"
+}

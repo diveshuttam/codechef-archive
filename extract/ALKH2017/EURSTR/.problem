@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p> Prof. Charles: <i> <b>\"She is like you. Very much like you !! \"</b> </i><p>\n\n<p> Logan recently understood that Laura is his daughter. Transigen was breeding mutant children using DNA samples from several mutants for the \"X-23\" project. His own DNA was used.</p>\n<p> To save Laura, Logan has to find out how many of his attributes are also present in Laura. He gets access to <b>N</b> strings. </p>\n<p> Logan must know the <b>set X(contains unique elements) of unique substrings of all the N strings</b> </p>\n<p> Consider 2 strings \"<b>abab</b>\" and \"<b>abac</b>\". <b>Set X</b> of all unique substrings of both these strings is - <b>{ a , ab , aba , abab , abac , ac , b , ba , bab , bac , c }.</b> </p> \n<p>  Prof. Charles asks him <b>Q</b> queries.</p>\n<p> In a query, Logan will be provided ID (say <b>P</b>) of one of those <b>N</b> strings <b>(1 &le; P &le; N)</b> , and another integer <b>D</b>.</p>\n<p> For each query, Logan needs to tell the <b>number of substrings in set X</b> which have <b>Longest Common Prefix ( LCP ) with string P of length greater than or equal to D</b> </p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p> First line of every input file comprises an integer <b>N</b> denoting the number of strings to be input.</p>\n<p> <b>N</b> lines follows, each comprising the <b>i<sup>th</sup></b> string.- <b>Str[i]</b> </p>\n<p> Then an integer <b>Q</b> is input- denoting the number of queries. </p>\n<p> Next <b>Q</b> lines contains two integers <b>P</b> and <b>D</b> respectively where <b>P</b> denotes the string ID, and <b>D</b> denotes the required LCP length as stated above </p>\n\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>For each of the <b>Q</b> queries, output the number of substrings of set <b>X</b> which satisfy the condition stated above.</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>Strings comprise only lowercase characters ['a'-'z'] </b></li>\n<li>1 &le; <b>N</b> &le; 10<sup>5</sup></li>\n<li>1 &le; <b>|Str[i]|</b> &le; 10<sup>5</sup></li>\n<li><b>Sum of length of all strings will not exceed 10<sup>6</sup></b></li>\n<li>1 &le; <b>Q</b> &le; 10<sup>5</sup></li>\n<li>1 &le; <b>P</b> &le; <b>N</b></li>\n<li>1 &le; <b>D</b> &le; <b>Sum of length of all strings</b> </li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<p><b>Input:</b></p>\n<p> 2 </p>\n<p> abac </p>\n<p> abab </p>\n<p> 2 </p>\n<p> 2 2 </p>\n<p> 1 1 </p>\n<p><b>Output:</b></p>\n<p> 4 </p>\n<p> 6 </p>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p> For 2<sup>nd</sup> string - \"<b>abab</b>\" , there are 4 unique substrings which have LCP with it of length &ge; 2. <b>{ab , aba, abac, abab } </b></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-03-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Alkhwarizm 2017 (Rated)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1490369400,
+        "end_date": 1490387400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1490387400,
+        "submit_start_date": 1490369400,
+        "current": 1537433974
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>shivamg_isc</span>",
+    "problem_name": "Logan and his STRING dilemma",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shivamg_isc'>shivamg_isc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shivamg_isc",
+    "contest_code": "ALKH2017",
+    "max_timelimit": "2",
+    "problem_code": "EURSTR"
+}

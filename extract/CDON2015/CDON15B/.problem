@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<h3> Problem description </h3>\n<p>\n\t\tBruce Wayne is holding a party for his billionaire friends at his mansion. His butler Alfred has been<br />\n\t\tserved the complete guest list. <br/>\n\t</br/></p>\n<p>\n\t\tEach guest will arrive at time <strong> si </strong> and leave at time <strong> fi </strong>. Bruce Wayne is a curious man and he has also listed each person's possible tip that Alfred could expect. Alfred knows <strong> that each guest likes uninterrupted attention and hence he can't serve two guest at the same time. But if one guest leaves at time ti and another comes at time ti then he can start serving the new guest. </strong>\n\t</p>\n<p>\n\t\tSo Alfred has decided  to try for maximum total tip he can get. However Alfred doesn't know how much tip he could hope for. Can you help him find the maximum total tip that he can get?\n\t</p>\n\n<h3>Input</h3>\n<p>\nThe first line of input contains one number <strong>N</strong> where N is the number of arriving guests <br />\nFollowing N lines contain three numbers <strong>si, fi, val </strong> where si denotes the arrival time of guest, fi denotes the leaving time and val is the guest's possible tip.\n</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>\n\tOutput the maximum total tip that Alfred can get\n</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><strong>1</strong> &lt;= <strong>N</strong> &lt;= <strong>10^5</strong></li>\n<li><strong>1</strong> &lt;= <strong>si</strong> &lt; <strong>fi</strong> &lt;= <strong>10^4</strong></li>\n<li><strong>1</strong> &lt;= <strong>val</strong> &lt;= <strong>10^5</strong></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n2 10 9\n6 7 12\n4 7 4\n9 10 20\n\n<b>Output:</b>\n32\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<pre>\nHe could serve guest 2 and guest 4 in order to get maximum tip.\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-10-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Codathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1444492800,
+        "end_date": 1444505400,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1755578865,
+        "submit_start_date": 1444492800,
+        "current": 1537435942
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>thecodekaiser</span>",
+    "problem_name": "Alfred and his Guests",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/thecodekaiser'>thecodekaiser</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "thecodekaiser",
+    "contest_code": "CDON2015",
+    "max_timelimit": "1",
+    "problem_code": "CDON15B"
+}

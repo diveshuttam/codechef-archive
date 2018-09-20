@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Krumanal works at Pizza Hut as a delivery boy. He needs to get these pizzas delivered before they get cold but he is extremely lazy. He has to deliver pizzas to N houses. You need to tell him which will be the fastest way between 2 houses. You are provided with the name of the person who ordered the pizza (who happens to own the house) and the connection between the houses in terms of time taken to reach from one house to another and you have to find the path which will take least time between a pair of houses.</p>\n<p><br /></p>\n<p>Assume that the total time of a particular path (which is the sum of time of all direct connections belonging to this path) is at most 200000.</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first line of every test case is <b>N</b>, the number of houses Krumanal has to deliver pizza to. Details of <b>N</b> houses follow. </li>\n<li>Each <b>N</b>th line contains <b>A</b>, the person\u2019s name followed by <b>P</b> the number of people who are neighbours and to whom Krumanal has to deliver pizzas to. <b>P</b> lines follow.</li>\n<li>Each line contains <b>i</b>, index of the neighbouring houses and the <b>time</b> time taken to reach it.</li>\n<li>After <b>P</b> lines, you have <b>M</b> the number of paths you have to find followed by <b>M</b> test cases</li>\n<li>Each line having 2 space separated strings, <b>A<sub>1</sub></b> and <b>A<sub>2</sub></b>, the names of the person who ordered the pizza</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output <b>M</b> lines with the minimum time required to go from house <b>A<sub>1</sub></b> to <b>A<sub>2</sub></b>.</li>\n</ul>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>50</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>|A|</b> \u2264 <b>10</b> where <b>|A|</b> denotes the length of string</li>\n</ul>\n<h3>Subtasks:</h3>\n<p><br /><br />\n<b>Subtask 1:(70 points)</b><br />\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>20</b></li></ul>\n</p><p><br /><br /><br />\n<b>Subtask 2:(30 points)</b><br /></p>\n<p>Original contraints</p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n4\ngryffindor\n2\n2 5\n3 7\nslytherin\n2\n1 5\n4 1\nravenclaw\n2\n1 7\n4 4\nhufflepuff\n2\n2 1\n3 4\n2\ngryffindor hufflepuff\nslytherin ravenclaw\n3\nasdf\n2\n2 3\n3 5\nghjk\n1\n1 3\nqwerty\n1\n1 5\n2\nasdf qwerty\nghjk asdf\n<b>Output:</b>\n6\n5\n5\n3\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> Here we have 4 houses that Krumanal has to deliver to. So the neighbours and the time taken to go from one house to another are as follows:<br /><br />\ngryffindor-slytherin 5<br />gryffindor-ravenclaw 7<br />slytherin-hufflepuff 1<br />ravenclaw-hufflepuff 4<br /><br />Now, we have to find the minimum time required to go from the mentioned houses. So to go from gryffindor to hufflepuff, we have 2 routes. Via slytherin and via ravenclaw which will take us 6 and 11 units of time respectively. But the route via slytherin takes less time. Hence, the answer is 6.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-09-2015",
+    "is_direct_submittable": false,
+    "contest_name": "KJSCE Code Spree",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1443349800,
+        "end_date": 1443364200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1443364200,
+        "submit_start_date": 1443349800,
+        "current": 1537436011
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>sichan</span>",
+    "problem_name": "Pizza Delivery",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sichan'>sichan</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sichan",
+    "contest_code": "KJCC2015",
+    "max_timelimit": "1",
+    "problem_code": "PIZZA"
+}

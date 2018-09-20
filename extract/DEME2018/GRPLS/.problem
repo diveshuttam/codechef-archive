@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>You have a Greenhouse of height $x$ units (i.e plants with height > $x$ cannot be kept inside it) and $n$ plants whose initial heights are \n$h_1, h_2\u2026,h_n$. These plants are of a special kind: they grow by 1 unit if watered. You have to keep these plants in the greenhouse for at most $d$ days. On the  $i$\u2019th day, you have to water exactly $a_i$ different plants. You need to output the maximum number of days you can keep all the plants together inside the greenhouse (output $d$ if answer > $d$). Of course, you shouldn't water a plant if it has reached the height of $x$.\n\n\n###Input:\n- The first line contains the number of test cases $T$.\nFor each test case: \n- The first line contains $x$, $n$ and $d$.\n- The next line contains $n$ integers denoting $h_1, h_2 .. h_n$.\n- The next line contains $d$ integers denoting $a_1, a_2 .. a_d$.\n\n###Output:\nFor each test case, output a single integer denoting the maximum number of days for which you can keep the plants in the greenhouse.\n\n###Constraints\n- $1 \\leq T \\leq 5$ \n- $1 \\leq x, d, n, h_i  \\leq 10^5$\n- $1 \\leq a_i \\leq n$\n- It is guaranteed that $h_i < x$ initially.\n\n\n###Sample Input:\n\t1\n\t5 3 7\n\t1 1 2\n\t3 2 1 1 2 1 3\n\n\n###Sample Output:\n\t6\n\t\n###Explanation:\nHere is a possible answer. These are the heights of plants in different days -\n\nDay 0: 1 1 2\n\nDay 1: 2 2 3\n\nDay 2: 3 3 3\n\nDay 3: 3 3 4\n\nDay 4: 3 4 4\n\nDay 5: 4 4 5\n\nDay 6: 4 5 5\n\nOn the 7th day the heights will be 5 6 6 so you can\u2019t keep all the plants together. You can check that no other way of watering the plants will do any better. Hence the output is 6.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "11-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Dementia (Rated for Division 2)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1523543400,
+        "end_date": 1524025980,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1524025980,
+        "submit_start_date": 1523543400,
+        "current": 1537432571
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>avi224</span>",
+    "problem_name": "Greenhouse and Plants",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/avi224'>avi224</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "avi224",
+    "contest_code": "DEME2018",
+    "max_timelimit": "1",
+    "problem_code": "GRPLS"
+}

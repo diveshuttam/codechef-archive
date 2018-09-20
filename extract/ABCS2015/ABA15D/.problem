@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The Seventh Seal tells you the journey of a medieval knight, \u201cMax von Sydow\u201d and a game of chess he plays with the personification of Death, \u201cBengt Ekerot\u201d who has come to take his life.The game being played differs from the usual chess on the following basis:</p>\n<p><br /><br />\n(i)  The game is played on an infinite chess board &amp; there can be multiple pieces of the same type.<br />\n<br /><br />\n(ii)  A single turn of a particular player could comprise of one or more moves.<br />\n<br />(iii)  More than two colours can be assigned to the pieces, not just black and white.<br />\n<br />(iv)  Both the players could have pieces(same or different type) of the same colour.<br />\n<br />(v)  A piece could capture another piece only if they are of the same colour &amp; of the same type.<br />\n<br /><br />\n(vi)  The knight is more powerful than the king.<br />\n<br /><br /></p>\n<p>\nInitially there are \u2018N\u2019 knights in the board. It is assumed that, there exists  at least one knight such that it could reach the positions of all other knights in the board.This special knight could either belong to Sydow or Bengt.Sydow gets defeated, if he or Bengt loses at least one knight. He doesn\u2019t want this to happen.\n</p>\n<p><br /></p>\n<p>\nTo safeguard him from losing, Sydow is given a chance to assign a colour to all the pieces in the board. He is given with \u2018K\u2019 colour boxes to paint the pieces,before the start of the game. Your task is to find the number of possible ways of assigning the colours to the pieces in the board such that Sydow wins with such arrangement.Print the answer modulo (10^9 + 7).</p>\n<p><br /><br /><br />\n<b>Input:</b><br />\n<br /><br /><br />\nThe first line consists of an integer \u2018T\u2019, the number of test cases.\u2019T\u2019 test cases follow:<br /><br />\nEach of the test cases consists of a single line containing three integers N,K and C.<br />\n<br />C is 0 if Sydow starts the game and 1 if Bengt starts the game.<br />\n<br /><br /><br />\n<b>Constraints:</b><br />\n<br /><br /><br />\n1&lt;=T&lt;=10<br /><br />\n1&lt;=N&lt;=10000000<br /><br />\n1&lt;=K&lt;=1000000000<br /><br />\n0&lt;=C&lt;=1<br /><br />\n<br /><br />\n<b>Output:</b><br />\n<br /><br /><br />\nFor each test case, print the number of ways in a single line.Print \"0\" if Sydow could not win the game with any arrangement.(Quotes for clarity)<br />\n<br /><br /><br />\n<b>Example:</b><br />\n<br /><br />\n<br /><br />\n<b>Input#1:</b><br /><br /><br />\n1<br /><br />\n2 2 1<br /><br />\n<br /><br />\n<b>Output#1:</b><br /><br /><br />\n2<br /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Abacus'15",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1424271600,
+        "end_date": 1424284200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1424284200,
+        "submit_start_date": 1424271600,
+        "current": 1537436768
+    },
+    "problem_author_html_handle": "abacus_opc",
+    "problem_name": "The Seventh Seal",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abacus_opc'>abacus_opc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abacus_opc",
+    "contest_code": "ABCS2015",
+    "max_timelimit": "1",
+    "problem_code": "ABA15D"
+}

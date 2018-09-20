@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p> Infotsav has always been about geeks and geek-stuff, with the best of brains battling it out for victory. Since we are talking about the battle of wits, what better than a game of chess! You are given a 50x50 chessboard, where the bottom left corner is indexed (0, 0). There is a knight and a queen on the chessboard and you and your friend is playing your own version of chess. Both of you play your turns alternatively, with you taking the first turn.<br />\nIn each turn you select any one of the pieces and move it such that they don\u2019t move towards right or towards top. That is they must move to either left, bottom or bottom-left. The one who will not be able to make a move in his turn will lose the game. Both players will play optimally. </p>\n<p><br /><b><br />\nNote<br />\n<br /><br />\n- A knight can move<br /><br />\n  - 2 vertical and 1 horizontal steps, or 1 vertical and 2 horizontal steps.<br />\n<br /><br />\n- Queen can move <br /><br />\n*at least* one step<br />\n  - horizontally, vertically or diagonally<br />\n</b>\n</p>\n\n<h3>Input</h3>\n<ul>\n<li>The First line contains an integer, T, representing the number of test cases, followed by T lines.\n</li>\n<li>The Each of these test cases consists of four integers, xk, yk, xq, yq, where (xk, yk) represents the index of knight, while (xq, yq) represents the index of the Queen.\n</li>\n</ul>\n\n<h3>Output</h3>\n<ul>\n<li> For each test case, print \"WIN\" (without quotes) if you can win the game,<br />\notherwise print \"LOSE\".\n</li>\n</ul>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10^6</b></li>\n<li><b>0</b> \u2264 <b> xk, yk, xq, yq </b> &lt; <b>50</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n1 1 3 0\n2 2 0 1\n\n<b>Output:</b>\nWIN    \nLOSE\n</pre>\n<h3>Explanation</h3>\n<p><b>Test case #1: Knight being at (1, 1) will not be able to make a move. Since queen is at (3, 0), you can<br />\n move it to the left three steps so that it lands at (0, 0). Now your friend doesn't have any option to make a move, leading to your victory.<br />\n</b> </p>\n<p><b> Test case #2: Initally<br />\nknight is at (2, 2) and queen is at (0, 1). Knight can be moved exactly one time, i.e. to (0, 1) or (1, 0), and similarly queen will be able to make exactly one<br />\nmove, i.e. to (0, 0). So you have to select any one of them, and your friend will be to choose the other move. Since you don't have any more move, you are bound to<br />\n loose the game.  \t</b> ...</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "11-09-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeRush",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1442592000,
+        "end_date": 1442601000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1442601000,
+        "submit_start_date": 1442592000,
+        "current": 1537436040
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>ipg_2013</span>",
+    "problem_name": "The Game Of Chess",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ipg_2013'>ipg_2013</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ipg_2013",
+    "contest_code": "CORU2015",
+    "max_timelimit": "1",
+    "problem_code": "TGOC"
+}

@@ -1,0 +1,158 @@
+{
+    "announcements": "<p><b>29/08/2013, 13:40 IST: </b>The contest has been extended for 30 minutes. It will now end 1430 HRS IST.</p>\r\n<p><b>29/08/2013, 11:50 IST: </b>The timelimit for the problem <a href=\"/LTIME04/problems/CHXORR\" target=\"_blank\">CHXORR</a> have been changed to 1.5s. Also all the submissions have been rejudged.</p>\r\n<p><b>29/08/2013, 11:10 IST: </b>The official school rankings for the contest can be found\u00c2\u00a0<a target=\"_blank\" href=\"/rankings/inst/school/LTIME04\">here</a>. Overall rankings can be viewed\u00c2\u00a0<a target=\"_blank\" href=\"/rankings/inst/LTIME04\">here</a>.</p>",
+    "ip": "149.129.135.113",
+    "code": "LTIME04",
+    "duration": "210",
+    "name": "September Lunchtime 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "CHGIFT1": [
+            {
+                "score": "10",
+                "count": "43"
+            },
+            {
+                "score": "20",
+                "count": "249"
+            },
+            {
+                "score": "25",
+                "count": "35"
+            },
+            {
+                "score": "30",
+                "count": "41"
+            },
+            {
+                "score": "45",
+                "count": "11"
+            },
+            {
+                "score": "60",
+                "count": "1"
+            },
+            {
+                "score": "80",
+                "count": "3"
+            },
+            {
+                "score": "100",
+                "count": "75"
+            }
+        ],
+        "CHMAGIC": [
+            {
+                "score": "30",
+                "count": "13"
+            },
+            {
+                "score": "100",
+                "count": "6"
+            }
+        ],
+        "CHXORR": [
+            {
+                "score": "10",
+                "count": "238"
+            },
+            {
+                "score": "15",
+                "count": "14"
+            },
+            {
+                "score": "25",
+                "count": "32"
+            },
+            {
+                "score": "100",
+                "count": "17"
+            }
+        ],
+        "CHITHH": [
+            {
+                "score": "30",
+                "count": "80"
+            },
+            {
+                "score": "55",
+                "count": "1"
+            },
+            {
+                "score": "75",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "10"
+            }
+        ]
+    },
+    "rules": "<div class=\"applyall\"><b>The September Lunch Time 2013 has ended.<br />All the solutions for the problem set are public and the problems have been moved to practice section.<br /></b><b>The editorials for the contest have been updated, you can check them\u00a0<a href=\"http://discuss.codechef.com/tags/ltime04/\">here</a>.<br /></b><b>The winners blog post can be found <a href=\"http://blog.codechef.com/2013/10/02/a-little-less-glamorous-lunchtime/\">here</a>.</b></div> <div class=\"applyall\"></div> <div class=\"applyall\"><span>This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test data.</span></div> <div class=\"applyall\"> <ul> <li>The details of the failed test cases will also be visible on your solution page.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The contest is meant for students of high school and middle school though everyone is invited to participate.</li> <li>There will be separate ranking page for school students. The school students will be identified by the inistitution that they have enetered in their profile.</li> <li><b>We have removed all the Institutions that we could not identify from our database. We request you to update your institutions once again by going to your profile page.</b></li> <li>You can also send in your queries in an email to\u00a0<a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a>, during the contest.</li> <li>Contest problems will become visible on September 29th, 2013 at 11:00 am (IST) to 2:00 pm (IST).\u00a0<span id=\"docs-internal-guid-44de7f0f-9015-6ef2-9575-f72334c25d39\">There will be 4 problems in all. </span>Check your time zone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+September+Lunch+Time+2013&amp;iso=20130929T11&amp;p1=44&amp;ah=3\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></li> <li>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>All participants are expected to abide by the\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a>.</li> </ul> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/LTIME04/1424957799.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CHGIFT1": {
+            "allow_submission": false,
+            "name": "Chef and Gift",
+            "category_name": "main",
+            "accuracy": 3.4,
+            "successful_submissions": "75",
+            "code": "CHGIFT1",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHMAGIC": {
+            "allow_submission": false,
+            "name": "Chef and Magic Numbers ",
+            "category_name": "main",
+            "accuracy": 5.13,
+            "successful_submissions": "6",
+            "code": "CHMAGIC",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHXORR": {
+            "allow_submission": false,
+            "name": "Chef and Pie",
+            "category_name": "main",
+            "accuracy": 1.48,
+            "successful_submissions": "17",
+            "code": "CHXORR",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHITHH": {
+            "allow_submission": false,
+            "name": "Chef and Science",
+            "category_name": "main",
+            "accuracy": 2.53,
+            "successful_submissions": "10",
+            "code": "CHITHH",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1380445200,
+        "current": 1537438157,
+        "freezing": 0,
+        "start": 1380432600
+    },
+    "user": {
+        "username": ""
+    }
+}

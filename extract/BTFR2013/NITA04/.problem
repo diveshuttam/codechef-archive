@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\n</p><p>You are given a string s, consisting of small Latin letters. Let's denote the length of the string as |s|. The characters in the string are numbered starting from 1.\n</p>\n<p>Your task is to find out if it is possible to rearrange characters in string s so that for any prime number p\u2009\u2264\u2009|s| and for any integer i ranging from 1 to |s|\u2009/\u2009p (inclusive) the following condition was fulfilled sp\u2009=\u2009sp\u2009\u00d7\u2009i. If the answer is positive, find one way to rearrange the characters.\n</p>\n\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>\nThe only line contains the initial string s, consisting of small Latin letters (1\u2009\u2264\u2009|s|\u2009\u2264\u20091000).</p>\n<h3>Output</h3>\n<p>\nIf it is possible to rearrange the characters in the string so that the above-mentioned conditions were fulfilled, then print in the first line \"YES\" (without the quotes) and print on the second line one of the possible resulting strings. If such permutation is impossible to perform, then print the single string \"NO\".</p>\n<h3>Example:\n\n</h3>\n<pre><b>Input:</b>\nabc\n<b>Output:</b>\nYES\nabc\n</pre>\n<pre><b>Input:</b>\nxxxyxxx\n<b>Output:</b>\nYES\nxxxxxxy<p></p>\n</pre><pre><b>Input:</b>\nabcd\n<b>Output:</b>\nNO\n</pre><p>\u00a0</p>\n\n<h3>Explanation</h3>\n<p><b>Example case 1.<br />\nIn the first sample any of the six possible strings will do: \"abc\", \"acb\", \"bac\", \"bca\", \"cab\" or \"cba\".</b> </p>\n\n<p><b>Example case 2.<br />\nIn the second sample no letter permutation will satisfy the condition at p\u2009=\u20092 (s2\u2009=\u2009s4).</b></p>\n<p><b>Example case 3.<br />\nIn the third test any string where character \"y\" doesn't occupy positions 2, 3, 4, 6 will be valid.</b> </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Bit Freak 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1362825000,
+        "end_date": 1362911400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1362911400,
+        "submit_start_date": 1362825000,
+        "current": 1537438435
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>upendra1234</span>",
+    "problem_name": "Prime Permutation",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/upendra1234'>upendra1234</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "upendra1234",
+    "contest_code": "BTFR2013",
+    "max_timelimit": "0.193548",
+    "problem_code": "NITA04"
+}

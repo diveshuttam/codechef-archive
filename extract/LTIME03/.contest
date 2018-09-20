@@ -1,0 +1,182 @@
+{
+    "announcements": "<p><b>25/08/2013, 11:03 IST: </b>The official school rankings for the contest can be found\u00c2\u00a0<a href=\"/rankings/inst/school/LTIME03\" target=\"_blank\">here</a>. Overall rankings can be viewed\u00c2\u00a0<a href=\"/rankings/inst/LTIME03\" target=\"_blank\">here</a>.</p>",
+    "ip": "149.129.135.113",
+    "code": "LTIME03",
+    "duration": "180",
+    "name": "August Lunchtime 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "ROUTES": [
+            {
+                "score": "0.22",
+                "count": "8"
+            },
+            {
+                "score": "0.35",
+                "count": "3"
+            },
+            {
+                "score": "0.4",
+                "count": "2"
+            },
+            {
+                "score": "0.55",
+                "count": "1"
+            },
+            {
+                "score": "0.628571428571",
+                "count": "1"
+            },
+            {
+                "score": "0.636363636364",
+                "count": "1"
+            },
+            {
+                "score": "1",
+                "count": "4"
+            }
+        ],
+        "AND": [
+            {
+                "score": "0.13",
+                "count": "174"
+            },
+            {
+                "score": "0.34",
+                "count": "4"
+            },
+            {
+                "score": "0.39",
+                "count": "4"
+            },
+            {
+                "score": "0.52",
+                "count": "409"
+            },
+            {
+                "score": "0.73",
+                "count": "87"
+            },
+            {
+                "score": "1",
+                "count": "141"
+            }
+        ],
+        "MATRIX2": [
+            {
+                "score": "0.09",
+                "count": "44"
+            },
+            {
+                "score": "0.46",
+                "count": "1"
+            },
+            {
+                "score": "0.55",
+                "count": "4"
+            },
+            {
+                "score": "0.63",
+                "count": "8"
+            },
+            {
+                "score": "0.72",
+                "count": "32"
+            },
+            {
+                "score": "1",
+                "count": "65"
+            }
+        ],
+        "SORTING": [
+            {
+                "score": "0.09",
+                "count": "18"
+            },
+            {
+                "score": "0.32",
+                "count": "4"
+            },
+            {
+                "score": "0.41",
+                "count": "101"
+            },
+            {
+                "score": "0.86",
+                "count": "8"
+            },
+            {
+                "score": "1",
+                "count": "11"
+            }
+        ]
+    },
+    "rules": "<p><b><span><span>The August Lunch Time 2013 has ended.</span></span><br /><span><span>All the solutions for the problem set are public and the problems have been moved to practice section.<br /></span></span></b><b>The editorials for the contest have been updated, you can check them <a href=\"http://discuss.codechef.com/tags/ltime03/\">here</a>.<br /></b><b>In case you are a new user, you will need to first register for a CodeChef ID\u00a0<a href=\"/user/register/\" target=\"_blank\">here</a>.<br />The winners blog post can be found <a href=\"http://blog.codechef.com/2013/08/28/the-fun-n-learning-grows-a-bit-with-august-lunch-time/\">here</a>.</b></p> <div class=\"applyall\"><span> </span></div> <div class=\"applyall\"><span>This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test data.</span></div> <div class=\"applyall\"> <ul> <li>The details of the failed test cases will also be visible on your solution page.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The contest is meant for students of high school and middle school though everyone is invited to participate.</li> <li>There will be separate ranking page for school students. The school students will be identified by the inistitution that they have enetered in their profile.</li> <li><b>We have removed all the Institutions that we could not identify from our database. We request you to update your institutions once again by going to your profile page.</b></li> <li>You can also send in your queries in an email to\u00a0<a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a>, during the contest.</li> <li>Contest problems will become visible on August 25th, 2013 at 11:00 am (IST) to 2:00 pm (IST).\u00a0<span id=\"docs-internal-guid-44de7f0f-9015-6ef2-9575-f72334c25d39\">There will be 4 problems in all. </span>Check your time zone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+August+Lunch+Time+2013&amp;iso=20130825T11&amp;p1=44&amp;ah=3\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></li> <li>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>All participants are expected to abide by the\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a>.</li> </ul> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/LTIME03/1424957785.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "ROUTES": {
+            "allow_submission": false,
+            "name": "Safe Routes",
+            "category_name": "main",
+            "accuracy": 1.18,
+            "successful_submissions": "1",
+            "code": "ROUTES",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "AND": {
+            "allow_submission": false,
+            "name": "Pairwise AND sum",
+            "category_name": "main",
+            "accuracy": 5.08,
+            "successful_submissions": "141",
+            "code": "AND",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "MATRIX2": {
+            "allow_submission": false,
+            "name": "Matrix",
+            "category_name": "main",
+            "accuracy": 7.68,
+            "successful_submissions": "65",
+            "code": "MATRIX2",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "SORTING": {
+            "allow_submission": false,
+            "name": "Sorting",
+            "category_name": "main",
+            "accuracy": 1.68,
+            "successful_submissions": "11",
+            "code": "SORTING",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1377419400,
+        "current": 1537438222,
+        "freezing": 0,
+        "start": 1377408600
+    },
+    "user": {
+        "username": ""
+    }
+}

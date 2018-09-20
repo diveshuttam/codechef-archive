@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nA positive integer is called a palindrome if its representation in the \n\ndecimal system is the same when read from left to right and from right \n\nto left. For a given positive integer K of not more than 5 digits, \n\nwrite the value of the smallest palindrome larger than K to output. \n\nNumbers are always displayed without leading zeros.\n\n<h3>Input</h3>\n<p>\n\n\nThe first line contains integer t, the number of test cases. \n\nIntegers K are given in the next t lines.\n\n\n\n<h3>Output</h3>\n<p>\n\nFor each K, output the smallest palindrome larger than K.\n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n808\n\n<b>Output:</b>\n818\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Technical Blitzschlag",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1264876200,
+        "end_date": 1264962600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180169,
+        "submit_start_date": 1264876200,
+        "current": 1537439764
+    },
+    "problem_author_html_handle": "vishesh_sigma",
+    "problem_name": "Problem 2",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vishesh_sigma'>vishesh_sigma</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vishesh_sigma",
+    "contest_code": "TBS101",
+    "max_timelimit": "16.6033",
+    "problem_code": "CMB02"
+}

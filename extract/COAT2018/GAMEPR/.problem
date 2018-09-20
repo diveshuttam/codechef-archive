@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Alice and Bob\nrecently decided to compete against each other with their ratings.\n\nThe one with greater\nrating wins. However to ensure victory, they can ask any of their\nfriend to compete instead. There are a total of **N** coders\n(excluding Alice and Bob).\n\nTwo coders are\nfriends if both have at least **K** prime factors and  have the same **K**\nth\nsmallest prime factor\nin their factorization.\n\n(ex. prime factorization of 90 is 2x3x3x5. Therefore 3rd smallest prime factor in factorization is 3.)\n\nBoth Alice and Bob\nplay optimally.\n\nNote : If both\nselect the same coder this will result in Draw.\n\n#### Input\n\nThe first line of\nthe input contains an integer **T** denoting the number of test\ncases. The description of **T** test cases follows.\n\nThe first line of\neach test case contains an integer **N** denoting the number of\ncoders.\n\nThe second line\ncontains **N** space-separated integers - **R****1**, **R****2**,\n..., **R****N** denoting the ratings of the available coders.\n\nThe third line\ncontains **Q** denoting\nthe number of queries.\n\nFinally **Q** lines\nfollow with 3 space seperated integers **A**(rating\nof Alice)**,****B** (rating\nof Bob),  **K**\n\n#### Output\n\nFor each query of each test case print a string - either \"Alice\"\nor \"Bob\" (without the quotes), denoting the winner.\n\nIn case of Draw print \u201cDraw\u201d (without the quotes).\n\n#### Constraints\n\n[]()[]()[]()1 \u2264 T \u2264 10  \n\n1 \u2264 N \u2264 2\u22c510^5\n\n[]()[]()[]()1 \u2264 Q \u2264 2\u22c510^5\n\n1 \u2264 K \u2264 10^5\n\n[]()[]()[]()[]()[]()[]()[]()[]()[]()[]()[]()[]()[]()[]()sum of N over all test cases \u2264 2\u22c510^5  \n\nsum\nof Q over all test cases \u2264 2\u22c510^5\n\n[]()[]()[]()2 \u2264 A,  B,  Ri  \u2264  2\u22c510^5\n\n#### Example Input\n\n1\n\n5\n\n10 12 15 18 20\n\n4\n\n2 3 1\n\n5 25 2\n\n6 9 2\n\n2 20 1\n\n#### Example Output\n\nAlice\n\nBob\n\nDraw\n\nDraw\n#### Explanation\n\nQuery\n1 : Alice can ask her friend with rating 20 and Bob can ask the one\nwith rating 15. Hence Alice will win.\n\nQuery\n2 : Alice has no friend and Bob can chose to\nfight on his own since he has rating 25. Hence Bob will win.\n\nQuery\n3 : Both Alice and Bob can ask their friend with rating 18. Hence\nthis will result in draw.\n\nQuery 4 : Alice can ask her\nfriend with rating 20 to fight with Bob. Bob will fight on his own\nand since both the competitors have same rating this will result in\nDraw.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "CodeAthon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1534060800,
+        "end_date": 1534075200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1534075200,
+        "submit_start_date": 1534060800,
+        "current": 1537432163
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>herambpatil98</span>",
+    "problem_name": "Prime Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/herambpatil98'>herambpatil98</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "herambpatil98",
+    "contest_code": "COAT2018",
+    "max_timelimit": "1",
+    "problem_code": "GAMEPR"
+}

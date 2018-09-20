@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Divya's watch of worth Rs10 cr is abducted by <b>N</b> thieves(<b>1,2....i...N</b>). The fight over the watch leads to a final decision that it should belong to the thief who wins a simple game. The rules of the game state that every thief  registers a time in the format <b>HH:MM:SS </b>. Accordingly the average <b>A</b> of three clockwise angles  between the hours , minutes and seconds hands is calculated . Thus the <b>ith</b> thief  with the maximum <b>A</b> wins the game and gets to keep the watch.<br /><br />\nThe thieves are poor in mathematics and will need your help . Given the number of thieves and their registered time resolves the conflict and help them in choosing the winner\u00a0</p>\n<h3>Input</h3>\n<p>First line of input contains <b>T</b> which denotes the number of test cases.<br /><br />\nThe first line of each test case consists of an integer which denotes the number of thieves thereby N line follow which give the time choosen by each thieve in the format HH:MM:SS.</p>\n<h3>Output:</h3>\n<p>Output single integer <b>i</b> which denotes the <b>ith</b> thief.</p>\n<h3>Constraints:</h3>\n<p>\n1&lt;=<b>T</b>&lt;=100<br /><br />\n1&lt;=<b>N</b>&lt;=50<br /><br />\n01&lt;=<b>HH</b>&lt;=12<br /><br />\n00&lt;=<b>MM</b>&lt;=60<br /><br />\n00&lt;=<b>SS</b>&lt;=60<br />\n<h3>Example:</h3>\n<pre><b>Input:</b>\n2\n3\n12:28:26\n07:26:04\n11:23:17\n2\n07:43:25\n06:23:34\n\n<b>Output:</b>\n3\n1\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ITerate",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457242200,
+        "end_date": 1457328600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457328600,
+        "submit_start_date": 1457242200,
+        "current": 1537435245
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>sushmee04</span>",
+    "problem_name": "THIEF AND ANGLE",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sushmee04'>sushmee04</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sushmee04",
+    "contest_code": "ITRA2016",
+    "max_timelimit": "1",
+    "problem_code": "ITRA06"
+}

@@ -1,0 +1,123 @@
+{
+    "teamsCount": "1524",
+    "announcements": "<p>The contest has been ended and the problems will be moved to practice by 2:15 AM, IST. The editorials for the problems will be published in next couple of days.</p>\r\n<p>02/12, 9:13 PM, IST. Problem\u00a0GRECT has been added.</p>\r\n<p>02/12, 10:51 PM, IST. The constraints in problem MODQ have been posted now. Sorry for the inconvenience caused.</p>",
+    "ip": "149.129.135.113",
+    "code": "IPC15P1C",
+    "duration": "300",
+    "name": "ICPC Preparatory Series by Team Enigma",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": " <p><b class=\"rules-heading\">About Contest:</b></p> <div class=\"rules-body\"> <p>The contest is hosted as a part of Indian Programming Community's (IPC) Problem Setting Program in association with CodeChef. More information about the contest can be found here: <a target=\"_blank\" href=\"/ipc/2015\">https://www.codechef.com/ipc/2015</a>.</p> </div> <div class=\"rules-body\"> <ul class=\"\"> </ul> </div> <p><b class=\"rules-heading\">Registration:</b></p> <p><b><span class=\"rules-heading\"> </span><span>This is a team contest, so a separate registration is needed for the team to participate. Go through the following steps to register your team:</span></b></p> <div class=\"rules-body\"> <ul class=\"\"> <li>Login with your normal CodeChef user ID.</li> <li>Click on the <a target=\"_blank\" href=\"/teams/register/IPC2015\"><b>Team Registration Link</b></a> and register your team for the contest.\u00a0A team once registered can take part in all the contests of the programming series. Hence we have put the team registration link common for all the contests in the series.</li> <li>Click logout in the top right corner and login using the Team Name and password you registered with.</li> <li>You can get more information about team contests <a target=\"_blank\" href=\"/wiki/team-contests\">here</a>.</li> <li>If you do not have a CodeChef ID create one <a target=\"_blank\" href=\"/user/register\"> here</a>.</li> </ul> <div> <p><b class=\"rules-heading\">Contest Details:</b></p> <div class=\"rules-body\"> <ul class=\"\"> <li><b>Duration: </b>5 hours</li> <li><b>Start time: </b>2nd December 2015, 2100 hrs IST</li> <li><b>Ends time: </b>3rd December 2015, 0200 hrs IST<br />You may check your timezone\u00a0<a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+IPC+Team+Enigma+Contest&amp;iso=20151202T21&amp;p1=44&amp;ah=5\">here</a>.</li> <li><b>Prizes: </b>Cash prizes worth $8000 and many more goodies up for grabs (refer this\u00a0<a target=\"_blank\" href=\"/IPC/2015\">link</a>).</li> </ul> </div> </div> </div> <div class=\"rules-body\"></div> <p><br /> <b class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</b></p> <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct.</a></p> </div> <div class=\"rules-body\"></div> <p><br /> <b class=\"rules-heading\">Rules and Regulations:</b></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\"> feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li> <li>Please contact <a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a> for any queries during the contest.</li> </ul> <p><b class=\"rules-heading\">Judging Criteria:</b></p> <ul class=\"\"> <li><b>All the problems have same points alloted to them.</b></li> <li><b>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time</b></li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> </ul> <div class=\"\"><b>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a target=\"_blank\" href=\"/ide\">Online IDE</a>.</b><br />However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/IPC15P1C/1448987427.png",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "DCOL": {
+            "allow_submission": false,
+            "name": "Distinct Colors",
+            "category_name": "main",
+            "accuracy": 42.02,
+            "successful_submissions": "105",
+            "code": "DCOL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PSEQ": {
+            "allow_submission": false,
+            "name": "Longest Prime Subsequence",
+            "category_name": "main",
+            "accuracy": 16.28,
+            "successful_submissions": "7",
+            "code": "PSEQ",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SSWAP": {
+            "allow_submission": false,
+            "name": "String Swap",
+            "category_name": "main",
+            "accuracy": 18.52,
+            "successful_submissions": "262",
+            "code": "SSWAP",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MODQ": {
+            "allow_submission": false,
+            "name": "MOD-Queries",
+            "category_name": "main",
+            "accuracy": 4.31,
+            "successful_submissions": "25",
+            "code": "MODQ",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GRECT": {
+            "allow_submission": false,
+            "name": "Good Rectangles",
+            "category_name": "main",
+            "accuracy": 21.18,
+            "successful_submissions": "18",
+            "code": "GRECT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GGAME": {
+            "allow_submission": false,
+            "name": "Grid Game",
+            "category_name": "main",
+            "accuracy": 14.93,
+            "successful_submissions": "69",
+            "code": "GGAME",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "WGAME": {
+            "allow_submission": false,
+            "name": "Word Game",
+            "category_name": "main",
+            "accuracy": 15.36,
+            "successful_submissions": "49",
+            "code": "WGAME",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SSWAP2": {
+            "allow_submission": false,
+            "name": "String Swap 2 ",
+            "category_name": "main",
+            "accuracy": 10.34,
+            "successful_submissions": "3",
+            "code": "SSWAP2",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537435770,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

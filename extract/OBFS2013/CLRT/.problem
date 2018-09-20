@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Saurabh recently did a project on HA-Linux in which he was given a task to configure it on a computer cluster. Each node/server in the cluster was assigned some kind of priority so as to form a hierarchy like structure. Assume we need to provide continuous services of IIT Mandi's website to the clients. </p>\n<p>\nAfter configuring HA- Linux on a bunch of computers or cluster, he now thinks of measuring the response time of any number of servers to pick up the web application which was initially running on some other server(at the top level of hierarchy) before it fails. Let <b>n</b> be the number of nodes/server in the cluster. Each node is assigned a number from 1 to n (inclusive). Let <b>a</b> and <b>b</b> be two nodes of the cluster and <b>ti</b> be the response time when either one fails with respect to other.<br />\nLet <b>m</b> be the number of queries for which response times between the two nodes are measured.</p>\n<p>\nNow your task in this question is to find the subset of nodes such that every node is reachable or connected to every other node in the cluster and there must only be single way to establish connection between every pair of nodes.  Finally, you have to output the minimum sum of the response times among all directly connected nodes in the sub-set chosen. </p>\n<p>\n<b>Note:</b> It is not necessary that if node x is directly connected to node y and node y is directly connected to node z then node x is also directly connected to node y. Node x will be assumed to be connected to node z via node y.</p>\n<p><h3><b>Input :</b></h3>\n</p><p>The first line of input contains an integer <b>T</b>, the number of test cases. Then T test cases follow.\n</p><p>\nEach test case consists of a line containing <b>n</b>, number of nodes, and <b>m</b>, number of queries, separated  by single space. Then m lines follow. Each consists of 3 numbers \u2013 <b>a</b>, <b>b</b> and <b>ti</b> as described in the problem statement and separated by single space.<br />\n<h3><b>Output :</b></h3>\n</p><p>Output on a new line the minimum sum of the sub-set (round to 2 decimal places)of nodes chosen.<br />\n<h3><b>Constraints :</b></h3>\n</p><p>1 &lt;= T &lt;=10<br /><br />\n1 &lt; n &lt;= 250<br /><br />\nn-1 &lt;= m &lt;= <sup>n</sup>C<sub>2</sub><br /><br />\nti - floating point integer , less than 100.00 (ms)</p>\n<p><h3>Example</h3>\n<pre>\n<h3><b>Input:</b></h3>\n1\n3 3\n1 2 2.30\n1 3 1.70\n2 3 2.10\n\n<h3><b>Output:</b></h3>\n3.80\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Obfuscation 2013",
+    "languages_supported": "C, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1361889000,
+        "end_date": 1361903400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1361903400,
+        "submit_start_date": 1361889000,
+        "current": 1537438480
+    },
+    "problem_author_html_handle": "prog_iitmandi",
+    "problem_name": "Cluster Response Time",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/prog_iitmandi'>prog_iitmandi</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "prog_iitmandi",
+    "contest_code": "OBFS2013",
+    "max_timelimit": "0.2 - 0.4",
+    "problem_code": "CLRT"
+}

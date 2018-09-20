@@ -1,0 +1,87 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "COOK02",
+    "duration": "150",
+    "name": "August Cook Off",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>The contest has now ended.</b></p> <p><b>Check out the post contest blog post </b><a href=\"http://blog.codechef.com/2010/08/21/codechef-august-2010-cook-off-results/\"><b>here</b></a><b>.</b></p> <p><b>Check out the editorials to the contest problems </b><a href=\"/wiki/august-cookoff-contest-problem-editorials\"><b>here</b></a><b>.</b></p> <p><b>NOTE: </b>The ranklist will be available at the following URL: <a href=\"/rankings/COOK02\">http://www.codechef.com/rankings/COOK02</a></p> <p>\u00a0</p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at feedback@codechef.com</li> <br /> <li>You can also send in your queries in an email to contest-admin@codechef.com, during the contest.</li> <br /> <li>Contest problems will become visible on August 21st 2010 at 21:30 (IST). There will be 5 problems in all.</li> <br /> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <br /> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <br /> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> <br /> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COOK02/1424964321.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "TOOLS": {
+            "allow_submission": false,
+            "name": "Fetching Cooking Tools",
+            "category_name": "main",
+            "accuracy": 37.25,
+            "successful_submissions": "36",
+            "code": "TOOLS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLEANUP": {
+            "allow_submission": false,
+            "name": "Cleaning Up",
+            "category_name": "main",
+            "accuracy": 54.85,
+            "successful_submissions": "172",
+            "code": "CLEANUP",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MUFFINS": {
+            "allow_submission": false,
+            "name": "Baking Cupcakes",
+            "category_name": "main",
+            "accuracy": 3.9,
+            "successful_submissions": "6",
+            "code": "MUFFINS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ARRANGE": {
+            "allow_submission": false,
+            "name": "Arranging the Appetizers",
+            "category_name": "main",
+            "accuracy": 37.95,
+            "successful_submissions": "140",
+            "code": "ARRANGE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FUNCTION": {
+            "allow_submission": false,
+            "name": "Backup Functions",
+            "category_name": "main",
+            "accuracy": 15.38,
+            "successful_submissions": "6",
+            "code": "FUNCTION",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1282415400,
+        "current": 1537439542,
+        "freezing": 0,
+        "start": 1282406400
+    },
+    "user": {
+        "username": ""
+    }
+}

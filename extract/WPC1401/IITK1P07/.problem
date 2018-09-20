@@ -1,0 +1,33 @@
+{
+    "problem_code": "IITK1P07",
+    "problem_author": "admin2",
+    "contest_name": "IIT Kanpur, Monthly Programming Contest-1",
+    "todo": false,
+    "problem_author_html_handle": "admin2",
+    "problem_name": "A Simple Sum",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "WPC1401",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin2'>admin2</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/recursion'>recursion</a>, <a class='problem-tag-small ' href='/tags/problems/wpc1'>wpc1</a>, <a class='problem-tag-small ' href='/tags/problems/wpc1401'>wpc1401</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>\nGiven three integers <b>x</b>, <b>m</b> and <b>n</b>. Evaluate (1 + <b>x</b> + <b>x</b><sup> 2</sup> + .. + <b>x</b><sup> <b>m</b></sup>)  (mod <b>n</b>)\n</p>\n<h3>Input</h3>\n<p>\nFirst line of the input contains a single integer T representing number of test cases that follow.\n</p>\n<p>\nFor next T lines, each line contains three space separated integers <b>x</b>, <b>m</b> and <b>n</b>.\n</p>\n<h3>Output</h3>\n<p>\nOutput exactly T lines each containing the answer to the corresponding test case.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 <b>T</b> \u2264 1000 </li>\n<li>1 \u2264 <b>x</b>, <b>n</b>, <b>m</b> \u2264 10^16</li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n3 2 5\n\n<b>Output:</b>\n3\n</pre>",
+    "category_name": "main",
+    "date_added": "30-09-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/IITK1P07",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1412083800,
+        "end_date": 1412101800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1412101800,
+        "submit_start_date": 1412083800,
+        "current": 1537437398
+    },
+    "user": {
+        "username": ""
+    }
+}

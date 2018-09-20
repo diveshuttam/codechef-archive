@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Problem Description</p>\n<p>\nGru has started creating army of minions.Minions are funny creatures.<br />\nSo he thought of naming them.The names of the minions are supposed to formed with similar characters.So he gave them names and stored safely in alphabetical order.But a naughty minion scrambled all the names.</p>\n<p>So gru has to again order them.Unfortunately gru has to leave for shooting of Despicable Me 3 Shooting,So he is asking for your help.</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first line in each test case contains a single integer <b>N</b> describing the no. of strings   </li>\n<li>Then the next <b>N</b> lines   each test case contains  <b>N</b> strings <b></b>  </li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output the sorted strings one in each line<b></b>.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>0</b> \u2264 <b>N</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>|S|</b> \u2264 <b>1000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n4\nmace\nacme\necma\ncame\n\n<b>Output:</b>\nacme\ncame\necma\nmace\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "OPC ACUMEN 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, WSPC",
+    "todo": false,
+    "time": {
+        "view_start_date": 1425459900,
+        "end_date": 1425565800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1425565800,
+        "submit_start_date": 1425459900,
+        "current": 1537436653
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>saimadan</span>",
+    "problem_name": "Sort the minions",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/saimadan'>saimadan</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "saimadan",
+    "contest_code": "ACMN2015",
+    "max_timelimit": "1",
+    "problem_code": "ACUGRAM"
+}

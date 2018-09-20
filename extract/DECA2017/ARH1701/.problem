@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Enough of racing! Brian wants to challenge Dom in a new game he invented called 'Number Wars'. It is a two player game.\n\tIn this game the first player writes a number 'n'. In each turn a player has to write a number (strictly less than 100001) \n\twhich has equal\tnumber of distinct factors as 'n'. A number once written cannot be re-written. Brian always starts the game. \n\tThe player who cannot make a move looses. Your task is to find who will win given the starting number 'n'.\n</p>\n\n<h3>Input</h3>\n<p>\n\tFirst line contains an integer 't' denoting number of testcases.\n\tNext 't' lines contains an integer 'n' denoting the number with which Brian starts the game.</p>\n\n\n<h3>Output</h3>\n<p>Print 'Brian' (without quotes) if Brian wins the game else print 'Dom' (without quotes).</p>\n\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1<=n<=100000</b></li>\n<li><b>1<=t<=100000</b></li>\n</ul>\n\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2\n6\n\n<b>Output:</b>\n</pre>\n<p>Dom<br>\n      Brian\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-02-2017",
+    "is_direct_submittable": false,
+    "contest_name": "DECATHLON",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1486742400,
+        "end_date": 1486751400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1486751400,
+        "submit_start_date": 1486742400,
+        "current": 1537434159
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>parakh94</span>",
+    "problem_name": "Number Wars",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/parakh94'>parakh94</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "parakh94",
+    "contest_code": "DECA2017",
+    "max_timelimit": "1",
+    "problem_code": "ARH1701"
+}

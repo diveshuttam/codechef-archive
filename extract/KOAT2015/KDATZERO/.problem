@@ -1,0 +1,33 @@
+{
+    "problem_code": "KDATZERO",
+    "problem_author": "avastpulkit",
+    "contest_name": "Kodeathon 15.2 - Rapid fire",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>avastpulkit</span>",
+    "problem_name": "Better Count Zeroes",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "KOAT2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/avastpulkit'>avastpulkit</a>, <a class='problem-tag-small ' href='/tags/problems/koat2015'>koat2015</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p class=MsoNormal>You are given N integers, denoted by A<sub>1</sub>, A<sub>2</sub>,<br />\n\u2026 , A<sub>N</sub><br /><br />\nNow you are given\u00a0<b>Q</b>\u00a0queries, each of whom is of following two<br />\ntypes:</p>\n<p class=MsoNormal>Type 1:\u00a0<b>1 L R</b>: Print the no. of trailing zeros<br />\n(zeros in the end) in the multiplication of no.s in range [L,R] of array \u2018A\u2019,<br />\ni.e. no. of zeros in A<sub>L</sub> * A<sub>L+1</sub> * \u2026 * A<sub>R</sub></p>\n<p class=MsoNormal>Type 2:\u00a0<b>2 L R V</b>: Multiply the all the numbers in<br />\nrange [L,R] with V. </p>\n<p class=MsoNormal>\n<h3>Input:</h3>\n</p>\n<p class=MsoNormal>First line contains a single integer <b>T</b>, number of<br />\ntest cases.<br /><br />\nEach test begins with a single line containing 2 space separated integers: <b>N</b><br />\nand <b>Q</b>, the no. of elements in the array and no. of queries.<br /><br />\nNext\u00a0line contains <b>N</b> space-separated integers\u00a0<b>A<sub>i</sub></b><br /><br />\nNext\u00a0<b>Q</b>\u00a0lines describe one query each and can be one of the two<br />\ntypes:<br /><br />\n1) \u201c<b>1 L R\u201d</b>: Print no. of trailing zeros in multiplication of all no.s in<br />\nrange [L,R] of array \u2018A\u2019<br /><br />\n2) \u201c<b>2 L R V\u201d</b>: Multiply all no.s in range [L,R] with V</p>\n<p class=MsoNormal>\n<h3>Output:</h3>\n</p>\n<p class=MsoNormal>For every test case, print the required answer for each<br />\nquery of type 2.</p>\n<p class=MsoNormal>\n<h3>Constraints:</h3>\n</p>\n<p class=MsoNormal>1&lt;=T&lt;=10</p>\n<p class=MsoNormal>1&lt;=N&lt;=10<sup>5</sup></p>\n<p class=MsoNormal>1&lt;=Q&lt;=10<sup>5</sup></p>\n<p class=MsoNormal>1&lt;=A<sub>i</sub>,V&lt;=2000</p>\n<p class=MsoNormal>1&lt;=L,R&lt;=N</p>\n<p class=MsoNormal>\n<h3>Example:</h3>\n</p>\n<p class=MsoNormal>\n<h3>Input:</h3>\n</p><p><pre>1\n6 3\n15 40 36 4 30 25\n1 1 4\n2 4 5 25\n1 1 4\n</pre></p>\n<p class=MsoNormal>\n<h3>Output:</h3>\n</p>\n<p><pre>2\n4\n</pre></p>\n<p class=MsoNormal>\n<h3>Explanation:</h3>\n</p>\n<p class=MsoNormal>In first query, Multiplication of no.s in range [1,4] =<br />\n15*40*36*4 = 86400.<br /><br />\nTrailing Zeros in 86400 = 2</p>\n<p class=MsoNormal>In second query, Multiply all no.s in range [4,5] with 25.<br /><br />\nArray after multiplication: 15 40 36 100 750 25</p>\n<p class=MsoNormal>In third query, Multiplication of no.s in range [1,4] =<br />\n15*40*36*100 = 2160000.<br /><br />\nTrailing Zeros in 2160000 = 4</p>\n",
+    "category_name": "main",
+    "date_added": "12-05-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/KDATZERO",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1431617400,
+        "end_date": 1431628200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1431628200,
+        "submit_start_date": 1431617400,
+        "current": 1537436316
+    },
+    "user": {
+        "username": ""
+    }
+}

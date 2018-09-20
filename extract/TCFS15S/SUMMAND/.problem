@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>An interesting topic in real analysis is convergence of series. E.g., consider the following summation<br /><br /><img src=\"//ww.codechef.com/download/SUMMAND.png\" /><br /><br />The summation converges for all integer values of n\u22652.<br />For different values of n, find what the series converges to. Print the convergent sum as a fraction P/Q in it's lowest form, i.e., gcd(P,Q)=1.<br /><br />\n<h3>INPUT</h3>\n</p><p>First line contains T, number of testcases.<br />Each of the next T lines contain a single integer N.<br />\n<h3>OUTPUT</h3>\n</p><p>For each test case, print a single line answer for that case.<br />\n<h3>CONSTRAINTS</h3>\n<pre>1\u2264T\u22641000<br />2\u2264N\u22641000000</pre><h3>SAMPLE INPUT</h3>\n<pre>1<br />3</pre><h3>SAMPLE OUTPUT</h3>\n<pre>3/2</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-09-2014",
+    "is_direct_submittable": false,
+    "contest_name": "TechFest 2015, Screening round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1413124200,
+        "end_date": 1413140400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1733529789,
+        "submit_start_date": 1413124200,
+        "current": 1537437345
+    },
+    "problem_author_html_handle": "techfest2k15",
+    "problem_name": "Summand",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/techfest2k15'>techfest2k15</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "techfest2k15",
+    "contest_code": "TCFS15S",
+    "max_timelimit": "1",
+    "problem_code": "SUMMAND"
+}

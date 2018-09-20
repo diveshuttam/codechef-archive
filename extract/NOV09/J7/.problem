@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Johnny needs to make a rectangular box for his physics class project. He has bought P cm of wire and S cm<sup>2</sup> of special paper. He would like to use all the wire (for the 12 edges) and paper (for the 6 sides) to make the box.</p>\n<p>What is the largest volume of the box that Johnny can make?</p>\n\n<h3>Input</h3>\n<p>The first line contains t, the number of test cases (about 10). Then t test cases follow.</p>\n<p>\nEach test case contains two integers P and S in a line (1 \u2264 P \u2264 40000, 1 \u2264 S \u2264 20000). You may assume that there always exists an optimal solution for the given input cases.\n</p>\n\n\n<h3>Output</h3>\n<p>For each test case, print a real number that is the largest volume of the box that Johnny can make, rounded to two decimal places.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n20 14\n20 16\n\n<b>Output:</b>\n3.00\n4.15\n\n<b>Output details</b>\nFirst case: the dimensions of the largest box may be 3, 1 and 1.\nSecond case: the dimensions of the largest box may be 7/3, 4/3 and 4/3.\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-10-2009",
+    "is_direct_submittable": false,
+    "contest_name": "November 2009 (Contest X)",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1257067800,
+        "end_date": 1257931800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1257931800,
+        "submit_start_date": 1257067800,
+        "current": 1537439867
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "The Best Box",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "NOV09",
+    "max_timelimit": "0.206667",
+    "problem_code": "J7"
+}

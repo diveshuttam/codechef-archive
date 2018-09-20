@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Given a string <strong>S</strong> of length <strong>N</strong>, consisting of lowercase English alphabets from \u2018a\u2019 to \u2018z\u2019, <br />you have to select three non overlapping substrings of <strong>S</strong>, such that number of a\u2019s in the string made by concatenating the three substrings are greater than or equal to <strong>M</strong>.<br /><br />You have to find the number of ways of selecting three such substrings. Output your answer modulo (10^9 + 7)<br /><br /> </p>\n<h3>Input Format</h3>\n<p>First line contains <strong>T</strong>, the number of test cases.<br /><br /><br />\nEach test case consists of 2 lines, first line contains the string <strong>S</strong> and the second line contains the integer <strong>M</strong>.<br /><br /></p>\n<h3>Output Format</h3>\n<p>The output consists of <strong>T</strong> lines, such that <strong>i</strong>-th line represents the output of the <strong>i</strong>-th test case.<br /><br /></p>\n<h3>Constraints</h3>\n<ul>\n<li>Sum of length of strings over all test cases \u2264 5000</li>\n<li>0 \u2264 M \u2264 5000\n</li><li>Length(S) > 0 </li>\n</ul>\n<p><br /></p>\n<h3>Sample Input</h3>\n<p>4<br /><br />\ndeva<br /><br />\n1<br /><br />\ndeva<br /><br />\n2<br /><br />\ndev<br /><br />\n0<br /><br />\ndev<br /><br />\n1<br /></p>\n<h3>Sample Output</h3>\n<p>6<br /><br />\n0<br /><br />\n1<br /><br />\n0<br /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2014",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1393655400,
+        "end_date": 1393741800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1393741800,
+        "submit_start_date": 1393655400,
+        "current": 1537437741
+    },
+    "problem_author_html_handle": "iopc_admin",
+    "problem_name": "Three substrings",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/iopc_admin'>iopc_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "iopc_admin",
+    "contest_code": "IOPC2014",
+    "max_timelimit": "3",
+    "problem_code": "IOPC14K"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Chef has applied for a part-time job on $Semcrack$. $Semcrack$ has given a web-development project to chef. The project is going well.\n\nUnfortunately he receive a mail from $Semcrack$ regarding project. $Semcrack$ changed the date of submission of project, the updated date is the day after tomorrow.But the database part of project is untouched, and chef currently working on views and models. \n\nThe database is very complex, so chef is looking for your help to design database for the same.\nThe chef has given total number of tables with their dependencies, help chef to find the lexicographical order of tables to be followed for making a database.\n\n\n###Input:\n\n- First line will contain $N$, number of tables.\n- Next line contain table name $N[i]$ and a number of its dependent table $D$\n- Next $D$ lines contain name of its dependent table of $N[i]$ ( where 'FOREIGN' denotes the relation) .\n\n###Output:\nPrint the table names (each in new line).\nNote: at each state Chef tries to build the lexicographically smallest table , if he can do so.\n\n###Constraints \n- $1 \\leq N \\leq 100$\n- $0 \\leq D < min(N,10)$\n\n###Subtasks\n- 30 points : $1 \\leq N \\leq 10$\n- 70 points : $1 \\leq N \\leq 100$\n\n\n###Sample Input:\n\t6\n\tprofile 2\n\tFOREIGN user\n\tFOREIGN department\n\tdepartment 0\n\tuser 3\n\tFOREIGN a\n\tFOREIGN b\n\tFOREIGN c\n\ta 0\n\tb 0\n\tc 0\n\n###Sample Output:\n\ta\n\tb\n\tc\n\tdepartment\n\tuser\n\tprofile\n\n###Explanation:\nChef has the following tables to build:\n{ profile, department, user, a, b, c  }\n- step 1:\n    he can build $a$ since there is no dependency\n- step 2:\n    then he can build $b$ since there is no dependency\n- step 3:\n    then he can build $c$ since there is no dependency\n- step 4:\n    then he can build $department$ since there is no dependency\n- step 5:\n    now to build $profile$ he has to build $user$ table first.\n    to do so he has to build $[a, b, c]$ first , which is alrady done.\n    \n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Coding Hours",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1533310200,
+        "end_date": 1533483000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1533483000,
+        "submit_start_date": 1533310200,
+        "current": 1537432185
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>admin6</span>",
+    "problem_name": "Chef and Internship",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin6'>admin6</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin6",
+    "contest_code": "COHR2018",
+    "max_timelimit": "1",
+    "problem_code": "CAI0"
+}

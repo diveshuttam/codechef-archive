@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>\nSherlock and Moriarity are again back in game. This time Moriarity transformed himself as an impersonator and made his own <b>K</b> number of clones, each of them hidden at <b>K</b> different locations in the City. Sherlock observed that City, having <b>N</b> number of locations, has the structure of a tree with <b>N</b> number of nodes and each node represents a distinct location in the city. Now Sherlock is interested in finding the total number of subtrees which contain all the <b>K</b> locations where Moriarity's clones are hidden. Help him find the answer. Since the answer can be very large, print the answer modulo <b>10^9 + 7</b>.\n</p>\n<p><b>Note</b> : In this problem, the tree is unrooted, so a subtree simply means a connected subset of nodes.</p>\n\n<h3>Input</h3>\n<ul>\n<li>The first line of input contains the number of test cases <b>T</b>. <b>T</b> test cases follow:</li>\n<li>For each test case, first line contains <b>N</b>, the total number of locations.</li>\n<li>Next <b>N-1</b> lines contains two numbers <b>u</b> and <b>v</b>, signifying there is a path between <b>u</b> and <b>v</b>.</li>\n<li>Next line contains <b>K</b>, followed by distinct <b>K</b> number of locations where Moriarity's clones are hidden. </li>\n</ul>\n\n<h3>Output</h3>\n<ul>\n<li>For each test case, output in a single line the total number of subtrees which contain all the <b>K</b> locations where Moriarity's clones are hidden.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^5</b></li>\n<li><b>0</b> \u2264 <b>K</b> \u2264 <b>N</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<p>\n1\n4\n1 2\n2 3\n3 4\n2 2 4\n</p>\n\n<b>Output:</b>\n<p>\n2\n</p>\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "31-01-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Divide By Zero 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1391270400,
+        "end_date": 1391279400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1391279400,
+        "submit_start_date": 1391270400,
+        "current": 1537437872
+    },
+    "problem_author_html_handle": "iiti_adm",
+    "problem_name": "Sherlock and Subtrees",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/iiti_adm'>iiti_adm</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "iiti_adm",
+    "contest_code": "DBYZ2014",
+    "max_timelimit": "1",
+    "problem_code": "IITI16"
+}

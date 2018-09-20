@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>After reading the book Digital Fortress, one evil computer programmer was so inspired that he decided to steal information from the FBI servers themselves. He was able to create a virus, using polymorphic code mutations, just as it was written in the book, that even the FBI filters were unable to detect it. He knew about the FBI servers, that they were arranged in a X by Y grid. The virus was self-propagating, which means he have to release it to only 1 computer to affect the whole grid. The virus made complex hacks to break down firewall and other securities, and that too without raising any security alarm, so that it took almost 1 hour to break into a server. After it affects a server, it spreads to nearby servers adjacent to it and start hacking them, which takes another hour on their own:\n\n<p>Go fellow hackers! Given X and Y, It's our task to find the minimum time to shut down all the FBI servers.\n\n\n<h3>Input</h3>\n<p>The first line contains A, the number of test cases. Each of the next A lines contain two integers X and Y.\n<br>A <= 1,000\n<br>0 <= X <= 10,00,000\n<br>0 <= Y <= 10,00,000\n\n\n<h3>Output</h3>\n<p>The minimum time in hours it takes to shut down all servers in the grid.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n3 1\n3 3\n\n<b>Output:</b>\n2\n3",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-08-2012",
+    "is_direct_submittable": false,
+    "contest_name": "ByteCode 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1344781800,
+        "end_date": 1345991400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1345991400,
+        "submit_start_date": 1344781800,
+        "current": 1537438745
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rajatkhanduja</span>",
+    "problem_name": "Evil hacker",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rajatkhanduja'>rajatkhanduja</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rajatkhanduja",
+    "contest_code": "BTCD2012",
+    "max_timelimit": "0.2",
+    "problem_code": "EVILHACK"
+}

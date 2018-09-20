@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>You need to find a string which has exactly K positions in it such that the character at that position comes alphabetically later than the character immediately after it. If there are many such strings, print the one which has the shortest length. If there is still a tie, print the string which comes the lexicographically earliest (would occur earlier in a dictionary).\n</p>\n\n<h3>Input</h3>\n<p>The first line contains the number of test cases T. Each test case contains an integer K (<= 100)\n</p>\n\n<h3>Output</h3>\n<p>Output T lines, one for each test case, containing the required string.\n</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n1\n2\n\n<b>Output:</b>\nba\ncba\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Technovanza",
+    "languages_supported": "C, JAVA, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1263742200,
+        "end_date": 1263749400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180166,
+        "submit_start_date": 1263742200,
+        "current": 1537439816
+    },
+    "problem_author_html_handle": "technovanza10",
+    "problem_name": "Decreasing Strings",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/technovanza10'>technovanza10</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "technovanza10",
+    "contest_code": "TV10CAT2",
+    "max_timelimit": "1.12333",
+    "problem_code": "TECH09"
+}

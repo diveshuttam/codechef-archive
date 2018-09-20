@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\n  It's the year 4224 and Giant Machine Corporation has started working on it\u2019s<br />\n  42nd Generation Robots. These robots are designed to have peculiar<br />\n  specifications. </p>\n<p>  The company has <b>N</b> different parts (numbered from <b>1 to N</b>), each of which impart<br />\n  a very specific property to the robot. The formation of a single robot <b>R</b><br />\n  consists of <b>M</b> steps. At the <b>i<sup>th</sup></b> step, one of the <b>N</b> parts is chosen and added<br />\n  to the current robot. After the <b>M<sup>th</sup></b> step, the robot is ready.<br />\n  Let <b>num(i, j)</b> be the count of part number <b>j</b> till the <b>i<sup>th</sup></b> step used for making<br />\n  the robot <b>R</b>.</p>\n<p>  The 41st Generation Robots were found to be defective in the sense that one of<br />\n  their properties overshadowed their other properties significantly. Hence, for<br />\n  the 42nd Generation, it was decided that for any robot <b>R</b>, <b>|num(i, j) \u2013 num(i,<br />\n  k)| &le; 2</b> for every <b>1 &le; i &le; M</b> and for every pair of <b>j, k </b>where <b>1 &le; j,k &le; N</b><br />\n  .</p>\n<p>Now, the Giant Machine Corporation is interested to know the number of<br />\n  different 42nd Generation Robots that they can make which satisfy the above<br />\n  criteria and hence they have hired you for the task. Since, this number can be<br />\n  very large, output the result modulo <b>10^9 + 7</b>.</p>\n<p><b>Note</b> : Two robots <b>R1</b> and <b>R2</b> are considered different, if a different part is<br />\n  used in any of the corresponding <b>i</b> steps out of <b>M</b> steps.\n  </p>\n<h3>Input Format:</h3>\n<p>\n  The first line starts with an integer <b>T</b>, denoting the number of test cases. <b>T</b><br />\n  lines follow with each line consisting of two space separated integers <b>M</b> and<br />\n  <b>N</b>.\n  </p>\n<h3>Output Format:</h3>\n<p>\n  For each test case, print in a single line the required number.\n  </p>\n<h3>Constraints:</h3>\n<p><b><br />\n  1 &le; T &le; 20<br />\n  1 &le; N &le; 50<br />\n  1 &le; M &le; 10^18<br /></b>\n  </p>\n<h3>Sample Input:</h3>\n<pre>\n3\n1 1\n2 2\n3 2</pre><h3>Sample Output:</h3>\n<pre>\n1\n4\n6</pre><p><br />\n<b>Problem Setter: Vivek Hamirwasia</b></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-01-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeCraft: IIIT Hyderabad, Replay",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1391232600,
+        "end_date": 1391257800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1391257800,
+        "submit_start_date": 1391232600,
+        "current": 1537437879
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>darkshadows</span>",
+    "problem_name": "Machine Mayhem",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/darkshadows'>darkshadows</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "darkshadows",
+    "contest_code": "CDCRFT14",
+    "max_timelimit": "3",
+    "problem_code": "MACMAY"
+}

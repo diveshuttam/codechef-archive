@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Kripa and Ajay love Mango's but they do not have mango tree of their own, so they decided to plant a lot of mango trees to create an\u00a0orchard of mango trees.</p>\n<p>But after they planted a lot of trees as planned but stray animal came and eat the saplings of the mango trees and some of their hardwork get destroyed. Kripa decided to make a fence around the orchard but as they are running on tight bugget they have to find the <strong>minimum</strong> length of fence and area covered by it.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <strong>T</strong> denoting the number of test cases. The description of <strong>T</strong> test cases follows.</li>\n<li>Each of the next\u00a0<strong>T</strong>\u00a0lines will contain integers\u00a0<strong>N</strong>\u00a0denoting the number of saplings.</li>\n<li>The next <strong>N\u00a0</strong>lines will contains two integers<strong> X\u00a0</strong>,\u00a0<strong>Y</strong> denoting the coordinates of tree planted</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing two integers <strong>perimeter</strong> and <strong>area</strong> of\u00a0orchard\u00a0seprated by space.</li>\n<li>As perimeter and area can be real numbers you have to print <strong>floor</strong> of <strong>perimeter</strong> and <strong>area</strong></li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><strong>1</strong> \u2264 <strong>T</strong> \u2264 <strong>100</strong></li>\n<li><strong>1<span style=\"font-weight: normal;\">\u2264</span>N<span style=\"font-weight: normal;\">\u2264</span>1000</strong></li>\n<li><strong>-5000</strong>\u2264<strong>X,Y</strong>\u2264<strong>5000</strong></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong>\n1<br />6<br />0 0<br />3 0<br />3 3<br />0 3<br />1 1<br />2 2\n\n<strong>Output:<br /></strong>12 9\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><strong>Example case 1.</strong>\u00a0The outer trees will form a square area with length 3 unit.</p>\n<p>Initially the location of trees\u00a0</p>\n<p><img src=\"https://dl.dropboxusercontent.com/s/a6lnwek8ndqquwl/Screenshot%20from%202016-04-07%2001-28-49.png\" /></p>\n<p>Minimum fencing will be done like this<br /> <img /></p>\n<p><img src=\"https://dl.dropboxusercontent.com/s/k48xnvm5u2drd4q/Screenshot%20from%202016-04-07%2001-45-11.png\" /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-04-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Codervation qualifiers",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1460104200,
+        "end_date": 1460140200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1460140200,
+        "submit_start_date": 1460104200,
+        "current": 1537434984
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>kripa432</span>",
+    "problem_name": "Mango Plantation",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kripa432'>kripa432</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kripa432",
+    "contest_code": "CDQU1601",
+    "max_timelimit": " - 1",
+    "problem_code": "CDQU02"
+}

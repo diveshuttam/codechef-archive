@@ -1,0 +1,33 @@
+{
+    "problem_code": "LECOINS",
+    "problem_author": "witua",
+    "contest_name": "March Challenge 2013",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>witua</span>",
+    "problem_name": "Little Elephant and Colored Coins",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>anton_lunyov</span>",
+    "contest_code": "MARCH13",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>, <a class='problem-tag-small ' href='/tags/problems/march13'>march13</a>, <a class='problem-tag-small ' href='/tags/problems/shortest-path'>shortest-path</a>, <a class='problem-tag-small ' href='/tags/problems/simple-math'>simple-math</a>, <a class='problem-tag-small ' href='/tags/problems/witua'>witua</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The Little Elephant from the Zoo of Lviv very likes coins. But most of all he likes colored coins.</p>\n\n<p>He has <b>N</b> types of coins, numbered from <b>1</b> to <b>N</b>, inclusive. The coin of the <b>i</b>-th type has the value <b>V<sub>i</sub></b> dollars and the color <b>C<sub>i</sub></b>. Note that he has infinite supply of each type of coins.</p>\n\n<p>The Little Elephant wants to make exactly <b>S</b> dollars using the coins. What is the maximal number of different colors he can use to make exactly <b>S</b> dollars using some of the coins he has? If it's impossible, output <b>-1</b>. Also note that the Little Elephant wants to know this for many values of <b>S</b>.</p>\n\n<h3>Input</h3>\n<p>The first line of the input contains a single integer <b>N</b>, denoting the number of types of coins. Each of the following <b>N</b> lines contains two space-separated integers <b>V<sub>i</sub></b> and <b>C<sub>i</sub></b>, denoting the value and the color of the coin of the <b>i</b>-th type. The next line contains a single integer <b>Q</b>, denoting the number of values of <b>S</b> to process. Each of the following <b>Q</b> lines contains a single integer <b>S</b>, denoting the coinage you should represent via given coins using maximum number of colors.</p>\n\n<h3>Output</h3>\n<p>For each value of <b>S</b> in the input, output the maximum number of different colors in the representation of <b>S</b> or <b>-1</b> if it is impossible to represent <b>S</b> via given coins.</p>\n\n<h3>Constraints</h3>\n<p><ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>30</b></li>\n<li><b>1</b> \u2264 <b>V<sub>i</sub></b> \u2264 <b>200000</b> (<b>2 * 10<sup>5</sup></b>)</li>\n<li><b>1</b> \u2264 <b>C<sub>i</sub></b> \u2264 <b>10<sup>9</sup></b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>200000</b> (<b>2 * 10<sup>5</sup></b>)</li>\n<li><b>1</b> \u2264 <b>S</b> \u2264 <b>10<sup>18</sup></b></li>\n</ul></p>\n\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n3\n2 1\n3 4\n4 4\n4\n1\n3\n5\n7\n\n<b>Output:</b>\n-1\n1\n2\n2\n</pre>\n\n<h3>Explanation</h3>\n<p><ul><li>It is not possible to represent <b>S = 1</b> since every coin has value more than 1.</li>\n<li><b>S = 3</b> can only be represented using one coin of the second type, hence only one color is used in the representation.</li>\n<li><b>S = 5</b> can only be represented as <b>2 + 3</b>, which leads to two colors used.</li>\n<li>For <b>S = 7</b> we have two representations as <b>2 + 2 + 3</b> (with two colors used) and <b>3 + 4</b> (with one color used). Hence, the answer is 2.</li></ul></p>",
+    "category_name": "main",
+    "date_added": "21-03-2012",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "4",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/LECOINS",
+    "problem_tester": "anton_lunyov",
+    "time": {
+        "view_start_date": 1362463297,
+        "end_date": 1362994200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1362994200,
+        "submit_start_date": 1362463297,
+        "current": 1537438426
+    },
+    "user": {
+        "username": ""
+    }
+}

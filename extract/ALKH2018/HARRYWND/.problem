@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>\"Ron : Harry!!! Let's go!!\"</b></p>\n<p>\nRon and Harry just entered Aragog's Colony. Some hungry children of Aragog come running to them for food. Suddenly they see a bright light emerging from nothingness. From the bright light a tiny, cute and charming angel named <b>Sam</b> emerged. She promised to rescue them, if they make her a wand of exactly length <b>N</b>.\n<p><b>Sam</b> had <b>K</b> different types of wands having different lengths. Each type of wand having infinite supply. Harry can join/combine any two wands end to end to make a newer wand, i.e. if two wands of length x and y are joined, then the length of the new wand will be x + y. Now Harry is interested in knowing the minimum and the maximum number of wands he can join in order to produce a wand of length <b>N</b>. If it is not possible to produce such wand then print <b>-1</b> in both cases.\n\n\n<h3>Input</h3>\n<p>The first line of input contains two space separated integers <b>N</b> and <b>K</b> denoting the desired wand length and number of types of wands available.</p>\n<p>\nThe second line contains <b>K</b> space separated integers where <b>i<sub>th</sub></b> integer is <b>length<sub>i</sub></b>, the length of <b>i<sub>th</sub></b> type of wand.\n</p>\n\n\n<h3>Output</h3>\n<p>Print two space separated integers in one line where first and second integer denotes the minimum and maximum number of wands needed to join to form a wand of length <b>N</b> respectively. Print <b>-1</b> in both cases if wand of length <b>N</b> cannot be formed.\n</p>\n<p></p>\n\n\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 <b>N</b> < 10000</li> \n<li>1 \u2264 <b>K</b> < 10000</li>\n<li>1 \u2264 <b>length<sub>i</sub></b> < 10000</li>\n<li>All values of <b>length<sub>i</sub></b> are distinct </li>\n</ul>\n\n<h3>Example 1</h3>\n<pre><b>Input :</b>\n7 3\n5 2 3\n\n<b>Output :</b>\n2 3\n\n</pre>\n\n<h3>Explanation</h3>\n<p>\nJoin wands of length <b>2</b> and <b>5</b> to produce a wand of length <b>7</b>.</br>\nJoin wands of length <b>2</b>, <b>2</b> and <b>3</b> to produce a wand of length <b>7</b>.\n</p>\n\n<h3>Example 2</h3>\n<pre><b>Input :</b>\n4 3\n3 5 7 \n\n<b>Output :</b>\n-1 -1\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "ALKHWARIZM (Rated)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1521214200,
+        "end_date": 1521232200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1521232200,
+        "submit_start_date": 1521214200,
+        "current": 1537432820
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>priyanshukm</span>",
+    "problem_name": "Sam, The Charming Angel",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/priyanshukm'>priyanshukm</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "priyanshukm",
+    "contest_code": "ALKH2018",
+    "max_timelimit": "1",
+    "problem_code": "HARRYWND"
+}

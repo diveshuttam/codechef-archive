@@ -1,0 +1,87 @@
+{
+    "announcements": "<ul>\r\n<li>All submissions to GOPR have been revaluated</li>\r\n<li>Runner(GOPR) problem statement has been changed</li>\r\n<li>Constrains for City Shortcut (CTSHT) has been changed</li> \r\n<li>All submissions to City Shortcut (CTSHT) will be rejudged, any inconevience is deeply regretted </li>\r\n<li>All submissions to Perfect Hill ( PERHIL) will rejudged. Thanks for @singi @kcahdog @jyotesh for pointing out the bugs, Please accept our apologies for any inconvence, </li>\r\n<li> Dont forget to provide your <a href=\"https://docs.google.com/forms/d/14URn0NjuhzHMlFiObCO0PfpanYS4kusWpIWrqFFEoRQ/viewform\" >feedback</a> when you are done with the contest.\r\n<li>Check your <a href=\"http://www.codechef.com/rankings/UVCNCD13\">Rankings here</a> .\r\n</ul>\r\n",
+    "ip": "149.129.135.113",
+    "code": "UVCNCD13",
+    "duration": "14400",
+    "name": "UVCE NCode- October 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>Rules and Regulations:</b></p> <p><b><br /></b></p> <ol> <li>Contest problems will become visible on Monday, 07 October 2013 at 15:00 hours IST and contest will end at 17th October 15:00 IST.</li> <li> It is an Individual contest (not a team contest) consisting of 5 easy questions specially given for beginers.</li> <li> This competition will be open for all students. To claim the prizes, one should register <a href=\"https://docs.google.com/forms/d/1gAtLQGXGY-7ZcZ-BO9_UAmV8Sb6ZwpqAWFibW9qZ6sU/viewform\">here</a>.</li> <li>One \"On campus winner (UVCE)\" and one \"Off campus winner\" will be given prizes.</li> <li> Almost all languages supported on CodeChef are allowed.</li> <li> Output and input should be exactly as specified in the samples provided. All white space characters in the output will be ignored.</li> <li> For the evaluation of C/C++ codes gcc-4.8.1 will be used. </li> <li> Please contact <a href=\"mailto:uvce.ncode@gmail.com\">uvce.ncode@gmail.com</a> for any queries during the contest.</li> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a>.</li> </ol> <p>\u00a0</p> <h3><b>Judging Criteria:</b></h3> <ol> <li>User will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <li> Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run. There is no time consumed for a problem that is not solved.</li> <li> Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> </ol>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/UVCNCD13/1424957817.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "BOTM": {
+            "allow_submission": false,
+            "name": "Bot Moves",
+            "category_name": "main",
+            "accuracy": 62.15,
+            "successful_submissions": "636",
+            "code": "BOTM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PERHIL": {
+            "allow_submission": false,
+            "name": "Perfect Hill",
+            "category_name": "main",
+            "accuracy": 10.06,
+            "successful_submissions": "149",
+            "code": "PERHIL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GOPJ": {
+            "allow_submission": false,
+            "name": "Jumpimg Gopal",
+            "category_name": "main",
+            "accuracy": 38.71,
+            "successful_submissions": "550",
+            "code": "GOPJ",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CTSHT": {
+            "allow_submission": false,
+            "name": "City Shortcuts",
+            "category_name": "main",
+            "accuracy": 27.61,
+            "successful_submissions": "232",
+            "code": "CTSHT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GOPR": {
+            "allow_submission": false,
+            "name": "Runner",
+            "category_name": "main",
+            "accuracy": 32.82,
+            "successful_submissions": "767",
+            "code": "GOPR",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1382002200,
+        "current": 1537438102,
+        "freezing": 0,
+        "start": 1381138200
+    },
+    "user": {
+        "username": ""
+    }
+}

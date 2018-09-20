@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Problem description</p>\n<p>\u00a0Alice wants to learn Recurrent Neural Networks. Therefore he plans to implement a model by himself to classify the road traffic data. However, he finds that the model accepts only constant input values and his dataset is a collection of tracks with variable sizes. \n\nOut of observation, he found that all the tracks were one dimensional arrays, containing the position of the object.  He wants to reduce all those arrays to a size of K so that his dataset will be of uniform size also, he doesn't want the values to change as he is afraid that the features may change.\n\nYour task is to reduce the size of an array of size N to a size K such that no important features are lost. \n\nMake sure that the first and last values are always retained!\n</p>\n\n\n<h3>Input</h3>\n<p>Input description.</p>\nThe first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.\nEach test case has two lines, the first line has two integers <b>N</b>, which is the actual size of the array and <b>K</b>, which is the downsample size. The second line contains <b>N</b> space-separated integers <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b> denoting the values of the array. \n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>Output description</p>\n\nFor each test case, output the downsampled array.\n\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n\n\n<b>1</b> \u2264 <b>T</b> \u2264 <b>100</b>\n<b>K</b> \u2264 <b>N</b>\n\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n16 \n8\n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \n9 \n10\n11\n12\n13 \n14 \n15 \n16\n10 \n8\n1 \n2 \n3 \n4 \n5\n6 \n7 \n8 \n9 \n10\n<b>Output:</b>\n1 3 5 7 9 11 13 16\n1 2 3 5 6 8 9 10\n</pre>\n<p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-02-2018",
+    "is_direct_submittable": false,
+    "contest_name": "MNM Online Programming Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH 3.6, PYPY, CS2, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, WSPC, ADA, CAML, ICK, BF, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, kotlin, TEXT, SCM chicken",
+    "todo": false,
+    "time": {
+        "view_start_date": 1519795273,
+        "end_date": 1519810200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1519810200,
+        "submit_start_date": 1519795273,
+        "current": 1537432894
+    },
+    "problem_author_html_handle": "vijaykumarakv",
+    "problem_name": "Downsampling an array",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vijaykumarakv'>vijaykumarakv</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vijaykumarakv",
+    "contest_code": "MOPC2018",
+    "max_timelimit": "1 - 2",
+    "problem_code": "DSA"
+}

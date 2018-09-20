@@ -1,0 +1,33 @@
+{
+    "problem_code": "MUFFINS",
+    "problem_author": "friggstad",
+    "contest_name": "August Cook Off",
+    "todo": false,
+    "problem_author_html_handle": "friggstad",
+    "problem_name": "Baking Cupcakes",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>pieguy</span>",
+    "contest_code": "COOK02",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cook02'>cook02</a>, <a class='problem-tag-small ' href='/tags/problems/friggstad'>friggstad</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nThe Chef is planning on serving cupcakes for dessert. However, time is running out and the Chef has only enough time to bake one batch. Thankfully, the cupcake baking tin the Chef plans on using has barely enough spaces to ensure each guest receives one cupcake.\n\n</p><p>\nTo the Chef's dismay, some of the spaces in the cupcake tin are too close to each other. If cupcake batter is placed in two such spaces then they will bake together and neither will have the aesthetically pleasing round shape one expects from gourmet cupcakes.\n\n</p><p>\nThe Chef wants to impress his guests with this dessert, so he wants all cupcakes to be perfectly round. You must determine if it is possible for the desired number of cupcakes to be baked without any two baking in to each other.\n\n<h3>Input</h3>\n</p><p>\nThe first line consists of a single integer T \u2264 30 denoting the number of test cases to follow. Each test case begins with a single line consisting of three integers n,m, and g. Here, n is the number of spaces in the cupcake tin, m is the number of conflicting pairs of spaces in the tin, and g is the number of guests. Following this line is m lines describing the conflicting pairs. Each line consists of two distinct integers i and j, both between 0 and n-1. This means spaces i and j are conflicting so batter may only be placed in at most one of them.\n\n</p><p>\nThe bounds are 1 \u2264 n \u2264 1,000, 1 \u2264 m \u2264 20,000, and 0 \u2264 g \u2264 n. Since the cupcake tin has barely more spaces than guests (if any), then we also have n-g \u2264 15.\n\n<h3>Output</h3>\n</p><p>\nThe output for each test case consists of a single line containing \"Possible\" if the Chef can bake all cupcakes perfectly round or \"Impossible\" if the Chef must settle for some cupcakes being imperfect.\n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n3 2 2\n0 1\n1 2\n3 3 2\n0 1\n1 2\n2 0\n\n<b>Output:</b>\nPossible\nImpossible\n</pre></p>",
+    "category_name": "main",
+    "date_added": "9-08-2010",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "max_timelimit": "0.619048",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/MUFFINS",
+    "problem_tester": "pieguy",
+    "time": {
+        "view_start_date": 1282406400,
+        "end_date": 1282415400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1282415400,
+        "submit_start_date": 1282406400,
+        "current": 1537439546
+    },
+    "user": {
+        "username": ""
+    }
+}

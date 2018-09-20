@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>John wanted to buy gifts for some k children in his apartments on christmas.\nHe goes to the shop and the shopkeeper shows him n gifts.\nHow many ways John can choose k gifts from n total gifts ?.\nSince answer could be large print the answer mod 1000000007\n<p>\n<b>NOTE</b> : ordering of the gifts do not matter\nDifferent order of same set of gifts are considered same and should not be counted as different\n</p>\n</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer t, number of test cases\nnext t lines follow with each line containing two integers (n and k) separated by space.</p>\n<h3>Output</h3>\n<p>For each test case print the answer in a new line.</p>\n\n<h3>Constraints</h3>\n<p> 0 < n <= 100000</p>\n<p>1<  k <=  100000</p>\n<p>1 < t <= 100</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<p>1\n5 1</p>\n<b>Output:</b>\n<p>5</p>\n</pre>\n<h3>Explanation</h3>\n<p><b>Example case .</b>you can chose any one of the five gifts.so 5 ways</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-06-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Hour Of Code I",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1435491000,
+        "end_date": 1435494600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1435496400,
+        "submit_start_date": 1435491000,
+        "current": 1537436214
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>geek_geek</span>",
+    "problem_name": "Number Of Ways",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/geek_geek'>geek_geek</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "geek_geek",
+    "contest_code": "HOCO2015",
+    "max_timelimit": "1",
+    "problem_code": "NOWAYS"
+}

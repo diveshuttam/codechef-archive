@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Greatest Common Right Divisor for two square matrices A and B is a matrix 'D' which satisfies following 3 conditions:</p>\n<ol>\n<li>A = P * D </li>\n<li>B = Q * D</li>\n<li>D = X * A + Y * B</li>\n</ol>\n<p>where P, Q, X and Y are some matrices.<br />\nThe task is to output the matrices D, X and Y for the given square matrices A and B.</p>\n\n<h3>Input</h3>\n<p>Input file will contain multiple input cases each denoting a combination of matrices A and B. First line of the input file consists of an integer t (&lt;=100) denoting the no. of test cases. </p>\n\n<p>Each input case will consist of:</p>\n\n<ol>\n<li>First line of the test will contain a single integer N(&lt;=15) denoting the size of matrices A and B.</li>\n<li>Next N lines will contain the corresponding row elements of Matrix A each separated by a blankspace.</li>\n<li>Further N lines will contain the corresponding row elements of Matrix B each separated by a blankspace.</li>\n</ol>\n<p> Each of the elements in the matrices A and B can only be 1 or 2.</p>\n<h3>Output</h3>\n<p>For each input case, output the following:\n\n<ol>\n<li> First N lines contain corresponding row elements of Matrix D each separated by a blankspace.</li>\n<li>Further N lines contain corresponding row elements of Matrix X each separated by a blankspace.</li>\n<li>Last N lines contain corresponding row elements of Matrix Y each separated by a blankspace.</li>\n</ol>\n</p><p>Print a new line after each output.\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n2\n1 2\n1 1\n1 2\n2 1\n3\n1 2 1\n1 1 1\n1 2 1\n2 1 1\n2 2 2\n2 1 2\n\n<b>Output:</b>\n1 2                                                                                                             \n0 -1                                                                                                            \n1 0                                                                                                             \n-1 1                                                                                                            \n0 0\n0 0\n\n1 2 1\n0 -1 0\n0 0 -1\n1 0 0\n-1 1 0\n1 -3 0\n0 0 0\n0 0 0\n1 0 0\n\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Manthan 2010",
+    "languages_supported": "C",
+    "todo": false,
+    "time": {
+        "view_start_date": 1269779400,
+        "end_date": 1269801000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1269801000,
+        "submit_start_date": 1269779400,
+        "current": 1537439642
+    },
+    "problem_author_html_handle": "manthan",
+    "problem_name": "GCRD",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/manthan'>manthan</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "manthan",
+    "contest_code": "MANTH10",
+    "max_timelimit": "1",
+    "problem_code": "CF04"
+}

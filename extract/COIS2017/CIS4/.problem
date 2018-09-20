@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>There is a baby monkey in Monkey Kingdom, who is so mischievous. His instructor wants him to learn\nto climb a rope.But when instructor instructs him to climb a rope of length L meter.He always\nclimbs up M meters and slips down N meters.And he takes 1 min for each meter up and down.\nNow help the instructor to find the total time(in minutes) taken by the baby monkey to reach at the \nend of rope.\nPrint -1 if he can not reaches at the end of the rope.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>First line contains T test cases.\nNext T lines contains L, M & N.<br>\nWhere L meters is the height of rope, M is the height in meters climbed up by monkey and N is the height in meters monkey slipped down.</p>\n\n\n<h3>Output</h3>\n<p>There are T number of output lines containing the total time taken by the baby monkey to reach at \nthe end of the rope.\n</p>\n\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>99</b></li>\n<li><b>1</b> \u2264 <b>L</b> \u2264 <b>999</b></li>\n<li><b>0</b> \u2264 <b>M</b> \u2264 <b>L</b></li>\n<li><b>0</b> \u2264 <b>N</b> \u2264 <b>L</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n10 5 2\n20 10 10\n30 15 5\n40 10 20\n\n<b>Output:</b>\n18\n-1\n50\n-1\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>In first attempt he will climb 5 meters taking 5 seconds and will slip 2 meters taking 2 second. Now he is 3 meters from ground.\nThen he will climb 5 meters taking 5 seconds and will slip 2 meters taking 2 seconds. Now he is 6 meters from ground.\nAfter that he will 4 meter and will reach at the end of the rope.\nSo total time is 5+2+5+2+4=18.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Code-In-Sight 4.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1507351500,
+        "end_date": 1507360500,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1818399039,
+        "submit_start_date": 1507351500,
+        "current": 1537433502
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>code_buster123</span>",
+    "problem_name": "Mischievous Monkey",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/code_buster123'>code_buster123</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "code_buster123",
+    "contest_code": "COIS2017",
+    "max_timelimit": "1",
+    "problem_code": "CIS4"
+}

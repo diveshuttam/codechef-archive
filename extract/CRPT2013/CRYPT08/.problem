@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h2>Problem Statement \u00a0</h2>\n<p>The Grayson family had a long history of family feuds. The only thing they had in common was that they were related by blood. In one final attempt to unite his family, Mr. Grayson comes up with this idea in the hope that his family would work together and rekindle what was once lost. Their father on his death bed gave his children a word each. Each letter in a word represents a number. The sum of the first n-1 words must total the final word (n being the number of children). The final word, given to the eldest son represents the family\u2019s bank account containing their inheritance of millions of dollars.<br />\nThe same letter throughout the string of words must be represented by only one number, and no letter is used to represent more than one number. Furthermore, the leftmost digit of any number is not allowed to be a zero.<br />\nWrite a program to help the Grayson family get their inheritance.\n</p>\n<h3>Input</h3>\n<p>Your program should first accept a number n, which will indicate the number of lines to follow. The following n lines will each contain a word of no more than 10 characters.</p>\n<h3>Output</h3>\n<p>Your output should consist of an integer (The total number of solutions) if you believe there to be one, or the word 'Impossible' if you do not. If you find a solution and believe it to be the only one, you should only print out 'Unique'.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>3</b> \u2264 <b>n</b> \u2264 <b>6</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4 \nABCDE \nCDEFG \nEFGHI \nAJCGJA\n\n<b>Output:</b>\n4\n</pre><p><ex><br />\n<br />\n<b>Explaination: </b><br />\n<br />\n12345 + 34567 + 56789 = 103701 <br />\n12345 + 34569 + 56987 = 103901 <br />\n12365 + 36547 + 54789 = 103701 <br />\n12365 + 36549 + 54987 = 103901<br />\nTotal 4 possible ways.<br />\n</ex><br />\n</p>\n<p>\n<br />\n<br />\n<b>Note : The reference for this problem has been taken from : British Information Olympiad </b>\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-10-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Cryptoss 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1382121000,
+        "end_date": 1382293800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1382293800,
+        "submit_start_date": 1382121000,
+        "current": 1537438092
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>himanshuk123</span>",
+    "problem_name": "The Will",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/himanshuk123'>himanshuk123</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "himanshuk123",
+    "contest_code": "CRPT2013",
+    "max_timelimit": "3",
+    "problem_code": "CRYPT08"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Hunter found a lot of yellow ducks in a blue water lake. The lake has a fencing because of which he cannot shoot the ducks from the ground. There are some yellow pillars which are connected by blue wires to form the fence. If the wires are used to form a circle, then the diameter of this circle will be equal to the mean width of the closed figure formed by fencing.All points outside the circle are covered with green grass and has no hint of water.There is no grass inside the lake.<br><br>\nHunter has a helicopter. Now he sees <b>N</b> yellow points from top representing a duck or pillar, blue points representing water or wires and green points representing grass. His camera can only focus on one point at a time. He takes <b>M</b> shots, find the color of the point that he takes a picture of.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>First line of input contains an integer <b>T</b>, denoting the number of test cases.<br><br>\nFor each test case, first line contains an integer <b>N</b>. <br>Next <b>N</b> lines contain two integers denoting the co-ordinates of <b>N</b> yellow points.<br><br>\nNext line contains an integer <b>M</b>. <br>Next <b>M</b> lines contain two integers denoting the co-ordinates of <b>M</b> points to find their color.</p>\n\n\n<h3>Output</h3>\n<p>For each test case, if the lake has no water print -1 else output M lines with Y if the corresponding point is yellow, B if it is blue and G if it is green..</p>\n\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>3</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>0</b> \u2264 <b>Co-ordinates of points</b> \u2264 <b>2500</b></li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n5\n2 2\n2 10\n10 10\n10 2\n3 3\n4\n3 3\n2 2\n1 1\n3 4\n\n<b>Output:</b>\nY\nY\nG\nB\n</pre>\n<p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "30-09-2017",
+    "is_direct_submittable": false,
+    "contest_name": "KJSCE CodeSpree 2017",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1506871800,
+        "end_date": 1506884400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1506884400,
+        "submit_start_date": 1506871800,
+        "current": 1537433534
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>mad_sri</span>",
+    "problem_name": "Duck Hunter",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/mad_sri'>mad_sri</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "mad_sri",
+    "contest_code": "KJCS17",
+    "max_timelimit": "1.5",
+    "problem_code": "KJCS17E"
+}

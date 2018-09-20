@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p> </p>\n<p>As we all know that the number of security attacks increases as the Republic Day approaches. The terrorist try very hard to eavesdrop the conversation that occur within Defence Forces . They try to attack the Systems and gain information by analyzing the information exchange traffic while maintaining the integrity of the information . These types of attacks are called Passive Attacks .Due to these continuous security attacks on the computer Systems , there is a kernel panic . The connection between different processes got disturbed ,some processes lost Connection i.e links were broken while some other new links were formed . As you are the best operating system expert available in town ,the head of defence ministry of pethapur also known as the legend Dr. Permar approaches you to solve this critical problem as soon as possible . </p>\n<p> </p>\n<p>You will be given different processes operating in the OS and Connection between them. You have to make sure that: </p>\n<p><ul>\n<li>Every process can be reached from any other process following 0 or more processes in between.</li>\n<li>To maintain link between processes resources are required . You have to make sure minimum resources are used and unnecessary links are removed. Hence, if there are multiple ways to reach a process from any other process , we don't need them. </li>\n</ul> \n</p>\n<p>Systems following the above two properties is considered to be in stable state. To make the System in stable state you can perform these type operations in any order: </p>\n<p><ul>\n<li>Repair: remove the redundant link and use its resources to create new link.</li>\n<li>Cleanup: free the resources associated with the links that are not required.</li></ul></p>\n<p> </p>\n<p>The Security of the whole country is in your hands and you are given huge a responsibility to carry.We hope that you Don't let your country down and make us feel proud. Also Dr permar wants to give the title \"Utra legend\" to the person who can solve this problem.</p>\n<h3>Input</h3>\n<p><ul><li>First line of input contains the number of processes <b>N</b> and Links <b>M</b> between the processes.</li>\n<li>Next <b>M</b> lines will contain two space separated integers <b>p</b> and <b>q</b> indicating that processes <b>p</b> and <b>q</b> are connected through a link.</li></ul></p>\n</ul>\n<p> </p>\n\n<h3>Output</h3>\n<p><ul><li>If the stable state of the system cannot be reached output<b> -1</b>.</li>\n<li>Otherwise First print the minimum number of Repair operations required and then print the minimum number of Cleanup operations needed on the next line . \n</li></ul></p>\n<p> </p>\n\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>6</sup></b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>10<sup>6</sup></b></li>\n</ul>\n<p> </p>\n<h3>Example</h3>\n<pre><b>Input 1 :</b>\n9 9\n1 2\n2 3\n3 4\n4 1\n6 7\n7 8\n8 9\n9 6\n9 7\n\n<b>Output:</b>\n2\n1\n</pre>\n<p> </p>\n<pre><b>Input 2 :</b>\n4 2\n1 2\n2 3\n\n<b>Output:</b>\n-1\n</pre>\n<p> </p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> </p>\n<img src=\"https://s3.amazonaws.com/hr-assets/0/1517316061-5367271e8e-graph.png\">\n<p>\nWe have used two Repair operations. In first Repair operation link between <b>p<sub>6</sub></b> and <b>p<sub>7</sub></b> is removed and its resources are used to form new link between <b>p<sub>6</sub></b> and  <b>p<sub>5</sub></b>. Similarly in second repair operations new link between  <b>p<sub>3</sub></b> and  <b>p<sub>5</sub></b> is formed in place of link between  <b>p<sub>1</sub></b> and  <b>p<sub>2</sub></b>. </p>\n<img src=\"https://s3.amazonaws.com/hr-assets/0/1517321001-bbb81f4eef-graph1.png\">\n<p> For Cleanup operation we have removed the link between  <b>p<sub>7</sub></b> and  <b>p<sub>9</sub></b> and observe that the System comes down to stable state. </p>\n<img src = \" https://s3.amazonaws.com/hr-assets/0/1517321088-cf821270b7-graph2.png \">\n<p>note : This Solution is not unique and there are some other possible ways to make the System in stable state .Example:</p>\n<img src=\"https://s3.amazonaws.com/hr-assets/0/1517321422-dcae3e19bf-graph3.png\">\n<img src=\"https://s3.amazonaws.com/hr-assets/0/1517321689-63cde82e6d-graph4.png\">\n\n<p><b>Example case 2.</b> </p>\n<p>There is no way that we can reach every process from any other process. There is no unnecessary link that can used for repair or cleanup . Hence System cannot be made stable.</p>\n<img src=\"https://s3.amazonaws.com/hr-assets/0/1517322374-057bb0ffb9-graph5.png\">",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Cook-a-Code",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1520352000,
+        "end_date": 1520364600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1831445463,
+        "submit_start_date": 1520352000,
+        "current": 1537432878
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>abhi1210</span>",
+    "problem_name": " Who Wants To Be An UltraLegend",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhi1210'>abhi1210</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abhi1210",
+    "contest_code": "CAC2018",
+    "max_timelimit": "1",
+    "problem_code": "PID"
+}

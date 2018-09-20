@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Burnland is a town with <b>M</b> houses numbered 1, 2, ..., <b>M</b>, connected with two way tunnel. Droco is a dragon who wants to set the entire town ablaze. For each house, there is a certain risk factor <b>F[i]</b> for setting that house ablaze. But once a house <b>C</b> is set ablaze, all house that can be reached from <b>C</b> will be set ablaze immediately.</p>\n<p>The overall risk factor of setting some number of houses ablaze is the sum of the risk factors of setting each of the houses ablaze. Droco's goal is to set the whole town ablaze with minimal risk by picking some set of houses to set ablaze. Let <b>N</b> be the minimum risk he takes when setting the entire house ablaze. Calculate the number of ways to pick a set of houses to obtain a risk of <b>N</b>.</p>\n<h3>Input</h3>\n<p>The first line contains an integer <b>M</b>, the number of house in Burnland.<br /><br />\nThe second line contains <b>M</b> space-separated integers, the i-th integer representing <b>F[i]</b>. (1-based index)</p>\n<p>The third line contains an integer <b>K</b>, denoting the number of two way tunnel.<br /></p>\n<p>Each of the next <b>K</b> lines contains 2 space-separated integers <b>i, j</b> representing a tunnel between house <b>i</b> and <b>j</b>.</p>\n<h3>Output</h3>\n<p>Output one integer <b>W</b>. The number of ways to pick a set of house to obtain a risk of <b>Z</b> so that the entire town is set ablaze is <b>U</b>. <b>W</b> is the remainder when <b>U</b> is divided by 10^9+7</p>\n<h3>Constraints</h3>\n<p>  1\u2264 <b>M</b> \u22641000 <br /><br />\n1 \u2264 <b>K</b> \u2264 1000 <br /><br />\n1\u2264 <b> F[i]</b>  \u22641000 </p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input</b>:\n4\n3 3 3 3\n2\n1 2\n4 1\n\n<b>Output:</b>\n3\n</pre><p><br /></p>\n<p>Explanation</p>\n<p><br /></p>\n<p>Droco can set house 1 and 3 ablaze, 2 and 3 ablaze, or 4 and 3 ablaze for a risk of 6. Note that setting either 1, 2, 4 ablaze will set 1, 2, and 4 ablaze.\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "CodeFight 2.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457764200,
+        "end_date": 1457807400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457807400,
+        "submit_start_date": 1457764200,
+        "current": 1537435169
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>karan_arora2</span>",
+    "problem_name": "Burnland",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/karan_arora2'>karan_arora2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "karan_arora2",
+    "contest_code": "COFI2016",
+    "max_timelimit": "1",
+    "problem_code": "CF209"
+}

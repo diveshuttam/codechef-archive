@@ -1,0 +1,97 @@
+{
+    "announcements": "<p>\u00c2\u00a0</p>\r\n<p><b>NEW ANNOUNCEMENT</b></p>\r\n<p><b>2. </b>Hi guys,</p>\r\n<p><b>Unfortunately, we identified some issues in the test data for <a href=\"/DEC10/problems/BYTEISLE/\">BYTEISLE</a> , <a href=\"/DEC10/problems/ASTRGAME/\">ASTRGAME</a> and <a href=\"/DEC10/problems/HBEAR/\">HBEAR</a>.</b></p>\r\n<p>We have updated the test data now and have <b>begun rejudging previous submissions to the three problems</b>.</p>\r\n<p>We regret the inconvenience caused and sincerely apologize for it.</p>\r\n<p>Regards,<br />Team CodeChef</p>\r\n<p>\u00c2\u00a0</p>\r\n<div></div>\r\n<p><b>1. </b>Please bear in mind that the challenge problem for the December 2010 Challenge will <b>NOT </b>be re-judged at the end of the contest unlike last time.</p>\r\n<p>For those of you that were not part of the <a href=\"/NOV10\">November 2010 challenge</a> and are wondering what this announcement is about then not that for the challenge problem GRAPHCH in the previous long contest, we had re-judged only the last accepted submission on new Test Data. The time limit on the new data was extended to ensure that the accepted solution does not time out.</p>\r\n<p>\u00c2\u00a0</p>\r\n<p>\u00c2\u00a0</p>\r\n<p>\u00c2\u00a0</p>\r\n<p>\u00c2\u00a0</p>",
+    "ip": "149.129.135.113",
+    "code": "DEC10",
+    "duration": "14400",
+    "name": "December 2010 Challenge",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p> <p class=\"MsoNoSpacing\"><span><b>NOTE:</b></span></p> <p class=\"MsoNoSpacing\"><span><b>The December 2010 Contest has ended.</b></span></p> <p class=\"MsoNoSpacing\"><b>For results check out our Blog <a target=\"_blank\" href=\"http://blog.codechef.com/2010/12/11/december-2010-challenge-winners/\">here</a>.</b></p> <p class=\"MsoNoSpacing\"><span><b>Check the editorial\u00a0<a target=\"_blank\" href=\"/wiki/december-2010-contest-problem-editorials\">here</a>.</b></span></p> </p> <p class=\"MsoNoSpacing\"><b>Rules:</b><span><b> </b></span></p> <p class=\"MsoNoSpacing\"><span><br />Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<span> </span><a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a><br /><br /><o:p></o:p></span></p> <p class=\"MsoNoSpacing\"><span><span>Contest problems will become visible on December 1st 2010 at 15:00 hours IST.</span><br /><br /><o:p></o:p></span></p> <p class=\"MsoNoSpacing\"><span>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.<br /><br /><o:p></o:p></span></p> <p class=\"MsoNoSpacing\"><span>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.<br /><br /><o:p></o:p></span></p> <p class=\"MsoNormal\"><span>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</span></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/DEC10/1424957519.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "ODDBIN": {
+            "allow_submission": false,
+            "name": "Odd Binomial Coefficients",
+            "category_name": "main",
+            "accuracy": 9.68,
+            "successful_submissions": "37",
+            "code": "ODDBIN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DELIVERY": {
+            "allow_submission": false,
+            "name": "Delivering Bread",
+            "category_name": "main",
+            "accuracy": 71.1,
+            "successful_submissions": "47",
+            "code": "DELIVERY",
+            "type": "2",
+            "is_direct_submittable": false
+        },
+        "ASTRGAME": {
+            "allow_submission": false,
+            "name": "A String Game",
+            "category_name": "main",
+            "accuracy": 8.84,
+            "successful_submissions": "91",
+            "code": "ASTRGAME",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BYTEISLE": {
+            "allow_submission": false,
+            "name": "Byteknights and Byteknaves",
+            "category_name": "main",
+            "accuracy": 10.03,
+            "successful_submissions": "71",
+            "code": "BYTEISLE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "EVENPOLY": {
+            "allow_submission": false,
+            "name": "Even Coefficients",
+            "category_name": "main",
+            "accuracy": 16.98,
+            "successful_submissions": "14",
+            "code": "EVENPOLY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "HBEAR": {
+            "allow_submission": false,
+            "name": "The Hungry Bear",
+            "category_name": "main",
+            "accuracy": 12.57,
+            "successful_submissions": "58",
+            "code": "HBEAR",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1292059800,
+        "current": 1537439424,
+        "freezing": 0,
+        "start": 1291195800
+    },
+    "user": {
+        "username": ""
+    }
+}

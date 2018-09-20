@@ -1,0 +1,33 @@
+{
+    "problem_code": "AMR16B",
+    "problem_author": "admin3",
+    "contest_name": "ACM-ICPC Asia-Amritapuri Onsite Mirror Contest 2016",
+    "todo": false,
+    "problem_author_html_handle": "admin3",
+    "problem_name": "A Historic Discussion",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "AMR16MOS",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>",
+    "body": "<p>A great discussion about demonetization is happening on social media. This is the first time in the history of the Internet, that people have decided to organise a discussion in which they actually thought of knowing about each other's views rather than the usual way of forcing your thoughts down the throat of other person. This is a great and unimaginable change and history is being created here. The discussion organisers need your help in creating history. Won't you help them in such a noble cause?</p>\n\n<p>Specifically, the discussion will be conducted in following manner. There are a total of <b>n</b> people who want to have a discussion. They will be split into two groups each of size <b>n/2</b> (<b>n</b> is guaranteed to be even). Each person in a group sits down calmly with all the persons of the other group and then they discuss their point of views about the issue. In this way, a nice, constructive and helpful discussion occurs. Note that in one particular discussion, a person discusses with the <b>n/2</b> members of the other group. They do not discuss with people from their own group.</p>\n\n<p>Now people are not satisfied with just a single discussion, as you may not know point of views of all the persons out there. So, they ask organisers to conduct more discussions in such a way that each person is able to discuss his/her views with every other person. That is, for every pair of people <b>(i,j)</b>, there should be at least one discussion in which they are in opposite groups. As you know organising discussions is a tedious and resource constrained task, you have to help organisers in achieving this objective in as few discussion as possible. Can you please help them?</p>\n\n<h3>Input</h3>\n<p>The first line contains an integer <b>T</b> denoting the number of test cases. <b>T</b> test cases follow.</p>\n<p>The only line of each test case contains an integer <b>N</b> denoting the number of persons who want to participate in the discussion.</p>\n\n<h3>Output</h3>\n<p>For each test case, output <b>K + 1</b> lines, where <b>K</b> denotes the number of discussions that should be conducted. </p>\n<p>In the first line, output a single integer <b>K</b>. </p>\n<p>In each of the next <b>K</b> lines, output <b>N</b> space separated integers in the range <b>1</b> to <b>N</b>, which will mean the first <b>N/2</b> persons are discussing with last <b>N/2</b> persons.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>2</b> \u2264 <b>N</b> \u2264 <b>500</b></li>\n<li><b>N</b> is even</li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n6\n\n<b>Output:</b>\n3\n1 2 3 4 5 6\n1 2 4 3 5 6\n1 4 5 2 3 6\n</pre>\n\n<h3>Explanation</h3>\n<p><b>Example case 1</b>. There are total 6 persons. In the first discussion, persons {1, 2, 3} were in a group and {4, 5, 6} in the other group. After the end of these 3 discussions, you can see that each person got to know the views of all other persons. For example, person 1 discussed with person 2 in the 3rd discussion, with person 3 in 2nd and 3rd debates, and with person 4, 5 and 6 in the first discussion. In this way, we can see that person 1 interacted with all other 5 people out there. You can check yourself that each person in this case has interacted with every other person.</p>",
+    "category_name": "main",
+    "date_added": "20-12-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/AMR16B",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1482477510,
+        "end_date": 1482487200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1793475530,
+        "submit_start_date": 1482477510,
+        "current": 1537434296
+    },
+    "user": {
+        "username": ""
+    }
+}

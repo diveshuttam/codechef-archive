@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>\n<h3>Problem description.</h3>\n</p>\n<p>\nYou have two rows of cities. Each row contains N cities, numbered 0 through N-1 from the left to the right.<br /></p>\n<p>Within each row, adjacent cities are already connected by a road. You are given the lengths of these roads as integer arrays a and b, each containing N-1 elements. For each valid i, a[i] is the length of the road between city i and (i+1) in the top row, and b[i] is the length of the road between i and (i+1) in the bottom row.<br /></p>\n<p>You want to add exactly K new bridges to this graph. Each of the new bridge must be vertical -- i.e., it must connect same vertex i in the top row to the vertex i in the bottom row. All new edges will have length 0.<br /></p>\n<p>By adding the K new roads we will produce a connected graph. The diameter of this graph is the maximum of all shortest distances among all pairs of its nodes. In other words, the diameter is the smallest distance D such that it is possible to travel from any city to any other city using a path of length D or less.<br /></p>\n<p>Given a, b, and the int K, compute and return the smallest possible diameter of the resulting graph.\u00a0</p>\n<h3>Input</h3>\n<p>Input description.</p>\n<p><b>line1</b> an array containing the length of each consecutive cities in the top row<br /><br />\n<b>line2</b> an array containing the length of each consecutive cities in the bottom row<br /><br />\n<b>line3</b> integer showing the no of bridges <b>K</b><br /></p>\n<h3>Output</h3>\n<p>Output description.</p>\n<p>one integer displaying the value of the diameter <b>D</b> </p>\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>K</b> \u2264 <b>1000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2, 1, 1, 1, 2\n1, 9, 1, 9, 1\n4\n\n<b>Output:</b>\n6\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> <br /><br />\n<img src=\"https://s3.amazonaws.com/codechef_shared/download/CWAR2015/CWAR05.jpg\" /><br /></p>\n<p>If we add bridges between the <b>1st, 2nd, 4th and 5th pair of nodes</b> vertically then we get the optimal diameter for the graph will be<b> 6 unit</b></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-09-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWar NIT Durgapur",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1443706200,
+        "end_date": 1443727800,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1443727800,
+        "submit_start_date": 1443706200,
+        "current": 1537435998
+    },
+    "problem_author_html_handle": "cad_xcoders",
+    "problem_name": "BuildingTheBridge",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cad_xcoders'>cad_xcoders</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "cad_xcoders",
+    "contest_code": "CWAR2015",
+    "max_timelimit": "2",
+    "problem_code": "CWAR05"
+}

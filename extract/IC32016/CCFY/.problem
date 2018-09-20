@@ -1,0 +1,33 @@
+{
+    "problem_code": "CCFY",
+    "problem_author": "akku_bigasia",
+    "contest_name": "ICODE 3",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>akku_bigasia</span>",
+    "problem_name": "Charlie Chocolate Factory",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "IC32016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/akku_bigasia'>akku_bigasia</a>, <a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/gcd'>gcd</a>, <a class='problem-tag-small ' href='/tags/problems/ic32016'>ic32016</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Charlie\u2019s dream is to make tasty chocolates for the kids. For the 1st assignment, <b>N </b>stocks will be made. Each packet is numbered starting from its \u2018stock number\u2019 to<b> N-1</b>. Packets are reduced by 1 in each stock.<br /><br />\nThe packets do not contain equal amount of chocolates.<br /><br />\nThe number of chocolates in each packet is one greater than the number assigned on the packet.<br /><br />\nCharlie wants an exotic display of chocolate in each packet. So, his staff devised a method, they arrange chocolates in rows(x), such that <b>x=gcd(stock number, no. of chocolates for that packet)</b>.<br /><br />\nCalculate <b>R</b>, where <b>R </b>are the total rows in the entire assignment.<br /><br />\nHere <b>gcd()</b> is a function that finds the greatest common divisor of the two input numbers.\n</p>\n<p>\u00a0</p>\n<h3>INPUT</h3>\n<p>The input file contains at most 20000 lines of inputs. Each line contains the number of stocks <b>N </b>.<br /> Input is terminated by a line containing a single zero.</p>\n<h3>Output</h3>\n<p>For each line of input produce one line of output. This line contains the value of<b> R</b> for the corresponding <b>N</b> where <b>R </b>is the total rows in the entire assignment.<br /> The value of <b>R</b> will fit in a 64-bit signed integer.</p>\n<h3>CONSTRAINTS</h3>\n<ul>\n<li><b>1</b> &lt; <b>N</b> &lt; <b>1000001</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>EXAMPLE</h3>\n<pre><b>Input:</b>\n10\n100\n200000\n0\n\n\n<b>Output:</b>\n67\n13015\n143295493160\n\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "date_added": "31-01-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1 - 2",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CCFY",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1455247800,
+        "end_date": 1455377400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1455377400,
+        "submit_start_date": 1455247800,
+        "current": 1537435488
+    },
+    "user": {
+        "username": ""
+    }
+}

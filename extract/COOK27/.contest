@@ -1,0 +1,87 @@
+{
+    "announcements": "<p><b>21/10/2012, 22:10 IST: </b>The Input Section of TOURNAM has been corrected. The line now correctly says \"The second of these lines contains\u00c2\u00a0<b>M</b> space-separated distinct integers...\" instead of \"The second of these lines contains\u00c2\u00a0<b>N</b> space-separated distinct integers...\"</p>\r\n<p>\u00c2\u00a0</p>\r\n<p><b>21/10/2012, 21:30 IST: </b>The ranking for the contest can be found\u00c2\u00a0<a target=\"_blank\" href=\"/rankings/COOK27\">here</a>.</p>\r\n<p>Indian participants can view their seperate rankings <a href=\"/rankings/COOK27/IN\" target=\"_blank\">here</a>.</p>",
+    "ip": "149.129.135.113",
+    "code": "COOK27",
+    "duration": "150",
+    "name": "October Cook-Off 2012",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p>\u00a0</p> <p><b>The October Cook-off has ended.</b></p> <p><span>All the solutions for the problem set are public and the problems have been moved to practice section.</span></p> <p><b>The editorials for the contest can be found <a href=\"/wiki/october-2012-cook-problem-editorials\">here</a>.</b></p> <p><b><span> </span></b></p> <p><b>The Winners blog </b><b>will be updated soon.</b></p> <div><b><br /></b></div> <p>\u00a0</p> <div class=\"userContentWrapper aboveUnitContent\"> <div class=\"_wk mbm\"><span class=\"userContent\"><b>This contest is the first contest to be hosted on CodeChef to use the faster\u00a0<a href=\"http://www.spoj.pl/clusters/\">Cube Cluster</a>. </b></span></div> </div> <div class=\"shareUnit\"><a class=\"_1xw _1y0\" href=\"http://www.spoj.pl/clusters/\" target=\"_blank\" rel=\"nofollow\"></a></div> <p>\u00a0</p> <p>\u00a0</p> <div><span><span><b>NOTE:</b></span></span></div> <div><span><span><b><br /></b></span></span></div> <div> <ul> <li>This is the Mega Warm-up Contest for ACM ICPC Regionals (India). Find the details <a target=\"_blank\" href=\"http://blog.codechef.com/2012/10/12/participate-perform-and-pocket-a-ticket-to-saint-petersburg-russia/\">here</a>.</li> </ul> <div><span><span><br /></span></span></div> <ul> <li> The contest is open to all.</li> </ul> <div><span><span><br /></span></span></div> <ul> <li><span>The top 50 Indian Students shall have their ACM-ICPC expenses reimbursed. Find the details <a target=\"_blank\" href=\"http://blog.codechef.com/2012/10/12/participate-perform-and-pocket-a-ticket-to-saint-petersburg-russia/#reimburse\">here</a>.</span></li> </ul> <div></div> </div> <p>\u00a0</p> <p><b>In case you are a new user, you will need to first register for a CodeChef ID\u00a0<a href=\"/user/register/\">here</a>.</b></p> <p><b><br /></b></p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at\u00a0<a target=\"_blank\" href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></li> <br /> <li>You can also send in your queries in an email to\u00a0<a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a>, during the contest.</li> <br /> <li>Contest problems will become visible on October 21st, 2012 at 21:30 (IST). There will be 5 problems in all. Check your timezone\u00a0<a target=\"_blank\" href=\"http://timeanddate.com/worldclock/fixedtime.html?msg=October+Cook-Off+2012&amp;iso=20121021T2130&amp;p1=44&amp;ah=2&amp;am=30\">here</a>.</li> <br /> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <br /> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <br /> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> </ul> <div></div> <div></div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COOK27/1424957694.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "EQUALIZ": {
+            "allow_submission": false,
+            "name": "Equalization",
+            "category_name": "main",
+            "accuracy": 32.39,
+            "successful_submissions": "133",
+            "code": "EQUALIZ",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TOURNAM": {
+            "allow_submission": false,
+            "name": "Tennis Tournament",
+            "category_name": "main",
+            "accuracy": 31.27,
+            "successful_submissions": "151",
+            "code": "TOURNAM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TREEFUN": {
+            "allow_submission": false,
+            "name": "Tree Fun",
+            "category_name": "main",
+            "accuracy": 9.72,
+            "successful_submissions": "14",
+            "code": "TREEFUN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "REARRAN": {
+            "allow_submission": false,
+            "name": "Rearrangement",
+            "category_name": "main",
+            "accuracy": 0.68,
+            "successful_submissions": "1",
+            "code": "REARRAN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BUYING2": {
+            "allow_submission": false,
+            "name": "Buying Sweets",
+            "category_name": "main",
+            "accuracy": 45.01,
+            "successful_submissions": "1269",
+            "code": "BUYING2",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1350844200,
+        "current": 1537438677,
+        "freezing": 0,
+        "start": 1350835200
+    },
+    "user": {
+        "username": ""
+    }
+}

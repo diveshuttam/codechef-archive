@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Balin is stuck in a labyrinth beneath the lonely mountain and roof is about to collapse. Add a fire breathing dragon to the mix and it\u2019s safe to say that he is desperate to get out of there as quickly as possible. Your task is to help him find the path to get out this pickle!</p>\n<p>The labyrinth is represented as a m-by-n matrix with Balin\u2019s position marked as \u2018s\u2019 and the exit marked as \u2018f\u2019. Cells are marked either as \u2018b\u2019 or \u2018w\u2019. The \u2018w\u2019 marked cells represent traps in the labyrinth, designed to kill and so Balin cannot choose those cells in his path to get out. The only safe positions are the ones that are marked with b\u2019s. Your program must output the matrix containing \u2018b\u2019 in each cell on the required path and \u2018-\u2018 <b>(ASCII Code 45)</b> in the other cells. In case there is no way for Balin to survive, output \u201cThe path doesn\u2019t exist.\u201d.</p>\n<p>There is only one path to come out of the labyrinth but the labyrinth contains false paths which Balin must avoid because they will eventually lead to  a trap. </p>\n<h3>Input</h3>\n<p>The first line of the input will consist of an integer t representing the number of testcases.</p>\n<p>Every testcase consists of the following lines:</p>\n<p>The first line contains two integers n and m representing the number of rows and columns respectively.<br />\nNext n lines contain m letters denoting the map of the labyrinth.</p>\n<h3>Output</h3>\n<p>For each testcase output an n X m matrix that has \u2018s\u2019, \u2018f\u2019 at the same positions as in the input matrix and a path represented by b\u2019s which is path from s to f and for all other positions output a \u2018\u2013\u2018.</p>\n<p>If no such path exists, output \"The path doesn't exist.\" (quotes only for clarity).</p>\n<p><b>NOTE: Balin cannot move diagonally</b><br />\n<h3>Constraints</h3>\n</p><p>1 &lt;= T &lt;=10</p>\n<p>2 &lt;=n,  m&lt;=1000</p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n<font face = \"courier new\">2\n6 5\nbbbbw\nbwwfw\nbbbww\nbwwww\nbbbbw\nwwwbs\n\n4 4\nbbbw\nwwfw\nbwww\nbbbs</font>\n\n\n<b>Output:</b>\n<p><font face = \"courier new\">bbbb-\nb--f-\nb----\nb----\nbbbb-\n---bs\nThe path doesn't exist.</font></p>\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Bytes 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1360506600,
+        "end_date": 1360524600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1360524600,
+        "submit_start_date": 1360506600,
+        "current": 1537438548
+    },
+    "problem_author_html_handle": "troika_bytes13",
+    "problem_name": "Rescue Balin",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/troika_bytes13'>troika_bytes13</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "troika_bytes13",
+    "contest_code": "BYTS2013",
+    "max_timelimit": "1",
+    "problem_code": "BYTESD"
+}

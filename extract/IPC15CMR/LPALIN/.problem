@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nLuther has a string <b>S</b> of length <b>N</b>. He likes palindromes very much. A string is a palindrome if it reads the same backwards as forwards. For example, aba is a palindrome while abc is not.\n</p>\n<p>\nHe wants to convert <b>S</b> into a palindrome. He want to know the minimum number of substrings that must be deleted from <b>S</b> so that <b>S</b> becomes a palindrome.\n</p>\n<h3>Input</h3>\nThe first line of the input contains a single integer <b>T</b> representing\nthe number of test cases. The first line of each test case contains a single integer <b>N</b>. Next  line contains the string <b>S</b>.\n\n<h3>Output</h3>\nFor each test case, output a single line containing the answer for that test case.\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10000</b></li>\n<li><b>S</b> contains only lower case alphabets (i.e. 'a' - 'z')</li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n3\naaa\n4\nabca\n2\nbc\n\n<b>Output:</b>\n0\n1\n1\n\n</pre>\n<p>\n<b>Explanation</b>\n<ul>\n<li> In the first test case, <b>aaa</b> is already a palindrome </li>\n<li> In the second test case, we can delete <b>b</b> to get <b>aca</b> which is palindrome. </li>\n<li> In the third test case, we can delete <b>c</b> to get <b>b</b>.\n</ul>\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-10-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Forthewatch Mirror contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1475424278,
+        "end_date": 1475440200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1475440200,
+        "submit_start_date": 1475424278,
+        "current": 1537434507
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>anuraganand</span>",
+    "problem_name": "Luther and Palindromes",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anuraganand'>anuraganand</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "anuraganand",
+    "contest_code": "IPC15CMR",
+    "max_timelimit": "1",
+    "problem_code": "LPALIN"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>The Triwizard Tournament was established roughly seven hundred years ago as a friendly competition amond the wizarding schools viz., the Hogwarts School of Witchcraft and Wizardry, the Beauxbatons Academy of Magic and the Durmstrang Institute. Held every five years, the competition would be hosted by each school in turn, the judges for the Tournament comprising the headmasters and headmistresses of the schools. </p>\n<p> The last Triwizard Tournament ended with many sad memories. To honour the memory of  all those who were lost in the last tournament, it has been decided that Hogwarts will be hosting the Triwizard Tournament again this year.</p>\n<p>Professor Dumbledore wants to introduce a new event this time. This event was suggested to him by Hermione Granger. In this event, a dear friend of each of the champions would be left blindfolded in some cell of the Dungeons, beneath the Hogwarts Castle. This friend has to start from the cell where he/she was left and come out of the Dungeons while walking through other cells and corridors he/she finds on his/her way. If he/she is unable to come out, then he/she would be consumed by the snakes hiding in the dungeons.  </p>\n<p>Description of dungeons: Dungeons can be viewed as a graph in which the cells of the dungeons are the nodes and the corridors between the cells are the edges of the graph. The time needed to cross a path is the weight of the edges of the graph.</p>\n<p>To add to the difficulty of the task, no magic is allowed inside the Dungeons. Thus, the friend of any champion would need to rely on his/her instincts and luck. It turns out that when you are in a cell of the Dungeons, the best strategy for escape is to randomly choose an edge to one the neighbouring cells. This way, you can increase your chances of escaping the Dungeons. You are asked to report the expected time one would take to escape the Dungeons starting from the initial cell where he/she was left. Assume that the friend uses the escape strategy as described above.</p>\n\n<h3>Input</h3>\n<p>The first line of the input contains a single integer <b>T</b>, the number of test cases.<br />\nThe first line of each test case contains four space separated integers <b>N M S E</b> where</p>\n<ul>\n<li><b>N</b>: Number of cells in the dungeons</li>\n<li><b>M</b>: Number of edges between the pairs of cells</li>\n<li><b>S</b>: The Starting Cell</li>\n<li><b>E</b>: The Destination Cell</li>\n</ul>\n<p>This is followed by <b>M</b> lines each containing three space separated integers <b>X Y W</b> which denotes that <b>W</b> is the time required to cross the corridor from cell <b>X</b> to cell <b>Y</b> and also from cell <b>Y</b> to cell <b>X</b>.</p>\n<h3>Output</h3>\n<p>A single line for each test case which contains a single floating point number <b>K</b>, the expected time to come out of the dungeon. <b>K</b> must be rounded upto 6 places after the decimal.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>25</b></li>\n<li><b>2</b> \u2264 <b>N</b> \u2264 <b>200</b></li>\n<li><b>0</b> \u2264 <b>S,D,X,Y</b> \u2264 <b>N-1</b></li>\n<li><b>1</b> \u2264 <b>W</b> \u2264 <b>100</b></li>\n</ul>\n<p>Assume that it is always possible to escape the Dungeons, i.e. you can always reach <b>D</b> from <b>S</b>.</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2 1 0 1\n0 1 42\n3 3 0 2\n0 1 1\n0 2 2\n1 2 3\n\n<b>Output:</b>\n42.000000\n3.333333\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-03-2013",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2013",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1362810600,
+        "end_date": 1362897000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1362897000,
+        "submit_start_date": 1362810600,
+        "current": 1537438456
+    },
+    "problem_author_html_handle": "iopc_admin",
+    "problem_name": "The Triwizard Tournament",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/iopc_admin'>iopc_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "iopc_admin",
+    "contest_code": "IOPC2013",
+    "max_timelimit": "0.3225",
+    "problem_code": "IOPC13J"
+}

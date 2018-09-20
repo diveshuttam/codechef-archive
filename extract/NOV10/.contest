@@ -1,0 +1,97 @@
+{
+    "announcements": "<p>01:15 AM, 10th November, 2010 (IST) : Based on your feedback, for the problem <a href=\"/NOV10/problems/GRAPHCH/\">GRAPHCH</a>, we are planning to rejudge the last submission  for every user on new test data. Will update you guys more about the  exact scoring rules by tomorrow. Thanks for your patience.</p>\r\n<p>\u00c2\u00a0</p>\r\n<p>05:06 AM, 10th November, 2010 (IST) : The following clarification has been added on <a href=\"/NOV10/problems/GRIDCHEF/\">GRIDCHEF</a>:</p>\r\n<p>For this problem, a path is any sequence of cells, such that the first  cell is the same as the last cell, no cell except the first/last cell  appears more than once in the sequence, and adjacent cells in the  sequence are adjacent in the grid.</p>\r\n<p>\u00c2\u00a0</p>\r\n<p>11:55 PM, 10th November, 2010 (IST) : For the problem <a href=\"NOV10/problems/GRAPHCH/\">GRAPHCH</a>, we will re-judge only the last accepted submission on new Test Data. We will extend the time limit on the new data to try and ensure that the accepted solution does not time out.<br /><br /></p>",
+    "ip": "149.129.135.113",
+    "code": "NOV10",
+    "duration": "14400",
+    "name": "November 2010 Challenge",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><span> </span></p> <p class=\"MsoNoSpacing\"><span><b>NOTE:</b></span></p> <p class=\"MsoNoSpacing\"><span><b>The November Contest has ended. </b></span></p> <p class=\"MsoNoSpacing\"><span><b>The Challenge problem 'Graph Challenge' will be rejudged.</b></span></p> <p class=\"MsoNoSpacing\"><span><b>The results will be out after the rejudge is complete.</b></span></p> <p class=\"MsoNoSpacing\"><span><b>Check the editorial <a href=\"/wiki/november-2010-contest-problem-editorials\" target=\"_blank\">here</a>.</b></span></p> <p class=\"MsoNoSpacing\"><b>Rules:</b><span><b> </b></span></p> <p class=\"MsoNoSpacing\"><span><br />Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<span> </span><a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a><br /><br /><o:p></o:p></span></p> <p class=\"MsoNoSpacing\"><span><span>Contest problems will become visible on November 1st 2010 at 15:00 hours IST.</span><br /><br /><o:p></o:p></span></p> <p class=\"MsoNoSpacing\"><span>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.<br /><br /><o:p></o:p></span></p> <p class=\"MsoNoSpacing\"><span>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.<br /><br /><o:p></o:p></span></p> <p class=\"MsoNormal\"><span>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</span></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/NOV10/1424957511.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "GRAPHCH": {
+            "allow_submission": false,
+            "name": "Graph Challenge",
+            "category_name": "main",
+            "accuracy": 3.14,
+            "successful_submissions": "32",
+            "code": "GRAPHCH",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "OVENTIME": {
+            "allow_submission": false,
+            "name": "Renting Spare Oven Time",
+            "category_name": "main",
+            "accuracy": 8.79,
+            "successful_submissions": "15",
+            "code": "OVENTIME",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CIRCUITS": {
+            "allow_submission": false,
+            "name": "Randomly Testing Circuits",
+            "category_name": "main",
+            "accuracy": 25.54,
+            "successful_submissions": "165",
+            "code": "CIRCUITS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BALANCED": {
+            "allow_submission": false,
+            "name": "Balanced Walks",
+            "category_name": "main",
+            "accuracy": 17.48,
+            "successful_submissions": "41",
+            "code": "BALANCED",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GRIDCHEF": {
+            "allow_submission": false,
+            "name": "Chefs Bad Day",
+            "category_name": "main",
+            "accuracy": 9.79,
+            "successful_submissions": "69",
+            "code": "GRIDCHEF",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BOMBING": {
+            "allow_submission": false,
+            "name": "Bombing",
+            "category_name": "main",
+            "accuracy": 4.24,
+            "successful_submissions": "67",
+            "code": "BOMBING",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1289467800,
+        "current": 1537439446,
+        "freezing": 0,
+        "start": 1288603800
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "MINPERM",
+    "problem_author": "r_64",
+    "contest_name": "September Challenge 2017",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #D0011B;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>7&#9733;</span><span>r_64</span>",
+    "problem_name": "Minimum Good Permutation",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "jingbo_adm",
+    "contest_code": "SEPT17",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/r_64'>r_64</a>, <a class='problem-tag-small ' href='/tags/problems/sept17'>sept17</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Read problems statements in <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/SEPT17/mandarin/MINPERM.pdf\">mandarin chinese</a>, <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/SEPT17/russian/MINPERM.pdf\">russian</a> and <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/SEPT17/vietnamese/MINPERM.pdf\">vietnamese</a> as well.</h3>\n\n<p> A permutation of length <b>n</b> is an array of size <b>n</b> consisting of <b>n</b> <b>distinct </b>integers in the range <b>[1, n]</b>. For example, (3, 2, 4, 1) is a permutation of length 4, but (3, 3, 1, 4) and (2, 3, 4, 5) are not, as (3, 3, 1, 4) contains duplicate elements, and (2, 3, 4, 5) contains elements not in range [1,4].</p>\n\n<p>A permutation <b>p</b> of length <b>n</b> is <em>good</em> if and only if for any <b>1</b> \u2264 <b>i</b> \u2264 <b>n</b>, <b>p<sub>i</sub></b> \u2260 <b>i</b>.</p>\n\n<p>Please find the <b>lexicographically </b>smallest <em>good</em> permutation <b>p</b>.</p>\n\n<p><b>Definition for \"lexicographically smaller</b>\":</p>\n\n<p>For two permutations <b>p</b> and <b>q</b>, we say that <b>p</b> is lexicographically smaller than <b>q</b> if and only if there exists a index <b>1</b> \u2264 <b>l</b> \u2264 <b>n</b> such that:</p>\n<ul>\n\t<li>For any <b>1</b> \u2264 <b>i</b> &lt; <b>l</b>, <b>p<sub>i</sub></b> = <b>q</b><b><sub>i</sub></b>. Note that if <b>l</b> = <b>1</b>, this constraint means nothing.</li>\n\t<li>and, <b>p</b><b><sub>l</sub></b> &lt; <b>q</b><b><sub>l</sub></b>.</li>\n</ul>\n</p>\n\n<p>For example, (2, 3, 1, 4) &lt; (2, 3, 4, 1) &lt; (3, 4, 1, 2). The lexicographically smallest permutation is, of course, (1, 2, ..., <b>n</b>), though this one is not <em>good</em>.</p>\n\n<h3>Input</h3>\n<p>First line of the input contains an integer <b>T</b> denoting number of test cases.</p>\n<p>For each test case, the only line contains an integer <b>n</b>.</p>\n\n<h3>Output</h3>\n<p>For each test case, output the lexicographically smallest <em>good</em> permutation of length <b>n</b>. It's guaranteed that this permutation exists.</p>\n\n<h3>Constraints</h3>\n<ul>\n\t<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n\t<li><b>2</b> \u2264 <b>n</b> \u2264 <b>10<sup>5</sup></b></li>\n</ul>\n\n<h3>Subtasks</h3>\n<ul>\n\t<li><b>Subtask #1 (17 points)</b>: <b>2</b> \u2264 <b>n</b> \u2264 <b>9</b></li>\n\t<li><b>Subtask #2 (83 points)</b>: Original Constraints</li>\n</ul>\n\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n4\n2\n3\n5\n6\n\n<b>Output:</b>\n2 1\n2 3 1\n2 1 4 5 3\n2 1 4 3 6 5\n</pre>\n<h3>Explanation</h3>\n<p>\n\t<b>Example case 1. </b>The only <em>good</em> permutation of length 2 is (2, 1).</p>\n<p>\n\t<b>Example case 2.\u00a0</b>Consider all permutations of length 3, they are(in lexicographically order):</p>\n<ul>\n\t<li>p = (1, 2, 3), it's not good since p[1] = 1, p[2] = 2 and p[3] = 3;</li>\n\t<li>p = (1, 3, 2), it's not good since p[1] = 1;</li>\n\t<li>p = (2, 1, 3), it's not good since p[3] = 3;</li>\n\t<li>p = (2, 3, 1), it's good since p[1] \u2260 1, p[2] \u2260 2 and p[3] \u2260 3;</li>\n\t<li>p = (3, 1, 2), it's good since p[1] \u2260 1, p[2] \u2260 2 and p[3] \u2260 3;</li>\n\t<li>p = (3, 2, 1), it's not good since p[2] = 2.</li>\n</ul>\n<p>Thus the minimum good one is (2, 3, 1).</p>\n<p><b>Example case 3. </b>Consider two good permutations for third test case: p=(2, 1, 4, 5, 3) and q=(2, 4, 1, 5, 3), then p < q. You can check lexicographically condition as follows. Find the first index where the entries of two permutations are different, and compare those entries. For example, in this case, the first position where the entries differ is index 2. You can see that p[2] < q[2], as 1 < 4, so p is lexicographically smaller than q.</p>\n",
+    "category_name": "main",
+    "date_added": "26-07-2017",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/MINPERM",
+    "problem_tester": "jingbo_adm",
+    "time": {
+        "view_start_date": 1504258200,
+        "end_date": 1505122200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1505122200,
+        "submit_start_date": 1504258200,
+        "current": 1537433575
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>A tutorial for this problem is now available on our blog. Click <a href=\"http://blog.codechef.com/2009/08/17/tutorial-for-problem-product-of-divisors//\">here</a> to read it. </h3>\n\n<p>Being in love with number theory, Johnny decided to take a number theory course. On the first day, he was challenged by his teacher with the following problem: given a number N, compute the product of its positive divisors. Johnny is desperate to impress his new teacher so he asks you for help.</p>\n<p>In this problem, the divisors of N do not include the number N itself. For example, if N=12, the divisors of N (excluding N) are 1, 2, 3, 4, and 6. Thus, the product of divisors is 1x2x3x4x6=144. Since the result may be very large, if the result has more than 4 decimal digits, Johnny only needs to compute the <b>last 4 digits</b> of it.</p>\n<h3>Input</h3>\n<p>The first line contains t, the number of test cases (about 300,000). Then t test cases follow.</p>\n<p>Each test case contains a single integer N (1 \u2264 N \u2264 500,000) whose product of divisors needs to be computed.</p>\n<h3>Output</h3>\n<p>For each test case, print a single line containing the corresponding result of that test case.</p>\n<h3>Example</h3>\n<pre>\n<b>Input</b>\n6\n3\n4\n12\n25\n957\n10000\n\n<b>Output</b>\n1\n2\n144\n5\n7493\n0000\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-05-2009",
+    "is_direct_submittable": false,
+    "contest_name": "June 2009 (Contest IV)",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1243848600,
+        "end_date": 1244712600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1244712600,
+        "submit_start_date": 1243848600,
+        "current": 1537439938
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Product of divisors",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "JUNE09",
+    "max_timelimit": "0.205714",
+    "problem_code": "D1"
+}

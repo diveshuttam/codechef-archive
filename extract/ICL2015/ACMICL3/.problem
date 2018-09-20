@@ -1,0 +1,33 @@
+{
+    "problem_code": "ACMICL3",
+    "problem_author": "f2012086",
+    "contest_name": "ACM-ICL Prelims 2015",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>f2012086</span>",
+    "problem_name": "Library and Headcount",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ICL2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/f2012086'>f2012086</a>, <a class='problem-tag-small ' href='/tags/problems/icl2015'>icl2015</a>, <a class='problem-tag-small ' href='/tags/problems/sorting'>sorting</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<h2>Problem description.</h2>\n<p>In Bytelandian University, everyone has to enter his/her name on a computer when entering or leaving the library. The names are stored in a file on that computer. Assume that everyone adheres to this rule. Given the file, find out how many people are there in the library.<br />\nThere will not be spaces in names. Different people have different names.</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases.<br/>The description of <b>T</b> test cases follows.</br/></li>\n<li>The first line of each testcase contains an integer <b>n</b>, the number of names in the file.</li>\n<li>Then <b>n</b> lines follow, each containing a name.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing the number of people in the library.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>50000</b></li>\n<li><b>1</b> \u2264 <b>Length of each name</b> \u2264 <b>30</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n8\nShubham\nHasil\nShubham\nRavi\nShikhar\nHasil\nJaiwant\nHasil\n\n<b>Output:</b>\n4\n</pre>",
+    "category_name": "main",
+    "date_added": "15-02-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/ACMICL3",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1428925799,
+        "end_date": 1424637000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1428925733,
+        "submit_start_date": 1428925799,
+        "current": 1537436742
+    },
+    "user": {
+        "username": ""
+    }
+}

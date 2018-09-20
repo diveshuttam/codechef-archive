@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nThe Chef is having a dinner party and invited over all his friends.  His guests\nbeing fairly health conscious have <strong>exact protein requirements</strong>, and The Chef wishes to oblige them all.\n\n<p>\nThe Chef will cook dishes for each individual guest using the ingredients in his kitchen.  Each ingredient has a specific amount of protein. The complete dish will have a protein content value equal to the sum of the protein\ncontents of the individual ingredients. To cook a dish, The Chef can use any of the ingredients which appear on his shelf, <strong>but only in the order which they appear on the shelf</strong>.  The same ingredient may appear multiple times, and can also be used as many times as it appears.  \n</p>\n\n<p>\nThere are multiple ways to choose ingredients following the rules given above. However, The Chef is only interested in choosing the set of ingredients that appear first in a <strong>lexicographically ordered</strong> list of ingredients which satisfy the protein constraints.  Your job is to write a program that helps The Chef figure out which dish to serve!\n</p>\n\n<h3>Input</h3>\n<p>The first line of input contains <tt><em>t</em></tt>, the number of guests invited by The Chef (about 200). \n\n<p>\nEach test consists of three lines:\n<ul>\n<li>The first line consists of one integer <tt>1 <= <em>k</em> <= 26</tt> (the number of <strong> unique </strong> ingredients on the shelf) and than <tt><em>k</em></tt>\nspace-separated positive integers from the set <tt>{1, 2, ... ,15}</tt> describing the protein content for each ingredient in an alphabetically sorted list of unique ingredients.  (the first protein value corresponds with ingredient <tt>a</tt>, the second corresponds with the protein value for ingredient <tt>b</tt>, and so on).\n<li>The second line contains <em>L</em> - a sequence of lower-case letters of the Latin alphabet (at most 1000) which signify the name of the ingredient.\n<li>The third line contains one positive integer S which specifies the exact protein requirement of this guest (<tt><em>1 < S < 500</em></tt>).\n</ul>\n\n<h3>Output</h3>\n<p>For each testcase either output the sequence of ingredients as described above, or the word '<tt>IMPOSSIBLE</tt>' if no such subsequence exists.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n5 12 1 12 4 4\nacccdadceb\n2\n3 5 4 6\nabcbacbabcc\n15\n2 3 4\nbaba\n7\n\n<b>Output:</b>\nIMPOSSIBLE\naaa\nab\n</pre>\n<br/>\n<p><b>Comments:</b>\n<p>For the first guest we have five ingredients: <tt>a, b, c, d, e</tt> with protein values <tt>12 1 12 4 4</tt> respectively. To achieve a total protein value equal to <tt>2</tt> we need two ingredients <tt>b</tt>. But there is only one, thus the answer is <tt>IMPOSSIBLE</tt>.   \n<p>For the second guest we can achieve a total protein value of 15 with the ingredients taken as: <tt>abc, bca, acb, cab, cba, bac</tt>, or <tt>aaa</tt>. Of these, the first according to lexicographic order is <tt>aaa</tt>.\n<p>  \nFor the third guest, out of the two possibilities, <tt>ab</tt> is the correct answer.   \n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-04-2009",
+    "is_direct_submittable": false,
+    "contest_name": "May 2009 (Contest III)",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1241170200,
+        "end_date": 1242034200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1242034200,
+        "submit_start_date": 1241170200,
+        "current": 1537439947
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Healthy dinner party",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "MAY09",
+    "max_timelimit": "1.82744",
+    "problem_code": "C4"
+}

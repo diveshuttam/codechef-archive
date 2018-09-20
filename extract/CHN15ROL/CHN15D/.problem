@@ -1,0 +1,33 @@
+{
+    "problem_code": "CHN15D",
+    "problem_author": "arjunarul",
+    "contest_name": "ACM-ICPC Asia-Chennai Online Contest 2015, Replay",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>arjunarul</span>",
+    "problem_name": "Line Intersections",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CHN15ROL",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acmchn15'>acmchn15</a>, <a class='problem-tag-small ' href='/tags/problems/arjunarul'>arjunarul</a>, <a class='problem-tag-small ' href='/tags/problems/binary-search'>binary-search</a>, <a class='problem-tag-small ' href='/tags/problems/fenwick'>fenwick</a>, <a class='problem-tag-small ' href='/tags/problems/intersections'>intersections</a>, <a class='problem-tag-small ' href='/tags/problems/inversions'>inversions</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/segment-tree'>segment-tree</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>You are given <b>N</b> lines (which extend indefinitely in both directions) on the <b>X-Y</b> plane. Some of these lines intersect with each other and others don't (parallel lines). We call each such intersection, an intersection point. You have to find the <b>K</b><sup>th</sup> intersection from the bottom.\n</p>\n\n<p>\nIn particular, you have to output the smallest value <b>V</b>, such that there are at least <b>K</b> intersection points whose <b>Y</b>-coordinate is \u2264 <b>V</b>.\n</p>\n<p>\nIf <b>m</b> lines intersect at a particular point, that point is counted <b>m(m-1)/2</b> times. That is, if only two lines intersect at a point, it is counted as one intersection point. But if three lines intersect at the same point, it is counted as 3 intersection points: one for each pair.\n</p>\n<p>\nYou are guaranteed that all the <b>N</b> lines are distinct, and that there are at least <b>K</b> intersection points between the lines.\n</p>\n\n<h3>Input Format:</h3>\n<p>\nThe first line contains the two integers <b>N</b> and <b>K</b>.\n</p>\n<p>\nThe next <b>N</b> lines contain two space separated integers each. The <b>(i+1)</b><sup>th</sup> line contains <b>M<sub>i</sub></b> and <b>C<sub>i</sub></b>, such that the equation <b>y = M<sub>i</sub>*x + C<sub>i</sub></b>, denotes the <b>i</b><sup>th</sup> line.\n</p>\n\n<h3>Output Format:</h3>\n<p>\nOutput one value denoting <b>V</b> as defined in the problem, which should be within 10<sup>-2</sup> of the correct answer.\n</p>\n\n<h3>Constraints:</h3>\n<ul>\n<li><b>1 \u2264 N \u2264 10<sup>5</sup></b></li>\n<li><b>K </b> \u2265 1</li>\n<li>It is guaranteed that there are at least <b>K</b> intersection points. That is, 1 \u2264 <b>K</b> \u2264 number of intersection points in the input data</li>\n<li><b>-20000 \u2264 M<sub>i</sub> \u2264 20000</b> and <b>M<sub>i</sub></b> \u2260 0</li>\n<li><b>-20000 \u2264 C<sub>i</sub> \u2264 20000</b></li>\n<li>It is guaranteed that there are no <b>i</b> and <b>j</b>, such that <b>i \u2260 j</b> and (<b>M<sub>i</sub> = M<sub>j</sub></b>) and (<b>C<sub>i</sub> = C<sub>j</sub></b>)</li>\n</ul>\n\n<h3>Example:</h3>\n\n<pre>\n<b>Input 1:</b>\n4 6\n-1 2\n-3 -1\n3 1\n-4 1\n\n<b>Output 1:</b>\n3.5\n</pre>\n\n<h3>Explanation:</h3>\n<p>There are 6 intersection points in total. Therefore, we want the <b>y</b>-coordinate of the highest intersection point. We see that the highest intersection point is (-1.5,3.5), and hence the answer is 3.5.\n</p>\n\n<pre>\n<b>Input 2:</b>\n4 3\n-10 -6\n-5 -10\n2 1\n4 -8\n\n<b>Output 2:</b>\n-7.429\n</pre>\n",
+    "category_name": "main",
+    "date_added": "26-10-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CHN15D",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1450366200,
+        "end_date": 1450377000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1450377000,
+        "submit_start_date": 1450366200,
+        "current": 1537435747
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><B>Problem description:</b><br />\n<br /></p>\n<p>Charlie Bucket is a kind and loving boy living in poverty with his parents and four bedridden grandparents.Down the street are Willy Wonka's \u2018N\u2019 chocolate factories &amp; \u2018M\u2019 houses.<br />\n<br /><br /></p>\n<p>A Godown lying adjacent to the factories holds the raw materials for the factories. It is assumed that 1g of raw material produces 1 chocolate. The transfer of  raw materials to the factories is to take place for \u2018Q\u2019 days.For each day, the factories lying between the two  indices  L and R(inclusive), are provided with \u2018K\u2019 grams of raw materials each.(Values of  L and R could differ for each day)<br />\n<br /><br /></p>\n<p>The houses in the city are also believed to have supply of raw materials which they can transfer it to the factories and get chocolates in return.No other house could get the chocolates made from these raw materials, except the supplying one.<br />\n<br /><br /></p>\n<p>There are \u2018E\u2019 eligible factories which can transfer chocolates to households. For each of the eligible factories, the indices of houses for which it is allowed to provide chocolates and the additional amount of raw materials that the houses wish to provide them are listed.<br />\n<br /><br /></p>\n<p>After  the  raw materials\u2019 retrieval gets completed , the process of transferring chocolates from factories to the houses take place. Due to some old custom, each factory could transfer its chocolates to at most one house and each house could get the chocolates from at most one factory.<br />\nWonka announces a contest whereby children, who find the optimal arrangement, such that the sum of the chocolates delivered to all the houses is maximum, will be given a tour of the factories and win a chance to be presented with an unknown grand prize.<br />\n<br /><br /><br />\nHelp Charlie Bucket win the contest.<br />\n<br /><br /><br />\n<b>Input:</b><br />\n<br /><br /><br />\nThe first line contains an integer \u2018T\u2019 , the number of test cases. \u2018T\u2019 test cases follow :<br /><br />\nThe first line of each test case contains two integers: N,the number of factories and M,the number of houses.<br />\n<br /><br />\nThe next line contains an integer \u2018Q\u2019,the number of days for which the transfer of raw materials take place.\u2019Q\u2019 lines follow:<br />\n<br /><br />\nEach of the \u2018Q\u2019 lines contains three integers : L ,R and K.<br />\n<br /><br />\nL and R : Indices of the factories<br />\n<br /><br />\nK : Amount of raw material in \u2018grams\u2019.<br />\n<br /><br />\nThe next line contains an integer \u2018E\u2019, the number of eligible<br />\nfactories.<br />\n<br /><br />\nFor each of the \u2018E\u2019 factories :<br />\n<br /><br />\n     The first line contains two integers \u2018F\u2019,the index of the eligible factory and \u2018H\u2019,the number of  houses for which the \u2018F\u2019th factory is allowed to transfer chocolates.\u2019H\u2019 lines follow:<br />\n<br /><br />\n     Each of the \u2018H\u2019 lines contains two integers \u2018Hi\u2019 and \u2018R\u2019, the index of the house and the amount of raw materials(in grams) the \u2018Hi\u2019th house provides \u2018F\u2019.<br />\n<br /><br /><br />\n<b>Constraints:</b><br />\n<br /><br /><br />\n1&lt;=T&lt;=100<br /><br />\n1&lt;=N,M&lt;=100<br /><br />\n1&lt;=Q&lt;=5000<br /><br />\n1&lt;=L,R&lt;=N<br /><br />\n0&lt;=E&lt;=N<br /><br />\n1&lt;=F&lt;=N<br /><br />\n0&lt;=H&lt;=M<br /><br />\n1&lt;=Hi&lt;=M<br /><br />\n0&lt;=K,R&lt;=10,000<br /><br />\n<br /><br />\n<b>Output:</b><br /><br />\n<br /><br />\nFor each test case,print a single line: The maximum sum of the chocolates of all houses.<br />\n<br /><br /><br />\n<b>Example:</b><br />\n<br /><br /><br />\n<b>Input #1:</b><br /><br />\n<br /><br />\n1<br /><br />\n3 2<br /><br />\n2<br /><br />\n1 3 1<br /><br />\n2 3 2<br /><br />\n2<br /><br />\n1 1<br /><br />\n1 1<br /><br />\n3 1<br /><br />\n2 2<br /><br />\n<br /><br /><br />\n<b>Output #1:</b><br /><br />\n<br /><br />\n7<br /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Abacus'15",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1424271600,
+        "end_date": 1424284200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1424284200,
+        "submit_start_date": 1424271600,
+        "current": 1537436772
+    },
+    "problem_author_html_handle": "abacus_opc",
+    "problem_name": "Charlie and the Chocolate Factory",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abacus_opc'>abacus_opc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abacus_opc",
+    "contest_code": "ABCS2015",
+    "max_timelimit": "0.3",
+    "problem_code": "ABA15B"
+}

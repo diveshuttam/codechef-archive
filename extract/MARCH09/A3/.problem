@@ -1,0 +1,33 @@
+{
+    "problem_code": "A3",
+    "problem_author": "admin",
+    "contest_name": "March 2009 (Contest I)",
+    "todo": false,
+    "problem_author_html_handle": "admin",
+    "problem_name": "The Guessing Game",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "MARCH09",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>, <a class='problem-tag-small ' href='/tags/problems/explanation'>explanation</a>, <a class='problem-tag-small ' href='/tags/problems/game'>game</a>, <a class='problem-tag-small ' href='/tags/problems/guessing'>guessing</a>, <a class='problem-tag-small ' href='/tags/problems/guessinggame'>guessinggame</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Alice and Johnny are playing a simple guessing game. Johnny picks an arbitrary positive integer <i>n</i> (1<=<i>n</i><=10<sup>9</sup>) and gives Alice exactly <i>k</i> hints about the value of <i>n</i>. It is Alice's task to guess <i>n</i>, based on the received hints. \n<p>\nAlice often has a serious problem guessing the value of <i>n</i>, and she's beginning to suspect that Johnny occasionally cheats, that is, gives her incorrect hints. \nAfter the last game, they had the following little conversation:\n<div align=\"justify\">\n<ul>\n<li>[Alice] Johnny, you keep cheating!\n<li>[Johnny] Indeed? You cannot prove it.\n<li>[Alice] Oh yes I can. In fact, I can tell you with the utmost certainty that in the last game you lied to me at least *** times.\n</ul>\n</div>\n<p>\nSo, how many times at least did Johnny lie to Alice? Try to determine this, knowing only the hints Johnny gave to Alice.\n\n<h3>Input</h3>\n\n<p>The first line of input contains <i>t</i>, the number of test cases (about 20). Exactly <i>t</i> test cases follow. \n\n<p>Each test case starts with a line containing a single integer <i>k</i>, denoting the number of hints given by Johnny (1<=<i>k</i><=100000). Each of the next <i>k</i> lines contains exactly one hint. The <i>i</i>-th hint is of the form:</p>\n<p>\n <tt>operator</tt> <i>l<sub>i</sub></i> <tt>logical_value</tt>\n</p>\n<p>where <tt>operator</tt> denotes one of the symbols <tt>< </tt>, <tt>> </tt>, or <tt>=</tt>; <i>l<sub>i</sub></i> is an integer (1<=<i>l<sub>i</sub></i><=10<sup>9</sup>), while <tt>logical_value</tt> is one of the words: <tt>Yes</tt> or <tt>No</tt>. The hint is considered correct if <tt>logical_value</tt> is the correct reply to the question: \"Does the relation: <i>n</i> <tt>operator</tt> <i>l<sub>i</sub></i> hold?\", and is considered to be false (a lie) otherwise.\n\n<h3>Output</h3>\n<p>For each test case output a line containing a single integer, equal to the minimal possible number of Johnny's lies during the game.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n2\n< 100 No\n> 100 No\n3\n< 2 Yes\n> 4 Yes\n= 3 No\n6\n< 2 Yes\n> 1 Yes\n= 1 Yes\n= 1 Yes\n> 1 Yes\n= 1 Yes\n\n<b>Output:</b>\n0\n1\n2\n</pre>\n\n<p><b>Explanation:</b> for the respective test cases, the number picked by Johnny could have been e.g. <i>n</i>=100, <i>n</i>=5, and <i>n</i>=1.",
+    "category_name": "main",
+    "date_added": "1-12-2008",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "max_timelimit": "0.791626",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/A3",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1235838600,
+        "end_date": 1237055400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1237055400,
+        "submit_start_date": 1235838600,
+        "current": 1537439982
+    },
+    "user": {
+        "username": ""
+    }
+}

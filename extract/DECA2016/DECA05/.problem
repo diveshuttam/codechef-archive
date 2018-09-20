@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Description</h3>\n<p>ISRO has a data center in which incoming data from space is analysed. Seats are allocated to each data scientist. But initially they sat at incorrect seats.\n</p>\n<p>You have been given the task to make them seat in their alloted positions in minimum number of swaps.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n\n<p>First line of each input consists of number test cases T.Each Test case consists of 3 lines:<br/><br />\n1st line contains total number of data scientist say \"N\".<br/><br />\n2nd line contains Correct line up<br/><br />\n3rd line contains Incorrect line up<br/>\n</br/></br/></br/></br/></p>\n<h3>Output</h3>\n<p>For each test case output  total number of swaps required to change Incorrect line up to correct line up</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<p>2\n3\nBob Alice Jack\nAlice Jack Bob\n5\nAbhishek Avinash Ashmita Ankit Sundeep\nAshmita Abhishek Ankit Sundeep Avinash\n</p>\n<b>Output:</b>\n<p>2\n4\n</p>\n</pre><h3>Explanation</h3>\n<p>1st Test Case :<br />\nAlice Bob swapped . Jack and Alice swapped.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Decathlon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1454774400,
+        "end_date": 1454785200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454785200,
+        "submit_start_date": 1454774400,
+        "current": 1537435526
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>abhishek_coder</span>",
+    "problem_name": "Rearrangement",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhishek_coder'>abhishek_coder</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abhishek_coder",
+    "contest_code": "DECA2016",
+    "max_timelimit": "0.13 - 1",
+    "problem_code": "DECA05"
+}

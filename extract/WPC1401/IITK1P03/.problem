@@ -1,0 +1,33 @@
+{
+    "problem_code": "IITK1P03",
+    "problem_author": "admin2",
+    "contest_name": "IIT Kanpur, Monthly Programming Contest-1",
+    "todo": false,
+    "problem_author_html_handle": "admin2",
+    "problem_name": "Powerhouses Again",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "WPC1401",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin2'>admin2</a>, <a class='problem-tag-small ' href='/tags/problems/iitk'>iitk</a>, <a class='problem-tag-small ' href='/tags/problems/iitkpc03'>iitkpc03</a>, <a class='problem-tag-small ' href='/tags/problems/knapsack'>knapsack</a>, <a class='problem-tag-small ' href='/tags/problems/meet-in-middle'>meet-in-middle</a>, <a class='problem-tag-small ' href='/tags/problems/wpc'>wpc</a>, <a class='problem-tag-small ' href='/tags/problems/wpc1'>wpc1</a>, <a class='problem-tag-small ' href='/tags/problems/wpc1401'>wpc1401</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nA country has N cities with certain population in each city. These cities are internally connected by two-way power cables. Among them, K cities have powerhouses. If a powerhouse is in a city, or is connected to another city via cables, directly or indirectly, you can provide electricity to that city, if you own the powerhouse. </p>\n<p>Initially X (X\u2264K) of the powerhouses are owned by you. Each powerhouse costs something, and the cost is given to you. You can sell any power house that you own, at the cost of the powerhouse. You can buy a powerhouse which you don\u2019t yet own, at it\u2019s mentioned cost, if you have enough money.</p>\n<p>In your bank account you have some money, say M (apart from the powerhouses you own). </p>\n<p>You want to satisfy maximum number of people, by buying and selling appropriate powerhouses. Find the maximum number of people that can be satisfied.</p>\n<h3>Input</h3>\n<ul>\n<li>\nFirst line of the input contains three space separated integers N , E and K. N represents number of cities, E denotes the number of connections and K represents number of cities having powerhouses.\n</li></ul>\n<ul>\n<li>\nNext E lines each contains two integers u and v representing that there is a connection between city u and city v. There won\u2019t be any duplicate connection. u won\u2019t be equal to v.\n</li></ul>\n<ul>\n<li>\nNext line contains N space separated integers denoting the population of each city.\n</li></ul>\n<ul>\n<li>\nNext line contains K space separated integers. Each integers denote a city containing powerhouse. All K cities will be distinct and valid. Powerhouses are numbered from 1 to K (in the order in which they are provided).\n</li></ul>\n<ul>\n<li>\nNext line contains K space separated integers denoting the cost of the corresponding powerhouse (ith integer denotes the cost of the ith powerhouse).\n</li></ul>\n<ul>\n<li>\nNext line contains two integers X and M. X represents number of powerhouses that you own and M represents the amount of money that you have in your bank account.\n</li></ul>\n<ul>\n<li>\nNext line contains X space separated integers denoting which of the X powerhouses among the given K powerhouses you own. Integer X_i means you  own X_i th powerhouse.\n</li></ul>\n<h3>Output</h3>\n<p>\nOne integer in a single line denoting the maximum number of people that you can satisfy.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 N \u2264 100000</li>\n<li>1 \u2264 u, v \u2264 N</li>\n<li>1 \u2264 E \u2264 200000</li>\n<li>1 \u2264 K \u2264 31</li>\n<li> 1\u2264 X \u2264 K </li>\n<li> 1 \u2264 X_i \u2264 K </li>\n<li>Population of each city will be less than or equal to 1000000</li>\n<li>Cost of a powerhouse will be less than or equal to 1000000000.</li>\n<li>0 \u2264 M \u2264 32000000000</li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n6 6 2\n1 2 \n1 3\n1 4\n2 4\n3 4\n5 6\n5 3 11 7 2 18\n4 5\n115 100\n1 14\n2\n<b>Output:</b>\n20\n</pre><h3> Explanation </h3>\n<ul>\n<li> There are 6 cities numbered from 1 to 6 having population at the cities 5, 3, 11, 7, 2 and 18 respectively.\n</li><li> 2 cities, city 4 and city 5 contains powerhouse. Cost of the powerhouse located at city 4 is 115 and cost of the powerhouse located at city 5 is 100.\n</li><li> Powerhouses are numbered. Meaning 1st powerhouse corresponds to powerhouse located at city 4 and 2nd powerhouse corresponds to the powerhouse located at city 5.\n</li><li> You own one of the powerhouses and have additional balance of 100 in your bank account.\n</li><li> 2 in the next line means you own the 2nd powerhouse (i.e., powerhouse located at city 5 having cost 100).\n</li><li> Since you already own powerhouse 2 and you do not have suffcient balance to buy powerhouse 1 (because it costs 115 but you have only 14 in your account. You can not buy that powerhouse even if you sell the powerhouse that you own. Because that will fetch you only 100 more so you will have total of 114 which is not enough to buy the first poerhouse).\n</li><li> Since the 2nd poerhouse, that you own, is connected to city 5 and city 6 you can satisfy atmost 2 + 18 = 20 people.\n</li></ul>\n",
+    "category_name": "main",
+    "date_added": "30-09-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/IITK1P03",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1412083800,
+        "end_date": 1412101800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1412101800,
+        "submit_start_date": 1412083800,
+        "current": 1537437395
+    },
+    "user": {
+        "username": ""
+    }
+}

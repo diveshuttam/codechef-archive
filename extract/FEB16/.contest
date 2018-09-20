@@ -1,0 +1,292 @@
+{
+    "announcements": "<p><b>The February Challenge 2016 has ended!<br />The editorials for the contest can be found <a target=\"_blank\" href=\"https://discuss.codechef.com/tags/feb16/\">here</a>.<br />The problems have been moved to practice section.<br />Solutions are public for all the problems.<br />The challenge problem has been re-judged and the ranklist has been re-calculated.<br />The winners blog post will be published soon.</b></p>\r\n<p><b>11/02/2016, 0220 hrs IST</b>: One of the test files was not counted (the file of type 4) in scoring for CHEFJR. We have corrected it up. We really regret the inconvenience caused. The problem has been put into rejudge to incorporate this.</p>\r\n<p><b>08/02/2016, 1203 hrs IST</b>: Some new test files are added to the problem MTMXSUM and all the solutions have been rejudged. Regret the inconvenience.</p>\r\n<p><b>07/02/2016, 0102 hrs IST</b>: The description of the algorithm mentioned in problem DEVLDSIC has been mentioned more formally.</p>\r\n<p><b>07/02/2016, 0101 hrs IST</b>: The last problem CHEFJR has been added into the contest.</p>\r\n<p><b>06/02/2016, 1135 hrs IST</b>:\u00a0There was an error in configuring the timelimit for the problem SEATL. It has been corrected and all the solutions have been rejudged. Regret the inconvenience.</p>\r\n<p><b>06/02/2016, 0545 hrs IST</b>: Another problem RECTLOVE has been added in the set.</p>\r\n<p><b>02/05/2016, 1500 hrs IST</b>: Two problems are still in the oven. They will be ready soon. Regret the delay.</p>",
+    "ip": "149.129.135.113",
+    "code": "FEB16",
+    "duration": "14400",
+    "name": "February Challenge 2016",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "CALLSCHE": [
+            {
+                "score": "15",
+                "count": "5"
+            },
+            {
+                "score": "40",
+                "count": "10"
+            },
+            {
+                "score": "60",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "80"
+            }
+        ],
+        "MTMXSUM": [
+            {
+                "score": "40",
+                "count": "89"
+            },
+            {
+                "score": "100",
+                "count": "241"
+            }
+        ],
+        "SEATL": [
+            {
+                "score": "10",
+                "count": "115"
+            },
+            {
+                "score": "20",
+                "count": "12"
+            },
+            {
+                "score": "30",
+                "count": "118"
+            },
+            {
+                "score": "70",
+                "count": "11"
+            },
+            {
+                "score": "80",
+                "count": "6"
+            },
+            {
+                "score": "90",
+                "count": "11"
+            },
+            {
+                "score": "100",
+                "count": "522"
+            }
+        ],
+        "SEAPERMS": [
+            {
+                "score": "10",
+                "count": "65"
+            },
+            {
+                "score": "20",
+                "count": "4"
+            },
+            {
+                "score": "40",
+                "count": "33"
+            },
+            {
+                "score": "100",
+                "count": "43"
+            }
+        ],
+        "WRDSUM": [
+            {
+                "score": "8",
+                "count": "21"
+            },
+            {
+                "score": "20",
+                "count": "56"
+            },
+            {
+                "score": "36",
+                "count": "6"
+            },
+            {
+                "score": "54",
+                "count": "19"
+            },
+            {
+                "score": "74",
+                "count": "2"
+            },
+            {
+                "score": "100",
+                "count": "30"
+            }
+        ],
+        "RECTLOVE": [
+            {
+                "score": "15",
+                "count": "57"
+            },
+            {
+                "score": "85",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "763"
+            }
+        ],
+        "CHEFDETE": [
+            {
+                "score": "50",
+                "count": "296"
+            },
+            {
+                "score": "100",
+                "count": "4586"
+            }
+        ],
+        "STROPR": [
+            {
+                "score": "8",
+                "count": "350"
+            },
+            {
+                "score": "24",
+                "count": "233"
+            },
+            {
+                "score": "32",
+                "count": "393"
+            },
+            {
+                "score": "76",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "1476"
+            }
+        ],
+        "DEVLDISC": [
+            {
+                "score": "100",
+                "count": "1172"
+            }
+        ]
+    },
+    "rules": " <p><strong class=\"rules-heading\">CodeChef: A Platform for Aspiring Programmers</strong></p> <div class=\"rules-body\"> <p>CodeChef was created as a platform to help programmers make it big in the world of algorithms, computer programming and programming contests. At CodeChef, we work hard to revive the geek in you by hosting a programming contest at the start of the month and another smaller programming challenge in the middle of the month.</p> </div> <p><br /> <strong class=\"rules-heading\">About CodeChef February Long Challenge:</strong></p> <div class=\"rules-body\"> <p>CodeChef Long Challenge is a 10 day monthly coding contest where you can show off your computer programming skills. The significance being- it gives you enough time to think about a problem, try different ways of attacking the problem, read the concepts etc. If you're usually slow at solving problems and have ample time in hand, this is ideal for you. There would a tremendous amount of learning while competing. We also put in a lot of efforts in getting quality problems, which would in turn foster your learning while solving them.</p> </div> <p><br /> <strong class=\"rules-heading\">Contest Details:</strong></p> <div class=\"rules-body\"> <p><strong>Duration: </strong>10 Days, From 5<sup>th</sup> February 15:00 hrs IST to 15<sup>th</sup> February 15:00 hrs IST. Check your timezone <a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+February+Challenge+2016&amp;iso=20160205T15&amp;p1=44\">here</a>.</p> </div> <p><br /> <strong class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</strong></p> <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to CodeChef Code Of Conduct.</p> </div> <p><br /> <strong class=\"rules-heading\">What is it for you?</strong></p> <div class=\"rules-body\"> <p>The idea behind these programming contests is that we want you to learn while competing. Also we believe that it is alright to refer to tutorials, books and other materials, learn a concept and then apply the same to solve a problem during a contest. But it is <strong>not alright to copy other people's solutions or seek other people's help to solve a problem without understanding it.</strong> The dividing line may seem to be thin but it can be captured by the spirit of learning. If whatever you are doing is making you learn while you do so, we tend to believe that it is alright.</p> <br /> <p>Not just that, as a token of motivation we also give away cash prizes and goodies to the winners of the contest. However, our sole intention lies in making our users learn new concepts while competing. FYI, here are the list of prizes: <br /><br /> <strong class=\"rules-heading\">For Indians:</strong></p> <ul class=\"\"> <li>1st prize: INR 12000/-</li> <li>2nd prize: INR 8000/-</li> </ul> <strong class=\"rules-heading\">For Rest of World:</strong> <ul class=\"\"> <li>1st prize: $400</li> <li>2nd prize: $300</li> </ul> </div> <div class=\"rules-body\"> <p>In addition to the above prizes. Top 10 global, Top 20 Indian, Top 5 school (Indian), Top 5 school (Global), Top 3 challenge problem solvers Indian and Global (apart from the winners) get cool CodeChef goodies. Starting with August Challenge 2015, top 5 girl coders will be provided with goodies, given that they are among top 100 in the final ranklist (this will be irrespective of the region).</p> </div> <p><br /> <strong class=\"rules-heading\">What's new in CodeChef?</strong></p> <div class=\"rules-body\"> <p>We've recently launched our IDE and you may now Code, Compile and Run on our online ide. Play more in discuss with groups &amp; LaTex.</p> </div> <p><br /> <strong class=\"rules-heading\">Rules and Regulations:</strong></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\"> feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li><strong>All the problems will be partially graded and you will get score for passing certain test data (except tie-breaker problem). You will receive hundred (100) point for solving a problem (passing all test cases).</strong></li> <li><strong>The details of the failed test cases will also be visible on your solution page (except challenge problem)</strong></li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</li> <li>You shall not possess more than one account on CodeChef. If you have, then do let us know, so that we can deactivate the insignificant one. If you do not report it and we come to know about it, we may deactivate both the accounts permanently.</li> <li>The score that you will see during the contest (for tie-breaker problem), will only be partial (obtained on 20% of the test data). The submissions will be re-judged at the end of the contest to get full score (obtained on the whole test data).</li> <li>The number of submissions that one can make during the contest on the problem will be limited to 200 for Tie breaker problem and 500 for rest.</li> <div class=\"rules-body\">However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/FEB16/1454690569.png",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CALLSCHE": {
+            "allow_submission": false,
+            "name": "Call Center Schedule",
+            "category_name": "main",
+            "accuracy": 5.42,
+            "successful_submissions": "80",
+            "code": "CALLSCHE",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "SEATL": {
+            "allow_submission": false,
+            "name": "Sereja and Two Lines",
+            "category_name": "main",
+            "accuracy": 4.82,
+            "successful_submissions": "522",
+            "code": "SEATL",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "MTMXSUM": {
+            "allow_submission": false,
+            "name": "Matrix Maximum Sum",
+            "category_name": "main",
+            "accuracy": 8.47,
+            "successful_submissions": "241",
+            "code": "MTMXSUM",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHEFJR": {
+            "allow_submission": false,
+            "name": "Chef and Job and Rest",
+            "category_name": "main",
+            "accuracy": 57.41,
+            "successful_submissions": "93",
+            "code": "CHEFJR",
+            "type": "2",
+            "is_direct_submittable": false
+        },
+        "SEAPERMS": {
+            "allow_submission": false,
+            "name": "Sereja and Permutations",
+            "category_name": "main",
+            "accuracy": 4.66,
+            "successful_submissions": "43",
+            "code": "SEAPERMS",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "WRDSUM": {
+            "allow_submission": false,
+            "name": "Weird Sum",
+            "category_name": "main",
+            "accuracy": 2.03,
+            "successful_submissions": "30",
+            "code": "WRDSUM",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "RECTLOVE": {
+            "allow_submission": false,
+            "name": "Rectangles of Love",
+            "category_name": "main",
+            "accuracy": 16.3,
+            "successful_submissions": "763",
+            "code": "RECTLOVE",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHEFDETE": {
+            "allow_submission": false,
+            "name": "Chef-Detective",
+            "category_name": "main",
+            "accuracy": 41.23,
+            "successful_submissions": "4586",
+            "code": "CHEFDETE",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "DEVLDISC": {
+            "allow_submission": false,
+            "name": "Devu and a light discussion",
+            "category_name": "main",
+            "accuracy": 17.33,
+            "successful_submissions": "1172",
+            "code": "DEVLDISC",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "STROPR": {
+            "allow_submission": false,
+            "name": "Chef and Strange Operations",
+            "category_name": "main",
+            "accuracy": 5.67,
+            "successful_submissions": "1476",
+            "code": "STROPR",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1455528600,
+        "current": 1537435439,
+        "freezing": 0,
+        "start": 1454664600
+    },
+    "user": {
+        "username": ""
+    }
+}

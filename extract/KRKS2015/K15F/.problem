@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">The super annoying flappy bird is back! This time it has variations. The distance between each pipe, width of each pipe and the gap width of each pipe is not uniform. Consider the world as a 2D plane, the initial position of the flappy bird is given as (x, y) also, for a unit distance horizontally, flappy bird can move at most M distance vertically. There will be N pipes ahead of flappy bird. All the pipes are vertically straight and all the gaps are horizontal. For each pipe four integers x1, x2, y1, y2 are given. x1 and x2 give x-coordinates of the width of the pipe, y1 and y2 give the y-coordinates of the width of the gap. If the bird touches the pipe or the ground, the game is over. You have to find the maximum score that can be obtained considering the bird flies optimally.\n</p>\n<p>\n<b>Note:</b></p>\n<ol>\n<li>Score is the number of pipes crossed successfully.</li>\n<li>All the values are integers, no floating point values are used to represent the points and distance travelled vertically also must be an integer.</li>\n<li>Since the value M is the distance it can move atmost vertically, it can choose not to move vertically at all at any instant.</li>\n</ol>\n<h3>Input</h3>\n<p>First line contains T the number of test cases.</p>\n<p>For each test case, 1st line contains four integers x, y, M and N.</p>\n<p>N lines follow each containing 4 integers x1, x2, y1, y2</p>\n<h3>Output:</h3>\n<p>For each test case print a single integer, denoting the maximum score that can be obtained followed by a new line.</p>\n<pre>\n<h3>Constraints</h3>\n1 &lt; T &lt; 100\n\n0 &lt; x, y &lt;= 10^9\n\n0 &lt;= x1, x2, y1, y2 &lt;= 10^9; x1 &lt; x2 and y1 &lt; y2\nalso, all the x values are given in non decreasing order. i.e. i-th pipe is always to the right of (i-1)th pipe\n\n1 &lt;= N &lt;= 1000\n\n1 &lt;= M &lt;= 10^9\n</pre><h3>Example</h3>\n<p><b>Input:</b><br /><br />\n<samp><br />\n1<br /><br />\n1 2 1 4<br /><br />\n2 4 2 4<br /><br />\n5 7 2 5<br /><br />\n8 9 4 7<br /><br />\n11 12 8 9<br /><br />\n</samp></p>\n<p><b>Output:</b><br /><br />\n<samp>3<br /></samp></p>\n<h3>Explanation:</h3>\n<p>Look at the below image</p>\n<p><img src=\"/download/extimages/6d76ff177e492d69f72d32008b886211.png\" alt=\"Flappy\" border=\"0\" height=\"400\" width=\"500\" /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-01-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Kurukshetra 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1422109800,
+        "end_date": 1422127800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1422127800,
+        "submit_start_date": 1422109800,
+        "current": 1537436951
+    },
+    "problem_author_html_handle": "kopc_admin",
+    "problem_name": "Flappy Bird",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kopc_admin'>kopc_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kopc_admin",
+    "contest_code": "KRKS2015",
+    "max_timelimit": "0.5",
+    "problem_code": "K15F"
+}

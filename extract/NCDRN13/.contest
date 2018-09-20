@@ -1,0 +1,87 @@
+{
+    "announcements": "<ul>\r\n<li>Please note the comment by @hkbharath in problem UVHST.</li>\r\n<li>Next two Questions will be released tomorrow at 2100 IST </li>\r\n<li>If you feel that the Problem Statement of GPNY is complex, then wait for some time we are updating the statement.</li>\r\n<li>Test cases to SVHR has been updated and all solutions will be re judged</li>\r\n<li>Problem Statement of GPNY has been changed, hope this might explain the problem in better way.</li>\r\n<li>When you are finished with the contest give us your feed back <a href=\"https://docs.google.com/forms/d/14URn0NjuhzHMlFiObCO0PfpanYS4kusWpIWrqFFEoRQ/viewform\">here</a>\r\n<li>Hint to GPNY has been posted in the comment by hkbharath @ 17 Nov 2013 08:45 AM <a href=\"http://www.codechef.com/NCDRN13/problems/GPNY#comment-64967\">here</a> in the problem page, please go through it</li> \r\n<li>You can see your rankings <a href=\"http://www.codechef.com/rankings/NCDRN13\">here</a>.\r\n<li>It might take some time to transfer the question in this contest to practice page, till that time you can send mail us your solutions at <a href=\"mailto:uvce.ncode@gmail.com\" target=\"_blank\">uvce.ncode@gmail.com</a> for checking.\r\n<li>For future updates follow our face book page <a href=\"www.facebook.com/uvce.ncode\">UVCE NCode</a>. \r\n</ul> ",
+    "ip": "149.129.135.113",
+    "code": "NCDRN13",
+    "duration": "4500",
+    "name": "UVCE N-Code November 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div> <div><b>Rules and Regulations:</b> <ul> <li>Contest problems will become visible on 14th November, 2013 at 2100 HRS (IST) and end at 18th\u00a0November, 2013 at 0000 HRS (IST). Check your timezome <a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+UVCE+-NCode+November+2013&amp;iso=20131114T21&amp;p1=44\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at feedback@codechef.com.</li> <li>It is an Individual contest (not a team contest) consisting of 5 easy questions <b>specially given for beginers</b>. 2 questions will be released on each day and one question on the last day.</li> <li>This competition will be open for all students. To claim the prizes, one should register <a target=\"_blank\" href=\"https://docs.google.com/forms/d/1gAtLQGXGY-7ZcZ-BO9_UAmV8Sb6ZwpqAWFibW9qZ6sU/viewform\">here</a>.</li> <li>One \"On campus winner (UVCE)\" and one \"Off campus winner\" will be given prizes.</li> <li>For the evaluation of C/C++ codes gcc-4.8.1 will be used.</li> <li> Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>If you do not have a CodeChef ID create one <a target=\"_blank\" href=\"http://codechef.com/user/register\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. </li> <li> Almost all languages supported on CodeChef are allowed. </li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided. </li> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a></li> <li>Please contact\u00a0<a href=\"mailto:uvce.ncode@gmail.com\" target=\"_blank\">uvce.ncode@gmail.com</a> for any queries during the contest. </li> </ul> </div> <div><b>Judging criteria : </b> <ul> <li>All the problems have same points alloted to them. </li> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time. </li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained. </li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified. </li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved.</li> </ul> </div> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/NCDRN13/1424957838.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "UVHST": {
+            "allow_submission": false,
+            "name": "UVCE Hostel",
+            "category_name": "main",
+            "accuracy": 78.49,
+            "successful_submissions": "880",
+            "code": "UVHST",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "UVTR": {
+            "allow_submission": false,
+            "name": "UVland Traffic",
+            "category_name": "main",
+            "accuracy": 18.75,
+            "successful_submissions": "21",
+            "code": "UVTR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GPNY": {
+            "allow_submission": false,
+            "name": "Gopalency",
+            "category_name": "main",
+            "accuracy": 3.46,
+            "successful_submissions": "16",
+            "code": "GPNY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SVHR": {
+            "allow_submission": false,
+            "name": "Save the human race",
+            "category_name": "main",
+            "accuracy": 4.87,
+            "successful_submissions": "19",
+            "code": "SVHR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TPLOT": {
+            "allow_submission": false,
+            "name": "The Parking Lot",
+            "category_name": "main",
+            "accuracy": 63.27,
+            "successful_submissions": "655",
+            "code": "TPLOT",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1384713000,
+        "current": 1537437990,
+        "freezing": 0,
+        "start": 1384443000
+    },
+    "user": {
+        "username": ""
+    }
+}

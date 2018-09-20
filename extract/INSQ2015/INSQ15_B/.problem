@@ -1,0 +1,33 @@
+{
+    "problem_code": "INSQ15_B",
+    "problem_author": "amanmittal",
+    "contest_name": "Insomnia 2015 Qualifier",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>amanmittal</span>",
+    "problem_name": "Lanku and mysterious country",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "INSQ2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/amanmittal'>amanmittal</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/insq2015'>insq2015</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nLanku lives in a mysterious country having <b>N</b> cities. In his country instead of one capital, any number of cities can be capital. There are many cities in his country, but only the capital cities have all the facilities like hospitals, markets etc.<br />\nSo in order to get anything you have to visit the capital city.<br />\nIn order to simplify it, <b>every city has been assigned to exactly one capital city</b>. <br />\nApart from this, every capital city has an entry fee which means that whenever a person from <b>another city enters its assigned capital city</b>, he has to pay some entry fee.</p>\n<p> <b>Consider one unit cost is used to travel one unit distance</b>. </p>\n<p> <br /></p>\n<p>You will be given the location of  <b>N</b> cities as N integers   x<sub>1</sub> , x<sub>2</sub><br />\n , x<sub>3</sub> .... , x<sub>N</sub>. </p>\n<p>You will also be provided with a positive integer <b>K</b> </p>\n<p><br /></p>\n<p>Now your objective is to choose <b> exactly K</b> cities as capital and assign every city to exactly one capital city such that following function <b>F</b> is minimized: </p>\n<p>C[1] = cost to travel from 1<sup>st</sup> city to its assigned capital city + fee to enter its assigned capital. </p>\n<p>C[2] = cost to travel from 2<sup>nd</sup> city to its assigned capital city + fee to enter its assigned capital.  </p>\n<p>..... <br />\n..... </p>\n<p>C[N] = cost to travel from N<sup>th</sup> city to its assigned capital city + fee to enter its assigned capital.  </p>\n<p><b>F = C[1] + C[2] + .... C[N] </b> </p>\n<p><b>NOTE</b>: If the <b>i</b><sup>th</sup> city is capital city then C[i] = 0.<br />\n</p>\n<p>Output the minimum possible value of the function <b>F</b>. </p>\n<p>\u00a0</p>\n<h3>Input</h3>\n\n<ul>\n<li>\nFirst line of input will contain number of test cases <b>T</b>.\n</li>\n<li>\nFirst line of each test case will contain 2 integers <b>N</b> and <b>K</b>\n</li>\n<li>\nSecond line of each test case will contain <b>N</b> integers which are the positions of cities in  1-Dimensional co-ordinate system.\n</li>\n<li>\nThird line of each test case will contain <b>N </b> integers which are the entry fee of the <b>i<sup>th</sup></b> city.\n</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n\n<ul>\n<li>\nOutput will contain <b>T</b> lines, one for each test case.\n</li>\n<li>\nEach line will contain one Integer which is the minimum possible value of the function <b>F</b>.\n</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n\n<ul>\n<li>\n<b>1</b> \u2264 <b>T</b> \u2264 <b>10</b>\n</li>\n<li>\n<b>1</b> \u2264 <b>N</b> \u2264 <b>200</b>\n</li>\n<li>\n<b>1</b> \u2264 <b>K</b> \u2264 <b>35</b>\n</li>\n<li>\n<b>K</b> \u2264 <b>N</b>\n</li>\n<li>\n<b>1</b> \u2264 <b>Entry fee, Position of cities</b> \u2264 <b>10<sup>5</sup></b>\n</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre>\n<b>Input</b>\n1\n7 3\n9 50 20 39 25 41 10\n1 2 3 4 5 6 7 \n\n<b>Output:</b>\n31\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><pre>\nIn this scenario minimum possible value of F can be obtained by:\nWe will make city 1, 3, 4 as the capitals. <br />\nCapital at city 1 will be assigned to city 1 and 7.<br />\nCapital at city 3 will be assigned to city 3 and 5.<br />\nCapital at city 4 will be assigned to city 2, 4 and 6.<br />\nC[1] = 0\nC[2] = 11 + 4 = 15\nC[3] = 0\nC[4] = 0\nC[5] = 5 + 3 = 8\nC[6] = 2 + 4 = 6\nC[7] = 1 + 1 = 2\n</pre></p>\n",
+    "category_name": "main",
+    "date_added": "4-09-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/INSQ15_B",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1441555200,
+        "end_date": 1441566000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1441566005,
+        "submit_start_date": 1441555200,
+        "current": 1537436066
+    },
+    "user": {
+        "username": ""
+    }
+}

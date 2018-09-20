@@ -1,0 +1,97 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "JULY10",
+    "duration": "14400",
+    "name": "July 2010",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b><br /><span><b>View the editorials to the the contest problems\u00a0<a href=\"/wiki/july-2010-contest-problem-editorials\">here</a>.</b></span><br /><br />NOTE: The 'Clarification' in the problem statement for MAXCROSS has been updated on July 2nd at 6:15pm</b> <br /><br />* Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at feedback@codechef.com<br /><br />* Contest problems will become visible on July 1st 2010.<br /><br />* You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.<br /><br />* You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.<br /><br />* Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/JULY10/1424957484.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "LCM": {
+            "allow_submission": false,
+            "name": "Adding Least Common Multiples",
+            "category_name": "main",
+            "accuracy": 1.68,
+            "successful_submissions": "14",
+            "code": "LCM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "HAPPY": {
+            "allow_submission": false,
+            "name": "Happy Days",
+            "category_name": "main",
+            "accuracy": 5.41,
+            "successful_submissions": "42",
+            "code": "HAPPY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MAXCROSS": {
+            "allow_submission": false,
+            "name": "Maximal crosses",
+            "category_name": "main",
+            "accuracy": 14.54,
+            "successful_submissions": "221",
+            "code": "MAXCROSS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "VOTING": {
+            "allow_submission": false,
+            "name": "Closest Ranking",
+            "category_name": "main",
+            "accuracy": 10.83,
+            "successful_submissions": "76",
+            "code": "VOTING",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ARRANGE2": {
+            "allow_submission": false,
+            "name": "Rearranging Digits",
+            "category_name": "main",
+            "accuracy": 3.55,
+            "successful_submissions": "33",
+            "code": "ARRANGE2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BLOCKS": {
+            "allow_submission": false,
+            "name": "Block Tower",
+            "category_name": "main",
+            "accuracy": 76.1,
+            "successful_submissions": "47",
+            "code": "BLOCKS",
+            "type": "2",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1278840600,
+        "current": 1537439561,
+        "freezing": 0,
+        "start": 1277976600
+    },
+    "user": {
+        "username": ""
+    }
+}

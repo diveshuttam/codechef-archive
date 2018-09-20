@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Babidi has summoned Majin Vegeta. He orders him to kill Supreme Kai. But Vegeta wants to get out of his control.\n\nBabidi has laid out a trap. Vegeta is standing at the $nth$ level of mind control. In order to defeat Babidi's trap, he needs to reach $mth$ level. The levels are continuous increasing integers. At each increment of level, $nth$ to $(n+1)th$ level, for example, the energy used is - number of distinct prime factors of $n$. \n\nVegeta needs your help in order to figure out how much total minimum energy he needs to defeat Babidi's trap. The total energy is the sum of energy used at each increment of a level.In the calculation of energy, $n$ and $m$ are inclusive.\n\n###Input:\n- The first line of the input contains a single integer $T$ denoting the number of test cases. The description of $T$ test cases follow. \n- The first and only line of each test case contains the two integers $n$ and $m$, separated by a single space. \n\n###Output:\nFor each test case, print a single line containing one integer denoting the energy needed by Vegeta to escape Babidi's mind control and continue his battle with Kakarot.\n\n###Constraints \n- $1 \\leq T \\leq 2$\n- $1 \\leq n \\leq m \\leq 10^6$\n\n###Sample Input:\n\t2\n\t3 7\n1 1023\n\n###Sample Output:\n\t5\n2177\n\t\n###EXPLANATION:\nExample case 1: Vegeta is standing at $n$=3. As he moves from 3 to 4, energy used is 1. From 4 to 5, energy used is 1. Similarly, as he continues to move towards m=7, the total energy used is 1+1+1+2=5.\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "9-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Quick Code (Rated for Division 2)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1528817400,
+        "end_date": 1528826400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1528826400,
+        "submit_start_date": 1528817400,
+        "current": 1537432373
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>akshatgirdhar8</span>",
+    "problem_name": "Majin Vegeta",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/akshatgirdhar8'>akshatgirdhar8</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "akshatgirdhar8",
+    "contest_code": "QUCO2018",
+    "max_timelimit": "1",
+    "problem_code": "VEGETA"
+}

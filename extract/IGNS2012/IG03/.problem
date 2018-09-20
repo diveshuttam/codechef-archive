@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nPlease use N,S,E,W in place of U,D,R,L.\nLaziness is the biggest and the only trait that our friend Kadka has. He is so lazy that even turning around is a pain in the leg [;)] for him. A complete idiot that he is, he cannot use his own mind and just follows directions. He is stuck in a maze and needs to get out. At every step he just follows the direction to the next position and thinks of nothing else. \nHe always enters through the first row.\nThe maze is like a grid\n<pre>\nU \tR \tR \tD2 \tL1 \tR\nL10  L9\t L \tR3 \tD4 \tD\nD \tU8  \tL7 \tL6 \tL5  \tL\n</pre>\nWhere the numbers indicate the positions that were explored by Kadka.\n<pre>\nR= Right\nL=Left\nU=Up\nD=Down\n</pre>\nIn this case he gets out in 10 steps.\n<pre>\nD1\tR\tD11\tL10\tR\nR2\tR3\tD4\tU9\tL8\nU\tR\tR5\tR6\tU7\nL\tR\tD\tR\tL\n</pre>\nIn this case, after step 11, he enters into a loop he cannot exit.\n\n<h3>Input</h3>\n</p><p>No. of Test Cases\nAnd for each case there will be:\nI=no. of rows j=no. of columns k=the column through which Kadka will enter  (I,j,k less than equal to10) and the\nThe grid to solve \n\n\n<h3>Output</h3>\n</p><p>For each case\nNumber of steps taken to exit followed by letter \u2018E\u2019\tOR\n The size of the loop followed by letter \u2018L\u2019\n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n3 6 5\nURRDLR\nLLLRDD\nDULLLL\n4 5 1\nDRDLR\nRRDUL\nURRRU\nLRDRL\n\n\n<b>Output:</b>\n10E\n8L\n\n\n\n\n<p>\nBy:\nChintan, Asad, Ashayam, Akanksha\n</p>\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Codka Challenge 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1329027974,
+        "end_date": 1329622200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1329622200,
+        "submit_start_date": 1329027974,
+        "current": 1537438986
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>chint7392</span>",
+    "problem_name": "The Forbidden Path",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/chint7392'>chint7392</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "chint7392",
+    "contest_code": "IGNS2012",
+    "max_timelimit": "0.133333",
+    "problem_code": "IG03"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>\nProblem Statement<br />\n</h3>\n<p>\nChef Diablo has set up a stall for selling his famous <i>Modaks</i> in the Trinity fest. He wants to earn as much profit as he can. So he has bought a chemical that increases the taste level of the <i>Modaks</i>. The tastier the <i>Modaks</i> the higher he can price them. This chemical is very costly hence he applies only certain amount of chemical on the <i>Modaks</i>(also he does not make it so costly that no one would buy it...:P). If Chef Diablo applies the chemical on the <i>Modak</i> having an initial of taste level TL, its taste level becomes TL^N where N is the number of drops of the chemical. Given TL and N, tell Chef Diablo the final Taste level of the <i>Modak</i>.\n</p>\n<h3>\nInput:<br />\n</h3>\n<p>\nFirst line contains t, the number of test cases. Then t lines follow, each line containing 2 space separated integers denoting TL and N respectively.\n</p>\n<h3>\nOutput:<br />\n</h3>\n<p>\nIt will consist of t lines having the final taste level of the <i>Modak</i> modulo 10^9+7.</p>\n<p><h3>\nConstraints:<br />\n</h3>\n</p><p>\n1&lt;=t&lt;=100<br/><br />\n1&lt;=TL&lt;=10^101<br/><br />\n0&lt;=N&lt;=10^101\n</br/></br/></p>\n<h3>\nInput:<br />\n</h3>\n<p>\n3<br/><br />\n1 1<br/><br />\n2 2<br/><br />\n123123123123 2\n</br/></br/></br/></p>\n<h3>\nOutput:<br />\n</h3>\n<p>\n1<br/><br />\n4<br/><br />\n293883007\n</br/></br/></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Trinity 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1393776000,
+        "end_date": 1393785000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1393785000,
+        "submit_start_date": 1393776000,
+        "current": 1537437730
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>aadesh_99</span>",
+    "problem_name": "Modaks in Trinity",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aadesh_99'>aadesh_99</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "aadesh_99",
+    "contest_code": "TRNT2014",
+    "max_timelimit": "1",
+    "problem_code": "TR004"
+}

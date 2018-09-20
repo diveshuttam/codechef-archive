@@ -1,0 +1,103 @@
+{
+    "teamsCount": "9077",
+    "announcements": "<p><b>10/06/2016, 16:50 hrs, IST:</b> The ranklist of SnackDown 2016 Pre-Elimination Round A has been changed to score based ranklist. You may find the updated ranklist here: https://www.codechef.com/rankings/SNCKPA16. And, as oppose to the top 1000 teams proceeding into the Elimination Round from Pre-Elimination Round A, now, every team till 1000th rank will be moving into the Elimination Round.</p>\r\n<p><b>06/04/2016, 09:10 hrs IST: </b>Please note that in Russian translations of problem SUBSEG2, the constraints on start_i, end_i, plan_start_j and plan_end_j have maximum value 10^5, it <b>should</b> be 10^6. Please make note of this. We have updated this in the translation, please download the translation again if needed.</p>",
+    "ip": "149.129.135.113",
+    "code": "SNCKPA16",
+    "duration": "1440",
+    "name": "SnackDown Online Pre-elimination round A",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": " <p><b class=\"rules-heading\">About:</b></p> <div class=\"rules-body\"> <p><span>SnackDown 2016 is an annual multi round global programming tournament conducted by CodeChef. More information about it can be found <a href=\"/snackdown/2016\">here</a>.</span></p> </div> <p><b class=\"rules-heading\">Contest Details:</b></p> <div class=\"rules-body\"> <ul class=\"\"> <li><b>Duration: </b>24 hours</li> <li><b>Start time: </b>4th June 2016, 2100 hrs IST</li> <li><b>End time: </b>5th June 2016, 2100 hrs IST<br />You may check your timezone <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=SnackDown+2016+Pre-Elimination+Round+-+A&amp;iso=20160604T21&amp;p1=44\" target=\"_blank\">here</a>.</li> </ul> </div> <div class=\"rules-body\"> <ul class=\"\"> </ul> </div> <p><b class=\"rules-heading\">Eligibility Criteria: </b><span class=\"rules-heading\">Only those who qualified in <a href=\"/SNCKQL16\" target=\"_blank\">SnackDown 2016 Qualifiers</a> are eligible to take part in this contest.</span></p> <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct.</a></p> </div> <p><b class=\"rules-heading\">Judging Criteria:</b></p> <ul class=\"\"> <li><b>All the problems have same points alloted to them.</b></li> <li><b>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time</b></li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error). There is no time consumed for a problem that is not solved.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> </ul> <div class=\"\"><b>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"/ide\" target=\"_blank\">Online IDE</a>.</b><br />However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/SNCKPA16/1465028283.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "GIVCANDY": {
+            "allow_submission": false,
+            "name": "Sharing Candies",
+            "category_name": "main",
+            "accuracy": 16.69,
+            "successful_submissions": "1960",
+            "code": "GIVCANDY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SUBSEG2": {
+            "allow_submission": false,
+            "name": "Chef and his study plans",
+            "category_name": "main",
+            "accuracy": 9.06,
+            "successful_submissions": "197",
+            "code": "SUBSEG2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MAKEART": {
+            "allow_submission": false,
+            "name": "Art",
+            "category_name": "main",
+            "accuracy": 42.35,
+            "successful_submissions": "4116",
+            "code": "MAKEART",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHSPARR": {
+            "allow_submission": false,
+            "name": "Chef and Super Array",
+            "category_name": "main",
+            "accuracy": 8.21,
+            "successful_submissions": "232",
+            "code": "CHSPARR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MAKELIS": {
+            "allow_submission": false,
+            "name": "Longest Increasing Subsequences",
+            "category_name": "main",
+            "accuracy": 15.32,
+            "successful_submissions": "537",
+            "code": "MAKELIS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "NDIFFPAL": {
+            "allow_submission": false,
+            "name": "N different palindromes",
+            "category_name": "main",
+            "accuracy": 64.29,
+            "successful_submissions": "3701",
+            "code": "NDIFFPAL",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537434857,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

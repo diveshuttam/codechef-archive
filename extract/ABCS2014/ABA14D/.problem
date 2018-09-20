@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>Statement</b> <br /><br /><br />\nIn pipe games, your objective is to arrange pipes such that there is water flowing from a source to destination. In our variation of the game, there is an unlimited supply of water. Consider a grid of size N x M. In each cell of the grid, there is a pipe shape(the details are given below). You are able to rotate the pipe shapes 90 degrees clockwise or anti-clockwise any number of times. You cannot move the pipe shapes from the cell. The source is from the left side of the top left cell and the destination is the right side of the bottom right cell. You have to make a minimum number of rotations such that a path exists from the source to the destination. Since there is an unlimited supply of water don\u2019t worry about open ends. Note that water cannot flow from bottom to top since it defies gravity. Water can flow in all other directions. <br /><br /></p>\n<p>\tThe pipe shapes are:<br /><br />\n\t\t1. Horizontal pipe(connects left and right)<br /><br />\n\t\t2. Vertical pipe(connects top and bottom)<br /><br />\n\t\t3. L shape-1(connects top and left)<br /><br />\n\t\t4. L shape-2(connects top and right)<br /><br />\n\t\t5. L shape-3(connects bottom and left)<br /><br />\n\t\t6. L shape-4(connects bottom and right)<br /><br />\n\t\t7. T shape-1(connects all sides except  top)<br /><br />\n\t\t8. T shape-2(connects all sides except  right)<br /><br />\n\t\t9. T shape-3(connects all sides except  down)<br /><br />\n\t          10. T shape-4(connects all sided except  left)<br /><br />\n\t          11. \u2018+\u2019 shape (connects all 4 sides)<br /><br />\n<br /><br />\nPipes 1 and 2 can be obtained by rotating each other.<br /><br />\nPipes 3, 4, 5 and 6 can be obtained by rotating each other.<br /><br />\nPipes 7, 8, 9 and 10 can be obtained by rotating each other.<br /><br />\n<br /><br />\n<b>Input format:</b><br /><br />\nT the number of test cases<br /><br />\nFor each test case, 1st line contains two integers N and M.<br /><br />\nThen N lines follow each containing M integers.<br /><br />\nThen integer A, at j-th position of i-th line represents a pipe shape as described above. <br /><br /></p>\n<p><b>Output format:</b><br /><br />\nPrint an integer that is the correct answer followed by a new line.<br /><br /></p>\n<p><b>Constraints</b><br /><br />\n1 &lt;= T &lt;= 100<br /><br />\n1 &lt;= N, M &lt;= 100<br /><br />\n1 &lt;= A &lt;= 11 where A is the grid element.<br /><br />\n<br /></p>\n<p><b>Sample Input:</b><br /><br />\n3<br /><br />\n1 1<br /><br />\n1<br /><br />\n1 1<br /><br />\n3<br /><br />\n3 3<br /><br />\n4 1 3<br /><br />\n7 8 6<br /><br />\n11 10 3<br /><br /></p>\n<p><b>Sample Output:</b><br /><br />\n0<br /><br />\n-1<br /><br />\n6<br /><br />\n<br /><br />\n<img border=\"0\" src=\"/download/extimages/6a02ca57d828a8105104bfc0a0926654.png\" alt=\"Pipes\" width=\"500\" height=\"500\" /><br />\n<br /><br />\n<b>Explanation:</b><br /><br />\nFor Case 1 and Case 2: Since the grid has only one cell, the source is the left side of the cell and destination is its right side. <br /><br />\nCase 1: Horizontal pipe connecting left and right side is given, thus the water flows left to right and no rotation is needed. <br /><br />\nCase 2: L shaped pipe is given which can never be used to connect left and right sides irrespective of rotations, hence output is -1.<br /><br />\nCase 3: The pipe at the top left (0,0) is rotated twice [ 4 -> 5 ] , the pipe at (1,0) is rotated once [ 7 -> 10 ] , the pipe at (1,1) is rotated once [ 8 -> 7 ] , the pipe at (1,2) is rotated once [ 6 -> 5] and the pipe at the right bottom (2,2) is rotated once [ 3 -> 4 ]. <br /><br />\nThe minimum number of rotations is 2+1+1+1+1 = 6. <br /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-03-2014",
+    "is_direct_submittable": false,
+    "contest_name": "aBaCUS'14",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1394893800,
+        "end_date": 1394906400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1394906400,
+        "submit_start_date": 1394893800,
+        "current": 1537437703
+    },
+    "problem_author_html_handle": "abacus_opc",
+    "problem_name": "Pipes",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abacus_opc'>abacus_opc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abacus_opc",
+    "contest_code": "ABCS2014",
+    "max_timelimit": "0.5",
+    "problem_code": "ABA14D"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nChef Hari is a curious little chef in Cheftown. He asks his father lots of questions about various dishes. One day, his father created a game for him and asked him to play it so that he can understand logics in a better way.\n</p>\n<p>\nIn this game, there is a single straight line segment spanning from <b>0</b> to <b>M</b>. There are <b>N</b> sticks lying on this segment. Left and right ends of stick <b>i</b> are at <b>L<sub>i</sub></b> and <b>R<sub>i</sub></b> respectively. All the sticks are completely within the line segment.\n</p>\n<p>\nIn order to play this game, Hari has to remove <b>some (possibly 0) sticks</b> from the line segment such that any two sticks remaining on the segment must not overlap each other and the length of line segment which is not covered by sticks is minimum. The aim is to find the minimum length which is not covered by sticks after optimally removing the sticks.\n</p>\n<p>\n<b>Note:</b> Two sticks <b>i</b> and <b>j</b> are said to be overlapping if <b>L<sub>i</sub></b> \u2264 <b>L<sub>j</sub></b> < <b>R<sub>i</sub></b> OR <b>L<sub>j</sub></b> \u2264 <b>L<sub>i</sub></b> < <b>R<sub>j</sub></b>.\n</p>\n\n<h3>Input</h3>\n<p>\nFirst line of input contains two integers <b>N</b> and <b>M</b> denoting the number of sticks and length of line segment.\n</p>\n<p>\nEach of Next <b>N</b> lines contains two integers <b>L<sub>i</sub></b> and <b>R<sub>i</sub></b> denoting left and right ends of stick <b>i</b>.\n</p>\n\n<h3>Output</h3>\n<p>\nThe only line of output should contain an integer denoting the minimum length of segment which is not covered by sticks.\n</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>10<sup>7</sup></b></li>\n<li><b>0</b> \u2264 <b>L<sub>i</sub></b> < <b>R<sub>i</sub></b> \u2264 <b>M</b></li>\n</ul>\n\n\n<h3>Subtasks</h3>\n<p>\n<b>Subtask#1: 20 points</b>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>20</b></li>\n</ul>\n</p>\n\n<p>\n<b>Subtask#2: 80 points</b>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n</ul>\n</p>\n\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n5 15\n2 4\n3 7\n1 5\n13 15\n6 9\n\n<b>Output:</b>\n6\n</pre>\n\n<h3>Explanation</h3>\n<p>\nIn above case, sticks (2,4) and (3,7) have been removed from the segment. So, total length of segment which is not covered by sticks is 6. There is no other way to remove sticks such that all conditions are satisfied and length not covered by sticks is less than 6.\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-09-2017",
+    "is_direct_submittable": false,
+    "contest_name": "LoC Sep 2017",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1506709800,
+        "end_date": 1506969000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1506969000,
+        "submit_start_date": 1506709800,
+        "current": 1537433526
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>m_17</span>",
+    "problem_name": "Chef and Game of Picking Sticks",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/m_17'>m_17</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "m_17",
+    "contest_code": "LOCSEP17",
+    "max_timelimit": "1",
+    "problem_code": "CHEFSTCK"
+}

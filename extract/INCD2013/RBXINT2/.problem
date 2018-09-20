@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Given an rectangular grid of N rows and M columns, each cell can be labeled black (Yin) or white (Yang). Two cells are neighbors if they share a common unit-length edge segment. The grid is valid if all the black cells form a path, and all the white cells form a path. A path is a set S of cells defined as follows:<br />\nThe cells form a connected piece. From each cell in S, you can reach any other cell in S by moving between neighbors within S. Exactly two cells in S have exactly one neighbor in S each. These are the \"ends\" of the path. Every other cell in S has exactly two neighbors in S.</p>\n<p>Given N and M, compute the number of valid grids. Note that symmetry doesn't matter -- as long as two valid grids differ in one position they are considered different, even if one can be rotated or flipped to the other.<br />\n\u00a0</p>\n<h3>Input</h3>\n<p>The first line of the input will be a single integer T, the number of test cases. T lines follow, each of which contains two integers separated by a space: \"N M\", as defined above.</p>\n<h3>Output</h3>\n<p>For each test case, output the number of valid grids of the specified size..</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n4 4\n4 6\n5 5\n\n\n<b>Output:</b>\n24\n44\n48\n\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "International Code Zilla 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1361257200,
+        "end_date": 1361284200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1672256210,
+        "submit_start_date": 1361257200,
+        "current": 1537438499
+    },
+    "problem_author_html_handle": "codecheftsec",
+    "problem_name": "Two Snakes In A Grid",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/codecheftsec'>codecheftsec</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "codecheftsec",
+    "contest_code": "INCD2013",
+    "max_timelimit": "0.72",
+    "problem_code": "RBXINT2"
+}

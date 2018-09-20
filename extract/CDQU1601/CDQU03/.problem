@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Shubham is preparing for his mathmatics exams and he is unable to sove a question called amazing number. Shubham have to go out for a walk because he is studing for long time . As\u00a0<span style=\"line-height: 1.42857;\">\"Health is Wealth\" therefore you must help shubham in getting his question solved.</span></p>\n<p><span style=\"line-height: 1.42857;\">The question states:-</span></p>\n<p><span style=\"line-height: 1.42857;\">Find the sum of the series to get answer to the amazing number</span></p>\n<p><span style=\"line-height: 1.42857;\">7+77+777+7777+... <strong>N\u00a0</strong>terms.</span></p>\n<p><span style=\"line-height: 1.42857;\">As the answer will be very large you have to print answer modulo 10^9+7.\u00a0</span></p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <strong>T</strong> denoting the number of test cases. The description of <strong>T</strong> test cases follows.</li>\n<li>An integer <strong>N</strong> denoting number of terms in series.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing the answer to question.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><strong>1</strong> \u2264 <strong>T</strong> \u2264 <strong>1000</strong></li>\n<li><span style=\"font-weight: bold;\">1</span>\u00a0\u2264\u00a0<strong>N</strong>\u2264\u00a0<span style=\"font-weight: bold;\">10000000</span></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong>\n1<br />5\n\n<strong>Output:<br /></strong>86415\n\n</pre><p>\u00a0</p>\n<h3>\u00a0</h3>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-04-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Codervation qualifiers",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1460104200,
+        "end_date": 1460140200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1460140200,
+        "submit_start_date": 1460104200,
+        "current": 1537434980
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>kripa432</span>",
+    "problem_name": "Amazing Numbers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kripa432'>kripa432</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kripa432",
+    "contest_code": "CDQU1601",
+    "max_timelimit": "1",
+    "problem_code": "CDQU03"
+}

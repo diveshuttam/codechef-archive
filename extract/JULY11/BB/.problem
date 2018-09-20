@@ -1,0 +1,33 @@
+{
+    "problem_code": "BB",
+    "problem_author": "gennady.korotkevich",
+    "contest_name": "July 2011 Long Contest",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #D0011B;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>7&#9733;</span><span>gennady.korotkevich</span>",
+    "problem_name": "Billboards",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>gamabunta</span>",
+    "contest_code": "JULY11",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/gennady.korotkevich'>gennady.korotkevich</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>, <a class='problem-tag-small ' href='/tags/problems/july11'>july11</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>There is a long long highway leading to Chef's new restaurant. But the problem is that almost no one stops in it, hence it's even unprofitable to hold it now. The only idea Chef has is that the restaurant has not been very well advertised, so it has no clients just because nobody knows about it! In order to change the situation Chef has decided to use some billboards along the highway for advertising.<br /><br />\n\nThere are exactly N billboards along the highway. Chef may place advertisements at any subset of billboards. To prevent casual drivers from forgetting about how good the restaurant is, there should be at least K restaurant's advertisement among every M consecutive billboards. But still each billboard's time costs some money, and Chef would like to pay the least amount possible (after all, he has already spent a lot of money for the restaurant at no profit). Now you are to help Chef count the number of different ways to place the minimal number of advertisements still meeting the condition above.\n\n<h3>Input</h3>\n</p><p>The first line of the input contains a single integer T -- the number of test cases (no more than 25).\nEach of the next T lines describes one test case and contains three integers N, M and K\n(1\u00a0&lt;=\u00a0K\u00a0&lt;=\u00a0M\u00a0&lt;=\u00a050, M\u00a0&lt;=\u00a0N\u00a0&lt;=\u00a010^9).\n<h3>Output</h3>\n</p><p>For each test case output a single line containing the requested number of ways modulo 1 000 000 007.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n3 2 1\n4 2 1\n6 3 2\n\n<b>Output:</b>\n1\n3\n6\n\n</pre>\n\n<b>Explanation:</b><br />\nIn the second test case there are 3 ways to place the advertisements:\nusing the 1st and the 3rd, the 2nd and the 3rd, or the 2nd and the 4th billboards.</p>",
+    "category_name": "main",
+    "date_added": "30-04-2011",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.701727",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/BB",
+    "problem_tester": "gamabunta",
+    "time": {
+        "view_start_date": 1309512600,
+        "end_date": 1310376600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1310376600,
+        "submit_start_date": 1309512600,
+        "current": 1537439179
+    },
+    "user": {
+        "username": ""
+    }
+}

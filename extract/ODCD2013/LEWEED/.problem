@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nAthos, Porthos and Aramis are three friends who like to smoke a lot. They have <b>k</b> packets of cigarettes each having<br />\na[k] cigarettes each. Also, a[i]=i-1 for 1&lt;=i&lt;=k. Now they decide to divide the packets within themselves.To do so<br />\nthey arrange all packets in increasing order of the number of cigarettes they contain. Starting from the first packet,<br />\nthey label the packets 1, 2 and 3 in order repeatedly so that label of packet containing<br />\n0 cigarettes is 1, 1 cigarette is 2, 2 cigarettes is 3, 3 cigarettes is 1, 4 cigarettes is 2 and so on.<br />\nTo make the labels unique, they take packets with same label and repeat the above process so labels of packets having<br />\n0 cigarette is 11, 1 cigarettes is 21, 2 cigarettes is 31, 3 cigarettes is 12, 4 cigarettes is 22 and so on.<br />\nThis process is repeated until all packets have a unique label.<br />\nAll packets having labels starting with the same number belong to the same person.<br />\nNow one day, Athos and Porthos smoke a lot when Aramis was with his girlfriend. When Aramis returns to his home<br />\nhe finds only two packets. He recognises one of the packets with <b>n</b> cigarettes definitely belonging to him but<br />\nits label is lost. The other packet has label <b>m</b> on it but Aramis doesn't know amything else about it.<br />\nAs Aramis is not so bright, he needs you to figure out the total number of cigarettes left that belong to him.<br />\nAssume that k tends to infinity<br />\n</p>\n\n<h3>Input</h3>\n<p>The first line of input contains an integer <b>T</b>, the number of test cases. Then <b>T </b>lines follows, each line<br />\ncontaining two integers <b>m</b> and <b>n</b> as mentioned above.<br /><br />\nThe leading 1s in <b>m</b> are omitted (e.g. 22111... is denoted as 22) since <b>k</b> tends to infinity.</p>\n<h3>Output</h3>\n<p>Output a separate line for each test case containing the answer. </p>\n<h3>Constraints</h3>\n<p>1&lt;=T&lt;=500<br /><br />\n1&lt;=m&lt;=10<sup>9</sup><br /><br />\n1&lt;=n&lt;=(10<sup>10000</sup>+500)<br /></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n22 1\n2 100\n12 100\n<b>Output:</b>\n5\n101\n100\n</pre>\n<h3>Explanation</h3>\n<p><b>Example case 1:</b> <br /><br />\nPacket containing 1 cigarette definitely belongs to Aramis which has label 211.. . So label 211.. belongs to him. So all packets with<br />\nlabels starting with 2 should belong to him. Hence 2211.. belongs to him. Now 2211.. has 4 cigarettes and 21.. has 1 so he has total<br />\n1+4=5 cigarettes.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "9-11-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Ode2Code 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1384612200,
+        "end_date": 1384633800,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1384633800,
+        "submit_start_date": 1384612200,
+        "current": 1537438006
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>atulsehgal</span>",
+    "problem_name": "Cigarettes",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/atulsehgal'>atulsehgal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "atulsehgal",
+    "contest_code": "ODCD2013",
+    "max_timelimit": "0.134058",
+    "problem_code": "LEWEED"
+}

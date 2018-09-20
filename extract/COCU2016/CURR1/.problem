@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The EEE classroom is quite an explosive class. The explosiveness depends on the type and number of students present in the class. Specifically, the explosiveness doubles every time a new person enters the class and finds at least one member of his gang already present in the class.  </p>\n<p>\u00a0Given the details of the class gangs, print the minimum possible explosiveness of the class mod 1000000007.\n</p>\n<h3>Input</h3>\n<p>The first line of the input contains two integers, <b>N</b> the number of students present in the class and <b>M</b> . The next <b>M</b> lines contain 2 integers <b>A</b> and <b>B</b> such that student number (<b>A</b> and student number <b>B</b> belong to the same gang.</p>\n<h3>Output</h3>\n<p>Print the minimum possible explosiveness of the class mod <b>1000000007</b> by optimizing the entry sequence of the students. The initial explosiveness of the class is <b> 1 </b>. Only one student enters the class at a time and all the n students must attend the class (Attendance shortage is a big issue here).</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000000</b></li>\n<li><b>0</b> \u2264 <b>M</b> \u2264 <b>(N*(N-1))/2</b></li>\n<li><b>1</b> \u2264 <b>A, B</b> \u2264 <b>N</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5 3\n1 2\n2 3\n5 4\n<b>Output:</b>\n8\n</pre><h3>Explanation</h3>\n<p><b>Example case 1.</b><br />\n Let the entry sequence be 5 1 2 3 4.<br />\nWhen 5 enters the class, the explosiveness doesn't change.<br />\nSame is the case with 1 as no member of his gang is present.<br />\n2 enters and finds 1 so the explosiveness doubles to 1*2 = 2.<br />\n3 doubles it again to 2*2 = 4.<br />\nFinally 4 enters and finds 5 so the explosiveness doubles again to 2*4 = 8.<br />\nTherefore the answer is 8 % 1000000007 = 8.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "31-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Code Currents",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455953400,
+        "end_date": 1455960600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1455960600,
+        "submit_start_date": 1455953400,
+        "current": 1537435382
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>moderator</span>",
+    "problem_name": "Explosive class",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/moderator'>moderator</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "moderator",
+    "contest_code": "COCU2016",
+    "max_timelimit": "1",
+    "problem_code": "CURR1"
+}

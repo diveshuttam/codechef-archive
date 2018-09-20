@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Little Watsy had a crush on his Maths teacher. One day she gave him some multiplication assignments, but since he was busy focussing on the teacher rather than what she was teaching, he is unable to do them himself. Now since he does not want to make her angry, he asks you to help him out.</p>\n<h3>Input</h3>\n<p>The first line has a single integer <b>T</b> denoting the number of test cases. First line of each test case is a single integer <b>N</b> denoting number of numbers to multiply. Next line contains <b>N</b> space separated integers denoting the numbers to multiply.</p>\n<h3>Output</h3>\n<p>For each test case, print the result of multiplication. Since this number can be large, print it <b>modulo 1000000007 (10<sup>9</sup>+7)</b>.</p>\n<h3>Constraints</h3>\n<ul><b>\n<li>1 &lt;= T &lt;= 100\n</li><li>1 &lt;= N &lt;= 100\n</li><li>1 &lt;= each number to multiply &lt;= 10<sup>16</sup>\n</li></b></ul>\n<p></p>\n<h3>Sample Cases</h3>\n<p><b>Input</b><br />\n1<br />\n5<br />\n1 2 3 4 5<br /><br />\n<b>Output</b><br />\n120<br /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-04-2016",
+    "is_direct_submittable": false,
+    "contest_name": "BIG-O v2.0",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1460809800,
+        "end_date": 1460820600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1460820600,
+        "submit_start_date": 1460809800,
+        "current": 1537434958
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>bigo_admin</span>",
+    "problem_name": "Watsy & his Mam",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bigo_admin'>bigo_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bigo_admin",
+    "contest_code": "BIGO2016",
+    "max_timelimit": "1",
+    "problem_code": "WKIMAAL"
+}

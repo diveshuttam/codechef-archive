@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<div style=\"font-family: monospace\">\nGiven a matrix of dimensions RxC composed of only two types of characters: <br/><br/>\n'*' and '#' <br/><br/>\n find the number of I characters present in the matrix. The\ncriteria for identifying an I is as follows:\n<br/><br/>\n\n<ul style=\"font-family: monospace\">\n<li style=\"font-family: monospace\">\nAll the characters forming the I are # only.\n</li>\n<li style=\"font-family: monospace\">\nThe figure is completely filled with #s.\n</li>\n<li style=\"font-family: monospace\">\nThe thickness and width of the top and bottom rectangles is identical.\n</li>\n<li style=\"font-family: monospace\">\nThe central column is formed by leaving out floor(width/3) positions on both\nsides.\n</li>\n<li style=\"font-family: monospace\">\nThe central column may be of any length >= 1\n</li>\n<li style=\"font-family: monospace\">\nThe I must be surrounded by \"*\" or the border (i.e. no additional attachments to the I)\n</li>\n</ul><br/>\n\nNote: A given input figure is likely to contain multiple I's.\n\n<br/><br/>\n<b>Input Format:</b>\n<br/>\nLine 1: R C - Two space separated natural numbers denoting the dimensions of\nthe rows and columns in the matrix respectively. Both R and C will be less than or equal to 40.\n<br/>\nLine 2 to R+1: Lines containing C space separated symbols. The symbols are\nchosen from the set {*, #}\n\n<br/><br/>\n<b>Output Format:</b>\n<br/>\nLine 1: The number of I's in the given figure. \n\n<br/><br/>\n<b>Sample Input:</b>\n<pre>\n10 10\n# # # # # # # # # #\n# # # # # # # # # #\n* * * # # # # * * *\n* * * # # # # * * *\n* * * # # # # * * *\n* * * # * # # # * *\n* * * # # # # * * *\n* * * # # # # * * *\n# # # # # # # # # #\n# # # # # # # # # #\n</pre>\n<br/>\n<b>Sample Output:</b>\n<pre>\n0\n</pre>\n\n<br/>\nExplanation: The given I is invalid because of 2 reasons:\n<br/>\nIt is not completely filled\n<br/>\nIt has an extra attachment of a # on the right side of the central column.\n<br/>\n</div>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-03-2009",
+    "is_direct_submittable": false,
+    "contest_name": "IIT Roorkee Insomnia - Thought Round",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1237649400,
+        "end_date": 1237692600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180135,
+        "submit_start_date": 1237649400,
+        "current": 1537439962
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "I for Insomnia",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "INSOM2",
+    "max_timelimit": "0.45 - 1.125",
+    "problem_code": "INSOMB3"
+}

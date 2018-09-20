@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0<br />\n<b>Problem description.</b></p>\n<p> Sauron has regained power and has invaded the middle earth with his mighty army. The people of middle earth have turned to Gandalf for protection. In order to protect the people of middle earth Gandalf has thought of a creating a magic barrier on the N X M grid of battlefield. However, in order to create the magic barrier Gandalf needs to create a rectangle using magic stones. The magic stones are spread all across the battlefield. Can you help Gandalf figure out the largest perimeter that his magic barrier can protect given the details of the how the magic stones are spread on the battlefield??<br />\n<br /><br />\nThe magic stones cannot be connected diagonally and a rectangle can only be formed if there is no normal land in the path way of those magic stones </p>\n<p><br /><b>Note:</b> <b>(.)</b> represents magic stones and <b>(x)</b> represents normal land.<br /><br />\n<b>PERIMETER=2X(n-1)+2X(m-1) </b>where n and m is the no of rows and columns selected which can form a rectangle with the magic stones consecutively.\u00a0\n</p>\n<h3>Input</h3>\n<p><b>Input description.</b><br />First line contains no of rows and columns in the battlefield.<br /><br />\nNext  there is a matrix of N X M showing the overlay of the battlefield with magic stones and the normal land.</p>\n<h3>Output</h3>\n<p><b>Output description.</b><br />if a rectangle can be formed with those magic stones then show just the <b>perimeter - a single integer</b> other wise write <b>\"impossible\"<b>(without quotes).</b></b></p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N,M</b> \u2264 <b>1000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b><br />\n3  4<br />\n. . x .<br />\n. . . .<br />\nx. . .<br />\n<b>Output:</b><br />\n6\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> Here we can clearly see that the there is a path of 2 X 3 with the magic stones which is the largest so the perimeter is <b>2 X( 2 - 1 )+2 X( 3 - 1 ) = 6 </b></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-09-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWar NIT Durgapur",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1443706200,
+        "end_date": 1443727800,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1443727800,
+        "submit_start_date": 1443706200,
+        "current": 1537435999
+    },
+    "problem_author_html_handle": "cad_xcoders",
+    "problem_name": "War of MIddle Earth",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cad_xcoders'>cad_xcoders</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "cad_xcoders",
+    "contest_code": "CWAR2015",
+    "max_timelimit": "1 - 2",
+    "problem_code": "CWAR01"
+}

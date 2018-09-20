@@ -1,0 +1,137 @@
+{
+    "announcements": "<p><b>22:20 PM IST:</b> The testdata of CRISIS has some mistake in it. We are fixing it and will rejudge the submitted solutions.</p>\r\n<p><b>22:33 PM IST:</b> The testdata has been fixed. The past submissions are being rejudged now.</p>\r\n<p><b>23:00 PM IST:</b> The rejudge is over. Please note that previously AC-ed codes might also have gotten WA now. We apologize for this huge mistake.</p>\r\n<p><b>12:49 PM IST:</b> We apologize for the mistake in CRISIS. Because it has affected only a few users, we are keeping the contest rated. If you are one among the affected users, and would like to have your contest unrated, write to us at contests@codechef.com.</p>",
+    "ip": "149.129.135.113",
+    "code": "CMEL2018",
+    "duration": "300",
+    "name": "Code Melange (Rated)",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<h4>About the Contest:</h4>\r\n<ul>\r\n<li><strong>Organiser: </strong> The contest is hosted by Euristica, IIT Indore.</li>\r\n<li><strong>Prizes: 30K<br /> </strong><strong><strong>Top 5 </strong>global and&nbsp;<strong>top 5 </strong>indian winners will get 300 CodeChef laddus each</strong></li>\r\n<li><strong>Registrations for prizes: </strong>Register on <a href=\"https://www.euristica.in\">www.euristica.in</a> to be eligible for prizes.</li>\r\n</ul>\r\n<h4>Contest Details:</h4>\r\n<ul>\r\n<li>This is an&nbsp;<a href=\"https://blog.codechef.com/2017/03/09/a-star-studded-rating-system/\" target=\"_blank\">External Rated Contest</a>.</li>\r\n<li><strong>Duration: </strong>5&nbsp;hours</li>\r\n<li><strong>Start time: </strong>4th April&nbsp;2018, 21:00 hrs IST</li>\r\n<li><strong>End time: </strong>5th April 2018, 02:00 hrs IST<br /> You may check your timezone <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+-+Code+Melange&amp;iso=20180404T21&amp;p1=44&amp;ah=5\" target=\"_blank\">here</a>.</li>\r\n</ul>\r\n<h4>Registration:</h4>\r\n<p>You just need to have a CodeChef username to participate. No seperate registration is required. If you do not have a CodeChef ID create one <a href=\"../user/register\" target=\"_blank\"> here</a>.</p>\r\n<h4>Eligibility Criteria: Anyone with a knack for Programming :P</h4>\r\n<p class=\"&rdquo;last&rdquo;\">Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct.</a></p>\r\n<h4>Rules and Regulations:</h4>\r\n<ul class=\"last\">\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com </a>.</li>\r\n<li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li>\r\n<li>Almost all languages supported on CodeChef are allowed.</li>\r\n<li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li>\r\n<li>Please contact <a href=\"mailto:euristica@iiti.ac.in\" target=\"_blank\">euristica@iiti.ac.in</a> for any queries during the contest.</li>\r\n</ul>\r\n<h4>Judging Criteria:</h4>\r\n<ul>\r\n<li><strong>All the problems have same points alloted to them.</strong></li>\r\n<li><strong>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time</strong></li>\r\n<li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error). There is no time consumed for a problem that is not solved.</li>\r\n<li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li>\r\n<li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li>\r\n</ul>\r\n<p><strong>Note:</strong> You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"../ide\" target=\"_blank\">Online IDE</a>.</p>\r\n<p>However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/CMEL2018/1522691771.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CMPVIRS": {
+            "allow_submission": false,
+            "name": "Computer Virus",
+            "category_name": "main",
+            "accuracy": 50,
+            "successful_submissions": "1",
+            "code": "CMPVIRS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LCSTSUB": {
+            "allow_submission": false,
+            "name": "Longest Constrained Subsequence",
+            "category_name": "main",
+            "accuracy": 11.03,
+            "successful_submissions": "30",
+            "code": "LCSTSUB",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SINS": {
+            "allow_submission": false,
+            "name": "The Deadly Sin",
+            "category_name": "main",
+            "accuracy": 25.12,
+            "successful_submissions": "1223",
+            "code": "SINS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CNTL": {
+            "allow_submission": false,
+            "name": "Counting is life",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "CNTL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SEGSM": {
+            "allow_submission": false,
+            "name": "Subsegment Sum",
+            "category_name": "main",
+            "accuracy": 17.39,
+            "successful_submissions": "4",
+            "code": "SEGSM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CNDLOVE": {
+            "allow_submission": false,
+            "name": "Candy Love",
+            "category_name": "main",
+            "accuracy": 58.06,
+            "successful_submissions": "1618",
+            "code": "CNDLOVE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "YFG": {
+            "allow_submission": false,
+            "name": "Y Figures",
+            "category_name": "main",
+            "accuracy": 13.43,
+            "successful_submissions": "9",
+            "code": "YFG",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ENIG10": {
+            "allow_submission": false,
+            "name": "Xorangements",
+            "category_name": "main",
+            "accuracy": 9.09,
+            "successful_submissions": "12",
+            "code": "ENIG10",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "XDS": {
+            "allow_submission": false,
+            "name": "XD Subsequences",
+            "category_name": "main",
+            "accuracy": 21.32,
+            "successful_submissions": "479",
+            "code": "XDS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CRISIS": {
+            "allow_submission": false,
+            "name": "CPI Crisis",
+            "category_name": "main",
+            "accuracy": 5.22,
+            "successful_submissions": "50",
+            "code": "CRISIS",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1522873800,
+        "current": 1537432696,
+        "freezing": 0,
+        "start": 1522855800
+    },
+    "user": {
+        "username": ""
+    }
+}

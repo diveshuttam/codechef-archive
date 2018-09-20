@@ -1,0 +1,33 @@
+{
+    "problem_code": "GNRATR",
+    "problem_author": "mkrjn99",
+    "contest_name": "Decipher, Codefest'16",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>mkrjn99</span>",
+    "problem_name": "Generator",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "DECI2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/mkrjn99'>mkrjn99</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h2>Decipher Codefest'16</h2>\n<p>Himanshu just got acquainted with the <a href=\"https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange\">Diffie-Hellman</a> key agreement protocol. He got so excited that he wanted to try out the protocol with Himanshu (the other one). He was all set to exchange the key just when he realized that he doesn't know how to find the <a href=\"https://en.wikipedia.org/wiki/Primitive_root_modulo_n\">generator</a> of a multiplicative group <i>Z</i><sub>p</sub> given a large prime number <i>p</i>.<br />\n<br /><br />\nCan you help Himanshu in calculating the <i>k</i><sup>th</sup> generator greater than <i>a</i> = 6969696969696969696969 of the multiplicative group <i>Z</i><sub>p</sub> given <i>p</i> = 671998030559713968361666935769 and <i>k</i> = 10000.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p><i>k</i><sup>th</sup> generator greater than <i>a</i> of the multiplicative group <i>Z</i><sub>p</sub>.</p>\n<h3>Info about Submission </h3>\n<p>You just have to print the final answer. Rest you have to put the source code/ abstract of your solution inside the comments for plagiarism checking.</p>\n<h3> Sample Submission (c++)</h3>\n<p>#include&lt;iostream><br /><br />\nusing namespace std;<br /><br />\nint main(){<br /><br />\ncout&lt;&lt;\"GENERATOR\";<br /><br />\n}<br /><br />\n/* Put your source code here inside comments for plagiarism checking */</p>\n\n",
+    "category_name": "main",
+    "date_added": "23-02-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, NODEJS, PERL, JS, PERL6",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/GNRATR",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1456655400,
+        "end_date": 1456666200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1456666200,
+        "submit_start_date": 1456655400,
+        "current": 1537435307
+    },
+    "user": {
+        "username": ""
+    }
+}

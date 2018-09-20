@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Christy is assistant professor at a part time college. One day she has to distribute a responsibility of an event  to her students at the college. She is biased towards her students and may have distributed the responsibility unequally. One of the Professors who believes in Marxian principles gets to know this and orders Christy to make sure everyone gets equal responsibility.</p>\n<p>But to make things difficult for her, she is ordered to equalize the responsibility for every student in the following manner</p>\n<p><br /></p>\n<p>For every operation, she can choose one of her students and can do one of the three things.<br />\n<br /><br />\n(i) She can give one responsibility to every student other than chosen one.<br /><br />\n(ii) She can give two responsibility to every student other than chosen one.<br /><br />\n(iii) She can give five responsibility to every student other than chosen one.<br /></p>\n<p>Calculate minimum number of such operations needed to ensure that every student has the same number of responsibility.\n</p>\n<h3>Input Format</h3>\n<p><br /></p>\n<p>\nFirst line contains an integer T denoting the number of testcases.<br /><br />\n T testcases follow.Each testcase has 2 lines.<br /><br />\n First line of each testcase contains an integer N denoting the number of students.<br /><br />\n Second line contains N space separated integers denoting the current number of responsibility each student has.</p>\n<h3>Output Format</h3>\n<p>T lines, each containing the minimum number of operations needed to make sure all students have the same number of responsibility.</p>\n<h3>Constraints</h3>\n<p>1&lt;=T&lt;=100<br /><br />\n1&lt;=N&lt;=10000<br /><br />\nNumber of initial responsibility each student has &lt; 1000<br /></p>\n<h3>Sample Input</h3>\n<ul>\n1<br /><br />\n4<br /><br />\n2 2 3 7<br />\n</ul>\n<h3>Sample output</h3>\n<ul>2</ul>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "MathRix OPC 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426001400,
+        "end_date": 1426005000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426005000,
+        "submit_start_date": 1426001400,
+        "current": 1537436611
+    },
+    "problem_author_html_handle": "suresh70",
+    "problem_name": "Be a comrade",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/suresh70'>suresh70</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "suresh70",
+    "contest_code": "MTHX2015",
+    "max_timelimit": "5",
+    "problem_code": "CHOCS"
+}

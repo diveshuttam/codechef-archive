@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Gagan has challenged Mayank to do a task:<br>\n\tThe problem consists of 3 parts.<br>\n\t1.Given 5 prime numbers p1,p2,p3,p4 and p5. Find the first K distinct natural numbers of the form \n\t\t<b>(p1^a1)*(p2^a2)*(p3^a3)*(p4^a4)*(p5^a5)</b>. <b>a1,a2,a3,a4</b> and <b>a5</b> are assumed to be whole numbers.<br>\n\t2.Sort the K numbers found.<br>\n\t3.For each number X among first K natural numbers found of such form, set <b>X = X % 1000007</b>.<br>\n</p>\t\n<p>\nSince Mayank is horrible at mathematics, help Mayank out to overcome this challenge.<br>\n</p>\n<b>Input :</b><br>\nThe first line contains a single integer T, number of test cases.<br>\nNext T lines conatin 5 prime numbers p1,p2,p3,p4 and p5 each.<br>\nNext line contains a single integer K.<br>\n<br>\n<b>Output:</b> <br>\nFor each test case print K integers in sorted(ascending) order according to given conditions in seperate lines.<br>\n<br>\n<b>Constraints :</b> <br>\n1 <= T <= 100<br>\n2 <= p1,p2,p3,p4,p5 <= 10^6<br>\n1 <= k <= 2500<br>\n<br>\n<b>Subtask 1 : 30 points</b><br>\n1 <= T <= 30<br>\n1 <= K <= 100<br>\n<br>\n<b>Subtask 2 :\t70 points</b><br>\nOriginal constraints<br>\n<br>\n<b>Sample input 1:</b><br>\n1<br>\n2 2 2 3 5<br>\n3 <br>\n<br>\n<b>Sample Output 1:</b><br>\n1<br>\n2<br>\n3<br>\n<br>\n<b>Sample input 2:</b><br>\n1<br>\n2 3 5 7 11<br>\n4<br>\n<br>\n<b>Sample Output 2:</b><br>\n1<br>\n2<br>\n3<br>\n4<br>\n<br>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-10-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Codester veteran",
+    "languages_supported": "C, CPP14, JAVA, CS2, NODEJS, JS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1477198800,
+        "end_date": 1477207800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1477207800,
+        "submit_start_date": 1477198800,
+        "current": 1537434429
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>gagan86nagpal</span>",
+    "problem_name": "It is all about prime factors",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/gagan86nagpal'>gagan86nagpal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "gagan86nagpal",
+    "contest_code": "CDVT2016",
+    "max_timelimit": "1 - 1.5",
+    "problem_code": "PFACT"
+}

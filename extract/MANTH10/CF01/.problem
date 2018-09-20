@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Aliens are planning to attack on Earth. Scientists at ISRO got a breakthrough when they were able to intercept the message being transferred in between aliens, but the problem is that aliens are using a technique for encrypting the message. Codefest team of IT-BHU were able to hack into the systems of aliens and decipher the method, the aliens were using for encryption but a method for decryption has not been found yet. You are required to decrypt the message.</p>\n<p>The method used for encryption is explained below:<br />\nConsider a string of N alphabets for example <b>encrypt</b> (N=7). The string is treated as if the last character wraps around back to the first. Next consider a set S of N different strings, in which each string is formed by cyclic rotation of the alphabets of the original string. So for the string <b>encrypt</b>, S = {encrypt, ncrypte, crypten, ryptenc, yptencr, ptencry, tencryp}</p>\n\t\n<p>The next step is to perform a lexicographical sort in decreasing order on the set of above strings. So S becomes {yptencr, tencryp, ryptenc, ptencry, ncrypte, encrypt, crypten}</p>\n\t\t\n<p>Now, the encyrpted string of N alphabets is formed taking the last character from the above sorted strings. For given example, the encrypted string is <b>rpcyetn</b>. They also send the position of the first character of the encrypted string so that the message can be decrypted i.e. 5 for the given example. </p>\n\n<h3>Input</h3>\n<p>There is a single integer T&lt;=200 on the first line of input which denotes the number of test cases to follow. Each of the next T lines, contains a string made up of k alphabets (a-z characters only) followed by an integer N, separated by a blankspace. 1&lt;=N&lt;=k&lt;=3000.</p>\n<h3>Output</h3>\n<p>Output consists of T lines, each containing the decrypted string.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\nrpcyetn 5\nrathe 5\naabb 2\n<b>Output:</b>\nencrypt\nearth\nabab\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Manthan 2010",
+    "languages_supported": "C",
+    "todo": false,
+    "time": {
+        "view_start_date": 1269779400,
+        "end_date": 1269801000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1269801000,
+        "submit_start_date": 1269779400,
+        "current": 1537439644
+    },
+    "problem_author_html_handle": "manthan",
+    "problem_name": "Decryption",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/manthan'>manthan</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "manthan",
+    "contest_code": "MANTH10",
+    "max_timelimit": "0.181818",
+    "problem_code": "CF01"
+}

@@ -1,0 +1,31 @@
+{
+    "status": "success",
+    "problem_tester": null,
+    "body": "<h2>Indian National Olympiad in Informatics 2012</h2>\n<div>\n<p>You are given a table with 2 rows and N columns. Each cell has an integer in it. The score of such a table is defined as follows: for each column, consider the sum of the two numbers in the column; the maximum of the N numbers so obtained is the score. For example, for the table</p>\n<pre>7162\n1234\n </pre>\n<p>the score is max(7 + 1, 1 + 2, 6 + 3, 2 + 4) = 9.</p>\n<p><br /> The first row of the table is fixed, and given as input. N possible ways to fill the second row are considered:</p>\n<pre>1,2,...,N\n2,3,...,N,1\n3,4,...,N,1,2\n\u00b7\u00b7\u00b7\nN, 1, ... , ,N \u2212 1\n </pre>\n<p>For instance, for the example above, we would consider each of the following as possibilities for the second row.</p>\n<pre>1234\n2341\n3412\n4123\n </pre>\n<p>Your task is to find the score for each of the above choices of the second row. In the example above, you would evaluate the following four tables,</p>\n<pre> 7162 7162 7162 7162\n 1234 2341 3412 4123\n </pre>\n<p>and compute scores 9, 10, 10 and 11, respectively.</p>\n<h3>Input format </h3>\n<p>The first line of the input has a single integer, N. The second line of the input has N integers, representing the first row, from left to right.</p>\n<h3>Output format </h3>\n<p>The output should consist of a single line with N integers. For 1 \u00b2 k \u00b2 N, the kth\u00a0number in the output should be the score when the second row of the table is taken to be k,k+1,...,N,1,...,k\u22121.</p>\n<h3>Test Data </h3>\n<p>The testdata is grouped into two subtasks with the following constraints on the inputs.</p>\n<p>\u2022 <strong>Subtask 1</strong> [30 points] : 1 \u2264 N \u2264 3000.</p>\n<p>\u2022 <strong>Subtask 2</strong> [70 points] : 1 \u2264 N \u2264 200000.</p>\n<p>In both the subtasks, all the integers in the first row of the table are between 1 and 100000, inclusive.</p>\n<h3>Example </h3>\n<p>Here is the sample input and output corresponding to the example above.</p>\n<h3>Sample input </h3>\n<pre>4\n7 1 6 2\n</pre>\n<h3>Sample output</h3>\n<pre>9 10 10 11\n</pre>\n<br>\n<p><strong>Note: </strong>Your program should not print anything other than what is specified in the output format. Please remove all diagnostic print statements before making your final submission. A program with extraneous output will be treated as incorrect!</p>\n</div>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "INOI Practice Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1451932200,
+        "end_date": 1578162600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1578162600,
+        "submit_start_date": 1451932200,
+        "current": 1537431936
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Table Sum",
+    "source_sizelimit": "50000",
+    "problem_status": "unattempted",
+    "problem_tester_html_handle": null,
+    "problem_author": "admin3",
+    "contest_code": "INOIPRAC",
+    "max_timelimit": "2",
+    "problem_code": "INOI1202"
+}

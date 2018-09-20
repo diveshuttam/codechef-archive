@@ -1,0 +1,33 @@
+{
+    "problem_code": "TREEUGH",
+    "problem_author": "ista2000",
+    "contest_name": "ICO Preparatory Contest 2019 #1",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>ista2000</span>",
+    "problem_name": "Tree Query",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ICOP1901",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dfs'>dfs</a>, <a class='problem-tag-small ' href='/tags/problems/difference-array'>difference-array</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/euler-tour'>euler-tour</a>, <a class='problem-tag-small ' href='/tags/problems/icop1901'>icop1901</a>, <a class='problem-tag-small ' href='/tags/problems/ista2000'>ista2000</a>, <a class='problem-tag-small ' href='/tags/problems/lazy'>lazy</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>You are given a [tree](https://en.wikipedia.org/wiki/Tree_(graph_theory)) with $N$ vertices rooted at vertex $1$, where $ith$ vertex having a value $A_i$.\n\nYou are also given $Q$ queries where each query gives you a node $u$ and a value $val$. You need to add $val$ to each node $v$ such that $v$ is in the subtree of $u$\n\n###Input:\n\n- First line will contain $N$ and $Q$, number of nodes and queries respectively.\n- Second line contains $N$ space separated integers, the initial value of each node.\n- Next $N-1$ lines contain two integers $u$ and $v$ representing an edge between nodes $u$ and $v$.\n- The next $Q$ lines contain two integers each $u$ and $val$ as explained in the problem statement.\n\n###Output:\nOutput a single like containing $N$ space separated integers where the $ith$ integer denotes the value of the $ith$ node after all queries have been executed.\n\n###Constraints \n- $1 \\leq N, Q \\leq 5 \\times 10^5$\n- $1 \\leq Ai, val \\leq 10^5$\n- $1 \\leq u \\leq N$\n\n###Subtasks\n- 20 points : $1 \\leq N, Q \\leq 1000$\n- 80 points : Original constraints\n\n###Sample Input:\n     5 3\n     1 1 1 1 1\n     1 2\n     1 3\n     3 4\n     3 5\n     1 1\n     2 3\n     3 2\n\n###Sample Output:\n     2 5 4 4 4\n\n###Explanation\n![tree](https://i.imgur.com/wInPcia.png)\n\nEach node has an initial value of 1. The first query adds 1 to each node(since all nodes are in the subtree of node 1). Second query adds 3 to all nodes in subtree of node 2 and node 2 is a leaf so, it itself is the only node in its subtree. Third query adds 2 to all nodes in the subtree of node 3, namely nodes 3, 4 and 5.\n",
+    "category_name": "main",
+    "date_added": "26-06-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "3",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/TREEUGH",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1532093400,
+        "end_date": 1532107800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1532107800,
+        "submit_start_date": 1532093400,
+        "current": 1537432273
+    },
+    "user": {
+        "username": ""
+    }
+}

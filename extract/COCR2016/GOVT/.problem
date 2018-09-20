@@ -1,0 +1,33 @@
+{
+    "problem_code": "GOVT",
+    "problem_author": "ankurgoel7373",
+    "contest_name": "Code Cracker ",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>ankurgoel7373</span>",
+    "problem_name": "Secret Project",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "COCR2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ankurgoel7373'>ankurgoel7373</a>, <a class='problem-tag-small ' href='/tags/problems/cocr16'>cocr16</a>, <a class='problem-tag-small ' href='/tags/problems/factorial'>factorial</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Secret Project</h3>\n<p align=\"justify\" >In a  secret government project there are N investors who can invest X<sub>1</sub>,X<sub>2</sub>.........X<sub>N</sub> amount in millions such that  X<sub>1</sub>,X<sub>2</sub>.........X<sub>N</sub> are all distinct i.e the amount they are ready to invest are different and the amount is not in fraction (i.e example X<sub>1</sub>= 1 million is valid but X<sub>1</sub>=1.5 million is invalid).There is a policy for forming groups among investors.Two investors who are ready to invest (suppose X<sub>1</sub> and X<sub>2</sub>  amount individually) when grouped together,they feel confident and wish to invest more such that their total invested amount is equal to the sum of product of their individual investments added to their individual amount to be invested(i.e individually they could invest X<sub>1</sub> and X<sub>2</sub> amounts but after grouping together they can invest a total amount of   X<sub>1</sub>+X<sub>2</sub>+X<sub>1</sub>*X<sub>2</sub>).Investors can further be combined with other investors and groups but by using the grouping policy mentioned before.<br />\nThe Target is to find the maximum amount of money the government can fetch from the n investors.</p>\n<h3>INPUT</h3>\n<p align=\"justify\">The first line contain an integer T denoting the number of test cases.The T cases are follow.The first line of each test case contain one integer N,M denoting the number of investor and integer respectively.The second line contains N space separted integer denoting the amount invested by X<sub>1</sub>,X<sub>2</sub>.......X<sub>N</sub><br />\ninvestors respectively.</p>\n<h3>OUTPUT</h3>\n<p align=\"justify\">For each test case output a single line consisting a single integer denoting the modulo M of maximum amount of money the government can fetch from the investors.</p>\n<h3>CONSTRAINTS</h3>\n<ul>\n<li>1&lt;=T&lt;=10<sup>3</sup></li>\n<li>1&lt;=N&lt;=10<sup>3</sup></li>\n<li>1&lt;=M&lt;=10<sup>6</sup></li>\n<li>1&lt;=X<sub>1</sub>,X<sub>2</sub>.........X<sub>N</sub>&lt;=N </li>\n</ul>\n<h3>SUBTASK</h3>\n<ul>\n<li><b>subtask#1:</b> N&lt;=10,M&lt;=10<sup>3</sup>(10 points)</li>\n<li><b>subtask#2:</b> N,M&lt;=10<sup>3</sup>(30 points)</li>\n<li><b>subtask#3:</b> original constraints(60 points)</li>\n</ul>\n<h3>SAMPLE</h3>\n<p align=\"justify\"><b>INPUT:</b><br />\n1<br />\n4 10<br />\n2 3 1 4</p>\n<p><b>OUTPUT:</b><br />\n9</p>\n<p><b>EXPLAINATION:</b></p>\n<p>In first test case the maximum amount of money govt. can fetch is 119 Million. So, 119%10=9 is the answer.</p>\n",
+    "category_name": "main",
+    "date_added": "4-03-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/GOVT",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1457589600,
+        "end_date": 1457598600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457598600,
+        "submit_start_date": 1457589600,
+        "current": 1537435211
+    },
+    "user": {
+        "username": ""
+    }
+}

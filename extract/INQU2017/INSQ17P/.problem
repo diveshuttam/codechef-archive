@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n<p>Walt a.k.a. Heisenberg and Jessy are partners in cooking meth. But Walt is the one who uses his chemistry skills to improve the quality of meth. Due to the quality of meth, they have got the attention of all the meth dealers in the city. Heisenberg sends Jessy for selling the meth while he himself cooks it. But Jessy wasn't able to sell it properly and loses money. So Heisenberg sells it himself.</p>\n<p> After earning some money, they decided to play the following game. <br></p>\n<p><b>There are N piles of stones. In a single turn, the player can choose any non-zero pile and remove any non-zero number of stones from that pile.The player who is unable to make a move loses. Both Jessy and Heisenberg play alternately and optimally. Jessy always plays first.</b> <br></p>\n<p>Soon, Heisenberg realizes that if he would put stones in piles then he would have more chances to win. Jessy is ready but the condition is that there can't be more than <b>M</b> stones in any piles.</p>\n<p>Now, Heisenberg is worried and wants to know the <b>total number of arrangements of N piles, in which each pile can have any number of stones between 0 to M, which would lead to his winning on playing the above-mentioned game</b>.Since answer can be large so print answer modulo <b>10^9+7</b>.</p>\n\n<h3>Input</h3>\n\nThe first line of the input contains an integer <b>T</b> denoting the number of test cases. <br>\nNext <b>T</b> lines contains two space separated integers <b>N</b> and <b>M</b> denoting the number of piles and upper limit of stones that can be in any pile.\n\n<p> </p>\n\n<h3>Output</h3>\n<p>For each test case, output a single line containing a integer denoting total number of arrangements of piles on which Heisenberg would win if they play the above mentioned game.</p>\n\n<p> </p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10^3</b></li>\n<li><b>1</b> \u2264 <b>N</b>,<b>M</b> \u2264 <b>10^18</b></li>\n</ul>\n<p> </p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2 2\n3 2\n\n<b>Output:</b>\n3\n7\n</pre>\n<p> </p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b>Here possible arrangements for 2 piles are -<br>\n(0,0)\n(1,0)\n(2,0)\n(0,1)\n(1,1)\n(2,1)\n(0,2)\n(1,2)\n(2,2)\n<br>\n<br>\nOut of these arrangements Heisenberg will win for 3 arrangements :\n(0,0)\n(1,1)\n(2,2)\n\n </p>\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-08-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Insomnia 2017 Qualifier",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY",
+    "todo": false,
+    "time": {
+        "view_start_date": 1504456200,
+        "end_date": 1504467000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1504467000,
+        "submit_start_date": 1504456200,
+        "current": 1537433586
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>abhi_1595</span>",
+    "problem_name": "Meth Cooking",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhi_1595'>abhi_1595</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abhi_1595",
+    "contest_code": "INQU2017",
+    "max_timelimit": "1",
+    "problem_code": "INSQ17P"
+}

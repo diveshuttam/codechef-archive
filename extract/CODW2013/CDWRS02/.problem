@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Its war time in Byte Land. The emperor of Bit Land has declared a war on Byte Land. Its General Timon who will be heading the operations for Byte Land. Now General Timon wants to increase his alliances who live across The Great Desert of Bits N Bytes.  The only mode of communication is camels.</p>\n<p>Timon wants to inform his alliances about the war to seek their help by sending messengers to them .Now Byte Land has infinite number of camels and messengers. However the problem is that 1 camel needs 1 unit of food for 1 unit of distance that it covers and 1 camel can carry at most 1 unit of food. So 1 camel can at most cover 1 unit distance . But again the camel also needs food for returning to Byte Land which means 1 camel carrying 1 unit of food can travel 1/2 unit distance so that it can return to Byte Land. There are no food supply in the desert.</p>\n<p>Timon doesn't want to lose his camels or messengers . So he has to send more than 1 camel together so that after covering some distance some part of the food (fractional)  carried by a camel can be given to the other camels so that others camels can cover greater distance and as well as the camel can return to Byte Land on the remaining amount of food. Can you help him out in sending messengers to his alliances ? Help him decide how many camels should he set out together so that one messenger reaches the destination .Once the camel reaches the destination your task is over. You need not worry about the return journey from the alliance destination.</p>\n<h3>Input</h3>\n<p>The first line contains an integer T the number of test cases .Each test case has a decimal X (units distance) the distance to covered in the desert to reach the destination.</p>\n<h3>Output</h3>\n<p>Output in each line 1 integer Y the number of camels that Timon should set out together such that at least 1 messenger reaches the alliances and none of the camels starve in the desert.Messenger should either reach Byte Land or the alliances.</p>\n<h3>Constraints</h3>\n<p>1&lt;= T &lt;= 10^5<br /><br />\n1&lt;= X &lt;= 10 </p>\n<h3>Sample Input</h3>\n<p>2<br /><br />\n1<br /><br />\n1.5<br /></p>\n<h3>Sample Output</h3>\n<p>1<br /><br />\n3<br /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-09-2013",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWars 2013 - BITS, Pilani Hyderabad Campus",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1380702600,
+        "end_date": 1380720600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1380720600,
+        "submit_start_date": 1380702600,
+        "current": 1537438133
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>snehansu6631</span>",
+    "problem_name": "Crossing the Desert",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/snehansu6631'>snehansu6631</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "snehansu6631",
+    "contest_code": "CODW2013",
+    "max_timelimit": "0.112676",
+    "problem_code": "CDWRS02"
+}

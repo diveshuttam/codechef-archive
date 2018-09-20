@@ -1,0 +1,97 @@
+{
+    "announcements": "<p><b>04/07/2015, 1115 hrs IST: </b>The test data of the problem <a href=\"/AMSC2015/problems/AMCS03\">Race Time</a> has been updated and all the solutions are rejudged. Regret the inconvenience.</p>\r\n<p><b>04/07/2015, 1035 hrs IST: </b>The contest has been extended by 1 hour. It will now end at 1330 hrs IST.</p>\r\n<p><b>04/07/2015, 1015 hrs IST: </b>One more problem has been added to the contest.</p>\r\n<p><b>04/07/2015, 0830 hrs IST:</b> The contest has been delayed by 30 mins. It will now start at 0930 hrs IST.</p>",
+    "ip": "149.129.135.113",
+    "code": "AMSC2015",
+    "duration": "240",
+    "name": "Amritapuri Summer Camp Final Contest 2015",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<ul> <li><b>Organiser: </b>The contest is hosted by Amritapuri Summer camp organizers.</li> </ul> <p><b>Contest Details:</b></p> <ul> <li><b>Duration: </b>3\u00a0hours</li> <li><b>Start time: </b>4th\u00a0July 2015, 0930 hrs IST</li> <li><b>Ends time: </b>4th July 2015, 1230 hrs IST<br /> You may check your timezone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+Amritapuri+Summer+Camp+Final+Contest+2015&amp;iso=20150704T0930&amp;p1=44&amp;ah=3\" target=\"_blank\">here</a>.</li> <li>Rankings:\u00a0<a target=\"_blank\" href=\"/rankings/AMSC2015\">http://www.codechef.com/rankings/AMSC2015</a></li> </ul> <p><b>Registration:</b></p> <p>You just need to have a CodeChef username to participate. No seperate registration is required. If you do not have a CodeChef ID create one\u00a0<a href=\"/user/register\" target=\"_blank\">here</a>.</p> <p><br /><b>CodeChef: A Platform for Aspiring Programmers</b></p> <p>CodeChef was created as a platform to help programmers make it big in the world of algorithms, computer programming and programming contests. At CodeChef, we work hard to revive the geek in you by hosting a programming contest at the start of the month and another smaller programming challenge in the middle of the month.</p> <p><br /><b>Eligibility Criteria: Anyone with a knack for Programming :P</b></p> <p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct.</a></p> <p><br /><b>What's new in CodeChef?</b></p> <p>You may now play with our new\u00a0<a href=\"http://blog.codechef.com/2015/02/04/play-more-in-discuss-with-groups-latex\" target=\"_blank\">groups &amp; LaTex feature</a> on discuss.</p> <p><br /><b>Rules and Regulations:</b></p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\" target=\"_blank\">feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li> <li>Please contact\u00a0<a href=\"mailto:help@codechef.com\" target=\"_blank\"><span data-sheets-userformat=\"[null,null,513,[null,0],null,null,null,null,null,null,null,null,0]\" data-sheets-value=\"[null,2,&quot;arpitdec5@gmail.com&quot;]\">help@codechef.com</span></a> for any queries during the contest.</li> </ul> <p><b>Judging Criteria:</b></p> <ul> <li><b>All the problems have same points alloted to them.</b></li> <li><b>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time</b></li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> </ul> <p><b>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched\u00a0<a href=\"/ide\" target=\"_blank\">Online IDE</a>.</b><br />However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/sites/default/files/uploads/landing_page_banners/banner-compete.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "AMCS06": {
+            "allow_submission": false,
+            "name": "The Car Trip of Sundar",
+            "category_name": "main",
+            "accuracy": 25.3,
+            "successful_submissions": "21",
+            "code": "AMCS06",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "AMCS03": {
+            "allow_submission": false,
+            "name": "Race Time!",
+            "category_name": "main",
+            "accuracy": 20.45,
+            "successful_submissions": "9",
+            "code": "AMCS03",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "AMCS01": {
+            "allow_submission": false,
+            "name": "New City",
+            "category_name": "main",
+            "accuracy": 26,
+            "successful_submissions": "13",
+            "code": "AMCS01",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "AMCS04": {
+            "allow_submission": false,
+            "name": "Fun Theory",
+            "category_name": "main",
+            "accuracy": 11.11,
+            "successful_submissions": "4",
+            "code": "AMCS04",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "AMCS05": {
+            "allow_submission": false,
+            "name": "Treasure Hunt",
+            "category_name": "main",
+            "accuracy": 50.32,
+            "successful_submissions": "153",
+            "code": "AMCS05",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "AMCS02": {
+            "allow_submission": false,
+            "name": "Cricket in US",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "AMCS02",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1435996800,
+        "current": 1537436196,
+        "freezing": 0,
+        "start": 1435982400
+    },
+    "user": {
+        "username": ""
+    }
+}

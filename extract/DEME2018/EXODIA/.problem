@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>There was a kingdom 'Exodistaan' ruled by 'JonSnow'. The kingdom was divided into $n$ x $m$ cities. The cities are arranged in a grid, with $n$ rows of $m$ cities each. Now the ruler 'JonSnow' had a list of enemies (not exceeding 10). The enemies want Exodistaan for themselves, as it is quite popular. Their strategy was to first attack the cities row-wise and then attack column-wise. The enemies attacked the rows and were able to capture some continuous segments of cities in some rows. Each row was attacked by at most one enemy. Now they want to attack columns and all the columns which have maximum number of distinct rulers will be attacked first. 'JonSnow' is busy in preparing for the  war. You have to help him which columns will be attacked and what is the maximum number of distinct rulers (including 'JonSnow').\n\n\n###Input:\n\n- The first line contains three integers $n, m, k$.\n- Each of the next $k$ lines contains 4 values $i, l, r, S$.\nThis means that in row $i$, cities from column $l$ to column $r$ both inclusive have been captured by enemy $S$.\n\n\n###Output:\nPrint 2 space separated integers $A$ and $B$, where:\n- $A$ is the number of columns which will be attacked.\n- $B$ is the maximum number of distinct rulers in the columns.\n\n\n###Constraints \n- $1 \\leq n, m \\leq 10 ^ 5$\n- $1 \\leq k \\leq n$\n- $1 \\leq l \\leq r \\leq m$\n- $1 \\leq $ length of  $S \\leq 10$\n- The number of distinct enemies do not exceed $10$.\n\n\n###Sample Input:\n\t4 4 3\n\t1 2 3 Lannister\n\t2 1 2 Bolton\n\t4 1 1 Lannister\n\n\n###Sample Output:\n\t2 3\n\n###Explanation:\n\nThe matrix is as follows -\n\t\n\tJonSnow     Lannister   Lannister    JonSnow\n\tBolton   \tBolton   \tJonSnow      JonSnow\n\tJonSnow     JonSnow     JonSnow      JonSnow\n\tLannister   JonSnow     JonSnow      JonSnow\n\nThe first and second Columns have 3 rulers each - {JonSnow, Bolton, Lannister}. And that is the maximum possible. Since there are two column with maximum distinct rulers, the first integer in the output is 2. And since the maximum number of rulers in a single column is 3, the second output is 3.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Dementia (Rated for Division 2)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1523543400,
+        "end_date": 1524025980,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1524025980,
+        "submit_start_date": 1523543400,
+        "current": 1537432570
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>avi224</span>",
+    "problem_name": "The Kingdom of Exodiastaan",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/avi224'>avi224</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "avi224",
+    "contest_code": "DEME2018",
+    "max_timelimit": "1",
+    "problem_code": "EXODIA"
+}

@@ -1,0 +1,130 @@
+{
+    "announcements": "<ul>\r\n<li><b>The August LunchTime 2015 has ended!</b></li>\r\n<b>\r\n<li>The editorials for the contest can be found <a href=\"http://discuss.codechef.com/tags/ltime27/\">here</a>.</li>\r\n<li>The problems have been moved to practice section.</li>\r\n<li>Solutions are public for all the problems.</li>\r\n<li>The winners blog post will be updated soon.</li>\r\n</b>\r\n<li><b>30/08/2015, 1120 hrs IST: </b>In problem CLOST, you can print any string rather than lexicographically smallest string. Please note this information might not have been written correctly in some translation version of the problem.</li>\r\n</ul>",
+    "ip": "149.129.135.113",
+    "code": "LTIME27",
+    "duration": "180",
+    "name": "August Lunchtime 2015",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "MAKPALIN": [
+            {
+                "score": "20",
+                "count": "143"
+            },
+            {
+                "score": "100",
+                "count": "89"
+            }
+        ],
+        "MNMX": [
+            {
+                "score": "40",
+                "count": "1"
+            },
+            {
+                "score": "60",
+                "count": "259"
+            },
+            {
+                "score": "100",
+                "count": "1412"
+            }
+        ],
+        "INVERT": [
+            {
+                "score": "30",
+                "count": "28"
+            },
+            {
+                "score": "60",
+                "count": "3"
+            },
+            {
+                "score": "100",
+                "count": "5"
+            }
+        ],
+        "CLOST": [
+            {
+                "score": "20",
+                "count": "35"
+            },
+            {
+                "score": "80",
+                "count": "4"
+            },
+            {
+                "score": "100",
+                "count": "292"
+            }
+        ]
+    },
+    "rules": "<div> <div><b>Rules and Regulations:</b></div> <p>\u00a0</p> <div></div> <div>This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test data.</div> <div></div> <div> <p><b class=\"rules-heading\">Contest Details:</b></p> <div class=\"rules-body\"> <ul class=\"\"> <li><b>Problem Setters: </b><span><b>Sunny Agarwal and Amit Pandey</b></span></li> <li><b>Problem Tester: </b><span><b>Alex Gu</b></span></li> <li><b>Editorialist: </b><span><b>Prateek Gupta</b></span></li> <li><b>Russian Translator: </b><span><b>Vitalij Kozhukhivskij</b></span></li> <li><b>Mandarin Translator: </b><span><b>Gedi Zheng</b></span></li> <li><span><b>Vietnamese Translator: Nguyen Xuan Khanh</b></span></li> <li><span><b>Contest Admin: Praveen Dhinwa and Pushkar Mishra</b></span></li> </ul> </div> </div> <div> <ul> <li>The details of the failed test cases will also be visible on your solution page.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The contest is meant for students of high school and middle school though everyone is invited to participate.</li> <li>There will be separate ranking page for school students. The school students will be identified by the inistitution that they have enetered in their profile.</li> <li><b>We have removed all the Institutions that we could not identify from our database. We request you to update your institutions once again by going to your profile page.</b></li> <li>You can also send in your queries in an email to\u00a0<a href=\"mailto:contest-admin@codechef.com\" target=\"_blank\">contest-admin@codechef.com</a>, during the contest.</li> <li>Contest problems will become visible on August 30th, 2015 at 11:00 am (IST) to 2:00 pm (IST). There will be 4 problems in all. Check your time zone\u00a0<a target=\"_self\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+August+Lunchtime+2015&amp;iso=20150830T11&amp;p1=44&amp;ah=3\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\" target=\"_blank\">feedback@codechef.com</a></li> <li>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>All participants are expected to abide by the\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a>.</li> </ul> <b>Note: You can now \u201cCode, Compile, and Run\u201d your codes on our newly launched IDE\u00a0<a href=\"/ide\">here</a>.\u00a0<br /><br />However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. </b><b>If you use\u00a0<a href=\"http://ideone.com/\" target=\"_blank\">Ideone</a>, make sure to mark your submission \"private\" (not secret)\".</b></div> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/LTIME27/1440748328.png",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "MAKPALIN": {
+            "allow_submission": false,
+            "name": "Make Palindrome",
+            "category_name": "main",
+            "accuracy": 8.17,
+            "successful_submissions": "89",
+            "code": "MAKPALIN",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "MNMX": {
+            "allow_submission": false,
+            "name": "Minimum Maximum",
+            "category_name": "main",
+            "accuracy": 27.9,
+            "successful_submissions": "1412",
+            "code": "MNMX",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "INVERT": {
+            "allow_submission": false,
+            "name": "Gaming Inversion",
+            "category_name": "main",
+            "accuracy": 3.25,
+            "successful_submissions": "5",
+            "code": "INVERT",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CLOST": {
+            "allow_submission": false,
+            "name": "Churu and lost string",
+            "category_name": "main",
+            "accuracy": 7.11,
+            "successful_submissions": "292",
+            "code": "CLOST",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1440923400,
+        "current": 1537436088,
+        "freezing": 0,
+        "start": 1440912600
+    },
+    "user": {
+        "username": ""
+    }
+}

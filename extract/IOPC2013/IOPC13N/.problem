@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>\nA group of students thought of creating a different VOIP network. The network, rather than being any general graph, was a tree. Every user was assigned a unique <i>userid</i>. This network was hierarchical, i.e there was an admin. The parent of a user is the user connected to it on the unique path when it calls the admin. All users had a parent user except the admin.</p>\n<p>\nAll was working fine, until a weird problem occurred in the network. It so happened that a user was only able to call his parent user. Every user (including admin) was unable to reach any of his children. Although we can see that some users can still send a message to other users. A user <i>u</i> can't call the parent <i>g</i> of his parent <i>p</i> (i.e. his grandparent <i>g</i>) but still he can send a message to his grandparent <i>g</i>. <i>u</i> can achieve this by calling <i>p</i> and asking <i>p</i> to call <i>g</i> and send <i>u</i>'s message to <i>g</i>.</p>\n<p>\nYour task is to tell, given the <i>userid</i> <b>x</b> and <i>userid</i> <b>y</b>, whether <b>x</b> will be able to send a message to <b>y</b>.\n</p>\n\n<h3>Input</h3>\n<p>\nThe first line of the input contains two space separated integers <b>N</b>, the total number of users (including admin) in the VOIP network and <b>Q</b>, the number of queries. <br /><br />\nThe next line contains the <i>userid</i> <b>U</b> of the admin.<br /><br />\nEach of the next <b>N-1</b> lines contains two space separated integers <b>x</b> and <b>y</b> indicating that user <b>x</b> is the parent of user <b>y</b>.<br/><br />\nNext in the input are the queries you need to answer. There are <b>Q</b> lines each containing two space separated integers <b>x</b> and <b>y</b>.<br /></br/></p>\n<h3>Output</h3>\n<p>\nFor each query output a single line containing <br /><br />\n1 if <b>x</b> can send a message to <b>y</b><br /><br />\n-1 if <b>y</b> can send a message to <b>x</b><br /><br />\n0 otherwise</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5 </sup></b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>10<sup>5 </sup></b></li>\n<li><b>0</b> \u2264 <b>U</b> \u2264 <b>N-1</b></li>\n<li><b>0</b> \u2264 <b>x,y</b> \u2264 <b>N-1</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n3 2\n1\n1 2\n1 0\n0 1\n0 2\n\n<b>Output:</b>\n1\n0\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-03-2013",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2013",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1362810600,
+        "end_date": 1362897000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1362897000,
+        "submit_start_date": 1362810600,
+        "current": 1537438454
+    },
+    "problem_author_html_handle": "iopc_admin",
+    "problem_name": "Call me, Maybe",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/iopc_admin'>iopc_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "iopc_admin",
+    "contest_code": "IOPC2013",
+    "max_timelimit": "0.1",
+    "problem_code": "IOPC13N"
+}

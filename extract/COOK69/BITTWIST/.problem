@@ -1,0 +1,33 @@
+{
+    "problem_code": "BITTWIST",
+    "problem_author": "kostya_by",
+    "contest_name": "April Cook-Off 2016",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>kostya_by</span>",
+    "problem_name": "Bit Twister on a Tree",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>pavel1996</span>",
+    "contest_code": "COOK69",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cook69'>cook69</a>, <a class='problem-tag-small ' href='/tags/problems/kostya_by'>kostya_by</a>, <a class='problem-tag-small ' href='/tags/problems/medium-hard'>medium-hard</a>, <a class='problem-tag-small ' href='/tags/problems/sqrt-decomp'>sqrt-decomp</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Read problems statements in <a href=\"/download/translated/COOK69/mandarin/BITTWIST.pdf\" target=\"_blank\">Mandarin Chinese</a>, <a href=\"/download/translated/COOK69/russian/BITTWIST.pdf\" target=\"_blank\">Russian</a> and <a href=\"/download/translated/COOK69/vietnamese/BITTWIST.pdf\" target=\"_blank\">Vietnamese</a> as well.</h3>\r\n<p>You are given a rooted tree consisting of <b>n</b> nodes, numbered <b>1</b> through <b>n</b>. Each of the nodes has an integer <b>A<sub>i</sub></b> assigned to it.</p>\r\n<p>Let's define <b>children(v)</b> as a sequence of the children of <b>v</b> placed in the increasing order of their ids. Let's define <b>children(v, d)</b> as the following:</p>\r\n<p>\u00a0</p>\r\n<ul>\r\n<li><b>children(v, 0) = [v]</b></li>\r\n<li><b>children(v, 1) = children(v)</b></li>\r\n<li><b>children(v, d) = children(children(v)[1], d - 1) + children(children(v)[2], d - 1) + ... + children(children(v)[|children(v)|], d - 1)</b> if <b>d &gt; 1</b></li>\r\n</ul>\r\n<p>\u00a0</p>\r\n<p>Here '+' denotes concatenation of two sequences and <b>children(v)[i]</b> denotes accessing the <b>i</b>'th element of <b>children(v)</b>.</p>\r\n<p>Let's define <b>bitTwister(x, y)</b> function using the following code snippet written in Python:</p>\r\n<p><code></code></p>\r\n<pre>def bitTwister(x, y):\r\n  x ^= x &gt;&gt; 11\r\n  x ^= (x &lt;&lt; 7) &amp; 2636928640\r\n  x ^= (x &lt;&lt; 15) &amp; 4022730752\r\n  x ^= (x &gt;&gt; 18)\r\n  return (1812433253 * (x ^ (x &gt;&gt; 30)) + y) &amp; 4294967295\r\n</pre>\r\n<p>\u00a0</p>\r\n<p>Let's define <b>reducedByBitTwister(X<sub>1</sub>, X<sub>2</sub>, ..., X<sub>k</sub>)</b> as following:</p>\r\n<ul>\r\n<li><b>reducedByBitTwister(X<sub>1</sub>) = X<sub>1</sub></b></li>\r\n<li><b>reducedByBitTwister(X<sub>1</sub>, ..., X<sub>k - 1</sub>, X<sub>k</sub>) = bitTwister(reducedByBitTwister(X<sub>1</sub>, ..., X<sub>k - 1</sub>), X<sub>k</sub>)</b> if <b>k &gt; 1</b></li>\r\n</ul>\r\n<p>Your are asked to process <b>q</b> queries of the following kind:</p>\r\n<p>Your are given two integers <b>v</b> and <b>d</b> (<b>1 \u2264 v \u2264 n</b>). For convenience, let's denote <b>children(v, d)</b> as a node sequence <b>V<sub>1</sub>, V<sub>2</sub>, ..., V<sub>k</sub></b>. Your should calculate <b>reducedByBitTwister(A<sub>V1</sub>, ..., A<sub>Vk</sub>)</b>. It's guaranteed, that <b>children(v, d)</b> is a non-empty sequence for each query.</p>\r\n<h3>Input</h3>\r\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases.</p>\r\n<p>The first line of the test case description contains two integers <b>n</b> and <b>q</b>. The next line contains <b>n</b> integers denoting <b>A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>n</sub></b>. The next line contains <b>n - 1</b> integers <b>P<sub>2</sub>, ..., P<sub>n</sub></b> denoting, that <b>P<sub>i</sub></b> is the direct ancestor of <b>i</b>. The first node of the tree is the root, so it has no ancestors.</p>\r\n<p>Each of the next <b>q</b> lines contains two integers <b>v</b> and <b>d</b> denoting a query to process.</p>\r\n<h3>Output</h3>\r\n<p>For each of the queries, output the result on a separate line.</p>\r\n<h3>Constraints</h3>\r\n<p>\u00a0</p>\r\n<ul>\r\n<li><b>1 \u2264 T \u2264 4</b></li>\r\n<li><b>1 \u2264 n \u2264 100000</b></li>\r\n<li><b>1 \u2264 q \u2264 300000</b></li>\r\n<li><b>0 \u2264 A<sub>i</sub> &lt; 2<sup>32</sup></b></li>\r\n<li><b>1 \u2264 P<sub>i</sub> &lt; i</b></li>\r\n</ul>\r\n<p>\u00a0</p>\r\n<h3>Example</h3>\r\n<pre><b>Input:</b>\r\n1\r\n10 10\r\n2433124241 332550764 3458320162 869965676 3840323658 3515151768 3271951378\r\n246136236 1976704004 1673162377\r\n1 2 3 2 2 3 7 1 7\r\n10 0\r\n5 0\r\n1 3\r\n7 0\r\n10 0\r\n9 0\r\n5 0\r\n2 2\r\n6 0\r\n1 1\r\n\r\n<b>Output:</b>\r\n1673162377\r\n3840323658\r\n2025664556\r\n3271951378\r\n1673162377\r\n1976704004\r\n3840323658\r\n2025664556\r\n3515151768\r\n2552768825\r\n</pre>\r\n<h3>Explanation</h3>\r\n<p>Here's an image of the tree from the example case:</p>\r\n<p><img src=\"/download/COOK69/2.png\" width=\"300\" /></p>",
+    "category_name": "main",
+    "date_added": "26-03-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "4",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/BITTWIST",
+    "problem_tester": "pavel1996",
+    "time": {
+        "view_start_date": 1460908800,
+        "end_date": 1460917800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1460917800,
+        "submit_start_date": 1460908800,
+        "current": 1537434953
+    },
+    "user": {
+        "username": ""
+    }
+}

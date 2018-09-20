@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Consider  a set of n points in a 2-D plane with integer coordinates. There are various ways of measuring distance between two points such as Euclidean , Manhattan , Chebyshev distance. These distances have important application , one of which is chess.\n<p>\nConsider that the ith point is located at (xi , yi). We want to find the number of pairs(i, j) such that the Euclidean distance between the points i and j is equal to the Manhattan distance between the same two points, i.e. Euclidean distance(i, j) = Manhattan distance(i, j).\n</p>\n<p>\u221a((xi \u2212 xj )^2 + (yi \u2212 yj )^2) - is called Euclidean distance</p>\n<p>| xi \u2212 xj | + | yi \u2212 yj |  - is called Manhattan distance</p>\n<p>\nNote - All the n points given are considered different, even if they share the same coordinates.\n</p> </p>\n<h3>Input</h3>\n<p>First line contains n, number of points in the plane\nEach of the following n lines contains two integers xi , yi </p>\n<h3>Output</h3>\n<p>Print the total number of such pairs. </p>\n<h3>Example</h3>\n<pre><b>Input:\n3 \n1 1 \n7 5\n1 5\n</b>\n<b>Output:\n2 </b>\n</pre>\n<p>\u00a0</p>\n<pre><b>Input:\n6\n0 0\n0 1\n0 2\n-1 1\n0 1\n1 1\n</b>\n<b>Output:\n11</b>\n</pre>\n<p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-02-2018",
+    "is_direct_submittable": false,
+    "contest_name": "C Cubed ",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1519450200,
+        "end_date": 1519536600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1519536600,
+        "submit_start_date": 1519450200,
+        "current": 1537432915
+    },
+    "problem_author_html_handle": "anant_infinity",
+    "problem_name": "Euclid in Manhattan",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anant_infinity'>anant_infinity</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "anant_infinity",
+    "contest_code": "CCU2018",
+    "max_timelimit": "1 - 10",
+    "problem_code": "C3PRB2"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>You are given 'n' integers k<sub>1</sub>, k<sub>2</sub>, ...., k<sub>n</sub> and an integer 'x', which satisfy the equation x<sub>1</sub><sup>k<sub>1</sub></sup> * x<sub>2</sub><sup>k<sub>2</sub></sup> * ..... * x<sub>n</sub><sup>k<sub>n</sub></sup> = x. You are also given values a<sub>1</sub>, a<sub>2</sub>, ...., a<sub>n</sub> and y<sub>1</sub>, y<sub>2</sub>, ...., y<sub>n</sub>. Your task is to find the least positive value 'v', that can be taken by the expression: a<sub>1</sub>*x<sub>1</sub><sup>y<sub>1</sub></sup> + a<sub>2</sub>*x<sub>2</sub><sup>y<sub>2</sub></sup> + ... + a<sub>n</sub>*x<sub>n</sub><sup>y<sub>n</sub></sup>. Note that x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>, ..... x<sub>n</sub> are some variables (not necessarily integers), which can only take positive values.\n\n<h3>Input</h3>\n<p>The first line of input contains a single integer 't', denoting the number of test cases.\n<br/>The first line of each testcase contains two space separated integers 'n' and 'x'.\n<br/>Next line contains 'n' integers k<sub>1</sub>, k<sub>2</sub>, ..., k<sub>n</sub>.\n<br/>Next line contains 'n' integers a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>.\n<br/>Next line contains 'n' integers y<sub>1</sub>, y<sub>2</sub>, ..., y<sub>n</sub>.\n\n<h3>Output</h3>\n<p>For each testcase output the least positive value 'v' that can be taken by the expression. To avoid floating point errors, round it off to the nearest integer.\n<p>For example, 12.6 is rounded off to 13, and 12.4 is rounded off to 12. To avoid ambiguity, there will be no test case for which the fractional part of the answer equals 0.5.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n1 4\n2\n3\n3\n2 6\n1 1\n1 1\n1 1\n\n<b>Output:</b>\n24\n5\n\n<b>Constraints:</b>\nt <= 25\n1 <= n <= 20\n1 <= x <= 1000000\n1 <= k<sub>i</sub>, a<sub>i</sub>, y<sub>i</sub> <=20\nx<sub>i</sub> > 0\n\n</pre>\n<b>Explanation:</b>\n<p>Test case 1: x<sub>1</sub><sup>2</sup> = 4. Therefore, x<sub>1</sub> = 2 and 3*x<sub>1</sub><sup>3</sup> = 24.\n<br/>Test case 2: x<sub>1</sub>*x<sub>2</sub> = 6. Minimum value of x<sub>1</sub> + x<sub>2</sub> is 2*sqrt(6) = 4.89897. x<sub>1</sub> = sqrt(6) and x<sub>2</sub> = sqrt(6) gives this solution. Answer is 4.89897, which when rounded off to the nearest integer equals 5.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "NIT Trichy ByteCode 2011",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298192400,
+        "end_date": 1298214000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298214000,
+        "submit_start_date": 1298192400,
+        "current": 1537439345
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>suh_ash2008</span>",
+    "problem_name": "Finding Minimum",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/suh_ash2008'>suh_ash2008</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "suh_ash2008",
+    "contest_code": "BYTCDE11",
+    "max_timelimit": "0.1875",
+    "problem_code": "BTCODE_B"
+}

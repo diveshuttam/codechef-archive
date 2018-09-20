@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Two friends live in a small city. The city is built in the form of a circular road and skyscrapers surrounding the road. But one day the two friends quarreled with each other, and although they remained in the city, they decided to live in apartments located as far as possible from each other, or more precisely, so as to maximize the travel time between them. All the skyscrapers are arranged in a circle around the road (so you can travel in a cycle as follows: 1 &lt;-> 2 &lt;-> 3 &lt;-> ... &lt;-> n &lt;-> 1), and the travel time between two neighbouring buildings is 1. The travel time between two adjacent floors of a skyscraper is also 1, and the friends can choose to live in any floor of the building, from the 0-th to the k-th, assuming that the skyscraper in question has k floors. Thus, the travel time from the j-th floor to ground level is j time units.</p>\n<h3>Input</h3>\n<p>First, 1\u2264<var>n</var>\u226410<sup>6</sup>, the number of skyscrapers. The following numbers, 1\u2264<var>h<sub>1</sub></var>\u226410<sup>9</sup>,...1\u2264<var>h<sub>n</sub></var>\u226410<sup>9</sup>, are the heights of the buildings, given in clockwise order.</p>\n<h3>Output</h3>\n<p>Output exactly one number, the maximal possible travel time.</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong>\n4 1 2 3 4\n\n<strong>Output:</strong>\n8\n<strong>Input:</strong>\n10 1 7 4 3 2 9 2 3 4 5\n\n<strong>Output:</strong>\n20\n\n</pre>\n\n<p>\n<b>Please note: the time limit for this problem is <em>extremely</em> strict!\n</b>\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-12-2009",
+    "is_direct_submittable": false,
+    "contest_name": "January 2010 (Contest XII)",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1262338200,
+        "end_date": 1263547800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1263547800,
+        "submit_start_date": 1262338200,
+        "current": 1537439822
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Circle of towers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "JAN10",
+    "max_timelimit": "0.12234",
+    "problem_code": "L4"
+}

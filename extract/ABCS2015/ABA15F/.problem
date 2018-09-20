@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p><B>Problem description.</b></p>\n<p>\n<br /><br /><br />\n \u201cMurphy\u2019s Law doesn\u2019t meant that something bad will happen. It means that whatever can happen, will happen.\u201d<br /><br /><br />\n                                                            \u2014Cooper<br />\n<br /><br />\n<br /><br /><br />\nWhile traveling across  space-time,the data sent by NASA to \"The Endurance\" spaceship is sent in the format of,<br />\n<br /><br /></p>\n<pre>\nFor example,\n\nBit4  Bit3  Bit2  Bit1  Bit0\nD2    E1    D1    E0    D0\n\nD - Databit\nE - Error Check bit \n\nThe input file contains 32 bit number. \n</pre><p><br /><br /><br />\nThis format is chosen because often noises affect the data stream.<br /><br />\nThat is in the stream alternate bit contains the data bit.Your task is simple.. You just need to reset the error check bit ,leave the data bit unaffected .<br /><br />Cakewalk right? :-)<br /><br />Can you write the code to get the data bits alone.<br />\n<br /><br /></p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>\nFirst line contains the T number of test cases.<br />\nNext T lines contains a 32 bit integer.<br />\nT varies from 1 to 100000<br />\n\u00a0</p>\n<h3>Output</h3>\n<p>\nPrint the output for each input.</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n100\n23\n4\n1000\n5\n\n<b>Output:</b>\n68\n21\n4\n320\n5\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Abacus'15",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, NODEJS, SCALA, PERL, ICK, ASM, PRLG, PIKE, NICE, BASH, JS, PERL6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1424271600,
+        "end_date": 1424284200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1424284200,
+        "submit_start_date": 1424271600,
+        "current": 1537436773
+    },
+    "problem_author_html_handle": "abacus_opc",
+    "problem_name": "Interstellar",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abacus_opc'>abacus_opc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abacus_opc",
+    "contest_code": "ABCS2015",
+    "max_timelimit": "1",
+    "problem_code": "ABA15F"
+}

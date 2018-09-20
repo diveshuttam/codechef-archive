@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">It was Valentine's last week and as usual Sunny was alone without a girlfriend. Sad isn't it? He proposed to Isha though. Isha was a maths freak and she wanted her boyfriend to be a maths geek as well!\n\nSo she planned something. She has given him a mathematical problem to solve.<br /> For a given value of <b>N</b> and <b>K</b> he needs to find  <img src=\"http://www.csidtu.com/cranium/problem1_1.JPG\" />Modulo 10000000000283.<br /><br />\nSunny truly loves Isha and so he has been trying to solve the problem from past few days even though he is very weak in maths since childhood! Can you help Sunny so that she accepts him as her boyfriend?<br />\n\n<b>Note:</b> totient(x) is defined as the count of those numbers below \u201cx\u201d which are\nco-prime to \u201cx\u201d. Assume that totient(1)=1.\n\n<h3>Input</h3>\n</p><p>First line contains T, the number of test cases.\nEach of the next T lines consists of two integers N and K.\n\n\n<h3>Output</h3>\n</p><p>Output T lines each containing a single integer which represents <img src=\"http://www.csidtu.com/cranium/problem1_1.JPG\" /> Modulo 10000000000283.\n\n<h3>Constraints</h3>\n</p><p>\n1&lt;=N&lt;=10^7<br />\n1&lt;=K&lt;=1000<br />\n1&lt;=T&lt;=1000<br />\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n2 2\n10 2\n5 3\n\n<b>Output:</b>\n3\n44 \n124\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Cranium Contest 2012",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1329831900,
+        "end_date": 1329860700,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1329860700,
+        "submit_start_date": 1329831900,
+        "current": 1537438968
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>abhidce2013</span>",
+    "problem_name": "Sunny and Isha",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhidce2013'>abhidce2013</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abhidce2013",
+    "contest_code": "CRNM2012",
+    "max_timelimit": "0.2",
+    "problem_code": "CRNM1201"
+}

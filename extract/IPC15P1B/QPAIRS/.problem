@@ -1,0 +1,33 @@
+{
+    "problem_code": "QPAIRS",
+    "problem_author": "blunderspride",
+    "contest_name": "ICPC Preparatory Series by Team BlundersPride",
+    "todo": false,
+    "problem_author_html_handle": "blunderspride",
+    "problem_name": "Queries with Pairs",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "IPC15P1B",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bit'>bit</a>, <a class='problem-tag-small ' href='/tags/problems/blunderspride'>blunderspride</a>, <a class='problem-tag-small ' href='/tags/problems/ipc151b'>ipc151b</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/offline-process'>offline-process</a>, <a class='problem-tag-small ' href='/tags/problems/segment-tree'>segment-tree</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nYou have <b>N</b> pairs of integers <b>(A<sub>i</sub>, B<sub>i</sub>)</b> defined by two arrays <b>A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>N</sub></b> and <b>B<sub>1</sub>, B<sub>2</sub>, ..., B<sub>N</sub></b>.\n</p>\n\n<p>\nYou have to handle <b>Q</b> queries of form <b>(a, b)</b>. For each such query, find an index <b>i</b> such that <b>A<sub>i</sub> \u2265 a</b> and <b>B<sub>i</sub> \u2265 b</b> and the sum <b>A<sub>i</sub> - a + B<sub>i</sub> - b</b> is minimised. If multiple such indices exist, output the minimum index. Or, output <b>-1</b> if no such index exists.\n</p>\n\n<p>\n</p>\n\n<h3>Input</h3>\n\n<p>\nThe first line of the input contains two integers <b>N</b> and <b>Q</b>.\n<br/>\nThe second and third line contain arrays <b>A</b> and <b>B</b> respectively.\n<br/>\nEach of the next <b>Q</b> lines contain a pair of integers <b>(a, b)</b> denoting the queries.\n</p>\n\n\n<h3>Output</h3>\n\n<p>\nFor each query output the required answer in one line.\n</p>\n\n<h3>Constraints</h3>\n\n<ul>\n    <li>1 \u2264 <b>N</b>, <b>Q</b>  \u2264 10<sup>5</sup></li>\n    <li>1 \u2264 <b>A<sub>i</sub></b>, <b>B<sub>i</sub></b>, <b>a</b>, <b>b</b> \u2264 10<sup>9</sup></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n3 3\n1 3 2\n1 1 2\n1 1\n2 1\n5 5\n\n<b>Output:</b>\n1\n2\n-1\n\n</pre>\n\n<h3>Explanation</h3>\n<p>\nQuery 1: All indices satisfy the inequality criteria, but pair with index 1 gives minimum difference.<br/>\nQuery 2: Indices 2 and 3 satisfy the inequality criteria, and both pairs give same difference. So, we choose the minimum index.<br/>\nQuery 3: No index satisfies the inequality.\n</p>\n<h3>Note:</h3>\n<p>\nLarge input files. Use scanf/print in C++.\n</p>",
+    "category_name": "main",
+    "date_added": "30-09-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/QPAIRS",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1448724600,
+        "end_date": 1448746200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1448746200,
+        "submit_start_date": 1448724600,
+        "current": 1537435794
+    },
+    "user": {
+        "username": ""
+    }
+}

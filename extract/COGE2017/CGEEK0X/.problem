@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><hr>\n<p>Professor Gautam was trying to send a text message, and it\n  took more than ten minutes to type a one-line message.\" Their  placement of the letters is so\n  messed up? he have to press '7'\n    FOUR times to type an 's'\"\n</p>\n<p>\nIn this problem, you are required to come up with the best letter placement of\nkeys to minimize the number of key presses required to type a message. You will\nbe given the number of keys, the maximum number of letters we can put on every\nkey, the total number of letters in the alphabet, and the frequency of every letter\n in the message.  Letters can be placed anywhere on the keys and in any order.\n Each letter can only appear on one key. Also, the alphabet can have more than\n 26 letters (it is not English).\n</p>\n<p>\nFor reference, the current phone keypad looks like this<br>\n</p><pre>\nkey 2: abc\nkey 3: def\nkey 4: ghi\nkey 5: jkl\nkey 6: mno\nkey 7: pqrs\nkey 8: tuv\nkey 9: wxyz\n</pre>\nThe first press of a key types the first letter. Each subsequent press advances to the next letter. For example, to type the word \"snow\", you need to press \"7\" four times, followed by \"6\" twice, followed by \"6\" three times, followed by \"9\" once. The total number of key presses is 10.\n<p></p>\n<hr>\n<h3>Input</h3>\n<ul>\n<p>\n<li>The first line in the input file contains the number of test cases <b>N</b>.Each case consists of two lines.</li>\n<li>On the first line we have the maximum number of letters to place on a key (<b>P</b>), the number of keys available (<b>K</b>) and the\nnumber of letters in our alphabet (<b>L</b>) all separated by single spaces.</li>\n<li>The second line has <b>L</b> non-negative integers. Each number represents the frequency of a certain letter. The first number is how many times the first letter is used, the second number is how many times the second letter is used, and so on.</li>\n</p>\n</ul>\n<hr>\n<h3>Output</h3>\n<p>\nFor each case, you should output a no <b>N</b>\nindicating the number of keypad presses to type the message for the optimal layout.</p>\n<hr>\n<h3>Constrains</h3>\n<p>\n1 \u2264 <b>N</b> \u2264 100<br>\n1 \u2264 <b>P</b> \u2264 1000<br>\n1 \u2264 <b>K</b> \u2264 1000<br>\n1 \u2264 <b>L</b> \u2264 1000<br>\n</p>\n<h3>Example</h3>\n<table>\n<tbody><tr>\n<td>\n<br>\n<span>Input:</span>\n<br>\u00a0\n</td>\n</tr>\n<tr><td>\n<code>\n2<br>\n3 2 6<br>\n8 2 5 2 4 9<br>\n3 9 26<br>\n1 1 1 100 100 1 1 1 1 1 1 1 1 1 1 1 1 10 11 11 11 11 1 1 1 100<br>\n<br>\n</code>\n</td></tr>\n<tr><td>\n<br>\n<span>Output</span>\n<br>\u00a0\n</td></tr>\n<tr><td>\n<code>\n47<br>\n397<br>\n<br>\n</code>\n</td></tr>\n</tbody></table>\n\n<hr>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b><br>\n  In first case if we arrange alphabets like this, <br>\n  key 1: L<sub>1</sub>L<sub>2</sub><br>\n  key 2: L<sub>3</sub>L<sub>4</sub><br>\n  key 3: L<sub>6</sub>L<sub>5</sub><br><br>\n\n  then he have to press keys 47 times.<br>\n  where L<sub>i</sub> denote i<sub>th</sub> alphabet.<br>\n\n\n</p>\n</div>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-09-2017",
+    "is_direct_submittable": false,
+    "contest_name": "CodeGeeks",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1506609000,
+        "end_date": 1506616200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1506616200,
+        "submit_start_date": 1506609000,
+        "current": 1537433547
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>parac</span>",
+    "problem_name": "Messege Story",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/parac'>parac</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "parac",
+    "contest_code": "COGE2017",
+    "max_timelimit": "1",
+    "problem_code": "CGEEK0X"
+}

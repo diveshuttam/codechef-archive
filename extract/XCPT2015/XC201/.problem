@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p><b>Problem description.</b></p>\n<p>\u00a0<br />\nAfter the defeat at the hands of Reverse Flash. The Flash needs to train more to become faster. He can gain more speed if he runs on a longer distance. There are <b>N</b> blocks in the Central City. The Path among the blocks in the city is represented by a String S where each character in the string <b>'S'</b> represents a block of Central City.<br />\n<br /><br />\nThe Flash can start at any block, runs around the city and stops only when he reaches any of the visited blocks. <br /><br />\nTo gain maximum speed the Flash has to run maximum distance. Your task is to find out the maximum distance the flash can run in the city in different blocks.\n</p>\n<h3>Input</h3>\n<p>The first line contains the number of test cases <b>'T'</b>. <br /><br />\nEach test case contains a string <b>'S'</b>.\n</p>\n<h3>Output</h3>\n<p>For each test case print the length of maximum path.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10000</b></li>\n<li><b>1</b> \u2264 <b>|S|</b> \u2264 <b>1000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\nxyzax\nhhhh\nxwxyzabcxr\n\n<b>Output:</b>\n4\n1\n7\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>In test case 3, The flash can run on the following blocks to gain maximum speed.<br />\n<br /><br />\nw->x->y->z->a->b->c</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-01-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Xception 2.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, RUBY, PHP, SCALA, PERL, BASH, LISP sbcl, LISP clisp, PERL6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1422718200,
+        "end_date": 1422730800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1422730800,
+        "submit_start_date": 1422718200,
+        "current": 1537436876
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>ashishrko</span>",
+    "problem_name": "The Flash",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ashishrko'>ashishrko</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ashishrko",
+    "contest_code": "XCPT2015",
+    "max_timelimit": "1",
+    "problem_code": "XC201"
+}

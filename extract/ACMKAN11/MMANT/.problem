@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Mr. and Mrs. Ant are very hungry. So, they want to collect food as much as they can. They can search for foods simultaneously. To do so, they start from their house and collect all foods together and meet in some place (not necessarily their house). Finally, they eat together.</p>\n<p>The world of Mr. and Mrs. Ant is a two dimensional grid. Each cell is either the <b>home</b>, or <b>free</b>, or <b>blocked</b>, or contains a <b>food</b>. Two cells are adjacent if they share an edge. In each <b>second</b>, they can move from one cell to another cell simultaneously. One can decide to not to move in some step, while other may move. One cell can be visited many times. Both of them can move into the same cell also.</p>\n<p>In this problem, the grid is given by an R x C matrix represented by following characters:<br />\n</p>\n<style type=\"text/css\">\n#mmant-table td\n{\n   border: 1px solid #000;\n   padding:3px;\n}\n</style><table id=\"mmant-table\" cellspacing=\"\" cellpadding=\"5\" border=\"1\">\n<tr>\n<th>Character</th>\n<th>Meaning</th>\n<th>Remarks</th>\n</tr>\n<tr>\n<td>H</td>\n<td>Home of Mr. and Mrs. Ant</td>\n<td>Occurs exactly once</td>\n</tr>\n<tr>\n<td>F</td>\n<td>A food item</td>\n<td>Occurs at least once, at most 8 times</td>\n</tr>\n<tr>\n<td>. (dot)</td>\n<td>Free (passable) cell</td>\n<td>-</td>\n</tr>\n<tr>\n<td># (hash)</td>\n<td>Blocked Cell</td>\n<td>-</td>\n</tr>\n</table>\n<p><br/><br />\nGiven the grid information, give the minimum amount of time that must be needed for them to collect all the foods and then meet.</br/></p>\n<h3>Input</h3>\n<p>The first line of input will contain <b>T (T &lt;= 30)</b> denoting the number of cases. Each case starts with two integers <b>R</b> and <b>C (2 &lt;= R, C &lt;= 12)</b>. Then, <b>R</b> lines follow giving the grid.</p>\n<h3>Output</h3>\n<p>For each case, print the case number, the minimum amount of time (in <b>seconds</b>) that must be needed for them to collect all the foods and meet. If it is impossible to collect all the food items, output <b>-1</b> (negative one) instead.</p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n2\n2 3\nH#.\n.#F\n2 6\nF#F..#\n..H#.F\n<b>Output:</b>\nCase 1: -1\nCase 2: 8\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-10-2011",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Kanpur Site First Round Online Contest",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1319878800,
+        "end_date": 1319886000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1319886000,
+        "submit_start_date": 1319878800,
+        "current": 1537439102
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Mr and Mrs Ant",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "ACMKAN11",
+    "max_timelimit": "0.972289",
+    "problem_code": "MMANT"
+}

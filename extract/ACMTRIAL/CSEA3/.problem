@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Mo and Larry have devised a way of encrypting messages. They first decide secretly on the <br/>number of columns and write the message (letters only) down the columns, padding <br/>with extra random letters so as to make a rectangular array of letters. For example, if <br/>the message is \"There's no place like home on a snowy night\" and there are five <br/>columns, Mo would write down<br/>\nt o i o y<br/>\nh p k n n<br/>\ne l e a i<br/>\nr a h s g<br/>\ne c o n h<br/>\ns e m o t<br/>\nn l e w x<br/>\nNote that Mo includes only letters and writes them all in lower case. In this example, Mo <br/>used the character 'x' to pad the message out to make a rectangle, although he could <br/>have used any letter. Mo then sends the message to Larry by writing the letters in <br/>each row, alternating left-to-right and right-to-left. So, the above would be encrypted <br/>as<br/>\ntoioynnkpheleaigshareconhtomesnlewx<br/>\nYour job is to recover for Larry the original message (along with any extra padding letters) <br/>from the encrypted one. <br/>\n\n\n<h3>Input</h3>\n<p>There will be multiple input sets. Input for each set will consist of two lines. The first line will contain an integer in the range 2...20 indicating the number of columns used. The next line is a string of up to 200 lower case letters. The last input set is followed by a line containing a single 0, indicating end of input.\n\n<h3>Output</h3>\n<p>Each input set should generate one line of output, giving the original plaintext message, (with no spaces).\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n5\ntoioynnkpheleaigshareconhtomesnlewx\n3\nttyohhieneesiaabss\n0\n\n<b>Output:</b>\ntheresnoplacelikehomeonasnowynightx\nthisistheeasyoneab\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-09-2010",
+    "is_direct_submittable": false,
+    "contest_name": "ACM Trial",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1285939800,
+        "end_date": 1286087400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1286087400,
+        "submit_start_date": 1285939800,
+        "current": 1537439503
+    },
+    "problem_author_html_handle": "cseaiitg",
+    "problem_name": "Encryption",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cseaiitg'>cseaiitg</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "cseaiitg",
+    "contest_code": "ACMTRIAL",
+    "max_timelimit": "1",
+    "problem_code": "CSEA3"
+}

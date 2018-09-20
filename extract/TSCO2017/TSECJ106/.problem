@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Consider a collection of <b>N</b> rods, each associated with a length <b>L</b>. Each rod costs one unit. If Chef buys a rod with length <b>L</b>, then he also gets all rods with lengths in the range <b>[L, L+6]</b>, both inclusive. Your task is to find the minimum cost to buy all <b>N</b> rods</p>\n\n\n<h3>Input</h3>\n<ul>\n<li>First line of the input has an integer <b>N</b></li>\n<li>The next line has <b>N</b> space separated integers <b>L</b>, each denoting a rod of length of  </li>\n</ul>\n\n\n<h3>Output</h3>\n<p>For each test case, on a single line, output the minimum cost to buy all rods.</p>\n\n\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>4</sup></b></li>\n<li><b>1</b> \u2264 <b>L</b> \u2264 <b>10<sup>4</sup></b></li>\n</ul>\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n7\n14 7 18 27 13 4 7\n\n<b>Output:</b>\n3\n</pre>\n\n\n<h3>Explanation</h3>\n<p>The rods can be bought grouped as {4, 7, 7}, {13, 14, 18} and {27}</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-07-2017",
+    "is_direct_submittable": false,
+    "contest_name": "TSEC Codeathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1501320600,
+        "end_date": 1501335000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1501335000,
+        "submit_start_date": 1501320600,
+        "current": 1537433688
+    },
+    "problem_author_html_handle": "tseccodecell",
+    "problem_name": "Rod costs",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/tseccodecell'>tseccodecell</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "tseccodecell",
+    "contest_code": "TSCO2017",
+    "max_timelimit": "1",
+    "problem_code": "TSECJ106"
+}

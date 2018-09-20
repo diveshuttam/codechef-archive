@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The entire network is under the inspection and direct control of the Decepticons. They have learned our language through the World Wide Web and can easily understand the messages which are being sent. Sam is trying to send the information to Autobots to locate &ldquo;ALL SPARK&rdquo; which is the only source of energy that can be used to create universe. He is bit cautious in sending the message. He is sending the messages in a form of special pattern of string that contains important message in form of substrings. But Decepticons have learnt to recognize the Data Mining and string comparison patterns. He is sending a big message in form of a string (say M) and let there are N smaller substrings. Decepticons have to find whether each of these N substrings is a sub-string of M. All strings consist of only alphanumeric characters.\n\n<h3>Input</h3>\n<p>Input to the program consists of two line. The first line contains the string M (where size of M should be <=40). The next line contain a string S.\n\n<h3>Output</h3>\n<p>Output should consist of a line with a character 'Y'/'N' indicating whether the string S is a sub-string of String M or not.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\ntechtrishna online event\nonlin\n<b>Output:</b>\nY\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "TechTrishna 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1331706600,
+        "end_date": 1331760600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1331760600,
+        "submit_start_date": 1331706600,
+        "current": 1537438883
+    },
+    "problem_author_html_handle": "bestankur007",
+    "problem_name": "Decepticons Message match",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bestankur007'>bestankur007</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bestankur007",
+    "contest_code": "TCTR2012",
+    "max_timelimit": "0.2",
+    "problem_code": "NOPC1"
+}

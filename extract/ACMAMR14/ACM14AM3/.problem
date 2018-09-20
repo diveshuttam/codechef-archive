@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p><i>\"The Mars Orbiter Mission probe lifted-off from the First Launch Pad at Satish Dhawan Space Centre (Sriharikota Range SHAR), Andhra Pradesh, using a Polar Satellite Launch Vehicle (PSLV) rocket C25 at 09:08 UTC (14:38 IST) on 5 November 2013\".</i></p>\n\n<p>The secret behind this successful launch was the launch pad that ISRO used. An important part of the launch pad is the launch tower. It is the long vertical structure which supports the rocket.</p>\n<p>ISRO now wants to build a better launch pad for their next mission. For this, ISRO has acquired a long steel bar, and the launch tower can be made by cutting a segment from the bar. As part of saving the cost, the bar they have acquired is not homogeneous.<br />\nThe bar is made up of several blocks, where the <b>i<sup>th</sup></b> block has durability <b>S[i]</b>, which is a number between <b>0</b> and <b>9</b>. A segment is defined as any contiguous group of one or more blocks.</p>\n<p>If they cut out a segment of the bar from i<sup>th</sup> block to j<sup>th</sup> block (i&lt;=j), then the durability of the resultant segment is given by <b>( S[i]*10<sup>(j-i)</sup> + S[i+1]*10<sup>(j-i-1)</sup> + S[i+2]*10<sup>(j-i-2)</sup> + &hellip; + S[j] * 10<sup>(0)</sup> ) % M</b>.</p>\n<p>In other words, if <b>W<sub>(i,j)</sub></b> is the base-10 number formed by concatenating the digits <b>S[i], S[i+1], S[i+2], &hellip;, S[j]</b>, then the durability of the segment (i,j) is <b>W<sub>(i,j)</sub> % M</b>.</p>\n\n<p>For technical reasons that ISRO will not disclose, the durability of the segment used for building the launch tower should be exactly <b>L</b>. Given <b>S</b> and <b>M</b>, find the number of ways ISRO can cut out a segment from the steel bar whose durability is <b>L</b>.</p>\n\n<h3>Input</h3>\n<p>The first line contains a string <b>S</b>. The i<sup>th</sup> character of this string represents the durability of i<sup>th</sup> segment.</p>\n<p>The next line contains a single integer <b>Q</b>, denoting the number of queries.</p>\n<p>Each of the next <b>Q</b> lines contain two space separated integers, denoting <b>M</b> and <b>L</b>.</p>\n<h3>Output</h3>\n<p>For each query, output the number of ways of cutting the bar on a separate line.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> &le; <b>|S|</b> &le; <b>2 * 10^4</b></li>\n<li><b>Q &le; 5</b></li>\n<li><b>0</b> &lt; <b>M</b> &lt; <b>500</b></li>\n<li><b>0</b> &le; <b>L</b> &lt; <b>M</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n23128765\n3\n7 2\n9 3\n15 5\n\n<b>Output:</b>\n9\n4\n5\n</pre>\n<h3>Explanation</h3>\n<p>For M=9, L=3, the substrings whose remainder is 3 when divided by 9 are: 3, 31287, 12 and 876.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-10-2014",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Amritapuri Site First Round Online Contest 2014",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1413030600,
+        "end_date": 1413043200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1725829517,
+        "submit_start_date": 1413030600,
+        "current": 1537437370
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Launch Tower",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acm-icpc'>acm-icpc</a>, <a class='problem-tag-small ' href='/tags/problems/acmamr14'>acmamr14</a>, <a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "ACMAMR14",
+    "max_timelimit": "2",
+    "problem_code": "ACM14AM3"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Statement</h3>\n<p>\u00a0One day Gautam Khan was very eager to eat <a href=\"http://en.wikipedia.org/wiki/Vada_(food)\"> Vadai. </a> </p>\n<p>He wanted to eat as much vada as possible. There were infinite vadais in front of him which are arranged in a line and numbered from 1 (1 2 3 4 .....)and he decided to eat them in <b>N</b> steps.In each step he can eat <b>X</b> vadais , X is between 0 to N^2 vadai (eg N=2 , then he can eat 0 vadai or 1 vadai or 2 vadais or 3 vadais or 4 vadais) and after eating X vadais , he will sleep in the place where the last vadai in that step was kept( i.e., At each step , after eating the vadais he will sleep at the place where he ate the last vadai). But one of the vadai is rotten which is at position <b>M</b> and he will not sleep at that place but he can still eat it.Find maximum no of vadais Gautam can eat without sleeping at the place of rotten vadai at M.</p>\n<h3>Input</h3>\n<p>The first Line contains T , the no of test cases followed by T lines.<br />\n  Each line has 2 integers N,M. </p>\n<h3>Output</h3>\n<p> Output has T lines ,with each line containing no of maximum vadai gautam can eat .Since answer A can be too large, print A modulo 1000000007.</p>\n<h3>Example</h3>\n<h3>Input</h3>\n<pre>\n5\n1 1\t\t\n2 2\t\t\t\n3 2\t\t\t\n4 3\t\t\t\n</pre><h3>Output</h3>\n<pre>\n0\n5\n14\n30\n</pre><h3>Constraints</h3>\n<pre>\n 1&lt;= N &lt;=2,000\n 1&lt;= M &lt;= 4,000,000\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-01-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Samhita OLPC 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1391351400,
+        "end_date": 1391362200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1391362200,
+        "submit_start_date": 1391351400,
+        "current": 1537437869
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>arun08</span>",
+    "problem_name": "Gautam Vadai",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/arun08'>arun08</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "arun08",
+    "contest_code": "SMHT2014",
+    "max_timelimit": "1",
+    "problem_code": "SMHTB"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "LUCKY1",
+    "problem_author": "witua",
+    "contest_name": "February 2012 Challenge",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>witua</span>",
+    "problem_name": "Lucky Count",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>anton_lunyov</span>",
+    "contest_code": "FEB12",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/feb12'>feb12</a>, <a class='problem-tag-small ' href='/tags/problems/witua'>witua</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> Chef loves lucky numbers. Everybody knows that lucky numbers are positive integers whose decimal representation contains only the lucky digits <b>4</b> and <b>7</b>. For example, numbers <b>47</b>, <b>744</b>, <b>4</b> are lucky and <b>5</b>, <b>17</b>, <b>467</b> are not.\n\n</p><p> Let <b>F<sub>d</sub>(x)</b> equals to the number of digits <b>d</b> in decimal representation of the positive integer <b>x</b>. Chef interests only in functions <b>F<sub>4</sub>(x)</b> and <b>F<sub>7</sub>(x)</b>. For the given positive integer <b>N</b> he wants to know the total number of different pairs <b>(L; R)</b> such that <b> F<sub>4</sub>(L) + F<sub>4</sub>(L + 1) + ... + F<sub>4</sub>(R)</b> equals to <b> F<sub>7</sub>(L) + F<sub>7</sub>(L + 1) + ... + F<sub>7</sub>(R)</b> and <b>1 \u2264  L \u2264 R \u2264 N</b>.\n\n<h3>Input</h3>\n</p><p> The first line contains a single positive integer <b>T</b>, the number of test cases. <b>T</b> test cases follow. The only line of each test case contains a positive integer <b>N </b>.\n\n<h3>Output</h3>\n</p><p> For each test case, output a single line containing the answer for the corresponding test case.\n\n<h3>Constraints</h3>\n</p><p>\n1 \u2264 <b>T</b> \u2264 100000\n</p><p>\n1 \u2264 <b>N</b> \u2264 100000\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n3\n10\n100\n\n<b>Output:</b>\n6\n31\n1266\n</pre></p>",
+    "category_name": "main",
+    "date_added": "11-11-2011",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.508134",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/LUCKY1",
+    "problem_tester": "anton_lunyov",
+    "time": {
+        "view_start_date": 1328088600,
+        "end_date": 1328952600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1328952600,
+        "submit_start_date": 1328088600,
+        "current": 1537439020
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "CC3",
+    "problem_author": "ysc_rih",
+    "contest_name": "Code Currents 2014",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>ysc_rih</span>",
+    "problem_name": "Rihanna and Her Company",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CDCRNT14",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cdcrnt14'>cdcrnt14</a>, <a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/ysc_rih'>ysc_rih</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem description.</h3>\n<p>Rihanna has a very big Company and obviously CEO is the head of the Company. There are N employees under CEO, need not be immediately under him. Every employee has an index between 1 and <b>N</b>. no two employees has same index. Index of CEO is always 0.</p>\n<p>\nFor every employee there will be only one immediate superior employee and can have any number of employees directly under him. Since CEO is the head of the company there are no superiors upon him.</p>\n<p>\nNow given an employee, that employee and all the employees under him are considered as a TEAM. Therefore if there are <b>N</b> employees in the company there are N+1 TEAMS (including CEO). Therefore index of a TEAM is the index of the employee leading that TEAM.</p>\n<p>\nInitially salary of CEO is 1 dollar like Steve Jobs.<br />\n\u00a0</p>\n<h3>Input</h3>\n<p>The first line contains integer <b>N</b>, the number of Employees (excluding CEO).</p>\n<p>\nThe next <b>N</b> lines have two integers each. The first integer on the i-th line is the index of the immediate superior and second integer <b>r</b> is the salary of the employee with index i</p>\n<p>\nThe index of the immediate superior of the chef is less than the index of the employee.</p>\n<p>\nThe next line has an integer q</p>\n<p>\nThe next q lines contain one query each. Each query starts with a character which represents the type of query.</p>\n<p>\n1)\tIf it is <b>\u2018u\u2019</b> (without quotes) then it is an update. This is followed by two integers <b>r</b> and <b>s</b>.</p>\n<p>\n2)\tIf it is <b>\u2018q\u2019</b> (without quotes) then it is an query about salary. This is followed by an integer <b>r</b>.<br />\n\u00a0</p>\n<h3>Output</h3>\n<p>1) If the query is <b>\u2018u\u2019</b> (without quotes) then increase the salary of every employee in the TEAM with index <b>r</b> by an amount of <b>s</b>.</p>\n<p>\n2) if the query is <b>\u2018q\u2019</b> (without quotes) then print the highest salary of an employee in the TEAM with index <b>r</b>.<br />\n\u00a0</p>\n<h3>Constraints</h3>\n<p>1&lt;=N&lt;=100000<br /><br />\n1&lt;=s&lt;=10^9<br /><br />\n1&lt;=q(queries)&lt;=100000</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n0 10\n11\nq 0\nq 1\nu 1 10\nq 0\nq 1\nu 0 100\nq 0\nq 1\nu 1 1000\nq 0\nq 1\n<b>Output:</b>\n10\n10\n20\n20\n120\n120\n1120\n1120\n</pre>",
+    "category_name": "main",
+    "date_added": "6-02-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.2",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/CC3",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1392478200,
+        "end_date": 1392485400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1392485400,
+        "submit_start_date": 1392478200,
+        "current": 1537437836
+    },
+    "user": {
+        "username": ""
+    }
+}

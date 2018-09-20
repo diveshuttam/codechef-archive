@@ -1,0 +1,33 @@
+{
+    "problem_code": "BIGO01",
+    "problem_author": "nikuamit",
+    "contest_name": "BIG (O)",
+    "todo": false,
+    "problem_author_html_handle": "nikuamit",
+    "problem_name": "KUNAL AND STRINGS",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "BIGO2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nikuamit'>nikuamit</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Chef Kunal is playing with strings. He invented a game using strings and is playing the<br />\ngame. The rules of the game is as follows :</p>\n<p>1. You have four strings consisting of lower case English letters only.</p>\n<p>2. while all strings are not equal,<br />\n=> Do the following<br />\n* Remove one character from any string</p>\n<p>3. Print number of characters removed<br />\nNow he is curious. What is the minimum number of characters subtraction required to make all<br />\nstrings same</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of the input is a single integer <b>T</b> denoting the number of test cases. Next four<br />\nlines of each test case contain four strings, one string per line.</p>\n<h3>Output</h3>\n<p>For each test case, output the result in a single line</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1&lt;=T&lt;=100\n\n<li>1&lt;=|S|&lt;=100 ,<br />\n|S| = length of string S</li></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\nabc\nabc\nabc\nabc\nabc\nab\nabe\nabc\n\n<b>Output:</b>\n0\n3</pre><h3>Explanation :</h3>\n<p>In first test case, all strings are already equal. In second case, remove 'c' at the end of second<br />\nstring, remove 'e' in third string and remove 'c' in the fourth string. So total changes is 3</p>\n<p>\u00a0</p>\n",
+    "category_name": "main",
+    "date_added": "30-03-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA",
+    "max_timelimit": "3",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/BIGO01",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1427891400,
+        "end_date": 1427902200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1427902200,
+        "submit_start_date": 1427891400,
+        "current": 1537436458
+    },
+    "user": {
+        "username": ""
+    }
+}

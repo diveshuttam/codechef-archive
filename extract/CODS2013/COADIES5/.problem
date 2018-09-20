@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><H3>PROBLEM DESCRIPTION</h3></p>\n<p>Now team Raghu had stolen some coins from the house of Ranvijay and felt asleep.<br />\nAt night two of them wake and tried to divide the coins among them but they cannot divide them and left with one coin extra.Now when 3 of them wake up, again they<br />\ncannot divide them and left with one coin extra and so on every time......</p>\n<p>Ranvijay wants to know the number of coins team Raghu had stolen from his house.<br />\nSince you are a good friend of Ranvijay, so help him determine the minimum number of coins stolen from his house.<br />\n<br /><br />\n<H3>Input</h3><br />\nThe first line contains the number of test cases <b>T</b>.<br /><br />\nThe next <b>T</b> Lines contains a integer <b>N</b>,the size of Raghu's team.<br /></p>\n<p><H3>Output</h3><br />\nOutput contains a single integer,the minimum number of coins stolen from Ranvijay's house.<br /><br />\nSince the output can be large so print it as modulo 10<sup><br />\n9</sup>+7.</p>\n<p><H3>Constraints</h3><br />\n<B>1</b>&lt;=<B>T</b>&lt;=<B>1000</b><br />\n<B>1</b>&lt;<B>N</b>&lt;<B>100</b></p>\n<p><br /><H3>Example<br />\n<br /><br />\nInput</h3></p>\n<pre>\n3\n4\n5\n6\n\n<H3>Output</h3>\n13\n61\n61\n</pre><p><br /><br />\n<H3>EXPLANATION</h3>\n</p><p><b>TEST CASE 1</b>- Since 13 leaves 1 as remainder when divided by 2,3 And 4.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-04-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Codies 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1365345000,
+        "end_date": 1365359400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1365359400,
+        "submit_start_date": 1365345000,
+        "current": 1537438367
+    },
+    "problem_author_html_handle": "teamcoadies10",
+    "problem_name": "Determine The Coins",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/teamcoadies10'>teamcoadies10</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "teamcoadies10",
+    "contest_code": "CODS2013",
+    "max_timelimit": "0.5",
+    "problem_code": "COADIES5"
+}

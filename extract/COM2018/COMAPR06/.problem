@@ -1,0 +1,33 @@
+{
+    "problem_code": "COMAPR06",
+    "problem_author": "devesh8091",
+    "contest_name": "Codemania",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>devesh8091</span>",
+    "problem_name": "Chess Championship",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "COM2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/2-sat'>2-sat</a>, <a class='problem-tag-small ' href='/tags/problems/com2018'>com2018</a>, <a class='problem-tag-small ' href='/tags/problems/devesh8091'>devesh8091</a>, <a class='problem-tag-small ' href='/tags/problems/graph'>graph</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A chess championship is going to be organized at NIT Jamshedpur. Huge number of participants are ready to outsmart individuals in this interesting game.</p>\n\n<p>Sanjeev, being the current Chess Champion is the organizer of this year's championship matches. He expects that this year also the Gold Medal should be grabbed by a student of his branch in the college.</p>\n\n<p>For this to happen, he has made an arrangement of <b>m</b> practice matches for the <b>n</b> competitors of his branch.</p>\n\n\n<p>To simplify things consider there are only 2 types of players/competitors - <b>smart</b> and <b>dull</b>.</p>\n\n\n<p>A game is called <b>boring</b> if it is played between two <b>dull</b> players, otherwise the game is <b>interesting</b>.</p>\n\n\n<p>Sanjeev added a twist in this game. He called another <b>n</b> people who are <b>friends</b> of the above mentioned <b>n</b> players where each player has <b>exactly</b> one friend. It is interesting to observe that if a player is <b>smart</b>, then his/her friend is <b>dull</b>. The same reverse behaviour holds for a <b>dull</b> player also.</p>\n\n\n<p>Since Sanjeev is a fun loving person, so he wants to make all these matches look <b>interesting</b>. But he doesn't know which player is <b>smart</b> or <b>dull</b>. Can you help him ?</p>\n\n<p>\nNote: The <b>friend</b> of <b>i<sup>th</sup></b> player is <b>(i+n)<sup>th</sup></b> player where <b>1 \u2264 i \u2264 n</b>.\n</p>\n\n\n<h3>Input</h3>\n<p>First line consists of <b>t</b> - the number of test cases. Each test case goes as follows -</p>\n\n<p>\nFirst line consists of <b>n</b> and <b>m</b>, the number of players and total number of practice matches respectively.</p>\n\n<p>Each of the next <b>m</b> lines contains 2 space-separated integers for e.g. <b>\"a b\"</b> (without quotes) which denote a practice match or a game played between <b>a</b> and <b>b</b>.</p>\n\n<p>\nNote:- Here <b>a</b> can be a <b>player</b> or his/her <b>friend</b>. Also, <b>b</b> can be a <b>player</b> or his/her <b>friend</b>. Both <b>a</b> and <b>b</b> cannot be same. Each pair plays atmost <b>one</b> of <b>m</b> games.\n</p>\n\n<h3>Output</h3>\n<p>For each test case output the following in each line -\n\n\nPrint <b>\"boring\"</b>(without quotes) if all the <b>m</b> practice matches cannot be made <b>interesting</b>, \nelse print <b>\"interesting\"</b>(without quotes).</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>t</b> \u2264 <b> 50 </b></li>\n<li><b>2</b> \u2264 <b>n</b> \u2264 <b> 100000 </b></li>\n<li><b>1</b> \u2264 <b>m</b> \u2264 <b> 100000 </b></li>\n<li><b>1</b> \u2264 <b>a, b</b> \u2264 <b> 2*n </b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2 6\n3 1\n1 4\n2 4\n2 3\n4 3\n2 1\n4 4\n1 3\n2 4\n5 7\n6 8\n\n<b>Output:</b>\nboring\ninteresting\n\n</pre>\n\n<h3>Explanation</h3>\n<p><b>Example case 2.</b>\nOne possible way for making all 4 games <b>interesting</b> is by considering player 1 and player 4 as <b>smart</b>, and player 2 and player 3 as <b>dull</b>\n</p>",
+    "category_name": "main",
+    "date_added": "5-02-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/COMAPR06",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1518453000,
+        "end_date": 1518463800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1518463800,
+        "submit_start_date": 1518453000,
+        "current": 1537433000
+    },
+    "user": {
+        "username": ""
+    }
+}

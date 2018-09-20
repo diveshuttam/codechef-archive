@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>,</p>\n<p>Ignus\u201915 is coming. The parivartan team has decided to lighten the city lanes. Since Timo is the most intelligent member in the team. So, the team decides to give this task to Timo.\u00a0</p>\n<p>\nThe city is represented in the form of rectangular grid. Each cell of the grid contains either \u2018H\u2019 or \u2018L\u2019. \u2018H\u2019 represents house and \u2018L\u2019 represents \u2018Lane\u2019 . Timo has to place lamp post on the lanes. Each lamp post can illuminate in one of 4 directions- horizontal left, horizontal right, vertical up and vertical down. That is, a lamp post can illuminate all lanes connected to each other in the same direction. The light cannot pass through the houses. Since, the budget of FOC(Festival Organizing Committee) is not high, so Timo decided to set minimum number of lamp posts so that each lane is illuminated.\n</p>\n<p><b> Note</b> </p>\n<p>A lane can be illuminated by more than one lamp posts. </p>\n<h3>Input</h3>\n<p>First line of input file contains a single integer containing number of test cases. First line of each test case contains <b>N</b> and <b>M</b>, the number of rows and columns in the rectangular grid respectively. Then, <b>N lines</b> follow, each line contains a string having <b>size M</b></p>\n<h3>Output</h3>\n<p>For each test case, output a single integer representing the <b>minimum</b> number of lamp posts required to illuminate all lanes of the city.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>30</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>100</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Sample Input:</h3>\n<pre><b>Input:</b>\n2\n3 4\nLHLH\nHLLH\nLHLL\n4 4\nLHLH\nHLLL\nLLLH\nHHLH\n\n<b>Output:</b>\n5\n4\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>For the second test case, lamp post 1 will light grid (1,1) , lamp post 2 will light (1,3), (2,3), (3,3) and (4,3), , lamp post 3 will light grids (2,2), (2,3) and (2,4), and lamp post 4 will light grids (3,1) , (3,2) and (3,3). So, minimum number of lamp posts required is 4.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "IGNUS",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1424269800,
+        "end_date": 1424280600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1424280600,
+        "submit_start_date": 1424269800,
+        "current": 1537436780
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>bewithaman</span>",
+    "problem_name": "Citylights",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bewithaman'>bewithaman</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bewithaman",
+    "contest_code": "IGNU2015",
+    "max_timelimit": "1",
+    "problem_code": "IGNUS15D"
+}

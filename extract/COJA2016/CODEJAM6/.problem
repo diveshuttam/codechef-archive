@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nIn this problem we have to check whether there is proper usage of brackets or not. In a properly netsted expression , the left one an opening and the right one a closing bracket should be in pairs.<br /><br />\n( a + $ ( b = ) ( a ) ) is properly nested<br /><br />\n( a + $ ) b = ) ( a ( ) is not<br /><br /><br />\nIn this problem we have many pair of brackets, so we have to put a second condition on the<br />\nexpression: the matching brackets should be of the same kind. Consequently (()) is fine, but ([)) is<br />\nnot. The pairs of brackets are:<br />\n( )<br />\n[ ]<br />\n{ }<br />\n&lt; ><br />\n(* *)<br />\nThe two characters `(*' should be considered as one symbol, not as an opening bracket `(' followed<br />\nimmediately by *, and similarly for `*)'. The combination `(*)' should be considered as `(*'<br />\nfollowed by `)'.<br /><br />\nYou have to write a program that checks whether expressions are properly nested or not. If the expression is not properly nested your program should determine the position of the offending bracket, that is the length of the shortest prefix of the expression that can not be extended to a properly nested expression. Don't forget `(*' counts as one, as does `*)'. The characters that are not brackets also count as one.</p>\n<p><br /></p>\n<h3>\nInput</h3>\n<p>\nThe input is set of lines. Each line contains an expression which has to be checked followed by and end-of-line marker. No line contains more than 4000 characters. The input ends with a EOF.\n</p>\n<h3>Output</h3>\n<p>The output is a set of lines. Each line contains the result of the check of the corresponding inputline, that<br />\nis YES (in upper case), if the expression is OK, and (if it is not OK) NO followed by a space and the<br />\nposition of the error.</p>\n<p>\n<b>Sample Input</b><br />\n(*a++(*)<br />\n({[]})<br />\n-1<br /><b><br /><br />\nSample Output</b><br />\nNO 6<br />\nYES<br />\nYES\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Quark Codejam '16 ",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1454747400,
+        "end_date": 1454758200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454758200,
+        "submit_start_date": 1454747400,
+        "current": 1537435546
+    },
+    "problem_author_html_handle": "dhwanitquark",
+    "problem_name": "Brackets",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dhwanitquark'>dhwanitquark</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dhwanitquark",
+    "contest_code": "COJA2016",
+    "max_timelimit": "1",
+    "problem_code": "CODEJAM6"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Arya Stark, daughter of Ned Stark has decided to take vengeance of her father's death. She considers Cersei Lannister as her prime enemy. Because of the large army serving under Cersei Lannister, Arya cannot challenge her directly in a war. So she has finally decided to challenge Cersei in a game of mathematics. Since Arya never got a chance during her stay in Winterfell to study Mathematics, she has also decided to rely on you to help her put in this part.<br />\n<br /><br />\n<br /><br />\nIn a game a random number N is chosen. Arya and Cersei will play the game alternatively and each of them would subtract a number(n) [n is less than N] such that N modulo n gives zero. The game is repeated turn by turn until the one , who now cannot make a further move looses the game.<br />\n<br /><br />\n<br /><br />\nYour role is to tell Arya if she can win this case or not. If Arya wins that game then print \"Valar Morghulis\" otherwise print \"Lannisters always pays their debts\". The game begins with Arya playing first move. It is well understood that both of them will make moves in optimal way.\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>Input contains test cases t (&lt; 10<sup>5</sup>) and followed by t numbers (1 &lt;= N &lt;= 10<sup>6</sup> ).</p>\n<h3>Output</h3>\n<p>If Arya wins that game then print \"Valar Morghulis\" otherwise print \"Lannisters always pays their debts\".</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n212\n424\n\n<b>Output:</b>\nValar Morghulis\nValar Morghulis\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeNiche 2014, Trial round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1393083000,
+        "end_date": 1393169400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1393169400,
+        "submit_start_date": 1393083000,
+        "current": 1537437778
+    },
+    "problem_author_html_handle": "cuttingedge03",
+    "problem_name": "Valar Morghulis",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cuttingedge03'>cuttingedge03</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "cuttingedge03",
+    "contest_code": "CDNCTR14",
+    "max_timelimit": "0.1",
+    "problem_code": "GOT"
+}

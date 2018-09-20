@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> Chef is playing a video game where there are <b>N</b> sticks. Each stick has different point value given in an array <b>P</b> with N integers. If Chef collects some number of sticks, then the total points he earns is the sum of their point values. Chef wants to get the highest points that is possible by collecting sticks.</p>\n<p>You are given a 2D array <b>A</b> where jth column of ith row will be 1 if its possible to collect stick j immediately after collecting stick i. Otherwise, it will be 0.</p>\n<p>Chef stops collecting sticks once he cannot collect any more sticks. He cannot collect a stick which he has already been collected.</p>\n<p>Considering that he plays optimally find the maximum points he can get by collecting sticks.</p>\n<h3>Input</h3>\n<p>Input description.</p>\n<ul>\n<li>First line contains an Integer <b>T</b> the number of test cases. </li>\n<li>Each test case will begin with an integer <b>N</b> denoting the number of sticks</li>\n<li> The second line of each test cases contains <b>N</b> space-separated integers, denoting the points of each stick i.e. the <b>P</b> array</li>\n<li>N lines will follow containing N space separated integers (0 or 1) denoting the array <b>A</b> </li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Output description.</p>\n<ul>\n<li>For each test case, output a single line containing the maximum points Chef can get by playing the game collecting sticks.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<li>1&lt;=T&lt;=20</li>\n<li>1&lt;=N&lt;=10</li>\n<li>1&lt;=Values in P&lt;=1000</li>\n<li>A will have N rows and N colums, each index will either be 0 or 1.</li>\n<li>A[i][i] will always be 0.</li>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n4\n1 2 3 4\n0 0 0 0\n0 0 1 1\n0 0 0 1\n0 0 0 0\n4\n10 2 3 4\n0 0 0 0\n0 0 1 1\n0 0 0 1\n0 0 0 0\n\n<b>Output:</b>\n9\n10\n<h3>Explanation</h3>\n<p><b>Example case 1 (all sticks 0 based index).</b> He can collect sticks 1,2 and 3 first by starting at stick 1 and getting 2 points. Then he can either collect stick 2 or 3.\nIf he collects stick 2, he can collect stick 3 from there, but if he collects stick 3, then he cannot collect stick 2 after that.</p>\n<p><b>Example case 2 (all sticks 0 based index)</b>This case is similar to case 1 but here stick 0 has much more points. He can collect stick 0 and get the highest points.</p></pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Hindustan University Multi Provincial Re-Contest 2015",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1425565800,
+        "end_date": 1425580200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1425580200,
+        "submit_start_date": 1425565800,
+        "current": 1537436642
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>chandubaba</span>",
+    "problem_name": "Chef Collects sticks",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/chandubaba'>chandubaba</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "chandubaba",
+    "contest_code": "HUMP15R",
+    "max_timelimit": "1",
+    "problem_code": "STICK"
+}

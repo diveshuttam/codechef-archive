@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Thorin wanted to protect what was left of his family's wealth before he embarked on his journey to retrieve Smaug's treasure. And though he was accompanied on the quest by manyof his race, and by Gandalf, he didn't want to take any chances; he hid a number of such chests, deep underground. And then they were lost. Until, they were discovered a couple ofcenturies ago. Countless men and women have tried since, tried and failed to open any of them. Few people know this, and most of the ones who did died a long time ago, but thedwarves were exceptionally good at making treasure chests, famous for their tricky locks. Each treasure chest had two numbers written on them, hidden in the intricate carvings. Andthough the role of these two numbers has been known for decades now, no one has been able to come any closer to opening any of them for there is a third number involved which is,perhaps, the most important of all. Written in plain sight in the Khuzd\u00fbl language, it remained a mystery until now. When a group of researches finally deciphered the ancient language.</p>\n<p>The locks require an input based on the three numbers - let's call the first two 'k' and 's'. The dwarves were obsessed with primes and a particular series wherein each term was equalto the sum of the preceding two terms. The encryption required the treasure seeker to calculate the nth number in this series and then subtractk from that. let's call the result 'x'. 'n' is the number in the Khuzd\u00fbl language. The xth prime number was then calculated and 's' subsequently subtracted from it, giving 'y'. </p>\n<p>Thorin didn't want to make it easy, so he added another round of protection. One would have to calculate the count of numbers relatively prime to \u2018y\u2019 to arrive at the answer which needs to befed to open the chest. However, in the rare case that y does not turn out to be a valid natural number, one needs to feed in -1. Given n k s, your task is to find out the code that'll unlock the chest.</p>\n<h3>Input</h3>\n<p>t test cases. t lines follow with 3 integers separated by a space</p>\n<p>n k s</p>\n<h3>Output</h3>\n<p>t lines, each carrying the output for the t test cases.</p>\n<p><b><br />\n<h3>Note:</h3>\n<p>1. All nth and xth number calculations are 1 \u2013 indexed.</p>\n<p>2. The series for the nth number has its first two elements 0 and 1.<br />\n</p></b></p>\n<h3>Contraints</h3>\n<p>1&lt;=t&lt;=2000</p>\n<p>1&lt;= n &lt;= 93</p>\n<p>1&lt;=x&lt;=10<sup>8</sup></p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n<p>2\n</p><p>6 3 0\n</p><p>10 12 12 \n\n<b>Output:</b>\n</p><p>2\n</p><p>66\n</p></pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Bytes 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1360506600,
+        "end_date": 1360524600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1360524600,
+        "submit_start_date": 1360506600,
+        "current": 1537438544
+    },
+    "problem_author_html_handle": "troika_bytes13",
+    "problem_name": "Treasure Chest",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/troika_bytes13'>troika_bytes13</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "troika_bytes13",
+    "contest_code": "BYTS2013",
+    "max_timelimit": "2",
+    "problem_code": "BYTESH"
+}

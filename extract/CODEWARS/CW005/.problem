@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>GOBSTONES</b></p>\n<p>\n\tHarry and Ron are playing gobstones against Malfoy. In the game, there are 100 gobstones arranged in a row for each of them, such that the Mth gobstone is always M paces from the beginning. Both Ron and Harry have to start from the 1st gobstone. In one step they can either walk in either direction or transform a gobstone into a toad.\n</p>\n<p>\n\tTo beat Malfoy and win the game, both Harry and Ron have to transform the gobstones in a certain sequence. Both of them know the sequence in advance. What is the least number of steps in which they can complete it?\n</p>\n<p></p><p>\n\tConsider the following example:<br/><br />\n\tH 3, R 1, R 2, H 4 <br/><br />\n\tHere, H 2 means gobstone 2 in Harry\u2019s row, R 1 means gobstone 1 in Ron\u2019s row, and so on. Harry/Ron can win the game in 7 steps using the strategy shown below:\n</br/></br/></p>\n<p>\n\tStep| Harry | Ron <br /><br />\n\t-----+------------------+----------------- <br/><br />\n\t1   | Move to gobstone 2 \t| Stay at gobstone 1 <br/><br />\n\t2   | Move to gobstone 3    | Stay at gobstone 1 <br/><br />\n\t3   | Transform gobstone 3  | Stay at gobstone 1 <br/><br />\n\t4   | Move to gobstone 4    | Transform gobstone 1 <br/><br />\n\t5   | Stay at gobstone 4    | Move to gobstone 2 <br/><br />\n\t6   | Stay at gobstone 4    | Transform gobstone 2 <br/><br />\n\t7   | Transform gobstone 4  | Stay at gobstone 2 <br/></br/></br/></br/></br/></br/></br/></br/></br/></p>\n<p><b>Input</b></p>\n<p>\n\tInput format is as follows:<br/><br />\n\tT where T represents number of test cases.\n</br/></p>\n<p>\n\tFor each test case, on a new line each time, write a positive integer N which is the number of gobstones that need to be transformed.\n</p>\n<p>\n\tAfter this, write out the sequence that Harry and Ron should follow, in the form '[Initial letter of player] [Gobstone position]'. For example, H 1, R 2 and so on.\n</p>\n<p><b>OUTPUT</b></p>\n<p>\n\tFor each test case, output the number of steps required on a new line.\n</p>\n<p><b>CONSTRAINTS</b></p>\n<p>\n\t1\u2264 T \u2264100<br /><br />\n\t1\u2264 No. of Gobstones \u2264 100\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-08-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWars, Aaruush 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1440937800,
+        "end_date": 1441110600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1441110600,
+        "submit_start_date": 1440937800,
+        "current": 1537436082
+    },
+    "problem_author_html_handle": "aaruush15",
+    "problem_name": "GOBSTONES",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aaruush15'>aaruush15</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "aaruush15",
+    "contest_code": "CODEWARS",
+    "max_timelimit": "1 - 2",
+    "problem_code": "CW005"
+}

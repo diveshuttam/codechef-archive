@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>Problem description.</p>\n<p> Blackjack is a very well known gambling card game played against a<br />\ndealer in a casino. In this card game, each player is trying to beat<br />\nthe dealer, by obtaining a sum of card values not more than 21<br />\nwhich is greater than the sum of dealer card values. Player is initially<br />\ngiven 2 cards, but he could choose to HIT (ask for 3rd card) or STAND<br />\n(no more cards). If he chooses to hit for 3rd card and total score<br />\ncrosses 21 he get busted (loses irrespective of the total score of<br />\ndealer cards). Face cards (Jacks, Queens and Kings) are worth 10<br />\npoints. Aces are worth 1 or 11, whichever is preferable. Other cards<br />\nare represented by their number.<br />\nHere, you have to implement a conservative player strategy of<br />\nplaying blackjack. This conservative player does not want to get<br />\nbusted and hit only when its safe to do so. He follows following<br />\nstrategy:<br />\nHIT if (score&lt;=11) or (an ACE is held)<br />\nSTAND otherwise.<br />\nWrite a program to implement the above strategy given the initial 2<br />\ncards of the player.\n</p>\n<h3>Input</h3>\n<p>First line T, will have a single integer having number of test cases followed by T lines of input.</p>\n<p><br /><br />\nSecond Line will have two space seperated inputs (value of first and second card).<br />\n<br /><br />\nand so on..</p>\n<h3>Output</h3>\n<p>For each test case, output a single line containing the result.</p>\n<h3>Constraints</h3>\n<p>\n1) Color of the card does not affects the score of<br />\nthe card.<br />\n<br /><br />\n2) If the value of card is not valid then return INVALID.<br />\n<br /><br />\n3) Don't consider the card with value 10(print INVALID).<br />\n<br /><br />\n4) Input for Face cards must be capital<br />\nletters('A','Q','J','K') else return INVALID.<br />\n<br />\n</p>\n<h3>Example</h3>\n<pre><b>Input</b> \n3\nJ 5\n4 3\nA F\n\n\n<b>Output:</b>\nSTAND\nHIT\nINVALID\n</pre>\n<h3>Explanation</h3>\n<p><b>1. Here the value of J (JACK) is<br />\n10. so the sum of card values is 15, so he<br />\nchooses to stand.<br />\n<br /><br />\n2. Here the sum of values of card<br />\n4 and 3 is 7. It is less than 11, so it makes<br />\nsense for him to draw another card.<br />\n<br /><br />\n3. Here F is an invalid card name.</b></p>\n<p></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-10-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Code Crunch 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1382675400,
+        "end_date": 1382707800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1382707800,
+        "submit_start_date": 1382675400,
+        "current": 1537438075
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>rajat_vig</span>",
+    "problem_name": "Black Jack",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rajat_vig'>rajat_vig</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rajat_vig",
+    "contest_code": "CDCRNC13",
+    "max_timelimit": "0.1",
+    "problem_code": "MRIU14"
+}

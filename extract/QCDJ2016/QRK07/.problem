@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem description.</h3>\n\n<p>Laddu has bought some magic clay pieces from a stall at Quark and is now busy playing with it. The clay has very special magic properties.</p>\n\n<p>A clay piece of mass <b>A</b> can be split into two positive integers <b>B</b> and <b>C</b> such that <b> A = B + C</b>.</p>\n<p>Two pieces of clay of mass <b>P</b> and <b>Q</b> can be combined to form a new piece of mass R such that <b>R = P XOR Q.</b></p>\n<p>You are given number of clay pieces he has bought and their masses.</p>\n<p>You have tell whether it is possible for him to totally get all the clay pieces disappeared or not! Amazing isn't it? :P</p>\n\n<h3>Input</h3>\n\n<p>First line of input consists of an integer <b>T</b>, indicating number of test cases.</p>\n<p>For each test case, the line contains an integer <b>N</b>, the number of balls he bought, followed by the mass of each of the <b>N</b> balls.</p>\n<h3>Output</h3>\n\n<p>For each test case, output \"Yes\" or \"No\" without the quotes, answering whether he can disapper all clay pieces or not.</p>\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> <= <b>T</b> <= <b>100</b></li>\n<li><b>1</b> <= <b>N</b> <= <b>100</b></li>\n<li><b>1</b> <= <b>Mass of a single Clay Piece</b> <= <b>10^9</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2 9 17\n1 1\n</pre>\n<pre><b>Output:</b>\nYes\nNo</pre>\n\n\n<h3>Details</h3>\n\n<p>For first example, following steps can be done by Laddu:</p>\n<p>   1. Combine 9 and 17. 9 XOR 17 = 24.</p>\n<p>\tNow, he has a clay piece of mass 24.</p>\n<p>   2. Split 24 into 12 + 12.</p>\n<p>Now, he has two clay pieces, each of mass 12.</p>\n<p>   3. He can combine these two. 12 XOR 12 = 0.</p>\n<p>Hence, he is left with no clay.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-11-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Quark CodeJam Round 1",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1479569400,
+        "end_date": 1479580200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1479580200,
+        "submit_start_date": 1479569400,
+        "current": 1537434370
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>lohit_97</span>",
+    "problem_name": "Laddu does Magic",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/lohit_97'>lohit_97</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "lohit_97",
+    "contest_code": "QCDJ2016",
+    "max_timelimit": "1",
+    "problem_code": "QRK07"
+}

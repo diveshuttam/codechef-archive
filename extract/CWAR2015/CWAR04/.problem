@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>\n<h3>Problem description.</h3>\n</p>\n<p><b>Shubham</b> has just finished writing a computer program. Shubham's computer has m memory cells. The cells have addresses 0 to m-1. Shubham's program consists of n instructions. The instructions are mutually independent and therefore they may be executed in any order. The instructions must be executed sequentially (i.e., one after another) and each instruction must be executed exactly once.<br /></p>\n<p>You are given a description of the n instructions as a String[] with n elements. Each instruction is a String of l characters. For each instruction, character i of an instruction is '1' if this instruction accesses ith memory cell, or '0' if it does not.<br /></p>\n<p>Shubham's computer uses caching, which influences the time needed to execute an instruction. More precisely, executing an instruction takes k^2 units of time, where k is the number of new memory cells that this instruction accesses. (I.e., k is the number of memory cells that are accessed by this instruction but have not been accessed by any previously executed instruction. Note that k may be zero, in which case the current instruction is indeed executed in 0 units of time.)<br /></p>\n<p>Shubham's instructions can be executed in many different orders. Clearly, different orders may lead to a different total time of execution. Find and return the minimum amount of time in which it is possible to execute all instructions written by Shubham.\u00a0</p>\n<h3>Input</h3>\n<p>Input description.</p>\n<p>An Array of strings of <b>0 and 1</b>separated with \"<b>,</b>\".  </p>\n<h3>Output</h3>\n<p>Output description.</p>\n<p>A single integer showing the execution time of the instruction </p>\n<h3>Constraints</h3>\n<ul>\n<li><b>An array of N no of Strings</b> upto 10^6 size</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n\n111,001,010\n\n<b>Output:</b>\n3\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> <br />Shubham has 3 instructions. The first instruction (\"111\") accesses all three memory cells. The second instruction (\"001\") accesses only memory cell 2. The third instruction (\"010\") accesses only memory cell 1. If Shubham executes these three instructions in the given order, it will take 3^2 + 0^2 + 0^2 = 9 units of time. However, if he executes them in the order \"second, third, first\", it will take only 1^2 + 1^2 + 1^2 = 3 units of time. This is one optimal solution. Another optimal solution is to execute the instructions in the order \"third, second, first\".</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-09-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWar NIT Durgapur",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1443706200,
+        "end_date": 1443727800,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1443727800,
+        "submit_start_date": 1443706200,
+        "current": 1537435997
+    },
+    "problem_author_html_handle": "cad_xcoders",
+    "problem_name": "ExecutionTime",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cad_xcoders'>cad_xcoders</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "cad_xcoders",
+    "contest_code": "CWAR2015",
+    "max_timelimit": "2",
+    "problem_code": "CWAR04"
+}

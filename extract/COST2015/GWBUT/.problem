@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p><b>WBUT</b> has a unique grading style:</p>\n<p><br/><br/></br/></br/></p>\n<p>\nGrade    Marks<br/><br />\nO  ------  91-100<br/><br />\nE  ------ 81-90<br/><br />\nA  ------  71-80<br/><br />\nB  ------  61-70<br/><br />\nC  ------   51-60<br/><br />\nD  ------  41-50<br/><br />\nF  ------   0-40<br/>\n</br/></br/></br/></br/></br/></br/></br/></br/></p>\n<p><br/><br/></br/></br/></p>\n<p>Now in a class there are n students and the state of a class can be defined by the grades of its students. Like {G<sub>1</sub>, G<sub>2</sub>, G<sub>3</sub>, \u2026\u2026\u2026 Gn} where G<sub>i</sub> can have values from the set {O,E,A,B,C,D,F} and 1&lt;=i&lt;=n . And then we write its as a string - > G<sub>1</sub>G<sub>2</sub>G<sub>3</sub>\u2026\u2026G<sub>n</sub><br />\n<br/><br/><br />\nGiven the number of students in a class, give the number of possible state-strings of that class.<br/></br/></br/></br/></p>\n<h3>Input</h3>\n\n<ul>\n<li>First line of input contains an integer t denoting the number of test cases. The next t lines contain an integer n denoting the number of students in a class.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n\n<ul>\n<li>For each test case, print the answer in <b>mod (10<sup> 9 </sup>+7).</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n\n<ul>\n<li> 1&lt;=t&lt;=10 <sup> 5 </sup> </li>\n<li> 1&lt;=n&lt;=10<sup> 6 <sup></sup></sup></li>\n<p>\u00a0</p>\n<h3>Example</h3>\n<p><b>Input:</b><br />\n<br/><br/><br />\n3<br/><br />\n1<br/><br />\n232<br/><br />\n323<br/><br />\n<b>Output:</b><br />\n<br/><br/><br />\n7<br/><br />\n870252122<br/><br />\n906132815<br/><br />\n<br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></p>\n<p>\n<b>Explanation</b><br />\nCASE 1: The possible state-strings can be : A , B , C , D , E , F , O\n</p>\n</ul>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-04-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeStorm 15.04",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1429371000,
+        "end_date": 1429381800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1429381800,
+        "submit_start_date": 1429371000,
+        "current": 1537436375
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>arindam168</span>",
+    "problem_name": "Grading at WBUT",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/arindam168'>arindam168</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "arindam168",
+    "contest_code": "COST2015",
+    "max_timelimit": "1",
+    "problem_code": "GWBUT"
+}

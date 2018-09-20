@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p></p>\n\n<p>\nDue to insufficiency of space for communication of secret codes during <b>World War 1</b>,army people used to send single digit Morse code numbers via some signs.The military camp should find a province number appropriate to the sent Morse so that they can attack that particular province.Luckily,there are limited number of provinces.<br/>\n          The logic is to find sum of all numbers with particular number of digits(sent in the Morse) and get the next ID of the province to be attacked.But,here\u2019s a catch.The numbers used for summation should contain their digits in increasing order from left to right.\n</p>\n\n<h3>Example:</h3>\n<p>\tSoldiers belonging to our country know this catch and find the province ID easily,whereas soldiers from other countries can\u2019t find the next province ID since they don\u2019t know the property of the numbers to be added.\n</p>\n<h3>Input Description:</h3>\n<p>\nInput of test case contains a <b>single integer n </b> (particular number of digits) decoded from the Morse Code sent with the following constraints.</p>\n\n\n<h3>Input Constraints:</h3>\n\n<p>\tFor a valid integer n in the input:<br/>\n<b>0 <= n <= 6</b><br/></p>\n\n<h3>Output Description:</h3>\n\n<p>Output should print an integer which is the province ID followed by a new line.<br>\nIf invalid numbers are given,print <b>-1</b> followed by a new line</p>\n\n<h3> Example: </h3>\n<pre>\n<b>Input:</b>\n3\n\n<b>Output:</b>\n25830\n</pre>\n\n<p></p>\n\n<h3>Explanation: </h3>\n<p>\nThe program added up all the numbers:<br/>\n\n123 + 124 + 125 + 126 + 127 + 128 + 129 + 134 + 135 + 136 + 137 + 138 + 139 + 145 + 146 + 147 + 148 + 149 + 156 + 157 + 158 + 159 + 167 + 168 + 169 + 178 + 179 + 189 + 234 + 235 + 236 + 237 + 238 + 239 + 245 + 246 + 247 + 248 + 249 + 256 + 257 + 258 + 259 + 267 + 268 + 269 + 278 + 279 + 289 + 345 + 346 + 347 + 348 + 349 + 356 + 357 + 358 + 359 + 367 + 368 + 369 + 378 + 379 + 389 + 456 + 457 + 458 + 459 + 467 + 468 + 469 + 478 + 479 + 489 + 567 + 568 + 569 + 578 + 579 + 589 + 678 + 679 + 689 + 789 = 25830\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Shaastra Programming Contest 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1482568200,
+        "end_date": 1482579000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1482579000,
+        "submit_start_date": 1482568200,
+        "current": 1537434281
+    },
+    "problem_author_html_handle": "nishalrd",
+    "problem_name": "World War 1",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nishalrd'>nishalrd</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nishalrd",
+    "contest_code": "SOPC2016",
+    "max_timelimit": "3",
+    "problem_code": "SPC1604"
+}

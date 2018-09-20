@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nOne fine day during the summer break Aman and Anish were playing in the tool shed with some nails. Being the little pesky kids that they were, they enjoyed hammering nails into anything they could find. Seeing this their father decided to make their little nail hammering nuisance into more of a learning activity. He proposed a game to the two boys:\n\n\"I will give you a nail of some particular length , each of you have to take turns to hammer it into a piece of wood. The person who hammers the nail in last loses the game.\"\n\n</p><p>\nNow Anish and Aman having similar physical ability could hit the nail inside a piece of would a maximum of 'B' inches and a minimum of 'A' inches inclusive. Anish always starts the game.\n</p><p>\nGiven a nail of length 'L' inches and the integers 'A' and 'B', you have to determine the winner of this game assuming both Anish and Aman play optimally.\n</p>\n\n<h3>Input</h3>\n<p>\nFirst line consists the number of testcases 'T'. The next 'T' lines consist of three space separated integers A, B, L such that 1 < A < B < 1,000,000 and 1 < L < 1000,000,000\n</p>\n\n<h3>Output</h3>\n<p>\nOutput either 'Anish' or 'Aman' on a new line indicating the winner of the game for each test case.\n</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n3 9 12\n3 9 13\n\n<b>Output:</b>\nAnish\nAman\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Technovanza",
+    "languages_supported": "C, JAVA, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1264350600,
+        "end_date": 1264359600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180168,
+        "submit_start_date": 1264350600,
+        "current": 1537439800
+    },
+    "problem_author_html_handle": "technovanza10",
+    "problem_name": "Nails",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/technovanza10'>technovanza10</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "technovanza10",
+    "contest_code": "TV10CAT3",
+    "max_timelimit": "0.166667",
+    "problem_code": "TECH06"
+}

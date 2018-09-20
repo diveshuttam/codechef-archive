@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Joseph is captured along with <b>N</b>-1 of his soldier friends. The enemy has decided to play the following game.</p>\n<p>These <b>N</b> soldiers are seated in a circle. The seats are numbered from 1 to <b>N</b> in clockwise order. The enemy chooses a nonzero integer <b>K</b>.</p>\n<p>\nIf <b>K</b> is positive the enemy kills the <b>K</b><sup>th</sup> guy in clockwise direction starting from 1 (the 1st guy starting from 1 is 1 itself). Then the (2<b>K</b>)<sup>th</sup> alive guy in anticlockwise direction from the position of first killing, then (3<b>K</b>)<sup>th</sup> alive guy in clockwise direction from position of second killing and so on until only one guy survives.</p>\n<p>Similarly, if <b>K</b> is negative the enemy kills the |<b>K</b>|<sup>th</sup> guy in anticlockwise direction starting from 1. Then the (|2<b>K</b>|)<sup>th</sup> guy in clockwise direction from the position of first killing, then (|3<b>K</b>|)<sup>th</sup> guy in anticlockwise direction from the position of second killing and so on until only one guy survives.</p>\n\n<p>That is, after every killing the enemy reverses its direction and increases the number of soldiers skipped before next killing by <b>K</b>.</p>\n<p>Note that the starting direction is clockwise if <b>K</b>>0 and anticlockwise if <b>K</b><0 and the counting for the next killing starts from the position of previous killing.</p>\n\n<p>You have to determine the index at which Joseph should sit in order to survive.</p>\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases.</p>\n<p>Each of the following <b>T</b> lines contain two integers each: <b>N</b> and <b>K</b>.</p>\n\n<h3>Output</h3>\n<p>For each test case, output a single integer in a new line: the index where Joseph must choose to survive.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 <b>T</b> \u2264 10<sup>4</sup></li>\n<li>1 \u2264 <b>N</b> \u2264 10<sup>6</sup></li>\n<li>-10<sup>9</sup> \u2264 <b>K</b> \u2264 10<sup>9</sup></li>\n<li><b>K</b> is non-zero.</li>\n</ul>\n<p>Sum of <b>N</b> over all testcases is less than or equal to 10<sup>6</sup> for each input file\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n4 2\n4 -1\n<b>Output:</b>\n3\n4\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Test Case 1.</b>\n<p>Step 1: Enemy kills the 2nd person clockwise starting from 1. That is, 2 is killed. [Going clockwise]</p>\n<p>Step 2: Enemy skips (1,4,3) and kills (1) [Going anticlockwise]</p>\n<p>Step 3: Enemy skips (3,4,3,4,3) and kills (4) [Going clockwise]</p>\n<p>3 survives</p>\n<p></p>\n<b>Test case 2:</b>\n<p>Step 1: Enemy kills first person starting from 1. That is, enemy skips (none) and kills (1) [Going anticlockwise]</p>\n<p>Step 2: Enemy skips (2) and kills (3) [Going clockwise]</p>\n<p>Step 3: Enemy skips (2,4) and kills (2) [Going anticlockwise]</p>\n<p>4 survives</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-04-2017",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2017 (Rated)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1492767000,
+        "end_date": 1492781400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1492781400,
+        "submit_start_date": 1492767000,
+        "current": 1537433931
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>varunkhare1234</span>",
+    "problem_name": "Game Of Life",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/varunkhare1234'>varunkhare1234</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "varunkhare1234",
+    "contest_code": "IOPC2017",
+    "max_timelimit": "1",
+    "problem_code": "IOPC17B"
+}

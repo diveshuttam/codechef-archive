@@ -1,0 +1,33 @@
+{
+    "problem_code": "GCDMAX1",
+    "problem_author": "skullcrackers",
+    "contest_name": "ICPC Preparatory Series by Team SkullCrackers",
+    "todo": false,
+    "problem_author_html_handle": "skullcrackers",
+    "problem_name": "Max Subarray GCD",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": null,
+    "contest_code": "IPC15P1A",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/binary-search'>binary-search</a>, <a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/gcd'>gcd</a>, <a class='problem-tag-small ' href='/tags/problems/ipc151a'>ipc151a</a>, <a class='problem-tag-small ' href='/tags/problems/ipcquestion'>ipcquestion</a>, <a class='problem-tag-small ' href='/tags/problems/skullcrackers'>skullcrackers</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Problem Statement </h3>\n<p>\nGiven an array of  size <b> 'N' </b> of integers with each element denoted as <b> array[i] </b> .  <br />\nIn this problem we are given a parameter <b> 'K' </b> and we are supposed to find the <b> size of the largest contiguous subarray whose GCD is atleast 'K'</b>   <br />\nIf there is no subarray whose GCD is atleast 'K' , print 0 \n</p>\n<h3> Constraints </h3>\n<p>\n<br />\n<b> 1 </b> &lt;= <b> N  </b> &lt;= <b> 500000 </b><br />\n<br />\n<b> 1 </b> &lt;= <b> array[i] </b> , <b> K </b> &lt;= <b> 1000000</b><br />\n\n</p>\n<h3> Input Format </h3>\n<p>\nThe first line contains 2 integers 'N' and 'K' the size of the array and the parameter as described in the problem statement  <br />\nThe second line containts 'N' space separated integers denoting the array \n</p>\n<h3> Output Format </h3>\n<p>\nPrint a single integer in a single line denoting the maximum contiguous subarray size whose GCD is atleast 'K' \n</p>\n<h3> Sample </h3>\n<p>\nInput </p>\n<p>5 9 </p>\n<p>10 20 5 15 45 </p>\n<p>Output </p>\n<p>2  </p>\n<p>Explaination  </p>\n<p>GCD(1 , 2) is 10 and since its greater than 0 and there is no other subarray larger that this with GCD atleast 9 , so the answer is 2 . Alternatively the subarray (4 , 5) is also having GCD 15 but since it also has a size 2 the answer remains 2 only.  <br />\nInput </p>\n<p>6 10 </p>\n<p>15 30 10 20 30 40 </p>\n<p>Output </p>\n<p>5 </p>\n",
+    "category_name": "main",
+    "date_added": "5-10-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/GCDMAX1",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1448465400,
+        "end_date": 1448483400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1448483400,
+        "submit_start_date": 1448465400,
+        "current": 1537435799
+    },
+    "user": {
+        "username": ""
+    }
+}

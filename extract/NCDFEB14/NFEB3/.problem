@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h2>Robot Game</h2>\n<p>\nThere is a maze of size <b>N</b>*<b>M</b>, consisting of unit blocks. At the start Robot has <b>RC</b> percentage of battery charged.<br />\nNow Robot start from <b>1 st</b> row and move towards <b>N th</b> row. From the present block robot can move to a block in the next row, which is either on right or on left side of the present block. On moving to a block in <b>i th</b> row <b>j th</b> column, Robots battery charge will reduce by <b>C(i,j)</b> percent if <b>C(i,j)</b> is greater then 0, else it will be recharged by <b>C(i,j)</b> percent.<br />\nFor Example if battery has 50 percent of charge, on moving to block with <b>C(i,j)</b> = 15, battery will have 35 ( 50 -15 ) percent of the charge. </p>\n<p></p><p>\nNow the task is to find out the status of the battery in the end, if the Robot moves optimally to save maximum charge. ( Remember : Battery Charge will not exceed more than 100 percent, and Robot will not move further if Battery charge goes down to 0 percent ).</p>\n<p><h3>Input</h3>\n</p><p>\nFirst line of the input contains <b>T</b>, number of test cases.<br />\nIn Each test case<br />\nFirst line consists of three space separated integers <b>N</b>, <b>M</b> and <b>RC</b>, representing values as described in the question.<br />\nNext <b>N</b> line contains <b>M</b> space separated Integers,( starting from <b>1 st</b> row ). <b>j th</b> Integer in <b>i th</b> row is<br />\n<b>C(i,j)</b>, charged gained or reduced on moving to <b>i th</b> row <b>j th</b> column in the maze.\n</p>\n<h3>Output</h3>\n<p>\nFor each test case print a single line containing single integer <b>FC</b>, maximum possible percentage of charge in the battery when Robot reaches <b>N th</b> row. If Robot can not reach the <b>N th</b> row then print -1.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li> 1 &lt;= <b>T</b> &lt;= 10 </li>\n<li> 1 &lt;= <b>N,M</b> &lt;= 500</li>\n<li> 0 &lt;= <b>RC</b> &lt;= 100</li>\n<li> -100 &lt;= <b>C(i,j)</b> &lt;= 100</li>\n</ul>\n<pre>\n<h3>Sample Input</h3>\n1\n4 4 50\n10 -10 10 -10\n-10 10 -10 10\n5 -5 5 -5\n-5 -5 -5 -5\n<h3>Sample Output</h3>\n80\n</pre><h3>Explanation</h3>\n<ul>\n<li> One of the optimal move will be &lt;1,2> -> &lt;2,1> -> &lt;3,2> -> &lt;4,1>, in this move Robot gains 30 percent of the charge hence in the end Battery will have 80 percent of charge</li>\n</ul>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "UVCE N-Code February 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, CAML, ICK, BF, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1393032600,
+        "end_date": 1393173000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1393173000,
+        "submit_start_date": 1393032600,
+        "current": 1537437774
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>hkbharath</span>",
+    "problem_name": "Robot Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/hkbharath'>hkbharath</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "hkbharath",
+    "contest_code": "NCDFEB14",
+    "max_timelimit": "0.190217 - 0.380435",
+    "problem_code": "NFEB3"
+}

@@ -1,0 +1,137 @@
+{
+    "announcements": "<p><b>2nd February 12:45 AM IST:</b> The test data for the problem <a href=\"/FEB12/problems/CYDB\">Can you do it better</a><a href=\"/FEB12/problems/FINDSEQ/\"></a> has been updated the submissions have been rejudged. Regret the inconvinience caused.</p>\r\n<p><b>2nd February 12:30 AM IST:</b> The test data for the problem <a href=\"/FEB12/problems/FINDSEQ/\">Find a Subsequence</a> has been updated the submissions have been rejudged. Regret the inconvinience caused.</p>",
+    "ip": "149.129.135.113",
+    "code": "FEB12",
+    "duration": "14400",
+    "name": "February 2012 Challenge",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p class=\"MsoNoSpacing\"><b>The February Contest has ended!</b></p> <p class=\"MsoNoSpacing\"><b>Editorials on each problem can be viewed <a href=\"/wiki/february-2012-contest-problem-editorials\">here</a>.<br /></b></p> <p class=\"MsoNoSpacing\"><b>All problems have been added to the practice section.</b></p> <p class=\"MsoNoSpacing\"><b>Solutions are public for all problems.</b></p> <p class=\"MsoNoSpacing\"><b>Winners Blog Post can be viewed <a href=\"http://blog.codechef.com/2012/02/11/a-new-boost-to-long-contest-format/\">here</a>.<br /></b></p> <p class=\"MsoNoSpacing\">\u00a0</p> <p class=\"MsoNoSpacing\"><b>We have a suprise in store for you this contest. Read more about it <a href=\"http://blog.codechef.com/2012/01/30/the-february-long-challenge-has-a-surprise-in-store/\">here</a>.</b></p> <p class=\"MsoNoSpacing\">\u00a0</p> <p class=\"MsoNoSpacing\"><b>Rules:</b><span><b> </b></span></p> <p class=\"MsoNoSpacing\"><span><br />Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<span> </span><a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a><br /><br /></span></p> <p class=\"MsoNoSpacing\"><span><span>Contest problems will become visible on February 1st 2012 at 15:00 hours IST.</span><br /><br /></span></p> <p class=\"MsoNoSpacing\"><span>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.<br /><br /></span></p> <p class=\"MsoNoSpacing\"><span>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.<br /><br /></span></p> <p class=\"MsoNormal\"><span>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</span></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/FEB12/1424964335.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "LUCKY5": {
+            "allow_submission": false,
+            "name": "Lucky Long",
+            "category_name": "main",
+            "accuracy": 36.73,
+            "successful_submissions": "1108",
+            "code": "LUCKY5",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SMVSEVIL": {
+            "allow_submission": false,
+            "name": "Smart Chef vs Evil Chef",
+            "category_name": "main",
+            "accuracy": 56.23,
+            "successful_submissions": "81",
+            "code": "SMVSEVIL",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "WCOUNT": {
+            "allow_submission": false,
+            "name": "Word Couting",
+            "category_name": "main",
+            "accuracy": 18.85,
+            "successful_submissions": "775",
+            "code": "WCOUNT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "RSRECIPE": {
+            "allow_submission": false,
+            "name": "Restore the Recipe",
+            "category_name": "main",
+            "accuracy": 18.34,
+            "successful_submissions": "117",
+            "code": "RSRECIPE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BBSYSTEM": {
+            "allow_submission": false,
+            "name": "Box and Ball System",
+            "category_name": "main",
+            "accuracy": 13.78,
+            "successful_submissions": "166",
+            "code": "BBSYSTEM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FINDSEQ": {
+            "allow_submission": false,
+            "name": "Find a Subsequence",
+            "category_name": "main",
+            "accuracy": 1.82,
+            "successful_submissions": "22",
+            "code": "FINDSEQ",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CYDB": {
+            "allow_submission": false,
+            "name": "Can you do it better",
+            "category_name": "main",
+            "accuracy": 2.04,
+            "successful_submissions": "22",
+            "code": "CYDB",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FLYDIST": {
+            "allow_submission": false,
+            "name": "Flight Distance",
+            "category_name": "main",
+            "accuracy": 1.36,
+            "successful_submissions": "2",
+            "code": "FLYDIST",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MAXCOUNT": {
+            "allow_submission": false,
+            "name": "Count of Maximum",
+            "category_name": "main",
+            "accuracy": 35.25,
+            "successful_submissions": "1634",
+            "code": "MAXCOUNT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LUCKY1": {
+            "allow_submission": false,
+            "name": "Lucky Count",
+            "category_name": "main",
+            "accuracy": 33.35,
+            "successful_submissions": "364",
+            "code": "LUCKY1",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1328952600,
+        "current": 1537439010,
+        "freezing": 0,
+        "start": 1328088600
+    },
+    "user": {
+        "username": ""
+    }
+}

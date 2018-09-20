@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>There is an artificial intelligence program, that needs to be coded, which will act as a simulator for training of the sailor. Every calculation needs to be done in a two-dimensional plane. Let (x1, y1). . . (xn, yn) be a collection of n islands. You are a pilot of the ship and your goal is to navigate the ship from island (x1, y1) to island (xn, yn). The ship can travel a maximum distance of D units before it must refuel. We assume that a ship can only refuel from an island. From any island (xi, yi), the ship may travel to any other island (xj , yj) away at a speed of 1 unit per second. Before it does this, however, the ship must turn until it faces (xj , yj); this turning occurs at a rate of 1 degree per second.\nCompute the shortest time needed for the ship to travel from island (x1, y1) to (xn, yn). Assume that\nthe ship initially faces (xn, yn) and take all intermediate values like angles and distances as integer(hint: can use floor function)\n\n\n<h3>Input</h3>\n</p><p>The input  will contain multiple test cases. Each test case will begin with a single line containing an integer D, the maximum distance between islands that the ship can  travel (where 5\u2264 D \u2264 500),\nand an integer n, the number of islands (where 2 \u2264 n \u2264 25). The next n lines each contain 2 integer values; here, the ith line contains xi and yi (where 0 \u2264 xi, yi \u2264 1000). Each of the island is guaranteed to be unique. The end-of-file is denoted by a test case with D = n = \u22121.\n\n\n<h3>Output</h3>\n</p><p>The output  should contain a single line per test case indicating the shortest possible time in second\n(rounded to the nearest integer) required for the ship to travel from (x1, y1) to (xn, yn). If no trip is\npossible, print \u201cimpossible\u201d instead.\n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n10 2\n0 0\n7 0\n10 3\n0 0\n7 0\n14 5\n10 3\n0 0\n7 0\n14 10\n-1 -1\n\n\n<b>Output:</b>\n7\n71\nimpossible\n\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Craft 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1268212500,
+        "end_date": 1268487000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180180,
+        "submit_start_date": 1268212500,
+        "current": 1537439670
+    },
+    "problem_author_html_handle": "aman871988",
+    "problem_name": "Simulator",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aman871988'>aman871988</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "aman871988",
+    "contest_code": "CRAFTALG",
+    "max_timelimit": "20",
+    "problem_code": "CRAFT04"
+}

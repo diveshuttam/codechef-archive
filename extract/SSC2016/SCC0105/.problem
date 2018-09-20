@@ -1,0 +1,33 @@
+{
+    "problem_code": "SCC0105",
+    "problem_author": "learnersclub",
+    "contest_name": "SCC - School Coding Competition",
+    "todo": false,
+    "problem_author_html_handle": "learnersclub",
+    "problem_name": "Tricks of Tom",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "SSC2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/learnersclub'>learnersclub</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Tom is fond of permutations. He tricks every one by his strange problems. Here is one of them.<br />\nOnce he gave Jerry an infinite supply of positive (natural) numbers .<br />\nThen he challenged him if he could pick up certain set of numbers such that their sum is equal to a particular number N.<br />\nJerry being brilliant quickly found a solution. This deeply hurt the ego of Tom. </p>\n<p>Now Tom was furious and asked Jerry if he could tell him the count of all possible solutions to this problem.<br />\nHe also added one more constraint that is Jerry must pick exactly K numbers to form the required set.<br />\nTwo sets of K-tuples (n1,n2,.....,nK) , (a1,a2,.....,ak) are considered different if for <i> atleast one i => ni != ai </i>. <br />\nFor example for N=5 and K=2 (2,3) and (1,4) are distinct also (1,4) and (4,1) are distinct. Hence a total of 4 such sets could be formed.</p>\n<h3>Input</h3>\n<p>The first line contains one integer T, the number of test cases.<br />\nNext T lines contains two space separated integers N, K.<br />\nN= The sum that is required to be produced<br />\nK= The number of positive integers in a set that sum upto N </p>\n<h3>Output</h3>\n<p>Output a single line corresponding to each test case the count of number of solution possible.<br />\nOutput -1 if no solution exists.<br />\nSince the answer can be large so take MOD with 10^9 + 7.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>0</b> &lt; <b>T</b> \u2264 <b>100000</b></li>\n<li><b>0</b> &lt; <b>N</b> \u2264 <b>10000</b></li>\n<li><b>0</b> &lt; <b>K</b> \u2264 <b>10000</b></li>\n</ul>\n<h3>Example</h3>\n<pre>Sample Input\n4\n5 4\n4 9\n9 2\n4 1\n\nSample Output\n4\n-1\n8\n1\n</pre>",
+    "category_name": "main",
+    "date_added": "23-04-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/SCC0105",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1461938400,
+        "end_date": 1461949200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1461949200,
+        "submit_start_date": 1461938400,
+        "current": 1537434927
+    },
+    "user": {
+        "username": ""
+    }
+}

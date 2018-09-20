@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>One time Rahul and his friend Tarun went to the bank. They saw that the bank has been robbed and the robbers have set up an electronic time bomb. The bank clerk said that there is a password which can defuse the bomb which he heard when the robbers were talking. There are many wires in the bomb but they can be divided into two categories, main wire and sub wires and they are all numbered. The password is formed by the summation of all toggle bit conversion from main wire number to sub wires number. There is one main wire numbered $M$ and $N$ sub wires numbered from $ W1, W2, W3\u2026.WN $. \n \n\nPlease help them to determine the defuse code (password) of the bomb, so that they can save the life of others and become heroes.\n\n\n###Input:\n\n- The first line of the input contains two space-separated integers $M$ and $N$ denoting the main wire numbered and total sub wires number respectively.\n- The second line contains $N$ space-separated integers $W1, W2, ..., WN$. \n\n###Output:\nprint a single line containing defuse code.\n\n###Constraints \n- $1 \\leq N \\leq 100$\n- $0 \\leq M \\leq 2147483647$\n- $0 \\leq W1,W2,......,WN \\leq 2147483647$\n\n\n\n###Sample Input:\n        18 4\n        14 16 20 2\n\n###Sample Output:\n         7\n\t\n###EXPLANATION:\n      here main wire number is $18$ and its  binary is $10010$\n      and there are four sub wires $14$ $16$ $20$ $2$ and its \n      binaries are :\n      $01110$\n      $10000$\n      $10100$\n      $00010$ respectively.\n      toggle bits of $18$ to $14$ = $3$ at positions 1, 2 and 3 from the \n      left side.\n      toggle bits of $18$ to $16$ = $1$ at position 4 from the left side .\n      toggle bits of $18$ to $20$ = $2$ at positions 3 and 4  from the \n      left side .\n      toggle bits of $18$ to $2$ = $1$ at position 1 from the left side .\n      so the total toggle bits are $3$ + $1$ + $2$ + $1$ = $7$.\n     \n      \n   \n      \n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Noobie Night",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1523097000,
+        "end_date": 1523111400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1523111400,
+        "submit_start_date": 1523097000,
+        "current": 1537432661
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>rahulbitd6179</span>",
+    "problem_name": "Rahul and password crack",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rahulbitd6179'>rahulbitd6179</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rahulbitd6179",
+    "contest_code": "NOON2018",
+    "max_timelimit": "1",
+    "problem_code": "NN04"
+}

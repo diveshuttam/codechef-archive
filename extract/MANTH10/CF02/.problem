@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Run-length encoding(RLE) is a very simple and easy form of data compression in which consecutive occurrences of the same characters are replaced by a single character followed by its frequency. As an example, the string S  <b>aabbbbdaa</b> would be encoded to <b>a2b4d1a2</b>.</p> <p>Thus encoded string is described as an ordered sequence of pairs (a, i), each consisting of an alphabet symbol a and an integer i. Each pair corresponds to a <b>run</b> in S consisting of i consecutive occurrences of a.</p>\n\n<p>In this problem, we are interested in finding the minimum number of mutation(s) needed to transform first string given in encoded form into second string i.e. <b>edit distance</b> when only two operation are allowed</p>\n<ol>\n<li>Add any character at any position(insertion)</li>\n<li>Remove any character from any position(deletion)</li>\n</ol>\n<p>The cost of inserting a character is 1 and cost of deleting a character is 2.</p>\n\n<h3>Input</h3>\n<p>The input file contains several test cases. The first line of the input denotes the number of test cases, T (1\u2264T\u2264100) to follow. Each test case begins on a new line and consists of an integer L1, a blankspace and a run length encoded string S1 and then on a new line, an integer L2, a blankspace and a run length encoded string S2.</p>\n\n<p>L1 and L2 denote the number of <b>runs</b> in strings S1 and S2 respectively. 1&lt;=L1,L2&lt;=100.<br />\nS1 and S2 consists of alphabets [a-z] followed by number of consecutive occurrences of  that character.</p>\n<p>You can safely assume that the total length of any of the strings will not exceed 3000 characters.</p>\n\n<h3>Output</h3>\n<p>For each test case, output the edit distance from S1 to S2 in a new line.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n2 a3b2\n1 b3\n3 a1b1a1\n1 a2\n<b>Output:</b>\n7\n2\n\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Manthan 2010",
+    "languages_supported": "C, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1269779400,
+        "end_date": 1269801000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1269801000,
+        "submit_start_date": 1269779400,
+        "current": 1537439641
+    },
+    "problem_author_html_handle": "manthan",
+    "problem_name": "Edit Distance",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/manthan'>manthan</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "manthan",
+    "contest_code": "MANTH10",
+    "max_timelimit": "2",
+    "problem_code": "CF02"
+}

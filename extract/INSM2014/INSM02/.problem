@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Amogh decides to go to Delhi to meet someone, and starts off in a train from his city. Seeing this, Sameer decides to go too (for obvious reasons). But he doesn't like to travel by train. So he decides to do a bus-journey.\n</p>\n<p>Sameer lives in Nashik. There are N cities between Nashik and Delhi (including Delhi but excluding Nashik), and in each city there are M buses numbered 1 to M. Sameer needs to travel to Delhi following these conditions:<br />\n<br /><br />\n1. At every city, he needs to change the bus.<br />\n2. At every city, he can switch to only those buses which have number either equal to, or 1 less than, or 1 greater than the previous.\n</p>\n<p>\nAlso, a bus takes him from the present city to the next city, not beyond that.<br />\nYou are given the time (T) required by Amogh to reach Delhi, and the time required by all buses to reach the next city from the current city.\n</p>\n<p>\nCan Sameer reach Delhi before Amogh?\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line contains k, the number of testcases. k testcases follow. Each testcase is described as:<br />\n<br /><br />\nLine 1: T<br /><br />\nLine 2: N,M<br /><br />\nThe next N lines contain time taken by M buses to go to the next city. <br /><br />\n<br />\n</p>\n<h3>Output</h3>\n<p>Output a single line saying \"YES\" or \"NO\" (without quotes), indicating whether Sameer can reach Delhi before Amogh or not.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N,M</b> \u2264 <b>500</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n14\n5 5\n1 3 1 2 6\n10 2 5 4 15\n10 9 6 7 1\n2 7 1 5 3\n8 2 6 1 9<br />\n<b>Output:</b>\nYES\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-09-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Insomnia 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, PERL, FORT, ADA, ASM, PRLG, SCM qobi, PIKE, BASH, LISP sbcl, LISP clisp, SCM guile, JS, PERL6, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1411749000,
+        "end_date": 1411770600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1411770600,
+        "submit_start_date": 1411749000,
+        "current": 1537437412
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>prongs7</span>",
+    "problem_name": "Who Gets Her",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/prongs7'>prongs7</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "prongs7",
+    "contest_code": "INSM2014",
+    "max_timelimit": "1",
+    "problem_code": "INSM02"
+}

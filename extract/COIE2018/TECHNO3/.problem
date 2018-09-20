@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>There are $n$ contest in an event named  [Technovation2k18](http://technovation2k18.org). The contests are numbered from $1,2,3\u2026.n $. Each contest has $a[i]$ number of contestants in it.\nGiven $q$ queries, you need to tell how many contestant will be in between contest $i$ and contest $r$ both inclusive (include all the contestant of contest $l$,$l+1$,$l+2$,\u2026.. upto $r$) .\n###Input:\n-\tFirst line contains no. of test cases $t$\n-\tSecond line contains no. of contests $n$\n-\tIn third line $n$ space separated integer will be given where $i$th element will be no. of contestant in contest $i$, (i.e. $a[i]$ )\n-\tNext line contain no. of queries q\n-\tNext line contains two integer (contest number) l and r.\n###Output:\nPrint value of $a[l]$ + $a[l+1]$ + $a[l+2]$,\u2026.. + $a[r]$\n\n###Constraints:\n- $1 \\leq t \\leq 10$\n- $1 \\leq n \\leq 10^5$\n- $1 \\leq a[i] \\leq 10^9$\n- $1 \\leq q  \\leq 10^5$\n- $1 \\leq l \\leq r \\leq n$\n\n###Sample Input\n1\n\n5\n\n4 3 2 1 5\n\n3\n\n1 2\n\n2 4\n\n1 4\n###Sample Output\n7\n\n6\n\n10\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "CODERVATION IERT",
+    "languages_supported": "C, CPP14, JAVA, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1523030400,
+        "end_date": 1523068200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1523068200,
+        "submit_start_date": 1523030400,
+        "current": 1537432672
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>ujjwal1912</span>",
+    "problem_name": "Number of contestant ",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ujjwal1912'>ujjwal1912</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ujjwal1912",
+    "contest_code": "COIE2018",
+    "max_timelimit": "1",
+    "problem_code": "TECHNO3"
+}

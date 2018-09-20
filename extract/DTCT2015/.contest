@@ -1,0 +1,87 @@
+{
+    "announcements": "\r\nEditorials will be uploaded soon\r\nArpit Aggarwal, Nikhil Khurana, Shamit Lal, Vaibhav Singhal from Delhi Technological University created these Interesting problems.\r\n\r\nQuestion Code                          problem Setter  \r\nSSEQ                                       coolboy9\r\nVIRAT , ABSTR                        arpitdec5\r\nWSERIES                                v_a_b_s\r\nSUPERCUP                             shamit                                                \r\n",
+    "ip": "149.129.135.113",
+    "code": "DTCT2015",
+    "duration": "180",
+    "name": "DTU Programming Mania",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": " <p><b class=\"rules-heading\">About Contest:</b></p> <div class=\"rules-body\"> <ul class=\"\"> <li><b>Organiser: </b> The contest is hosted by IEEE DTU in association with DTU CodeChef Campus Chapter.</li> <li><b>Prizes: </b>Goodies to top 40 students of Delhi Technological University.(*it may change, final decision is in the hands of organiser's)</li> <li><b>Registrations for prizes: </b><a href=\"http://goo.gl/forms/lAqwa7X1HI\">http://goo.gl/forms/lAqwa7X1HI</a></li> </ul> </div> <p><b class=\"rules-heading\">Contest Details:</b></p> <div class=\"rules-body\"> <ul class=\"\"> <li><b>Duration: </b>3 hours</li> <li><b>Start time: </b>17th March 2015, 2100 hrs IST</li> <li><b>Ends time: </b>18th March 2015, 0000 hrs IST<br /> You may check your timezone <a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+DTU+Programmer+Contest+%231&amp;iso=20150417T21&amp;p1=44&amp;ah=3\">here</a>.</li> <li><b>Rankings: <a target=\"_blank\" href=\"/rankings/DTCT2015\">http://www.codechef.com/rankings/DTCT2015</a></b></li> </ul> </div> <p><b class=\"rules-heading\">CodeChef: A Platform for Aspiring Programmers</b></p> <div class=\"rules-body\"> <p>CodeChef was created as a platform to help programmers make it big in the world of algorithms, computer programming and programming contests. At CodeChef, we work hard to revive the geek in you by hosting a programming contest at the start of the month and another smaller programming challenge in the middle of the month.</p> </div> <p><br /> <b class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</b></p> <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct.</a></p> </div> <p><br /> <b class=\"rules-heading\">What's new in CodeChef?</b></p> <div class=\"rules-body\"> <p>You may now play with our new <a target=\"_blank\" href=\"http://blog.codechef.com/2015/02/04/play-more-in-discuss-with-groups-latex\">groups &amp; LaTex feature</a> on discuss.</p> </div> <p><br /> <b class=\"rules-heading\">Rules and Regulations:</b></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\"> feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li> <li>Please contact <a target=\"_blank\" href=\"mailto:sachitsharmadtu@gmail.com\">sachitsharmadtu@gmail.com</a> for any queries during the contest.</li> </ul> <p><b class=\"rules-heading\">Judging Criteria:</b></p> <ul class=\"\"> <li><b>All the problems have same points alloted to them.</b></li> <li><b>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time</b></li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> </ul> <div class=\"\"><b>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a target=\"_blank\" href=\"/ide\">Online IDE</a>.</b><br /> However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/DTCT2015/1429179533.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "SUPERCUP": {
+            "allow_submission": false,
+            "name": "Supercup",
+            "category_name": "main",
+            "accuracy": 8.28,
+            "successful_submissions": "26",
+            "code": "SUPERCUP",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "WSERIES": {
+            "allow_submission": false,
+            "name": "Series vs Wall",
+            "category_name": "main",
+            "accuracy": 7.04,
+            "successful_submissions": "15",
+            "code": "WSERIES",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ABSTR": {
+            "allow_submission": false,
+            "name": "AB and Strings",
+            "category_name": "main",
+            "accuracy": 29.88,
+            "successful_submissions": "49",
+            "code": "ABSTR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SSEQ": {
+            "allow_submission": false,
+            "name": "Sachin and Sequences",
+            "category_name": "main",
+            "accuracy": 11.96,
+            "successful_submissions": "11",
+            "code": "SSEQ",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "VIRAT": {
+            "allow_submission": false,
+            "name": "Virat and Numbers",
+            "category_name": "main",
+            "accuracy": 15.23,
+            "successful_submissions": "203",
+            "code": "VIRAT",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1429295400,
+        "current": 1537436376,
+        "freezing": 0,
+        "start": 1429284600
+    },
+    "user": {
+        "username": ""
+    }
+}

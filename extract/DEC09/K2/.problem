@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Johnny has figured out that there are some numbers which have an interesting property: they are the same when read from left to right, and from right to left. For example, 5115 and 929 are such numbers, while 31 and 125 are not. Johnny calls such numbers palindromic numbers.</p>\n<p>After a while, Johnny has realized that his definition of palindromic numbers is not really precise. Whether a number is palindromic or not depends on the base in which the number is written. For example, 21 is not palindromic in base 10 but it is palindromic in base 2 (because 21 = 10101<sub>2</sub>).</p>\n<p>Johnny finds it interesting that any number becomes palindromic when it is written in an appropriate base.</p>\n<p>Given a number N, write a program to help Johnny compute the smallest base B such that N is palindromic when written in base B.</p>\n\n<h3>Input</h3>\n<p>The first line contains t, the number of test cases (about 1000). Then t test cases follow.</p>\n<p>Each test case consists of a number N written in one line (1 <= N <= 10<sup>10</sup>).</p>\n\n<h3>Output</h3>\n<p>For each given number N, print a line containing the smallest base B such that N is palindromic in base B.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n1\n4\n21\n\n<b>Output:</b>\n2\n3\n2\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "30-11--0001",
+    "is_direct_submittable": false,
+    "contest_name": "December 2009 (Contest XI)",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1259659800,
+        "end_date": 1260523800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1260523800,
+        "submit_start_date": 1259659800,
+        "current": 1537439859
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Palindromic Numbers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "DEC09",
+    "max_timelimit": "0.400922",
+    "problem_code": "K2"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nThe Quark Codejam's number QC(n, m) represents the number of ways to partition a set of n things into m nonempty subsets. For example, there are seven ways to split a four-element set into two parts:\n</p>\n<p>\n{1, 2, 3} \u222a {4}, {1, 2, 4} \u222a {3}, {1, 3, 4} \u222a {2}, {2, 3, 4} \u222a {1},<br />\n{1, 2} \u222a {3, 4}, {1, 3} \u222a {2, 4}, {1, 4} \u222a {2, 3}.\n</p>\n<p>\nWe can compute QC(n, m) using the recurrence,\n</p>\n<p>\nQC(n, m) = mQC(n \u2212 1, m) + QC(n \u2212 1, m \u2212 1), for integers 1 &lt; m &lt; n.\n</p>\n<p>\nbut your task is a somewhat different: given integers n and m, compute the parity of QC(n, m), i.e. QC(n, m) mod 2.\n</p>\n<p><b>Example : </b><br />\nQC(4, 2) mod 2 = 1. </p>\n<p>Write a program that reads two positive integers n and m, computes QC(n, m) mod 2, and writes the<br />\nresult.</p>\n\n<h3>Input</h3>\n<p>The input begins with a single positive integer on a line by itself indicating the number of the cases. This line is followed by the input cases.<br />\nThe input consists two integers n and m separated by a space, with 1 \u2264 m \u2264 n \u2264 1000000000.</p>\n\n<h3>Output</h3>\n<p>For each test case, print the output.<br />\nThe output should be the integer S(n, m) mod 2.</p>\n\n<p><b>Sample Input</b></p>\n<p>1<br />\n4 2</p>\n<p><b>Sample Output</b></p>\n<p>1</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Quark Codejam '16 ",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1454747400,
+        "end_date": 1454758200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454758200,
+        "submit_start_date": 1454747400,
+        "current": 1537435545
+    },
+    "problem_author_html_handle": "dhwanitquark",
+    "problem_name": "Quark Codejam Number",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dhwanitquark'>dhwanitquark</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dhwanitquark",
+    "contest_code": "COJA2016",
+    "max_timelimit": "1",
+    "problem_code": "CODEJAM1"
+}

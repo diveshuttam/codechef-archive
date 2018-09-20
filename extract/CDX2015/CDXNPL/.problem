@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>The new season of the NIT JSR Premier League(NPL) has started!<BR /><br />\nIn the NPL, any two soccer teams play with each other exactly once. In each match, the winner earns 3 points and the<br />\nloser earns no point. There is no draw (if the match is level after the two halves, two teams will take part in a<br />\npenalty shootout to decide the winner).<br /><br /><br />\nAt the end of the league, the winner is the team having the largest number of points. In case there are more than one<br />\nteam which has the largest number of points, these teams will be co-champions of the league.<br /><br /><br />\nThe league has been running for some time. Now, the following problem has arisen: we would like to know if a specific<br />\nteam still has a chance of winning the league.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line contains T (about 100), the number of test cases. <BR />Then T test cases follow. Each test case has the<br />\nfollowing form.<BR /><br />\nThe first line of the test case contains a number N (1 &lt;= N &lt;= 100), the number of teams in the league.<BR /><br />\nThe i-th line in the next N lines contains N numbers ai1, ai2, ..., ain. The number aij gives the status of the match<br />\nbetween the i-th team and the j-th team:<BR /><br />\naij = 1 if the i-th team wins,<BR /><br />\naij = 0 if the i-th team loses,<BR /><br />\naij = 2 if the match has not taken place yet.<BR /><br />\nThe input data is such that if i!=j, then aij + aji = 1 or aij = aji = 2. Moreover, aii = 0 for all i.</p>\n<h3>Output</h3>\n<p>For each test case, print a binary string of length N, in which the i-th character is 1 if the i-th team still has a chance to be a champion of the league, and 0 otherwise.</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n3\n0 0 0 \n1 0 1 \n1 0 0 \n4\n0 1 1 0 \n0 0 2 0 \n0 2 0 0 \n1 1 1 0 \n5\n0 2 2 1 0 \n2 0 1 1 0 \n2 0 0 1 0 \n0 0 0 0 1 \n1 1 1 0 0 \n\n\n<b>Output:</b>\n010\n0001\n11001\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-10-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeX",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1444321800,
+        "end_date": 1444332600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1444332600,
+        "submit_start_date": 1444321800,
+        "current": 1537435960
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>pacific35</span>",
+    "problem_name": "NIT Jsr Premier League",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pacific35'>pacific35</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pacific35",
+    "contest_code": "CDX2015",
+    "max_timelimit": "1",
+    "problem_code": "CDXNPL"
+}

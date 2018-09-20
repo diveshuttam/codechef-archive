@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem description</h3>\n<p>In the climax of an upcoming Bollywood movie \"BHAI HO!\", Bhai is standing at the centre of a large battlefield. Bhai is sorrounded by the army of Bacchha Singh from all sides. Each soldier of Bacchha's army is at some distance from Bhai. They all are heading towards Bhai with swords in their hands. At the centre, Bhai has a gun with unlimited Bullets. And you know, Bhai never misses a shot!. But a hurdle to Bhai is that he has to reload the gun after he has fired 6 bullets.<br />\n<br /><br />\nBhai is killing soldiers at one soldier per second. By this time, every other soldier moves a step towards Bhai. Also, the reloading of the gun takes one second.<br />\n<br /><br />\nNow, you have to tell whether Bhai will be able to survive or not. And if Bhai fails in killing them all, tell the Number of soldiers killed by Bhai before falling.\n</p>\n<h3>Input</h3>\n<p>The first line of input contains an integer <b>T</b>, denoting the number of test cases.<br /><br />\n<b>T</b> test cases follow. In each test case, the first line contains an integer <b>N</b>, denoting the number of soldiers.<br />\nIn the next line, there are <b>N</b> integers representing the distance of each soldier from Bhai.\n</p>\n<h3>Output</h3>\n<p>For each test case Print the result as:<br /><br />\nIf Bhai survives:<br /><br />\n<b>Bhai Ho!</b><br /><br />\nif Bhai fails:<br /><br />\n<b>Killed M</b><br /><br />\nHere M is the number of soldiers Bhai killed before dying.\n</p>\n<h3>Constraints</h3>\n<pre>\n<ul>\n<li>1 &lt;= T &lt;=100</li>\n<li>1 &lt;= N &lt;=50000</li>\n<li>1 &lt;= D[i] &lt;= 50000</li>\n</ul></pre><h3>Example</h3>\n<pre><b>Input:</b>\n2\n5\n3 4 3 7 9\n5\n3 3 3 3 3\n\n<b>Output:</b>\nBhai Ho!\nKilled 3\n \n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-03-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Game of Codes 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1396107000,
+        "end_date": 1396117800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1396117800,
+        "submit_start_date": 1396107000,
+        "current": 1537437648
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>giriraj</span>",
+    "problem_name": "Bhai Ho!",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/giriraj'>giriraj</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "giriraj",
+    "contest_code": "GOC2014",
+    "max_timelimit": "1",
+    "problem_code": "GOC03"
+}

@@ -1,0 +1,87 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "TBS101",
+    "duration": "1440",
+    "name": "Technical Blitzschlag",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/sites/default/files/uploads/landing_page_banners/banner-compete.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CMB04": {
+            "allow_submission": false,
+            "name": "Problem 4",
+            "category_name": "main",
+            "accuracy": 27.27,
+            "successful_submissions": "3",
+            "code": "CMB04",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CMB05": {
+            "allow_submission": false,
+            "name": "Problem 5",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "CMB05",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CMB02": {
+            "allow_submission": false,
+            "name": "Problem 2",
+            "category_name": "main",
+            "accuracy": 47.54,
+            "successful_submissions": "28",
+            "code": "CMB02",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CMB03": {
+            "allow_submission": false,
+            "name": "Problem 3",
+            "category_name": "main",
+            "accuracy": 22.47,
+            "successful_submissions": "20",
+            "code": "CMB03",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CMB01": {
+            "allow_submission": false,
+            "name": "Problem 1",
+            "category_name": "main",
+            "accuracy": 40,
+            "successful_submissions": "28",
+            "code": "CMB01",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1264962600,
+        "current": 1537439761,
+        "freezing": 0,
+        "start": 1264876200
+    },
+    "user": {
+        "username": ""
+    }
+}

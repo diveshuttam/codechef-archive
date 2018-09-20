@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>There are N boxes numbered from 1..N which need to be filled with candies. Assume there are infinite candies. The boxes are arranged in increasing order of capacity, and the i<sup>th</sup> box has capacity i. Every box has a specific cost c<sub>i</sub>. You fill candies in rounds. In every round, you pick a subset of boxes and fill them with candies. This subset should be such that each subsequent box picked in a round should be more spacious than the previous one. Also, the difference in cost of consecutive boxes should be at least K. <br/><br/><br />\nWhat is the least number of rounds in which all boxes could be filled. </br/></br/></p>\n<h3>Input</h3>\n<p>The first line contains the number of test cases T. T test cases follow. <br/><br />\nEach case contains an integer N and K on the first line, followed by integers c<sub>1</sub>,...,c<sub>n</sub> on the second line. <br/><br />\n1 &lt;= T &lt;= 100 <br/><br />\n1 &lt;= N &lt;= 300 <br/><br />\n1 &lt;= ci &lt;= 1000 <br/><br />\n1 &lt;= K &lt;= 1000 <br/></br/></br/></br/></br/></br/></br/></p>\n<h3>Output</h3>\n<p>Output T lines, one for each test case, containing the minimum number of rounds in which all boxes could be filled.</p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n2\n3 2\n5 4 7\n5 1\n5 3 4 5 6\n\n\n<b>Output:</b>\n2\n1\n</pre><p>\n<br/><br />\n<b>Explanation:</b></br/></p>\n<p>For the first example, you can fill the boxes of cost 5 and 7 in the first round and the box with cost 4 in the next round. Note that the boxes with cost 5 and 4 cannot be filled consecutively because the costs should differ by at least K (which is 2). Also, the boxes cannot be filled in order 5,7,4 in one round because the boxes filled in a round should be in increasing capacity.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-11-2012",
+    "is_direct_submittable": false,
+    "contest_name": "ZERO1",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1353061800,
+        "end_date": 1353148200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1353148200,
+        "submit_start_date": 1353061800,
+        "current": 1537438631
+    },
+    "problem_author_html_handle": "shivamagarwal",
+    "problem_name": "Fill Candies",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shivamagarwal'>shivamagarwal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shivamagarwal",
+    "contest_code": "ZERO1",
+    "max_timelimit": "2.09701 - 4.19403",
+    "problem_code": "TF06"
+}

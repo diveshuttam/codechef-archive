@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">Sujatha, after becoming the CEO of a company, decided to grant some of his</p>\n<p>books to his company\u2019s employees for free! On one fine day, he asked all his </p>\n<p>employees to form a line and he started distributing books. Sujatha will note </p>\n<p>down the ID of the employee, when he gives the book.  All his employees are die-</p>\n<p>hard fans of Sujatha, hence they started cheating by collecting more than one </p>\n<p>book. You have to find out the number of people who have cheated.</p>\n<p>Sujatha has agreed to give some of his books to you, if you solve this problem. </p>\n<p>(Come on! What are you waiting for :) )\u00a0 </p>\n<h3>Input</h3>\n<p>First line contains the number of test cases  T. </p>\n<p>For each test case, first line would contain N which denotes the size of the ID list.</p>\n<p><b>Next line will contain the IDs of employees in the ID list.</b></p>\n<h3>Output</h3>\n<p>For each test case, output the number of employees who cheated. </p>\n<h3>Constraints</h3>\n<p>1&lt;=T&lt;=100</p>\n<p>1&lt;=N&lt;=1000</p>\n<p>1&lt;=ID&lt;=1000</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3\n1  1  2\n3\n1  2  3\n\n<b>Output:</b>\n1\n0\n</pre><h3>Explanation</h3>\n<p><b>Example case 1.</b> Employee whose Id is 1 has got book twice. Hence he has</p>\n<p>cheated.</p>\n<p> </p>\n<p><b>Example case 2.</b> All employees have got book only once.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-01-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Kurukshetra 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1422109800,
+        "end_date": 1422127800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1422127800,
+        "submit_start_date": 1422109800,
+        "current": 1537436945
+    },
+    "problem_author_html_handle": "kopc_admin",
+    "problem_name": "Thiruttu pasanga 2",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kopc_admin'>kopc_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kopc_admin",
+    "contest_code": "KRKS2015",
+    "max_timelimit": "1",
+    "problem_code": "K15A"
+}

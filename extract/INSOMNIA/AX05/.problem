@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<h1></h1>\n<p>Pranay went to the sea shore and saw what looked like a treasure chest floating. Examining the locking mechanism, he immediately realized he came across a set of puzzles in FreakoMatix-Axis'10 to reward those who are skilled in the mathematical arts and punish those who are not.<br>\nThere were six dials of the digits 0 through 9 in the puzzle accompanied by a message : \"You will be given two positive integers lesser than or equal to a billion. You need to tell the final 6 digits of raising the first to the power of the second\".<br><br>\nPranay was overstruck with grief. With such huge numbers, the multiplications could take ages, but he had no more than a few seconds to give the right answer.\n</p>\n\n<h3>Input</h3>\n<p>Input will consist of multiple lines, each containing two integers A and B (1 <= A, B <= 1000000000), separated by a space. A line containing two zeros signals the end of input and should not be processed.</p>\n\n<h3>Output</h3>\n<p>For each line of input, print out the correct dial settings, i.e. the final six digits of A^B.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n421 1988\n628 496\n0 0\n\n\n<b>Output:</b>\n362161\n493696\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-09-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Insomnia 2010",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1283538600,
+        "end_date": 1283625000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180195,
+        "submit_start_date": 1283538600,
+        "current": 1537439541
+    },
+    "problem_author_html_handle": "xpurgate",
+    "problem_name": "Problem5",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/xpurgate'>xpurgate</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "xpurgate",
+    "contest_code": "INSOMNIA",
+    "max_timelimit": "1.125",
+    "problem_code": "AX05"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nWhile learning about data structures, Ira came across the well known <b>Segment Tree</b> data structure. To learn about it, you may refer to <a href = \"https://www.topcoder.com/community/data-science/data-science-tutorials/range-minimum-query-and-lowest-common-ancestor/#Segment_Trees\"> this link </a>. \n</p>\n<p>\nSegment tree is built using the following recursive algorithm (following pseudo code resembles C) - \nDefine <b> node </b> as segment tree node. And, <b>make_node() </b> is a function which returns the pointer to a segment tree node created by the function.\n<ul>\n<li> <u>function</u> node * <b>build_segtree</b>(int l, int r) { \n<li> \u00a0\u00a0\u00a0\u00a0 node * root = make_node();\n<li> \u00a0\u00a0\u00a0\u00a0 if (l  != r) {\n<li> \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 m = (l+r)/2 \u00a0 \u00a0 <i>/* Integer division */</i>\n<li> \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 root -> left = build_segtree(l, m);\n<li> \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 root -> right = build_segtree(m+1, r);\n<li> \u00a0\u00a0\u00a0\u00a0 }\n<li> \u00a0\u00a0\u00a0\u00a0 return root;\n<li> }\n</ul>\n</p>\n<p>\nTo make a segment tree for an array of length <b>n </b>, we call the above function as - <p> node * segtree_root =<b> build_segtree(1, n) </b>. </p> Now, Ira is interested in number of nodes that will be created by the above algorithm, i.e, space complexity. Formally, she wants to find out - how many times function <u> make_node() </u> will be called if array of length <b>n</b> is given. Can you help her ? \n</p>\n<p> <b>Note</b> : Check explanation section for understanding the structure of segment tree better. </p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first line of each test case contains a single integer <b>n</b> denoting the length of the array for which segment tree need to be built.</li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing the answer to the corresponding test case, i.e., number of nodes in the segment tree. </li>\n</ul>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>2 \u00d7 10 <sup> 9 </sup> </b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n1\n5\n<b>Output:</b>\n1\n9\n</pre>\n<h3>Explanation</h3>\n<p><b>Example case 2.</b> This is how the segment tree looks - \n<img src = \"http://home.iitk.ac.in/~triveni/photo1.jpg\" height = 300 width='480'> <br> Circles represent segment tree node. Number written in the circles represent the order in which those nodes will be created.\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Horcruxes",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1454513400,
+        "end_date": 1454531400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454531400,
+        "submit_start_date": 1454513400,
+        "current": 1537435557
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>triveni</span>",
+    "problem_name": "Learn Segment Tree",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/triveni'>triveni</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "triveni",
+    "contest_code": "IPC15P2B",
+    "max_timelimit": "1",
+    "problem_code": "SEGTREE"
+}

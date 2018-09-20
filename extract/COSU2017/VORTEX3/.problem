@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Byteland is a truly marvellous 2-dimensional landscape. It is of the shape of a rectangle with side lengths <b>N & M</b> and it has <b>N*M</b> identical cities each of dimension <b>1 x 1.</b>\n<br><br>\nSuriya is the proud ruler of Byteland. He had two sons Shyam and Varun who didn't get along that well due to their inherent differences. Suriya's golden rule has come to an end due to his sickness and the siblings started fighting among themselves over the land. Finally, they decided to settle the dispute by asking the wisest man on Byteland Timo to split the cities between them.\n<br><br>\nTimo had to make sure that the following constraints are met in order to maintain the order in Byteland.\n<br><ol>\n    <li>All of Shyam's cities should be directly or indirectly connected.</li>\n    <li>All of Varun's cities should be directly or indirectly connected.</li>\n    <li>If Varun owns city (a,b), then all cities to the left and to the bottom of (a,b) are also owned by Varun i.e, cities (i,b) 1 \u2264 i \u2264 a belong to varun and cities (a,j) 1 \u2264 j \u2264 b also belong to varun</li>\n    <li>If Shyam owns city (a,b), then all cities to the right and to the top of (a,b) are also owned by Shyam i.e, cities (i,b) a \u2264 i \u2264 N belong to Shyam and cities (a,j) b \u2264 j \u2264 N also belong to Shyam.</li>\n    <li>Each sibling gets at least one city in any stable split.</li>\n<br><br>\nTwo cities in the Byteland 2D landscape are said to be <b>directly connected</b> if they belong to the same sibling and share a side i.e., are neighbours either vertically or horizontally.\n<br>\nTwo cities in the Byteland 2D landscape are said to be <b>indirectly connected</b> if they belong to the same sibling and are not directly connected to each other but are directly connected to one other city belonging to the same sibling.\n<br><br>\n<b>Get input for Q which denotes the number of queries. For each query, Calculate the number of ways in which wise Timo can split Byteland peacefully between the brothers and output the ans modulo 10^9+7 </b><br>\n<img src=\"http://image.ibb.co/fOW78v/1.png\"  border=\"0\"><br>\n<img src=\"http://image.ibb.co/gucfTv/1485937642_ad897e601d_VS_2.png\" /><br>\n<img src=\"http://image.ibb.co/iE3b1F/1485937662_9958692437_VS_3.png\" ><br />\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>Input description.</p>\n<p>\nA single integer <b>Q</b> denoting the number of queries.\n<br>\nThe next Q lines have two integers each denoting the dimensions <b>N</b> and <b>M</b> of Byteland.\u00a0</p>\n\n<h3>Output</h3>\n<p>Output description.</p>\n<p>\nFor each query, Output a single interger denoting the number of ways in which timo can make this split modulo 10^9 + 7\n</p>\n\n<h3>Constraints</h3>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^7</b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>10^7</b></li>\n<li><b>3</b> \u2264 <b>N+M</b> \u2264 <b>10^7</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n1 2\n2 1\n3 3\n2 2\n3 2\n<br>\n<b>Output:</b><br>\n1\n1\n18\n4\n8\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-02-2017",
+    "is_direct_submittable": false,
+    "contest_name": "CodeSurf 17",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1486222200,
+        "end_date": 1486233000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1486233000,
+        "submit_start_date": 1486222200,
+        "current": 1537434180
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>h5harsh_5</span>",
+    "problem_name": "Sibling Rivalry",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/h5harsh_5'>h5harsh_5</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "h5harsh_5",
+    "contest_code": "COSU2017",
+    "max_timelimit": "1",
+    "problem_code": "VORTEX3"
+}

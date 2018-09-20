@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Aegon Targaryen is very old and about to die. He looks at his family tree and sees his face on top, then his children, and then his children's children, and so on. All of these people, save for himself, are his descendants. Aegon Targaryen has a very strange way of deciding how much inheritance each of his descendants receives when he dies.<br>\n<br>\nIn Aegon Targaryen's will, each of his <b>N</b> descendants start with 0 gold coins for inheritance. Every now and then, during his last few years on Earth, he meets up with one of his descendants. For our purposes, we call this descendant <b>X</b>. He then asks about the net worth of <b>X</b> and each of his descendants. He takes the sum of the net worth of <b>X</b> and all <b>X's</b> descendants. For our purposes, we shall call this sum <b>S</b>.<br>\n<br>\nAfter the meeting, Aegon Targaryen identifies whose inheritance he shall increase. He decides this through the following process. First, he identifies who among <b>X</b> and his descendants have the maximum net worth. Let's call this person <b>M</b>. He subsequently increases the inheritance of <b>M</b> by <b>S</b> gold coins PLUS the net worth of <b>M</b>. If there is a tie for maximum net worth, he chooses the one who is older.<br>\n<br>\nIt is only a matter of time before Aegon Targaryen passes away and he wants to make sure that his WILL will be updated for him as soon as he dies. Help him organize his WILL by keeping track of how much each descendant receives.\n</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.<br>\nEach test case begins with N, the number of descendants Aegon Targaryen has.<br>\nThe next N lines consist of the name n of Aegon Targaryen's descendants (from eldest to youngest) and their respective net worth w. They are presented in that order and separated by a single space. Each name consists of at most ten characters, all of which are capital letters. All of the names are distinct from each other and none of Aegon Targaryen's descendants are named <b>TARGARYEN</b>.<br>\nThe next N lines each consist of two strings, P and C. This tells us that P is the parent of C. Note that Aegon Targaryen's name is registered as <b>TARGARYEN</b>. Since time travel is impossible in Aegon Targaryen's world, it is safe to assume that the child is always younger than their parent.<br>\nThe next lines consist of strings of the following form:<br>\n<ul>\n<b>INC n W</b><br>\n<li>Increases the net worth of  and all their descendants by W.</li>\n<b>MEET n</b><br>\n<li>AEGON meets with . Recall that meeting with  normally results in the increase of 's inheritance or one of his descendants, as explained in the problem statement</li>\n<b>RIP AEGON</b>\n<li>This signifies the end of the test case. All his descendants become sad but they don't seem to mind the extra money</li>\n</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>For each RIP AEGON line, output N lines, each containing a name of Aegon Targaryen's descendant, a space, and this descendant's inheritance. The descendants must be in the same order as they were in the input.<br>\nThe total inheritance can be very large, so we ask you to only output it modulo 10^9.</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>3</b></li>\n<li><b>1</b> \u2264 <b>w</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>W</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>N,Q</b> \u2264 <b>10^5</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n\n1\n6\nAEMON 10\nRHAEGAR 30\nVISERYS 5\nVISENYA 20\nJON 45\nAERYS 64\nTARGARYEN AEMON\nTARGARYEN RHAEGAR\nAEMON VISERYS\nAEMON VISENYA\nRHAEGAR JON\nRHAEGAR AERYS\nINC RHAEGAR 5\nMEET RHAEGAR\nINC VISERYS 15\nMEET AEMON\nMEET AEMON\nRIP AEGON\n\n<b>Output:</b>\nAEMON 0\nRHAEGAR 0\nVISERYS 140\nVISENYA 0\nJON 0\nAERYS 223\n</pre>\n<p>\u00a0</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-09-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Clash Credenz 2017 Wildcard",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1504279800,
+        "end_date": 1504294200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1504294200,
+        "submit_start_date": 1504279800,
+        "current": 1537433600
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>abizerl123</span>",
+    "problem_name": "Aegon Targaryen",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abizerl123'>abizerl123</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abizerl123",
+    "contest_code": "CLCW2017",
+    "max_timelimit": "2",
+    "problem_code": "GOTLOL"
+}

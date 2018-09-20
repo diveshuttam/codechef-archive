@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p align = \"justify\">\nMahendra owns a water lorry and he lives in the village called Kurukshetra. The construction company in which he works is \n\nconstructing a big shopping mall in the nearby village. After he has finished the work for the day, he supplies the water \n\nthat is still remaining in the lorry to his village people. The village is subdivided into \u201cwards\u201d, such that each ward  \n\nhas at least one house and no house can be in more than one ward. There may be houses which are haunted and doesn\u2019t belong \n\nto any ward. A single main road connects all the wards and the ghost houses.\n<br><br>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\nEach day he will have some amount of water still left in his lorry and he will supply that to his people. But rather than \n\nstopping at every house and supplying the water, he supplies a part of  the water to only one house per ward. The house \n\nresident will then divide the water among the residents of his ward. The people of the village are very selfish i.e \n\nwhenever Mahendra supplies K litres of water to a house resident in a particular ward, he keeps k/2 litres for himself and \n\ndivides the remaining k/2 litres among other people in his ward. So, he made a decision that each day, he would follow a \n\ndifferent series of stoppings to supply water each day.\n<br><br>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\nMoreover, Mahendra has to take care of one more problem, i.e the water tap in his lorry will loosen due to vibration and \n\nwill open fully exactly after X kms of driving. So, he plans his travel accordingly in such a way that the water tap never \n\nopens fully i.e he can travel a maximum of X kms before supplying the water to the following ward. He never makes a stop \n\nto close the tap as it consumes time. So, whenever he makes a stop he will have to make the stop in such a way that he can \n\nsupply water to a house. He could stop at exactly one house in each ward.\n<br><br>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\nAll the residents of a particular ward go on vacation for some days. Sometimes one or more wards (all houses  belonging to \n\nthat wards) go together. So, Mahendra doesn\u2019t have to stop and supply water in these wards.\n<br><br>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\nYou will be given the starting ward number Wi and ending ward number Wj. Mahendra has to supply water to all the wards \n\nfrom Wi to Wj(inclusive) and wards numbered from (W0,\u2026.,Wi-1) & (Wj+1,\u2026.,Wn-1) will be on vacation. Based on the vacation \n\nlist L, he will be having a list of Wi\u2019s and Wj\u2019s. The amount he earns from supplying water from the ward Wi to Wj is \n\ncalculated as Salary=C, where \u2018C\u2019---The maximum number of days he can supply water to the wards from Wi to Wj without \n\nhaving to repeat any of the already followed sequence.\n<br><br>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\nSometimes, based on the given X and the house positions in the wards from Wi to Wj, Mahendra cannot supply water to all \n\nthe wards from \u2018Wi\u2019 to \u2018Wj\u2019. In this case, he will not earn any money. So, he earns money only if it is possible to supply \n\nwater to all the wards from \u2018Wi\u2019 to \u2018Wj\u2019.\nMahendra wants to know the maximum amount of all the amounts he can earn out of the list of  the given Wi\u2019s and Wj\u2019s.\n</p>\n\n\n<h3><b>Input</b></h3>\n<p>\nThe first line contains the number of testcases 'T'.<br>\nFor each test case, the first line contains two space separated integers A and X.<br>\nA - No.of houses in the villages<br>\nX is the maximum distance the Mahendra  can travel so that  the water tap doesn\u2019t open completely.<br>\n<br>\nA lines will follow:<br>\nith line will have the position of the ith house along the straight main road. (0<=Ai<=10000)<br>\n(The locations will be given in ascending order).<br>\n<br>\nNext line will contain an integer M,thenumber of  wards in the village.\n<br><br> \nM lines follow with each line specifying the starting and ending index of the houses located in that ward .\n<br><br>\nThe next line contains \u2018l\u2019,the number of entries in vacation list \u2018L\u2019,<br>\nThen follows \u2018l\u2019 lines each containing \u2018Wi\u2019 and \u2018Wj\u2019 denoting the starting ward number and ending ward number respectively.(0<=Wi<=Wj<=M-1)\n</p>\n\n<h3><b>Constraints</b></h3>\n<p>\n1<=T<=5<br>\n1<=A<=5000<br>\n1<=X<=5000<br>\n2<=M<=5<br>\n1<=l<=10<br>\n0<=Wi<=Wj<=M-1<br>\n</p>\n\n<h3><b>Output</b></h3>\n<p>\nFor each test case output the maximum amount the driver can earn.\n</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n7 3\n0\n1\n2\n3\n4\n5\n6\n3\n0 1\n2 4\n5 6\n3\n0 1\n1 2\n0 2\n\n<b>Output:</b>\n8\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Kurukshetra Online Programming Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYPY, CS2, PAS fpc, PAS gpc, RUBY, D, PERL, FORT, ADA, ASM, ICON, PIKE, ST, NICE, LUA, BASH, NEM, TCL, SCM chicken",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455370200,
+        "end_date": 1455388200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1839201979,
+        "submit_start_date": 1455370200,
+        "current": 1537435478
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>lakshmi8</span>",
+    "problem_name": "Lorry Driver",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/lakshmi8'>lakshmi8</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "lakshmi8",
+    "contest_code": "KOPC2016",
+    "max_timelimit": "1",
+    "problem_code": "K16A"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The Chef has become the captain of the Universal Army of Earth. There is a war going on between humans and aliens. Chef has appointed you to intercept the alien message transmission system.<br/>\nThe aliens use a different  binary system<br/>\n'0' means '1' and vice-versa<br/> \nThe message is sent as: [32bits of num1][16bits of num2][num2 bits of num3] <br/>\nThe retransmission they desire is : [32 bits of the remainder] when num3 is divided by num1. <br/>\nAll the numbers are written, MSB(Most significant bit) first.<br/> \nOutput must be showed in given format: \n[remainder for 1st instance] <br/>\n[remainder for 2nd instance] <br/>\nin the alien binary number system, without leading '1's ('0's).<br/> \nThe number of instances is about 200. <br/>\nChef wants you to reply to alien signals.<br/> \n\nGo on save the world<br/>\n\nConstant bit length numbers will be prefixed by '1's ('0's in their notation).\n\n<h3>Input</h3>\n<p>N : number of inputs N<=10<br/>\nthen N lines of input T\n\n<h3>Output</h3>\n<p>The reply, (i.e, remainder) to the corresponding signal T\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n1111111111111111111111000100111011111111111011110011100111000100\n1111111111111111111111000100101111111111111011000100100001000011111\n\n<b>Output:</b>\n0101101001\n0010001111\n\n<b>Explanation:</b>\nnum1=945\nnum2=16\nnum3=50747\noutput=662\n\nnum1=948\nnum2=20\nnum3=376288\noutput=880\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "ALGOTHIKA 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330774200,
+        "end_date": 1331958600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1331958600,
+        "submit_start_date": 1330774200,
+        "current": 1537438875
+    },
+    "problem_author_html_handle": "s4p3r_c1n0s",
+    "problem_name": "Save The Planet",
+    "source_sizelimit": "5000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/s4p3r_c1n0s'>s4p3r_c1n0s</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "s4p3r_c1n0s",
+    "contest_code": "AGTK2012",
+    "max_timelimit": "0.1",
+    "problem_code": "ALGINT"
+}

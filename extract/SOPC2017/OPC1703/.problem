@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Did you know that parademons feed on and collect fear for Darkseid for him to become more powerful ?</p>\n<p>Batman in his investigation figured out that the parademons store the fear they collect in a mystical box in the evil planet apokolips from which Darkseid derives his power.</p>\n<p>The exact description of the process is given below:</p>\n<p>The box is cuboidal and is made up of <b>a*b*c</b> unit blocks. The parademons choose to store fear in some cubical region of the box. In every such operation a parademon would choose a cubical region and will increase the fear by a value <b>v</b> in all the unit blocks present in that region. Batman needs to figure out all the unit blocks which do not have any fear in them in order for the Justice league to target and destroy only the unit blocks which do have fear in them. \nCan you help the Batman find all the unit blocks which don't have fear as soon as possible because Darkseid isn't coming he is already there ...</p>\n\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first line of each test case contains four integers <b>a</b>, <b>b</b>, <b>c</b> and <b>m</b> denoting the dimensions of the mystical box and the total number of operations respectively.</li>\n<li>Each of the following <b>m</b> lines describes an operation with five space separated integers <b>x</b>, <b>y</b>, <b>z</b>, <b>v</b> and <b>l</b> denoting the least three coordinates of the selected cubical region, amount of fear which is added in each unit block and the length of the cube respectively.</li>\n</ul>\n\n<p>Note that the least coordinates of the box are (0, 0, 0) and the greatest coordinates are (a, b, c). This also guarantees that there are a*b*c unit blocks.</p>\n\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single integer showing the number of unit blocks without any fear after all operations.</li>\n</ul>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>a, b, c</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>m</b> \u2264 <b>100000</b></li>\n<p>\u00a0</p>\n<li><b>0</b> \u2264 <b>x</b> < <b>a</b></li>\n<li><b>0</b> \u2264 <b>y</b> < <b>b</b></li>\n<li><b>0</b> \u2264 <b>z</b> < <b>c</b></li>\n<li><b>0</b> \u2264 <b>v</b> \u2264 <b>1000000</b></li>\n<li><b>1</b> \u2264 <b>l</b> \u2264 <b>min(a-x, b-y ,c-z)</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2 2 2 3\n0 0 0 5 1\n0 0 1 2 1\n1 1 1 1 1\n2 2 2 1\n0 0 0 0 2\n\n<b>Output:</b>\n5\n8\n</pre>\n<h3>Explanation</h3>\n<p>In the first test case three distinct unit blocks are filled with fear during the operations, thus five blocks will not have fear in them.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-12-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Shaastra Online Programming Contest 2018",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1514044800,
+        "end_date": 1514052000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1514052000,
+        "submit_start_date": 1514044800,
+        "current": 1537433276
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>ranjithganesh</span>",
+    "problem_name": "To the world of Darkseid",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ranjithganesh'>ranjithganesh</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ranjithganesh",
+    "contest_code": "SOPC2017",
+    "max_timelimit": "1",
+    "problem_code": "OPC1703"
+}

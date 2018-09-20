@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>You are given <var>n</var> discs on plane, of the same radius (<var>r</var>=1). Output the area of the part of the plane which is covered by <b>each</b> disc.</p>\n<h3>Input</h3>\n<p>First, 1<=<var>t</var><=10, the number of tests. Each testcase is of the following form: 1<=<var>n</var><=100000, then <var>n</var> pairs of floating point coordinates follow: -1000<=<var>x<sub>i</sub>,y<sub>i</sub</var><=1000</var>, representing the location of the <var>i</var>-th disc.</p>\n<h3>Output</h3>\n<p>For each testcase, output the total area covered by the intersection of all discs. Round the answer to 6 decimal digits after the point.</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong>\n1\n2\n0 0\n0 1\n\n<strong>Output:</strong>\n1.228370\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "February 2010 Contest",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1265016600,
+        "end_date": 1265880600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1265880600,
+        "submit_start_date": 1265016600,
+        "current": 1537439747
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Overlapping discs",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "FEB10",
+    "max_timelimit": "0.263158 - 0.657895",
+    "problem_code": "M5"
+}

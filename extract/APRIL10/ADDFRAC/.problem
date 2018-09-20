@@ -1,0 +1,33 @@
+{
+    "problem_code": "ADDFRAC",
+    "problem_author": "syco",
+    "contest_name": "April 2010 Contest",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>syco</span>",
+    "problem_name": "Adding Fractions",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "friggstad",
+    "contest_code": "APRIL10",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/april10'>april10</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/syco'>syco</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nYou have discovered a new way to add fractions ! Now, the result of adding fractions a/b and c/d is (a + c)/(b + d). Similarly the result of adding 3 fractions a/b, c/d, e/f is (a + c + e)/(b + d + f), and so on. You are given a list of N fractions a_1/b_1, a_2/b_2,...,a_N/b_N. You wonder what for each fraction i is the maximum fraction that you can obtain by adding together some continuous fractions in the list (possibly 1) starting at i ?\n\n</p><p>\nFor example, let N = 4 and the fractions be 1/1, 4/3, 10/1 and 5/4. The maximum fraction you can obtain by starting at index 1 is 3/1 (1/1 + 4/3 + 10/1). Similarly, the maximum fraction you can obtain by starting at index 2 is 7/2 (4/3 + 10/1). By starting at index 3, the maximum sum you can obtain is 10/1 itself, and by starting at index 4, you can obtain sum 5/4.\n\n<h3>\nInput :\n</h3>\nThe first line contains T the number of test cases. T test cases follow. The first line of each test case contains N. Each of the next N lines contains a fraction given in the form \"a_i/b_i\". A blank line seperates two test cases.\n\n<h3>\nOutput :\n</h3>\nFor each test case, output N lines. The ith line contains the maximum fraction you can obtain by adding continuous fractions in the list starting at index i. The numerator and denominator of any fraction you output should have gcd 1. Output a blank line after each test case.\n<h3>\nSample Input :</h3>\n<pre>\n2\n4\n1/1\n4/3\n10/1\n5/4\n\n5\n1/3\n3/1\n2/5\n5/6\n6/5\n</pre>\n\n\n\n\n<h3>Sample Output :</h3>\n<pre>\n3/1\n7/2\n10/1\n5/4\n\n1/1\n3/1\n13/16\n1/1\n6/5\n</pre>\n\n\n\n<h3>\nConstraints :\n</h3>\n<pre>\n1 &lt;= T &lt;= 5\n1 &lt;= n &lt;= 100000\n1 &lt;= a_k,b_k &lt;= 100000\n</pre></p>",
+    "category_name": "main",
+    "date_added": "20-03-2010",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "max_timelimit": "0.298983",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/ADDFRAC",
+    "problem_tester": "friggstad",
+    "time": {
+        "view_start_date": 1270196924,
+        "end_date": 1271151000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1271151000,
+        "submit_start_date": 1270196924,
+        "current": 1537439604
+    },
+    "user": {
+        "username": ""
+    }
+}

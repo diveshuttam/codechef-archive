@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>James Moriarty planted few bombs all over the city. But sadly there is only one bomb defusing squad, and is at a fixed position (X,Y). Sherlock Holmes was able to find out the positions of all the bombs. So all the bombs are to be disarmed in order to save the city. Since this is a very dangerous task thus no body volunteered. <br /><br /><br />\nSherlock is initially at position (X,Y) and can carry only one bomb at a time.  He has to bring all the bombs to the bomb defusing squad. Obviously he wants to do this task as soon as possible.<br /><br /><br />\nGiven the position of the Squad and position of all the bombs, you need to tell the minimum distance that Sherlock Holmes has to travel to save the city.</p>\n<h3>Input</h3>\n<p>First line contains test cases T&lt;=400.<br /><br />\nThen first line of each test case tells the no. of bombs N ( 3&lt;=N &lt;=1500) in the city.<br /><br />\nNext line contain the position of squad X Y ( X,Y &lt;=100).<br /><br />\nNext N lines denotes the position of bombs- x<sub>i</sub> y<sub>i</sub> (x<sub>i</sub>,y<sub>i</sub>&lt;=100).</p>\n<h3>Output</h3>\n<p>For each test case output the minimum distance that Sherlock Holmes will travel.</p>\n<p><pre>\n<b>Note:</b>\nBomb Squad is fixed and can not move.\nInitially Sherlock Holmes is standing with the squad.\nAll the positions are integers.\nMinimum Distance between two points x<sub>1</sub> y<sub>1</sub> and x<sub>2</sub> y<sub>2</sub> is | x<sub>1</sub>-x<sub>2</sub> | + | y<sub>1</sub>-y<sub>2</sub> |.\n</pre><h3>Example</h3>\n<pre>\n<b>Input:</b>\n1\n3\n3 4\n5 6\n2 1\n2 3\n\n<b>Output:</b>\n20\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Cranium  2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1360765800,
+        "end_date": 1360783800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1360783800,
+        "submit_start_date": 1360765800,
+        "current": 1537438522
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>sameer47</span>",
+    "problem_name": "Bombs",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sameer47'>sameer47</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sameer47",
+    "contest_code": "CRNM2013",
+    "max_timelimit": "1",
+    "problem_code": "CRNM1305"
+}

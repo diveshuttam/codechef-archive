@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Problem Statement</h3>\n<p>Its Advaita time,Subash and Rohit are playing a game where Rohit gives Subash a strange fibonacci sequence where <b> F(n) = 5*F(n-2) + 4*F(n-1)</b>.Here <b>F(n)</b> denotes the <b>n<sup>th</sup></b> term of the sequence.Rohit asks Subash to find out the <b>n<sup>th</sup></b> term of the given sequence under modulo <b>10<sup>9</sup>+7</b>.Help Subash to find the answer.</p>\n\n\n\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first line of each test case contains 3 integers <b>F0, F1 and N</b>.\nwhere <b>F0</b> is the 0th term of the sequence <b>F1</b> is 1st term of the sequence and <b>N</b> denotes the <b>N<sup>th</sup></b> term whose value you need to find out. </li>\n</ul>\n<p> </p>\n\n<h3>Output</h3>\n\n<ul>\n<li>For each test case, output a single number containing the value of <b>F(n)</b> under modulo <b>10<sup>9</sup>+7</b> i.e the <b>N<sup>th</sup></b> term of the given sequence.</li>\n</ul>\n<p> </p>\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100000</b></li>\n<li><b>0</b> \u2264 <b>F0</b> \u2264 <b>1000000</b></li>\n<li><b>0</b> \u2264 <b>F1</b> \u2264 <b>1000000</b></li>\n<li><b>0</b> \u2264 <b>N</b> \u2264 <b>1000000</b></li>\n</ul>\n<p> </p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n0 1 2\n7 12 23\n<b>Output:</b>\n4\n93500136\n</pre>\n<p> </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-01-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Blueprint",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1517758200,
+        "end_date": 1517767200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1517767200,
+        "submit_start_date": 1517758200,
+        "current": 1537433045
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>gc5761</span>",
+    "problem_name": "Strange Fibonacci",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/gc5761'>gc5761</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "gc5761",
+    "contest_code": "BLUP2018",
+    "max_timelimit": "1",
+    "problem_code": "STRFIB"
+}

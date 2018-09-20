@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Finally Mr.IDC has a girlfriend now and he wants to send her love letters. Since he is afraid of being caught by her parents therefore he encrypts the message using <a href=\"http://en.wikipedia.org/wiki/Caesar_cipher\">Caesar Cipher</a>.<br /><br />\nWhile writing the letter he has replaced each character with a new character <b>(C<sub>i</sub> - K) mod 26</b> where <br /> ( i = [ 0,|message| ] ).<br /><br /><br />\nAfter finishing writing the letter, he sends it to his girlfriend and messages her the key <b>K</b> to decrypt his message.<br /><br /></p>\n<p>She has received the letter but doesn't know how to decrypt. She wants to read what is written in the letter therefore she needs your help in decrypting the message.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line of input contains T, number of testcases.<br /><br />\nEach testcase contains two lines. First line contains K and the next line contains the encrypted message {'a'-'z'}.</p>\n\n<h3>Output</h3>\n<p>For each testcase, output the result after extracting the original message in a new line.</p>\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>K</b> &lt; <b>26</b></li>\n<li><b>1</b> \u2264 <b>|encrypted message|</b> \u2264 <b>10<sup>4</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n14\nuxahqkag\n7\nfbgwlpxxixkl\n\n<b>Output:</b>\niloveyou\nmindsweepers\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Mindsweepers 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1423281600,
+        "end_date": 1423378800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1423378800,
+        "submit_start_date": 1423281600,
+        "current": 1537436827
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>nitrek</span>",
+    "problem_name": "Mr IDC and his Message",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nitrek'>nitrek</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nitrek",
+    "contest_code": "MDSW2015",
+    "max_timelimit": "1",
+    "problem_code": "IDCMSG"
+}

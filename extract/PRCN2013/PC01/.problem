@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Five of the faculty members of IIIT-Delhi Prof. A, Prof. B, Prof. C, Prof. D and Prof. E have their rooms on different floors of the Academic Building, which has five floors.<br /><br />\nA week student X has been called by these five professors to discuss his declining performance. But he, having weak memory, has forgotten on which floors are rooms of ALL the respective faculty members located. However, he remembers some information using which it can be figured out on which floors are their rooms located. Can you help him out with it?<br /><br />\nYou are provided with specifications pertaining to each professor and you are supposed to find out the exact floor on which their room is.</p>\n<h3>Input</h3>\n<p>The first lines contains a number \u201cT\u201d specifying the number of test cases. (1 \u2264 T \u2264 20)<br />\n<br /><br />Each test case will be of five lines, each line will provide certain specifications about where the person lives. <b>The first line will contain data for Prof. A, second for Prof. B and so on.</b></p>\n<p><br /><br />The following abbreviations are used for the input :</p>\n<p><br /><br />A/B/C/D/E : Professor's room is on an ADJACENT floor to that of A/B/C/D/E<br />\n<br />NA/NB/NC/ND/NE : Professor's room is not on an adjacent floor to that of A/B/C/D/E.<br />\n<br />+A/+B/+C/+D/+E : Professor's room is on a  floor higher than of A/B/C/D/E.<br />\n<br />-A/-B/-C/-D/-E : Professor's room is on a floor lower than of A/B/C/D/E.<br />\n<br />1/2/3/4/5 : Professor's room is on that specific floor.<br />\n<br />N1/N2/N3/N4/N5 : Professor's room is NOT on that specific floor.</p>\n<p><br /><br />Each line would contain a combination of the above mentioned abbreviations, each separated by a space.</p>\n<p><B><br />Note: \u201cAdjacent\u201d means that they have rooms on consecutive floors, for example : 2,3 or 4,3 etc.<br />\n\u201cHigher\u201d or \u201cLower\u201d does not ONLY mean on a floor which is one more or one less than the one specified. \u201cHigher\u201d simply means that professor has a room on ANY floor which is higher than the one specified.</b></p>\n<h3>Output</h3>\n<p>For each test case, the output must be the names of the Professors in the order of floors on which they are residing, starting from 1st floor. The alphabets must be printed in one line, without any space in between.</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\nNC N5 N1\nN1\nN5\n+C\nNA\nNC\n1\n+B -A NA\nE\nN2 N4 D\n\n<b>Output:</b>\nCBADE\nBCEDA\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-08-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Procon 2013",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1376640000,
+        "end_date": 1376647200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1376647200,
+        "submit_start_date": 1376640000,
+        "current": 1537438239
+    },
+    "problem_author_html_handle": "procon_13",
+    "problem_name": "Floor Confusion",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/procon_13'>procon_13</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "procon_13",
+    "contest_code": "PRCN2013",
+    "max_timelimit": "0.1",
+    "problem_code": "PC01"
+}

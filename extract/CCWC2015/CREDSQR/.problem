@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><html><br />\nThere is an estimation of number of children that would visit the Park. The park owner Hussain distributes chocolates in his park everyday bought from same shopkeeper.This shopkeeper is in love with perfect squares so he sells number of chocolates that is a <strong>Perfect Square </strong> number. Now Hussain wants you to help him to find the number of chocolates he needs to purchase so that number of chocolates can be <strong>equally divided</strong> into children for any given estimation.You will be give <strong>N</strong> number of estimations. And you have to find the required answer i.e Number of choclates to be bought.<br /><br /></html></p>\n<p>Input:<br /><br />\nFirst line of the input conatins number of test cases <strong>T</strong><br /><br />\nEvery test case will consist of 2 lines<br /><br />\nFirst line will consist the total number of estimations <strong>N</strong><br /><br />\nSecond line will contain <strong>N</strong> space separated numbers(<strong>A<sub>i</sub></strong>)<br /><br />\n<br /><br />\nOutput:<br /><br />\nFor each test case output a single line containing the answer MOD <strong>10<sup>9</sup>+7</strong><br /><br />\n<br /><br />\nConstraints:<br /><br />\n1&lt;=<strong>T</strong>&lt;=100000<br /><br />\n2&lt;=<strong>N</strong>&lt;=10<br /><br />\n1&lt;=<strong>A<sub>i</sub></strong>&lt;=100<br /><br />\n<br /><br />\nSample test case:<br /><br /><br />\n<strong>Input:</strong><br /><br />\n2<br /><br />\n3<br /><br />\n21 33 66<br /><br />\n2<br /><br />\n12 21<br /><br />\n<br /><br />\n<strong>Output:</strong><br /><br />\n213444<br /><br />\n1764<br /><br />\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-08-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Clash Credenz 2015 Wild Card Round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1440257400,
+        "end_date": 1440271800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1440271800,
+        "submit_start_date": 1440257400,
+        "current": 1537436106
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>psmlbhor</span>",
+    "problem_name": "Magic Square",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/psmlbhor'>psmlbhor</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "psmlbhor",
+    "contest_code": "CCWC2015",
+    "max_timelimit": "1",
+    "problem_code": "CREDSQR"
+}

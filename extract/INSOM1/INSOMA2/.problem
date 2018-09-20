@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Magazines and newspapers often have letter matrices in which certain words need to be located. Umesh, a puzzle fanatic at IIT Roorkee, had an idea for a new kind of searching puzzle. In the letter matrix provided, words can be located along any set of diagonals, with repetition of past selected letters.</p>\n<p>\nFor example, in the letter matrix:\n</p>\n<p>\n<pre>\nB X A X X\nX A X X X\nX B B X X\nX A X A X\nX X B X X\n<br />\n</pre>\n</p>\n<p>\nThe string ABA can be found in 14 different ways \u2013 corresponding to the following locations:\n</p>\n<p>\n<pre>\nA\t        B\t        A\n(1,1)\t(0,0)\t(1,1)\n(1,1)\t(2,2)\t(3,1)\n(1,1)\t(2,2)\t(3,3)\n(1,1)\t(2,2)\t(1,1)\n(3,1)\t(2,2)\t(3,1)\n(3,1)\t(2,2)\t(3,3)\n(3,1)\t(4,2)\t(3,1)\n(3,1)\t(4,2)\t(3,3)\n(3,1)\t(2,2)\t(1,1)\n(3,3)\t(2,2)\t(3,3)\n(3,3)\t(2,2)\t(1,1)\n(3,3)\t(2,2)\t(3,1)\n(3,3)\t(4,2)\t(3,1)\n(3,3)\t(4,2)\t(3,3)\n</pre>\n</p>\n\n<p>\n<br />\nSo, given a matrix of size NxN, you need to find out the total number of locations of a particular string. The input and output formats are as follows:\n</p>\n\n\n<h3>Input</h3>\n<p>Line 1: N. 1 &lt;= N &lt;= 1000<br />\nLine 2 to N+1: Elements of the NxN matrix in row major order (separated by a space)<br />\nLine N+2: The string to search. Maximum length of this string will be N2.\n</p>\n\n\n<h3>Output</h3>\n<p>Line 1: The number of ways in which the string can be found in the matrix.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n8\nB X A X X\nX A X X X\nX B B X X\nX A X A X\nX X B X X\nABA\n\n<b>Output:</b>\n14\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-03-2009",
+    "is_direct_submittable": false,
+    "contest_name": "IIT Roorkee Insomnia - Speed Round",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL",
+    "todo": false,
+    "time": {
+        "view_start_date": 1237545000,
+        "end_date": 1237559400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180135,
+        "submit_start_date": 1237545000,
+        "current": 1537439975
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Exploding Search ",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "INSOM1",
+    "max_timelimit": "0.4 - 1.4",
+    "problem_code": "INSOMA2"
+}

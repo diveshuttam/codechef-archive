@@ -1,0 +1,138 @@
+{
+    "announcements": "<p><b>25/05/2014, 11:05 IST: </b>The official school rankings for the contest can be found\u00c2\u00a0<a href=\"/rankings/inst/school/LTIME12\" target=\"_blank\">here</a>. Overall rankings can be viewed\u00c2\u00a0<a href=\"/rankings/inst/LTIME12\" target=\"_blank\">here</a>.</p>",
+    "ip": "149.129.135.113",
+    "code": "LTIME12",
+    "duration": "180",
+    "name": "May Lunchtime 2014",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "BNGAME": [
+            {
+                "score": "20",
+                "count": "1"
+            },
+            {
+                "score": "27",
+                "count": "7"
+            },
+            {
+                "score": "47",
+                "count": "18"
+            },
+            {
+                "score": "100",
+                "count": "6"
+            }
+        ],
+        "TROOT": [
+            {
+                "score": "42",
+                "count": "7"
+            },
+            {
+                "score": "100",
+                "count": "5"
+            }
+        ],
+        "DIVSUBS": [
+            {
+                "score": "24",
+                "count": "1"
+            },
+            {
+                "score": "37",
+                "count": "80"
+            },
+            {
+                "score": "61",
+                "count": "40"
+            },
+            {
+                "score": "100",
+                "count": "36"
+            }
+        ],
+        "APPROX2": [
+            {
+                "score": "31",
+                "count": "139"
+            },
+            {
+                "score": "69",
+                "count": "8"
+            },
+            {
+                "score": "100",
+                "count": "594"
+            }
+        ]
+    },
+    "rules": "<div> <div><b>All the solutions for the problem set are public and the problems have been moved to\u00a0practice section.</b><br style=\"color: #444444; font-family: Arial, sans-serif; line-height: 18px;\" /> <div></div> <div><b>The editorials for the contest will can be found\u00a0<a href=\"http://discuss.codechef.com/tags/ltime12/\">here</a>.</b><br /> <div></div> <div><b>The winners blog post can be found <a href=\"http://blog.codechef.com/2014/07/24/a-close-shave-for-yutaka1999-at-the-lunchtime/\">here</a>.</b></div> <div><b><br /></b></div> </div> </div> <div></div> <div><b>Rules and Regulations:</b></div> </div> <div></div> <div>This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test data.</div> <div> <ul> <li>The details of the failed test cases will also be visible on your solution page.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The contest is meant for students of high school and middle school though everyone is invited to participate.</li> <li>There will be separate ranking page for school students. The school students will be identified by the inistitution that they have enetered in their profile.</li> <li><b>We have removed all the Institutions that we could not identify from our database. We request you to update your institutions once again by going to your profile page.</b></li> <li>You can also send in your queries in an email to\u00a0<a href=\"mailto:contest-admin@codechef.com\" target=\"_blank\">contest-admin@codechef.com</a>, during the contest.</li> <li>Contest problems will become visible on May 25th, 2014 at 11:00 am (IST) to 2:00 pm (IST). There will be 4 problems in all. Check your time zone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+MayLunch+Time+2014&amp;iso=20140525T11&amp;p1=44&amp;ah=3\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\" target=\"_blank\">feedback@codechef.com</a></li> <li>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>All participants are expected to abide by the\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a>.</li> </ul> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/LTIME12/1424957937.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "BNGAME": {
+            "allow_submission": false,
+            "name": "Brand New Game",
+            "category_name": "main",
+            "accuracy": 1.49,
+            "successful_submissions": "6",
+            "code": "BNGAME",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "TROOT": {
+            "allow_submission": false,
+            "name": "Roots of a Tree",
+            "category_name": "main",
+            "accuracy": 13.89,
+            "successful_submissions": "5",
+            "code": "TROOT",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "DIVSUBS": {
+            "allow_submission": false,
+            "name": "Divisible Subset",
+            "category_name": "main",
+            "accuracy": 3.07,
+            "successful_submissions": "36",
+            "code": "DIVSUBS",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "APPROX2": {
+            "allow_submission": false,
+            "name": "Approximately II",
+            "category_name": "main",
+            "accuracy": 22.58,
+            "successful_submissions": "594",
+            "code": "APPROX2",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1401006600,
+        "current": 1537437538,
+        "freezing": 0,
+        "start": 1400995800
+    },
+    "user": {
+        "username": ""
+    }
+}

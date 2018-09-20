@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>A scientist is performing an experiment. She has to note down the exact time at which <b>N</b> interesting events occur. Unfortunately, she is very tired and misses some digits while noting down the time. Also, she just forgets about the date. </p>\n\n<p>So at the end, there are <b>n</b> timestamp entries in <b>hh:mm:ss</b> format, where <b>hh</b> denotes the hour, <b>mm</b> minutes and <b>ss</b> the seconds. The time is in 24-hour format. Some of the digits are missing and will be denoted by a '?'.  The scientist has also forgotten how long back she had started the experiment! So, given these <b>N</b> times, what is the minimum amount of time that has passed since the start of the experiment? \n</ss>\n\n<p>The <b>i</b>-th event always occurs after or at the same time as the <b>(i-1)</b>-th event. The first event always begins at <b>00:00:00</b> and that timestamp is correctly noted.</p>\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>\n<p>The first line of each test case contains a single integer <b>N</b> denoting the number of events.</p>\n<p>The next <b>N</b> lines each contain strings <b>T<sub>1</sub></b>, <b>T<sub>2</sub></b>, ..., <b>T<sub>N</sub></b> denoting the <b>N</b> timestamps.</p>\n<p>Each timestamp has 8 characters of the form: \"hh:mm:ss\" (without quotes) denoting the hour (hh), minute (mm) and seconds (ss). Each part maybe prefixed by a 0 to make it fit in the format. Some of the digits in the timestamp may be absent and will be denoted by '?'.</p>\n\n<h3>Output</h3>\n<p>For each test case, output a single line containing the minimum number of seconds taken for the experiment to be completed.</p>\n\n<h3>Constraints</h3>\n<p></p>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>6</sup></b></li>\n<li>Sum of all <b>N</b> over all test cases in a single test file will not exceed <b>10<sup>6</sup></b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n5\n00:00:00\n10:10:10\n11:11:11\n23:59:59\n00:00:00\n3\n00:00:00\n23:59:59\n23:59:58\n2\n00:00:00\n2?:??:?1\n3\n00:00:00\n23:59:59\n23:59:?8\n\n<b>Output:</b>\n86400\n172798\n72001\n172748\n</pre>\n\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> The first event and last event takes place exactly 24 hours apart and all the other event could have occurred between these 2 events. So the minimum amount of time passed is 24 hours (or 24 * 60 * 60 = 86400 seconds) </p>\n<p><b>Example case 3.</b> Since we have to minimize the amount of time passed, we can fill all ? with 0 and assume the second event occurred at 20:00:01 </p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Kharagpur Onsite Mirror Contest 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1481954400,
+        "end_date": 1481972400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1792992006,
+        "submit_start_date": 1481954400,
+        "current": 1537434322
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Timestamps",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acm16'>acm16</a>, <a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>, <a class='problem-tag-small ' href='/tags/problems/greedy'>greedy</a>, <a class='problem-tag-small ' href='/tags/problems/icpc16'>icpc16</a>, <a class='problem-tag-small ' href='/tags/problems/implementation'>implementation</a>, <a class='problem-tag-small ' href='/tags/problems/kgp16'>kgp16</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin3",
+    "contest_code": "KGP16MOS",
+    "max_timelimit": "4",
+    "problem_code": "KGP16C"
+}

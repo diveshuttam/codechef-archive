@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><i><center>\"Right smart bird you got there, Mr. Potter. She arrived here just five minutes before yourself.\"</center></i>\n<b><p align=\"right\">- Tom</p></b>\n<p>\nHedwig is not only a smart owl, but she is charming as well. Haron likes her very much and has asked her out. Alas, Hedwig is too busy delivering mails and needs Haron to wait for some time. But, she knows Haron would get really bored alone. Hence, she has asked you to play with him. As soon as Haron knew you love competitive coding, he asks you one of his unsolved problems. You now have to solve this problem and tell Haron the solution which will take some time so that Hedwig can come back and go on a date with him.\n<p>Haron's problem states : You are given a tree rooted in vertex <b>1</b> having <b>N</b> vertices. Each vertex has a color associated with it. </p>\n<p>\nFor every vertex <b>v</b> you are given an integer which represents its lucky number, let it be <b>X</b>. Now you have to find number of distinct colors which occur <b>exactly</b> <b>X</b> times in subtree of <b>v</b>.\n</p>\n\n<b>Note : </b> Subtree of <b>v</b> contains <b>v</b> too.\n<p></p>\n\n<h3>Input</h3>\n<p>The first line of input contains one integer <b>N</b> denoting the number of vertices in tree.</p>\n<p>\nThe second line contains <b>N</b> space separated integers where <b>i<sub>th</sub></b> integer is <b>color<sub>i</sub></b>, the color of <b>i<sub>th</sub></b> vertex.\n</p>\n<p>\nThe third line contains <b>N</b> space separated integers where the <b>i<sub>th</sub></b> integer is <b>lucky_number<sub>i</sub></b> which denotes the lucky number of <b>i<sub>th</sub></b> vertex.\n</p>\n<p>\nNext <b>N-1</b> lines contain two space separated integers <b>x</b> and <b>y</b> each, denoting that there is an undirected edge between vertices <b>x</b> and <b>y</b>.\n</p>\n<p></p>\n<h3>Output</h3>\n<p>Print <b>N</b> space separated integer in one line where <b>i<sub>th</sub></b> integers denotes the required answer for <b>i<sub>th</sub></b> vertex.\n</p>\n<p></p>\n\n<p></p>\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 <b>N</b> \u2264 200000</li> \n<li>1 \u2264 <b>color<sub>i</sub></b> \u2264 10<sup>9</sup> </li>\n<li>1 \u2264 <b>lucky_number<sub>i</sub></b> \u2264 10<sup>9</sup> </li>\n<li>1 \u2264 <b>x, y</b> \u2264 <b>N</b>\n</ul>\n<p></p>\n<h3>Example 1</h3>\n<pre><b>Input 1:</b>\n6\n1 2 3 2 6 3\n2 1 8 1 2 1\n1 2\n1 3\n2 4\n2 5\n3 6\n\n<b>Output 1:</b>\n2 1 0 1 0 1\n</pre>\n<p></p>\n<h3>Explanation</h3>\n<ul>\n<li>In subtree of <b>1</b> colors 2 and 3 occur exactly 2 times.</li>\n<li>In subtree of <b>2</b> only color 6 appears exactly 1 time.</li>\n<li>In subtree of <b>3</b> no color appears exactly 8 times.</li>\n<li>In subtree of <b>4</b> only color 2 appears exactly 1 time.</li>\n<li>In subtree of <b>5</b> no color appears exactly 2 times.</li>\n<li>In subtree of <b>6</b> only color 3 appears exactly 1 time.</li>\n</ul>\n</p>\n<p></p>\n<h3>Example 2</h3>\n<pre><b>Input 2:</b>\n15\n83 97 109 109 121 105 115 99 104 97 114 109 105 110 103\n1 3 1 5 2 2 1 2 4 1 1 1 1 1 1 \n1 2\n1 3\n1 4\n2 5\n2 6\n3 7\n3 8\n4 9\n5 10\n6 11\n8 12\n9 13\n9 14\n9 15\n\n<b>Output 2:</b>\n8 0 2 0 0 0 1 0 0 1 1 1 1 1 1 \n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "ALKHWARIZM (Rated)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1521214200,
+        "end_date": 1521232200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1521232200,
+        "submit_start_date": 1521214200,
+        "current": 1537432818
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>aloochaat1998</span>",
+    "problem_name": "Hedwig The Smart Bird",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aloochaat1998'>aloochaat1998</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "aloochaat1998",
+    "contest_code": "ALKH2018",
+    "max_timelimit": "1",
+    "problem_code": "HEDWIG"
+}

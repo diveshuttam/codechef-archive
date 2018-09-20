@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>There are <strong>N</strong> people in a queue, each holding a Pikachu numbered indicating their position in the queue i.e., 1,2,3,\u2026\u2026n-1,n.  Any person can swap their Pikachu with the person in front of them but the number on the Pikachu will remain same. One person can swap at most 2 Pikachu. Swapping is unidirectional ; always from greater number to smaller. \n<br><br>\nThat is to say, if n=8 and \tPerson 5 swaps with Person 4, the queue will look like this : 1,2,3,5,4,6,7,8.\n<br><br>\nAsh being interested wants to find out the number of swaps that took place to get the current state. \n<br><br>\n<strong>Input Format</strong><br><br>\nThe first line contains an integer, <strong>T</strong> , denoting the number of test cases. <br><br>\nEach test case is comprised of two lines; the first line has  (an integer indicating the number of people in the queue), and the second line has  space-separated integers describing the final state of the queue.<br><br>\n<strong>Constraints</strong> :<br><br>\n1 \u2264 T \u2264 10<br><br>\n1 \u2264 N \u2264 10^5<br><br>\n<strong>Output Format</strong><br><br>\nPrint an integer denoting the minimum number of swaps needed to get the queue into its final state; print Not Possible if the state is invalid (requires  to swap with more than 2 people).\n<br><br>\nSample Input<br><br>\n\n2<br>\n5<br>\n2 1 5 3 4<br>\n5<br>\n2 5 1 3 4<br><br>\nSample Output<br><br>\n\n3<br>\nNot Possible\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Codeathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1473521400,
+        "end_date": 1473528600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1473528600,
+        "submit_start_date": 1473521400,
+        "current": 1537434629
+    },
+    "problem_author_html_handle": "kushagrawal071",
+    "problem_name": "Ash Dilemma",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kushagrawal071'>kushagrawal071</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kushagrawal071",
+    "contest_code": "CDTN2016",
+    "max_timelimit": "1",
+    "problem_code": "CDTN01"
+}

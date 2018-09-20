@@ -1,0 +1,31 @@
+{
+    "status": "success",
+    "problem_tester": null,
+    "body": "<h2>Zonal Computing Olympiad 2015, 29 Nov 2014</h2>\n\n<br>\n<p> We have a rectangular region that is 100000 units along the X-axis and 500 units along the Y -axis.</p>\t\n\n<br>\n<p>We assume that the origin (0, 0) is at the bottom-left corner of this region, so that the top-left corner is at (0, 500), the bottom-right at (100000, 0) and the top-right corner at (100000, 500). We are also given the coordinates of a set of N points inside this region. The points have only integer\ncoordinates and do not appear along the X-axis or Y -axis.</p>\n\n<br>\n<p>We would like to draw a rectangle, with its base on the X-axis, of maximum area within the region such that it does not contain any of the N points in its interior. More specifically, the points may appear on the boundary but cannot be properly inside the rectangle. </p>\n\n<br>\n<p>For example, if there are 5 points: (1, 4), (2, 3), (3, 2), (5, 1) and (5, 2). Then the rectangle whose bottom-left and top-right corners are given by (0,0) and (2,3) is a possibility and its area is 6. Another possibility is the rectangle with bottom-left and top-right corners at (3,0) and (5,500) with area 1000. The rectangle with bottom-left at (2, 3) and top-right at (100000, 500) is not valid since its base does not lie on the X-axis. The largest rectangle that meets the requirements in this case is the one with its bottom-left corner at (5,0) and top-right at (100000,500) with area 49997500.</p>\n\n<br>\n<p>Your program should take a description of the N points and output the size of the maximum rectangle satisfying the above property that can be drawn within the 100000 \u00d7 500 region.</p>\n\n<br>\n<h3>Input format</h3>\n\n<p>The first line contains a single integer N, giving the number of points marked in the region.</p>\n\n<br>\n<p>This is followed by N lines, each containing two integers separated by a space describing the coordinates of one point.</p>\n\n<br>\n<h3>Output format</h3>\n\n<p>Output a single integer giving the area of the largest rectangle that may be drawn with its base on the X-axis and which does not contain any of the given N points in its interior.</p>\n\n<br>\n<h3>Test data</h3>\n\n<p>In both subtasks, the X-coordinate of each of the N points is in the range 1 to 99999 inclusive, and the Y -coordinate of each of the N points is in the range 1 to 499 inclusive.</p>\n\n<br>\n<p><b>Subtask 1 (40 marks)</b> : 1 \u2264 <em>N</em> \u2264 5000.</p>\n<p><b>Subtask 2 (60 marks)</b> : 1 \u2264 <em>N</em> \u2264 100000.</p>\n\n<br>\n<h3>Sample Input</h3>\n\n<pre>\n5 \n1 4 \n2 3\n3 2\n5 1\n5 2\n</pre>\n\n<br>\n<h3>Sample Output</h3>\n\n<pre>\n49997500\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-11-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ZCO Practice Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1446661800,
+        "end_date": 1578162600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1578162600,
+        "submit_start_date": 1446661800,
+        "current": 1537431958
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Rectangle",
+    "source_sizelimit": "50000",
+    "problem_status": "unattempted",
+    "problem_tester_html_handle": null,
+    "problem_author": "admin3",
+    "contest_code": "ZCOPRAC",
+    "max_timelimit": "1",
+    "problem_code": "ZCO15004"
+}

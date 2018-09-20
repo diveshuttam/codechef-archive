@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>When Emily writes code in C, she over uses define statements.  Neha hates looking at define statements, as she constantly has to scroll back to the top of the code to figure out what they mean.  Write a program that will make Neha's job easier by taking in C code and handling the define replacements. </p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>A .c file.</p>\n<h3>Output</h3>\n<p>A .c file with all the define statements taken care of.</p>\n<h3>Input constraints</h3>\n<ul>\n<li><b>The .c file will successfully compile</b></li>\n<li> <b>All define statements will be after the includes and before the main method</b> </li>\n<li><b>A define statement will not replace another define statement</b>\n</li><li><b> Each define identifier will not have spaces in it</b></li>\n<li><b>The main method will be the last method</b></li>\n<p>\n</p></ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b><a href = http://ideone.com/BZbBF0> Input</a>:</b>\n\n\n<script src=\"http://ideone.com/e.js/BZbBF0\" type=\"text/javascript\" ></script>\n\n\n<b><a href = http://ideone.com/embed/sFLw8r#>Output</a>:</b>\n\n\n<script src=\"http://ideone.com/e.js/sFLw8r\" type=\"text/javascript\" ></script>\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> ...</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Replay of Pitt CSC - University of Pittsburgh ",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1427301000,
+        "end_date": 1427311800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1427311800,
+        "submit_start_date": 1427301000,
+        "current": 1537436496
+    },
+    "problem_author_html_handle": "pwf7",
+    "problem_name": "C Preprosser",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pwf7'>pwf7</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pwf7",
+    "contest_code": "PITTCS15",
+    "max_timelimit": "10",
+    "problem_code": "PCSC8"
+}

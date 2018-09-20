@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The old time pokemon craze has finally re-emerged.You are to solve one such problem from pokemon world.Ash has organized a party in the pokemon centre. There are <b>N</b> pokemons initially with an<b> id</b> defined by a positive integer<b> A<sub>i</sub></b>.Initially all the N pokemons are dancing.<br>\n<b>Q</b> pokemons are sheduled to attend the pokemon centre for the party.But since each pokemon is shy to dance alone,a pokemon will dance only if there is a pokemon present in the centre which is of the same breed i.e the same <b>id</b>,else the pokemon just sits there. </p>\n<p>For each of the<b> Q</b> pokemons you are to answer whether it will dance or not.\n\u00a0</p>\n\n\n<h3>Input</h3>\n<p>The first line of input contains a single integer<b> T</b> denoting the number of test cases. This will be followed by<b> T</b> test cases.<br>\nFirst line of each test case consists of two space separated integers <b>N</b> and<b> Q</b> denoting the number of pokemons present initially and the number of pokemons which are sheduled to attend the party respectively.<br>\nSecond line consists of<b> N</b> space separated integers denoting the <b>ids</b> of pokemons initially present(and dancing).<br>\nThird line consists of<b> Q</b> space separated integers denoting the <b>ids</b> of pokemons which are attending the party.</p>\n\n<h3>Output</h3>\n<p>For each of the <b>T</b> tescases output <b>Q</b> lines each consisting of a string  <b>\"YES\"</b>(without quotes) if the pokemon will dance otherwise <b>\"NO\"</b>(without quotes).</p>\n<h3>Constraints</h3>\n<p><b>1 \u2264 T \u2264 10<br> 1 \u2264 N,Q \u2264 10<sup>5</sup></b></p><h3>Subtasks</h3><br><b>Subtask #1: (20 points) <br><li>1 \u2264 ids of pokemons \u2264 10<sup>5</sup> </b></li><br><b>Subtask #2: (80 points) <br><li>1 \u2264 ids of pokemons \u2264 10<sup>12</sup> </b></p>\n<h3>Example </h3>\n<p><b>Input:</b><br>1<br>5 6<br>4 6 8 21 1<br>7 7 8 11 9 8</p>\n<p><b>Output:</b><br>NO<br>YES<br>YES<br>NO<br>NO<br>YES</p>\n<h3>Explanation</h3>\n<p>First visitor is the pokemon <b>id</b> <b>7</b> but since there is no <b>7</b> <b>id</b> pokemon in the centre it will not dance.<br>When the second <b>id</b> <b>7</b> pokemon visits it has its friend already present and it will dance.<br>\n<b>11</b> and <b>9</b> are not present initially in the centre so they will not dance.<br>\n<b>8</b> is present initially so it will dance.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-07-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Codejam",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1470832200,
+        "end_date": 1470853800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1470853800,
+        "submit_start_date": 1470832200,
+        "current": 1537434688
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>raghavk_16</span>",
+    "problem_name": "Dancing pokemons",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/raghavk_16'>raghavk_16</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "raghavk_16",
+    "contest_code": "CDJA2016",
+    "max_timelimit": "1",
+    "problem_code": "CJ01"
+}

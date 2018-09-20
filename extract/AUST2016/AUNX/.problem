@@ -1,0 +1,33 @@
+{
+    "problem_code": "AUNX",
+    "problem_author": "shakilaust",
+    "contest_name": "Intra AUST Programming Contest Fall 2015",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>shakilaust</span>",
+    "problem_name": "Guitar Fret Note",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "AUST2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ad-hoc'>ad-hoc</a>, <a class='problem-tag-small ' href='/tags/problems/aust2016'>aust2016</a>, <a class='problem-tag-small ' href='/tags/problems/shakilaust'>shakilaust</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Your friend Ayman has started a course for learning to play guitar. The instructor introduces him the basic functionality of guitar. The fret board is the element where guitar strings are placed on it. The fret board has been assigned some numbers for denoting each of the fret.  Number 1 to 12 has been assigned for numbering each of the fret. The picture will help you understand.  Besides, there are six strings which are denoted by E, B, G, D, A, E (from top to bottom) in standard tuning. Finding particular note for the particular fret position and string is very important. There are basically 12 important notes. The followings are the notes which maintain the ordering:</p>\n<p> <a href=\"http://tinypic.com?ref=qnw9vm\" target=\"_blank\"><img src=\"http://i64.tinypic.com/qnw9vm.jpg\" border=\"0\" alt=\"Image and video hosting by TinyPic\" /></a>\n</p>\n<p>The note continues circularly. That means after the B there will be C, C#, D . . . .  etc. For each fret of a particular string the notes follow the above ordering. For example, considering the E string (1st String), in the first fret it will have the note F, then for the second fret is F#, for the third is G and it maintains above pattern of the chart up-to fret 12.  </p>\n<p> <a href=\"http://tinypic.com?ref=mlr23s\" target=\"_blank\"><img src=\"http://i65.tinypic.com/mlr23s.jpg\" border=\"0\" alt=\"Image and video hosting by TinyPic\" /></a></p>\n<p>\u00a0Your friend, Ayman becomes confused finding out the note. Can you assist him to find out the particular fret note of a given string?</p>\n\n<h3>Input</h3>\n<p>First of all there will be T test cases.  For each of the test case, there will be two integer value <b> f (1&lt;=f&lt;=12) and s (1&lt;=s&lt;=6) </b>, were f denotes the position of the fret and s denotes the string number (here, the strings are numbered 1 to 6 from top to bottom)</p>\n<h3>Output</h3>\n<p>For each test case, print a line \u201cCase x: y\u201d where x is replaced by the test case number and y is replaced by the note of that particular fret for that particular guitar string.</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\t\n1\t1\n4\t2\n12\t3\n8\t4\n8\t6\n\n\n\n<b>Output:</b> \n\nCase 1: F\nCase 2: D#\nCase 3: G\nCase 4: A#\nCase 5: C\n\n\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "date_added": "15-01-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/AUNX",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1453467600,
+        "end_date": 1453482000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1453482000,
+        "submit_start_date": 1453467600,
+        "current": 1537435631
+    },
+    "user": {
+        "username": ""
+    }
+}

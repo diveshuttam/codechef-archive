@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Sherlock has fallen in love with Irene Addler(The Woman), now he wants to impress her. Irene wants to see how clever he actually is. She asks Moriarty to give her some problem. Moriarty designs the problems as follows:<br />\nGiven two number N and M as input find numbers such as:<br /><br />\n1. The number should contain all the digits from 0 to N-1<br /><br />\n2. The length of number can be atmost M i.e. it can have atmost M digits.<br /><br />\n3. The difference between each adjacent digits should be one.<br /><br />\ncalculate the number of all such numbers.<br /><br />\nSherlock had no idea to solve this problem help him and prove you are better than him!!<br /><br />\nFor e.g. <br /><br />\n1. if N=7 and M=8, you are supposed to use all the 0 to 6 digits and the length of the number can be atmost 8 digits. So, possible solutions are 6543210, 65432101, 56543210, 10123456. So, ans is 4.<br /><br />\nNote: The numbers starting with 0 will be treated as if 0 have been removed from starting, for the above solution 0123456 will be considered as 123456(the length is 6 not 7) only and as 0 is not appearing in the number, it is not a valid solution\n</p>\n<h3>Input</h3>\n<p>\nFirst line <b>T</b> : no. of test cases <br />\nFor each test case: <b> N M </b>(space separated)\n</p>\n<h3>Output</h3>\n<p>For each test case no. of such numbers that can be formed using all 0-(N-1) digits and which have atmost M digits in single line.<br /><br />\nOutput should be in Modulo 1000000007\n</p>\n<h3>Constraints</h3>\n<li><b>0 \u2264 t \u2264 100<b></b></b></li>\n<li><b>2 \u2264 N \u2264 10 </b></li>\n<li><b>0 \u2264 M \u2264 500 </b></li>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n2 4\n5 5\n3 6\n7 14\n\n<b>Output:</b>\n3\n1\n18\n1639\n</pre><h3>Explaination</h3>\n<p>Test case 1: <br /><br />\nN=2 means 0 and 1 both has to be used only and M = 4 means at most 4 times these digits can be used. So, possible solutions are 10,101,1010 (3) //01 is not such a number <br /><br />\nTest Case 2:<br /><br />\n N=5 (0-4), M=5 43210 is only possible solution by using all the digit.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-08-2013",
+    "is_direct_submittable": false,
+    "contest_name": "ByteCode 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1376807400,
+        "end_date": 1377671400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1377671400,
+        "submit_start_date": 1376807400,
+        "current": 1537438218
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>harshg0910</span>",
+    "problem_name": "Help Sherlock",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/harshg0910'>harshg0910</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "harshg0910",
+    "contest_code": "BTCD2013",
+    "max_timelimit": "0.12",
+    "problem_code": "MAXCOMB"
+}

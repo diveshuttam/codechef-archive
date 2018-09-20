@@ -1,0 +1,33 @@
+{
+    "problem_code": "ACM14KN1",
+    "problem_author": "admin",
+    "contest_name": "ACM-ICPC Asia-Kanpur Site First Round Online Contest 2014",
+    "todo": false,
+    "problem_author_html_handle": "admin",
+    "problem_name": "ICPC Pre-Prelims Practice Round",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ACMKAN14",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acmkan14'>acmkan14</a>, <a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>, <a class='problem-tag-small ' href='/tags/problems/cakewalk'>cakewalk</a>, <a class='problem-tag-small ' href='/tags/problems/programming'>programming</a>",
+    "body": "<p>\nLike all other teams, the LaZyProblemSetters (consisting of V, J and S) are also participating in ICPC with high hopes for qualifying for the world finals. They would like to go to the world finals to represent their country and bring back a medal. However, first they have to clear the prelims contest. For that, they have decided to have a practice round before the prelims. They are going to have the practice round from time <b>S</b> to <b>E</b>. However, the team members are not so sure whether they would be able to participate in the practice contest for the whole duration as they already have some previous reservations. To solve that, they have created a list of all the things everyone is supposed to do or reservations they have to fulfil.\n</p>\n<p>The list they prepared has a total of <b>N</b> tasks. They have also noted down the time in which each task needs to be done, i.e. the start time and the end time. During that time, at least one of the team members is busy doing that task and would be unavailable for the ICPC pre-prelims practice contest.\n</p>\n<p>\nYou are given the time slot LaZyProblemSetters have decided to practice together and the list of tasks with their start and end time that they prepared. Print whether they all would be able to practice together for the full duration of the contest. For this problem, you can assume that if V, J or S ends a task at time T1, he can give his undivided attention to the contest starting from T1 itself and if the contest ends at time T2, they can get back to their reserved tasks at T2 itself.\n</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b>, the number of test cases in a file.<br />\nThen <b>T</b> test cases follow each of which has the following structure:<br />\nThe first line of each test case contains two space separated integers <b>S</b> and <b>E</b>.<br />\nThe second line of each test case contains <b>N</b>. Then <b>N</b> lines follow each of which contains two space separated integers, <b>x<sub>i</sub></b> and <b>y<sub>i</sub></b>, the start and the end time of the i<sup>th</sup> task.</p>\n<h3>Output</h3>\n<p>For each test case, print \"YES\" (without quotes) if the team members can practice together for the full duration of the pre-prelims contest, print \"NO\" (without quotes) otherwise in a new line.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>3</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>S</b> &lt; <b>E </b> \u2264 <b> 10<sup>18</sup></b></li>\n<li><b>1</b> \u2264 <b>x<sub>i</sub></b> &lt; <b>y<sub>i</sub></b> \u2264 <b> 10<sup>18</sup></b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n10 20\n3\n1 10\n21 50\n30 33\n\n<b>Output:</b>\nYES\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "date_added": "17-09-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/ACM14KN1",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1414830600,
+        "end_date": 1414837800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1725832605,
+        "submit_start_date": 1414830600,
+        "current": 1537437277
+    },
+    "user": {
+        "username": ""
+    }
+}

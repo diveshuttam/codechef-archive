@@ -1,0 +1,33 @@
+{
+    "problem_code": "VIRAT20",
+    "problem_author": "daga_07",
+    "contest_name": "Algophobic Online Mirror",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>daga_07</span>",
+    "problem_name": "Virat and Astrologer",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ALPH2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/daga_07'>daga_07</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Ahead of World cup, Virat Kohli goes to a genius astrologer who gives him a tree with <b>N</b> nodes whose every node specifies the runs Virat scores in a match.<br />\nVirat wants to play as many matches in this world cup as possible. Any path from node <b>x<sub>1 </sub>to x<sub>P</sub></b> denotes his score in successive matches in world cup. Let the path be <b>x<sub>1</sub>,x<sub>2</sub>,x<sub>3</sub>,...,x<sub>P</sub></b>, so Virat wants to find the largest path such that the runs scored in the matches<b> x<sub>1</sub>,x<sub>(1+K)</sub>,x<sub>(1+2*K)</sub>... </b> are in non decreasing order.<br />\nHelp Virat in finding the maximum number of matches he can play.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line contain the value of <b>N</b> and <b>K</b>.<br /><br />\nThe next <b>N</b> lines contain the value for each node of the tree where i<sup>th</sup> line denotes the value for i<sup>th</sup> node.<br /><br />\nAfter that, the next <b>N-1</b> lines contain two numbers which specify the nodes between which an edge is present.\n</p>\n<h3>Output</h3>\n<p>Output the maximum number of matches Virat can play.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>2</b>&lt;=<b>N</b>&lt;=<b>50000</b></li>\n<li><b>1</b>&lt;=<b>K</b>&lt;=<b>10</b></li>\n<li><b>1</b>&lt;=<b>runs_scored_in_a_match</b>&lt;=<b>20</b> {Note that virat kohli is in very poor form :-( }</li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5 1\n12\n11\n18\n2\n20\n1 2\n1 3\n2 4\n3 5\n\n<b>Output:</b>\n5\n</pre>",
+    "category_name": "main",
+    "date_added": "10-03-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "5",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/VIRAT20",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1457627400,
+        "end_date": 1457640000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457640000,
+        "submit_start_date": 1457627400,
+        "current": 1537435195
+    },
+    "user": {
+        "username": ""
+    }
+}

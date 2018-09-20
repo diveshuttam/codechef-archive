@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Aviral, who recently started programming wrote the code below to add two positive integers a and b:\n</p>\n<p>\nint result = 0;<br />\nfor(int i = 0; i &lt; a; i++)\t      result++;  <br />\nfor(int i = 0; i &lt; b; i++)\t      result++;   \n</p>\n<p>\nDue to this,the computer felt misused and convinced all his fellow computers to declare a war against all the programmers. If programmers win then computers die and programmers become job-less. If computers win, then programmers die. Hence ,you as a programmer must make sure that this war ends in a tie.<br />\nA tie happens only when the number of computers taking part in the war is equal to the number of programmers taking part in the war.</p>\n<p>\nSuppose there are in total  P programmers, each represented by 'p' and in total C computers, each represented by 'c' . All these people/things are standing in a line before the war as they are quite sophisticated.\n</p>\n<p>\nThe place where they stand is made of n blocks.Each block can contain a programmer or a computer or is empty. In this n-blocked line(1-based indexed) you have to make exactly 2 cuts such that in the remaining portion,<br />\nno of programmers = no of computers.\n</p>\n<p>\nSuppose you make the first cut between between position i and i+1.Then all the people/computers from position 1 to position i both inclusive<br />\nwill fall of and wont participate in the war.If you make cut1 before position 1,then no one falls of because of this.</p>\n<p>Suppose you make the second cut between position j and j+1.Then all the people/computers from position j+1 to position n,both<br />\ninclusive, fall off and wont participate in the war.If you make cut2 after position n,then no one falls of because of this.<br />\nNote: Cut1 must be made before Cut2.\n</p>\n<p>\nAfter making the two optimal cuts,you have to report the MAXIMUM possible number of blocks in the remaining portion(portion which remains after both the cuts and it has equal number of programmers and computers). </p>\n<p> Note :<br />\nThe final remaining portion after cuts may not be unique,nor the 2 cuts to achieve it may be.But the maximum no of blocks in the<br />\nfinal remaning portion will be unique possibly 0.\u00a0</p>\n<h3>Input</h3>\n<p>\nFirst line will be T,no of test cases.<br />\nEach test case will be of two lines.<br />\nFirst line will be n,no of blocks.<br />\nSecond line will be a string of length n showing the image of the blocks before the war i.e. before the cuts.<br />\nEmpty blocks are shown by '.'\n</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>\nMaximum number of reamaining blocks for each test case in a single line.\n</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<p>\n1&lt;=T&lt;=100 <br />\n1&lt;=n&lt;=10^5<br />\nNote : Sum of n for all test cases &lt;= 10^6\n</p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>\n4\n4\npcpc\n3\npcp\n2\np.\n12\npc.cpc.cpc.c\n</b>\n\n<b>Output: (Comments only for explanation)</b>\n\n4 //First cut would be before block 1, and second cut would be after block 4  \n2 //First cut would be between block 1 and block 2 ,and second cut would be after block 3   \n1 //First cut would be between block 1 and block 2 ,and second cut would be after block 2  \n5 //First cut would be before block 1 ,and second cut would be between block 5 and block 6  \n\n\n<b> Explanation  </b>\nFor case 1, already no of p's = no of c's.Hence we want nobody to fall.\nSo we make cut1 before block 1 and cut2 after block 4.\nSo people participating in war are from block 1 to block 4 both inclusive and for that P=C=2.Hence, tie!<br /><br />\nFor case 2, we want one p to fall.\nSo we make cut1 between block 1 and block 2,so block 1 falls.\nWe dont want anyone more to fall.So we make cut2 after block 3.\nSo people participating in war are from block 2 to block 3,both inclusive. For those blocks, P=C=1.Hence,tie</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Code Mutants 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1424529000,
+        "end_date": 1424547000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1424547000,
+        "submit_start_date": 1424529000,
+        "current": 1537436758
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>dhaval242</span>",
+    "problem_name": "Programmers vs computers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dhaval242'>dhaval242</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dhaval242",
+    "contest_code": "CDMU2015",
+    "max_timelimit": "1",
+    "problem_code": "CDMU06"
+}

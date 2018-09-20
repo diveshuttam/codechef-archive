@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Chef is all ready to show his new dish at the restaurant but he is very scared if the people dislike it. He wants to show them his dish at a perfect time, so that all may like the dish.<br /><br />\nIf the time displayed as <b>HH:MM</b>, where <b>HH</b> is the hour and <b>MM</b> is the minute then, for the Chef's time to be lucky it should be of the format <b> XY:YX, XY:XY or XX:YY</b>, in which <b>X</b> and <b>Y</b> show occurrence of same number. Here <b>X</b> and <b>Y</b> can be same.<br /><br />\nAn assistant of Chef gives him a string of possible <b>perfect times</b> separated by space, you have to help Chef to determine what is the number of perfect times in the given string.\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line of input will consist of number of test cases <b>t</b>.<br /><br />\nThe subsequent <b>t</b> lines will consist of a string of <b>possible perfect times</b> in the format <b>HH:MM</b> where <b>HH</b> is hours and <b>MM</b> is minutes, separated by <b>a space</b></p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For every input, output will be a single line, containing the number of <b>Perfect Times</b> in the string</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>t</b> \u2264 <b>500</b></li>\n<li><b>00</b> \u2264 <b>HH</b> \u2264 <b>23</b></li>\n<li><b>00</b> \u2264 <b>MM</b> \u2264 <b>59</b></li>\n<li>There can be 1 to 50 (both inclusive)<b> possible perfect times</b> given in a string</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n12:21 11:10\n06:00\n\n<b>Output:</b>\n1\n0\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Pseudo Code",
+    "languages_supported": "C, CPP14, PYTH, PYTH 3.6, PYPY, PAS fpc, NODEJS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1428147000,
+        "end_date": 1428161400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1428161400,
+        "submit_start_date": 1428147000,
+        "current": 1537436428
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>codepatch</span>",
+    "problem_name": "Chef and New Dish",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/codepatch'>codepatch</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "codepatch",
+    "contest_code": "PSCD2015",
+    "max_timelimit": "1",
+    "problem_code": "PSUDO1"
+}

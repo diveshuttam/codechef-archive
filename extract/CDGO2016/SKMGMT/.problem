@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>The college of Chefland has offered <b>N</b> skilled courses online <b>C<sub>1</sub>, C<sub>2</sub>... C<sub>n</sub></b> for <b>M</b> students <b>S<sub>1</sub>, S<sub>2</sub>... S<sub>m</sub></b> who can master on different skills. It takes certain amount of time  <b>T<sub>i</sub></b> to master the skills, also the skills has some job value <b>J<sub>i</sub></b>  in the market. Since<strong> in this busy life it is difficult to take out time to learn each and every skills</strong>, so the students wants to learn the skills <strong>wisely</strong> such that their total job value is maximised in their limited time.</p>\n<p>Note : A student cannot do partial course, also only one course at a time, and a student can start any course at any time independently.\u00a0</p>\n\n\n<h3>Input</h3>\n<ul>\nFirst line of input contains <b>t</b> denoting number of test cases.For each testcase.\n<li>First line contains two space separated integer <b>N</b> and <b>M</b> denoting number of courses and number of students respectively.</li>\n<li>Next <b>N</b> line contains two space separated integer, <b>i<sup>th<sup></b> of which describing <b>C<sub>i</sub></b>, time to learn (<b>T<sub>i</sub></b>) and job value (<b>J<sub>i</sub></b>) of the course.</li>\n<li>Next line contains <b>M</b> space separated integer <b>i<sup>th<sup></b> of which denoting time that student <b>S<sub>i</sub></b> have.</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\nFor each test case, print <b>M</b> space separated integer <b>i<sup>th<sup></b> of which denoting  maximum total job value that student <b>S<sub>i</sub></b> can acquire.\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1 \u2264 t \u2264 10</b></li>\n<li><b>1 \u2264 N \u2264 10<sup>2</sup></b></li>\n<li><b>1 \u2264 M \u2264 10<sup>5</sup></b></li>\n<li><b>1 \u2264 T<sub>i</sub> \u2264 10</b></li>\n<li><b>1 \u2264 J<sub>i</sub> \u2264 10<sup>6</sup></b></li>\n<li><b>1 \u2264 Time of S<sub>i</sub> \u2264 10<sup>9</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n3 3\n2 4\n5 2\n3 3\n1 5 10\n\n<b>Output:</b>\n0 7 9\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>Above example has only one test case, and 3 courses and 3 student.<br>\nCourse 1 takes 2 unit time and has job value 4, similarly course 2 takes 5 unit time and has job value 2 and course 3 takes 3 unit time and has job value 3.<br>\nNow student 1 has 1 unit time since no course can be completed in that time hence it's total job value is 0. Student 2 has 5 units of time so he can take course 1 and 3 whose total job value is 7 or can take course 2 whose job value is 2, but 7 is greater than 2 hence 7 is ans. Student 3 has enough time to take all courses hence 9. <br>Therefore output is 0 7 9.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-07-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Codigo-2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1470238200,
+        "end_date": 1470252600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1470252600,
+        "submit_start_date": 1470238200,
+        "current": 1537434708
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>atulag</span>",
+    "problem_name": "Skill Managment",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/atulag'>atulag</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "atulag",
+    "contest_code": "CDGO2016",
+    "max_timelimit": "1",
+    "problem_code": "SKMGMT"
+}

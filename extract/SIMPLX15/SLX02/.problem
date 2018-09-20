@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>In the distant village of Codeganj, lived many coders and each spoke in some language. All lived in harmony until a new king was sworn-in. The king Bhartia suffered from a rare kind of Obsessive Compulsive Disorder. One day, his eyes fell on the peaceful village of Codeganj. He asked his minister to bring a report containing the number of coders who speak in each language. If the village does not have symmetry, that is, if any language has less or more speakers than the others, he would wipe them out completely. Symmetry exists if each language has equal number of speakers. The minister being a kind hearted person wants to manipulate the numbers in such a way that no life is lost. But he can choose only one language and <b>increment</b> or <b>decrement</b> its number of speakers by <b>1</b>. Help him know whether he can prevent loss of lives and the manner in which he can do so. Increment is preferred over decrement.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains a single integer <b>T</b>, denoting the total number of test cases. <b>T</b> lines follow.</li>\n<li>Each line contains a String S consisting of upper and lower case alphabets and the digits(0-9), each character representing the residents of the village and the language they speak.</li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>If it is not possible for the minister to save everyone, print <b>\"NOT POSSIBLE\"</b>(without quotes).</li>\n<li>If he can save everyone print <b>\"INCREMENT\"</b> or <b>\"DECREMENT\"</b> (without quotes) depending upon the manipulation required.</li>\n<li>If the population is already safe, print <b>\"SAFE\"</b>(without quotes).</li>\n</ul>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>50</b></li>\n<li><b>1</b> \u2264 <b>|S|</b> \u2264 <b>1000000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\na1bA1bA\naabbcc\naaaabb\n\n<b>Output:</b>\nINCREMENT\nSAFE\nNOT POSSIBLE\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b>Number of coders speaking language 'a' can be incremented to 2 so that each of the languages 'a','1','b','A' have the same<br />\nnumber of speakers.</p>\n<p><b>Example case 2.</b>No manipulation is required.</p>\n<p><b>Example case 3.</b>There is no possible way to bring symmetry by manipulating any of the languages by just 1.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-09-2015",
+    "is_direct_submittable": false,
+    "contest_name": "SIMPLEX",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1443801600,
+        "end_date": 1443810600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1443810600,
+        "submit_start_date": 1443801600,
+        "current": 1537435983
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>incognito_14</span>",
+    "problem_name": "CRUEL KING",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/incognito_14'>incognito_14</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "incognito_14",
+    "contest_code": "SIMPLX15",
+    "max_timelimit": "1",
+    "problem_code": "SLX02"
+}

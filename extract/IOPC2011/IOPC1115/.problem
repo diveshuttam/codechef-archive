@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>It is well known that rational numbers form a countable set. Hence the set of rational numbers in the open interval (0,1) also form a countable set.\n\n</p><p>Here we enumerate the rationals in (0,1) in the following fashion. First, every rational is expressed in the lowest terms : ie, as p/q where p and q are positive integers with no common factor other than one. Then we sort the fractions in the ascending order of p+q. In case of a tie, the smaller fraction comes first.\n\n</p><p>The first few terms in this enumeration are 1/2, 1/3, 1/4, 2/3, 1/5, 1/6, 2/5...\n\n</p><p>Given a natural number N, find the numerator and denominator of the Nth term in the enumeration.\n\n<h3>Input</h3>\n</p><p>The first line of the input contains T (\u22641000), the number of test cases. This is followed by T lines, each containing an integer N(\u226410<sup>11</sup>).\n\n<h3>Output</h3>\n</p><p>For each value of N, output separated by space the numerator and denominator (in lowest terms) of the Nth fraction in the enumeration\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n3\n6\n\n<b>Output:</b>\n1 4\n1 6\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "IIT Kanpur IOPC 2011",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1297492200,
+        "end_date": 1297578600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1297578600,
+        "submit_start_date": 1297492200,
+        "current": 1537439376
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>razimantv</span>",
+    "problem_name": "Enumeration of rationals",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/razimantv'>razimantv</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "razimantv",
+    "contest_code": "IOPC2011",
+    "max_timelimit": "0.373461",
+    "problem_code": "IOPC1115"
+}

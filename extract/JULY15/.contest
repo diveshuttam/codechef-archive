@@ -1,0 +1,284 @@
+{
+    "announcements": "<p><b>The July Challenge 2015 has ended!</b></p>\r\n<p><b>The editorials for the contest can be found <a href=\"http://discuss.codechef.com/tags/july15/\">here</a>.</b></p>\r\n<p><b>The problems have been moved to practice section.</b></p>\r\n<p><b>Solutions are public for all problems.</b></p>\r\n<p><b>Winners Blog Post will be updated soon.</b></p>\r\n<p><b>The ratings for the contest will be calculated soon.</b></p>\r\n<p><b>All the submissions to the challenge problem will be rejudged.</b></p>\r\n<p>\u00a0</p>\r\n<p><b>07/07/2015, 14:07 hrs IST: </b>Test data of MCHEF has been updated and all solutions are rejudged.</p>\r\n<p><b>07/07/2015, 00:57 hrs IST: </b>Time Limit of NTHCIR has been decreased to 1.5 secs. All the solutions are also put on rejudge.</p>\r\n<p><b>07/07/2015, 23:47 hrs IST: </b> Last problem SEAGM2 has been added into the contest.  We are really sorry for the delay.</p>\r\n<p><b>06/07/2015, 5:57 hrs IST: </b> Problem EASYEX has been added into the contest. Final problem will also be added today. We regret the delay.</p>\r\n<p><b>03/07/2015, 2:36 hrs IST: </b> Test data of challenge problem MAXDIFFW has been updated and all solutions have been rejudged.</p>\r\n<p><b>03/07/2015, 15:00 hrs IST: </b>Two problems are still being cooked in the kitchen. They will appear soon.</p>\r\n<p><b>03/07/2015, 15:00 hrs IST: </b>There has been a slight change in grading of challenge problem. Now, time and memory taken by your program will be shown for only 20% of the test cases. Though as usual, your program will be judged on all test cases and AC verdict will be given based on running all test cases.</p>",
+    "ip": "149.129.135.113",
+    "code": "JULY15",
+    "duration": "14400",
+    "name": "July Challenge 2015",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "MCHEF": [
+            {
+                "score": "33",
+                "count": "565"
+            },
+            {
+                "score": "67",
+                "count": "10"
+            },
+            {
+                "score": "100",
+                "count": "990"
+            }
+        ],
+        "SEAGM2": [
+            {
+                "score": "10",
+                "count": "214"
+            },
+            {
+                "score": "90",
+                "count": "2"
+            },
+            {
+                "score": "100",
+                "count": "284"
+            }
+        ],
+        "EASYEX": [
+            {
+                "score": "39",
+                "count": "70"
+            },
+            {
+                "score": "100",
+                "count": "25"
+            }
+        ],
+        "HAMILG": [
+            {
+                "score": "8",
+                "count": "17"
+            },
+            {
+                "score": "27",
+                "count": "10"
+            },
+            {
+                "score": "53",
+                "count": "12"
+            },
+            {
+                "score": "100",
+                "count": "17"
+            }
+        ],
+        "CHCUBE": [
+            {
+                "score": "25",
+                "count": "4"
+            },
+            {
+                "score": "100",
+                "count": "4450"
+            }
+        ],
+        "ADDMUL": [
+            {
+                "score": "5",
+                "count": "25"
+            },
+            {
+                "score": "10",
+                "count": "22"
+            },
+            {
+                "score": "30",
+                "count": "9"
+            },
+            {
+                "score": "70",
+                "count": "27"
+            },
+            {
+                "score": "100",
+                "count": "590"
+            }
+        ],
+        "EGBOBRD": [
+            {
+                "score": "15",
+                "count": "217"
+            },
+            {
+                "score": "25",
+                "count": "29"
+            },
+            {
+                "score": "40",
+                "count": "8"
+            },
+            {
+                "score": "60",
+                "count": "60"
+            },
+            {
+                "score": "75",
+                "count": "53"
+            },
+            {
+                "score": "85",
+                "count": "4"
+            },
+            {
+                "score": "100",
+                "count": "3233"
+            }
+        ],
+        "NTHCIR": [
+            {
+                "score": "25",
+                "count": "121"
+            },
+            {
+                "score": "75",
+                "count": "13"
+            },
+            {
+                "score": "100",
+                "count": "346"
+            }
+        ],
+        "LCKYST": [
+            {
+                "score": "8",
+                "count": "382"
+            },
+            {
+                "score": "30",
+                "count": "165"
+            },
+            {
+                "score": "100",
+                "count": "3265"
+            }
+        ]
+    },
+    "rules": "<div><b class=\"rules-heading\">CodeChef: A Platform for Aspiring Programmers</b></div> <div class=\"rules-body\"> <p>CodeChef was created as a platform to help programmers make it big in the world of algorithms, computer programming and programming contests. At CodeChef, we work hard to revive the geek in you by hosting a programming contest at the start of the month and another smaller programming challenge in the middle of the month.</p> </div> <p><br /><b class=\"rules-heading\">About CodeChef July Long Challenge:</b></p> <div class=\"rules-body\"> <p>CodeChef Long Challenge is a 10 day monthly coding contest where you can show off your computer programming skills. The significance being- it gives you enough time to think about a problem, try different ways of attacking the problem, read the concepts etc. If you're usually slow at solving problems and have ample time in hand, this is ideal for you. There would a tremendous amount of learning while competing. We also put in a lot of efforts in getting quality problems, which would in turn foster your learning while solving them.</p> </div> <p><br /><b class=\"rules-heading\">Contest Details:</b></p> <div class=\"rules-body\"> <ul class=\"\"> <li><b>Problem Setters: </b><span><b><b><b><a href=\"/users/antoniuk1\" target=\"_blank\">Vasia Antoniuk</a></b></b>, <a target=\"_blank\" href=\"/users/na2a\">Nazarbek Altybay</a>,\u00a0<b><a target=\"_blank\" href=\"/users/mugurelionut\">Mugurel Ionut Andreica</a></b>, <a target=\"_blank\" href=\"/users/sereja\">Sergey Nagin</a>,\u00a0<b><a target=\"_blank\" href=\"/users/ma5termind\">Sunny Aggarwal</a></b>, <a target=\"_blank\" href=\"/users/xellos0\">Jakub Safin</a>,\u00a0<b><a target=\"_blank\" href=\"/users/pavel1996\">Pavel Sheftelevich</a></b>, <a target=\"_blank\" href=\"/users/adurysk\">Surya Kiran</a>, <a target=\"_blank\" href=\"/users/devuy11\">Devendra Agarwal</a>, <a href=\"/users/egor_bobyk\" target=\"_blank\">Egor Bobyk</a></b></span></li> <li><b>Problem Tester: </b><span><b><a target=\"_blank\" href=\"/users/mugurelionut\">Mugurel Ionut Andreica</a></b></span></li> <li><b>Editorialist: </b><span><b><a target=\"_blank\" href=\"/users/darkshadows\">Lalit Kundu</a></b></span></li> <li><b>Russian Translator: </b><b><a href=\"/users/xcwgf666\" target=\"_blank\">Sergey Kulik</a></b></li> <li><b>Mandarin Translator: </b><span><b><a target=\"_blank\" href=\"/users/stzgd\">Gedi Zheng</a></b></span></li> <li><span><b>Contest Admin: <a target=\"_blank\" href=\"/users/dpraveen\">Praveen Dhinwa</a></b></span></li> <li><b>Venue:\u00a0<a target=\"_blank\" href=\"/JULY15\">http://www.codechef.com/JULY15</a></b></li> <li><b>Duration: </b>10 Days, From 3rd\u00a0July 15:00 hrs IST to 13<sup>th</sup> July 15:00 hrs IST.\u00a0Check your timezone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+July+Challenge+2015&amp;iso=20150703T15&amp;p1=44\" target=\"_blank\">here</a><span>.</span></li> </ul> </div> <p><b class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</b></p> <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to CodeChef Code Of Conduct.</p> </div> <p><br /><b class=\"rules-heading\">What is it for you?</b></p> <div class=\"rules-body\"> <p>The idea behind these programming contests is that we want you to learn while competing. Also we believe that it is alright to refer to tutorials, books and other materials, learn a concept and then apply the same to solve a problem during a contest. But it is\u00a0<b>not alright to copy other people's solutions or seek other people's help to solve a problem without understanding it.</b> The dividing line may seem to be thin but it can be captured by the spirit of learning. If whatever you are doing is making you learn while you do so, we tend to believe that it is alright.</p> <br /> <p>Not just that, as a token of motivation we also give away cash prizes and goodies to the winners of the contest. However, our sole intention lies in making our users learn new concepts while competing.</p> </div> <p><br /><b class=\"rules-heading\">What's new in CodeChef?</b></p> <div class=\"rules-body\"> <p>We've recently launched our IDE and you may now Code, Compile and Run on our online ide. Play more in discuss with groups &amp; LaTex.</p> </div> <p><br /><b class=\"rules-heading\">Rules and Regulations:</b></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a target=\"_blank\" href=\"mailto:feedback@codechef.com\">feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.. Contest problems will become visible on Friday, 3rd July 2015 at 15:00 hours IST. Check your timezone\u00a0<a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+July+Challenge+2015&amp;iso=20150703T15&amp;p1=44\">here</a><span>.</span></li> <li><b>All the problems will be partially graded and you will get score for passing certain test data (except tie-breaker problem). You will receive hundred (100) point for solving a problem (passing all test cases).</b></li> <li><b>The details of the failed test cases will also be visible on your solution page (except challenge problem)</b></li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</li> <li>You shall not possess more than one account on CodeChef. If you have, then do let us know, so that we can deactivate the insignificant one. If you do not report it and we come to know about it, we may deactivate both the accounts permanently.</li> <li>The score that you will see during the contest (for tie-breaker problem), will only be partial (obtained on 20% of the test data). The submissions will be re-judged at the end of the contest to get full score (obtained on the whole test data).</li> <li>The number of submissions that one can make during the contest on the problem will be limited to 500.</li> <div class=\"rules-body\">However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/JULY15/1435834653.png",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "MCHEF": {
+            "allow_submission": false,
+            "name": "MasterChef",
+            "category_name": "main",
+            "accuracy": 5.19,
+            "successful_submissions": "990",
+            "code": "MCHEF",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "SEAGM2": {
+            "allow_submission": false,
+            "name": "Sereja and Game 2",
+            "category_name": "main",
+            "accuracy": 5.23,
+            "successful_submissions": "284",
+            "code": "SEAGM2",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "EGBOBRD": {
+            "allow_submission": false,
+            "name": "Bread",
+            "category_name": "main",
+            "accuracy": 19.49,
+            "successful_submissions": "3233",
+            "code": "EGBOBRD",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "EASYEX": {
+            "allow_submission": false,
+            "name": "Easy exam",
+            "category_name": "main",
+            "accuracy": 4.26,
+            "successful_submissions": "25",
+            "code": "EASYEX",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "MAXDIFFW": {
+            "allow_submission": false,
+            "name": "Maximum Difference Walk",
+            "category_name": "main",
+            "accuracy": 43.43,
+            "successful_submissions": "138",
+            "code": "MAXDIFFW",
+            "type": "2",
+            "is_direct_submittable": false
+        },
+        "HAMILG": {
+            "allow_submission": false,
+            "name": "A game on a graph",
+            "category_name": "main",
+            "accuracy": 2.13,
+            "successful_submissions": "17",
+            "code": "HAMILG",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "ADDMUL": {
+            "allow_submission": false,
+            "name": "Addition and Multiplication",
+            "category_name": "main",
+            "accuracy": 4.36,
+            "successful_submissions": "590",
+            "code": "ADDMUL",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "LCKYST": {
+            "allow_submission": false,
+            "name": "Na2a and lucky stone",
+            "category_name": "main",
+            "accuracy": 20.46,
+            "successful_submissions": "3265",
+            "code": "LCKYST",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "NTHCIR": {
+            "allow_submission": false,
+            "name": "Rohith and Circles",
+            "category_name": "main",
+            "accuracy": 4.44,
+            "successful_submissions": "346",
+            "code": "NTHCIR",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHCUBE": {
+            "allow_submission": false,
+            "name": "Chef and Cube",
+            "category_name": "main",
+            "accuracy": 32.6,
+            "successful_submissions": "4450",
+            "code": "CHCUBE",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1436779800,
+        "current": 1537436184,
+        "freezing": 0,
+        "start": 1435915800
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A monkey wants to climb a tree, but the problem is that he is not good climber. After climbing <b>N</b> distance, he slips by <b>M</b> distance. So he didn't know how many exact step he needs to climb the tree. Help him to find number of steps required to climb whole tree.</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>Each test cases of single line contains <b>H</b>, <b>N</b>, <b>M</b> denoting height of a tree, climb distance of a jump, slip distance respectively.</li>\n</ul>\n<p>\u00c2 </p>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing number of steps required to climb whole tree.</li>\n</ul>\n<p>\u00c2 </p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>500</b></li>\n<li><b>1</b> \u2264 <b>H</b> \u2264 <b>10<sup>3</sup></b></li>\n<li><b>1</b> \u2264 <b>M</b> &lt; <b>N</b> \u2264 <b>10</b></li>\n<li>Monkey can grab top tightly so at top monkey won't slide.</li>\n<li>All answer must be up to 2 decimal place.</li>\n</ul>\n<p>\u00c2 </p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n10 3 2\n15 5 2\n\n<b>Output:</b>\n8.00\n4.60\n\n</pre><p>\u00c2 </p>\n<h3>Explanation</h3>\n<p><b>Example case 1:</b> Monkey will jump three distance and slides two distance, so at one jump he can cover up to 1 distance, continuing in same way up to step 7 location of monkey is at 7, so in next monkey will jump 3 distance and reaches the top making it 8th step.</p>\n<p><b>Example case 2:</b> Here up to step 4 monkey's location is at 12. In next jump monkey will reach at 17, but we need to reach up to 15 so we will consider only 3 distance of jump so it is 3/5 of normal jump making this step 0.60 and final answer is 4.60.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-09-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Ignited Coders",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1442728357,
+        "end_date": 1442737800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1442737800,
+        "submit_start_date": 1442728357,
+        "current": 1537436030
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>pratik2512</span>",
+    "problem_name": "The Climbing Monkey",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pratik2512'>pratik2512</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pratik2512",
+    "contest_code": "IGCD2015",
+    "max_timelimit": "1",
+    "problem_code": "IGCDMNKY"
+}

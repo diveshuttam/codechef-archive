@@ -1,0 +1,127 @@
+{
+    "announcements": "1.Contest rankings can be seen <a href=\"http://www.codechef.com/rankings/KDAT2013/\">here</a><br>\r\n2.Two problems are still being cooked and will be served by upload tomorrow at 12:00 PM IST.  <br>\r\n3.Problem number 8th(DECRYPT) and 9th(RECNAME) have been added to the contest.Happy Coding.<br>\r\nLike Us at!<br>\r\n<a href=\"http://www.facebook.com/CSIJaypee\">CSI JUET</a><br>\r\n<a href=\"http://www.facebook.com/CodeChefJUET\">CodeChef JUET Chapter</a><br>\r\n\r\n4. Participants(especially form Jaypee University)  are requested to enter your details<a href=\"https://docs.google.com/forms/d/1s0iwKygf_g4uohPzNFYQ47xAJhyEjcffYM4jgQwB4CM/viewform\"> here</a> so that we can consider you for prizes.",
+    "ip": "149.129.135.113",
+    "code": "KDAT2013",
+    "duration": "1440",
+    "name": "Kodeathon 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p>\u00a0</p> <p><b>Rules and Regulations:</b></p> <p>1. Contest problems will become visible on April 13th, 2013 at 20:00 PM (IST) and end at April 14th, 2013 at 20:00 PM (IST)</p> <p>2. The contest is for individuals. No teams are allowed.</p> <p>3. Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok.</p> <p>4. All languages supported on CodeChef are allowed.</p> <p>5. Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided. All white space characters in the output will be ignored.</p> <p>6. Please contact <a target=\"_blank\" href=\"mailto:gauravjasraj@gmail.com\">gauravjasraj@gmail.com</a> for any queries during the contest.</p> <p>7. Check your timezone <a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+KodeAthon&amp;iso=20130413T20&amp;p1=1616&amp;ah=23&amp;am=55\">here</a>.</p> <p>\u00a0</p> <p><b>Other Rules:</b></p> <p>1. It is an 24 hour online event based on ACM-ICPC format.</p> <p>2. You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</p> <p>3. Participants are ranked according to the most problems solved. Ties will be broken by the total time for each participant in ascending order of time.</p> <p>4. The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</p> <p>5. Solutions have to give the correct output for all the test data for a given problem to be deemed correct. There is no partial credit.</p> <p>6. Solutions can be submitted in any order.</p> <p>7. Each problem will have a certain specified input and output format. This format has to be adhered to, else the submission will not be accepted.</p> <p>8.Any user found to be indulging in any form of malpractice will be immediately disqualified.</p> <p>9.The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</p> <p>10.The event does not require the participants to be present in JUET for participation. And hence, no registration fee is required.</p> <p>\u00a0</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/KDAT2013/1424957758.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "RECNAME": {
+            "allow_submission": false,
+            "name": "Chain of Words",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "RECNAME",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DECRYPT": {
+            "allow_submission": false,
+            "name": "Cyberland vs Byteland",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "DECRYPT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DISTQUER": {
+            "allow_submission": false,
+            "name": "Space Adventure",
+            "category_name": "main",
+            "accuracy": 37.14,
+            "successful_submissions": "13",
+            "code": "DISTQUER",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLUSTER": {
+            "allow_submission": false,
+            "name": "Recipe Cluster",
+            "category_name": "main",
+            "accuracy": 30.53,
+            "successful_submissions": "37",
+            "code": "CLUSTER",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHEFREST": {
+            "allow_submission": false,
+            "name": "A New Restaurant",
+            "category_name": "main",
+            "accuracy": 7.29,
+            "successful_submissions": "7",
+            "code": "CHEFREST",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DEVILNUM": {
+            "allow_submission": false,
+            "name": "The Devil Number",
+            "category_name": "main",
+            "accuracy": 32.37,
+            "successful_submissions": "122",
+            "code": "DEVILNUM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "WGHTLIF": {
+            "allow_submission": false,
+            "name": "Weightlifting Management",
+            "category_name": "main",
+            "accuracy": 22.69,
+            "successful_submissions": "52",
+            "code": "WGHTLIF",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DISHANAM": {
+            "allow_submission": false,
+            "name": "Dishes Anomaly",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "DISHANAM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHEFSTR": {
+            "allow_submission": false,
+            "name": "Chef and strings",
+            "category_name": "main",
+            "accuracy": 4.08,
+            "successful_submissions": "2",
+            "code": "CHEFSTR",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1365949800,
+        "current": 1537438354,
+        "freezing": 0,
+        "start": 1365863400
+    },
+    "user": {
+        "username": ""
+    }
+}

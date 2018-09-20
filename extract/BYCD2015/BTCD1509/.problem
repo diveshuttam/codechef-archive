@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<h3>Problem description:</h3>\n<p>Allie is an astronaut. When she was going to space she took a game with her, so that she can play around with it whenever free. The game consists of a convex circuit and a ball. The ball can move in 2 different ways.\n</p>\n<p>\n1)<b>Move along the circuit.</b><br /><br />\n2)<b>Move straight down under gravity.</b><br /><br /><br />\nGiven the circuit design on the coordinate system and the direction of the gravity, Allie is interested in finding the minimum distance the ball will take to reach from one vertex to another.<br />\n(Note: The given coordinates may be a float value, but the vertices will lie in integer coordinates when viewed along the line of the gravity. Angle of rotation is in degrees)\n </p>\n<h3>Input:</h3>\n<p>Input description</p>\n<ul>\n<li>The first line of the input contains two integers <b>N</b> and <b>Angle</b> denoting the number of vertex of the polygon and the angle of the gravity.  Next <b>N</b> lines contain two space-separated integers each \u2014 the coordinates of the polygon vertexes. The vertexes are listed in the counter-clockwise order. </li>\n<li> The last line contains two space-separated integers <b> S</b> and <b>T</b>  \u2014 the start and the end vertexes of the sought shortest way.\n</li></ul>\n\n<h3>Output:</h3>\n<p>Output description.</p>\n<ul>\n<li>In the output print a single real number \u2014 the length of the shortest way from vertex s to vertex t. Round off the answer to 6 decimal places.</li>\n</ul>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^5</b></li>\n<li><b>0</b> \u2264 <b>| Co-ordination of circuit vertex's |</b> \u2264 <b>10^4</b></li>\n<li><b>1</b> \u2264 <b>S, T</b> \u2264 <b>N</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n4 0\n0 0\n1 0\n1 1\n0 1\n1 4\n\n<b>Output:</b>\n1.000000\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ByteCode 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1425049200,
+        "end_date": 1425067200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1425067200,
+        "submit_start_date": 1425049200,
+        "current": 1537436718
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>ginnipkj</span>",
+    "problem_name": "Allie In Space",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ginnipkj'>ginnipkj</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ginnipkj",
+    "contest_code": "BYCD2015",
+    "max_timelimit": "1",
+    "problem_code": "BTCD1509"
+}

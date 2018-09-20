@@ -1,0 +1,103 @@
+{
+    "teamsCount": "769",
+    "announcements": "<p><b>05/03/2015, 1215 hrs IST: please fill the google doc in contest page</b></p>\r\n\r\n<p><b>05/03/2015, 1136 hrs IST: please dont make any submissions for the problem acucrypt </b></p>\r\n\r\n<p><b>04/03/2015, 1430 hrs IST: The contest has been restarted once again. The organizing team from\u00a0Vasavi College of Engineering are sorry for the inconvenience. </b></p>\r\n<p>03/03/2015, 1800 hrs IST: There are some issues with the test cases. The contest will be paused for some time in between and resumed after fixing those issues. The organizers are sorry for the inconvenience.</p>\r\n<p>03/03/2015, 1600 hrs IST: There was an issue with the configuration of the test cases in all the problems. It has been fixed and all the solutions have been rejudged.</p>",
+    "ip": "149.129.135.113",
+    "code": "ACMN2015",
+    "duration": "1765",
+    "name": "OPC ACUMEN 2015",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div><b>Registration: </b> <ul> <div><b></b> <b>This is a team contest, so a seperate registration is needed for the team to participate. </b></div> <li><b>To be eligible for prizes, you need to register <a target=\"_blank\" href=\"https://docs.google.com/forms/d/1XbjkqRAxX9EJSgDbCOh4F9_n0TyBBjKWafxV8YB7GSc/viewform?c=0&amp;w=1\">here</a>.</b></li> <li>Login with your normal CodeChef user ID</li> <li>Click on the <a href=\"/teams/register/ACMN2015\" target=\"_blank\"><b>Team Registration Link</b></a> to register your team for the contest.</li> <li>Click logout in the top right corner and login using the Team Name and password you registered with.</li> <li>You can get more information about team contests <a href=\"/wiki/team-ACMN2015\" target=\"_blank\">here.</a></li> </ul> </div> <div><b>Rules and Regulations:</b> <div> <ul> <li>Contest problems will become visible on 1st March, 2015 at 2000 HRS (IST) and end at on 05th March, 2015 at 2000 HRS (IST). Check your timezome <a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+OPC+ACUMEN+2015&amp;iso=20150301T20&amp;p1=44\">here</a>.</li> <li> This is a TEAM CONTEST. A team can consist of atmost 3 members. One person can\u2019t be part of more than one team.</li> <li> A team may send their solutions in all programming languages. Although different problems can be solved in different languages by the same team.</li> <li>If you do not have a CodeChef ID create one <a target=\"_blank\" href=\"http://codechef.com/user/register\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. </li> <li> Almost all languages supported on CodeChef are allowed. </li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided. </li> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a></li> <li>Please contact\u00a0<span><a target=\"_blank\" href=\"mailto:saimadanmohanreddy@gmail.com\">saimadanmohanreddy@gmail.com</a></span> for any queries during the contest. </li> </ul> </div> <div><b>Judging criteria : </b> <ul> <li>All the problems have same points alloted to them. </li> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time. </li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained. </li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified. </li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved. </li> </ul> <b>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched IDE <a href=\"/ide\">here</a>.<br /> </b></div> <b> </b></div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/sites/default/files/uploads/landing_page_banners/banner-compete.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "ACUPARA": {
+            "allow_submission": false,
+            "name": "Decode the messages",
+            "category_name": "main",
+            "accuracy": 4.69,
+            "successful_submissions": "5",
+            "code": "ACUPARA",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ACUSET": {
+            "allow_submission": false,
+            "name": "Sets Test",
+            "category_name": "main",
+            "accuracy": 54.43,
+            "successful_submissions": "114",
+            "code": "ACUSET",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ACULIST": {
+            "allow_submission": false,
+            "name": "List Game",
+            "category_name": "main",
+            "accuracy": 46.72,
+            "successful_submissions": "125",
+            "code": "ACULIST",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ACUGRAM": {
+            "allow_submission": false,
+            "name": "Sort the minions",
+            "category_name": "main",
+            "accuracy": 63.84,
+            "successful_submissions": "265",
+            "code": "ACUGRAM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ACUPALIN": {
+            "allow_submission": false,
+            "name": "Play with Strings",
+            "category_name": "main",
+            "accuracy": 29.58,
+            "successful_submissions": "145",
+            "code": "ACUPALIN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ACUGRAY": {
+            "allow_submission": false,
+            "name": "Gray Code",
+            "category_name": "main",
+            "accuracy": 67.7,
+            "successful_submissions": "431",
+            "code": "ACUGRAY",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537436649,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Sonic's friend AKS has to come to visit Rourkela for INNOVISION, 2K17. It's been a long time since they have met, so Sonic decides to go to the station to pick him. The route from Sonic's college to the station can be considered as a (N X 1) grid where Sonic is at position (0, 0) and AKS is at position (N, 1). Sonic can go to adjacent co - ordinates in all possible directions except south - east and north - west. He decides not to visit any co - ordinate twice as he considers it as a waste of time and energy and he cannot move outside the grid. Now, Sonic wonders in how many possible ways he can reach to his friend AKS at position (N, 1). Please help him calculate the answer.</p>\n\n<h3>Input</h3>\n<ul>\n<li>First line contains T denoting the number of test cases.</li>\n<li>T lines follow each containing a single integer 'N' denoting the position of AKS.</li>\n</ul>\n\n<h3>Output</h3>\n<ul>\n<li>For each test case output in a new line the number of possible ways modulo (10 ^ 9 + 7).</li>\n</ul>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>1000</b></li>\n<li><b>0</b> \u2264 <b>N</b> \u2264 <b>10 ^ 9</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n0\n1\n2\n4\n\n<b>Output:</b>\n1\n3\n9\n105\n</pre>\n\n<h3>Explanation</h3>\n<pre>\nIn test case 2: The number of paths are numbered below:\nThe ways are:\n(0, 0) -> (0, 1) -> (1, 1)\n(0, 0) -> (1, 0) -> (1, 1)\n(0, 0) -> (1, 1)\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "9-11-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Codex",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1510414200,
+        "end_date": 1510507800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1510507800,
+        "submit_start_date": 1510414200,
+        "current": 1537433357
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>sunnyaks_1997</span>",
+    "problem_name": "Sonic And Paths",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sunnyaks_1997'>sunnyaks_1997</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sunnyaks_1997",
+    "contest_code": "COD2017",
+    "max_timelimit": "1",
+    "problem_code": "NITR10"
+}

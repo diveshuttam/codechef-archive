@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Two words rhyme if their last 3 letters are a match. Given N words, print the test case number (of the format Case : num) followed by the rhyming words in separate line adjacent to each other.<br />\nThe output can be in anyorder.\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line contains the number of test case T<br />\nThe next line contains the number of words N<br />\nNext N words follow . They\u2019ll contain only alphabets from \u2018a\u2019-\u2018z\u2019.\n</p>\n<h3>Output</h3>\n<p>Print case number (for each test case) of the format Case : num followed by the words that rhyme in a new line.</p>\n<h3>Constraints</h3>\n<p>1 &lt;= T &lt;= 5<br />\n1 &lt;= N &lt;= 1000<br />\n3 &lt;= length of each word &lt;= 1000\n</p>\n<h3>Example</h3>\n<pre><b>Input:\n3\n3\nnope qwerty hope\n5 \nbrain drain request grain nest\n4\nthese words dont rhyme\n\n</b>\n\n\n<b>Output:\nCase : 1\nhope nope\nqwerty\nCase : 2\nbrain drain grain\nnest request\nCase : 3\nthese\ndont\nwords\nrhyme\n\n\n</b>\n\n</pre><h3>Explanation</h3>\n<p>Case : 2<br />\nbrain drain grain<br />\nnest request<br />\nCase : 3<br />\nthese<br />\ndont<br />\nwords<br />\nrhyme</p>\n<p>Explanation for case 1: since hope and nope rhyme (suffix \u201cope\u201d matches), we print them in the same line and qwerty In a new line.<br />\nNote that<br />\nqwerty<br />\nnope hope<br />\nis also correct (the output can be in any order )</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Code-Wars#ver2.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1453548600,
+        "end_date": 1453559400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1453559400,
+        "submit_start_date": 1453548600,
+        "current": 1537435610
+    },
+    "problem_author_html_handle": "yarlagaddap",
+    "problem_name": "Rhyme",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/yarlagaddap'>yarlagaddap</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "yarlagaddap",
+    "contest_code": "COWA2016",
+    "max_timelimit": "1",
+    "problem_code": "CWAM1502"
+}

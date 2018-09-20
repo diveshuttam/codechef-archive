@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>KMS</b> loves <b>Isha</b> a lot but Isha is still not sure about KMS . Therefore , KMS decides to take <b>Isha</b> on a trip on cruise to impress her. Isha is unfortunately kidnapped by pirates . Pirates will leave Isha only if KMS is able to solve the problem given by pirates.<br><br>\n\nPirates have written down the numbers in a line and is asking KMS to tell the <b>median</b> from some starting position to another. KMS needs your help in answering her queries so that he can retrieve isha from pirates.<br><br> \n\n<b>Note: </b> The median of a sequence of numbers is the middle element of that sequence when the sequence is sorted. For even number of elements in the sequence, the first of the middle two elements is called the median.\n\n<br>\n\n<b>Input </b> \n<br>\n\nThe first line of the input contains <b>N</b>, the number of integers pirates gave KMS to solve. Next <b>N</b> lines contains one integer each, one of the numbers of the number given to KMS.<br>\nNext line contains an integer <b>Q</b>, the number of queries asked by pirates. Next <b>Q</b> lines contain a pair of space separated integers (i, j), implying that KMS has to find the median of numbers in the sequence from ith position to the jth position (both included, 1-based indexing, i \u2264 j). \n<br><br>\n<b>Output :</b>\n<b>Q</b> lines, each containing the median for that particular query. \n<br><br>\n<b>Constraints<br>\n1 \u2264 <b>N</b> \u2264 1000<br>\n1 \u2264 <b>Q</b> \u2264 N<sup>2</sup> </b><br>\n<h3>Sample Input</h3>\n<p>5<br>\n1<br>\n2<br>\n3<br>\n4<br>\n5<br>\n10<br>\n1 1<br>\n1 2<br>\n1 3<br>\n1 4<br>\n1 5<br>\n2 2<br>\n2 4<br>\n3 3<br>\n4 4<br>\n5 5</p><br>\n<h3>Sample Output</h3><br>\n1<br>\n1<br>\n2<br>\n2<br>\n3<br>\n2<br>\n3<br>\n3<br>\n4<br>\n5<br><br>\nEach of the numbers in the sequence given by pirates to KMS will be positive and fit into an integer.\n<br><br>\n<b>Note:</b> Large Input/Output. Be careful with certain languages.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-08-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Codejam",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1470832200,
+        "end_date": 1470853800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1470853800,
+        "submit_start_date": 1470832200,
+        "current": 1537434693
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>raghavk_16</span>",
+    "problem_name": "The romantic couple",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/raghavk_16'>raghavk_16</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "raghavk_16",
+    "contest_code": "CDJA2016",
+    "max_timelimit": "1",
+    "problem_code": "RC01"
+}

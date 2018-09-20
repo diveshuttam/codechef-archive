@@ -1,0 +1,33 @@
+{
+    "problem_code": "LCPMAX",
+    "problem_author": "kostya_by",
+    "contest_name": "April Cook-Off 2016",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>kostya_by</span>",
+    "problem_name": "LCP Maximization",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>pavel1996</span>",
+    "contest_code": "COOK69",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cook69'>cook69</a>, <a class='problem-tag-small ' href='/tags/problems/kostya_by'>kostya_by</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Read problems statements in <a href=\"/download/translated/COOK69/mandarin/LCPMAX.pdf\" target=\"_blank\">Mandarin Chinese</a>, <a href=\"/download/translated/COOK69/russian/LCPMAX.pdf\" target=\"_blank\">Russian</a> and <a href=\"/download/translated/COOK69/vietnamese/LCPMAX.pdf\" target=\"_blank\">Vietnamese</a> as well.</h3>\r\n<p>You are given two strings <b>S</b> and <b>T</b> each consisting of <b>n</b> characters. Each character in both the strings is one of the first ten Latin lowercase alphabet letters (<i>'a'-'j'</i>). The characters are numbered <b>1</b> through <b>n</b> in both strings. Let's denote <b>S[l..r]</b> as a substring of <b>S</b> which begins at the <b>l</b>'th character of <b>S</b> and ends at the <b>r</b>'th character of <b>S</b>.</p>\r\n<p><i>Longest common prefix</i> (LCP) of two strings is the longest prefix of the first string which is also a prefix of the second.</p>\r\n<p>You are asked to process <b>q</b> queries of the following kind:</p>\r\n<p>You are given two integers <b>x</b> and <b>y</b> (<b>1 \u2264 x, y \u2264 n</b>). Your task is to find the length of the LCP of <b>S[x..n]</b> and <b>T[y..n]</b>. You are allowed to apply some permutation to all of the distinct letters of <b>S</b> before finding the LCP. More formally, you should make a bijection from letters <i>'a'-'j'</i> to the same set of letters, replace each letter of <b>S</b> with the corresponding value in the bijection and then find the LCP. You should pick the bijection so that the LCP is as large as possible. If there are several possible bijections, you should pick the one with the least possible letter assigned to <i>'a'</i>, then (if still ambiguous) to <i>'b'</i> and so on.</p>\r\n<p>Please note that the changes in <b>S</b> doesn't propagate over queries, i.e. all the string transformations are only within a single query and should be rolled back before processing the next one.</p>\r\n<h3>Input</h3>\r\n<p>The first line of the input contains one integer <b>T</b> denoting the number of test cases.</p>\r\n<p>The first line of the test case description contains two integers <b>n</b> and <b>q</b>. The next two lines contain two string <b>S</b> and <b>T</b> respectively. Each of the next <b>q</b> lines contains two integers <b>x</b> and <b>y</b> denoting a query to process.</p>\r\n<h3>Output</h3>\r\n<p>For each of the queries, output the length of the LCP together with the optimal bijection in the format \"<b>{the letter assigned to 'a'}{the letter assigned to 'b'}...{the letter assigned to 'j'}</b>\".</p>\r\n<h3>Constraints</h3>\r\n<ul>\r\n<li><b>1 \u2264 T \u2264 5</b></li>\r\n<li><b>1 \u2264 n \u2264 125000</b></li>\r\n<li><b>1 \u2264 q \u2264 50000</b></li>\r\n</ul>\r\n<h3>Example</h3>\r\n<pre><b>Input:</b>\r\n1\r\n5 3\r\nababa\r\nbabaa\r\n1 1\r\n1 3\r\n5 4\r\n\r\n<b>Output:</b>\r\n4 bacdefghij\r\n2 bacdefghij\r\n1 abcdefghij\r\n</pre>",
+    "category_name": "main",
+    "date_added": "26-03-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "6",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/LCPMAX",
+    "problem_tester": "pavel1996",
+    "time": {
+        "view_start_date": 1460908800,
+        "end_date": 1460917800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1460917800,
+        "submit_start_date": 1460908800,
+        "current": 1537434955
+    },
+    "user": {
+        "username": ""
+    }
+}

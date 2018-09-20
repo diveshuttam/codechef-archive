@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>The panopticon is a circular prison structure in which a prison guard is centered in the middle of the panopticon and the prison cells are located along the circumference of the prison (it can be thought of as dividing the circumference into equal-sized arcs, where each arc represents a prison cell). This set-up has one issue: the prison guard has a limited field of vision, and hence, at a given point in time, he can only view a limited number of cells (which are consecutive). \n\nThe prison guard wants you to solve the following problem: given $n$ (the number of cells in the panopticon), $k$ (the number of consecutive cells that he can view at any given time), $x$ (the number of prisoners currently present in the panopticon), and the cells in which the prisoners are located (The cells are numbered from 0 to $n$-1, and note that in specific, cell 0 will be adjacent to cell 1 and cell $n$-1), if the guard randomly views $k$ consecutive cells, what is the expected number of prisoners he will be able to surveil? Note that more than one prisoner can be in a given cell (even if other cells are empty) due to \u201cspecial requests\u201d.\n\n###Input:\n\n- The first line contains $n$, the number of cells in the panopticon.\n- The second line contains $k$, the number of cells the guard can view at any given time.\n- The third line contains $x$, the number of prisoners currently present in the panopticon.\n- $x$ lines follow: The ith line contains a single integer $a_i$ denoting that the ith prisoner is placed in cell $a_i$.\n\n###Output:\n\n- It can be proved that the expected number of prisoner can be represented in the form $P/Q$, where $P, Q$ are coprime integers. In a single line, print $(PQ^{-1})$ mod $10^9+7$, where $Q^{-1}$ denotes the modular multiplicative inverse of Q (modulo $10^9+7$).\n\n###Constraints\n- $1 \\leq n \\leq 10^9+10$\n- $1 \\leq k < n$\n- $1 \\leq x \\leq 10^6+10$\n- $0 \\leq a_i < n$ \n\n###Sample Input:\n\t5\n\t4\n\t1\n\t1\n\n###Sample Output:\n\t600000005\n\t\n###EXPLANATION:\nThere are 5 possible sets of consecutive cells that the guard can view. In 4 of them, 1 prisoner will be visible, while he won\u2019t be able to view any prisoner in one of them. Hence, $P/Q=\u2158$ and ($PQ^{-1}$) mod $10^9$+7 = 600000005.\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "comp.exe",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1523460600,
+        "end_date": 1523467800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1523467800,
+        "submit_start_date": 1523460600,
+        "current": 1537432639
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>teja349</span>",
+    "problem_name": "I Can See You",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/teja349'>teja349</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "teja349",
+    "contest_code": "COME2018",
+    "max_timelimit": "1",
+    "problem_code": "CEXE07"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Mr. Hitler is in the Revolutionary war. He is the only hope to save the country from enemies as they have a new biological weapon which is so deadly that when it hits a particular area, it also wipes out the areas adjacent to it.Although if the weapon hits the water bodies, then it wont have any effect.<br><br>\n\nGiven an <strong>NxM </strong>map which has NxM cells. Each cell may represent an area or a water body.<br>\nThe weapon cannot penetrate a water body or the edges of the map.\n<br><br>\nYou will be given a initial state of the country represented by an <strong>N x M </strong>grid consists of 0 or 1 representing water body and area respectively. Also there will be <strong>Q</strong> attacks of the biological weapon. After each query, you are to tell the number of areas still intact.<strong>Once an area is hit, the effect is directed to all the areas until it is stopped by a water body</strong><br><br>\n<strong>Input:</strong>\n<br><br>\nFirst line of input contains 3 space separated integers <strong>N,M,Q </strong>where<strong> N x M </strong>is the size of the country.<strong> Q</strong> is the number of attacks.<br><br>\n<strong>N</strong> lines follow each with <strong>M </strong>values of either 0 or 1, denoting whether that particular coordinate is a <strong>area(1)</strong> or <strong>water body(0)</strong>. <br><br>\n<strong>Q</strong> lines follow. Each line has a coordinate X,Y where the next attack takes place.<br><br>\n\n<strong>Output:</strong><br><br>\n\nFor each <strong>Q</strong>, output the number of areas still existing on a single line.<br><br>\n\n<strong>Note</strong>:<br>\n\nTwo areas are said to be adjacent if they share an edge.\nEnemy can shoot the weapon at any place on the country within its domain any number of times.<br><br>\nOnce an area is destroyed, it will continue to remain destroyed over all the forthcoming queries.<br><br>\nLarge IO. Prefer scanf/printf(in C/C++).\n<br><br>\n<strong>Constraints:</strong>\n<br><br>\n1 \u2264 N,M \u2264 103<br>\n1 \u2264 X \u2264 N<br>\n1 \u2264 Y \u2264 M<br>\n1 \u2264 Q \u2264 106<br>\n\n<strong>Sample Input:</strong> <br><br>\n3 3 3<br>\n0 0 0<br>\n1 0 1<br>\n0 1 1<br>\n1 2<br>\n2 2<br>\n3 3<br>\n<br>\n<strong>Sample Output:</strong> <br><br>\n4<br>\n4<br>\n1<br>\n<br>\n<strong>Explanation</strong><br><br>\nQuery 1: (1,2) No area is hit. Intact areas=4 (initial)<br>\nQuery 2: (2,2) No area is hit. Still intact=4<br>\nQuery 3: (3,3) is hit and it also spreads to (2,3) and (3,2) also. Thus only 1 area is left (1,2).<br><br>\n\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Codeathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1473521400,
+        "end_date": 1473528600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1473528600,
+        "submit_start_date": 1473521400,
+        "current": 1537434632
+    },
+    "problem_author_html_handle": "kushagrawal071",
+    "problem_name": "The Revolutionary War",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kushagrawal071'>kushagrawal071</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kushagrawal071",
+    "contest_code": "CDTN2016",
+    "max_timelimit": "1",
+    "problem_code": "CDTN03"
+}

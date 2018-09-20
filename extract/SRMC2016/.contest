@@ -1,0 +1,77 @@
+{
+    "announcements": "BRCKTSRM : problem update 2 :\r\n\r\noriginal constraints are:\r\n\r\n1 \u2264 T \u2264 10\r\n1 \u2264 length of S \u2264 60",
+    "ip": "149.129.135.113",
+    "code": "SRMC2016",
+    "duration": "1440",
+    "name": "SRM Codejam [Qualifiers]",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": " <p><strong class=\"rules-heading\">About the Contest:</strong></p> <div class=\"rules-body\"> <ul class=\"\"> <li><strong>Organiser: </strong> This Qualifier round for the '<a href=\"https://www.facebook.com/srm.codejam\" target=\"_self\">SRM Codejam</a>'&nbsp;hosted as a part of CYBONITO 2k16 , a techno-cultural fest of SRM University, NCR Campus. Being a qualifier round&nbsp;it includes easy , intermediate and classical problems only.</li> <li><strong>Prizes: </strong>Cash prizes &nbsp;+ goodies from codechef for the winners .</li> <li><strong>Registrations for prizes: </strong>Registration in <a title=\"CYBONITO\" href=\"http://www.cybonito.com\" target=\"_blank\">CYBONITO</a> is mandatory.Registeration for onsite round: <a href=\"https://goo.gl/8d49LG\" target=\"_blank\">https://goo.gl/8d49LG</a></li> </ul> <ul class=\"\"> <li><strong>Note</strong>: Prizes will be given to the overall final winner of both the rounds (online + onsite).</li> </ul> </div> <p><strong class=\"rules-heading\">Contest Details:</strong></p> <div class=\"rules-body\"> <ul class=\"\"> <li><strong>Duration: </strong>24 hours</li> <li><strong>Start time: </strong>26th March 2016, 1300 hrs IST</li> <li><strong>End time: </strong>27th March 2016, 1300 hrs IST<br />You may check your timezone&nbsp;<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+SRMC2016&amp;iso=20160326T13&amp;p1=44\" target=\"_blank\">here</a>.<br /><br /></li> </ul> </div> <p><strong class=\"rules-heading\">Registration:</strong></p> <div class=\"rules-body\"> <p>You just need to have a CodeChef username to participate for this online round and no seperate registration is required but registeration in CYBONITO is mandatory to be eligible for prizes and to take part in the final onsite round . If you do not have a CodeChef ID create one <a href=\"../user/register\" target=\"_blank\"> here</a>.</p> </div> <p><strong class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</strong></p> <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct.</a></p> </div> <p><br /> <strong class=\"rules-heading\">Rules and Regulations:</strong></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li> <li>Please contact <a href=\"mailto:shamantyagi@gmail.com\" target=\"_blank\">shamantyagi@gmail.com</a> for any queries during the contest.</li> </ul> <p><strong class=\"rules-heading\">Judging Criteria:</strong></p> <ul class=\"\"> <li><strong>All the problems have same points allotted to them.</strong></li> <li><strong>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</strong></li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error). There is no time consumed for a problem that is not solved.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> </ul> <div class=\"\"><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"../ide\" target=\"_blank\">Online IDE</a>.</strong><br />However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div> ",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/SRMC2016/1458331993.jpeg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "DRCTNSRM": {
+            "allow_submission": false,
+            "name": "Help Sumit",
+            "category_name": "main",
+            "accuracy": 71.72,
+            "successful_submissions": "275",
+            "code": "DRCTNSRM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "INTROSRM": {
+            "allow_submission": false,
+            "name": "Introductory Problem",
+            "category_name": "main",
+            "accuracy": 54.3,
+            "successful_submissions": "419",
+            "code": "INTROSRM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MULTISRM": {
+            "allow_submission": false,
+            "name": "Simple Multiplication",
+            "category_name": "main",
+            "accuracy": 40.25,
+            "successful_submissions": "269",
+            "code": "MULTISRM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BRCKTSRM": {
+            "allow_submission": false,
+            "name": "Vipul - The Bracket Checker",
+            "category_name": "main",
+            "accuracy": 33.98,
+            "successful_submissions": "335",
+            "code": "BRCKTSRM",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1459063800,
+        "current": 1537435028,
+        "freezing": 0,
+        "start": 1458977400
+    },
+    "user": {
+        "username": ""
+    }
+}

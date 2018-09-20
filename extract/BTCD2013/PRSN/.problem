@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>At Area-51, USA, there is an advanced biological laboratory with compartments (numbered 1 to M) forming a straight line segment. There are genetically modified monkeys present in the lab, which can communicate with each other as humans do. Compartments number i and i+1 are adjacent, and monkeys in adjacent compartments are called \"neighbours.\" A wall with a window separates adjacent compartments, and neighbours can communicate through that window.<br />\n<br /><br />\nAll monkeys live in peace until a monkey is released. When that happens, the released monkey's neighbours find out, and each communicates this to his other neighbour in their own language. That monkey passes it on to his other neighbour, and so on until they reach a monkey with no other neighbour (because he is in cell 1, or in cell M, or the other adjacent cell is empty). A monkey who discovers that another monkey has been released will angrily break everything in his cell, unless he is bribed with a banana. So, after releasing a monkey in cell A, all monkeys housed on either side of cell A - until cell 1, cell M or an empty cell - need to be bribed.<br />\n<br /><br />\nAssume that each compartment is initially occupied by exactly one monkey, and that only one monkey can be released per day. Given the list of Z monkeys to be released in Z days, find the minimum total number of bananas needed as bribes if the monkeys may be released in any order.<br />\n<br /><br />\nNote that each bribe only has an effect for one day. If a monkey who was bribed yesterday finds out about another released monkey today, then he needs to be bribed again.\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of input gives the number of cases, N. N test cases follow. Each case consists of 2 lines. The first line is as:<br /><br />\nM Z<br /><br />\nwhere M is the number of compartments and Z is the number of monkeys to be released.<br />\nThis will be followed by a line with Z distinct cell numbers (of the monkeys to be released), sorted in ascending order and space separated.\n</p>\n<h3>Output</h3>\n<p>For each test case, output a line with the minimum number of bananas needed as bribes.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>10000</b></li>\n<li><b>1</b> \u2264 <b>Z</b> \u2264 <b>100</b></li>\n<li><b>Z</b> \u2264 <b>M</b> </li>\n<li><b>Each cell number is between 1 and M, inclusive.</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n8 1\n3\n20 3\n3 6 14\n<b>Output:</b>\n7\n35\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-08-2013",
+    "is_direct_submittable": false,
+    "contest_name": "ByteCode 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1376807400,
+        "end_date": 1377671400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1377671400,
+        "submit_start_date": 1376807400,
+        "current": 1537438221
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>harshg0910</span>",
+    "problem_name": "Monkeys",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/harshg0910'>harshg0910</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "harshg0910",
+    "contest_code": "BTCD2013",
+    "max_timelimit": "0.204615",
+    "problem_code": "PRSN"
+}

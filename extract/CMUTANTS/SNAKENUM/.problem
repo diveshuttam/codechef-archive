@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> Sanky is a school kid and is very fond of numbers. His teacher gave his class a home work, asking each of them to invent a new series of numbers, with a large collection of numbers in them. His friend Evan has already invented one, which starts from 0 and picks every alternate number : {0, 2, 4 ,...} and he named them 'Evan' numbers :). Sanky is not happy because he couldn't invent that first and thinks picking every alternate number starting from 1 : {1, 3, 5, ... } would not be very odd ;). <br />\n\n\n<table border=\"0\">\n\n<tr>\n\n<td>\n<p align=\"justify\">After refreshing at home, he comes up with a new series of numbers in which the digits alternate between increasing and decreasing when compared with the digit before it, in a zig-zag fashion. To make it clear, if the number is abcde, either a &lt; b &gt; c &lt; d &gt; e or a &gt; b &lt; c &gt; d &lt; e. He cleverly named them 'Snaky Numbers' :). Eg: 8, 90, 243516 and 31524 are Snaky while 44, 123 and 4235 are not. He is now wondering if his Snaky series is large enough. Particularly, he wants to know how many 'Snaky Numbers' are there of length <i>at most</i> <b>N</b>. Count only non-negative integers, without leading zeros.</p>\n</td>\n\n<td>\n<p><img border=\"0\" src=\"http://farm5.static.flickr.com/4076/5434599401_63cd906d64_m.jpg\" /></p>\n</td>\n\n</tr>\n\n</table>\n\n<br />\nThe answer may get very big and not fit in Sanky's book, so please just tell him the ( answer modulo <b>M</b> )\n\n\n<h3>Input</h3>\n</p><p>First line contains T [ number of test cases, around 60 ].\n\nEach of the next T lines contains two integers N M [ 1 &lt;= N &lt;= 500,000 &amp; 2 &lt;= M &lt;= 500,000 ]\n\n<h3>Output</h3>\n</p><p>For each test case, output  ( Number of Snaky numbers of length at most N ) % M, in a separate line\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n1 101\n2 107\n3 1001\n\n<b>Output:</b>\n10\n91\n616\n</pre>\n<br />\n<i>* There are multiple test sets, and the judge shows the <b>sum</b> of the time taken over all test sets of your submission, if Accepted.</i></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Code Mutants - DA - IICT",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298561400,
+        "end_date": 1298579400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298579400,
+        "submit_start_date": 1298561400,
+        "current": 1537439329
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rosyish</span>",
+    "problem_name": "Snaky Numbers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rosyish'>rosyish</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rosyish",
+    "contest_code": "CMUTANTS",
+    "max_timelimit": "0.121951",
+    "problem_code": "SNAKENUM"
+}

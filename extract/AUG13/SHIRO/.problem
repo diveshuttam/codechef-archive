@@ -1,0 +1,33 @@
+{
+    "problem_code": "SHIRO",
+    "problem_author": "vamsi_kavala",
+    "contest_name": "August Challenge 2013",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>vamsi_kavala</span>",
+    "problem_name": "Save The Princess",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>white_king</span>",
+    "contest_code": "AUG13",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aug13'>aug13</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/simple-math'>simple-math</a>, <a class='problem-tag-small ' href='/tags/problems/vamsi_kavala'>vamsi_kavala</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Shiro is leading an army to save the princess of his kingdom \"Abra\". The princess has been made a prisoner by the neighboring kingdom \"Kadabra\". Kadabra is a magical land and is full of challenges. Shiro's army has to pass <b>N</b> levels before they can get to the princess. After each level, the army gets a few flags to carry along. The flags can either all be of kindom Abra OR all of kingdom Kadabra. The magic of Kadabra forces Shiro's army to carry the flags irrespective of which kingdom they belong to. The princess doesn't know Shiro or anyone from his army. She will not escape with them unless she can trust them. She will trust them only if the number of Abra's flags they are carrying is atleast as much as the number of Kadabra's flags.</p>\n<p>The army gets <b>a<sub>i</sub></b> flags at the end of the i<sup>th</sup> level. Probability that flags received at the end of the i<sup>th</sup> level will be Abra's flags is <b>p<sub>i</sub></b>. Your task is to tell Shiro what is the probability that the princess will trust him once they reach her.</p>\n<h3>Input:</h3>\n<p>First line of input contains a single integer <b>T</b>, the number of test cases.<br/><br />\nEach test starts with a single line having an integer, <b>N</b>, the number of levels in Kadabra.<br/><br />\nNext line contains contains <b>N</b> integers with the i<sup>th</sup> integer being <b>a<sub>i</sub></b> as described above.<br/><br />\nNext line contains contains <b>N</b> integers with the i<sup>th</sup> integer being <b>p<sub>i</sub></b> as described above. Note that the probabilities given will be in percents.<br/></br/></br/></br/></br/></p>\n<h3>Output:</h3>\n<p>For each test case, output a line containing the required probability. The answer will be accepted if the relative error is not more than 10<sup>-6</sup>.<br/></br/></p>\n<h3>Constraints:</h3>\n<pre>\n1 \u2264 <b>T</b> \u2264 100\n1 \u2264 <b>N</b> \u2264 100\n1 \u2264 <b>a<sub>i</sub></b> \u2264 100\n0 \u2264 <b>p<sub>i</sub></b> \u2264 100\n\n</pre><h3>Example:</h3>\n<p><b>Input:</b></p>\n<pre>\n2\n5\n1 2 3 4 4\n0 100 100 0 50\n2\n5 5\n50 60\n\n</pre><p><b>Output:</b></p>\n<pre>\n0.5000000\n0.8000000\n\n\n</pre><p>\n<b>Update:</b></p>\n<p>Difference in answer upto 1e-6 will be ignored.</p>\n",
+    "category_name": "main",
+    "date_added": "27-03-2013",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/SHIRO",
+    "problem_tester": "white_king",
+    "time": {
+        "view_start_date": 1375435800,
+        "end_date": 1376299800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1376299800,
+        "submit_start_date": 1375435800,
+        "current": 1537438247
+    },
+    "user": {
+        "username": ""
+    }
+}

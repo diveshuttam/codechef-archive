@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>\nSherlock: \"Why are you doing this?\"<br /></p>\n<p>Moriarty: \"I like to watch you dance.\"<br /><br /></p>\n<p>Sherlock is now facing the biggest challenge of his life. Having placed bombs in various important checkpoints in London, Moriarty is planning to have more than his share of fun.</p>\n<p>Sherlock has deduced that the checkpoints form a network with the property that it is possible to reach any checkpoint from any other checkpoint, using a unique path. Moriarty has assigned an initial value to every checkpoint. Furthermore, he can choose any pair of checkpoints <b>(A,B)</b>, and add a constant <b>C</b> to the value of every checkpoint on the path from <b>A</b> to <b>B</b> (both inclusive). This addition is done modulo 10. At any point of time, Moriarty can ask Sherlock to answer how many checkpoints on the path between a given pair of checkpoints (both inclusive), have a prime number value. Even a minor error in Sherlock\u2019s answers, will lead to the bombs being triggered. Realizing the intensity and magnitude of the task, Sherlock decides to outsmart Moriarty by writing a computer program.</p>\n<p>It is your job to help Sherlock protect London from destruction.\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains the number of checkpoints in the network: N</li>\n<li>The second line contains <b>N</b> space separated integers Vi denoting the initial value of every checkpoint</li>\n<li>The next <b>N-1</b> lines contain space-separated integers <b>u v</b>, to signify an edge between checkpoints <b>u and v</b></li>\n<li>The next line contains the number of operations: <b>Q</b></li>\n<li>The next <b>Q</b> lines each contain one of two types of operations given below:</li>\n<ol>\n<li><b>0 A B</b> \u2013 This denotes a query operation to return the count of prime values on checkpoints in the unique path from checkpoint <b>A</b> to checkpoint<br />\n<b>B</b> (both inclusive).</li>\n<li><b>1 A B C</b> \u2013 This denotes an update operation of adding <b>C</b> to the value on each of the vertices on the unique path from checkpoint <b>A</b> to checkpoint <b>B</b> (both inclusive). This addition is performed modulo 10.</li>\n</ol>\n</ul>\n\n<h3>Output</h3>\n<ul>\n<li>For each query of the form <b>0 A B</b>, print on a separate line, the total number of primes on vertices in the unique path from <b>A to B</b> (both inclusive).</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>2</b> \u2264 <b>N</b> \u2264 <b>100000</b></li>\n<li><b>0</b> \u2264 <b>V[i]</b> \u2264 <b>9</b></li>\n<li><b>1</b> \u2264 <b>u,v</b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>A,B</b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>C</b> \u2264 <b>10000</b></li>\n<li><b>A</b> is not equal to <b>B</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<p>\n10\n1 0 0 9 1 7 2 3 3 7 \n3 7\n1 8\n10 5\n8 4\n5 1\n9 7\n6 7\n2 7\n7 4\n5\n0 1 10\n0 2 4\n0 4 10\n1 5 3 3714\n0 1 8\n\n</p>\n\n<b>Output:</b>\n<p>\n1\n1\n2\n2\n\n</p>\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "31-01-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Divide By Zero 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1391270400,
+        "end_date": 1391279400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1391279400,
+        "submit_start_date": 1391270400,
+        "current": 1537437874
+    },
+    "problem_author_html_handle": "iiti_adm",
+    "problem_name": "Sherlock and the Great Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/iiti_adm'>iiti_adm</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "iiti_adm",
+    "contest_code": "DBYZ2014",
+    "max_timelimit": "3",
+    "problem_code": "IITI17"
+}

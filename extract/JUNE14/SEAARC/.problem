@@ -1,0 +1,33 @@
+{
+    "problem_code": "SEAARC",
+    "problem_author": "sereja",
+    "contest_name": "June Challenge 2014",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>sereja</span>",
+    "problem_name": "Sereja and Arcs",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>shiplu</span>",
+    "contest_code": "JUNE14",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/combinatorics'>combinatorics</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>, <a class='problem-tag-small ' href='/tags/problems/june14'>june14</a>, <a class='problem-tag-small ' href='/tags/problems/sereja'>sereja</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Read problems statements in <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/JUNE14/mandarin/SEAARC1.pdf\">Mandarin Chinese </a> and <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/JUNE14/russian/SEAARC1.pdf\">Russian</a>.</h3>\n<p>Sereja have <b>N</b> points, with coordinates <b>(1, 0), (2, 0), ..., (N, 0)</b>. Every point has a color, point with coordinate <b>(i, 0)</b> has color <b>A[i]</b>.</p>\n<p>Sereja have painted arcs between every pair of points with same color. Formally Sereja painted arc between points <b>(i, 0)</b> and <b>(j, 0)</b> if <b>A[i] = A[j]</b> and <b>i != j</b>, such arc has color <b>A[i]</b>. All the arcs are painted such way that they will reside along the positive quadrant.</p>\n<p>Now Sereja wants to know how many pairs of arc with different color intersect?</p>\n<h3>Input</h3>\n<p>\u00a0First line contain integer <b>N</b>. Next line contain integers <b>A[1], A[2], ..., A[N]</b>.</p>\n<h3>Output</h3>\n<p>\u00a0In single line output answer modulo <b>1000000007 (10^9 + 7)</b>.\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>A[i]</b> \u2264 <b>100000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n1 2 1 2\n\n<b>Output:</b>\n1\n</pre>",
+    "category_name": "main",
+    "date_added": "19-03-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "5",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/SEAARC",
+    "problem_tester": "shiplu",
+    "time": {
+        "view_start_date": 1402047000,
+        "end_date": 1402911000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1402911000,
+        "submit_start_date": 1402047000,
+        "current": 1537437533
+    },
+    "user": {
+        "username": ""
+    }
+}

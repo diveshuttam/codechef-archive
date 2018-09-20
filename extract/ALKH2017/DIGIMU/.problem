@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p><b>Charles</b>, <b>Laura</b> and <b>Logan</b> have been staying in a hotel in Oklahoma City. <b>The Reavers</b> catched up with them, but Charles suffers a seizure and telepathically freezes everyone in the hotel</p>\n<p> Logan must inject Charles with a suppressant. However, to counter this freezing effect, he must find the <b>DIGIT IMMUNE</b> numbers as soon as possible. </p>\n<p> A <b>Digit-Immune number</b> is a number which is <b>not divisible by any of its digits</b>. For example: 23,27,37 etc.</p>\n<p>Now, there also exists an additional condition to these type of numbers.</p>\n<p>A digit-immune number will be called <b>an odd-digit-immune number</b> if it <b>contains only odd digits</b>.</p>\n<p> He has to tackle certain queries.</p>\n<p> In a single query, Logan is given two integers <b>A</b> and <b>B</b>. He has to find <b>K<sup>th</sup></b> odd digit-immune number between <b>A</b> and <b>B (both inclusive).</b> </p>\n<p>If there are <b>less than K odd digit-immune numbers between A and B</b>, print <b>\"-1\"</b>(without quotes).</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>First line contains an integer <b>Q</b> denoting the number of queries.</p>\n<p>Each of the next <b>Q</b> lines contains three integers <b>A, B and K</b> respectively. </p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>For each of the <b>Q</b> queries, print the required answer in new line.</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 <b>Q</b> \u2264 <b>50</b></li>\n<li>1 \u2264 <b>A</b> \u2264 <b>B</b>  \u2264 10<sup>18</sup></li>\n<li>1 \u2264 <b>K</b> \u2264 10<sup>18</sup></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<p><b>Input:</b></p>\n<p>1</p>\n<p>10 100 4</p>\n\n<p><b>Output:</b></p>\n<p>59</p>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>Odd-digit-immune numbers in given range are {37,53,57,59,....}.\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-03-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Alkhwarizm 2017 (Rated)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1490369400,
+        "end_date": 1490387400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1490387400,
+        "submit_start_date": 1490369400,
+        "current": 1537433979
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>shivamg_isc</span>",
+    "problem_name": "Logan and DIGIT IMMUNE numbers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shivamg_isc'>shivamg_isc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shivamg_isc",
+    "contest_code": "ALKH2017",
+    "max_timelimit": "5",
+    "problem_code": "DIGIMU"
+}

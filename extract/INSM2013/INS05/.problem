@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Fancyland is a land of peace. N People living there are peaceful and there housing colony are in a sequential manner. People of Fancyland have some K amount power.<br />\nBut with changing time most powerful person Anurag and second most powerful Jayesh became selfish.<br />\nNow they both want to kill each other. .</p>\n<p>\nSeeing this the king of Fancyland Ankit immediately ordered to shift their houses as far as possible. Since Anurag has more power, he prefers to be on the right side of the colony.\n</p>\n<p>\nBoth Jayesh and Anurag have the talent to convince people and change their mind to join them and form a group to have a war.<br />\nBoth the groups under all circumstances have equal number of members in their group with their respective powers. Since Both Anurag and Jayesh wants to be as close as possible so that they can fight hence they one by one exchange their houses with people whom they have convinced. Note that they can convince only their neighbours.<br />\nBoth Jayesh and Anurag arrange their group members in such a manner that the person possesing highest power in the group lives adjacent to them and then second highest<br />\nmember next and so on and then they start convincing other new neighbour.</p>\n<p>\nSeeing their convincing talent King decided to form a peace making commitee which has more or equal number of members than the members in conflicting groups(excluding Anurag and Jayesh),<br />\nso that no war occurs.</p>\n<p>Peace making commitee also comprises of citizens from the very same Fancyland. King Ankit gives them special techniques to prevent war,<br />\nthus commitee members give away their personal powers and now their power K is 0.\n</p>\n<h3>Input</h3>\n<p>First input is number of test cases T.<br /><br />\n In every test case first line contains number of people living in Fancyland.<br /><br />\n Next line contains N space seperated integers which denotes the power K of the person living their.</p>\n<h3>Output</h3>\n<p>Output the array showing the situation where all conditions are met and if one more person is convinced by the groups war will occur..</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>20</b></li>\n<li><b>3</b> \u2264 <b>N</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>k</b> \u2264 <b>100000</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n10\n1 2 3 4 5 6 7 8 9 10\n5\n78 35 66 12 88\n\n<b>Output:</b>\n1 2 9 0 0 0 0 10 8 7\n35 78 0 88 12\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-09-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Insomnia 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1379694600,
+        "end_date": 1379716200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1379716200,
+        "submit_start_date": 1379694600,
+        "current": 1537438185
+    },
+    "problem_author_html_handle": "insomnia_adm",
+    "problem_name": "War Zone",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/insomnia_adm'>insomnia_adm</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "insomnia_adm",
+    "contest_code": "INSM2013",
+    "max_timelimit": "0.126582",
+    "problem_code": "INS05"
+}

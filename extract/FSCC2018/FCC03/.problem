@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Oliver loves playing games. He wants to play a game with his friend, Flash, using an array, \n<b>A</b>, of <b>N</b> distinct integers. The rules are as follows:\n<ul>\n<li>Flash always plays first and the two players move in alternating turns.</li>\n<li>In a single move, a player chooses the maximum element currently present in the array and removes it as well as all the other elements to its right. For example, if <b>A = [2, 3, 5, 4, 1]</b>, then it becomes <b>A = [2, 3]</b> after the first move because we remove the maximum element (i.e., <b>5</b>) and all elements to its right (i.e., <b>4</b> and <b>1</b>).</li>\n<li>The modifications made to the array during each turn are permanent, so the next player continues the game with the remaining array. The first player who is unable to make a move loses the game.</li>\n</ul>\nOliver and Flash play games. Given the initial array for each game, can you find and print the name of the winner on a new line? If Oliver wins, print <b>OLIVER</b>; if Flash wins, print <b>FLASH</b>.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>The first line contains a single integer <b>T</b> denoting the number of games. The <b>2.T</b> subsequent lines describe each game array over two lines:</p>\n<ul>\n<li>The first line contains a single integer, <b>N</b>, denoting the number of elements in <b>A</b>.</li>\n<li>The second line contains <b>N</b> distinct space-separated integers describing the respective values of  <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b> for array <b>A</b>. </li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>For each game, print the name of the winner on a new line (i.e., either FLASH or OLIVER).</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li>Array <b>A</b> contains <b>N</b> distinct integers.</li>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>A<sub>i</sub></b> \u2264 <b>10<sup>9</sup></b></li>\n<li>The sum of <b>N</b> over all games does not exceed <b>10<sup>5</sup></b>.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n5\n5 2 6 3 4\n2\n3 1\n\n<b>Output:</b>\nOLIVER\nFLASH\n\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>Oliver and Flash play the following two games:<br>\n1. Initially, the array looks like this:      [5, 2, 6, 3, 4].\n    In the first move, Flash removes 6 and all the elements to its right, resulting in:    A = [5, 2]. \n    In the second move, Oliver removes 5 and all the elements to its right, resulting in:    A = []. \n    At this point, the array is empty and Flash cannot make any more moves. This means Oliver wins, so we print OlLIVER on a new line.<br>\n2. In the first move, Flash removes 3 and all the elements to its right, resulting in A = []. As there are no elements left in the array for Oliver to make a move, Flash wins and we print \nFLASH on a new line.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-02-2018",
+    "is_direct_submittable": false,
+    "contest_name": "FreeStyle coding contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1519277400,
+        "end_date": 1519281000,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1519281000,
+        "submit_start_date": 1519277400,
+        "current": 1537432950
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>araj5ak</span>",
+    "problem_name": "GAME OF ARRAY",
+    "source_sizelimit": "1000000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/araj5ak'>araj5ak</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "araj5ak",
+    "contest_code": "FSCC2018",
+    "max_timelimit": "10",
+    "problem_code": "FCC03"
+}

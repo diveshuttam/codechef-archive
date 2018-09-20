@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p><h3>Problem description.</h3>\n</p>\n<p>For taking down Superman, Batman has devised a new plan. But for this plan to work, he needs someone's help, a very specific person. And that person is Harley Quinn. He goes to Arkham Asylum to meet her. As we all know, she is a teeny tiny bit crazy. She wants Batman to play a little game, she likes to call it \"The Great Swap Game\" (She's intelligent, remember?). This is how the game works.<br />\nThey both get an array A of N numbers. They also get Q queries.<br />\nEach query comprises of a set of disjoint sub-arrays and a number K[i] related to each subarray. In each query, the game is played. The player can select a subarray make at most K[i] and at least 1 swap in that subarray on two adjjacent elements A[i] and A[i+1] such that A[i]>A[i+1] in his/her move. You can assume that both Batman and Harley Quinn play optimally. The game ends when a player cannot make a move and then, he/she loses. Given this data, you need to tell who will win given that Batman plays first (He's Batman, right?).\n</p>\n<h3>Input</h3>\n<p>The first line of test file contains the number of test cases T for that file.\n</p>\n<ul>\n<li>The second line contains two integer N and Q,size of the given array A and number of queries.\n</li>\n<li>The third line contains N space seperated integer, elements of array A.\n</li>\n<li>Then Q queries follow.\n</li>\n<li>First line of each query contains the number of sub-arrays S for that query.\n</li>\n<li>Then follows S lines containing 3 integers per line L[i], R[i] and K[i], left index of that sub-array, right index of that sub-array and K[i] as explained in the problem statement.\n</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Output Q lines where each line will be \"BATMAN\", if Batman wins for that query or \"HARLEY\" if he loses.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li>Sum of N over all test cases &lt;= 100000\n</li>\n<li>Sum of no of subarrays over all queries and test cases &lt;= 10000\n</li>\n<li>A[i]&lt;=100000\n</li>\n<li>K[i]&lt;=100000\n</li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n5 1\n5 4 3 2 1\n3\n1 2 5\n3 3 6\n4 5 7\n\n<b>Output:</b>\nHARLEY\n\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457789400,
+        "end_date": 1457875800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457875800,
+        "submit_start_date": 1457789400,
+        "current": 1537435138
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>shinigami_ryuk</span>",
+    "problem_name": "Harley Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shinigami_ryuk'>shinigami_ryuk</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shinigami_ryuk",
+    "contest_code": "IOPC2016",
+    "max_timelimit": "1",
+    "problem_code": "IOPC16J"
+}

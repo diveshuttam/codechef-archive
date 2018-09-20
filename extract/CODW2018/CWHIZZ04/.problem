@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<h3>Problem description.</h3>\n<p>\u00a0Sara is playing \"Reach the Destination\" game. She is standing on some random step and has to reach 1<sup>st</sup> step with minimum number of jumps. But she has to follow few rules to find her next step. If she is standing at <b>N<sup>th</sup></b> step then her next step can either be <b>(N-1) or (N+1) or (N/3) (purely divisible by 3)</b> step. Help Sara to reach 1st step with minimum number of jumps.</p>\n\n\n<h3>Input</h3>\n<p>Input consists of a single integer <b>T</b> denoting the number of test cases. It follows <b>T</b> lines, each line consists of a single integer <b>N</b>, representing the step number on Sara is standing.</p>\n\n\n<h3>Output</h3>\n<p>For the given value of <b>N</b>, output the minimum number of jumps required to reach 1<sup>st</sup> step.</p>\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>0</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n\n\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n37\n\n<b>Output:</b>\n5\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><pre>1st jump to (37-1) = 36\n2nd jump to (36/3) = 12\n3rd jump to (12/3) = 4\n4th jump to (4-1) = 3\n5th jump to (3/3) = 1\nAnswer is 5.</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "11-01-2018",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWhizz 1.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1516026600,
+        "end_date": 1516044600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1516044600,
+        "submit_start_date": 1516026600,
+        "current": 1537433170
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>kjsreddy123</span>",
+    "problem_name": "Sara and her game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kjsreddy123'>kjsreddy123</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kjsreddy123",
+    "contest_code": "CODW2018",
+    "max_timelimit": "1",
+    "problem_code": "CWHIZZ04"
+}

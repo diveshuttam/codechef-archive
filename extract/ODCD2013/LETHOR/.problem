@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Asgard has won another war. THOR has been the mastermind behind all the victories and Asgardians have decided to greet their King THOR.<br />\nAs THOR is the very fascinated by increasing numbers. A mega Festival is being organised in Asgard and all the Asgardians would be wearing Asgard jersey,<br />\n which will have a jersey number,<b>A<sub>i</sub></b> on it. As the festival is all about making THOR happy. The Asgardians would always follow 2 simple rules:<br /><br />\n1. They always appear in front of THOR in a presentable manner, i.e. stand in a line. <br /><br />\n2. They always stand in such a way that their jersey numbers,<b>A<sub>i</sub>\u2264A<sub>j</sub></b> for all <b>i\u2264j </b>.<br /><br />\n    The festival has started and the things were going well. But then something strange starts to happen. Asgardians seem to have forgot maths and stand in front on THOR randomly.<br />\nTHOR seeing this randomness gets angry. The level of angriness of THOR could me measured as the number of pairs <b>(A<sub>i</sub>,A<sub>j</sub>)</b> who didn't follow the rule.<br />\nNow THOR could be brought back to normal if he gets as many hammers(his weapon) as his level of angriness.<br />Your task is to tell the number of hammers to be offered to THOR.\n</p>\n<h3>Input</h3>\n<p>First line contains the number of test cases <b>T</b>.Then <b>T</b> test cases follow.<br />\nEach test case consists of two lines. First line consists of a single integer <b>N</b>, the number of Asgardians in a line.<br />\nSecond line contains space separated integers <b>A<sub>i</sub></b>.</p>\n<h3>Output</h3>\n<p>For every test case output an integer in a separate line, denoting the hammers offered to THOR.</p>\n<h3>Constraints</h3>\n<p>1 \u2264<b> T </b>\u2264 500<br /><br />\n1 \u2264<b> N </b>\u2264 10000<br /><br />\n0 \u2264<b> A<sub>i</sub></b> \u2264 1000000000</p>\n<h3>Example</h3>\n<pre><b>Input :</b> \n2\n4\n2 3 1 4\n5\n1 5 3 2 4\n\n<b>Output :</b>\n2\n4\n</pre>\n<h3>Explanation</h3>\n<p>\nTest case 1: Pairs (2,1) and (3,1) made THOR angry hence the output is 2.<br /><br />\nTest case 2: Pairs (5,3), (5,2), (5,4) and (3,2) made THOR angry hence the output is 4.</p>\n<p></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-11-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Ode2Code 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1384612200,
+        "end_date": 1384633800,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1384633800,
+        "submit_start_date": 1384612200,
+        "current": 1537438011
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>atulsehgal</span>",
+    "problem_name": "ASGARDIANS",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/atulsehgal'>atulsehgal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "atulsehgal",
+    "contest_code": "ODCD2013",
+    "max_timelimit": "0.431818",
+    "problem_code": "LETHOR"
+}

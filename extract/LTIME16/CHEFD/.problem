@@ -1,0 +1,33 @@
+{
+    "problem_code": "CHEFD",
+    "problem_author": "furko",
+    "contest_name": "September Lunchtime 2014",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>furko</span>",
+    "problem_name": "Chef and medium problem 2",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>stzgd</span>",
+    "contest_code": "LTIME16",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bit'>bit</a>, <a class='problem-tag-small ' href='/tags/problems/furko'>furko</a>, <a class='problem-tag-small ' href='/tags/problems/ltime16'>ltime16</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/sets'>sets</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Read problems statements in <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/LTIME16/mandarin/CHEFD.pdf\">Mandarin Chinese </a> and <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/LTIME16/russian/CHEFD.pdf\">Russian</a>.</h3>\n\n<p></p>\n<p>Chef has an array containing <b>N</b> integers. You have to make <b>M</b> queries. Each query has one of the two types:</p>\n\n<p>\n<ul>\n  <li><b>1 l r p</b> - Select all the numbers having indices between <b>l</b> and <b>r</b> (inclusive) that are divisible by <b>p</b> and divide them by <b>p</b>,\n  where <b>p</b> is in set {2, 3, 5}.</li>\n  <li><b>2 l d</b> - Modify the <b>l</b>-th number in the array to <b>d</b>.</li>\n</ul>\n</p>\n\n<p>\nPlease help Chef in finding out the array after all the <b>M</b> queries.\n</p>\n\n<h3>Input</h3>\n\n<p>The first line of the input contains a single integer <b>N</b> denoting the number of integers in given array. </p>\n<p>The second line contains <b>N</b> space-separated integers <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b> denoting the given array.</p>\n<p>Next line contains a single integer <b>M</b> denoting the number of queries.</p>\n<p>Each of the following <b>M</b> lines describes a single query in the format given in the statement.</p>\n\n\n<h3>Output</h3>\n<p> Output a single line containing <b>N</b> integers denoting the array after all the <b>M</b> queries.</p>\n\n\n<h3>Constraints</h3>\n<ul>\n  <li>1 \u2264 <b>M</b> \u2264 10<sup>5</sup></li>\n  <li>1 \u2264 <b>l</b> \u2264 <b>r</b> \u2264 <b>N</b></li>\n  <li>1 \u2264 <b>A<sub>i</sub></b> \u2264 10<sup>9</sup></li>\n  <li>In each query of first type, <b>p</b> is in set {2, 3, 5} </li>\n  <li>Subtask 1 (20 points): 1 \u2264 <b>N</b> \u2264 100</li>\n  <li>Subtask 2 (35 points): 1 \u2264 <b>N</b> \u2264 10<sup>5</sup>, there is no query of second type</li>\n  <li>Subtask 3 (45 points): 1 \u2264 <b>N</b> \u2264 10<sup>5</sup></li>\n</ul>\n\n\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n3\n1 2 3\n5\n1 2 2 2\n1 2 2 2\n2 2 3\n1 2 3 3\n2 1 5\n\n<b>Output:</b>\n5 1 1\n</pre>\n<p> </p>",
+    "category_name": "main",
+    "date_added": "17-09-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CHEFD",
+    "problem_tester": "stzgd",
+    "time": {
+        "view_start_date": 1411882200,
+        "end_date": 1411893000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1411893000,
+        "submit_start_date": 1411882200,
+        "current": 1537437405
+    },
+    "user": {
+        "username": ""
+    }
+}

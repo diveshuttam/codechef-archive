@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Clancy is a counter intelligence operative trying to infiltrate and maneuver through a rival agency's security HQ. The building, square in shape, is divided into a number of equally sized blocks arranged in rows and columns. From each block, it is possible to go to the, left, right, above and bottom blocks.  Each block has a number of  security devices in place, which must be dismantled before passing through it.</p>\n<p>If Clancy is airdropped into the top left corner of the building, and his objective is to reach the bottom right corner, he'd like to find the minimum amount of time which would be required to complete his objective, given that each security device takes <b>1</b> unit time to dismantle.</p>\n\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases.</li>\n<li>The first line of each test case contains an integer <b>N</b> denoting the size of the two dimensional grid. The next <b>N</b> lines contain <b>N</b> space-separated integers each, denoting the number of security devices block wise.</li>\n</ul>\n\n<h3>Output</h3>\n<p>For each test case output a single integer denoting the minimum amount of time required for Clancy's objective.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>5</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>Grid[i][j]</b> \u2264 <b>100</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2\n1 4\n2 5\n3\n1 1 5\n4 1 7\n4 2 5\n\n<b>Output:</b>\n8\n10\n\n</pre>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> 1 + 2 + 5 = 8</p>\n<p><b>Example case 2.</b> 1 + 1 + 1 + 2 + 5 = 10</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-01-2018",
+    "is_direct_submittable": false,
+    "contest_name": "C-Benders",
+    "languages_supported": "C, CPP14",
+    "todo": false,
+    "time": {
+        "view_start_date": 1517585400,
+        "end_date": 1517596200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1517596200,
+        "submit_start_date": 1517585400,
+        "current": 1537433085
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>metafity</span>",
+    "problem_name": "The Mission",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/metafity'>metafity</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "metafity",
+    "contest_code": "CBEN2018",
+    "max_timelimit": "1",
+    "problem_code": "CLANCY"
+}

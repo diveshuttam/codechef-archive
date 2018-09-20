@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Write the macro definition of the put(a,b) to get the output as \"The result is:s=(the numerical value)\" <br/>\n#include<stdio.h><br/>\n#define \"write the definition here\" <br/>\n main()<br/>\n{<br/>\nint s=3;int *f;int e=2;f=&e;<br/>\ns=s*(*f*s+*f);<br/>\nput(s,\"%d\");<br/>\n}<br/>\n\n\n<h3>Input</h3>\n<p>\n<h3>Output</h3>\n<p>The results is: s=(numerical value of above arithmetic operation)\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-02-2010",
+    "is_direct_submittable": false,
+    "contest_name": "CTRLF9 2010",
+    "languages_supported": "C",
+    "todo": false,
+    "time": {
+        "view_start_date": 1267677000,
+        "end_date": 1267684200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1267684200,
+        "submit_start_date": 1267677000,
+        "current": 1537439705
+    },
+    "problem_author_html_handle": "mariojuana",
+    "problem_name": "MacroCrack",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/mariojuana'>mariojuana</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "mariojuana",
+    "contest_code": "ALGOC10",
+    "max_timelimit": "0.2",
+    "problem_code": "PGM1"
+}

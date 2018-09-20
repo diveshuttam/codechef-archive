@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Luffy is in the strong world now. He is the captain of the \"Straw Hats Pirates\". His navigator Nami \"Swann\" <3 is in trouble today!</p>\n<p>His ship \"The Thousand Sunny\" is located at the coordinate (<b>x</b>, <b>y</b>) and is surrounded by <b>N</b> marine ships. You are given the coordinates of these <b>N</b> ships (<b>xi</b>, <b>yi</b>), 1 <= <b>i</b> <= <b>N</b>. No 2 ships are located at the same coordinate. Each of this ships have a shooting radius <b>Ri</b>, 1 <= <b>i</b> <= <b>N</b>.<p>\n<p>Nami wants to escape to an infinite point without entering or even touching the shooting radius of any of these marine ships. Do you think it is possible to escape this situation? If not, Luffy has to use his 4th gear, and Nami doesn't want him to waste so much of his energy.</p>\n\n<h3>Input</h3>\n<p>The first line contains 3 integers: <b>N</b>, <b>x</b> and <b>y</b> denoting the number of ships, and the coordinates of The Thousand Sunny.<br>\nThe next <b>N</b> lines contain 3 integers each: <b>xi</b>, <b>yi</b> and <b>Ri</b>, denoting the coordinates of the marine ships and their shooting radius. It is guaranteed that no 2 of these coordinates are same. It is also guaranteed that none of these coordinates is same as The Thousand Sunny's coordinates.</p>\n\n<h3>Output</h3>\nPrint \"YES\" if there is a path to escape and \"NO\" if they are truly surrounded and there is no escape.\n\n<h3>Constraints</h3>\n<ul>\n<li>1 <= <b>N</b>  <= 30</li>\n<li>-10^4 <= <b>x</b>, <b>y</b>, <b>xi</b>, <b>yi</b> <= 10^4</li>\n<li>1 <= <b>Ri</b>  <= 10^4</li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n8 0 0\n-4 0 2\n-4 4 2\n0 4 2\n4 4 2\n4 0 2\n4 -4 2\n0 -4 2\n-4 -4 2\n\n<b>Output:</b>\nNO\n</pre>\n\n<p><b>Note:</b> If you remove any of the marine ships in the sample input, the output should be \"YES\".</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Akatsuki",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1474813800,
+        "end_date": 1474832400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1474832400,
+        "submit_start_date": 1474813800,
+        "current": 1537434559
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>deathsurgeon</span>",
+    "problem_name": "Nami to the rescue",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/deathsurgeon'>deathsurgeon</a>, <a class='problem-tag-small ' href='/tags/problems/dfs'>dfs</a>, <a class='problem-tag-small ' href='/tags/problems/ipc15amr'>ipc15amr</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "deathsurgeon",
+    "contest_code": "IPC15FLA",
+    "max_timelimit": "1",
+    "problem_code": "LUFFY"
+}

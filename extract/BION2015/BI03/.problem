@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Varun is the President of <a href=\"http://www.srdtu.org/\">Society of Robotics, Delhi Technological University</a>, and Surbhi is the Treasurer.  One day Varun brings his younger brother with him to college.  Varun had some work with Surbhi regarding the payments and sponsors for the technical fest, Excelsior. He went to her room to see her, but she was not there. There was a sequence of <b>N</b> cards lying on the table, each with a number written on it. While he went looking for her, he left his brother in there. Being a naughty child, he started playing with the cards. He added some new cards from a box nearby, removed some, and shuffled some. When Varun returned, he noticed what his brother had done. He has to restore the original sequence, before Surbhi returns.</p>\n<p>He can do the following operations-</p>\n<ul>\n<li>He can add a card with any number on it, at any position. This takes <b>t<sub>1</sub></b> seconds.</li>\n<li>He can remove a card from any position, this takes <b>t<sub>2</sub></b> seconds.</li>\n<li>He can erase the number on a card and write any other number. This takes <b>t<sub>3</sub></b> seconds.</li>\n<li>He can swap any two adjacent cards. This takes <b>t<sub>4</sub></b> seconds.</li>\n</ul>\n\n<p>Find the minimum time it\u2019ll take him to replace the original sequence.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n\n<ul>\n<li>First line contains <b>T</b>, the number of test cases.</li>\n<li>The first line of each test case, contains two space separated integers, <b>N</b> and <b>M</b>. <b>M</b> is the number of cards left on the table after the brother\u2019s mischief.</li>\n<li>Next line contains <b>N</b> space separated integers, the original sequence, <b>A<sub>1</sub> A<sub>2</sub> A<sub>3</sub>\u2026 A<sub>N</sub></b></li>\n<li>Next line contains <b>M</b> space separated integers, the new sequence after the brother\u2019s meddling, <b>B<sub>1</sub> B<sub>2</sub> B<sub>3</sub>\u2026 B<sub>M</sub></b></li>\n<li>Next line contains 4 space separated integers, <b>t<sub>1</sub> t<sub>2</sub> t<sub>3</sub> t<sub>4</sub></b>\n</li></ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Print a single line for each test case containing minimum time taken by Varun to do the task.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li>1 &lt;= <b>N</b> &lt;= 100</li>\n<li>1 &lt;= <b>M</b> &lt;= 100</li>\n<li>1 &lt;= <b>T</b> &lt;= 100</li>\n<li><b>2*t<sub>4</sub></b> >= <b>t<sub>1</sub></b>+<b>t<sub>2</sub></b></li>\n<li>1 &lt;= <b>Ai</b> &lt;= 100</li>\n<li>1 &lt;= <b>Bi</b> &lt;= 100</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n3 4\n15 64 98\n15 64 98 100\n1 2 1 4\n5 5\n1 2 3 4 5\n1 2 3 5 4\n1 1 1 1\n4 7\n2 4 8 6\n8 6 4 3 5 2 4\n1 1 1 1\n5 5\n1 2 3 4 5\n2 1 4 3 6\n1 1 1 1\n\n<b>Output:</b>\n2\n1\n6\n3\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "9-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Bits ON! 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1423974600,
+        "end_date": 1423981800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1423981800,
+        "submit_start_date": 1423974600,
+        "current": 1537436805
+    },
+    "problem_author_html_handle": "sana13",
+    "problem_name": "Cards",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sana13'>sana13</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sana13",
+    "contest_code": "BION2015",
+    "max_timelimit": "1",
+    "problem_code": "BI03"
+}

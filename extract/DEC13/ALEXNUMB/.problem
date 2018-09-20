@@ -1,0 +1,33 @@
+{
+    "problem_code": "ALEXNUMB",
+    "problem_author": "ballon_ziq",
+    "contest_name": "December Challenge 2013",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>ballon_ziq</span>",
+    "problem_name": "Magic Pairs",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>gerald</span>",
+    "contest_code": "DEC13",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ballon_ziq'>ballon_ziq</a>, <a class='problem-tag-small ' href='/tags/problems/dec13'>dec13</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Read problems statements in <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/DEC13/mandarin/ALEXNUMB.pdf\">Mandarin Chinese </a> and <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/DEC13/russian/ALEXNUMB.pdf\">Russian</a>.</h3>\n<p>Alexandra has some distinct integer numbers <b>a<sub>1</sub>,a<sub>2</sub>...a<sub>n</sub></b>.\nCount number of pairs <b>(i,j)</b> such that:\n<li><b> 1\u2264 i \u2264 n</b></li>\n<li><b> 1\u2264 j \u2264 n</b></li>\n<li><b> a<sub>i</sub> < a<sub>j</sub></b></li>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.The first line of each test case contains a single integer <b>n</b> denoting the number of numbers Alexandra has. The second line contains <b>n</b> space-separated distinct integers <b>a<sub>1</sub></b>, <b>a<sub>2</sub></b>, ..., <b>a<sub>n</sub></b> denoting these numbers.\n<p>\u00a0</p>\n\n<h3>Output</h3>\nFor each test case, output a single line containing number of pairs for corresponding test case.\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>4</b></li>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>100000</b></li>\n<li><b>0</b> \u2264 <b>a<sub>i</sub></b> \u2264 <b>10<sup>9</sup></b></li>\n<li>All the a<sub>i</sub> are distinct\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre>\n2\n2\n2 1\n3\n3 1 2\n</pre>\n<b>Output:</b>\n<pre>\n1\n3\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>Case 1: Only one such pair: (2,1)</p>\n<p>Case 2: 3 possible pairs: (2,1), (2,3), (3,1) </p>.",
+    "category_name": "main",
+    "date_added": "5-11-2013",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/ALEXNUMB",
+    "problem_tester": "gerald",
+    "time": {
+        "view_start_date": 1386322200,
+        "end_date": 1387186200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1387186200,
+        "submit_start_date": 1386322200,
+        "current": 1537437969
+    },
+    "user": {
+        "username": ""
+    }
+}

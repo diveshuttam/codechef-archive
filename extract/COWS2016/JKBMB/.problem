@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b><h>Problem Statement</p></b></h>\nIn the city of Gotham there is an immense threat of terrorist attack by <b>JOKER</b>, from the intelligence report of the Gotham P.D.</br></br><b> JOKER</b> have planted several bombs throughout the city in block of \n<b>M X N</b> manner there are many people in the city living in those blocks and if a bomb goes off then the surrounding blocks will be affected and if in those surrounding block there is another bomb it will go off too and this will go on until there is no other bomb is affected by this.</br> \n</br>The report came to the intelligence agency at the very last minute so there is less time to save people and they know which bomb will go off first you <b>Gordon</b> the commissioner of that agency need to find out how many people will be alive after this devastation.</br>\nThe process of the blast is if a bomb goes off at <b>a[i][j]</b> position then all the adjacent cells<b>{LEFT,RIGHT,UP,BOTTOM}</b> of the block will be affected.\n</br></br> \n<b>NOTE:-</b>\n</br></br>\n <i>For every query, bomb blast will happen on the aftermath of the previous.\n No Diagonal cells will be affected in the blast.</i>\n\n</br></br>\n\n<p><b><h>Input Format:</h></b></p> \nThe first line will be given The dimensions of the block <b>M and N</b>\n</br>The next lines will be given the whole <b>M x N</b> matrix where <i>x(i.e 1<=x<=M*N) will signify \u2018people\u2019 and 0 will be signify \u2018bomb\u2019</i>\n</br>The following line will have total no of queries <b>Q</b>\n</br>The next<b>Q</b> lines will have the co-ordinate of the bomb which will go off first I  J \n</br></br>\n<p><b><h>Output Format:</h></b></p>\n<i>You need to print the no of people still alive in that block if the bomb at a[i][j] goes off.</i>\n\n</br></br>\n<p><b><h>Constraints:</h></b></p>\n<ul>\n<p><b>SubTask#1</b></p>\n1<=M,N<=1000\n</br>1<=Q<=50\n</br></br>\n<p><b>SubTask#2</b></p>\nOriginal Constraints..\n</br>\n</br>\n<p><b>SubTask#3</b></p>\nOriginal Constraints.. \n</ul>\n</br></br>\n<p><b><h>Sample Input:</h></b></p>\n5 4\n</br>8 0 0 10\n</br>9 7 0 6\n</br>2 0 1 0\n</br>6 0 1 13\n</br>0 0 4 0\n</br>3\n</br>1 3\n</br>3 2\n</br>5 1\n</br></br>\n<p><b><h>Sample Output:</h></b></p>\n35\n</br>22\n</br>22\n</br></br>\n<p><b><h>Explanation:</h></b></p>\n\nAfter the first bomb explodes, 32 people dies i.e 35 people are still alive.\n</br>After second bomb explodes, 13 more people dies i.e 22 people still alive.\n</br>After last bomb explodes, No Casualties occur i.e 22 people still lives.\n</br>So, Output is :\n</br>35\n</br>22\n</br>22",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "CODE_WAR",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1474468200,
+        "end_date": 1474554600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1474554600,
+        "submit_start_date": 1474468200,
+        "current": 1537434583
+    },
+    "problem_author_html_handle": "acesprime",
+    "problem_name": "JokerAndBombs",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acesprime'>acesprime</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "acesprime",
+    "contest_code": "COWS2016",
+    "max_timelimit": "1",
+    "problem_code": "JKBMB"
+}

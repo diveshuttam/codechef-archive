@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Tolstoy\u2019s neighbourhood is being acquired by multinational for setting up a new manufacturing plant. The facility requires a plain patch of land which consists of the numerous blocks of lands that are already in row. Each block of land (many blocks make up the entire acquired land patch) can be of three types - Consisting of a pile of soil, consisting of a pit, or having none of these.</p>\n<p>Since the multinational requires the land to be devoid of any , Tolstoy has been asked to fill up the pits with soil. However, with the strict timelines that all multinationals operate with, he has been assigned the hard deadline of finishing up the task within t units of time.</p>\n<p>Tolstoy required <b>1 unit of time</b> to reach the first block of land from his work place. After which moving from one block to the neighboring block requires 1 unit of time. Tolstoy is allowed to carry any amount of soil that he wishes to in order to complete the operation. He can also pick up the soil, already available in some blocks of land and use it to fill the pit. However the pile of soil in one block can fill only one pit and assume that each block contains identically only a single pile of soil or a single pit or nothing. The company rewards Tolstoy only if he fills up all the pits of the land. Also, once pit is filled on a land, he won't put soil again in the same block. He can also skip the block with pits and soil while moving. Time taken to pick the soil and filling the pit can be neglected.</p>\n<p>Now in order to work with the fixed deadline that Tolstoy has, he would initially need to carry <b>m units</b> of soil with himself. You need to help him determine the least value of m such that he finishes the task within the stipulated deadline. </p>\n\n<h3>Input</h3>\n<p>The input consists of two space-separated integers <b>k</b> and <b>t</b> followed by the next line of k characters, the <b>i-th of them equals \"H\" </b>(if the i-th block contains a pit), \"S\" (if the i-th segment contains a pile of soil) or \".\" (if the i-th segment doesn't contain a pit or a soil).<br />\nIt is guaranteed that there is at least one block with a pit.</p>\n<h3>Output</h3>\n<p>Print \"-1\"(without the quotes) if it isn't possible to fill all pits in the given deadline. Otherwise, print on a single line the minimum possible value of m.</p>\n<h3>Constraints</h3>\n<p>2\u2009\u2264\u2009k\u2009\u2264\u20095x10<sup>5</sup> <br />\n1\u2009\u2264\u2009t\u2009\u2264\u200910<sup>9</sup> </p>\n<h3>Example</h3>\n<pre><b>Input</b>\n4 4\nHSHS\n<b>Output</b>\n1\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-10-2013",
+    "is_direct_submittable": false,
+    "contest_name": "TechFest 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1382801400,
+        "end_date": 1382898600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1382898600,
+        "submit_start_date": 1382801400,
+        "current": 1537438056
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>divyambansal</span>",
+    "problem_name": "Land-fill",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/divyambansal'>divyambansal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "divyambansal",
+    "contest_code": "TCFST13",
+    "max_timelimit": "2",
+    "problem_code": "TCFST01"
+}

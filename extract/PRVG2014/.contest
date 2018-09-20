@@ -1,0 +1,73 @@
+{
+    "teamsCount": "530",
+    "announcements": "<p><span style=\"font-weight: bold;\">09/11/2013, 23:00 IST : </span>The contest ranking can be viewed\u00c2\u00a0<a target=\"_blank\" href=\"/rankings/PRVG2014\">here</a>.</p>\r\n<p><span style=\"font-weight: bold;\">09/11/2013, 21:00 IST :</span><span style=\"font-weight: bold;\"> </span>For the question Crypto, do not consider 0 to be divisible by 11.</p>",
+    "ip": "149.129.135.113",
+    "code": "PRVG2014",
+    "duration": "120",
+    "name": "Pravega 2014",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><span>To register your team, please log in and click </span><a target=\"_blank\" href=\"/teams/register/PRVG2014\">here</a><span>. (you must be logged in before registering)</span></p> <p><span><br /></span></p> <div><b>Rules and Regulations:</b> <ul> <li>Contest problems will become visible on Saturday, 09th November 2013 at 2100 hours - Indian Standard Time GMT +0530) and will end on\u00a0Saturday, 09th\u00a0November\u00a02013 at 2300 hours(IST). Check your timezone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=The+Pravega+Online+Programming+Contest&amp;iso=20131109T21&amp;p1=44&amp;ah=2\">here</a>.</li> <li>This is a TEAM CONTEST. A team can consist of atmost 3 members. One person can\u2019t be part of more than one team.</li> <li>Cross-college teams are allowed.</li> <li> The contest is open to everyone but only undergraduates or high school students from India are eligible to win the prizes. Professionals, graduates students, etc. are not eligible to win prizes.</li> <li>A team may send their solutions in C, C++ or JAVA. Although different problems can be solved in different languages by the same team.</li> <li>If you do not have a CodeChef ID create one\u00a0<a target=\"_blank\" href=\"http://codechef.com/user/register\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided.</li> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a></li> <li>Please contact\u00a0<a target=\"_blank\" href=\"mailto:pritish@pravega.org\">pritish@pravega.org</a> for any queries during the contest.</li> <li>To be eligible to win prizes, the team members have to be registered on <a target=\"_blank\" href=\"http://pravega.org/\">pravega.org</a> and for the contest at <a href=\"http://pravega.org/opc.php\" target=\"_blank\">pravega.org/opc.php</a></li> <li>The constraints on time, memory, etc. shall be specifed separately for each problem.</li> <li> The total amount of prizes to be won is Rs. 18,000. <ol> <li>First Prize of Rs. 10,000</li> <li>Second Prize of Rs. 5,000</li> <li>Third Prize of Rs. 3,000</li> </ol></li> </ul> </div> <div><b>Judging criteria :</b> <ul> <li>All the problems have same points alloted to them.</li> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved.</li> </ul> </div> <div><b>Registration:</b> <ul> <b>How to register for a team contest?</b> <li>Login with your normal CodeChef user ID</li> <li>Click on the registration link above and fill out the form</li> <li>Click logout in the top right corner and login using the Team Name and password you registered with.</li> <li>You can get more information about team contests\u00a0<a href=\"/wiki/team-contests\" target=\"_blank\">here</a></li> </ul> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/PRVG2014/1424957829.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "PRVG01": {
+            "allow_submission": false,
+            "name": "Treasure Hunt",
+            "category_name": "main",
+            "accuracy": 10.26,
+            "successful_submissions": "3",
+            "code": "PRVG01",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PRVG02": {
+            "allow_submission": false,
+            "name": "Crypto",
+            "category_name": "main",
+            "accuracy": 11.88,
+            "successful_submissions": "10",
+            "code": "PRVG02",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PRVG03": {
+            "allow_submission": false,
+            "name": "Lecture Series",
+            "category_name": "main",
+            "accuracy": 12.04,
+            "successful_submissions": "39",
+            "code": "PRVG03",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537438037,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

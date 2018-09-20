@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Identify if a triple of integers is formed by 3 integer, x, y and z,\n separated by a blank space and supplied not necessary in any order, is a primitive Pythagorean triple. A primitive Pythagorean triple is one in which x, y and z are coprime (that is, they have no common divisor greater than 1).</p>\n<p>For each triple entry print a line with \"YES\" (without quotation marks) if the integers given form a primitive Pythagorean triple, and \"NO\" otherwise.\u00a0</p>\n\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. Each of following <b>T</b> lines are test cases. A test case consists of three integer numbers space separated.</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>A line with YES or NO.\u00a0</p>\n<p></p>\n\n<h3>Constraints</h3>\n<p></p>\n<ul>\n<li><b>1</b> \u2264 <b>x, y, z</b> \u2264 <b>100</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n5 4 3\n\n<b>Output:</b>\nYES\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-12-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Programming Cup- Sao Paulo Edition",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1513436400,
+        "end_date": 1513458000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1513458000,
+        "submit_start_date": 1513436400,
+        "current": 1537433281
+    },
+    "problem_author_html_handle": "lenahsakai",
+    "problem_name": "Pythagorean triple",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/lenahsakai'>lenahsakai</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "lenahsakai",
+    "contest_code": "PROC2017",
+    "max_timelimit": "1",
+    "problem_code": "PRGCUP02"
+}

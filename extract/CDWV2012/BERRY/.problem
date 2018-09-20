@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Smurf forest has <b>V</b> varieties of berries and there are <b>S<sub>i</sub></b> number of berries belonging to each variety <b>i</b>(1 &lt;=<b> i </b>&lt;= <b>V</b>) collected by Smurfs. Berries belonging to a particular variety are all kept in the same box, i.e. berries of variety <b>S<sub>i</sub></b> are kept in box <b>i</b>'th box.</p>\n<p>Smurfs consists of <b>M</b> family members and the berries collected by the family have to be <b>distributed equally</b> in terms of quantity of berries to each family member. (Family members do not mind getting berries of any variety if quantity of berries received by each member is same). Papa Smurf has assigned the job of berry distribution to Brainy.</p>\n<p>Brainy wants to select those boxes, such that when berries from these boxes put together can be evenly distributed among each family members. Remember all family members must receive same number of berries and each berry can belong to any variety. If there are multiple ways then Brainy will proceed such that the number of box selected is maximized. Even though multiple answers exists, then he will choose those boxes whose sum of berries is maximized.\n</p>\n<p>Help Brainy write a program which calculates the maximum distributable variety set of boxes that brings maximum profit (maximum berries) to Brainy. </p>\n<h3>Input</h3>\n<p>The first line of the input contains a single number: the number of test cases(&lt;= 20) to follow. Each test case has the following format:</p>\n<p> One line with two space-separated integers <b>V</b> <b>M</b>, (1 &lt;= <b>V</b> &lt;= 500 and 1 &lt;= <b>M</b> &lt;= 1000): the total number of varieties and the family size respectively.</p>\n<p> One line with <b>V</b> space-separated integers <b>S<sub>1</sub> S<sub>2</sub> ... S<sub>v</sub></b> satisfying 1 &lt;= <b>S<sub>i</sub> </b>&lt;= 100, 000: the number of berries that belong to a variety <b>i</b>(1 &lt;= <b>i</b> &lt;= <b>V</b>).</p>\n<h3>Output</h3>\n<p>For each test case output a single line containing 2 space-separated integers- <b>K</b> , the maximum number of box Brainy chooses and <b>D</b>, the number of berries each member of the family gets. </p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n<p>\n2\n3 5\n1 8 6\n5 8\n1 6 2 9 5</p><b>Output:</b>\n<p>\n3 3\n3 2</p>\n</pre><h3>Explanation</h3>\n<p>In first test case Brainy picks all the varieties of berries as 15 sweets would be equally distributable among the family members.</p>\n<p>In second case Brainy has 3 choices of selecting maximum variety of sweets.( There are 3 ways of selecting 3 sweets).</p>\n<p>1.    1 6 9 </p>\n<p>2.    2 5 9</p>\n<p>3.   1 2 5</p>\n<p>Brainy would prefer to go with the first the first or second choice because that would be more profitable for him as the <b>overall number of sweets distributed is maximized</b>.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-11-2012",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWeavers 2012 ",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1352302200,
+        "end_date": 1352313000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1352313000,
+        "submit_start_date": 1352302200,
+        "current": 1537438662
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>kumarvimal</span>",
+    "problem_name": "Berry Tough Distribution",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kumarvimal'>kumarvimal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kumarvimal",
+    "contest_code": "CDWV2012",
+    "max_timelimit": "0.117732",
+    "problem_code": "BERRY"
+}

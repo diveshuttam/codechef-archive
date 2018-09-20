@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Jay recently found a large number lock with <b>N</b> number of wheels numbered from <b>1</b> to <b>N</b>. Each of these wheels contain the digits from 0 to 9 in a circular way. That is, 0 is followed by 1, 1 by 2 and so on 8 by 9 and 9 by 0 again. Initially all the wheels of the number lock are showing 0.</p>\n<p>Jay is just casually playing around with this lock. He sometimes moves all the wheels numbered from <b>L</b> to <b>R</b> (<b>L</b> <= <b>R</b>, both inclusive) by one step. That is the displayed number changes to the next number on the wheel. For example, if it showed 0 it changes to 1, in case of 5 it changes to 6 and in case of 9 it changes to 0 again.<p>\n<p>Seikatsu loves challenging Jay at unexpected timings. She suddenly asks him to sum up all the displayed digits on wheels numbered from <b>L</b> to <b>R</b>. Jay doesn't like losing challenges and wants to reply to her as soon as possible. Can you help him to answer her queries?</p>\n<p>There are 2 types of operations:<br>\nType 1: Where Jay has moved all the wheels from <b>L</b> to <b>R</b> by one step each.<br>\nType 2: Seikatsu challenges Jay to find the sum of all the digits displayed on wheels numbered from <b>L</b> to <b>R</b>.</p>\n\n<h3>Input</h3>\n<p>The first line of input contains two integers, <b>N</b> and <b>Q</b>. <b>N</b> denotes the number of wheels and <b>Q</b> denotes the number of operations on these wheels.<br>\nThe next <b>Q</b> lines contain 3 integers: <b>type</b>, <b>L</b> and <b>R</b> each. <b>type</b> denotes the type of the operation mentioned above. <b>L</b> and <b>R</b> denote the values corresponding to these operations.</p>\n\n<h3>Output</h3>\n<p>For each operation of type 2, print the sum on a separate line.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> <= <b>N</b>, <b>Q</b> <= <b>10^5</b></li>\n<li><b>1</b> <= <b>L</b> <= <b>R</b> <= <b>N</b></li>\n<li><b>type</b> = <b>1</b> or <b>2</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n5 6\n2 2 2\n1 4 5\n2 1 5\n1 1 2\n2 3 5\n1 2 4\n\n<b>Output:</b>\n0\n2\n2\n</pre>\n\n<h3>Explanation:</h3>\n<pre>\nInitial lock pattern: 0 0 0 0 0\nOperation 1: 0\nOperation 2: Lock pattern, 0 0 0 1 1\nOperation 3: 0 + 0 + 0 + 1 + 1 = 2\nOperation 4: Lock pattern, 1 1 0 1 1\nOperation 5: 0 + 1 + 1 = 2\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Akatsuki Mirror contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1474817400,
+        "end_date": 1474835400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1474835400,
+        "submit_start_date": 1474817400,
+        "current": 1537434544
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>deathsurgeon</span>",
+    "problem_name": "Number Lock",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/deathsurgeon'>deathsurgeon</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "deathsurgeon",
+    "contest_code": "IPC15AMR",
+    "max_timelimit": "1",
+    "problem_code": "ENTRY"
+}

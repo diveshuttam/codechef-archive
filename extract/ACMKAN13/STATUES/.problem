@@ -1,0 +1,33 @@
+{
+    "problem_code": "STATUES",
+    "problem_author": "admin",
+    "contest_name": "ACM-ICPC Asia-Kanpur Site First Round Online Contest 2013",
+    "todo": false,
+    "problem_author_html_handle": "admin",
+    "problem_name": "Statues",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>gamabunta</span>",
+    "contest_code": "ACMKAN13",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acmkan13'>acmkan13</a>, <a class='problem-tag-small ' href='/tags/problems/ad-hoc'>ad-hoc</a>, <a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p style=\"text-align:justify\">The Princess of the Indian Royal Rajput clan loves her Royal Palace. There are <b>N</b> rooms in the palace. Every room has one or more statues. It is not necessary that every room has the same number of statues.</p>\n<p style=\"text-align:justify\">The Princess believes in total equality. It makes her sad to see some rooms with more statues than other rooms. Hence, she has decided to make the number of statues equal in all the rooms. Fortunately, the total number of statues in the palace, across all the rooms, is a multiple of <b>N</b>.</p>\n<p style=\"text-align:justify\">Your job is to figure out the minimum number of moves needed in order to equalize the number of statues in all the rooms. In one move, you may select a statue and move it to any other room. All the statues are indistinguishable.</p>\n<h3>Input</h3>\n<p style=\"text-align:justify\">The input consists of multiple test cases. Each test case is described on two lines.</p>\n<p style=\"text-align:justify\">The first line contains a single positive integer <b>N</b>, the number of rooms.</p>\n<p style=\"text-align:justify\">The second line contains <b>N</b> positive integers <b>{ A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>N</sub> }</b> separated by single spaces, describing the number of statues in each of the <b>N</b> rooms respectively.</p>\n<p style=\"text-align:justify\">The end of input is signified by a special test case with <b>N = 0</b>. This will be the last test case in the input, and should not be processed.</p>\n<h3>Constraints</h3>\n<pre>\n<b>There are at most 50 test cases in a test file.</b>\n<b>1 \u2264 N \u2264 50</b>\n<b>1 \u2264 A<sub>i</sub> \u2264 100</b>\n<b>Sum of all A<sub>i</sub>'s is divisible by N</b>\n\n</pre><h3>Output</h3>\n<p style=\"text-align:justify\">For each test case, print two lines in the output. The first of such lines is the <b>test case number, T</b> in the form of \"<b>Set #T</b>\", without the quotes (see sample output for clarity). On the second line, print \"<b>The minimum number of moves is M.</b>\", without the quotes. Here, <b>M</b> is the minimum number of moves you must make to equalize the number of statues in all the rooms. Output a blank line after each test case.</p>\n<p style=\"text-align:justify\">Be careful about the case and punctuation in the above strings. Not adhering to the output format strictly will lead to the Wrong Answer verdict.</p>\n<h3>Sample Input</h3>\n<pre>\n6\n5 2 4 1 7 5\n3\n2 3 4\n0\n\n</pre><h3>Sample Output</h3>\n<pre>\nSet #1\nThe minimum number of moves is 5.\n\nSet #2\nThe minimum number of moves is 1.\n\n</pre>",
+    "category_name": "main",
+    "date_added": "13-10-2013",
+    "status": "success",
+    "languages_supported": "C, JAVA",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/STATUES",
+    "problem_tester": "gamabunta",
+    "time": {
+        "view_start_date": 1382160600,
+        "end_date": 1382169600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1382169600,
+        "submit_start_date": 1382160600,
+        "current": 1537438101
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "CLCO07",
+    "problem_author": "rjohari23",
+    "contest_name": "Clash of Coders",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>rjohari23</span>",
+    "problem_name": "Strings Classes",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CLCO2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rjohari23'>rjohari23</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>While developing Apps for Artificial Intelligence, Arush has to use specific type of strings (words) called Class C strings.<br />\nAll the strings have been classified into 3 classes:<br /><br /></p>\n<p><b>Class A</b> : A sequence of letters that read the same forward and backward.<br /><br /></p>\n<p><b>Class B</b> : A string of class B can be converted to class A type by changing exactly one letter to a different letter.<br />\nFor Example, CAT is class B type, since it can be changed to class A by either changing \"C\" to \"T\" or \"T\" to \"C\".<br /><br />\n<b>Note that \"SEES\" is not a class B type, since changing one letter would not make it to a class A type.<br /><br /></b></p>\n<p><b>Class C</b> : A string of class C is one that is formed by concatenating 2 strings of class B together. <br /><br />\nFor example, BATMAN is a class C type, since BAT and MAN both belong to class B type.</p>\n<p><br /><br /></p>\n<p>Given a list of words, help Arush determine which words belong to class C type and which do not.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<ul>\n<li>Input will consist of all uppercase words which will not be more than 25 characters in length.</li>\n<li>The last word will be *END* which is not to be processed, it is just to mark the end of input.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>For each input, output \"INPUT_STRING YES\" if it is a class C type otherwise \"INPUT_STRING NO\" (without quotes).</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b> Length of each word </b> \u2264 <b>25</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\nBATMAN\nSUPERMAN\n*END*\n\n<b>Output:</b>\nBATMAN YES\nSUPERMAN NO\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case : </b>Already Explained Above.</p>\n",
+    "category_name": "main",
+    "date_added": "30-04-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "0.5",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CLCO07",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1430490600,
+        "end_date": 1430509500,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1430509500,
+        "submit_start_date": 1430490600,
+        "current": 1537436331
+    },
+    "user": {
+        "username": ""
+    }
+}

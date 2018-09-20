@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Story: You have to find a path through which the rat move from the starting position (0,0) to the final position where cheese is (n,n). List the total no of possible paths which the rat can take to reach the cheese.</p>\n<h3>Input</h3>\n<p>A file whose first line contains the size of the square maze<br />\nThe next n lines contain n binary values separated by space. 0 denotes an open cell while 1 denotes a blocked cell.<br />\nYou have to find paths which contain only cells which are open, and finally print the total no of such unique paths. Retracing the 1 or more cells back and forth is not considered a new path. The set of all cells covered in a single path should be unique from other paths</p>\n<h3>Output</h3>\n<p>The output should be the total no of paths possible on the first line</p>\n<h3>Example</h3>\n<pre>\n<b>Input: \n7\n0 0 1 0 0 1 0\n1 0 1 1 0 0 0\n0 0 0 0 1 0 1\n1 0 1 0 0 0 0 \n1 0 1 1 0 1 0\n1 0 0 0 0 1 0\n1 1 1 1 0 0 0\n</b>\n\n\n<b>Output:\n4\n</b>\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-10-2012",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWars 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1351081800,
+        "end_date": 1351254600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1351254600,
+        "submit_start_date": 1351081800,
+        "current": 1537438676
+    },
+    "problem_author_html_handle": "raghupotluri",
+    "problem_name": "Rat Maze",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/raghupotluri'>raghupotluri</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "raghupotluri",
+    "contest_code": "CODW2012",
+    "max_timelimit": "0.56992",
+    "problem_code": "BPHC03"
+}

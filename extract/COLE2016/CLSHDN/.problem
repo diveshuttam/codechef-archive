@@ -1,0 +1,33 @@
+{
+    "problem_code": "CLSHDN",
+    "problem_author": "nib_ir",
+    "contest_name": "Coder's Legacy 2016",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nib_ir</span>",
+    "problem_name": "Final Showdown",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "COLE2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cole2016'>cole2016</a>, <a class='problem-tag-small ' href='/tags/problems/graph-theory'>graph-theory</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>, <a class='problem-tag-small ' href='/tags/problems/nib_ir'>nib_ir</a>, <a class='problem-tag-small ' href='/tags/problems/query'>query</a>, <a class='problem-tag-small ' href='/tags/problems/shortest-path'>shortest-path</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nIt is time for the final face-off. Now Batman must travel to where Superman is waiting as soon as possible. However, it happens that a road maintenance task is currently underway in Metropolis. Batman knows that the city policy dictates only one road can be repaired at a time. <br/>So he must come up with the shortest route quickly as soon as he learns which road is being repaired.<br/></br/></br/></p>\n<p>The city is designed as a graph having 'V' vertices and 'E'  bidirectional roads. Batman starts from one of these vertices and his destination is also one of these vertices.</p>\n<p><h3>Input</h3>\n<pre>\n\u2022 The first line of the input is <b>T</b> number of test cases. <b>T</b> test cases follow.\n\u2022For each test case, the first line contains 2 space separated integers <b>V</b> and <b>E</b>.\n\u2022The next <b>E</b> lines follow, each containing 3 space separated integers <b>u</b>, <b>v</b>, <b>w</b>, where <b>u</b> and <b>v</b> denote the\nvertices connected by a road and <b>w</b> being the length of the road. <b>u</b> and <b>v</b> will always be different.\n\u2022The next line contains 2 space separated <b>B</b> and <b>S</b>, denoting the vertices of Batman and Superman's\nposition respectively.\n\u2022The next line contains a single integer <b>Q</b> denoting the number of queries\n\u2022The next <b>Q</b> lines each contain two integers <b>u</b> and <b>v</b>, denoting that the road connect <b>u</b> and <b>v</b> is\nunder maintenance.\n</pre></p>\n<h3>Output</h3>\n<p><pre>\u2022For each query, output a single line containing the minimum distance Batman needs to travel to get to his\ndestination. If it is impossible to do so, output -1.\n</pre></p>\n<p><h3>Constraints</h3>\n<pre>1&lt;=T&lt;=5\n1&lt;=V&lt;=200000\n1&lt;=E&lt;=200000\n1&lt;=Q&lt;=200000\n1&lt;=w&lt;=1000\n1&lt;=B,S&lt;=V\n</pre></p>\n<p><h3>Example</h3>\n</p>\n<p>\nInput</p>\n<pre>\n1\n6 9\n0 1 1\n1 2 1\n2 3 1\n3 4 1\n4 5 1\n2 4 5\n3 5 8\n1 3 3\n0 2 4\n0 5\n9\n0 1\n1 2\n2 3\n3 4\n4 5\n2 4\n3 5\n1 3\n0 2\n\nOutput\n7\n6\n6\n8\n11\n5\n5\n5\n5\n</pre>\n",
+    "category_name": "main",
+    "date_added": "2-02-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CLSHDN",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1454686200,
+        "end_date": 1454859000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454859000,
+        "submit_start_date": 1454686200,
+        "current": 1537435506
+    },
+    "user": {
+        "username": ""
+    }
+}

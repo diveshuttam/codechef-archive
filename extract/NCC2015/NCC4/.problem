@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>Problem description:</b></p>\n<p>Indian police is in search of a big criminal named Jainesh. Inspector Pranjal is assigned to catch him. The city through which Jainesh is running has many tall buildings of varying heights. Pranjal is in a helicopter and he can catch the thief only in day light but the condition is, he should not be in the shadow of any of the buildings.<br /><br />\nThe total number and height of the buildings are given. Also, their respective distances to the right of origin is given. The thief is running towards origin and his initial position is the end point of the last building's shadow (last building refers to the building that is to the rightmost of origin) at the given starting time. The speed '<b>sp</b>' of the thief is provided in terms of units/15 mins.<br /><br />\nAt 06:00, the sun rises from -inf to the left of origin and the motion is in semi-circular manner towards +inf. At 1200 hours, the sun is exactly over head. Then it sets at 18:00 to the right of origin at an infinite distance.<br /><br />\nThe motion of the sun as well as that of the thief is discrete and they move after every 15 mins. That means the position of the shadows and the thief will change after every 15 mins. <br/><br />\nHelp Inspector Pranjal catch Jainesh.<br /><br /></br/></p>\n<p><b>Note:</b><br /></p>\n<ul>\n<li>The sun rises at 06:00 and sets at 18:00. The sun rays are parallel. It is at infinite distance from earth</li>\n<li>If the thief is exactly under the building, then he is in the shadow.</li>\n<li>Buildings are to the right side of origin on X-axis.</li>\n<li>For any floating point value, take ceiling of the value.</li>\n<p>e.g; 2.7 should be considered as 3.\n<li> If the thief reaches the origin or to the left of it, then he is not caught.</li>\n<li> No two buildings will be at the same position. Consider building as single vertical line.</li>\n</p><p><br /><br />\n</p></ul>\n<p><b>Input:</b><br /><br />\nThe first line contains the number of test cases '<b>t</b>'. For each test case, the next 3 lines are in the following manner:<br /><br />\nFirst line contains three space separated integers: '<b>n</b>'(number of buildings), '<b>st</b>' (The starting time in HH format) and <b>sp</b> (The speed of thief in units/15mins)<br /><br />\nSecond line will contain '<b>n</b>' space separated integers denoting the heights of the buidings (<b>HT[]</b>).<br /><br />\nThird line will contain 'n' space separated integers denoting the distance of the building from the origin to its right (<b>D[]</b>).<br /><br /><br />\n<b>Output:</b><br /><br />\nIf the thief is caught, print the time when he got caught in the format HH:MM(Consider<br />\n24 hrs clock); else print \u201cCommissioner nahi chodega\u201d(without quotes) on a new line.<br /><br /><br />\n<b>Constraints:</b><br /><br />\n1 &lt;= t &lt;= 10<br /><br />\n1 &lt;= n &lt;= 50<br /><br />\n06 &lt; st &lt; 18<br /><br />\n1 &lt;= sp &lt;= 5<br /><br />\n1 &lt;= HT[i] &lt;=100<br /><br />\n1 &lt;= D[i] &lt;= 1000<br /><br /><br />\n<b>Sample test case:<br /></b><br />\n<b>Input:</b><br /><br />\n1<br /><br />\n3 10 1<br /><br />\n5 4 3<br /><br />\n4 7 9<br /><br /><br />\n<b>Output:</b><br /><br />\n11:15<br /><br /><br />\n<b>Explanation:</b><br /> At 11:15, Jainesh is in daylight and not in shadow of any building, so Inspector Pranjal caught him. Initial position for this test case is shown in the figure that can be found <a href=\"https://drive.google.com/open?id=0B23tnym7y9wIUWRuZ21IVXlUZTg&amp;authuser=0\" >here</a> <br /><br /><br /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "National Computing Contest 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1427556600,
+        "end_date": 1427563800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1427739480,
+        "submit_start_date": 1427556600,
+        "current": 1537436486
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>psmlbhor</span>",
+    "problem_name": "Catch Me!",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/psmlbhor'>psmlbhor</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "psmlbhor",
+    "contest_code": "NCC2015",
+    "max_timelimit": "1",
+    "problem_code": "NCC4"
+}

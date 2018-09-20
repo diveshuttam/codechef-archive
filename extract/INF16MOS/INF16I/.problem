@@ -1,0 +1,33 @@
+{
+    "problem_code": "INF16I",
+    "problem_author": "admin3",
+    "contest_name": "ACM-ICPC Asia-India Finals Mirror Contest 2016",
+    "todo": false,
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Pacman",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "INF16MOS",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>",
+    "body": "<p>\nPacman is a software package manager. It has a repository of <b>N</b> softwares numbered from <b>1</b> to <b>N</b>. A software may have a dependency on another software. Fortunately, each software has <b>at most 1 dependency</b>.\n</p>\n\n<p>In order to install a software, we must first install its dependency (if any). Pacman ensures that there are <b>no cyclic dependencies</b> among softwares.\n</p>\n<p>\n<b>For example</b>, if software <b>A</b> depends on <b>B</b>, <b>B</b> should be installed first in order to install <b>A</b>. Similarly, if <b>A</b> depends on <b>B</b> and <b>B</b> depends on <b>C</b>, then first software <b>C</b> would have to be installed (as it is a dependency of <b>B</b>), then <b>B</b> (as it is a dependency of <b>A</b>) and finally <b>A</b> would be installed.</p>\n\n<p>\nA software is considered <b>completely installed</b> only when its <i>entire</i> chain of dependencies is installed before installing the software itself. Every software in the chain of dependencies must be freshly installed, even if it was installed as part of some other software\u2019s dependency chain.\n</p>\n\n<p>\nPacman is very popular among developers. It has only <b>D<sub>i</sub></b> copies of the <b>i<sup>th</sup></b> software left. Whenever a software <b>i</b> is installed, the number of copies of software <b>i</b> remaining with Pacman <b>reduces by 1</b>.\n</p>\n\n<p>The Pacman repository contains a <b>special set</b> of softwares. The property which makes them special is that no other software depends on them.\nA <i>sub-set</i> of this special set is <i><b>ultra-special</b></i> and consists of <b>K</b> softwares.\nThese softwares are denoted as <b>S<sub>1</sub></b>, <b>S<sub>2</sub></b>, ... , <b>S<sub>K<sub></b>.\n</p>\n\n<p>\nFind the maximum number of <b>distinct</b> <b>ultra-special</b> softwares that you can <b>completely install</b>.\n</p>\n\n<h3>Input</h3>\n<p>\nFirst line contains a single integer <b>T</b> - the number of testcases.\n</p>\n<p>\n<b>T</b> testcases follow which have the following format:\n</p>\n<p>\nFirst line contains 2 space-separated integers <b>N</b> and <b>K</b> - the total number of softwares present in Pacman and the size of the set of ultra-special softwares which are to be completely installed respectively.\n</p>\n<p>\n<b>N</b> lines follow. Each line contains 2 space-separated numbers <b>X</b> and <b>Y</b>, denoting that <b>software X depends on software Y</b>.\n</p>\n<p>\nIn each of these <b>N</b> lines, no <b>X</b> is repeated. That means, each software from <b>1</b> to <b>N</b> occurs exactly once as <b>X</b> in the input. \n</p>\n<p>\nIf a certain software <b>X</b> doesn\u2019t have any dependency, the value of <b>Y</b> provided in the input would be <b>-1</b>.\n</p>\n<p>\nThe next line contains <b>N</b> space-separated integers <b>D<sub>i</sub></b> denoting the number of copies of the <b>i<sup>th</sup></b> software available in Pacman.\n</p>\n<p>\nThe last line of the testcase contains <b>K</b> space-separated integers <b>S<sub>j</sub></b>. The <b>j<sup>th</sup></b> integer represents an ultra-special software present in the repository.\n</p>\n\n<h3>Output</h3>\n<p>For each testcase, print the maximum number of ultra-special softwares that can be <b>completely installed</b> on a new line.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>3</sup></b></li>\n<li><b>1</b> \u2264 <b>K</b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>X</b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>Y</b> \u2264 <b>N</b>, <b>X</b> \u2260 <b>Y</b></li>\n<li><b>Y</b> = <b>-1</b> for software <b>X</b> which have no dependency</li>\n<li><b>1</b> \u2264 <b>S<sub>i</sub></b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>D<sub>i</sub></b> \u2264 <b>10<sup>5</sup></b></li>\n<li>There are no cyclic dependencies among softwares.</li>\n<li>Each software has at most 1 dependency.</li>\n</ul>\n\n<h3>Sample Input</h3>\n<b>Input:</b>\n<pre>2\n3 2\n1 -1\n2 1\n3 1\n1 1 1\n2 3\n3 2\n1 -1\n2 1\n3 1\n2 1 1\n2 3\n\n<b>Output:</b>\n1\n2\n</pre>\n</p>\n\n<h3>Explanation:</h3>\n\n<p><b>Testcase 1:</b></p>\n<p>\n<img src=\"https://s3.amazonaws.com/codechef_shared/download/upload/ACM16INF/I1.jpg\" height=\"200\"/>\n</p>\n<p>\nThe set of ultra-special softwares in this testcase is {Software 2, Software 3}.\n</p>\n<p>\nSoftware 2 and Software 3 both depend on Software 1. Suppose we try to install Software 2, we first need to install Software 1. Since we have  only <b>1</b> copy of Software 1 remaining, after installing it, we now have <b>zero</b> copies of Software 1 remaining.\n</p>\n<p>\nNow, in order to install Software 3, we need to freshly install Software 1. However, <b>zero</b> copies of Software 1 are left, so we cannot install Software 3.\n\nYou can verify that this is the maximum number of ultra-special softwares that you can install.\nHence, the answer is <b>1</b> in this case.\n</p>\n\n<p><b>Testcase 2:</b></p>\n<p>\n<img src=\"https://s3.amazonaws.com/codechef_shared/download/upload/ACM16INF/I2.jpg\" height=\"200\">\n</p>\n<p>\nThe set of ultra-special softwares in this testcase is {Software 2, Software 3}.\n</p>\n<p>\nAgain, Software 2 and 3 both depend on Software 1. Here, <b>2</b> copies of Software 1 are available. Hence, both - Software 2 as well as Software 3 can be completely installed. The answer in this case is <b>2</b>.\n</p>\n",
+    "category_name": "main",
+    "date_added": "28-12-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/INF16I",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1483075800,
+        "end_date": 1483093800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1794096967,
+        "submit_start_date": 1483075800,
+        "current": 1537434250
+    },
+    "user": {
+        "username": ""
+    }
+}

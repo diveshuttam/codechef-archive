@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nMancunian and his friend Sonu live in Mancunia. As a general rule, girls in Mancunia are very intelligent and Sonu is the best of them all. All of her friends compliment her by saying, that she is the smartest of the them, in other words, they say - \"Iska processor baaki junta se fast chalta hai\". So when Mancunian is faced with a tough problem which he himself is unable to solve, of course he turns to Sonu. But she needs help too, as the problem may be too much even for her. :(\n</p>\n\n<p>\nGiven a set of strings, a subset of that set is called its generating set if by using the strings of the generating set, you can create any string of the original set by concatenating the individual strings. Each of the strings of the generating set can be used multiple times (possibly zero).</p>\n\n<p>You are given a set of strings composed of lowercase Latin alphabet. Find the smallest size of its generating set.</p>\n\n<h3>Input</h3>\n<p>The first line contains an integer <b>N</b> denoting the number of strings in the set.</p>\n<p>The <b>i<sup>th</sup></b> of the next <b>N</b> lines contains the <b>i<sup>th</sup></b> string of the set.</p>\n\n<h3>Output</h3>\n<p>Output a single integer, the size of smallest generating set.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>200,000</b></li>\n<li><b>1</b> \u2264 <b>sum of lengths of strings</b> \u2264 <b>200,000</b></li>\n<li><b>All the strings in the input consist of lower case Latin alphabet (i.e. from 'a' to 'z').</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\na\nb\naa\nabaa\n\n<b>Output:</b>\n2\n</pre>\n\n<h3>Explanation</h3>\n<p><b>Example case</b> You can generate all strings of the set using the strings <b>a</b> and <b>b</b> only. For example, \"aa\" = \"a\" + \"a\" and \"abaa\" = \"a\" + b\" + \"a\" + \"a\".</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Chennai Onsite Mirror Contest 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1482211800,
+        "end_date": 1482229800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1793254704,
+        "submit_start_date": 1482211800,
+        "current": 1537434307
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Mancunian and Sonu Generate Strings",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin3",
+    "contest_code": "CHN16MOS",
+    "max_timelimit": "2",
+    "problem_code": "CHN16A"
+}

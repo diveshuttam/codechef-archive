@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>\n A little girl sweety with her boy friend shinchan Decided to take part in Code-rush coding contest in their collage TechFest Infotsav15.Shinchan asked her to help him out to solve the a programming task in the coding contest so they can celebrate the prize money. <br /><br />\nThere are 10^18 candles numbed from 1 , 2, 3\u2026.up to 10^18(1000000000000000000).and perform the <br /><br />\nFollowing simple algorithm:<br />\nfor i = 1 to 10^18 do : <br /><br />\ntoggle the all candles which are multiple of i. <br /><br />\nHere toggle means if i'th candle is \u201con\u201d then turn it into \u201coff\u201d or if it is \u201coff\u201d then turn it into \u201con\u201d.<br />\nAssuming before Appling the algorithm all candles are \u201coff\u201d. Then Shinchan ask Q queries to sweety after the algorithm performed on candles. <br /><br />\nIn each query for given candle number range [ L R ] (both inclusive) print the number of turned \u201con\u201d candles in the output. <br /><br />\nSince she is smart and managed to solve this problem. Can you do the same?</p>\n\n<h3>Input</h3>\n<ul>\n<li>The first line contains integer Q i.e. the number of queries.</li>\n<li>The next Q lines contains L and R.</li>\n</ul>\n\n<h3>Output</h3>\n<ul>\n<li>For each query print the number of torches 'ON'. </li>\n</ul>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>L</b> \u2264 <b>R</b>&lt;=<b>10^18</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n1 3\n1 5\n\n<b>Output:</b>\n1\n2\n\n</pre>\n<h3>Explanation</h3>\n<p><b> Torch No:\u00a0 \u00a0 1 2 3 \u2026.. upto 10^18 <br /><br />\n(initialy) \u00a0 \u00a0 \u00a0 0 0 0 \u2026\u2026.0 0 represents \u201cOFF\u201d 1 represents \u201cON\u201d <br /><br />\ni =1\u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0 \u00a0 \u00a0 1 1 1 \u2026..1 <br /><br />\ni=2 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a01 0 1 \u20260 {toggle the multiple of 2} <br /><br />\ni=3 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a01 0 0 ..0 {toggle the multiple of 3} <br /><br />\nso for first query : for L-R[1 - 3] only one candle is \u201cON\u201d at i=1. <br /><br />\nIn same way in range [1-5] only 2 candles will be \u201cON\u201d.</b></p>\n<p> ...</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "11-09-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeRush",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1442592000,
+        "end_date": 1442601000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1442601000,
+        "submit_start_date": 1442592000,
+        "current": 1537436043
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>ipg_2013</span>",
+    "problem_name": "Shinchan and Toggling Candles",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ipg_2013'>ipg_2013</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ipg_2013",
+    "contest_code": "CORU2015",
+    "max_timelimit": "1",
+    "problem_code": "LOVEA"
+}

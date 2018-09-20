@@ -1,0 +1,87 @@
+{
+    "announcements": "1) Event time: Start: March 1st, 2013 at 10:00 (IST) End: March 1st, 2013 at 13:00 (IST).<br/>\r\n2) Ranking will be done based on number of points. As all problem does not have same points. And in case of tie time will be considered.<br/>\r\n3) Ask queries at this mail ID: iisc.open13.coding@gmail.com either by chat or email.<br/>\r\n4) The Final Ranklist and Winners will be announced here at this page : <a href=http://events.csa.iisc.ernet.in/opendays2013/programming-contest-online.html>CSA Open Day</a><br/>\r\n<b>5) In case you haven't registered with us, please visit the above page and see details for registration. Do it now.</b>",
+    "ip": "149.129.135.113",
+    "code": "CDOL2013",
+    "duration": "180",
+    "name": "Code Olympics 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p>\u00a0</p> <p class=\"MsoNoSpacing\"><b>Rules and Regulations:</b></p> <p class=\"MsoNoSpacing\"><b><br /></b></p> <div lang=\"x-western\" class=\"moz-text-html\"> <div>1. Contest problems will become visible on\u00a0March 1st, 2013 at 10:00 AM (IST) and end at March 1st, 2013 at 13:00 PM (IST).</div> <div>2. The contest is for individuals. No teams are allowed. Any one can participate, but only students are eligible for prizes.</div> <div>3. Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting\u00a0questions clarifying the problem statement is ok.</div> <div>4. All languages supported on CodeChef are allowed.</div> <div>5. Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided. All white space characters in the output will be\u00a0ignored.</div> <div>6. Please contact\u00a0<a target=\"_blank\" href=\"mailto:iisc.open13.coding@gmail.com\">iisc.open13.coding@gmail.com</a> for any queries during the contest.</div> <div>7. Check your timezone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+Code+Olympics+2013&amp;iso=20130301T10&amp;p1=44&amp;ah=3\" target=\"_blank\">here</a>.</div> <div></div> <br /><br /> <div><b>Judging Criteria:</b></div> <div><b><br /></b></div> <div>1. Problem CDOLP2 and CDOLP5 have 30 points and remaining have 20 points.</div> <div>2. Users are ranked according to the points earned solved. Ties will be broken by the total time for\u00a0each user in ascending order of time.</div> <div>3. The decision of the organizers in declaring the results will be final. No queries in this regard\u00a0will be entertained.</div> <div>4. Any participant found to be indulging in any form of malpractice will be immediately\u00a0disqualified.</div> <div>5. The total time is the sum of the time consumed for each problem solved. The time consumed for\u00a0a solved problem is the time elapsed from the beginning of the contest to the submission of the\u00a0first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong\u00a0answer, Time limit exceeded, Runtime Error, Compilation Error ). There is no time consumed for a\u00a0problem that is not solved.</div> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/CDOL2013/1424957744.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CDOLP1": {
+            "allow_submission": false,
+            "name": "Maximum Threat",
+            "category_name": "main",
+            "accuracy": 51.52,
+            "successful_submissions": "48",
+            "code": "CDOLP1",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CDOLP2": {
+            "allow_submission": false,
+            "name": "Undisputed Best Team",
+            "category_name": "main",
+            "accuracy": 20,
+            "successful_submissions": "4",
+            "code": "CDOLP2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CDOLP4": {
+            "allow_submission": false,
+            "name": "CSA Garden Snakes",
+            "category_name": "main",
+            "accuracy": 70,
+            "successful_submissions": "27",
+            "code": "CDOLP4",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CDOLP3": {
+            "allow_submission": false,
+            "name": "Dwarf City of Moria",
+            "category_name": "main",
+            "accuracy": 22.61,
+            "successful_submissions": "41",
+            "code": "CDOLP3",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CDOLP5": {
+            "allow_submission": false,
+            "name": "No Change In Flow",
+            "category_name": "main",
+            "accuracy": 75,
+            "successful_submissions": "6",
+            "code": "CDOLP5",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1362123000,
+        "current": 1537438470,
+        "freezing": 0,
+        "start": 1362112200
+    },
+    "user": {
+        "username": ""
+    }
+}

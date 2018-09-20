@@ -1,0 +1,33 @@
+{
+    "problem_code": "EZDP",
+    "problem_author": "gvaibhav21",
+    "contest_name": "Insomnia 2018 (Rated)",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #D0011B;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>7&#9733;</span><span>gvaibhav21</span>",
+    "problem_name": "DP Made Easy",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "INSO2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/gvaibhav21'>gvaibhav21</a>, <a class='problem-tag-small ' href='/tags/problems/inso2018'>inso2018</a>, <a class='problem-tag-small ' href='/tags/problems/insomnia18'>insomnia18</a>, <a class='problem-tag-small ' href='/tags/problems/multiset'>multiset</a>, <a class='problem-tag-small ' href='/tags/problems/shortest-path'>shortest-path</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><br>\nConsider a 2 dimensional minimum Dynamic Programming problem represented as <b>DP[i][j]</b>.<br>\nInitially we are given <b>N</b> quadratic functions of the form <b>\u0192<sub>i</sub>(x)</b> <b>=</b> <b>a<sub>i</sub>*x<sup>2</sup> + b<sub>i</sub>*x<sup>1</sup> + c<sub>i</sub></b>, where <b>a<sub>i</sub> >= b<sub>i</sub> >= c<sub>i</sub> >= 0</b>.<br>\n<br>\n<ul>\n<li>Transition of the DP in 1st dimension is given as some transition pairs with a cost associated with it. <br>\nFor example, given <b>i</b> one can transit to <b>v<sub>1</sub>, v<sub>2</sub>, v<sub>3</sub> ... v<sub>x</sub></b> with cost <b>w<sub>1</sub>, w<sub>2</sub>, w<sub>3</sub> ... w<sub>x</sub></b> respectively then<br>\n<b>DP[i][j] = min( DP[v<sub>k</sub>][j] + w<sub>k</sub> )</b> \u2200 <b>k <= x</b> and \u2200 <b>j</b>.<br>\nIf it is possible to transit from <b>i</b> to <b>v<sub>k</sub></b> with cost <b>w<sub>k</sub></b> then it is also possible to transit from <b>v<sub>k</sub></b> to <b>i</b>  with cost <b>w<sub>k</sub></b>.</li><br>\n<li>Transition in 2nd dimension is given as -<br>\n<b>DP[i][j] = min ( DP[i][j-d] + <b>\u0192<sub>i</sub>(d)</b> )</b> \u2200 <b>d <= j-1</b>.<br></li>\n<br>\n</ul>\nAlso we are given that <b>DP[1][1] = 0.</b><br><br>\nThere are <b>Q</b> queries, each query representing change in \n<b>\u0192<sub>i</sub>(x)</b> and is given as <b>i a<sub>i</sub> b<sub>i</sub> c<sub>i</sub></b>, where <b>a<sub>i</sub> >= b<sub>i</sub> >= c<sub>i</sub> >= 0</b>. After this query <b>\u0192<sub>i</sub>(x)</b> <b>=</b> <b>a<sub>i</sub>*x<sup>2</sup> + b<sub>i</sub>*x<sup>1</sup> + c<sub>i</sub></b>.<br>\nFor each query find <b>DP[N][N]</b>.<br>\n\n\n<h3>Input Format:</h3>\nFirst line of the input contains 3 space separated integers denoting <b>N, M, Q</b> where <b>M</b> denotes number of valid transition pairs given.<br>\n\nNext <b>M</b> lines contains 3 space separated integers <b>u, v, w</b> which denotes we can transit from <b>u</b> to <b>v</b> and from <b>v</b> to <b>u</b> in the first dimension with cost <b>w</b>.<br>\n\nEach of the next <b>N</b> lines contains 3 space separated integers <b>a<sub>i</sub>, b<sub>i</sub>, c<sub>i</sub></b> representing <b>\u0192<sub>i</sub>(x)</b>. Next <b>Q</b> lines contains queries as described in the problem statement.<br>\n<br>\n\n<h3>Output Format:</h3>\nAfter each query print a line containing the value of <b>DP[N][N]</b>.<br>\n<br>\n\n<h3>Constraints:</h3>\n<ul>\n<li>1<= <b>N</b> <= 100000<br></li>\n<li>1<= <b>M</b> <= 400000<br></li>\n<li>1<= <b>Q</b> <= 100000<br></li>\n<li>0<= <b>c<sub>i</sub></b> <= <b>b<sub>i</sub></b> <= <b>a<sub>i</sub></b> <= 100000<br></li>\n</ul>\n<p></p>\n\n<h3>Sample Input:-</h3>\n2 1 2<br>\n2 1 5<br>\n1 1 1<br>\n5 4 1<br>\n2 2 2 1<br>\n1 3 2 2<br>\n<br>\n\n<h3>Sample Output:</h3>\n8<br>\n10",
+    "category_name": "main",
+    "date_added": "19-03-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/EZDP",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1521883800,
+        "end_date": 1521901800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1521901800,
+        "submit_start_date": 1521883800,
+        "current": 1537432763
+    },
+    "user": {
+        "username": ""
+    }
+}

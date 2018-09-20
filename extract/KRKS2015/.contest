@@ -1,0 +1,147 @@
+{
+    "announcements": "<p>\r\nTop 10 contestants in the leaderboard, please mail your Name, Contact Number, K! ID (register <a href=\"http://kurukshetra.org.in/#/\"> here </a>, if you didn't register before) and postal address to opc@kurukshetra.org.in\r\n</p>\r\n\r\n<p>\r\nThe contest is over! Thanks everyone for participating. Congratulations to the winners.<br>\r\nIf you enjoy solving puzzles by coding, you can participate in Athena, a math-coding event. The contest starts at 8pm IST, 25th January. <a href=\"http://athena.kurukshetra.org.in\"> Contest link </a> <br>\r\nYou can view some sample questions for the event <a href=\"https://www.facebook.com/events/931848540181442/\"> here </a>\r\n</p>\r\nProblem statement of Towers (K15C) has been updated.<br>\r\nRanklist can be found here  http://www.codechef.com/rankings/KRKS2015",
+    "ip": "149.129.135.113",
+    "code": "KRKS2015",
+    "duration": "300",
+    "name": "Kurukshetra 2015",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div><b>Rules and Regulations:</b></div> <div> <ul> <li>Contest problems will become visible on 24th January, 2015 at 2000 HRS (IST) and end on 25th January, 2015 at 0100 HRS (IST). Check your time zone <a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+Kurukshetra+2015&amp;iso=20150124T20&amp;p1=44&amp;ah=5\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at feedback@codechef.com.</li> <li>Discussing problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>If you do not have a CodeChef ID create one\u00a0<a href=\"http://codechef.com/user/register\" target=\"_blank\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided.</li> <li>All participants are expected to abide by the\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a></li> <li>Please contact\u00a0<a target=\"_blank\" href=\"mailto:opc@kurukshetra.org.in\">opc@kurukshetra.org.in</a> for any queries during the contest.</li> </ul> </div> <div><b>Judging Criteria:</b> <ul> <li>All the problems have same points alloted to them.</li> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved.</li> </ul> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/sites/default/files/uploads/landing_page_banners/banner-compete.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "K15G": {
+            "allow_submission": false,
+            "name": "Pipes",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "K15G",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "K15B": {
+            "allow_submission": false,
+            "name": "Message Passing",
+            "category_name": "main",
+            "accuracy": 26.97,
+            "successful_submissions": "300",
+            "code": "K15B",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "K15J": {
+            "allow_submission": false,
+            "name": "Holy Sequence",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "K15J",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "K15H": {
+            "allow_submission": false,
+            "name": "Brienne and her sword",
+            "category_name": "main",
+            "accuracy": 18.18,
+            "successful_submissions": "8",
+            "code": "K15H",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "K15A": {
+            "allow_submission": false,
+            "name": "Thiruttu pasanga 2",
+            "category_name": "main",
+            "accuracy": 35.29,
+            "successful_submissions": "816",
+            "code": "K15A",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "K15I": {
+            "allow_submission": false,
+            "name": "Dexter is drunk",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "K15I",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "K15D": {
+            "allow_submission": false,
+            "name": "Twins and kids island",
+            "category_name": "main",
+            "accuracy": 21.19,
+            "successful_submissions": "220",
+            "code": "K15D",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "K15C": {
+            "allow_submission": false,
+            "name": "Towers",
+            "category_name": "main",
+            "accuracy": 8.08,
+            "successful_submissions": "26",
+            "code": "K15C",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "K15E": {
+            "allow_submission": false,
+            "name": "Prakash and his adventure",
+            "category_name": "main",
+            "accuracy": 4.19,
+            "successful_submissions": "25",
+            "code": "K15E",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "K15K": {
+            "allow_submission": false,
+            "name": "Save Sita",
+            "category_name": "main",
+            "accuracy": 16,
+            "successful_submissions": "4",
+            "code": "K15K",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "K15F": {
+            "allow_submission": false,
+            "name": "Flappy Bird",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "K15F",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1422127800,
+        "current": 1537436940,
+        "freezing": 0,
+        "start": 1422109800
+    },
+    "user": {
+        "username": ""
+    }
+}

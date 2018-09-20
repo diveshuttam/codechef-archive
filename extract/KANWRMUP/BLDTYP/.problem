@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Every person's blood has 2 markers called ABO alleles. Each of the markers is \n\nrepresented by one of three letters: A, B, or O. This gives six possible combinations of \n\nthese alleles that a person can have, each of them resulting in a particular ABO blood \n\ntype for that person.\n\n<table>\n<tr>\n     <td><b>Combination</b></td>\n     <td><b>ABO Blood Type</b></td>\n  </tr>\n  <tr>\n     <td>AA</td>\n     <td>A</td>\n  </tr>\n<tr>\n     <td>AB</td>\n     <td>AB</td>\n  </tr>\n<tr>\n     <td>AO</td>\n     <td>A</td>\n  </tr>\n<tr>\n     <td>BB</td>\n     <td>B</td>\n  </tr>\n<tr>\n     <td>BO</td>\n     <td>B</td>\n  </tr>\n<tr>\n     <td>OO</td>\n     <td>O</td>\n  </tr>\n\n</table>\n\n\nLikewise, every person has two alleles for the blood Rh factor, represented by the \n\ncharacters + and -. Someone who is \"Rh positive\" or \"Rh+\" has at least one + allele, but \n\ncould have two. Someone who is \"Rh negative\" always has two - alleles.\n\nThe blood type of a person is a combination of ABO blood type and Rh factor. The blood \n\ntype is written by suffixing the ABO blood type with the + or - representing the Rh \n\nfactor. Examples include A+, AB-, and O-.\n \nBlood types are inherited: each biological parent donates one ABO allele (randomly chosen \n\nfrom their two) and one Rh factor allele to their child. Therefore 2 ABO alleles and 2 Rh \n\nfactor alleles of the parents determine the child's blood type. For example, if both \n\nparents of a child have blood type A-, then the child could have either type A- or type O- \n\nblood. A child of parents with blood types A+ and B+ could have any blood type.\n \nIn this problem, you will be given the blood type of either both parents or one parent and \n\na child; you will then determine the (possibly empty) set of blood types that might \n\ncharacterize the child or the other parent. \n\nNote: an uppercase letter \"Oh\" is used in this problem to denote blood types, not a digit \n\n(zero).\n\n<h3>Input</h3>\n<p>The input consists of multiple test cases. Each test case is on a single line in the \n\nformat: the blood type of one parent, the blood type of the other parent, and finally the \n\nblood type of the child, except that the blood type of one parent or the child will be \n\nreplaced by a question mark. To improve readability, white-space may be included anywhere \n\non the line except inside a single blood type specification. \nThe last test case is followed by a line containing the letters E, N, and D separated by \n\nwhite space.\n\n<h3>Output</h3>\n<p>For each test case in the input, print the case number (beginning with 1) and the blood \n\ntype of the parents and the child. If no blood type for a parent is possible, print \n\n\"IMPOSSIBLE\". If multiple blood types for parents or child are possible, print all \n\npossible values in a comma-separated list enclosed in curly braces. The order of the blood \n\ntypes inside the curly braces does not matter.\nThe sample output illustrates multiple output formats. Your output format should be \n\nsimilar.\n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\nO+ O- ?\nO+ ? O-\nAB- AB+ ?\nAB+ ? O+\nE N D\n\n<b>Output:</b>\nCase 1: O+ O- {O+, O-}\nCase 2: O+ {A-, A+, B-, B+, O-, O+} O-\nCase 3: AB- AB+ {A+, A-, B+, B-, AB+, AB-}\nCase 4: AB+ IMPOSSIBLE O+\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-10-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Kanpur ACM ICPC Warm-up Contest",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1318694400,
+        "end_date": 1318703400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1318703400,
+        "submit_start_date": 1318694400,
+        "current": 1537439116
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Blood Type",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "KANWRMUP",
+    "max_timelimit": "1",
+    "problem_code": "BLDTYP"
+}

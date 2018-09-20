@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Byteland is a country whose population squares every year. The president of Byteland is aware of the situation and wants to take proper steps to control the population. For this he wants to estimate the population of the country for a given year. As President is weak in Math, He needs your help to solve this problem.\n\n<h3>Input</h3>\n<p>First line of Input Contains T, the number of test cases.\nFor each test case there is a separate line containing two integers,The population of the country in the\nyear 2000(pi) and the year for which you have to find the population(yi).\n\n<h3>Output</h3>\n<p>For each test case output on a separate line the expected population in the year yi.\nAs this can be very large find its modulo 10^9+7.\n\n<h3>constraints</h3>\n1<=T<=300</br>\n1<=pi<=10</br>\n2000<=yi<=2030</br>\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n5 2002\n3 2000\n\n<b>Output:</b>\n625\n3\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-09-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Techno Shine 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1348761600,
+        "end_date": 1348770600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1659764947,
+        "submit_start_date": 1348761600,
+        "current": 1537438716
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>deveshranjan</span>",
+    "problem_name": "Population Estimation",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/deveshranjan'>deveshranjan</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "deveshranjan",
+    "contest_code": "TCSN2012",
+    "max_timelimit": "0.1",
+    "problem_code": "TSX02"
+}

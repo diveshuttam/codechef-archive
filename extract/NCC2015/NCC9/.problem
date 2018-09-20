@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>The NCC judge</b> is down and you are given the responsibility of ranking the contestants.<br />\nYou are given the list of submissions of the entire contest. For each submission, a single line consisting of Player Name, Question No. and Submission Points will be given. <br /><br />\nYou have to rank the players and print the name of player who is at rank <strong>r</strong>.</p>\n<p>Questions numbers are numbered <strong>1-indexed</strong>.<br /><br />\nSome <strong>rules</strong> that are to be followed are given below:<br /><br /><br />\n<b>Rules:</b><br /></p>\n<ul>\n<li>1: The score of a player is the sum of the maximum score he scored in each of the questions he attempted.</li>\n<li>2: For each player, consider only the maximum points obtained by player for a particular question.</li>\n<li>3: In case of ties, player with lesser number of submissions will have a better rank, i.e., he will rank higher.</li>\n<li>4: Ranks is 1-indexed.</li>\n</ul>\n<p><br /><br />\n<b>Note:</b><br /><br />\n There is no test case where the no. of submissions and the score of more<br />\nthan 1 players are both equal.<br /><br /><br />\n<b>Input:</b><br /><br />\nThe first line will consist the total number of players<strong>(p)</strong>, total submissions<strong>(s)</strong>, total<br />\nquestions<strong>(q)</strong> and max achievable score for questions<strong>(m)</strong>(Maximum achievable score for all the questions is same) all separated by space.<br /><br />\nNext line will contain <strong>r</strong>. It will be followed by <strong>s</strong> lines consisting the player name,question number and points (separated by space) scored in that question. Player name will be a string of not more than 25 characters.<br /><br /><br />\n<b>Output:</b><br /><br />\nOutput the name of player at <strong>r<sup>th</sup></strong> rank on a single line.<br /><br /><br />\n<b>Constraints:</b><br /><br />\n1 &lt;= <strong>p</strong> &lt;= 10<br /><br />\n1 &lt;= <strong>s</strong> &lt;= 10<sup>7</sup><br /><br />\n1 &lt;= <strong>q</strong> &lt;= 25<br /><br />\n1 &lt;= <strong>m</strong> &lt;= 100<br /><br />\n1 &lt;= <strong>r</strong> &lt;= p<br /><br /><br />\n<b>Sample test case:</b><br /><br />\n<b>#1</b><br /><br />\n<b>Input:</b><br /><br />\n4 18 7 7<br /><br />\n1<br /><br />\na 1 7<br /><br />\nb 3 6<br /><br />\nb 2 5<br /><br />\nc 4 7<br /><br />\nd 1 6<br /><br />\nd 2 5<br /><br />\nd 1 6<br /><br />\na 1 6<br /><br />\nb 7 3<br /><br />\nc 7 3<br /><br />\nc 6 7<br /><br />\na 3 6<br /><br />\na 2 5<br /><br />\nb 2 5<br /><br />\nc 4 6<br /><br />\nd 6 7<br /><br />\nd 6 6<br /><br />\nb 3 5<br /><br /></p>\n<p><b>Output:</b><br /><br />\na<br /><br /><br />\n<b>Explaination:</b><br /><br />\nHere the scores are:<br /><br />\na-->18<br /><br />\nb-->14<br /><br />\nc-->17<br /><br />\nd-->18<br /><br />\nWe have to find first ranked player,but here there is tie between 'a' and 'd' , but total no. of<br />\nsubmissions are less for 'a', so 'a' is ranked <strong>first</strong> and 'b' <strong>second</strong>.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "National Computing Contest 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1427556600,
+        "end_date": 1427563800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1427739480,
+        "submit_start_date": 1427556600,
+        "current": 1537436483
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>psmlbhor</span>",
+    "problem_name": "Help the judge!",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/psmlbhor'>psmlbhor</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "psmlbhor",
+    "contest_code": "NCC2015",
+    "max_timelimit": "1",
+    "problem_code": "NCC9"
+}

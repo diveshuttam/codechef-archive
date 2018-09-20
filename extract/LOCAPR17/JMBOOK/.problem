@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Little Jenny got a magic book on her Birthday. Magic book is not like a normal book it has the following properties:\n   <ul>\n   <li> It contains infinite number of pages. Each page has one unique page_number.</li>\n   <li> Magic book contains only pages whose page number is combination of 1,3 and 5. (1, 3, 5, 11, 13, 15, 31, 33, 35, 51, 53, 55, 111...).</li>\n   </ul>\n   </br>\n   Now his friend jack gives her a task to count the number of pages for which <b>F</b>(page_number)=X. But this count is very big, so that jack wants this count with modulus 10^9+7.</br>\n   <b>F</b> is a function described below</br>\n   </br>\n   </p>\n   <pre>\n   function <b>F</b>(page_number){\n   \t\tans=0\n   \t\twhile(page_number>0){\n   \t\t\tans+=((page_number%10))%4\n   \t\t\tpage_number/=10\n   \t\t}\n   \t\treturn ans\n   }\n   </pre>\n   <p>\n   But Jenny is busy in playing with other gifts of her birthday, so she wants your help to solve this problem.\n</p>\n\n\n\n<h3>Input</h3>\n<p>The first line contains an integer T, total number of testcases. Then follow T lines, each line contains X as described above.</p>\n\n\n\n<h3>Output</h3>\n<p>For every test case print the output in a new line.</p>\n\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>X</b> \u2264 <b>10<sup>6</sup></b></li>\n</ul>\n\n\n<h3>Subtaks</h3>\n<ul>\n<li><b>Subtask #1 [40 points]:</b> <b>1 \u2264 </b> <b>X</b>\u2264 <b>10<sup>3</sup></b></li>\n<li><b>Subtask #2 [60 points]:</b> No additional constraints</li>\n</ul>\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n2\n\n<b>Output:</b>\n4\n</pre>\n\n<h3>Explanation</h3>\n<p>For X=2 possible pages will be 11,15,51,55.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-04-2017",
+    "is_direct_submittable": false,
+    "contest_name": "April LoC Competitive Programming Marathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1493317800,
+        "end_date": 1493576940,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1493576940,
+        "submit_start_date": 1493317800,
+        "current": 1537433901
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>anonymous_b0y</span>",
+    "problem_name": "Jenny and Magic Book",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anonymous_b0y'>anonymous_b0y</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "anonymous_b0y",
+    "contest_code": "LOCAPR17",
+    "max_timelimit": "1",
+    "problem_code": "JMBOOK"
+}

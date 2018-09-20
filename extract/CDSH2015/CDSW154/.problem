@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>There is going to be a Cricket match tonight for which <b>N</b> guests are invited. There are <b>9</b> rows, numbered from <b>1 to 9</b> in the stadium, each having several seats. Each row as well as each guest has some priority.</p>\n<p><b>Note:</b></p>\n<ul>\n<li>Guest <b>1</b> is to be prioritized more than guest <b>2</b>. Similarly guest <b>2</b> is to be more prioritized than guest <b>3</b> and so on.</li>\n<li>Row <b>1</b> is superior to row<b>2</b>. Similarly row <b>2</b> is superior to row <b>3</b> and so on.</li>\n</ul>\n<p><br /><br />\n<b>Arrangement Criteria:</b><br />\n<br /></p>\n<ul>\n<li>All the guests should get a seat of their choice.</li>\n<li>Each guest has a set of preferred rows in which they want a seat.</li>\n</ul>\n<p><br /></p>\n<p>\nSo now your work comes into play. :P<br />\nYou need to arrange them in different rows of their choice. No, its not that easy...you also need to prioritize. :)</p>\n<p>You need to find an arrangement in which guest <b>1</b> gets the seat in the best row possible out of his choice satisfying the arrangement criteria. Then you need to assign best seat to guest <b>2</b> and so on. So your task is to generate an arrangement prioritizing guests from <b>1 to N </b>in a way such that it always complies with the arrangement criteria.</p>\n\n<h3>Input</h3>\n<ul>\n<li>First line consists of a number <b>N</b>. </li>\n<li>Next line will have 9 space separated integers, <b>A<sub>1</sub> to A<sub>9</sub></b>, denoting empty seats in each of the 9 rows respectively.</li>\n<li>This is followed by <b>N</b> lines, each of the form <b>K</b> followed by<b> K</b> space separated integers <b>B<sub>1</sub> to B<sub>K</sub></b>  denoting the seat preference of each guest from <b>1 to N</b>.</li>\n</ul>\n\n<h3>Output</h3>\n<ul>\n<li>Print the <b>N</b> integers denoting the row number for each guest. If no arrangement is possible, print \"It seems MSG\" without quotes.</li>\n</ul>\n\n<h3>Constraints</h3>\n<li><b>1</b> \u2264 <b> N</b>  \u2264 <b>100</b> </li>\n<li><b>1</b>  \u2264  <b>K</b>  \u2264  <b>9</b> </li>\n<li><b>0</b>  \u2264  <b>A<sub>i</sub> </b> \u2264  <b>9</b> </li>\n<li><b>1</b>  \u2264  <b>B<sub>i</sub></b>   \u2264 <b>9</b> </li>\n<h3>Example</h3>\n<pre><b>Input</b>\n5\n1 1 1 1 1 0 0 0 0\n5 1 2 3 4 5\n1 1\n5 1 2 3 4 5\n5 1 2 3 4 5\n5 1 2 3 4 5\n\n<b>Output</b>\n2 1 3 4 5\n</pre>\n<h3>Explanation</h3>\n<ul>\n<li>Guest 1 should be allotted row 1 but as guest 2 has only row 1 as preference so we will not be able to arrange them. So guest 2 will be allotted row 1. Then Guest 1 will be allotted Row 2 followed by row 3 to guest 3, row 4 to guest 4 and row 5 to guest 5 as guest 3 has high priority than Guest 4 and Guest 5. </li>\n</ul>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CODESHOW 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1424878200,
+        "end_date": 1424889600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1424889600,
+        "submit_start_date": 1424878200,
+        "current": 1537436729
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>pranjuldb</span>",
+    "problem_name": "Arrange the seats",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pranjuldb'>pranjuldb</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pranjuldb",
+    "contest_code": "CDSH2015",
+    "max_timelimit": "1",
+    "problem_code": "CDSW154"
+}

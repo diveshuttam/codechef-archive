@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Harish has decided to go to Arya's hotel this morning. We all know he is crazy for masala dosas. And as usual he is always hungry. He decided to order all the masala dosas at once. But then he realised that he did not have enough money to buy all of them. So he decided to share the amount with his friend Ozil. But both of them are fans of even numbers. Both of them says they want to eat even number of dosas. Ozil is ready to put the share if and only if , he is sure that he can get even number of dosas. So given N number of dosas can you please help Harish to decide, if he will be able to get all the dosas at once from the hotel.</p>\n<h3>Input</h3>\n<p>The first line of input contains an integer T which denotes the number of test files. Next T lines contains an integer N where N is the total number of dosas.</p>\n<h3>Output</h3>\n<p>Print \"YES\" if both can get even number of dosas. If it is not possible print \"NO\".</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10^6</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^18</b></li>\n</ul>\n<h3>Subtasks</h3>\n<p>\n<b>Subtask #1 : (20 points)</b></p>\n<ul>\n<b>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li>1 \u2264 N\u2264 100</li>\n<p></p></b>\n</ul>\n\n<p>\n<b>Subtask 2 : (80 points) </b><br /></p>\n<ul>\n<b>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10^6</b></li>\n<li>1 \u2264 N\u2264 10^18</li>\n<p></p></b>\n</ul>\n\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2 \n16 \n27\n<b>Output:</b>\nYES\nNO\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-05-2016",
+    "is_direct_submittable": false,
+    "contest_name": "May LoC Competitive Programming Marathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, GO, NODEJS, HASK, D, PERL, FORT, ADA, CAML, ICK, BF, ASM, CLPS, ICON, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, JS, ERL, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1464287400,
+        "end_date": 1464632940,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1464632940,
+        "submit_start_date": 1464287400,
+        "current": 1537434879
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>bipin2</span>",
+    "problem_name": "Hungry Harish ",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bipin2'>bipin2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bipin2",
+    "contest_code": "LOCMAY16",
+    "max_timelimit": "1",
+    "problem_code": "MDOSA"
+}

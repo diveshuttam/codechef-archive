@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>There are T trains on station S. They need to go to station R. i<sup>th</sup> train takes M<sub>i</sub> time to go from S to R and should ideally be at station R by time D<sub>i</sub>. At one time, only one train could be travelling from S to R i.e. next train would start from S only after the previous train has reached R. <br/></br/></p>\n<p>Prepare a sequence in which trains should leave so that the maximum time by which a train is late is minimized.</p>\n<h3>Input</h3>\n<p>The first line contains the number of trains T. Each of the next T lines contains two integers D<sub>i</sub> and M<sub>i</sub>.</p>\n<h3>Output</h3>\n<p>Output T lines. The i<sup>th</sup> line should contain the minimum maximum lateness you can obtain by optimally sequencing the first i trains on your list. See the sample input for clarification.</p>\n<h3>Constraints:</h3>\n<p>1 &lt;= T &lt;= 100000<br/><br />\n1 &lt;= D<sub>i</sub> &lt;= 100000<br/><br />\n1 &lt;= M<sub>i</sub> &lt;= 1000</br/></br/></p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n5\n2 2\n1 1\n4 3\n10 1\n2 1\n\n\n<b>Output:</b>\n0\n1\n2\n2\n3\n</pre><p><br/><br />\n<b>Explanation:</b><br />\nWith only the first train, it reaches in 2 minutes, and so lateness = 0.<br/><br />\nWith the first two trains, the optimal sequence can be:<br />\ntrain 2, train 1. Train 1 is late by 1 unit of time. <br/><br />\nWith the first three trains, the optimal sequence can be: train 2, train 1, train 3.</br/></br/></br/></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-11-2012",
+    "is_direct_submittable": false,
+    "contest_name": "ZERO1",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1353061800,
+        "end_date": 1353148200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1353148200,
+        "submit_start_date": 1353061800,
+        "current": 1537438630
+    },
+    "problem_author_html_handle": "shivamagarwal",
+    "problem_name": "Sequencing Trains",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shivamagarwal'>shivamagarwal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shivamagarwal",
+    "contest_code": "ZERO1",
+    "max_timelimit": "0.41",
+    "problem_code": "TF05"
+}

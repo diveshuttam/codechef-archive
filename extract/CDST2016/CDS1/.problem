@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Ram has invented a magic sequence. Each element of the sequence is defined by the same recursive definition - take some linear combination of previous elements (whose coefficients are fixed) and add to them the n-th powers of some integers. Formally: Xn = Xn-1*a1 + ... + Xn-i*ai + b1*d1^n + ... + bj*dj^n, for some integer constants p,q,a1,...,ap,b1,..., bq,d1,..., dq. Of course, as the values can quickly grow, he computed them modulo a fixed value: 10^6. He wrote many consecutive values of the sequence, but then he lost most of his work. All he has now, is 10 consecutive values taken from somewhere in the sequence (he doesn't know at what n they begin), and the recursive rule. And he would like to recover the sequence, or at the very least, to be able to write the next 10 values taken from the sequence.\n</p>\n<h3>Input</h3>\n<p>First, two integers, 0&lt;=p&lt;=4, 0&lt;=q&lt;=4. Then come the descriptions of the coefficients, -100 &lt;= a1,...,ap,b1,..., bq,d1,..., dq &lt;= 100. Then, the following 10 integers are Xn,X(n+1),...,X(n+9) for some unknown n.</p>\n<h3>Output</h3>\n<p>10 integers - X(n+10),X(n+11),...,X(n+19)</p>\n<h3>Example</h3>\n<p>Input:<br />\n<br />1 1<br />\n<br />1<br />\n<br/>1<br />\n<br/>1<br />\n<br/>11 12 13 14 15 16 17 18 19 20</br/></br/></br/></p>\n<p>Output:<br />\n<br/>21 22 23 24 25 26 27 28 29 30</br/></p>\n<p>Input:<br />\n<br/>1 1<br />\n<br/>1<br />\n<br/>1<br />\n<br/>2<br />\n<br/>1 3 7 15 31 63 127 255 511 1023\n</br/></br/></br/></br/></br/></p>\n<p>Output:<br />\n<br/>2047 4095 8191 16383 32767 65535 131071 262143 524287 48575</br/></p>\n<p>Input:<br />\n<br/>2 0<br />\n<br/>1 1<br />\n<br/>1 1 2 3 5 8 13 21 34 55\n</br/></br/></br/></p>\n<p>Output:<br />\n<br/>89 144 233 377 610 987 1597 2584 4181 6765</br/></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "CodeStorm",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1458534600,
+        "end_date": 1458732600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1458732600,
+        "submit_start_date": 1458534600,
+        "current": 1537435045
+    },
+    "problem_author_html_handle": "akashratan",
+    "problem_name": "Sequence",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/akashratan'>akashratan</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "akashratan",
+    "contest_code": "CDST2016",
+    "max_timelimit": "1",
+    "problem_code": "CDS1"
+}

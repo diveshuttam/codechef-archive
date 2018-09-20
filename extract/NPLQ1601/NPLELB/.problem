@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nAlice likes to invent new games very often. One fine day she came up with a game called <b>\"Infinity\"</b>.\nThe game runs infinitely and is played by infinite players (strange huh?).<br>\nThe rules of the game are as follows:<br>\n<ul>\n<li>Of the infinite players playing the game, only <b>2</b> are active at a time. One is <b>\"striker\"</b> and the other one <b>\"unstriker\"</b>.</li>\n<li>They have a <b>dice</b> having <b>8</b> faces with each face having a number from <b>-1 to 6 (-1,0,1,2,...).</b></li>\n<li>Every minute the <b>striker</b> rolls the dice.<br>\n<ul>\n<li>If the number on dice is <b>-1</b> then the <b>striker</b> is said to be <b>\"Knoced Down\"</b> and has to leave the game and new player takes his place and becomes striker.</li>\n<li>If it is something else then this number is added to the <b>\"Total Score\"</b> as well as the score of the player. Also if this number is <b>odd</b> then the <b>unstriker</b> becomes <b>striker</b> and <b>striker</b> becomes <b>unstriker</b>.</li>\n</ul>\n<li>After every <b>x</b> minutes, comes a <b>\"Swap Phase\"</b> when the striker becomes unstriker and the unstriker becomes striker.\n<b>Note:</b> The Swap Phase occurs after the above rules applicable for the dice throw are followed. </b>\n</li>\n</ul>\nYou are given the numbers appeared on dice in first <b>n</b> rolls. Simulate the game and after every striker is Knocked Down and leaves the game print <b>2 integers</b> denoting his score and current Total Score. Finally after the <b>n</b> minutes output the Total Score.\n</p>\n\n<h3>Input</h3>\n<p>\nFirst line contains two integer <b>n</b>, denoting the number of minutes of the game whose details are given and <b>x</b>, the time inteval in which the Swap Phase occurs.<br>\nNext <b>n</b> lines contain an integer (Y) each denoting the number appearing on the dice.<br>\n</p>\n\n<h3>Output</h3>\n<p>Whenever a player is Knocked Down and has to leave the game print <b>2 integers</b>, his score and current Total Score at that point respectively.<br> Finally print the Total Score.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> <= <b>n</b> <= <b>10<sup>5</sup></b></li>\n<li><b>1</b> <= <b>x</b> <= <b>n</b></li>\n<li><b>-1</b> <= <b>Y</b> <= <b>6</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n8 5\n3\n2\n-1\n6\n-1\n2\n-1\n5\n\n<b>Output:</b>\n2 5\n6 11\n5 13\n18\n\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> <br>\n<b>1:</b> Player 1 is striker and Player 2 is unstriker. Player 1 scores 3. Total score 3. <br>\n<b>2:</b> Player 2 is striker and Player 1 is unstriker. Player 2 scores 2. Total score 5. <br>\n<b>3:</b> Player 2 is striker and Player 1 is unstriker. Player 2 Knoced Down. Player 3 becomes striker. <br>\n<b>4:</b> Player 3 is striker and Player 1 is unstriker. Player 3 scores 6. Total score 11. <br>\n<b>5:</b> Player 3 is striker and Player 1 is unstriker. Player 3 Knocked Down. Player 4 becomes striker. <br>\n<b>Swap Phase</b> Player 1 becomes striker and Player 4 becomes unstriker. <br>\nand so on..\n\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "11-10-2016",
+    "is_direct_submittable": false,
+    "contest_name": "NPL Elimination Round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1476793800,
+        "end_date": 1476802800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1476802800,
+        "submit_start_date": 1476793800,
+        "current": 1537434464
+    },
+    "problem_author_html_handle": "npl_nitw",
+    "problem_name": "Infinitity",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/implementation'>implementation</a>, <a class='problem-tag-small ' href='/tags/problems/npl_nitw'>npl_nitw</a>, <a class='problem-tag-small ' href='/tags/problems/nplq1601'>nplq1601</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "npl_nitw",
+    "contest_code": "NPLQ1601",
+    "max_timelimit": "1",
+    "problem_code": "NPLELB"
+}

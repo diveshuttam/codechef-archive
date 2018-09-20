@@ -1,0 +1,33 @@
+{
+    "problem_code": "CHEFIHG",
+    "problem_author": "mgch",
+    "contest_name": "July Cook-Off 2016",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>mgch</span>",
+    "problem_name": "Chef and Land",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>karanaggarwal</span>",
+    "contest_code": "COOK72",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bfs'>bfs</a>, <a class='problem-tag-small ' href='/tags/problems/cook72'>cook72</a>, <a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/graph'>graph</a>, <a class='problem-tag-small ' href='/tags/problems/mgch'>mgch</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Read problems statements in <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/COOK72/mandarin/CHEFIHG.pdf\">Mandarin Chinese</a>, <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/COOK72/russian/CHEFIHG.pdf\">Russian</a> and <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/COOK72/vietnamese/CHEFIHG.pdf\">Vietnamese</a> as well.</h3>\n\n\n<p>\nChef lives in Chefland. Chefland can be thought as a two-dimensional grid of dimensions <b>N</b>x<b>M</b>. Some of the cells of the Chefland are prohibited to visit (denoted by '*'). One can never step on such prohibited cells. There is a city at each at each non-prohibited cell (will be denoted by '.' or 'C' (denoting capital city)).\n</p>\n\n<p>\nSadly people in the capital city of Chefland (denoted by 'C') are lazy for their shopping. So they invented a robot for carrying their groceries. They want to feed a command of at max <b>10<sup>5</sup></b> characters to the robot such that if the robot starts from any cell (non-prohibited) of the grid, it should be able to visit the capital city during its walk. Each character of the command will be one of 'U', 'D', 'L', 'R' denoting the movement to go up, down, left and right cell from the current cell (provided it exists and the cell is not prohibited to visit). Otherwise, the robot will just stay at its current cell. The characters of the command will be followed in the order from left to right. \n</p>\n\n<p>\nNow, after thinking a lot, citizens of Chefland could not come up such a command to feed to robot. So, they ask your help in it. They have come to know from an oracle that it is guaranteed that such a command exists. \n</p>\n\n<h3>Input</h3>\n<p>First line contains two space separated integers <b>N</b>, <b>M</b>, denoting the dimensions of the grid.</p>\n<p>Each of next <b>N</b> lines contains <b>M</b> symbols denoting the map of Chefland.</p>\n\n<h3>Output</h3>\n<p>Output one non-empty string corresponding to the command with length \u2264 <b>10<sup>5</sup></b> containing only symbols 'U', 'L', 'D', 'R'.  it's guaranteed that such pattern exists. </p>\n\n<h3>Constraints</h3>\n<ul>\n<li>4 \u2264 <b>N, M</b> \u2264 20</li>\n<li>Each cell can be one of three types: 'C', '.', '*'.</li>\n<li>All border cells are '*'.</li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n<tt>\n4 4\n****\n*.C*\n*..*\n****\n</tt>\n<b>Output:</b>\nLDUR\n</pre>\n<p></p>\n<pre><b>Input:</b>\n<tt>5 6\n******\n*.C..*\n**.***\n*....*\n******</tt>\n\n<b>Output:</b>\nRLLURUU\n</pre>\n\n<h3>Explanation</h3>\n<p>You can reach to capital city by feeding this command to robot starting from any city. We have shown one such application of the command for the city on the cell (2, 2).</p>\n\n<p>\nFrom cell (2, 2), you can go to following cells in order when you apply the command.\n<ul>\n<li>Start at (2, 2).</li>\n<li>Apply the command 'L'. The cell at the left (2, 1) is prohibited, so you stay at (2, 2).</li>\n<li>Apply the command 'D'. You go to cell (3, 2).</li>\n<li>Apply the command 'U'. You come back to cell (2, 2).</li>\n<li>Apply the command 'R'. You come back to cell (2, 3), i.e. the capital city.</li>\n</ul>\n</p>",
+    "category_name": "main",
+    "date_added": "10-07-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CHEFIHG",
+    "problem_tester": "karanaggarwal",
+    "time": {
+        "view_start_date": 1469376000,
+        "end_date": 1469385000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1469385000,
+        "submit_start_date": 1469376000,
+        "current": 1537434751
+    },
+    "user": {
+        "username": ""
+    }
+}

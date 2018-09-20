@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h2>\nSave Yourself<br />\n</h2>\n<p>\nThe Human Race is in danger as it being is chased by a velocidemon  which is also a cannibal in a maze. There is no time to think as to how one came to be in such a situation. A program is required to calculate the survival time of a human character.\n</p>\n<p>The maze consists of hallways and has no open areas. There are no loops in the maze - that is, there is always only one possible path between any two points. There is just one exit, one human, and one velocidemon present in the maze.\n</p>\n<p>\n The only possible chance of survival is to make it to the exit before the velocidemon does.<br />\nThe velocidemon will also run towards the exit, covering twice as much ground \"per turn\" as the human figure.\n</p>\n<p>\nNote: The velocidemon has no intelligence, but it knows its way to the exit. It will attack only when it occupies the same \"square\" as a human. In a case when the velocidemon is between a human and the exit,<br />\nboth will continue running until they meet at the exit location.\n</p>\n<p><h3>INPUT</h3>\n</p><p>The input will contain two lines with one integer value each, R,C; 0 &lt; R, C &lt;= 10,<br />\nrepresenting the number of rows and columns that make up the maze. This is followed by R lines showing the maze layout, where:\n</p>\n<p><table>\n<tr>\n<td>#</td>\n<td> - wall</td>\n</tr>\n<tr>\n<td>. </td>\n<td>- open path</td>\n</tr>\n<tr>\n<td>E </td>\n<td>- exit</td>\n</tr>\n<tr>\n<td>H </td>\n<td>- human</td>\n</tr>\n<tr>\n<td>V </td>\n<td>- velocidemon</td>\n</tr>\n</table>\n</p>\n<p><h3>OUTPUT</h3>\n</p><p>The output should contain a single line for the result. </p>\n<ul>\n<li>In an event that the velocidemon catches up with the human on the way to the exit, output a single integer representing the number of steps the human took before the event. The human has an advantage, so this will always be at least one, even if the velocidemon is right behind (or ahead).\n</li>\n<li>In an event that the velocidemon makes it to the exit first, it will wait there. It will \"catch up\" right after the human figure steps onto the exit square.\n</li>\n<li>In an event that the human and the velocidemon make it to the exit at the same time, the human still gets caught. Output the number of steps.\n</li>\n<li>If in a given turn the human finds himself at the exit square, but the velocidemon does not, output \"escape\". Lower case, no quotes.\n</li>\n</ul>\n\n<h3>Sample Input 1 : </h3>\n<p>3<br />\n5<br />\n#####<br />\nV..HE<br />\n#####</p>\n<h3>Output 1:</h3>\n<p>escape<br />\n</p>\n<h3>Sample Input 2 : </h3>\n<p>3<br />\n5<br />\n#####<br />\nH..EV<br />\n##### </p>\n<h3>Output:</h3>\n<p>3</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-11-2013",
+    "is_direct_submittable": false,
+    "contest_name": "UVCE N-Code November 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1384529400,
+        "end_date": 1384713000,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1384713000,
+        "submit_start_date": 1384529400,
+        "current": 1537437995
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>hkbharath</span>",
+    "problem_name": "Save the human race",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/hkbharath'>hkbharath</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "hkbharath",
+    "contest_code": "NCDRN13",
+    "max_timelimit": "0.204403",
+    "problem_code": "SVHR"
+}

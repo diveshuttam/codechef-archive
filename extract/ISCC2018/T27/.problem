@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Description:</h3>\n<p>Jitendra scored highest marks in Geometry in his class. He is also very good at Problem Solving Skills. <br>\nHe challenged his classmates to solve a problem based on concepts of geometry. He has given a sequence which consists of <b>N</b> positive integers. He asked to find the number of  possible solutions  by selecting values of  <b>g, f, c, r </b> from the given sequence which satisfies the following equation of finding radius of a circle having centre at (-g,-f). </p>\n<br>\n<pre>\nr=\u221a(g^2+f^2  -c)\n</pre>\n<br>\n<h3>Input Format:</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.<br>\nThe first line of each test case contains an integer <b>N</b> which denotes the size of sequence. <br>\nThe second line of each test case contains <b>N</b> space-separated integers denoting the elements of sequence. </p>\n<h3>Output Format:</h3>\n<p>For each test case on new line, print the number of solutions that satisfy the equation of finding radius of a circle as given above.</p>\n<h3>Constraints:</h3>\n<pre>\n1 <= T <= 5\n1 <= N <= 1000\n1 <= a[i] <= 1000000000 , for each valid i\n</pre>\n<h3>Example:</h3>\n<h3>Input:</h3>\n<pre>\n1\n4\n1 2 3 4\n</pre>\n<h3>Output:</h3>\n<pre>\n15\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-07-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Innerve Summer Code Challenge",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1531633805,
+        "end_date": 1532543340,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1532543340,
+        "submit_start_date": 1531633805,
+        "current": 1537432239
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>jeetu86044</span>",
+    "problem_name": "Jeetu and Circles",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/jeetu86044'>jeetu86044</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "jeetu86044",
+    "contest_code": "ISCC2018",
+    "max_timelimit": "1",
+    "problem_code": "T27"
+}

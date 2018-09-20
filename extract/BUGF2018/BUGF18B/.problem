@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Chef is with the famous House Trio who are back for musical reunion! They are playing some songs on the deck and Chef is there accompanying them. In order to play some cue points, they make a transition from any **Xth** minute of their set to any **Yth** minute of their set by pressing the two buttons given on their deck.\nHere, a set means a musical collection recorded for the reunion party. But the trio and Chef are facing an issue. They always have to sync the transitions during the cue point by pressing two buttons **+** and **-**. Due to some issues. on pressing the buttons they are getting the following results:\n- **+** : Changes the track position from **Nth** minute of set to **3*Nth** minute of the set.\n- **-** : Changes the track position from **Nth** to **N-1th** minute of the set.\nChef knows that if the track position goes less than 0 it will stop the whole set. Help Chef to find the minimum number of operations required (button presses) to go from **Cth** minute to **Gth** minute of the set.\n\n###Input:\n\n- First line will contain *T*, number of testcases.\n- Each testcase contains of a single line of input with 2 integers denoting C and G.\n\n###Output:\nFor each testcase, output in a single line the minimum number of operations required by Chef.\n\n###Constraints \n- $1 \\leq T \\leq 1000$\n- $1 \\leq C, G \\leq 32518$\n\n###Sample Input:\n    2\n    4 6\n    4 1\n\n\n###Sample Output:\n    3\n    3\n\t\n###EXPLANATION:\n**Case 1**:\n  Chef presses **-** button twice and then **+** once, making 4->3->2->6 = (1+1+1) = 3 operations.\n    \n**Case 2**:\n  Chef presses **-** button thrice making 4->3->2->1 = (1+1+1) = 3 operations.\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "30-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "BUG4EVER 2018 Final",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, swift, D, PERL, FORT, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, JS, ERL, TCL, kotlin, PERL6, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1535776200,
+        "end_date": 1535819400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1535819400,
+        "submit_start_date": 1535776200,
+        "current": 1537432024
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nerdyninja</span>",
+    "problem_name": "Chef Loves The Trio",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nerdyninja'>nerdyninja</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nerdyninja",
+    "contest_code": "BUGF2018",
+    "max_timelimit": "0.5",
+    "problem_code": "BUGF18B"
+}

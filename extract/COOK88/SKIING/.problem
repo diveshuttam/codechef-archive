@@ -1,0 +1,33 @@
+{
+    "problem_code": "SKIING",
+    "problem_author": "kingofnumbers",
+    "contest_name": "November Cook-Off 2017",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>kingofnumbers</span>",
+    "problem_name": "Skiing",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>amrmahmoud</span>",
+    "contest_code": "COOK88",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cook88'>cook88</a>, <a class='problem-tag-small ' href='/tags/problems/greedy'>greedy</a>, <a class='problem-tag-small ' href='/tags/problems/kingofnumbers'>kingofnumbers</a>, <a class='problem-tag-small ' href='/tags/problems/kingofnumbers'>kingofnumbers</a>, <a class='problem-tag-small ' href='/tags/problems/likecs'>likecs</a>, <a class='problem-tag-small ' href='/tags/problems/scc'>scc</a>, <a class='problem-tag-small ' href='/tags/problems/sorting'>sorting</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Read problems statements in <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/COOK88/russian/SKIING.pdf\">Russian</a> and <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/COOK88/vietnamese/SKIING.pdf\">Vietnamese</a> as well.</h3>\n<p>Chef and Hasan went for skiing in a rectangular field, the field can be represented as a grid of <b>N</b> rows and <b>M</b> columns, rows are numbered from 1 to <b>N</b> starting from top, columns are numbered from 1 to <b>M</b> starting from left, each cell has a a number representing the height of the snow on this particular part of the field.</p>\n\n<p>\nafter skiing for a while in the field they decided to play a game,  first hasan has to choose a set of cells <b>S</b> not necessarily adjacent and show this set to Chef.\n</p>\n<p>\nafter that, Chef has to choose exactly one cell <b>d</b> not necessarily from set <b>S</b> and tell it to Hasan.\n</p>\n\n<p>\nfinally, Hasan has to choose one cell from set <b>S</b> and start skiing from that cell and try to reach cell <b>d</b> that the chef just chose, if he couldn't then Chef wins, otherwise Hasan wins. \n</p>\n\n<p>\nWhen Hasan is skiing, he can move from one cell to another iff both cells are adjacent (they share a side) and the height of destination cell is not more than the height of current cell.  \n</p>\n\n<p>\nit's obvious that it's easy for Hasan to win this game, because he can simply choose all cells to be in set <b>S</b>, but he want the set <b>S</b> to have minimum number of cells to prove that he is very skilled in skiing.\n\nknowing that both players play optimally, please help Hasan to find minimum number of cells to be in set <b>S</b> to guarantee the winning for him.\n</p>\n\n\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>First line contains integer <b>T</b> donating the number of test-cases.</p>\n<p>First line of each test-case contains two integers <b>n</b> and <b>m</b> donating the number of rows and columns respectively.</p>\n<p>Each of the following <b>n</b> lines contains <b>m</b> numbers donating the heights of the field</p>\n\n<h3>Output</h3>\n<p>For each test-case output a single line containing a single integer donating minimum number of cells has to be in set <b>S</b> so that Hasan guarantee winning </p>\n\n\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N, M</b> \u2264 <b>1,000</b></li>\n<li><b>1</b> \u2264 sum of <b>N</b> in all test-cases \u2264 <b>1,000</b></li>\n<li><b>1</b> \u2264 sum of <b>M</b> in all test-cases \u2264 <b>1,000</b></li>\n<li><b>1</b> \u2264 height of snow \u2264 <b>1,000,000,000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3 3\n1 2 2\n2 1 1\n2 1 1\n3 3\n3 2 2\n2 1 1\n2 1 1\n\n\n<b>Output:</b>\n2\n1\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> Hasan has to select at least two cells to be in <b>S</b> so that he guarantee he can reach all other cells starting from anyone of them, example of cells to choose (2,1) and (1,2)</p>\n\n<p><b>Example case 2.</b> if Hasan chose cell (1,1) to be in <b>S</b> then he can reach any cell starting from it and thus guarantee winning</p>",
+    "category_name": "main",
+    "date_added": "17-11-2017",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/SKIING",
+    "problem_tester": "amrmahmoud",
+    "time": {
+        "view_start_date": 1511107200,
+        "end_date": 1511116200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1511116200,
+        "submit_start_date": 1511107200,
+        "current": 1537433338
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">The Rubik's cube is perhaps the world's most popular intellectual toy. More than just the joy of solving, there is a lot of mathematics to it too.</p>\n\n<p align=\"justify\">Consider a solved Rubik's cube. The six faces of the cube are named FRONT, BACK, UP, DOWN, LEFT and RIGHT respectively. An elementary move of the Rubik's cube is rotating a face by 90 degrees clockwise, 90 degrees anticlockwise or 180 degrees about an axis from the centre of the face to the centre of the cube. Any valid state of the Rubik's cube can be reached by applying these elementary operations one after the other.</p>\n\n<p align=\"justify\">An elementary move is denoted in the following fashion. If a given face is rotated by 90 degrees clockwise about the axis passing from the centre of the face to the centre of the cube, the move is denoted by the first letter of the name of the face. If the rotation is anticlockwise by 90 degrees, the letter is followed by an apostrophe ('). If the rotation is by 180 degrees, the letter is followed by a 2.</p>\n\n<p align=\"justify\">For example, a 90 degree clockwise rotation of the right face is denoted by <b>R</b>, a 90 degree anticlockwise rotation of the back face by <b>B'</b> and a 180 degree rotation of the top face by <b>U2</b>. The elementary moves are explained with the help of animations in the \"Face turns\" section of <a href=\"http://www.nascarjon.us/notation.html\">this page</a>. The elementary moves can be combined to get a compound move of the cube. For example, <b>URF2</b> denotes rotating the top face by 90 degrees clockwise, then the right face by 90 degrees clockwise followed by the front face by 180 degrees.</p>\n\n<p align=\"justify\">In this problem you will be given a string describing a sequence of elementary moves on a solved Rubik's cube. Your task is to find out the number of times the sequence should be applied repeatedly to the cube to get back the original cube.</p>\n\n<h3>Input</h3>\n<p align=\"justify\">The first line of input gives T, the number of test cases (1\u2264T\u22641000). Following this are T lines, each containing a string denoting a sequence of moves on the Rubik's cube. The string will contain only the characters U, D, L, R, F, B, ' and 2, and will be at most 1000 characters long. It is assured to be a valid sequence of elementary moves.</p>\n\n<h3>Output</h3>\n<p align=\"justify\">For each test case, output the minimum number of times (\u22651) the move sequence must be applied to a solved Rubik's cube to get back the solved cube again.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n4\nR\nRR2\nRU\nR2R'R'\n\n<b>Output:</b>\n4\n4\n105\n1\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-01-2012",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC Techkriti 2012 - IIT Kanpur",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, PAS fpc, PAS gpc, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1326522600,
+        "end_date": 1326609000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1326609000,
+        "submit_start_date": 1326522600,
+        "current": 1537439043
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>razimantv</span>",
+    "problem_name": "Rubiks cube",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/razimantv'>razimantv</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "razimantv",
+    "contest_code": "IOPC2012",
+    "max_timelimit": "0.257426",
+    "problem_code": "IOPC1201"
+}

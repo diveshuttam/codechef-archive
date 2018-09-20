@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Problem text...\nA dancing square is a \u201ctransparent\u201d n x n matrix whose components are \"painted\"\nwith a uppercase x (x) or a period (.). A dancing square dances by spinning 90\nclockwise or counterclockwise, and or flipping about a centered horizontal or vertical\naxis\nWhen dancing squares are dancing it can be quite challenging to determine which\nare identically painted and which are distinct. Write a program which inputs an\noriginal dancing square, then inputs one or more additional dancing squares and\ndetermines for each one if it is identical- i.e. can be obtained from original by some\nsequence of spin and/or flips, or is distinct- i.e. cannot be obtained from the original\nby sequence of spins and/or flips.\n<h3>Input</h3>\n</p><p>Input description...\nThe first line of standard input contains the dimension n&gt;=1 of all dancing squares\nwhich follow. The subsequent lines of input contain at least two dancing squares,\neach preceded by blank line and consisting of n lines containing n component\ncharacters.\n<h3>Output</h3>\n</p><p>Output description...\nFor each dancing square in the standard input following the first one, output a line\ncontaining \"identical\" or \"distinct\", indicating whether it is identical to or distinct from\nthe first one.\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\nx.x\nx..\nxx.\nxxx\n..x\nx..\nxxx\n.. x\nx. x\n\n<b>Output:</b>\nSquare 2 is identical to square 1.\nSquare 3 is distinct from square 1.\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-02-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Code Spaghetti",
+    "languages_supported": "C",
+    "todo": false,
+    "time": {
+        "view_start_date": 1266690600,
+        "end_date": 1266777000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180174,
+        "submit_start_date": 1266690600,
+        "current": 1537439730
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rushikesh30</span>",
+    "problem_name": "Dancing Square",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rushikesh30'>rushikesh30</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rushikesh30",
+    "contest_code": "CSOC10",
+    "max_timelimit": "5",
+    "problem_code": "CS07"
+}

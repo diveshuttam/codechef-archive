@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>After completing some serious investigation, Watson and Holmes are now chilling themselves in the Shimla hills. Very soon Holmes became bored. Holmes lived entirely for his profession. We know he is a workaholic. So Holmes wants to stop his vacation and get back to work. But after a tiresome season, Watson is in no mood to return soon. So to keep Holmes engaged, he decided to give to pull the idea of restarting the admissions of the academy they started last year for the new academic year-2017. \u00a0</p>\n<p>Now Sherlock Holmes and Watson have decided to start the new admissions to the academy that they started last year.  As a part of the first round, the applied students had to solve a small puzzle. The puzzle was very simple. Watson has arranged <b>N</b> dummy statues in some order of height <b>Hi</b>. Now Holmes have made up the question asking to the applicants that In how many ways they can choose the sequence of consecutive dummy statues, where the tallest and shortest statue in the selected sequence is the same.\n</p>\n<p>\u00a0If you would like to get admission into his academy, your first step is to solve the question. Give it a try :) </p>\n\n\n<h3>Input</h3>\n<p>First line of the input will contain <b>T</b> denoting the number of test-cases.For every test case, first line will contain N. Next line will contain <b>N</b> space separated integers denoting <b>Hi.\n</b> The input need not be in sorted order</p>\n\n<h3>Output</h3>\n<p>\u2022\tFor every test case, print the required answer in a separate line..</p>\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>| Hi | </b> \u2264 <b>10^9</b></li>\n</ul>\n<p>\u00a0</p>\n\n\n<h3>Subtasks</h3>\n<p>\n<b>Subtask #1 : (20 points)</b>\n<ul>\n<b>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li>1 \u2264 N\u2264 100</li>\n<li>1 \u2264 | Hi |\u2264 10^3</li>\n</b>\n</ul>\n</p>\n\n<p>\n<b>Subtask 2 : (80 points) </b><br>\n<ul>\n<b>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li>1 \u2264 N\u2264 100000</li>\n<li>1 \u2264|Hi|\u2264 10^9</li>\n</b>\n</ul>\n</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3\n2 3 4\n3\n4 4 5\n\n<b>Output:</b>\n3\n4\n\n</pre>\n\n<b>Explanation:</b>\n\n<p> In the second example, he can choose the {4},{4},{5}, {4,4} as the  sequence of consecutive dummy statues where the tallest and the shortest statues among the above selected are same\u00a0</p>\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-03-2017",
+    "is_direct_submittable": false,
+    "contest_name": "April LoC Competitive Programming Marathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1493317800,
+        "end_date": 1493576940,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1493576940,
+        "submit_start_date": 1493317800,
+        "current": 1537433900
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>bipin2</span>",
+    "problem_name": "Holmes and  Academy Admission",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bipin2'>bipin2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bipin2",
+    "contest_code": "LOCAPR17",
+    "max_timelimit": "1",
+    "problem_code": "LOC171"
+}

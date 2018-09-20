@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Problem description.</p>\n<p>Jeff and Jenny are playing a game of UNO in a condition that whoever loses will need to do a task. In the first game, Jenny loses the game. Jeff is very strong in counting the number of times a given string is present in the sentence. Thus, he decides to trick her by giving a string puzzle and asking her to solve it. He gives Jenny a word and asks her to find the number of times the word is found in a sentence. To complicate things, he says even if the letters are jumbled but they should be continuous it needs to be counted.\n\nYour task is to help Jenny to solve this issue. Given a string <b>W</b>, calculate the total number of times the <b>W</b> occurs in a sentence  <b>S</b>. In <b>S</b>, <b>W</b> may be jumbled, but it needs to be continuous.\u00a0</p>\n\n\n<h3>Input</h3>\nFirst line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows. The first line of each test case contains the string <b>W</b>The second line contains a string <b>S</b> \n<h3>Output</h3>\nFor each test case, first line corresponds to the number of times <b>W</b> is found in <b>S</b>. The subsequent lines, should have the word.\n Arrange them in alphabetical order.<b>W</b>.\n\n<h3>Constraints\n<b>1</b> \u2264 <b>T</b> \u2264 <b>100</b>\n\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\nSam\nmsatmas\n<b>Output:</b>\n2\nmas\nmsa\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>The word Sam is found twice in the string Msatmas, they are <b>Msa</b>t<b>mas</b></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-02-2018",
+    "is_direct_submittable": false,
+    "contest_name": "MNM Online Programming Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH 3.6, PYPY, CS2, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, WSPC, ADA, CAML, ICK, BF, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, kotlin, TEXT, SCM chicken",
+    "todo": false,
+    "time": {
+        "view_start_date": 1519793923,
+        "end_date": 1519810200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1519810200,
+        "submit_start_date": 1519793923,
+        "current": 1537432895
+    },
+    "problem_author_html_handle": "vijaykumarakv",
+    "problem_name": "Task on String Counting",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vijaykumarakv'>vijaykumarakv</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vijaykumarakv",
+    "contest_code": "MOPC2018",
+    "max_timelimit": "1",
+    "problem_code": "JS2"
+}

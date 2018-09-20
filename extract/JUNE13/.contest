@@ -1,0 +1,137 @@
+{
+    "announcements": "<p><b>17/06/2013, 00:30 IST:</b> All the solutions for the problem <a href=\"/JUNE13/problems/TKCONVEX\" target=\"_blank\">TKCONVEX</a> have been rejudged.</p>\r\n<p><b>10/06/2013, 17:30 IST:</b> The solutions for the problem\u00c2\u00a0<a target=\"_blank\" href=\"/JUNE13/problems/DELISH\">DELISH</a> have been rejudged.</p>\r\n<p><b>10/06/2013, 20:50 IST: </b>The statement for the problem\u00c2\u00a0<a target=\"_blank\" href=\"/JUNE13/problems/CHAORNOT\">CHAORNOT</a> has been updated.</p>\r\n<p><b>07/06/2013, 20:50 IST: </b>The statement for the problem <a href=\"/JUNE13/problems/WSTRING\" target=\"_blank\">WSTRING</a> has been updated.</p>",
+    "ip": "149.129.135.113",
+    "code": "JUNE13",
+    "duration": "14400",
+    "name": "June Challenge 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p class=\"MsoNoSpacing\"><b>The June Contest has ended!</b></p> <p class=\"MsoNoSpacing\"><b><span> </span></b><b>All problems have been added to the practice section and s</b><b>olutions have been made public.</b></p> <p class=\"MsoNoSpacing\"><b>The editorials can be found <a href=\"http://discuss.codechef.com/tags/june13/\" target=\"_blank\">here</a>. </b><b>Winners Blog Post </b><b>can be found <a target=\"_blank\" href=\"http://blog.codechef.com/2013/07/11/post-june-contests-showers/\">here</a>.</b></p> <p class=\"MsoNoSpacing\">\u00a0</p> <p class=\"MsoNoSpacing\"><b>Rules:</b></p> <p class=\"MsoNoSpacing\"><b> </b></p> <p class=\"MsoNoSpacing\"><span><br />Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></span></p> <p class=\"MsoNoSpacing\">\u00a0</p> <p class=\"MsoNoSpacing\"><span>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</span></p> <p class=\"MsoNoSpacing\"><span><br /></span></p> <p class=\"MsoNoSpacing\"><span>Contest problems will become visible on June 7th 2013 at 15:00 hours IST. Check your timezone\u00a0<a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+June+Challenge+2013&amp;iso=20130607T15&amp;p1=44\">here</a>.</span><br /><br /></p> <p class=\"MsoNoSpacing\"><span>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.<br /><br /></span></p> <p class=\"MsoNoSpacing\"><span>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.<br /><br /></span></p> <p class=\"MsoNormal\"><span>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</span></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/JUNE13/1424957768.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "WSTRING": {
+            "allow_submission": false,
+            "name": "W String",
+            "category_name": "main",
+            "accuracy": 13.93,
+            "successful_submissions": "1022",
+            "code": "WSTRING",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SPMATRIX": {
+            "allow_submission": false,
+            "name": "Count Special Matrices",
+            "category_name": "main",
+            "accuracy": 10.94,
+            "successful_submissions": "88",
+            "code": "SPMATRIX",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DELISH": {
+            "allow_submission": false,
+            "name": "Dessert Wizard",
+            "category_name": "main",
+            "accuracy": 16.76,
+            "successful_submissions": "1037",
+            "code": "DELISH",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LAPIN": {
+            "allow_submission": false,
+            "name": "Lapindromes",
+            "category_name": "main",
+            "accuracy": 48.19,
+            "successful_submissions": "3176",
+            "code": "LAPIN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PREDICT": {
+            "allow_submission": false,
+            "name": "Predictopus",
+            "category_name": "main",
+            "accuracy": 34.3,
+            "successful_submissions": "2080",
+            "code": "PREDICT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PERMUTE": {
+            "allow_submission": false,
+            "name": "Just Some Permutations 3",
+            "category_name": "main",
+            "accuracy": 28.5,
+            "successful_submissions": "416",
+            "code": "PERMUTE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COLLECT": {
+            "allow_submission": false,
+            "name": "Collecting Magical Berries",
+            "category_name": "main",
+            "accuracy": 16.68,
+            "successful_submissions": "526",
+            "code": "COLLECT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LEMOUSE": {
+            "allow_submission": false,
+            "name": "Little Elephant and Mouses",
+            "category_name": "main",
+            "accuracy": 18.73,
+            "successful_submissions": "679",
+            "code": "LEMOUSE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHAORNOT": {
+            "allow_submission": false,
+            "name": "To challenge or not",
+            "category_name": "main",
+            "accuracy": 59.99,
+            "successful_submissions": "946",
+            "code": "CHAORNOT",
+            "type": "2",
+            "is_direct_submittable": false
+        },
+        "TKCONVEX": {
+            "allow_submission": false,
+            "name": "Two k-Convex Polygons",
+            "category_name": "main",
+            "accuracy": 14.08,
+            "successful_submissions": "254",
+            "code": "TKCONVEX",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1371461400,
+        "current": 1537438289,
+        "freezing": 0,
+        "start": 1370597400
+    },
+    "user": {
+        "username": ""
+    }
+}

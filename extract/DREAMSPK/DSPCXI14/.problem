@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><a href= \"http://www.initiatives.mstc-india.com\">Paritraan</a> is a Social Initiative by students of BIT Mesra supported by Asst Prof Anup Kumar Keshri, Department of IT and MSTC India. Paritraan aims to develop one million enlightened youth who will participate in the accelerated societal transformation of the nation. The Paritraan team organizes trips to Government Schools, Blind Schools, Orphanages etc. We try to give them the same love and care they deserve. We try to use our skills of Engineering, Arts and Science to solve their problems. <a href= \"http://www.initiatives.mstc-india.com\">Paritraan</a> also organizes special educational trips for such children. One main area of focus is Computer Literacy.</p>\n\n<p>The main purpose of the group is to carry out the works of Social Services in and around Ranchi and spread it across as far as possible. Right now there are about \n\n40 students from various streams and batches working for Paritraan by utilizing their Sundays, Holidays and Half-Days to help those who are not as fortunate as we \n\nare.</p>\n\n<p>To encourage Paritraan-like activities and to spread awareness about such initiatives we maintain a <a href= \"http://paritraan.blogspot.com\">Blog</a> and a <a href= \n\n\"http://www.facebook.com/paritraan\">Facebook Page</a>.</p>\n\n<p>In one of our Paritraan trips, Akhil Ranjan and Amritesh Kumar were trying to teach the BODMAS rule to children. Now after they taught the children they want to conduct an online test. You have to help them. The children have been supplied with a set of mathematical equations. These equations do not contain brackets. The \n\ntask is to place the brackets in such a way that the numerical value obtained from the expression is maximum.</p>\n\n<p>Problem Setters: <a href= \"http://www.facebook.com/Aasthik\">Vishal Gupta</a> and <a href= \"http://www.facebook.com/zeeshan.zahid1\">Zeeshan Zahid</a></p>\n\n<h3>Input</h3>\n<p>The first line of input contains the number of testcases T ( T< 5000 ). Each of the following T lines consists of an arithemtic expression. This expression consists \n\nof numbers (0-9) seperated by one of the two operators '*' and '+'. There are no spaces between the characters. Each line contains less than 500 characters.</p>\n\n<h3>Output</h3>\n<p>For each expression output the maximum numerial value possible. The results of the calculations are smaller than 2^64.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n5\n1+2*3+4*5\n1+2*3+4*5+1+2*3+4*5\n1+2*3+4*5*1+2*3+4*5+1+2*3+4*5\n2+2*5+7*1+1+2*3+4*2+1+2*8+4*5+7+2*5+4*4+1+4*3+4*1\n2*3+4*2+1+2*8+4*5\n\n<b>Output:</b>\n105\n5880\n617400\n640120320\n4200\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-04-2011",
+    "is_direct_submittable": false,
+    "contest_name": "The DreamSpark Contest -  Microsoft Software & Technology Club India",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1303050600,
+        "end_date": 1303068600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1303068600,
+        "submit_start_date": 1303050600,
+        "current": 1537439234
+    },
+    "problem_author_html_handle": "ganesha",
+    "problem_name": "Paritraan a Social Revolution",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ganesha'>ganesha</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ganesha",
+    "contest_code": "DREAMSPK",
+    "max_timelimit": "0.1",
+    "problem_code": "DSPCXI14"
+}

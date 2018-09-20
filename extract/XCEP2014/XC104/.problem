@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Superman has waged war upon planet Earth. To defeat Superman, Batman has to find the last piece of Kryptonite before Superman. He go to Fortress of Solitude to find the Kryptonite.<br /><br />\nHe finds that the last piece of Kryptonite is buried in the \u2018N\u2019 heaps of rocks inside Fortress of Solitude. Superman is also there to find the last Kryptonite and to destroy it.<br /><br />\nBoth of them can select any single heap of rocks at a time and then pick up any number of rocks from that heap but alternatively. This continues till there are no rocks left at all. The one who picks up the last rock will find the Kryptonite buried inside those rocks. You have to find out who found the last Kryptonite.<br /><br />\nAssume that both of them will select the heap and number of rocks optimally (i.e. they do their best in finding the Kryptonite). Also assume that Batman gets the first turn because he is BATMAN.<br />\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>Input consists of several lines. First line contains an integer N indicating the number of heaps. N lines follow, each containing a single integer indicating the number of rocks in each heap.</p>\n<h3>Output</h3>\n<p>Output a single line displaying \"BATMAN\u201d without quotes if Batman can beat his adversary on the given configuration. Otherwise, print \"SUPERMAN\" without quotes.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1 &lt;= N &lt;= 10000</b><br /></li>\n<li><b>1 &lt;= Number of Rocks&lt;=10000</b><br />\n</li></ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n4\n3 \n\n<b>Output:</b>\nBATMAN\n\n</pre>",
+    "category_name": "extcontest",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-11-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Xception 1.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, RUBY, PHP, NODEJS, SCALA, PERL, PRLG, PIKE, BASH, LISP sbcl, LISP clisp, JS, ERL, PERL6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1418225400,
+        "end_date": 1418236200,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1418236200,
+        "submit_start_date": 1418225400,
+        "current": 1537437177
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>ashishrko</span>",
+    "problem_name": "Batman vs Superman",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ashishrko'>ashishrko</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ashishrko",
+    "contest_code": "XCEP2014",
+    "max_timelimit": "1",
+    "problem_code": "XC104"
+}

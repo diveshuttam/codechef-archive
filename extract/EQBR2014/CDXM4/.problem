@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>you have to convert a code for the old version of compiler to the<br />\ncode for a new version of compiler.<br />\nIn the old compiler we have used \"->\" for pointers and the new compiler use \".\" for pointers.Now we need to replace each \"->\" with \".\" but not in the comments of the code.A comment starts with \"//\" in the line and terminates at the end of the line.<br />\n\u00a0</p>\n<p><br /><br /></p>\n<h3>Input</h3>\n<ul>\n<li>\nMax. 2000 lines of code</li>\n<li>each line of code have maximum of 60 characters.</li>\n</ul>\n<p><br /><br /></p>\n<h3>Output</h3>\n<ul>\n<li>The new code with required changes.</li>\n</ul>\n<p><br /><br /></p>\n<h3>Example</h3>\n<p><b>Input:</b></p>\n<pre>\nint t;   //variable t\nt->a = 0;    // -> denotes the pointer\nt->c = 5;\nreturn 0;  // -> is not used\n</pre><p>\n<br /><br /></p>\n<p><b>Output:</b></p>\n<pre>int t;   //variable t\nt.a = 0;   // -> denotes the pointer\nt.c = 5;\nreturn 0;  // -> is not used \n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<ul>\n<li>\"->\" is not converted to \".\" in the comments of 2nd and 4th line.\n</li>\n</ul>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-01-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Equilibrio 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1421393400,
+        "end_date": 1421400600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1421400600,
+        "submit_start_date": 1421393400,
+        "current": 1537436992
+    },
+    "problem_author_html_handle": "abhiroop20",
+    "problem_name": "Code Converter",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhiroop20'>abhiroop20</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abhiroop20",
+    "contest_code": "EQBR2014",
+    "max_timelimit": "5",
+    "problem_code": "CDXM4"
+}

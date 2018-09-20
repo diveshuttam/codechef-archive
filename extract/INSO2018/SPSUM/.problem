@@ -1,0 +1,33 @@
+{
+    "problem_code": "SPSUM",
+    "problem_author": "gvaibhav21",
+    "contest_name": "Insomnia 2018 (Rated)",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #D0011B;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>7&#9733;</span><span>gvaibhav21</span>",
+    "problem_name": "Split Sums",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "INSO2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ad-hoc'>ad-hoc</a>, <a class='problem-tag-small ' href='/tags/problems/gvaibhav21'>gvaibhav21</a>, <a class='problem-tag-small ' href='/tags/problems/inso2018'>inso2018</a>, <a class='problem-tag-small ' href='/tags/problems/insomnia18'>insomnia18</a>, <a class='problem-tag-small ' href='/tags/problems/maths'>maths</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>A and B are brothers and like playing with marbles.Their mother buys them <b>N</b> marbles to play with.The preciousness of each marble is a natural number from 1 to <b>N</b> and no two marbles have same preciousness.</p>\n<p>Since A and B are good at maths they want to divide all those <b>N</b> marbles among them in such a way that sum of the preciousness of all marbles that A receives and sum of the preciousness of all marbles that B receives after distribution are co-primes i.e the gcd(greatest common divisor) of their sum is 1.</p>\n<p>Also the absolute value of difference between the sum of the preciousness of marbles of A and B should be exactly <b>M</b>.</p>\n<p>Help A and B in finding whether such a distribution of <b>N</b> marbles between them is possible or not.</p>\n\n<p>Formally, you have to tell whether you can distribute first <b>N</b> natural numbers in two sets such that the absolute difference of the sum of numbers in the two sets is equal to <b>M</b> and the gcd of their sum is 1.</p><br>\n\nNote that one of the set can be empty and greatest common divisor of <b>0</b> and <b>k</b> is <b>k</b>\n<br>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first line of each test case contains two integers <b>N</b>  and <b>M</b> denoting the number of marbles and the absolute difference of sum respectively. \n </li>\n</ul>\n\n<h3>Output</h3>\n\n<ul>\n<li>For each test case, output a single line.<br>\nPrint \u201cYes\u201d if there exist a valid distribution of marbles between A and B else print \u201cNo\u201d.</li>\n</ul>\n\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>20</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1,000,000,000</b></li>\n\n<li><b>0</b> \u2264 <b>M</b> \u2264 <b>10<sup>18</sup></b></li>\n\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n5 7\n1 2 \n\n\n<b>Output:</b>\nYes\nNo \n\n\n</pre>\n",
+    "category_name": "main",
+    "date_added": "19-03-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/SPSUM",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1521883800,
+        "end_date": 1521901800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1521901800,
+        "submit_start_date": 1521883800,
+        "current": 1537432759
+    },
+    "user": {
+        "username": ""
+    }
+}

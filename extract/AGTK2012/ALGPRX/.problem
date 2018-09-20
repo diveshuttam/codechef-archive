@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The Chef watched the movie TRANSFORMERS and admired the character of Optimus Prime.<br/>\nHe got so influenced by him that he started calculating prime numbers.<br/>\n//Boring part<br/>\nAs always he added his spices to it and started adding them. Again as always he got tired and asked you to do that for him (LAZY FELLA).<br/>\n//Boring part ends here<br/>\nYou would be provided with the upper bound of the range up to which you have to generate prime numbers and add them.<br/>\nYou have to generate primes from 0 to upper bound and add them.\n\n<h3>Input</h3>\nN:The no. of test cases that follow\n<p>U: the upper bounds upto which the primes are to be added. U<1000000\n<br/>The primes to be generated are < U and not <=U.\n\n<h3>Output</h3>\n<p>The sum of primes up to each U.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n50\n\n<b>Output:</b>\n328\n\n<b>Explanation:</b>\n328=2+3+5+7+11+13+17+19+23+29+31+37+41+43+47\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "ALGOTHIKA 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330774200,
+        "end_date": 1331958600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1331958600,
+        "submit_start_date": 1330774200,
+        "current": 1537438868
+    },
+    "problem_author_html_handle": "s4p3r_c1n0s",
+    "problem_name": "PrimePlusPlus",
+    "source_sizelimit": "5000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/s4p3r_c1n0s'>s4p3r_c1n0s</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "s4p3r_c1n0s",
+    "contest_code": "AGTK2012",
+    "max_timelimit": "0.1",
+    "problem_code": "ALGPRX"
+}

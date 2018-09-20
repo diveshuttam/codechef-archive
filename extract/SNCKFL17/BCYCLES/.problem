@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Read problems statements in <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/SNCKFL17/mandarin/BCYCLES.pdf\">Mandarin Chinese</a>, <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/SNCKFL17/russian/BCYCLES.pdf\">Russian</a> and <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/SNCKFL17/vietnamese/BCYCLES.pdf\">Vietnamese</a> as well.</h3>\n\n<p>Given a bipartite graph of <b>N</b> vertices in which every vertex has degree exactly 3, find a set of <b>distinct</b> simple cycles such that every edge belongs to exactly two cycles. The vertices are numbered from 1 to <b>N</b>.\nFor the given constraints, it can be shown that such a set of cycles always exists.</p>\n\n<p>A simple cycle of length k (k must be at least 3) in the graph is a sequence of vertices v<sub>1</sub>, v<sub>2</sub>, .., v<sub>k</sub>, such that v<sub>i</sub> \u2260 v<sub>j</sub> if i \u2260 j, and such that there exist edges between vertex v<sub>i</sub> and v<sub>i + 1</sub> for i < k, and an edge between vertices v<sub>k</sub> and v<sub>1</sub>.</p>\n\n<h3>Input</h3>\n<p>\nThe first line of the input contains an integer <b>T</b>, denoting the number of test cases.</p>\n<p>The first line of each test case contains one integer <b>N</b>, denoting the number of vertices in the graph.</p>\n<p>Each of the next 3 \u00d7 <b>N</b>/2 lines contains two integers <b>u</b>, <b>v</b>, denoting an edge of the graph.</p>\n\n<h3>Output</h3>\n<p>For each test case describe any valid set of cycles. First print <b>C</b>, the number of cycles.</p>\n<p>In the next <b>C</b> lines describe one cycle per line: the i-th line should contain an integer <b>k<sub>i</sub></b>, denoting the number of vertices in the i-th cycle, followed by <b>k<sub>i</sub></b> space separated integers, which should be the sequence of vertices of the cycle in order.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li>6 \u2264 <b>N</b> \u2264 10<sup>5</sup></li>\n<li><b>N</b> is an even integer</li>\n<li>1</b> \u2264 <b>u</b>, <b>v</b> \u2264 <b>N</b> </li>\n<li>The sum of <b>N</b> over all test cases is at most 5 \u00d7 10<sup>5</sup></li>\n<li>The graph is guaranteed to be bipartite, and every vertex will have degree exactly 3</li>\n<li>The graph will not have multi-edges or loops</li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n6\n1 4\n1 5\n1 6\n2 4\n2 5\n2 6\n3 4\n3 5\n3 6\n\n<b>Output:</b>\n3\n6 3 6 2 5 1 4\n6 3 5 2 4 1 6\n6 3 5 1 6 2 4\n</pre>\n\n<h3>Explanation</h3>\n<p>The following image depicts the three cycles in the output of the sample case. Note that for every edge in the original graph, there are two cycles that contain it.\n</p>\n<img src=\"https://codechef_shared.s3.amazonaws.com/download/upload/SNCKFL17/1.png\"></img>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": null,
+    "is_direct_submittable": false,
+    "contest_name": "SnackDown 2017 Onsite Final Round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1498890900,
+        "end_date": 1498908900,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1498908900,
+        "submit_start_date": 1498890900,
+        "current": 1537433756
+    },
+    "problem_author_html_handle": null,
+    "problem_name": "BiCycles",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/alei'>alei</a>",
+    "problem_tester_html_handle": null,
+    "problem_author": null,
+    "contest_code": "SNCKFL17",
+    "max_timelimit": "3.5",
+    "problem_code": "BCYCLES"
+}

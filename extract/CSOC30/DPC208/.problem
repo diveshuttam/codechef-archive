@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"center\" class=\"MsoNormal\">\n        <b><u><span class=\"style1\"></span></u></b></p>\n    <p class=\"MsoNormal\">\n        <span>\n        \u00a0</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        A tourist came to Lahore to visit some cities but he \n        has short time to do so. He decided to go to Islamabad through a longest path so that he can visit \n        maximum area on his way to Islamabad. \n        Write such an algorithm which finds longest path between two cities.</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        \u00a0</span></p>\n    <p class=\"MsoNormal\">\n        <b>\n        <span>Input</span></b></p>\n    <p class=\"MsoNormal\">\n        <span>\n        \u00a0</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        <span>\u00a0</span>You will get the total number of cities \n        (0&lt;city code&lt;10).</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        <span>\u00a0</span>You will be given two 2D arrays. First \n        row of the first array contains codes of those cities which are directly \n        connected to the first city. The second row of the first array contains codes of \n        those cities which are directly connected to the second city and so on.</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        <span>\u00a0</span>In second array the distance between two \n        cities is placed at the </span>\n    </p>\n    <p class=\"MsoNormal\">\n        <span>\n        corresponding location as the destination city in the first array.</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        Single city should not be repeated in the longest path.</span></p>\n    <p class=\"MsoNormal\">\n        <b>\n        <span>Output</span></b></p>\n    <p class=\"MsoNormal\">\n        <span>\n        The output will contain the path from source city to destination city\n        <span>\u00a0\u00a0</span>with maximum distance for each source \n        and destination city.</span><b><span></span></b></p>\n    <p class=\"MsoNormal\">\n        <b>\n        <span>Sample Input</span></b></p>\n    <p class=\"MsoNormal\">\n        <span>\n        5<span>\n        </span>// number of cities</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        2 3 4<span>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n        </span>// start of first 2D array</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        1 4 5</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        1 4 5</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        2 3 1</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        2 3</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        4 9 17<span>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n        </span>// start of second 2D array</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        4 9 13</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        9 15 20</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        9 15 17</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        13 20</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        5 3<span>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n        </span>// source and destination cities</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        1 4</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        4 3</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        0</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        \u00a0</span></p>\n    <p class=\"MsoNormal\">\n        <b>\n        <span>Sample Output</span></b></p>\n    <p class=\"MsoNormal\">\n        <span>\n        5 2 1 4 3<span>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n        </span>// path from city 5 to 3 with maximum distance</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        1 3 5 2 4</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        4 2 5 3</span></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "11-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "DreamSpark 2",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1268490600,
+        "end_date": 1268598600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1268598600,
+        "submit_start_date": 1268490600,
+        "current": 1537439654
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rushikesh30</span>",
+    "problem_name": "Tourist",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rushikesh30'>rushikesh30</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rushikesh30",
+    "contest_code": "CSOC30",
+    "max_timelimit": "5",
+    "problem_code": "DPC208"
+}

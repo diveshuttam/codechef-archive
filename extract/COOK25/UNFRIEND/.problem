@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p style=\"text-align:justify\">\nByteland is in the midst of a political crisis. The city is in almost a state of civil war among the two factions, \"Coders\", who rule the city -\nand \"non-Coders\" who believe they have been oppressed far too long. Chef - Byteland's President - has decided to restructure Byteland\nresidences such that Coders and non-Coders are forced to meet everyday!\n</p>\n<p style=\"text-align:justify\">\nByteland is a society of N houses - labeled 1 to N, connected by M bi-directional roads - labeled 1 to M. Each road starts at one of\nthe houses and ends at some other house. No two roads meet anywhere, unless of course, they are connecting the same house to other\nhouses. Chef wants to assign Coders and non-Coders among the houses, such that, when a Coder leaves his house on one of the roads,\nhe ends up at a non-Coder's house. Similarly, when a non-Coder leaves his house on one of the\nroads, he must also always end up at a Coder's house.\n</p>\n<p style=\"text-align:justify\">\nThe problem is, that under the current scheme of houses and roads, this might not be possible. Thus, Chef has decided to warp some\nof the roads to another dimension. Warping a road to another dimension, makes the two houses, say A and B, that the road connected -\nmerge into a single house, say C.  Roads that were connecting A to other houses are extended to C, and roads that were connecting B\nto other houses are also extended to C. A and B may be the same house after some sequence of warps. In this case, if the road is warped,\nit simply disappears.\n</p>\n<p style=\"text-align:justify\">\nIf it were up to Chef, he would warp every road in the City and create a Coder non-Coder paradise island; alas, he sometimes cannot do so.\nFor example, only a few roads may be available for warping, since the other roads are too long. Also, it may be possible that after warping some roads,\nsome road connects a house with itself. If such a road cannot be warped, it will be considered against Chef's wishes!\n</p>\n<p style=\"text-align:justify\">\nThe task of determining a strategy as to which roads to warp has come to you.\n</p>\n<p style=\"text-align:justify\">\nCan you tell if it is possible to warp some of the roads that can be warped to fulfil Chef's dream of being able to assign Coders and\nnon-Coders to houses, such that, every remaining road strictly connects a Coder's house and a non-Coder's house.\n</p>\n<p style=\"text-align:justify\">\nYou may assume that Byteland society is constructed in a way, such that, anyone can traverse from any house to any other house by using\nsome sequence of roads. Also initially, no two roads connect the same pair of houses.\n</p>\n<p style=\"text-align:justify\">\n<h3>Input</h3>\nThe first Line contains a single number T, the number of test cases.\n</p>\n<p style=\"text-align:justify\">\nThe first line of each case contains two numbers, N and M, respectively. The next M lines contain two numbers each, x and y. Both x and y\nare between 1 and N, inclusive. They describe a bi-directional road between house x and house y. The roads are labeled from 1 to M\nin the order in which they appear in the input.\n</p>\n<p style=\"text-align:justify\">\nThe next line contains a single number W, the number of roads that can be warped. The next line contains W unique numbers, separated by a\nsingle space. Each number is the label of a road that can be warped. All such numbers are unique and within 1 and M, inclusive.\n</p>\n<p style=\"text-align:justify\">\n<h3>Output</h3>\nPrint T lines, one for each test case. Output either \"YES\" if Chef's dream can be fulfilled, \"NO\" otherwise.\n</p>\n<p style=\"text-align:justify\">\n<h3>Constraints</h3>\n<pre>1 &le; T &le; 100\n2 &le; N &le; 50\n1 &le; M &le; 200\n1 &le; W &le; M\n</pre>\n</p>\n<p style=\"text-align:justify\">\n<h3>Sample Input</h3>\n<pre>2\n3 3\n1 2\n2 3\n3 1\n2\n1 2\n5 7\n1 3\n1 4\n3 4\n2 4\n2 5\n4 5\n1 2\n2\n2 4\n</pre>\n</p>\n<p style=\"text-align:justify\">\n<h3>Sample Output</h3>\n<pre>YES\nNO\n</pre>\n</p>\n<p style=\"text-align:justify\">\n<h3>Explanation</h3>\nIn the first Sample Input, warping either one of Road 1 or Road 2 is sufficient. In the second Sample Input, warping both of Road 1\nand Road 2 create a road that connects a house to itself and all other possibilities of warping roads are insufficient to fulfil Chef's dream.\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-08-2012",
+    "is_direct_submittable": false,
+    "contest_name": "August Cook-Off 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1345390200,
+        "end_date": 1345402200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1345402200,
+        "submit_start_date": 1345390200,
+        "current": 1537438756
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>gamabunta</span>",
+    "problem_name": "Rebuilding Byteland",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/colouring'>colouring</a>, <a class='problem-tag-small ' href='/tags/problems/cook25'>cook25</a>, <a class='problem-tag-small ' href='/tags/problems/gamabunta'>gamabunta</a>, <a class='problem-tag-small ' href='/tags/problems/gauss-elim'>gauss-elim</a>, <a class='problem-tag-small ' href='/tags/problems/graph'>graph</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "gamabunta",
+    "contest_code": "COOK25",
+    "max_timelimit": "0.262222",
+    "problem_code": "UNFRIEND"
+}

@@ -1,0 +1,260 @@
+{
+    "announcements": "<p><b>20/01/2016, 16:16 hrs IST: </b>The ratings for JAN16 have been updated. We regret the delay. But, you can now check and brag yours.</p>\r\n<p><b>13/01/2016, 17:16 hrs IST: </b>The rating update for JAN16 will be delayed as we are re-configuring our plagiarism detection and optimizing it. We want the new system to take place from the first contest of the year and hence the delay. Kindly be with us.</p>\r\n<ul>\r\n<b>\r\n<li>The January Challenge 2016 has ended!</li>\r\n<li>The editorials for the contest can be found\u00a0<a href=\"http://discuss.codechef.com/tags/jan16/\">here</a>.</li>\r\n<li>The problems have been moved to practice section.</li>\r\n<li>Solutions are public for all the problems.</li>\r\n<li>The winners blog post can be found <a href=\"https://blog.codechef.com/2016/01/28/code-your-way-in-to-2016-with-january-challenge-2016/\">here</a>.</li>\r\n</b> \r\n</ul>\r\n<p>\u00a0</p>\r\n<p><b>02/01/2016, 13:11 hrs IST: </b>Some tests in problem CHINFL and CBALLS have been added. All the solutions have been rejudged. Some of the solutions have got non-AC verdict after this change. Please make sure to resubmit your corrected solutions. We are sorry for the inconvenience caused.</p>\r\n<p><b>05/01/2016, 01:10 hrs IST: </b>Test data of ASTRD has been updated and all the AC solutions have been rejudged. Some of the solutions have got non-AC verdict after this change. Please make sure to resubmit your corrected solutions. We are sorry for the inconvenience caused.</p>",
+    "ip": "149.129.135.113",
+    "code": "JAN16",
+    "duration": "14400",
+    "name": "January Long Challenge 2016",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "CBALLS": [
+            {
+                "score": "20",
+                "count": "177"
+            },
+            {
+                "score": "80",
+                "count": "3"
+            },
+            {
+                "score": "100",
+                "count": "1646"
+            }
+        ],
+        "SEAKAM": [
+            {
+                "score": "25",
+                "count": "118"
+            },
+            {
+                "score": "50",
+                "count": "2"
+            },
+            {
+                "score": "75",
+                "count": "5"
+            },
+            {
+                "score": "100",
+                "count": "436"
+            }
+        ],
+        "CYCLRACE": [
+            {
+                "score": "25",
+                "count": "348"
+            },
+            {
+                "score": "100",
+                "count": "266"
+            }
+        ],
+        "DEVPERF": [
+            {
+                "score": "40",
+                "count": "16"
+            },
+            {
+                "score": "60",
+                "count": "16"
+            },
+            {
+                "score": "100",
+                "count": "1610"
+            }
+        ],
+        "ASTRD": [
+            {
+                "score": "11",
+                "count": "489"
+            },
+            {
+                "score": "100",
+                "count": "33"
+            }
+        ],
+        "CHINFL": [
+            {
+                "score": "20",
+                "count": "10"
+            },
+            {
+                "score": "50",
+                "count": "12"
+            },
+            {
+                "score": "70",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "394"
+            }
+        ],
+        "RGAME": [
+            {
+                "score": "10",
+                "count": "134"
+            },
+            {
+                "score": "30",
+                "count": "96"
+            },
+            {
+                "score": "100",
+                "count": "1666"
+            }
+        ],
+        "DMCS": [
+            {
+                "score": "30",
+                "count": "6"
+            },
+            {
+                "score": "100",
+                "count": "30"
+            }
+        ],
+        "CHEFTMA": [
+            {
+                "score": "30",
+                "count": "108"
+            },
+            {
+                "score": "70",
+                "count": "8"
+            },
+            {
+                "score": "100",
+                "count": "1578"
+            }
+        ]
+    },
+    "rules": " <div><strong class=\"rules-heading\">CodeChef: A Platform for Aspiring Programmers</strong></div> <div class=\"rules-body\"> <p>CodeChef was created as a platform to help programmers make it big in the world of algorithms, computer programming and programming contests. At CodeChef, we work hard to revive the geek in you by hosting a programming contest at the start of the month and another smaller programming challenge in the middle of the month.</p> </div> <p><br /><strong class=\"rules-heading\">About CodeChef January Long Challenge:</strong></p> <div class=\"rules-body\"> <p>CodeChef Long Challenge is a 10 day monthly coding contest where you can show off your computer programming skills. The significance being- it gives you enough time to think about a problem, try different ways of attacking the problem, read the concepts etc. If you're usually slow at solving problems and have ample time in hand, this is ideal for you. There would a tremendous amount of learning while competing. We also put in a lot of efforts in getting quality problems, which would in turn foster your learning while solving them.</p> </div> <p><br /><strong class=\"rules-heading\">Contest Details:</strong></p> <div class=\"rules-body\"> <ul class=\"\"> <li><strong>Venue:&nbsp;<a href=\"../JAN16\" target=\"_blank\">http://www.codechef.com/JAN16</a></strong></li> <li><strong>Duration: </strong>10 Days, From 1st&nbsp;January 15:00 hrs IST to 11th&nbsp;January 15:00 hrs IST.</li> </ul> </div> <p><strong class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</strong></p> <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe and all the participants are expected to abide to CodeChef Code Of Conduct.</p> </div> <p><br /><strong class=\"rules-heading\">What is it for you?</strong></p> <div class=\"rules-body\"> <p>The idea behind these programming contests is that we want you to learn while competing. Also, we believe that it is alright to refer to tutorials, books and other materials, learn a concept and then apply the same to solve a problem during a contest. But it is&nbsp;<strong>not alright to copy other people's solutions or seek other people's help to solve a problem without understanding it.</strong> The dividing line may seem to be thin but it can be captured by the spirit of learning. If whatever you are doing is making you learn while you do so, we tend to believe that it is alright.</p> <br /> <p>Not just that, as a token of motivation we also give away cash prizes and goodies to the winners of the contest. However, our sole intention lies in making our users learn new concepts while competing.</p> </div> <p><br /><strong class=\"rules-heading\">What's new in CodeChef?</strong></p> <div class=\"rules-body\"> <p>We've recently launched our IDE and you may now Code, Compile and Run on our online ide. Play more in discuss with groups &amp; LaTex.</p> </div> <p><br /><strong class=\"rules-heading\">Rules and Regulations:</strong></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at&nbsp;<a href=\"mailto:feedback@codechef.com\" target=\"_blank\">feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.. Contest problems will become visible on Friday, 1st January 2016 at 15:00 hours IST. Check your timezone&nbsp;<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+January+Challenge+2016&amp;iso=20160101T15&amp;p1=44\" target=\"_blank\">here</a><span>.</span></li> <li><strong>All the problems will be partially graded and you will get score for passing certain test data (except tie-breaker problem). You will receive hundred (100) point for solving a problem (passing all test cases).</strong></li> <li><strong>The details of the failed test cases will also be visible on your solution page (except challenge problem)</strong></li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</li> <li>You shall not possess more than one account on CodeChef. If you have, then do let us know, so that we can deactivate the insignificant one. If you do not report it and we come to know about it, we may deactivate both the accounts permanently.</li> <li>The score that you will see during the contest (for tie-breaker problem), will only be partial (obtained on 20% of the test data). The submissions will be re-judged at the end of the contest to get full score (obtained on the whole test data).</li> <li>The number of submissions that one can make during the contest on the problem will be limited to 500.</li> <div class=\"rules-body\">However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/JAN16/1451560633.png",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "ASTRD": {
+            "allow_submission": false,
+            "name": "Asteroids",
+            "category_name": "main",
+            "accuracy": 1.48,
+            "successful_submissions": "33",
+            "code": "ASTRD",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHMKTRPS": {
+            "allow_submission": false,
+            "name": "Chef and Making Triples",
+            "category_name": "main",
+            "accuracy": 50.49,
+            "successful_submissions": "351",
+            "code": "CHMKTRPS",
+            "type": "2",
+            "is_direct_submittable": false
+        },
+        "SEAKAM": {
+            "allow_submission": false,
+            "name": "Sereja and Salesman",
+            "category_name": "main",
+            "accuracy": 11.55,
+            "successful_submissions": "436",
+            "code": "SEAKAM",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CYCLRACE": {
+            "allow_submission": false,
+            "name": "Cyclist Race",
+            "category_name": "main",
+            "accuracy": 6.49,
+            "successful_submissions": "266",
+            "code": "CYCLRACE",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "DEVPERF": {
+            "allow_submission": false,
+            "name": "Devu and Perfume",
+            "category_name": "main",
+            "accuracy": 20.77,
+            "successful_submissions": "1610",
+            "code": "DEVPERF",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CBALLS": {
+            "allow_submission": false,
+            "name": "Churu and Balls",
+            "category_name": "main",
+            "accuracy": 12.25,
+            "successful_submissions": "1646",
+            "code": "CBALLS",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "RGAME": {
+            "allow_submission": false,
+            "name": "Rupsa and the Game",
+            "category_name": "main",
+            "accuracy": 11.89,
+            "successful_submissions": "1666",
+            "code": "RGAME",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHINFL": {
+            "allow_submission": false,
+            "name": "Chef and Inflation",
+            "category_name": "main",
+            "accuracy": 11,
+            "successful_submissions": "394",
+            "code": "CHINFL",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "DMCS": {
+            "allow_submission": false,
+            "name": "Dai Ma Chu Shi",
+            "category_name": "main",
+            "accuracy": 9.55,
+            "successful_submissions": "30",
+            "code": "DMCS",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHEFTMA": {
+            "allow_submission": false,
+            "name": "Chef and Time Machine",
+            "category_name": "main",
+            "accuracy": 22.61,
+            "successful_submissions": "1578",
+            "code": "CHEFTMA",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1452504600,
+        "current": 1537435661,
+        "freezing": 0,
+        "start": 1451640600
+    },
+    "user": {
+        "username": ""
+    }
+}

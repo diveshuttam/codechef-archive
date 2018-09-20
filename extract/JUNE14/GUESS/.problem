@@ -1,0 +1,33 @@
+{
+    "problem_code": "GUESS",
+    "problem_author": "darkshadows",
+    "contest_name": "June Challenge 2014",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>darkshadows</span>",
+    "problem_name": "Guessing Game",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>shiplu</span>",
+    "contest_code": "JUNE14",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ad-hoc'>ad-hoc</a>, <a class='problem-tag-small ' href='/tags/problems/combinatorics'>combinatorics</a>, <a class='problem-tag-small ' href='/tags/problems/darkshadows'>darkshadows</a>, <a class='problem-tag-small ' href='/tags/problems/june14'>june14</a>, <a class='problem-tag-small ' href='/tags/problems/simple'>simple</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Read problems statements in <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/JUNE14/mandarin/GUESS.pdf\">Mandarin Chinese </a> and <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/JUNE14/russian/GUESS.pdf\">Russian</a>.</h3>\n<p>Alice and Bob, both have to drink water. But they both don't want to go, so they will play a game to decide who will fetch water for both of them. Alice will choose a number randomly between <b>1</b> and <b>N</b> (both inclusive) and Bob will choose a number randomly between <b>1</b> and <b>M</b> (both inclusive). Both will write their numbers on a slip of paper. If sum of numbers choosen by both is <b>odd</b>, then Alice will go, else Bob will go.<br/><br />\nWhat is probability that Alice will go?\n</br/></p>\n<h3>Input</h3>\n<p>First line contains, <b>T</b>, the number of testcases. Each testcase consists of <b>N</b> and <b>M</b> in one line, separated by a space.</p>\n<h3>Output</h3>\n<p>For each test case, output a single line containing probability as an <a href=\"http://en.wikipedia.org/wiki/Irreducible_fraction\">irreducible fraction</a>.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>N,M</b> \u2264 <b>10<sup>9</sup></b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n1 1\n1 2\n2 3\n<b>Output:</b>\n0/1\n1/2\n1/2\n</pre><h3>Explanation</h3>\n<p>#test1: The only way is when Alice and Bob both choose 1. So, Alice won't have to go because sum is even.<br/><br />\n#test2: The different ways are (1,1) and (1,2), where first term denotes the number choosen by Alice. So of all possible cases (ie. 2) in only 1 case Alice has to go. Therefore, probability is 1/2.<br/><br />\n#test3: The different ways are (1,1), (1,2), (1,3), (2,1), (2,2), (2,3) where first term denotes the number choosen by Alice. So of all possible cases (ie. 6) in only 3 cases Alice has to go. Therefore, probability is 1/2.</br/></br/></p>\n",
+    "category_name": "main",
+    "date_added": "20-04-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/GUESS",
+    "problem_tester": "shiplu",
+    "time": {
+        "view_start_date": 1402047000,
+        "end_date": 1402911000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1402911000,
+        "submit_start_date": 1402047000,
+        "current": 1537437535
+    },
+    "user": {
+        "username": ""
+    }
+}

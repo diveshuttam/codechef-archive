@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>NOTE :</b>This problem is just a test problem. The submissions to this problem will not be counted in the final ranklist for prize distribution. We apologize for the inconvenience caused. \u00a0</p>\n<p>\n<h3>Problem description</h3>\n</p>\n<p>Given two integers A and B that are not necessarily in base-10, find the smallest possible A + B in base-10.</p>\n<p>\nFor example,<br />\nA = 213, possibly base-4 (39 in base-10)<br />\nB = 4721, possibly base-8 (2513 in base-10)<br />\nA + B = 39 + 2513 = 2552\u00a0</p>\n<h3>Input</h3>\n<p>\nFirst line of the input contains a positive integer T (1 &lt;= T &lt;= 100), the number of cases. Each case contains<br />\ntwo positive integers A and B. A and B will contain at most 5 digits, each digit will be between 0 and 9,<br />\ninclusive, and no leading zeroes.</p>\n<h3>Output</h3>\n<p>\nFor each case, output an integer in base-10 denoting the smallest possible A + B.</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n213 4721\n1001 90\n638 241\n\n<b>Output:</b>\n2552\n99\n592\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-01-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeX 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1390570200,
+        "end_date": 1390656600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1390656600,
+        "submit_start_date": 1390570200,
+        "current": 1537437904
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>amitrc17</span>",
+    "problem_name": "Sum Up",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/amitrc17'>amitrc17</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "amitrc17",
+    "contest_code": "CODX2014",
+    "max_timelimit": "0.211429",
+    "problem_code": "REN2013A"
+}

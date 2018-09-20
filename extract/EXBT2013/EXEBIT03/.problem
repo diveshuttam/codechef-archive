@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A computer has a dual core processor. Its operating system has a set of jobs <i>JS</i> from an application that it has to execute. A job scheduled to a core runs on that core till its completion. The scheduler is optimized to schedule jobs to different cores such that at the end of execution of <i>JS</i>, the skew of the processing time between both the cores is minimum. For example if there are three jobs <i>A</i>, <i>B</i> and <i>C</i> requiring 2, 3 and 4 milliseconds each respectively, then the scheduler will assign the jobs <i>A</i> and <i>B</i> to Core 1 and job <i>C</i> to Core 2. In this case the skew is |(2+3) - 4| = 1. Yet another scheduling policy can be to assign job <i>A</i> to Core 1 and jobs <i>B</i> and <i>C</i> on Core 2 but in this case the skew will be |2 - (3+4)| = 5, which is not optimal because Core 1 will finish its job in 2 milliseconds and keep sitting idle for five extra milliseconds while Core 2 finishes its jobs in 7 milliseconds. Your task is to find the skew assuming that <br/></br/></p>\n<ol>\n<li>the scheduler optimally schedules the jobs to different cores</li>\n<li>no other job gets allocated a time quantum while any job from <i>JS</i> is executing</li>\n<li>scheduling policy is non-preemptive</li>\n</ol>\n\n<h3>Input</h3>\n<p>First line of the input is the number of test cases <i>T</i>, after which <i>T</i> test cases follow. Each test case begins with an integer <i>n</i> in a line, i.e. the number of jobs in <i>JS</i>; followed by burst times(in milliseconds) required for each of the <i>n</i> jobs in a single line with each value separated by single space.\n</p>\n<h3>Output</h3>\n<p>For each test case output a single integer <i>s</i>, the skew for that test case; followed by a new line character.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1&lt;= t &lt;= 10</b></li>\n<li><b>1&lt;= n &lt;= 1000</b></li>\n</ul>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n2\n5\n2 3 4 6 8\n1\n6\n\n<b>Output:</b>\n1\n6  \n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Exhibit 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, PERL, WSPC, BF, ASM, CLPS, PRLG, SCM qobi, LUA, BASH, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, CLOJ",
+    "todo": false,
+    "time": {
+        "view_start_date": 1361545200,
+        "end_date": 1361559600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1361559600,
+        "submit_start_date": 1361545200,
+        "current": 1537438493
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>prabhakar97</span>",
+    "problem_name": "Dual core processor and the scheduler",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/prabhakar97'>prabhakar97</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "prabhakar97",
+    "contest_code": "EXBT2013",
+    "max_timelimit": "0.149068 - 0.196593",
+    "problem_code": "EXEBIT03"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><span style=\"font-size: small;\">Devu is a freshman in the college. In the data structures course, he has recently learned about LCS (longest common subsequence) problem, He thought about this problem a lot and has finally come up with a challenge for you.</span></p>\n<p><span style=\"font-size: small;\">You are given a string S of size <strong>N </strong>consisting only of lowercase English letters ('a' to 'z'). You have to find minimum length of string V also consisting of lowercase English letters('a' to 'z') such that length of LCS (S, V) \u2265\u00a0<strong>L</strong>. The string V should not have more than <strong>K </strong>consecutive equal characters.<br />Note that it is not necessary for string V to be composed of characters of S only.</span></p>\n<h3><span style=\"font-size: small;\">Input</span></h3>\n<ul>\n<li><span style=\"font-size: small;\">First line contains T : number of test cases. <br />\u00a0</span></li>\n<li><span style=\"font-size: small;\">For each test case, You are given two lines.<br />\u00a0</span></li>\n<li><span style=\"font-size: small;\">First line contains a string S.<br />\u00a0</span></li>\n<li><span style=\"font-size: small;\">Second line contains two space separated integers K and L.</span></li>\n</ul>\n<h3><span style=\"font-size: small;\">Output</span></h3>\n<ul>\n<li><span style=\"font-size: small;\">For each test case, output a single line containing integer corresponding to the answer of the problem.</span></li>\n</ul>\n<h3><span style=\"font-size: small;\">Constraints</span></h3>\n<ul>\n<li><span style=\"font-size: small;\">1 \u2264\u00a0T \u2264\u00a010<sup>6</sup></span></li>\n<li><span style=\"font-size: small;\">1 \u2264\u00a0Size of string S \u2264\u00a010<sup>6</sup></span></li>\n<li><span style=\"font-size: small;\"><strong>1 \u2264\u00a0 Sum of lengths of strings over all test cases \u2264 10<sup>7</sup> </strong></span></li>\n<li><span style=\"font-size: small;\">1 \u2264\u00a0K, L \u2264\u00a0Size of S</span></li>\n</ul>\n<h3><span style=\"font-size: small;\">Example</span></h3>\n<pre><span style=\"font-size: small;\"><strong>Input:</strong>\n2<br />aa<br />1 1<br />aba<br />1 2\u00a0</span></pre><pre><span style=\"font-size: small;\"><strong>Output:</strong>\n1<br />2</span></pre><h3><span style=\"font-size: small;\">Explanation</span></h3>\n<ul>\n<li><span style=\"font-size: small;\">For first test case, V is 'a'.</span></li>\n</ul>\n<ul>\n<li><span style=\"font-size: small;\">For second test case, V can be 'ab' or 'ba'.</span></li>\n</ul>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2014",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1393655400,
+        "end_date": 1393741800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1393741800,
+        "submit_start_date": 1393655400,
+        "current": 1537437755
+    },
+    "problem_author_html_handle": "iopc_admin",
+    "problem_name": "LCS Returns",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/iopc_admin'>iopc_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "iopc_admin",
+    "contest_code": "IOPC2014",
+    "max_timelimit": "2",
+    "problem_code": "IOPC14R"
+}

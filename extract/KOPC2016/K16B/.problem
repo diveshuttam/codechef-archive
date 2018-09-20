@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\u00a0</p>\n<p align = \"justify\">\nKarthick recently attended an interview for the position of Software Engineer in one of the biggest tech companies. His friends were very sure that he will crack the technical rounds. Of course, he did crack all of it. Now it's time to attend the HR round. Karthick is very nervous as he is not very fluent in English. But to his surprise, HR was from a technical background. To test Karthick's skills, he asked the following question, \"Given a n x n matrix and 'm' queries. Each query has four integers x1, y1, x2, y2. You have to find the sum of all elements between the boundary (x1, y1) and (x2, y2)\", i.e., You must consider all the elements (x, y) in the matrix such that (x1 <= x <= x2) && (y1 <= y <= y2).<br><br>\n\nEx:\n<br>\n<pre>\na[5][5] = \n{\n1, 2, 3, 4, 5\n6, 7, 8, 9, 10\n11, 12, 13, 14, 15\n16, 17, 18, 19, 20\n21, 22, 23, 24, 25\n}\n</pre>\n<br>\nQuery: (2,3) & (4,5)\n<br><br>\nAns: a[2,3] + a[2,4] + a[2,5] + a[3,3] + a[3,4] + a[3,5] + a[4,3] + a[4,4] + a[4,5] = 8+9+10+13+14+15+18+19+20 = 126\n<br><br>\nKarthick answered it in less than a minute. So, the HR remodelled this question to allow updates in the matrix. Now the question is \"Given a n x n matrix and 'm' queries. A query can be in one of the two forms.\ni) U x y val<br>\nii) Q x1 y1 x2 y2\n<br><br>\nQuery 1 description:\n<br><br>\n'U' -> refers to an update operation.<br>\nx y -> the element in the xth row and yth column (1-based index).<br>\nval -> Change the value at the xth row and yth column to val.\n<br><br>\nQuery 2 description: <br><br>Query 2 is the same as the query in the previous version of the question.\n</p>\n\n<h3><b>Input</b></h3>\n<p>The first line consists of 't' the number of testcases.<br>\nFor each test case,<br>\ni) The first line consists of two space separated integers 'n' and 'm', the size of the n x n matrix and the number of queries respectively.<br>\nii) The next 'n' lines, each consisting of 'n' elements represents the matrix.<br>\niii) Next 'm' lines consists of the query.</p>\n\n<h3><b>Constraints</b></h3>\n<p>\n1 <= t <= 500<br>\n1 <= n <= 10^3<br>\n1 <= m <= 10^5<br>\n1 <= val <= 10^3<br>\n1 <= a[i][j] <= 10^3<br>\nx1 <= x2 && y1 <= y2\n</p>\n<h3><b>Output</b></h3>\n<p>For each \"type 2\" queries, output the required answer.</p>\n\n<h3><b>Example</b></h3>\n<pre><b>Input:</b>\n1\n5 3\n1 2 3 4 5\n6 7 8 9 10\n11 12 13 14 15\n16 17 18 19 20\n21 22 23 24 25\nQ 2 3 4 5\nU 3 4 15\nQ 2 3 4 5\n\n<b>Output:</b>\n126\n127\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Kurukshetra Online Programming Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYPY, CS2, PAS fpc, PAS gpc, RUBY, D, PERL, FORT, ADA, ASM, ICON, PIKE, ST, NICE, LUA, BASH, NEM, TCL, SCM chicken",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455370200,
+        "end_date": 1455388200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1839201979,
+        "submit_start_date": 1455370200,
+        "current": 1537435481
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>lakshmi8</span>",
+    "problem_name": "The Interview",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/lakshmi8'>lakshmi8</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "lakshmi8",
+    "contest_code": "KOPC2016",
+    "max_timelimit": "1",
+    "problem_code": "K16B"
+}

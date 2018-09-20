@@ -1,0 +1,33 @@
+{
+    "problem_code": "REMAIN",
+    "problem_author": "bipin2",
+    "contest_name": "LoC May 2018",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>bipin2</span>",
+    "problem_name": "Remainder",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "LOCMAY18",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bipin2'>bipin2</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/locmay18'>locmay18</a>, <a class='problem-tag-small ' href='/tags/problems/math'>math</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>\"Ring Ring!!\"</b> \u00a0</p>\n<p>Sherlock's phone suddenly started ringing. And it was none other than Jim Moriarty..</p>\n<p>\"Long time no see ! You miss me right ? Anyway we'll talk about it later . Let me first tell you something. Dr.Watson is with me . And you've got only one chance to save him . Here's your challenge:.</p>\n<p> Given a number <b>N </b>and another number<b> M</b>, tell if the remainder of N%M is odd or even. If it's odd, then print \"ODD\" else print \"EVEN\"\u00a0</p>\n<p>\nIf Sherlock can answer the query correctly, then Watson will be set free. He has approached you for help since you being a programmer.Can you help him? \n</p>\n\n\n<h3>Input</h3>\n<p>The first line contains, <b>T</b>, the number of test cases..</p>\n<p>Each test case contains an integer, <b>N</b> and <b>M</b></p>\n\n\n<h3>Output</h3>\n<p> Output the minimum value for each test case </p>\n\n\n<h3>Constraints</h3>\n<p>1<b> = T = 20</b></p>\n<p><b>1 <= N <= 10^18 </b></p>\n<p><b>1 <= M<= 10^9 </b></p>\n\n<h3>Subtasks</h3>\n<p>\n<b>Subtask #1 : (20 points)</b>\n<ul>\n<b>\n<p>1<b> = T = 20</b></p>\n<p><b>1 <= N <= 100 </b></p>\n<p><b>1 <= M<= 100 </b></p></b>\n</ul>\n</p>\n\n<p>\n<b>Subtask 2 : (80 points) </b><br>\n<ul>\n<b>\n<p>1<b> = T = 20</b></p>\n<p><b>1 <= N <= 10^18 </b></p>\n<p><b>1 <= M<= 10^9 </b></p></b>\n</ul>\n</p>\n\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n4 4\n6 5\n\n<b>Output:</b>\nEVEN\nODD\n</pre>\n<p>\u00a0</p>\n",
+    "category_name": "main",
+    "date_added": "25-05-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, kotlin, TEXT, SCM chicken, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/REMAIN",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1527359400,
+        "end_date": 1527532200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1527532200,
+        "submit_start_date": 1527359400,
+        "current": 1537432413
+    },
+    "user": {
+        "username": ""
+    }
+}

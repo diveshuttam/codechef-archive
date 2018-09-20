@@ -1,0 +1,87 @@
+{
+    "announcements": "<p><b>09:30pm: </b>The Rank List for the CodeChef March Cook Off is available here: <a href=\"/rankings/COOK08\" style=\"-webkit-user-select: auto; color: #0168bc; padding: 0px; margin: 0px;\">http://www.codechef.com/rankings/COOK08</a></p>",
+    "ip": "149.129.135.113",
+    "code": "COOK08",
+    "duration": "150",
+    "name": "March Cook-off Challenge",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>The March Cook-off has ended!</b></p> <p><b>Problems have been transferred to the <a target=\"_blank\" href=\"/problems/easy\">practice section</a>. </b></p> <p><b>Solutions to all the problems have been made visible.</b></p> <p><b>Check out the editorials <a href=\"/wiki/march-cookoff-contest-problem-editorials\" target=\"_blank\">here</a>.<br />Check out the Winners Blog Post <a target=\"_blank\" href=\"http://blog.codechef.com/2011/03/21/march-2011-cook-off-winners/\">here</a>.</b></p> <p><b>Don't forget to check out your <a href=\"/short/ranklist/AX\" target=\"_blank\">Contest Rating</a>.</b></p> <p><b><br /></b></p> <p><span><b>Rules:</b></span></p> <p><b><span><b> </b></span></b></p> <p class=\"MsoNoSpacing\"><b><b><b>In case you are a new user, you will need to first register for a CodeChef ID\u00a0<a href=\"/user/register/\">here</a>.</b></b></b></p> <p><b><b> </b></b></p> <p><b><span> </span></b></p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\" target=\"_blank\">feedback@codechef.com</a></li> <br /> <li>You can also send in your queries in an email to\u00a0<a href=\"mailto:contest-admin@codechef.com\" target=\"_blank\">contest-admin@codechef.com</a>, during the contest.</li> <br /> <li>Contest problems will become visible on March 20th, 2011 at 21:30 (IST). There will be 5 problems in all.</li> <br /> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <br /> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <br /> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COOK08/1424957552.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "PALIPALI": {
+            "allow_submission": false,
+            "name": "Palindrome Palindrome",
+            "category_name": "main",
+            "accuracy": 10.34,
+            "successful_submissions": "12",
+            "code": "PALIPALI",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "EXPCOMM": {
+            "allow_submission": false,
+            "name": "Exponentiation Commutativity",
+            "category_name": "main",
+            "accuracy": 3.57,
+            "successful_submissions": "2",
+            "code": "EXPCOMM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MONTRANS": {
+            "allow_submission": false,
+            "name": "Money Transformation",
+            "category_name": "main",
+            "accuracy": 26.28,
+            "successful_submissions": "209",
+            "code": "MONTRANS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GROUPING": {
+            "allow_submission": false,
+            "name": "Grouping Chefs",
+            "category_name": "main",
+            "accuracy": 25.16,
+            "successful_submissions": "39",
+            "code": "GROUPING",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SNAKY": {
+            "allow_submission": false,
+            "name": "Snake Snaky",
+            "category_name": "main",
+            "accuracy": 19.96,
+            "successful_submissions": "103",
+            "code": "SNAKY",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1300645800,
+        "current": 1537439265,
+        "freezing": 0,
+        "start": 1300636800
+    },
+    "user": {
+        "username": ""
+    }
+}

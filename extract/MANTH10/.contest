@@ -1,0 +1,83 @@
+{
+    "teamsCount": "167",
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "MANTH10",
+    "duration": "360",
+    "name": "Manthan 2010",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>Rules:</b></p> <ul> <li>Contest problems will become visible on <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?p1=176&amp;year=2010&amp;month=3&amp;day=28&amp;hour=18&amp;min=0&amp;sec=0\" target=\"_blank\" class=\"external\">28th March 18:00 IST</a> and last until 29th March at 00:00 IST.</li> <li>The contest will consist of 6 to 10 problems of varying difficulty.</li> <li>Teams are ranked according to number of problems solved. Total Submission Time for all the correctly solved problems will be considered for tie breaking.</li> <li>Incorrect submissions result in a penalty of 20 minutes.</li> <li>This is a team based contest (up to 3 participants) you must register your team by March 28th 06:00 pm IST to participate (see the registration link below).</li> <li>Anyone can participate but only teams which have registered for Manthan at <a href=\"http://itbhu.ac.in/codefest/\" target=\"_blank\" class=\"external\">Codefest</a> will only be eligible for prizes. </li> </ul> <p><b>Registration:</b></p> <ul> <li>You can register for this contest at <a href=\"/teams/register/MANTH10\">MANTH10 Registration Page</a> (you must be logged in before registering).</li> <li>Create your Team at <a href=\"http://itbhu.ac.in/codefest\" target=\"_blank\" class=\"external\">Codefest</a> for Manthan through <a href=\"http://itbhu.ac.in/codefest/teams.php\" target=\"_blank\" class=\"external\">Codefest Teams Page</a>.</li> <li>You can get more information about team contests <a href=\"/wiki/team-contests\" target=\"_blank\" class=\"external\">here</a>.</li> </ul> <p>For any queries, email at codefest@itbhu.ac.in or post your query at <a href=\"http://www.itbhu.ac.in/codefest/forum/viewforum.php?f=6\" target=\"_blank\" class=\"external\">Manthan Forum</a>.</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/MANTH10/1424957473.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "CF02": {
+            "allow_submission": false,
+            "name": "Edit Distance",
+            "category_name": "main",
+            "accuracy": 3.83,
+            "successful_submissions": "8",
+            "code": "CF02",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CF04": {
+            "allow_submission": false,
+            "name": "GCRD",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "CF04",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CF03": {
+            "allow_submission": false,
+            "name": "Travel Plan",
+            "category_name": "main",
+            "accuracy": 57.95,
+            "successful_submissions": "16",
+            "code": "CF03",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CF01": {
+            "allow_submission": false,
+            "name": "Decryption",
+            "category_name": "main",
+            "accuracy": 9.45,
+            "successful_submissions": "24",
+            "code": "CF01",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537439639,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

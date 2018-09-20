@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Conscientia is organising Night sky hunt- An event to test the ability in identifying astronomical objects.<br />\n                Chef was interested in participating the hunt. The prelims round requires Chef to find<br />\n                the number of stars in a given string.<br />\n                He approaches you for the help.</p>\n<p>\u00a0For a given string the task is to find the occurence (number of times) of all the stars (Find the star-database here --> <a href=\"/download/CCBE2015/star_Database.txt\" target=\"_blank\">star_database</a> ). Database has 25 stars listed from sun to shaula. sun has got the <b>highest preference</b> while shaula the lowest. The string can contain the star name in <b>reverse manner</b> also. Eg.nus </p>\n<p>Note: Once a letter is used to form a particular star word it CANNOT be reused to form any other word. Occurence of every star will have to be listed in the given preference order. eg siriusun has both \"sirius\" and \"sun\", but due to the preference only \"sun\" counts.</p>\n<h3>Input</h3>\n<p>Your program has to take a string of characters as an input (not more than 1000 characters).</p>\n<h3>Output</h3>\n<p>Your program has to print the occurence of every star according to the preference order i.e. 25 lines of integer. Print 0 for a particular star if it does not appear in the string.</p>\n<h3>Constraints</h3>\n<p>Input string size is not more than 1000 characters.</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\nsirisunusadharaabcdxurca\n\n<b>Output:</b>\n1\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n1\n0\n0\n0\n0\n0\n0\n0\n0\n0\n1\n0\n0\n0\n\n<h3>Explanation</h3>\n<p> \"sun\" occurs twice (\"sunus\"), but 'n' can be used only once. So sun's occurence is 1. Next from sirius to hadar \nthey dont occur, so it counts to 0. But acrux appear once (at the end of the string-reverse order). \n\"altair\" to \"regulus\" has no occurence (0). But adhara has got one. And thus the output of 25 lines.\n</p></pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "C-Cube 2015",
+    "languages_supported": "C, CPP14",
+    "todo": false,
+    "time": {
+        "view_start_date": 1425569400,
+        "end_date": 1425612600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1425612600,
+        "submit_start_date": 1425569400,
+        "current": 1537436636
+    },
+    "problem_author_html_handle": "c_cube_iist",
+    "problem_name": "Counting Stars",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/c_cube_iist'>c_cube_iist</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "c_cube_iist",
+    "contest_code": "CCBE2015",
+    "max_timelimit": "1",
+    "problem_code": "CCUBE05"
+}

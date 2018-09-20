@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nAn exam is to be conducted. <b>N</b> students will give the exam. Students are numbered as <b>1, 2, 3 .  . N</b>. There are <b>M</b> questions and each question should be asked to only one of those <b>N</b> students. The questions are numbered as <b>1, 2, 3 . . M</b>. The conditions are that:</p>\n<p>1. <b>i<sup>th</sup></b> question should be asked to exactly <b>A<sub>i</sub></b> students<br />\n2. No two consecutively numbered students get the same question to solve.</p>\n<p>Given numbers <b>N</b>, <b>M</b> and array <b>A<sub>i</sub></b>, find out if the questions can be assigned to students as per the given conditions.<br />\n<br />\nNote that summation <b>A<sub>i</sub></b> will be equal to <b>N</b>.\n</p>\n<h3>Input</h3>\n<pre>First line contains two space seperated integers <b>M</b> and <b>N</b>\nSecond line contains <b>M</b> spaced integers, <b>A<sub>i</sub></b> denoting the times <b>i<sup>th</sup></b> question has to be asked</pre><h3>Output</h3>\n<pre>Print \"YES\" if the questions can be arranged, print \"NO\" otherwise</pre><h3>Constraints</h3>\n<pre><b>1</b> \u2264 <b>M</b> \u2264 <b>N</b> \u2264 <b>10^6</b>\n<b>0</b> \u2264 <b>A<sub>i</sub></b> \u2264 <b>N</b></pre><h3>Example</h3>\n<pre><b>Input:</b>\n3 7\n3 3 1\n\n<b>Output:</b>\nYES\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-08-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Clash Credenz 2014 Wild Card Round",
+    "languages_supported": "C",
+    "todo": false,
+    "time": {
+        "view_start_date": 1409499000,
+        "end_date": 1409585400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1409585400,
+        "submit_start_date": 1409499000,
+        "current": 1537437453
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>wittyceaser</span>",
+    "problem_name": "Exam Papers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/wittyceaser'>wittyceaser</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "wittyceaser",
+    "contest_code": "CLASH14",
+    "max_timelimit": "1",
+    "problem_code": "CREDEXAM"
+}

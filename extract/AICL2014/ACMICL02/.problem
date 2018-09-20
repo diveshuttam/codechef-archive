@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>\n<h3>Problem description.</h3>\n</p>\n<p>Abhishek is taking a girl from his office to a date but he lacks money.<br />\nUnfortunately this is not the first time something like this has happened, and reason is obvious - Abhishek goes out on way too many dates. He makes up his mind to solve this problem just before the date starts and he starts planning for it. He wants a limit for the total expense on any date and tries to have the most possible fun with regard to this limit.</p>\n<p>Abhishek know beforehand the cost of each item on the menu and makes an estimate of how much his date would enjoy ordering each item. </p>\n<p>Write a program which finds the optimal set of menu items that offer the most enjoyment to Abhishek's date. Maximize their enjoyment, without crossing the budget. Needless to say but he wants to save money for other dates as well, so he wants to spend only the amount actually required and save as much as he can.<br />\nAbhishek is lucky as he can always choose the menu items to order.</p>\n<h3>Input:</h3>\n<p>\nThe first line of the input specifies your date budget and the number N of items on menu. </p>\n<p>The following N lines contain two numbers each. The first number indicates the cost of each item. Items cost between $5 and $25. The second number indicates the amount of enjoyment given by each item, given as an integer number ranging from 1 to 10(both inclusive). </p>\n<p>The budget will not exceed $500 and there will be at most 100 items. All numbers are separated by a single space. </p>\n<p>There are many test cases. Input ends with 0 0.\n</p>\n<h3>Output</h3>\n<p>For each test case your program must output the total cost of all the items and the total enjoyment of an optimal solution. Both numbers must be separated by a single space.</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n50 5\n12 3\n15 8\n16 9\n16 6\n10 2\n\n0 0\n\n<b>Output:</b>\n47 23\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICL 2014",
+    "languages_supported": "C, CPP14, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1393084800,
+        "end_date": 1393093800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1393093800,
+        "submit_start_date": 1393084800,
+        "current": 1537437801
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>ninja13</span>",
+    "problem_name": "DATING A GIRL",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ninja13'>ninja13</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ninja13",
+    "contest_code": "AICL2014",
+    "max_timelimit": "0.2325",
+    "problem_code": "ACMICL02"
+}

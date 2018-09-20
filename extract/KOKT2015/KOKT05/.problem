@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Statement</h3>\n<p>\n\tChef has bought <b>T</b> strings to gift his friend Jay. Later he realized that Jay only likes those strings which are wonderful. A string is wonderful only if all the characters in that string are repeated the same number of times. Chef can change any letter of the string to any other letter, but it costs one coin for him to do so. Now he wants to know the minimum number of coins required to make each string wonderful.\n</p>\n\n<h3>Input</h3>\n<p>\n\tThe first line of input contains an integer <b>T</b>.<br /><br />\n\t<b>T</b> lines follow. Each containing a string <b>S</b> composed of only lower-case letters.\n</p>\n\n<h3>Output</h3>\n<p>\n\tFor each string, print minimum number of coins required in a new line.\n</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>1500</b></li>\n<li><b>1</b> \u2264 <b>|S|</b> \u2264 <b>2000</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\ntathva\njay\ncodechef\n\n<b>Output:</b>\n1\n0\n2\n\n</pre>\n<h3>Explanation</h3>\n<p>\nCase 3:<br /><br />\nOne possible solution is <b>codecdeo</b>. '<b>h</b>' is changed to '<b>d</b>' and '<b>f</b>' is changed to '<b>o</b>', which makes the string wonderful. Number of coins required = <code><b>2</b></code>.<br /><br />\nCase 2:<br /><br />\nEach of the characters ('<b>j</b>' , '<b>a</b>' and '<b>y</b>') are repeated exactly once. So it is already a wonderful string. NO coins are required.<br /><br />\nCase 1:<br /><br />\nOptimal way is to change '<b>h</b>' to '<b>v</b>' or '<b>v</b>' to '<b>h</b>'.<br />\nNumber of coins required =  <code><b>1</b></code>.\n</p>\n<p><br /><br />\n<b>NOTE</b> : Time limit for this problem is 0.3 seconds.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-10-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Koder Kombat",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1445697000,
+        "end_date": 1445711400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1445711400,
+        "submit_start_date": 1445697000,
+        "current": 1537435877
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>prb456</span>",
+    "problem_name": "Wonderful Strings",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/prb456'>prb456</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "prb456",
+    "contest_code": "KOKT2015",
+    "max_timelimit": "0.3",
+    "problem_code": "KOKT05"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n<p>Problem description.</p>\n<p> Nilakshi was busy helping Linkin Park band in correcting their rhythm for their upcoming concert. She got so engrossed in it that she forgot she had an assignment to complete on XOR. She asks you to complete that assignment.\n<p>You are given a matrix A of size <b>n</b> x <b>m</b>(1 based indexing) and a string <b>s</b> containing either <b>\"Row\"</b> or <b>\"Col\"</b>(without quotes).\n<p>\n<p><b>STEP 1 :</b>\n<br>If the string <b>s</b> is \"Row\", you have to form a matrix <b>B</b> of size <b>(n-1)</b> x <b>m</b> such that:<br>\nFor each i from 1 to n-1, j varies from 1 to m<br>\n<b>B<sub>ij</sub> = A<sub>ij</sub> xor [A<sub>(i+1)1</sub> xor A<sub>(i+1)2</sub> xor ... xor A<sub>(i+1)m</sub>]\n</b>\n<br>And if the string <b>s</b> is \"Col\", matrix <b>B</b> will be of size <b>n</b> x <b>(m-1)</b> such that:<br>\nFor each j from 1 to m-1, i varies from 1 to n<br>\n<b>B<sub>ij</sub> = A<sub>ij</sub> xor [A<sub>1(j+1)</sub> xor A<sub>2(j+1)</sub> xor ... xor A<sub>n(j+1)</sub>]\n</b><br>\n<p><b>STEP 2:</b><br>\nFor <b>s</b> = \"Row\", form a column matrix <b>C</b> using the matrix <b>B</b> such that:<br>\nFor each i from 1 to n-1<br>\n<b>C<sub>i1</sub> = B<sub>i1</sub> xor B<sub>i2</sub> xor ... xor B<sub>im</sub>\n</b><br>\nAnd for <b>s</b> = \"Col\", form a row matrix <b>C</b> using the matrix <b>B</b> such that:<br>\nFor each j from 1 to m-1<br>\n<b>C<sub>1j</sub> = B<sub>1j</sub> xor B<sub>2j</sub> xor ... xor B<sub>nj</sub>\n</b>\n<p>\nNow, you are given <b>Q</b> queries consisting of two types:<br>\n<b>Type 1</b> : 1 x y z (Here you have to update A<sub>xy</sub> by z and Matrix B and C will change accordingly.)\n<br><b>Type 2</b> : 2 k (Here you have to print the <b>k<sup>th</sup></b> smallest unique element from the Matrix C)\n\n<p><b>NOTE :</b> If kth smallest unique element doesn't exist print \"-1\"(without quotes).\n<p>\nShe is too tired and is short of time. You are her friend and also a programming geek.\n<br>Write a program to get answers to her assignment.\n</p>\n<p></p>\n<h3>Input Format :</h3>\n<ul>\n<li>First line contains two space seperated integers <b>n</b> and <b>m</b>.\n</li><li>Next <b>n</b> lines contain <b>m</b> space seperated integers of matrix <b>A</b>.\n</li><li>Next line contains a string <b>s</b> containing either \"Row\" or \"Col\" (without quotes)\n</li><li>Next line contains number of queries <b>Q</b>\n</li><li>Following <b>Q</b> lines contain a query of either Type 1 or Type 2.\n</li></ul>\n<p> </p>\n<h3>Constraints</h3>\n<p></p>\n<ul>\n<li><b>1</b> \u2264 <b>n,m</b> \u2264 <b>10<sup>3</sup></b>\n</li>\n<li><b>1</b> \u2264 <b>A[i][j]</b> \u2264 <b>10<sup>9</sup></b>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>10<sup>5</sup></b>\n</li>\n<li><b>1</b> \u2264 <b>x</b> \u2264 <b>n</b>\n</li>\n<li><b>1</b> \u2264 <b>y</b> \u2264 <b>m</b></li>\n<li><b>1</b> \u2264 <b>k</b> \u2264 <b>10<sup>6</sup></b></li>\n</ul>\n<p> </p>\n\n<h3>Output Format :</h3>\n<p>For each query of Type 2, print a single integer denoting the answer on a new line. .<br>\n<p></p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n<br>2 2<br>\n1 2<br>\n3 4<br>\nRow<br>\n3<br>\n2 1<br>\n1 1 1 3<br>\n2 1<br>\n\n<b>Output:</b>\n<br>3<br>\n1<br>\n</pre>\n\n<b>Explanation:</b><p>\nHere B matrix formed is B =[6, 5] and hence C=[3];<br> So, first smallest element is 3 in matrix C.<br> After updating A[1][1] by 3, B = [4, 5] and hence, C = [1].<br>\nSo, first smallest element is 1 in matrix C after updation.\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Codexact Wildcard",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1534347000,
+        "end_date": 1534356000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1534356000,
+        "submit_start_date": 1534347000,
+        "current": 1537432111
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>vector_99</span>",
+    "problem_name": "Rocking XOR",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vector_99'>vector_99</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vector_99",
+    "contest_code": "COWC2018",
+    "max_timelimit": "1",
+    "problem_code": "CEW5"
+}

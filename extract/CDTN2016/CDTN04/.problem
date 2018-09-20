@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Sachin has recently learnt to generate random characters. He has generated a binary string of length <strong>N</strong> consisting of A and B only.\nHe is now wondering what is the probability of getting a contiguous sequence of B' s of length <strong>K</strong>. Can you help him?<br><br> \nAssume probability of generating A and B equal i.e. 0.5 .<br><br>\n\n<strong>Input :</strong>\n<br><br>\nFirst and only line contains two space separated integers, <strong>N</strong>and <strong>K</strong>.<br><br>\n\n<strong>Output : </strong><br><br>\n\nOutput contains one line containing probability. Output should be in <strong>N/M</strong> form where <strong>N/M</strong> is in its lowest fraction.<br><br>\n\n<strong>Constraints :</strong><br><br>\n\n1<=<strong>N</strong><=60<br>\n1<=<strong>K</strong><=<strong>N</strong><br><br>\n\n<strong>Sample</strong>:<br><br>\n\n<strong>Input</strong>:<br>\n\n5 1<br><br>\n\n<strong>Output</strong>:<br>\n\n31/32\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Codeathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1473521400,
+        "end_date": 1473528600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1473528600,
+        "submit_start_date": 1473521400,
+        "current": 1537434631
+    },
+    "problem_author_html_handle": "kushagrawal071",
+    "problem_name": "RCGs",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kushagrawal071'>kushagrawal071</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kushagrawal071",
+    "contest_code": "CDTN2016",
+    "max_timelimit": "1",
+    "problem_code": "CDTN04"
+}

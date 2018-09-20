@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Vikram owns a safe that unlocks by security key and it is made up of digit 0-9. There is one problem with the safe that if he forgets the key then no one can open the safe. Unfortunately, Vikram forgot the key but he still have the clue to get the key. Vikram is not so good in mathematics so he asked you to help him by giving you all the clues which are as follows: <br>\n\nThere is a m * n matrix of integers. The key consists of n integers representing the rows that constitute the minimal weight path.<br><br> \n\nTo find the key there is certain criteria: <br>\n\nA path starts from anywhere in first column and goes through a sequence of steps and terminates in the last column. The matrix wraps so that it represents horizontal cylinder. From i to i+1 column, one can move in certain legal steps i.e. from any cell of the matrix it can go to only its adjacent cell (either diagonal or linear). </p>\n<p>\u00a0\n</p>\n\n<h3>Input</h3>\n<p>First line consists of T test cases. Each test case has first line M and N representing number of rows and columns of matrix followed by M lines and each line has N space separated input. </p>\n\n\n<h3>Output</h3>\n<p>One line for each test case i.e. the key. If there is more than one path of minimal weight the path that  is lexicographically smallest should be output. \n </p>\n\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> \u2264 <b>m</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>n</b> = <b>100</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n6 6 \n2 4 1 5 8 6 \n6 1 9 2 7 4 \n1 9 3 9 9 3 \n8 4 1 3 2 6 \n3 7 8 1 2 3 \n2 6 2 1 9 8 \n\n5 6 \n6 4 8 2 3 6 \n6 1 5 5 7 4 \n2 9 3 9 1 5 \n8 7 1 3 2 6 \n3 7 8 0 6 7 \n</pre>\n</br>\n</br>\n<pre>\n<b>Output:</b>\n\n321655 \n\n323432 \n<br>\n<br>\n<b>Explanation</b>\n<br>\n321655\n<br>\n<img src = \"https://s3.amazonaws.com/codechef_shared/download/TETO2017/3.png\"\nheight = \"100%\" width = \"100%\">\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "11-08-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Techtonic",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1502598600,
+        "end_date": 1502821740,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1502821800,
+        "submit_start_date": 1502598600,
+        "current": 1537433652
+    },
+    "problem_author_html_handle": "anu2506",
+    "problem_name": "The Safe",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anu2506'>anu2506</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "anu2506",
+    "contest_code": "TETO2017",
+    "max_timelimit": "0.109",
+    "problem_code": "THSF"
+}

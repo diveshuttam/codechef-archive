@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>After a lot of years of hardships, Prateek has gathered a mighty army of soldiers. You as his advisor must help him in developing a strategy for battle.<br><br>\n\nThe no of soldiers in Prateek's army is <b>N</b> and the strength of the <b>i<sup>th</sup></b> soldier is <b>A<sub>i</sub></b>. Prateek always sends his soldiers in pairs. So he can send <b>i<sup>th</sup></b> and <b>j<sup>th</sup></b> soldiers together given <b>i \u2260 j</b>. The cumulative strength of this pair of soldiers would be <b>A<sub>i</sub></b> + <b>A<sub>j</sub></b>. Now he asks you <b>Q</b> queries and you must answer them. Given an <b>L</b> and an <b>R</b> how many unordered pairs of soldiers exist such that their cumulative strength lies between <b>L</b> and <b>R</b> (inclusive)?\n<h3>Input</h3>The first line of the input contains two integers <b>N</b> and <b>Q</b> denoting the number of soldiers in the army and the number of queries respectively.  \n<br><br>\nThe <b>i<sup>th</sup></b> line of  the next <b>N</b> lines contains a single integer  <b>A<sub>i</sub></b>, denoting the strength of the <b>i<sup>th</sup></b>  soldier.\n<br><br>\nThe next <b>Q</b> lines contain two integers, <b>L</b> and <b>R</b>. \n<br><br>\n<h3>Output</h3>\nFor each query, output a single line containing the answer to that query.\n<br><br>\n<h3>Constraints</h3>\n<li><b>1</b>  \u2264  <b>N</b>  \u2264  <b>5x10<sup>5</sup></b></li>\n<li><b>1</b>  \u2264  <b>Q</b>  \u2264 <b>5x10<sup>5</sup></b></li>\n<li><b>1</b>  \u2264  <b>A<sub>i</sub></b>  \u2264  <b>5x10<sup>5</sup></b></li>\n<li><b>1</b>  \u2264  <b>L</b> \u2264  <b>R</b>  \u2264  <b>10<sup>6</sup></b></li>\n<br><br>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3 4\n1\n2\n3\n2 5\n3 3\n1 3\n3 4\n<b>Output:</b>\n3\n1\n1\n2\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example 1.</b>The possible pairs are - {1,2}, {1,3} and {3,2} with their cumulative strengths as 3,4 and 5</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-01-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Byterace",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1487172600,
+        "end_date": 1487183400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1487183400,
+        "submit_start_date": 1487172600,
+        "current": 1537434154
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>bhavit_sharma</span>",
+    "problem_name": "Prateek in war",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bhavit_sharma'>bhavit_sharma</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bhavit_sharma",
+    "contest_code": "BYTR2017",
+    "max_timelimit": "3",
+    "problem_code": "ADWAR"
+}

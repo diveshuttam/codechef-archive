@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Shinchan and Ace are becoming very popular in <b>COUNTER STRIKE</b>. They are known for their good coordination.<br />\nNowadays, they are playing together. There are <b>N</b> terrorist and each terrorist has a <b>strength</b> associated with it. They have to kill all the terrorists. They have to follow the following rules:</p>\n<li>Time taken to kill a terrorist is equal to its strength.</li>\n<li>Both Shinchan and Ace can fight with one terrorist at a time.</li>\n<li>They can't simultaneously fight with same terrorist.\n</li>\n<li>They can't switch to other terrorists until the terrorist to which they are fighting is completely dead (or 0 strength).</li>\n<li> None of them is idle until all terrorists have been killed.</li>\n<p>They want to know whether they will be able to kill all the terrorists at the same time or not. Now, they want your help to maintain their coordination.</p>\n<h3>Input</h3>\n<p>First line of the input contains an integer <b>T</b> denoting the number of test cases. <br /> First line of each test case contains an integer <b>N</b> denoting the number of terrorists. Next line contains <b>N</b> space separated integers <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b> denoting the strength of the terrorists.</p>\n<h3>Output</h3>\n<p>Output <b>YES</b> if Shinchan and Ace can kill all the terrorist at the same time,<br />\notherwise <b>NO</b>.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>500</b></li>\n<li><b>1</b> \u2264 <b>A<sub>i</sub></b> \u2264 <b>500</b></li>\n</ul>\n<h3>Example</h3>\n<p><b>Input</b><br />2<br />5<br />1 7 5 3 9<br />4<br />7 12 4 9 <br /><br />\n<br /><b>Output</b><br />NO<br />YES </p>\n<h4>Explanation</h4>\n<p><br />\n</p><p><b>Example case 1.</b> Ace and Shinchan can never kill all the enemies at the same time.<br />\n<br /><br />\n<b>Example case 2.</b> Shinchan chooses terrorists with strength 12 and<br />\n4 and takes total time = 16. Ace chooses terrorists with strength<br />\n7 and 9 and takes total time = 16. Hence both of them take equal time and<br />\nkill the enemies at the same time, that is after 16 units of time.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "31-07-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Counter Strike",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1439913600,
+        "end_date": 1439922600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1439922600,
+        "submit_start_date": 1439913600,
+        "current": 1537436119
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>ankurverma1994</span>",
+    "problem_name": "SHINCHAN AND ACE",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ankurverma1994'>ankurverma1994</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ankurverma1994",
+    "contest_code": "COSE2015",
+    "max_timelimit": "1",
+    "problem_code": "CSTRIKE1"
+}

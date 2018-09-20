@@ -1,0 +1,93 @@
+{
+    "teamsCount": "358",
+    "announcements": "<p>Please send feedback email to icpc@am.amrita.edu, with subject as WARMUP CONTEST FEEDBACK. Unless the server being slow ruined your contest totally, don't focus on that, as we know that problem already.</p>",
+    "ip": "149.129.135.113",
+    "code": "AMRITA01",
+    "duration": "150",
+    "name": "Amritapuri ICPC Warmup 1",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>Rules:</b></p> <p>\u00a0</p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></li> <br /> <li>You can also send in your queries in an email to <a href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a>, during the contest.</li> <br /> <li>Contest problems will become visible on September <span><b>24th</b></span>, 2010 at 20:00 (IST). There will be 4-5 problems in all.</li> <br /> <li>This is a team based contest (up to 3 participants). You must register your team by 19:59 IST on September 24th to participate (see the registration link below).</li> <br /> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <br /> <li>Teams are ranked according to the most problems solved. Ties will be broken by the total time for each team in ascending order of time..</li> <br /> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> <br /> <li>Languages allowed are: C, C++ and Java.</li> <br /> <li><b>The two fastest teams to solve all the problems will get the Rs. 3000 registration fee for the ICPC on-site contest waived.</b></li> <br /> <li><b>Anyone can participate but only teams with Indian students from the same college are eligible for the waiver of registration fee.</b></li> <br /> <li><b>A coach and a reserve team member can be added for the ICPC regionals, but the original team composition must remain the same in order to be eligible for the waiver of registration fee.</b></li> <br /> <li>Registration: <ul> <li> You can register for this contest at <a href=\"/teams/register/AMRITA01\" target=\"_blank\">http://www.codechef.com/teams/register/AMRITA01</a> (you must be logged in before registering) </li> <br /> <li> How to register for a team contest? <br /> <br /> <ul> <li> Login with your normal CodeChef user ID. </li> <br /> <li> Click on the registration link above and fill out the form. </li> <br /> <li> Click logout in the top right corner and login using the Team Name and password you registered with. </li> <br /> <li> Everyone must use the same team login to submit to team based contests. </li> </ul> </li> </ul> </li> <br /> <li>You can get more information about team contests <a href=\"/wiki/team-contests\" target=\"_blank\">here</a>.</li> </ul> <p>\u00a0</p> <p><b>NOTE: Registration at CodeChef for the warmup contest is not enough for ICPC participation. You must also register at icpc.baylor.edu. For more details click <a href=\"http://icpc.amrita.ac.in/2010/\">here</a>.</b></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/AMRITA01/1424957494.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "EQUATION": {
+            "allow_submission": false,
+            "name": "A Simple Equation",
+            "category_name": "main",
+            "accuracy": 14.59,
+            "successful_submissions": "63",
+            "code": "EQUATION",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MKSQR": {
+            "allow_submission": false,
+            "name": "Make A Square",
+            "category_name": "main",
+            "accuracy": 38.46,
+            "successful_submissions": "32",
+            "code": "MKSQR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "STEPUP": {
+            "allow_submission": false,
+            "name": "Stepping Up",
+            "category_name": "main",
+            "accuracy": 17.89,
+            "successful_submissions": "22",
+            "code": "STEPUP",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DECSTR": {
+            "allow_submission": false,
+            "name": "Decreasing String",
+            "category_name": "main",
+            "accuracy": 25.9,
+            "successful_submissions": "108",
+            "code": "DECSTR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "WEIGHT": {
+            "allow_submission": false,
+            "name": "Weight of Numbers",
+            "category_name": "main",
+            "accuracy": 50.75,
+            "successful_submissions": "33",
+            "code": "WEIGHT",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537439520,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

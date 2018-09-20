@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Naresh has R red socks, G green socks and B blue socks. He decided to divide all the socks into some groups.</p>\n<p>All the colours, red, green and blue are his favourite, so he wants each group to have at least 1 red, at least 1 green and at least 1 blue sock.</p>\n\n<p>Can you help Naresh find maximum number of groups he can create satisfying given condition?</p> \n\n<h3>Input</h3>\n<p>Input consists of three integers R,G and B denoting number of red, green and blue socks.</p>\n\n<h3>Output</h3>\n<p>Print maximum number of groups that can be formed.</p>\n\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> <=<b>R,G,B</b> <=<b>10<sup>6</sup></b></li>\n</ul>\n\n<h3>Example 1</h3>\n<pre><b>Input:</b>\n5 8 6\n\n<b>Output:</b>\n5\n\n</pre>\n\n<h3>Example 2</h3>\n<pre><b>Input:</b>\n11 8 15\n\n<b>Output:</b>\n8\n\n</pre>\n\n<h3>Explanation</h3>\n<p>You can make 8 such groups {1,1,1},{1,1,1},{1,1,1},{1,1,1},{1,1,1},{1,1,1},{1,1,1},{4,1,8}</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "NPL Qualifier",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1508596200,
+        "end_date": 1508607000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1508607000,
+        "submit_start_date": 1508596200,
+        "current": 1537433434
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>vinod10</span>",
+    "problem_name": "Group of Socks",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vinod10'>vinod10</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vinod10",
+    "contest_code": "NPLQ2017",
+    "max_timelimit": "1",
+    "problem_code": "NPL1701A"
+}

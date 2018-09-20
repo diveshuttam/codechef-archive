@@ -1,0 +1,137 @@
+{
+    "announcements": "<p><b>05/03/2013, 17:00 IST: </b>The problem statement of <a href=\"/MARCH13/problems/LONGART\" target=\"_blank\">LONGART</a> has been updated. The ambiguity in the output section was removed (see bold word \"every\" there). Sorry for inconvenience caused.</p>\r\n<p><b>05/03/2013, 16:00 IST: </b>The problem statement of <a href=\"/MARCH13/problems/ZENCALC\" target=\"_blank\">ZENCALC</a> has been updated. The first evaluation rule (with factorial) was corrected. Sorry for inconvenience caused.</p>\r\n<p><b>05/03/2013, 11:30 IST: </b>The tenth problem <a target=\"_blank\" href=\"/MARCH13/problems/LECOINS\">LECOINS</a> have been added to the contest page.</p>\r\n<p><b>03/03/2013, 22:00 IST: </b>The problem statement of\u00c2\u00a0<a href=\"/MARCH13/problems/MINESWPR\" target=\"_blank\">MINESWPR</a> has been updated. Code snippets for Survey and Neutralize operations at C/C++ have been added to show how I/O part could be implemented to avoid TLE verdict.</p>\r\n<p><b>03/03/2013, 22:00 IST: </b>The ninth problem\u00c2\u00a0<a href=\"/MARCH13/problems/ZENCALC\" target=\"_blank\">ZENCALC</a> has been added to the contest page.</p>\r\n<p><b>01/03/2013, 15:00 IST: </b>Only 8 problems have been served as of now. Remaining two problems are still being cooked in the kitchen. We will be serving them soon.</p>\r\n<p>\u00c2\u00a0</p>",
+    "ip": "149.129.135.113",
+    "code": "MARCH13",
+    "duration": "14400",
+    "name": "March Challenge 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p>\u00a0</p> <p class=\"MsoNoSpacing\"><b>The March \u00a0Contest has ended!</b></p> <p class=\"MsoNoSpacing\"><b><span>The editorials for </span>March Challenge can be found <a href=\"http://discuss.codechef.com/tags/march13\" target=\"_blank\">here</a>.<span> </span></b></p> <p class=\"MsoNoSpacing\"><b><span> </span></b><b>All problems have been added to the practice section.</b></p> <p class=\"MsoNoSpacing\"><b> </b><b>Solutions are public for all problems.</b></p> <p class=\"MsoNoSpacing\"><b>Winners Blog Post </b><b>can be found <a href=\"http://blog.codechef.com/2013/04/01/the-color-and-mischief-of-march-contests/\">here</a>.</b></p> <p class=\"MsoNoSpacing\"><b> </b><span>The New contest rankings can be viewed </span><a target=\"_blank\" href=\"/long/ranklist/AX/\">here</a></p> <p class=\"MsoNoSpacing\">\u00a0</p> <p class=\"MsoNoSpacing\"><b>Rules:</b></p> <p class=\"MsoNoSpacing\"><b> </b></p> <p class=\"MsoNoSpacing\"><span><br />Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></span></p> <p class=\"MsoNoSpacing\">\u00a0</p> <p class=\"MsoNoSpacing\"><span>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</span></p> <p class=\"MsoNoSpacing\"><span><br /></span></p> <p class=\"MsoNoSpacing\"><span>Contest problems will become visible on March 1st 2013 at 15:00 hours IST. Check your timezone\u00a0<a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+March+Challenge+2013&amp;iso=20130301T15&amp;p1=44\">here</a>.</span><br /><br /></p> <p class=\"MsoNoSpacing\"><span>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.<br /><br /></span></p> <p class=\"MsoNoSpacing\"><span>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.<br /><br /></span></p> <p class=\"MsoNormal\"><span>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</span></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/MARCH13/1424957734.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "MINESWPR": {
+            "allow_submission": false,
+            "name": "Minesweeper",
+            "category_name": "main",
+            "accuracy": 58.36,
+            "successful_submissions": "730",
+            "code": "MINESWPR",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "TOTR": {
+            "allow_submission": false,
+            "name": "Tourist Translations",
+            "category_name": "main",
+            "accuracy": 49.16,
+            "successful_submissions": "2480",
+            "code": "TOTR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHANGE": {
+            "allow_submission": false,
+            "name": "Making Change",
+            "category_name": "main",
+            "accuracy": 2.48,
+            "successful_submissions": "3",
+            "code": "CHANGE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FIRESC": {
+            "allow_submission": false,
+            "name": "Fire Escape Routes",
+            "category_name": "main",
+            "accuracy": 19.24,
+            "successful_submissions": "1254",
+            "code": "FIRESC",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SUBTREE": {
+            "allow_submission": false,
+            "name": "Festivals",
+            "category_name": "main",
+            "accuracy": 8.39,
+            "successful_submissions": "44",
+            "code": "SUBTREE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "RDF": {
+            "allow_submission": false,
+            "name": "Random decreasing function",
+            "category_name": "main",
+            "accuracy": 22.83,
+            "successful_submissions": "517",
+            "code": "RDF",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ZENCALC": {
+            "allow_submission": false,
+            "name": "Peaceful Calculator",
+            "category_name": "main",
+            "accuracy": 3.4,
+            "successful_submissions": "38",
+            "code": "ZENCALC",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LONGART": {
+            "allow_submission": false,
+            "name": "Longest Article",
+            "category_name": "main",
+            "accuracy": 4.56,
+            "successful_submissions": "17",
+            "code": "LONGART",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LECOINS": {
+            "allow_submission": false,
+            "name": "Little Elephant and Colored Coins",
+            "category_name": "main",
+            "accuracy": 6.13,
+            "successful_submissions": "15",
+            "code": "LECOINS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "APPROX": {
+            "allow_submission": false,
+            "name": "Approximately",
+            "category_name": "main",
+            "accuracy": 44.05,
+            "successful_submissions": "2342",
+            "code": "APPROX",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1362994200,
+        "current": 1537438417,
+        "freezing": 0,
+        "start": 1362130200
+    },
+    "user": {
+        "username": ""
+    }
+}

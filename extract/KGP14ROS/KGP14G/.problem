@@ -1,0 +1,33 @@
+{
+    "problem_code": "KGP14G",
+    "problem_author": "admin3",
+    "contest_name": "ACM-ICPC Asia-Kharagpur Onsite Contest 2014, Replay",
+    "todo": false,
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Tour Planning",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "KGP14ROS",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/kgp14ros'>kgp14ros</a>, <a class='problem-tag-small ' href='/tags/problems/medium-hard'>medium-hard</a>, <a class='problem-tag-small ' href='/tags/problems/shortest-path'>shortest-path</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Professor PariBrajika wishes to plan a tour from Kharagpur to Himalpur using Pushpak Travels. There are K tourist locations serviced by Pushpak Travels, numbered from 1 to <b>K</b>, including Kharagpur (numbered 1) and Himalpur (numbered <b>K</b>).</p>\n\n<p>It is only possible to travel directly from some locations to some other locations. For any pair of locations for which direct travel is possible, the travel from the originating city can start only at some specific time intervals of the day and the travel time depends on the starting time interval from the originating city because of different reasons such as vehicle type availability, traffic, and other environmental conditions. We will refer to each such 5-tuple <<i>u,v,s,f,t</i>> where <i>u</i> is the originating location, <i>v</i> is the destination location, <i>s</i> and <i>f</i> are the start and finish of a time interval within which travel can start at <i>u</i>, and <i>t</i> is the travel time in hours from <i>u</i> to <i>v</i> when starting within the closed interval <i>[s,f]</i>, as a route. The elements <i>s</i> and <i>f</i> are specified as hours of the day, in 24-hour format (i.e. 0 to 23). For a particular origin-destination pair, you can assume that all intervals specified are non-overlapping. You can also assume that the routes are such that even with the above constraints, it is possible to reach Himalpur from Kharagpur passing through 0 or more of the other locations.</p>\n\n<p>Professor PariBrajika cannot travel continuously without rest. The number of hours she can travel continuously without rest is equal to the \"energy credit\" she has. She can earn an energy credit of 1 hour for every hour of rest she takes (rest can be taken in integer multiples of hours only). However, she can rest only at any of the tourist locations. She spends an energy credit of 1 hour for every hour she travels. She may decide to rest any time irrespective of the energy credit she has (for example if no route is available for the current time or if a future route will enable her to reach Himalpur earlier through some other path). In that case, she has unspent energy credit left and can accumulate further energy credit. Energy credits can be accumulated cumulatively during the journey, subject to a maximum of 6 hours worth of travel time. Therefore, she cannot travel for more than 6 hours continuously in any case after the last recharge.</p>\n\n<p>If Professor Paribrajika can leave Kharagpur anytime after midnight (t \u2265 0), find the earliest time, expressed as the total number of hours elapsed since t=0 (midnight), at which Professor PariBrajika can reach Himalpur. Assume that at the start of the journey she is fully rested and is good to go for 6 hours (i.e., has energy credits of 6 hours).</p>\n\n\n<h3>Input</h3>\n<p>The first line contains the number of test cases, <b>N</b> (0 &lt; <b>N</b> \u2264 3).</p>\n\n<p>For each test case, the first line contains the number of locations <b>K</b> (0 &lt; <b>K</b> \u2264 500), and the total number of routes <b>M</b> (0 &lt; <b>M</b> \u2264 10000). This is followed by <b>M</b> lines, with each line containing the information of a single route, specified by five integers <i>u, v, s, f, t</i> (in this order with one or more space between two successive integers). The integers correspond to the 5-tuple <u,v,s,f,t> as described earlier (1 \u2264 <i>u, v</i> \u2264 <b>K</b>, 0 \u2264 <i>s, f \u2264 23, s &lt; f, t > 0</i>).</p>\n\n\n<h3>Output</h3>\n<p>For each test case, print the case number, followed by a colon, followed by a single space, followed by a single integer indicating the earliest time in hours from the time <b>t=0</b> to reach Himalpur.</p>\n\n\n<h3>Sample Input</h3>\n<pre>\n2 \n3 3 \n1 2 0 2 3 \n2 3 3 6 6 \n2 3 7 12 6 \n5 10 \n1 2 0 2 5 \n1 2 3 23 6 \n2 3 0 4 3 \n2 3 5 8 1 \n2 3 9 23 2 \n3 4 0 10 5 \n3 4 11 14 6 \n3 4 15 23 5 \n4 5 0 2 2 \n4 5 3 23 6\n</pre>\n\n\n<h3>Sample Output</h3>\n<pre>\nCase 1: 12\nCase 2: 26\n</pre>",
+    "category_name": "main",
+    "date_added": "18-12-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/KGP14G",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1419424200,
+        "end_date": 1419442200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1419442200,
+        "submit_start_date": 1419424200,
+        "current": 1537437047
+    },
+    "user": {
+        "username": ""
+    }
+}

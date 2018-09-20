@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A team of robbers have entered the premises of the Bank of Chefland. The bank consists of a long corridor, with <b>N</b> cameras fitted along the corridor. Each camera has a <i>field of view</i>, i.e., i<sup>th</sup> camera has monitors all activity between coordinates C<sub>i</sub> and D<sub>i</sub>. All coordinates are measured from one end of the corridor.</p>\n<p>The robbers want to understand the layout of the cameras. Specifically, they ask <b>Q</b> queries. For the i<sup>th</sup> query, tell the number of cameras that would notice if the robbers move directly from coordinate A<sub>i</sub> to B<sub>i</sub>. Can you help them?</p>\n<h3>INPUT</h3>\n<p>First line consists of two space-separated integers, N and Q.<br />Each of the next N lines contain two space-separated integers, i<sup>th</sup> line contains C<sub>i</sub> and D<sub>i</sub>.<br />Each of the next Q lines contains two integers. i<sup>th</sup> line contains integers A<sub>i</sub> and B<sub>i</sub>.</p>\n<h3>OUTPUT</h3>\n<p>Print Q lines, where i<sup>th</sup> line contains a single integer indicating the answer of the i<sup>th</sup> query.</p>\n<h3>CONSTRAINTS</h3>\n<pre>1\u2264N,K\u2264100000<br />1\u2264C<sub>i</sub>,D<sub>i</sub>,A<sub>i</sub>,B<sub>i</sub>\u226410<sup>9</sup>\n<h3>SAMPLE INPUT</h3><pre>2 3<br />1 2<br />3 7<br />1 3<br />3 4<br />8 11</pre><h3>SAMPLE OUTPUT</h3>\n<pre>2<br />1<br />0</pre></pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-09-2014",
+    "is_direct_submittable": false,
+    "contest_name": "TechFest 2015, Portal round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1412868600,
+        "end_date": 1413059400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1413059400,
+        "submit_start_date": 1412868600,
+        "current": 1537437355
+    },
+    "problem_author_html_handle": "techfest2k15",
+    "problem_name": "Avoiding Cameras - 2",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/techfest2k15'>techfest2k15</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "techfest2k15",
+    "contest_code": "TCFS15P",
+    "max_timelimit": "1",
+    "problem_code": "CAMERAS2"
+}

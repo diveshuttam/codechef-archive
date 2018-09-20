@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>CTU (Counter Terrorist Unit) is under cyber attack from a strange group of hackers! Obviously they have critical information, and the entire network needs to be shut down as soon as possible. Chloe is in charge of the network, help her out! \u00a0</p>\n<p>\nThe network consists of <b>N</b> nodes/servers. Initially each node is connected to every other node. Each node has a <i>cost</i> associated with it denoted by <b>C[u]</b>. The shutdown of the nodes needs to be done in stages.<br /><br />\nIn one stage, consider nodes that have not been shutdown yet. A non-empty subset of these nodes are chosen and shutdown. The time required to remove these nodes is defined as follows: <br /><br />\n<br />Let the nodes chosen to be shutdown be in an <i>active</i> state. Let the other nodes(not yet shutdown) be in an <i>inactive</i> state.<br /><br />\nTo make the chosen nodes active, it takes <b>C[u]</b> time for each node u which is chosen.<br />\nTo remove the chosen nodes, all connections involving these nodes must be removed.<br /><br />\nTo remove a connection between an <i>active</i> and <i>inactive</i> node, it takes <b>C[u]</b> seconds, where u is the active node.<br />\nTo remove a connection between 2 <i>active</i> nodes, it takes <b>C[u] + C[v]</b> seconds, where u and v are the active nodes.<br />\nNote that all above connections are undirected, hence the connection between a pair of nodes is removed only once.<br />\nThe total time taken for this stage, is the sum of the time taken to make the nodes active and the total time taken to remove each relevant connection mentioned above. After the shutdown, the chosen nodes are completely removed from the network, and do not affect subsequent stages. Also, Chloe is the only person assigned to do this job, hence at a time only one connection be broken.\n</p>\n<p>\nDue to various constraints, the shutdown has to be done in <b>exactly M stages </b>. Help Chloe shutdown <i>all</i> the nodes in the minimum time possible, a lot of data is at stake!\n</p>\n\n<p>\u00a0</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. </li>\n<li>The first line of each test case contains 2 integers <b>N</b> and <b>M</b> , denoting the number of nodes and number of stages respectively.</li>\n<li>The second line contains <b>N</b> space-separated integers <b>C<sub>1</sub></b>, <b>C<sub>2</sub></b>, ..., <b>A<sub>N</sub></b> denoting the <i>cost</i> of each node. </li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>\nFor each test case, output a single like containing an integer representing the minimum time needed to shut down the network.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>2000</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>C[u]</b> \u2264 <b>100000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n3 2\n5 4 6\n\n<b>Output:</b>\n33\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>\nIn the first stage, Chloe can choose 1st and 2nd node. <br /><br />\nTime taken for this stage = Time taken to make nodes 1 and 2 active + Total time to break connections: (1 - 2,1 - 3,2 - 3). Total time = (5 + 4) + (9 + 5 + 4) =  27. <br /><br />\nIn the second stage, Chloe must choose the 3rd node. <br /><br />\nTime taken for second stage = 6, since the 3rd node is the only node left.<br />\n<br /><br />\nTotal time = 27 + 6 = 33</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team ForTheWatch",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1454833800,
+        "end_date": 1454851800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454851800,
+        "submit_start_date": 1454833800,
+        "current": 1537435513
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>prashantmahesh</span>",
+    "problem_name": "Chloe and the Cyber Attack",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/prashantmahesh'>prashantmahesh</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "prashantmahesh",
+    "contest_code": "IPC15P2C",
+    "max_timelimit": "3",
+    "problem_code": "NETDES"
+}

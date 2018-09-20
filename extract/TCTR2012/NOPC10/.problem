@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Computation of the date either previous or forthcoming dates is quiet easy. But it is quiet difficult to calculate the day from a particular given date. \nYou are required to find a day from a particular date given to you.\n\n<h3>Input</h3>\n<p>It consists of a single line entry consisting of date in format dd mm yyyy.\ni.e. the input line consists of the three numbers written in order followed by spaces.\nEg. Input for 18-12-1990 is be written as 18 12 1990\n<h3>Output</h3>\n<p>It consists of single line output showing the day for that particular date.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n14 3 2012\n\n<b>Output:</b>\nWednesday\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "TechTrishna 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1331706600,
+        "end_date": 1331760600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1331760600,
+        "submit_start_date": 1331706600,
+        "current": 1537438880
+    },
+    "problem_author_html_handle": "bestankur007",
+    "problem_name": "Day from Date",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bestankur007'>bestankur007</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bestankur007",
+    "contest_code": "TCTR2012",
+    "max_timelimit": "0.2",
+    "problem_code": "NOPC10"
+}

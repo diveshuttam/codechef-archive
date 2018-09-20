@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Recently Chef has left his job and started his own bakery. So the people of Chefland have decided to buy food from Chef's bakery. The cost of every item at chef's bakery is same. Assuming that you are a resident of Chefland, you always want to buy maximum number of items such that after buying maximum number of items, you still have some money left with you. Initially, you have some fixed amount of money in your wallet.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>First line of input contain <b>T</b> , number of test cases.\nnext <b>T</b> lines of input contains two space separated integers <b>N</b> and <b>X</b> where <b>N</b> is the total initial amount of money in your wallet and <b>X</b> is the cost of each item.</p>\n<p></p>\n\n<h3>Output</h3>\n<p>Single line of output should print the money left in your wallet after buying maximum number of items.</p>\n<p></p>\n\n\n<h3>Constraints and Sub-tasks</h3>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>X,N</b> \u2264 <b>10^18</b></li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n10 3\n\n<b>Output:</b>\n1\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>Initially you have an amount of 10 in your wallet and cost of each item is 3 ,so you can buy maximum of 3 items and still having left amount 1 in your wallet.  </p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-01-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Codevaitam 3.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1485959400,
+        "end_date": 1486305000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1486305000,
+        "submit_start_date": 1485959400,
+        "current": 1537434168
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>decoder_pheku</span>",
+    "problem_name": "Chef and Bakery",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/decoder_pheku'>decoder_pheku</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "decoder_pheku",
+    "contest_code": "CDVA17",
+    "max_timelimit": "1",
+    "problem_code": "CDVA1703"
+}

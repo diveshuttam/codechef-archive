@@ -1,0 +1,97 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "AUG09",
+    "duration": "14400",
+    "name": "August 2009 (Contest VI)",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>Update:</b></p> <ul> <li><b>Aug 4th - The issue with F2 has been resolved and the problem has been rejudged.</b></li> <li>Aug 3rd - There is an issue with the test data for F2, submissions have been temporarily disabled until this is resolved.</li> <li>July 31 - You only are allowed 20 submissions per calendar day (midnight to midnight IST) for the challenge problem (FX). For more on the reasons behind this, check out <a href=\"http://blog.codechef.com/2009/07/29/rule-change-for-august-contest-guidelines-for-disqualification/\">our most recent blog post.</a></li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at feedback@codechef.com</li> </ul>  <p><b>Rules:</b></p> <ul> <li>Contest problems will become visible on August 1st 15:00 IST.</li> <li>The contest will consist of 6-8 problems of varying difficulty.</li> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</li> <li>In the unlikely case of an overall tie (including the same score on the tie-breaker) a winner will be randomly chosen from the top scorers.</li> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/AUG09/1424964318.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "FX": {
+            "allow_submission": false,
+            "name": "Crystals",
+            "category_name": "main",
+            "accuracy": 58.74,
+            "successful_submissions": "41",
+            "code": "FX",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "F1": {
+            "allow_submission": false,
+            "name": "Golf course",
+            "category_name": "main",
+            "accuracy": 8.18,
+            "successful_submissions": "69",
+            "code": "F1",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "F2": {
+            "allow_submission": false,
+            "name": "Bytelandian Robots",
+            "category_name": "main",
+            "accuracy": 24.17,
+            "successful_submissions": "51",
+            "code": "F2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "F6": {
+            "allow_submission": false,
+            "name": "Divide and conquer",
+            "category_name": "main",
+            "accuracy": 5.05,
+            "successful_submissions": "25",
+            "code": "F6",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "F3": {
+            "allow_submission": false,
+            "name": "Curry Stained Napkin",
+            "category_name": "main",
+            "accuracy": 22.3,
+            "successful_submissions": "56",
+            "code": "F3",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "F5": {
+            "allow_submission": false,
+            "name": "Magic sequence",
+            "category_name": "main",
+            "accuracy": 5.81,
+            "successful_submissions": "40",
+            "code": "F5",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1249983000,
+        "current": 1537439917,
+        "freezing": 0,
+        "start": 1249119000
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "BITMASK3",
+    "problem_author": "hsagarthegr8",
+    "contest_name": "Bit Mask",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>hsagarthegr8</span>",
+    "problem_name": "Raman and The Bucket Challenge",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "BITM2017",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/binary-search'>binary-search</a>, <a class='problem-tag-small ' href='/tags/problems/hsagarthegr8'>hsagarthegr8</a>, <a class='problem-tag-small ' href='/tags/problems/searching'>searching</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Raman and Himanshu are good friends. One day, Himanshu gave him a problem.</p>\n<p>There are infinite number of buckets and <b>N</b> litres of water.\u00a0These buckets have a unique property. The capacity of <b>i<sup>th</sup></b> bucket is <b>i</b> litres i.e. the capacity of first bucket is 1 litre, the capacity of second bucket is 2 litres and so on. Also, the <b>i<sup>th</sup></b> bucket can only be filled when all the buckets which have lesser capacity are totally filled i.e. second bucket cannot be filled before first bucket. </p>\n<p> Now Himanshu wants him to find the number of buckets which can be filled with <b>n</b> litres of water. </p>\n<p>So, Raman is asking for your help. He wants you to write a program to find the solution of the given problem.</p>\n<b>The bucket will be considered filled if it has atleast 1 litre in it.</b>\n\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>\n<p> Each test case contain a integer <b>N</b> denoting the amount of water in litres.</p>\n\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>For each test case, output a single integer which denotes the number of buckets which can be filled.</p>\n\n\n\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10000</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>16</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n3\n6\n4\n\n<b>Output:</b>\n2\n3\n3\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> In this case we can fill the first bucket in 1 litre and second bucket in 2 litres. </br>Now we are not left with any amount of water. So the ans is 2.</p>\n",
+    "category_name": "main",
+    "date_added": "25-04-2017",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "0.025",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/BITMASK3",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1493980200,
+        "end_date": 1493998200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1493998200,
+        "submit_start_date": 1493980200,
+        "current": 1537433893
+    },
+    "user": {
+        "username": ""
+    }
+}

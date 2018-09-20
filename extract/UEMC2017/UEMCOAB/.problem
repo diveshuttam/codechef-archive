@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Spidey is investigating Batman's home in the Gotham city. Spidey has found a number of mysterious passages with interesting milestones in this city and the outskirts. But, thick, fat guards block the entrace to each of there passages to the milestones. Its easy for Batman to pass through them with his special access and permissions, but Spidey doesn't have enough power to fight them all alone. However he does have equipments needed to defeat them, but even for him the fuel is very expensive. <br />So to determine the power of each of these guards and road-blocks, he has launched a number of mini-spider drones through the underground.<br />Each mini-spider drone which hits a guard point or road-block emits a signal consisting of its x and y<br />coordinates. Spidey needs your help. Your task is to determine the smallest possible size of the passages, which is equal to the maximum distance between<br />any two mini-spider drones (so that guards and security systems won't be alerted during the process).<br />The burning equipment needs to be provided with the cubed value of this distance.</p>\n<p>Given the list of coordinates of the points containing guards, find the cubes of the maximal distance between any two mini- spider drones.</p>\n<p>&nbsp;</p>\n<p>INPUT:<br />First Line contains number of test cases (T)<br />First Line of each test case contains the number of coordinates of mini-spider drones (N)<br />The following lines contain the coordinates separated by a space (X<sub>i,</sub>Y<sub>i</sub>)</p>\n<p>OUTPUT:<br />The required distances in separate lines</p>\n<p>CONSTRAINTS:<br />1&lt;=T&lt;=20<br />1&lt;=N&lt;=100000<br />-50000000&lt;=(X<sub>i,</sub>Y<sub>i</sub>)&lt;=50000000</p>\n<p>SAMPLE INPUT:<br />4<br />1<br />5 12<br />2<br />4 -4<br />-1 -3<br />3<br />3 16<br />8 0<br />8 7<br />2<br />7 -5<br />2 16</p>\n<p>SAMPLE OUTPUT:<br />0<br />125<br />4096<br />9261</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "UEMCO",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1509287400,
+        "end_date": 1509298200,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1509298200,
+        "submit_start_date": 1509287400,
+        "current": 1537433388
+    },
+    "problem_author_html_handle": "uemco2017",
+    "problem_name": "SPIDEY",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/uemco2017'>uemco2017</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "uemco2017",
+    "contest_code": "UEMC2017",
+    "max_timelimit": "1",
+    "problem_code": "UEMCOAB"
+}

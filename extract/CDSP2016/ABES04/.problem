@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>There is a group of <b>N</b> students numbered from <b> 1</b> to <b>N</b>. Some of the students know each other.You are given this information by <b>M</b> pairs each of form (a<sub>i</sub>,b<sub>i</sub>) denoting that person <b>a<sub>i</sub></b> and <b>b<sub>i</sub></b> know each other.</p>\n<p>The professor wants to conduct a group activity and for this activity he needed either <b>2</b> or <b>3</b> group of students.The criteria of dividing the students in groups is that only those students who know any of the student in a group can go in that group.Groups are formed such that student of one group does not know student of other group.</p>\n<p>Please help the professor to group them. </p>\n\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>\n<p>The first line of each test case contains two space-separated integers <b>N</b> and <b>M</b>, denoting the number of students and the number of pairs representing information whether two person know each other or not.</p>\n<p>The next <b>M</b> lines contain two space-separated integers <b>a<sub>i</sub></b> and <b>b<sub>i</sub></b>, denoting that persons <b>a<sub>i</sub></b> and <b>b<sub>i</sub></b> know each other.</p>\n\n<h3>Output</h3>\n<p>For each test case, output a single line containing word \"YES\" (without quotes) if Professor can conduct this activity and \"NO\" (without quotes) otherwise</p>\n\n<h3>Constraints</h3>\n<ul>\n<li> 1 \u2264 T \u2264 10<sup>3</sup></li>\n <li>1 \u2264 N \u2264 10<sup>5</sup></li>\n  <li>0  \u2264  M \u2264 10<sup>6</sup></li>\n    <li>1 \u2264 a<sub>i</sub>, b<sub>i</sub> \u2264 N</li>\n    <li>The sum of N over all test cases in a single test file does not exceed 10<sup>5</sup></li>\n    <li>The sum of M over all test cases in a single test file does not exceed 10<sup>6</sup></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n5 4\n1 2 \n1 3\n3 4\n4 5\n8 9\n1 2 \n2 3\n3 1\n2 4\n3 4\n3 5\n6 8\n7 6\n7 8\n\n<b>Output:</b>\nNO\nYES\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Code Sprint",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1475048700,
+        "end_date": 1475057400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1475057400,
+        "submit_start_date": 1475048700,
+        "current": 1537434534
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>lokesh999</span>",
+    "problem_name": "Group Activity",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/lokesh999'>lokesh999</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "lokesh999",
+    "contest_code": "CDSP2016",
+    "max_timelimit": "1",
+    "problem_code": "ABES04"
+}

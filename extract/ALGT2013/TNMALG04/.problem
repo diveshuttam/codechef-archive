@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>While evaluating a expression of  N distinct factors i.e (A1 * A2 * ..... * An) , Chef wanted to know in how may ways this expression can be evaluated by parenthesizing two factors at a time.</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer T denoting the number of test cases, for each test case enter the string with N distinct factors (eg xyz , qwerty ,etc)</p>\n<h3>Output</h3>\n<p>For each test case, output a single line with number of ways to evaluate the given expression.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>50</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>34</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\nghjk\nab\n<b>Output:</b>\n5\n1\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Case 1 : </b> expression ghjk can be evaluated in 5 ways i.e ((gh)j)k) , (g(h(jk)) , (g((hj)k)) , ((g(hj))k) &amp; ((gh)(jk))</p>\n<p><b>Case 2 : </b> expression ab can be evaluated in single way i.e. (ab)</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Algothika 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, SCALA, PERL, JS, PERL6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1363023000,
+        "end_date": 1363282200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1363282200,
+        "submit_start_date": 1363023000,
+        "current": 1537438410
+    },
+    "problem_author_html_handle": "paramjeet",
+    "problem_name": "PARENTHESES ON MY MIND",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/paramjeet'>paramjeet</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "paramjeet",
+    "contest_code": "ALGT2013",
+    "max_timelimit": "0.1",
+    "problem_code": "TNMALG04"
+}

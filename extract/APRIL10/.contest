@@ -1,0 +1,97 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "APRIL10",
+    "duration": "17280",
+    "name": "April 2010 Contest",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>Find out more about this contest and its winners in our <a href=\"http://blog.codechef.com/2010/04/13/april-2010-contest-results/\">blog post</a>.</b><b><br /></b></p> <p><b>Rules:</b></p> <ul> <li>The April Contest is now underway :) and will <b>end on 13th April</b>. For more information, click <a href=\"http://blog.codechef.com/2010/04/11/codechef-is-down/#disqus_thread\">here</a>. </li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at feedback@codechef.com</li> <li>Contest problems will become visible on April 2nd 2010. </li> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li>Each contest will have one min/max tie breaker problem (FLOOD), where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</li> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/APRIL10/1424957478.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "TSPAGAIN": {
+            "allow_submission": false,
+            "name": "Travelling Salesman Again !",
+            "category_name": "main",
+            "accuracy": 10.12,
+            "successful_submissions": "39",
+            "code": "TSPAGAIN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TRIP": {
+            "allow_submission": false,
+            "name": "Trip",
+            "category_name": "main",
+            "accuracy": 4.78,
+            "successful_submissions": "52",
+            "code": "TRIP",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FLOOD": {
+            "allow_submission": false,
+            "name": "Flood",
+            "category_name": "main",
+            "accuracy": 69.51,
+            "successful_submissions": "54",
+            "code": "FLOOD",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "REVERSED": {
+            "allow_submission": false,
+            "name": "The Reversed World",
+            "category_name": "main",
+            "accuracy": 3.13,
+            "successful_submissions": "17",
+            "code": "REVERSED",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LIGHTING": {
+            "allow_submission": false,
+            "name": "Lighting the shop",
+            "category_name": "main",
+            "accuracy": 2.23,
+            "successful_submissions": "11",
+            "code": "LIGHTING",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ADDFRAC": {
+            "allow_submission": false,
+            "name": "Adding Fractions",
+            "category_name": "main",
+            "accuracy": 6.17,
+            "successful_submissions": "92",
+            "code": "ADDFRAC",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1271151000,
+        "current": 1537439597,
+        "freezing": 0,
+        "start": 1270114200
+    },
+    "user": {
+        "username": ""
+    }
+}

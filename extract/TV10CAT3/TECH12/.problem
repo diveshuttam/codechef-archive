@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>A range [L..H] is called a <i>K-Frequent Prime</i> range if there are atleast K primes amongst the numbers L,L+1,..,H. \n</p>\n<p>Given N and K, calculate how many subranges of the range [2..N] are K-Frequent Prime.</p>\n\n<h3>Input</h3>\n<p>The first line contains the number of test cases T (<= 100). Each of the next T lines contains 2 integers N and K. (2 <= N <= 100000, 0 <= K <= 10000)\n</p>\n\n<h3>Output</h3>\n<p>Output T lines, one corresponding to each test case, containing the required answer.\n</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n4\n2 1\n5 2\n5 1\n9 3\n\n<b>Output:</b>\n1\n4\n9\n8\n</pre>\n\n<br/>\n<p>\nNote: For the first test case, the only valid subrange is [2..2], whereas for the second test case, the valid subranges are : [2..3],[2..4],[2..5],[3..5].\n</p>\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Technovanza",
+    "languages_supported": "C, JAVA, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1264350600,
+        "end_date": 1264359600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180168,
+        "submit_start_date": 1264350600,
+        "current": 1537439797
+    },
+    "problem_author_html_handle": "technovanza10",
+    "problem_name": "Frequent Prime Ranges",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/technovanza10'>technovanza10</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "technovanza10",
+    "contest_code": "TV10CAT3",
+    "max_timelimit": "0.682286",
+    "problem_code": "TECH12"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem description</h3>\n<p>Golu and Bholu are two close friends who live in Chocolate land.\nGolu has a big grocery shop in Chocolate land. In his shop, there are <b>\"N\"</b> boxes, numbered 1 through <b>N</b>. Each box numbered <b>\"i\"</b> contains exactly <b>\"i\"</b> Yummy Pies and one eclair.\nOverall, there are <b>\"i+1\"</b> chocolates in box <b>\"i\"</b>. Everyday, Golu picks one chocolate from every box uniformly and make a random collection of <b>\"N\"</b> chocolates for putting it in display.\nGolu's friend Bholu likes Yummy Pie very much. Since Bholu could not get Yummy pie in any other grocery shop .So One day Bholu planned to visit Golu\u2019s shop for buying <b>\"k\"</b> Yummy Pies. But,Bholu assumes that whatever things are in display of the shop are the only things present in shop. Being a close friend of Golu, Bholu always pays him a special amount for buying Yummy Pies which equals <b>\"p*(N+1)!\"</b>, where <b>\"p\"</b> is the probability that collection of <b>\"N\"</b> chocolates in display will contain exactly <b>\"k\"</b> Yummy Pies.\nYou being good in mathematics, will help find the amount that Bholu will pay.</p>\n<p><b>Note: Express the amount in modulo 10^9 + 7.</b></p>\n\n<h3>Input</h3>\n<p>First line of input contains a number <b>\"T\"</b> denoting number of test cases.\nFirst line of each test case contains two space separated integers <b>\"N\"</b> and <b>\"k\"</b>, denoting number of boxes and number of Yummy Pies Bholu wants exactly.</p>\n\n<h3>Output</h3>\n<p>For each test case, output the required amount (modulo 1000000007) on a separate line.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>0</b> \u2264 <b>N</b> \u2264 <b>1000000000</b></li>\n<li><b>1</b> \u2264 <b>K</b> \u2264 <b>2000</b></li>\n</ul>\n<br>\n<h3>Example</h3>\n<pre><b>Input:</b>\n\n3\n2 1\n3 2\n10 4\n\n<b>Output:</b>\n\n3\n11\n157773\n\n</pre>\n<h3>Explanation</h3>\n<p>Example Case 1:We have two boxes: box 1 with a Yummy Pie and a eclair, and box 2 with two Yummy Pies and a eclair. We are looking for the probability of drawing exactly one Yummy Pie. This can happen in two different ways: either we draw the Yummy Pie from box 1 and the eclair from box 2, or vice versa. The probability of the first way is (1/2)*(1/3) = 1/6. The probability of the second way is (1/2)*(2/3) = 1/3.\n Thus, the total probability is p = 1/6 + 1/3 = 1/2. We have p * (N+1)! = p*6 = 3, therefore the answer is (3 mod 1,000,000,007) = 3.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-04-2017",
+    "is_direct_submittable": false,
+    "contest_name": "IEM Coding Olympiad (IEMCO) 2017",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1493562600,
+        "end_date": 1493573400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1493573400,
+        "submit_start_date": 1493562600,
+        "current": 1537433911
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>dwij28</span>",
+    "problem_name": "Yummy Pie",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dwij28'>dwij28</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dwij28",
+    "contest_code": "IEMCO17",
+    "max_timelimit": "3",
+    "problem_code": "YUMMYPIE"
+}

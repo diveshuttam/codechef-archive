@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Shash is the richest man in the world by a long shot. Exun 2042, DPS RK Puram\u2019s 42nd (assume it was cancelled deliberately for 5 years to sync up ;) ) Tech Festival is coming and Shash is delighted. He decides to pay his employees extra to celebrate the occasion. So he decides to draw a cheque with a value <b>V</b> that is to be distributed amongst his employees. <br>\n<ol>\n<li>V must be an integral value between <b>A</b> and <b>B</b> (inclusive). The number of digits in <b>A</b> and <b>B</b> is equal.\n<li>Suppose Shash assigns 1 based indexing to the digits of this number <b>V</b>. He doesn\u2019t like digits at indexes divisible by <b>K</b>. Neither does he like the digit <b>L</b>. So he puts <b>L</b> only at indexes divisible by <b>K</b>, and nowhere else.\n<li>Shash Evil Incorporative has <b>M</b> employees and 1 teaboy. He must give an equal integral amount to all the <b>M</b> employees and the teaboy must be paid a fixed value <b>X</b>. <b>X</b> will always be less than <b>M</b>. The whole value <b>V</b> should be used up in making this payment. <br>\nFind the number of <b>V\u2019s (mod 1e9+7)</b> that Shash can choose such that these constraints are satisfied.\n</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>The first line contains 4 integers, <b>K, L, M and X</b> as described above. <br>\nThe second line contains the lower limit on <b>V</b> in the form of a string <b>A</b>. <br>\nThe third line contains the upper limit on <b>V</b> in the form of a string <b>B</b>. <br>\n</p>\n\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>A single integer, the number of possible values <b>mod 1e9+7</b></p>\n\n<h3>Constraints</h3>\n<p>\n<ul><li>1 <= |A| = |B| <= 1,000\n<li>K>1\n<li>X < M <= 1,000\n<li>0<=L<=9\n</ul>\n</p>\n<b> Subtask 1 (10 Points): </b><br>\n|A|, |B| <= 8\n<br>\n<b> Subtask 2 (20 Points): </b><br>\nM = 2, 5 or 10\n<br>\n<b>Subtask 3 (70 Points) </b> <br>\nOriginal Constraints\n<p>\n<pre><b>Example:</b>\n<b>Sample Input 1</b>:\n2 5 6 2\n100\n199\n\n<b>Sample Output 1:</b>\n2\n\n<b>Explanation 1:</b>\nOnly 2 numbers, 152 and 158 satisfy the constraints. For 152, 30 are given to each employee. For 158, 31 are given to each employee. Both have the digit 5 only in places divisible by 2.\n\n<b>Sample Input 2:</b>\n3 5 5 0\n100\n200\n\n<B>Sample Output 2:</b>\n9\n\n<b>Explanation 2:</b>\n105, 115, 125, 135, 145, 165, 175, 185, 195 are the possible values. Notice that 155 also has 5 in the 2nd place and 2 is not divisible by 3, so it is not counted.\n\n<b>Sample Input 3:</b>\n2 5 2 1 \n1\n9\n\n<b>Sample Output 3:</b>\n4\n\n<b>Explanation 3:</b>\n1 3 7 9 are the possible values. Again notice that 5 cannot be a possible value as it can only be in positions divisible by 2.\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-11-2017",
+    "is_direct_submittable": false,
+    "contest_name": "ICO 2018 Preparatory Series - Contest 4",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1511181000,
+        "end_date": 1511191800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1511191800,
+        "submit_start_date": 1511181000,
+        "current": 1537433330
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>harrycoda</span>",
+    "problem_name": "Shash and Exun Celebrations",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/harrycoda'>harrycoda</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "harrycoda",
+    "contest_code": "ICOP1804",
+    "max_timelimit": "1",
+    "problem_code": "TOORICH"
+}

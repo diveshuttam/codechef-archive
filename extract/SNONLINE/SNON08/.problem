@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>One commonly used method to calculate all primes in the range [2..n] is to start with the number 2, mark it as prime, and mark all its multiples (excluding itself) as not prime. Then, we find the next smallest unmarked number, mark it as prime, and mark all its multiples (excluding itself) as not prime. Continuing this way, we get a list of all primes. \n\n<p>Now, let us say that we modified the above algorithm, and start with n instead of 2. We mark it as prime, and mark all its factors (excluding itself) as not prime. Then we find the next greatest unmarked number, mark it as prime, and mark all its factors (excluding itself) as not prime. Continuing this way, we get a list of all primes.\n\n<p>Now you wonder, given a value of n, how many numbers are such that both the above algorithms will mark them as prime?\n\n<h3>Input :</h3>\n<p>The first line contains T the number of test cases. Each of the next T lines contain an integer n.\n\n<h3>Output :</h3>\n<p>Output T lines, one for each test case, containing the required answer.\n\n<h3>Sample Input :</h3>\n<pre>\n3\n2\n4\n7\n</pre>\n<h3>Sample Output :</h3>\n<pre>\n1\n1\n2\n</pre>\n<h3>Constraints :</h3>\n<p>1 <= T <= 100000\n<p>2 <= n <= 10000000",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Online Team Contest",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1264348800,
+        "end_date": 1264366800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180165,
+        "submit_start_date": 1264348800,
+        "current": 1537439792
+    },
+    "problem_author_html_handle": "fctrl",
+    "problem_name": "Finding Primes",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/fctrl'>fctrl</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "fctrl",
+    "contest_code": "SNONLINE",
+    "max_timelimit": "0.170569",
+    "problem_code": "SNON08"
+}

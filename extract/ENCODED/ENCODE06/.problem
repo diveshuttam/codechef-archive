@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Alice and Bob are playing a game. There have a very large checker board whose rows and columns are numbered from 0 onwards. A single counter is placed at an initial square (X,Y). Alice plays first and they take alternate turns. In each turn, if the counter was initially at square (x,y) then it can be moved to any square (a,b) which satisifes the following conditions :</p>\n<p>1) 0 <= a <= x and 0 <= b <= y (but a = x and b = y is not allowed, i.e the counter must be moved)</p>\n<p>2) (a,b) must be VISIBLE from (x,y) . Two squares are VISIBLE to each other if, on joining the centres of these two squares by a straight line segment, no other centre of a square lies on that line segment in between these two centres.</p>\n\n<p>The first person who cannot make a move loses (i.e. the person who has to make a move when the counter is at square(0,0) loses, the other person wins)</p>\n\n<p>Your task is to determine who wins, and the number of moves the game lasts, if both players play optimally. Note that the winner tries to win as quickly as possible, while the loser tries to delay his loss for as long as possible.</p>\n\n\n<h3>Input</h3>\n<p>The first line contains a single number T (T<=100) the total number of test cases.\nT lines follow, each containing a single test case. Each such line contains two space separated numbers X and Y, denoting the initial position of the counter. (0 <= X <= 10^18, 0 <= Y <= 10^18).\n\n\n<h3>Output</h3>\n<p>Output T lines, one for each test case, containing the name of the winner and the number of moves the game lasts, if both players play optimally.\n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n1 1\n2 0\n\n\n<b>Output:</b>\nAlice 1\nBob 2\n\n<b>Explanation</b>\n<p>In the first case Alice can directly move the counter to square (0,0) thereby winning the game in 1 move.\nIn the second case the only square Alice can move to is square (1,0). She cannot move the counter to <br />(0,0) because (1,0) lies on the line segment joining (2,0) and (0,0). After that Bob moves it  to (0,0),<br /> thereby winning in 2 moves.</p>\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "IEM - Kolkata - FESTRONIX - Encoded",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, D, PERL, FORT, ADA, ASM, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, SCM guile, TCL, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298799000,
+        "end_date": 1298831400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298831400,
+        "submit_start_date": 1298799000,
+        "current": 1537439296
+    },
+    "problem_author_html_handle": "encoded_admin",
+    "problem_name": "Jumping Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/encoded_admin'>encoded_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "encoded_admin",
+    "contest_code": "ENCODED",
+    "max_timelimit": "0.152",
+    "problem_code": "ENCODE06"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>CMan gives you an array <b>A</b> of size <b>N</b> and an integer <b>K</b>. He then defines a function F as follows :<br />F(L, R) = no of pairs (i, j) s.t L \u2264 i &lt; j \u2264 R and abs(A[i] - A[j]) \u2264 K.<br />He gives you <b>Q</b> queries of type <b>L R</b> and asks you to compute the value of <b>F(L, R)</b> for each query.</p>\n<h3>Input</h3>\n<p>First line contains three space separated integers <b>N</b>, <b>Q</b> and <b>K</b><br /><br />\nNext line contains <b>N</b> space separated integers denoting the values in array <b>A</b><br /><br />\nNext <b>Q</b> lines each contain two space separated integers <b>L</b> <b>R</b></p>\n<h3>Output</h3>\n<p>For each query output the value of function <b>F</b></p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>K</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>A<sub>i</sub></b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>L</b> \u2264 <b>R</b> \u2264 <b>N</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n4 4 31\n1 16 32 64\n1 4\n1 2\n2 4\n2 3\n\n<b>Output:</b>\n3\n1\n1\n1\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-08-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Procon 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1439037083,
+        "end_date": 1439046000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1439046000,
+        "submit_start_date": 1439037083,
+        "current": 1537436144
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>ambarpal</span>",
+    "problem_name": "Range Queries",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ambarpal'>ambarpal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ambarpal",
+    "contest_code": "PROCON15",
+    "max_timelimit": "3",
+    "problem_code": "PRCNSR6"
+}

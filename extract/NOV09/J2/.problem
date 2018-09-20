@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The Longest Common Subsequence (LCS) problem is a well known problem in Computer Science.\nEvery computer science students in Byteland knows this problem. Johnny does, too.</p>\n<p>Recall that a subsequence of a string S is obtained by deleting some characters from S. \nGiven two strings S and T, the LCS problem is the find the longest sequence that is a subsequence of both S and T.</p>\n<p>Johnny has the habit of deriving harder problems from a familiar problem. This time, based on the LCS problem, he has thought up the following problem:\n</p>\n<p><i>Given two strings S and T, how many distinct LCS of S and T are there?</i></p>\n<p>Write a program to help Johnny solve this problem. Since the result may be very large, you only need to print the remainder of the result when dividing by 23102009.</p>\n\n<h3>Input</h3>\n<p>The first line contains t, the number of test cases (about 10). Then t test cases follow.</p>\n<p>Each test case consists of two lines, the first line is the string S and the second line is the string T. You may assume that the strings consists of only lowercase characters and the length of the each string is at most 1000 characters.\n</p>\n<p>Successive test cases at input are separated by a single blank line.</p>\n\n<h3>Output</h3>\n<p>For each test case, print a single line containing two numbers which are the length of the LCS and the remainder of the number of distinct LCS of S and T when dividing by 23102009.</P>\n\n<h3>Example</h3>\n<pre>\n<b>Input</b>\n2\nacbd\nacbd\n\nvnvn\nvn\n\n<b>Output</b>\n4 1\n2 1\n\n<b>Output details</b>\n<p>The only LCS in the first case is \"acbd\" and in the second case is \"vn\".</p>\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-10-2009",
+    "is_direct_submittable": false,
+    "contest_name": "November 2009 (Contest X)",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1257067800,
+        "end_date": 1257931800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1257931800,
+        "submit_start_date": 1257067800,
+        "current": 1537439870
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "The LCS Problem Revisited",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "NOV09",
+    "max_timelimit": "0.675238",
+    "problem_code": "J2"
+}

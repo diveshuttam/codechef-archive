@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>In another universe, all the space-time shortcuts\nare audited by Wormholes Troopers. They guarantee that each\ngalaxy in that universe has only four wormholes that lead to another galaxy (in\nthe same universe, of course). To make travel easy, each wormhole in each\ngalaxy has different letters: A, B C and D. If a spacecraft takes one wormhole,\nit will travel instantly through space-time to another part of a galaxy.</p>\n\n<p>If a spacecraft want to travel, it must pay a ticket to the Wormholes\nTroopers. However, to get to one galaxy, a spacecraft should travel more than\none time and, to do so, it will pay a multi travel ticket.</p>\n\n\n<p>For instance, image three galaxies: galaxy one has four\nwormholes that lead to galaxies A=1, B=2, C=2and D=2; galaxy number two has\nwormholes that lead to galaxies A=2, B=1, C=3 and D=2; and galaxy three has\nwormholes that lead to galaxies A=2, B=2, C=3 and D=1.</p>\n\n<p>Based on this information, to travel from galaxy two to\ngalaxy one, a spacecraft should take the wormhole B.</p>\n\n<p>Your task is to count how many distinct wormholes one\nspacecraft should take from galaxy S to galaxy T using a L-travel multi ticket.\nBased on the galaxies above, there are four distinct wormholes that one\nspacecraft should take from galaxy S=2 to galaxy T=1 using a 2-travel multi\nticket: AB, DB, CD, BA.</p>\n\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>The first line has two integers: the number of galaxies (1=&lt;N&lt;=100)\nand the number of travels for a multi ticket (0&lt;=L&lt;=2<sup>30</sup>). The\nsecond line has two integers: the galaxy where a spacecraft wants to leave (1&lt;=S&lt;=N)\nand the galaxy that this same spacecraft wants to go (1&lt;=T&lt;=N). The next\nN lines describes the configuration of wormholes for each galaxy: the\ni-th line has four integers (1&lt;=A,B,C,D&lt;=N)\nthat define the connection from the galaxy i to\nanother galaxy using wormholes.</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>The output has only one line with one integer: the number of\ndistinct wormholes module 10<sup>4</sup>.</p>\n<p>\u00a0</p>\n\n<h3>Examples</h3>\n<table  border=1 cellspacing=0 cellpadding=0>\n <tr >\n<th>Input</th><th>Output</th><tr>\n  <td valign=top>\n  <p>2 20</p>\n  <p>1 1</p>\n  <p>2 2 2 2</p>\n  <p>1 1 1 1</p>\n  </td>\n  <td  valign=top>\n  <p >7776</p>\n  </td>\n </tr>\n</table>\n<p></p>\n<table border=1 cellspacing=0 cellpadding=0>\n <tr >\n <th>Input</th><th>Output</th><tr>\n <td valign=top>\n  <p>3 2</p>\n  <p>2 1</p>\n  <p>1 2 2 2</p>\n  <p>2 1 3 2</p>\n  <p>2 2 3 1</p>\n  </td>\n  <td valign=top >\n  <p>4</p>\n  </td>\n </tr>\n</table>\n<p>\u00a0</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-12-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Programming Cup- Sao Paulo Edition",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1513436400,
+        "end_date": 1513458000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1513458000,
+        "submit_start_date": 1513436400,
+        "current": 1537433283
+    },
+    "problem_author_html_handle": "lenahsakai",
+    "problem_name": "Wohmholes",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/lenahsakai'>lenahsakai</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "lenahsakai",
+    "contest_code": "PROC2017",
+    "max_timelimit": "1",
+    "problem_code": "PRGCUP05"
+}

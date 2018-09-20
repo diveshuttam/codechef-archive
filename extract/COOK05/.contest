@@ -1,0 +1,87 @@
+{
+    "announcements": "<p><b>10:08pm: The problem statement for <a href=\"/COOK05/problems/SEEDS\">SEEDS</a> has been updated.</b></p>\r\n<p><span style=\"font-family: Arial, sans-serif; font-size: 12px; color: #444444; line-height: 18px;\">09:45pm: The Rank List for the CodeChef December Cook Off is available here: <a href=\"/rankings/COOK05\">http://www.codechef.com/rankings/COOK05</a></span></p>",
+    "ip": "149.129.135.113",
+    "code": "COOK05",
+    "duration": "150",
+    "name": "The December 2010 Cook-Off",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>Check out the post contest blog <a href=\"http://blog.codechef.com/2010/12/20/the-december-2010-cook-off-has-ended/\">here</a>.</b></p> <p><b>Check out the contest editorials <a href=\"/wiki/december-cookoff-contest-problem-editorials\">here</a>.</b></p> <p><b>Rules:</b></p> <p><b><span> </span></b></p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\">feedback@codechef.com</a></li> <br /> <li>You can also send in your queries in an email to <a href=\"mailto:contest-admin@codechef.com\" target=\"_blank\">contest-admin@codechef.com</a>, during the contest.</li> <br /> <li>Contest problems will become visible on December 19th 2010 at 21:30 (IST). There will be 5 problems in all.</li> <br /> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <br /> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <br /> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> </ul> <p><b> </b></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COOK05/1424957521.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "PUZZLES": {
+            "allow_submission": false,
+            "name": "Newspaper Puzzle",
+            "category_name": "main",
+            "accuracy": 7.41,
+            "successful_submissions": "2",
+            "code": "PUZZLES",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SEEDS": {
+            "allow_submission": false,
+            "name": "Seeding The Pattern",
+            "category_name": "main",
+            "accuracy": 14.29,
+            "successful_submissions": "5",
+            "code": "SEEDS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PREPARE": {
+            "allow_submission": false,
+            "name": "Preparing Dishes",
+            "category_name": "main",
+            "accuracy": 12.15,
+            "successful_submissions": "34",
+            "code": "PREPARE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PAIRING": {
+            "allow_submission": false,
+            "name": "Pairing Chefs",
+            "category_name": "main",
+            "accuracy": 45.24,
+            "successful_submissions": "164",
+            "code": "PAIRING",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COMMUTE": {
+            "allow_submission": false,
+            "name": "The Morning Commute",
+            "category_name": "main",
+            "accuracy": 57.93,
+            "successful_submissions": "173",
+            "code": "COMMUTE",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1292783400,
+        "current": 1537439417,
+        "freezing": 0,
+        "start": 1292774400
+    },
+    "user": {
+        "username": ""
+    }
+}

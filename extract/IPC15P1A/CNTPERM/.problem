@@ -1,0 +1,33 @@
+{
+    "problem_code": "CNTPERM",
+    "problem_author": "skullcrackers",
+    "contest_name": "ICPC Preparatory Series by Team SkullCrackers",
+    "todo": false,
+    "problem_author_html_handle": "skullcrackers",
+    "problem_name": "Count Permutations",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "IPC15P1A",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/skullcrackers'>skullcrackers</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Problem Statement </h3>\n<p>\nChef recently studied about binary searched trees . He also read about balanced Binary Search Trees .  <br />\nIn this problem , a Binary Tree with 'N' elements is called balanced if its height is ceil(log(N + 1)) where ceil(x) function denotes the smallest integer >= x and log(N + 1) is in base 2.  <br />\nA permutation of integers [1 , N] is a sequence where each element from 1 to N occurs exactly once in any order  </p>\n<p>Chef wonders , How many permutations of integers [1 , N] exist for a given N such that when inserted into a binary search tree from leftmost element to the rightmost element , will yield a balanced binary search tree.  </p>\n<p>For simplicity , the integer 'N' here will be of the form 2 <sup> x </sup> - 1  or 2 <sup> x </sup> - 2 .<br />\n <br />\nPrint the answer modulo a prime number given in input \n</p>\n<h4> Note </h4>\n<p>\nIf you know the algorithm to insert a number into a binary search tree , you may skip this part  <br />\n<code></code></p>\n<pre>\nfunction insert(node root , int number):\n    if root is empty:\n        root.value = number\n    else if root.value > number:\n        insert(root.left , number)\n    else:\n        insert(root.right , number)\n</pre><p><br />\n <br />\nThe height of a tree is defined as maximum distance of a node from the root + 1<br />\n </p>\n<h3> Input format </h3>\n<p>The first and the only line of input containts 2 integers 'N' and 'mod'  </p>\n<h3> Constraints </h3>\n<p><b> 1 </b> &lt;= <b> N </b> &lt;= <b> 2 <sup> 20 </sup> - 1 </b> <br />\n<b> N </b> &lt; <b> mod </b> &lt;= <b> 10 <sup> 9 </sup> + 9 </b> <br />\n<b> N </b> is of the form <b> 2 <sup> x </sup> - 1  or 2 <sup> x </sup> - 2 </b> <br />\n<b> mod </b> is a prime number  </p>\n<h3> Output </h3>\n<p>Print a single integer denoting the number of permutations which yield a balanced binary search tree when inserted into a binary search tree from left to right modulo mod.  </p>\n<h3> Examples </h3>\n<p><b> Input </b> <br />\n1 1000000007 <br />\n<b> Output </b> <br />\n1  <br />\n<b> Input </b> <br />\n2 1000000007 <br />\n<b> Output </b> <br />\n2  <br />\n<b> Input </b> <br />\n3 1000000007 <br />\n<b> Output </b> <br />\n2  <br />\n<b> Input </b> <br />\n7 1000000007 <br />\n<b> Output </b> <br />\n80  </p>\n<h2> Explaination of some samples </h2>\n<p>For N = 3 <br />\nThe permutation which yield a balanced binary search tree are  <br />\n[2 , 1 , 3] and [2 , 3 , 1]  <br />\nBoth yield the following tree  <br />\n<code></code></p>\n<pre>\n     2\n    /  \\\n  1   3\n</pre><p><code><br />\n <br />\nFor N = 2  <br />\nBoth the permutations [1 , 2] and [2 , 1] yeild a binary search tree of height 2 which is balanced hence answer is 2. </code></p>\n",
+    "category_name": "main",
+    "date_added": "8-10-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CNTPERM",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1448465400,
+        "end_date": 1448483400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1448483400,
+        "submit_start_date": 1448465400,
+        "current": 1537435807
+    },
+    "user": {
+        "username": ""
+    }
+}

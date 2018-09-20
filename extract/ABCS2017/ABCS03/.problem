@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><h3>Problem description</h3></p>\n<p>Geek Sundaram has been transferred to the city of \"Algo-land\". Algo-land is a strange city which has a lot of tall buildings. He is overwhelmed at this and decides to come up with a new problem out of this. He has collected the heights of all the buildings. Now he gives you these values and asks you to find the following:\n</p>\n <br>\n<p><b>How many different pairs of buildings exist such that the height of building_1 is equal to the height of building_2?</b>\n</p>\n<br>\n<p>That is, find the total number of pairs of buildings (i, j) where Height[i] = Height[j] and i != j. \n\u00a0</p>\n\n\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases.</li>\n<li>The first line of each test case contains a single integer <b>N</b> denoting the number of buildings in the city. The second line contains <b>N</b> space-separated integers <b>H<sub>1</sub></b>, <b>H<sub>2</sub></b>, ..., <b>H<sub>N</sub></b> denoting the heights of the buildings. </li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing the required answer.</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>Height</b> \u2264 <b>10<sup>6</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n\n2\n3\n5 2 7\n3\n4 4 6\n\n<b>Output:</b>\n\n0\n2\n</pre>\n<p>\u00a0</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-03-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Abacus'17 - OLPC",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1489764600,
+        "end_date": 1489775400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1489775400,
+        "submit_start_date": 1489764600,
+        "current": 1537434022
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>bharath96</span>",
+    "problem_name": "Geek Sundaram in AlgoLand",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bharath96'>bharath96</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bharath96",
+    "contest_code": "ABCS2017",
+    "max_timelimit": "1",
+    "problem_code": "ABCS03"
+}

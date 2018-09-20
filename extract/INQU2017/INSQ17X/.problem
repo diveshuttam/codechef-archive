@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n<p>\n<p> Tuco, the gangster has got bags of meth from Heisenberg. Before giving him money, he asks Heisenberg to solve a problem. As Heisenberg is weak at coding, can you help him get his money.</p>\n\n<p>\tYou are given an undirected tree of <b>N</b> nodes rooted at <b>1</b>. You need to find the sum of special function <b>F(x)</b> for each node <b>x (1 \u2264 x \u2264 N)</b>. Let <b>y</b> be any node in the subtree of node <b>x</b> such that path from <b>x</b> to <b>y</b> is a smart path.Then <b>F(x)</b> is equal to the count of such nodes <b>y</b>. A smart path is defined as a path in which gcd of values of any two distinct nodes in the path is equal to <b>1</b>.\n<br>\n<br>\nNote: A path of single node is considered as a smart path.\n</p>\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>N</b> denoting the number of nodes in the tree. \n\n<br>The next <b>N-1</b> lines each containing an integer P, denoting the parent of nodes from <b>2</b> to <b>N</b>. \n<br>The next <b>N</b> lines each containing an integer V, denoting the value of <b>ith</b> node. \n\n</p>\n\n<h3>Output</h3>\n<p>Output the required answer.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N,V</b> \u2264 <b>200000</b></li>\n<li><b>1</b> \u2264 <b>P</b> \u2264 <b>N</b></li>\n</ul>\n<p> </p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n1\n2\n2\n1\n5\n3\n10\n6\n2\n\n\n<b>Output:</b>\n8\n</pre>\n<p> </p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> <br>\n\tThe set of possible paths included in the answer are : \n\t[ 1 ], [ 2 ], [ 3 ], [ 4 ], [ 5 ], [ 1, 2 ], [ 1, 5 ], [ 2,3 ] \n\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-08-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Insomnia 2017 Qualifier",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY",
+    "todo": false,
+    "time": {
+        "view_start_date": 1504456200,
+        "end_date": 1504467000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1504467000,
+        "submit_start_date": 1504456200,
+        "current": 1537433584
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>abhi_1595</span>",
+    "problem_name": "Tuco meets Heisenberg",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhi_1595'>abhi_1595</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abhi_1595",
+    "contest_code": "INQU2017",
+    "max_timelimit": "1",
+    "problem_code": "INSQ17X"
+}

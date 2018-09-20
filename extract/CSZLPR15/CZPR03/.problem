@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>There are <b>N</b> students in a class.The students of a class are to be divided into different groups for projects. Each group can have only 2 students. The class teacher comes up with a brilliant idea of making the groups according to roll numbers such that the prime factorization of roll number <b>X</b> and roll number <b>Y</b> have some factors in common. The product of the common factors of <b>X</b> and <b>Y</b> is <b>M</b>. A single roll number can be selected in multiple groups. A roll number can be selected with itself also meaning <b>(X,X)</b> is a valid group. A group <b>(X,Y)</b> is formed iff <b>X>=Y.</b> Help the teacher in estimating how many groups are formed.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<ul>\n<li> The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first line of each test case contains  two integers <b>N</b> and <b>M</b> as described above. </li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing the number of groups as described above. </li>\n</ul>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N,M</b> \u2264 <b>1000000</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n10 2\n40 4\n20 3\n\n<b>Output:</b>\n10\n32\n12\n\n<b>Explanation</b>\n\n<b>Case 1  :</b> The pairs having 2 as common factor are  (4,2),(6,2),(8,2),(10,2),(2,2),(6,4),\n(8,6),(10,6),(10,8),(10,4)\t\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeZilla Prelims 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2",
+    "todo": false,
+    "time": {
+        "view_start_date": 1423668600,
+        "end_date": 1423677600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1423677600,
+        "submit_start_date": 1423668600,
+        "current": 1537436823
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>ankuragarwal13</span>",
+    "problem_name": "Pair Up",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ankuragarwal13'>ankuragarwal13</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ankuragarwal13",
+    "contest_code": "CSZLPR15",
+    "max_timelimit": "1",
+    "problem_code": "CZPR03"
+}

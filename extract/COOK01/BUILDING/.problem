@@ -1,0 +1,33 @@
+{
+    "problem_code": "BUILDING",
+    "problem_author": "anhdq",
+    "contest_name": "July Cook Off ",
+    "todo": false,
+    "problem_author_html_handle": "AnhDQ",
+    "problem_name": "Head office building",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>pieguy</span>",
+    "contest_code": "COOK01",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anhdq'>anhdq</a>, <a class='problem-tag-small ' href='/tags/problems/cook01'>cook01</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>CodeChef Inc. owns a rectangular piece of land sized w\u00d7h.  Its edges are parallel to the axes, with the bottom-left corner at (0,0) and top-right corner at (w,h).  They intend to build a new head office within this land.  The new office will be a square whose center is located at a point with integer coordinates, and whose diagonals are parallel to the axes and have length 2*d.</p>\n\n<p>Unfortunately, there are n barricades on the land, some of which may need to be removed in order for the office to be built.  The (i)th barricade is located at (X<sub>i</sub>, Y<sub>i</sub>) and will cost C<sub>i</sub> to remove.  The office may only be built once all points it covers (including the boundaries) are free of barricades.\n</p>\n\n<h3>Request</h3>\n<p>Help them find the minimum total cost of barricade removal.</p>\n\n<h3>Input</h3>\n<ul>\n<li>The first line contains the integers w,h,d,n, respectively.</li>\n<li>Within following n lines, the i-th line contains the integers X<sub>i</sub>,Y<sub>i</sub>,C<sub>i</sub> respectively.</li>\n</ul><br />\n\n<h3>Output</h3>\n<p>Output on a single line an integer which is the minimum cost found.</p>\n\n<h3>Example</h3>\n\n<b>Input:</b>\n<pre>\n4 3 1 4\n1 3 5\n3 3 4\n2 2 1\n2 1 2\n</pre>\n\n<b>Output:</b>\n<pre>\n2\n</pre>\n\n<h3>Limitations</h3>\n<p>\n<ul>\n<li>2\u2264w,h\u22641 000</li>\n<li>0\u2264n\u2264200 000</li>\n<li>2\u22642d\u2264min(w,h)</li>\n<li>0&lt;C<sub>i</sub>\u226410 000</li>\n<li>All the listed barricades are inside or on the boundaries of the CodeChef\u2019s land.</li>\n<li>There is at most one barricade at each point.</li>\n</ul></p>",
+    "category_name": "main",
+    "date_added": "5-05-2010",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "max_timelimit": "0.111317",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/BUILDING",
+    "problem_tester": "pieguy",
+    "time": {
+        "view_start_date": 1279987200,
+        "end_date": 1279996200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1279996200,
+        "submit_start_date": 1279987200,
+        "current": 1537439560
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Given a 2xn rectangle/grid, you have to find the number of ways of tiling this rectangle/grid with 2x1 dominoes.<br />\nSince the answer could be very large, you need to output it modulo 1000000007 (10^9 +7). </p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer T, the number of test cases. Then T test cases follow. Each test case consists of a line which contains a positive integer, n.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Output on a new line the answer corresponding to (n-1) except for n=1.</p>\n\n<h3>Constraints</h3>\n<p>1&lt;=T&lt;=1000<br />\n1&lt;=n &lt;=10^18</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2\n4 \n\n<b>Output:</b>\n1\n3 \n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Obfuscation 2013",
+    "languages_supported": "C, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1361889000,
+        "end_date": 1361903400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1361903400,
+        "submit_start_date": 1361889000,
+        "current": 1537438479
+    },
+    "problem_author_html_handle": "prog_iitmandi",
+    "problem_name": "Dominoes",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/prog_iitmandi'>prog_iitmandi</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "prog_iitmandi",
+    "contest_code": "OBFS2013",
+    "max_timelimit": "0.1",
+    "problem_code": "DMNOS"
+}

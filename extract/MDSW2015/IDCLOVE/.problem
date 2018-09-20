@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Valentine's Day is coming and our friend Mr.IDC has fallen in love with a girl. He just could not control his feelings and went to propose her.<br /><br /><br />\nWhen he proposed her the girl gave him a challenge and asked him to solve it and the condition was if he will solve the challenge successfully then only she will accept his proposal.<br /></p>\n<p>Since the girl likes mathematics very much so she asked him to calculate the sum of numbers from 1 to N as:<br />\n<center></center></p>\n<pre><code><b>for ( i=1;i&lt;=N;i++ )\n\tsum += i % MOD;<br /></b></code></pre><p></p>\n<p><br />( Since the girl is also in love with him so she does not want him to waste his time on large numbers, therefore she is gave him the MOD value also to reduce his calculations. )<br /><br /></p>\n<p>Now she wants him to calculate the sum using the above definition. This sum will also prove how much he love her. ;)<br />\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First Line of input contains T, the number of testcases.<br /><br />\nThe next T lines will contain two integers N and MOD.</p>\n\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each testcase print the output in a new line.</p>\n\n<p>\u00a0</p>\n<h3>Constraints:</h3>\n\n<ul>\n<li><b>1</b> &lt;= <b>T</b> &lt;= <b>1000</b></li>\n<li><b>1</b> &lt;= <b>N</b> &lt;= <b>10<sup>9</sup></b></li>\n<li><b>1</b> &lt;= <b>MOD</b> &lt;= <b>10<sup>9</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n20 5\n10 2\n5 3\n\n<b>Output:</b>\n40\n5\n6\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Testcase 1:</b> <br /> For N = 20 m = 5,<br /><br />\nSum = 1%5 + 2%5 + 3%5 + 4%5 + 5%5 + 6%5 + 7%5 + 8%5 + 9%5 + 10%5 + 11%5 + 12%5 + 13%5 + 14%5 + 15%5 + 16%5 + 17%5 + 18%5 + 19%5 + 20%5 = 40<br /><br /></p>\n<p>You can check yourself for testcase 2 and 3.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Mindsweepers 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1423281600,
+        "end_date": 1423378800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1423378800,
+        "submit_start_date": 1423281600,
+        "current": 1537436830
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>nitrek</span>",
+    "problem_name": "Mr IDC and his Love",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nitrek'>nitrek</a>",
+    "problem_tester_html_handle": null,
+    "problem_author": "nitrek",
+    "contest_code": "MDSW2015",
+    "max_timelimit": "1",
+    "problem_code": "IDCLOVE"
+}

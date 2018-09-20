@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p class=MsoNoSpacing><b><span style='font-size:10.0pt'>Smith</span></b><span\nstyle='font-size:10.0pt'> bought a triangular piece of land in Rajasthan. The\nland contains a lot of cacti and he wants to get them removed. Land being\ntriangular in shape makes it difficult for him to determine which cacti are\npresent in his land.</span></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>Your program will be given\nthe coordinates of the vertices of the triangular land and the coordinates of\nall the cacti. Determine the area of land belonging to <b>Smith</b> and the number\nof cacti present in his piece of land. Consider the cacti on the very border of\nhis piece to belong to him. </span></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>The area of a triangle\nwith vertices (x<sub><span style='position:relative;top:2.5pt'>A</span></sub>,\ny<sub><span style='position:relative;top:2.5pt'>A</span></sub>), (x<sub><span\nstyle='position:relative;top:2.5pt'>B</span></sub>, y<sub><span\nstyle='position:relative;top:2.5pt'>B</span></sub>) and (x<sub><span\nstyle='position:relative;top:2.5pt'>C</span></sub>, y<sub><span\nstyle='position:relative;top:2.5pt'>C</span></sub>) is given by the following\nformula:</span></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>|<i>x<sub>A</sub></i></span><span\nstyle='font-size:10.0pt'>( <i>y<sub>B</sub> </i>&#8722; <i>y<sub>C</sub> </i>)\n+ <i>x<sub>B</sub> </i>( <i>y<sub>C</sub> </i>&#8722; <i>y<sub>A</sub> </i>) + <i>x<sub>C</sub>\n</i>( <i>y<sub>A</sub> </i>&#8722; <i>y<sub>B</sub> </i>)</span><span\nstyle='font-size:10.0pt'>| / 2</span></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>&nbsp;</span></p>\n \n<p class=MsoNoSpacing><b><span style='font-size:10.0pt'>Input:</span></b></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>The first three lines\ncontain the coordinates of the vertices of the triangle. The following line\ncontains the integer N (1 &#8804; N &#8804; 100), the number of cacti. Each of\nthe following N lines contains the coordinates of one cactus. All coordinates\nare pairs of positive integers less than 1000, separated by a space. </span></p>\n \n<p class=MsoNoSpacing><b><span style='font-size:10.0pt'>Output:</span></b></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>Print the area of land\nbelonging to <b>Smith</b> on the first line, with one digit after the decimal\npoint. </span></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>Print the number of cacti\nbelonging to <b>Smith</b> on the second line.</span></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>&nbsp;</span></p>\n \n<p class=MsoNoSpacing><b><span style='font-size:10.0pt'>Example:</span></b></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>Input:</span></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>3 2</span></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>5 4</span></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>1 6</span></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>3</span></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>2 4</span></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>3 5</span></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>4 3 </span></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>&nbsp;</span></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>Output:</span></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>6.0</span></p>\n \n<p class=MsoNoSpacing><span style='font-size:10.0pt'>3</span></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-10-2010",
+    "is_direct_submittable": false,
+    "contest_name": "NSIT Delhi - Stale Mate 2.0",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1288528200,
+        "end_date": 1288549800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180203,
+        "submit_start_date": 1288528200,
+        "current": 1537439461
+    },
+    "problem_author_html_handle": "ajitesh14",
+    "problem_name": "Cactus",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ajitesh14'>ajitesh14</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ajitesh14",
+    "contest_code": "STLEMATE",
+    "max_timelimit": "0.189873",
+    "problem_code": "ST201"
+}

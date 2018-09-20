@@ -1,0 +1,87 @@
+{
+    "announcements": "<ul>\r\n<li>Problem 4 Java and Haskell's test data is incorrect. All the solutions will be rejudged later and the results will be declared based on the problem statement. We apologize for the confusion.</li>\r\n<li>For problem 3 Dual core processor and the scheduler, the constraint for the burst time in milliseconds is 1 <= N <= 100</li>\r\n</ul>",
+    "ip": "149.129.135.113",
+    "code": "EXBT2013",
+    "duration": "240",
+    "name": "Exhibit 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p> <p class=\"MsoNoSpacing\"><b>Rules and Regulations:</b></p> <p class=\"MsoNoSpacing\"><b><br /></b></p> <div lang=\"x-western\" class=\"moz-text-html\"> <div>1. Contest problems will become visible on\u00a0February 22nd, 2013 at 8:30PM (IST) and end at February 23rd, 2013 at 12:30 AM (IST).</div> <div>2. The contest is for individuals. No teams are allowed.</div> <div>3. Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting\u00a0questions clarifying the problem statement is ok.</div> <div>4. All the popular languages(C, CPP, C#, PHP, Perl, Python, Java, Haskell, Erlang, Javascript etc) are supported</div> <div>5. Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided. All white space characters in the output will be\u00a0ignored.</div> <div>6. Please contact <a href=\"mailto:namratavc.009@gmail.com\" target=\"_blank\" moz-do-not-send=\"true\">opc@exebit.in</a> for any queries during the contest.</div> <div>7. Check your timezone <a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+Exhibit+2013&amp;iso=20130222T2030&amp;p1=44\">here</a>.</div> <br /><br /> <div><b>Judging Criteria:</b></div> <div><b><br /></b></div> <div>1. All the problems have same points alloted to them.</div> <div>2. Users are ranked according to the most problems solved. Ties will be broken by the total time for\u00a0each user in ascending order of time.</div> <div>3. The decision of the organizers in declaring the results will be final. No queries in this regard\u00a0will be entertained.</div> <div>4. Any participant found to be indulging in any form of malpractice will be immediately\u00a0disqualified.</div> <div>5. The total time is the sum of the time consumed for each problem solved. The time consumed for\u00a0a solved problem is the time elapsed from the beginning of the contest to the submission of the\u00a0first accepted run. There is no time consumed for a\u00a0problem that is not solved.</div> </div> </p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/EXBT2013/1424957738.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "EXEBIT02": {
+            "allow_submission": false,
+            "name": "The scholars party",
+            "category_name": "main",
+            "accuracy": 15.11,
+            "successful_submissions": "40",
+            "code": "EXEBIT02",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "EXEBIT04": {
+            "allow_submission": false,
+            "name": "Java and Haskell",
+            "category_name": "main",
+            "accuracy": 2.44,
+            "successful_submissions": "1",
+            "code": "EXEBIT04",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "EXEBIT01": {
+            "allow_submission": false,
+            "name": "Fun with decimal number system",
+            "category_name": "main",
+            "accuracy": 27.05,
+            "successful_submissions": "71",
+            "code": "EXEBIT01",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "EXEBIT03": {
+            "allow_submission": false,
+            "name": "Dual core processor and the scheduler",
+            "category_name": "main",
+            "accuracy": 37.2,
+            "successful_submissions": "114",
+            "code": "EXEBIT03",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "EXEBIT05": {
+            "allow_submission": false,
+            "name": "Stack Curiosity",
+            "category_name": "main",
+            "accuracy": 27.47,
+            "successful_submissions": "24",
+            "code": "EXEBIT05",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1361559600,
+        "current": 1537438489,
+        "freezing": 0,
+        "start": 1361545200
+    },
+    "user": {
+        "username": ""
+    }
+}

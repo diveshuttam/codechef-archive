@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nGiven three integer  X ,  Y  and Z. Find maximum value of   p   such that Z <sup> p </sup>  divides  factorial of (X*Y).\n\n<h3>Input</h3>\n</p><p>Input will begin with an integer T (at most 100), the number of test cases. T testcases follow, each having three space seprated integer  X, Y, Z  (2 \u2264 Z \u2264 10<sup>9</sup> , 2 \u2264 Y \u2264 10<sup>9</sup>, 2 \u2264 Z \u2264 10<sup>12</sup> ).\n\n<h3>Output</h3>\n</p><p>For each test case, output maximum value of   p.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n2 2 24\n5 2 10\n\n<b>Output:</b>\n1\n2\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-09-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Limit de Plazo 2011, IIIT-Allahabad",
+    "languages_supported": "C, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1317223800,
+        "end_date": 1317234600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1317234600,
+        "submit_start_date": 1317223800,
+        "current": 1537439133
+    },
+    "problem_author_html_handle": "saabir",
+    "problem_name": "Max pow",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/saabir'>saabir</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "saabir",
+    "contest_code": "LMDPLA11",
+    "max_timelimit": "0.719726",
+    "problem_code": "LMDP1103"
+}

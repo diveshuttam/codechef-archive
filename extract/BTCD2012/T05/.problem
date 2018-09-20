@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Sheldon is a little geek living in Texas. While his friends like to play outside, little Sheldon likes to play around with ICs and lasers in his house. He decides to build N clap activated toggle machines each with one power inlet and one outlet. Each machine works when its power source inlet is receiving power. When the machine is in 'ON' state and is receiving power at its inlet, it makes power available at its power outlet to which a bulb or another ToGgLe machine could be attached.\n<p>\nSuppose Sheldon attached 2 such machines to one another with the power inlet of the first machine attached to a power source at his house and the outlet of the second machine to a bulb. Initially both machines are in 'OFF' state and power source to first machine is off too. Now the power source is switched on. The first machine receives power but being in the 'OFF' state it does not transmit any power. Now on clapping the first ToGgLe machine toggles to 'ON' and the second machine receives power. On clapping once more the first toggles to 'OFF' and the second toggles to 'ON'. But since the second ToGgLe machine receives no power the bulb does not light up yet. On clapping once more, the first machine which is still receiving power from the source toggles to 'ON' and the second which was already 'ON' does not toggle since it was not receiving power. So both the machine are in 'ON' state and the bulb lights up and little Sheldon is happy.\n<p>\nBut when Sheldon goes out for a while, his evil twin sister attaches N such ToGgLe machines (after making sure they were all in 'OFF' state) and attaches the first to a power source (the power source is initially switched off) and the last ToGgLe machine to a bulb. Sheldon is horrified to find that his careful arrangement has been disturbed.\n<p>\nCoders, help the poor boy by finding out if clapping k times for the N ToGgLe machines (all in 'OFF' state with the first one connected to a switched off power source and last one to a bulb) would light the bulb. Hurry before Sheldon has a nervous breakdown!\n\n<h3>Input</h3>\n<p>First line has number of test cases, T.<br>\nFollowing T lines have N, k separated by a single space where N is the number of <br>ToGgLe machines and k is the number of times Sheldon clapped.\n\n<h3>Output</h3>\n<p>T lines with cach line of the form: \"ON\" (just the word on without the double quotes) if the bulb is 'ON' for the \ntest case numbered n and \"OFF\" (just the word off without the double quotes) if the bulb is 'OFF' for the test case numbered n.\n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n4\n4 0\n4 47\n1 0\n1 1\n\n\n<b>Output:</b>\nOFF\nON\nOFF\nON\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-08-2012",
+    "is_direct_submittable": false,
+    "contest_name": "ByteCode 2012",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, ADA, CAML, ASM, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL",
+    "todo": false,
+    "time": {
+        "view_start_date": 1344781800,
+        "end_date": 1345991400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1655882087,
+        "submit_start_date": 1344781800,
+        "current": 1537438746
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rajatkhanduja</span>",
+    "problem_name": "ToGgLeD",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rajatkhanduja'>rajatkhanduja</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rajatkhanduja",
+    "contest_code": "BTCD2012",
+    "max_timelimit": "0.29",
+    "problem_code": "T05"
+}

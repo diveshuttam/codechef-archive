@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>One day John found a map and key of a treasure. The map took him to a magical fort. The fort has a big gate which could be opened by a special pattern. The pattern is dependent on the number of circles made on that key. You have to help the john in finding the pattern to get the treasure.</p>\n<p>\u00a0Your task is to read the number of circles from the keyboard as an input and print the expected pattern.</p>\n\n<h3>Input</h3>\n\n<ul>\n<li>The first line of the input contains an integer <b>N</b>  </li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n\n<ul>\n<li>N lines denotes the output pattern.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>15</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input</b>\n<p>5</p>\n<b>Output</b>\n<p>1*2*3*4*5\n11*12*13*14*15\n21*22*23*24*25\n16*17*18*19*20\n6*7*8*9*10\n</p>\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-11-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Code Avengers 2014,  ABESEC Ghaziabad. ",
+    "languages_supported": "C, CPP14, JAVA, CS2, GO, PERL, JS, PERL6, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1415802600,
+        "end_date": 1415813400,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1415813400,
+        "submit_start_date": 1415802600,
+        "current": 1537437258
+    },
+    "problem_author_html_handle": "dheeraj053",
+    "problem_name": "Treasure Hunt",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dheeraj053'>dheeraj053</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dheeraj053",
+    "contest_code": "CDAV2014",
+    "max_timelimit": "2",
+    "problem_code": "THUNT"
+}

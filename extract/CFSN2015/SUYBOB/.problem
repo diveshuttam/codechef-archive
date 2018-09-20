@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Minions are excited for the competition. Competition involves race among all minions. But this isn\u2019t a regular race. This time Gru is having something different in his mind. On a far distance say <b>X</b>, Gru is standing. Every participant begins from <b>0</b> and all of them are having special jumping suits.</p>\n<p>\nYes, suit is having special qualities. It can jump only in forward direction and that also by different distances which are already decided by Gru. First one, who reaches the Gru wins the race. But There is one simple rule that, a minion should reach exactly at <b>X</b> to claim winning prize i.e. none of the participant should go beyond <b>X</b>. Bob is one of the participant in the race and he wants to know what kind of steps he should take so that it\u2019ll take minimum time to reach exactly at <b>X</b>. Can you help bob to find the minimum required time for different values of <b>X</b>? Assuming that each step takes <b>1</b> unit of time. And in one step a jump suit can jump up to one of the specified distance.\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line contains an integer <b>T</b> denoting the number of test cases. Each test case starts with an integer <b>N</b> denoting number of distances which are specified by Gru at start. next line contains <b>A<sub>1</sub>,A<sub>2</sub>,A<sub>3</sub>,.........,A<sub>N</sub></b>, each denoting a distance covered by jumping suit in one jump. Next line contain an integer <b>Q</b> i.e. number of queries and following <b>Q</b> lines represents different values of <b>X</b>.</p>\n<h3>Output</h3>\n<p>Output the minimum time required to reach at <b>X</b> in new line.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>A<sub>i</sub></b> \u2264 <b>101</b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>101</b></li>\n<li><b>1</b> \u2264 <b>X</b> \u2264 <b>10000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n2\n1 3\n3\n6\n5\n10\n\n<b>Output:</b>\n2\n3\n4\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example Query 1.</b>For first value 6 he can take 2 steps using distance 3. </p>\n<p><b>Example Query 2.</b>For 5 he can take one step of distance 3 and another step of distance 1 and another of distance 1.</p>\n<p><b>Example Query 3.</b>For 10 he can take one step with 1 and then other 3 with distance 3.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-10-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Code Fusion - II",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1444221000,
+        "end_date": 1444228200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1444228200,
+        "submit_start_date": 1444221000,
+        "current": 1537435965
+    },
+    "problem_author_html_handle": "acses",
+    "problem_name": "Bob and Jumping Suit",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acses'>acses</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "acses",
+    "contest_code": "CFSN2015",
+    "max_timelimit": "1",
+    "problem_code": "SUYBOB"
+}

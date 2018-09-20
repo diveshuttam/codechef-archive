@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Statement:</h3>\n<p>There are total N shopkeepers in the market of Chefland, numbered from 1 to N. Each shop has an initial set of items. But the shopkeepers frequently change their set of items.<br>\nChef is a wholesaler in the market and every day he visits a range[L,R] of shops to fulfill the demand of the shopkeepers. A shopkeeper will replace the existing set of items and will purchase the new set of items if he gets the\nwhole new set of items.\n<br>\nChef is updated with the status of the market. He has all the information about the changes in the market.<br>\nNow chef is asking you the Q queries by providing you the following information,\n<br>\n      Type 1: Replace the set of items of shop(X) with new set of items of size(K).\n<br>\n      Type 2: Chef is only interested in knowing the number of shops where he can sell his set of items.\n<br>\nFor example, suppose there are 3 shopkeepers in the market having {2,7,3},{3,5,9} and {3,4,6,8} as initial stock respectivily. Now chef wants to sell the set {4,10,6,15} from shop(1) to shop(3). But shop(3) is already having {4,6} present in their stock. So there are only 2 shopkeepers (1 and 2) who will buy the set as they are having nothing in common with the chef's set. \n</p>\n\n\n<p>\nNOTE : All indexing are 1 based.\n \n</p>\n<h3>\nINPUT :\n\n</h3><p>\nFirst line contains two space seperated integers N (number of shops in the market) and Q (number of queries to ask). \n<Abr>\nNext N lines contain K+1 space separated integers, first integer denotes K (size of set),next K integers denote the items of the set (initial stock of ith shop).\n<br>\nThe following Q lines describe queries. Each of these lines begin with an integer T denoting the type of the current query if T=1, followed by a integer X(shop number) ,follwed by K+1 space separated integers , first integer denotes K(size of set), next K integers denote the new items of the set(new set for Shop X).<br>\nIf T=2, followed by three integers L , R (denoting the range) and K(size of set), followed by K space sepereted integers\ndenoting the items of the set (chef is willing to sell).\n</p>\n<h3>\nOUTPUT :\n</h3>\n<p>\nFor each Q of type 2 print the number of shops in range [L,R] where chef can sell his product in a new line.\n </p>\n\n<h3>\nCONSTRAINTS :\n</h3><p>\n1<=N<=100000\n1<=Each items<=1000\n1<=Q<=10000\n1<=X<=N\n1<=K<=10\n</p>\n<h3>\n\nSUBTASKS :</h3>\n<p>\nSubtask #1(100 points)\n<br>\nOriginal constraints\n</p>\n\n<h3>\nExample</h3>\n<h3>\nInput :\n</h3>\n<pre>\n4 3\n2 4 5 \n4 1 4 6 8\n2 1 6\n3 1 4 6\n2 1 3 3 1 9 10\n1 3 3 2 3 6\n2 1 4 2 1 9 \n</pre>\n\n\n\n\n<h3>\nOutput :\n</h3><pre>\n1\n2\n</pre>\n<h3>\nExplanation :</h3>\n<p>\nInitial stock of the shops are {4,5} , {1,4,6,8} , {1,6} and {1,4,6}.<br>\nFor first query of type 2, chef will visit shop(1) to shop(3) and try to sell the set {1,9,10} but he can sell his set to shop(1) only as it is having nothing in common with {1,9,10} and hence the answer is 1.<br>\nFor second query of type 1 the new stock of the shops will be {4,5} , {1,4,6,8} , {2,3,6} and {1,4,6}.<br>\nFor third query of type 2 chef will visit shop(1) to shop(4) and try to sell the set {1,9}. Now he can sell his set to shop(1) and to shop(3) as they are having nothing in common and hence the answer is 2. </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-07-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Innerve Summer Code Challenge",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1531593000,
+        "end_date": 1532543340,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1532543340,
+        "submit_start_date": 1531593000,
+        "current": 1537432240
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>dk30390</span>",
+    "problem_name": "Chef and Market",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dk30390'>dk30390</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dk30390",
+    "contest_code": "ISCC2018",
+    "max_timelimit": "1",
+    "problem_code": "T30"
+}

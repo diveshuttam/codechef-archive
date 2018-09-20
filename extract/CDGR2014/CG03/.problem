@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p> A positive integer is said to be a palindrome with respect to base b, if its representation in base b reads the same from left to right as from right to left. Palindromes are formed as follows:<br />\nGiven a number, reverse its digits and add the resulting number to the original number. If the result isn't a palindrome, repeat the process. For example, start with 87 base 10. Applying this process, we obtain:<br />\n<br /><br />\n87 + 78 = 165<br />\n<br />        165 + 561 = 726<br />\n<br /> \t\t\t  726 + 627 = 1353<br />\n<br />                            1353 + 3531 = 4884, a palindrome<br />\n<br /><br />\nWhether all numbers eventually become palindromes under this process is unproved, but all base 10 numbers less than 10,000 have been tested. Every one becomes a palindrome in a relatively small number of steps (of the 900 3-digit numbers, 90 are palindromes to start with and 735 of the remainder take fewer than 5 reversals and additions to yield a palindrome). Except, that is, for 196. Although no proof exists that it will not produce a palindrome, this number has been carried through to produce a 2 million-digit number without producing a palindrome.\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of input file contains positive integer t \u2013 the amount of test cases. Next t lines contain a positive integer and its base. Bases will be in the range 10 \u2013 36. </p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Print the palindrome produced. If no palindrome is produced after 10 additions, print the word \u201cnone\u201d and the last sum.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>10</b> \u2264 <b>base</b> \u2264 <b>36</b></li>\n<li><b>1</b> \u2264 <b>t</b> \u2264 <b>10</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:<br /> 5 \n 420, 13 \n 46894, 10  \n NITUK, 35\n CODEGURU, 36\n PRODAYA, 35\n</b>\n\n<b>Output:<br />444\nNONE, 1317544822\nNONE, L6SFFT6K\nTLRCSCRLT\nBH8888HB\n</b>\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-04-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeGuru 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, PERL, FORT, WSPC, PRLG, LISP sbcl, LISP clisp, JS, PERL6, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1397968200,
+        "end_date": 1397979000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1397979000,
+        "submit_start_date": 1397968200,
+        "current": 1537437594
+    },
+    "problem_author_html_handle": "tejas02",
+    "problem_name": "PAL-IN-DROME",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/tejas02'>tejas02</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "tejas02",
+    "contest_code": "CDGR2014",
+    "max_timelimit": "5",
+    "problem_code": "CG03"
+}

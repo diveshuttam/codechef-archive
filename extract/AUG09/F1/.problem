@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A company wants to invest into building a golf course. They could choose the land to build the course from a rectangle area of size MxN. The rectangle area is divided into MxN cells. They measured the elevation of each cell and recorded it into an integer number.</p>\n<p>The company decided that the golf course should be a KxK square (K &#8804; min(M,N)). Thus, there are (M-K+1)(N-K+1) possible KxK squares that can be used to build the golf course. For each such square, the company wants to know the highest elevation of a cell inside the square. They also need to know how many cells that have such highest elevations.</p>\n<p>Write a program that help the company do the above task.</p>\n<h3>Input</h3>\n<p>The first line contains t, the number of test cases (about 10). Then t test cases follow. Each test case has the following form:</p>\n<ul>\n<li>The first line contains three integers M, N, K (1 &#8804; M, N &#8804; 500, 1 &#8804; K &#8804; min(M,N) ).</li>\n<li>There are M lines follow. Each line contains N nonnegative integers not exceeding 10000. Each integer represents the elevation of a cell.</li>\n</ul>\n<p>There is a blank line after each test case.</p>\n<h3>Output</h3>\n<p>For each test case, in the first line print \"Case d:\" where d is the number of the test case. Then print M-K+1 lines and in each line print N-K+1 entries. Successive entries should be separated by spaces. The entry in the i<sup>th</sup> line and the j<sup>th</sup> column has the following form:</p>\n<ul>\n<li>The first number is the highest elevation of a cell in the KxK square whose top left corner is (i,j).</li>\n<li>If there is more than one cell in the square that has the highest elevation, print <em>(c)</em>, where c is the number of cells inside the square that have the highest elevation.</li>\n</ul>\n<p>Print a blank line after each test case.</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong>\n2\n3 3 2\n5 5 5\n5 5 5\n5 5 5\n\n3 3 2\n4 2 1\n3 5 7\n2 8 8\n\n<strong>Output:</strong>\nCase 1:\n5(4) 5(4) \n5(4) 5(4) \n\nCase 2:\n5 7 \n8 8(2) \n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-07-2009",
+    "is_direct_submittable": false,
+    "contest_name": "August 2009 (Contest VI)",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1249119000,
+        "end_date": 1249983000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1249983000,
+        "submit_start_date": 1249119000,
+        "current": 1537439919
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Golf course",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "AUG09",
+    "max_timelimit": "0.14",
+    "problem_code": "F1"
+}

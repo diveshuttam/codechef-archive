@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Batman is back!<br>\nWonderWoman is back!<br>\nAnd the whole Justice League is back! *Whistles*<br>\nSo here they are. The Team is facing is a real tough problem and FLASH needs your FAST help to defeat their enemies.\n<br>\nHere is the scene:<br>\nFLASH is fighting with some enemies which are in a straight line one after another. Each one of them is having a strength <b>S<sub>i</sub></b>. H He can beat an enemy in line, if and only if he didn't beat an enemy directly next or before the current one. To beat enemies FLASH has to beat enemies as much as possible. Given the strength each monster has, calculate the maximum strength FLASH requires to beat all monsters,\nwhich is, sum of all possible strengths of enemies which FLASH can kill. What is maximum strength required by FLASH?\n</p>\n\n<h3>Input</h3>\n<p>The first line of input contains the number of test cases.\n<br>\nEach test case starts with a line containing the N number of enemies standing in line and next line consists of S<sub>i</sub> strengths of those enemies.</p>\n\n<h3>Output</h3>\n<p>\nFor each test case output a single line containing the maximum strength required by flash to beat maximum enemies.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 N \u2264 10000</li>\n<li>1 \u2264 Strength of Enemy S \u2264 10000</li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n5\n1 2 3 4 5\n1\n10\n<br>\n<b>Output:</b>\n9\n10\n</pre>\n<br>\n<h3>Explanation</h3>\n<p>\nIn first example test case maximum strength FLASH requires is, 1+3+5 = 9\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-08-2017",
+    "is_direct_submittable": false,
+    "contest_name": "BUG4EVER 2017",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1504441800,
+        "end_date": 1504452600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1504452600,
+        "submit_start_date": 1504441800,
+        "current": 1537433593
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nerdyninja</span>",
+    "problem_name": "Justice League",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nerdyninja'>nerdyninja</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nerdyninja",
+    "contest_code": "BUGE2017",
+    "max_timelimit": "1",
+    "problem_code": "BUG2K17D"
+}

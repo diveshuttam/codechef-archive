@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>The <a href=\"http://credenz.info/Events/roboliga/roboliga.html\">Roboliga</a> team of Credenz '14 have bought a plywood. The plywood is a flat plane represented as a 2D matrix. Each element of a 2D matrix represents the weight of that particular part of the plywood.</p>\n<p>Now the Roboliga team wants to cut a rectangular hollow piece of outer rectangle of size <b>AxB</b> and inner rectangle of size <b>((A-2)x(B-2))</b> from the plywood which satisfies the following conditions:<br/></br/></p>\n<li>All the blocks on the hollow rectangular piece have equal weight.</li>\n<li>The area covered by the outer rectangle is maximum i.e. product of A and B is maximum.</li>\n<p>Note that pieces of dimensions less than or equal to 2 are allowed. Such pieces would not be hollow.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line contains two integers <b>M</b> and <b>N</b><br/><br />\nNext <b>M</b> lines contain <b>N</b> space-separated integers: the description of the matrix</br/></p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Output the maximum area of the hollow rectangle.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<p>1 &lt;= <b>M</b> &lt;= 100<br/><br />\n1 &lt;= <b>N</b> &lt;= 100<br/><br />\n1 &lt;= <b>a<sub>i</sub></b> &lt;= 10^9</br/></br/></p>\n<p><br/></br/></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n7 7\n1 2 3 4 5 6 7\n7 9 9 9 9 2 4\n1 9 3 4 9 6 7\n7 9 9 9 9 2 4\n1 2 3 4 5 6 7\n7 6 5 1 3 2 4\n1 2 3 4 5 6 7\n\n<b>Output:</b>\n12\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-08-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Clash Credenz 2014 Wild Card Round",
+    "languages_supported": "C",
+    "todo": false,
+    "time": {
+        "view_start_date": 1409499000,
+        "end_date": 1409585400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1409585400,
+        "submit_start_date": 1409499000,
+        "current": 1537437452
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>wittyceaser</span>",
+    "problem_name": "Plywood",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/wittyceaser'>wittyceaser</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "wittyceaser",
+    "contest_code": "CLASH14",
+    "max_timelimit": "1",
+    "problem_code": "CREDPLWD"
+}

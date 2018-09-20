@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<font style=\"font-size:17px\">\n\nSusan loves fortune numbers very much. We all know that fortune numbers are positive integers whose decimal record contains only the fortune digits <strong>4</strong> and <strong>7</strong>. For example, numbers <strong>47</strong>, <strong>744</strong>, <strong>4</strong> are fortune and <strong>5</strong>, <strong>177</strong>, <strong>42367</strong> are not.\n<br>\n<br>\n\nSusan loves tickets very much. As we know, each ticket has a number that is a positive integer. Its length equals <strong>n</strong> (<strong>n is always even</strong>). Susan calls a ticket fortune if the ticket's number is a fortune number and the sum of digits in the first half (the sum of the first <strong>n\u2009/\u20092</strong> digits) equals the sum of digits in the second half (the sum of the last <strong>n\u2009/\u20092</strong> digits). Check if the given ticket is fortune.\n\n\n<br><br>\n\n<em><strong>Input</strong></em>\n\n<br><br>\n\nThe first line contains \n<br>\n1. An even integer <strong>n</strong> (<strong>2\u2009\u2264\u2009n\u2009\u2264\u200950</strong>) \u2014 the length of the ticket number that needs to be checked. <br>\n\n2. An integer whose length equals exactly <strong>n</strong> \u2014 the ticket number. The number may contain leading zeros.\n\n\n<br><br>\n\n<em><strong>Output</strong></em>\n\n<br><br>\n\nOn the first line print <em>\"YES\"</em> if the given ticket number is fortune. Otherwise, print <em>\"NO\"</em> (without the quotes).\n\n\n<br>\n<br>\n\n\n\n\n<strong>Examples</strong>\n<br>\n<hr>\n\n\n\n<strong>Input</strong>\n\n<br>\n\n2 47\n\n<br>\n\n\n<br>\n\n\n<strong>Output</strong>\n\n<br>\n\nNO\n\n\n<br>\n\n\n<hr>\n\n<strong>Input</strong>\n\n<br>\n\n4 4738\n\n\n\n<br>\n<br>\n\n<strong>Output</strong>\n\n<br>\n\nNO\n\n<br>\n\n\n\n\n<hr>\n\n<strong>Input</strong>\n\n<br>\n\n4 4774\n\n\n\n<br>\n<br>\n\n<strong>Output</strong>\n\n<br>\n\nYES\n\n<br>\n<hr>\n<strong>Note</strong>\n<br>\n\nIn the first sample the sum of digits in the first half does not equal the sum of digits in the second half <strong>(4\u2009\u2260\u20097).</strong>\n<br>\n\nIn the second sample the ticket number is not the fortune number.\n\n</font>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "CODEX_X",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1525012200,
+        "end_date": 1525023000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1525023000,
+        "submit_start_date": 1525012200,
+        "current": 1537432499
+    },
+    "problem_author_html_handle": "futurzclub",
+    "problem_name": "AFGJI FORTUNE TICKET",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/futurzclub'>futurzclub</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "futurzclub",
+    "contest_code": "COX2018",
+    "max_timelimit": "1",
+    "problem_code": "COX03"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Snow Leopard has a shop which offers home delivery .   There are <b>N colonies</b> in the colony, numbered from <b>0 to N-1</b>.<br /><br /> </p>\n<p>There are various streets connecting the various colonies. Each street connects exactly two cities, which can be traveresed in both ways. The <b>j-th </b>character of the<b> i-th</b> element of streets will be <b>'.'</b> if there is no street connecting colony <b>i</b> and colony <b>j</b>, or <b>'Y'</b> if there is exactly one street connecting colony i and colony j.<br /><br /></p>\n<p>Your task is to <b>maximize profit</b>, which means you need to maximize the fuel used(they get paid for delivering the items.)<br />\n<br /><br /></p>\n<p>In this game, you start at colony 0 with profit colonyValues[0]. Your goal is to maximize your final profit. At any time in the game, you may perform one of the<br />\nfollowing actions:<br /><br /> </p>\n<p>      i) End the game. Your current profit will be recorded as your final profit.<br /><br /></p>\n<p>      ii) Move to another colony by traversing a single street. This is the interesting part of the game: assume that your current profit is P and the destination colony is colony X. After traversing the street, you will be at colony X with profit <b>P OR colonyValues[X]</b>. <br /><br />\n</p>\n<h3>Input</h3>\n<p>\nThe first line shows the number of colonies in the city(N).<br /><br />\nThe second line shows the number of colonyValues.<br /><br />\nNext N lines has a string each which show the if there is a street within colonies.<br /><br />\n\u00a0</p>\n<h3>Output</h3>\n<p>Maximum profit </p>\n<h3>Constraints</h3>\n<p>0 &lt; N &lt; = 100<br /><br />\n0 &lt; colonyValue[i] &lt; = 1000 </p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<p>5<br />\n1 4 8 32 512<br />\nNYNYY<br />\nYNYNN<br />\nNYNNN<br />\nYNNNN<br />\nYNNNN<br />\n</p>\n<b>Output:</b>\n557\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-03-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Dementia 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1394037541,
+        "end_date": 1394046900,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1394046900,
+        "submit_start_date": 1394037541,
+        "current": 1537437727
+    },
+    "problem_author_html_handle": "prog_iitmandi",
+    "problem_name": "Snow leopard or maximum profit",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/prog_iitmandi'>prog_iitmandi</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "prog_iitmandi",
+    "contest_code": "DMNT2014",
+    "max_timelimit": "1",
+    "problem_code": "ORPROFIT"
+}

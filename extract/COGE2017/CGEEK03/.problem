@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><hr>\n<p>Shreyansh like to play with arrays. He started solving many problems related to array and after a while he thought that he had become an expert in this field and could solve any problem related to array. Seeing this shubham decided to challenge him with a problem related to array. Shubham gave him the following problem.\n<br><br>\nGiven an array <b>A[]</b> <b>N</b> integer check the integer <b>M</b> exist or not.<br>\n<b>M</b> is the sum of two pair <b> A[i] +A[j] </b> where <b>i != j</b>.<br><br>\nShreyansh tried this problem a lot but couldn\u2019t solve it and is now asking for your help to solve this problem.\n\n</p>\n<hr>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>First line of each test case contains two integers <b>N</b> and <b>M</b> as given in the problem statement.<br>\nNext line contains <b>N</b> space separated integers denoting the array elements.\n</li>\n\n</ul>\n<hr>\n<h3>Output</h3>\n<p>For each Test case, output the string \"yes\" or \"no\" in a new line, depending on <b>M</b> exist or not.</p>\n<hr>\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>5</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>A[i]</b> \u2264 <b>10^3</b></li>\n</ul>\n<hr>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3 5\n1 2 3\n4 6\n2 1 3 1\n<hr>\n<b>Output:</b>\nyes\nno\n</pre>\n<hr>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> In array 3+2=5 so answer is yes.</p>\n<p><b>Example case 2.</b> There is no two elements A[i] +A[j] equal to 6.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-09-2017",
+    "is_direct_submittable": false,
+    "contest_name": "CodeGeeks",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1506609000,
+        "end_date": 1506616200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1506616200,
+        "submit_start_date": 1506609000,
+        "current": 1537433543
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>parac</span>",
+    "problem_name": "Shreyansh and Arrays",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/parac'>parac</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "parac",
+    "contest_code": "COGE2017",
+    "max_timelimit": "1",
+    "problem_code": "CGEEK03"
+}

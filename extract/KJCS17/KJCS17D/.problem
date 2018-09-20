@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Karan is a brilliant prankster and plays pranks on people for fun. One day, he decides to send his prank partner Chirag a secret message by encrypting it and posting it publicly on his Facebook wall. They had anticipated a scenario like this, and exchanged a shared secret key some time in the past. Unfortunately, Karan isn't very familiar with encryption algorithms, so he decides make his own. His encryption algorithm works as follows:</p>\n<p>\n\n<p>\n<ul>\n\t<li>\n\t\tChoose a key entirely composed of digits 0-9, for example: 12345\t\n\t</li>\n\t<li>\n\t\tIterate each letter of the plaintext message and rotate the letter forward a number of times equal to the corresponding digit in the key. If the rotation of the letter passes Z, start back at A.\n\t</li>\n\t<li>\n\t\t If the message is longer than the key, loop back to the first digit of the key again, as many times as needed.\t\t\n\t</li>\n\t<li>\n\t\tIf a non-alphabetical character is encountered, leave it as it is and don't move to the next digit in the key.\n\t</li>\n\t<li>\n\t\tCharacters should maintain their upper or lowercase orientation after rotation.\t\n\t</li>\n</ul><br><br>\nNow, cipherhacker is trying to understand what Karan and Chirag are talking about.After trying for a really long time, he is able to decode one string which only contains alphabets. He needs your help in finding out what secret do the other messages contain. \n<br />\n<p>Note: The message might contain other ascii characters</p>\n\n<p>\n\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>First line of the test case contains two strings. First is the decoded message and second is the encoded message and the length of key(L).</li>\n<li>Next line contains a single integer Q</li>\n<li>Next Q lines contains a single decoded message </li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p></p>\n<ul>\n<li>For each test case, output a Q lines which contains the decoded message for each code message</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>20</b></li>\n<li><b>1</b> \u2264 <b>L</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>2000</b></li>\n<li><b>1</b> \u2264 <b>length of message</b> \u2264 <b>2000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\nCHEETAH DJHIUCK 4\n1\nXwefb Nxfcc Gyc Fxf\n\n\n<b>Output:</b>\nWubba Lubba Dub Dub\n\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "30-09-2017",
+    "is_direct_submittable": false,
+    "contest_name": "KJSCE CodeSpree 2017",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1506871800,
+        "end_date": 1506884400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1506884400,
+        "submit_start_date": 1506871800,
+        "current": 1537433532
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>mad_sri</span>",
+    "problem_name": "Bill Cipher",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/mad_sri'>mad_sri</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "mad_sri",
+    "contest_code": "KJCS17",
+    "max_timelimit": "1",
+    "problem_code": "KJCS17D"
+}

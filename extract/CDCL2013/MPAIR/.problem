@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nAlice,the Nightingale of Musicland is going to represent her country in World Music Finals.<br /><br /></p>\n<p>The Rules for the World Music Finals are :<br /><br /></p>\n<p>1. The Contestant will sing exactly <b>2</b> songs in the competition.<br /><br />\n2. The original singers of both the songs selected by the contestant should be different.<br /><br /></p>\n<p>Alice has a large collection of <b>N</b> songs ( numbered from 1 to N ). However, She does not directly know the original singer of each song. Although, She knows <b>M</b> pairs of songs which was sung by the same singer.<br /><br /></p>\n<p>She wants to calculate the total number of ways of selecting <b>2</b> songs for the World Finals such that it does not violate the Rules of the competition. As Alice is not good at maths she asks you to help her.<br /><br /></p>\n<p><b>Note:</b><br /><br />\n<b>*</b> Alice knows enough pairs to identify the group of songs although she does not know the exact original singers of the songs.<br /><br />\n<b>*</b> If the songs 1,2,3,4 was sung by the same Original singer, then the pair (1,2),(2,3),(3,4) are sufficient to describe the same group without mentioning the groups (1,3),(2,4),(1,4) explicitly.\n</p>\n<h3>Input</h3>\n<p></p><p>\nThe first line contains two space separated integers <b>N</b> and <b>M</b>.<br />\n<br /><br />\nEach of the following <b>M</b> lines contains a space seperated integer pair <b>A</b> <b>B</b>, where <b>A</b> and <b>B</b> are the songs sung by the same Original singer.\n</p>\n\n<h3>Output</h3>\n<p>The total number of ways of selecting a pair of songs that satisfy the World Finals Rules.\n</p>\n<h3>Constraints</h3>\n<p>\n<b>1</b> \u2264 <b>N</b> \u2264 <b>10^5</b><br />\n<br /><br />\n<b>0</b> \u2264 <b>M</b> \u2264 <b>10^6</b><br />\n<br /><br />\n<b>1</b> \u2264 <b>A,B</b> \u2264 <b>N</b>\n</p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n7 5\n1 2\n2 3\n4 6\n5 7\n5 4\n\n<b>Output:</b>\n12\n</pre><h3>Explanation</h3>\n<p>There will be only 2 groups:<br /><br />\nGroup1 contains songs with number 1,2,3<br /><br />\nGroup2 contains songs with number 4,5,6,7<br /><br />\nSo,Total ways of selecting a pair is by choosing 1 from each group and it can be done in (3*4)=12 ways.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-09-2013",
+    "is_direct_submittable": false,
+    "contest_name": "CodeClash 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1380699000,
+        "end_date": 1380717000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1380717000,
+        "submit_start_date": 1380699000,
+        "current": 1537438141
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>aichemzee</span>",
+    "problem_name": "The Musical Pair",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aichemzee'>aichemzee</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "aichemzee",
+    "contest_code": "CDCL2013",
+    "max_timelimit": "1",
+    "problem_code": "MPAIR"
+}

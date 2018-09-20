@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The story of Harry Potter begins when Lord Voldemort arrives at his house at Privet Drive. Harry's house has <b>N</b> rooms placed in one line. Each room has its own energy level and no two rooms have exactly same energy. Lord Voldemort arrives at the room which has lowest energy while Harry is at the room having highest energy.</p>\n<p></p>\n<p>\nLord Voldemort has to reach Harry's room. Voldemort can travel from a room having energy <b>X</b> to any other room having energy <b>Y</b> such that <b>|X-Y|</b> is minimum and that room hasn't been visited before. The energy required for moving from room having energy <b>X</b> to room having energy <b>Y</b> is <b>X*Y</b>.\n<p>\nSince Lord Voldemort is busy practicing Avada Kedavra to kill Harry, so he asks you to find the energy required to reach Harry's room.\n</p>\n<p></p>\n\n<h3>Input</h3>\n<ul>\n<li>The first line of input contains 1 integer <b>N</b> denoting the number of rooms.</li>\n<li>The second line contains <b>N</b> space separated integers denoting energy levels of each room.</li>\n</ul>\n\n<p></p>\n\n<h3>Output</h3>\n<p>Print the required energy.</p>\n<p></p>\n\n<h3>Constraints</h3>\n<ul>\n<li>2 \u2264 <b>N</b> \u2264 1000</li>\n<li>1 \u2264 <b>E<sub>i</sub></b> \u2264 10000</li>\n</ul>\n<p></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n4 2 1\n<p></p>\n<b>Output:</b>\n10\n</pre>\n<p></p>\n<h3>Explanation</h3>\n<p>Lord Voldemort arrives at room 3 and Harry is in room 1.\n</p>\n<p>Total energy consumed = 1*2 + 2*4 = 10.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "ALKHWARIZM (Rated)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1521214200,
+        "end_date": 1521232200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1521232200,
+        "submit_start_date": 1521214200,
+        "current": 1537432822
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>aloochaat1998</span>",
+    "problem_name": "Help Voldemort",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aloochaat1998'>aloochaat1998</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "aloochaat1998",
+    "contest_code": "ALKH2018",
+    "max_timelimit": "1",
+    "problem_code": "HELPVOLD"
+}

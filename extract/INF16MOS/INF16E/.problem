@@ -1,0 +1,33 @@
+{
+    "problem_code": "INF16E",
+    "problem_author": "kol_adm",
+    "contest_name": "ACM-ICPC Asia-India Finals Mirror Contest 2016",
+    "todo": false,
+    "problem_author_html_handle": "kol_adm",
+    "problem_name": "Jumping Frogs III",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "INF16MOS",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kol_adm'>kol_adm</a>",
+    "body": "<p>At time 0, <strong>R</strong> red frogs and <strong>G</strong> green frogs are sitting on a straight line. Every frog can be described with an integer number <strong>P</strong>, denoting its initial position and a non negative integer <strong>V</strong>, denoting its velocity.</p>\n<p>Every second, a green frog jumps from its position to its left and a red frog jumps to its right. So if the initial position of a green frog is <strong>0</strong> and its velocity is <strong>5</strong>, then after <strong>1</strong> second, its position will be <strong>-5</strong>. If the color of the frog was red, then its position would be <strong>5</strong>. It takes negligible time for any frog to jump from its current position to the new position. Frogs are only visible on the line at any full second.</p>\n<p>You are also given a segment <strong>[A, B]</strong> where <strong>A</strong> and <strong>B</strong> are two integer numbers and <strong>-10<sup>12</sup> \u2264 A \u2264 B \u2264 10<sup>12</sup></strong>. Please find the maximum possible number of frogs within the interesting segment at any nonnegative integer second since time <strong>0</strong> (including 0).</p>\n<p><strong>Input<br />\n</strong>Input starts with a single positive integer, <strong>T</strong><strong>(1 \u2264 T \u2264 10<sup>6</sup>)</strong>, on a single line, denoting the number of test cases. Each of the following <strong>T</strong> test cases are represented in the following manner,</p>\n<p>\n<ol>\n<li>The first line has two non negative integers <strong>R</strong> and <strong>G</strong>, <strong>0 \u2264 R+G \u2264 10<sup>5</sup></strong> <strong>(or 100000)</strong> on a single line.</li>\n<li>The second line contains two integer numbers, <strong>A</strong> and <strong>B</strong> <strong>(-10<sup>12</sup> \u2264 A \u2264 B \u2264 10<sup>12</sup>)</strong>, separated by a space. <strong>[A, B]</strong> is said to be the interesting segment.</li>\n<li>Then comes <strong>R</strong> lines, each with two integers <strong>P</strong> and <strong>V</strong>, separated by a single space to denote the initial position and velocity of the <strong>i<sup>th</sup></strong> red frog.</li>\n<li>Then comes <strong>G</strong> lines, each with two integers <strong>P</strong> and <strong>V</strong>, separated by a single space to denote the initial position and velocity of the <strong>i<sup>th</sup></strong> Green frog.</li>\n</ol>\n</p>\n<p>It\u2019s guaranteed that every frog has a non negative velocity and the initial positions are within the range <strong>[-10<sup>12</sup>, 10<sup>12</sup>]</strong>. It is also guaranteed that the total number of frogs in the test file doesn\u2019t exceed <strong>10<sup>6</sup> ( or 1000000)</strong>.</p>\n<p><strong>Output</strong></p>\n<p>For every case, print your output in the format, <strong>\u201cCase X: Y\u201d</strong> on a single line, where <strong>X</strong> is the number of the test case starting from <strong>1</strong> and <strong>Y</strong> is the maximum number of frogs that can be within the interesting segment at any point of time.</p>\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n<tt>2\n2 0\n-10 10\n-5 5\n5 5\n2 2\n-100 100\n1 1\n-200 2\n-100 1\n11 1\n</tt>\n<b>Output:</b>\n<tt>Case 1: 2\nCase 2: 3\n</tt>\n</pre>",
+    "category_name": "main",
+    "date_added": "27-12-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "max_timelimit": "5",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/INF16E",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1483075800,
+        "end_date": 1483093800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1794096966,
+        "submit_start_date": 1483075800,
+        "current": 1537434251
+    },
+    "user": {
+        "username": ""
+    }
+}

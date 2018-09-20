@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nRecommending systems are very popular now.Many commercial websites use it to recommend items to their users.Sometimes merging preferences is a difficult task because different users have different preferences.\nA user's preference is a linear order of items.\nFor example there are 3 items, namely 1,2,3 and 3 users.</br>\nThe first user prefers item 1 to item 2 and prefers item 2 to item 3.</br>\nSo his/her preference is 1 2 3.</br>\nThe second user's preference is 2 1 3.</br>\nAnd the third user's preference is 3 2 1.</br></br>\nHow can we merge the 3 preferences?</br>\nIf we merge them to get a preference P we can calculate the badness of it.\nIt can be defined as the total number of <b>pairs that Disobey</b> in all the linear orders.</br></br>\n\nSo the badness of 1 2 3 is 0 + 1 + 3 = 4 because  1 2 disobeys the second preference and all the 3 pairs  disobey the third preference.</br>\nThe badness of 1 3 2 is 1 + 2 + 2 = 5.</br>\nThe badness of 2 1 3 is 1 + 0 + 2 = 3.</br>\nThe badness of 2 3 1 is 2 + 1 + 1 = 4.</br>\nThe badness of 3 1 2 is 2 + 3 + 1 = 6.</br>\nThe badness of 3 2 1 is 3 + 2 + 0 = 5.</br>\n</br>\nSo if we let P = 2 1 3 , the minimal badness is 3.\n\n<h3>Input</h3>\n<p>\nGiven <b>N</b> users preferences of <b>M</b> items, calculate the minimal badness of merged preference.\nThe first line of input is 2 integers, N  and M .\nEach of the next n lines is a permutation of integers from 1 to M.\n<h3>Output</h3>\n<p>\nJust output the minimal badness of merged preference in a single line.\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3 3\n1 2 3\n2 1 3\n3 2 1\n\n<b>Output:</b>\n3\n</pre>\n<h3>Constraints</h3>\n<pre>\n 0 < N < 21 \n 0 < M < 10001\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-09-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Alkhwarizm 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1348925400,
+        "end_date": 1348943400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1348943400,
+        "submit_start_date": 1348925400,
+        "current": 1537438702
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>bb_1</span>",
+    "problem_name": "Merge Preferences",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bb_1'>bb_1</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bb_1",
+    "contest_code": "ALKH2012",
+    "max_timelimit": "0.682759",
+    "problem_code": "MPREF"
+}

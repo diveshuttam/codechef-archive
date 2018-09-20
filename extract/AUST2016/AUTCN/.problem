@@ -1,0 +1,33 @@
+{
+    "problem_code": "AUTCN",
+    "problem_author": "shakilaust",
+    "contest_name": "Intra AUST Programming Contest Fall 2015",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>shakilaust</span>",
+    "problem_name": "Traffic Count",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "AUST2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aust2016'>aust2016</a>, <a class='problem-tag-small ' href='/tags/problems/data-structure'>data-structure</a>, <a class='problem-tag-small ' href='/tags/problems/mo-algorithm'>mo-algorithm</a>, <a class='problem-tag-small ' href='/tags/problems/shakilaust'>shakilaust</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>My friends Tushar , Hemel and Shovon recently built a software named \u201cTraffic Count!\u201d. Few days ago I asked them \u201cTell me something about your software.\u201d. Shovon replied smartly \u201cOh! It\u2019s an android  software . Any person using this software, will know how many vehicles are present in the road at a certain time of period!\u201d Being astonished I asked them \u201cHow do you calculate this?\u201d. This time Hemel answered me, \u201cOur software was pre-loaded with 10^7+1 types of vehicles and they are numbered from 0,1,2,\u2026\u2026,10^7 . Whenever a user connect our software to the internet, the software receives datas from our server. Our server holds the last t (t \u2264 10 ^ 5) seconds data. Each second, an integer is shown which indicates a type of vehicle enters into our server. User can give any number of q (q \u2264 10^5) queries . For each query user need to insert 4 integers t1 , t2 , type1 , type2. Our software returns how many vehicles from type1 to type2 are present from time t1 to time t2.Now the main question is how does our server work? \"But I am not telling you about this. You don't need to know about the theory.\"<br />\nNow I want to build this type of software as quick as possible . I know how the server works. But I don\u2019t know how the software answers the user queries quickly? I need your help to find this.\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line contains an integer <b> T (T \u2264 10) </b>, the number of test cases.<br />\nEach case contains a number t, which indicates the server holds information of last t seconds. Next line will contain t integers which means every ith (0 \u2264 i \u2264 t - 1) second, server records an integer<b> k (type of vehicle). Next an integer Q (number of queries) is given . For each query four integers are given t1, t2, type1, type2 (0 \u2264 t1 \u2264 t2 \u2264 t - 1 , 0 \u2264 type1 \u2264 type2 \u2264 10^7) .</b></p>\n<h3>Output</h3>\n<p>At first print the test case number . And for each case print the required answer for each query. Follow the I/O formats exactly.</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n5\n2 2 3 4 5\n2\n1 4 1 5\n0 1  2 30\n\n\n\n<b>Output:</b> \nCase 1:\n4\n2\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> For query 1 , there are four vehicles (2,3,4,5) which are recorded in the server from 1st to 4th second. All vehicles types are from 1st type to 5th type . So the answer is 4 .<br />\nFor query 2 , there are two vehicles (2,2) which are recorded in the server from 0th to 1st second. All vehicles types are from 2nd  type to 30th  type . So the answer is 2 .</p>\n",
+    "category_name": "main",
+    "date_added": "15-01-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1 - 5",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/AUTCN",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1453467600,
+        "end_date": 1453482000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1453482000,
+        "submit_start_date": 1453467600,
+        "current": 1537435633
+    },
+    "user": {
+        "username": ""
+    }
+}

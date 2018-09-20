@@ -1,0 +1,97 @@
+{
+    "announcements": "<b>16th February,2012 8:44:00 pm IST</b>  The contest time has been extended to 11:10 pm to make up for the technical glitch.<br /><br /><br />\r\n\r\n<b>16th February,2012 9:00:00 pm IST </b>  In the problem Synapse ,Life Universe and Everything treat 42=101010 in binary and not as 10101010 as specified in the question. <br /><br />\r\n\r\n<b>16th February,2012 9:15:00 pm IST</b>  In the problem Synapse Crypt Secrets the input has the number of testcases as the input in the first line.<br /><br /><br />\r\n\r\n<b>16th February,2012 9:30 pm IST</b>  In the problem Synapse Crypt Secrets the output is just the decoded message. The testcase number should not be included in the output only the decoded message.<br /><br /><br />\r\n\r\n<b>16th February,2012 9:50 pm IST</b>  The problem statement for Synapse Crypt Secrets has been updated.All the mistakes have been corrected. <br /><br /><br />\r\n\r\n<b>16th February,2012 10:19 pm IST</b>  The rankings of the contest can be viewed <a href=\"http://www.codechef.com/rankings/CDMT2012\">here.</a> <br /><br /><br />\r\n\r\n<b>16th February,2012 10:25 pm IST</b>For the problem Get Synapse Online the input will be on different lines as specified in the example input.\r\n<br /><br /><br />\r\n\r\n\r\n<b>16th February,2012 11:16 pm IST</b>\r\n\r\nThe winners are <br />\r\n<i>1 \trosyish\t<br />\r\n2 \tbsrkaditya <br />\t\r\n3 \tjavadecoder\t<br /> </i>\r\nCongratulations to all the winners.<br />\r\nSynapse ,DA-IICT thanks  CodeChef for hosting this competition. <br />\r\n\r\n\r\n\r\n",
+    "ip": "149.129.135.113",
+    "code": "CDMT2012",
+    "duration": "160",
+    "name": "CodeMutants 2012",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>The Contest has ended!</b></p> <p><b>All problems have been added to the practice section.</b></p> <p><b>Solutions are public for all problems.</b></p> <p>\u00a0</p> <p><b>Rules and Regulations:</b></p> <p>1. All problems will be posted on Wednesday, 16th February 2012 at 20:30 hours - Indian Standard Time (GMT +530) and the competition closes on Wednesday, 16th February 2012 at 23:00 hours IST.</p> <p>2. It will be open for all STUDENTS, no professional will be allowed.</p> <p>3. The contest is for individuals. No teams are allowed.</p> <p>4. There is no restriction on the programming language to be used. Almost all languages are supported by Codechef.</p> <p>5. You should be registered on the Synapse Website to be eligible for the prizes. <a href=\"http://synapse.daiict.ac.in/2012/index.php/register/codemutants\">Here</a> is the link to register on the Synapse website.</p> <p>\u00a0</p> <p><b>Judging Criteria:</b></p> <p>1. You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</p> <p>2. Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</p> <p>3. The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</p> <p>4. Any participant found to be indulging in any form of malpractice will be immediately disqualified.</p> <p>5. The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/CDMT2012/1424964337.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "SYNBRIG": {
+            "allow_submission": false,
+            "name": "Synapse Training Excercises",
+            "category_name": "main",
+            "accuracy": 75,
+            "successful_submissions": "3",
+            "code": "SYNBRIG",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SYLLUE": {
+            "allow_submission": false,
+            "name": "Synapse ,Life Universe and Everything",
+            "category_name": "main",
+            "accuracy": 29.2,
+            "successful_submissions": "29",
+            "code": "SYLLUE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SYNOL": {
+            "allow_submission": false,
+            "name": "Get Synapse Online",
+            "category_name": "main",
+            "accuracy": 35.11,
+            "successful_submissions": "37",
+            "code": "SYNOL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SYNROMAN": {
+            "allow_submission": false,
+            "name": "Roman Numerals in Synapse",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "SYNROMAN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SYBANK": {
+            "allow_submission": false,
+            "name": "Bank of Synapse",
+            "category_name": "main",
+            "accuracy": 5.88,
+            "successful_submissions": "2",
+            "code": "SYBANK",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SYNCRYPT": {
+            "allow_submission": false,
+            "name": "Synapse Crypt Secrets",
+            "category_name": "main",
+            "accuracy": 11.52,
+            "successful_submissions": "21",
+            "code": "SYNCRYPT",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1329414000,
+        "current": 1537438996,
+        "freezing": 0,
+        "start": 1329404400
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>You are given a directed graph with <b>N</b> nodes and <b>M</b> edges. The nodes are numbered from 1 to <b>N</b>. Each node has a value <b>A<sub>i</sub></b> associated with it. It is guaranteed that array A has all distinct elements.\n<br>\nYou need to find a walk on this graph such that if you write down the values written on each node of the walk in the order they are visited, the length of the Longest Increasing Subsequence of that sequence is maximised.\n<br>\nFormally, you need to find a sequence of nodes <b>V<sub>1</sub></b> , <b>V<sub>2</sub></b>, <b>V<sub>3</sub></b>, ... ,<b>V<sub>k</sub></b> such that, for <b>1 <= i < k</b> , there is an edge from <b>V<sub>i</sub></b>to <b>V<sub>{i + 1}</sub></b> and the Longest Increasing Subsequence of <b>A<sub>V<sub>1</sub></sub></b> ,<b>A<sub>V<sub>2</sub></sub></b>, <b>A<sub>V<sub>1</sub></sub></b>, ... ,<b>A<sub>V<sub>k</sub></sub></b> is longest among all walks.\n<br>\nYou are allowed to visit a node any number of times and can start and end your journey anywhere. Note that the Longest Increasing Subsequence should be strictly increasing.<br></p>\n\n\n<h3>Input</h3>\n<p>The first line of the input contains 2 integers, N and M, denoting the number of nodes and edges in the graph.<br>\nThe second line of input contains N integers <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, <b>A<sub>3</sub></b>, ... ,<b>A<sub>N</sub></b>.<br>\nThe next <b>M</b> lines of the inputs consists of integers <b>U<sub>i</sub></b>, <b>V<sub>i</sub></b> denoting there is a directed edge from <b>U<sub>i</sub></b>, <b>V<sub>i</sub></b>.</p>\n\n<h3>Output</h3>\n<p>Output a single integer denoting the maximum length of the Longest Increasing Subsequence that you can achieve.</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>30000</b></li>\n<li><b>1</b> \u2264 <b>A_i</b> \u2264 <b>1000000000</b></li>\n<li>All elements of array A are distinct</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5 5\n4 5 1 3 2\n1 2\n2 3\n3 4\n4 5\n5 1\n\n<b>Output:</b>\n5\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-01-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Tessellathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1517153400,
+        "end_date": 1517162400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1517162400,
+        "submit_start_date": 1517153400,
+        "current": 1537433093
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #D0011B;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>7&#9733;</span><span>rajat1603</span>",
+    "problem_name": "Graph LIS",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rajat1603'>rajat1603</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rajat1603",
+    "contest_code": "TESS2018",
+    "max_timelimit": "2",
+    "problem_code": "GRAPHLIS"
+}

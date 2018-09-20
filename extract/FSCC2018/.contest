@@ -1,0 +1,87 @@
+{
+    "announcements": "<p>The event has been cancelled<p>",
+    "ip": "149.129.135.113",
+    "code": "FSCC2018",
+    "duration": "60",
+    "name": "FreeStyle coding contest",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<!-- .rules-heading { color: #444444;  font-family: Arial, sans-serif;  font-size: 13px; font-family: Arial, sans-serif;  line-height: 23px; } .rules-body p { line-height: 23px;  font-size: 13px; }  .rules-body-ul { line-height: 23px;  list-style-position: initial;  list-style-image: initial;  margin: 10px 15px;  font-size: 13px;         } .rules-body-ul li { padding-left: 3px; } -->\r\n<p>&nbsp;</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/sites/default/files/uploads/landing_page_banners/banner-compete.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "FCC04": {
+            "allow_submission": false,
+            "name": "GAME OF COUNTERS",
+            "category_name": "main",
+            "accuracy": 39.39,
+            "successful_submissions": "13",
+            "code": "FCC04",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FCC01": {
+            "allow_submission": false,
+            "name": "LEFT ROTATE",
+            "category_name": "main",
+            "accuracy": 47.78,
+            "successful_submissions": "43",
+            "code": "FCC01",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FCC03": {
+            "allow_submission": false,
+            "name": "GAME OF ARRAY",
+            "category_name": "main",
+            "accuracy": 63.64,
+            "successful_submissions": "21",
+            "code": "FCC03",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FCC05": {
+            "allow_submission": false,
+            "name": "PUSSGRC SOUND-SYSTEM INSTALL",
+            "category_name": "main",
+            "accuracy": 87.5,
+            "successful_submissions": "7",
+            "code": "FCC05",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FCC02": {
+            "allow_submission": false,
+            "name": "CONVERT TIME",
+            "category_name": "main",
+            "accuracy": 50,
+            "successful_submissions": "25",
+            "code": "FCC02",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1519281000,
+        "current": 1537432946,
+        "freezing": 0,
+        "start": 1519277400
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n<p>Heisenberg has already cooked <b>N</b> packets of Meth and the <b>ith</b> packet contains <b>i</b> grams of Meth. Now after a lots of experiments he formulated a chemical and put it in all the packets. The chemical will increase the weight of the Meth inside packet by a mathematical formula. If the weight previously was <b>X</b> then now after putting the chemical it will become <b>X*f(X)</b>. \n<b><br>f(X) = No. of 1 bits in binary representation of  X </b>.\n<br>\nYou have to answer the total weight of Meth present in all the packets.\n<br>\nSince the answer is large print it modulo <b>10^9 + 7</b>.\n</p>\n<p> </p>\n\n\n<h3>Input</h3>\n<p>The first line of input contains an integer T denoting the number of test cases. The description of T test cases follows in next T lines.\n   In each test case you are given the total number of packets <b>N</b>. \n\n</p>\n\n\n<h3>Output</h3>\n<p>For each test case, output a single line containing the total weight for N packets after the chemical reaction modulo <b>1e9+7</b>. </p>\n</ul>\n<p> </p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^9</b></li>\n\n</ul>\n<p> </p>\n<pre><b>Input:</b>\n2\n2\n3\n<b>Output:</b>\n3\n9\n</pre>\n<p> </p>\n<h3>Explanation</h3>\nNo. of 1 bits in 1 = 1 <br>\nNo. of 1 bits in 2 = 1 <br>\nNo. of 1 bits in 3 = 2 <br>\n<p><b>Test case 1. 1*1+2*1 = 3</b>\n<br>\n<b>Test case 2. 1*1 + 2*1 + 3*2= 9 <br>\n\n</b>\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-08-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Insomnia 2017 Qualifier",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY",
+    "todo": false,
+    "time": {
+        "view_start_date": 1504456200,
+        "end_date": 1504467000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1504467000,
+        "submit_start_date": 1504456200,
+        "current": 1537433585
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>abhi_1595</span>",
+    "problem_name": "Total Meth",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhi_1595'>abhi_1595</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abhi_1595",
+    "contest_code": "INQU2017",
+    "max_timelimit": "1",
+    "problem_code": "INSQ17R"
+}

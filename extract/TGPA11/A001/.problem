@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>The Beginning</h3>\n<p>This is a story of the time when human kind had spread its presence through out the galaxy and had established an empire in its own right . <p/>\n\n<p>To rule the galaxy effectively and maintain law and order , the galaxy had been divided into sixty four sectors and laws were imposed as to how trade and other activities that were to take place be implemented  , of which the the vitals ones being :<p/>\n\n<p>One can trade only a fixed amount of commodities , which has been predefined by the senate , in a sector .<br />\n<p>One can travel only to the sectors just after or before a given sector and in no other way .<p/>\n\n<p>The map of the galaxy being :<p/>\n\n\n          64  63  62  61  60  59  58  57<br />\n          49  50  51  52  53  54  55  56<br />\n          48  47  46  45  44  43  42  41<br />\n          33  34  35  36  37  38  39  40<br />\n          32  31  30  29  28  27  26  25<br />\n          17  18  19  20  21  22  23  24<br />\n          16  15  14  13  12  11  10  09<br />\n          01  02  03  04  05  06  07  08<br />\n\n\n<p>If you are in Sector 05 , you can either go to Sector 06 or Sector 04 .<br/>\nIf you are in Sector 09 , you can either go to Sector 08 or Sector 10 .<p/>\n\n\n<p>To extend the empire further , the Senate decides to send an expedition beyond their current reaches of the Empire .<br />\nThe expedition was to travel through the galaxy following the laws and and get to Sector 64 .\nThere , the Expedition would be fitted with Hyper Drives which would take them beyond the Galaxy . \nSo a crew of the best explorers were chosen for the mission and they left on the Expedition , unaware of what lay ahead .</p>\n\n<h3>The Route </h3>\n<p>\nThe space craft can carry a maximum amount of fuel of 5 units .<br />  \nIt starts its journey from Sector 1 , where Earth is located and is given the amount of fuel present on Earth .<br />\nFor every sector traversed into , it loses one unit of fuel .<br />\nThe spacecraft may land in  any sector to refill its fuel supplies .<br />\nThe amount of fuel available on a base varies between 1 to 5 .<p/>\n<p>The space craft has to pick up all the fuel that there is on offer at a given base in accordance with the trade agreements and it can not carry more fuel than its maximum capacity which implies that the maximum fuel on a base station it lands on can not be more than the difference between its maximum fuel capacity and fuel left in its reserve .<p>\n\n<p>When it lands on a base station , its data base is uploaded with the information about the amount of fuel present in the next five immediate bases based on which the captain decides their next base halt .<p/>\n\n<p>The captain decides their halt in a way so as to ensure that they have the maximum amount of fuel left by the time they traverse into the last sector in their current database (which must not be their destination , Sector 64 ) and in case more than one option are available , the one that is farthest from their current location is chosen .<br />\nIn case the last sector on their database is Sector 64 , and the space craft can travel the distance without making any further landings , the captain will ensure that they make no further landings even if by the time they traverse into Sector 64 , they have no fuel left . <p />\n\n\nThe captain also ensures that information about their next halt is sent to the head of the current base station before proceeding so that a rescue mission can be carried in case something goes wrong . <br / >\n\n<h3>Input</h3>\n<p>\n<br />\nn<br />\nn1 n2 n3 n4 n5 ......... n64<br />\nn1 n2 n3 n4 n5 ......... n64<br />\nn1 n2 n3 n4 n5............n64<br />\n..........<br />\n..........<br />\n..........<br />\nn times <br />\n<br />\n<b>Where :</b><br />\n<br />\nn : Number of test cases .<br />\n0 < n < 32000<br />\n<br />\nn1 , n2 , n3 , n4 , n5 , n6 ............   n64  :  Amount of fuel present at each base , starting from Sector 1 . <br />\n0 < nx < 6 .<br />\n</p>\n<h3>Output</h3>\n<p>\n<br />\nh1 h2 h3 h4 ....... hn <br />\nh1 h2 .................. hn <br />\n..................<br />\n.................<br />\nfor n cases <br /><br />\n\n<b>Where :</b> <br /><br />h1 , h2 , h3 , .............hn : Sectors halted at , including the last sector , Sector 64 .<br />\n0 < hx < 64 <br />\n</p>\n<h3>Example</h3>\n<b>Input : </b>\n<br />\n1<br />\n1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 <br /><br />\n<b>Output:</b>\n<br />\n1 2 4 8 11 12 14 18 21 22 24 28 31 32 34 38 41 42 44 48 51 52 54 58 61 62 64 <br />\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Conscientia - TGPA 2011",
+    "languages_supported": "C, JAVA, CS2, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298737800,
+        "end_date": 1298755800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298755800,
+        "submit_start_date": 1298737800,
+        "current": 1537439320
+    },
+    "problem_author_html_handle": "roy",
+    "problem_name": "The Route",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/roy'>roy</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "roy",
+    "contest_code": "TGPA11",
+    "max_timelimit": "0.2275",
+    "problem_code": "A001"
+}

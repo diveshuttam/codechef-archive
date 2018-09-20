@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Consider an array of  n integers. \nFind the maximum value of the sum of the median values of all possible subsets of this array having odd number of terms.  </p>\n<p>Note: All subsets chosen are unique</p>\n<p>Note: Do not consider negative integers</p>\n\n\n<h3>Input</h3>\n<p>First line contains n , number of integers in the array.</p>\n<p>Followed by n lines, having one integer each, denoting the element of the array</p>\n\n<h3>Output</h3>\n<p>the maximum value of the sum</p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:\n4\n0\n1\n3\n2\n</b>\n\n\n<b>Output:\n12\n</b>\n\n</pre>\n<p>\u00a0</p>\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-02-2018",
+    "is_direct_submittable": false,
+    "contest_name": "C Cubed ",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1519450200,
+        "end_date": 1519536600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1519536600,
+        "submit_start_date": 1519450200,
+        "current": 1537432914
+    },
+    "problem_author_html_handle": "anant_infinity",
+    "problem_name": "Thats Odd",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anant_infinity'>anant_infinity</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "anant_infinity",
+    "contest_code": "CCU2018",
+    "max_timelimit": "2 - 5",
+    "problem_code": "C3PBR3"
+}

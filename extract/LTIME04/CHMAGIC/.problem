@@ -1,0 +1,33 @@
+{
+    "problem_code": "CHMAGIC",
+    "problem_author": "furko",
+    "contest_name": "September Lunchtime 2013",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>furko</span>",
+    "problem_name": "Chef and Magic Numbers ",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>balajiganapath</span>",
+    "contest_code": "LTIME04",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ad-hoc'>ad-hoc</a>, <a class='problem-tag-small ' href='/tags/problems/furko'>furko</a>, <a class='problem-tag-small ' href='/tags/problems/ltime04'>ltime04</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\n  Chef is the cleverest man in the whole world. However he is not interested in science, give him the magic. His first magic lesson consists of  converting a number <b>k</b> to <b>F(k)</b> where <b>F(k)</b> - is the <b>k-th</b> magic integer. An integer is magic if <b>S(n)</b> is smaller than or equal to <b>q</b>. <b>S(n)</b> is the sum of squares of the digits in n. For example, <b>S(13) = 1^2 + 3^2 = 10</b>.<p> \n<p>\n   Now Chef want to test his magical abilities. He knows how to solve this task, but who will check it? That is where you come in.\n</p>\n<p>\n  The problem is as follows: there is an array of <b>N</b> numbers. Let <b>A</b> be the given array. Then <b>Bi</b> = <b>F(Ai)</b> for all <b>i</b> <b>(1 <= i <= N)</b>. This is followed by <b>M</b> queries of the form <b>(l, r)</b>. For each such query you need to find the sum of the elements of the array <b>B</b> that are in the interval <b>(l, r)</b> modulo 1000000007.  \n</p>\n\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\nThe first line of the input contains an integer <b>q</b>. The next line contains an integer <b>N</b>. The third line contains <b>N</b> space-separated integers <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b> denoting the given array. Next line contains <b>M</b> denoting the number of queries. The next <b>M</b> lines contains two integers denoting left and right ends of queries.  \n<p>\u00a0</p>\n\n<h3>Output</h3>\n   For each query, output a single line containing   sum of the elements of the array <b>B</b> in the given interval.\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>q</b> \u2264 <b>10^9</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>3*10^5</b></li>\n<li><b>1</b> \u2264 <b>Ai</b> \u2264 <b>3*10^5</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>l</b> \u2264 <b>r</b> \u2264 <b>N</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n201\n5\n1 2 10 5 10000\n5\n1 1\n2 2\n3 3\n5 5\n1 5  \n<b>Output:</b>\n1\n2\n10\n10636\n10654 \n</pre>\n<p>\u00a0</p>\n\n<h3>Scoring</h3>\nSubtask 1 (30 points): <b>200 \u2264 q \u2264 10<sup>9</sup></b>. <br>\nSubtask 2 (70 points):  Look at constraints<br>",
+    "category_name": "main",
+    "date_added": "5-08-2013",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CHMAGIC",
+    "problem_tester": "balajiganapath",
+    "time": {
+        "view_start_date": 1380432600,
+        "end_date": 1380445200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1380445200,
+        "submit_start_date": 1380432600,
+        "current": 1537438160
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Montu is a village destroyer. Now there are N settlements in a village , and every settlement has 8 houses. Every house is represented as a binary number. Two houses (a,b) or (b,a) [order does not matter] are connected if their binary representation differs by a bit.</p>\n<p>Cost of destroying the village is total cost of all edges. Cost of each edge is initially 0 .But as usual a hero Nicks comes along to save his village , what he does is manipulates the cost array. He takes a random X (such that 0&lt;=X&lt;=7 ) for every settlement (of 8 houses). Then he multiplies the paths of houses excluding {X(mod8),X+1(mod8),X+2(mod8),X+3(mod8)} with \u201c-1\u201d for every settlement.</p>\n<p>Montu can destroy the village only if his compression power P , is greater than or equal to the (modified) cost of the village.</p>\n<h3>Input</h3>\n<p>First Line contains test case T. Each Test case contains 3 lines. First line of each test case contains N (no. of settlements) , second line contains N integers separated by a single space x1 , x1 \u2026. xn. Third line contains Power P.</p>\n<h3>Output</h3>\n<p>Output answer to each testcase in a new line. YES if Montu can destroy the village and NO if he cannot.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>N</b> \u2264 <b>40000 (is a power of 2)</b></li>\n<li><b>0</b> \u2264 <b>X</b> \u2264 <b>7</b></li>\n<li><b>-1000</b> \u2264 <b>P</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>1000</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n1\n4\n10\n2\n4 3\n-7\n\n<b>Output:</b>\nYES\nNO\n<p>1) In first test case you have 8 houses, the houses that are connected are <br />(0,1) , (0,2) , (0,4) , (1,3) , (1,5) , (2,3) , (2,6) , (3,7) , (4,5) , (4,6) , (5,7) , (6,7) And X=4 => cost of edge <br />(0,1),(0,2),(0,4),(1,3),(1,5),(2,3),(2,6),(3,7) are multiplied by -1.Thus the cost of village is -4 .<br /> Hence Montu can destroy the village.\n2) In case two the cost comes out to be -6 thus he CANNOT destroy the village.</p>\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-09-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Insomnia 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1379694600,
+        "end_date": 1379716200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1379716200,
+        "submit_start_date": 1379694600,
+        "current": 1537438182
+    },
+    "problem_author_html_handle": "insomnia_adm",
+    "problem_name": "Montu the destroyer",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/insomnia_adm'>insomnia_adm</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "insomnia_adm",
+    "contest_code": "INSM2013",
+    "max_timelimit": "0.3",
+    "problem_code": "MONTU"
+}

@@ -1,0 +1,137 @@
+{
+    "announcements": "<p><b>03/04/2013, 23:15 IST : </b>The tenth problem <a target=\"_blank\" href=\"/APRIL13/problems/FAULT\">FAULT</a> has been added to the contest page.</p>\r\n<p><b>03/04/2013, 15:00 IST: </b>Nine problems have been added to the contest.\u00c2\u00a0We are garnishing the TENTH problem, it will be served soon.</p>",
+    "ip": "149.129.135.113",
+    "code": "APRIL13",
+    "duration": "14400",
+    "name": "April Challenge 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p>\u00a0</p> <p class=\"MsoNoSpacing\"><b>The April Contest has ended!</b></p> <p class=\"MsoNoSpacing\"><b><span>The editorials for </span></b><b>April </b><b> Challenge can be found <a href=\"http://discuss.codechef.com/tags/april13\">here</a>.<span> </span></b></p> <p class=\"MsoNoSpacing\"><b><span> </span></b><b>All problems have been added to the practice section.</b></p> <p class=\"MsoNoSpacing\"><b> </b><b>Solutions are public for all problems.</b></p> <p class=\"MsoNoSpacing\"><b>Winners Blog Post </b><b>can be found <a href=\"http://blog.codechef.com/2013/05/09/progress-report-of-april-contests/\">here</a>.</b></p> <p class=\"MsoNoSpacing\"><b>The ratings have been calculated.</b></p> <p>\u00a0</p> <p class=\"MsoNoSpacing\"><b>Rules:</b></p> <p class=\"MsoNoSpacing\"><b> </b></p> <p class=\"MsoNoSpacing\"><span><br />Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></span></p> <p class=\"MsoNoSpacing\">\u00a0</p> <p class=\"MsoNoSpacing\"><span>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</span></p> <p class=\"MsoNoSpacing\"><span><br /></span></p> <p class=\"MsoNoSpacing\"><span>Contest problems will become visible on April 5th 2013 at 15:00 hours IST. Check your timezone\u00a0<a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+April+Challenge+2013&amp;iso=20130405T15&amp;p1=44\">here</a>.</span><br /><br /></p> <p class=\"MsoNoSpacing\"><span>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.<br /><br /></span></p> <p class=\"MsoNoSpacing\"><span>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.<br /><br /></span></p> <p class=\"MsoNormal\"><span>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</span></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/APRIL13/1424957753.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "KINGCON": {
+            "allow_submission": false,
+            "name": "Kingdom Unity",
+            "category_name": "main",
+            "accuracy": 18,
+            "successful_submissions": "881",
+            "code": "KINGCON",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LEMUSIC": {
+            "allow_submission": false,
+            "name": "Little Elephant and Music",
+            "category_name": "main",
+            "accuracy": 21.91,
+            "successful_submissions": "1368",
+            "code": "LEMUSIC",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "INVBINCF": {
+            "allow_submission": false,
+            "name": "Inverse Binomial Coefficient",
+            "category_name": "main",
+            "accuracy": 0.86,
+            "successful_submissions": "3",
+            "code": "INVBINCF",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHEFGAME": {
+            "allow_submission": false,
+            "name": "ChefGame",
+            "category_name": "main",
+            "accuracy": 8.67,
+            "successful_submissions": "445",
+            "code": "CHEFGAME",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FAULT": {
+            "allow_submission": false,
+            "name": "Fault Tolerance",
+            "category_name": "main",
+            "accuracy": 62.67,
+            "successful_submissions": "679",
+            "code": "FAULT",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "LEVY": {
+            "allow_submission": false,
+            "name": "Levy Conjecture",
+            "category_name": "main",
+            "accuracy": 24.06,
+            "successful_submissions": "2017",
+            "code": "LEVY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CYLINDER": {
+            "allow_submission": false,
+            "name": "Cylinder",
+            "category_name": "main",
+            "accuracy": 7.82,
+            "successful_submissions": "171",
+            "code": "CYLINDER",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MAXDIFF": {
+            "allow_submission": false,
+            "name": "Maximum Weight Difference",
+            "category_name": "main",
+            "accuracy": 25.89,
+            "successful_submissions": "2690",
+            "code": "MAXDIFF",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "STRQUERY": {
+            "allow_submission": false,
+            "name": "String Query",
+            "category_name": "main",
+            "accuracy": 2.5,
+            "successful_submissions": "10",
+            "code": "STRQUERY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FCBARCA": {
+            "allow_submission": false,
+            "name": "Barcelona Gameplay Tactics",
+            "category_name": "main",
+            "accuracy": 29.07,
+            "successful_submissions": "1484",
+            "code": "FCBARCA",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1366018200,
+        "current": 1537438332,
+        "freezing": 0,
+        "start": 1365154200
+    },
+    "user": {
+        "username": ""
+    }
+}

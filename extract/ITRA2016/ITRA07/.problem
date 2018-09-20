@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>In a serious conflict between AbhiRam and Divya ,she happens to break a glass bowl into<b> N </b>pieces each of size<b> Si</b>. AbhiRam to make up for his mistake wants to join the <b>N</b> pieces to make the bowl intact again. In the process of joining the pieces he learns from the shopkeeper that to join two pieces of sizes <b>A</b> and <b>B</b> the cost is<b> |A-B|</b> . Abhi wants to know the minimum cost possible <b>C</b>, help him find that.\u00a0</p>\n<h3>Input</h3>\n<p>The first line of input contains the number of test cases denoted by an integer<b> T</b>.<br /><br />\nEach test case consists of two lines :<br /><br />\nThe first line contains an integer<b> N</b> denoting the number of pieces.<br /><br />\nThe second line contains<b> N </b>space separated integers-<b>S<sub>1</sub>,S<sub>2</sub>......S<sub>N</sub></b> denoting the size of each piece.<b>Si</b> denotes the size of<b> i-th</b> piece.<br /></p>\n<h3>Output:</h3>\n<p> The output contains single integer<b> C</b> which gives the minimum cost possible. <br /></p>\n<h3>Constraints:</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>Si</b> \u2264 <b>100</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n5\n19 15 33 50 68\n\n<b>Output:</b>\n71\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example :</b> The example contains one testcase in which the bowl is broken into 5 pieces of sizes <b>19, 15, 33, 50 and 68</b>. The minimum cost is <b>71</b>.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ITerate",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457242200,
+        "end_date": 1457328600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457328600,
+        "submit_start_date": 1457242200,
+        "current": 1537435251
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>sushmee04</span>",
+    "problem_name": "BROKEN HEART",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sushmee04'>sushmee04</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sushmee04",
+    "contest_code": "ITRA2016",
+    "max_timelimit": "1",
+    "problem_code": "ITRA07"
+}

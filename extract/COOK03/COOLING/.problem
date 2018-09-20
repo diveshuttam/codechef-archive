@@ -1,0 +1,33 @@
+{
+    "problem_code": "COOLING",
+    "problem_author": "pieguy",
+    "contest_name": "The October Cook-Off (ACM ICPC Warm Up IIT-K)",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>pieguy</span>",
+    "problem_name": "Cooling Pies",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "Maksflow",
+    "contest_code": "COOK03",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cook03'>cook03</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/pieguy'>pieguy</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The chef has just finished baking several pies, and it's time to place them on cooling racks.\nThe chef has exactly as many cooling racks as pies.  Each cooling rack can only hold one pie, and each pie may only be held by one cooling rack,\nbut the chef isn't confident that the cooling racks can support the weight of the pies.\nThe chef knows the weight of each pie,\nand has assigned each cooling rack a maximum weight limit.\nWhat is the maximum number of pies the chef can cool on the racks?</p>\n\n<h3>Input:</h3>\n<p>Input begins with an integer T\u226430, the number of test cases.\nEach test case consists of 3 lines.\nThe first line of each test case contains a positive integer N\u226430,\nthe number of pies (and also the number of racks).\nThe second and third lines each contain exactly positive N integers not exceeding 100.\nThe integers on the second line are the weights of the pies, and the integers on the third line\nare the weight limits of the cooling racks.</p>\n\n<h3>Output:</h3>\n<p>For each test case, output on a line the maximum number of pies the chef can place on the racks.</p>\n\n<h3>Sample input:</h3>\n<pre>2\n3\n10 30 20\n30 10 20\n5\n9 7 16 4 8\n8 3 14 10 10\n </pre>\n\n<h3>Sample output:</h3>\n<pre>3\n4\n </pre>\n",
+    "category_name": "main",
+    "date_added": "27-09-2010",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "max_timelimit": "0.61",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/COOLING",
+    "problem_tester": "maksflow",
+    "time": {
+        "view_start_date": 1287158400,
+        "end_date": 1287167400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1287167400,
+        "submit_start_date": 1287158400,
+        "current": 1537439475
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Tom has decided to catch Jerry for sure. To ensure this, he has brought along his friends from the alley into the house. Jerry, being aware of Tom&#8217;s plan, has ensured that Spike, the friendly bulldog, is patrolling the outside of the house. </p>\n<p>\nYou have been provided a map of the house which specifies Jerry&#8217;s location by the single letter R as well as the location of the other cats (including Tom) marked by the letter C. Walls and other obstacles present in the house have been marked with a #. Empty areas have been marked with a *. </p>\n<p>\nJerry will escape the clutches of the cats if he manages to reach any of the edge squares of the house that have been marked with a  *  . Jerry will be captured if he is unable to do so without being caught by a cat.<br/>\nThe following restrictions apply to their movements:\n</p>\n\n<p>\n<ul><li>Only 1 animal (Jerry or any of the cats) can move at a time.</li>\n<li>Turns are given to each animal to move.</li>\n<li>No animal can move again till all of the other animals have been given a chance to move.</li>\n<li>Jerry is always given the first chance to move in a turn.</li>\n<li>During a move, the animal may choose to stay still or move along any of the cardinal directions (North, South, East, West) provided that square is not blocked by an obstacle.</li>\n<li>Jerry and the cats are not allowed to perform diagonal movements.</li>\n<li>You can choose any suitable order for the movement of cats.</li>\n<li>Assume that both Jerry and the Cats move optimally. (i.e. Jerry will always try to take that path which gives him the maximum chance of escaping the cats and the cats will always choose that path that enables them to capture Jerry) </li></ul>\n</p><br/>\n<p>\nYou need to determine, given a map of the house, whether Jerry is able to escape the trap set by the cats. Display &#8220;Yes&#8221; if this is the case, otherwise, display &#8220;No&#8221;.</p>\n<p>Note : There may be some maps on which there is no cat. </p>\n\n\n<b>Input Format:</b>\n<p>Line 1: N M &#8211; The dimensions of the map. (1 <= N,M <= 50) <br/>\nLines 2 to N: M space separated characters taken from the set {*, #, R, C} with only 1R present in the entire matrix.\n</p>\n\n<b>Output Format:</b>\n<br/>\n<p>\nLine 1: Yes/No\n</p>\n\n<b>Sample Input:</b>\n<pre style=\"font-family:monospace\">\n25 25\n* * * * * * * * * * * * * * * * * * * * * * * * *\n* * * * * * * * * * * * * * * * * * * * * * * * *\n* * * * * * * * * * * * * * * * * * * * * * * * *\n* * * * * * * * * * * * * * * * * * * * * * * * *\n* * * * * * * * * * * * * * * * * * * * * * * * *\n* * * * * * * * * * * * * * * * * * * * * * * * *\n* * * * * * * * * * * * * * * * * * * * * * * * *\n* * * * * * * * * * * * * * * * * * * * * * * * *\n* * * * * * * * * * * C * * * * * * * * * * * * *\n* * * * # # # # # # # # # # # # # # # # # * * * *\n* * * * * * * * * * * R * * * * * * * * * * * * *\n* * # # # # # # # # # # # # # # # # # # # # * * *\n* * * * * * * * * * * C * * * * * * * * * * * * *\n* * * * * * * * * * * * * * * * * * * * * * * * *\n* * * * * * * * * * * * * * * * * * * * * * * * *\n* * * * * * * * * * * * * * * * * * * * * * * * *\n* * * * * * * * * * * * * * * * * * * * * * * * *\n* * * * * * * * * * * * * * * * * * * * * * * * *\n* * * * * * * * * * * * * * * * * * * * * * * * *\n* * * * * * * * * * * * * * * * * * * * * * * * *\n* * * * * * * * * * * * * * * * * * * * * * * * *\n* * * * * * * * * * * * * * * * * * * * * * * * *\n* * * * * * * * * * * * * * * * * * * * * * * * *\n* * * * * * * * * * * * * * * * * * * * * * * * *\n* * * * * * * * * * * * * * * * * * * * * * * * * \n</pre>\n<br/>\n<br/>\n<b>Sample Output</b><br/>\nYes",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-03-2009",
+    "is_direct_submittable": false,
+    "contest_name": "IIT Roorkee Insomnia - Thought Round",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1237671900,
+        "end_date": 1237692600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180136,
+        "submit_start_date": 1237671900,
+        "current": 1537439965
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Tom And Jerry",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "INSOM2",
+    "max_timelimit": "1.11333",
+    "problem_code": "INSOMB7"
+}

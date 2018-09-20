@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Geek Sundaram is extremely anxious. He is in a hectic schedule. He has to study for his assessment the next day, watch FRIENDS tv show (in spite of watching every episode more than 5 times.. :P ), prepare questions for the programming contest and also complete his projects. So his friends try to calm him down by advising whether he can complete all his tasks in the given time period. </p>\n<p>\u00a0Given the time taken (in seconds) to study <b>S</b>, to watch TV <b>W</b>, to prepare questions <b>Q</b> and do project <b> P </b> and the total time available until the deadline <b>T</b>, print <b>\"YES\"</b> if Geek can complete all the tasks within the deadline, otherwise print <b>\"NO\"</b>. (quotes for clarity)\n</p>\n<p>P.S. Geek doesn't have the power to multi task</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>t</b> denoting the number of test cases. The description of <b>t</b> test cases follows.\"</li>\n<li>The first and the only line of each test case contains five integers <b>S, W, Q, P, T</b> as described in the problem.\n</li></ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<li>For each test case, output a single line \"YES\" or \"NO\".</li>\n\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b> t </b> \u2264 <b>10 <sup>6</sup></b></li>\n<li><b>1</b> \u2264 <b> S, W, Q, P, T </b> \u2264 <b>10 <sup>18</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n10 20 30 40 500\n1 2 3 4 5\n\n<b>Output:</b>\nYES\nNO\n\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "aBaCUS16",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457623800,
+        "end_date": 1457633700,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457633700,
+        "submit_start_date": 1457623800,
+        "current": 1537435201
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>uvsankar</span>",
+    "problem_name": "The anxious Geek Sundaram",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/uvsankar'>uvsankar</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "uvsankar",
+    "contest_code": "ABCS2016",
+    "max_timelimit": "1",
+    "problem_code": "ABACUS05"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p><em>Lakshmanaram</em> spends his day off of work by going to the local arcade. He sees there's a new whack-a-mole game there, and decides to give it a shot. Whack-a-mole is a game where small toy moles appear at random from holes in the game board which then have to be whacked.</p>\n<p>With <strong>n</strong> coins in his pocket, <em>character</em> has the opportunity to whack <strong>n</strong> moles. There are 3 things displayed on the top of the game board; his hits, his score and his streak, all of which are initially 0. For every mole whacked, the hits and score increase by 1. For every consecutive hit, the streak increases by 1. When he misses, the streak goes back down to 0. The scoring is such that the maximum streak obtainable is <strong>s</strong>, after which the streak goes back to 0 with the score being doubled.</p>\n<p>Example game ; let <strong>n</strong> = 5 and <strong>s</strong> = 2. His game goes as follows : hit, hit, miss, hit, hit.</p>\n<p>After mole 1, his score and streak are <strong>1, 1</strong>. <br />After mole 2, his score and streak initially are <strong>2, 2</strong> which become <strong>4,0</strong>.<br />After mole 3, <strong>4,0</strong>.<br />After mole 4, <strong>5,1</strong>.<br />After mole 5, <strong>6,2</strong> ==> <strong>12,0</strong>.</p>\n<p>After his game, he finds out that the score display was broken. It didn't display anything! Even though the number of hits (<strong>h</strong>) are recorded, <em>character</em> doesn't recall the exact sequence of his hits and misses. The arcade authorities decide to give him money equal to the minimum possible score he could have obtained (those cheats!). Help them calculate this value.</p>\n<p>Given <strong>n</strong>, <strong>s</strong> and <strong>h</strong> in a single line as input, print one integer which is the minimum score he could obtain, modulo 10^9+7.</p>\n<p>Constraints</p>\n<ul>\n<li><b>2</b> \u2264 <b>n,s,h</b> \u2264 <b>1000000000</b></li>\n</ul>\n<p>Example input :</p>\n<p>7 2 4</p>\n<p>Output :</p>\n<p>4</p>\n<p>Solution :</p>\n<p>Hit, Miss, Hit, Miss, Hit, Miss, Hit</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-03-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Bytecode 2017",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1488642312,
+        "end_date": 1488659400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1799738967,
+        "submit_start_date": 1488642312,
+        "current": 1537434061
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>rvns03</span>",
+    "problem_name": "Whack a mole",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rvns03'>rvns03</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rvns03",
+    "contest_code": "BYCO2017",
+    "max_timelimit": "1",
+    "problem_code": "BYCO17J"
+}

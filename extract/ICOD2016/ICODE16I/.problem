@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Gauri is very much interested in Mathematics. She gives you two numbers  L and R and asks  to<br />\ngenerate all the pairs (l,r) such that l&lt;=L and r&lt;=R and there is no integer  n>1 such that n<sup>2</sup> divides<br />\nboth l and r.</p>\n<p>Suppose, count of all generated pairs is M . Now, she again asks you to sum all the numbers Ai where Ai(>0) is<br />\nleast number which can be exactly divided by both (l,r) in i<sup>th</sup> pair . </p>\n<p>Note: Print the sum by taking modulo 2<sup>30</sup>.</p>\n<h3>Input format</h3>\n<p>The first line contains the number of test cases T,  each of the next T lines contains two space-separated integers L and R.</p>\n<h3>Output Format</h3>\n<p>For each test case, print the required answer in separate line.  </p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1&lt;=T&lt;=200</b></li>\n<li><b>1&lt;=L,R&lt;=4000000</b></li>\n</ul>\n<h3>Subtasks:</h3>\n<p><b>Subtask 1 :  30 points </b></p>\n<ul>\n<li>1&lt;=T&lt;=20</li>\n<li>1&lt;=L,R&lt;=4000</li>\n</ul>\n\n<p><b>Subtask 2 :   70 points </b></p>\n<p>Original Constraints</p>\n<pre>\n<b>Sample Input</b>\n3\n2 6\n3 7\n1 6\n\n<b>Output Format</b>\n51\n138\n21\n\n \n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "I-CODE 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455625800,
+        "end_date": 1455885000,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1455885000,
+        "submit_start_date": 1455625800,
+        "current": 1537435410
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>manu4056</span>",
+    "problem_name": "Least Sum",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/manu4056'>manu4056</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "manu4056",
+    "contest_code": "ICOD2016",
+    "max_timelimit": "1 - 2",
+    "problem_code": "ICODE16I"
+}

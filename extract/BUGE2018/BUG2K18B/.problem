@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Mr. Robot lives in New York and he wants to attend the lectures in SIES. However, the problem is that he lives too far and thus has a hard time to make it to the lectures in time. He explained his problem to the teachers and they have allowed a certain delay for him (However, some of them did the opposite!).  \nYou are given the current time and time required by Mr. Robot to reach SIES. You are also given the expected time of arrival and the time delay allowed by the professors. Help Mr. Robot decide if he can reach in SIES on or before time or not. \n\n###Input:\n\n- The first line will contain $T$, number of testcases. Each testcase then contains four lines.\n- The first line of test case contains a string which contains the current time in the format *HH:MM*.\n- The second line contains time $t$ taken to reach the destination in minutes.\n- The third line also contains a string which contains the expected time in the format *HH:MM*.\n - The fourth line contains a positive (or negative) time delay $d$ given by the professors. \n\n###Output:\nFor each test case, output a single line $Yes$ if Mr. Robot can reach on or before time or $No$ if Mr. Robot will be late.\n\n###Constraints \n- $1 \\leq T \\leq 10000$\n- $00 \\leq HH \\leq 23$\n- $00 \\leq MM \\leq 59$\n- $0 \\leq t \\leq 200$\n- $-100 \\leq d \\leq 100$\n\n###Sample Input:\n\t2\n07:50  \n80  \n09:00  \n10  \n07:50  \n70  \n09:00  \n-5  \n\n###Sample Output:\n\tYes\nNo\n\t\n###EXPLANATION:\nTest Case 1 :    \nGiven the current time, Mr. Robot will reach SIES by 09:10. Since the teachers have allowed an extra 10 minutes after 09:00 he can attend the lecture.  \n\nTest Case 2 :    \nIn this case, even though Mr. Robot reaches SIES by 09:00 he was expected there 5 minutes earlier. \n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "BUG4EVER 2018 Online Round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1535117400,
+        "end_date": 1535549400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1535549400,
+        "submit_start_date": 1535117400,
+        "current": 1537432036
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nerdyninja</span>",
+    "problem_name": "Mr Robot Beats Time",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nerdyninja'>nerdyninja</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nerdyninja",
+    "contest_code": "BUGE2018",
+    "max_timelimit": "1",
+    "problem_code": "BUG2K18B"
+}

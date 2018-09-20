@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>According to a new AFGJI standard, a flag of every SCHOOL should have a chequered field <strong>n\u2009\u00d7\u2009m</strong>, each square should be of one of 10 colours, and the flag should be \u00abstriped\u00bb: each horizontal row of the flag should contain squares of the same colour, and the colours of adjacent horizontal rows should be different. ABC SCHOOL asked you to find out whether their flag meets the new AFGJI standard.\n\n<br><br>\n\n<em><strong>Input</strong></em>\n\n<br><br>\n\nThe first line of the input contains numbers <strong>n</strong> and <strong>m</strong> <strong>(1\u2009\u2264\u2009n,\u2009m\u2009\u2264\u2009100)</strong>, <strong>n</strong> \u2014 the amount of rows, <strong>m</strong> \u2014 the amount of columns on the flag of ABC SCHOOL. Then there follows the description of the flag: each of the following <strong>n</strong> lines contain m characters. Each character is a digit between <strong>0</strong> and <strong>9</strong>, and stands for the colour of the corresponding square.\n\n<br><br>\n\n<em><strong>Output</strong></em>\n\n<br><br>\n\nOutput <strong>YES</strong>, if the flag meets the new AFGJI standard, and <strong>NO</strong> otherwise.\n\n\n<br>\n<br>\n\n\n\n\n<strong>Examples</strong>\n<br>\n<hr>\n\n\n\n<strong>Input</strong>\n\n<br>\n\n3 3\n<br>\n000\n<br>\n111\n<br>\n222\n\n<br>\n\n\n<br>\n\n\n<strong>Output</strong>\n\n<br>\n\nYES\n\n\n<br>\n\n\n<hr>\n\n<strong>Input</strong>\n\n<br>\n\n3 3\n<br>\n000\n<br>\n000\n<br>\n111\n\n\n<br>\n<br>\n\n<strong>Output</strong>\n\n<br>\n\nNO\n\n<br>\n\n\n\n\n<hr>\n\n<strong>Input</strong>\n<br>\n3 3\n<br>\n000\n<br>\n111\n<br>\n002\n<br>\n<br>\n<strong>Output</strong>\n\n<br>\n\nNO\n\n<br>\n\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "CODEX_X",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1525012200,
+        "end_date": 1525023000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1525023000,
+        "submit_start_date": 1525012200,
+        "current": 1537432496
+    },
+    "problem_author_html_handle": "futurzclub",
+    "problem_name": "Standard Flag",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/futurzclub'>futurzclub</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "futurzclub",
+    "contest_code": "COX2018",
+    "max_timelimit": "1",
+    "problem_code": "COX04"
+}

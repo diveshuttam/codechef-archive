@@ -1,0 +1,33 @@
+{
+    "problem_code": "CDOUT5",
+    "problem_author": "maz92",
+    "contest_name": "CodeOut 2015",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>maz92</span>",
+    "problem_name": "Pratik and Hopscotch",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CDOT2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/maz92'>maz92</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>Pratik loves playing Hopscotch with his friends and he is very good at it. It's a game where you have to jump over tiles drawn with chalk on the ground. In this version of hopscotch, The first <b>N</b>  natural numbers are drawn on the ground. Pratik's friends will randomly place him on a tile numbered <b>K</b>. Pratik has to jump from the present tile to the next-to-next tile and so on to reach the end, until he can't jump anymore. He also has to keep on adding the numbers of the tile he has landed on. What will be the sum Pratik has calculated after he has completed jumping.</p>\n<h3>Input</h3>\n<p>The First line contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows. Each test case will have two space separated numbers <b>N</b> and <b>K</b>.\n</p>\n<h3>Output</h3>\n<p>For each test case output a single integer which is the sum calculated by Pratik.</p>\n<h3>Constraints</h3>\n<ul>\n<li>1\u2264 <b>T</b> \u226410^5 </li>\n<li>0\u2264 <b>N</b> \u226410^6 </li>\n<li>0\u2264 <b>K</b> \u2264 <b>N</b> </li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n<p>3\n7 5\n7 3\n8 3\n</p>\n\n<b>Output:</b>\n<p>12\n15\n15\n</p></pre>",
+    "category_name": "main",
+    "date_added": "21-03-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.7",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CDOUT5",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1428075000,
+        "end_date": 1428085800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1428085800,
+        "submit_start_date": 1428075000,
+        "current": 1537436433
+    },
+    "user": {
+        "username": ""
+    }
+}

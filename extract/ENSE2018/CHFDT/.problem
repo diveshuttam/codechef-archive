@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><hr/>\n\n<p>One day Chef and his friend Alice decide to build a device which will transfer the data between them. The data is transferred in binary form i.e. <b>1</b> & <b>0</b>. <br/>\nWhen the device was built they tried to test it. While testing the device they found out that due to noise in the data transferring channel they didn\u2019t receive the \ndata in exactly the same form, some of the digits of the data were misplaced or missing. So Chef and Alice decided that chef will fine tune the device and send the \nsame data to Alice for <b>N</b> number of times and the data with lowest error will be accepted.<br/>\n\nYour task is to help Alice find the <b>i<sup>th</sup></b> sent data for which the minimum error is received.<br/>\n\nGiven that %error = (total no of wrong digits <b>/</b> total number of digits) \u00d7 100</p>\n\n<hr/>\n\n<h3>Input</h3>\n<ul>\n<li>The first line of input contains two integer <b>N</b> denoting the numbers of times the data was sent and <b>L</b> denoting the length of the data sent. </li>\n<li>The second line contains the correct data which is to be transferred.</li>\n<li>Each of the following <b> N </b> lines contain the data sent by the device in the <b>i<sup>th</sup></b> attempt.</li>\n</ul>\n\n<hr/>\n\n<h3>Output</h3>\nOutput a single line containing the string which has the lowest error.<br/>\n<b>Note:</b>If there are more than one possible output with the same minimum error then output the first string which has the minimum error.\n\n<hr/>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10</b><sup>3</sup></li>\n<li><b>1</b> \u2264 <b>L</b> \u2264 <b>10<sup>3</sup></b></li>\n</ul>\n\n<hr/>\n\n<h3>Example Input:</h3>\n<pre>\n2 5\n11111\n10101\n11110\n</pre>\n\n<hr/>\n\n<h3>Example Output:</h3>\n<pre>\n11110\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-09-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Encoding September'18",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, PYP3, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1536588000,
+        "end_date": 1536598800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1536598800,
+        "submit_start_date": 1536588000,
+        "current": 1537432002
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rahul_ojha_07</span>",
+    "problem_name": "Chef and Data Transfer",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rahul_ojha_07'>rahul_ojha_07</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rahul_ojha_07",
+    "contest_code": "ENSE2018",
+    "max_timelimit": "1",
+    "problem_code": "CHFDT"
+}

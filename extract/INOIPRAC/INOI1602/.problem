@@ -1,0 +1,31 @@
+{
+    "status": "success",
+    "problem_tester": null,
+    "body": "<p>\n\t<h2>Indian National Olympiad in Informatics 2016</h2>\n\tThere are <em>k</em> types of brackets each with its own opening bracket and closing bracket. We assume that the first pair is denoted by the numbers 1 and <em>k</em>+1, the second by 2 and <em>k</em>+2 and so on. Thus the opening brackets are denoted by 1,2,.., <em>k</em>, and the corresponding closing brackets are denoted by <em>k</em>+1,<em>k</em>+2,..., 2*<em>k</em> respectively.<br><br>\n\tSome sequences with elements from 1,2, ... 2*<em>k</em> form well-bracketed sequences while others don't. A sequence is well-bracketed, if we can match or pair up opening brackets and closing brackets of the same type in such a way that the following holds:<br><br>\n\t 1) every bracket is paired up<br>\n\t 2) in each matched pair, the opening bracket occurs before the closing bracket<br>\n\t 3) for a matched pair, any other matched pair lies either completely between them or outside them.<br><br>\n\tFor the examples discussed below, let us assume that <em>k</em> = 2. The sequence 1,1,3 is not well-bracketed as one of the two 1's cannot be paired. The sequence 3,1,3,1 is not well-bracketed as there is no way to match the second 1 to a closing bracket occurring after it. The sequence 1,2,3,4 is not well-bracketed as the matched pair 2,4 is neither completely between the matched pair 1,3 nor completely outside it. That is, the matched pairs cannot overlap. The sequence 1,2,4,3,1,3 is well-bracketed. We match the first 1 with the first 3, the 2 with the 4 and the second 1 with the second 3, satisfying all the 3 conditions. If you rewrite these sequences using [,{,],} instead of 1,2,3,4 respectively, this will be quite clear.<br><br>\n\tIn this problem you are given a sequence of brackets, of length <em>N</em>: <em>B</em>[1], .., <em>B</em>[<em>N</em>], where each <em>B</em>[<em>i</em>] is one of the brackets. You are also given an array of Values: <em>V</em>[1],.., <em>V</em>[<em>N</em>].<br><br>\n\tAmong all the subsequences in the Values array, such that the corresponding bracket subsequence in the <em>B</em> Array is a well-bracketed sequence, you need to find the maximum sum. Suppose <em>N</em> = 6, <em>k</em> = 3 and the values of <em>V</em> and <em>B</em> are as follows:<br><br>\n<pre>\ni\t1\t2\t3\t4\t5\t6\nV[i]\t4\t5\t-2\t1\t1\t6\nB[i]\t1\t3\t4\t2\t5\t6\n</pre><br>\n\tThen, the brackets in positions 1,3 form a well-bracketed sequence (1,4) and the sum of the values in these positions is 2 (4 + -2 = 2). The brackets in positions 1,3,4,5 form a well-bracketed sequence (1,4,2,5) and the sum of the values in these positions is 4. Finally, the brackets in positions 2,4,5,6 forms a well-bracketed sequence (3,2,5,6) and the sum of the values in these positions is 13. The sum of the values in positions 1,2,5,6 is 16 but the brackets in these positions (1,3,5,6) do not form a well-bracketed sequence. You can check the best sum from positions whose brackets form a well-bracketed sequence is 13.\n</p>\n\n<p>\n\t<h3>Input format</h3>\n\tOne line, which contains (2*<em>N</em> + 2) space separate integers. The first integer denotes <em>N</em>. The next integer is <em>k</em>. The next <em>N</em> integers are <em>V</em>[1],..., <em>V</em>[<em>N</em>]. The last <em>N</em> integers are <em>B</em>[1],.., <em>B</em>[<em>N</em>].\n</p>\n\n<p>\n\t<h3>Output format</h3>\n\tOne integer, which is the maximum sum possible satisfying the requirement mentioned above. \n</p>\n\n<p>\n\t<h3>Test data</h3>\n\t<p>\n\t\t1 \u2264 <em>k</em> \u2264 7<br>\n\t\t-10<sup>6</sup> \u2264 <em>V</em>[<em>i</em>] \u2264 10<sup>6</sup>, for all <em>i</em><br>\n\t\t1 \u2264 <em>B</em>[<em>i</em>] \u2264 2*<em>k</em>, for all <em>i</em>.\n\t</p>\n\t<p>\n\t\t<b>Subtask 1 (40 Marks)</b> 1 \u2264 <em>n</em> \u2264 10.<br>\n\t\t<b>Subtask 2 (60 Marks)</b> 1 \u2264 <em>n</em> \u2264 700.<br>\n\t</p>\n</p>\n\n<p>\n\t<h3>Sample Input</h3>\n\t<pre>6 3 4 5 -2 1 1 6 1 3 4 2 5 6</pre>\n</p>\n\n<p>\n\t<h3>Sample Output</h3>\n\t<pre>13</pre>\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-04-2016",
+    "is_direct_submittable": false,
+    "contest_name": "INOI Practice Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1451932200,
+        "end_date": 1578162600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1578162600,
+        "submit_start_date": 1451932200,
+        "current": 1537431937
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>anukul</span>",
+    "problem_name": "Brackets",
+    "source_sizelimit": "50000",
+    "problem_status": "unattempted",
+    "problem_tester_html_handle": null,
+    "problem_author": "anukul",
+    "contest_code": "INOIPRAC",
+    "max_timelimit": "1",
+    "problem_code": "INOI1602"
+}

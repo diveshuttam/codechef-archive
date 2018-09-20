@@ -1,0 +1,33 @@
+{
+    "problem_code": "IITK1P02",
+    "problem_author": "admin2",
+    "contest_name": "IIT Kanpur, Monthly Programming Contest-1",
+    "todo": false,
+    "problem_author_html_handle": "admin2",
+    "problem_name": "Awesomeness of Strings",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "WPC1401",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin2'>admin2</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/iitk'>iitk</a>, <a class='problem-tag-small ' href='/tags/problems/wpc1'>wpc1</a>, <a class='problem-tag-small ' href='/tags/problems/wpc1401'>wpc1401</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>\nAwesomeness of a string is defined by a pair of a character C and an integer F,  satisfying the following conditions :</p>\n<ul>\n<li> C must belong to the  given string S and there must be a substring subS of S having length equal to F such that all the characters in subS are equal to c.\n\t</li>\n<li> F should be as large as possible.\n\t</li>\n</ul>\n\n<p>\n\tYour aim is to maximize the value of F. If there are more than one c whose maximum F value is same than you need to chose the character c<br />\n\twith minimum ascii value.\n</p>\n<p>\n\tFor example let\u2019s take S = abbbaaabad. subS is written in bold.</p>\n<ol>\n<li>\nTake c = \u2018a\u2019 :<br />\nMaximum possible F value is 3 (abbb<b>aaa</b>bad).\n</li>\n<li>\nTake c = \u2018b\u2019:<br />\nMaximum possible F value is 3 (a<b>bbb</b>aaabad).\n</li>\n<li>\nTake c = \u2018d\u2019:<br />\nMaximum possible F value is 1 (abbbaaaba<b>d</b>).\n</li>\n</ol>\n\n<p>\nSo that awesomeness of  abbbaaabad is defined by c = \u2018a\u2019 and F = 3. First priority is to maximize the value of F (we prefered 3 over 1).<br />\nIf there are more than one c whose maximum F value is same then we prefer the c with minimum ascii value (we prefered \u2018a\u2019 over \u2018b\u2019).\n</p>\n<p>\nYou will be given a string and you need to find its awesomeness.\n</p>\n<h3>Input</h3>\n<p>\nOnly line of the input will contain a string S.\n</p>\n<h3>Output</h3>\n<p>\nOutput two lines. First line should contain value of c, whereas second line should contain value of F.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 length of string S \u2264  10^5</li>\n<li> S contains only lowercase alphabets of English Language (i.e. from 'a' to 'z').\n</li></ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\nabbbaaabad\n\n<b>Output:</b>\na\n3\n</pre><h3>Explanation</h3>\n<p><b>Example case 1.</b> Example taken from problem statement</p>\n",
+    "category_name": "main",
+    "date_added": "30-09-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/IITK1P02",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1412083800,
+        "end_date": 1412101800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1412101800,
+        "submit_start_date": 1412083800,
+        "current": 1537437399
+    },
+    "user": {
+        "username": ""
+    }
+}

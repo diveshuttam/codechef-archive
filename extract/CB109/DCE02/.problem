@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>The ship Titanic is very huge. It is often required by the staff to take things from 1 place to other.<br />\n\nGiven the cost of possible paths through different levels, return the minimum cost of the path taken from the top level to the bottom level. ( It is not necessary that all the sectors are connected. There may be more than one direct path from one sector to another. There will always be a path from topmost level to lowest level. )<br />\n\n\n<h3>Input</h3>\n</p><p>The first line contains two space separated integers n, k. Where n is the number of sectors on the topmost level, and k is the number of levels in the ship.<br />\nFrom the next line onwards, three space separated integers are given. First integer is the starting sector from 1st level, 2nd integer is the destination in the 2nd level, and 3rd integer is the cost of path. (The sources and destinitions are 1-based)<br />\nThe integer -1 signifies the end of paths for the given pair of levels.<br />\nThe next lines contain the paths for next pair of levels till a -1is encountered, and so on.<br />\n(So the total number of -1 encountered are k-1)<br />\n\n\n<h3>Output</h3>\n</p><p>A single line containing the minimum cost to travel from topmost level to lowest level.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n5 2\n1 1 1\n2 2 2\n1 3 3\n3 1 6\n5 4 9\n-1\n\n\n<b>Output:</b>\n1\n\n\n<b>Explanation:</b>\nThere are just two levels. The shortest path is from sector 1 on level 1 to sector 1 on level 2.\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-10-2009",
+    "is_direct_submittable": false,
+    "contest_name": "Code Baker",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1256646600,
+        "end_date": 1256733000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180157,
+        "submit_start_date": 1256646600,
+        "current": 1537439875
+    },
+    "problem_author_html_handle": "uploader0",
+    "problem_name": "Courier",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/uploader0'>uploader0</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "uploader0",
+    "contest_code": "CB109",
+    "max_timelimit": "3",
+    "problem_code": "DCE02"
+}

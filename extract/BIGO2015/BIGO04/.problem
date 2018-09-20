@@ -1,0 +1,33 @@
+{
+    "problem_code": "BIGO04",
+    "problem_author": "nikuamit",
+    "contest_name": "BIG (O)",
+    "todo": false,
+    "problem_author_html_handle": "nikuamit",
+    "problem_name": "VALENTINES DAY DATE PLAN",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "BIGO2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nikuamit'>nikuamit</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Chef Abhi is taking his friend Kuni on a long drive on valentine's day. Being an admirer of nature,<br />\nKuni wants to see as many different things as possible. So, she asked Abhi to drive through all the roads to near by cities so that she could see different things on each road. Abhi is on a tight budget. He doesn't want to waste money on petrol. So he would like to drive on each road only once. And of<br />\ncourse, after the drive, they have to return to their home city.</p>\n<p>So he has asked for your help. Let us denote all the cities by integers starting from 1 to n,<br />\nwhere n is the number of cities nearby. 1 is the city he starts his journey at.He has given you pairs of<br />\ncities connected by bi-directional roads. Since he wants to minimize petrol usage, he will not use a<br />\nsingle road twice. Tell him, whether it is possible to travel through all the given roads, each road<br />\nbeing used once, and come back to his home city.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line of input is a single integer <b>T</b>, denoting the number of test cases. First line of each test cases contains two integers, <b>n</b> and <b>m</b> respectively. <b>n</b> is the number of cities and <b>m</b> is the number of bi-directional roads available connecting those cities. Next <b>m</b> lines each, contain two space separated integers, <b>a</b> and <b>b</b>, denoting the cities that are connected.</p>\n<h3>Output</h3>\n<p>For each test cases, output a single line containing <b>\u201cYES\u201d</b> if it is possible to travel to different cities and coming back to home city using each and every roads and without using any<br />\nroad twice, <b>\u201cNO\u201d</b> otherwise. (Quotes are for clarity and not to be printed).</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1 &lt;= T &lt;= 100\n\n<li><b>1 &lt; n &lt;= 200\n\n<li><b>1 &lt;= a,b &lt;= n\n\n</b></li></b></li></b></li></ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<p></p>\n2\n4 4\n1 2\n2 3\n3 4\n4 1\n4 6\n1 2\n2 3\n3 4\n4 1\n1 2\n2 3\n<p></p>\n<b>Output:</b>\n<p></p>\nYES\nNO\n</pre><p>\u00a0</p>\n<p><b>Explanation :</b></p>\n<p>\nIn case 1, we can go on the roads in this way ;<br />\n1 -> 2 -> 3 -> 4 -> 1<br />\nIn second case, we cannot visit all roads and come back to home town.\n</p>\n",
+    "category_name": "main",
+    "date_added": "30-03-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/BIGO04",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1427891400,
+        "end_date": 1427902200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1427902200,
+        "submit_start_date": 1427891400,
+        "current": 1537436461
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "LEMPLOY",
+    "problem_author": "gvaibhav21",
+    "contest_name": "ICPC Preparatory Series by Team Forthewatch Mirror contest",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #D0011B;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>7&#9733;</span><span>gvaibhav21</span>",
+    "problem_name": "Luther and Employees",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "IPC15CMR",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/graph'>graph</a>, <a class='problem-tag-small ' href='/tags/problems/gvaibhav21'>gvaibhav21</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>, <a class='problem-tag-small ' href='/tags/problems/maxflow'>maxflow</a>, <a class='problem-tag-small ' href='/tags/problems/mincut-maxflow'>mincut-maxflow</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\n\nLuther is a manager working in the firm Mathemagicians Incorporated. He is faced with a task of assigning roles to new employees of the firm:<br><br>\n\nThere are <b>N</b> new employees, numbered <b>1</b> to <b>N</b>, and <b>M</b> types of employment roles, numbered <b>1</b> to <b>M</b>. Each person must be offered exactly one type of role in the firm.<br><br>\n\nDifferent people are suited to different roles: <b>P[i][j]</b> gives the productivity value of the <b>i</b>th person if he works in the <b>j</b>th role in the firm.<br><br>\n\nHowever, due to people being employed in different roles, disharmony arises in the firm.<br><br>\n\nFor any two employees <b>i</b> and <b>j</b>, with roles numbered <b>x</b> and <b>y</b> respectively, such that <b>y</b> > <b>x</b> , productivity of the firm decreases by the value <b>D[i][j]</b>*(<b>y</b> - <b>x</b>).<br><br>\n\nHelp Luther assign roles to employees so that productivity of the firm is maximized.<br><br>\n\nFormally, for all <b>i</b>, if Luther assigns role <b>R[i]</b> to employee <b>i</b>, productivity of the firm is given by:\n\n<img src=\"http://i.imgur.com/PZhq8Ij.png\"><br>\n\n\n<b>Note</b>: Multiple persons can be assigned to the same type of role.\n\n</p>\n\n\n<h3>Input</h3>\n<p>\n<br>\nThe first line contains an integer <b>T</b> , the number of test cases.<br>\n<b>T</b> test cases follow:<br>\nThe first line of each test case contains 2 space seperated integers: <b>N</b> and <b>M</b>.<br>\nThe next <b>N</b> lines contain <b>M</b> space seperated integers each: <b>j</b>th integer on <b>i</b>th line denotes <b>P[i][j]</b>.<br>\nThe next <b>N</b> lines contain <b>N</b> space seperated integers each: <b>j</b>th integer on <b>i</b>th line denotes <b>D[i][j]</b>, <b>D[i][i]</b> = <b>0</b> for all <b>i</b>.\n\n</p>\n\n\n<h3>Output</h3>\n<p>\nOutput the answer for each test case on a separate line.<br>\n</b>\n</p>\n\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>5</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>30</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>30</b></li>\n<li><b>0</b> \u2264 <b>P[i][j]</b> \u2264 <b>10<sup>9</sup></b></li>\n<li><b>0</b> \u2264 <b>D[i][j]</b> \u2264 <b>10<sup>9</sup></b> , <b>D[i][i]</b> = <b>0</b></li>\n\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n5 5\n8 7 4 3 2 \n19 17 1 10 1 \n8 2 9 11 8 \n6 14 6 18 11 \n9 3 20 15 5 \n0 0 0 0 1 \n2 0 1 1 2 \n0 0 0 2 0 \n1 0 1 0 2 \n1 0 0 0 0 \n\n<b>Output:</b>\n66\n</pre>",
+    "category_name": "main",
+    "date_added": "29-09-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/LEMPLOY",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1475422200,
+        "end_date": 1475440200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1475440200,
+        "submit_start_date": 1475422200,
+        "current": 1537434501
+    },
+    "user": {
+        "username": ""
+    }
+}

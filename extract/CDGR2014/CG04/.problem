@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Papa always do the following magic trick with Abhinav. He puts W white candies and B black candies in his cap and asks Abhinav, to remove pairs of candies in whatever order he would desire. After removing a pair of candies, Abhinav is asked to place a white candy back into the cap if they are the same color. Otherwise he is asked to place a black candy into the cap.<br />\nWhen Abhinav is left with only one candy in the cap, he asks Papa what color the last candy is. Needless to say, Papa can't see the order by which Abhinav does the replacements.<br />\nThe problem is that Papa, like most Papas, is old and sometimes forgets how to do the trick. Being the kind person you are, you are going to help Papa.<br />\nFor each pair of numbers (W,B) you are asked to output one of the following:\n<ul>\n<li>\"WHITE\" - if the last candy in the cap will be white for sure.</li>\n<li>\"BLACK\" - if the last candy in the cap will be black for sure.</li>\n<li>\"ERROR\" - if you can't be sure of the last candy's color.</li>\n</ul>\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of the input file contains the number of cases, N. N test cases follow.<br />\nEach case contains W and B on a line separated by a space.\n</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each input case, you should output after that input:<br />\n<br />Case #X: Y<br />\n<br />where X is the number of the test case and Y is either \"WHITE\", \"BLACK\" or \"ERROR\" as explained above. (quotes for clarity)\n</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000</b></li>\n<li><b>0</b> \u2264 <b>W + B</b></li>\n</ul>\n<h3>Dataset</h3>\n<ul>\n<li><b>1</b> \u2264 <b>W</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>B</b> \u2264 <b>1000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:<br />\n4\t\t\t\n3 1\t\t\t \n3 6\t\t\t\n4 4\t\t\t\n5 5\n</b>\n\n<b>Output:<br />Case #1: BLACK\nCase #2: WHITE\nCase #3: WHITE\nCase #4: BLACK\n</b>\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-04-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeGuru 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, PERL, FORT, PRLG, LISP sbcl, LISP clisp, JS, PERL6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1397968200,
+        "end_date": 1397979000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1397979000,
+        "submit_start_date": 1397968200,
+        "current": 1537437593
+    },
+    "problem_author_html_handle": "tejas02",
+    "problem_name": "CANDY PARTY",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/tejas02'>tejas02</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "tejas02",
+    "contest_code": "CDGR2014",
+    "max_timelimit": "1",
+    "problem_code": "CG04"
+}

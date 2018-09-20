@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Credits: Sir Isaac Newton is standing over a circle of radius 0.5641895835477563.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The next <b>T</b> lines contain a string containing numbers and one or more special charters (?, !, %, $)</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing a single real number.</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3!2?1\n5%2$2\n\n<b>Output:</b>\n5\n6.0\n</pre>\n<p>\u00a0</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Fool You",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1522575000,
+        "end_date": 1522593000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1522593000,
+        "submit_start_date": 1522575000,
+        "current": 1537432732
+    },
+    "problem_author_html_handle": "z3r0__",
+    "problem_name": "A Handy Machine",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/z3r0__'>z3r0__</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "z3r0__",
+    "contest_code": "FOOY2018",
+    "max_timelimit": "2",
+    "problem_code": "HAND01"
+}

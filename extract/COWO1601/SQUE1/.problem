@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Problem description:</p>\n<p> There are students in a class fighting for a girl. As she came to know she decided that the boy will win who will help her find out specific characters present in a given string is present either \"even\" or \"odd\" number of times as asked by her. So help the boys win.</p>\n<h3>Input</h3>\n<p>Input description.</p>\n<p>\n<ul>\n<li>First input line consist of t number of test cases.</li></ul></p>\n<li>Next line consists of N, Q i.e. length of string and number of queries\n</li><li>Next input lines consists of string to be searched for\n</li><li>Next Q lines the queries as character to be searched, either \"even\" or \"odd\"\n\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Output description.</p>\n<ul>\n<li> Each line consists of result \"yes\" or \"no\" for each query</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li>1 &lt;= T &lt;= 100\n</li><li> 1&lt;= N &lt;= 100000\n</li><li> 1&lt;= Q &lt;= 100\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<p></p>\n1<br />\n5 2<br />\naaabb<br />\na even<br />\nb odd<br />\n<b>Output:</b>\n<p></p>\nno<br />\nno<br />\n</pre>\n</li></ul></li>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-04-2016",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWORM ",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1461141900,
+        "end_date": 1461150900,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1461150900,
+        "submit_start_date": 1461141900,
+        "current": 1537434945
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>vipsharmavip</span>",
+    "problem_name": "COUNT",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vipsharmavip'>vipsharmavip</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vipsharmavip",
+    "contest_code": "COWO1601",
+    "max_timelimit": "1",
+    "problem_code": "SQUE1"
+}

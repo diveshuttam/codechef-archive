@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nMultiplying two natural numbers is really a clumsy operation. However, sometimes we can get the answer by moving the last digit to the front<br/><br />\nFor example: 179487 * 4 = 717948<br/><br />\nThis property obviously depends on the number system you are using, the above being decimal number system.In base 9 we can have:<br />\n<br/>17 * 4 = 71 (base 9)<br />\n<br/>as (9 * 1 + 7) * 4 = 7 * 9 + 1<br />\n<br/><b>NOTE</b>: ALL NUMBERS IN THIS PROBLEM ARE NOT DECIMAL NUMBERS\n</br/></br/></br/></br/></br/></p>\n<h3>Input</h3>\n<p>The input given is a text-file which will end with the standard end-of-file marker. Each line of the text-file has 3 numbers (separated by a space) : The base for the number system, the least significant digit of the first factor, and the second factor. This second factor is one digit only hence less than the base.<br />\n<br /></p>\n<h3>Output</h3>\n<p>Your job is to find out for each input line the number of digits of the smallest first factor with the rotamultproperty. The output-file is also a text-file. Each line contains the answer for the corresponding input line.<br />\n<br /><br />\n<b>Sample Input</b> </p>\n<pre>\n10 7 4\n9 7 4\n17 14 12\n</pre>\n<p><b>Sample Output</b> </p>\n<pre>\n6\n2\n4\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Quark Codejam '16 ",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1454747400,
+        "end_date": 1454758200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454758200,
+        "submit_start_date": 1454747400,
+        "current": 1537435547
+    },
+    "problem_author_html_handle": "dhwanitquark",
+    "problem_name": "Unusual Multiplication",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dhwanitquark'>dhwanitquark</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dhwanitquark",
+    "contest_code": "COJA2016",
+    "max_timelimit": "1",
+    "problem_code": "CODEJAM2"
+}

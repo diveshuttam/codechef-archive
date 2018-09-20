@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nAlice and Bob want to go on holiday. Each of them has drawn up a list of cities \n\nto be visited in turn. A list may contain a city more than once. As they want to \n\ntravel together, they have to agree upon a common route. Noone wants to change \n\nthe order of the cities on his list or add other cities. Therefore they have no \n\nchoice but to remove some cities from the list. Of course the common route is to\n\n involve as much sight-seeing in cities as possible. There are exactly 26 cities \n\nin the region. Therefore they are encoded on the lists as lower case letters from 'a' to 'z'.\n\n\n<h3>Input</h3>\n<p>\nThe first line of input contains a number T <= 10 that indicates the number of test\n\ncases to follow. Each test case consists of two lines; the first line is the list of \n\nAlice, the second line is the list of Bob. Each list consists of 1 to 80 lower case letters.\n\n\n<h3>Output</h3>\n<p>\nThe output for each test case should contain all different trips exactly once that meet \n\nthe conditions described above. There is at least one such trip, but never more than \n\n1000 different ones. You should order the trips in lexicographic order. \n\nPrint one blank line between the output of different test cases.\n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\nabcabcaa\nacbacba\n\n<b>Output:</b>\nababa\nabaca\nabcba\nacaba\nacaca\nacbaa\nacbca\n\n\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Technical Blitzschlag",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1264876200,
+        "end_date": 1264962600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180170,
+        "submit_start_date": 1264876200,
+        "current": 1537439763
+    },
+    "problem_author_html_handle": "vishesh_sigma",
+    "problem_name": "Problem 4",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vishesh_sigma'>vishesh_sigma</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vishesh_sigma",
+    "contest_code": "TBS101",
+    "max_timelimit": "50",
+    "problem_code": "CMB04"
+}

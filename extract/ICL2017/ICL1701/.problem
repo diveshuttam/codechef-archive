@@ -1,0 +1,33 @@
+{
+    "problem_code": "ICL1701",
+    "problem_author": "likecs",
+    "contest_name": "International Coding League (Rated)",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>likecs</span>",
+    "problem_name": "Cards Game",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ICL2017",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/icl2017'>icl2017</a>, <a class='problem-tag-small ' href='/tags/problems/likecs'>likecs</a>, <a class='problem-tag-small ' href='/tags/problems/likecs'>likecs</a>, <a class='problem-tag-small ' href='/tags/problems/looping'>looping</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> Let us play a game of cards. As you all know there are 52 cards in a regular deck, but our deck is somewhat different. Our deck consists of <b>N</b> cards. Each card simply <b>contains a unique number from 1 to N</b>. Initially all the cards are kept on the table, facing up. Rob, the notorious kid, flipped some of the cards, i.e. made them face down. Now, your task is to print any valid sequence of magic operations (as defined below) such that after a maximum of <b>K</b> magic operations, <b>all the cards are facing upwards only</b>.</p>\n\n<p>A magic operation on card at position <b>i</b> consists of flipping its direction from up to down and vice versa. Also, if there exists a card on its right side, i.e. at position <b>(i+1)</b>, that is also flipped.</p>\n\n<p>Print the index of the cards that you are going to perform the magic operation on.</p>\n\n<h3>Input</h3>\n<p>Input consists of 2 lines. The first line contains 2 integers <b>N</b> and <b>K</b>, denoting the number of cards in our deck and the maximum possible number of moves allowed.</p>\n\n<p>The second line contains <b>N</b> integers, whose absolute value lies from 1 to N. If a number is less than 0, it is initially facing down, else it is facing upwards.</p>\n\n<p>It is guaranteed that all the absolute values on the cards are unique.</p>\n\n<h3>Output</h3>\n<p>Output on the first line an integer <b>X</b>, denoting the number of operations you intend to make for making all the cards face upwards. This integer should be less than or equal to <b>K</b>.</p>\n\n<p>On the next line of the output, print <b>X</b> space separated integers, denoting the order in which you want to carry on the magic operations on any of the <b>N</b> cards.</p>\n\n<p>\n<b>Note:</b> You have to print the index of the cards that you are going to\nperform the magic operation on.\n</p>\n\n<p>\nIf there exist multiple solutions, output any of them\n</p>\n\n<h3>Constraints</h3>\n<p>1 \u2264 N \u2264 1000<br />\nN \u2264 K \u2264 max(5000, N * N)</p>\n\n<h3>Sample Input 0</h3>\n<pre><code>3 4\n1 2 3\n</code></pre>\n\n<h3>Sample Output 0</h3>\n<pre><code>0\n</code></pre>\n\n<h3>Explanation 0</h3>\n\n<p>All the cards are already facing up.</p>\n\n<h3>Sample Input 1</h3>\n<pre><code>5 12\n4 -2 3 -1 5\n</code></pre>\n\n<h3>Sample Output 1</h3>\n<pre><code>2\n2 3\n</code></pre>\n\n<h3>Explanation 1</h3>\n\n<p>Below sequence shows the cards after every magic operation:</p>\n<pre><code>\nt = 0,    4 -2  3 -1 5\nt = 1,    4  2 -3 -1 5\nt = 2,    4  2  3  1 5\n</code></pre>\n\n<p>Finally all the cards are now facing upwards and the number of steps are also less than k i.e. 12.</p>\n",
+    "category_name": "main",
+    "date_added": "26-03-2017",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/ICL1701",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1490542200,
+        "end_date": 1490553000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1490553000,
+        "submit_start_date": 1490542200,
+        "current": 1537433957
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Dilku as we all know is very serious about competitive programming. In of his recent trainings he came across an interesting problem from a previous year contest. The problem was as follows : </p>\n<p><br /></p>\n<p>\nYou are writing a personnel management tool for a large hospital. One of<br />\nthe problems is managing the vacation plans of employees.</p>\n<p>There are two types of nurses working in the hospital:<br />\n<br /><br />\n<b>staff nurses</b> continuously take care of the patients and<br />\n<b>special nurses</b> fill special positions like<br />\n``surgical nurse'' or ``nurse supervisor''.<br />\nWhen a staff nurse goes on vacation, nothing critical happens, because<br />\nother nurses will do her work. But when special nurse goes on vacation,<br />\nshe must be substituted. For every special nurse there is a list<br />\nof nurses, who can substitute her. If the substituting nurse is a special<br />\nnurse too, then some third nurse must substitute her as well, and so on.<br />\nSometimes it is impossible for special nurse to go on<br />\nvacation, because there is no sequence of substitutions, after<br />\nthat all special nurse positions are filled.</p>\n<p>Consider the following example. There are seven nurses in<br />\na hospital. Alice, Bob, Clara, Dona and Emma are special<br />\nnurses, Fiona and Gloria are staff nurses. They can substitute<br />\neach other according to the following scheme (arrow from<br />\nA to B means A can substitute B):<br />\n<br /><br />\n<img src=\"https://s3.amazonaws.com/codechef_shared/download/IPC15P3A/DLHP\" alt=\"Mountain View\" style=\"width:504px;height:128px;\" /><br />\n<br /><br />\nIn this example, Dona and Emma cannot go on vacation, because<br />\nif one of them does, another cannot fill both positions.<br />\nAlice, Bob and Clara can go on vacation, but Bob and Clara cannot<br />\ndo it at the same time, because Gloria cannot substitute them<br />\nboth simultaneously.</p>\n<p>Your task is to find all nurses who cannot go on vacation,<br />\nand all pairs of nurses, such that both can go on vacation, but not<br />\nin the same time.</p>\n<p><br /></p>\n<p>\nDilku thought a lot about the problem but could not solve it. The issue was that he had read the constraints of the problem wrong  (After all , he is almost always thinking about his love Bhopu ! ). Dilku is very tired thinking about the problem and asks you for help. Can you solve this problem for the constraints Dilku misread ? (Constraints mentioned below)\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of the input file contains two integer numbers <b>n</b> and<br />\n<b>k</b>~--- the total number of nurses and number of special nurses.<br />\nNurses <b>1 ... k</b> are special nurses, and nurses<br />\n<b>k+1 ... n</b> are staff nurses (<b>1 &lt;= k &lt; n &lt;= 100000</b>).<br />\nNext <b>k</b> lines contain the lists of possible substitutions.<br />\nThe first number in (<b>i+1</b>)-th line is <b>d<sub>i</sub></b>~--- the number of nurses,<br />\nwho can substitute <b>i</b>-th nurse. Following <b>d<sub>i</sub></b> numbers in the same line<br />\nare the indices of substituting nurses.<br />\nThe total length of all lists does not exceed 200000.</p>\n<h3>Output</h3>\n<p>\nFirst output the number of nurses who cannot go on vacation. Then output<br />\ntheir indices in increasing order.</p>\n<p>After that, output the number of pairs of nurses, such that both can go on<br />\nvacation, but not at the same time.\n</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n7 5\n2 6 7\n1 7\n2 2 7\n1 5\n1 4\n\n\n<b>Output:</b>\n2\n4 5\n3\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team apqAW2",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1456669800,
+        "end_date": 1456687800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1456687800,
+        "submit_start_date": 1456669800,
+        "current": 1537435301
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>tanuj_khattar</span>",
+    "problem_name": "Dilku and Hospital",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/tanuj_khattar'>tanuj_khattar</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "tanuj_khattar",
+    "contest_code": "IPC15P3A",
+    "max_timelimit": "1",
+    "problem_code": "DLHP"
+}

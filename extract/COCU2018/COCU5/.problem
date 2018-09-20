@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Sarath, the panda is one of the organisers of Currents, and he is extremely fond of Chocolate ice creams. He was assigned the responsibility of setting up food stalls for Currents. He got proposals from N ice cream companies each quoting a price that is to be paid to them for setting up their stall.\n\nMore than brands Sarath is the type of person who values the quality and variety of ice cream. So he decided to bring in all the shops that sell different kinds of icecreams which cannot be made by combining the ice creams from other shops. At the same time, he wanted to bring only the minimum number of companies necessary as he can't spend all the money currents has on ice cream stalls.\n\nThe amount of chocolate and sugar content in the ice creams differentiate the shops. Sarath can prepare one cup of ice cream by mixing any ratio of the available ice creams. Formally if ice creams are mixed in the ratio x<sub>1</sub>:x<sub>2</sub>:x<sub>3</sub>....:x<sub>n</sub> with the ith ice cream having ci micrograms of chocolate, then the chocolate content of the mixture is (c<sub>1</sub>*x<sub>1</sub> + c<sub>2</sub>*x<sub>2</sub> + c<sub>3</sub>*x<sub>3</sub> + .... + c<sub>t</sub>*x<sub>t</sub>)/(x<sub>1</sub> + x<sub>2</sub> + x<sub>3</sub> + .... + x<sub>t</sub>) micrograms. The same scenario is applicable for sugar.\n\nFind out what is the minimum amount he has to spend to bring in all shops that sell different kinds of ice creams which cannot be made by combining other shops' ice creams.\n\n</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>\nThe first line contains an integer N denoting the number of proposals from different companies.\n\nEach of the next N lines contains three integers, the si, ci and pi, where si and ci denote the amount in micrograms of sugar and chocolate in the i-th ice cream, and pi denotes price quoted by the company to set up the stall in rupees respectively. No two companies will sell ice creams with same sugar and chocolate content.</p>\n\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>Output a single integer, corresponding to the minimum amount of currents money our beloved Sarath panda spent.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 <b>N</b> \u2264 200,000</li>\n<li>0 \u2264 <b>si, ci, pi</b> \u2264 1,000,000,000</li>\n<li><b>si + ci != 0</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3 \n5 10 1 \n2 1 12 \n4 7 6\n<b>Output:</b>\n13\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>The first two companies proposal has to be accepted and the third one can be ignored as mixing first two ice creams in the ratio 2:1 will give us the third ice cream.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-02-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Code Currents",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1517752800,
+        "end_date": 1517761800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1517761800,
+        "submit_start_date": 1517752800,
+        "current": 1537433052
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>parakalan</span>",
+    "problem_name": "Problem 5",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/parakalan'>parakalan</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "parakalan",
+    "contest_code": "COCU2018",
+    "max_timelimit": "1",
+    "problem_code": "COCU5"
+}

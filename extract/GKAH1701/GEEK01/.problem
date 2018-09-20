@@ -1,0 +1,33 @@
+{
+    "problem_code": "GEEK01",
+    "problem_author": "likecs",
+    "contest_name": "Geek-a-Hertz - Binary Masters - Online Round",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>likecs</span>",
+    "problem_name": "Matrix Median",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "GKAH1701",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cakewalk'>cakewalk</a>, <a class='problem-tag-small ' href='/tags/problems/likecs'>likecs</a>, <a class='problem-tag-small ' href='/tags/problems/likecs'>likecs</a>, <a class='problem-tag-small ' href='/tags/problems/sorting'>sorting</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h2>Problem Statement</h2>\n<p>Let us define median of a square matrix <b>M</b> (of size <b>N * N</b>) as the median of the median of all rows. Given a matrix M, find it\u2019s median.</p>\n\n<h3>Input section</h3>\n<p>The first line contains, <b>T</b>, denoting the number of test cases.</p>\n\n<p>First line of each test case consists an integer <b>N</b>, denoting the size of the matrix. Next <b>N</b> lines contains <b>N</b> space separated integers denoting the elements of the matrix.</p>\n\n<b><p>As the test files are upto <b>17 MB</b>, it is advised to use faster input, output in C++ and Java. Time limit may be too strict for python users. You are advised to use pypy.</p></b>\n\n<h3>Output section</h3>\n<p>For each test case, print the median of the matrix, which is the median of the median of all rows.</p>\n\n<h3>Input constraints</h3>\n<pre>\n1 \u2264 T \u2264 10\n1 \u2264 N \u2264 1000, N is odd.\n0 \u2264 A[i][j] \u2264 10<sup>5</sup>, where A[i][j] deontes the element of the matrix in i<sup>th</sup> row and j<sup>th</sup> column.\n</pre>\n\n<h3>Subtasks</h3>\n<ul>\n<li>Subtask <b>#1</b> (10 points) : 1 \u2264 N \u2264 3</li>\n<li>Subtask <b>#2</b> (30 points) : 1 \u2264 N \u2264 100</li>\n<li>Subtask <b>#3</b> (60 points) : Original Constraints</li>\n</ul>\n\n<h3>Sample Input</h3>\n<pre>\n2\n3\n17526 49346 90822\n51879 9789 38513\n1337 56186 53770\n1\n93538\n</pre>\n\n<h3>Sample Output</h3>\n<pre>\n49346\n93538\n\n</pre>\n\n<p>For the first test case, the medians of the rows are <b>{49346, 38513, 53770}</b>. So the overall median of matrix is 49346.</p>\n",
+    "category_name": "main",
+    "date_added": "9-11-2017",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/GEEK01",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1511181000,
+        "end_date": 1511195400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1511195400,
+        "submit_start_date": 1511181000,
+        "current": 1537433325
+    },
+    "user": {
+        "username": ""
+    }
+}

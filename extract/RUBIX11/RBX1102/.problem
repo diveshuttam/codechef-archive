@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nZeus challenged his son Rubixius with a puzzle in which he presented a line of text which was modified on saying some magic words. Zeus asked him to keep track of the mutations and answer the current text in the string whenever asked. <br/><br/>\n\nZeus wanted Rubixius to answer if any of these conditions held true. The conditions are prioritized with the first having highest priority.<br/><br/>\n1. Only answer if the string has changed.<br/>\n2. To check if Rubixius was paying attention he had to answer the correct text after every <b>K</b> magic queries when Zeus did not ask him the answer.<br/>\n3. Rubixius had to tell Zeus the last state of the string.<br/><br/>\nRubixius mastered this game. Can you?\n\n<h3>Input</h3>\n<p>The first line will contain an integer T<50 with the number of Test Cases. Each case will start with a string S on a line. The following line contains 2 integers N and K where N is the number of queries and K is the query count after which Rubixius should automatically answer. Then N lines follow with 1 query/line. <br/><br/>\n\n<table borders=\"all\" width=\"520\">\n<tr>\n<th width=\"20%\">Magic Query</th>\n<th width=\"80%\">Description</th>\n</tr>\n<tr>\n<td>IZA i str</td>\n<td>Insert string <b>str</b> at position <b>i</b></td>\n</tr>\n<tr>\n<td>DZA i j</td>\n<td>Delete substring starting from i upto j</td>\n</tr>\n<tr>\n<td>RZA i j str</td>\n<td>Replace substring starting from i upto j with str</td>\n</tr>\n<tr>\n<td>WZA i j k</td>\n<td>Remove substring starting from i upto j and place it at k</td>\n</tr>\n<tr>\n<td>KZA i j a b</td>\n<td>Swap substring starting from i upto j with substring starting from a upto b</td>\n</tr>\n</table>\n<br/>A query starting with <b>P</b> means Zeus wants Rubixius to answer.<br/>\n<b>Constraints</b><br/>\nIn the queries if j>string length, then take j to be the last index.<br/>\ni<=string length<br/>\nString length will always be less than 100.<br/>\nString will be alphanumeric.<br/>\nN,K<1000<br/>\n\n<h3>Output</h3>\n<p>Output the text on a new line every time you need to.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\nstringmagiciseasy\n6 2\nIZA 13 not\nRZA 13 16 notvery\nPDZA 13 20\nWZA 5 12 0\nDZA 7 7\nDZA 7 13\n\n<b>Output:</b>\nstringmagicisnotveryeasy\nstringmagiciseasy\nmagiciseasy\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Thadomal Shahani Engineering College - RUBIX - Codezilla",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1297949400,
+        "end_date": 1297967400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1297967400,
+        "submit_start_date": 1297949400,
+        "current": 1537439364
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>virai</span>",
+    "problem_name": "String Magic",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/virai'>virai</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "virai",
+    "contest_code": "RUBIX11",
+    "max_timelimit": "0.1",
+    "problem_code": "RBX1102"
+}

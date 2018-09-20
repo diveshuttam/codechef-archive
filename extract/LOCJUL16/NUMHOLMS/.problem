@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>After completing some serious investigation, Watson and Holmes are now chilling themselves in the Shimla hills. Very soon Holmes became bored. Holmes lived entirely for his profession. We know he is a workaholic. So Holmes wants to stop his vacation and get back to work. But after a tiresome season, Watson is in no mood to return soon. So to keep Holmes engaged, he decided to give Holmes one math problem. And Holmes agreed to solve the problem and said as soon as he solves the problem, they should return back to work. Watson too agreed.\u00a0</p>\n<p>The problem was as follows. Watson knows Holmes\u2019 favorite numbers are 6 and 5. So he decided to give Holmes <b>N</b>  single digit numbers. Watson asked Holmes to form a new number with the given <b>N</b> numbers in such a way that the newly formed number should be completely divisible by 5 and 6. Watson told Holmes that he should also form the number from these digits in such a way that the formed number is maximum. He may or may not use all the given numbers. But he is not allowed to use leading zeros. Though he is allowed to leave out some of the numbers, he is not allowed to add any extra numbers, which means the maximum count of each digit in the newly formed number, is the same as the number of times that number is present in those given N digits.</p>\n\n\n\n<h3>Input</h3>\n<p>The first line of input contains one integers T denoting the number of test cases.</p>\n<p>Each test case consists of one integer N, number of numbers.</p>\n<p>Next line contains contains N single digit integers </p>\n\n\n<h3>Output</h3>\n<p>For each test case output a single number, where the above said conditions are satisfied. If it is not possible to create such a number with the given constraints print -1.If there exists a solution, the maximised number should be greater than or equal to 0. </p>\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10000</b></li>\n<li><b>0</b> \u2264 <b>Each digit</b> \u2264 <b>9</b></li>\n\n<h3>Subtasks</h3>\n<p>\n<b>Subtask #1 : (90 points)</b>\n<ul>\n<b>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li>1 \u2264 N \u2264 10000</li>\n</b>\n</ul>\n</p>\n\n<p>\n<b>Subtask 2 : (10 points) </b><br>\n<ul>\n<b>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li>1 \u2264 N\u2264 10</li>\n</b>\n</ul>\n</p>\n\n\n\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n12\n3 1 2 3 2 0 2 2 2 0 2 3\n11\n3 9 9 6 4 3 6 4 9 6 0\n\n<b>Output:</b>\n33322222200\n999666330\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-06-2016",
+    "is_direct_submittable": false,
+    "contest_name": "July LoC Competitive Programming Marathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1469730600,
+        "end_date": 1470076140,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1470076140,
+        "submit_start_date": 1469730600,
+        "current": 1537434714
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>bipin2</span>",
+    "problem_name": "Sherlock Holmes and Numbers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bipin2'>bipin2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bipin2",
+    "contest_code": "LOCJUL16",
+    "max_timelimit": "1",
+    "problem_code": "NUMHOLMS"
+}

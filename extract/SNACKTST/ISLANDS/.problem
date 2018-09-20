@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>There is a rectangular N x M grid of square cells. Each cell is either a unit of land or a unit of water. Two cells are adjacent if they share a side. Two adjacent land cells are said to be part of the same island. The size of an island is the number of land cells that form that island.\n<br />\nGiven the N X M grid, you are required to find the total number of islands and the size of the largest island.\n<br />\n\n<h3>Input</h3>\n</p><p>The first line contains two integers N and M, separated by a space. The next N lines contain M characters each. Each of these M characters is either a '.' or a 'x', representing a water cell and a land cell respectively.\n(1 &lt;= N,M &lt;= 1000)\n\n<h3>Output</h3>\n</p><p>The output contains two integers separated by a space. The first integer is the number of islands and the second integer is the size of the largest island.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n4 5\nxx..x\nxxxx.\n..xx.\nxx...\n\n<b>Output:</b>\n3 8\n\n</pre>\n<b>Explanation:</b>\n<br />\nIn the grid below, cells marked with the same number are part of the same island. The island that is marked with the integer 1 has a size of 8.\n<pre>\n1 1  .  . 2\n1 1 1 1 .\n.  .  1 1 .\n3 3 .  .  .\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-08-2009",
+    "is_direct_submittable": false,
+    "contest_name": "Snackdown Test",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1258641000,
+        "end_date": 1258648200,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1733529463,
+        "submit_start_date": 1258641000,
+        "current": 1537439863
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Islands",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "SNACKTST",
+    "max_timelimit": "0.186207 - 5",
+    "problem_code": "ISLANDS"
+}

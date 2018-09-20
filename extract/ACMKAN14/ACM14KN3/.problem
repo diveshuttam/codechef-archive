@@ -1,0 +1,33 @@
+{
+    "problem_code": "ACM14KN3",
+    "problem_author": "admin",
+    "contest_name": "ACM-ICPC Asia-Kanpur Site First Round Online Contest 2014",
+    "todo": false,
+    "problem_author_html_handle": "admin",
+    "problem_name": "Logging in the computer",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ACMKAN14",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acmkan14'>acmkan14</a>, <a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>, <a class='problem-tag-small ' href='/tags/problems/array'>array</a>, <a class='problem-tag-small ' href='/tags/problems/simple'>simple</a>",
+    "body": "<p>\nFinally the LazyProblemSetters have decided the way in which they will attempt the questions in the problem set. They have decided to go to the Computer Lab of the CSE department (because it has air-conditioning) and are ready to get their hands dirty with some WA's and TLE's.\n</p>\n<p>\nTheir department has a very unique lab. They have a lot of computers and each student gets a private account which they can access through any of those computers. For this, no data is stored on these computers but on dedicated servers and sent to the computer that a student is currently using. This way the students are not forced to sit on particular computers and can choose any place they like that is available.\n</p>\n<p>\nNow, the department has a home built advanced facial recognition software which they use in this lab. It works as follows:<br />When anyone sits on a computer, his/her picture is captured, (along with the locality) and sent to the internal database of the lab where they identify the user associated with that picture, and the computer he/she is sitting. After that the data of that user is fetched from the dedicated data servers and sent to the computer.\n</p>\n<p>\nNow, all this takes time, and to keep the user busy, they decided to give them a puzzle to solve. If the user solves the puzzle correctly, they are allowed to login. The puzzle is as follows:<br />\n<br /></p>\n<ul>\n<li> A string <b>S</b> (composed of only small case letters of the English alphabet) is shown on the screen to the user.</li>\n<li> Then two integers <b>P</b> and <b>Q</b> are shown to the users. </li>\n<li> The user has now to create a string <b>R</b> using <b>S</b> and <b>P</b> by concatenating <b>P</b> copies of <b>S</b> one after another.<br />\nThen <b>R</b> is transformed into its smallest lexicographic permutation i.e. all the \"a\"'s are brought to the front and placed there, then after that all the \"b\"'s are placed, then \"c\"'s and so on. This is the final <b>R</b> that the user needs to form.</li>\n<li> Then <b>Q</b> numbers appear on the screen one by one. For each number <b>N</b> that appears on the screen, the user has to type the character at the <b>N<sup>th</sup></b> location of <b>R</b>. If <b>N</b> is greater than the length of <b>R</b>, they have to type \"-1\" (without quotes).</li>\n</ul>\n\n<h3>Input</h3>\n<p>The first line consists of an integer <b>T</b>, the number of test cases followed by the test cases themselves. <br /><br />\nEach test case begins with the string <b>S</b> in the first line, followed by two space-separated integers <b>P</b> and <b>Q</b> in the next line. <br /><br />\nThen <b>Q</b> lines follow, each containing an integer <b>N</b>.\n</p>\n<h3>Output</h3>\n<p>For each test case, for each integer <b>N</b>, print in a new line the character at the <b>N<sup>th</sup></b> location of <b>R</b>  or print \"-1\" (without quotes) as described above. </p>\n<h3>Constraints</h3>\n<ul>\n<li> <b>1</b> \u2264 <b>P</b> \u2264 <b>10<sup>7</sup></b> </li>\n<li> <b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>9</sup></b> </li>\n<li> <b>1</b> \u2264 <b>Q</b> \u2264 <b>10<sup>5</sup></b> </li>\n<li> <b>1</b> \u2264 <b>|S|</b> \u2264 <b>100</b>, where |S| denotes the length of the string. </li>\n<li> <b>1</b> \u2264 <b>T</b> \u2264 <b>10</b> </li>\n</ul>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n1\nabcde\n3 5\n3\n4\n10\n15\n16\n\n<b>Output:</b>\na\nb\nd\ne\n-1\n</pre><p>\n<b>Note: Large I/O, be careful with certain languages</b></p>\n",
+    "category_name": "main",
+    "date_added": "2-10-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA",
+    "max_timelimit": "3",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/ACM14KN3",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1414830600,
+        "end_date": 1414837800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1733529779,
+        "submit_start_date": 1414830600,
+        "current": 1537437276
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p> The problem is very simple. For every string given as input, you need to tell us the number of subsequences of it that are palindromes (need not necessarily be distinct). Note that the empty string is not a palindrome. \n\nFor example, the palindromic subsequences of \"aab\" are:\n\"a\", \"a\", \"b\", \"aa\", and the method returns 4.\n\n<h3>Input</h3>\n<p>\nFirst line contains the number of test cases T (atmost 20). Each of the next T lines contains a single string whose number of palindromic subsequences are to be printed. The maximum length of any input string is 50.\n<h3>Output</h3>\n<p>\nFor each test case, print in a single line, the number of palindromic subsequences of the input string.\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\naab\ndddd\nthisisapalindromeemordnilapasisiht\n<b>Output:</b>\n4\n15\n814157\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "CodeBuzz",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1264941000,
+        "end_date": 1264959000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180169,
+        "submit_start_date": 1264941000,
+        "current": 1537439769
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>moneymachine</span>",
+    "problem_name": "Palindromic Subsequences",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/moneymachine'>moneymachine</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "moneymachine",
+    "contest_code": "CBUZZ101",
+    "max_timelimit": "0.73",
+    "problem_code": "CB03"
+}

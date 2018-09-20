@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Given a range of numbers (BOTH INCLUSIVE), print the number of numbers, sum of whose digits is a prime number.</p>\n<p><br /><b> Note: 1 is NOT considered to be a prime number.</b><br />\n<br /><br /></p>\n<h3>Input</h3>\n<p>First line contains the number of test cases T.<br />\n<br />Each test case consists of two lines, each line containing one integer. First integer L gives the beginning of the range of values and the second integer U gives the end of range.<br />\n<br /><br /></p>\n<h3>Output</h3>\n<p>One integer in a new line which gives the number of numbers that satisfy the given condition.<br />\n<br /><br /></p>\n<h3>Constraints</h3>\n<p>1 \u2264 T \u2264 100<br /><br />\n1 \u2264 L \u2264 U \u2264 10,000<br />\n<br /><br /></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n11\n21\n3\n11\n10\n20\n\n<b>Output:</b>\n6\n4\n5\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-08-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Procon 2013",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1376640000,
+        "end_date": 1376647200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1376647200,
+        "submit_start_date": 1376640000,
+        "current": 1537438235
+    },
+    "problem_author_html_handle": "procon_13",
+    "problem_name": "Number of numbers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/procon_13'>procon_13</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "procon_13",
+    "contest_code": "PRCN2013",
+    "max_timelimit": "0.14",
+    "problem_code": "PC05"
+}

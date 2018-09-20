@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>There are <b>N</b> people wanting to seat on a row of <b>N</b> seats. The persons and seats are numbered from <b>1</b> to <b>N</b>.</p>\n\n<p>The <b>N</b> people are ordered according to who chooses the seats first. In other words, person <b>1</b> is the first to seat, followed by person <b>2</b>, then person <b>3</b>, etc.</p>\n\n<p>In addition, the <b>i<sup>th</sup></b> person has a preferred seat <b>S<sub>i</sub></b>, a number from <b>1</b> to <b>N</b>, and a preferred direction <b>D<sub>i</sub></b>, which is either <b>left</b> or <b>right</b>. This means that on the <b>i<sup>th</sup></b> person's turn, he/she first checks seats <b>S<sub>i</sub></b> if it is available. If it's available, then he/she sits there, otherwise he walks into the direction specified by <b>D<sub>i</sub></b> and sits on the first seat available in that direction. It's possible that the <b>i<sup>th</sup></b> person doesn't find an available seat at all; if that happens, that person fails to seat and simply leaves.</p>\n\n<p>You know their preferred seats [<b>S<sub>1</sub></b>, <b>S<sub>2</sub></b>, ..., <b>S<sub>N</sub></b>], but you don't know their preferred directions [<b>D<sub>1</sub></b>, <b>D<sub>2</sub></b>, ..., <b>D<sub>N</sub></b>]. So the problem is: how many assignments of preferred directions are there such that all <b>N</b> people successfully seat?</p>\n\n<h3>Input</h3>\n<p>The first line of input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>\n<p>The first line of each test case contains a single integer <b>N</b>.</p>\n<p>The second line contains <b>N</b> integers separated by single spaces: <b>S<sub>1</sub></b>, <b>S<sub>2</sub></b>, ..., <b>S<sub>N</sub></b>.</p>\n\n\n<h3>Output</h3>\n<p>For each test case, output a single line containing the answer. Since the answer can be very large, only output it modulo <b>10<sup>9</sup> + 7</b>.</p>\n\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1 \u2264 T \u2264 200</b></li>\n<li><b>1 \u2264 N \u2264 60</b></li>\n<li><b>1 \u2264 S<sub>i</sub> \u2264 N</b></li>\n</ul>\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n<tt>1\n3\n2 2 3</tt>\n<b>Output:</b>\n<tt>6</tt>\n</pre>\n\n<h3>Explanation</h3>\n<p>The following assignments of preferred directions yield a successful seating:</p>\n\n<ul>\n<li><b>[left, left, left]</b> which yields the seating <b>[2, 1, 3]</b>.</li>\n<li><b>[left, left, right]</b> which yields the seating <b>[2, 1, 3]</b>.</li>\n<li><b>[left, right, left]</b> which yields the seating <b>[3, 1, 2]</b>.</li>\n<li><b>[right, left, left]</b> which yields the seating <b>[2, 1, 3]</b>.</li>\n<li><b>[right, left, right]</b> which yields the seating <b>[2, 1, 3]</b>.</li>\n<li><b>[right, right, left]</b> which yields the seating <b>[3, 1, 2]</b>.</li>\n</ul>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Kharagpur Onsite Mirror Contest 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1481954400,
+        "end_date": 1481972400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1792992005,
+        "submit_start_date": 1481954400,
+        "current": 1537434321
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Finding Seats",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acm16'>acm16</a>, <a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/icpc16'>icpc16</a>, <a class='problem-tag-small ' href='/tags/problems/kgp16'>kgp16</a>, <a class='problem-tag-small ' href='/tags/problems/vijju123'>vijju123</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin3",
+    "contest_code": "KGP16MOS",
+    "max_timelimit": "2",
+    "problem_code": "KGP16A"
+}

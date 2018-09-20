@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nFour Friends residing in the New York plan to watch a play at a theatre. They book their tickets on Friday for a show on Sunday. They did confirm their arrival by calling at the theatre office on Saturday and they were assured their booking. On Sunday morning, when the smartly dressed gents with their beautiful ladies reached at theatre they uttered a cry. To their shock and disbelief a crowd of too many people had gathered. The play was such a big hit that every family decided to watch it live on that day, because the day was Sunday. But these gents and ladies had booked tickets. They went to the gate directly but were shooed away from the gate by the mobbing crowd like pigeons. They asked an elder guy, Gandpa standing beside them, \u2018how could we manage our entry in there?\u2019. The guy had a hearty laugh at them and told them it was impossible. Hearing this, little misty started crying. Jewonson, her husband and the other couple thereby agreed to get misty watch the play anyhow and by any means.</p>\n<p>Assume Jewonson is a computer programmer and his friend Pills is an analyst. Both just get set to work. Pills goes all-around the place and figures out that the entry to the play is on the basis of \u2018Enki Pinkie\u2019. i.e.</p><p>\nAll people present formed  a circle, a startingplace was chosen, and Gandpa went around counting out \n`E', `n', `k', `i', `P', `i',`n', `k', `i', `e',`i', `P', `o', `n', `k', `i', `e', `E', `n', `k',`i', `e', `g', `o', `t', `O', `u', `t', `H', `A!', \\0 . \n</p><p>\nAt `A!', the person was removed from the circle which was then shrunken and the enki pinkie began again with the person next to him . This process continued until only one wasleft---the allowed play viewer.\n</p><p>\nPills also tells misty\u2019s husband that the crowd consists of at-max 500 people. But he wasn\u2019t sure how many were taking part in the selection method and how many were a part of a useless mob. Also he couldn\u2019t find in which direction the count would begin (clockwise or anti-clockwise). But Pills, being a great analyst somehow managed to get to know that when Jewonson\u2019s wife would be in the selection process, the count would start from hirgda. He also found out that gandpa would be excluded from the count. So misty\u2019s husband\u2019s job was to find where should misty stand (closest to hirgda) and doesn\u2019t get out.\n</p><p>\nNow the job of analyst\u2019s friend and of-course misty\u2019s husband is to write a program to find the first and the nearest position for misty to stand taking care of what the analyst could not find.\n</p>\n\n<h3>Input Specification</h3>\n<p>\nThe input to jewonson\u2019s code would be of many lines. Each line specifying lower and upper bounds of the number of people who want to be in the selection process. First upper bound is given followed by a space and then lower bound is provided. Both the bounds are inclusive in the selection process.\nTo stop the input the last line will contain two zeros. (0 0)\n<h3>Output Specification</h3>\n</p><p>\nFor each input line, there will be corresponding output. Each line of the output would the position closest to hirgda that would not be chosen as a position where the enki pinkie tale terminates (i.e. where \u2018A!\u2019 doesn\u2019t come.)\nIf no such position is available,\nOutput the string : \u201cNo Such Position available!\u201d\n\n\n<h3>Sample Input</h3>\n<pre>\n60 90\n45 155\n0 0\n</pre>\n\n<h3>Sample Output</h3>\n<pre>\n1\nNo Such Position available!\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "CodeZilla contest 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, D, PERL, FORT, ADA, ASM, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, TCL, PERL6, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1329489000,
+        "end_date": 1329499800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1329489000,
+        "submit_start_date": 1329489000,
+        "current": 1537438994
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>jasleenkb</span>",
+    "problem_name": "Can You Help Misty",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/jasleenkb'>jasleenkb</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "jasleenkb",
+    "contest_code": "CDZL2012",
+    "max_timelimit": "1",
+    "problem_code": "TESTTT3"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Vatsal and Dipen met at Vikrant Circle after a long time. Vatsal stays at Chembur and Dipen at Kurla. Both of them commute by bus. They reached the bus stop, and got to know that both their buses had left just then (at the same time) for the respective destinations. Neither wanted to leave the other alone at the bus stop. They came to know that a bus arrives every x min for Chembur and every y min for Kurla. They want to leave together only. Can you help them find out how many buses they have to leave i.e not board?</p>\n<br>\n<h3>Input</h3>\n<p><ul>\n<li> The first line will contain T, no of test cases</li>\n<li> Each testcase consists of one line with two space seperated integers - X , frequency of the bus to Chembur and Y, frequency of the bus to Kurla</li>\n</ul></p>\n<br>\n<h3>Output</h3>\n<p>On a new line for eact testcase, print M, the number of buses Vatsal leaves and N, the number of buses Dipen leaves.</p>\n<br>\n<h3>Constraints</h3>\n<p><ul>\n<li>1<=T<=1000</li>\n<li>1<=N, M<=10000</li>\n</ul></p><br>\n<h3>Example</h3>\n<b>Input:</b><br>\n1<br>\n5 6<br>\n<b>Output:</b><br>\n5 4<br>\n<h3>Explanation</h3>\n<p>The 6th bus to Chembur and 5th Bus to Kurla's Arrivals will coincide at the 30th Minute. Hence they have to leave 5 buses and 4 buses respectively.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-03-2017",
+    "is_direct_submittable": false,
+    "contest_name": "KJSCE Coding Challenge",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1489851900,
+        "end_date": 1489862700,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1489862700,
+        "submit_start_date": 1489851900,
+        "current": 1537434013
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>vedipen</span>",
+    "problem_name": "Bus Ho Gaya",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vedipen'>vedipen</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vedipen",
+    "contest_code": "KJSC17",
+    "max_timelimit": "1",
+    "problem_code": "BUSHO"
+}

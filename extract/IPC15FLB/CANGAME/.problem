@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>\nSiddhant and Divij play the Candy game. Initially Siddhant has <b>N</b> candies and Divij has <b>M</b> candies. In each turn, they toss an unbiased coin. Divij gives a candy to Siddhant if head comes up and takes one from him if tails comes up. Find the no. of turns the game is expected to last.\n</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n\nThe first line of input contains an integer <b>T</b> denoting the number of test cases. The description of T test cases follows.<br>\nThe first line of each test case contains two integers <b>N</b>  and <b>M</b>.<br>\n\n<h3>Output</h3>\nPrint the expected number of turns rounded to exactly six decimal places. <p>\u00a0</p>\n\n<h3>Constraints</h3>\n\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10<sup>5</b></li>\n<li><b>1</b> \u2264 <b>N,M</b> \u2264 <b>10<sup>8</sup></b></li>\n\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n1 1\n1 2\n<br><br>\n\n<b>Output:</b>\n1.000000\n2.000000\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Skull Crackers",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1475310600,
+        "end_date": 1475328600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1475328600,
+        "submit_start_date": 1475310600,
+        "current": 1537434529
+    },
+    "problem_author_html_handle": "skullcrackers",
+    "problem_name": "Candy Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/skullcrackers'>skullcrackers</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "skullcrackers",
+    "contest_code": "IPC15FLB",
+    "max_timelimit": "1",
+    "problem_code": "CANGAME"
+}

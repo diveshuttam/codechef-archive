@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>You will be given a Cuboid of length $L$ , breadth $B$ and height $H$. This cuboid consists of negative and positive integers ( including 0 ), placed one at each unit place.     \n( Informally, the given cuboid is a collection of $L * B * H$  integers placed in cuboidal order ) \n\nConsider a Contiguous Sub-Cuboid ( from the given cuboid ) of length $D$, breadth $E$ and height $F$.           \n$( 1 <= D <= L )$     \n$( 1 <= E <= B )$    \n$( 1 <= F <= H )$     \n( Note that the Sub-Cuboid must be Non-Empty, that is it must have at least 1 integer present in it ) \n\nLet us define the Worth $W$ of this Sub-Cuboid as the summation of all the integers contained in that Sub-Cuboid.    \nAlso, let us define the Volume $V$ of this Sub-Cuboid as $D * E * F$  \nFinally, let us define the Power $P$ of this Sub-Cuboid as $W * V$ \n\nYou have to find 2 Non-Empty Contiguous Sub-Cuboids from the given cuboid, such that :    \nThe first Sub-Cuboid should have the maximum possible Worth, $Wmax$.    \nThe second Sub-Cuboid should have the maximum possible Power, $Pmax$.\n   \n( Note that $Wmax$ is the Worth of the Sub-Cuboid with maximum possible Worth and $Pmax$ is the Power of the Sub-Cuboid with maximum possible Power )\n\n\n###Input:\n\nPlease read the input format carefully.    \nAssume the corner of the cuboid to be placed at the origin ( 0 , 0 , 0 ) of a 3-D region ( X , Y , Z ). Assume the length to be in X-direction, the breadth to be in Y-direction and the height to be in Z-direction. \n\nThe first line of the Input consists of a single integer  $T$ denoting the number of Test Cases.    \nThe description of  $T$ test cases follow:    \nThe first line of each test case consists of 3 space-separated integers $L$, $B$ and $H$, the length, the breadth and the height of the given cuboid.    \n$H$ sets of lines follow :    \nEach of these sets consists of $B$ lines. Each of these lines consists of $L$ space-separated integers.    \nThe $ith$ integer in the $jth$ line of the $kth$ set denote $A(i,j,k)$, which is the integer present at the location $( i-1 , j-1 , k-1 )$ in the 3-D region.    \n( 1 <= i <= L )     \n( 1 <= j <= B )     \n( 1 <= k <= H )\n\n###Output:\nFor each test case, output a single line which should consist of 2 space-separated integers $Wmax$ and $Pmax$ , the answers to the corresponding test case.\n\n\n###Constraints \n- $1 \\leq T \\leq 100$\n- $1 \\leq L, B, H \\leq 10$\n- $-10^9 \\leq A(i,j,k) \\leq 10^9$\n\n\n###Sample Input:\n2    \n4 3 2    \n4 -1 -2 -4    \n-5 -2 -9 0    \n1 0 -2 -7    \n-3 -5 -2 0    \n-7 1 -2 -4    \n-9 -8 -2 -4    \n2 2 2    \n65 1    \n-1 -1    \n-1 -1    \n-1 -1    \n\n\n###Sample Output:\n4 6    \n66 480\n\n\t\n###EXPLANATION:\nTest Case 1 :\n\nThe cuboid with maximum Worth Wmax is the one containing the integer(s) at the coordinate(s) - ( 0 , 0 , 0 ) \nWmax = 4\n\nThe cuboid with maximum Power Pmax is the one containing the integer(s) at the coordinate(s) - ( 0 , 0 , 0 ) , ( 1 , 0 , 0 )\nW = 4 + (-1) = 3, \nV = 2 * 1 * 1 = 2, \nPmax = 3*2 = 6\n\n( Note that the cuboid with maximum Worth cannot be the cuboid with maximum Power in this case because it has Volume V = 1 which gives it Power P = 4*1 = 4, which is less than 6 )\n\nTest Case 2 : \n\nThe cuboid with maximum Worth Wmax is the one containing the integer(s) at the coordinate(s) - ( 0 , 0 , 0 ) , ( 1 , 0 , 0 )\nWmax = 65 + 1 = 66\n\nThe cuboid with maximum Power Pmax is the one containing the integer(s) at the coordinate(s) - ( 0 , 0 , 0 ) , ( 1 , 0 , 0 ) , ( 0 , 1 , 0 ) , ( 1 , 1 , 0 ) , ( 0 , 0 , 1 ) , ( 1 , 0 , 1 ) , ( 0 , 1 , 1 ) , ( 1 , 1 , 1 )\nW = 65 + 1 + (-1) + (-1) + (-1) + (-1) + (-1) + (-1) = 60\nV = 2*2*2 = 8\nPmax= 60*8 = 480\n.\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "BUG4EVER 2018 Online Round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1535117400,
+        "end_date": 1535549400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1535549400,
+        "submit_start_date": 1535117400,
+        "current": 1537432031
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nerdyninja</span>",
+    "problem_name": "The Best Sub Cuboids",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nerdyninja'>nerdyninja</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nerdyninja",
+    "contest_code": "BUGE2018",
+    "max_timelimit": "1",
+    "problem_code": "BUG2K18D"
+}

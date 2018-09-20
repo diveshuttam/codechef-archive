@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p><b>Problem description.</b></p>\n<p>\n<br /><br /></p>\n<p><I> \"A computer would deserve to be called intelligent if it could deceive a human into believing that it was human.\"</i><br /><br />\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0-Alan Turing<br /><br />\n<br /><br /><br />\nTuring is now working to crack the enigma machine.But he found that two mathematical functions f(n) and g(n) are used to encipher the message by the Germans. He wanted to test his discovery.So he is now using a computer based on Von Neumann architecture.<br /><br />\n<br /><br /><br />\nFunction definitions are,<br /><br />\n<B><br /><br /><br />\n\u00a0\u00a0 g(n+1)=4*g(n)+f(n+1)+c<br /><br /><br />\n\u00a0\u00a0 f(n+2)=3*f(n+1)+2*f(n)<br /><br />\n<br /><br /><br />\n</b><br />\nInitial conditions are,<br /><br />\n<br /><br />\n f(0)=1 ;<br />\n f(1)=1 ;<br />\n g(-1)=1 ;<br />\n g(0)=1 ;<br />\n c=2 ;<br />\n<br /><br />\n<br /><br /><br />\n<B><br />\nYou need to find the g(n) value for  the give n.Since the output value is huge please take modulo 1000000007.</b><br /><br />Please note the strict time limit !.Seems easy right?,have fun !.<br />\n\u00a0</p>\n<h3>Input</h3>\n<p>Input description.</p>\n<p>First line specify the number of test cases T,<br />\nNext T line after the first line denotes the value of n.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n\n<p>Output the value of g(n),for each test case. </p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>10000000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5<br />\n1<br />\n2<br />\n3<br />\n6<br />\n1000<br />\n\n<b>Output:</b>\n<p>\u00a0\n7<br />\n35<br />\n159<br />\n12835<br />\n566998663<br />\n</p></pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Abacus'15",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, RUBY, PHP, NODEJS, SCALA, PERL, ASM, BASH, JS, PERL6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1424271600,
+        "end_date": 1424284200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1424284200,
+        "submit_start_date": 1424271600,
+        "current": 1537436769
+    },
+    "problem_author_html_handle": "abacus_opc",
+    "problem_name": "The Imitation Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abacus_opc'>abacus_opc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abacus_opc",
+    "contest_code": "ABCS2015",
+    "max_timelimit": "0.18",
+    "problem_code": "ABA15E"
+}

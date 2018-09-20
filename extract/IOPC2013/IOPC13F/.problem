@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p> The war between the Jedi\u2019s and the Empire Battle Droids is at its height. Master Yoda, bored from this war, wants to end this as soon as possible, while using minimum Jedi powers. To discuss the battle plans, he calls a meeting of all the Jedi Masters at the Jedi Temple. There, the Jedis start meditating and get connected to each other using telepathy. To maximise their power, they enclose a closed region using these telepathic connections. Telepathy is a tricky business, the Jedi\u2019s can somehow connect to each other with the shortest distance possible in real world.</p>\n<p> The droids somehow come to know of this meeting and plan to kill the Jedis in the Temple. But as they approach the Temple, the Jedis become aware of their presence. Master Yoda doesn\u2019t want to waste precious Jedi powers on these droids. He asks each Jedi warrior how much power would he need to use in order to kill each droid.</p>\n<p> To calculate the power needed to kill a droid, a Jedi cuts himself from the other Jedis and observes if a droid is inside the telepathic region, so formed. If the droid falls inside it, the power required to kill him is equal to the manhattan distance between the Jedi and that droid. If not, the power required is equal to the square of Euclidean distance between them.</p>\n<p>Master Yoda decides to launch an attack before its too late, so he assigns each Jedi a particular drone to kill such that the total Jedi power required by them is <b>maximised</b>.</p>\n\n<h3>Input</h3>\n<p>The first line contains a single integer <b>N</b>, which denotes the number of Jedi Masters (=Number of Empire Battle Droids)<br />\nThe next <b>N</b> lines contain two space separated integers <b>X Y</b>, the location of the Jedi Masters.<br />\nThe next <b>N</b> lines contain the two space separated integers <b>X Y</b>, the location of the battle droids.</p>\n<h3>Output</h3>\n<p>A single integer <b>K</b> denoting the <b>maximum</b> total Jedi power that is required.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>5</b> \u2264 <b>N</b> \u2264 <b>350</b></li>\n<li><b>1</b> \u2264 <b>X,Y</b> \u2264 <b>1000</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n2 1\n3 2\n3 4\n1 4\n1 2\n2 2\n3 3\n3 1\n4 3\n4 1\n\n<b>Output:</b>\n41\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-03-2013",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2013",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1362810600,
+        "end_date": 1362897000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1362897000,
+        "submit_start_date": 1362810600,
+        "current": 1537438442
+    },
+    "problem_author_html_handle": "iopc_admin",
+    "problem_name": "The Jedi Battalion",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/iopc_admin'>iopc_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "iopc_admin",
+    "contest_code": "IOPC2013",
+    "max_timelimit": "0.48731",
+    "problem_code": "IOPC13F"
+}

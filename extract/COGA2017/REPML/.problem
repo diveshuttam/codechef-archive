@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> <h3>Representative of missing letters</h3>\n</br>\n</br>\n<b>Problem Statement :</b>\n</br>\nRajan loves playing with strings. Every time he tries different manipulations on string to make his coding life more interesting. Today he wants to find missing alphabets from a given string and then their representative by adding missing alphabetic numbers and then doing modulo 26 operation. He wants to find solution as early as possible help him to find it.\nIf nothing is missing then he simply wants that message.\n </br>\n(Remember - Alphabetic number of a / A=1, b /B = 2, and so on ) </br></br>\n\n<b>Input Format :</b>\n</br>\n\nThe first line contains T, number of test cases.</br>\nThe test cases are described over T subsequent lines in which, each line contains a string S. (String contains both lower case or upper case characters)</br></br>\n\n<b>Constraints :</b>\n</br>\n\nT Ranges from [1,100] </br>\n\n|S| Ranges from [1,1000]</br></br>\n\n<b>Output Format :</b>\n</br>\n\nFor each test case print the output in the form \u201cString String_No Representative is = character\u201d. (output character must be in lowercase form)</br>\nIf all alphabets are present then print \"Nothing is missing\" </br></br>\n\n<b>Sample Input :</b>\n</br>\n\nInput 1:</br>\n1</br>\nabcdeijklmpqrstuvz</br></br>\n\nInput 2:</br>\n2</br>\npQrSTuvwxyz</br>\naaaaaaaaaaaa</br></br>\n\nInput 3:</br>\n1</br>\nabCDefghiJKlmnOPQRstUvwxYz</br></br>\n\n\n<b>Sample Output :</b>\n</br>\n\nOutput 1:</br>\n String 1 Representative is = r</br></br>\n\nOutput 2:</br>\nString 1 Representative is = p</br>\nString 2 Representative is = l</br></br>\n\nOutput 3:</br>\nNothing is missing</br></br>\n\n\n<b>Explanation :</b></br>\n\nIn Output 1 - missing letters are f,g,h,n,o,w,x,y (Uppercase or lowercase).</br>\nHence by doing their alphabetic sum and performing modulo 26 operation on that sum, and then converting result to its respective alphabet we can get letter r .</br></br>\n\nIn Output 2 - Their are two test cases</br>\nIn case 1 : missing characters are a, b, c, d, e, f, g, h, i, j, k, l, m, n, o (Uppercase or lowercase)\nhence by doing their alphabetic sum and performing modulo 26 operation on that sum, and then converting result to its respective alphabet we can get letter p .</br>\n\nIn case 2 : missing characters are all alphabets except \u201ca\u201d. Hence by doing alphabetic sum of missing characters and performing modulo 26 operation on that sum, and then converting result to its respective alphabet we can get letter l </br>\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-09-2017",
+    "is_direct_submittable": false,
+    "contest_name": "CodeGamble",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1504860900,
+        "end_date": 1504869300,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1504869300,
+        "submit_start_date": 1504860900,
+        "current": 1537433581
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>deydebaditya</span>",
+    "problem_name": "Representative of Missing Letters",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/deydebaditya'>deydebaditya</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "deydebaditya",
+    "contest_code": "COGA2017",
+    "max_timelimit": "1",
+    "problem_code": "REPML"
+}

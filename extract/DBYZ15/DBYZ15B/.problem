@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Description</h3>\n<p>Utkarsh is on his way to <b>Q</b> shrines on the <b>X</b> axis. The <b>ith</b> Shrine is present at <b>X=Li</b>. For each shrine, Utkarsh will start at <b>X=0</b> and move forward with the help of an array <b>A</b> of size <b>N</b> which will help him to reach the shrines. To move forward he must choose an index <b>1&lt;=i&lt;=N</b> which allows him to jump <b>A[i] units forward in the positive X axis</b>.</p>\n<p>Utkarsh hates forgetting the past so he has an initially <b>empty stack S</b> to help him remember which indices of the array he chose. More specifically whenever he chooses index i of <b>A</b>, he pushes i at the top of the stack <b>S</b>.</p>\n<p>Utkarsh will only be able to enter the ith shrine if he is at <b>X=Li</b> and <b> |S|>0 </b>. However, the converse is not true, i.e., Utkarsh may choose to not enter the shrine even if the above conditions are satisfied.</p>\n<p>Since Utkarsh is getting thinner nowadays, he would be able to carry stacks of size <b>at most K</b>.</p>\n<p>Utkarsh wonders how many different stacks can he have when he enters the ith shrine.<br /><br />\n(Two stacks are considered <b>different</b> iff they have different sizes or they contain<b> different index value at some position</b>)</p>\n<p>Output the answer modulo <b>10^9+7 for each shrine.<br /></b><br />\nOutput <b>0</b> if he cannot enter the ith shrine.</p>\n<p><b></b></p>\n<h3>INPUT<br /></h3>\n<p>First line contains <b>N</b> and <b>K</b>.<br /><br />\nNext line contains the array <b>A</b>.<br /><br />\nNext line contains <b>Q</b>.<br /><br />\nNext line contains all the <b>Li</b>.</p>\n<h3>OUTPUT<br /></h3>\n<p>For each shrine, output the number of <b>possible stacks</b> modulo <b>10^9+7</b>.</p>\n<h3><b>CONSTRAINT<br /></b></h3>\n<ul>\n<li>N &lt;= 10^6</li>\n<li>1 &lt;= K &lt;= 3*10^10</li>\n<li>0 &lt;= A[i] &lt;= 400</li>\n<li>Q &lt;= 401</li>\n<li>0 &lt;= Li &lt;= 400</li>\n</ul>\n<h3>Example \n</h3>\n<p>INPUT<br /><br />\n5 3<br /><br />\n0 0 1 1 2<br /><br />\n3<br /><br />\n0 1 3</p>\n<p><b>OUTPUT</b><br /><br />\n14<br /><br />\n34<br /><br />\n36</p>\n<p><b>Explanation<br /><br />\nValid stacks for first query are {1}, {2}, {1,2}, {2,1}, {1,1}, {2,2}, {2,1,1}, {1,2,1}, {1,1,2}, {2,2,1}, {2,1,2}, {1,2,2}, {1,1,1}, {2,2,2}</b></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Divide By Zero 3.0",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1427644800,
+        "end_date": 1427659200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1427659200,
+        "submit_start_date": 1427644800,
+        "current": 1537436470
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>sainath_b</span>",
+    "problem_name": "Utkarsh and Long Roads",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sainath_b'>sainath_b</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sainath_b",
+    "contest_code": "DBYZ15",
+    "max_timelimit": "6",
+    "problem_code": "DBYZ15B"
+}

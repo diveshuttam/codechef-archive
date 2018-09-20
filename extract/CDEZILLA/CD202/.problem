@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Brachiosaurus is trying to become a detective by writing words in codes. It manipulates each word in a sentence by putting the letter 'z' after each vowel, followed by that very vowel. \nEg- \"belina\" translates into \"bezelizinaza\" and \"zazhiba\" translates into \"zazazhizibaza\". A team of secret agents want to decode the sentences of Brachiosaurus. \n<p>Write a program that decodes Brachiosaurus's coded sentences. \n\n\n<h3>Input</h3>\n<p>The coded sentence is given on a single line. The sentence comprises only of lowercase letters of the English alphabet and spaces. The words will be separated by exactly one space and there will be no spaces at beginning or end. The number of characters (total) will be 100 at the max. \n\n<h3>Output</h3>\n<p>The decoded sentence is to be outputted on a single line.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\nrazat geze hozotazamnaza ozoraza bezehizisaza \n\n<b>Output:</b>\nrat ge hotamna ora behisa\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-04-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Netaj Subhash Institute of Technology - CodeZilla",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1303738200,
+        "end_date": 1303756200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1303756200,
+        "submit_start_date": 1303738200,
+        "current": 1537439219
+    },
+    "problem_author_html_handle": "ajitesh14",
+    "problem_name": "I Spy You",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ajitesh14'>ajitesh14</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ajitesh14",
+    "contest_code": "CDEZILLA",
+    "max_timelimit": "0.2",
+    "problem_code": "CD202"
+}

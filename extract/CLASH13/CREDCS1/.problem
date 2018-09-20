@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>In an amazing race around the world, Karen wants to go from city A to city B and then to city C in order to win the competition.<br />\nShe is lucky to get a direct ticket to city C, but she finds out that she needs to decrypt the code on the ticket in order to avail the opportunity to travel directly to city C. You have to help her decrypt the code.\n</p>\n<p>\nThe encrypted code is alphanumeric. Every alphabet can be replaced by a number from the set {0,1,2,3,4,5,6,7,8,9} such that no two alphabets get the same numeric value.\n</p>\n<p>\nThe final decrypted code is the median of all the possible codes that can be formed using the above technique when the codes are sorted in lexicographical order (as in a dictionary).\n</p>\n<h3>Input</h3>\n<p>The First line contains the number of test cases, <b>T</b>.<br /></p>\n<p><b>T</b> test cases follow.<br /><br />\nEach test case contains a single line representing the encrypted code which is a combination of numbers from [0-9] (inclusive) and lowercase letters.\n</p>\n<h3>Output</h3>\n<p>For each test case output the final decrypted code. In case there is more than one final decrypted code, output all of them on the same line separated by a space in lexicographic order.\n</p>\n<h3>Constraints</h3>\n<p>Maximum length of input string : 10^5</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\na58\na647b\n\n<b>Output:</b>\n458 558\n46479 56470\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-08-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Clash Credenz 2013",
+    "languages_supported": "C, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1377541800,
+        "end_date": 1377714600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1377714600,
+        "submit_start_date": 1377541800,
+        "current": 1537438203
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>ashmew2</span>",
+    "problem_name": "The Amazing Race",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ashmew2'>ashmew2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ashmew2",
+    "contest_code": "CLASH13",
+    "max_timelimit": "2",
+    "problem_code": "CREDCS1"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><div class=\"page\" title=\"Page 1\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p>A guru once thought to take a test of endurance and knowledge he called all his disciple and gave a task. All the disciple would be given an array of N distinct elements, and needs to perform at most X (1\u2264X\u2264N ) arbitrary operations. In each operation a disciple can select any element from the array and can increase it by exactly 1.</p>\n<p>A disciple can perform at max 1 operation over any element of the array.</p>\n<p>The special thing about this array is that, for any 2 elements (A[i], A[j), where (i=\u0338j), abs(A[i]\u2212A[j])\u2265K, where abs(x) denotes the absolute value of any integer x.<br /> Now, we define 3 functions:<br /> F(i,j) = Max(i,j)\u2212Min(i,j)</p>\n<p>Max(i,j) = Maximum element present in the sub array ranging from i,i+1...j in array A.</p>\n<p>Min(i,j) = Minimum element present in the sub array ranging from i,i+1..j in array A.<br /> A disciple needs to perform exactly X operations, and then needs to tell Monk the following:</p>\n<p>Answer = \u03a3Ni=1\u03a3Nj=iF(i,j)</p>\n<p>In short, a disciple needs to tell the guru the summation of the difference between the maximum and minimum element of each sub array of array A. Considering a disciple performs the X operations given to his optimally what is the maximum value of answer that they can achieve?</p>\n<p><strong>Input Format</strong>:</p>\n<p>The first line will consists of 3 space separated integers N, X and K , denoting the number of elements in the array, operations needs to be performed and minimum absolute difference between any 2 elements of the array respectively. In next line, there will be N space separated integers, A[i] , where 1\u2264i\u2264N denoting the elements of array.</p>\n<p><strong>Output Format</strong>:</p>\n<p>Print the required maximum possible value of answer.</p>\n<p><strong>Constraints</strong>:</p>\n<p>2 \u2264 N \u2264 105<br /> 1 \u2264 A[i] \u2264 106<br /> 2 \u2264 K \u2264 10<br /> Elements chosen for the operation should not violate abs(A[i]\u2212A[j]) \u2265 K.</p>\n<div class=\"page\" title=\"Page 2\">\n<div class=\"layoutArea\">\n<div class=\"column\">\n<p><strong>Sample Input:</strong></p>\n<p>3 1 2<br /> 2 4 6<br />3<br /> <strong>Sample Output</strong>:<br />10</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "UEMCO",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1509287400,
+        "end_date": 1509298200,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1509298200,
+        "submit_start_date": 1509287400,
+        "current": 1537433391
+    },
+    "problem_author_html_handle": "uemco2017",
+    "problem_name": "GURUDEV",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/uemco2017'>uemco2017</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "uemco2017",
+    "contest_code": "UEMC2017",
+    "max_timelimit": "1",
+    "problem_code": "UEMCOAAT"
+}

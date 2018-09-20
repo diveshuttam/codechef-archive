@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Gaurav is playing a game of math.His friend Deep who lives next door joins him in this game.They are given a sequence of <b> n </b> numbers and they have to find out all the sets of <b> k </b> numbers such that their g.c.d is 1.<br />\nMore specifically, for a given value of k, you need to find the number of groups, each having k numbers, such that the gcd of all elements in that group is 1.<br />\nTwo groups are said to be different if they have atleast one element which is at different indexes in the sequence.</p>\n<p><b> NOTE </b> Gcd of a single number is taken as the number itself.</p>\n<h3>Input</h3>\n<p>The first line of input contains two space separated integers <b>N</b> - the length of the sequence and <b> k <b> denoting the size of a group.</b></b></p>\n<p>The next N lines contain one integer each, denoting the sequence.</p>\n\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Print the required answer</p>\n\n<h3>Constraints</h3>\n\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>K</b> \u2264 <b>3</b></li>\n<li><b>1</b> \u2264 <b>a<sub>i</sub></b> \u2264 <b>10<sup>5</sup></b></li>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4 3\n1 2 4 4\n\n<b>Output:</b>\n3\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>Three distinct groups can be formed <br />\n<b> 1,2,4 </b> <br />\n<b> 1,2,4 </b> <br />\n<b> 1,4,4 </b> <br />\nNote that the first two groups are distinct as the position of 4 is different in the two groups.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Code Mutants 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1424529000,
+        "end_date": 1424547000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1424547000,
+        "submit_start_date": 1424529000,
+        "current": 1537436756
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>dhaval242</span>",
+    "problem_name": "Math genius",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dhaval242'>dhaval242</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dhaval242",
+    "contest_code": "CDMU2015",
+    "max_timelimit": "0.5",
+    "problem_code": "CDMU04"
+}

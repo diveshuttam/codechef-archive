@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>--I just bought Leonardo's secret notebook!<br/>\nRare object collector Stan Ucker was really agitated<br/>\nbut his friend, special investigator Sarah Kepticwas\nunimpressed. <br/>\n--How do you know it is genuine? <br/>\n-- Oh, it must be, at that price. And it is written in\nthe da Vinci code. <br/>\nSarah browsed a few of the pages. It was obvious to\nher that the code was a substitution cipher, where\neach letter of the alphabet had been substituted by\nanother letter. <br/>\n--Leonardo would have written the plain-text and\nleft it to his assistant to encrypt, she said. And he\nmust have supplied the substitution alphabet to be\nused. If we are lucky, we can find it on the back\ncover! <br/>\nShe turned up the last page and, lo and behold, there was a single line of all 26 letters of the\nalphabet: <br/>\nQWERTYUIOPASDFGHJKLZXCVBNM<br/>\n-- This may be Leonardo's instructions meaning that each A in the plain-text was to be\nreplaced by Q, each B withW, etcetera. Let us see... <br/>\nTo their disappointment, they soon saw that this could not be the substitution that was used\nin the book. Suddenly, Stan brightened. <br/>\n-- Maybe Leonardo really wrote the substitution alphabet on the last page, and by mistake<br/>\nhis assistant coded that line as he had coded the rest of the book. So the line we have here is\nthe result of applying some permutation TWICE to the ordinary alphabet! <br/>\nSarah took out her laptop computer and coded fiercely for a few minutes. Then she turned\nto Stan with a sympathetic expression. <br/>\n-- No, that couldn't be it. I am afraid that you have been duped again, my friend. In all\nprobability, the book is a fake. <br/>\nWrite a program that takes a permutation of the English alphabet as input and decides if it\nmay be the result of performing some permutation twice. <br/>\n\n\n<h3>Input</h3>\n<p>The input begins with a positive number on a line of its own telling the number of test cases\n(at most 500). Then for each test case there is one line containing a permutation of the 26\ncapital letters of the English alphabet.\n\n<h3>Output</h3>\n<p>For each test case, output one line containing Yes if the given permutation can result from\napplying some permutation twice on the original alphabet string ABC...XYZ, otherwise output\nNo.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\nQWERTYUIOPASDFGHJKLZXCVBNM\nABCDEFGHIJKLMNOPQRSTUVWXYZ\n\n<b>Output:</b>\nNo\nYes\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-09-2010",
+    "is_direct_submittable": false,
+    "contest_name": "ACM Trial",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1285939800,
+        "end_date": 1286087400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1286087400,
+        "submit_start_date": 1285939800,
+        "current": 1537439506
+    },
+    "problem_author_html_handle": "cseaiitg",
+    "problem_name": "Notebook",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cseaiitg'>cseaiitg</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "cseaiitg",
+    "contest_code": "ACMTRIAL",
+    "max_timelimit": "0.227273",
+    "problem_code": "CSEA4"
+}

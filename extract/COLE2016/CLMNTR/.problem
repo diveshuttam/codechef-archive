@@ -1,0 +1,33 @@
+{
+    "problem_code": "CLMNTR",
+    "problem_author": "nib_ir",
+    "contest_name": "Coder's Legacy 2016",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nib_ir</span>",
+    "problem_name": "Moon Throwing",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "COLE2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cole2016'>cole2016</a>, <a class='problem-tag-small ' href='/tags/problems/geometry'>geometry</a>, <a class='problem-tag-small ' href='/tags/problems/mathematics'>mathematics</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/nib_ir'>nib_ir</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Superman has become fed up of fighting Batman and decides to throw the Moon at the Earth and end it once and for all. However, for maximum theatrical effect, he decides to do it during a <b>total solar eclipse</b>. He has a list of potential star systems where he wants to do a trial. But first he needs to know which of these systems are having a total solar eclipse at the present moment.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases.</li>\n<li>The first line of each test case contains four integers <b>X<sub>S</sub></b>, <b>Y<sub>S</sub></b>, <b>Z<sub>S</sub></b> and <b>R<sub>S</sub></b> denoting the coordinates and radius of the star <b>S</b>.</li>\n<li>The second line of each test case contains four integers <b>X<sub>A</sub></b>, <b>Y<sub>A</sub></b>, <b>Z<sub>A</sub></b> and <b>R<sub>A</sub></b> denoting the coordinates and radius of the heavenly body <b>A</b>.</li>\n<li>The third line of each test case contains four integers <b>X<sub>B</sub></b>, <b>Y<sub>B</sub></b>, <b>Z<sub>B</sub></b> and <b>R<sub>B</sub></b> denoting the coordinates and radius of the heavenly body <b>B</b>.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>For each test case, if the body <b>A</b> causes a total eclipse on any part of the surface of body <b>B</b>, output a single line containing the word <b>\"Yes\"</b> else output the word <b>\"No\"</b> (without quotes).</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>0</b> \u2264 <b>all coordinates</b> \u2264 <b>10<sup>9</sup></b></li>\n<li><b>1</b> \u2264 <b>all radii</b> \u2264 <b>10<sup>6</sup></b>\n</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n0 0 0 10\n50 0 0 5\n65 0 0 8\n\n<b>Output:</b>\nYes\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "date_added": "2-02-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/CLMNTR",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1454686200,
+        "end_date": 1454859000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454859000,
+        "submit_start_date": 1454686200,
+        "current": 1537435508
+    },
+    "user": {
+        "username": ""
+    }
+}

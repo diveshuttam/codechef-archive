@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\tWrite the comparison function qs_compare()for the following code: <br/>\nstruct date <br/>\n\t{ <br/>\n\t      int d,m,y; <br/>\n\t}; <br/>\nqs_compare(const void*,const void*); <br/> <br/>\n\nstruct date  dd[1000];\n<br/> \nvoid main() <br/>\n\t{ <br/> \n\t     int i,w,n; <br/>\n\t     w=sizeof(struct date); <br/>\n            //Read the inputs<br/>\n\t     qsort(dd,n,w,qs_compare);//n is the number of dates <br/>\n            //Print the result <br/>\n\t } <br/>\n <br/>\n<pre>\n<h3>Input</h3>\n5\n17 11 62\n24 8 78\n17 11 62\n16 12 76\n19 2 94\n<h3>Output</h3>\n17-11-1962\n17-11-1962\n16-12-1976\n24-8-1978\n19-2-1994\n</pre>\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-02-2010",
+    "is_direct_submittable": false,
+    "contest_name": "CTRLF9 2010",
+    "languages_supported": "C, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1267677000,
+        "end_date": 1267684200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1267684200,
+        "submit_start_date": 1267677000,
+        "current": 1537439703
+    },
+    "problem_author_html_handle": "mariojuana",
+    "problem_name": "FunctionTrouble",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/mariojuana'>mariojuana</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "mariojuana",
+    "contest_code": "ALGOC10",
+    "max_timelimit": "0.2 - 0.6",
+    "problem_code": "PGM3"
+}

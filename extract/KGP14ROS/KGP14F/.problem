@@ -1,0 +1,33 @@
+{
+    "problem_code": "KGP14F",
+    "problem_author": "admin3",
+    "contest_name": "ACM-ICPC Asia-Kharagpur Onsite Contest 2014, Replay",
+    "todo": false,
+    "problem_author_html_handle": "admin3",
+    "problem_name": "BlindDate Contest",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "KGP14ROS",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>, <a class='problem-tag-small ' href='/tags/problems/bipartite'>bipartite</a>, <a class='problem-tag-small ' href='/tags/problems/graph'>graph</a>, <a class='problem-tag-small ' href='/tags/problems/kgp14ros'>kgp14ros</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Academia University is hosting BitFest at GridLand, with participants from Academia (host) and other colleges (guest). The first event is a team coding event BlindDate, with each team containing one student from host and one from guest. <b>H</b> host participants and <b>G</b> guest participants have assembled in GridLand. All of them wish to participate in BlindDate.</p>\n\n<p>GridLand is shaped as a <b>K&times;K</b> grid, and each grid point in the grid is specified by a pair of coordinates. The lowermost, leftmost grid point has coordinates (0,0) and therefore the rightmost, uppermost grid point has coordinates (<b>K, K</b>). The grid points are connected by roads that run north-south and east-west along the edges of the grid, so that he distance between two grid points (p,q) and (r,s) is the Manhattan distance between them (= |p-r| + |q-s|). Each participant initially stands on a grid point (more than one participant can stand on the same grid point) and the game will finally be played in the Arena which is located at the grid point (<b>K, K</b>).</p>\n\n<p>Professor BitGuy is organizing BlindDate and he will decide the teams. Once the teams are formed, the host member moves to the guest member, picks him or her up, and they both move towards the Arena. A participant can be a member of only one team. Every host participant moves with a unit speed towards the designated guest member of her team along the roads, and both of them then move with unit speed to the arena along the roads.</p>\n\n<p>Prof. BitGuy has to form the teams at time <i>t</i> = 0 in a manner such that the competition can start at a given positive integer time <b>C</b>. Assume that the team formation takes no time. What is the maximum number of teams BitGuy can form?</p>\n\n\n<h3>Input</h3>\n<p>The first line contains the number of test cases, <b>N</b> (0 &lt; <b>N</b> &le; 3).</p>\n\n<p>For each test case, the first line contains the integers <b>H</b> (0 &lt; <b>H</b> &le; 250), <b>G</b> (0 &lt; <b>G</b> &le; 250), <b>K</b> (0 &lt; <b>K</b> &le; 1000) and <b>C</b>. The next <b>H</b> lines contain the x and y coordinates (in that order, separated by one or more spaces) of the host participants. The next <b>G</b> lines contain the x and y coordinates (in that order, separated by one or more spaces) of the guest participants. All coordinates are integers.</p>\n\n\n<h3>Output</h3>\n<p>For each test case, print the case number, followed by a colon, followed by a single space, followed by a single integer indicating the maximum number of teams that can be formed</p>\n\n\n<h3>Sample Input</h3>\n<pre>\n2 \n5 5 50 87 \n1 2 \n2 12 \n3 22 \n1 32 \n2 42 \n10 10 \n10 12 \n10 20 \n20 33 \n20 42 \n3 4 20 28 \n5 5 \n6 7 \n8 10 \n17 1 \n17 18 \n18 18 \n19 19\n</pre>\n\n\n<h3>Sample Output</h3>\n<pre>\nCase 1: 4\nCase 2: 2\n</pre>",
+    "category_name": "main",
+    "date_added": "18-12-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/KGP14F",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1419424200,
+        "end_date": 1419442200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1419442200,
+        "submit_start_date": 1419424200,
+        "current": 1537437049
+    },
+    "user": {
+        "username": ""
+    }
+}

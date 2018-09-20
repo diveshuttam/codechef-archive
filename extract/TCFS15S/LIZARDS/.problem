@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Lizards are weird creatures. Not only are they afraid of bigger animals, they even get afraid when they see some other lizard staring at them.</p>\n<p> <b>N</b> lizards are standing in a line, each of them is either facing left or right. A pair of indices <b>(i,j)</b> (i &lt; j) is called an <i>afraid pair</i> if lizard at index i is facing right, and lizard at index j is facing left. </p>\n<p> <b>Q</b> queries are given, each query represented by two integers l and r (0 \u2264 l \u2264 r &lt; N). Query <b>l r</b> means flip direction of the lizards which have indices between l and r, inclusive. E.g., if the arrangement was LRRL then after query <b>1 3</b> it becomes LLLR. </p>\n<p> After each query, print the number of <i>afraid pairs</i> in the arrangement.</p>\n<h3>Input Description</h3>\n<p>First line contains single integer N<br />Next line contains N characters, each being either L or R. L means lizard facing left, R means facing right<br />Next line has a single integer Q, the number of queries<br />Next Q lines each has 2 space separated integers l and r<br /></p>\n<h3>Output Description</h3>\n<p>For each query print the number of <i>afraid pairs</i> in the arrangement of lizards.<br /></p>\n<h3>Constraints</h3>\n<p>1\u2264N\u226480000,<br /><br />\n1\u2264Q\u226480000<br /></p>\n<h3>Example</h3>\n<p><b>Input:</b> <br /><br />\n4<br />LRRL<br />1<br />2 3<br /></p>\n<p><b>Output:</b> <br /><br />\n1<br /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-08-2014",
+    "is_direct_submittable": false,
+    "contest_name": "TechFest 2015, Screening round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1413124200,
+        "end_date": 1413140400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1724129867,
+        "submit_start_date": 1413124200,
+        "current": 1537437348
+    },
+    "problem_author_html_handle": "techfest2k15",
+    "problem_name": "Weird Lizards",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/techfest2k15'>techfest2k15</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "techfest2k15",
+    "contest_code": "TCFS15S",
+    "max_timelimit": "3",
+    "problem_code": "LIZARDS"
+}

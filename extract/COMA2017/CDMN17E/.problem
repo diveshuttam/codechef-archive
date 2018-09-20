@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>The universe is in trouble and only flash and cisco can save it , but they need your help doing it.\nThe universe is composed of <b>N</b> planets numbered from <b>1</b> to <b>N</b> and each planet has <b>N</b> residents on it. The planets are connected to each other by a network of exactly <b>(N-1)</b> bridges and all the planets are definitely connected through the bridges.  All the bridges have their individual lengths. Although , flash when travelling alone does not require any time to travel around the universe or through the bridges, when travelling with any person , the flash takes time equal to the length of the bridge to cross a bridge. Also , as flash is fast but not very strong , so he can carry only one person at a time. Cisco has a special power by which he can reduce the length of exactly <b>K</b> bridges to <b>0</b> , i.e. , even when travelling with a person ,  the flash will not take any time in crossing the bridge..</p> \n<p>In order to save the universe ,Flash needs to make an arrangement such that , on every planet there must be exactly <b>1</b> resident of each planet present. He can carry one individual at a time across bridges between the planets .</p>\n<p>Given the above constraints , flash needs your help in finding out the minimum time required to save the universe.</p><p></p>\n\n\n<h3>Input</h3>\n<p>\nThe first line of the input contains two space separated integer <b>N</b> and <b>K</b>.<br />\nNext <b>N-1</b> line contains <b>3</b> space-separated integers <b>u</b>,<b>v</b>,<b>d</b> where <b>u</b> and <b>v</b> denotes the planet and <b>d</b> denotes the length of bridge connecting them.<br />\n</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n\n<p>Output a single integer denoting the minimum time in which flash can save the universe.</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>K</b> < <b> N </b> \u2264 <b> 100000</b></li><br />\n<li><b>0</b> \u2264 <b>d</b> \u2264 <b>1000</b></li><br />\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4 1\n1 2 3\n1 3 4\n1 4 2\n\n<b>Output:</b>\n30\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<pre>CIsco will reduce the length of bridge between planet <b>1</b> and planet <b>3</b> to <b>0</b> .\n\nNow Time for transfering people from planet <b>1</b> is \n<b>time</b>(<b>1</b> to <b>2</b>) = <b>3</b>\n<b>time</b>(<b>1</b> to <b>3</b>) = <b>0</b>\n<b>time</b>(<b>1</b> to <b>4</b>) = <b>2</b>\n\nTime for transfering people from planet <b>2</b> is \n<b>time</b>(<b>2</b> to <b>1</b>) = <b>3</b>\n<b>time</b>(<b>2</b> to <b>3</b>) = <b>3</b>\n<b>time</b>(<b>2</b> to <b>4</b>) = <b>5</b>\n\nTime for transfering  people from planet <b>3</b> is \n<b>time</b>(<b>3</b> to <b>1</b>) = <b>0</b>\n<b>time</b>(<b>3</b> to <b>2</b>) = <b>3</b>\n<b>time</b>(<b>3</b> to <b>4</b>) = <b>2</b>\n\nTime for transfering people from planet <b>4</b> is \n<b>time</b>(<b>4</b> to <b>1</b>) = <b>2</b>\n<b>time</b>(<b>4</b> to <b>2</b>) = <b>5</b>\n<b>time</b>(<b>4</b> to <b>3</b>) = <b>2</b>\n\nTotal time taken : 30\n</pre>\n<p></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-02-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Codemania",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1487691000,
+        "end_date": 1487701800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1487701800,
+        "submit_start_date": 1487691000,
+        "current": 1537434123
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>shub1718</span>",
+    "problem_name": "Flash the Saviour",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shub1718'>shub1718</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shub1718",
+    "contest_code": "COMA2017",
+    "max_timelimit": "1",
+    "problem_code": "CDMN17E"
+}

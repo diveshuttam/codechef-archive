@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<h1>PostFix Instructions to Assembly Code</h1>\n<p>A very famous company requires a backend for a translator for a Simplified Instructional Computer.<br> Input to the translator will be arithmetic expressions in postfix form and the output will be assembly language code.<br>\n\nA single register will be present in the target machine along with the following instructions, where the operand is either an identifier or a storage location.<br>\n<pre>\n    L -- load the operand into the register\n    A -- add the operand to the contents of the register\n    S -- subtract the operand from the contents of the register\n    M -- multiply the contents of the register by the operand\n    D -- divide the contents of the register by the operand\n    N -- negate the contents of the register\n    ST -- store the contents of the register in the operand location\n</pre>\nThe contents of the register are replaced with the expression result by an arithmetic operation. <br>Assembler allocates temporary storage locations for an operand of the form \"$n\" where n is a single digit.\n</p>\n\n<h3>Input</h3>\n<p>The input file consists of several legitimate postfix expressions, each on A separate line. Expression operands are single letters and operators are the normaL arithmetic operators (+, -, *, /) </p>\n\n<h3>Output</h3>\n<pre>Output must be assembly language code that meets the following requirements:\n\n   1. One instruction per line with the instruction mnemonic separated from the operand (if any) by one blank.\n   2. One blank line must separate the assembly code for successive expressions.\n   3. The originaL order of the operands must be preserved in the assembly code.\n   4. Assembly code must be generated for each operator as soon as it is encountered.\n   5. As few temporaries as possible shouL be used (given the above restrictions).\n   6. For each operator in the expression, the minimum number of instructions must be generated (given the above restrictions). \n</pre>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\nAB+CD+EF++GH+++\nAB+CD+-\n\n<b>Output:</b>\nL A\nA B\nST $1\nL C\nA D\nST $2\nL E\nA F\nA $2\nST $2\nL G\nA H\nA $2\nA $1\n\nL A\nA B\nST $1\nL C\nA D\nN\nA $1\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-09-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Insomnia 2010",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1283538600,
+        "end_date": 1283625000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180194,
+        "submit_start_date": 1283538600,
+        "current": 1537439539
+    },
+    "problem_author_html_handle": "xpurgate",
+    "problem_name": "Problem2",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/xpurgate'>xpurgate</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "xpurgate",
+    "contest_code": "INSOMNIA",
+    "max_timelimit": "6",
+    "problem_code": "AX02"
+}

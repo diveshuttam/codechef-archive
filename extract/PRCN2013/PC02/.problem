@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0You are provided with the following road map : </p>\n<p><img src=\"/download/extimages/1fe6c29ea19b2491abe2d604678f6acd.png\" alt=\"Road Map\" /></p>\n<p>Every intersection of a path has a red light on it i.e: points marked A, B, C, D, E, F, G, H, I, J, K, etc. have a red light. The red light stoppage time and the time that the car takes to travel each section of the road will be provided as input. Assuming that there is only one car on the entire map and the car has to stop at EVERY RED LIGHT (for the amount of time specified) you need to find the shortest time the car will take to reach from source to destination. The time for which the car stops at the first red light has to be included in the final answer. The time for which the car stops at the last red light is NOT supposed to be included in the final answer. For example, if the source is A and the destination is B, the final answer will include the amount of time the car stops at A but not at B.\n</p>\n<p><br /></p>\n<h3>Input</h3>\n<p>First line of the input contains number of test cases T.<br /><br />\nFirst fifteen lines of each test case consists of one integer each denoting the time for which the car has to stop at each red light in alphabetical order (i.e. 1st number would denote the stoppage-time at A, 2nd at B and so on). It will be followed by twenty-six lines, each containing two alphabets and one integer. The integer denotes the time taken by the car to cover the distance between the stretch of the road specified by the two alphabets. This is followed by two lines each containing a single alphabet which specifies the source (S) and destination (D) of the car.<br />\n<br /></p>\n<h3>Output</h3>\n<p>The MINIMUM amount of time taken for the car to travel from the source to destination.<br />\n<br /></p>\n<h3>Constraints</h3>\n<p>1 \u2264 T \u2264 50, where T is the number of Test Cases<br /><br />\n0 \u2264 S \u2264 1000, where S denotes the red light stoppage time at any intersection (A, B, C, etc.)<br /><br />\n1 \u2264 R \u2264 1,000, where R is the time taken by the car to cover the distance between a stretch of road (like from A to H)<br />\n<br /></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n5\n10\n10\n5\n10\n5\n10\n5\n10\n5\n10\n5\n10\n5\n10\nA C 100\nC D 100\nD E 10\nE F 100\nF B 115\nB L 10\nL M 120\nM N 10\nN I 10\nI H 10\nH A 10\nA G 100\nC G 150\nD G 100\nO G 120\nK G 120\nJ G 110\nI G 130\nH G 120\nM J 10\nL K 100\nF O 100\nI J 115\nJ K 100\nK O 170\nO D 130\nA\nJ\n\n<b>Output:</b>\n85\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-08-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Procon 2013",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1376640000,
+        "end_date": 1376647200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1376647200,
+        "submit_start_date": 1376640000,
+        "current": 1537438236
+    },
+    "problem_author_html_handle": "procon_13",
+    "problem_name": "Road Map",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/procon_13'>procon_13</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "procon_13",
+    "contest_code": "PRCN2013",
+    "max_timelimit": "0.1",
+    "problem_code": "PC02"
+}

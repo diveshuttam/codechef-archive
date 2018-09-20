@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Santa loves trees . So Banta gifted him a tree having <b>N</b> nodes numbered from <b>1</b> to <b>N</b> on his birthday .Santa has recently learnt how to calculate diameter of a tree . <b>Diameter of a tree is defined as the longest path in a tree . The length of a path between 2 nodes u and v is defined as the number of edges in the path between u and v .</b>Being inquisitive , he wonders what is the maximum value of diameter of the all trees in the forest formed if each node is removed . Can you help him solve this ?<br><br>\n<b>NOTE</b> : When a node is removed , all edges having the node as one end point is also removed . The removal is temporary . When considering removal of next node, all previous removals are not taken into consideration.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p></p>\n\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n\n<li> The first line of each test case starts with a number <b>N</b> - the number of nodes in the tree .The next <b>N-1</b> lines contain  2 integers <b> u</b> and <b>v</b> denoting there is a edge between u and v in the tree.</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>Output description.</p>\n<ul>\n<li>For each testcase i ,output N<sub>i</sub> space seperated numbers where j<sup>th</sup> number represents the required answer when j<sup>th</sup> node is removed from the tree.</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> <= <b>N</b> <= <b>100000</b></li>\n<li><b>1</b> <= <b>u,v</b> <= <b>N</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Subtasks </h3>\n<ul>\n<li>Subtask 1 : N <= 1000 ( 30 points )</li>\n<li>Subtask 2 : N <= 100000 ( 70 points ) </li>\n</ul>\n<p></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n5\n1 2\n1 3\n3 4\n3 5\n\n<b>Output:</b>\n2 2 1 3 3\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b><br>If node 1 is removed , we get 2 trees {2} and {3,4,5} .The maximum diameter is of tree {3,4,5} and the diameter is 3-3-5  of length 2 . Similarly when node 2 is removed , we get only one tree {1,3,4,5} and the diameter is again of length 2 (1-3-4 or 1-3-5 or 4-3-5).When node 3 is removed , we get {1,2}, {4} and {5} .So the diameter is 1 in this case . On removing node 4 , we get the tree {1,2,3,5} having diameter 3 .On removing node 5 the tree is {1,2,3,4} having diameter 3.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-04-2017",
+    "is_direct_submittable": false,
+    "contest_name": "May LoC Competitive Programming Marathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1495823400,
+        "end_date": 1496082540,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1496082540,
+        "submit_start_date": 1495823400,
+        "current": 1537433841
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>pparwal12</span>",
+    "problem_name": "Diameter of Tree",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pparwal12'>pparwal12</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pparwal12",
+    "contest_code": "LOCMAY17",
+    "max_timelimit": "2",
+    "problem_code": "DTREE"
+}

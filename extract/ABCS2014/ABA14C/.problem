@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>Statement</b><br /><br />\nThe super annoying flappy bird is back! This time it has variations. The distance  between each pipe, width of each pipe and the gap width of each pipe is not uniform. Consider the world as a 2D plane, the initial position of the flappy bird is given (x, y) also, for a unit distance horizontally, flappy bird can move at most M distance vertically. There will be N pipes ahead of flappy bird. All the pipes are vertically straight and all the gaps are horizontal. For each pipe four integers x1, x2, y1, y2 are given. x1 and x2 give x-coordinates of the width of the pipe, y1 and y2 give the y-coordinates of the width of the gap. If the bird touches the pipe or the ground, the game is over. You have to find the maximum score that can be obtained considering the bird flies optimally.<br /><br /></p>\n<p><b>Note:</b> <br /><br />\n1. Score is the number of pipes crossed successfully.<br /><br />\n2. All the values are integers, no floating point values are used to represent the points and distance travelled vertically also must be an integer. <br /><br />\n3.Since the value M is the distance it can move atmost vertically, it can choose not to move vertically at all at any instant. </p>\n<p><br /><br /><br />\n<b>Constraints:</b><br /><br />\n1 &lt; T &lt; 100<br /><br />\n0 &lt; x, y &lt;= 10^9<br /><br />\n0 &lt;= x1, x2, y1, y2 &lt;= 10^9; x1 &lt; x2 and y1 &lt; y2<br />\nalso, all the x values are given in non decreasing order. i.e. i-th pipe is always to the right of (i-1)th pipe <br /><br />\n1 &lt;= N &lt;= 1000<br /><br />\n1 &lt;= M &lt;= 10^9<br /><br />\n<br /><br />\n<b>Input</b><br /><br />\nFirst line contains T the number of test cases.<br /><br />\nFor each test case, 1st line contains four integers x, y, M and N.<br /><br />\nN lines follow each containing 4 integers x1, x2, y1, y2<br /><br /></p>\n<p><b>Output:</b><br /><br />\nFor each test case print a single integer, denoting the maximum score that can be obtained followed by a new line. <br /><br /></p>\n<p><b>Sample Input:</b> <br /><br />\n1<br /><br />\n1 2 1 4<br /><br />\n2 4 2 4<br /><br />\n5 7 2 5<br /><br />\n8 9 4 7<br /><br />\n11 12 8 9<br /><br />\n<br /><b>Sample Output:</b><br /><br />\n3<br /><br /></p>\n<p><img border=\"0\" src=\"/download/extimages/6d76ff177e492d69f72d32008b886211.png\" alt=\"Flappy\" width=\"500\" height=\"400\" /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-03-2014",
+    "is_direct_submittable": false,
+    "contest_name": "aBaCUS'14",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1394893800,
+        "end_date": 1394906400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1394906400,
+        "submit_start_date": 1394893800,
+        "current": 1537437701
+    },
+    "problem_author_html_handle": "abacus_opc",
+    "problem_name": "Flappy Bird",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abacus_opc'>abacus_opc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abacus_opc",
+    "contest_code": "ABCS2014",
+    "max_timelimit": "0.5",
+    "problem_code": "ABA14C"
+}

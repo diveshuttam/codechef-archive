@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>I guess the most visited site of the past 3 months is <a href=\"http://www.cricinfo.com\" title=\"www.cricinfo.com\">www.cricinfo.com</a>. First World Cup Cricket, then Australia tour to Bangladesh and now IPL T20. I believe there are lots of cricket fans among you. So I do not need to describe the game rule. But for the purpose of this problem here is short description of scoring. Any rule out of this problem description is not applicable for this problem.</p>\n<p>For this problem we will use only the following outcomes in a ball:<br />\n<br/></br/></p>\n<style type=\"text/css\">\n.cricinfotable td\n{\n   border: 1px solid #000;\n   padding:3px;\n}\n</style><table class=\"cricinfotable\" cellspacing=\"\" cellpadding=\"5\" border=\"1\">\n<tr>\n<th>Possible Outcome in a Ball</th>\n<th>Runs</th>\n<th>Is the Ball valid?</th>\n</tr>\n<tr>\n<td>. (dot)</td>\n<td>0</td>\n<td>Yes</td>\n</tr>\n<tr>\n<td>1</td>\n<td>1</td>\n<td>Yes</td>\n</tr>\n<tr>\n<td>2</td>\n<td>2</td>\n<td>Yes</td>\n</tr>\n<tr>\n<td>3</td>\n<td>3</td>\n<td>Yes</td>\n</tr>\n<tr>\n<td>4</td>\n<td>4</td>\n<td>Yes</td>\n</tr>\n<tr>\n<td>6</td>\n<td>6</td>\n<td>Yes</td>\n</tr>\n<tr>\n<td>Wd</td>\n<td>1</td>\n<td>No</td>\n</tr>\n<tr>\n<td>1Wd</td>\n<td>2</td>\n<td>No</td>\n</tr>\n<tr>\n<td>2Wd</td>\n<td>3</td>\n<td>No</td>\n</tr>\n<tr>\n<td>4Wd</td>\n<td>5</td>\n<td>No</td>\n</tr>\n<tr>\n<td>Nb</td>\n<td>1</td>\n<td>No</td>\n</tr>\n<tr>\n<td>1Nb</td>\n<td>2</td>\n<td>No</td>\n</tr>\n<tr>\n<td>4Nb</td>\n<td>5</td>\n<td>No</td>\n</tr>\n<tr>\n<td>6Nb</td>\n<td>7</td>\n<td>No</td>\n</tr>\n<tr>\n<td>W</td>\n<td>0</td>\n<td>Yes</td>\n</tr>\n</table>\n<p></p>\n<p>(<b>Wd</b> stands for <b>Wide</b>, <b>Nb</b> for <b>No Ball</b> and <b>W</b> for <b>Wicket</b>)<br />\n</p>\n<p>In cricinfo we always watch the score card. In cricket an over consists of <b>6 valid balls</b>. A score card of an over may look like below:</p>\n<table class=\"cricinfotable\">\n<tr>\n<td>1</td>\n<td>.</td>\n<td>W</td>\n<td>.</td>\n<td>Wd</td>\n<td>Nb</td>\n<td>.</td>\n<td>6</td>\n</tr>\n</table>\n<p>In this over there were <b>1</b> wicket and <b>9</b> runs. In the last over of second innings of a match, a team requires N runs to win. You are to output number of ways of the outcome of the over. Note that, as you are watching second innings of the match, so it may be possible that he can score <b>N</b> runs in first 4 balls and win the match. That means, it is not necessary to play an entire over to score <b>N</b> runs. Also suppose you do not know how many wickets are already gone. So it may also be possible that after a few wicket falls they are all out. Also note that, if a team scores greater or equal to <b>N</b> runs the team wins and does not play any ball.</p>\n<h3>Input</h3>\n<p>First line contains number of test case <b>T (T &lt;= 10000)</b>. For each test a line contains <b>N<br />\n(1 &lt;= N &lt;= 10000)</b>.</p>\n<h3>Output</h3>\n<p>For every test case, output the case number and number of ways of outcome of the <b>last</b> over where the team needs N runs to win. As the answer can be very big, so output in mod <b>10000007</b>.</p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n1\n1\n\n<b>Output:</b>\nCase 1: 946\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-10-2011",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Kanpur Site First Round Online Contest",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1319878800,
+        "end_date": 1319886000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1319886000,
+        "submit_start_date": 1319878800,
+        "current": 1537439099
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "CricInfo",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "ACMKAN11",
+    "max_timelimit": "0.7684",
+    "problem_code": "CRICINFO"
+}

@@ -1,0 +1,134 @@
+{
+    "announcements": "<p><b>26/10/2014, 11:00 IST: </b>The official school rankings for the contest can be found\u00a0<a href=\"/rankings/inst/school/LTIME17\" target=\"_blank\">here</a>. Overall rankings can be viewed\u00a0<a href=\"/rankings/inst/LTIME17\" target=\"_blank\">here</a>.</p>",
+    "ip": "149.129.135.113",
+    "code": "LTIME17",
+    "duration": "180",
+    "name": "October Lunchtime 2014",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "HEADBOB": [
+            {
+                "score": "40",
+                "count": "12"
+            },
+            {
+                "score": "60",
+                "count": "2"
+            },
+            {
+                "score": "100",
+                "count": "1495"
+            }
+        ],
+        "CSS2": [
+            {
+                "score": "20",
+                "count": "72"
+            },
+            {
+                "score": "30",
+                "count": "29"
+            },
+            {
+                "score": "50",
+                "count": "167"
+            },
+            {
+                "score": "100",
+                "count": "348"
+            }
+        ],
+        "ANDTUPLE": [
+            {
+                "score": "20",
+                "count": "29"
+            },
+            {
+                "score": "100",
+                "count": "58"
+            }
+        ],
+        "PHYSICS": [
+            {
+                "score": "40",
+                "count": "170"
+            },
+            {
+                "score": "60",
+                "count": "2"
+            },
+            {
+                "score": "100",
+                "count": "261"
+            }
+        ]
+    },
+    "rules": "<div><b>The October Lunchtime 2014 has ended!</b></div> <div><b>The editorials for the contest can be found\u00a0<a href=\"http://discuss.codechef.com/tags/ltime17\" target=\"_blank\">here</a>.</b></div> <div><b>The problems have been moved to practice section.</b></div> <div><b>Solutions are public for all problems.</b></div> <div><b>Winners Blog Post can be found <a href=\"http://blog.codechef.com/2014/12/25/the-october-contests-report/\">here</a>.</b></div> <div><b><br /></b></div> <p><b>Rules and Regulations:</b></p> <p>\u00a0</p> <div></div> <div>This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test data.</div> <div> <ul> <li>The details of the failed test cases will also be visible on your solution page.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The contest is meant for students of high school and middle school though everyone is invited to participate.</li> <li>There will be separate ranking page for school students. The school students will be identified by the inistitution that they have enetered in their profile.</li> <li><b>We have removed all the Institutions that we could not identify from our database. We request you to update your institutions once again by going to your profile page.</b></li> <li>You can also send in your queries in an email to\u00a0<a href=\"mailto:contest-admin@codechef.com\" target=\"_blank\">contest-admin@codechef.com</a>, during the contest.</li> <li>Contest problems will become visible on October 26th, 2014 at 11:00 am (IST) to 2:00 pm (IST). There will be 4 problems in all. Check your time zone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+October+Lunch+Time+2014&amp;iso=20141026T11&amp;p1=44&amp;ah=3\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\" target=\"_blank\">feedback@codechef.com</a></li> <li>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>All participants are expected to abide by the\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a>.</li> </ul> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/LTIME17/1424957947.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "HEADBOB": {
+            "allow_submission": false,
+            "name": "Tanu and Head-bob",
+            "category_name": "main",
+            "accuracy": 58.48,
+            "successful_submissions": "1495",
+            "code": "HEADBOB",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CSS2": {
+            "allow_submission": false,
+            "name": "Cascading Style Sheets",
+            "category_name": "main",
+            "accuracy": 21.89,
+            "successful_submissions": "348",
+            "code": "CSS2",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "ANDTUPLE": {
+            "allow_submission": false,
+            "name": "And Tuples",
+            "category_name": "main",
+            "accuracy": 12.82,
+            "successful_submissions": "58",
+            "code": "ANDTUPLE",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "PHYSICS": {
+            "allow_submission": false,
+            "name": "Physics Class",
+            "category_name": "main",
+            "accuracy": 8.51,
+            "successful_submissions": "261",
+            "code": "PHYSICS",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1414312200,
+        "current": 1537437299,
+        "freezing": 0,
+        "start": 1414301400
+    },
+    "user": {
+        "username": ""
+    }
+}

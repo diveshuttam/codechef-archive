@@ -1,0 +1,158 @@
+{
+    "announcements": "<ul>\r\n<li><b>12:15 PM IST</b> : The official rankings for the contest can be found <a href=\"/rankings/LTIME23\">here</a>. </li>\r\n</ul>",
+    "ip": "149.129.135.113",
+    "code": "LTIME23",
+    "duration": "180",
+    "name": "April Lunchtime 2015",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "TICKETS5": [
+            {
+                "score": "50",
+                "count": "89"
+            },
+            {
+                "score": "100",
+                "count": "705"
+            }
+        ],
+        "HCLEAN": [
+            {
+                "score": "7",
+                "count": "7"
+            },
+            {
+                "score": "9",
+                "count": "3"
+            },
+            {
+                "score": "16",
+                "count": "2"
+            },
+            {
+                "score": "22",
+                "count": "2"
+            },
+            {
+                "score": "29",
+                "count": "3"
+            },
+            {
+                "score": "100",
+                "count": "68"
+            }
+        ],
+        "XETF": [
+            {
+                "score": "7",
+                "count": "39"
+            },
+            {
+                "score": "10",
+                "count": "15"
+            },
+            {
+                "score": "17",
+                "count": "23"
+            },
+            {
+                "score": "38",
+                "count": "2"
+            },
+            {
+                "score": "45",
+                "count": "31"
+            },
+            {
+                "score": "100",
+                "count": "5"
+            }
+        ],
+        "PALPROB": [
+            {
+                "score": "15",
+                "count": "6"
+            },
+            {
+                "score": "23",
+                "count": "1"
+            },
+            {
+                "score": "38",
+                "count": "134"
+            },
+            {
+                "score": "100",
+                "count": "3"
+            }
+        ]
+    },
+    "rules": "<div> <div><b>The April LunchTime 2015 has ended!</b></div> <div><b>The editorials for the contest can be found\u00a0<a href=\"http://discuss.codechef.com/tags/ltime23\" target=\"_blank\">here</a>.</b></div> <div><b>The problems have been moved to practice section.</b></div> <div><b>Solutions are public for all problems.</b></div> <div><b>Winners Blog Post will be updated soon.</b></div> </div> <div></div> <div></div> <div><b>Rules and Regulations:</b></div> <p>\u00a0</p> <div></div> <div>This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test data.</div> <div> <ul> <li>The details of the failed test cases will also be visible on your solution page.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The contest is meant for students of high school and middle school though everyone is invited to participate.</li> <li>There will be separate ranking page for school students. The school students will be identified by the inistitution that they have enetered in their profile.</li> <li><b>We have removed all the Institutions that we could not identify from our database. We request you to update your institutions once again by going to your profile page.</b></li> <li>You can also send in your queries in an email to\u00a0<a href=\"mailto:contest-admin@codechef.com\" target=\"_blank\">contest-admin@codechef.com</a>, during the contest.</li> <li>Contest problems will become visible on April 26th, 2015 at 11:00 am (IST) to 2:00 pm (IST). There will be 4 problems in all. Check your time zone\u00a0<a target=\"_self\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+April+Lunchtime+2015&amp;iso=20150426T11&amp;p1=44&amp;ah=3\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\" target=\"_blank\">feedback@codechef.com</a></li> <li>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>All participants are expected to abide by the\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a>.</li> </ul> <b>Note: You can now \u201cCode, Compile, and Run\u201d your codes on our newly launched IDE\u00a0<a href=\"/ide\">here</a>.\u00a0<br /><br />However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. </b><b>If you use\u00a0<a href=\"http://ideone.com/\" target=\"_blank\">Ideone</a>, make sure to mark your submission \"private\" (not secret)\".</b></div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/LTIME23/1429715276.png",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "HCLEAN": {
+            "allow_submission": false,
+            "name": "House Cleaning",
+            "category_name": "main",
+            "accuracy": 25.63,
+            "successful_submissions": "68",
+            "code": "HCLEAN",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "XETF": {
+            "allow_submission": false,
+            "name": "Euler Totient Function Extended",
+            "category_name": "main",
+            "accuracy": 0.43,
+            "successful_submissions": "5",
+            "code": "XETF",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "TICKETS5": {
+            "allow_submission": false,
+            "name": "Tickets",
+            "category_name": "main",
+            "accuracy": 30.85,
+            "successful_submissions": "705",
+            "code": "TICKETS5",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "PALPROB": {
+            "allow_submission": false,
+            "name": "Palindromeness",
+            "category_name": "main",
+            "accuracy": 0.6,
+            "successful_submissions": "3",
+            "code": "PALPROB",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1430037000,
+        "current": 1537436336,
+        "freezing": 0,
+        "start": 1430026200
+    },
+    "user": {
+        "username": ""
+    }
+}

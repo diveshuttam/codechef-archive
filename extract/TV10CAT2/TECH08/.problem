@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Given N,A,B,C, find how many solutions exist to the equation:\n</p>\n<p> a + b + c <= N, \n</p>\n<p>such that 0 <= a <= A, 0 <= b <= B, 0 <= c <= C.\n</p>\n\n<h3>Input</h3>\n<p>\nThe first line contains the number of test cases T. Each test case contains 4 integers, N,A,B,C. 0 <= N,A,B,C <= 2500\n</p>\n\n<h3>Output:</h3>\n<p>Output T lines, one for each test case.</p>\n\n<h3>Example</h3>\n\n<pre>\nSample Input :\n2\n4 3 2 1\n1 1 1 1\n\nSample Output :\n20\n4\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Technovanza",
+    "languages_supported": "C, JAVA, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1263742200,
+        "end_date": 1263749400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1733529468,
+        "submit_start_date": 1263742200,
+        "current": 1537439818
+    },
+    "problem_author_html_handle": "technovanza10",
+    "problem_name": "A Simple Equation",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/technovanza10'>technovanza10</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "technovanza10",
+    "contest_code": "TV10CAT2",
+    "max_timelimit": "0.896364",
+    "problem_code": "TECH08"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>Problem Background</b></p>\n<p>26 September 1983 : Soviet Union Early Warning Satellite Systems have just detected that the United States has launched a Nuclear Intercontinental Ballistic Missile towards them. Stanislav Petrov, a lieutenant colonel in the Soviet Air Defense Forces stationed at the Serpukhov-15 bunker near Moscow, erroneously concluding (thus diverging from real history) that World War 3 has started, triggers emergency protocols for a retaliatory strike in accordance with the strategy of mutually assured destruction.</p>\n<p><br /><br /></p>\n<p><b>Problem Statement</b></p>\n<p>Given the coordinates of the Soviet Missile Silo, and those of the target (typically in the NATO territory) both of which are on the surface of the Earth, your task is to determine the total distance that the missile will need to cover before reaching the target. The missile follows a trajectory along the circumference of a circle, reaching its maximum height (above the Earth's surface) when the missile has covered exactly half the distance from the source to the target.</p>\n<p><br /><br /></p>\n<p><b>Input/Output Specifications</b></p>\n<p>Each line of input will contain 1 test case, consisting of 5 integers: x<sub>1</sub>, y<sub>1</sub>, x<sub>2</sub>, y<sub>2</sub> &amp; z. (x<sub>i</sub>,y<sub>i</sub>) are the coordinates (latitude and longitude in degrees) of the source (i=1) &amp; target (i=2). z is the maximum height (in kilometers, 0&lt;=h&lt;2000) above the Earth's Surface that the missile can reach. Keep reading input till EOF.</p>\n<p>Corresponding to each test case, output 1 line, containing the total distance that the missile will cover on its trajectory from the source to the target. The output value should be in kilometers and contain only 3 digits beyond the decimal point.</p>\n<p>Note : Radius of the Earth = 6,371 km</p>\n<p><br /><br /></p>\n<p><b>Sample Input</b></p>\n<p><code style=\"background:#eee; display:block; padding:4px;\"><br />\n0 0 90 0 0<br /><br />\n90 0 0 90 100<br /><br />\n</code></p>\n<p><br /></p>\n<p><b>Sample Output</b></p>\n<p><code style=\"background:#eee; display:block; padding:4px;\"><br />\n10007.543<br /><br />\n10113.592<br /><br />\n</code></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-03-2013",
+    "is_direct_submittable": false,
+    "contest_name": "OverNite 2013",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1363455000,
+        "end_date": 1363465800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1363465800,
+        "submit_start_date": 1363455000,
+        "current": 1537438397
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>transcendence</span>",
+    "problem_name": "Missile",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/transcendence'>transcendence</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "transcendence",
+    "contest_code": "OVRN2013",
+    "max_timelimit": "1",
+    "problem_code": "MISSILE"
+}

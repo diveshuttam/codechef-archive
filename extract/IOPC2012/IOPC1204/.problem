@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">A function <i>f</i> is defined over natural numbers as:</p>\n\n<center><p style=\"font-size:large;\">f(N) = &sum; d<sub>i</sub> &mu;(d<sub>i</sub>)</p></center>\n\n<p align=\"justify\">Here the summation is over d<sub>i</sub>, all positive integers which are factors of N. </p>\n\n<p align=\"justify\"><i>&mu;(n)</i> is the <i><a href=\"http://en.wikipedia.org/wiki/M%C3%B6bius_function\">M&ouml;bius function</a></i> defined in the following way: If there exists a prime <i>p</i> such that <i>p<sup>2</sup></i> is a factor of <i>n</i>, then <i>&mu;(n)=0</i>. Otherwise, if <i>n</i> has an odd number of prime factors, <i>&mu;(n)=-1</i>. If not, <i>&mu;(n)=1</i>. Thus the first few values for <i>&mu;(n)</i> (starting from 1) are 1, -1, -1, 0, -1, 1, -1, 0... </p>\n\n<p align=\"justify\">Given an integer X (0 <= X <= 10<sup>12</sup>), find the smallest natural number N such that |f(N)|>X.</p>\n<h3>Input</h3>\n<p align=\"justify\">The first line of the input contains T, the number of test cases (T <= 1000). Following this are T lines, each containing an integer X (0 <= X <= 10<sup>12</sup>) corresponding to the test case.</p>\n\n<h3>Output</h3>\n<p align=\"justify\">For each test case in the input, output the smallest natural number N such that  |f(N)|>X.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n1\n2\n\n<b>Output:</b>\n3\n5\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-01-2012",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC Techkriti 2012 - IIT Kanpur",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, PAS fpc, PAS gpc, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1326522600,
+        "end_date": 1326609000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1326609000,
+        "submit_start_date": 1326522600,
+        "current": 1537439041
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>razimantv</span>",
+    "problem_name": "A function over factors",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/razimantv'>razimantv</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "razimantv",
+    "contest_code": "IOPC2012",
+    "max_timelimit": "0.192184",
+    "problem_code": "IOPC1204"
+}

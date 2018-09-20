@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">City of Romini is one of the well planned cities of the world. Why? Because road network at Romini is great. The roads in Romini are built in a grid like fashion. Some roads in Romini have stall-walls from which people cannot pass through. One such arrangement of Romini grid road network is given in a figure below <br />\n<img src=\"http://www.csidtu.com/cranium/problem5_1.JPG\" /><br />\n\nThe above network has 5 east to west roads and 3 north to south roads. \u201c#\u201d represents stall-walls. Stall-walls are only present at the intersection point of any two roads.\n<br /><br />\nNooji is spending her holiday in City of Romini. She was amazed by the transport system of Romini. They have a very weird rule of charging fare from commuters. For a travelling distance of any units in either a horizontal direction or a vertical direction, without a stall-wall in between source and destination, they charge 1 Rupa. So suppose Nooji wants to travel from <b>S</b> to <b>D2</b> in above grid network system, she will only have to pay 1 Rupa. But if she wants to travel between <b>S</b> and <b>D1</b>, she will be charged 3 Rupa because she cannot commute through stall-wall and so she will have to go south first one unit (and pay 1 Rupa for it), then travel 3 units east (and pay 1 Rupa for it) and then finally travel 1 unit north to reach <b>D1</b> (and pay 1 Rupa for it). So in total she will have to pay 3 Rupa. \n<br /><br />\nShe is so confused with this system! Being a travel planner for her, can you plan her travel between given source and destination so that she has to pay minimum?\n\n<h3> Note </h3> If Nooji cannot reach destination from source, print 0 as answer.\n\n<h3>Input</h3>\n</p><p align=\"justify\">First line contains <b>T</b>, the no. of test cases. Each test case starts with two integers <b>M</b> and <b>N</b> in the first line, the dimensions of grid road network. Next line contains the integer coordinates of source for Nooji. Next line contains integer coordinates of destination for Nooji. Next <b>M</b> lines contain <b>N</b> characters in each line, the description of Grid road network. Note that all coordinates are 0 indexed based.\n\n<h3>Output</h3>\n</p><p>Output <b>T</b> lines each containing the minimum amount Nooji will have to pay for travelling.\n\n<h3>Constraints</h3>\n</p><p> \nN&lt;=100 <br />\nM&lt;=100<br />\nT&lt;=100<br />\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n4 4\n1 1\n2 2\n....\n..#.\n.#..\n....\n3 5\n1 2 \n0 4\n..##.\n...#.\n.....\n\n\n<b>Output:</b>\n4\n3\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Cranium Contest 2012",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1329831900,
+        "end_date": 1329860700,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1329860700,
+        "submit_start_date": 1329831900,
+        "current": 1537438964
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>abhidce2013</span>",
+    "problem_name": "City of Romini",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhidce2013'>abhidce2013</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abhidce2013",
+    "contest_code": "CRNM2012",
+    "max_timelimit": "0.1",
+    "problem_code": "CRNM1205"
+}

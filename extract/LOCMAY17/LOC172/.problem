@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Vaibhav Tulsyan who is a part of the LOC problem setting panel is so crazy for Pizzas. He's turning 24 years old in this June 2nd. So the other members\nof the group has decided to give him a b'day gift. </p>\n<p>Vaibhav'll be taken to a custom made room, where the room has co-ordinate in it. At multiple points on the co-ordinate axis there'll be a robot. Each robot has 1 slice of Pizza with them. Now since this arrangement was made very quickly, each robot was programmed within 1 hour, since we had to cook other problems for the contest, there're are some bugs in the robots. Each robot could move \"D\" distance from it's current location. But this is not unique among the robots, which was supposed to be unique.</p>\n<p>\nSince we don't have time to debug it, we decided to keep it as it is. So we've asked Vaibhav to choose one location of his choice. Once he chooses his favorite locaiton, the Game begins! Sharp thorns will start sprouting from the surrounding. He can only travel through that straight path which is parallel to X-axis, from the location he has chosen. If he changes his path, he'll get hurt from the thorns. But the robot have the power to move across the throns, they'll travel to Vaibhav and give the Pizaa it has if he's within the radius of \"D\" distance from the robot.Of-course robot can travel in 360 degree. Vaibhav can also collect Pizzas from the robots who are standing on the way in which he's travelling. </p>\n<p>\nNow please help Vaibhav by telling him how many maximum number of pizzas he can collect if he chooses the optimal location to start? </p>\n\n\n<h3>Input</h3>\n<p>The first line of test case contains 2 integers- height and width of the co-ordinate axis, The second line contains an integer N denoting the total  number of robots placed across the coordinate axis. The next N lines contains 3 integers denoting the x-coordinate and y-coordinate of the robot and the distance it can travel from it's current position.</p>\n\n<h3>Output</h3>\n<p>For each of the testcase output the maximum number of pizzas Vaibhav will be able to get from the location he choses. If the value of width and height both equals -1, then the input file ends.</p>\n\n<h3>Constraints</h3>\n<p></p>\n<ul>\n<li><b>1</b> \u2264 <b>Height</b> \u2264 <b>10^9</b></li>\n<li><b>1</b> \u2264 <b>Width</b> \u2264 <b>10^9</b></li>\n<li><b>1</b> \u2264 <b>Total Robots</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>x,y Coordinates</b> \u2264 <b>Width&Breadth</b></li>\n<li><b>1</b> \u2264 <b>Radius</b> \u2264 <b>10^9</b></li>\n</ul>\n<p>\u00a0</p>\n\n\n<h3>Subtasks</h3>\n<p>\n<b>Subtask #1 : (20 points)</b>\n<ul>\n<b>\n<li><b>1</b> \u2264 <b>Height</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>Width</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>Total Robots</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>x,y Coordinates</b> \u2264 <b>Width&Breadth</b>\n<li><b>1</b> \u2264 <b>Radius</b> \u2264 <b>100</b></li>\n\n</b>\n</ul>\n</p>\n\n<p>\n<b>Subtask 2 : (80 points) </b><br>\n<ul>\n<b>\nOrginal Constraints\n</b>\n</ul>\n</p>\n\n<h3>Example</h3>\n\n<pre><b>Input:</b>\n5 5\n3\n1 1 1 \n2 2 2\n3 3 3 \n5 10\n2\n1 1 1\n5 5 1\n-1 -1\n<b>Output:</b>\n3\n1\n\n</pre>\n<h3>Explanation</h3>\n<p>In the first test case, if he choose to start from the location (1,1)\n he'll get the pizzas from all the robots. Since he can collect the pizza from robot (1,1) while moving, robot at (2,2) and robot at (3,3) has the power to move distance 2 and 3 respectively. So they'll be able to bring the pizza to him.</p>\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-05-2017",
+    "is_direct_submittable": false,
+    "contest_name": "May LoC Competitive Programming Marathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1495823400,
+        "end_date": 1496082540,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1496082540,
+        "submit_start_date": 1495823400,
+        "current": 1537433842
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>bipin2</span>",
+    "problem_name": "How many Pizzas",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bipin2'>bipin2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bipin2",
+    "contest_code": "LOCMAY17",
+    "max_timelimit": "1",
+    "problem_code": "LOC172"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>ICC is conducting a tournament in which 5 teams compete in one group in Round Robin format meaning that each team will play against all 4 other teams once. Thus each pair of teams will compete against each other once and only once. The top two teams at the end of the round will qualify for the knock out round. There will be a total of 10 matches and each team will play 4 matches. All matches have to be won by a single team and 2 points are awarded for a win. There is no possibility of a tie or no result. In case two teams end up with same points in the table, their position will depend upon the net run rate. In that case many teams (infact all 5 teams) can have a chance to qualify for next round at the end of current round. Our target is to make team \"India\" qualify for the next round by placing it in top 2. Take as input from user the current position of the scorecard and the remaining matches to be played and as an output print on screen the maximum number of matches out of the remaining matches India can afford to lose while still standing with a chance to qualify for the next round.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n\n<p>The first 5 lines of the input will contain the points table entries for the 5 teams in order India (I), Australia (A), Pakistan (P), England (E) and Bangladesh (B) respectively. Each line contains 2 space seperated numbers with first one representing number of matches played and second, number of matches won out of those played matches. Table data entered by the user must be consistent. The next n(&lt;=10) lines of the input contains the remaining matches in the tournament. Each line represents an upcoming match. For example \"PI\" or \"IP\" both represent an upcoming match between India and Pakistan.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n\n<p>The output is a single number which represents maximum number of matches India can lose out of the remaining matches while still having a chance to qualify for the next round. If India just can't qualify, print -1 as output.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>1000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n3 2\n3 1\n4 2\n4 2\n4 2\nAI\n3 1\n2 1\n2 2\n2 0\n3 2\nAE\nPE\nAP\nIB\n3 0\n1 0\n2 2\n2 1\n2 2\nAE\nIB\nAP\nPE\nAB\n\n<b>Output:</b>\n1\n0\n-1\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "30-04-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Gambit 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1399111200,
+        "end_date": 1399123800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1399123800,
+        "submit_start_date": 1399111200,
+        "current": 1537437576
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>gothicprakhar</span>",
+    "problem_name": "ICCProblem",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/gothicprakhar'>gothicprakhar</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "gothicprakhar",
+    "contest_code": "CDSN2014",
+    "max_timelimit": "3",
+    "problem_code": "GMB05"
+}

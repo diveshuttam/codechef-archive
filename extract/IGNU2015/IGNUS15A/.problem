@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Description\u00a0</h3>\n<p>\nThis time Ignus 15 is back with amazing pronites. There are two ways for attending the pronites:<br /><br />\n1. Buy the tickets (Or arrange for a pass).<br /><br />\n2. Crack the entrance door lock.<br /><br />\nAs Timo is on a budget (after Valentines' Day celebration), she can't go for the first option. Help her out with the second way.<br /><br />\nThe problem is simple. The entrance door lock generates four random strings s1, s2, s3 and s4 of the same length n. You must find out the maximum possible length m of any string s so that:<br /><br />\nFor <b>1 &lt;= i &lt;= m</b>,<br />\nthere exist integers <b>a(i)</b>, <b>b(i)</b>, <b>c(i)</b> and <b>d(i)</b> belonging to [1, n] such that:<br /><br />\ns[i] = s1[a(i)] where a(1) &lt; a(2) &lt; a(3) ... &lt; a(m)<br /><br />\ns[i] = s2[b(i)] where b(1) &lt; b(2) &lt; b(3) ... &lt; b(m)<br /><br />\ns[i] = s3[c(i)] where c(1) &lt; c(2) &lt; c(3) ... &lt; c(m)<br /><br />\ns[i] = s4[d(i)] where d(1) &lt; d(2) &lt; d(3) ... &lt; d(m)<br />\n</p>\n<h3>Input</h3>\n<p>First line contains <b>T</b>, the number of test cases.<br /><br />\nEach test cases has <b>5 lines of input</b>, the first line has the number <b>n</b>, length of the generated strings.<br /><br />\nThe other 4 lines of a test case contain strings <b>s1</b>, <b>s2</b>, <b>s3</b> and <b>s4</b> respectively.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each test case, print the value of <b>m</b> in a single line.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>30</b></li>\n<li>All characters in all strings are lowercase English alphabets.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n10\nabcdefghij\nabcdefijgh\nababckjdge    \ncdeabcjdeg\n2\nab\nab\nab\nbb\n3\nabb\naba\nbab\nbab\n\n<b>Output:</b>\n5\n1\n2\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>\n<b>Case 1:</b> abcde or abcdg can be the required string s here. So maximum length is 5<br /><br />\n<b>Case 2:</b> The only possible string is b, therefore maximum length is 1<br /><br />\n<b>Case 3:</b> ab is the only possible string. Hence, maximum length is 2<br />\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "IGNUS",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1424269800,
+        "end_date": 1424280600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1424280600,
+        "submit_start_date": 1424269800,
+        "current": 1537436781
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>bewithaman</span>",
+    "problem_name": "Pronites",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bewithaman'>bewithaman</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bewithaman",
+    "contest_code": "IGNU2015",
+    "max_timelimit": "1",
+    "problem_code": "IGNUS15A"
+}

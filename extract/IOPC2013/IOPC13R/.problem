@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p> 21st century is the internet century. Most part of our life revolves around the internet which keeps people so busy with their work, that they don\u2019t have enough time to find suitable dates for themselves. To help people with this, there is a startup which takes the preferences of people and arranges suitable dates for them.</p>\n<p> To avail this service, girls and boys need to register on their website. Girls give their preferences for their dates among the boys registered on the site. The site then randomly generates pairs of a boy and a girl and sets them on a date. The website chooses a match such that everyone has a date while ensuring that every girl has exactly one boy as her date and every boy has exactly one girl as his date.</p>\n<p> There may be a few girl-boy pairs who may never be matched together by the startup while trying to find <b>exactly one</b> match for everybody. You are asked to output all such girl-boy pairs.</p>\n\n<h3>Input</h3>\n<p>The first line contains a single integer <b>T</b>, the number of test cases.<br />\nThe first line of each test case contains three space separated integers, <b>N<sub>1</sub></b> <b>N<sub>2</sub></b> <b>M</b> where</p>\n<ul>\n<li><b>N<sub>1</sub></b>: The number of girls</li>\n<li><b>N<sub>2</sub></b>: The number of boys</li>\n<li><b>M</b>: The total number of preferences the girls give</li>\n</ul>\n<p>The next <b>M</b> lines are such that each contains two space separated integers <b>A</b> <b>B</b> which means that the girl <b>A</b> would like to date boy <b>B</b>.</p>\n<h3>Output</h3>\n<p>For each test case, in the first line print <b>P</b> the number of girl-boy pairs who will never be able to date, followed by all the pairs, each in one line. Each pair will be output as two space separated integers, <b>i</b> <b>j</b>, where the <b>i<sup>th</sup></b> girl would never be able to date the <b>j<sup>th</sup></b> boy. All the pairs must be reported in the lexicographic order; i.e. report pair <b>i</b> <b>j</b> before <b>k</b> <b>l</b>, when <b>i</b> &lt; <b>k</b> or when <b>i</b> = <b>k</b> and <b>j</b> &lt; <b>l</b>.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N<sub>1</sub></b>, <b>N<sub>2</sub></b> \u2264 <b>500</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>250000</b></li>\n<li><b>1</b> \u2264 <b>A</b> \u2264 <b>N<sub>1</sub></b></li>\n<li><b>1</b> \u2264 <b>B</b> \u2264 <b>N<sub>2</sub></b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n1 1 1\n1 1\n3 3 4\n1 1\n1 2\n2 3\n3 3\n\n<b>Output:</b>\n0\n4\n1 1\n1 2\n2 3\n3 3\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-03-2013",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2013",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1362810600,
+        "end_date": 1362897000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1362897000,
+        "submit_start_date": 1362810600,
+        "current": 1537438453
+    },
+    "problem_author_html_handle": "iopc_admin",
+    "problem_name": "Internet Dating",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/iopc_admin'>iopc_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "iopc_admin",
+    "contest_code": "IOPC2013",
+    "max_timelimit": "0.208835",
+    "problem_code": "IOPC13R"
+}

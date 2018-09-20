@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Bob, a famous foodie of IIT Kanpur, tired of studying, decides to go into catering startup. Bob plans to cater to the offices located in Kanpur. In Kanpur, all the offices are in some or other apartments. Also, the offices in the same building have same lunch time. Bob, being a good negotiator, acquired contracts for round the clock catering from all offices of <strong>N</strong> apartments in the city.<br /><br /></p>\n<p>For the <strong>N</strong> apartments in the city, <strong>i</strong>-th apartment housing <strong>X[i]</strong> offices and and each office is charged <strong>P[i]</strong> rupees every day for catering at their lunch time, i.e., for time <strong>S[i]</strong> to <strong>E[i]</strong>. Each employee in the startup can cater to atmost one office at a time and one employee is enough to complete the catering needs of an office. An employee earns <strong>C</strong> rupees a day. Also, there are <strong>M</strong> one way roads in the city, each motorable by bike. The average speed of bike in Kanpur is <strong>1km per V minutes</strong>. <br /><br /></p>\n<p>Since Bob would want to maximize his profit, he would want to hire minimum number of employees. So, he would send a employee to some office, who after completing his duty, can cater to another office. Thereby, decreasing the number of employees, if possible.<br /><br /></p>\n<p>Now, Alice, a very close friend and business partner of Bob, advises him against catering to a specific apartment <strong>J</strong>. Now Bob cannot refuse her. So, he decided to cater to as many offices of Jth apartment, till his profit does not decrease. Help Bob to find out how many offices of <strong>J</strong>th apartment he would serve and also, the maximum profit that he would reap.<br /><br /></p>\n<h3>Input</h3>\n<p>First line contains <strong>T</strong>, number of test cases.<br /><br />\nEach Test case begins with line containing <strong>N</strong> <strong>M</strong> <strong>J</strong> <strong>C</strong> <strong>V</strong>.<br /><br /><br />\nNext <strong>N</strong> lines follows, each line contain 4 space separated integers,<strong> X[i] S[i] E[i] P[i],</strong>, for the i-th line. <br /><br /><br />\nThe following M lines contain 3 space separated integers each, <strong>I</strong>, <strong>J</strong> and <strong>D<sub>i j</sub></strong>, such that <strong>I</strong> and <strong>J</strong> represent apartments and the distance between them is equal to <strong>D<sub>i j</sub></strong>.</p>\n<h3>Output</h3>\n<p>The output consists of <strong>T</strong> lines.<br /><br />\nFor each test case, print, in different lines, the number of offices catered in apartment <strong>J</strong> and maximum profit that can be earned. <br /><br /></p>\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 T \u2264 5</li>\n<li>1 \u2264 N \u2264 100</li>\n<li>0 \u2264 N \u2264 10</li>\n<li>1 \u2264 C \u2264 10<sup>5</sup></li>\n<li>1 \u2264 X \u2264 10<sup>6</sup></li>\n<li>1 \u2264 S[i] &lt; E[i] \u2264 10<sup>9</sup></li>\n<li>1 \u2264 P[i] \u2264 10<sup>6</sup></li>\n<li>D<sub>i j</sub> \u2264 10<sup>4</sup></li>\n</ul>\n<p><br /></p>\n<h3>Sample Input</h3>\n<p>1<br /><br />\n3 6 1 100 1<br /><br />\n10 40 50 90<br /><br />\n4 15 35 110<br /><br />\n5 10 20 50<br /><br />\n1 2 1<br /><br />\n2 1 1<br /><br />\n1 3 1<br /><br />\n3 1 1<br /><br />\n2 3 1<br /><br />\n3 2 1<br /><br /></p>\n<h3>Sample Output</h3>\n<p>9 600<br /><br /></p>\n<h3>Explanation</h3>\n<p>Since Bob has to cater apartment 2 and 3, so atleast 9 employees are required, as lunch time of apartment 2 and 3 are overlapping.<br /><br />\nFor apartment 1, the same 9 employees can be used for catering as the lunch times do not overlap with apartments 2 and 3 and since employing more people will reduce the profit, total of 9 people are employed.<br />Hence 9 offices are catered in apartment 1.<br /><br /></p>\n<p>The equation for profit is X[2] * P[2] + X[3] * P[3] + 9 * P[1] - 9 * C = 600<br /><br /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2014",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1393655400,
+        "end_date": 1393741800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1393741800,
+        "submit_start_date": 1393655400,
+        "current": 1537437737
+    },
+    "problem_author_html_handle": "iopc_admin",
+    "problem_name": "Catering Services",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/iopc_admin'>iopc_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "iopc_admin",
+    "contest_code": "IOPC2014",
+    "max_timelimit": "3",
+    "problem_code": "IOPC14H"
+}

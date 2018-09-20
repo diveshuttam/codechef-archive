@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<h1>vTechnical Festival Axis (TFA) is marketing a new computerized Yahtzee game</h1>\n<p>Yahtzee\nis a widely popular and interesting game of skill and chance. Every player is awarded marks based on the roll of 5 completely unbiased dice.The players can apply the dice to a single category in order to maximize their marks. The categories and associated marks are shown below:\n</p>\n<pre>Category -> How to Score\nAll 1's -> Count and add only 1's\nAll 2's -> Count and add only 2's\nAll 3's -> Count and add only 3's\nAll 4's -> Count and add only 4's\nAll 5's -> Count and add only 5's\nAll 6's -> Count and add only 6's\nAll evens -> Count and add only evens\nAll odds -> Count and add only odds\nFull house (3 of a kind and a pair) -> Score 15\nSmall Straight (Sequence of 4, i.e. 1,2,3,4 or 2,3,4,5 or 3,4,5,6) -> Score 20\nLarge Straight (Sequence of 5, i.e. 1,2,3,4,5 or 2,3,4,5,6) -> Score 30\nYahtzee(Akin to a full house, when all dice show the same number) -> Score 40\n</pre>\n<p>The user and computer play against each other. Write a Program to make the highest total for a given roll of the 5 dice, assuming all categories can be chosen.</p>\n<h3>Input</h3>\n<p>The input will consist of multiple test cases. The first line of input will be an integer n,\nindicating the number of test cases. The next n lines will each contain a single test case.\neach test case will be the 5 integers (from 1 to 6) separated by a single space.\n</p>\n\n<h3>Output</h3>\n<p>For each test give the highest score possible with that set of dice.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n1 2 1 2 2\n6 4 2 1 1\n5 4 5 5 2\n\n\n<b>Output:</b>\n15\n12\n15\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-09-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Insomnia 2010",
+    "languages_supported": "C, JAVA, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1283538600,
+        "end_date": 1283625000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180195,
+        "submit_start_date": 1283538600,
+        "current": 1537439537
+    },
+    "problem_author_html_handle": "xpurgate",
+    "problem_name": "Problem4",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/xpurgate'>xpurgate</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "xpurgate",
+    "contest_code": "INSOMNIA",
+    "max_timelimit": "6",
+    "problem_code": "AX04"
+}

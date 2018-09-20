@@ -1,0 +1,33 @@
+{
+    "problem_code": "ROWCOLOP",
+    "problem_author": "anton_lunyov",
+    "contest_name": "February Cook-Off 2013",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>anton_lunyov</span>",
+    "problem_name": "Row and Column Operations",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>laycurse</span>",
+    "contest_code": "COOK31",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anton_lunyov'>anton_lunyov</a>, <a class='problem-tag-small ' href='/tags/problems/cook31'>cook31</a>, <a class='problem-tag-small ' href='/tags/problems/simple'>simple</a>, <a class='problem-tag-small ' href='/tags/problems/simple-math'>simple-math</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>You are given an <b>N \u00d7 N</b> grid initially filled by zeros. Let the rows and columns of the grid be numbered from <b>1</b> to <b>N</b>, inclusive. There are two types of operations can be applied to the grid:\n<ul>\n<li><b>RowAdd R X</b>: all numbers in the row <b>R</b> should be increased by <b>X</b>.</li>\n<li><b>ColAdd C X</b>: all numbers in the column <b>C</b> should be increased by <b>X</b>.</li>\n</ul></p>\n<p>Now after performing the sequence of such operations you need to find the maximum element in the grid.</p>\n\n<h3>Input</h3>\n<p>The first line of the input contains two space separated integers <b>N</b> and <b>Q</b> denoting the size of the grid and the number of performed operations respectively. Each of the following <b>Q</b> lines describe an operation in the format described above.</p>\n\n<h3>Output</h3>\n\n<p>Output a single line containing the maximum number at the grid after performing all the operations.</p>\n\n<h3>Constraints</h3>\n<ul><li><b>1</b> \u2264 <b>N</b> \u2264 <b>314159</b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>314159</b></li>\n<li><b>1</b> \u2264 <b>X</b> \u2264 <b>3141</b></li>\n<li><b>1</b> \u2264 <b>R, C</b> \u2264 <b>N</b></li></ul>\n\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n2 4\nRowAdd 1 3\nColAdd 2 1\nColAdd 1 4\nRowAdd 2 1\n\n<b>Output:</b>\n7\n</pre>\n\n<h3>Explanation</h3>\n<p>The grid changes as follows:<pre><code>00  33  34  74  74\n00  00  01  41  52</code></pre></p>\n<p>The maximum number in the final grid is 7.</p>\n",
+    "category_name": "main",
+    "date_added": "6-02-2013",
+    "status": "success",
+    "languages_supported": "C, JAVA",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/ROWCOLOP",
+    "problem_tester": "laycurse",
+    "time": {
+        "view_start_date": 1361116800,
+        "end_date": 1361125800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1361125800,
+        "submit_start_date": 1361116800,
+        "current": 1537438506
+    },
+    "user": {
+        "username": ""
+    }
+}

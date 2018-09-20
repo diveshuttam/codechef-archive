@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>You are provided with coordinates of four points as input and your task is to determine whether they form a Quadrilateral, Parallelogram, Square, Rhombus, Rectangle or None of These.<br />\nIt is safe to assume that the four points entered are in the order of A, B, C, D and you have to determine which quadrilateral (or none) is formed by ABCD.\u00a0</p>\n<h3>Input</h3>\n<p>The first line of the input is the number of test cases T.<br /><br />\nEvery test case consists of four lines, each line containing two numbers X and Y separated by a space which refer to the (x,y) coordinates of a point. The first line contains the coordinates of point A, second of point B, third of point C and fourth of point D.\n</p>\n<h3>Output</h3>\n<p>For each test case, the output shall be a single word answer (in capital letters) stating whether the coordinates of each test case forms a \u201cRECTANGLE\u201d, \u201cSQUARE\u201d, \u201cRHOMBUS\u201d, \u201cQUADRILATERAL\u201d, \u201cPARALLELOGRAM\u201d or \u201cNONE\u201d (without quotes; quotes only for clarity) . </p>\n<p><b>Note:</b><br />\n<br />We know that a square is also a rectangle which is also a parallelogram which in turn is also a quadrilateral, however if the input satisfies all the properties of a specific type of a quadrilateral, the answer shall be that specific type of a quadrilateral ONLY and not any other type or simply \u2018QUADRILATERAL\u2019.\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b> 100 </b></li>\n<li><b>-10000</b> \u2264 X,Y \u2264 <b>10000</b>, where (X,Y) denote the coordinates of point A, B, C or D.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n0 0\n1 0\n1 1\n0 1\n1 1\n7 5\n1 9\n-5 5\n\n<b>Output:</b>\nSQUARE\nRHOMBUS\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-08-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Procon 2013",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1376640000,
+        "end_date": 1376647200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1376647200,
+        "submit_start_date": 1376640000,
+        "current": 1537438238
+    },
+    "problem_author_html_handle": "procon_13",
+    "problem_name": "Quadrilateral",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/procon_13'>procon_13</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "procon_13",
+    "contest_code": "PRCN2013",
+    "max_timelimit": "0.1",
+    "problem_code": "PC04"
+}

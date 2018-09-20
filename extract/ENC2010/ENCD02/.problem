@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>factorizations of a positive integer n is a collection of at least two positive integers, each larger than one, whose product is n. Note that, 2*12 and 12*2 represent the same factorization of 24. In fact, 24 has precisely 6 valid factorizations: 2*2*2*3, 2*2*6, 2*3*4, 2*12, 3*8, and 4*6. so you have to write a program that, given an int n, returns the number of unique factorizations of n.\n\n<h3>Input</h3>\n<p>Input will have number of cases. each case having n. n will be between 2 and 2,000,000,000 inclusive. Terminate the input with n=0.\n\n<h3>Output</h3>\n<p>for each input, output the number of unique factorizations for that number. \n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n24\n9973\n9240\n1916006400\n0\n<b>Output:</b>\n6\n0\n295\n7389115\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Encoder 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1264321800,
+        "end_date": 1264350600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180166,
+        "submit_start_date": 1264321800,
+        "current": 1537439812
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rscrbv</span>",
+    "problem_name": "Number Factors",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rscrbv'>rscrbv</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rscrbv",
+    "contest_code": "ENC2010",
+    "max_timelimit": "0.802418",
+    "problem_code": "ENCD02"
+}

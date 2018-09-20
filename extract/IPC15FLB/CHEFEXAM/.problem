@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Problem Statement </h3>\n<br><br>\nChef has exams coming up , he has taken up <b> N </b> subjects this semester. The subjects are numbered from <b>1</b> to <b>N</b>. <br><br>\nHe needs atleast <b>M</b> average marks to pass this semester.<br><br>\nHe has limited time to study , at each hour he can choose a subject <b>i</b> to study and that increases the amount of marks he is going to get in that subject by <b>C[i]</b>.<br><br>\nFor each subject it is known that if chef doesn't study that subject at all , he still manages to get <b>A[i]</b> marks in that and no matter how much he studies , he can't get more than <b>B[i]</b> marks in that subject (If chef studies the <b>i</b><sup>th</sup> subject for <b>X</b> hours , he gets min(<b>B[i]</b> , <b>A[i] + C[i] * X</b>) marks in that subject). <br><br>\nHelp chef calculate the minimum amount of time of studies he must do in order to pass have an average of atleast <b>M</b> marks or print <b>-1</b> if he cannot pass under any given circumstances.<br><br>\nNote that chef can only study a subject for an integer amount of hours.\n<br>\n<br>\n<h3> Constraints </h3><br>\n<b>1</b> <= <b>N</b> <= <b>100</b> <br>\n<b>1</b> <= <b>A[i]</b> < <b>B[i]</b> <= <b>100</b> <br>\n<b>1</b> <= <b>C[i]</b> <= <b>B[i] - A[i] </b> , <b>C[i]</b> divides <b>(B[i] - A[i])</b> <br>\n<b>1</b> <= <b>M</b> <= <b>100</b><br>\n\n<h3>Input Format </h3><br>\nThe first line consists of 2 integers <b>N</b> , <b>M</b>.\nThe lines 2 to N - 1 consists of 3 integers denoting <b>A[i - 1] , B[i - 1] , C[i - 1]</b>. <br>\n\n<h3> Output Format </h3> <br>\nPrint the minimum amount of time chef needs to study in order to pass the exam with <b>M</b> average marks or print <b>-1</b> if chef cannot pass. <br>\n\n<h3>Sample </h3>\n<br>\n<b>Input</b><br><br>\n2 50<br>\n30 70 10<br>\n20 80 10<br><br>\n<b>Output</b><br><br>\n5<br>\n<br>\n<b>Input</b><br><br>\n2 100<br>\n1 100 1<br>\n2 100 2<br>\n<br>\n<b>Output</b><br><br>\n148<br>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Skull Crackers",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1475310600,
+        "end_date": 1475328600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1475328600,
+        "submit_start_date": 1475310600,
+        "current": 1537434527
+    },
+    "problem_author_html_handle": "skullcrackers",
+    "problem_name": "Chef and midsems",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/ipc15flb'>ipc15flb</a>, <a class='problem-tag-small ' href='/tags/problems/skullcrackers'>skullcrackers</a>, <a class='problem-tag-small ' href='/tags/problems/sorting'>sorting</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "skullcrackers",
+    "contest_code": "IPC15FLB",
+    "max_timelimit": "3",
+    "problem_code": "CHEFEXAM"
+}

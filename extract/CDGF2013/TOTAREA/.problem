@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p style=\"text-align: justify;\"><span style=\"font-size: small;\">Omrita and Ouhi are two best friends. They both are very fond of Geometry. One day, Omrita was alone in the class and started scribbling in blackboard.\u00a0 Ouhi walks in, and saw that there was a square of side <strong>N</strong>\u00a0units drawn on the blackboard. Ouhi decided to step in and drew a straight line joining the midpoints of the opposite sides of the square (thus dividing it into two rectangles).</span></p>\n<p style=\"text-align: justify;\"><span style=\"font-size: small;\">\u00a0Omrita, chose one of the rectangle and joined the midpoint of a larger side to opposite vertices to form a triangle. Again, she joined the midpoints of the three sides of the triangle which form another triangle and keep repeating these steps.</span></p>\n<p style=\"text-align: justify;\"><span style=\"font-size: small;\">Seeing Omrita doing all the drawing (and having all the fun), Ouhi, quickly joined the midpoints of the four sides (of the other rectangle) to form a rhombus. Again she joined the four sides of the rhombus to form a rectangle and so on.</span></p>\n<p style=\"text-align: justify;\"><span style=\"font-size: small;\">Oriti, another talented peer of Omrita and Ouhi walks in the class and saw the figure in the blackboard. Being inquisitive, she asked what could the total area of all the figures (square, rectangles, triangles, and the rhombus constructed) so formed if both Omrita and Ouhi keeps drawing an infinite number of times. Of course, Omrita and Ouhi\u00a0 were just playing and certainly have no idea about all these areas. So they asked for your help.</span></p>\n<p style=\"text-align: justify;\"><span style=\"font-size: small;\"><br /></span></p>\n<h3 style=\"text-align: justify;\"><span style=\"font-size: small;\">Input</span></h3>\n<p style=\"text-align: justify;\"><span style=\"font-size: small;\">The first line of the input contains an integer <strong>T</strong> denoting the number of test cases. The description of <strong>T</strong> test cases follows.\u00a0The first and the only \u00a0line of each test case contains a single integer <strong>N</strong> denoting the length of the side of the square.</span></p>\n<p style=\"text-align: justify;\"><span style=\"font-size: small;\"><br /></span></p>\n<h3 style=\"text-align: justify;\"><span style=\"font-size: small;\">Output</span></h3>\n<p style=\"text-align: justify;\"><span style=\"font-size: small;\"><span style=\"color: #444444; line-height: 18px; text-align: justify;\">For each test case, output a single line containing the required total area that needs to be computed. Your answer should have six digits after decimal.</span></span></p>\n<ul style=\"text-align: justify;\">\n</ul>\n<p style=\"text-align: justify;\"><span style=\"font-size: small;\"><br /></span></p>\n<h3 style=\"text-align: justify;\"><span style=\"font-size: small;\">Constraints</span></h3>\n<p style=\"text-align: justify;\"><span style=\"font-size: small;\"></span></p>\n<ul style=\"text-align: justify;\">\n<li><span style=\"font-size: small;\"><strong>1</strong> \u2264 <strong>T</strong> \u2264 <strong>1000</strong></span></li>\n</ul>\n<ul style=\"text-align: justify;\">\n<li><span style=\"font-size: small;\"><strong>1</strong>\u00a0\u2264 <strong>N</strong>\u00a0\u2264\u00a0<strong>1000</strong></span></li>\n</ul>\n<p style=\"text-align: justify;\"><span style=\"font-size: small;\"><br /></span></p>\n<h3 style=\"text-align: justify;\"><span style=\"font-size: small;\">Example</span></h3>\n<pre>1\n5\n</pre><pre style=\"text-align: justify;\"><span style=\"font-size: 10px;\"><h3 style=\"text-align: justify;\"><span style=\"font-size: small;\">Output:</span></h3><pre id=\"output-text\" style=\"padding: 0px; font-family: Monaco, Menlo, Consolas, 'Courier New', monospace; font-size: 13px; color: #333333; border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; line-height: 20px; word-break: break-all; word-wrap: break-word; white-space: pre-wrap; border: 0px; tab-size: 4; text-align: start; margin: 0px !important;\">70.833333\n</pre><p><span style=\"white-space: normal;\"> </span></p></span>\n</pre><h3> Explanation </h3>\n<p> For the first test case, <strong>N = 5</strong>,</p>\n<p>It can be shown that the required sum = Area of the original square + Area of the two rectangles  + Sum of the areas of all the triangles + Sum of the areas of all the rhombus =  <strong>70.8333333</strong></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-09-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Code Zip 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1380101400,
+        "end_date": 1380447000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1380447000,
+        "submit_start_date": 1380101400,
+        "current": 1537438151
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>Debanjan</span>",
+    "problem_name": "Summing up the Areas",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/Debanjan'>Debanjan</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "Debanjan",
+    "contest_code": "CDGF2013",
+    "max_timelimit": "0.8",
+    "problem_code": "TOTAREA"
+}

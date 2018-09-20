@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><pre>\n<p><b>Problem description :</b>\nThe fight between Raghu and Rannvijay is becoming more intense.This time Rannvijay asked Raghu a question.\nHe gives him a number N and asked him to find the number of all pairs (a, b) of positive integers such that\n1 &lt;= a &lt; b &lt;= N and the sum a + b divides the product a * b.\t\t\t\t\t\nSince you are in Raghu's Team ,help him to calculate the answer.</p>\n\n<h3>Input</h3>\n<p>Input description.</p>\n<ul>\n<li>The first line contains a single positive integer <b>T</b> , the number of test cases. <b>T</b> \ntest cases follow. The only line of each test case contains a positive integer <b>N</b>..</li>\n</ul>\n\n<h3>Output</h3>\n<p>Output description.</p>\n<ul>\n<li>For each test case, output a single line containing the answer for the corresponding test case....\".</li>\n</ul>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b>&lt;=N&lt;= <b>109</b>.</li>\n <li><b>1</b>&lt;=<b>T</b>&lt;=<b>5</b>.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2\n15\n\n<b>Output:</b>\n0\n4\n\nExplanation\nIn the second test case required pairs are (3, 6), (4, 12), (6, 12) and (10, 15).\n</pre></pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-03-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Codies 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1365345000,
+        "end_date": 1365359400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1365359400,
+        "submit_start_date": 1365345000,
+        "current": 1537438370
+    },
+    "problem_author_html_handle": "teamcoadies10",
+    "problem_name": "Product Division Sum ",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/teamcoadies10'>teamcoadies10</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "teamcoadies10",
+    "contest_code": "CODS2013",
+    "max_timelimit": "0.5",
+    "problem_code": "COADIES2"
+}

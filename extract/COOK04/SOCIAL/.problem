@@ -1,0 +1,33 @@
+{
+    "problem_code": "SOCIAL",
+    "problem_author": "pieguy",
+    "contest_name": "The November CookOff",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>pieguy</span>",
+    "problem_name": "Dinner Party Socializing",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "friggstad",
+    "contest_code": "COOK04",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cook04'>cook04</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/pieguy'>pieguy</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The chef is having a dinner party.\nHe has N chairs and has invited N guests.\nThe chef knows that if the guests are left to their own devices,\nthey tend to sit in the same chairs and socialize with the same people all night.\nTo prevent this, the chef has developed a plan to help people socialize.\nHe will assign each chair a follow-up chair.\nAt predetermined intervals during the party, the chef will ring a bell, instructing all guests\nto move from their current chair to its follow-up chair.</p>\n<p>The chef will assign follow-up chairs randomly, with the restriction that no chair will\nbe its own follow-up chair, and no two chairs will have the same follow-up chair.  That is, the chef randomly chooses one arrangement out of all assignments satisfying the two conditions.\nThe chef wonders, after a certain number of ringings of the bell,\nwhat the expected number of guests who will be back in their original chairs\nwill be.</p>\n\n<h3>Input</h3>\n<p>Input will begin with an integer T, the number of test cases.\nEach test case consists of a single line with 2 integers N and R,\nthe number of chairs and number of ringings, respectively.</p>\n\n<h3>Output</h3>\n<p>For each test case, output on a single line the expected number\nof guests who will be back in their original seats after exactly R\nringings, rounded to 5 decimal places.</p>\n\n<h3>Sample Input</h3>\n<pre>4\n2 1\n2 2\n4 2\n5 3\n</pre>\n\n<h3>Sample Output</h3>\n<pre>0.00000\n2.00000\n1.33333\n1.36364\n</pre>\n\n<h3>Constraints</h3>\nT\u2264300<br />\n2\u2264N\u226450<br />\n1\u2264R\u22641000000<br />",
+    "category_name": "main",
+    "date_added": "10-11-2010",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/SOCIAL",
+    "problem_tester": "friggstad",
+    "time": {
+        "view_start_date": 1290873600,
+        "end_date": 1290882600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1290882600,
+        "submit_start_date": 1290873600,
+        "current": 1537439434
+    },
+    "user": {
+        "username": ""
+    }
+}

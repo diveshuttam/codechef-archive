@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Problem description.</p>\n<p>It's Atsi's birthday today and he is throwing a party! He decided to make his own cake instead of buying one so, he went out shopping. He bought the ingredients but he also found an odd store where he found some living mini ninjas. He bought the ninjas as he was overwhelmed by then.<br><br>While preparing the cake, he mistakenly put the ninjas in it when they were sleeping. When they woke up, they found themselves in the cake and with their brilliant sword skills they cut the cake from their initial position parallel to its faces(That means each ninja makes 3 cuts).<br><br>\nFormally, a cake is defined as a cuboid of dimensions <b>L x B x H</b> with one of its corners on the origin and the edges parallel to the axes. Each ninja is defined to be a point in the cake that makes cuts parallel to the XY, YZ and XZ planes.<br><br>Now Atsi is very disappointed as his cake is ruined, to make him happy you decide to feed him the largest piece, can you find such a piece for him? Formally, you need to find the maximum volume among the small pieces that are left behind.</p>\n\n\n<h3>Input</h3>\n<p>Input description.</p>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The first line of each test case contains a single integer <b>N</b> denoting the number of ninjas. The second line contains three space separated integers <b>L</b>, <b>B</b> and <b>H</b>, denoting the dimentions of the cake. The next <b>N</b> lines contains Three space separated integers each <b>x<sub>i</sub></b> <b>y<sub>i</sub></b> <b>z<sub>i</sub></b> denoting the position of the ninjas.<br><br><b>NOTE: The length of the cake is considered to be on the x axis, the breadth to be on the z axis and the height to be on the y axis.</b></p>\n\n<h3>Output</h3>\n<p>Output description.</p>\n<p>For each test case, output a single integer denoting the maximum volume among the pieces left after each ninja have made cuts with planes parallel to XY, YZ and XZ planes. Since, they are ninjas you can assume that the make all the three cuts simultaneously, i.e, in no time.<br><br>Print your answer modulo 10<sup>9</sup>+7.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>5</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>0</b> \u2264 <b>L, B, H</b> \u2264 <b>10<sup>9</sup></b></li>\n<li><b>0</b> \u2264 <b>x<sub>i</sub></b> \u2264 <b>L</b></li>\n<li><b>0</b> \u2264 <b>y<sub>i</sub></b> \u2264 <b>H</b></li>\n<li><b>0</b> \u2264 <b>z<sub>i</sub></b> \u2264 <b>B</b></li>\n</ul>\n<h3>Subtasks</h3>\n<p>\n\t<b>Subtask 1(20 points):</b> <b>1</b> \u2264 <b>N</b> \u2264 <b>20</b>, <b>1</b> \u2264 <b>L, B, H</b> \u2264 <b>100</b><br>\n<b>Subtask 2(30 points):</b> <b>1</b> \u2264 <b>N</b> \u2264 <b>300</b><br>\n<b>Subtask 3(50 points):</b> Original Constraints<br>\n</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n3 10 4 9\n1 1 7\n9 4 2\n1 2 7\n3 8 4 8\n2 1 5\n8 2 6\n6 1 6\n5 9 7 6\n8 4 3\n2 2 4\n2 2 4\n4 7 3\n2 1 6\n2 9 2 5\n5 2 4\n8 1 4\n2 5 7 1\n4 6 1\n5 4 1\n\n\n<b>Output:</b>\n80\n40\n36\n20\n16\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "ICO and ICPC 2018 Preparatory Series - Contest 2",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1509111000,
+        "end_date": 1509129000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1509129000,
+        "submit_start_date": 1509111000,
+        "current": 1537433410
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>ista2000</span>",
+    "problem_name": "Ninjas in a cake",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ista2000'>ista2000</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ista2000",
+    "contest_code": "ICOP1802",
+    "max_timelimit": "2",
+    "problem_code": "ISTA2002"
+}

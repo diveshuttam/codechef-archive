@@ -1,0 +1,33 @@
+{
+    "problem_code": "COLTREE",
+    "problem_author": "admin2",
+    "contest_name": "SnackDown 2016 Online Elimination Round",
+    "todo": false,
+    "problem_author_html_handle": "admin2",
+    "problem_name": "Coloring A Tree",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": null,
+    "contest_code": "SNCKEL16",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin2'>admin2</a>, <a class='problem-tag-small ' href='/tags/problems/combinatorics'>combinatorics</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/snckel16'>snckel16</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Read problems statements in <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/SNCKEL16/mandarin/COLTREE.pdf\">Mandarin Chinese</a>, <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/SNCKEL16/russian/COLTREE.pdf\">Russian</a> and <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/SNCKEL16/vietnamese/COLTREE.pdf\">Vietnamese</a> as well.</h3>\n\n\n<p>You have a tree consisting of <b>n</b> vertices. You want to color each vertex of the tree in one of the <b>k</b> colors such that for any pair of vertices having same color, all the vertices belonging to the path joining them should also have same color. In other words, for any two vertices <b>u, v</b> with same color, all the vertices in the path joining them should also have color same as that of the <b>u</b> (or same as <b>v</b>, as <b>u</b> and <b>v</b> have same color). \n</p>\n\n<p>Find out possible number of ways in which you can color the tree satisfying the above property. As the answer could be large, print your answer modulo <b>10<sup>9</sup> + 7</b>.</p>\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>\n<p>For each test case, first line contains two space separated integers <b>n, k</b> denoting number of vertices in the tree and total number of colors, respectively</p>\n<p>Each of the next <b>n - 1</b> lines contain two space separated integers <b>u<sub>i</sub>, v<sub>i</sub></b>, denoting that there is an edge between vertices <b>u<sub>i</sub></b> and <b>v<sub>i</sub></b> in the tree.</p>\n\n<h3>Output</h3>\n<p>For each test case, output a single line corresponding to number of ways of coloring the tree.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 <b>T</b> \u2264 <b>50</b></li>\n<li>1 \u2264 <b>n, k</b> \u2264 <b>50</b></li>\n<li>1 \u2264 <b>u<sub>i</sub>, v<sub>i</sub></b> \u2264 <b>n</b></li>\n<li><b>u<sub>i</sub> \u2260 v<sub>i</sub></b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input</b>\n3\n3 2\n1 2\n2 3\n3 1\n1 2\n2 3\n4 3\n1 2\n2 3\n2 4\n\n<b>Output:</b>\n6\n1\n39\n</pre>\n\n<h3>Explanation</h3>\n<p><b>In the first example</b>, You can color the vertices in the following 6 ways - {1, 1, 1}, {2, 2, 2}, {1, 2, 2}, {1, 1, 2}, {2, 1, 1}, {2, 2, 1}. Note that you can't color the tree in {1, 2, 1} as the vertices in the path connecting vertex 1 and 3, (i.e. 1, 2, 3) don't have same color. You can see that the color of 2nd vertex is not same as that of 1st and 3rd.</p>\n\n<p><b>In the second example</b>, Only possible coloring you can do is to color all the vertices with color 1.</p>\n",
+    "category_name": "main",
+    "date_added": "17-06-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/COLTREE",
+    "problem_tester": "kingofnumbers,antoniuk1,xcwgf666,kevinsogo",
+    "time": {
+        "view_start_date": 1466344800,
+        "end_date": 1466362800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1466362800,
+        "submit_start_date": 1466344800,
+        "current": 1537434818
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "SNOWPRIM",
+    "problem_author": "prog_iitmandi",
+    "contest_name": "Dementia 2015",
+    "todo": false,
+    "problem_author_html_handle": "prog_iitmandi",
+    "problem_name": "Snow Leopard and sum of primes",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "DMNT2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cakewalk'>cakewalk</a>, <a class='problem-tag-small ' href='/tags/problems/maths'>maths</a>, <a class='problem-tag-small ' href='/tags/problems/primenumbers'>primenumbers</a>, <a class='problem-tag-small ' href='/tags/problems/prog_iitmandi'>prog_iitmandi</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Snow Leopard has been given an integer \u2018n\u2019. Now he has to tell whether 2n can be written as a sum of two prime numbers or not.<br />\nPlease help him calculate this efficiently.<br /><br /></p>\n<p><b>Input - </b><br /><br />\nThe first line has a number T, indicating the number of test cases.<br /><br />\nNext T lines contain a number 'n' each.<br /><br /></p>\n<p><b>Output - </b><br /><br />\nT lines printing \u201cYES\u201d or \u201cNO\u201d if it can be written as a sum of two prime numbers or not(w/o \u201c\u201d)<br /><br /></p>\n<p><b>Constraints - </b><br /><br />\n1&lt;= T &lt;= 10^6<br /><br />\n0&lt;= n &lt;= 10^6<br /></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n2\n\n<b>Output:</b>\nYES\n\n<h3>Explanation</h3>\n<p><b>Case 1: </b>\nSince 4 can be written as a sum of two prime numbers(2+2) </p>\n</pre>",
+    "category_name": "main",
+    "date_added": "23-03-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/SNOWPRIM",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1427905800,
+        "end_date": 1427914800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1427914800,
+        "submit_start_date": 1427905800,
+        "current": 1537436453
+    },
+    "user": {
+        "username": ""
+    }
+}

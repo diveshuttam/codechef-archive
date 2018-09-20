@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>IIIT-Delhi\u2019s canteen has five workstations, one for Chinese, one for Mexican, one for Italian, one for South Indian and one for Punjabi food.<br />\nEach workstation can work only on two dishes at a particular time and each station takes exactly 5 units of time to prepare one dish.\n</p>\n<p>\nYou have a list of people who come in at different times and order food at the canteen  according to the cuisine. At a particular time, only two items of a person\u2019s order will be sent to the kitchen to be made at the workstations and then the person will be sent to the end of the line (waiting queue), while the order of the next customer will be taken. The customer who has been sent at the end of the line will then wait for his turn at the counter again. The two items which will be sent to the kitchen will be according to the order in which they have been taken as an input. No customer can leave the restaurant in between. There is ONLY ONE counter which entertains only ONE person at a time (i.e. at a time, only one person would be placing order).\n</p>\n<p>You are required to calculate the total waiting time for which the customers will wait AT THE COUNTER on a particular day. Only at the counter and not at the queue. </p>\n<h3>Input</h3>\n<p>First line of input contains the number of test cases T.<br />\n<br />The first line of each test case contains the number of customers N. Next N lines contain information about the orders placed. Each line has six space separated integers, specifying the arrival time (UNIQUE), number of items for Chinese, Mexican, Italian, South Indian and Punjabi respectively.<br />\nThe input will be provided in the order of the arrival time.<br />\n<br />NOTE : Number of items for each cuisine will always be an even number.<br />\n<br /><br /></p>\n<h3>Output</h3>\n<p>The output for each test case would be a single number which gives the total waiting time of the customers at the ordering counter ONLY.<br />\n<br /><br /></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n2\n1 2 4 0 0 0\n2 2 4 0 0 0\n\n<b>Output:</b>\n16\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-08-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Procon 2013",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1376640000,
+        "end_date": 1376647200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1376647200,
+        "submit_start_date": 1376640000,
+        "current": 1537438237
+    },
+    "problem_author_html_handle": "procon_13",
+    "problem_name": "Canteen",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/procon_13'>procon_13</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "procon_13",
+    "contest_code": "PRCN2013",
+    "max_timelimit": "0.38",
+    "problem_code": "PC03"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Welcome to Planet Numero!<br />\nIn this land, numbers are people. All the factors of a number are its descendants. A and B are two such people who meet at a party. As they get to know each other they realise that they are in fact related!! </p>\n<p>In order to trace the common members of their family, they need your help. Identify the eldest descendent of both A and B and the youngest common ancestor they share.<br />\n.</p>\n<h3>Input</h3>\n<p>The first line contains an integer T, total number of test cases. Then follow T lines, each line contains an integer A and B.\u00a0</p>\n<h3>Output</h3>\n<p>Two integer values\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>A,B</b> \u2264 <b>1000000</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3 \n120 11\n10213 312\n10 3\n\n<b>Output:</b>\n1 1320\n1 3186456\n1 30\n</pre><hr />\n<h3>Code</h3>\n<pre>\nThis is the solution that P wrote for the problem:\n#include &lt;iostream>\nint main() {\n\tint T,a,b;\n\tcin &lt;&lt; T;\n\tfor(int i=0;i \u2264T;++i)\n\t{\n\t\tcin >>a;\n\t\tcin >>b;\n\t\tint r,c;\n\t\tc=a*b;\n\t\t\n\t\twhile (a \u2260 b)\n\t\t{\n\t\t\tif(a &lt; b)\n\t\t\t\t{\n\t\t\t\ta-=b;\n\t\t\t\t}\n\t\t\telse\n\t\t\t{\n\t\t\t\tb-=a;\n\t\t\t}\n\t\t\t\n\t\t}\n\t\tcout &lt;&lt;a &lt;&lt;\" \" &lt;&lt;(c/a) &lt;&lt; endl;\n\t}\n\t\n\treturn 0;\n}\n</pre><hr />\n<h3>Steps to be followed</h3>\n<p>    1. Read the given description carefully and understand the problem.<br /><br /></p>\n<p>    2. Analyze the code given in the problem and find bugs(errors) in these codes..<br /><br /></p>\n<p>    3. The given code can be copied and compiled in an online compiler (Eg. ideone.com).<br /><br /></p>\n<p>    4. Once the bugs are eliminated from the code, the clean code can be submitted as the solution to the problem..<br /><br /></p>\n<p>    5. The solution should be a debugged version of the code provided and must satisfy the test cases to be accepted..<br /><br /></p>\n<p><b>All the best!!</b></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Whats Bugging You",
+    "languages_supported": false,
+    "todo": false,
+    "time": {
+        "view_start_date": 1453635000,
+        "end_date": 1453645800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1453645800,
+        "submit_start_date": 1453635000,
+        "current": 1537435603
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>sneha_rajeev</span>",
+    "problem_name": "Number Planet",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sneha_rajeev'>sneha_rajeev</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sneha_rajeev",
+    "contest_code": "WBY2016",
+    "max_timelimit": "1",
+    "problem_code": "WBUP101"
+}

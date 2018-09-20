@@ -1,0 +1,97 @@
+{
+    "announcements": "<b>Note </b>: The ranklist will be frozen 45 minutes before the end of the contest.<br>\r\n<ul>\r\n<li><b>NPLFLA</b> : The given output should be <b>6 3</b>. Its updated. </li> \r\n<li><b>NPLFLD</b> : The input format is updated. </li> ",
+    "ip": "149.129.135.113",
+    "code": "NPLQ1602",
+    "duration": "150",
+    "name": "NPL Final Round ",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": " <p><strong class=\"rules-heading\">About the Contest:</strong></p> <div class=\"rules-body\"> <ul class=\"\"> <li><strong>Organiser: </strong> The contest is hosted by NIT Warangal. This is the final round of \"National Programming League\" hosted by Technozion'16. It will be open for all but the prizes will only be given to the on-site contestants.</li> <li><strong>Prizes:&nbsp;</strong> <ul> <li><strong>1st Place : 30K</strong></li> <li><strong>2nd Place : 20K</strong></li> <li><strong>3rd Place : 10K</strong></li> </ul> </li> </ul> </div> <p><strong class=\"rules-heading\">Contest Details:</strong></p> <div class=\"rules-body\"> <ul class=\"\"> <li><strong>Duration: </strong>2.5 hours</li> <li><strong>Start time: </strong>21st October 2016, 1400 hrs IST</li> <li><strong>End time: </strong>21st October 2016, 1630 hrs IST<br /> You may check your timezone <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+NPLQ1602&amp;iso=20161021T14&amp;p1=44&amp;ah=2&amp;am=30\" target=\"_blank\">here</a>.</li> </ul> </div> <p><strong class=\"rules-heading\">Registration:</strong></p> <div class=\"rules-body\"> <p>You just need to have a CodeChef username to participate. No seperate registration is required. If you do not have a CodeChef ID create one <a href=\"../user/register\" target=\"_blank\"> here</a>.</p> </div> <p><br /> <strong class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</strong></p> <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct.</a></p> </div> <p><br /> <strong class=\"rules-heading\">Rules and Regulations:</strong></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li> <li>Please contact <a href=\"mailto:aniket.marlapalle@gmail.com\" target=\"_blank\">aniket.marlapalle@gmail.com</a> for any queries during the contest.</li> </ul> <p><strong class=\"rules-heading\">Judging Criteria:</strong></p> <ul class=\"\"> <li><strong>All the problems have same points allotted to them.</strong></li> <li><strong>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time</strong></li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error). There is no time consumed for a problem that is not solved.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> </ul> <div class=\"\"><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"../ide\" target=\"_blank\">Online IDE</a>.</strong><br /> However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/NPLQ1602/1476963891.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "NPLFLA": {
+            "allow_submission": false,
+            "name": "Number Formation",
+            "category_name": "main",
+            "accuracy": 59.44,
+            "successful_submissions": "104",
+            "code": "NPLFLA",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "NPLFLC": {
+            "allow_submission": false,
+            "name": "Query On Arrays",
+            "category_name": "main",
+            "accuracy": 16.45,
+            "successful_submissions": "25",
+            "code": "NPLFLC",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "NPLFLF": {
+            "allow_submission": false,
+            "name": "Query On Strings",
+            "category_name": "main",
+            "accuracy": 30,
+            "successful_submissions": "3",
+            "code": "NPLFLF",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "NPLFLB": {
+            "allow_submission": false,
+            "name": "Fight Club",
+            "category_name": "main",
+            "accuracy": 37.72,
+            "successful_submissions": "83",
+            "code": "NPLFLB",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "NPLFLE": {
+            "allow_submission": false,
+            "name": "Colorfulness of the squares",
+            "category_name": "main",
+            "accuracy": 8.33,
+            "successful_submissions": "1",
+            "code": "NPLFLE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "NPLFLD": {
+            "allow_submission": false,
+            "name": "A walk on a grid",
+            "category_name": "main",
+            "accuracy": 14.81,
+            "successful_submissions": "16",
+            "code": "NPLFLD",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1477047600,
+        "current": 1537434454,
+        "freezing": 0,
+        "start": 1477038600
+    },
+    "user": {
+        "username": ""
+    }
+}

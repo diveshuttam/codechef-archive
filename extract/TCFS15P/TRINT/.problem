@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<h3>Problem description.</h3>\n<p>Chandan is always excited to solve algorithmic problem. He finds a contest going on at codechef. One of the problems in the contest asks him to  find the number of <b>unique triplets</b> of integers from a given array A such that their <b>sum is less than or equal to</b> a given integer M.<br />\nTwo triplets are considered same if all elements in them are same.<br />\nChandan asks you to help him solve the problem.\n</p>\n<h3>Input</h3>\n<p>The first line of input consists of <b>T</b> denoting the number of test cases.<br /> Then the test cases follow. Each test case is described by 2 lines.<br /> The first line consists of two space separated integers <b>N</b> denoting the number of elements in array <b>A</b> and <b>M</b> the integer to which the sum of elements in triplets should evaluate to.<br /><br />\nThe second line consists of N space separated integers.\n</p>\n<h3>Output</h3>\n<p>For each test case, output a single line denoting the answer for the question.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^3</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>3*(10^6)</b></li>\n<li><b>1</b> \u2264 <b>A<sub>i</sub></b> \u2264 <b>10^6</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1<br />\n5 6<br />\n1 2 3 1 4<br />\n\n<b>Output:</b>\n4\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b><br /><br />\nThe possible triplets are (1, 2, 3), (1, 2, 1),  (1, 3, 1), (1, 1, 4)\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-10-2014",
+    "is_direct_submittable": false,
+    "contest_name": "TechFest 2015, Portal round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1412868600,
+        "end_date": 1413059400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1413059400,
+        "submit_start_date": 1412868600,
+        "current": 1537437365
+    },
+    "problem_author_html_handle": "techfest2k15",
+    "problem_name": "Help Chandan Count Triplets",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/techfest2k15'>techfest2k15</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "techfest2k15",
+    "contest_code": "TCFS15P",
+    "max_timelimit": "1",
+    "problem_code": "TRINT"
+}

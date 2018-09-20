@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Suppose we have an even number of people going on an excursion, and we would like to fit them into two-seated kayaks. All kayaks are identical, weighing 20kg each. Each person is described by two parameters, their <em>strength</em> and <em>weight</em>. The speed of a kayak can be calculated as the sum of strengths of both persons sitting in it, divided by the total weight of the loaded kayak (i.e., the weight of the kayak plus the weight of both persons). We would like to choose the allocation of people to kayaks so as to maximize the speed at which the whole whole group can travel, assuming that the group travels at the speed of the slowest kayak in it.</p>\n<h3>Input</h3>\n<p>First, 2&#8804; <var>n</var> 10<sup>5</sup>, the number of people (<var>n</var> will always be even). Then, <var>n</var> pairs of integers follow, each pair describing one person: first, 50&#8804;<var>w</var>&#8804;100, the weight of the person (in kilograms), then 50&#8804;<var>p</var>&#8804;100, the strength of the person.</p>\n<h3>Output</h3>\n<p>Output one number: the maximum speed of the group which can be achieved by optimally choosing places for each person. The answer should be accurate up to 6 digits after the decimal point.</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong>\n4\n50 50\n50 60\n70 100\n100 60\n\n<strong>Output:</strong>\n0.842105\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-09-2009",
+    "is_direct_submittable": false,
+    "contest_name": "October 2009 (Contest IX)",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1254389400,
+        "end_date": 1255253400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1255253400,
+        "submit_start_date": 1254389400,
+        "current": 1537439897
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Kayaks",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "OCT09",
+    "max_timelimit": "0.325301",
+    "problem_code": "H2"
+}

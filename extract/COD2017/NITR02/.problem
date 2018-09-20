@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Sonic has been made the student representative of his college for INNOVISION, 2K17. Each student in the college reports to a unique senior student, except the student representative (that is Sonic). This hierarchy can be modelled as a tree, rooted at the student representative. Nodes 'v' having parent node 'u' means that 'u' is the senior student to which node 'v' reports. Also node 'v' is a junior to node 'u'.</p>\n<p>In case of any notifications regarding INNOVISION, 2K17, Sonic first notifies his juniors one at a time. The juniors in turn notify their juniors one at a time. This continues until every student in the college has been notified. We can divide this process into times. In one time, a student who has learnt of the notification can notify to one of his juniors. The total time it takes for everyone to get notified depends on the sequence in which a senior calls their juniors. Help Sonic determine the minimum total time needed to notify all the students.</p>\n<p>Note:</p>\n<li>Senior and Junior relationship can be thought of as Parent and Child relationship.</li>\n<li>A Senior can notify to a Junior with whom he/she is directly connected.</li>\n\n\n<h3>Input</h3>\n<ul>First line contains 'n' denoting the number of students.</ul>\n<ul>'n-1' space separated integers follow. (i)th integer denotes that it is the parent of (i+1)th node.</ul>\n\n<h3>Output</h3>\n<ul>The minimum total time required.</ul>\n\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> <= <b> n </b> <= <b>100000</b></li>\n<li><b>1</b> <= <b> parent[i] </b> <= <b>n</b></li>\n</ul>\n<ul><li><b>parent[i] != i</b></li></ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n1 2 1\n\n<b>Output:</b>\n2\n</pre>\n\n<h3>Explanation</h3>\n<pre>Explanation:\nThe tree can be considered as:\n1 -> 2\n2 -> 3\n1 -> 4\n\nConsider first situation:-\nFirst time: 1 notifies to 2.\nSecond time: 1 notifies to 4 and 2 notifies to 3.\n\nConsider another situation:-\nFirst time: 1 notifies to 4.\nSecond time: 1 notifies to 2.\nThird time: 2 notifies to 3.\n\nTherefore first situation is better as it takes 2 units of total time.</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Codex",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1510414200,
+        "end_date": 1510507800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1510507800,
+        "submit_start_date": 1510414200,
+        "current": 1537433359
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>sunnyaks_1997</span>",
+    "problem_name": "Sonic And Notifications",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sunnyaks_1997'>sunnyaks_1997</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sunnyaks_1997",
+    "contest_code": "COD2017",
+    "max_timelimit": "1",
+    "problem_code": "NITR02"
+}

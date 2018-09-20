@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Revenge is once again high on the mind of obnoxious Vicky. Vicky is chasing <b>N</b> of his friends including Abhishek, Atishay, Ankit and Abhijeet who he thinks have stolen his candy. The <b>i</b>th friend is at <b>( xi, yi )</b> at <b>t = 0</b> and is moving with a constant velocity of <b>( vxi, vyi )</b>, such that the <b>i</b>th friend is at <b>( xi + vxi, yi + vyi)</b> at <b>t = 1</b> and at <b>( xi + 2*vxi,  yi + 2*vyi )</b> and so on. Vicky himself is at <b>(x, y)</b> and has <b>M</b> possible choices of velocity to move with. However once he has chosen a velocity he can move only with that constant velocity throughout the journey. The way these velocities are expressed and the way Vicky moves after he has chosen a particular velocity follow the same constraints as that of his friends. </br> \nVicky has got one flash bomb and wants to burst it at a location (which is his own location at that moment) where he can drive as many of his friends blind as possible. The range till which the bomb has its effect is different for different friends. More formally, the range for the <b>i</b>th friend is <b>ri</b>, and the <b>i</b>th friend will be affected by the bomb only if he is within the range <b>ri</b> of the bomb. </br>\nVicky intends to choose and move with the velocity that will take him to a location where he can harm as many of his friends as possible. Help obnoxious Vicky find out the number of friends he can hurt by making the best choice.\n<h3>Input</h3>\n<p>The first line of the input file consists of two space separated integers <b>M</b> and <b>N</b>, followed by another line containing two space separated integer <b>x, y</b>. This is followed by <b>M</b> lines containing <b>M</b> possible velocities to choose from. More formally, the <b>j</b>th line contains two space separated integers <b>vxj</b> and <b>vyj</b> Vicky can choose to move with. Thereafter <b>N</b> lines follow describing <b>N</b> different friends. The <b>i</b>th line  of these N lines contains <b>5</b> space separated integers <b>xi, yi, vxi, vyi, ri</b>.\n\n<h3>Output</h3>\n<p>Print a single integer which is the maximum number of friends Vicky can hurt making the optimal choice.\n\n<h3>Constraints</h3>\n<pre>\n1 <= M <= 1000\n1 <= N  <= 1000\n-1000 <= x, y, vx, vy, xi, yi, vxi, vyi <= 1000\n1 <= ri <= 2500\n</pre>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1 3 \n0 0 \n0 2\n0 -3 0 4 1\n1 2 -1 1 1\n1 -2 2 -1 1\n\n<b>Output:</b>\n2\n\n<b>Explanation:</b>\nAt time 1.5, Vicky is at point (0, 3), and the three friends are at points (0, 3), (-0.5, 3.5), and (4, -3.5).<br/>The first two friends are within 1 unit of Vicky, while the third will never be within 1 unit of Vicky.\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Adhyayan 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1332333000,
+        "end_date": 1332354600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1332354600,
+        "submit_start_date": 1332333000,
+        "current": 1537438850
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>the123abhishek</span>",
+    "problem_name": "Vicky For Vendetta",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/the123abhishek'>the123abhishek</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "the123abhishek",
+    "contest_code": "ADYN2012",
+    "max_timelimit": "0.17",
+    "problem_code": "PRAYAS08"
+}

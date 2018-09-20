@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Lara is going on her first international trip, and she is so excited! But being the clumsy person that she is, she postpones her packing to the last minute and now she finds it very difficult to pack her bags properly. So she wrote the following code that could optimize her packing problem. But there\u2019s something wrong with it! Help her before it\u2019s too late!</p>\n<p>All items to be packed have a size(an integer). There are infinite bags of the same size. Help Lara pack in such a way that she has to carry the minimum possible bags.\n</p>\n<h3>Input</h3>\n<p>The input has a total of 3 lines</p>\n<ol>\n<li>Number of items to be packed.\n</li><li>An array of the sizes of each item.\n</li><li>Size of a bag.</li></ol>\n<h3>Output</h3>\n<p>An integer value stating the minimum number of bags</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n2 4 3\n5\n\n<b>Output:</b>\n2\n</pre><h3>Code</h3>\n<pre>\nimport java.util.*;\nclass Packing_Trouble\n{\n public static void packing(int a[], int size, int n)\n {\n int binCount=0;\n int s = size;\n for(int i=0; i&lt;n; i++)\n {\n if(s - a[i] &lt;= 0)\n {\n s =n+ a[i];\n }\n else\n {\n binCount++;\n i--;\n }\n }\n\n System.out.println(binCount);\n }\n\n public static void main(String args[])\n {\n Scanner sc = new Scanner(System.in);\n int n = sc.nextInt();\n int []a = new int[n];\n for(int i=0; i&lt;=n; i++)\n a[i] = sc.nextInt();\n int size = sc.nextInt();\n int num = sc.nextInt();\n packing(a, size, n);\n\n close(sc);\n }\n}\n\n</pre><hr />\n<h3>Steps to be followed</h3>\n<p>    1. Read the given description carefully and understand the problem.<br /><br /></p>\n<p>    2. Analyze the code given in the problem and find bugs(errors) in these codes..<br /><br /></p>\n<p>    3. The given code can be copied and compiled in the CodeChef online compiler (<a href=\"https://www.codechef.com/ide\">https://www.codechef.com/ide</a>).<br /><br /></p>\n<p>    4. Once the bugs are eliminated from the code, the clean code can be submitted as the solution to the problem..<br /><br /></p>\n<p>    5. The solution should be a debugged version of the code provided and must satisfy the test cases to be accepted..<br /><br /></p>\n<p><b>All the best!!</b></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Whats Bugging You Qualifiers",
+    "languages_supported": "JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455780600,
+        "end_date": 1455793200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1766782199,
+        "submit_start_date": 1455780600,
+        "current": 1537435430
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>sneha_rajeev</span>",
+    "problem_name": "Last-minute Packing",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sneha_rajeev'>sneha_rajeev</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sneha_rajeev",
+    "contest_code": "WBY1601",
+    "max_timelimit": "1",
+    "problem_code": "WBYQ11"
+}

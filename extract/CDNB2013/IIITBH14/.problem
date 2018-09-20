@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>You receive a credit C at a local store and would like to buy two items. You first walk through the store and create a list L of all available items. From this list you would like to buy two items that add up to the entire value of the credit. The solution you provide will consist of the two integers indicating the positions of the items in your list (smaller number first).</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of input gives the number of cases, N. N test cases follow. For each test case there will be:<br />\n<br /><br />\nOne line containing the value C, the amount of credit you have at the store.<br />\n<br /><br />\nOne line containing the value I, the number of items in the store.<br />\n<br /><br />\nOne line containing a space separated list of I integers. Each integer P indicates the price of an item in the store.<br />\nEach test case will have exactly one solution.\n</p>\n<h3>Output</h3>\n<p>For each test case, output one line containing \"Case #x: \" followed by the indices of the two items whose price adds up to the store credit. The lower index should be output first.</p>\n<h3>Limits</h3>\n<ul>\n<li>5 = C = 1000</li>\n<li>1 = P = 1000</li>\n</ul>\n<h3>Small dataset</h3>\n<ul>\n<li>N = 10</li>\n<li>3 = I = 100</li>\n</ul>\n<h3>Sample</h3>\n<ul>\n<li>Input </li>\n<li>3</li>\n<li>100</li>\n<li>3</li>\n<li>5 75 25</li>\n<li>200</li>\n<li>7</li>\n<li>150 24 79 50 88 345 3</li>\n<li>8</li>\n<li>8</li>\n<li>2 1 9 4 4 56 90 3</li>\n<li>Output </li>\n<li>Case #1: 2 3</li>\n<li>Case #2: 1 4</li>\n<li>Case #3: 4 5</li>\n</ul>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-04-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Coding 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1366450200,
+        "end_date": 1366518600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1366518600,
+        "submit_start_date": 1366450200,
+        "current": 1537438329
+    },
+    "problem_author_html_handle": "rggroups",
+    "problem_name": "Problem 5",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rggroups'>rggroups</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rggroups",
+    "contest_code": "CDNB2013",
+    "max_timelimit": "0.25",
+    "problem_code": "IIITBH14"
+}

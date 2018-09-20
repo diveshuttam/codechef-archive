@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>You have saved the world! Er...almost! Nick Fury, your battleship is on fire and will explode at any moment! You need to jump off from the battleship!</p>\n<p>\u00a0</p>\n<p>Problem is, the sky is full of retreating evil aliens who are being chased away by the mixed team of the Avengers and the Justice League. In order to make it to the ground safely, you need to avoid hitting any of the aliens who are flying towards you.</p>\n<p>\u00a0</p>\n<p>You are helped by Enchantress who freezes the aliens in the sky itself! But, they\u2019re still harmful if touched! You decide to divide the sky in quadrants to determine which quadrant has the least number of aliens floating in it and thus has the maximum chance of safe escape. You need to know the configurations of the aliens in the quadrant you plan to jump through. In order to do *that*, you need to figure out how many configurations each quadrant could possibly have, so that you can pick the optimal quadrant through which you'll make your jump.</p>\n<p>\u00a0</p>\n<p>There's something important to note about configurations in the open sky: when drawn on a grid, configurations are considered equivalent by grouping rather than by order.</p>\n<p>\u00a0</p>\n<p>That is, for a given set of configurations, if you exchange the position of any two columns or any two rows some number of times, you'll find that all of those configurations are equivalent in that way - in grouping, rather than order.</p>\n<p>\u00a0</p>\n<p>You need to take input of 3 integers <strong>w</strong>, <strong>h</strong>,<strong>s</strong> and output the number of non-equivalent configurations that can be found on a grid <strong>w</strong> blocks wide and <strong>h</strong> blocks tall where each alien has<strong>s</strong> possible states.</p>\n<p>\u00a0</p>\n<p>Equivalency is defined as above: any two grids with each alien in the same state where the actual order of the rows and columns do not matter (and can thus be freely swapped around). Grid standardization means that the width and height of the grid will always be between 1 and 12, inclusive. And while there are a variety of aliens in each grid, the number of states of those aliens is between 2 and 20, inclusive.</p>\n<p>\u00a0</p>\n<p>The answer can be over 20 digits long. The intermediate values can also be large, so you will likely need to use at least 64-bit integers.</p>\n<p><br /><br /></p>\n<h3>Input:</h3>\n<p>\u00a0</p>\n<p>3 space separated integers w, h, s</p>\n<p>\u00a0</p>\n<h3>Output:</h3>\n<p>\u00a0</p>\n<p>A single integer denoting the number of non-equivalent configurations</p>\n<p>\u00a0</p>\n<h3>Constraints:</h3>\n<p>\u00a0</p>\n<p>2 &lt;= w, h, s &lt;= 12</p>\n<p>\u00a0</p>\n<h3>Example:</h3>\n<pre>\n<b>Inputs:</b>\n\n2\n2 2 2\n2 3 4\n\n<b>Output:</b>\n\n7\n430\n\n</pre>\n<b>Explanation:</b>\n<p>\u00a0</p>\n<p>For example, consider w=2, h=2, s=2. We have a 2x2 grid where each alien is either in state 0 (for instance, silent) or state 1 (for instance, noisy). We can examine which grids are equivalent by swapping rows and columns.</p>\n<p>\u00a0</p>\n<p>00</p>\n<p>00</p>\n<p>\u00a0</p>\n<p>In the above configuration, all aliens are \"silent\" - that is, they have a state of 0 - so any swap of row or column would keep it in the same state.</p>\n<p>\u00a0</p>\n<p>00 00 01 10</p>\n<p>01 10 00 00</p>\n<p>\u00a0</p>\n<p>1 alien is emitting noise - that is, has a state of 1 - so swapping rows and columns can put it in any of the 4 positions. All four of the above configurations are equivalent.</p>\n<p>\u00a0</p>\n<p>00 11</p>\n<p>11 00</p>\n<p>\u00a0</p>\n<p>2 aliens are emitting noise side-by-side. Swapping columns leaves them unchanged, and swapping rows simply moves them between the top and bottom. In both, the *groupings* are the same: one row with two aliens in state 0, one row with two aliens in state 1, and two columns with one of each state.</p>\n<p>\u00a0</p>\n<p>01 10</p>\n<p>01 10</p>\n<p>\u00a0</p>\n<p>2 noisy aliens adjacent vertically. This is symmetric to the side-by-side case, but it is different because there's no way to transpose the grid.</p>\n<p>\u00a0</p>\n<p>01 10</p>\n<p>10 01</p>\n<p>\u00a0</p>\n<p>2 noisy aliens diagonally. Both have 2 rows and 2 columns that have one of each state, so they are equivalent to each other.</p>\n<p>\u00a0</p>\n<p>01 10 11 11</p>\n<p>11 11 01 10</p>\n<p>\u00a0</p>\n<p>3 noisy aliens, similar to the case where only one of four is noisy</p>\n<p>\u00a0</p>\n<p>11</p>\n<p>11</p>\n<p>\u00a0</p>\n<p>4 noisy aliens.</p>\n<p>\u00a0</p>\n<p>There are 7 distinct, non-equivalent grids in total, so answer(2, 2, 2) would return 7.</p>\n<p><br /><br /></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "AVENIR-ENCODING",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1523691000,
+        "end_date": 1523701800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1523701800,
+        "submit_start_date": 1523691000,
+        "current": 1537432621
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>xprilion</span>",
+    "problem_name": "The Final Task",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/xprilion'>xprilion</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "xprilion",
+    "contest_code": "AVEN2018",
+    "max_timelimit": "1",
+    "problem_code": "AVN18FNL"
+}

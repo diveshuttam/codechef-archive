@@ -1,0 +1,137 @@
+{
+    "announcements": "<p>\u00c2\u00a0</p>\r\n<p><b>06/11/2012, 00:45 IST: </b>The test data for the problem <a target=\"_blank\" href=\"/NOV12/problems/MARTARTS\">MARTARTS</a> has been updated and all the solutions have been set of rejudge. Also due to the late addition of LUCKY9 and changes made to MARTARTS the contest has been extended by a day. Now it will end on the 12th of November, 2012.</p>\r\n<p><b>05/11/2012, 16:45 IST: </b>The final problem <a href=\"/NOV12/problems/LUCKY9\" target=\"_blank\">LUCKY9</a> has been added to the contest. We regret the delay. Hoepfully you will like the problem.</p>\r\n<p><b>02/11/2012, 00:55 IST: </b>The test data and the time limit for the problem\u00c2\u00a0<a target=\"_blank\" href=\"/NOV12/problems/COUNTARI\">COUNTARI</a> has been changed and the solutions have been submitted for rejudging. Regret the inconvinience caused. Also the problem statements of all the problems had got messed up in between. They are all fine now.</p>\r\n<p>\u00c2\u00a0</p>\r\n<p><b>01/11/2012, 15:00 IST: </b>The last problem is still being cooked in the kitchen. We will be serving it soon.</p>",
+    "ip": "149.129.135.113",
+    "code": "NOV12",
+    "duration": "15840",
+    "name": "November Challenge 2012",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p>\u00a0</p> <p class=\"MsoNoSpacing\"><b>The November Contest has ended!</b></p> <p class=\"MsoNoSpacing\"><b>Editorials on each problem can be found <a target=\"_blank\" href=\"/wiki/november-2012-contest-problem-editorials\">here</a>.<br /></b></p> <p class=\"MsoNoSpacing\"><b>All problems have been added to the practice section.</b></p> <p class=\"MsoNoSpacing\"><b> </b><b>Solutions are public for all problems.</b></p> <p class=\"MsoNoSpacing\"><b>Winners Blog Post </b><b>will be updated soon.</b></p> <p class=\"MsoNoSpacing\"><b>The New Contest Rating can be viewed\u00a0<a href=\"/long/ranklist/AX/\" target=\"_blank\">here</a>.</b></p> <div><b><br /></b></div> <p>\u00a0</p> <p class=\"MsoNoSpacing\"><b>Rules:</b><b> </b></p> <p class=\"MsoNoSpacing\"><span><br />Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a><br /><br /></span></p> <p class=\"MsoNoSpacing\"><span>Contest problems will become visible on November 1st 2012 at 15:00 hours IST. Check your timezone\u00a0<a href=\"http://timeanddate.com/worldclock/fixedtime.html?msg=November+Challenge+2012&amp;iso=20121101T15&amp;p1=44\" target=\"_blank\">here</a>.</span><br /><br /></p> <p class=\"MsoNoSpacing\"><span>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.<br /><br /></span></p> <p class=\"MsoNoSpacing\"><span>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.<br /><br /></span></p> <p class=\"MsoNormal\"><span>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</span></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/NOV12/1424957697.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "TOURMAP": {
+            "allow_submission": false,
+            "name": "Sridhar Likes Travelling",
+            "category_name": "main",
+            "accuracy": 18.65,
+            "successful_submissions": "1025",
+            "code": "TOURMAP",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CBARS": {
+            "allow_submission": false,
+            "name": "A Wonderful Chocolate",
+            "category_name": "main",
+            "accuracy": 34.75,
+            "successful_submissions": "257",
+            "code": "CBARS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LUCKY9": {
+            "allow_submission": false,
+            "name": "Lucky Balance",
+            "category_name": "main",
+            "accuracy": 29.07,
+            "successful_submissions": "231",
+            "code": "LUCKY9",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MARTARTS": {
+            "allow_submission": false,
+            "name": "Martial Arts",
+            "category_name": "main",
+            "accuracy": 7.42,
+            "successful_submissions": "11",
+            "code": "MARTARTS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CONFLIP": {
+            "allow_submission": false,
+            "name": "Coin Flip",
+            "category_name": "main",
+            "accuracy": 53.45,
+            "successful_submissions": "2192",
+            "code": "CONFLIP",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DDISH": {
+            "allow_submission": false,
+            "name": "Delicious Dishes",
+            "category_name": "main",
+            "accuracy": 15.29,
+            "successful_submissions": "434",
+            "code": "DDISH",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MANYLEFT": {
+            "allow_submission": false,
+            "name": "Many Left",
+            "category_name": "main",
+            "accuracy": 72.76,
+            "successful_submissions": "201",
+            "code": "MANYLEFT",
+            "type": "2",
+            "is_direct_submittable": false
+        },
+        "JABO": {
+            "allow_submission": false,
+            "name": "Jam Board",
+            "category_name": "main",
+            "accuracy": 14.11,
+            "successful_submissions": "213",
+            "code": "JABO",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COUNTARI": {
+            "allow_submission": false,
+            "name": "Arithmetic Progressions",
+            "category_name": "main",
+            "accuracy": 5.55,
+            "successful_submissions": "37",
+            "code": "COUNTARI",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CANDYGAM": {
+            "allow_submission": false,
+            "name": "Candy Collecting Game",
+            "category_name": "main",
+            "accuracy": 11.6,
+            "successful_submissions": "244",
+            "code": "CANDYGAM",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1352712600,
+        "current": 1537438636,
+        "freezing": 0,
+        "start": 1351762200
+    },
+    "user": {
+        "username": ""
+    }
+}

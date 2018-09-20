@@ -1,0 +1,33 @@
+{
+    "problem_code": "KRYP4",
+    "problem_author": "shivamg_isc",
+    "contest_name": "CodeRed",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>shivamg_isc</span>",
+    "problem_name": "Distinct Behaviours",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CODR2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cakewalk'>cakewalk</a>, <a class='problem-tag-small ' href='/tags/problems/codr2018'>codr2018</a>, <a class='problem-tag-small ' href='/tags/problems/combinatorics'>combinatorics</a>, <a class='problem-tag-small ' href='/tags/problems/shivamg_isc'>shivamg_isc</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p><b>\"The blood of House of El will always bind us together.\"</b></p>\n<p>What the Kryptonians need is to be together, to be united in order to save the apocalypse.</p>\n<p>For that, Seg-El has decided to carry out some encoding. The people of the same behavior if made to stay together will lead to enhanced protection of Krypton. </p>\n<p> There are <b>N</b> people on Krypton. Each has a behavior <b>A[i]</b> associated with him/her.</p>\n<p>You need to tell Seg-El the <b>total number of ways to choose any two people of same behavior so that they can be made to stay together.</b><p> \n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>First line consists of <b>N</b> - the number of people.</p>\n<p>Second line comprises <b>N</b> space separated integers denoting <b>A[i]</b>.</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>Print the answer to the number of ways to place 2 people together having same behaviour.</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>A[i]</b> \u2264 <b>10<sup>15</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<p><b>Input:</b></p>\n<p>4</p>\n<p>1 1 2 2</p>\n\n<p><b>Output:</b></p>\n<p>\u00a02 </p>\n<h3>Explanation</h3>\n<p>There is only 1 way in which 2 people with behavior 1 can be together. Similarly, for behavior 2 people. Hence, total number of ways are 2.</p>",
+    "category_name": "main",
+    "date_added": "4-02-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/KRYP4",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1518881400,
+        "end_date": 1518899400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1518899400,
+        "submit_start_date": 1518881400,
+        "current": 1537432984
+    },
+    "user": {
+        "username": ""
+    }
+}

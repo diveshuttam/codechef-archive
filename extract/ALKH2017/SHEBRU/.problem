@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p> Donald: <i><b>\"Be careful! I need the girl\"</b></i> </p>\n<p> Logan: <i><b>\"What Girl??\"</b></i></p> \n<p><b>Donald Pierce and his enforcers, the Reavers</b> have captured <b>Canibal</b>, and have attacked Logan and Xavier.</p>\n<p> Prof. Charles Xavier proposes a plan. He is currently assessing several <b>strings</b>, and the answer lies in the <b>common prefix of those strings.</b>  </p>\n<p> Charles asks Logan for rendering help. </p>\n<p> Logan is provided with some <b>N strings \u2013 Str[1], Str[2],......Str[N] </b>, and he must tell Charles <b>the number of BRUTAL <a href=\"https://en.wikipedia.org/wiki/Subsequence\">SUBSEQUENCES</a> of size more than 1.</b></p>\n<p> Consider you have a subsequence of size <b>k \u2013 Str[i<sub>1</sub>], Str[i<sub>2</sub>] , Str[i<sub>3</sub>] ,....Str[i<sub>k</sub>], and i<sub>1</sub> < i<sub>2</sub> < i<sub>3</sub> < ......< i<sub>k</sub></b>. And let us say that we have 2 symbols- <b>\u2018((\u2018 and \u2018))\u2019</b>. </p>\n<p> <b>StrA (( StrB</b> denotes that <b>StrA has length strictly less than that of StrB ,and both have some common prefix.</b> </p>\n<p> <b>StrA )) StrB</b> denotes that <b>StrB has length strictly less than that of StrA ,and both have some common prefix.</b></p>\n<p> Now, <b>a Brutal Subsequence of size k</b> is defined as follows- </p>\n<p> <b>Str[i<sub>1</sub>] <b>((</b> Str[i<sub>2</sub>] <b>))</b> Str[i<sub>3</sub>] <b>((</b> Str[i<sub>4</sub>] <b>))</b> ...... </b></p>\n<p> <b>OR</b> </p>\n<p>\u00a0<p><b> Str[i<sub>1</sub>] <b>))</b> Str[i<sub>2</sub>] <b>((</b> Str[i<sub>3</sub>] <b>))</b> Str[i<sub>4</sub>] <b>((</b> ......</b> </p></p>\n<p> <b>Two subsequences are considered to be different if their sizes are not same or they have atleast one constituent index which is not same.</b> </p>\n<p> Logan proposed a solution to this problem, but Charles is certain that the solution is not perfectly correct. </p>\n<p> To stop their unnecessary quarrel, you need to help both of them. </p>\n\n\n<h3>Input</h3>\n<p>First line contains an integer <b>N</b> denoting the number of strings.</p>\n<p>Next <b>N</b> lines contains the string where string on <b>i<sup>th</sup></b> line denotes <b>Str[i]</b>.</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p> Print the number of Brutal Subsequences. As the answer can be very large print it modulo <b>10<sup>9</sup>+7.</b></p>\n\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li> <b> All strings comprise lower case characters only ['a'-'z'] </b> </li>\n<li>1 \u2264 <b>N</b> \u2264 10<sup>5</sup></li>\n<li><b>1</b> \u2264 <b>|Str[i]|</b> \u2264 10<sup>5</sup></li>\n<li>1 \u2264 <b>Sum of the length of all strings</b> \u2264 10<sup>6</sup></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<p><b>Input:</b></p>\n<p>5</p>\n<p>wolverine</p>\n<p>wolverinexmen</p>\n<p>wolv</p>\n<p>perl</p>\n<p>pe</p>\n<p></p>\n\n<b>Output:</b>\n<p>5</p>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>The 5 brutal subsequences are- </p>\n<p>wolverine (( wolverinexmen</p>\n<p>wolverine )) wolv</p>\n<p>wolverinexmen )) wolv</p>\n<p>wolverine (( wolverinexmen )) wolv</p>  \n<p>perl )) pe</p>\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-03-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Alkhwarizm 2017 (Rated)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1490369400,
+        "end_date": 1490387400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1490387400,
+        "submit_start_date": 1490369400,
+        "current": 1537433978
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>shivamg_isc</span>",
+    "problem_name": "Charles and the BRUTAL subsequences",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shivamg_isc'>shivamg_isc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shivamg_isc",
+    "contest_code": "ALKH2017",
+    "max_timelimit": "1",
+    "problem_code": "SHEBRU"
+}

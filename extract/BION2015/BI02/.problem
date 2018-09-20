@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Vikas and Twinkle are the organizers of  <a href=\"http://srdtu.org/showevent/EUREKA/10\">Eureka</a>, a paper presentation competition. After an exhausting session of work, the evening before the competition, Twinkle challenged Vikas to a game. There are <b>N</b> glasses, numbered from 1 to N. They are empty at the beginning. There will be <b>M</b> rounds of the game. In each round, he is given two numbers <b>L</b> and <b>R</b>, and he has to put gems in all the glasses numbered from <b>L</b> to <b>R</b> (both inclusive), in the following manner: he puts one gem in <b>L</b>, two in <b>L+1</b>, three in <b>L+2</b> and continuing like that, he puts R-L+1 gems in <b>R</b>.</p>\n<p>After doing all the tasks, Twinkle asks him, which is the glass with the maximum number of gems? In case of multiple glasses with the same maximum, output, the one with the smallest number on it.</p>\n<p>Can you help him?.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases.</li>\n<li>The first line of each test case consists of two space separated integers <b>N</b> and <b>M</b> denoting the number of glasses and number of rounds respectively.</li>\n<li>The next <b>M</b> lines contain two space separated integers <b>L</b> and <b>R</b> denoting the starting and ending ranges for each round.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>The output consists of <b>T</b> lines, each line consisting of a single integer denoting the glass number with the maximum number of gems (In case of multiple glasses with the same maximum, output the one with the smallest number on it)</p>\n<h3>Constraints</h3>\n<ul>\n<li>1&lt;=<b>N</b>&lt;=10^5</li>\n<li>1&lt;=<b>M</b>&lt;=10^5</li>\n<li>1&lt;=<b>L</b>&lt;=<b>R</b>&lt;=<b>N</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example case 1</h3>\n<pre><b>Input:</b>\n1\n10 5\n1 10\n2 4\n4 6\n3 7\n5 9\n\n<b>Output:</b>\n6\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1: </b>The first glass contains 1 gem, the second glass contains 3 gems, the third glass contains 6 gems, the fourth glass contains 10 gems, the fifth glass contains 11 gems, the sixth glass contains 15 gems, the seventh glass contains 15 gems, the eighth glass contains 12 gems, the ninth glass contains 14 gems and the tenth glass contains 10 gems. </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Bits ON! 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1423974600,
+        "end_date": 1423981800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1423981800,
+        "submit_start_date": 1423974600,
+        "current": 1537436803
+    },
+    "problem_author_html_handle": "sana13",
+    "problem_name": "Gems and Glasses",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sana13'>sana13</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sana13",
+    "contest_code": "BION2015",
+    "max_timelimit": "1",
+    "problem_code": "BI02"
+}

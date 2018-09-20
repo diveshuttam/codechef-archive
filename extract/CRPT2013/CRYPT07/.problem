@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h2>Problem Statement \u00a0</h2>\n<p>8 snipers are present on a sniper field each out to get the other. The field can be thought of as an 8x8 grid. Hence each sniper must hide in a strategic position so as to not be seen by any other. The vision of a sniper is restricted, the sniper can see only horizontally, diagonally, and vertically.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of the input contains two numbers separated by a blank. The numbers represent the square on which one of the eight snipers must be positioned. A valid square will be represented. It will not be necessary to validate the input. To standardize our notation, assume that the upper left-most corner of the grid is position (1,1).</p>\n<ul>\n<h3>Output</h3>\n<p>Every solution numbered 1\u2026 N should consist of 8 numbers. These numbers represent the Row coordinate for a specific solution. The order in which these 8 numbers are printed will specify the column coordinate for the solution. That is, the first number represents the Row in which the sniper is positioned in column 1. The second number represents the Row in which the sniper is positioned in column 2, and so on.</p>\n<p>(Note \u2013 Output should be strictly in the format given below. There are 6 blank spaces between the Solution number and first column. Print the solutions in lexicographical order.  )</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1 2\n\n<b>Output:</b>\nSOLN       COLUMN\n #      1 2 3 4 5 6 7 8\n\n 1      3 1 7 5 8 2 4 6\n 2      4 1 5 8 2 7 3 6\n 3      4 1 5 8 6 3 7 2\n 4      5 1 4 6 8 2 7 3\n 5      5 1 8 4 2 7 3 6\n 6      5 1 8 6 3 7 2 4\n 7      6 1 5 2 8 3 7 4\n 8      7 1 3 8 6 4 2 5\n\n</pre><p>\n<br />\n<br />\n<b>Note : The reference for this problem has been taken from : UVa online Judge </b>\n</p>\n</ul>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-10-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Cryptoss 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1382034600,
+        "end_date": 1382293800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1382293800,
+        "submit_start_date": 1382034600,
+        "current": 1537438090
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>himanshuk123</span>",
+    "problem_name": "Call Of Duty",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/himanshuk123'>himanshuk123</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "himanshuk123",
+    "contest_code": "CRPT2013",
+    "max_timelimit": "0.192182",
+    "problem_code": "CRYPT07"
+}

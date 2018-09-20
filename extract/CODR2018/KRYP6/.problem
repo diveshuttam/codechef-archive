@@ -1,0 +1,33 @@
+{
+    "problem_code": "KRYP6",
+    "problem_author": "shivamg_isc",
+    "contest_name": "CodeRed",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>shivamg_isc</span>",
+    "problem_name": "Smaller than the element",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CODR2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/binary-search'>binary-search</a>, <a class='problem-tag-small ' href='/tags/problems/codr2018'>codr2018</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/sets'>sets</a>, <a class='problem-tag-small ' href='/tags/problems/shivamg_isc'>shivamg_isc</a>, <a class='problem-tag-small ' href='/tags/problems/stl'>stl</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Seg-El has last chance to make the final changes in order to prevent the destruction of Krypton.</p> \n<p>He is provided an array <b>Arr[ ]</b> of <b>N</b> elements.</p> \n<p>For each element  <b>Arr [ i ]</b>, he needs to find the<b> largest element Arr [ j ]</b> where <b>j < i</b> and <b>Arr [ j ] < Arr [ i ]</b>  </p>\n<p>Help him to achieve this task.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>First line comprises <b>N</b>- the number of elements in the array.</p>\n<p>Second line contains <b>N</b> space separated integers denoting the elements of the array. </p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>Print <b>N</b> lines denoting the required answer as specified above. In case no such value exists for some</p><p>Arr [ i ], print <b>\"-1\"</b> (without quotes).</p> \n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>200000</b></li>\n<li><b>1</b> \u2264 <b>Arr [ i ]</b> \u2264 <b>10<sup>15</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n5<br/>\n1 2 3 5 4<br/>\n\n<p><b>Output:</b></p>\n-1<br/> 1<br/> 2<br/> 3<br/> 3<br/>\n<p>\u00a0</p>\n",
+    "category_name": "main",
+    "date_added": "12-02-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/KRYP6",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1518881400,
+        "end_date": 1518899400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1518899400,
+        "submit_start_date": 1518881400,
+        "current": 1537432982
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "RUSHHOUR",
+    "problem_author": "gamabunta",
+    "contest_name": "February 2011 Contest",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>gamabunta</span>",
+    "problem_name": "Rush Hour",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>subra</span>",
+    "contest_code": "FEB11",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/feb11'>feb11</a>, <a class='problem-tag-small ' href='/tags/problems/gamabunta'>gamabunta</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Rush Hour is a popular puzzle game which is now available on many mobile devices.\n</p><p>There is a board of size M x N. The board is full of cars and trucks. Each car has size 1x2 and each truck has size 1x3. Cars and trucks can be either horizontal or vertical.\n</p><p>At each step, we can move a horizontal car or truck along its row if there is no other objects in its way. Similarly we can move a vertical car or truck along its column.\n</p><p>Among the cars, one belongs to the president. It is always horizontal. The object of the game is to get the president's car to the exit gate at the rightmost column in its row.\n</p><p>You need to write a solver for Rush Hour, which takes a map of the game and returns the minimum number of steps to solve it.\n</p><p>As an example, look at the figures below. The president's car is painted in yellow. It takes 5 steps to solve this game instance.\n</p><p>\n<img src='https://www.spoj.pl/content/paulmcvn:rushhour_small.png' />\n\n<h3>Input</h3>\n</p><p>The first line contains the number of test cases (about 10). Each test case has the following form.</p>\n<p>The first line contains three numbers M, N and K. M and N are the size of the board. K are the total number of cars and trucks. (6 &lt;= M, N &lt;= 12, 3 &lt;= K &lt;= 26)\n</p><p>Each line in the next M lines contains N characters. Each character can be '.' or 'a'..'z'. '.' stands for an empty square. 'a'..'z' represents the ID of the car of truck that occupies the square. The president's car is always 'a'.\n</p><p>It is guaranteed that the president's car initial position is not at the rightmost column.\n</p><p>The requirement of the game is guaranteed by the input, that is each object can only have size 1x2 or 1x3.\n</p><p>You can assume that there is always a solution and <b>the optimal number of steps to solve any puzzle instance given in the input is at most 10.</b>\n</p><p>Each test case's input is separated by a blank line.\n\n<h3>Output</h3>\n</p><p>For each test case, print in a single line the optimal number of steps to solve the corresponding puzzle.\n\n<h3>Test case generator</h3>\n</p><p>Note that in general, solving Rush Hour puzzle is very hard, so in this problem you are only required to solve random generated instances of the puzzle. We briefly describe how we generated the test cases.\n</p><p>Given M, N, K, for each car, we let it be horizontal or vertical with equal probability. The car's size is randomly picked from 2 to 3. The car's position is also chosen randomly. To make sure that a solution exists, we start with a state in which the president's car is already at the exit gate. After that, we perform some random steps (around 10000). The final state is used as the input data.\n\n<h3>Example</h3>\n<pre>\n<b>Input</b>\n2\n\n6 6 13\nb.c..e\nb.cdde\nfghaal\nfghjjl\n.giikk\nmmm...\n\n6 6 10\n......\n.bb.cc\naad.hi\nfed.hi\nfeg..j\nf.g..j\n\n<b>Output</b>\n5\n6\n</pre>\n</p><p>The first sample test case is explained in the figure.</p>",
+    "category_name": "main",
+    "date_added": "3-12-2010",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "3.91",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/RUSHHOUR",
+    "problem_tester": "subra",
+    "time": {
+        "view_start_date": 1296552600,
+        "end_date": 1297416600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1297416600,
+        "submit_start_date": 1296552600,
+        "current": 1537439391
+    },
+    "user": {
+        "username": ""
+    }
+}

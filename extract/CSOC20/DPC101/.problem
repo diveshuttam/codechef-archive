@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"Apple-style-span\">\n    <span class=\"Apple-style-span\">\n    <p>\n        <span class=\"Apple-style-span\">\n        <font class=\"Apple-style-span\" size=\"2\"><span class=\"Apple-converted-space\">\u00a0</span>Children \n        are taught to add multi-digit numbers from right-to-left one digit at a time. \n        Many find the \"carry\" operation - in which 1 is carried from one digit position \n        to be added to the next - to be a significant challenge.\u00a0 Your job is to \n        count the<span class=\"Apple-converted-space\">\u00a0</span>number of carry operations \n        for each of addition problem so that educators may assess their difficulty.</font></span></p>\n    <p>\n        <span class=\"Apple-style-span\"><b>\n        <font class=\"Apple-style-span\" size=\"2\">\u00a0</font></b></span></p>\n    <p>\n        <span class=\"Apple-style-span\"><b>\n        <font class=\"Apple-style-span\" size=\"5\">Input</font></b></span></p>\n    <p>\n        <span class=\"Apple-style-span\">\n        <font class=\"Apple-style-span\" size=\"2\">Each line of input contains two unsigned \n        integers less than 10 digits.</font></span></p>\n    <p>\n        <span class=\"Apple-style-span\">\n        <font class=\"Apple-style-span\" size=\"2\">The last line of input contains 0 0.</font></span></p>\n    <p>\n        <span class=\"Apple-style-span\">\n        <font class=\"Apple-style-span\" size=\"2\">\u00a0</font></span></p>\n    <p>\n        <span class=\"Apple-style-span\"><b>\n        <font class=\"Apple-style-span\" size=\"5\">Output</font></b></span></p>\n    <p>\n        <span class=\"Apple-style-span\">\n        <font class=\"Apple-style-span\" size=\"2\">For each line of input except the last \n        output the number of carry operations that would result from adding the two \n        numbers, in the format shown below.</font></span></p>\n    <p>\n        <span class=\"Apple-style-span\">\n        <font class=\"Apple-style-span\" size=\"3\">\u00a0</font></span></p>\n    <p>\n        <span class=\"Apple-style-span\"><b>\n        <font class=\"Apple-style-span\" size=\"5\">Sample Input</font></b></span></p>\n    <p>\n        <span class=\"Apple-style-span\">\n        <font class=\"Apple-style-span\" size=\"2\">123 456</font></span></p>\n    <p>\n        <span class=\"Apple-style-span\">\n        <font class=\"Apple-style-span\" size=\"2\">555 555</font></span></p>\n    <p>\n        <span class=\"Apple-style-span\">\n        <font class=\"Apple-style-span\" size=\"2\">123 594</font></span></p>\n    <p>\n        <span class=\"Apple-style-span\">\n        <font class=\"Apple-style-span\" size=\"2\">0 0</font></span></p>\n    <p>\n        <span class=\"Apple-style-span\">\n        <font class=\"Apple-style-span\" size=\"3\">\u00a0</font></span></p>\n    <p>\n        <span class=\"Apple-style-span\"><b>\n        <font class=\"Apple-style-span\" size=\"5\">Sample Output</font></b></span></p>\n    <p>\n        <span class=\"Apple-style-span\">\n        <font class=\"Apple-style-span\" size=\"2\">No carry operation.</font></span></p>\n    <p>\n        <span class=\"Apple-style-span\">\n        <font class=\"Apple-style-span\" size=\"2\">3 carry operations.</font></span></p>\n    <p>\n        <span class=\"Apple-style-span\">\n        <font class=\"Apple-style-span\" size=\"2\">1 carry operation.</font></span></p>\n    <p>\n        <span class=\"Apple-style-span\">\n        <font class=\"Apple-style-span\" size=\"2\">\u00a0</font></span></p>\n    </span></span>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-02-2010",
+    "is_direct_submittable": false,
+    "contest_name": "DreamSpark 2010",
+    "languages_supported": "C, CS2, BF",
+    "todo": false,
+    "time": {
+        "view_start_date": 1267273800,
+        "end_date": 1267381800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180175,
+        "submit_start_date": 1267273800,
+        "current": 1537439710
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rushikesh30</span>",
+    "problem_name": "Carry",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rushikesh30'>rushikesh30</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rushikesh30",
+    "contest_code": "CSOC20",
+    "max_timelimit": "0.1",
+    "problem_code": "DPC101"
+}

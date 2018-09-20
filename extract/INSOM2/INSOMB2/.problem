@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Prakrati and Urja, the mascots of Cognizance, are quite excited as Vayu and Jal, their best friends, have joined them for an extended vacation. But vacations, as usual, have a nasty habit of becoming a den for boredom. Tired of lounging about, playing the regular card games, they embarked upon a journey to define their own card game. The rules of the games are as follows:</p>\n\n<ul><li>Cards from a standard deck of 52 will be randomly & equally dealt to all of them.</li>\n<li>The cards dealt to each player will be kept face down in the form of a pile, so that the players can't look at them.</li>\n<li>Each player in turn, will show the topmost card of his/her pile & put it on the top of the central pile. This will be known as the &#8220;play&#8221; of that card.</li>\n<li>Whenever someone \"plays\" a card of the same suit as the card lying on top of the central pile, that player's next turn will be skipped.  </li>\n<li>Play continues as long as players have cards left with them.</li> \n<li>The order in which the players finish off their cards decides the winning sequence. The objective of the game is to retain as many cards as possible.   The player who finishes his/her dealt cards first will be ranked 4th and the game will continue between other three players. The next player to finish the dealt cards will be ranked 3rd & so on.</li>\n<li>The game ends when only 1 player is left with K (> 0) cards in hand.</li></ul><br/>\n\n<p>It is agreed that play will proceed in the following order:<br/>\nPrakrati, Urja, Vayu, Jal</p>\n<p>\nAgni, their neighbour, wants to analyze some of these games to determine if Prakriti was unduly disadvantaged by starting first. In order to do so, he requests you to create a simulator for this game. You have to help Agni out by creating a simulator that produces the result sequence for a given initial distribution of cards.\n</p>\n\n<h3>Representation of Cards:</h3>\n<p>Each card is represented by two character card code. <br/>\nThe first character will be one of '123456789TJQK' and represents the face value of each card (ace, 2&#8211;10, jack, queen, king) & second character will be one of 'cdhs' and represents the suit of the card  - clubs, diamonds, hearts, and spades.\n</p>\n\n<h3>Codes of Players</h3>\n<p>\nP - Prakrati, U - Urja, V - Vayu, J - Jal\n</p>\n\n<h3>Input</h3>\n<p>Line 1-4 : Each line represents the pile of cards for players in the order of play. Each line contains thirteen card codes separated by single spaces. The cards have to be played in the given order i.e. for the given Sample Input Prakrati will play 3s first, then 5d & so on.\n</p>\n\n<h3>Output</h3>\n<p>Line 1: The rank list of players and the number of cards left with the last player (single space separated)</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3s 5d kc 9c 4h 6d kd 1s 1h 6h qh th 7h\n4s 6s 3c tc js 6c qd 8d 2h ts kh 9h qs\n4d 8s 4c jc 7d 7c jd 3d td 2s 5h 9s ks\n3h 7s 5c qc 8c 2c 1c 1d 2d 9d 5s jh 8h\n\n<b>Output:</b>\nPVUJ 2\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-03-2009",
+    "is_direct_submittable": false,
+    "contest_name": "IIT Roorkee Insomnia - Thought Round",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1237649400,
+        "end_date": 1237692600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180135,
+        "submit_start_date": 1237649400,
+        "current": 1537439963
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Timepass",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "INSOM2",
+    "max_timelimit": "2.72",
+    "problem_code": "INSOMB2"
+}

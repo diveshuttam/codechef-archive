@@ -1,0 +1,33 @@
+{
+    "problem_code": "AMR14F",
+    "problem_author": "murdocc007",
+    "contest_name": "ACM-ICPC Asia-Amritapuri Site, 1st Practice Round 2015",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>murdocc007</span>",
+    "problem_name": "Jersey Number",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "TSTAMR15",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/amr14ros'>amr14ros</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>, <a class='problem-tag-small ' href='/tags/problems/murdocc007'>murdocc007</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p class=\"p1\"><span class=\"s1\">It\u2019s World cup time, and every player wants to get a cool jersey number. As a result, there was a fight between the players about what jersey number they can have. To resolve this, the committee (ICC) came up with an idea.\u00a0</span></p>\n<p class=\"p4\"><span class=\"s1\">They gave a huge string and asked each player to walk in one by one, and select four indices in the string (i, j, k, l) such that i&lt;=j and k&lt;=l and the substrings S[i..j], S[k..l] should have a non-empty substring in common. Also, (i, j, k, l) should not have been chosen by any player who walked in earlier. If the player is able to give a correct answer (i, j, k, l), he gets \"i-j-k-l\" as his jersey number.</span></p>\n<p class=\"p4\"><span class=\"s1\">Assuming that there are enough players to claim all valid jersey numbers, and that all players are equally smart (i.e if there is any valid (i, j, k, l), then they\u2019ll give the right answer), find the number of distinct jersey numbers that can be assigned.</span></p>\n<p class=\"p4\"><span class=\"s2\">Note:</span><span class=\"s1\"> The huge string chosen by the ICC is hexadecimal. (Only contains \u20180\u2019-\u20189\u2019 and upper-case characters \u2018A\u2019-\u2018F\u2019).</span></p>\n<p class=\"p5\"><span class=\"s1\"><b>Input:</b></span></p>\n<p class=\"p5\"><span class=\"s1\">The first line of input contains a single integer \u2019T\u2019, denoting the no. of test cases.</span></p>\n<p class=\"p4\"><span class=\"s1\">Each of the following \u2019T\u2019 lines contains a sting S, chosen by the ICC.</span></p>\n<p class=\"p5\"><span class=\"s1\"><b>Output:</b></span></p>\n<p class=\"p4\"><span class=\"s1\">Print one line for each test case, denoting the answer modulo 1000000007.</span></p>\n<p class=\"p5\"><span class=\"s1\"><b>Constraints:</b></span></p>\n<p class=\"p5\"><span class=\"s1\">1 &lt;= T &lt;= 200</span></p>\n<p class=\"p5\"><span class=\"s1\">1 &lt;= |S| &lt;= 100000</span></p>\n<p class=\"p5\"><span class=\"s1\">1 &lt;= Sum of |S| over all test cases &lt;= 1000000</span></p>\n<p class=\"p4\"><span class=\"s1\">S is hexadecimal. (Only contains \u20180\u2019-\u20189\u2019 and upper-case characters \u2018A\u2019-\u2018F\u2019)</span></p>\n<p class=\"p5\"><span class=\"s1\"><b>Sample Input:</b></span></p>\n<p class=\"p5\"><span class=\"s1\">3</span></p>\n<p class=\"p5\"><span class=\"s1\">AB</span></p>\n<p class=\"p5\"><span class=\"s1\">ACC</span></p>\n<p class=\"p4\"><span class=\"s1\">A2011</span></p>\n<p class=\"p5\"><span class=\"s1\"><b>Sample Output:</b></span></p>\n<p class=\"p5\"><span class=\"s1\">7</span></p>\n<p class=\"p5\"><span class=\"s1\">30</span></p>\n<p class=\"p4\"><span class=\"s1\">163</span></p>\n<p class=\"p5\"><span class=\"s1\"><b>Explanation:</b></span></p>\n<p class=\"p5\"><span class=\"s1\">For the case \"AB\", following are valid jersey numbers:</span></p>\n<p class=\"p6\"><span class=\"s1\">{\u201c1-1-1-1\u201d, \u201c1-1-1-2\u201d, \u201c1-2-1-1\u201d, \u201c1-2-1-2\u201d, \u201c1-2-2-2\u201d, \u201c2-2-1-2\u201d, \u201c2-2-2-2\u201d}</span></p>\n<p class=\"p7\">\u00a0</p>\n<p class=\"p8\">\u00a0</p>\n",
+    "category_name": "main",
+    "date_added": "27-12-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "4",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/AMR14F",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1444145400,
+        "end_date": 1444163400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1444163400,
+        "submit_start_date": 1444145400,
+        "current": 1537435975
+    },
+    "user": {
+        "username": ""
+    }
+}

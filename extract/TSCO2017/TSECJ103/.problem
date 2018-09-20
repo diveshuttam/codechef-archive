@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Chef has a very important String written but due to an accident the String gets shredded into its composing letters and divided into two parts <b>s1</b> and <b>s2</b>.\n Thankfully, the order of the letters has not changed, and the Chef has a few guesses as to what the string can be. Help Chef decide if his guess for <b>S</b> can be composed out of <b>s1</b> and <b>s2</b> or not.</p>\n<p>For example, if Chef had string \"Greetings\" it could get shredded into \"Geeng\" and \"rtis\" but the characters in<b> s1</b> and <b>s2</b> will be in the same order as <b>S</b>.</p>\n<p>Note: A blank line indicates Chef's guess is an empty string.</p>\n\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>\n<p>The first line of each test case contains a two space separated strings <b>s1</b> and <b>s2</b> followed by single integer <b>N</b> denoting the number of guess by the Chef</p>\n<p>The next <b>N</b> lines contain a single guess <b>S</b>.</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>For each test case, output a <b>N</b> lines containing YES if the guessed string could be the possible initial string, and NO otherwise</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<p>For subtask 1:</p>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>1</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10</b></li>\n<li><b>0</b> \u2264 <b>|s|</b>,<b>|s1|</b>,<b>|s2|</b> \u2264 <b>10</b></li>\n</ul>\n<p>For subtask 2:</p>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000</b></li>\n<li><b>0</b> \u2264 <b>|s|</b>,<b>|s1|</b>,<b>|s2|</b> \u2264 <b>1000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\ntsec codecell 3\ntseccodecell\ncodetseccell\ncodecell\n\n<b>Output:</b>\nYES\nYES\nNO\n</pre>\n<p>\u00a0</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-07-2017",
+    "is_direct_submittable": false,
+    "contest_name": "TSEC Codeathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1501320600,
+        "end_date": 1501335000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1501335000,
+        "submit_start_date": 1501320600,
+        "current": 1537433691
+    },
+    "problem_author_html_handle": "tseccodecell",
+    "problem_name": "String Composition",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/tseccodecell'>tseccodecell</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "tseccodecell",
+    "contest_code": "TSCO2017",
+    "max_timelimit": "1",
+    "problem_code": "TSECJ103"
+}

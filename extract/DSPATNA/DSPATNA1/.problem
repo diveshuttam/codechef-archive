@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>One of the most fundamental concepts learnt by a novice programmer is generation of Fibonacci Series. The Fibonacci Series is known to be of the form 0 1 1 2 3 5 8 13... etc. Usually a recursive approach to solve the problems is applied. The problem with the usual recursive approach is that multiple calls are made to calculate the same number, which makes it time in-efficient. This algorithm runs in time theta(n). However, if you use either a Dynamic Programming approach or Memoization Technique, we can develop an algorithm that computes the nth Fibonacci number using at most O(log n) arithmetic operations.</p>\n\n<p>Your task is to write a program, using Dynamic Programming or Memoization or otherwise that computes the nth Fibonacci Number in  O(log n). The series need not begin from 0 1.</p>\n<p>Problem Setter: <a href= \" http://bit.ly/VG_MSP_Interview\" >Vishal Gupta</a></p>\n\n<h3>Input</h3>\n<p>The input will contain the number of test cases 'T' an integer. The next 'T' line contain 3 unsigned integers A, B and N (in each line) where A and B are respectively the first and the second term of the Modified Fibonacci series and N is the Nth term to be calculated.</p>\n\n<p> Limits are as follows - 0 < A, B, T <100 ad 0< N < 50. </p>\n\n\n\n<h3>Output</h3>\n<p>You have to print the Nth Fibonacci term for each test case in the new line.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n7\n0 1 10\n2 3 5\n67 101 9\n23 46 35\n45 37 24\n45 27 1\n45 46 2\n\n\n<b>Output:</b>\n34\n13\n2992\n343398096\n1857304\n45\n46\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-04-2011",
+    "is_direct_submittable": false,
+    "contest_name": "DreamSpark - Microsoft Software & Technology Club",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1301724000,
+        "end_date": 1301733000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180228,
+        "submit_start_date": 1301724000,
+        "current": 1537439244
+    },
+    "problem_author_html_handle": "ganesha",
+    "problem_name": "The Modified Fibonacci Series",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ganesha'>ganesha</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ganesha",
+    "contest_code": "DSPATNA",
+    "max_timelimit": "0.1",
+    "problem_code": "DSPATNA1"
+}

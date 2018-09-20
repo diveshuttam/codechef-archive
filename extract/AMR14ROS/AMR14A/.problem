@@ -1,0 +1,33 @@
+{
+    "problem_code": "AMR14A",
+    "problem_author": "murdocc007",
+    "contest_name": "ACM-ICPC Asia-Amritapuri Onsite Contest 2014, Replay",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>murdocc007</span>",
+    "problem_name": "Afghan Jerseys",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "AMR14ROS",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/murdocc007'>murdocc007</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p class=\"p1\"><span class=\"s1\">Afghanistan is playing its maiden ICC Cricket World Cup in 2015. After all the war, their cricket board wants to put on a good show to get the people\u2019s mind off the strife, and guide it towards the more important kind of conflict \u2014 on the pitch. It has therefore decided to give all the players in the country a brand new jersey, with the player\u2019s name printed to inspire them to kick butt.</span></p>\n<p class=\"p2\"><span class=\"s1\">Afghani names being long, they do not fit properly on the jerseys. So the board has decided to compress the names into patterns that match parts of the players\u2019 names. To save on the fabric printing cost, each pattern also has to match as many names as possible. The problem has been given to you to solve with your programming skills.</span></p>\n<p class=\"p2\"><span class=\"s1\">The pattern is given as a string P. Each character of the pattern P is either a lower-case character between \u2018a\u2019 to \u2018z\u2019 or '*'. A '*' matches any number of characters (including 0). For example, the string 'abc' matches patterns \"*\", \"a*\" and \"*b*\", but not \"b*\".</span></p>\n<p class=\"p2\"><span class=\"s1\">As the number of players in the country is huge, it\u2019s a tedious task to match them individually. Hence, they have collected the most frequently occurring chunks (only lowercase alphabetical letters) from players\u2019 names as a string T.</span></p>\n<p class=\"p2\"><span class=\"s1\">Given a string T, consisting only of lower-case characters \u2018a\u2019 to \u2018z\u2019, they want to know how many distinct subsequences of T match a given pattern P modulo 1000000007.</span></p>\n<p class=\"p2\"><span class=\"s1\">A subsequence of sequence is a sequence of characters that can be derived from the given sequence by deleting some elements without changing the order of the remaining elements. For example, \u201cace\u201d is a valid subsequence of \u201cabcde\u201d, while \u201caec\u201d is not.</span></p>\n<p class=\"p3\"><span class=\"s1\"><b>Input:</b></span></p>\n<p class=\"p2\"><span class=\"s1\">The first line contains the number of test cases, Q. Q test cases follow. Each test case contains the text T on the first line, followed by the pattern P on the next line.</span></p>\n<p class=\"p3\"><span class=\"s1\"><b>Output:</b></span></p>\n<p class=\"p2\"><span class=\"s1\">Output the answer for each test case on a new line. All answers must be output modulo 1000000007.</span></p>\n<p class=\"p3\"><span class=\"s1\"><b>Constraints:</b></span></p>\n<p class=\"p4\"><span class=\"s1\">1 &lt;= Q &lt;= 50</span></p>\n<p class=\"p4\"><span class=\"s1\">1 &lt;= |T| &lt;= 1000</span></p>\n<p class=\"p4\"><span class=\"s1\">1 &lt;= |P| &lt;= 50</span></p>\n<p class=\"p5\">\u00a0</p>\n<p class=\"p3\"><span class=\"s1\"><b>Sample Input:</b></span></p>\n<p class=\"p3\"><span class=\"s1\">4</span></p>\n<p class=\"p3\"><span class=\"s1\">abc</span></p>\n<p class=\"p3\"><span class=\"s1\">*</span></p>\n<p class=\"p3\"><span class=\"s1\">aba</span></p>\n<p class=\"p3\"><span class=\"s1\">*</span></p>\n<p class=\"p3\"><span class=\"s1\">ababa</span></p>\n<p class=\"p3\"><span class=\"s1\">ab</span></p>\n<p class=\"p3\"><span class=\"s1\">abcbaba</span></p>\n<p class=\"p2\"><span class=\"s1\">a*b</span></p>\n<p class=\"p3\"><span class=\"s1\"><b>Sample Output:</b></span></p>\n<p class=\"p3\"><span class=\"s1\">8</span></p>\n<p class=\"p3\"><span class=\"s1\">7</span></p>\n<p class=\"p3\"><span class=\"s1\">1</span></p>\n<p class=\"p2\"><span class=\"s1\">14</span></p>\n<p class=\"p3\"><span class=\"s1\"><b>Explanation:</b></span></p>\n<p class=\"p3\"><span class=\"s1\">For the first example, all subsequences (including the empty string) match the pattern \"*\".</span></p>\n<p class=\"p3\"><span class=\"s1\">For the second example, note that the string \"a\" occurs as a subsequence of the text twice, but it should only be counted once.</span></p>\n",
+    "category_name": "main",
+    "date_added": "27-12-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/AMR14A",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1421238600,
+        "end_date": 1421256600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1421256600,
+        "submit_start_date": 1421238600,
+        "current": 1537437010
+    },
+    "user": {
+        "username": ""
+    }
+}

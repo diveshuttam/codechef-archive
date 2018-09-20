@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>As we all know RK loves his name very much especially the character 'R' so this time task for you is based on his awesome name. RK gives you a <strong>string S</strong> consisting of characters 'R' and 'K' only. Now you are allowed to do <strong>exactly one</strong> move that is you have to choose two indices <strong>i and j (1&lt;=i&lt;=j&lt;=|S|</strong> where |S| is string length ) and flip all the characters at position <strong>X</strong> where <strong>i&lt;=X&lt;=j</strong>. Flipping the character means :</p>\n<pre><code> if S[X]='R' :  //If character at position X is 'R' then change it to 'K'\n      S[X]='K'  \n else :          //else if character at position X is 'K' then change it to 'R'\n      S[X]='R'\n</code></pre><p>Now your goal is that after <strong>exactly one</strong> move you have to obtain the <strong>maximum number of R's</strong> as RK loves this character very much. So help RK with maximum R's. </p>\n<p><strong>Input :</strong><br />\nThe first line contains the number of test cases <strong>T</strong>. Each test case contains a string <strong>S</strong> consisting of characters 'R' and 'K' only.  </p>\n<p><strong>Output :</strong><br />\nFor each test case print the maximal number of R's that can be obtained after exactly one move. </p>\n<p><strong>Constraints:</strong> <br />\n1&lt;=<strong>T</strong>&lt;=10 <br />\n1&lt;=<strong>|S|</strong> &lt;=10^6  (length of string)</p>\n<p><br /><br /><b>Sample Input:</b><br /><br />\n2<br /><br />\nRKKRK<br /><br />\nRKKR<br /><br />\n<br /><br /><b>Sample Output:</b><br /><br />\n4<br /><br />\n4<br /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeERA",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426163513,
+        "end_date": 1426314600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426314600,
+        "submit_start_date": 1426163513,
+        "current": 1537436593
+    },
+    "problem_author_html_handle": "akhil62",
+    "problem_name": "LUCKY LETTERS",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/akhil62'>akhil62</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "akhil62",
+    "contest_code": "CDER2015",
+    "max_timelimit": "1",
+    "problem_code": "LUCKYR"
+}

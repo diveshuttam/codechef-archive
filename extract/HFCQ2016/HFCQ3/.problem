@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>Pankaj, the right arm fast bowler bowls <b>B</b> regular balls and at most <b>N</b> free-hit balls due to his inconsistent line and length. Now, If a batsman scores 0 runs of a ball, then the ball is considered to be  a 'dot ball'. The batsman can either play a single ball bowled as a dot ball, or may score 1, 2, 4 or 6 runs from it. This scoring principle is same for both the regular balls as well as for the free-hit balls. The cricket match can end due to one of the following reasons. </p>\n<ul>\n<li>Either there are no regular balls remaining (irrespective of the number of free-hit balls remaining).</li>\n<li>Or the batsman scores 100 or more runs(irrespective of the number of regular balls or 'no-balls' remaining).</li>\n</ul>\n<p><br /><br />\n The batting side wins the game if the batsman scores 100 or more runs. Also, since the batsman is a power hitter, he never plays three continuous regular balls as dot balls. Three regular balls are considered continuous even if there are free-hit balls bowled in between them. The free-hit balls although offer a good opportunity to the batsman to score runs but they are actually served as penalty on the part of bowler and hence, not taken into consideration of counting them as a regular ball. For example, if the bowler delivers the following sequence of balls i.e [regular ball][regular ball][free-hit ball][regular ball]. Then, it is not possible to score zero runs of all the three regular balls, irrespective of the runs scored from the free-hit balls between them.</p>\n<p>Find the number of ways in which the batting side wins the game. Since the answer can be too large, print it modulo 10^9 + 7. </p>\n<h3>Note</h3>\n<p>\nDo not confuse with actual rules of cricket like extra runs for no ball. Only the rules stated in the problem statement are valid.\n</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases.</li>\n<li>The first line of each test case contains two space separated integers i.e <b>B</b> and <b>N</b> denoting the number of regular balls and free-hit balls respectively. </li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>For each test case, print the number of ways in which he can win the game modulo 10^9 + 7</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<b>\n<li>1 \u2264 T \u2264 30</li>\n<li>1 \u2264 B \u2264 200</li>\n<li>0 \u2264 N \u2264 100</li>\n<p></p></b>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n17 0<br />\n<b>Output:</b>\n18\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>For the test case, the possible ways of winning are either scoring 6 runs out of all the 17 balls, or scoring 4 runs of 1 of the balls, and 6 runs out of the rest of them.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "HumbleFool Cup Qualifiers",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457710200,
+        "end_date": 1457721000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457721000,
+        "submit_start_date": 1457710200,
+        "current": 1537435174
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>codaitya</span>",
+    "problem_name": "Century Coder",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/codaitya'>codaitya</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "codaitya",
+    "contest_code": "HFCQ2016",
+    "max_timelimit": "1",
+    "problem_code": "HFCQ3"
+}

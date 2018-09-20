@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem description.</h3>\n<p>\nWith the arrival of monsoon season, beautiful city of Palama is observing a huge surge of tourists. As expected, the infamous hotel, Palama Palace - 5 Star Super Luxurious with 7 Swimming Pools, jacuzzi in rooms and what not, has become the main attraction for tourists to stay.\n</p>\n<p>\nPalama Managers believe in providing quality service and will have to compromise on the number of touristers they can fit. Having a lot of pre-bookings, Palama managers have to again and again go through these bookings and see if they can give the room to tourists. Can you help the Palama managers quickly answer tourists if they can provide them a room or not?\n</p>\n<h3>Input Description</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows<br />\n\tFirst line of each test case contains two spaced integers <b>N</b> and <b>Q</b>, where N is the number of time slots which are already booked and Q is the number of queries the managers have got<br /><br />\n\t<b></b>N lines follow each of which contains two spaced integers representing interval start time <b> Ts</b> and end time <b> Te</b><br /><br />\n\t<b>Q</b> lines follow each of which contains one integer,<b> Qi</b>,  representing the time of request</p>\n<h3>Output Description</h3>\n<p>For every query either output \"YES\" or \"NO\" according to problem statement\n</p>\n<h3>Sample Input</h3>\n<p>\n1<br />3 3<br />1 4<br />5 10<br />8 12<br />3<br />13<br />6<br />\n</p>\n<h3>Sample Output</h3>\n<p>\nNO<br />YES<br />NO<br />\n</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b> <b>T</b> \u2264 <b>10</b></b></li>\n<li><b>1</b> \u2264 <b> <b>N</b> \u2264 <b>5000</b></b></li>\n<li><b>1</b> \u2264 <b> <b>Ts,Te</b> \u2264 <b>10000000000</b></b></li>\n<li><b>1</b> \u2264 <b> <b>Q</b> \u2264 <b>10000</b></b></li>\n<li><b>1</b> \u2264 <b> <b>Qi</b> \u2264 <b>10000000000</b></b></li>\n</ul>\n<p><b>Note</b>: Intervals are inclusive</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-08-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Procon 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1407670200,
+        "end_date": 1407679200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1407679200,
+        "submit_start_date": 1407670200,
+        "current": 1537437484
+    },
+    "problem_author_html_handle": "procon2014",
+    "problem_name": "Hotel Palama Palace",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/procon2014'>procon2014</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "procon2014",
+    "contest_code": "PRCNSR14",
+    "max_timelimit": "1",
+    "problem_code": "HTLPLM"
+}

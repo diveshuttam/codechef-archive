@@ -1,0 +1,33 @@
+{
+    "problem_code": "PRCS16C",
+    "problem_author": "rounaqwl66",
+    "contest_name": "ProCon 2016 | Esya'16",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rounaqwl66</span>",
+    "problem_name": "Gangsters",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "PROC2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bfs'>bfs</a>, <a class='problem-tag-small ' href='/tags/problems/bitmasks'>bitmasks</a>, <a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/graphs'>graphs</a>, <a class='problem-tag-small ' href='/tags/problems/proc2016'>proc2016</a>, <a class='problem-tag-small ' href='/tags/problems/rounaqwl66'>rounaqwl66</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>You live in a graph <b>G</b>, with <b>N</b> vertices and <b>M</b> edges. <b>P</b> of these vertices have gangsters living on them. You owe each gangster some money, given by the array <b>C</b> (of size <b>P</b>). You wish to travel from <b>s</b> to <b>t</b>. If you step within distance <b>k</b> of any gangster who you haven't paid, you die. <br>\nWe define the length of a path as then number of edges it comprises. We define the distance of two nodes as the length of the shortest path connecting them. Further, we define the cost of travelling as the sum of gangster debts you pay off.<br>\nOf course, you wish to minimise the cost of travelling from <b>s</b> to <b>t</b> without dying. Note that you may not die at <b>s</b> or <b>t</b> either.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>First line contains four integers, <b>N</b>, <b>M</b>, <b>P</b>, and <b>K</b>. Second line contains <b>P</b> integers, the locations of the gangsters. Third line contains <b>P</b> integers, the money you owe to each gangster. Each of the next <b>M</b> lines contains two integers, <b>x<sub>i</sub></b> and <b>y<sub>i</sub></b>, which mean that there exists an edge between the nodes <b>x<sub>i</sub></b> and <b>y<sub>i</sub></b>. The last line contains two integers, <b>s</b> and <b>t</b>, the source and the target. It is guaranteed that a solution always exists.</p><p>\u00a0</p>\n\n<h3>Output</h3>\n<p>A single integer, the minimum cost of travelling from <b>s</b> to <b>t</b>.</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N,M,K</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>P</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>C<sub>i</sub></b> \u2264 <b>10<sup>9</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5 5 1 1\n4\n100\n1 2\n2 3\n3 4\n3 5\n4 5\n1 5\n<b>Output:</b>\n100\n</pre>\n<p>\u00a0</p>\n<h3>Explanation </h3>\n<p> The graph for the sample input looks like:</p>\n<a href=\"http://www.freeimagehosting.net/commercial-photography/\"><img src=\"http://i.imgur.com/0IJjKIL.jpg\" width=\"300px\" alt=\"commercial photography locations\"></a>\n<p>Note that the gangster at node 4 is at distance 1 from node 3 and node 3 must be passed on the way from node 1 to node 5. Hence, we cannot do better than a cost of 100.</p>",
+    "category_name": "main",
+    "date_added": "2-08-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA",
+    "max_timelimit": "5",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/PRCS16C",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1470497400,
+        "end_date": 1470508200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1470508200,
+        "submit_start_date": 1470497400,
+        "current": 1537434701
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Vamsi likes the digits 1 and 9 as he found every number formed out of only these two digits magical for him.\nOne day he got a list of numbers, he was trying to find out the number of magical numbers present in the list.\nBut he finds this task very simple. Then he starts finding such pairs of non-overlapping sub-arrays such that no magical number is present in both the subarrays simultaneously.\nAs he is busy in preparing for some event, he needs your help.</p>\n\n\n<h3>Input</h3>\n<p>First line contains a single integer <b>n</b>, number of elements in the list.<br/>\nfollowing line contains <b>n</b> space separated integers present in the list.<br/></p>\n\n<h3>Output</h3>\n<p>Output a single integer, number of pairs of non-overlapping sub-arrays such that no magical number should be there in both the sub-arrays. Output can be Large. Note that magical numbers can be there in both the subarrays but same magical should not be present in both of them. Refer to sample testcase for more clarification.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>number in the list</b> \u2264 <b>2 * 10<sup>9</sup></b></li>\n<li><b>1</b> \u2264 <b>number of magical numbers</b> \u2264 <b>2 * 10<sup>3</sup></b></li>\n</ul>\n\n<h3>Score</h3>\n<ul>\n<li><b>Subtask 1(30 pts): </b><b>n</b> \u2264 <b>10<sup>3</sup></b></li>\n<li><b>Subtask 2(70 pts): </b><b>Original Constraints</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n3 9 2 9\n\n<b>Output:</b>\n9\n\n</pre>\n\n<h3>Explanation</h3>\n<p>The subarray a[l..r] is an array that consists of elements a<sub>l</sub>, a<sub>l + 1</sub>, ..., a<sub>r</sub>.<br/>\nThere are 9 possible pairs that satisfy the condition: [1, 1] and [2, 2], [1, 1] and [2, 3], [1, 1] and [2, 4], [1, 1] and [3, 3], [1, 1] and [3, 4], [1, 1] and [4, 4], [1, 2] and [3, 3], [2, 2] and [3, 3], [3, 3] and [4, 4].<br/>\n<br/></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-12-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Code-of-War 2K18",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, D, PERL, FORT, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, PIKE, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, JS, ERL, kotlin, PERL6, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1515339900,
+        "end_date": 1515352500,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1515352500,
+        "submit_start_date": 1515339900,
+        "current": 1537433228
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>vishusachdeva</span>",
+    "problem_name": "Vamsi the Magician",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vishusachdeva'>vishusachdeva</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vishusachdeva",
+    "contest_code": "CW2018",
+    "max_timelimit": "1",
+    "problem_code": "COW18_6"
+}

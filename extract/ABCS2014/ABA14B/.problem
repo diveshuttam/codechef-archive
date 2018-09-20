@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>You get bored sometimes and love to play the game Chain reaction. This game is played upon a board of size RxC. Initially, the board is empty. In each turn, you can place an atom in any cell you want. After each turn, if the number of atoms in a cell becomes greater than 3, it will explode and one atom will spread to each of the four sides. If any other atoms remain( ie no of atoms > 4), it remains in the same cell. As you can see, this will create a chain reaction if the adjacent cells contain 3 atoms already.</p>\n<p>\u00a0If explosion occurs at edge cells or corner cells, some atoms are lost permanently. This also makes sure that the board will always reach a stable state after some number of explosions. </p>\n<p>     You will be given the board size and the state of the board after some moves. Next you will make N moves. Write a program that prints the final stable state of the board after N moves.\n</p>\n<h3>Input</h3>\n<p>First line contains the number of test cases T.<br /><br />\nFirst line of each test case will have 2 integers R and C, R is the row size, C is the column size.<br /><br />\nThen R lines follow, each line containing C integers, denoting the number of atoms at that cell.<br /><br />\nNext line will have a single integer N , the number of moves that you make<br />\nN lines follow, each containing two integers, x and y denoting the cell (x, y) where you add a new atom.\n</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each test case print the final state of the board.<br /><br />\nIt must contain R lines, each having C space separated integers. </p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<p>1&lt;=T&lt;=100<br /><br />\n2&lt;=R&lt;=20 , 2&lt;=C&lt;=20<br /><br />\nNumber of atoms in each cell will be less than 4. <br /><br />\n0&lt;=x<R , 0&lt;=y<C<br><br />\n1&lt;=N&lt;=1000<br />\n</r></p>\n<h3>Example</h3>\n<p><b>Input:</b></p>\n<p>1<br /><br />\n5 5<br /><br />\n0 0 0 0 0 <br /><br />\n0 0 3 0 0<br /><br />\n0 3 3 3 0<br /><br />\n0 0 3 0 0<br /><br />\n0 0 0 0 0<br /><br />\n2<br /><br />\n2 2<br /><br />\n0 0<br />\n</p>\n<p><br /><br />\n<b>Output:</b></p>\n<p>\u00a01 0 1 0 0<br /><br />\n0 2 1 2 0<br /><br />\n1 1 0 1 1<br /><br />\n0 2 1 2 0<br /><br />\n0 0 1 0 0<br />\n</p>\n<p><br /></p>\n<h3>Explanation</h3>\n<p> After adding the atom to (2, 2), it explodes which will cause all four adjacent cells (1, 2), (2, 1), (2, 3), (3, 2) to explode. This will lead to explosion of the cell (2, 2) for the second time as all those four cells sends back an atom to this cell.<br />\nAfter adding the atom to (0, 0), no explosion occurs.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-03-2014",
+    "is_direct_submittable": false,
+    "contest_name": "aBaCUS'14",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1394893800,
+        "end_date": 1394906400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1394906400,
+        "submit_start_date": 1394893800,
+        "current": 1537437699
+    },
+    "problem_author_html_handle": "abacus_opc",
+    "problem_name": "Chain Reaction",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abacus_opc'>abacus_opc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abacus_opc",
+    "contest_code": "ABCS2014",
+    "max_timelimit": "0.5",
+    "problem_code": "ABA14B"
+}

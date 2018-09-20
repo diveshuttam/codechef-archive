@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>You are holding a party. In preparation, you are making a drink by mixing together three different types of fruit juice: Apple, Banana, and Carrot. Let's name the juices A, B and C.<br />\nYou want to decide what fraction of the drink should be made from each type of juice, in such a way that the maximum possible number of people attending the party like it.<br />\nEach person has a minimum fraction of each of the 3 juices they would like to have in the drink. They will only like the drink if the fraction of each of the 3 juices in the drink is greater or equal to their minimum fraction for that juice.<br />\nDetermine the maximum number of people that you can satisfy.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>\u2022\tOne line containing an integer T, the number of test cases in the input file.<br />\nFor each test case, there will be:<br />\n\u2022\tOne line containing the integer N, the number of people going to the party.<br />\n\u2022\tN lines, one for each person, each containing three space-separated numbers \"A B C\", indicating the minimum fraction of each juice that would like in the drink. A, B and C are integers between 0 and 10000 inclusive, indicating the fraction in parts-per-ten-thousand. A + B + C \u2264 10000.\n</p>\n<h3>Output</h3>\n<p>\u2022\tT lines, one for each test case in the order they occur in the input file, each containing the maximum number of people who will like your drink.</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n3\n10000 0 0\n0 10000 0\n0 0 10000\n3\n5000 0 0\n0 2000 0\n0 0 4000\n5\n0 1250 0\n3000 0 3000\n1000 1000 1000\n2000 1000 2000\n1000 3000 2000\n\n\n\n<b>Output:</b>\n1\n2\n5\n\n\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "International Code Zilla 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1361257200,
+        "end_date": 1361284200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1672256211,
+        "submit_start_date": 1361257200,
+        "current": 1537438500
+    },
+    "problem_author_html_handle": "codecheftsec",
+    "problem_name": "Three Juices",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/codecheftsec'>codecheftsec</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "codecheftsec",
+    "contest_code": "INCD2013",
+    "max_timelimit": "19.7374",
+    "problem_code": "RBXINT3"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Description</h3>\n<p>Neha is designing the treasure hunt routes. She wants to put different routes for different teams, but she wants each team to have routes of equivalent difficulty. The difficulty of a routes depends on its shape and size. On a map of IISc, the co-organizer Sriram has drawn all available routes.</p>\n<p>Neha wants to group the routes based on their difficulty. Routes are of the same difficulty if they are the same shape and size, i.e. they can be transformed into each other by rotations or flips.</p>\n<p>You are given the routes on the map of 0s and 1s, where the 1s indicate the square is part of a route. Any square of the route must be adjacent to another square of the route horizontally, vertically, or diagonally. You have to label the equivalent routes with the same character.</p>\n<h3>Input</h3>\n<p>The first line has two integers W and H, the width and height of the map.</p>\n<p>The next H lines consist of W unspaced numbers which can be 0s or 1s, the entries of the map.</p>\n<h3>Output</h3>\n<p>You must output the map with equivalent routes marked with the same letters.</p>\n<p>The lettering must be as follows: Starting from the top left of the map, the first route (going left to right, row by row) is marked with \u2018a\u2019. The next non-similar route in this manner is \u2018b\u2019, and so on. Output of test cases are separated by an empty line.</p>\n<h3>Constraints</h3>\n<p>0 &lt; W (width of the map) &leq; 201<br /><br />\n0 &lt; H (height of the map) &leq; 201<br /><br />\n0 &leq; Number of routes &leq; 1000<br /><br />\n0 &leq; Number of non-similar routes &leq; 26 (a..z)<br /><br />\n1 &leq; Number of squares per route &leq; 160<br /></p>\n<p><br /></p>\n<h3>Sample Input</h3>\n<div style=\"font-family:monospace;\">\n20 15<br /><br />\n11111001000000000000<br /><br />\n10001000011100000010<br /><br />\n10101000000100001110<br /><br />\n10001000000000010000<br /><br />\n11111011100000100000<br /><br />\n00000000000100000001<br /><br />\n00000000000010010010<br /><br />\n00011111000001000100<br /><br />\n10010001000001000000<br /><br />\n10010001000001100010<br /><br />\n11010001000100000001<br /><br />\n00011111001000010100<br /><br />\n01000000010000010001<br /><br />\n01000000010000010010<br /><br />\n11000000110000000100\n</div>\n<p><br /></p>\n<h3>Sample Output</h3>\n<div style=\"font-family:monospace;\">\naaaaa00b000000000000<br /><br />\na000a0000ccc000000d0<br /><br />\na0b0a000000c0000ddd0<br /><br />\na000a0000000000d0000<br /><br />\naaaaa0eee00000d00000<br /><br />\n00000000000d0000000f<br /><br />\n000000000000d00b00f0<br /><br />\n000aaaaa00000d000f00<br /><br />\nc00a000a00000d000000<br /><br />\nc00a000a00000dd000g0<br /><br />\ncc0a000a000d0000000g<br /><br />\n000aaaaa00d0000e0b00<br /><br />\n0c0000000d00000e000f<br /><br />\n0c0000000d00000e00f0<br /><br />\ncc000000dd0000000f00\n</div>\n<p><br /></p>\n<p>For the sake of your clarity, here are the input and output maps with the extraneous zeros removed. This is not the format of the input or the required output.</p>\n<h3>Clear Input:</h3>\n<div style=\"font-family:monospace; white-space:pre; line-height: 0.6em;\">\n11111  1            <br /><br />\n1   1    111      1 <br /><br />\n1 1 1      1    111 <br /><br />\n1   1          1    <br /><br />\n11111 111     1     <br /><br />\n           1       1<br /><br />\n            1  1  1 <br /><br />\n   11111     1   1  <br /><br />\n1  1   1     1      <br /><br />\n1  1   1     11   1 <br /><br />\n11 1   1   1       1<br /><br />\n   11111  1    1 1  <br /><br />\n 1       1     1   1<br /><br />\n 1       1     1  1 <br /><br />\n11      11       1\n</div>\n<p><br /></p>\n<h3>Clear Output:</h3>\n<div style=\"font-family:monospace; white-space:pre; line-height: 0.6em;\">\naaaaa  b            <br /><br />\na   a    ccc      d <br /><br />\na b a      c    ddd <br /><br />\na   a          d    <br /><br />\naaaaa eee     d     <br /><br />\n           d       f<br /><br />\n            d  b  f <br /><br />\n   aaaaa     d   f  <br /><br />\nc  a   a     d      <br /><br />\nc  a   a     dd   g <br /><br />\ncc a   a   d       g<br /><br />\n   aaaaa  d    e b  <br /><br />\n c       d     e   f<br /><br />\n c       d     e  f <br /><br />\ncc      dd       f\n</div>\n<p><br /></p>\n<h3>Output Constraints</h3>\n<p>Time: 3 seconds<br /><br />\nSpace: 1 MB</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "9-11-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Pravega 2014",
+    "languages_supported": "C, CPP14, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1384011000,
+        "end_date": 1384018200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1384018200,
+        "submit_start_date": 1384011000,
+        "current": 1537438039
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>pravega_opc</span>",
+    "problem_name": "Treasure Hunt",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pravega_opc'>pravega_opc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pravega_opc",
+    "contest_code": "PRVG2014",
+    "max_timelimit": "0.165",
+    "problem_code": "PRVG01"
+}

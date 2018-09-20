@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> For two given sequences of integers, find the longest possible integer sequence which is a subsequence of both these sequences, and whose elements are integers in a (strictly) increasing order.</p>\n<h3>Input</h3>\n<p> The first number is n (1 \u2264 n \u2264 5000), the length of the first sequence.</p>\n<p> The next n integers are elements of the first sequence.</p>\n<p> The next is m (1 \u2264 m \u2264 5000), the length of the second sequence.</p>\n<p> The next m integers are elements of the second sequence.</p>\n<h3>Output</h3>\n<p>On the first line, print a single number k, the length of the longest possible common subsequence that is increasing.</p>\n<p>In the next line, print k space separated integers which is the answer. If there are multiple possible subsequences, any one would do.</p>\n\n<h3>Example</h3>\n<p>For the input:\n<pre>5\n2 3 1 4 0\n6\n10 3 4 1 0 0\n\n</pre>\nA correct answer is:\n<pre>2\n3 4</pre></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-04-2009",
+    "is_direct_submittable": false,
+    "contest_name": "May 2009 (Contest III)",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1241170200,
+        "end_date": 1242034200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1242034200,
+        "submit_start_date": 1241170200,
+        "current": 1537439950
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "An interesting subsequence",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "MAY09",
+    "max_timelimit": "0.2 - 0.6",
+    "problem_code": "C5"
+}

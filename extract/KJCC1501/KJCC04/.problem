@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>One day, Chef had a meeting with a VVIP for business purpose. Chef had heard that the VVIP was an intelligent person and he worked in a secure facility. Only those people were allowed entry who knew some secret passwords. Also, the secret password wasn't the same every time. It was more of a deduction. Regarding the password, Chef had received an e-mail to crack the password in order to meet the VVIP. The mail was as follows:\n</p>\n\n<p>Hi Chef,</p>\n\n<p>\nIn our secret facility, there shall be <b>\u2019t\u2019</b> guards who will ask you for a secret password. Each guard will provide you with <b>'N'</b> distinct numbers. He will also specify a limit <b>\u2018M\u2019</b>. You need to find the sum of numbers till <b>\u2018M\u2019(less than M) </b> that are multiples of the first number or the second number, for all distinct pairs (pairs in which at least one number is different eg: [(3,4) and (4,3)], [(2,2) and (2,2)] are considered as the same and not distinct). Further for that particular guard, you need to perform the addition of the sums for each distinct pair and since the resultant number may be large, modulo divide it by (10^9 + 7) to obtain the secret password.</p>\n\n<p>Now, Chef is really worried and needs your help to solve this crisis. Help Chef meet the VVIP.</p>\n\n<h3>Input:</h3>\n\n<p>\nFirst line contains <b>t</b> denoting no. of test cases<br /><br />\nFor each of the 'T' test cases, <br /><br />\nfirst line contains <b>N</b> \u2013 denoting the size of array of numbers<br /><br />\nSecond line contains <b>N</b> numbers (A[0]\u2026A[N-1])<br /><br />\nThird line contains <b>M</b> \u2013 the limit for finding the multiples<br />\n</p>\n\n<h3>Output:</h3>\n\n<p>\nFor each test case, output the resultant number which is the secret password\n</p>\n\n<h3>Constraints:</h3>\n\n<ul>\n<li>1 &lt;= <b>t</b> &lt;= 10</li>\n<li>2 &lt;= <b>N</b> &lt;= 500</li>\n<li>1 &lt;= <b>A[i]</b> &lt;= 10^9 for 0 &lt;= <b>i</b> &lt;<b> N</b></li>\n<li>1 &lt;= <b>M</b> &lt;= 10^9</li>\n</ul>\n\n<h3>Example:</h3>\n<pre><b>Input:</b>\n2\n3\n3 4 7\n20\n2\n5 6\n30\n<b>Output:</b>\n236\n135\n</pre>\n<h3>Explanation:</h3>\n<p><b><br />\nHere we have 2 test cases.<br />\nIn the first test case, there are three numbers 3,4 and 7. The pairs that can be formed are (3,4), (3,7) and (4,7) only since it is mentioned to consider pairs having at least one element different. For each of these pairs, we need to find sum of numbers that are multiples of either of the number in pair and less than 20. Hence, we have\n</b></p>\n\n<p>For (3,4): 3 + 4 + 6 + 8 + 9 + 12 + 15 + 16 + 18 = 91<br /><br />\nFor (3,7): 3 + 6 + 7 + 9 + 12 + 14 + 15 + 18 = 84<br /><br />\nFor (4,7): 4 + 7 + 8 + 12 + 14 + 16 = 61<br /><br />\nFinal o/p = (91 + 84 + 61) % (10^9 + 7) = 236<br />\n</p>\n\n<p>Similarly for the second test case, we have only one pair (5,6) and we need those multiples which are less than 30. Thus, we have</p>\n<p>For (5,6): 5 + 6 + 10 + 12 + 15 + 18 + 20 + 24 + 25 = 135<br /><br />\nFinal o/p = (135) % (10^9 + 7) = 135<br /><br />\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "KJSCE Coding Challenge 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426314600,
+        "end_date": 1426357740,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426357740,
+        "submit_start_date": 1426314600,
+        "current": 1537436588
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>rkp7</span>",
+    "problem_name": "Chef and Password",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rkp7'>rkp7</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rkp7",
+    "contest_code": "KJCC1501",
+    "max_timelimit": "1",
+    "problem_code": "KJCC04"
+}

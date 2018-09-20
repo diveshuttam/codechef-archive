@@ -1,0 +1,33 @@
+{
+    "problem_code": "SPIT1",
+    "problem_author": "vicky002",
+    "contest_name": "SPIT Coder's Club 2.0",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>vicky002</span>",
+    "problem_name": "Kazi And The Contest",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "SPT2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/implementation'>implementation</a>, <a class='problem-tag-small ' href='/tags/problems/maps'>maps</a>, <a class='problem-tag-small ' href='/tags/problems/simple'>simple</a>, <a class='problem-tag-small ' href='/tags/problems/vicky002'>vicky002</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nKazi has organized a Coding Contest in his college. Contest has multiple rounds, in each round a participant may gain or lose few points. At the end, there is only one participant with the maximum points. In the course of the contest, the number of points is written in the line as <br/><br />\n<b>\"name points\"</b>, where <i>name</i> is the participant's name and <i>points</i> is, the number of points is gained. </br/></p>\n<p>\nIf the point is negative, this means the participant has lost in the round. If two partcipants have the maximum number of points, then winners is the one who scored at least m points first.<br />\n<br/><br />\nIntially each participant has 0 points. It's guranteed that at the end of the game at least one participant has a positive number of points.\n</br/></p>\n<h3>Input</h3>\n<p>The first line contains an integer <b>N</b>, total number of rounds. Then follow <b>N</b> lines, containing information about the rounds in \"<b>\"name points\" </b>\" format in chronological order.\n</p>\n<h3>Output</h3>\n<p>Print the Name of the winner of the Contest.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000</b></li>\n<li><b>'name'</b> is the string of lower case letter <b>1</b> \u2264 <b> |name|</b>  \u2264 <b>32</b></li>\n<li><b>-1000</b> \u2264<b>points</b> \u2264 <b>1000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\nmahi 3\nvicky 5\nmahi 2\n\n<b>Output:</b>\nvicky \n\n<b>Input:</b>\n5\nmahi 3\nmahi 2\nvicky 5\nankit 5\npooja 4\n\n<b>Output:</b>\nmahi \n<h3>Explanation</h3>\n<p>\n<li><b>1. </b>After the contest both <b>vicky</b> and <b>mahi</b> have scored same points that is 5 ,<br/>but vicky scored 5 points first, hence the winner.</br/></li>\n<li><b>2. </b> Clearly mahi wins, first to score 5 points. </li>\n</p></pre>",
+    "category_name": "main",
+    "date_added": "11-04-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/SPIT1",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1429446600,
+        "end_date": 1429457400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1429457400,
+        "submit_start_date": 1429446600,
+        "current": 1537436366
+    },
+    "user": {
+        "username": ""
+    }
+}

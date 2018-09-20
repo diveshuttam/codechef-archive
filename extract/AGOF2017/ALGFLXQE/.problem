@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\"Scuba diving is a mode of underwater diving in which the scuba diver uses a self-contained underwater breathing apparatus (scuba) which is completely independent of surface supply, to breathe underwater. Scuba provides the diver with the advantages of mobility and horizontal range far beyond the reach of an umbilical hose attached to surface-supplied diving equipment (SSDE). Scuba divers engaged in armed forces covert operations may be referred to as frogmen, combat divers or attack swimmers.\n<br><br>\nUnlike other modes of diving, which rely either on breath-hold or on breathing supplied under pressure from the surface, scuba divers carry their own source of breathing gas, usually compressed air, allowing them greater freedom of movement than with an air line or diver's umbilical and longer underwater endurance than breath-hold.\" - Wikipedia\n<br><br>\nMr. Hendricks, reading the wikipedia article, got excited about Scuba Diving. But he, being new at this, lost his expensive watch in the sea. As the sea was polluted, dirt has accumulated on his glasses and he is not able to see clearly. He is aware of the dimensions of the sea, which are N(depth) and M(width) meters respectively. He is also aware that he is currently at a position X(depth) and Y(width) in the sea. Now Mr. Hendricks has only a certain amount of oxygen left in the gas cylinder and he wishes to calculate the expected number of swims, E, that he will take to reach the bottom of the sea if he swims in all directions with equal chances. With this E, he can estimate whether he should try to attempt to find his lost watch or not.\n<br><br>\nA swim can either take Mr. Hendricks at 1 meter left, 1 meter right or 1 meter down or remain same with respect to the current position.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>N M X Y ; where N,M,X,Y are the parameters defined in the statement</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>E ; The expexted number of steps. (If it's a decimal value, output the upperbound (ceil) of that number).</p>\n\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<p>1<=N,M<=1000</p>\n<p>1<=X<=N</p>\n<p>1<=Y<=M</p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n7 7 7 1\n\n<b>Output:</b>\n0\n</pre>\n<p>\u00a0</p>\n<pre><b>Input:</b>\n2 2 1 1\n\n<b>Output:</b>\n3\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> Self Explanatory.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-01-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Algoflux Qualifiers",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYPY",
+    "todo": false,
+    "time": {
+        "view_start_date": 1485792000,
+        "end_date": 1485801900,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1485877500,
+        "submit_start_date": 1485792000,
+        "current": 1537434189
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>code_hard123</span>",
+    "problem_name": "The Lost Watch",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/code_hard123'>code_hard123</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "code_hard123",
+    "contest_code": "AGOF2017",
+    "max_timelimit": "1",
+    "problem_code": "ALGFLXQE"
+}

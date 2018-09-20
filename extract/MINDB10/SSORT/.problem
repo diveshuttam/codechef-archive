@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Your younger brother has an assignment and needs some help. His teacher gave him a sequence of numbers to be sorted in ascending order. During the sorting process, the places of two numbers can be interchanged. Each interchange has a cost, which is the sum of the two numbers involved.\n<p>You must write a program that determines the minimal cost to sort the sequence of numbers.</p>\n<h3>Input</h3>\n<p>The input file contains several test cases. Each test case consists of two lines. The first line contains a single integer n (n>1), representing the number of items to be sorted. The second line contains n different integers (each positive and less than 1000), which are the numbers to be sorted.\n<p>The input is terminated by a zero on a line by itself.</p>\n<h3>Output</h3>\n<p>For each test case, the output is a single line containing the test case number and the minimal cost of sorting the numbers in the test case. \n<p>Place a blank line after the output of each test case.</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n3 2 1\n4\n8 1 2 4\n5\n1 8 9 7 6\n6\n8 4 5 3 2 7\n0\n\n<b>Output:</b>\nCase 1: 4\n\nCase 2: 17\n\nCase 3: 41\n\nCase 4: 34\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-12-2008",
+    "is_direct_submittable": false,
+    "contest_name": "Mindbend 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1268364600,
+        "end_date": 1268451000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180181,
+        "submit_start_date": 1268364600,
+        "current": 1537439686
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Silly Sort",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "MINDB10",
+    "max_timelimit": "0.92",
+    "problem_code": "SSORT"
+}

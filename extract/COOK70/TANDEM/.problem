@@ -1,0 +1,33 @@
+{
+    "problem_code": "TANDEM",
+    "problem_author": "wwwwodddd",
+    "contest_name": "May Cook-Off 2016",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>wwwwodddd</span>",
+    "problem_name": "Tandem",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #D0011B;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>7&#9733;</span><span>kevinsogo</span>",
+    "contest_code": "COOK70",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cook70'>cook70</a>, <a class='problem-tag-small ' href='/tags/problems/lcp'>lcp</a>, <a class='problem-tag-small ' href='/tags/problems/medium-hard'>medium-hard</a>, <a class='problem-tag-small ' href='/tags/problems/rmq'>rmq</a>, <a class='problem-tag-small ' href='/tags/problems/segment-tree'>segment-tree</a>, <a class='problem-tag-small ' href='/tags/problems/string-hashing'>string-hashing</a>, <a class='problem-tag-small ' href='/tags/problems/suffix-array'>suffix-array</a>, <a class='problem-tag-small ' href='/tags/problems/wwwwodddd'>wwwwodddd</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Read problems statements in <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/COOK70/mandarin/TANDEM.pdf\">Mandarin Chinese</a>, <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/COOK70/russian/TANDEM.pdf\">Russian</a> and <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/COOK70/vietnamese/TANDEM.pdf\">Vietnamese</a> as well.</h3>\n<p>\nThe chef was recently studying about repeated occurrences of substrings in the strings. In particular, he was studying about a string <b>s</b>.\n</p>\n<p>\nHe calls a string to be in tandem if it can be represented as concatenation of three equal strings, i.e. it can be represented as <b>AAA</b> where <b>A</b> is a non-empty string. For brevity, he calls such strings <i>tandem</i> strings. For example, \"ababab\" is a <i>tandem</i> string whereas \"abab\" is not.\n</p>\n<p>\nNow, Chef is studying <i>tandem</i> substrings of string <b>s</b>. He calls a <i>tandem</i> substring an <i>interesting tandem</i> if the character following the substring in string <b>s</b> (if it exists) is different than the first character of the substring. If the character following the <i>tandem</i> substring does not exist (i.e. the substring appears as a suffix of string <b>s</b>), it's also called <i>interesting</i> tandem.\n</p>\n<p>\nChef calls all the <i>tandem</i> substrings which are not <i>interesting tandem</i> as <i>boring tandems</i>.\n</p>\n<p>\nNow, chef wants your help in counting number of <i>interesting</i> and <i>boring</i> tandem substrings in string <b>s</b>. Please help him!!\n</p>\n<p>\nFor example, let <b>s</b> be <b>\"abaaabaaabaaabbbb\"</b>.</p>\n<ul>\n<li>The substring <b>s[3..14] = \"aaabaaabaaab\"</b> is an <i>interesting tandem</i>, as the substring is a <i>tandem</i> and the character following the substring (i.e. <b>s[15] = 'b'</b>) is different than the first character of the substring (i.e. <b>'a'</b>).</li>\n<li>The substring <b>s[1..12] = \"abaaabaaabaa\"</b> is a <i>boring tandem</i>, as the character following the <i>tandem</i> substring (i.e. <b>s[13] = 'a'</b>) is same as the first character of the substring (i.e. <b>'a'</b>).</li>\n<li>The substring <b>s[15..17] = \"bbb\"</b> is also an <i>interesting tandem</i> as the character following the tandem does not exist (i.e. this tandem substring appears as a suffix of string <b>s</b>).</li>\n</ul>\n\n<p>In summary, <b>s[1..12], s[2..13], s[3..14], s[3..5], s[7..9], s[11..13], s[14..16], s[15..17]</b> are all <i>tandem</i> substrings. Out of which, <b>s[3..14], s[3..5], s[7..9], s[11..13], s[15..17]</b> are all <i>interesting tandems</i>. Rest <i>tandem</i> substrings, <b>s[1..12], s[2..13], s[14..16]</b> are all <i>boring tandems</i>.</p>\n<h3>Input</h3>\n<p>There is only a single test case.</p>\n<p>The first line of the input contains a string <b>s</b>.</p>\n<h3>Output</h3>\n<p>The only line of the output should contain two space separated integers denoting the number of <i>interesting</i> and <i>boring</i> tandems in string, respectively.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>|s|</b> \u2264 <b>200000</b></li>\n<li><b>s</b> consists of lower case English alphabets ('a' to 'z')</li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\nabaaabaaabaaabbbb\n\n<b>Output:</b>\n5 3\n</pre><h3>Explanation</h3>\n<p><b>Example case 1.</b> It is already explained in the problem statement.</p>\n",
+    "category_name": "main",
+    "date_added": "14-05-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "3",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/TANDEM",
+    "problem_tester": "kevinsogo",
+    "time": {
+        "view_start_date": 1463932800,
+        "end_date": 1463941800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1463941800,
+        "submit_start_date": 1463932800,
+        "current": 1537434889
+    },
+    "user": {
+        "username": ""
+    }
+}

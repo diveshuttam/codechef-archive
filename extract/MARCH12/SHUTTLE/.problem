@@ -1,0 +1,33 @@
+{
+    "problem_code": "SHUTTLE",
+    "problem_author": "yellow_agony",
+    "contest_name": "March 2012 Challenge",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>yellow_agony</span>",
+    "problem_name": "Free Shuttle Service",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>anton_lunyov</span>",
+    "contest_code": "MARCH12",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/march12'>march12</a>, <a class='problem-tag-small ' href='/tags/problems/yellow_agony'>yellow_agony</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Chef has decided to arrange the free shuttle service for his employees. City of Bhiwani has a strange layout - all of its <b>N</b> shuttle boarding points are arranged in a circle, numbered from 1 to <b>N</b> in clockwise direction. Chef's restaurant is at boarding point number 1. There is a single ring road that runs over the circumference of this circle and connects all the boarding points. There are also <b>N - 1</b> different shuttle agencies available in Bhiwani.</p>\n\n<p>For every different boarding points <b>A</b> and <b>B</b> there is exactly one shuttle that connects these points and it belongs to <b>K</b><sup>th</sup> shuttle agency where <b>K</b> is the distance between <b>A</b> and <b>B</b> in clockwise direction, that is, there are exactly <b>K - 1</b> boarding points between points <b>A</b> and <b>B</b> in clockwise direction. Denote this shuttle as <b>(A, B)</b>. So if <b>N = 4</b>, first agency has shuttles (1,2), (2,3), (3,4), (4,1), second agency has shuttles (1,3), (2,4) and the shuttles of third agency are (1,4), (2,1), (3,2), (4,3). If the shuttle connects points <b>A</b> and <b>B</b>, it is possible to go from <b>A</b> to <b>B</b> as well as from <b>B</b> to <b>A</b> using this shuttle.</p>\n\n<p>Chef is planning to make a contract with one of the agencies so that all of his employees are able to travel in shuttles of that agency for free. He therefore wants to choose such a shuttle agency so that people from any boarding point can reach his restaurant only using shuttles of the chosen agency possibly using some intermediate boarding points. Your task is to find how many such shuttle agencies are there.</p>\n\n<h3>Input</h3>\n<p>First line contains an integer <b>T</b> denoting number of test cases. After that <b>T</b> lines follow each containing a single integer <b>N</b> denoting number of shuttle boarding points in Bhiwani. \n\n<h3>Output</h3>\n</p><p>For every test case, output the number of shuttle agencies our chef could choose. \n\n<h3>Constraints</h3>\n</p><p>\n1 \u2264 <b>T</b> \u2264 100\n</p><p>\n2 \u2264 <b>N</b> \u2264 10000\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n2\n3\n4\n\n<b>Output:</b>\n1\n2\n2\n\n</pre>\n<b>Description:</b>\nIn third case, there are 4 shuttle boarding points and there are 4 - 1 = 3 shuttle agencies. Using shuttles of only second agency, one can move between points (1,3) and points (2,4). So a person starting from point 2 can't reach restaurant using these shuttles. Each of the other two agencies connects all the points with the restaurant possibly through intermediate boarding points.</p>",
+    "category_name": "main",
+    "date_added": "26-12-2011",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.35122",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/SHUTTLE",
+    "problem_tester": "anton_lunyov",
+    "time": {
+        "view_start_date": 1330594200,
+        "end_date": 1331458200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1331458200,
+        "submit_start_date": 1330594200,
+        "current": 1537438895
+    },
+    "user": {
+        "username": ""
+    }
+}

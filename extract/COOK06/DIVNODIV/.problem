@@ -1,0 +1,33 @@
+{
+    "problem_code": "DIVNODIV",
+    "problem_author": "anton_lunyov",
+    "contest_name": "The January 2011 Cook-Off",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>anton_lunyov</span>",
+    "problem_name": "Divisors number divisibility",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "friggstad",
+    "contest_code": "COOK06",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anton_lunyov'>anton_lunyov</a>, <a class='problem-tag-small ' href='/tags/problems/cook06'>cook06</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\n\nFor a given positive integer <b>N</b> find the number of all positive integers <b>X</b> such that <b>N</b> divides <b>X</b> and the number of all positive divisors of <b>X</b> (including <b>1</b> and <b>X</b>) is equal to <b>N</b>. If there exist infinitely many such numbers print <b>-1</b>.\n\n<h3>Input</h3>\n<p> The first line contains a single positive integer <b>T <= 100</b>, the number of test cases. <b>T</b> test cases follow. The only line of each test case contains a positive integer <b>N </b>, where <b>N <= 10^18</b>.\n\n<h3>Output</h3>\n<p> For each test case, output a single line containing the answer for the corresponding test case.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n6\n113\n144\n\n<b>Output:</b>\n2\n1\n-1\n</pre>\n\n<h3>Explanation</h3>\nIn the first test case only numbers 12 and 18 have 6 divisors and are divisible by 6.\n<br><br>\nIn the second test case the only number is 113^112.\n<br><br>\nIn the third test case there are infinitely many of them.\n",
+    "category_name": "main",
+    "date_added": "13-01-2011",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.361299",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/DIVNODIV",
+    "problem_tester": "friggstad",
+    "time": {
+        "view_start_date": 1295798400,
+        "end_date": 1295807400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1295807400,
+        "submit_start_date": 1295798400,
+        "current": 1537439397
+    },
+    "user": {
+        "username": ""
+    }
+}

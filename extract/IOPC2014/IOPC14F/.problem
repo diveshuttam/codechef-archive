@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Santa and Banta are buddies. Santa has a good sense of humour, but Banta is unable to or partially understands some jokes.<br /><br /><br />\nNow Santa has with him <strong>N</strong> jokes he wishes to tell to Banta. Due to lack of time, he cannot tell all of them and has to choose <strong>R</strong> jokes for Banta. The total value of all the jokes he tells Banta is <a href=\"http://en.wikipedia.org/wiki/Fibonacci_number\">Fibonacci</a> ( <sup>N</sup> <a href=\"http://en.wikipedia.org/wiki/Combination\">C</a> <sub>R</sub> ).<br /><br /><br />\nNote that, Fibonacci(1)=Fibonacci(2)=1 and <br /><br />\nFibonacci(n)=Fibonacci(n-1)+Fibonacci(n-2) for n > 2.<br /><br /><br />\nHowever, Banta is unable to comprehend all the jokes. The value of jokes he understands is the total value of all jokes Santa tells Banta modulus some value <strong>M</strong>.<br /><br /><br />\nGiven <strong>N</strong>, <strong>R</strong> and <strong>M</strong>, your job is to compute the value of jokes Banta understands.<br /></p>\n<h3>Input Format</h3>\n<p>First line contains <strong>T</strong> ,number of test cases to follow.<br /><br />\nNext <strong>T</strong> lines follows, each line containing 3 space separated integers, <strong>N</strong>, <strong>R</strong> and <strong>M</strong>.<br /></p>\n<h3>Output Format</h3>\n<p>The output contains <strong>T</strong> lines, each having the value of jokes Banta understands.<br /></p>\n<h3>Constraints</h3>\n<ul>\n<li>0 \u2264 N,R \u2264 10<sup>5</sup></li>\n<li>1 \u2264 M \u2264 10<sup>7</sup></li>\n<li>Sum of N over all test cases \u2264 10<sup>5</sup></li>\n</ul>\n<h3>Sample Input</h3>\n<p>3<br /><br />\n2 2 100<br /><br />\n2 1 100<br /><br />\n3 1 100<br /></p>\n<h3>Sample Output</h3>\n<p>1<br /><br />\n1<br /><br />\n2<br /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2014",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1393655400,
+        "end_date": 1393741800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1393741800,
+        "submit_start_date": 1393655400,
+        "current": 1537437751
+    },
+    "problem_author_html_handle": "iopc_admin",
+    "problem_name": "Fibonacci Returns",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/iopc_admin'>iopc_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "iopc_admin",
+    "contest_code": "IOPC2014",
+    "max_timelimit": "0.1",
+    "problem_code": "IOPC14F"
+}

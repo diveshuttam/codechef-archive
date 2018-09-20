@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Dex and Dos play the game of multiplication by multiplying an integer X by one of the numbers 2 to 9. Dex always starts with X= 1, does his multiplication, then Dos multiplies the number, then Dex and so on. Before a game starts, they fix an integer 1 &lt; n &lt; 4294967295 and the winner is who first reaches X >= n.</p>\n<p>\u00a0</p>\n<h3>Input and Output Description</h3>\n<p>Each line of input contains one integer number n. For each line of input output one line either<br />\nDex wins.<br />\nor<br />\nDos wins.<br />\nassuming that both of them play perfectly.\n</p>\n<h3>Example</h3>\n<pre><b>Input:\n162\n17\n34012226 \n</b>\netc.\n\n<b>Output:\nDex wins.\nDos wins. \nDex wins.\n</b>\netc.\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Code-Wars#ver2.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1453548600,
+        "end_date": 1453559400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1453559400,
+        "submit_start_date": 1453548600,
+        "current": 1537435609
+    },
+    "problem_author_html_handle": "yarlagaddap",
+    "problem_name": "Dex & Dos",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/yarlagaddap'>yarlagaddap</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "yarlagaddap",
+    "contest_code": "COWA2016",
+    "max_timelimit": "1",
+    "problem_code": "CWAM1505"
+}

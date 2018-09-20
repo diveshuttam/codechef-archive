@@ -1,0 +1,177 @@
+{
+    "announcements": "<ul>\r\n<li>To be eligible to qualify to the finale, ensure you are submitting your Techfest team ID and Codechef id in the form: http://tinyurl.com/ticcreg</li>\r\n<li>The Portal round has been extended. It shall end at 2:00 AM (IST)</li>\r\n<li>Change in Problem Statement-\r\nThe problem PUCK has been updated and all submissions have been rejudged. \r\nConstraint imposed on N changed to 1<=N<=10^6.</li>\r\n<li>Change in Problem Statement-\r\nThe problem PALINREV has been updated and all submissions have been rejudged. \r\nConstraint imposed on Length of string N changed to 1<=N<=5 * 10^4. <br>Sorry for the  inconvenience</li>\r\n</ul>\r\n",
+    "ip": "149.129.135.113",
+    "code": "TCFS15P",
+    "duration": "3180",
+    "name": "TechFest 2015, Portal round",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div><b>Rules and Regulations:</b></div> <div> <ul> <li>This is portal round for TechFest 2015.\u00a0The top 30 participants on the leaderboard will get a direct entry into the Finale. In case of a tie, the organizers will be deciding the finalists</li> <li>Contest problems will become visible on 09th October, 2014 at 2100 HRS (IST) and end at 11th October, 2014 at 2300 HRS (IST). Check your timezone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?iso=20140210T2130&amp;p1=176&amp;ah=2&amp;am=30\">here</a>.</li> <li>Five problems will be uploaded on the site in the beginning of the competition and one new problem gets added subsequently after every five hours.</li> <li>To be eligible to qualify to the next round, all the particpants are reqested to register at <a target=\"_blank\" href=\"http://techfest.org/ticc\">http://techfest.org/ticc</a></li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a>.</li> <li>Discussing problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>If you do not have a CodeChef ID create one\u00a0<a target=\"_blank\" href=\"http://codechef.com/user/register\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided.</li> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a></li> <li>Please contact <a href=\"mailto:jeffyjahfar@techfest.org\" target=\"_blank\">jeffyjahfar@techfest.org</a> for any queries during the contest.</li> </ul> </div> <div><b>Judging Criteria:</b> <ul> <li>All the problems have same points alloted to them.</li> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved.</li> </ul> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/TCFS15P/1424957991.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CANDIS": {
+            "allow_submission": false,
+            "name": "Candy Distribution",
+            "category_name": "main",
+            "accuracy": 27.36,
+            "successful_submissions": "27",
+            "code": "CANDIS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FEYNMAN": {
+            "allow_submission": false,
+            "name": "Feynman and Manufacturing Plant",
+            "category_name": "main",
+            "accuracy": 16.55,
+            "successful_submissions": "22",
+            "code": "FEYNMAN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CUBEMOD": {
+            "allow_submission": false,
+            "name": "Cube Modulo",
+            "category_name": "main",
+            "accuracy": 22.98,
+            "successful_submissions": "201",
+            "code": "CUBEMOD",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CAMERAS2": {
+            "allow_submission": false,
+            "name": "Avoiding Cameras - 2",
+            "category_name": "main",
+            "accuracy": 24.64,
+            "successful_submissions": "17",
+            "code": "CAMERAS2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "RACING": {
+            "allow_submission": false,
+            "name": "Racing Competition",
+            "category_name": "main",
+            "accuracy": 19.43,
+            "successful_submissions": "75",
+            "code": "RACING",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CAMERAS": {
+            "allow_submission": false,
+            "name": "Avoiding Cameras",
+            "category_name": "main",
+            "accuracy": 15.11,
+            "successful_submissions": "334",
+            "code": "CAMERAS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PALINREV": {
+            "allow_submission": false,
+            "name": "Reverse Palindrome",
+            "category_name": "main",
+            "accuracy": 8.81,
+            "successful_submissions": "68",
+            "code": "PALINREV",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SPIDY": {
+            "allow_submission": false,
+            "name": "Spider Infiltration",
+            "category_name": "main",
+            "accuracy": 40.03,
+            "successful_submissions": "231",
+            "code": "SPIDY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LIZARDS2": {
+            "allow_submission": false,
+            "name": "Lizard pairs",
+            "category_name": "main",
+            "accuracy": 52.31,
+            "successful_submissions": "208",
+            "code": "LIZARDS2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SPIDY2": {
+            "allow_submission": false,
+            "name": "Spiderman and Jumping",
+            "category_name": "main",
+            "accuracy": 25.61,
+            "successful_submissions": "467",
+            "code": "SPIDY2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PUCK": {
+            "allow_submission": false,
+            "name": "Count the Apples",
+            "category_name": "main",
+            "accuracy": 2.84,
+            "successful_submissions": "16",
+            "code": "PUCK",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MARKS": {
+            "allow_submission": false,
+            "name": "Marks Discrepency",
+            "category_name": "main",
+            "accuracy": 28.36,
+            "successful_submissions": "825",
+            "code": "MARKS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "STATSHW": {
+            "allow_submission": false,
+            "name": "Statistics HW",
+            "category_name": "main",
+            "accuracy": 12.66,
+            "successful_submissions": "20",
+            "code": "STATSHW",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TRINT": {
+            "allow_submission": false,
+            "name": "Help Chandan Count Triplets",
+            "category_name": "main",
+            "accuracy": 15.23,
+            "successful_submissions": "94",
+            "code": "TRINT",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1413059400,
+        "current": 1537437351,
+        "freezing": 0,
+        "start": 1412868600
+    },
+    "user": {
+        "username": ""
+    }
+}

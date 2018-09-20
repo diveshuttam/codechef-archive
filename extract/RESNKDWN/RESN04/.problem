@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nAlice and Bob play the following game :\n\n\n\nThere are N piles of stones with Si stones in the ith pile. Piles are numbered from 1 to N. Alice and Bob play alternately, with Alice starting. In a turn, the player chooses any pile i which has atleast i stones in it, and removes exactly i stones from it. The game ends when there is no such pile. The player who plays last wins the game. Assuming Alice and Bob play optimally, who will win the game?\n\n<h3>Input</h3>\n<p>\n\nThe first line contains the number of test cases T (<= 100). There follow 2T lines, 2 per test case. The first line of each test case conains N (<= 100), the number of piles. The second line contains N space seperated integers, specifying the number of stones in pile 1, pile 2, ..., pile N. There will be atleast 1 and atmost 1000 stones in any pile.\n<h3>Output</h3>\n<p>\nOutput T lines, one per test case. For each test case, output \"ALICE\" if Alice wins the game, and \"BOB\" if Bob wins the game.\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n1\n1\n2\n1 1\n\n<b>Output:</b>\nALICE\nALICE\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-12-2009",
+    "is_direct_submittable": false,
+    "contest_name": "Codechef Campus ReSnackdown",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1261305000,
+        "end_date": 1261315800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1261315800,
+        "submit_start_date": 1261305000,
+        "current": 1537439843
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Stone Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "RESNKDWN",
+    "max_timelimit": "3.07692",
+    "problem_code": "RESN04"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>There is a group of $N$ people. \nThey have special rules for a special game :\n- There can be $M$ number of teams in a single match.\n- In each team, there are exactly $N/M$ players.\n\n\nThey all want to play the game and they also want to oppose every other member of the group at least once.\nThey can form a team of any possibility.\n\nCan you find the minimum number of matches they have to play?\n\n###Input:\n\n- The first line will contain $T$, number of testcases. Then the testcases follow. \n- Each testcase contains a single line of input, two space-separated integers $N$ and $M$. \n\n\n###Output:\nFor each testcase, print a single line containing one integer \u2014 the minimum number of matches required.\n\n###Constraints \n- $1 \\leq T \\leq 10^5$\n- $2 \\leq M \\leq 10^6$\n- $M \\leq N \\leq 10^6$\n\n\n$N$ is divisible by $M$.\n\n###Sample Input:\n    3\n    2 2\n    4 2\n    12 3 \n\n###Sample Output:\n     1\n     2    \n     3\n    \n###EXPLANATION:\nFor test case 1:\nMinimum matches: 1\nTeam for Match 1: [1] | [2]\n\nFor test case 2:\nMinimum matches: 2\nTeam for Match 1: [1,2] | [3,4]\nTeam for Match 2: [1,3] | [2,4]\nThere can be various possibilities for players in each team.\n\nFor test case 3:\nMinimum matches: 3\nTeam for Match 1: [1,2,3,4] | [5,6,7,8] | [9,10,11,12]\nTeam for Match 2: [1,6,7,8] | [5,10,11,12] | [9,2,3,4]\nTeam for Match 3: [1,6,11,3] | [5,10,7,4] | [9,2,8,12]\n\nIn this way, each player opposes every other player at least once.\nThere can be various possibilities for players in each team.\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-09-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Code Incognito",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, PYP3, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1537371000,
+        "end_date": 1537378200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1537378200,
+        "submit_start_date": 1537371000,
+        "current": 1537431961
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>sam047</span>",
+    "problem_name": "Special Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sam047'>sam047</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sam047",
+    "contest_code": "INCC2018",
+    "max_timelimit": "1",
+    "problem_code": "CRCKT"
+}

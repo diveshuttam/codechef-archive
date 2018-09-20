@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Chirag likes arrays. \nHe gets excited whenever he sees an array.</p>\n \n<p> One day he saw an array and thought of a question. \nHe has array ARR[ n ] = a<sub>1</sub>,a<sub>2</sub>,a<sub>3</sub>,.....a<sub>n</sub>. \nAll elements of the array are from 1 to n and repetition is allowed.</p>\n \n<p>He makes n sets out of the array. \nThe set S<sub>i</sub> = { a<sub>i</sub>, ARR[a<sub>i</sub>], ARR[ ARR[ a<sub>i</sub> ] ], ....}.\nAll elements of the set S<sub>i</sub> are unique.\nYour task is to find the size of the largest set among these n sets. \nIn other words find MAX(S<sub>i</sub>.size()) (i from 1 to n).</p>\n\n<h3>Input</h3>\n<p>\nThe first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows. The first line of each test case contains a single integer <b>n</b> denoting the size of the Array. The second line contains <b>n</b> space-separated integers <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>n</sub></b> denoting the elements of the array. </p>\n\n\n<h3>Output</h3>\n<p>For each test case, output a single line containing answer to the test case which is size of the largest set formed.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>a<sub>i</sub></b> \u2264 <b>n</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n3\n1 2 3\n4\n4 4 2 2\n2\n2 1\n\n<b>Output:</b>\n1\n2\n2\n</pre>\n\n<h3>Explanation</h3>\n<p><b>Example case 1:</b> The 3 sets formed are :<br>\nS<sub>1</sub> = {1} <br>\nS<sub>2</sub> = {2} <br>\nS<sub>3</sub> = {3} <br>\nSo, the answer is 1.</p>\n\n<p><b>Example case 2:</b> The 4 sets formed are :<br>\nS<sub>1</sub> = {4,2} <br>\nS<sub>2</sub> = {4,2} <br>\nS<sub>3</sub> = {2,4} <br>\nS<sub>4</sub> = {2,4} <br>\nSo, the answer is 2.</p>\n\n\n<p><b>Example case 3:</b> The 2 sets formed are :<br>\nS<sub>1</sub> = {2,1} <br>\nS<sub>2</sub> = {1,2} <br>\nSo, the answer is 2.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-02-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Byterace",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1487172600,
+        "end_date": 1487183400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1487183400,
+        "submit_start_date": 1487172600,
+        "current": 1537434151
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>bhavit_sharma</span>",
+    "problem_name": "Chirag and Array",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bhavit_sharma'>bhavit_sharma</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bhavit_sharma",
+    "contest_code": "BYTR2017",
+    "max_timelimit": "1",
+    "problem_code": "CHARR"
+}

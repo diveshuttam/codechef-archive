@@ -1,0 +1,33 @@
+{
+    "problem_code": "QM10P5A",
+    "problem_author": "chandubaba",
+    "contest_name": "Keteki QuickMatch 10.5 (Gurgaon Version)",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>chandubaba</span>",
+    "problem_name": "Red Blue Green Balls (keteki)",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "KQM52018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/chandubaba'>chandubaba</a>, <a class='problem-tag-small ' href='/tags/problems/externalcontest'>externalcontest</a>, <a class='problem-tag-small ' href='/tags/problems/keteki'>keteki</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Given $N$ balls in a line, each ball colored either red or blue. Now, you can perform following procedure arbitrary number of times.\n\n- For any pair of consecutive balls, if one ball is red and other ball is blue, Remove both balls from the line and insert a Green colored ball at their position.\n\nWhat is the maximum number of green balls you can obtain after applying this operation any number of times (including zero)?\n\n###Input:\n\n- A single Integer in first line $T$ denote number of test cases.\n- Every test case consist of two lines.\n- First line contains an integer $N$ representing number of balls.\n- Second line consist of a string of length $N$ consisting of letters 'R' and 'B' only, for Red and Blue ball respectively.\n\n###Output:\nFor each test case, output in a single line the maximum number of green balls possible.\n\n###Constraints \n- $1 \\leq T \\leq 5$\n- $1 \\leq N \\leq 10^5$\n- Each string contains characters 'R' and 'B' only.\n\n###Subtasks\n- 1: 15 points: $1 \\leq N \\leq 100$\n- 2: 35 points: Original Constraints\n\n###Sample Input:\n1              \n8            \nBRRRRBRB\n\n###Sample Output:\n3\n\t\n###EXPLANATION:\n\nPair of balls $(1, 2)$, $(5,6)$ and $(7,8)$ merge to form 3 Green balls.",
+    "category_name": "main",
+    "date_added": "26-07-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/QM10P5A",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1534048200,
+        "end_date": 1534050000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1534050000,
+        "submit_start_date": 1534048200,
+        "current": 1537432170
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The Siruseri Welfare Association has organized a Cultural Programme for families in the area, to build up community spirit. The Cultural Programme is being held at the Siruseri Community Hall. Inside the hall, children perform songs and dances. Outside, local restau- rants have set up stalls selling snacks.</p>\n<p>As is typical on such an occasion, members of the audience drift in and out of the hall during the programme. An observant office bearer of the Siruseri Welfare Association notes down the times at which people enter and leave the hall. Suppose that is N. He wants to know the maximum size of the audience was during the course of the programme.\u00a0</p>\n<p>For convenience, he writes down each time as a single integer - A<sub>i</sub>, the number of minutes from the start of the programme for the ith person. Also, the door of the hall is narrow, so at any time, either <b> one person </b> can enter or one person can leave the hall, but not both. Thus, each entry and exit time that is noted down is distinct.</p>\n<p>For example, suppose the observations noted down are the following. Each line denotes\u00a0the entry time and exit time of one person. (The identity of the person is not important\u2014the\u00a0same person may enter and leave the hall many times. For instance, in the example below,\u00a0it might well be that the entries and exits recorded at Serial Nos 2 and 5 refer to the same\u00a0person.)</p>\n<p><img src=\"/download/extimages/b52370c3ee7ab763d0b6ce064ba40193.png\" /></p>\n<p>Your task is to read the list of entry and exit times and compute the <b> maximum size </b> of the audience during the programme.</p>\n<h3><strong>Input</strong></h3>\n<p>The first line of input is a single integer, N, the number of entries and exits recorded. This is followed by N lines of input. Each of these lines consists of two integers, separated by a space, describing one entry and exit. The first integer is the entry time and the second integer is the exit time..</p>\n<h3><strong>Output</strong></h3>\n<p>A single integer, denoting the maximum size of the audience during the performance.</p>\n<h3><strong>Constraints</strong></h3>\n<ul>\n<li>1 \u2264 N \u2264 10<sup>5</sup></li>\n<li>1 \u2264 A<sub>i</sub> \u2264 10<sup>7</sup></li>\n</ul>\n<p><b>\u00a0</b></p>\n<h3><b>Example</b></h3>\n<p><b><b>Sample Input:</b> </b></p>\n<p>5<br />\n1 7<br />\n2 4<br />\n6 9<br />\n3 8<br />\n5 10</p>\n<p><b><b>Sample Output:</b></b></p>\n<p>4</p>\n<p><b>\u00a0</b></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-11-2014",
+    "is_direct_submittable": false,
+    "contest_name": "INOI 2015, Practice Round 1",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1422534600,
+        "end_date": 1422545400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1422545400,
+        "submit_start_date": 1422534600,
+        "current": 1537436909
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>yogesh01</span>",
+    "problem_name": "Cultural Programme",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/inpr1501'>inpr1501</a>, <a class='problem-tag-small ' href='/tags/problems/yogesh01'>yogesh01</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "yogesh01",
+    "contest_code": "INPR1501",
+    "max_timelimit": "2",
+    "problem_code": "CULPRO"
+}

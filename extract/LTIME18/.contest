@@ -1,0 +1,130 @@
+{
+    "announcements": "<p><b>30/11/2014, 11:00 IST: </b>The rankings for the contest can be found\u00a0<a href=\"/rankings/LTIME18\" target=\"_blank\">here</a>.</p>",
+    "ip": "149.129.135.113",
+    "code": "LTIME18",
+    "duration": "180",
+    "name": "November Lunchtime 2014",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "WSC": [
+            {
+                "score": "73",
+                "count": "6"
+            },
+            {
+                "score": "100",
+                "count": "129"
+            }
+        ],
+        "DIVIDE": [
+            {
+                "score": "14",
+                "count": "10"
+            },
+            {
+                "score": "37",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "26"
+            }
+        ],
+        "GRIDCONN": [
+            {
+                "score": "17",
+                "count": "1"
+            },
+            {
+                "score": "40",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "13"
+            }
+        ],
+        "WSCAGAIN": [
+            {
+                "score": "22",
+                "count": "19"
+            },
+            {
+                "score": "56",
+                "count": "6"
+            },
+            {
+                "score": "100",
+                "count": "18"
+            }
+        ]
+    },
+    "rules": "<div><b>The November Lunchtime 2014 has ended!</b></div> <div><b>The editorials for the contest can be found <a href=\"http://discuss.codechef.com/tags/ltime18/\">here</a>.</b></div> <div><b>The problems have been moved to practice section.</b></div> <div><b>Solutions are public for all problems.</b></div> <div><b>Winners Blog Post can be found <a href=\"http://blog.codechef.com/2014/12/27/the-highlights-of-november-contests/\">here</a>.</b></div> <p>\u00a0</p> <div><b>Rules and Regulations:</b></div> <p>\u00a0</p> <div></div> <div>This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test data.</div> <div> <ul> <li>The details of the failed test cases will also be visible on your solution page.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The contest is meant for students of high school and middle school though everyone is invited to participate.</li> <li>There will be separate ranking page for school students. The school students will be identified by the inistitution that they have enetered in their profile.</li> <li><b>We have removed all the Institutions that we could not identify from our database. We request you to update your institutions once again by going to your profile page.</b></li> <li>You can also send in your queries in an email to\u00a0<a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a>, during the contest.</li> <li>Contest problems will become visible on November 30th, 2014 at 11:00 am (IST) to 2:00 pm (IST). There will be 4 problems in all. Check your time zone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+November+LunchTime+2014&amp;iso=20141130T11&amp;p1=44&amp;ah=3\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a target=\"_blank\" href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></li> <li>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a>.</li> </ul> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/LTIME18/1424957957.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "WSC": {
+            "allow_submission": false,
+            "name": "A wolf, a sheep and cabbage",
+            "category_name": "main",
+            "accuracy": 7.42,
+            "successful_submissions": "129",
+            "code": "WSC",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "DIVIDE": {
+            "allow_submission": false,
+            "name": "Dividing the Students",
+            "category_name": "main",
+            "accuracy": 9.19,
+            "successful_submissions": "26",
+            "code": "DIVIDE",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "GRIDCONN": {
+            "allow_submission": false,
+            "name": "Yet another substring problem",
+            "category_name": "main",
+            "accuracy": 19.12,
+            "successful_submissions": "13",
+            "code": "GRIDCONN",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "WSCAGAIN": {
+            "allow_submission": false,
+            "name": "Deja Vu",
+            "category_name": "main",
+            "accuracy": 12.68,
+            "successful_submissions": "18",
+            "code": "WSCAGAIN",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1417336200,
+        "current": 1537437189,
+        "freezing": 0,
+        "start": 1417325400
+    },
+    "user": {
+        "username": ""
+    }
+}

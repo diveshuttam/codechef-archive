@@ -1,0 +1,130 @@
+{
+    "announcements": "<ul>\r\n<li><b>The December Lunchtime 2017 has ended!</b></li>\r\n<li>\r\n<p><b>The editorials for the contest can be found\u00a0<a href=\"https://discuss.codechef.com/tags/ltime55/\" target=\"_blank\">here</a>.</b></p>\r\n</li>\r\n<li>\r\n<p><b>The problems have been moved to practice section.</b></p>\r\n</li>\r\n<li>\r\n<p><b>Solutions are public for all the problems.</b></p>\r\n</li>\r\n</ul>\r\n<p><b>20:10 PM, IST</b>:\u00a0<span class=\"_5yl5\">Problem \"Too Much Sweetness\": There was a missing sentence from the statement, it's added now. \"Note that the index i (1&lt;=i&lt;=2) of the box chosen at each step should be different from the index of the previously selected box. In the beginning any of the two boxes can be selected.\"</span></p>\r\n<p><b>19:30 PM, IST</b>: <span class=\"_5yl5\"><span>The time limit multipliers for languages which are usually greater than 2, have been made equal to 2 for this contest.  Note that this change is temporary and for this contest only. For example, Python which usually has a multiplier of 5, will have 2 for this contest.</span></span></p>",
+    "ip": "149.129.135.113",
+    "code": "LTIME55",
+    "duration": "180",
+    "name": "December Lunchtime 2017",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "ABX02": [
+            {
+                "score": "10",
+                "count": "101"
+            },
+            {
+                "score": "30",
+                "count": "18"
+            },
+            {
+                "score": "100",
+                "count": "131"
+            }
+        ],
+        "NW1": [
+            {
+                "score": "20",
+                "count": "237"
+            },
+            {
+                "score": "100",
+                "count": "2236"
+            }
+        ],
+        "ABX03": [
+            {
+                "score": "20",
+                "count": "103"
+            },
+            {
+                "score": "100",
+                "count": "20"
+            }
+        ],
+        "ABX01": [
+            {
+                "score": "10",
+                "count": "918"
+            },
+            {
+                "score": "30",
+                "count": "165"
+            },
+            {
+                "score": "70",
+                "count": "6"
+            },
+            {
+                "score": "100",
+                "count": "890"
+            }
+        ]
+    },
+    "rules": "<h4>CodeChef: A Platform for Aspiring Programmers</h4>\r\n<p class=\"last\">CodeChef was created as a platform to help programmers make it big in the world of algorithms, computer programming and programming contests. At CodeChef, we work hard to revive the geek in you by hosting a programming contest at the start of the month and another smaller programming challenge in the middle of the month.</p>\r\n<h4>About CodeChef December Lunchtime 2017:</h4>\r\n<p class=\"last\">CodeChef Lunchtime is a three hours coding contest where you can show off your computer programming skills.</p>\r\n<h4>Contest Details:</h4>\r\n<ul class=\"last\">\r\n<li><b>Duration: </b> 3 hours</li>\r\n<li><b>Start Date: </b> Saturday, 30th December, 2017 at 19:30 HRS (IST)</li>\r\n<li><b>End Date: </b> Saturday, 30th December,\u00a02017 at 22:30 HRS (IST)</li>\r\n<li>Check your timezone <a target=\"_blank\" href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=December+Lunchtime+2017&amp;iso=20171230T1930&amp;p1=44&amp;ah=3\">here</a>. </li>\r\n</ul>\r\n<h4>Eligibility Criteria: Anyone with a knack for Programming :P</h4>\r\n<p class=\"last\">Our contests are open to all the programmers across the globe.</p>\r\n<h4>What's in it for you?</h4>\r\n<p>The idea behind these programming contests is that we want you to learn while competing. Also we believe that it is alright to refer to tutorials, books and other materials, learn a concept and then apply the same to solve a problem during a contest. But it is <b>not alright to copy other people's solutions or seek other people's help to solve a problem without understanding it.</b> The dividing line may seem to be thin but it can be captured by the spirit of learning. If whatever you are doing is making you learn while you do so, we tend to believe that it is alright. However, all the participants are expected to abide to <a class=\"button blue\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a></p>\r\n<p>Not just that, as a token of motivation we also give away goodies to the winners of the contest. You can know more about prizes <a href=\"http://discuss.codechef.com/questions/51999/how-do-i-win-a-codechef-goodie\">here</a>. However, our sole intention lies in making our users learn new concepts while competing.</p>\r\n<p><b>For Indians:</b></p>\r\n<ul>\r\n<li>Top 10 school students from ranklist will get CodeChef laddus</li>\r\n</ul>\r\n<p><b>For Rest of World:</b></p>\r\n<ul>\r\n<li>Top 10 school students from ranklist will get CodeChef laddus</li>\r\n</ul>\r\n<p class=\"last\">With CodeChef laddus, the winners can claim cool CodeChef goodies. Know more here: <a target=\"_blank\" href=\"https://goodies.codechef.com\">goodies.codechef.com</a>. In addition to it an appreciation certificate will also be provided to the winners.</p>\r\n<h4>Rules and Regulations:</h4>\r\n<ul>\r\n<li>This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test data.</li>\r\n<li>The details of the failed test cases will also be visible on your solution page.</li>\r\n<li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li>\r\n<li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li>\r\n<li>The contest is meant for students of high school and middle school though everyone is invited to participate.</li>\r\n<li>There will be separate ranking page for school students. The school students will be identified by the institution that they have entered in their profile.</li>\r\n<li><b>We have removed all the Institutions that we could not identify from our database. We request you to update your institutions once again by going to your profile page.</b></li>\r\n<li>You can also send in your queries in an email to\u00a0<a href=\"mailto:help@codechef.com\" target=\"_blank\">help@codechef.com</a>, during the contest.</li>\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\"> feedback@codechef.com </a>.</li>\r\n<li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li>\r\n</ul>\r\n<p><b>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"/ide\">Online IDE</a>.</b></p>\r\n<p>However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/LTIME55/1514391733.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "ABX02": {
+            "allow_submission": false,
+            "name": "Too Much Sweetness",
+            "category_name": "main",
+            "accuracy": 11.31,
+            "successful_submissions": "131",
+            "code": "ABX02",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "NW1": {
+            "allow_submission": false,
+            "name": "Days in Month",
+            "category_name": "main",
+            "accuracy": 44.21,
+            "successful_submissions": "2236",
+            "code": "NW1",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "ABX03": {
+            "allow_submission": false,
+            "name": "Four Friends",
+            "category_name": "main",
+            "accuracy": 2.82,
+            "successful_submissions": "20",
+            "code": "ABX03",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "ABX01": {
+            "allow_submission": false,
+            "name": "Strange Function",
+            "category_name": "main",
+            "accuracy": 9.19,
+            "successful_submissions": "890",
+            "code": "ABX01",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1514653200,
+        "current": 1537433250,
+        "freezing": 0,
+        "start": 1514642400
+    },
+    "user": {
+        "username": ""
+    }
+}

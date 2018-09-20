@@ -1,0 +1,97 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "APRIL09",
+    "duration": "20160",
+    "name": "April 2009 (Contest II)",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>Top Scorers:</b><br /> Congratulations to our top 5 scorers Ajay, Anshuman, Harpreet, Prunthanban and Varun. You shall hear from The Chef shortly.</p>  <p><b>Updates:</b></p> <ul> <li>April 15th - 3:00pm - The April Challenge has ended.</li> <li>April 6th - 3:00pm - Constraints were incorrectly specified on Battleship V - this has been updated. Additional information given on number of bugs in Squash the Bugs (sum of bugs in a trap will fit in an unisigned 64 bit integer).</li> <li>April 1st - 6:45pm - <a href=\"http://blog.codechef.com/2009/04/01/announcing-time-limits-based-on-programming-language/\">Announcing Variable Time Limits Based on Programming Language</a></li> <li>March 25th - <a href=\"http://blog.codechef.com/2009/03/25/opening-up-the-kitchen/\">All code submissions for the April contest will become public after the contest ends.</a> Check out the following link for <a href=\"http://blog.codechef.com/2009/03/25/details-of-april-contest/\">more about the prizes.</a></li> </ul>  <p><b>Rules:</b></p> <ul> <li>Contest problems will become visible on April 1st 15:00 IST.</li> <li>The contest will consist of 6 problems of varying difficulty.</li> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li>Each contest will have one min/max tie breaker problem (i.e. <a href=\"http://www.codechef.com/problems/MARCHAX/\">Place the mines!</a>), where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution</li> <li>In the unlikely case of an overall tie (including the same score on the tie-breaker) a winner will be randomly chosen from the top scorers.</li> </ul> <p><br /> <br /> <i>Please note: Prizes are awarded to users within India only.</i></p> ",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/APRIL09/1424957403.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "A5": {
+            "allow_submission": false,
+            "name": "Packing the Boxes",
+            "category_name": "main",
+            "accuracy": 2.11,
+            "successful_submissions": "8",
+            "code": "A5",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "B5": {
+            "allow_submission": false,
+            "name": "Squash the Bugs",
+            "category_name": "main",
+            "accuracy": 4.17,
+            "successful_submissions": "42",
+            "code": "B5",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "A7": {
+            "allow_submission": false,
+            "name": "A Christmas Pizza Puzzle",
+            "category_name": "main",
+            "accuracy": 4.03,
+            "successful_submissions": "14",
+            "code": "A7",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BX": {
+            "allow_submission": false,
+            "name": "Bubbles",
+            "category_name": "main",
+            "accuracy": 1.34,
+            "successful_submissions": "16",
+            "code": "BX",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "B1": {
+            "allow_submission": false,
+            "name": "Spaghetti Monsters",
+            "category_name": "main",
+            "accuracy": 17.41,
+            "successful_submissions": "31",
+            "code": "B1",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "B3": {
+            "allow_submission": false,
+            "name": "Battleship V",
+            "category_name": "main",
+            "accuracy": 5.42,
+            "successful_submissions": "35",
+            "code": "B3",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1239787800,
+        "current": 1537439952,
+        "freezing": 0,
+        "start": 1238578200
+    },
+    "user": {
+        "username": ""
+    }
+}

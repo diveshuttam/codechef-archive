@@ -1,0 +1,33 @@
+{
+    "problem_code": "CHEFNKCH",
+    "problem_author": "kevinsogo",
+    "contest_name": "CodeChef Snackdown 2015 Finale ",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #D0011B;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>7&#9733;</span><span>kevinsogo</span>",
+    "problem_name": "Chef has a New Kitchen",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "SNCK15FL",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kevinsogo'>kevinsogo</a>, <a class='problem-tag-small ' href='/tags/problems/range'>range</a>, <a class='problem-tag-small ' href='/tags/problems/range-trees'>range-trees</a>, <a class='problem-tag-small ' href='/tags/problems/snck15fl'>snck15fl</a>, <a class='problem-tag-small ' href='/tags/problems/sqrt-decomp'>sqrt-decomp</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Read problems statements in <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/SNCK15FL/mandarin/CHEFNKCH.pdf\">Mandarin Chinese </a> , <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/SNCK15FL/russian/CHEFNKCH.pdf\">Russian</a> and <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/SNCK15FL/vietnamese/CHEFNKCH.pdf\">Vietnamese</a></h3>\n<p>Chef recently bought a new kitchen. This kitchen is huge! It is rectangular in shape with dimensions <b>W</b> \u00d7 <b>H</b>, where <b>W</b> is the width and <b>H</b> is the height, both in meters. The kitchen is divided into a grid with <b>W * H</b> individual cells, each of size (<b>1</b> meter) \u00d7 (<b>1</b> meter), and each cell is identified by two integers <b>(x, y)</b> denoting the column and row number of the cell, respectively (<b>1</b> \u2264 <b>x</b> \u2264 <b>W</b> and <b>1</b> \u2264 <b>y</b> \u2264 <b>H</b>).</p>\n<p>Chef has recently become lazy so instead of walking through his kitchen to work, he just sits forever at his chair located at (<b>x<sub>C</sub></b>, <b>y<sub>C</sub></b>). However, he sometimes needs to inspect individual locations (for example, to check if his personnel have become lazy too!). Instead of walking towards that location, he just uses a bunch of cheap robots with cameras. These robots are so cheap that Chef has an infinitely many number of them. However, their cheap parts pose a few severe limitations:</p>\n<p>\n<ul>\n<li>Each robot can only move forward towards the direction it faces, and can only face a direction parallel to one of the walls of the rectangular kitchen.</li>\n<li>Each robot can only turn at 90 degree angles.</li>\n<li>Each robot can only turn at most once.</li>\n</ul>\n</p>\n<p>Note that a robot starts at Chef's location.</p>\n<p>There is no problem initially in all of this, because all cells are reachable from Chef's location <b>(x<sub>C</sub>, y<sub>C</sub>)</b>. However, when the appliances arrive and are installed in the kitchen, some cells cease to be reachable with a robot (because cheap robots cannot pass through appliances!).</p>\n<p>Initially, the kitchen is empty, except for his chair. There are <b>N</b> appliances to be installed. Each appliance has dimensions (<b>1</b> meter) \u00d7 (<b>1</b> meter) and occupies exactly one cell. The <b>i</b><sup>th</sup> appliance to be installed in chronological order will be installed in <b>(x<sub>i</sub>, y<sub>i</sub>)</b>. Now, after the addition of each appliance, Chef wants to know how many cells are still reachable with a robot!</p>\n<h3>Input</h3>\n<p>The first line of the input contains five integers <b>W</b>, <b>H</b>, <b>x<sub>C</sub></b>, <b>y<sub>C</sub></b>, <b>N</b> separated by spaces, denoting the dimensions of Chef's new kitchen <b>W</b> \u00d7 <b>H</b>, the location of Chef's chair <b>(x<sub>C</sub>, y<sub>C</sub>)</b>, and number of appliances to add.</p>\n<p>The next <b>N</b> lines contain information about the appliances. The <b>i</b><sup>th</sup> line (after the first line) contains two integers <b>x<sub>i</sub></b> and <b>y<sub>i</sub></b>, where <b>(x<sub>i</sub>, y<sub>i</sub>)</b> is the location of the <b>i</b>th appliance.</p>\n<h3>Output</h3>\n<p>Output <b>N</b> lines, where the <b>i</b>th line contains the number of reachable locations after adding the first <b>i</b> appliances.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>W</b>, <b>H</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>x<sub>C</sub></b>, <b>x<sub>i</sub></b> \u2264 <b>W</b></li>\n<li><b>1</b> \u2264 <b>y<sub>C</sub></b>, <b>y<sub>i</sub></b> \u2264 <b>H</b></li>\n<li>No two appliances occupy the same position, and no appliance occupies Chef's position.</li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<code>20 10 4 3 5\n6 5\n7 4\n8 4\n9 3\n4 2\n</code>\n\n<b>Output:</b>\n<code>199\n197\n195\n159\n133\n</code>\n</pre><h3>Explanation</h3>\n<p>The following image illustrates the states of the kitchen after all appliances have been added.</p>\n<p><img src=\"/download/extimages/3b77d4fd824beef75b051b97604fb9c9.jpg\" /></p>\n",
+    "category_name": "main",
+    "date_added": "17-06-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "3",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CHEFNKCH",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1435390200,
+        "end_date": 1435408200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1435408200,
+        "submit_start_date": 1435390200,
+        "current": 1537436224
+    },
+    "user": {
+        "username": ""
+    }
+}

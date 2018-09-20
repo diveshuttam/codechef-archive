@@ -1,0 +1,153 @@
+{
+    "teamsCount": "478",
+    "announcements": "<p>The contest is now over. Hope you enjoyed playing the contest.</p>\r\n<p>Congratulations to Egor &amp; team sierpenski for solving 8 problems.</p>\r\n<p>Prize winners will be declared soon.</p>\r\n<p>Please give feedback <a href=\"http://forums.topcoder.com/?module=Thread&amp;threadID=700255&amp;start=0&amp;mc=6#1340053\"> here</a>.</p>\r\n<p>Judge solutions and test data can be downloaded <a href=\"http://www.pragyan.org/11/home/events/encipher/bytecode/introduction/Bytecode11.zip\">here</a>.</p>\r\n<p>Solutions sketches for all problems can be downloaded <a href=\"http://www.pragyan.org/11/home/events/encipher/bytecode/introduction/Bytecode11.pdf\">here</a>.</p>\r\n<div></div>\r\n<p>The prize winners are as follows:</p>\r\n<p><strong>Top 3 Global Teams:</strong></p>\r\n<p>01) Egor Kulikov<br /> 02) sierpinski<br /> 03) Navi</p>\r\n<p><strong>Top 10 Indian Teams:</strong></p>\r\n<p>01) Proof<br /> 02) UsualSuspects<br /> 03) phoenix<br /> 04) Simplex Ants<br /> 05) RIP<br /> 06) SK<br /> 07) Neuron<br /> 08) Heisenbug<br /> 09) ram<br /> 10) Hypothetical</p>\r\n<p>\u00c2\u00a0</p>\r\n<p><strong>Top 3 Teams from NITT</strong></p>\r\n<p><strong> </strong>01) firewall<br /> 02) kompsci_nitt<br /> 03) Fanatic_Dreamers</p>\r\n<p>Prize winners will be contacted individually to dispatch the prizes.</p>\r\n<p>For any queries, just drop in a mail to bytecode@pragyan.org.</p>",
+    "ip": "149.129.135.113",
+    "code": "BYTCDE11",
+    "duration": "360",
+    "name": "NIT Trichy ByteCode 2011",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div> <p><b>Please read the rules before starting the contest</b></p> <p><b>General Rules:</b></p> <p>1. All the teams should register at: <a href=\"/teams/register/BYTCDE11\">http://www.codechef.com/teams/register/BYTCDE11</a> before the contest starts. While registering, the teams should enter their CodeChef username in the \"member information\" text-box.</p> <p>2. In case you are a new user, you will need to first register for a CodeChef ID <a href=\"/user/register/\">here</a></p> <p>3. Participation can be in teams of utmost 3 members (not necessarily from the same institute). Each participant should be the member of one and only one team.</p> <p>4. Registrations are open till the contest begins.</p> <p>5. Teams need to register on the <a href=\"http://www.pragyan.org/11/home/events/encipher/bytecode/\">Pragyan site</a> as well to be eligible for prizes.</p> <p>6. Teams will be able to view problems individually, but will be able to submit solutions only by logging in with their team id.</p> <p>7. Discussion of strategy, suggestions or tips in the comments during a live contest shall lead to disqualification. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you have any further queries, organizers will be available for chat during the contest at bytecode@pragyan.org</p> <br /> <p><b>Rules for Ranking:</b></p> <p>1. Users will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</p> <p>2. The final ranking is based on the total number of problems solved, ties broken by the total time consumed.</p> <p>3. The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</p> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/BYTCDE11/1424957536.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "BTCODE_C": {
+            "allow_submission": false,
+            "name": "Fun With Inequalities",
+            "category_name": "main",
+            "accuracy": 23.2,
+            "successful_submissions": "37",
+            "code": "BTCODE_C",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BTCODE_D": {
+            "allow_submission": false,
+            "name": "Maximum Profit",
+            "category_name": "main",
+            "accuracy": 23.28,
+            "successful_submissions": "99",
+            "code": "BTCODE_D",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BTCODE_I": {
+            "allow_submission": false,
+            "name": "Permutation Game",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "BTCODE_I",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BTCODE_H": {
+            "allow_submission": false,
+            "name": "Trie Expectation",
+            "category_name": "main",
+            "accuracy": 34.55,
+            "successful_submissions": "19",
+            "code": "BTCODE_H",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BTCODE_J": {
+            "allow_submission": false,
+            "name": "Grid Tiling",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "BTCODE_J",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BTCODE_B": {
+            "allow_submission": false,
+            "name": "Finding Minimum",
+            "category_name": "main",
+            "accuracy": 9.09,
+            "successful_submissions": "3",
+            "code": "BTCODE_B",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BTCODE_A": {
+            "allow_submission": false,
+            "name": "Traversing Grid",
+            "category_name": "main",
+            "accuracy": 8.81,
+            "successful_submissions": "14",
+            "code": "BTCODE_A",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BTCODE_K": {
+            "allow_submission": false,
+            "name": "Array Sorting",
+            "category_name": "main",
+            "accuracy": 0.95,
+            "successful_submissions": "2",
+            "code": "BTCODE_K",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BTCODE_E": {
+            "allow_submission": false,
+            "name": "Recover Polynomials",
+            "category_name": "main",
+            "accuracy": 41.18,
+            "successful_submissions": "7",
+            "code": "BTCODE_E",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BTCODE_G": {
+            "allow_submission": false,
+            "name": "Coloring Trees",
+            "category_name": "main",
+            "accuracy": 18.33,
+            "successful_submissions": "10",
+            "code": "BTCODE_G",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BTCODE_F": {
+            "allow_submission": false,
+            "name": "Life Game",
+            "category_name": "main",
+            "accuracy": 34.45,
+            "successful_submissions": "41",
+            "code": "BTCODE_F",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537439339,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

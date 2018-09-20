@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\n\t<b>\"Hack the mobile\"</b> was an event conducted to the growing crackers in one of the leading colleges. All the crackers were given a mobile device which was locked with a <b>N</b> digit password verified dynamically <b>(no enter button)</b>.\n    </p>\n<p>The task was to unlock the mobile. They were also given a hint that there was a flaw in the system that made passing through easier. The flaw was that the input buffer always held the last <b>N-1</b> digits entered of the previous unsuccessful attempt. Once, the last <b>N</b> digits entered, matched with the password, the device would be unlocked.\n</p>\n<pre>\nFor example, \nConsider <b>N</b> = 4, and the password is \"2345\".\nIf the user enters \"1234\", \n\tThe status would be <b>\"incorrect\"</b> and the buffer would store \"234\" (last <b>N-1</b> digits). \nIn the successive attempt, if the user enters \"5678\", the device would open as soon as \"5\" was entered as the last <b>N</b> digits matched the passowrd. \nIn contrary, if he would have entered \"6789\", the status would be <b>\"incorrect\"</b> again, and the buffer will now contain \"789\".\n</pre><p>\nThe naive approach to solve this problem is to try out all the possibilities and store it as a string sequence whose length will be <b>(10<sup>N</sup>)*N</b>  digits. </p>\n<p>But when <b>N</b> is large, even a super computer today would take millions of years to generate such a sequence. It is<br />\n possible to reduce the length by choosing a good digit sequence which would contain all the possibilities in length <b>10<sup>N</sup> + N - 1</b>. Your task is to help them find such a sequence.\n</p>\n<p>Newbies, please refer to <a href=\"http://www.codechef.com/wiki/sample-solutions\">\t Codechef sample solution</a> before starting to code, </p>\n<h3>INPUT:</h3>\n<p>The first line of input contains an integer <b>T</b> denoting the number of test cases.</p>\n<p>The next <b>T</b> lines a single integer <b>N</b>, which is the length of the password</p>\n<h3>OUTPUT:</h3>\n<p>Output <b>T</b> lines, each line containing a sequence of <b>10<sup>N</sup> + N - 1</b> digits that contains each <b>N</b>-digit sequence exactly once.</p>\n<h3>CONSTRAINTS:</h3>\n<ul><b>0 \u2264 T</b>, <b>N &lt; 7</b></ul>\n<h3>TESTCASES:</h3>\n<h3>INPUT:</h3>\n<p>\n2<br /><br />\n2<br /><br />\n1<br />\n</p>\n<h3>OUTPUT:</h3>\n<p>001020304050607080911213141516171819223242526272829334353637383944546474849556575<br /><br />\n859667686977879889900123456789</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Code On the Go 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1425915000,
+        "end_date": 1426005000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426005000,
+        "submit_start_date": 1425915000,
+        "current": 1537436615
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>jeffrycopps_2</span>",
+    "problem_name": "Hack the mobile",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/jeffrycopps_2'>jeffrycopps_2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "jeffrycopps_2",
+    "contest_code": "COTG2015",
+    "max_timelimit": "1",
+    "problem_code": "PSG05"
+}

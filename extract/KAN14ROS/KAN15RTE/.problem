@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Da Vinci is about to retire from the post of Prime Minister of the French King in a month. It<br />\nis going to be very difficult for the King to find his replacement. The King is worried about the<br />\njunior ministers as to how they will work without a leader.</p>\n<p>To instill in some values of team work among them, the King has asked all the N junior<br />\nministers to paint M walls together. The King feels that such a hands-on activity is a very<br />\ngood way to make the junior ministers come together and work as a team. The ministers are<br />\nallowed to divide a wall into parts such that each part is painted by a different minister. No<br />\ntwo ministers are allowed to paint the same wall at the same time.</p>\n<p>It can be assumed that all the ministers paint the wall at the same rate. As this is just a<br />\ntraining exercise, ministers may have other important jobs as well and they may not be free all<br />\nthe time to do the painting work. S is the start time and E is the end time between which a<br />\nminister is free to paint the walls. Also, we know that for a minister, painting is a mundane<br />\njob. It may happen that a minister gets bored while painting a wall, leaves it in between and<br />\nstarts painting another wall without wasting any time. The minister may later come back to<br />\nfinish the previous wall or he may ask one of the other ministers who he is friends with to finish<br />\npainting the wall.</p>\n<p>The King is really worried about the future of the kingdom which is going to have these min-<br />\nisters without a leader. He really wants these ministers to make smart decisions and perform<br />\nwell in any situation that they may face. Thus, he has decided to put some extra constraints<br />\non the wall painting exercise. The King knows the number of man hours H required for a wall<br />\nto get painted completely. So, for each wall he has decided a duration with the start time A<br />\nand the end time D during which the ministers should start and finish painting the wall.</p>\n<p>As anxious the King is about testing his ministers, he is also worried that a failure in com-<br />\npleting the task may harm their confidence. He wants to know whether his junior ministers<br />\nwould be able to finish the given task and meet the deadlines or not. You need to help the King<br />\nto find this out.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer T which is the number of test cases to follow.<br />\nThe first line of each test case consists of two space separated integers N and M . Each of the<br />\nnext N lines contains two space separated integers S and E. Next M lines contain three space<br />\nseparated integers A, D and H each.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each test case, output a separate line containing \u201cYES\u201d (quotes for clarity) if it is possible<br />\nfor the junior ministers to paint each of the walls during the designated time. Output \u201cNO\u201d<br />\n(quotes for clarity) if it is not possible to do so.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>510</b></li>\n<li><b>1</b> \u2264 <b>N,M</b> \u2264 <b>100</b></li>\n<li><b>0</b> \u2264 <b>S,E,A,D,H</b> \u2264 <b>10<sup>7</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n2 2\n1 5\n3 4\n1 5 3\n2 4 2\n\n<b>Output:</b>\nYES\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>The first minister paints the first wall from time 1 \u2212 2. Then he paints the second wall from time 2 \u2212 3. Then he paints the first wall again from time 3 \u2212 5. The second minister paints the second wall from time 3 \u2212 4. Thus both the walls get painted fully.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "31-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Kanpur Onsite Contest 2014, Replay",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1427981400,
+        "end_date": 1427999400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1427999400,
+        "submit_start_date": 1427981400,
+        "current": 1537436442
+    },
+    "problem_author_html_handle": "pnkjjindal",
+    "problem_name": "Picking Da Vinci successor",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pnkjjindal'>pnkjjindal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pnkjjindal",
+    "contest_code": "KAN14ROS",
+    "max_timelimit": "2",
+    "problem_code": "KAN15RTE"
+}

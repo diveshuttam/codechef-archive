@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nMirrored number is a number written in decimal numerals but we reverse the order of digits. The<br />\nlast digit becomes first and vice versa. For instance, if the number is  4628<br />\nthe number becomes 8264 of now. Note that all the leading zeros are omitted. That means if the<br />\nnumber ends with a zero, the zero is lost by mirroring (e.g. 1400 gives 41). Another point to note is that there will be no trailing zeroes in the mirrored numbers.<br />\nQUARK managers need to calculate with mirrored numbers. Your task is to add two mirrored numbers and<br />\noutput their mirrored sum. Of course, the result is not unique because any particular number is a<br />\nmirrored form of several numbers (e.g. 41 could be 14, 140 or 1400 before mirroring). Thus we must<br />\nassume that no zeros were lost by mirroring (e.g. assume that the original number was 14).\n</p>\n<p><br /></p>\n<h3>Input</h3>\n<p>\nThe input has N cases. The first line of the input consists of only one positive integer N. After which follow<br />\nthe N cases. Each case consists of exactly one line which has two positive integers separated by a space. These<br />\nare the mirrored numbers which you are required to add. Numbers will be at most 250 digits long.<br />\n<h3>Output</h3>\n</p><p>For each case, print exactly one line containing only one integer \u2014 the mirrored sum of two mirrored<br />\nnumbers. Omit any leading zeros in the output.</p>\n<p>\n<br /><br />\n<b><br />\nSample Input</b>\n</p><p>\n2<br />\n24 1<br />\n4358 754</p>\n\n<p><b><br />\nSample Output</b></p>\n<p>34<br />\n1998</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Quark Codejam '16 ",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1454747400,
+        "end_date": 1454758200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454758200,
+        "submit_start_date": 1454747400,
+        "current": 1537435548
+    },
+    "problem_author_html_handle": "dhwanitquark",
+    "problem_name": "Mirrored Numbers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dhwanitquark'>dhwanitquark</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dhwanitquark",
+    "contest_code": "COJA2016",
+    "max_timelimit": " - 1",
+    "problem_code": "CODEJAM7"
+}

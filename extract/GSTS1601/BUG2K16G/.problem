@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Chef loves to watch Takeshi's Castle. He especially enjoys watching the <b>'Skipping Stones'</b> segment of the show. He has created a similar game that has players cross a river by skipping on stones. Now here's the catch, a player can only step onto a stone if that particular stone can support his/her weight. Also its given that the first and the last stone will always have sufficient weight to hold the weight of player. </p>\n<p>For a given scenario, the player would only know which stones would hold his/her weight and the paths through which he/she can travel. So, tell us, whether the player can cross the river. <b>YES</b> or  <b>NO</b>!\n<br>\n<h3>INPUT</h3>\n<p>The first line of the input contains an integer <b>T</b>, denoting the number of test cases. \nThe first line of test case consists of number of stones - <b>N</b>,  number of paths - <b>E</b>, weight of the player - <b>W<sub>t</sub></b>.<br>\nNext line consists of <b>N</b> spaced integers which denotes the weight of stones 1,2,..N.<br> \nNext <b>E</b> lines consists of path of one stone to another stone, through which player can travel!<br>\n</p>\n<br>\n<h3>OUTPUT</h3>\n<p>For each test case, output a single line in format Case #<b>T</b>: <em>answer</em>, where <em>answer</em> will be YES or NO, that is if player can cross or not respectively!</p>\n<br>\n<h3>CONSTRAINTS</h3>\n<p>\n1 < <b>T</b> < 10<br>\n5 <= <b>N, E</b> <= 10<br>\n10 <= <b>W<sub>t</sub> , W<sub>i</sub></b> <= 50<br>\n</p>\n<br>\n<h3>EXAMPLE</h3>\n<p>\n<b>Input:</b><br>\n2<br>\n5 5 20<br>\n20 30 10 40 20<br>\n1 2<br>\n1 3<br>\n2 4<br>\n3 4<br>\n4 5<br>\n3 2 10<br>\n10 9 10<br>\n1 2<br>\n2 3<br>\n<br>\n<b>Output:</b><br>\nCase #1: YES<br>\nCase #2: NO<br>\n<br>\n<p><b>EXPLAINATION:</b> In first test case, player can travel from 1->2->4->5, whereas, in second test case, he cannot travel as in path 1->2->3, 2nd stone cannot handle the weight of player</p>.<br>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "BUG4EVER",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1474169400,
+        "end_date": 1474212600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1474212600,
+        "submit_start_date": 1474169400,
+        "current": 1537434600
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nerdyninja</span>",
+    "problem_name": "Skipping Stones",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nerdyninja'>nerdyninja</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nerdyninja",
+    "contest_code": "GSTS1601",
+    "max_timelimit": "1",
+    "problem_code": "BUG2K16G"
+}

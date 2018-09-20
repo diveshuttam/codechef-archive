@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Statement</h3>\n<p>A mountain hiker is descending from the mountain ranges. There are many mountains along his way each with it's own height. He will descend from<br />\n  mountain only if the mountains' height ahead of him are <b>Non Increasing</b>.\n</p>\n<p> You are given the height of the mountains ahead of you. Your task is to determine the <b>minimum amount of height you have to reduce from the mountains<br />\n  ahead of the hiker</b> in order to complete his expedition.\n</p>\n<h3>Input</h3>\n<p>Input description.</p>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows</li>\n<li>The first line of each test case contains a single integer <b>N</b> denoting the number of mountains ahead of him.<br />\n   The second line contains <b>N</b> space-separated integers <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b> denoting the height of the mountains. </li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Output description.</p>\n<ul>\n<li>For each test case, output a single line containing the answer.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b> 100</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b> 10<sup>7</sup></b></li>\n<li><b>1</b> \u2264 <b>A<sub>i</sub></b> \u2264 <b> 10<sup>7</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n5\n3 2 4 1 2\n\n<b>Output:</b>\n3\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ByteCode 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1456498800,
+        "end_date": 1456516800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1456516800,
+        "submit_start_date": 1456498800,
+        "current": 1537435325
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>bkarthikeyan28</span>",
+    "problem_name": "Easy One",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bkarthikeyan28'>bkarthikeyan28</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bkarthikeyan28",
+    "contest_code": "BYCO2016",
+    "max_timelimit": "1",
+    "problem_code": "BYCD1602"
+}

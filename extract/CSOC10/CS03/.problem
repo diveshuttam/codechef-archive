@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Problem text...\nSuppose we have a convex polygon of n vertices. One of the edges has a light\nemitting point which emits a ray of light in a known direction. The edges of the\npolygon are made of mirrors. As a result, when a ray of light falls upon an edge, it is\nreflected to another direction according to the laws of reflection. So after a certain\nnumber of reflections we can evaluate the point hit by ray. Our challenge here is to\nevaluate that point. By the way, if the ray falls upon a vertex of the polygon, it is lost\nforever.\n<h3>Input</h3>\n</p><p>Input description...\nThe input session begins with two numbers 3&lt;=v&lt;=10, 0&lt;=n&lt;=1000, denoting the\nnumber of vertices in the polygon and the number of reflections to simulate. After\nthat a line will follow containing (x,y), the position of the light emitting point, which\nwill always lie upon an edge (and will never coincide with any vertex) and\n0&lt;=t&lt;360, the angle in degree between x-axis and the ray, measured in anticlockwise\ndirection, which is always valid. Next there be v lines each of which will\ncontain a vertex of the polygon ordered to the anti-clockwise direction. All points will\nbe represented in x,y coordinate system with two digits after the decimal point. A\npair of zeros declares the end of the input session.\n<h3>Output</h3>\n</p><p>Output description...\nFor every data-set, output the final point the array hits after n reflections with two\ndigits after the decimal point. Remember, the point should lie upon an edge of the\npolygon. If the ray is lost forever within n reflections, output \u201clost forever\u2026\u201d. Output\nfor every data-set should start in a new line. Be extra cautious about precision\nerrors. Because if there is a vertex 4.00 and our ray passes through 4.001, we will\ncount it as \u201clost forever\u2026\u201d, as we are concerned with only two digits after the\ndecimal point.\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n4 4\n2.00 0.00 0.00\n0.00 0.00\n4.00 0.00\n4.00 4.00\n0.00 4.00\n4 0\n2.00 0.00 45.00\n0.00 0.00\n4.00 0.00\n4.00 4.00\n0.00 4.00\n0 0\n\n<b>Output:</b>\nLost forever\u2026\n4.00 2.00\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-02-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Code Spaghetti",
+    "languages_supported": "C",
+    "todo": false,
+    "time": {
+        "view_start_date": 1266690600,
+        "end_date": 1266777000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180174,
+        "submit_start_date": 1266690600,
+        "current": 1537439726
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rushikesh30</span>",
+    "problem_name": "Reflections",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rushikesh30'>rushikesh30</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rushikesh30",
+    "contest_code": "CSOC10",
+    "max_timelimit": "2",
+    "problem_code": "CS03"
+}

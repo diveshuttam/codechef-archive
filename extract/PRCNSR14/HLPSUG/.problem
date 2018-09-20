@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem description.</h3>\n<p>Sugam is very interested in participating in IIIT Delhi\u2019s annual Tech Fest Esya. He wants to pair with his friend for Esya\u2019s Techathalon events. But his friend is very choosy. He asks Sugam to solve a problem if he wants to team up with him.\n</p>\n<p>\nCan you help Sugam in solving the problem?\n</p>\n<p>\n<b>Problem</b> : Find the sum of all the prime numbers between K and N(K and N are inclusive), where K is the total number of events being held in Esya\u201914 and N is taken as input from the user.\n</p>\n<p>\nRefer <a href=\"http://esya.iiitd.edu.in\">esya website</a> if required. Or you can also decode the value of K from the sample input/output.\n</p>\n<h3>Input Description</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases.<br />\nEach test case contains an integer N </p>\n\n<h3>Output Description</h3>\n<p>A single integer value which is the sum of primes.\n</p>\n<h3>Sample Input</h3>\n<p>\n1<br />50</p>\n<h3>Sample Output</h3>\n<p>228 </p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b> <b>T</b> \u2264 <b>100</b></b></li>\n<li><b>k </b> \u2264 <b> <b>N</b> \u2264 <b>1000</b></b></li>\n</ul>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-08-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Procon 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1407670200,
+        "end_date": 1407679200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1407679200,
+        "submit_start_date": 1407670200,
+        "current": 1537437481
+    },
+    "problem_author_html_handle": "procon2014",
+    "problem_name": "Helping Sugam",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/procon2014'>procon2014</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "procon2014",
+    "contest_code": "PRCNSR14",
+    "max_timelimit": "1",
+    "problem_code": "HLPSUG"
+}

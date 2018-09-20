@@ -1,0 +1,33 @@
+{
+    "problem_code": "OBLIVI",
+    "problem_author": "mkrjn99",
+    "contest_name": "Decipher, Codefest'16",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>mkrjn99</span>",
+    "problem_name": "1\u00ad-out-of\u00ad-2 Oblivious Transfer",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "DECI2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/mkrjn99'>mkrjn99</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h2>Decipher Codefest'16</h2>\n<p>\u00a0<a href=\"https://en.wikipedia.org/wiki/Oblivious_transfer\">1-\u00adout\u00ad-of-\u00ad2 Oblivious Transfer</a> is an advanced protocol in cryptography which uses an instance of <a href=\"https://en.wikipedia.org/wiki/RSA_%28cryptosystem%29\">RSA</a> to encrypt or decrypt messages.</p>\n<p><figure><br />\n  <img src=\"https://www.codechef.com/download/DECI2016/oblivious.png\" /><br />\n  <figcaption>Fig.1 - 1-out-of-2 Oblivious Transfer</figcaption><br />\n</figure></p>\n<p>Given <i>N</i> = 100000000000000000000097319999999999999999996772987, and <i>e</i> = 7913584268521,</p>\n<p>Find the private key <i>d</i> of Alice.</p>\n<h3>Output</h3>\n<p>Submit the private key <i>d</i>.</p>\n<h3>Info about Submission </h3>\n<p>You just have to print the final answer. Rest you have to put the source code/ abstract of your solution inside the comments for plagiarism checking.</p>\n<h3> Sample Submission (c++)</h3>\n<p>#include&lt;iostream><br /><br />\nusing namespace std;<br /><br />\nint main(){<br /><br />\ncout&lt;&lt;\"PRIVATE KEY\";<br /><br />\n}<br /><br />\n/* Put your source code here inside comments for plagiarism checking */</p>\n\n",
+    "category_name": "main",
+    "date_added": "23-02-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, NODEJS, PERL, JS, PERL6",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/OBLIVI",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1456655400,
+        "end_date": 1456666200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1456666200,
+        "submit_start_date": 1456655400,
+        "current": 1537435306
+    },
+    "user": {
+        "username": ""
+    }
+}

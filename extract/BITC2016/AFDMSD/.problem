@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The cricket rivalry between India and Pakistan is world famous. Fans stick to their TV sets whenever they play against each other and the tension and excitement is at its zenith when it's a WORLD CUP match. </p>\n<p>\nSame was the case for T20 World Cup 2016 match between these 2 giants. But in the end, India manages to come on top and keep the perfect record of not losing to Pakistan in a World Cup match. The fans in Pakistan are disappointed with their team and thus, <b>Shahid Afridi</b> better known as <b>Boom Boom Afridi</b>, and the current captain of the Pakistan T20 national team , wants to regain support of their fans by challenging <b>Mahendra Singh Dhoni(MSD) </b> aka <b>Captain Cool</b> for another match.\n</p>\n<p>\nBut this match is not a match of cricket , rather it's a match of wits.\n</p>\n<p>\nDhoni is given an <b>undirected acyclic graph</b> with nodes from 1 to N rooted at 1. There are 3 types of queries:\n</p>\n<p>\n<b>Query 1:</b> A node number is given say x. Now, consider the subtree with root as x. Add 2 to x, add 9 to nodes which are at a distance of 1 from x, add 20 to nodes which are at a distance of 2 from x,add 35 to nodes which are at a distance of 3 from x,add 54 to nodes which are at a distance of 4 from x and so on.\n</p>\n<p>\n<b>Query 2:</b> Two nodes are given say x and y. Now, consider the nodes in the path from x to y and output the sum of these nodes mod 10^9+7\n</p>\n<p>\n<b>Query 3:</b> A node is given say x. Find the sum of all nodes in the subtree of x mod 10^9+7\n</p>\n<p>\nHelp Dhoni to solve this problem and win this challenge.</p>\n<h3>Input</h3>\n<p>First line contains the number of test cases, T<br /><br />\nEach test case contains N and Q, N is number of nodes and Q is number of queries<br /><br />\nNext N-1 lines contain the edges represented by 2 numbers x and y<br /><br />\nNext Q lines contains different queries</p>\n<h3>Output</h3>\n<p>The answer for query of type 2 and 3 mod 10^9+7</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>T&lt;=5</b></li>\n<li><b>N&lt;=100000</b></li>\n<li><b>Q&lt;=100000</b></li>\n<li><b>1&lt;=x,y&lt;=N</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n8 5\n1 2\n1 3\n3 4\n4 5\n3 6\n6 7\n7 8\n1 1\n2 1 1\n1 3\n3 1\n2 4 2\n\n<b>Output:</b>\n2\n279\n51\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "BIT Mesra Overnight Coding",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1458662400,
+        "end_date": 1458675000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1458675000,
+        "submit_start_date": 1458662400,
+        "current": 1537435050
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>droidkid</span>",
+    "problem_name": "Afridi Vs MSD",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/droidkid'>droidkid</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "droidkid",
+    "contest_code": "BITC2016",
+    "max_timelimit": "1 - 3",
+    "problem_code": "AFDMSD"
+}

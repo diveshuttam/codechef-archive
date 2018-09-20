@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nGiven a 3x3 matrix of numbers from 0-9 (inclusive), you can form a new number by starting from any position in the matrix, taking that number and then visiting any of its unvisited neighbor and appending the integer at that position to the number formed till now and continuing in the same fashion. You can no longer append integers, if there is no neighbor of the last integer used which is still unvisited. You obviously can also stop anytime before this happens. <br><br>\n\nPrint the largest prime number that can be found in this fashion. If no such number exists, print -1.<br>\n(Note: Numbers which are adjacent to each other vertically or horizontally are considered neighbors).\n<br>\n\n\n\n<h3>Input</h3>\n<p>\n1.The first input will be T, the tumber of testcases. T <= 50. <br>\n2.For each test case, there would be 3 lines each having 3 integers separated by spaces.<br>\n3.Consecutive test cases are separated by a blank line.\n<h3>Output</h3>\n<p>\n 1.For each test case, print the largest prime number found by the above method, else print -1.<br>\n\n<h3>Example</h3>\n\n<pre>\n<b><br>Input:</b>\n1\n1 2 3\n4 5 6\n7 8 9\n<b><br>Output:</b>\n69854123\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-02-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Rubix 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1266129000,
+        "end_date": 1266150600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1266150600,
+        "submit_start_date": 1266129000,
+        "current": 1537439735
+    },
+    "problem_author_html_handle": "csirubix",
+    "problem_name": "Primal Instincts",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/csirubix'>csirubix</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "csirubix",
+    "contest_code": "RUBIX10",
+    "max_timelimit": "0.958",
+    "problem_code": "RUBIX3"
+}

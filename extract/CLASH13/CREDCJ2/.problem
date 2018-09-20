@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>A building is shaped like a cone. In order to reach the top, 'Speed Racer' has to ride his moto-cross bike around the entire floor (i.e. around a ring) and then take a lift to the next level. At the centre of the building is another lift that goes directly from the bottom to the top of the building. The height of the building is equal to the radius of the bottom floor.\n</p>\n<p>\n'Speed Racer' has to race against his rival 'Boogeyman' who is taking the direct lift to the top i.e. the central lift, but, for every 2 floors that 'Boogeyman' travels up, he has to travel 1 floor down. When 'Boogeyman' goes downwards by one floor, if he lands on an even numbered floor then 'Speed Racer' can activate his nitrous oxide boost and move twice as fast on whichever floor he is on. Else, if 'Boogeyman' lands on an odd numbered floor whenever he moves downwards, 'Speed Racer' can skip whichever floor he is on, but when he takes the lift to the next floor, the speed of the lift is equal to 50% of the speed of the central lift.\n</p>\n<p>\nOnce 'Speed Racer' travels around the entire circumference of each floor and progresses to the<br />\nnext, the radius decreases by N, where N is the number of floors in the building.\n</p>\n<p></p><p> \t      <b>THIS IS A TURN BASED MATCH. </b></p>\n<p></p>\n<p>\ni.e. one of the two competitors gets to go first (based on user entry). If 'Boogeyman' goes first, he has to wait for 'Speed Racer' to finish his journey before moving upwards again, once he has reached an even/odd floor on his journey down. Else, if 'Speed Racer' goes first, he has to wait on his floor till the time 'Boogeyman' has reached an odd/even floor on his journey downwards.\n</p>\n<p><h3>Input</h3>\n</p><p>The First line contains the number of test cases, <b>T</b>.<br /></p>\n<p>T test cases follow.<br /><br />\nFor each test case, <br /></p>\n<p>The first line contains two space separated values, <b>S</b> and <b>C</b>.<br /><br />\nThe second line contains two space separated values, <b>H</b> and <b>N</b>. <br /><br />\nThe third line contains an integer <b>F</b> denoting who takes the first turn.<br /><br />\n<br /><br />\n<b>The symbols</b> :<br /><br />\n<b>S</b> denotes Speed Racer's speed in \"km/hr\".<br /><br />\n<b>C</b> denotes the speed of the central lift in \"km/hr\".<br /><br />\n<b>H</b> denotes the height of the building IN METRES.<br /><br />\n<b>N</b> denotes the number of floors in the building.<br /><br />\n<b>F</b> denotes who goes first : <br /><br />\n<b>F</b> = <b>1</b> implies Boogeyman takes the first turn.<br /><br />\n<b>F</b> = <b>2</b> implies Speed Racer takes the first turn.<br /><br />\n<br /><br />\nAssume that the time 'Speed Racer' takes to move between floors is zero (except the case when Boogeyman lands on an odd numbered floor) and that his speed is constant on every floor. Also, the time taken by Boogeyman to move down one floor is half the time taken by him to move up one floor.\n</p>\n<h3>Output</h3>\n<p>Output: </p>\n<p>The first line should contain Speed Racer's time to the top in seconds.<br />\nThe second line should contain Boogeyman's time to the top in seconds.<br />\nThe third line should contain the string \"Speed Racer FTW\" if 'Speed Racer' defeats his rival, OR \"Boogeyman shames Speed Racer\" if 'Speed Racer' loses.\n</p>\n<h3>Constraints</h3>\n<p><b>H</b> = <b>N^2</b>(where H = height of building and N = number of floors).</p>\n<h3>Tips</h3>\n<p>Use Google for converting between units if in doubt.\n</p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n72 7.2\n16 4\n2\n<b>Output:</b>\n14.000000\n20.000000\nSpeed Racer FTW\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-08-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Clash Credenz 2013",
+    "languages_supported": "C, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1377541800,
+        "end_date": 1377714600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1377714600,
+        "submit_start_date": 1377541800,
+        "current": 1537438201
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>ashmew2</span>",
+    "problem_name": "Speed Racer",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ashmew2'>ashmew2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ashmew2",
+    "contest_code": "CLASH13",
+    "max_timelimit": "0.1",
+    "problem_code": "CREDCJ2"
+}

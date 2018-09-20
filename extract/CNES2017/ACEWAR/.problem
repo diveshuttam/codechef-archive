@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n<h3>Problem description.</h3>\n<p>There is a state of war within the country between the two political parties, each one of which wants to prove its supremacy. The local people there are the most affected ones. If in any condition war broke out in a country, people there should flee to the nearest safest country. Each country has its own safety levels based on their army strengths, leader in power and many such factors. To enter a country the safety level of that country must be more than the safety level of the country where war has broken.You can <b>never even visit</b> a country which has safety level less than that of the country where the war broke.Also each country has some intake capacity, which denotes the maximum number for refugees that can enter into the country.<br><br>\nYou are given a network of countries (distance and roads between the countries) and a country where the war has broken. You are also given the safety level and the refugee intake capacity of all the countries. You are provided with the number of citizens of the country where war has broken. Considering all the above conditions print \u201cNO\u201d and -1, if all the citizens of the country can\u2019t get shelter into some other country and if all the citizens can get shelter into some or the other country then print \u201cYES\u201d and the distance the last citizen has to travel  to be safe.\n<br>\nIt is obvious that the citizens will travel the minimum distance possible to reach a country which can give them shelter and once the refugee intake capacity of a country is fulfilled, it won\u2019t allow any more refugees to enter the country.</p>\n\n\n<h3>Input</h3>\n<p>First line of input contains 't' the the number of testcases.<br>\nFirst line of each testcase contains the number of countries 'n'.<br>\nThe next \u201c n-1\u201d lines contains \u201ca b c\u201d which denotes that there is a road(link) between \u2018a\u2019 and \u2018b\u2019, travelling on which will cost \u2018c\u2019.<br> \nEach of the next two lines contains \u2018n\u2019 space separated integers, first line contains the safety level(S) of \u2018n\u2019 countries and the second contains the intake capacity (I) of the \u2018n\u2019 countries.<br>\nThe last line of the test case contains the country in which war broke (any number between 1 to n) and the population in that country.</p>\n\n<h3>Output</h3>\n<p>Single line of output contains \"NO\"(without quotes) and -1, if all the citizens of the country can\u2019t get shelter into some other country and if all the citizens can get shelter into some or the other country then print \u201cYES\u201d and the distance the last citizen has to travel  to be safe.</p>\n<h3>Constraints</h3>\n\n<h3>Example 1:</h3>\n<pre><b>Input:</b>\n1\n5\n2 3 7\n4 3 5\n1 4 6\n2 5 9\n11 9 12 8 7\n14 15 19 7 18\n4 43\n\n<b>Output:</b>\nYES 12</pre>\n\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> 4<sup>th</sup> country is at war and there are 43 citizens to be brought to safety. Citizens cannot go to 5<sup>th</sup> country as its safety level(7) is less than that of the 4<sup>th</sup> country(8).\nSo firstly the citizens will go to 3<sup>rd</sup> city as it is nearest which takes 19 intakes, now the remaining 24 (=43-19) ,out of which next 15 will go to 1<sup>st</sup> city which is the next nearest and takes 14 intakes so the remaining 10 (=24 -14) will go to 2<sup>nd</sup> city which takes all the 10 citizens as the intake capacity is 15.So the maximum distance traveled by any refugee is 12 (4->3->2).\n</p>\n\n<h3>Example 2:</h3>\n<pre><b>Input:</b>\n1\n5\n2 3 7\n4 3 5\n1 4 6\n2 5 9\n11 9 12 8 7\n14 15 19 7 18\n4 51\n\n<b>Output:</b>\nNO -1</pre>\n\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> 4<sup>th</sup> country is at war and there are 51 citizens to be brought to safety. Citizens cannot go to 5<sup>th</sup> country as its safety level(7) is less than that of 4<sup>th</sup> country(8).<br>\nSo firstly the citizens will go to 3<sup>rd</sup> city as it is nearest which takes 19 intakes, now the remaining 32 (=51-19) , out of which next 14 will go to 1<sup>st</sup> city which is the next nearest and takes 14 intakes so the remaining 18 (=32 -14) will go to 2<sup>nd</sup> city which takes 15 citizens, still 3 are left who are unsafe and not got shelter and as there is no other country left, output is \"NO -1\"(without quotes).<br>\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Codenesia 2.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1507221000,
+        "end_date": 1507231800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1507231800,
+        "submit_start_date": 1507221000,
+        "current": 1537433517
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>abhiavi_1995</span>",
+    "problem_name": "SAVE THE REFUGEES",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhiavi_1995'>abhiavi_1995</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abhiavi_1995",
+    "contest_code": "CNES2017",
+    "max_timelimit": "1",
+    "problem_code": "ACEWAR"
+}

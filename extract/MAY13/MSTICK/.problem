@@ -1,0 +1,33 @@
+{
+    "problem_code": "MSTICK",
+    "problem_author": "mkagenius",
+    "contest_name": "May Challenge 2013",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>mkagenius</span>",
+    "problem_name": "Matchsticks",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>pieguy</span>",
+    "contest_code": "MAY13",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/may13'>may13</a>, <a class='problem-tag-small ' href='/tags/problems/mkagenius'>mkagenius</a>, <a class='problem-tag-small ' href='/tags/problems/segment-tree'>segment-tree</a>, <a class='problem-tag-small ' href='/tags/problems/simple'>simple</a>, <a class='problem-tag-small ' href='/tags/problems/simple-math'>simple-math</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align = \"justify\">Chef Ceil has some matchsticks in his kitchen.</p>\n<p align = \"justify\"><b>Detail of matchsticks:</b><br/>\nThere are <b>N</b> matchsticks in total. They are numbered from to 0 to <b>N</b>-1 inclusive. All matchsticks have same length. But they may have different rates of burning. For <b>i<sup>th</sup></b> matchstick, we denote <b>b<sub>i</sub></b> as the time required for that matchstick to completely burn-down if lighted at one end.  The matchsticks have uniform rate of burning.\nIf lighted at both ends simultaneously, the matchstick will take only half of the original time to burn down.</p>\n<p align= \"justify\"><b>Arrangement:</b><br/>\nHe ties rear end of the all the matchsticks together at one point and the front end is kept free. The matchstick numbered <b>i</b> is adjacent to matchstick numbered <b>i+1</b> for all 0<= <b>i</b> <=<b>N</b>-2.  \n<i>Bodies of matchsticks do not touch each other, except at rear end.</i> All matchsticks are kept on the floor.</p>\n<p align = \"justify\"><b>Task:</b><br/>\nThere are <b>Q</b> queries, in each query we ask:\nIf he lights the free end of all matchsticks numbered between  <b>L</b> and <b>R</b> both inclusive, what will be the time needed for all matchsticks to get completely burnt.</p>\n<h3>Input</h3>\n<p align = \"justify\">First line of input contains one integer <b>N</b>, total number of matchsticks. The next line contains <b>N</b> space separated integers <b>b<sub>i</sub></b>, where <b>b<sub>i</sub></b> is the <b>time</b> required for <b>i<sup>th</sup></b> matchstick to completely burn-down if lighted at one end. \nNext line contains one integer <b>Q</b>, total number of queries you need to answer. Then there are <b>Q</b> queries in next <b>Q</b> lines. Each line has two space separated integers <b>L</b> and <b>R</b>.</p>\n<h3>Output</h3>\n<p align = \"justify\">Print <b>Q</b> lines, one for each query, printing the answer for each query, that is, the time it will take for all the matchsticks  to get completely burn down. Every time you must print your answer with 1 decimal place. </p>\n<h3>Constraints:</h3>\n1 <= <b>N</b> <= 10<sup>5</sup> <br>\n1<=<b> b<sub>i</sub> </b><= 10<sup>8</sup><br>\n1 <= <b>Q</b> <= 10<sup>5</sup><br>\n0 <= <b>L</b> <= <b>R</b> <= <b>N</b>-1\n\n<h3>Example</h3>\n<pre>\n\n<b>Input</b>\n1\n5\n1\n0 0\n<b>Output</b>\n5.0\n\n<b>Input</b>\n2\n3 5\n1\n0 1\n<b>Output</b>\n4.0\n\n<b>Input</b>\n18\n3 4 2 1 5 7 9 7 10 5 12 3 1 1 2 1 3 2\n1\n4 10\n<b>Output</b>\n9.0\n</pre>\n\n<p> <br/>\n<b>Explanation</b><br/>\n<img height=\"491\" width=\"390\" src = \"http://www.codechef.com/download/matches.jpg\"><br/>\nFor the last input, in figure yellow colored matches are lighted by a lighter simultaneously.\nThe numbers indicate the time required to burn that matchstick (if lighted at one end)\nNow the first lighted matchstick will completely burn in 5 seconds. Then it will light up all the rest matches from the rear end.\nSome matches will have fire at both ends and thus after 5 seconds, they will start burning with twice the original rate.\nThus time taken for matches to burn completely will be :\n(from left to right):  8.0, 9.0, 7.0, 6.0, 5.0, 6.0, 7.0, 6.0, 7.5, 5.0, 8.5, 8.0, 6.0, 6.0, 7.0, 6.0, 8.0, 7.0.\nSo, the answer will be 9.0 (the maximum among these).\n</p>",
+    "category_name": "main",
+    "date_added": "22-06-2012",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "3",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/MSTICK",
+    "problem_tester": "pieguy",
+    "time": {
+        "view_start_date": 1367573400,
+        "end_date": 1368441000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1368441000,
+        "submit_start_date": 1367573400,
+        "current": 1537438311
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p dir=\"ltr\">\n<h3>Coal Company </h3>\n</p>\n<p dir=\"ltr\">\n    The Tunisian Coal Mining company uses a train to ferry out coal blocks from its coal mines. The train has N containers numbered from 1 to N which need to<br />\n    be filled with blocks of coal. Assume there are infinite coal blocks. The containers are arranged in increasing order of capacity, and the ith container<br />\n    has capacity i. Every container has a specific loading cost ci. The workers fill the containers in rounds. In every round, they choose a subset of<br />\n    containers and load them with coal blocks. This subset should be such that each subsequent container chosen in a round should be more spacious than the<br />\n    previous one. Also, the difference in loading cost of consecutive containers should be at least K.\n</p>\n<p><br/></br/></p>\n<p dir=\"ltr\">\n    What is the least number of rounds in which all containers can be filled?\n</p>\n<p><br/></br/></p>\n<h3 dir=\"ltr\">\n    Input<br />\n</h3>\n<p dir=\"ltr\">\n    The first line contains the number of test cases T. T test cases follow.\n</p>\n<p dir=\"ltr\">\n    Each case contains an integer N and K on the first line, followed by integers c1,...,cn on the second line.\n</p>\n<p><br/></br/></p>\n<p dir=\"ltr\">\n    1 &lt;= T &lt;= 100\n</p>\n<p dir=\"ltr\">\n    1 &lt;= N &lt;= 300\n</p>\n<p dir=\"ltr\">\n    1 &lt;= ci &lt;= 1000\n</p>\n<p dir=\"ltr\">\n    1 &lt;= K &lt;= 1000\n</p>\n<p><br/></br/></p>\n<h3 dir=\"ltr\">\n    Output<br />\n</h3>\n<p dir=\"ltr\">\n    Output T lines, one for each test case, containing the minimum number of rounds in which all containers could be filled.\n</p>\n<h3 dir=\"ltr\">\n    Example<br />\n</h3>\n<p dir=\"ltr\">\n    Input:<br />\n    <br/><br />\n    2<br />\n    <br/><br />\n    3 2<br />\n    <br/><br />\n    5 4 7<br />\n    <br/><br />\n    5 1<br />\n    <br/><br />\n    5 3 4 5 6<br />\n    <br/><br />\n    <br/><br />\n    <br/><br />\n    Output:<br />\n    <br/><br />\n    2<br />\n    <br/><br />\n    1\n</br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></p>\n<p><br/></br/></p>\n<p dir=\"ltr\">\n    Explanation:\n</p>\n<p dir=\"ltr\">\n    For the first example, workers can fill the containers of cost 5 and 7 in the first round and the container with cost 4 in the next round. Note that the<br />\n    containers with cost 5 and 4 cannot be filled consecutively because the loading costs should differ by at least K (which is 2). Also, the containers cannot<br />\n    be filled in order 5, 7, 4 in one round because the containers filled in a round should be in increasing capacity.\n</p>\n<div>\n    <br/>\n</br/></div>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-10-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeMasters 1.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1446391800,
+        "end_date": 1446402600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1446402600,
+        "submit_start_date": 1446391800,
+        "current": 1537435844
+    },
+    "problem_author_html_handle": "rajnish22222",
+    "problem_name": "Coal Company",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rajnish22222'>rajnish22222</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rajnish22222",
+    "contest_code": "COMS1501",
+    "max_timelimit": "1",
+    "problem_code": "CM1503"
+}

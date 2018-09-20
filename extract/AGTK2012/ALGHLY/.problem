@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Leonardo of Pisa goes out on the day \"<a href=\"http://en.wikipedia.org/wiki/Holi\">HOLI\"</a> wearing a checked shirt. After having a good time he returns with colors all over his shirt. And now he applies the his concept of Fibonacci here as well. You know how Genius men were. \n<p>\nHe cuts his shirt int a <b>M*M</b> checks, such that <b>M</b> is of the form <b>2<sup>N</sup></b>. Each check on his shirt has got a single color (Exactly one). The <b>j</b>th check on the <b>i</b>th row has got the same color as the <b>(i+j)</b>th check of the <b>j</b>th row. <i>NOTE : (i+j) is always modulo M</i>\n<p>\nYour task is to determine the maximum possible colors on his shirt.\n\n<h3>Input</h3>\n<p><b>T</b>, the number of test cases, followed by <b>T</b> lines. <p>Each line containing the positive integer 0<<b>N</b><50000\n\n<h3>Output</h3>\n<p><b>T</b> lines of output, each line contain the positive integer, denoting the count of maximum possible colors on his shirt\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n1\n\n<b>Output:</b>\n2\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "ALGOTHIKA 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1331113762,
+        "end_date": 1331958600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1331958600,
+        "submit_start_date": 1331113762,
+        "current": 1537438867
+    },
+    "problem_author_html_handle": "s4p3r_c1n0s",
+    "problem_name": "HAPPY HOLI (SET II)",
+    "source_sizelimit": "5000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/s4p3r_c1n0s'>s4p3r_c1n0s</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "s4p3r_c1n0s",
+    "contest_code": "AGTK2012",
+    "max_timelimit": "0.696833",
+    "problem_code": "ALGHLY"
+}

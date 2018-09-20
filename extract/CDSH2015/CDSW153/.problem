@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>Virat is a guy who likes solving problems very much. Today Virat\u2019s friend Jadega gave him a problem to solve. Jadeja gives Virat three numbers: <b>N, L and R</b> and Virat has to find out the count of numbers between<b> L and R </b>(both inclusive) which are divisible by at least 1 prime number belonging to range<b> 1 to N </b>(inclusive).</p>\n<p>Though Virat likes to solve problems, this one seems too hard for him to solve. So he turns to you in order to solve the problem. Now it is your job to solve this problem for Virat.</p>\n\n<h3>Input</h3>\n<ul>\n<li>First line of input contains number of test cases <b>T</b>. </li>\n<li>Each of next <b>T</b> lines contain 3 space separated integers: <b> N,L and R</b> as described in the problem statement.</li>\n</ul>\n\n<h3>Output </h3>\n<ul>\n<li>For each test case, print a single line having the count of numbers between<b> L and R</b> (both inclusive) which are divisible by at least 1 prime number belonging to range <b>1 to N</b> (inclusive).</li>\n</ul>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T </b>  \u2264 <b>10</b>\n</li><li><b>2</b> \u2264 <b>N</b> \u2264 <b>50</b>\n</li><li><b>1</b> \u2264 <b>L</b> \u2264 <b> R</b> \u2264 <b>10<sup>18</sup></b>\n</li></ul>\n\n<h3>Example</h3>\n<pre><b>Input</b>\n2\n6 1 15\n10 17 29\n\n<b>Output </b>\n11\n9\n</pre>\n<h3>Explanation </h3>\n<ul>\n<li>In the 1st test case, primes in the range 1 to 6 are 2, 3 and 5. The numbers in the range 1 to 15 which are divisible by any of 2,3 or 5 are 2, 3, 4, 5, 6, 8, 9, 10, 12, 14, 15 (total 11).</li>\n<p><br /></p>\n<li>In the 2nd test case, prime in the range 1 to 10 are 2, 3, 5 and 7. The number in the range 17 to 29 which are divisible by any of these primes are 18, 20, 21, 22, 24, 25, 26, 27, 28 (total 9).</li>\n</ul>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CODESHOW 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1424878200,
+        "end_date": 1424889600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1424889600,
+        "submit_start_date": 1424878200,
+        "current": 1537436728
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>pranjuldb</span>",
+    "problem_name": "Virat and his challenge",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pranjuldb'>pranjuldb</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pranjuldb",
+    "contest_code": "CDSH2015",
+    "max_timelimit": "1",
+    "problem_code": "CDSW153"
+}

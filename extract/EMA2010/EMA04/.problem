@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Military coding System\n\n<h3>Input</h3>\n<p>The first number is n, the length of first integer string\nThe next n integers are elements of first sequence\nThe next is m , the length of second sequence\nThe next m integers are elements of second sequence\n\n\n<h3>Output</h3>\n<p>One number k, the length of longest possible common subsequence that is increasing\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n5\n23140\n6\n1034100\n\n\n\n<b>Output:</b>\n2\n34\n\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "EMA 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1270146600,
+        "end_date": 1270287000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180187,
+        "submit_start_date": 1270146600,
+        "current": 1537439608
+    },
+    "problem_author_html_handle": "rajneeshrana",
+    "problem_name": "Military coding System",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rajneeshrana'>rajneeshrana</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rajneeshrana",
+    "contest_code": "EMA2010",
+    "max_timelimit": "1",
+    "problem_code": "EMA04"
+}

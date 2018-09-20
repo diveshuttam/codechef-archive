@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><html></html></p>\n<p>\nThere are <strong>n</strong> investment groups which are indexed from 0 to <strong>n-1</strong> in the order of input, each of which consists of <strong>m</strong> members which are indexed from 0 to <strong>m-1</strong> also in the order of the input. There are <strong>c</strong> number of companies in the market. Each member of every investment firm has some preferences regarding the company he/she wants to invest in. Every company has limited number of shares in the market, which is denoted by <strong>A<sub>i</sub></strong> for the <strong>i<sup>th</sup></strong> company, that they can sell. Find single number denoting the investment firm's index, which has the maximum number of members that get the shares. If there are two or more firms that have the same number of the maximum member getting the shares, then print the one with the smallest index<br /><br /><br />\nNote: For every investment firm, assume that the companies have their maximum amount of shares. Buying the shares from a company by a firm does not affect the total number of shares that are available to the other firms. <br />\n</p>\n<p><br /><br /></p>\n<p>\nInput:<br />\n<br /><br />\n The first line of the input consists of two space separated numbers <strong>n</strong> and <strong>c</strong><br /><br />\n The second line consists of <strong>c</strong> space separated integers that denote the maximum shares of each company<br /><br />\n From the third line onwards, for each investment firm <br /><br />\n the first line denotes the two space separated integers <strong>m</strong> and  <strong>p</strong><br /><br />\n <strong>p</strong> lines follow<br /><br />\n each line consists of two space separated integers denoting number of the member of the investment firm and the number of the company the member is interested in<br /></p>\n<p> <br /><br /><br />\n output:<br />\n <br /><br />\n A single number denoting the investment firm's index, which has the maximum number of members that get the shares.<br />\n <br /><br />\n<br /><br /><br />\nConstraints:<br /><br />\n1 &lt;= <strong>n</strong> &lt;= 10<br /><br />\n2 &lt;= <strong>c</strong> &lt;=8000<br /><br />\n1 &lt;= <strong>A<sub>i</sub></strong> &lt;= 10<br /><br />\n1 &lt;= <strong>m</strong> &lt;= 1000<br /><br />\n1 &lt;= <strong>p</strong> &lt;= 500<br /></p>\n<p> <br /><br /><br />\n Sample input:<br />\n <br /><br />\n2 4<br /><br />\n1 1 2 1<br /><br />\n3 5<br /><br />\n0 0<br /><br />\n0 2<br /><br />\n1 1<br /><br />\n1 3<br /><br />\n2 3<br /><br />\n4 5<br /><br />\n0 1<br /><br />\n1 2<br /><br />\n2 0<br /><br />\n2 3<br /><br />\n3 3<br /><br />\n<br /><br /><br />\nSample output:<br /><br />\n1<br />\n<br /><br /></p>\n<p>Explanation:<br /><br />\nThere are 2 investment firms (indexed 0 and 1) and 4 companies (indexed 0,1,2, and 3) with their maximum share capacities 1,1,2 and 1<br /><br />\nThere are 3 members (indexed 0,1, and 2) in the 0<sup>th</sup> investment firm and 5 lines follow that gives the preferences of each member. Thus, we get<br /><br />\n0 -> 0,2<br /><br />\n1 -> 1,3<br /><br />\n2 -> 3<br /><br />\nWe assign share of company 0 to member 0, then share of company 1 to member 1 and then share of company 3 to member 2. Thus, the total number of company's allocated to firm 0 is 3.<br /></p>\n<p>Then for the 1<sup>st</sup> investment firm we have 4 members (indexed 0,1,2 and 3) and 5 following lines that denote their preferences. Thus, we get<br /><br />\n0 -> 1<br /><br />\n1 -> 2<br /><br />\n2 -> 0,3<br /><br />\n3 -> 3<br /><br />\nWe assign share of company 0 to member 0, then share of company 2 to member 1, then share of company 0 to member 2 and then share of company 3 to member 3. If share of company 3 would have been assigned to member 2 then member 3 would have not got anything. That is why the total number of company's allocated to firm 1 is 4.<br /><br />\nHence, the answer is the index of the second firm that is 1.\n</p>\n<p></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-08-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Clash Credenz 2015 Wild Card Round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1440257400,
+        "end_date": 1440271800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1440271800,
+        "submit_start_date": 1440257400,
+        "current": 1537436105
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>psmlbhor</span>",
+    "problem_name": "Firm with max investment",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/psmlbhor'>psmlbhor</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "psmlbhor",
+    "contest_code": "CCWC2015",
+    "max_timelimit": "1.1",
+    "problem_code": "CREDMNY"
+}

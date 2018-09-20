@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>You are a huge music fan! And you're a programming freak , too. So you've decided to create an application called \"Music Mania\" . \"Music Mania\"  predicts the user's most played song as well as the number of songs he plays in a month, on the basis of his taste for music.</p>\n<p>\nHere is what you've planned out:<br />\nYou will ask the users for their Top 3 favourite music genres and Top 3 Favourite Bands. Then you'll ask them to input an arbitrary number of songs. According to your algorithm, the user is twice as likely to play songs from his/her favourite bands/artists. Similarly, he is twice as likely to play songs from his/her favorite genres. On the basis of the songs that have been entered, your program will calculate the expected number of times the \"least played\" song was played. Then using probability, the program will calculate the total number of songs played in the month.\n</p>\n<p>\nThe procedure used by the program to calculate the number of times the \"least played\" song was played:<br />\nSuppose the user entered N songs, each song having a probability of being played p(1),p(2),...p(N) respectively. Let LP denote the number of times the \"least played\" song was played. Now, the formula for the expected value of LP : <br /><br /><br />\n<b>LP = 1*p(N) + 2*p(N-1) + 3*p(N-2) + ...... + i*p(1) / p(1) + p(2) + p(3) + ... + p(N)</b>\n</p>\n<p>\nYour task is to convert the above mentioned technique into a program.\n</p>\n<h3>Input</h3>\n<p>The first line contains the number of test cases, <b>T</b>.<br /> <b>T</b> Test cases follow.<br /><br />\nFor every test case, the first line is the list of the user's 3 favourite genres, which will be 3 space seperated strings. <br /><br />\nThe next line will contain names of his/her 3 favourite bands/artists which is again a space separated list.<br /><br />\nNext line will contain the number of songs 'S' that the user wishes to enter. <br /><br />\n<br />The next S lines will each contain 3 space seperated strings, in this format :<br /><br />\n<br /><br />\n<b>ArtistName SongName Genre</b><br /><br />\n<br /><br />\nPlease note that the entered strings DO NOT HAVE SPACES inside them.<br />\n<br />For example, the band \"Pink Floyd\" will be entered as \"PinkFloyd\".<br /></p>\n<p>Refer to the sample test cases below.\n</p>\n<h3>Output</h3>\n<p>The sum of number of times each song was played in a month (an integral value) and the name of the most played song. In case multiple songs were played the same number of times, output the song that was entered first in the input for the test case.</p>\n<h3>Constraints</h3>\n<p><b>0</b> &lt; <b>N</b> &lt; <b> 1000000</b></p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\nPsychedelic Progressive Classic\nPinkFloyd TheDoors TheBeatles\n5\nPinkFloyd Time Progressive\nTheDoors TheEnd Psychedelic\nTheBeatles LetItBe Pop\nMGMT Whistle Psychedelic\nLinkinPark InTheEnd AltRock\nHeavyMetal DeathMetal BlackMetal\nMetallica ChildrenofBodom CradleofFilth\n0\nJazz Blues Bollywood\nJohnMayer AmitTrivedi DireStraits\n2\nLinkinPark GivenUp Rock\nIronMaiden RunToTheHills NWOBHM\n\n<b>Output:</b>\n47 Time\n0  \n3 GivenUp\n</pre><h3>Explanation</h3>\n<p><b>Explanation for Sample Case 1 : </b><br /> Direct Method:<br />\nLets assume that a song that is least played has a probability of being played equal to 'p'.<br />\nThe song \"Time\" is from his favourite band, \"PinkFloyd\" and also from his favourite genre \"Progressive\". So it has 2*2p = 4p probablity of being played.<br />\nSimilarly, \"TheEnd\" also has 4p as the probability of being played.<br />\n\"LetItBe\" is from his favourite band, thus has a probablity 2p of being played.<br />\n\"Whistle\" too has a probability 2p of being played.<br />\n\"InTheEnd\" has p probability of being played.<br />\nAfter calculation, the value of p = 0.07692<br />\nAfter further calculations, the sum of number of times each song was played comes out to be 47.\n</p>\n<p><b>Explanation for Sample Case 2 : </b><br /></p>\n<p>There are 0 songs entered.<br />\nHence, the output is 0 and a space character.\n</p>\n<p>\n<b>Explanation for Sample Case 3 : </b><br /><br />\nBoth the songs entered are not from the user's favourite band/genre. Thus both are equally likely to be played with p(1) = 0.5 and p(2)=0.5<br />\nThus the number of times the \"least played\" will be played 1.5.<br />\nHence, the sum of number of times each song was played in the month = 1.5 + 1.5 = 3.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-08-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Clash Credenz 2013",
+    "languages_supported": "C, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1377541800,
+        "end_date": 1377714600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1377714600,
+        "submit_start_date": 1377541800,
+        "current": 1537438206
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>ashmew2</span>",
+    "problem_name": "Music Mania",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ashmew2'>ashmew2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ashmew2",
+    "contest_code": "CLASH13",
+    "max_timelimit": "0.1 - 0.25731",
+    "problem_code": "CREDCJ1"
+}

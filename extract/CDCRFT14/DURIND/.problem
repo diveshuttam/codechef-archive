@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Reference:: The Hobbit : Desolation of Smaug<br />\n  <a href =<br />\n    'http://en.wikipedia.org/wiki/The_Hobbit:_The_Desolation_of_Smaug'>http://en.wikipedia.org/wiki/The_Hobbit:_The_Desolation_of_Smaug</a></p>\n<p>  J. R. R. Tolkien decided to make Thorin Oakenshield\u2019s task more difficult.<br />\n  This time he was given an infinite number of keys represented by a small<br />\n  string. The hidden entrance has a lot of keyholes side by side represented by<br />\n  one long string. The key fits only into a slit that matches it completely.<br />\n  Oakenshield does not know how many keys he would require and which all<br />\n  keyholes he will have to try out. So if there are <b>n</b> keyholes where the key<br />\n  fits, he might need any number of keys between <b>1 to n</b> (both inclusive).<br />\n  Moreover he does not know which keyholes among the ones where the keys fit, he<br />\n  will have to use. All he knows is that there is a unique way to open the door.<br />\n  Trying out each configuration takes <b>1</b> second. The last light of Durin\u2019s day<br />\n  does not last long and will have to try out all possibilities before it goes.<br />\n  He wants you to find out how long, in the worst case, it will take for him to<br />\n  try out all possibilities.</p>\n<p>  Since the answers may be huge, output it modulo <b>1000000007</b>.<br />\n  If there are no keyholes where the key fits, output <b>0</b>.\n  </p>\n<h3>Input Format:</h3>\n<p>\n  First line containing a string representing the key.<br />\n  Second line containing a string representing the keyholes.\n  </p>\n<h3>Output Format:</h3>\n<p>\n  Single line containing an integer for the required answer.\n  </p>\n<h3>Notes:</h3>\n<p>\n  1. Key fits into a keyhole at index <b>i</b> if key is a substring of keyhole string<br />\n  at index <b>i</b>.<br />\n  2. If there are two overlapping keyholes where the key may fit, you cannot<br />\n  insert a key in both simultaneously\n  </p>\n<h3>Constraints:</h3>\n<p><b><br />\n  1 &le; key &le; 10^4<br />\n  1 &le; keyholes &le; 5*(10^5)<br /></b>\n\t</p>\n<h3>Sample Input:</h3>\n<pre>\nc\na\t</pre><h3>Sample Output:</h3>\n<pre>\n0</pre><h3>Sample Input:</h3>\n<pre>\naba\nabababa</pre><h3>Sample Output:</h3>\n<pre>\n4</pre><h3>Explanation:</h3>\n<p></p><p><b>Explanation for Test Case #1:<br /></b><br />\n  The key fits into keyholes at positions {1, 3, 5}<br />\n  If he requires only 1 key he may put them at {1} or {3} or {5} = 3 seconds.<br />\n  If he required 2 keys, he may put them at {1,5} = 1 second.<br />\n  Total = 1+3 = 4 seconds.<br />\n  He cannot use 3 keys without overlapping them.</p>\n<p> <b> Explanation for Test Case #2:<br /></b><br />\n  There is no slit where the key fits hence 0 seconds.</p>\n\n<p><br />\n<b>Problem Setter: Vidit Gupta</b></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-01-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeCraft: IIIT Hyderabad, Replay",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1391232600,
+        "end_date": 1391257800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1391257800,
+        "submit_start_date": 1391232600,
+        "current": 1537437880
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>darkshadows</span>",
+    "problem_name": "Durins Day",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/darkshadows'>darkshadows</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "darkshadows",
+    "contest_code": "CDCRFT14",
+    "max_timelimit": "2",
+    "problem_code": "DURIND"
+}

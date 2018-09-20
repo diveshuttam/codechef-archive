@@ -1,0 +1,137 @@
+{
+    "announcements": "<p><b>09/07/2014, 21:45 IST:</b> The test data for the problem\u00a0<a href=\"/JULY14/problems/DISHOWN/\" target=\"_blank\">DISHOWN</a> has been updated and all the AC's have been rejudged. Regret the inconvenience.</p>\r\n<p><b>06/07/2014, 11:55 IST:</b> The test data for the problem\u00a0<a href=\"/JULY14/problems/SEAEQ/\" target=\"_blank\">SEAEQ</a> has been updated and all the submissions have been rejudged. Regret the inconvenience.</p>\r\n<p><b>06/07/2014, 00:10 IST: </b> The last two problems\u00a0<a href=\"/JULY14/problems/SEAEQ\" target=\"_blank\">SEAEQ</a> and <a href=\"/JULY14/problems/LEPAINT\" target=\"_blank\">LEPAINT</a> have been added to the contest page. We regret for the delay in adding them.</p>\r\n<p><b>05/07/2014, 23:45 IST:</b> The test data for the problem <a target=\"_blank\" href=\"/JULY14/problems/LUCKG/\">LUCKG</a> has been updated and all the ACs have been rejudged.</p>\r\n<p><b>04/07/2014, 16:00 IST: </b>The eighth problem\u00a0<a target=\"_blank\" href=\"/JULY14/problems/GERALD09\">GERALD09</a> has been added to the contest page.</p>\r\n<p><b>04/07/2014, 16:00 IST: </b>The seventh problem <a target=\"_blank\" href=\"/JULY14/problems/FROGV\">FROGV</a> has been added to the contest page.</p>\r\n<p><b>04/07/2014, 15:00 IST: </b>Four problems are still being cooked in the kitchen. We will be adding them soon. Till then we request you to enjoy the remaining 6 delicacies.</p>",
+    "ip": "149.129.135.113",
+    "code": "JULY14",
+    "duration": "14400",
+    "name": "July Challenge 2014",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div> <div> <div><b>The July Challenge 2014 has ended!</b></div> <div><b>The editorials for the contest can be found <a href=\"http://discuss.codechef.com/tags/july14/\">here</a>.</b></div> <div><b>The problems have been moved to practice section.</b></div> <div><b>Solutions are public for all problems.</b></div> <div><b>Winners Blog Post can be found <a href=\"http://blog.codechef.com/2014/09/04/three-perfect-scores-in-one-contest/\">here</a>.</b></div> <div><b>All the submissions to the challenge problem have been put to rejudge.</b></div> </div> <div></div> <div><b>Rules and Regulations:</b></div> <div> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\">feedback@codechef.com </a>.</li> <li> Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.. Contest problems will become visible on Friday, 4th July 2014 at 15:00 hours IST. Check your timezone <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+July+Challenge+2014&amp;iso=20140704T15&amp;p1=44\">here</a>.</li> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li> Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution</li> <li>You shall not possess more than one account on CodeChef. If you have, then do let us know, so that we can deactivate the insignificant one. If you do not report it and we come to know about it, we may deactivate both the accounts permanently.</li> <li>The score that you will see during the contest will only be partial (obtained on 20% of the test data).</li> <li>The submissions will be re-judged at the end of the contest to get full score (obtained on the whole test data).</li> <li>The number of submissions that one can make during the contest on the problem will be limited to 500.</li> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a></li> <p><b>Note: As a contestant, you are responsible for making sure others don't access the code that you submit. If you're on a network or shared computer, or using an online development environment, make sure that other contestants don't have access to your code. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</b></p> </ul> </div> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/JULY14/1424957877.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "FROGV": {
+            "allow_submission": false,
+            "name": "Chef and Frogs",
+            "category_name": "main",
+            "accuracy": 15.8,
+            "successful_submissions": "2725",
+            "code": "FROGV",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LUCKG": {
+            "allow_submission": false,
+            "name": "Lucky Game",
+            "category_name": "main",
+            "accuracy": 8.71,
+            "successful_submissions": "266",
+            "code": "LUCKG",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DISHOWN": {
+            "allow_submission": false,
+            "name": "Dish Owner",
+            "category_name": "main",
+            "accuracy": 13.45,
+            "successful_submissions": "1702",
+            "code": "DISHOWN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SGARDEN": {
+            "allow_submission": false,
+            "name": "Garden Game",
+            "category_name": "main",
+            "accuracy": 10.74,
+            "successful_submissions": "1890",
+            "code": "SGARDEN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GNUM": {
+            "allow_submission": false,
+            "name": "Game of Numbers",
+            "category_name": "main",
+            "accuracy": 7.63,
+            "successful_submissions": "147",
+            "code": "GNUM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CSUB": {
+            "allow_submission": false,
+            "name": "Count Substrings",
+            "category_name": "main",
+            "accuracy": 25.51,
+            "successful_submissions": "4857",
+            "code": "CSUB",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LEPAINT": {
+            "allow_submission": false,
+            "name": "Little Elephant and Painting",
+            "category_name": "main",
+            "accuracy": 38.97,
+            "successful_submissions": "715",
+            "code": "LEPAINT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "RETPO": {
+            "allow_submission": false,
+            "name": "Reach The Point",
+            "category_name": "main",
+            "accuracy": 34.33,
+            "successful_submissions": "3858",
+            "code": "RETPO",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GERALD09": {
+            "allow_submission": false,
+            "name": "Chef and Rectangle Genome",
+            "category_name": "main",
+            "accuracy": 82.41,
+            "successful_submissions": "1503",
+            "code": "GERALD09",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "SEAEQ": {
+            "allow_submission": false,
+            "name": "Sereja and Equality",
+            "category_name": "main",
+            "accuracy": 19.64,
+            "successful_submissions": "141",
+            "code": "SEAEQ",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1405330200,
+        "current": 1537437501,
+        "freezing": 0,
+        "start": 1404466200
+    },
+    "user": {
+        "username": ""
+    }
+}

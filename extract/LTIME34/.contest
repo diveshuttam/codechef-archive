@@ -1,0 +1,138 @@
+{
+    "announcements": "<ul>\r\n<li><b>The March LunchTime 2016 has ended!</b></li>\r\n<b>\r\n<li>The editorials for the contest can be found\u00a0<a href=\"http://discuss.codechef.com/tags/ltime34/\">here</a>.</li>\r\n<li>The problems have been moved to practice section.</li>\r\n<li>Solutions are public for all the problems.</li>\r\n<li>The winners blog post will be updated soon.</li>\r\n</b> \r\n</ul>\r\n<p><b>20:15 IST:</b> In problem ABABAABA, there can be more than one possible subsequences which occur exactly twice, in that case, you can print any one of them.</p>",
+    "ip": "149.129.135.113",
+    "code": "LTIME34",
+    "duration": "180",
+    "name": "March Lunchtime 2016",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "PAIRCLST": [
+            {
+                "score": "20",
+                "count": "72"
+            },
+            {
+                "score": "25",
+                "count": "1"
+            },
+            {
+                "score": "45",
+                "count": "79"
+            },
+            {
+                "score": "100",
+                "count": "36"
+            }
+        ],
+        "ARRAYSUM": [
+            {
+                "score": "33",
+                "count": "52"
+            },
+            {
+                "score": "66",
+                "count": "59"
+            },
+            {
+                "score": "100",
+                "count": "34"
+            }
+        ],
+        "SIMPSTAT": [
+            {
+                "score": "50",
+                "count": "35"
+            },
+            {
+                "score": "100",
+                "count": "879"
+            }
+        ],
+        "ABABAABA": [
+            {
+                "score": "10",
+                "count": "268"
+            },
+            {
+                "score": "36",
+                "count": "108"
+            },
+            {
+                "score": "74",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "73"
+            }
+        ]
+    },
+    "rules": " <p><b class=\"rules-heading\">About CodeChef March Lunchtime:</b></p> <div class=\"rules-body\"> <p>CodeChef Lunchtime is a three hours coding contest where you can show off your computer programming skills.</p> </div> <p><br /> <b class=\"rules-heading\">Contest Details:</b></p> <div class=\"rules-body\"> <li> <p><b>Duration: </b>3 hours</p> </li> <li> <p><b>Start Date: </b> Saturday, 26th March, 2016 at 19:30 HRS (IST)</p> </li> <li> <p><b>End Date: </b> Saturday, 26th March, 2016 at 22:30 HRS (IST)</p> </li> <li> <p>Check your timezone <a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+March+Lunchtime+2016&amp;iso=20160326T1930&amp;p1=44&amp;ah=3\">here</a>.</p> </li> </div> <p><br /> <b class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</b></p> <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"https://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a>.</p> </div> <p><br /> <b class=\"rules-heading\">What is it for you?</b></p> <div class=\"rules-body\"> <p>The idea behind these programming contests is that we want you to learn while competing. The dividing line may seem to be thin but it can be captured by the spirit of learning. If whatever you are doing is making you learn while you do so, we tend to believe that it is alright.</p> <p>Not just that, as a token of motivation we also give away cash prizes and goodies to the winners of the contest. However, our sole intention lies in making our users learn new concepts while competing.</p> <p><b class=\"rules-heading\">For Indians:</b></p> <ul class=\"\"> <li>Top 10 school students from ranklist will get CodeChef laddus</li> </ul> <b class=\"rules-heading\">For Rest of World:</b> <ul class=\"\"> <li>Top 10 school students from ranklist will get CodeChef laddus</li> </ul> <div class=\"rules-body\"> <p>With CodeChef laddus, the winners can claim cool CodeChef goodies. Know more here: <a href=\"/laddu\" target=\"_blank\">https://www.codechef.com/laddu</a>. In addition to it an appreciation certificate will also be provided to the winners.</p> </div> <p><b class=\"rules-heading\">Rules and Regulations:</b></p> </div> <ul class=\"\"> <div>This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test data.</div> <li>The details of the failed test cases will also be visible on your solution page.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The contest is meant for students of high school and middle school though everyone is invited to participate.</li> <li>There will be separate ranking page for school students. The school students will be identified by the institution that they have entered in their profile.</li> <li><b>We have removed all the Institutions that we could not identify from our database. We request you to update your institutions once again by going to your profile page.</b></li> <li>You can also send in your queries in an email to\u00a0<a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a>, during the contest.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> </ul> <p><b>Note: You can now \u201cCode, Compile, and Run\u201d your codes on our newly launched IDE\u00a0<a href=\"/ide\">here</a>.\u00a0<br /><br />However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit.</b><b>If you use\u00a0<a target=\"_blank\" href=\"http://ideone.com/\">Ideone</a>, make sure to mark your submission \"private\" (not secret)\".</b></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/LTIME34/1458730761.png",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "PAIRCLST": {
+            "allow_submission": false,
+            "name": "Two Closest",
+            "category_name": "main",
+            "accuracy": 6.07,
+            "successful_submissions": "36",
+            "code": "PAIRCLST",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "ARRAYSUM": {
+            "allow_submission": false,
+            "name": "Arrays Sum",
+            "category_name": "main",
+            "accuracy": 7.25,
+            "successful_submissions": "34",
+            "code": "ARRAYSUM",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "SIMPSTAT": {
+            "allow_submission": false,
+            "name": "Simple Statistics",
+            "category_name": "main",
+            "accuracy": 43.15,
+            "successful_submissions": "879",
+            "code": "SIMPSTAT",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "ABABAABA": {
+            "allow_submission": false,
+            "name": "ABABAABA",
+            "category_name": "main",
+            "accuracy": 5.16,
+            "successful_submissions": "73",
+            "code": "ABABAABA",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1459011600,
+        "current": 1537435033,
+        "freezing": 0,
+        "start": 1459000800
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>The aliens of Pandora have multiple avatars(incarnations). They can change from one avatar to another. But in doing so they suffer from varied amount of memory loss. Detailed study by alien scientists revealed that this memory loss is related to the extent of genetic variations between the avatars. Each of the avatar have a characteristic genetic makeup which comprises of 26 nucleotides denoted by a,b,c,...x,y,z(thus proving their superiority to humans which have just lesser number of nucleotides). The memory loss is inversely related to the length of the maximum continuous common portion of their genetic sequence before and after their transformation into the new avatar. Considering this task as a trivial one the alien scientists have decided to assign this work of finding the maximum continuous common portion of the genetic sequences to junior aliens. Help the junior aliens in solving the problem and thus befriend them.\n\n<h3>Input</h3>\n<p>The first line of the input contains a space separated two integers N and M denoting the lengths of the two genetic sequences.\nEach of the next two lines contain the genetic sequence of an avatar.\n\n\n<h3>Output</h3>\n<p>A number denoting the maximum continuous common portion of the genetic sequence of the two avatars so as to minimize the memory loss.\n\n<h3>Test Data:</h3>\n<p>The maximum size of the genetic sequence is 75.\n\n<pre>\n<b>Input:</b>\n15 20\nqasfdthegdtghas\nhsydgetdgsfarsfthegt\n\n<b>Output:</b>\n4\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "BITS Pilani, Apogee 2011 - CODER",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1299335400,
+        "end_date": 1299353400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180222,
+        "submit_start_date": 1299335400,
+        "current": 1537439289
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rahulsingal14</span>",
+    "problem_name": "Avatar",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rahulsingal14'>rahulsingal14</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rahulsingal14",
+    "contest_code": "CODER11",
+    "max_timelimit": "0.1",
+    "problem_code": "AVATAR"
+}

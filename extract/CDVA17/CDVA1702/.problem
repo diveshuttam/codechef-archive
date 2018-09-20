@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Chef's father gave him a integer  <b>N</b> and asked him to count all such pair of <b>x</b> and <b>y</b> such that <b>x<sup>y</sup></b> is equal to <b>N</b> i.e., <b>x</b> raised to the power <b>y</b> is equal to <b>N</b>.\nChef also wants to calculate summation of <b>(x+y)</b> for all the pairs satisfying the above condition. Help Chef in solving this problem.  </p>\n<b>Note:</b> <b>x</b> and <b>y</b> are integers. \n\n<p>\u00a0</p>\n<h3>Input</h3>\nThe first line of input contains an integer <b>T</b>  denoting the\nnumber of test cases.<br>\n Each line of the test case contains an integer <b>N</b>.\n <p> </p>\n\n<h3>Output</h3>\nOutput of each test case will contain two lines. First line will contain the count of such pair which chef wants and next line will contain the summation of <b>(x+y)</b> for all such pairs.\n\n<p> </p>\n\n<h3>Constraints and Subtasks</h3>\n\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>2</b> \u2264 <b>N</b> \u2264 <b>10<sup>18</sup></b></li>\n<p>\u00a0</p>\n\n<b>Subtask</b> <b>1:</b> <b>5</b> <b>points</b>\n<li><b>2</b> \u2264 <b>N</b> \u2264 <b>100</b></li>  \n<b>Subtask</b> <b>2:</b> <b>10</b> <b>points</b>\n<li><b>2</b> \u2264 <b>N</b> \u2264 <b>1000</b></li>  \n<b>Subtask</b> <b>3:</b> <b>10</b> <b>points</b>\n<li><b>2</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>  \n<b>Subtask</b> <b>4:</b> <b>10</b> <b>points</b>\n<li><b>2</b> \u2264 <b>N</b> \u2264 <b>10<sup>8</sup></b></li>  \n<b>Subtask</b> <b>5:</b> <b>65</b> <b>points</b>\n<li> original constraints</li>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n5\n8\n\n<b>Output:</b>\n1\n6\n2\n14\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<pre>\n<b>Case #1:</b> 5 can only be written as <b>5<sup>1</sup></b> and no other pair exist. So the count of pair will be <b>1</b> and summation will be <b>6</b>.\n<b>Case #2:</b> 8 has two such pair <b>8<sup>1</sup></b> and <b>2<sup>3</sup></b> . </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-01-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Codevaitam 3.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1485959400,
+        "end_date": 1486305000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1486305000,
+        "submit_start_date": 1485959400,
+        "current": 1537434166
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>decoder_pheku</span>",
+    "problem_name": "Chef and pair",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/decoder_pheku'>decoder_pheku</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "decoder_pheku",
+    "contest_code": "CDVA17",
+    "max_timelimit": "1",
+    "problem_code": "CDVA1702"
+}

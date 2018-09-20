@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nA rectangular garden is divided into square shaped cells where each cell consists of a plant. Some plants depending upon their nature need more water than others and some may not require water at all. Invisible water taps keep teleporting around the garden. Each water tap gives water to a plant for a constant time and then teleports to another( or reappears in the same cell ) to give water to another plant( or the same plant ). To simplify the structure, each water tap moves with respect to a base cell, Row offset set and a Column offset set and keeps repeating through the set. For example:\n</p>\n<p>\nConsider a 6 X 6 size rectangle:\n</p>\n<p>\nTherefore,\n</p>\n<p>\nTotal Rows = 6<br />\nTotal Columns = 6<br />\nTotal cells = Total plants = 36<br />\n</p>\n<p>\nNow consider a tap with following properties\n</p>\n<p>\n1. Base cell:         0<br />\n2. Row Offset Set:\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 0 1 2 0 0<br />\n3. Column Offset Set: 1 0 0 1 2<br />\n</p>\n<p>\n\nThe cell numbers for the garden in this case will be:\n</p>\n<p>\n\u00a0 0\u00a0\u00a0\u00a0  \u00a0 1\u00a0\u00a0\u00a0   2\u00a0\u00a0\u00a0 \u00a0  3\u00a0\u00a0\u00a0  4\u00a0\u00a0\u00a0\u00a0  5<br />\n\u00a0 6\u00a0\u00a0\u00a0  \u00a0 7\u00a0\u00a0\u00a0   8\u00a0\u00a0\u00a0  \u00a0 9\u00a0\u00a0  10\u00a0\u00a0 11<br />\n12\u00a0\u00a0 13\u00a0\u00a0 14\u00a0\u00a0 15\u00a0\u00a0 16\u00a0\u00a0 17<br />\n18\u00a0\u00a0 19\u00a0\u00a0 20\u00a0\u00a0 21\u00a0\u00a0 22\u00a0\u00a0 23<br />\n24\u00a0\u00a0 25\u00a0\u00a0 26\u00a0\u00a0 27\u00a0\u00a0 28\u00a0\u00a0 29<br />\n30\u00a0\u00a0 31\u00a0\u00a0 32\u00a0\u00a0 33\u00a0\u00a0 34\u00a0\u00a0 35<br />\n</p>\n<p>\nThis means the tap starts with giving water to cell '1'( Row offset 0, column offset 1 with respect to cell '0' i.e. the base cell ) and then moves to cells 6 -&gt; 12 -&gt; 1 -&gt; 2. The new cell position is with respect to the base cell, the current row and column offset and has got nothing to do with the previous cell positions where water tap was teleported. Also note that the tap would continuously move in the following order 1-&gt;6-&gt;12-&gt;1-&gt;2-&gt;1-&gt;6-&gt;12... and so on.\n</p>\n<p>\nAll the water taps are synchronised i.e. all of them change the cells at the same time, give water for the same amount of time and so on. Consequently, there may be such plants, which at some time instant get water from every tap in the garden. These plants are called Aqualoo plants.\n</p>\n<p>\nNow given the taps and their respective base cell, row offset set and column offset set, you have to give out the total Aqualoo plants in the garden.\n</p>\n<p>\n<b>\nNotes\n</b><br />\n- Remember that for the plant to be Aqualoo, every tap in the garden should water this plant at same time instant.<br />\n- Every tap may or may not have a different base cell, row offset and column offset.\n</p>\n\n<h3>Input</h3>\n<p>\n1. Number of test cases = 'T' ( 1 &lt;= T &lt;= 300 )<br />\n2. For each test case, first line of input contains number of rows = 'R', followed by number of columns = 'C' and total number of water taps = 'N' ( 1 &lt;= R &lt;= 50, 1 &lt;= C &lt;= 50, 1 &lt;= N &lt;= 6 ).<br />\n3. For each tap, first line of input contains base cell number = 'B', followed by length of the row offset set and column offset set = 'L' ( 0 &lt;= B &lt; R * C, 1 &lt;= L &lt;= 25 ).<br />\n4. Next line contains row offset set, where each value lies in range ( -R, +R )( not inclusive ).<br />\n5. Next line contains column offset set, where each value lies in range ( -C, +C )( not inclusive ).<br />\n</p>\n\n<h3>Output</h3>\n<p>\n1. Each line of output contains total Aqualoo plants\n</p>\n\n<h3>Example</h3>\n\n<pre><b>Input:</b>\n2\n\n6 6 2\n7 1\n2\n3\n35 1\n-2\n-1\n\n6 6 2\n13 4\n0 1 1 0\n0 1 2 3\n4 3\n0 1 2\n0 0 0\n<b>\nOutput:</b>\n1\n1\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Icoder 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1269162000,
+        "end_date": 1269181800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1269181800,
+        "submit_start_date": 1269162000,
+        "current": 1537439649
+    },
+    "problem_author_html_handle": "csirubix",
+    "problem_name": "Aqualoo Plants",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/csirubix'>csirubix</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "csirubix",
+    "contest_code": "ICODER10",
+    "max_timelimit": "0.240492",
+    "problem_code": "ICODER3"
+}

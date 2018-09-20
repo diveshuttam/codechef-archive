@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>HBTU is organizing a coding contest for ZEST. One of the coordinators A is busy in framing questions , he couldn't meet his girl friend as he promised to. Now after doing his work he gets free and finds his girlfriend B upset and asks her to meet. <br>\nNow You are given a tree and nodes representing houses of people living there and every house has been assigned with the cost of that house. Cost of each house is unique.\n<br><br>\nA's and B's residence is at houses having smallest and second smallest house cost respectively . Since he forgot to design test cases his colleagues asked him to come back asap. Thus A immediately goes to B's house via shortest path. But unfortunately his girlfriend's brother  C watched them there  . \n<br><br>\nNow as C came to know that A is a programmer ,so firstly C asks to create an array containing nodes which occurred between the path from A's house to B's house in same order as they appeared in the path .  \nThen he asks A to play a game with B in which players take alternative turns to pick numbers,either the leftmost element or the rightmost element from the array he created .C checks A's intelligence according to the score(sum of numbers chosen) he manages to get. \nSince A always wants to score(sum of numbers chosen) maximum so he always plays optimally and starts the game . \n<br><br>\nAs B loves A very much , she wants A to score maximum so she plays according to it. Finally C himself plays the same game with A and he plays optimally.\n\nYour task is to find the sum of maximum scores A can get in both games he played</p>\n\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first line of each test case contains only one integer <b>N</b>  denoting the number of houses .The second line contains N space-separated integers <b>A<sub>1</sub></b>,<b> A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b> denoting the cost of houses </li>\n<li>Next N-1 lines contains two numbers <b>u</b> and <b>v</b> indicating there is a bidirectional road between u and v. </li>\n</ul>\n\n<h3>Output</h3>\nPrint sum of maximum scores obtained by coordinator A.\n\n<p></p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>15</b></li>\n<li><b>2</b> \u2264 <b>N</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>A<sub>i</sub></b> \u2264 <b>1000000</b></li>\n<li><b>1</b> \u2264 <b>u, v</b> \u2264 <b>N</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n5 \n15 18 20 13 14\n1 2\n1 5\n2 4\n2 3\n6 \n18 14 20 16 10 12\n1 2\n1 4\n2 3\n4 5\n4 6\n\n<b>Output:</b>\n16\n21\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n\n<p><b>Example case 1.</b> </p>\n<p>\n<img src=\"http://www.ledmart.in/codechef_problem_setting/forgot_test_cases1.png\">\n<br>\nIn this case boy and girl are at node 4 and 5 respectively So array will be [ 4,2,1,5] and after playing with B his score is 9 then he plays with C in which he scores 7 Hence <b> 9+7=16</b>\n</p>\n\n<p><b>Example case 2.</b> \n<img src=\"http://www.ledmart.in/codechef_problem_setting/forgot_test_cases2.png\">\n<br>\nIn this case boy and girl are at node 5 and 6 respectively So array will be [ 5,4,6] and after playing with B his score is 11 then he plays with C in which he scores 10 Hence <b> 11+10=21</b></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-02-2017",
+    "is_direct_submittable": false,
+    "contest_name": "National Computing League",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1488382200,
+        "end_date": 1488393000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1488393000,
+        "submit_start_date": 1488382200,
+        "current": 1537434067
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>studyonline</span>",
+    "problem_name": "Forgot test cases",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/studyonline'>studyonline</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "studyonline",
+    "contest_code": "NCL2017",
+    "max_timelimit": "1",
+    "problem_code": "NCL21704"
+}

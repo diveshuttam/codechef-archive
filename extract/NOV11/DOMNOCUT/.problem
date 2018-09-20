@@ -1,0 +1,33 @@
+{
+    "problem_code": "DOMNOCUT",
+    "problem_author": "anton_lunyov",
+    "contest_name": "November Long Contest 2011",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>anton_lunyov</span>",
+    "problem_name": "Colored Domino Tilings and Cuts",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>chmel_tolstiy</span>",
+    "contest_code": "NOV11",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anton_lunyov'>anton_lunyov</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>, <a class='problem-tag-small ' href='/tags/problems/nov11'>nov11</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nConsider rectangular grid that composed of <b>N</b> rows and <b>M</b> columns. <b>Colored domino tiling</b> of the grid is some way to put lowercase English letter in each cell of the grid provided that each cell has exactly one neighbor with the same letter as in this cell. Two cells of the grid are neighbors if they share a common side. Each letter represents some color. <b>Cut</b> of colored domino tiling is vertical or horizontal line that divides the grid in two colored domino tilings. In other words this line should not pass between two adjacent cells with the same color.\n<br /><br />\nFor given <b>N</b> and <b>M</b> you should find the colored domino tiling that has the minimal possible number of cuts. If there are several solutions you should find among them the tiling that uses the minimal possible number of colors in it. If your tiling requires <b>K</b> colors then use first <b>K</b> lowercase letters of English alphabet as colors. If there are still several solutions then find any such tiling.\n</p>\n\n<h3>Input</h3>\n\n<p>\nThe first line contains a positive integer <b>T</b>, the number of test cases. In the following lines, <b>T</b> test cases follow. Every test case is a single line that contains two space separated positive integers, <b>N</b> and <b>M</b>, the sizes of the grid.\n</p>\n\n<h3>Output</h3>\n<p>\nFor each test case output in the first line the word <b>\"IMPOSSIBLE\"</b> without quotes if there are no tilings of the grid with <b>N</b> rows and <b>M</b> columns. Otherwise output in the first line two space separated integers, the minimal number of cuts and minimal number of colors in required tiling and then in the next <b>N</b> lines output the tiling itself. Each of these <b>N</b> lines must be composed of exactly <b>M</b> lowercase English letters.\n</p>\n\n<h3>Constraints</h3>\n<p>\n1 &lt;= T &lt;= 3000\n<br />\n1 &lt;= N, M &lt;= 500\n<br />\nsum of N*M in the file &lt;= 2,000,000\n</p>\n\n<h3>Sample input</h3>\n\n<pre>5\n1 1\n2 2\n2 3\n4 3\n5 5\n\n</pre>\n\n<h3>Sample output</h3>\n\n<pre>IMPOSSIBLE\n1 2\nab\nab\n1 3\naab\nccb\n1 3\naab\nccb\nbaa\nbcc\nIMPOSSIBLE\n</pre>",
+    "category_name": "main",
+    "date_added": "23-07-2011",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.603593",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/DOMNOCUT",
+    "problem_tester": "chmel_tolstiy",
+    "time": {
+        "view_start_date": 1320141442,
+        "end_date": 1321003800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1321003800,
+        "submit_start_date": 1320141442,
+        "current": 1537439093
+    },
+    "user": {
+        "username": ""
+    }
+}

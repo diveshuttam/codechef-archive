@@ -1,0 +1,137 @@
+{
+    "announcements": "<p><b>01/07/2012, 18:30 IST : </b>The test data for <a target=\"_blank\" href=\"/JULY12/problems/RRATING\">RRATING</a> has been changed. Please resubmit your solutions.</p>\r\n<p><b>09/07/2012, 11:50 IST : T</b>he test data for\u00c2\u00a0<a target=\"_blank\" href=\"/JULY12/problems/GRAYSC\">GRAYSC</a> has been changed and all the submissions have been rejudged. Regret the inconvinience caused.</p>",
+    "ip": "149.129.135.113",
+    "code": "JULY12",
+    "duration": "14400",
+    "name": "July Challenge 2012",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p>\u00a0</p> <p class=\"MsoNoSpacing\"><b>The July Contest has ended!</b></p> <p class=\"MsoNoSpacing\"><b>Editorials on each problem can be found <a href=\"/wiki/july-2012-contest-problem-editorials\">here</a>.<br /></b></p> <p class=\"MsoNoSpacing\"><b>All problems have beed added to the practice section.</b></p> <p class=\"MsoNoSpacing\"><b> </b><b>Solutions are public for all problems.</b></p> <p class=\"MsoNoSpacing\"><b>Winners Blog Post can be found <a href=\"http://blog.codechef.com/2012/07/19/egork-bests-himself-in-july-challenge/\">here</a>.</b></p> <p class=\"MsoNoSpacing\"><b>The New Contest Rating can be viewed\u00a0<a href=\"/long/ranklist/AX/\" target=\"_blank\">here</a>.</b></p> <p>\u00a0</p> <p class=\"MsoNoSpacing\"><b>Rules:</b><b> </b></p> <p class=\"MsoNoSpacing\"><span><br />Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a><br /><br /></span></p> <p class=\"MsoNoSpacing\"><span>Contest problems will become visible on July 1st 2012 at 15:00 hours IST. Check your timezone\u00a0<a target=\"_blank\" href=\"http://timeanddate.com/worldclock/fixedtime.html?msg=July+Challenge+2012&amp;iso=20120701T15&amp;p1=44\">here</a>.</span><br /><br /></p> <p class=\"MsoNoSpacing\"><span>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.<br /><br /></span></p> <p class=\"MsoNoSpacing\"><span>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.<br /><br /></span></p> <p class=\"MsoNormal\"><span>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</span></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/JULY12/1424957673.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "DREAM": {
+            "allow_submission": false,
+            "name": "Chef&#39;s Dream",
+            "category_name": "main",
+            "accuracy": 25,
+            "successful_submissions": "588",
+            "code": "DREAM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SAD": {
+            "allow_submission": false,
+            "name": "Gift Rift",
+            "category_name": "main",
+            "accuracy": 35.07,
+            "successful_submissions": "1409",
+            "code": "SAD",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DGCD": {
+            "allow_submission": false,
+            "name": "Dynamic GCD",
+            "category_name": "main",
+            "accuracy": 8.7,
+            "successful_submissions": "37",
+            "code": "DGCD",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GRAYSC": {
+            "allow_submission": false,
+            "name": "The Gray-Similar Code",
+            "category_name": "main",
+            "accuracy": 14.46,
+            "successful_submissions": "376",
+            "code": "GRAYSC",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "RRATING": {
+            "allow_submission": false,
+            "name": "Restaurant Rating",
+            "category_name": "main",
+            "accuracy": 12.97,
+            "successful_submissions": "452",
+            "code": "RRATING",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FAVNUM": {
+            "allow_submission": false,
+            "name": "Favourite Numbers",
+            "category_name": "main",
+            "accuracy": 16.45,
+            "successful_submissions": "75",
+            "code": "FAVNUM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ADDCHAIN": {
+            "allow_submission": false,
+            "name": "Addition chains",
+            "category_name": "main",
+            "accuracy": 47.42,
+            "successful_submissions": "94",
+            "code": "ADDCHAIN",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "LEBOBBLE": {
+            "allow_submission": false,
+            "name": "Little Elephant and Bubble Sort",
+            "category_name": "main",
+            "accuracy": 21.96,
+            "successful_submissions": "233",
+            "code": "LEBOBBLE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "EST": {
+            "allow_submission": false,
+            "name": "Equivalent Suffix Tries",
+            "category_name": "main",
+            "accuracy": 3.28,
+            "successful_submissions": "8",
+            "code": "EST",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CSUMD": {
+            "allow_submission": false,
+            "name": "My Fair Coins",
+            "category_name": "main",
+            "accuracy": 21.97,
+            "successful_submissions": "615",
+            "code": "CSUMD",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1341999000,
+        "current": 1537438765,
+        "freezing": 0,
+        "start": 1341135000
+    },
+    "user": {
+        "username": ""
+    }
+}

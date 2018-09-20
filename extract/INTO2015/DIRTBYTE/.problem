@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>In the kingdom of Byte-land, each street has got <b>N </b>(N can be as large as a billion) houses, numbered from <i>1 to <b>N</b>.</i> Each street has a unique ID...a sequence of<b> K </b>(0&lt;K&lt;21) positive integers. </p>\n\n<p>Our beloved Chef has got exactly <b>K </b>children and they have come up with a naughty prank. Each day, they would target a particular street of Byte-land and would make life miserable for its inhabitants.</p>\n\n<p>As we all know, team work can take pranks to new heights. The i<sup>th </sup>kid would dirty the walls of the houses numbered <b>X<sub>i\u00ad</sub></b>, <b>2*X<sub>i\u00ad</sub></b>, <b>3*X<sub>i\u00ad</sub> </b>and so on...where <b>X<sub>i\u00ad </sub></b>is the i<sup>th</sup> integer in the street\u2019s ID. </p>\n\n<p>But, before they begin their prank, the oldest son would like to pre-compute the percentage of houses in that particular street, whose walls would remain clean even after they are over with their prank. Write a program to compute it efficiently.</p>\n\n<p><b>Input</b></p>\n\n<p>The first line of each test file consists of 2 space separated integers...<b>N </b>&<b> K</b>.</p>\n\n<p>The next line contains K space separated integers, which form the ID of the targeted street.</p>\n\n<p><b>Output</b></p>\n\n<p>Your output consists of a single integer...the % of houses whose walls would remain clean, with a relative error of no more than 10^-2.</p>\n\n<p><b>Constraints</b></p>\n\n<p>\uf0b7 N&lt;=10<sup>9</sup></p>\n\n<p>\uf0b7 K&lt;21</p>\n\n<p>\uf0b7 X<sub>i </sub>&lt;...well, it has to be a number between 1 and N.</p>\n\n<p><b>Sample Input</b></p>\n\n<p>10 3</p>\n\n<p>3 2 5</p>\n\n<p><b>Sample Output</b></p>\n\n<p>20</p>\n\n<p><b>Explanation</b></p>\n\n<p>The street has got 20 houses. And Chef has got 3 kids.</p>\n\n<p>The 1<sup>st </sup>kid will dirty the walls of houses numbered: 3, 6 and 9. (X<sub>1</sub>=3)</p>\n\n<p>The 2<sup>nd </sup>kid will dirty the walls of houses numbered: 2, 4, 6, 8 and 10. (X<sub>2</sub>=2) </p>\n\n<p>The 3<sup>rd </sup>kid will dirty the walls of houses numbered: 5 and 10. (X<sub>3</sub>=5)</p>\n\n<p>Hence, only the houses numbered 1 & 7 will remain unaffected...and hence 20%.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-06-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Intoxia",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, RUBY, PHP, HASK, SCALA, PERL, WSPC, BF, PRLG, PIKE, LISP sbcl, JS, PERL6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1438489800,
+        "end_date": 1438500600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1438500600,
+        "submit_start_date": 1438489800,
+        "current": 1537436156
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>arpanb8</span>",
+    "problem_name": "Lets make Byte-land Dirty",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/arpanb8'>arpanb8</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "arpanb8",
+    "contest_code": "INTO2015",
+    "max_timelimit": "1",
+    "problem_code": "DIRTBYTE"
+}

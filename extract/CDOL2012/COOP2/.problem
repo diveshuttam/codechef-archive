@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Prabhu and Raghu work in adjacent labs in the CSA department. Occasionally they get together to solve puzzles in order to de-stress themselves. During one such session Prabhu gave Raghu a set of random looking strings. Each of them consisted of a single string letter without any spaces. At first the strings appeared gibberish but on closer observation Raghu could see that there were proper words in these otherwise gibberish strings. Prabhu also gave a Raghu a dictionary which consisted of the \"sense scores\" for each word. Meaning each word in this dictionary was associated with a score eg: at=2, before=3, artificial=1 etc. There was no relation between the length of the strings and the score attached to them in the dictioanry. Raghu's job was simple(according to Prabhu), he had to find out appropriate splits in these otherwise random strings such that these strings make the most sense i.e have the highest \"sense score.\" The \"sense score\" of a string was the sum total of the sense scores of the split strings, such that the split consisted of only words which had sense scores attached to them in the dictionary. \nEg: \nRandom string: called  \nDictionary: at=2, al=1, cal=4, le=1, led=3\nHighest Sense score of string= cal+led=4+3=7\n\n\n<h3>Input</h3>\n<p>The first line of input contains 'D', the number of words in the dictionary (1<=D<=1000). This is followed by 'D' lines. Each line has a word and its sense score, separated by a space. This is followed by a blank line. The next line of input contains 'T', the number of test cases (1<=T<=1000). This is followed by T test cases. Each test case consists of one line containing the string (of length upto 100000) to be parsed.\n\n\n<h3>Output</h3>\n<p>The output should consist of 'T' lines corresponding to the 'T' test cases. Each line should contain one number, which is the best sense score for the input string.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\nant 4\nan 2\ntan 3\n\n4\nantant\ntan\nantsan\nnats\n\n<b>Output:</b>\nOutput:\n8\n3\n6\n0\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Code Olympics 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330749000,
+        "end_date": 1330759800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1330759800,
+        "submit_start_date": 1330749000,
+        "current": 1537438911
+    },
+    "problem_author_html_handle": "karthikn5",
+    "problem_name": "Sense and Sensibility",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/karthikn5'>karthikn5</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "karthikn5",
+    "contest_code": "CDOL2012",
+    "max_timelimit": "0.275862 - 0.9763",
+    "problem_code": "COOP2"
+}

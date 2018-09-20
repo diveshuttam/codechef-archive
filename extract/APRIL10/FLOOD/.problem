@@ -1,0 +1,33 @@
+{
+    "problem_code": "FLOOD",
+    "problem_author": "admin",
+    "contest_name": "April 2010 Contest",
+    "todo": false,
+    "problem_author_html_handle": "admin",
+    "problem_name": "Flood",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "friggstad",
+    "contest_code": "APRIL10",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>, <a class='problem-tag-small ' href='/tags/problems/april10'>april10</a>, <a class='problem-tag-small ' href='/tags/problems/challenge'>challenge</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Each year in the rainy season, the LCD province in Byteland is flooded with water. The province has the form of a rectangular land divded into unit cells \n\nof M lines and N columns. Some cells are flooded and some cells are not. Each flooded cell has a water depth level which is a positive integer. \n\n</p><p>Because of flood, the land is divided into several islands, each island consists of the cells that can move around one another but cannot move to cells in \n\ndifferent islands. The people can move between two non flooded cells if these cells have at least one common point.\n\n</p><p>To improve the transportation quality during the flooding season, the LCD's goverment decides to raise some flooded cells to become non flooded cells \n\nso that after the process, the people are able to travel between any two non flooded cells.\n\n</p><p>To make a flooded cell whose water depth level is D become non flooded, the workers need to put in D units of clay. \n\n</p><p>The government wants to achieve the goal using the fewest units of clay possible.\n\n<h3>Input</h3>\n\n</p><p>The first line contains t, the number of test cases (about 20), each test case has the following form. \n\n</p><p>The first line contains two number M and N (1 &lt;= M, N &lt;= 200).\n\n</p><p>Each line in the next M lines contain N numbers describing the status of each cell in the land. If a cell is not flooded, the corresponding number is -1 while \n\nif it is flooded the corresponding number is the cell's water depth level.\n</p><p>Each test case's input is separated by a blank line.\n\n<h3>Output</h3>\n\n</p><p>For each test case, output the result in the following format.\n</p><p>The first line contains T, the number of units of clay used.\n</p><p>The second line contains a number S which is the number of flooded cells needed to raise.\n</p><p>Each line in the next S lines contains two numbers representing the row and column index (1-based) of a raised cell.\n</p><p>Print a blank line after each test case's output.\n\n<h3>Scoring</h3>\n</p><p>For each test case, your program's score is equal to T/H in which H is the number of units of clays to raise all the flooded cell.\n\n<h3>Example</h3>\n<pre>\n<b>Input</b>\n1\n\n3 3\n-1 10 -1\n10  2 10\n-1 10 -1\n\n<b>Output</b>\n2\n1\n2 2\n</pre>\n</p><p>This output will give score to be 2 / (10 + 10 + 2 + 10 + 10)  =  1/ 21</p>",
+    "category_name": "main",
+    "date_added": "19-03-2010",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "max_timelimit": "1.48",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/FLOOD",
+    "problem_tester": "friggstad",
+    "time": {
+        "view_start_date": 1270196949,
+        "end_date": 1271151000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1271151000,
+        "submit_start_date": 1270196949,
+        "current": 1537439601
+    },
+    "user": {
+        "username": ""
+    }
+}

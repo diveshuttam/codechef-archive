@@ -1,0 +1,33 @@
+{
+    "problem_code": "ATC2",
+    "problem_author": "chhekur",
+    "contest_name": "Coding Hours",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>chhekur</span>",
+    "problem_name": "Harry And N-th Number",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CODH2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/chhekur'>chhekur</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p><b>Harry</b> is an engineering student, he is a maths lover,  specially fond of series expansions.</p>\n<p>He has recently studied series like Fibonacci, AGP etc. So, his teacher gave him a task to calculate the <b>N<sup>th</sup></b> number of a special series derived by the teacher herself.</p>\n<p><b>Harry</b> is busy doing his college assignments, so he seeks for your help.<br>You need to help him in order to find the <b>N<sup>th</sup></b> number of that series. His teacher has not disclosed the whole series rather, he has given a function which can be used to generate the value of <b>F(N)</b> for given input <b>N</b>.</p>\n<p><b>N = ( F(N) - F(N-1) )<sup>2</sup></b></p>\n<p>where <b>F(1) = 1 </b></p>\n\n\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases is as follows.</li>\n<li>The first line of each test case contains a number <b>N</b>.</li>\n</ul>\n<p>\u00a0</p>\n\n\n<h3>Output</h3>\n<p>For each test case, Output the <b>N<sup>th</sup></b> value of the series.</p>\n<p>\u00a0</p>\n\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>7*10<sup>5</sup></b></li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Subtasks</h3>\n<p><b>Subtask #1 (30 points):</b></p>\n<ul><li><b>1</b> \u2264 <b>T</b> \u2264 <b>10<sup>3</sup></b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>3</sup></b></li></ul>\n<p><b>Subtask #2 (70 points):</b> original constraints</p>\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n5\n2\n9\n\n<b>Output:</b>\n7\n2\n16\n</pre>\n<p>\u00a0</p>",
+    "category_name": "main",
+    "date_added": "24-01-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/ATC2",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1517581800,
+        "end_date": 1517668200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1517668200,
+        "submit_start_date": 1517581800,
+        "current": 1537433080
+    },
+    "user": {
+        "username": ""
+    }
+}

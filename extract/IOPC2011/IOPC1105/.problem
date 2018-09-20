@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Dystopia consists of N cities. There are one-way roads connecting some pairs of cities. The dysfunctional state has recently seen a lot of protests to overthrow the tyrannical ruler and the government plans to use military patrol vehicles to make sure that the protests are suppressed. Every patrol vehicle is assigned a sequence of cities. If a patrol vehicle is assigned the cities c<sub>1</sub>,c<sub>2</sub>,...c<sub>k</sub> then it starts from the city c<sub>1</sub> and takes the direct one-way road to c<sub>2</sub>, from there it takes the one-way road to c<sub>3</sub> and so on. Finally the vehicle takes the one way road from c<sub>k</sub> to c<sub>1</sub>. This routine is repeated everyday to keep the protestors perpetually under fear.\n\n<p>Now note that:\n<ul><li> Every city has to appear in exactly one vehicle's patrol sequence exactly once\n<li> Every patrol vehicle has to move - so it has to be assigned more than one city\n</ul>\n<p>\n<p>The government does not have any limit on the number of patrol vehicles it can use. However, they want to make sure that the least possible amount of money is spent on the patrol mission and hence they want to minimise the total distance travelled by the patrol vehicles.\n\n<p>Given the road network of Dystopia, find the minimum total distance the patrol vehicles need to move so that all the cities can be patrolled. If it is impossible to organise a nationwide patrol with the given constraints, report the same.\n\n<h3>Input</h3>\n<p>First line of the contains T, the number of test cases (T<=10)\n<p>This is followed by the descriptions of the T testcases. The first line of the description contains two integers N and R, the number of cities and one way roads respectively (N<=200,R<=10000). The cities are numbered 1,2,3,...N\nThis is followed by R lines, each representing a one way road by 3 integers N<sub>1</sub>, N<sub>2</sub> and D : the start city, the end city and the length of the road respectively ( N<sub>1</sub>!=N<sub>2</sub>, 1<=D<=1000000). You are assured that there is no more than one one way road from any N<sub>1</sub> to N<sub>2</sub>\n\n<h3>Output</h3>\n<p>For each test case output one line. If the patrol can be done, output the minimum total distance that the patrol vehicles have to travel. Otherwise output Impossible\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n3 3\n1 2 1\n2 3 1\n1 3 1\n4 6\n1 2 2\n2 3 2\n3 4 2\n4 1 2\n1 4 1\n3 2 1\n\n<b>Output:</b>\nImpossible\n6\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "IIT Kanpur IOPC 2011",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1297492200,
+        "end_date": 1297578600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1297578600,
+        "submit_start_date": 1297492200,
+        "current": 1537439380
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>razimantv</span>",
+    "problem_name": "Military patrol",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/razimantv'>razimantv</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "razimantv",
+    "contest_code": "IOPC2011",
+    "max_timelimit": "0.2",
+    "problem_code": "IOPC1105"
+}

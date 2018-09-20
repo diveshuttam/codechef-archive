@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>GUI matters greatly to the user but another major concern is the security of the information. There are a lot of ways to implement security of data. Of these one method is the replacement cipher text generation method. In this each character is replaced by a particular other character and the text is modified. Write a program to display a text box on the screen and every input character given by the user should be displayed as \u2018*\u2019 mark. The program should meet the following constraint\nThe working of enter, backspace should be as usual.\nAfter pressing enter, the password is encrypted using replacement cipher text generating and saved in the file named \u201cpass.txt\u201d.\n*********\n\n<h3>Example</h3>\n\n<pre>\n<b>Input</b>\nabcdefghi\n\n<b>Output:</b>\nbcdefghij\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "CYW Round 3",
+    "languages_supported": "C, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1269927000,
+        "end_date": 1269930600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180185,
+        "submit_start_date": 1269927000,
+        "current": 1537439627
+    },
+    "problem_author_html_handle": "arnavch",
+    "problem_name": "Positional Encryption",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/arnavch'>arnavch</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "arnavch",
+    "contest_code": "CYWSL3",
+    "max_timelimit": "1",
+    "problem_code": "CYW04"
+}

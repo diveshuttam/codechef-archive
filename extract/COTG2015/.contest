@@ -1,0 +1,87 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "COTG2015",
+    "duration": "1500",
+    "name": "Code On the Go 2015",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div> <p><b class=\"rules-heading\">About Contest:</b></p> <div class=\"rules-body\"> <ul class=\"\"> <li><b>Organizer: </b>PSG College of Technology, Coimbatore.</li> <li><b>Prizes: </b>Information on <a href=\"http://psgthiran.in/codeonthego.php\">psgthiran.in</a></li> <li><b>Registrations for prizes: </b>NA</li> </ul> </div> <p><b class=\"rules-heading\">Contest Details:</b></p> <div class=\"rules-body\"> <ul class=\"\"> <li><b>Duration: </b>25 hours</li> <li><b>Start time: </b>9th March 2015, 21:00 hrs IST</li> <li><b>Ends time: </b>10th March 2015, 22:00 hrs IST<br />You may check your timezone\u00a0<a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+Code+On+the+Go+2015&amp;iso=20150309T21&amp;p1=44\">here</a>.</li> <li><b>Rankings: </b><font color=\"#0000ee\"><b><span><a href=\"/rankings/COTG2015\" target=\"_blank\"><span>http://www.codechef.com/rankings/COTG2015/</span></a></span></b></font></li> </ul> </div> </div> <div><b><br />Rules and Regulations:</b></div> <div> <ul> <li>Contest problems will become visible on 9th March, 2015 at 2100 HRS (IST) and end on 10th March 2015 at 2200 HRS (IST). Check your timezone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+Code+On+the+Go+2015&amp;iso=20150309T21&amp;p1=44\" target=\"_blank\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at feedback@codechef.com.</li> <li>Discussing problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>If you do not have a CodeChef ID create one\u00a0<a href=\"http://codechef.com/user/register\" target=\"_blank\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided.</li> <li>All participants are expected to abide by the\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a></li> <li>Please contact\u00a0<span><a href=\"mailto:jeffrycopps1993@gmail.com\" target=\"_blank\">jeffrycopps1993@gmail.com</a></span> for any queries during the contest.</li> </ul> </div> <div><b>Judging Criteria:</b> <ul> <li>All the problems have same points alloted to them.</li> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved.</li> </ul> <b>Note: You can now \u201cCode, Compile, and Run\u201d your codes on our newly launched IDE\u00a0<a href=\"/ide\">here</a>. </b></div> ",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COTG2015/1425374918.gif",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "PSG02": {
+            "allow_submission": false,
+            "name": "At the birthday party",
+            "category_name": "main",
+            "accuracy": 81.43,
+            "successful_submissions": "49",
+            "code": "PSG02",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PSG05": {
+            "allow_submission": false,
+            "name": "Hack the mobile",
+            "category_name": "main",
+            "accuracy": 17.39,
+            "successful_submissions": "4",
+            "code": "PSG05",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PSG03": {
+            "allow_submission": false,
+            "name": "Chandler at Joeys place",
+            "category_name": "main",
+            "accuracy": 32.17,
+            "successful_submissions": "184",
+            "code": "PSG03",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PSG01": {
+            "allow_submission": false,
+            "name": "Valentines day out",
+            "category_name": "main",
+            "accuracy": 34.78,
+            "successful_submissions": "15",
+            "code": "PSG01",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PSG04": {
+            "allow_submission": false,
+            "name": "Valid phone number",
+            "category_name": "main",
+            "accuracy": 1.53,
+            "successful_submissions": "3",
+            "code": "PSG04",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1426005000,
+        "current": 1537436613,
+        "freezing": 0,
+        "start": 1425915000
+    },
+    "user": {
+        "username": ""
+    }
+}

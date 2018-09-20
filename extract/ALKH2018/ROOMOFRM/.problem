@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><i><center>\"It is a room that a person can only enter when they have real need of it. Sometimes it is there, and sometimes it is not, but when it appears, it is always equipped for the seeker's needs.\"</center></i>\n<b><p align=\"right\">- Hermione</p></b>\n<p>\nDuring the tyrannous ruling of Dolores Umbridge, the Army of Dumbledore is formed. But they all need a secret place to practice their spells. Here comes the Room of Requirement to aid!!\nBut to their much surprise they have to solve a problem as well as perform a perfect spell combo of <b>Invoker</b>, who happens to be a legendary hero in <b>DOTA 2</b>(To know the secret for perfect spell combo of Invoker, contact the author *laughs*). As everyone is either a wizard or witch, they ask you to solve the problem which is stated below.</p>\n<p>\nYou are given an undirected graph of <b>N</b> vertices having <b>M</b> edges. Also you are given a list of <b>O</b> operations and <b>Q</b> queries.\n</p>\n<p>Initial connected component of any vertex is its connected component before applying <b>any</b> operation.</p>\n<p>\nIn every operation an existing edge is removed. Hence the graph changes after every operation.</p>\n<p>\nQueries are of two types:\n<ol>\n<p><li><b>u 1</b> - maximize integer <b>X</b> such that after applying exactly the first <b>X</b> operations in the given order, the connected component of vertex <b>u</b> contains atleast <b>one</b> loop.</p>\n<p>If before applying any operation, the connected component of vertex <b>u</b> has no loop, then answer <b>-1</b>.</p>\n</li>\n<p><li><b>u 2 z</b> - minimize integer <b>Y</b> such that after applying exactly the first <b>Y</b> operations in the given order, the <b>initial connected component</b> of vertex <b>u</b> is divided to atleast <b>z disjoint connected components</b>.</p>\n<p>If even after applying all operations, there aren't atleast <b>z</b> disjoint connected components, then answer is <b>O+1</b>.</p> \n</li>\n</ol>\n<p></p>\n\n<h3>Input</h3>\n<p>The first line of input contains four space separated integers <b>N, M, O and Q</b>.</p>\n<p>\nNext <b>M</b> lines contain two space separated integers <b>x</b> and <b>y</b> denoting an undirected edge between vertices <b>x</b> and <b>y</b>.\n</p>\n<p>\nNext <b>O</b> lines contain two space separated integers <b>a</b> and <b>b</b> denoting an operation, meaning the edge between vertices <b>a</b> and <b>b</b> is to be removed from graph.</p>\n<p>\nNext <b>Q</b> lines contain queries either of first type or second type.\n</p>\n<p>\n<b>Note : </b> It is guaranteed that in every operation exactly one edge will be removed. Hence, no two operations are same. Also graph doesn't contain multiple edges or self loops and the <b>order</b> of applying operations is strictly from first to last operation.\n</p>\n<p></p>\n<h3>Output</h3>\n<p>\nFor each query output the required number of operations in a separate line. \n</p>\n<p></p>\n\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 <b>N</b> \u2264 100000</li> \n<li>1 \u2264 <b>M</b> \u2264 min( N*(N - 1)/2 , 200000)</li>\n<li>1 \u2264 <b>O</b> \u2264 <b>M</b></li>\n<li>1 \u2264 <b>Q</b> \u2264 100000</li>\n<li>1 \u2264 <b>u</b> \u2264 <b>N</b></li>\n<li>1 \u2264 <b>z</b> \u2264 10<sup>9</sup></li>\n<li>1 \u2264 <b>a, b, x, y</b> \u2264 <b>N</b>\n</ul>\n<p></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n6 6 5 5\n1 2\n2 3\n1 3\n3 4\n2 4\n3 5\n1 2\n3 5\n1 3\n2 3\n2 4\n1 1\n1 2 2\n1 2 5\n2 1\n6 1\n\n<b>Output:</b>\n2\n2\n6\n3\n-1\n\n</pre>\n<p></p>\n<h3>Explanation</h3>\n<p>\nIn first query, after applying 2 operations, connected component of vertex <b>1</b> still has a loop consisting of vertices 2, 3 & 4. But after applying 3rd operation, vertex <b>1</b> gets separated and hence has no loop in its connected component. Hence we can apply maximum 2 operations so that connected component of vertex <b>1</b> contains atleast one loop.</p> \n<p>\nIn second query, after applying two operations, the initial connected component of vertex <b>1</b> which consisted of vertices <b>{1,2,3,4,5}</b> gets divided into two disjoint connected components which are <b>{1,2,3,4}</b> and <b>{5}</b>.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "ALKHWARIZM (Rated)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1521214200,
+        "end_date": 1521232200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1521232200,
+        "submit_start_date": 1521214200,
+        "current": 1537432820
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>aloochaat1998</span>",
+    "problem_name": "Room Of Requirement",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aloochaat1998'>aloochaat1998</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "aloochaat1998",
+    "contest_code": "ALKH2018",
+    "max_timelimit": "1",
+    "problem_code": "ROOMOFRM"
+}

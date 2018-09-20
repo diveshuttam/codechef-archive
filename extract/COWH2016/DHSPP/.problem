@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Dhoni loves prime numbers and prefers his scores to be prime numbers. He played n tournaments last year and m matches in each of them. He prepares a n*m  matrix A[ ][ ]-(one indexed matrix) in which A[i][j] represents the runs scored by Dhoni in jth match of ith tournament and wonders if there is at least one column or row in that matrix that consists of prime numbers only. If the above condition doesn\u2019t satisfy, then Dhoni reserves the special powers of increasing his score of any match by 1  by paying 1 buck. Dhoni wants to know the minimum amount of money  he needs to spend to make the above condition satisfied and he assigns you the job.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line contains two integers n,\u2009m (1\u2009\u2264\u2009n,\u2009m\u2009\u2264\u200910^3) \u2014 the number of rows and columns in the matrix, correspondingly. Each of the following n lines contains m integers. All numbers in the initial matrix do not exceed 10^5. The numbers in the lines are separated by single spaces.</p>\n<h3>Output</h3>\n<p>Print the minimum number of rupees Dhoni needs to spend to improve his statistics. If the initial matrix satisfies the condition then output 0.</p>\n<h3>Constraints</h3>\n<p>1&lt;=n,m&lt;10^3,<br />\n0&lt;=A[i][j]&lt;=10^5</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3 3\n1 2 3 \n5 6 1\n4 4 1\n\n2 3\n4 8 9\n9 2 9\n\n<b>Output:</b>\n1\n3\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>In test case 1, you need to change the number A[1][1] from 1 to 2 and Dhoni has to pay one buck.<br />\nIn test case 2, We can change 8 into 11 and the second column will contain only prime numbers.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWhiz",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455971400,
+        "end_date": 1455982200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1455982200,
+        "submit_start_date": 1455971400,
+        "current": 1537435368
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>knightofcodes</span>",
+    "problem_name": "Prime Power",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/knightofcodes'>knightofcodes</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "knightofcodes",
+    "contest_code": "COWH2016",
+    "max_timelimit": "1",
+    "problem_code": "DHSPP"
+}

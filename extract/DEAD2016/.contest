@@ -1,0 +1,83 @@
+{
+    "teamsCount": "135",
+    "announcements": "<p>The aim of this challenge is to get familiar with the type and difficulty level of the tasks that are to be presented at Deadline24.</p>\r\n<p>Scoring and final ranking system of CodeChef competition is not identical to the one used during the qualifying round of Deadline24, edition 2016.</p>\r\n<p>More information can be found on www.deadline24.pl. Registered contestants of Deadline24, edition 2016, will also receive (after the close of registration) an email with information about a trial service before the qualifying round 2016.</p>\r\n<p/>\r\n<p>We have fixed broken images for tasks C and D and apologize for the inconvenience.</p>",
+    "ip": "149.129.135.113",
+    "code": "DEAD2016",
+    "duration": "180",
+    "name": "Replay of Deadline24 2015 Qualifying Round",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": " <p><strong class=\"rules-heading\">Contest Details:</strong></p> <div class=\"rules-body\"> <ul class=\"\"> <li><strong>About Contest: </strong> The contest is hosted by Team Deadline24. This is a replay contest of the Qualifying Round for Deadline24 Team Programming Marathon 2015. To know more details about their upcoming edition, visit:\u00a0<a href=\"https://www.deadline24.pl/\" target=\"_blank\">https://www.deadline24.pl/</a>. The registration for their qualifiers closes on 25th February 2016.</li> </ul> </div> <p><strong class=\"rules-heading\">Contest Details:</strong></p> <div class=\"rules-body\"> <ul class=\"\"> <li><strong>Duration: </strong>3 hours</li> <li><strong>Start time: </strong>23rd February 2016, 2100 hrs IST</li> <li><strong>Ends time: </strong>24th February 2016, 0000 hrs IST<br /> You may check your timezone <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+Deadline24&amp;iso=20160223T21&amp;p1=44&amp;ah=3\" target=\"_blank\">here</a>.</li> </ul> </div> <p><strong class=\"rules-heading\">Registration:</strong></p> <p><strong class=\"rules-heading\"></strong><span>This is a team contest, so a seperate registration is needed for the team to participate. Go through the following steps to register your team:</span></p> <div class=\"rules-body\"> <ul class=\"\"> <li>Login with your normal CodeChef user ID.</li> <li>Click on the <a href=\"/teams/register/DEAD2016\" target=\"_blank\"><strong>Team Registration Link</strong></a> and register your team for the contest.</li> <li>Click logout in the top right corner and login using the Team Name and password you registered with.</li> <li>You can get more information about team contests <a href=\"/wiki/team-contests\" target=\"_blank\">here</a>.</li> <li>If you do not have a CodeChef ID create one <a href=\"/user/register\" target=\"_blank\"> here</a>.</li> </ul> </div> <p><br /> <strong class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</strong></p> <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct.</a></p> </div> <p><br /> <strong class=\"rules-heading\">Rules and Regulations:</strong></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li> <li>Please contact <a href=\"mailto:codechef@deadline24.pl\" target=\"_blank\">codechef@deadline24.pl</a> for any queries during the contest.</li> </ul> <p><strong class=\"rules-heading\">Judging Criteria:</strong></p> <ul class=\"\"> <li>The contest follows <a href=\"/rankings#IOIStyleRanklist\" target=\"_blank\">IOI style ranklist</a>.</li> </ul> <div class=\"\"><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"/ide\" target=\"_blank\">Online IDE</a>.</strong><br /> However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/DEAD2016/1455889600.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "DL2015D": {
+            "allow_submission": false,
+            "name": "Hit the road",
+            "category_name": "main",
+            "accuracy": 64.29,
+            "successful_submissions": "4",
+            "code": "DL2015D",
+            "type": "2",
+            "is_direct_submittable": false
+        },
+        "DL2015B": {
+            "allow_submission": false,
+            "name": "Inspection",
+            "category_name": "main",
+            "accuracy": 79.49,
+            "successful_submissions": "21",
+            "code": "DL2015B",
+            "type": "2",
+            "is_direct_submittable": false
+        },
+        "DL2015C": {
+            "allow_submission": false,
+            "name": "Developer",
+            "category_name": "main",
+            "accuracy": 14.29,
+            "successful_submissions": "1",
+            "code": "DL2015C",
+            "type": "2",
+            "is_direct_submittable": false
+        },
+        "DL2015A": {
+            "allow_submission": false,
+            "name": "Ciphertext",
+            "category_name": "main",
+            "accuracy": 81.56,
+            "successful_submissions": "58",
+            "code": "DL2015A",
+            "type": "2",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537435330,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

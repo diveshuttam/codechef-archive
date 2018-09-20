@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Due to the continued efforts of BB8 and the Resistance tech team, the Gungan language has finally been studies and analysed. </p>\n<p>It has been seen that:</p>\n<ul>\n<li>Each word in the language has a fixed length L</li>\n<li>All letters are lowercase.</li>\n<li>Gungans have exactly V words in their vocabulary.</li>\n</ul>\n\n<p>The Resistance needs an important message which is being transmitted by Gungans but there is a problem in the encryption. We do not know for sure what the received pattern could mean. Some of the letters in the message are not confirmed.</p>\n<p>For example: if L=3 and the message is: (abc)bc, this indicates that the 2nd letter is b and the 3rd letter is c but the 1st could be a or b or c. So possible combinations are {abc,bbc,cbc}</p>\n<p>Your task is to find the no. of possible meanings/forms that a message can have, which are present in the vocabulary of Gungans.</p>\n<h3>Input</h3>\n<p>The first line of input contains 3 integers, L, V and N separated by a space. D lines follow, each containing one word of length L. These are the words that are known to exist in the Gungan vocabulary. N test cases then follow, each on its own line and each consisting of a pattern as described above. Words in vocabulary are unique. Unconfimed letters are in parentheses.</p>\n<h3>Output</h3>\n<p>For each test case, output\n</p>\n<p>\nCase #X: K</p>\n<p>\nwhere X is the test case number, starting from 1, and K indicates how many words in the Gungan language match the pattern.\n</p>\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> \u2264 <b>L</b> \u2264 <b>15</b></li>\n<li><b>1</b> \u2264 <b>V</b> \u2264 <b>5000</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>50</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3 5 4\nabc\nbca\ndac\ndbc\ncba\n(ab)(bc)(ca)\nabc\n(abc)(abc)(abc)\n\n<b>Output:</b>\nCase #1: 2\nCase #2: 1\nCase #3: 3\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> The only possible patterns in the message received that match the vocabulary are abc, bca </p>\n<p><b>Example case 2.</b> No unconfirmed letters. abc is the only possible match. </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWars",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455949800,
+        "end_date": 1455957000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1455957000,
+        "submit_start_date": 1455949800,
+        "current": 1537435389
+    },
+    "problem_author_html_handle": "pragati_garg",
+    "problem_name": "The Gungan Codes",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pragati_garg'>pragati_garg</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pragati_garg",
+    "contest_code": "CDWA2016",
+    "max_timelimit": "1",
+    "problem_code": "GUNG"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n<p>Today is Bob's first day at UCode College! He's very confused with the campus, as it is very complex. Bob got a campus map at orientation, and he wants to know how to get to his class in the shortest and easiest way possible.\n\nHowever, there's one thing he wants to ask: can you give him a better route based on the weather? For example, Bob knows that going from his dorm to the dining common takes 3 minutes. If it is raining, it will take 6 minutes for the shortest route because he will take a different path. Bob has one question: Given multiple states of weather, which can be combined in any possible way, can you help him get from point a to point b in the shortest possible time?\n\nHere is an example campus map:\n</p>\n\n<p><img width=\"400\" src=\"https://s3.amazonaws.com/hr-assets/0/1510016887-68c3dc649a-weatherdilemma.PNG\"/></p>\n\n<p>\nAs shown above, every weather has a scale factor. When the weather is rainy, The edges from (1, 3) and (3, 4) change by a scale of 2. Edges can be scaled by multiple weather values. If one edge is scaled by both rainy and stormy weather, then it will multiply the effect resulting in a scale of 10.</p>\n<p> </p>\n\n\n<h3>Input</h3>\n<p>Input starts with four integers: <b>N</b>, <b>M</b>, <b>W</b>, and <b>Q</b>. <b>N</b> is the number of vertices in the graph, <b>M</b> is the number of edges in the graph, <b>W</b> is the number of weather types, and <b>Q</b> is the number of queries.\n\nThe next <b>M</b> lines are in the format <i>u v c</i>, which means that nodes <i>u</i> and <i>v</i> are connected by an edge with cost <i>c</i>.\n\nNext, there are <b>W</b> sets of lines of the following format.\nEach set begins with <i>name edgesAffected scale</i>. <i>name</i> is the name of the weather, <i>edgesAffected</i> is how many edges change with the weather, and <i>scale</i> is how much the edges change.\nThe next <i>edgesAffected</i> lines are in the format <i>u v</i>, where the edge <i>(u, v)</i> is changed by <i>scale</i>.\n\nLastly, <b>Q</b> lines follow with the following format: <i>u v w w1..wn</i>. Each query is asking what the shortest path is from node <i>u</i> to node <i>v</i>, given <i>w</i> weather states as strings.</p>\n<p> </p>\n\n<h3>Output</h3>\n<p>Output <b>Q</b> lines of the format <i>Query n: dist</i></p>\n\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n\t<li><b>1</b> \u2264 <b>N</b> \u2264 <b>200</b></li>\n\t<li><b>1</b> \u2264 <b>u, v</b> \u2264 <b>N</b></li>\n\t<li><b>1</b> \u2264 <b>c</b> \u2264 <b>20</b></li>\n\t<li><b>(N-1)</b> \u2264 <b>M</b> \u2264 <b>(N*10)</b></li>\n\t<li><b>1</b> \u2264 <b>W</b> \u2264 <b>5</b></li>\n\t<li><b>1</b> \u2264 <b>name</b> \u2264 <b>10</b></li>\n\t<li><b>0</b> \u2264 <b>edgesAffected</b> \u2264 <b>M</b></li>\n\t<li><b>2</b> \u2264 <b>scale</b> \u2264 <b>100</b></li>\n\t<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>10<sup>5</sup></b></li>\n\t<li>The graph is connected</li>\n\t<li>The weather descriptions in the queries are distinct</li>\n</ul>\n<p> </p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5 6 2 5\n1 3 1\n1 2 10\n2 5 7\n2 3 6\n3 4 3\n3 5 5\nrainy 2 2\n1 3\n4 3\nstormy 2 5\n1 3\n3 5\n1 5 2 rainy stormy\n4 5 1 rainy\n4 5 1 stormy\n2 4 2 stormy rainy\n1 5 0\n\n<b>Output:</b>\nQuery 1: 17\nQuery 2: 11\nQuery 3: 16\nQuery 4: 12\nQuery 5: 6\n</pre>\n<p> </p>\n<h3>Explanation</h3>\n<p></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "30-01-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Blueprint",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1517758200,
+        "end_date": 1517767200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1517767200,
+        "submit_start_date": 1517758200,
+        "current": 1537433048
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>samhenry97</span>",
+    "problem_name": "Weather Dilemma",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/samhenry97'>samhenry97</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "samhenry97",
+    "contest_code": "BLUP2018",
+    "max_timelimit": "1",
+    "problem_code": "WTRDIL"
+}

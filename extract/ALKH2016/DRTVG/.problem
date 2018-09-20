@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>An old Gardner came to Little Vitaly's Garden and gave her a rooted tree <b>T</b> and an integer <b>d</b>.<br />\nEach node of the rooted tree has a weight <b>A<sub>i</sub></b>. Each <b>A<sub>i</sub></b> belongs to a set of positive integers.</p>\n<p>Assume the tree is rooted an node indexed <b>1</b>.</p>\n<p>\nThe old Gardner defines a path as a sequence of nodes <b> &lt; v<sub>0</sub>, v<sub>1</sub>, v<sub>2</sub>, ..., v<sub>k</sub> > </b> where <b>k \u2265 0</b>.<br />\nThe weight of a path is the sum of node weights for all nodes in the path. Old gardner loves progressions and various kind of manipulations of mathematical series.\n</p>\n<p>\nA path is said to be a <em>geometric path</em> if <b>Depth(v<sub>i+1</sub>) = Depth(v<sub>i</sub>) + d<sup>i</sup> </b>.\n</p>\n<p>\nA function <b>f(u)</b> is defined as sum of weight of all geometric paths starting from <b>u</b>.<br />\nHe asks little Vitaly to find sum of function <b>f(u)</b> modulo <b>10<sup>9</sup> + 7</b> for all nodes <b>u</b> where <b>u</b> belongs to <b>[1, N]</b>.\n</p>\n<p>The Depth of a node is the number of edges from the node to the tree's root node.</p>\n<p>\n<center><br />\n<img src=\"https://s3.amazonaws.com/codechef_shared/download/ALKH2016/8.png\"  height = \"300\" width=\"450\" /> </center> </p>\n<p><b>Note</b> : Vi+1 has to be in subtree of node Vi. </p>\n<h3>Input</h3>\n<ul>\n<li>The first line of Input contains <b>N</b> and <b>d</b> denoting number of nodes and the ratio respectively.</li>\n<li>Next line contains <b>N</b> single space separated integers denoting the weights of the respective nodes.</li>\n<li> Next <b>N - 1</b> lines contain two integers <b> u</b> and <b>v</b> denoting the edge between node <b>u</b> and node <b>v</b>.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>A single integer denoting sum of weight of all geometric paths.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>2</b> \u2264 <b>d</b>  \u2264 <b> 10</b></li>\n<li><b>1</b> \u2264 <b>A<sub>i</sub></b> \u2264 <b>10<sup>5</sup></b></li>\n<li> <b>1</b> \u2264 <b> u , v </b>\u2264 <b>N </b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n6 2\n2 4 8 16 32 64\n1 2 \n2 3\n3 4\n4 5\n5 6\n\n<b>Output:</b>\n466\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b></p>\n<p>The paths in the sample test case are -<br /> <b>&lt;1>, &lt;2>, &lt;3>, &lt;4>, &lt;5>, &lt;6>, &lt;1,2> ,&lt;2,3>, &lt;3,4>, &lt;4,5>, &lt;5,6>, &lt;1,2,4>, &lt;2,3,5> and &lt;3,4,6></b>.<br /></p>\n<p>\n<br /><br />\nThe sum of weights = 2 + 4 + 8 + 16 + 32 + 64 + (2 + 4) + (4 + 8) + (8 + 16) + (16 + 32) + (32 + 64)  <br />   +  (2 + 4 + 6) + (4 + 8 + 32) + (8 +16 + 64) = 466.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Alkhwarizm 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1459697400,
+        "end_date": 1459715400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1459715400,
+        "submit_start_date": 1459697400,
+        "current": 1537435003
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>dragonslayerx</span>",
+    "problem_name": "Deeply Rooted Tree in Vitaly Garden",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dragonslayerx'>dragonslayerx</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dragonslayerx",
+    "contest_code": "ALKH2016",
+    "max_timelimit": "1",
+    "problem_code": "DRTVG"
+}

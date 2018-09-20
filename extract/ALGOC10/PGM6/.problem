@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> Some alien civilization has a quite strange language. Each word has length\nwordLength and consists of only 'A' and 'B' characters. Some sequences of A's and\nB's are forbidden (by ancient tradition), and do not appear as a substring of any\nvalid word. Any word that does not contain a forbidden substring is valid. The set of\nforbidden substrings is given in the String[] forbiddenSubstrings. Each element of\nforbiddenSubstrings contains 'A' or  'B' .\n<p>The alien dictionary contains all valid alien words in alphabetical order. Each page\nof the dictionary contains exactly one word. Pages are numbered starting from 0.\nGiven a int[] wordNumbers, return a String[] containing the same number of\nelements as wordNumbers, where the i-th element is the word written on page\nwordNumbers[i] of the dictionary or \"NO PAGE\" (quotes for clarity) if there is no\nsuch page in the dictionary.\n\n<h3>Input</h3>\n<p>The first line consists of the number of characters. This is followed by the list of forbidden substrings separated by space. The last line consists of the page numbers to be displayed. \n\n<h3>Output</h3>\n<p>List of words in the specified pages as specified in the problem statement. NO PAGE if there is no page.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n5\nAAA BAA ABB\n4 12 0 6 9\n<b>Output:</b>\n{BBBAB,NO PAGE,AABAB,BBBBB,NO PAGE}\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-02-2010",
+    "is_direct_submittable": false,
+    "contest_name": "CTRLF9 2010",
+    "languages_supported": "C",
+    "todo": false,
+    "time": {
+        "view_start_date": 1267677000,
+        "end_date": 1267684200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1267684200,
+        "submit_start_date": 1267677000,
+        "current": 1537439702
+    },
+    "problem_author_html_handle": "mariojuana",
+    "problem_name": "Alien Dictionary",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/mariojuana'>mariojuana</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "mariojuana",
+    "contest_code": "ALGOC10",
+    "max_timelimit": "1 - 5",
+    "problem_code": "PGM6"
+}

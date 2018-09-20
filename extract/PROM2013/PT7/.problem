@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Adam and eve god\u2019s super humans have just arrived on earth. God, The mastermind has locked them up in separate hallways to test their capability and then possibly give them \u201cknowledge of living\u201d.<br />\nEach hallway contains 100 rocks labeled with the positive integers {1,2,\u2026.,100}, rock k is always k meters from the start of the hallway, and Adam/Eve  both begin at 1. Over the period of one second,  Adam/Eve can walk one meter in either direction, or can destroy the rock at its position. To complete the test, Adam/Eve need to destroy a certain sequence of rocks in a certain order. Both Adam/Eve know the full sequence in advance. How fast can they complete it ?<br />\nFor example, let's consider the following rock sequence: </p>\n<ul>A 2, E 1, E 2, A 4</ul>\n<p>Here, A 2 means rock 2 in Adam's hallway, E 1 means rock 1 in Eve's hallway, and so on. Adam/Eve can destroy this sequence of rocks in 6 seconds using the strategy shown below:</p>\n<ul>Time | Adam             | Eve </ul>\n<ul>-----+------------------+-----------------</ul>\n<ul>1  | Move to rock 2   | Stay at rock 1 </ul>\n<ul> 2  | Destroy rock 2       | Stay at rock 1</ul>\n<ul> 3  | Move to rock 3   | Destroy rock 1</ul>\n<ul> 4  | Move to rock 4   | Move to rock 2</ul>\n<ul> 5  | Stay at rock 4   | Destroy rock 2 </ul>\n<ul>  6  | Destroy rock 4       | Stay at rock 2</ul>\n<p>Note that Eve has to wait until Adam has completely finished Destroying A 2 before she can start Destroying E 1. </p>\n<h3>Input</h3>\n<p>The first line of the input gives the number of test cases, T. T test cases follow.<br />\nEach test case consists of a single line beginning with a positive integer N, representing the number of rocks that need to be hit. This is followed by N terms of the form \"Si Pi\" where Si is a super human (always 'A' or 'E'), and Pi is a rock position. </p>\n<h3>Output</h3>\n<p>For each test case, output a single integer containing the minimum number of seconds required for Adam and Eve to destroy the given rocks, in order. </p>\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>Pi</b> \u2264 <b>100</b></li>\n</ul>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-04-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Prometheus 2013 ",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1365758822,
+        "end_date": 1365964200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1365964200,
+        "submit_start_date": 1365758822,
+        "current": 1537438353
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>abeersethi</span>",
+    "problem_name": "Adam And Eve",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abeersethi'>abeersethi</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abeersethi",
+    "contest_code": "PROM2013",
+    "max_timelimit": "0.390805",
+    "problem_code": "PT7"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>\nProblem Statement:<br />\n</h3>\n<p>\nChef Bunny is among the best friends of Chef Diablo. Chef Bunny owns a chain of restaurants numbered 0,1,2....(N-1). The restaurants have various types of signature dishes, but the chefs who have an expertise on those dishes are minimum. So they have to travel to different outlets. Considering the increasing traffic in Byteland there is a lot of delay due to which customers are getting annoyed. To overcome this Chef Bunny thought of a plan. He started constructing special tunnels between outlets in which Chefs can travel both ways. The cost of making a tunnel is the difference between the IDs of the two outlets, i.e. abs(ID1-ID2). Chef Bunny is very rich and hence he is not cared about the expenditure and starts constructing the tunnels, on seeing this Chef Diablo stops Chef Bunny and tells him that he will build the other tunnels so that least amount of money is required in connecting all outlets(directly or via other outlets). Chef Diablo starts the task but there are huge number of outlets and he finds great difficulty in doing this task and hence turns to you for help. Given the number of outlets(N) and the number of tunnels built by Chef Bunny(M) you need to print the minimum number of tunnels that Chef Diablo has to built and the total cost. Also print the outlets between which a tunnel has to be made.\n</p>\n<h3>\nInput:<br />\n</h3>\n<p>\nFirst line consists of N and M denoting the number of outlets and the number of tunnels built by Chef Bunny respectively. Then M lines follow each consisting of 2 integers x and y denoting the outlets already connected by a tunnel.\n</p>\n<h3>\nOutput:<br />\n</h3>\n<p>\nIn the first line output 2 space separated numbers Num and C denoting the number of tunnels that Chef Diablo has to make and C is the total cost respectively. Then Num lines follow each line consisting of 2 space separated integers denoting the IDs of the outlets that are to be connected by a tunnel by Chef Diablo, if there are more than one ways, print lexicographically the smallest.\n</p>\n<h3>\nConstraints:<br />\n</h3>\n<p>\n1&lt;=N&lt;=2*10^4\n</p>\n<p>\n0&lt;=M&lt;=5*10^5\n</p>\n<h3>\nSample Input:<br />\n</h3>\n<p>4 2</p>\n<p>0 2</p>\n<p>1 3</p>\n<h3>\nSample Output:<br />\n</h3>\n<p>1 1</p>\n<p>0 1</p>\n<h3>\nExplanation:<br />\n</h3>\n<p>\nThere are 4 outlets. Chef Bunny has built 2 tunnels connecting outlets 0,2 and outlets 1,3. Now we have two choices having least cost so that all outlets get connected to each other directly or via other outlets, i.e. to connect 0 and 1 or to connect 2 and 3 as both have cost 1, but we print \"0 1\" as it is lexicographically smaller. Printing \"1 0\" would be wrong as it is lexicographically greater than \"0 1\".\n</p>\n<h3>WARNING: LARGE INPUT FILES....PLS USE FASTER I/O METHODS!!!!</h3>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Trinity 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1393776000,
+        "end_date": 1393785000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1393785000,
+        "submit_start_date": 1393776000,
+        "current": 1537437733
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>aadesh_99</span>",
+    "problem_name": "Diablo to the Rescue",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aadesh_99'>aadesh_99</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "aadesh_99",
+    "contest_code": "TRNT2014",
+    "max_timelimit": "1",
+    "problem_code": "TR002"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The chef won a duet singing award at Techsurge & Mridang 2012. From that time he is obsessed with the number 2.<br/>\nHe just started calculating the powers of two. And adding the digits of the results.\n<br/>\nBut he got puzzled after a few calculations. So gave you the job to generate the solutions to 2^n and find their sum of digits.\n\n<h3>Input</h3>\n<p>N : number of inputs N<=100<br/>\nthen N lines with input T<=2000\n\n<h3>Output</h3>\n<p>The output for the corresponding input T\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n5\n10\n4\n\n<b>Output:</b>\n5\n7\n7\n\n<b>Explanation:</b>\n2^5=32\n3+2=5\n2^10=1024\n1+0+2+4=7\n2^4=16\n1+6=7\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "ALGOTHIKA 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330774200,
+        "end_date": 1331958600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1331958600,
+        "submit_start_date": 1330774200,
+        "current": 1537438872
+    },
+    "problem_author_html_handle": "s4p3r_c1n0s",
+    "problem_name": "The powerful 2",
+    "source_sizelimit": "5000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/s4p3r_c1n0s'>s4p3r_c1n0s</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "s4p3r_c1n0s",
+    "contest_code": "AGTK2012",
+    "max_timelimit": "0.142",
+    "problem_code": "ALG2N"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "CHFSQN",
+    "problem_author": "rahul_ojha_07",
+    "contest_name": "Encoding August '18",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rahul_ojha_07</span>",
+    "problem_name": "Chef and Sequence",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ENAU2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/#editorial'>#editorial</a>, <a class='problem-tag-small ' href='/tags/problems/rahul_ojha_07'>rahul_ojha_07</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Chef loves to play with sequence. One day a friend of chef gave him a sequence of integers <b>a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub></b>. and told him to find the maximum of strength of the sequence. \nDefining the strength of the sequence to be\n<b>|a<sub>1</sub> - a<sub>2</sub>| + |a<sub>2</sub> - a<sub>3</sub>| + ... + |a<sub>n-1</sub> - a<sub>n</sub>| + |a<sub>n</sub> - a<sub>1</sub>|</b>.\nChef wants to make his sequence stronger, so he reorders his sequence into a new sequence<b>b<sub>1</sub>, b<sub>2</sub>, ..., b<sub>n</sub></b>. He wants this new sequence to be as strong as possible. Help chef to find the maximum strength of the resulting sequence\n</p>\n<h3>Input</h3>\n<p>The first line contains a single integer <b>N</b> denoting the number of elements in the sequence.\nThe next line contains the sequence of <b>N</b> space seperated integers.\n</p>\n\n<h3>Output</h3>\n<p>Print the maximum possible strength of the sequence.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>10<sup>-9</sup></b> \u2264 <b>A[i]</b> \u2264 <b>10<sup>9</sup></b></li>\n</ul>\n<h3>Example</h3>\n<p></p>\n<pre>\n<b>Input:</b>\n4\n1 2 4 8\n<b>Output:</b>\n18\n<b>Explanation:</b>\nWe can reorder the given sequence to form 1 8 2 4, which yields the strength of |1-8| + |8-2| + |2-4| + |4-1| = 18.\n</pre>",
+    "category_name": "main",
+    "date_added": "3-08-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/CHFSQN",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1533477600,
+        "end_date": 1533488400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1533488400,
+        "submit_start_date": 1533477600,
+        "current": 1537432179
+    },
+    "user": {
+        "username": ""
+    }
+}

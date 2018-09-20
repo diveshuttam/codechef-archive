@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Ishpreet and KDS are bored of their normal life. As usual Ishpreet comes up with a simple and interesting game. Ishpreet gives KDS a compressed string. Every character in a compressed string contains a number and character. Ex s3b2 is a compressed and it represents sssbb. Each number in the compressed string indicates the number of times the corresponding character occurs in the string. The final string is 1 indexed.</p>\n<p>Ishpreet wants KDS to sort the compressed string and tell him the <b>K</b>th character in the sorted compressed string. Since KDS got speed Ishpreet asks him various such questions.</p>\n<p>Help KDS in answering Ishpreet's question.</p>\n<h3>Input</h3>\n<p>The first line contains the compressed string. This is followed by <b>Q</b> that indicates the number of questions Ishpreet shoots on KDS. Follows <b>Q</b> lines, each line contains an integer <b>K</b>.</p>\n<h3>Output</h3>\n<p>For every question output the <b>K</b>th character if it exists else print <b>-1</b>.</p>\n<h3>Constraints</h3>\n<p>2 &lt;= Length of Compressed String &lt;= 10^4<br />\n<br />1&lt;= Length of Final String &lt;= 10^18<br />\n<br />1&lt;= <b>Q</b> &lt;= 10^5<br />\n<br />1&lt;= <b>K</b> &lt;= 10^18<br />\n<br />Every character in the string is lowercase English letter.\n</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\na2b3c2a1\n4\n2\n5\n1\n8\n\n\n<b>Output:</b>\na\nb\na\nc\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>The final sorted string is aaabbbcc.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "CodeFight 2.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457764200,
+        "end_date": 1457807400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457807400,
+        "submit_start_date": 1457764200,
+        "current": 1537435161
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>karan_arora2</span>",
+    "problem_name": "Compressed String",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/karan_arora2'>karan_arora2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "karan_arora2",
+    "contest_code": "COFI2016",
+    "max_timelimit": "1",
+    "problem_code": "CF208"
+}

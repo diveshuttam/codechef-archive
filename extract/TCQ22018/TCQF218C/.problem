@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Chef recently worked in a Candy Store. He has decided he will start his own Candy Store. But he need suppliers of different candies, which will help him run his shop. He has <b>N</b> friends who are suppliers of candies, who'll support him. But when these suppliers tie up with one another, there is a chance of extracting more candies due to friendship among them.\n</p>\n<p>Each supplier will give <b>X<sub>i</sub></b> candies to Chef. When <b>X<sub>i</sub>th</b> supplier combines with any other <b>X<sub>j</sub>th</b> supplier and if binary AND of the candies are greater than or equal to the supplier in tie with lesser supply of candies, then Chef will choose this tie of suppliers to extract extra candies. Calculate maximum number of candies Chef can get to run his shop. \n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. Each test case <b>T</b> starts with a number <b>N</b> denoting the number of suppliers. Next line consists of X<sub>1</sub>, X<sub>2</sub>,..., X<sub>N</sub> denoting the number of candies which a supplier can supply.</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>For each test case, print the maximum number of candies Chef will obtain at the end to run his new shop.</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>X<sub>i</sub></b> \u2264 <b>100000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n4\n5 4 7 9\n<b>Output:</b>\n38\n\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example Case 1: </b> Each supplier will supply for sure the minimum candies which is given which makes 5+4+7+9 = 25. Along with that, ties between (5 and 4, 5 and 7), (4 and 7) will add to sum of 25. This makes final total 25 + (4 + 5) + (4) = 38 candies in total.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Turing Cup Qualifier 2",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1520134200,
+        "end_date": 1520177400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1520177400,
+        "submit_start_date": 1520134200,
+        "current": 1537432882
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nerdyninja</span>",
+    "problem_name": "Chef Needs Candies",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nerdyninja'>nerdyninja</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nerdyninja",
+    "contest_code": "TCQ22018",
+    "max_timelimit": "2",
+    "problem_code": "TCQF218C"
+}

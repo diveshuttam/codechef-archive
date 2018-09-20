@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Inside a hypothetical ant\u2019s nest there is only one garbage-ant\nresponsible to carry out all the dust. From time to time, this ant must grab\nthe dust from all chambers inside the nest and bring it outside. </p>\n\n<p>The nest has one outside door and has a lot of chambers. Two\ndifferent chambers are connected by tunnels that can be crossed in both\ndirection. It is possible to go from a chamber to any other chamber using\ntunnels and this path may cross more chambers. But, there is only one path\nbetween two different chambers.</p>\n\n<p>The garbage-ant begins its task outside the nest traveling through\ntunnels grabbling the dust from each chamber. This ant can use any chamber in\nthe middle of its path to temporarily store dust because it cannot carry any\namount of dust \u2013 it has a load capacity limit. To finish its task, all the dust\nmust be outside the nest.</p>\n\n<p>You must find the shortest distance that this garbage-ant\nmust travel to grab all the dust. Note that dust is\nmeasured in milligram (mg), the tunnels are measured in millimeters (mm) and the\nload capacity of this ant is also measured in milligram (mg).</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>The first line has two integers: the number of the chambers\n(2&lt;=N&lt;=10<sup>4</sup>) and the load capacity of the garbage-ant\n(1&lt;=C&lt;=100). All the chambers are numbered from 2 to N and the number 1\nidentifies outside the nest. The second line has N integers E<sub>i</sub>\n(0&lt;=E<sub>i</sub>&lt;=100) that describes the\ninitial amount of dust at each chamber i (1&lt;=\ni&lt;=N). The following N-1 lines has three integers: the\nconnection between chamber A and chamber B (1&lt;=A, B&lt;=N) and its length L\n(1&lt;=L&lt;=100).</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>The output has one line with only one integer that describes\nthe shortest distance that the garbage-ant must travel to grab all the dust.</p>\n<p>\u00a0</p>\n\n<h3>Examples</h3>\n<table border=1 cellspacing=0 cellpadding=0>\n <tr><th>Input</th><th>Output</th></tr>\n <tr >\n  <td width=225 valign=top>\n  <p>3 10</p>\n  <p>0 5 5</p>\n  <p>1 2 7</p>\n  <p>2 3 5</p>\n  </td>\n  <td width=225 valign=top >\n  <p>24</p>\n  </td>\n </tr>\n</table>\n\n<p></p>\n\n<table border=1 cellspacing=0 cellpadding=0>\n <tr><th>Input</th><th>Output</th></tr>\n <tr >\n  <td width=225 valign=top>\n  <p>5 9</p>\n  <p>5 2 6 3 6</p>\n  <p>1 2 1</p>\n  <p>2 3 1</p>\n  <p>2 4 1</p>\n  <p>2 5 1</p>\n  </td>\n  <td width=225 valign=top>\n  <p>10</p>\n  </td>\n </tr>\n</table>\n\n<p>\u00a0</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-12-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Programming Cup- Sao Paulo Edition",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1513436400,
+        "end_date": 1513458000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1513458000,
+        "submit_start_date": 1513436400,
+        "current": 1537433282
+    },
+    "problem_author_html_handle": "lenahsakai",
+    "problem_name": "Ants garbage",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/lenahsakai'>lenahsakai</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "lenahsakai",
+    "contest_code": "PROC2017",
+    "max_timelimit": "1",
+    "problem_code": "PRGCUP06"
+}

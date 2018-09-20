@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Little John loves drawing and playing with shapes and geometrical figures. One day he designed two new shapes in his drawing book which is shown below.</p>\n<p><img src=\"/download/extimages/face67fa45b5812c63406de9827f85a2.png\" /><br />\n<img src=\"/download/extimages/445304ecf17f100ae48c722bb8fe797e.png\" /></p>\n<p>His aim is to construct a <b>L x 3</b> grid as shown below using these shapes. Here <b>L</b> is the number of small square boxes in each row. He can rotate the shapes as he wants.  Find the number of unique ways in which he can construct the grid using the shapes he has designed.</p>\n<p><img src=\"/download/extimages/8ed4eaa95765d2efe5bc6ffce48d3164.png\" /></p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.<br />\nNext <b>T</b> lines contain a integer which is the value of <b>L</b>.</p>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing an integer which will be number of unique ways.</li>\n</ul>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>30</b></li>\n<li> <b>2</b> \u2264 <b>L</b> \u2264 <b>100</b> </li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n4\n8\n\n<b>Output:</b>\n3\n11\n</pre><h3>Explanation</h3>\n<p><b>Example 1.</b><br/><br />\nIn the first case there are 3 unique ways to construct a <b>4 x 3</b> grid using the given shapes.<br/><br />\n<img src=\"/download/extimages/a5b70a6869a4527bc05dfc617838691d.png\" width=\"400\" height=\"235\" />\n</br/></br/></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeCrusade 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1393648200,
+        "end_date": 1393660200,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1393660200,
+        "submit_start_date": 1393648200,
+        "current": 1537437759
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>prashant89</span>",
+    "problem_name": "Playing with Shapes",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/prashant89'>prashant89</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "prashant89",
+    "contest_code": "CDCS2014",
+    "max_timelimit": "1",
+    "problem_code": "CDCRTS3"
+}

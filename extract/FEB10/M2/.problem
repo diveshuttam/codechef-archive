@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>It's time for the annual exciting Motorbike Race in Byteland.</p>\n<p>There are N motorcyclists taking part in the competition. Johnny is watching the race. At the present moment (time 0), Johnny has taken note of the current velocity and position of each motorcyclist.</p>\n<p>Johnny wants to know at a given point of time, which motorcyclist is in a specific place in the rank list. Please help him!</p>\n<p>If at any given time two motorcyclists are in same position, the motorcyclist with the smaller index will be placed before the one with the larger index.</p>\n<p>To make the problem simple, Johnny assumes that each motorcyclist is moving at a constant velocity.</p>\n\n<h3>Input</h3>\n<p>The first line contains a number t (about 10) which is the number of test cases. Then t test cases follow. Each test case has the following form.</p>\n<p>The first line of the test case contains a number N (1 <= N <= 2000), the number of motorcyclists.</p>\n<p>The i-th line in the next N lines contains two numbers, v and x, which are the velocity and the current position of the i-th motorcyclist (1 <= v, x <= 100,000).</p>\n<p>The next line contains a number Q (1 <= Q <= 2000), the number of time queries.</p>\n<p>Each line in the next Q lines contains two numbers, t (1 <= t <= 1,000,000,000) and k (1 <= k <= n), representing the query: \"at time t, which motorcyclist is positioned k-th in the rank list?\"</p>\n<h3>Output</h3>\n<p>For each test case, print Q lines, with each line containing the index of the motorcyclist for the corresponding query.</p>\n<p>Remember to print a new line after each test case.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n4\n2 100\n3 50\n4 60\n5 1\n4\n1 1\n50 2\n60 4\n100 1\n\n<b>Output:</b>\n1\n4\n1\n4\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "February 2010 Contest",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1265016600,
+        "end_date": 1265880600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1265880600,
+        "submit_start_date": 1265016600,
+        "current": 1537439742
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Motorbike Racing",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "FEB10",
+    "max_timelimit": "0.278448",
+    "problem_code": "M2"
+}

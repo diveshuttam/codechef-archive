@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Bruce Wayne retires as Batman  and now own an apple orchard and so does Mr.Fox. Now as Mr.Fox is creative and cannot sit idle he decides to play tricks on Bruce. He gives Bruce a number N and tells him to represent the number using his any 32 apples. Bruce has two color apples in his orchard red and green..</p>\n<p>Now , Bruce being Batman does this task easily , so Mr. Fox asks him to find length of longest sequence in that representation of number N , such that the sequence is a palindrome.Your job is to help Bruce do the task ;)</p>\n<h3>Input</h3>\n<p>First line contains T test cases , followed T lines each containing a number N.</p>\n<h3>Output</h3>\n<p>Output the each test case in a new line.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000000000</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n10\n100\n\n<b>Output:</b>\n28\n25\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-09-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Insomnia 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1379694600,
+        "end_date": 1379716200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1379716200,
+        "submit_start_date": 1379694600,
+        "current": 1537438179
+    },
+    "problem_author_html_handle": "insomnia_adm",
+    "problem_name": "PAL",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/insomnia_adm'>insomnia_adm</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "insomnia_adm",
+    "contest_code": "INSM2013",
+    "max_timelimit": "0.3",
+    "problem_code": "INS02"
+}

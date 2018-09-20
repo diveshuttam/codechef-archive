@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>As we all know, Virat Kohli is in the form of his life and hitting centuries has become his habit. Bollywood diva Anushka Sharma is interested in knowing if the number of centuries he would score in two consecutive years would be <b><i>two consecutive prime numbers</i></b> (e.g. 7 and 11 ) and <b><i>successor of sum of both those numbers</i></b> would also be  a prime number <b><i>p</i></b>. She gave him numbers<b><i> n </i></b>and <b><i>k</i></b> and asks if there lie at least <b><i>k</i></b> possible values of <b><i>p</i></b> between <b><i>2</i></b> and <b><i>n</i></b>. Virat is not a great mathematician and fails to tell her and they broke up on news of which Rohit Sharma is the happiest man on earth. Now, Rohit wants to impress Anushka by giving the answer and doesn\u2019t want to take a chance. So, Rohit hires you to write a program for himself that calculates the answer of the question posed by Anushka.</p>\n\n<h3>Input</h3>\n<p>The only line of input contains two numbers <b><i>n</i></b> and <b><i>k</i></b>.</p>\n<h3>Output</h3>\n<p>Output <b>YES</b> if there lies more than or equal to <b><i>k</i></b> numbers satisfying the condition for <b><i>p</i></b> and <b>NO</b> otherwise.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>2</b> \u2264 <b>n</b> \u2264 <b>1000</b></li>\n<li><b>0</b> \u2264 <b>k</b> \u2264 <b>1000</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n10 1\n\n<b>Output:</b>\nNO\n</pre><pre><b>Input:</b>\n25 2\n\n<b>Output:</b>\nYES\n</pre><h3>Explanation</h3>\n<p><b>Example case 1,</b> there is no such number between 2 and 10.</p>\n<p><b>Example case 2,</b> there lies 2 numbers 13(5+7+1) and 19(7+11+1).</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWhiz",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455971400,
+        "end_date": 1455982200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1455982200,
+        "submit_start_date": 1455971400,
+        "current": 1537435367
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>knightofcodes</span>",
+    "problem_name": "Love Triangle",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/knightofcodes'>knightofcodes</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "knightofcodes",
+    "contest_code": "COWH2016",
+    "max_timelimit": "1",
+    "problem_code": "LVTRI"
+}

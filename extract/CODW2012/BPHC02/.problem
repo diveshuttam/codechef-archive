@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Situation<br /><br />\nAlice sends her messages to Bob with a signature generated using some known signature-creation algorithm implemented as genSignature() below. Bob verifies that the message is sent by Alice itself by generating the signature for the message by a password known to only both of them, and verifying that both signatures match.<br />\n<br /><br />\nBy some means we are able to eavesdrop on their conversation and captured some message and their corresponding signature. Its known that Alice always uses the same password for the signature creation, even for furure messages. Our task is decode the password from the captured packets and prove to Alice that some person Eve could also do the same and create signature which looks real and impersonate Alice.<br />\n<br /></p>\n<pre><code>\nvoid genSignature(char *msg, char *key, int msglength)\t{\nint keylength = strlen(key);\nint i;\n    for(i=0; i&ltmsglength; ++i)\n    msg[i] = msg[i] & key[i%keylength];\n}\n</code></pre><h3>Input</h3>\n<p>The input will be lines containing the hex-representation of the bytes captured from their conversation. The first line contains the total no of packets we captured, say N (in decimal representation). The following 2*N lines contains capture in the following format - the message in the first line, followed by its signature in the next line (hex-representation). Each packet is 128bit, and the password is 48bit.</p>\n<h3>Output</h3>\n<p>It may not be possible to find a unique password in every case. There may be multiple passwords which can generate the same signature for the given packets (REMEMBER - it depends on the GIVEN packets. The password used by Alice is unique). In every case, all the possible 48bit passwords(hex-represenation) which can generate the exact signature of given packets has to be found, sorted in ascending order of their byte values and printed one by one each on a new line</p>\n<h3>Example</h3>\n<pre>\n<b>Input:\n2\t// &lt;- Total no of packets captured\nED 9A 6F 21 D6 7F A7 5E 28 B8 11 47 1B A8 24 FC\t\t// msg packet 1\n69 88 42 01 06 3C 21 4C 00 80 00 04 19 88 00 84\t\t// signature for msg1\n75 19 45 E4 66 62 05 D6 BA 7E A2 0D 03 C8 49 F1\t\t// msg packet 2\n71 08 40 84 26 20 01 C4 12 04 22 0C 01 C8 40 81\t\t// signature for msg2\n</b>\n\n<b>Output:\n (for the prev input).\n79 CC 52 85 26 3C\n79 CC 52 85 26 BC\n79 CC 52 85 2E 3C\n79 CC 52 85 2E BC\n</b>\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-10-2012",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWars 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1351081800,
+        "end_date": 1351254600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1351254600,
+        "submit_start_date": 1351081800,
+        "current": 1537438672
+    },
+    "problem_author_html_handle": "raghupotluri",
+    "problem_name": "Alice and Bob",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/raghupotluri'>raghupotluri</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "raghupotluri",
+    "contest_code": "CODW2012",
+    "max_timelimit": "0.206522",
+    "problem_code": "BPHC02"
+}

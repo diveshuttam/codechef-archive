@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>A generation of aliens started with N [1,2 .. N] initial tribes. Each tribe was geographically isolated. As time progressed, the members of two different tribes married. There were two genders in the species Fibo and Nacci. When two species interact for the first time, a Fibo of one tribe is married to a Nacci of the other. The species whose Fibo is marrying is declared superior to the other and the two tribes combine to form a merged tribe carrying the family name (an integer in our case) of the superior tribe.\n\nYou will be given T testcases. In each testcase T, you will be given the number of tribes N followed by the number of marriages M.\nEach marriage is given a pair of integers u,v where u is the family name of the tribe whose Fibo is marrying and v is the family name of the tribe whose Nacci is marrying.<br>\nFor each testcase answer with number of species remaining, in a new line print the family name of tribes in ascending order of their population. If populations are same then print in ascending order of family names.<br>\n\nAssume population remains constant and all initial tribes have equal number of members.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>An integer T followed by T testcases.</p>\n<p>Each testcase starts with two integers N and M followed by M lines.</p>\n<p>Each of these M lines has two integers u and v.</p>\n\n<h3>Output</h3>\n<p>Output the answer for each testcase in a new line.</p>\n\n<h3>Constraints</h3>\n<p>For small subtask (Score: 20 pts, TL : 1 sec):</p>\n<p>T = 1</p>\n<p>N < 10^5</p>\n<p>M < 10^3</p>\n<p>For large subtask: (Score: 80 pts, TL : 0.5 sec)</p>\n<p>T = 10</p>\n<p>Other constraints remain the same.</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1<br>\n2 1<br>\n1 2<br>\n\n<b>Output:</b>\n1\n<p></p>\n<h3>Explanation</h3>\n<p><b>[EDIT]</b> For each testcase print the family name( integer, here 1) of the species which still exist. <br>Here, we are given two species viz. 1 & 2. Fibo of 1 marries Nacci of 2. Thus 2 is lost and 1 grows in size. <br>Note: In further marriages, 2 might still be used as the family name for specifying a marriage, <br>but will effectively be representing 1. </p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-01-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Code-of-War 2K18 Onsite Final",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1516420800,
+        "end_date": 1516435200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1516435200,
+        "submit_start_date": 1516420800,
+        "current": 1537433164
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>citransvostok</span>",
+    "problem_name": "Aliens and Misogyny",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/citransvostok'>citransvostok</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "citransvostok",
+    "contest_code": "CWF2018",
+    "max_timelimit": "0.5 - 1",
+    "problem_code": "VAMSI_BT"
+}

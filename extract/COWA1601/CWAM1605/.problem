@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\u00a0</p>\n<p>Its Anokha time and everybody is busy! Especially, the Registrations team. They are given a server that runs some tasks on a first come, first serve basis. Each day, these tasks can run for atmost N minutes. When given the time for each task, calculate how many tasks can be finished today. Example:<br />\nN=180 and tasks take 45,30,20,55,80 and 20 minutes respectively. Then only first four tasks can be done.\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The input file contains several test cases, each of them as described below. The first line contains two integers t and N where 1 \u2264 t \u2264 50 is the number of tasks and 1 \u2264 N\u2264 500. The next line contains n positive integers no more than 100 indicating how long each task takes in order they are submitted.</p>\n<h3>Output</h3>\n<p>For each test case, display the number of tasks that can be completed in N minutes on a first-come, first-serve basis, on a line by itself.</p>\n<h3>Constraints</h3>\n<p>1 \u2264 t \u2264 50,<br />\n1 \u2264 N\u2264 500</p>\n<h3>Example</h3>\n<pre><b>Input:\n6 180 \n45 30 55 20 80 20 \n10 60 \n20 7 10 8 10 27 2 3 10 5 \n</b>\n\n<b>Output:\nCase 1: 4\nCase 2: 5\n</b>\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Code-Wars#ver2.0 Qualifiers",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455769800,
+        "end_date": 1455781800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1766778072,
+        "submit_start_date": 1455769800,
+        "current": 1537435435
+    },
+    "problem_author_html_handle": "yarlagaddap",
+    "problem_name": "Anokha",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/yarlagaddap'>yarlagaddap</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "yarlagaddap",
+    "contest_code": "COWA1601",
+    "max_timelimit": "1",
+    "problem_code": "CWAM1605"
+}

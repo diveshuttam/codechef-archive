@@ -1,0 +1,133 @@
+{
+    "teamsCount": "3564",
+    "announcements": "<p><b>20/06/2016, 0040 hrs IST</b>: The editorials will be posted after the replay round of this contest. The problems will be moved to practice section after the same.</p>\r\n<p>\u00a0</p>\r\n<p><b>20/06/2016, 0040 hrs IST</b>:\u00a0Please send a mail to help@codechef.com if you were affected by the issue of late clarification of the problem VCAKE. \u00a0The mail should contain your submission/submissions, your team name.</p>\r\n<p>\u00a0</p>\r\n<p><b>19/06/2016, 1935 hrs IST</b>: Please note that in problem VCAKE, entire cake should be used. There should be no leftover. If you have got WA due to this issue, please send an email to us at help@codechef.com after the end of the contest. We will ignore the submissions made due to this issue.</p>",
+    "ip": "149.129.135.113",
+    "code": "SNCKEL16",
+    "duration": "300",
+    "name": "SnackDown 2016 Online Elimination Round",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": " <p><b class=\"rules-heading\">About:</b></p> <div class=\"rules-body\"> <p><span>SnackDown 2016 is an annual multi round global programming tournament conducted by CodeChef. More information about it can be found <a href=\"/snackdown/2016\">here</a>.</span></p> </div> <p><b class=\"rules-heading\">Contest Details:</b></p> <div class=\"rules-body\"> <ul class=\"\"> <li><b>Duration: </b>5\u00a0hours</li> <li><b>Start time: </b>19th June 2016, 1930 hrs IST</li> <li><b>End time: </b>20th June 2016, 0030 hrs IST<br />You may check your timezone <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=SnackDown16+Online+Elimination&amp;iso=20160619T1930&amp;p1=44&amp;ah=5\" target=\"_blank\">here</a>.</li> </ul> </div> <div class=\"rules-body\"> <ul class=\"\"> </ul> </div> <p><b class=\"rules-heading\">Eligibility Criteria: </b><span class=\"rules-heading\">Only those who qualified in <a target=\"_blank\" href=\"/SNCKPA16\">SnackDown 2016 Pre-Elimination Round A</a> and <a target=\"_blank\" href=\"/SNCKPB16\">Round B</a> are eligible to take part in this contest.</span></p> <p><b class=\"rules-heading\">Rules and Regulations:</b></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us. </li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>Please contact <a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a> for any queries during the contest.</li> </ul> <p><b class=\"rules-heading\">Judging Criteria:</b></p> <ul class=\"\"> <li><b>All the problems have same points alloted to them.</b></li> <li><b>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time</b></li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error). There is no time consumed for a problem that is not solved.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> </ul> <div class=\"\"><b>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a target=\"_blank\" href=\"/ide\">Online IDE</a>.</b><br /> However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/SNCKEL16/1466233350.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "VCAKE": {
+            "allow_submission": false,
+            "name": "VCake",
+            "category_name": "main",
+            "accuracy": 17.3,
+            "successful_submissions": "1472",
+            "code": "VCAKE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ARITHM": {
+            "allow_submission": false,
+            "name": "Chocolates for Everyone",
+            "category_name": "main",
+            "accuracy": 12.34,
+            "successful_submissions": "1028",
+            "code": "ARITHM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SEGSUMQ": {
+            "allow_submission": false,
+            "name": "Yet Another SubSegment Sum Problem",
+            "category_name": "main",
+            "accuracy": 12.62,
+            "successful_submissions": "100",
+            "code": "SEGSUMQ",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "RWALK": {
+            "allow_submission": false,
+            "name": "Robot Walk",
+            "category_name": "main",
+            "accuracy": 11.13,
+            "successful_submissions": "275",
+            "code": "RWALK",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "NUMSET": {
+            "allow_submission": false,
+            "name": "Jealous Numbers",
+            "category_name": "main",
+            "accuracy": 8.91,
+            "successful_submissions": "122",
+            "code": "NUMSET",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COLTREE": {
+            "allow_submission": false,
+            "name": "Coloring A Tree",
+            "category_name": "main",
+            "accuracy": 46.73,
+            "successful_submissions": "428",
+            "code": "COLTREE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ALLIANCE": {
+            "allow_submission": false,
+            "name": "Alliances",
+            "category_name": "main",
+            "accuracy": 16.67,
+            "successful_submissions": "40",
+            "code": "ALLIANCE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MAZETRAV": {
+            "allow_submission": false,
+            "name": "Right-hand Rule",
+            "category_name": "main",
+            "accuracy": 15.91,
+            "successful_submissions": "20",
+            "code": "MAZETRAV",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CUBTOWER": {
+            "allow_submission": false,
+            "name": "Cube Towers",
+            "category_name": "main",
+            "accuracy": 9.09,
+            "successful_submissions": "11",
+            "code": "CUBTOWER",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537434812,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

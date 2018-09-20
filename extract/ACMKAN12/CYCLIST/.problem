@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": "shilp_adm",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p style=\"text-align:justify\">A cyclist, bored of congested roads, decides that she no longer wants to go the shortest route from her hostel to the college. She has decided that it is safer to follow routes with bicycle lanes. Roads have cycle lanes in both directions - however, they have gaps in their cycle-lane coverage.</p>\n<p style=\"text-align:justify\">For this question, you are given a network of roads. With each road, there is a score, of the percentage of its length supporting a bicycle lane. You can assume that the percentages are unique floating-point values. </p>\n<p style=\"text-align:justify\">The \"safety-factor\" of a path from hostel to college is the least score of a road on that path. You have to compute the path from hostel to college, with the <b>largest</b> safety-factor.</p>\n<h3>Input</h3>\n<p style=\"text-align:justify\">The input consists of several lines. The first line is a number saying how many networks are present in the input. This is followed by lines describing each network. </p>\n<p style=\"text-align:justify\">The first line of each network has a single number (let\u2019s call it v) -- the number of vertices in the network. This is followed by a number of lines, each describing a road. Each road is  given as three numbers separated by spaces - the first two being the nodes connected by the edge, and the third a floating-point number representing the percentage of cycle-lane coverage (between 0 and 100, inclusive). The end of the list of roads for a network is denoted by three \"-1\"s in a line. The college is always assumed to be node 1 and the hostel is always assumed to be the node with the highest index. There is at most one road between any pair of vertices. There is certainly at least one path that connects the hostel and the college.</p>\n<h3>Output</h3>\n<p style=\"text-align:justify\">The output should have several lines. The i-th line describes the safety factor of the i-th network in the input. The output should be within 10<sup>-6</sup> of the answer.</p>\n<h3>Sample Input</h3>\n<pre>\n2\n4\n1 2 4.0\n1 3 7.0\n1 4 1.0\n2 3 5.0\n2 4 3.0\n3 4 2.0\n-1 -1 -1\n4\n1 2 40.0\n1 3 8.0\n1 4 11.0\n2 3 21.0\n3 4 30.0\n-1 -1 -1\n\n</pre><h3>Sample Output</h3>\n<pre>\n3\n21\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-11-2012",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Kanpur Site First Round Online Contest 2012",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1351933200,
+        "end_date": 1351940400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1351940400,
+        "submit_start_date": 1351933200,
+        "current": 1537438669
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "The Adventure of the Solitary Cyclist, II",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>shilp_adm</span>",
+    "problem_author": "admin",
+    "contest_code": "ACMKAN12",
+    "max_timelimit": "3",
+    "problem_code": "CYCLIST"
+}

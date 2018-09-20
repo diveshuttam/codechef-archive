@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Khefu is a highschool student from India. She adores maths. In maths, her favorite topic is number theory. Today, she is playing with the <a href=\"http://en.wikipedia.org/wiki/Greatest_common_divisor\">GCD</a> function.  What she is doing is just randomly picking up a pair of integers <strong>(x,y)</strong> and computing their GCD. She noticed that many times the  <strong>GCD(x,y) </strong> is <strong>1</strong>. Khefu is quite intrigued by these pairs and wanted to count them. </p>\n<p> Given a upper-bound <strong>N</strong>, help khefu to count the number of pair of integers  <strong>(x,y)</strong>  such that <strong> <b>0</b> \u2264 <b>x,y</b> &lt; <b>N</b>\n<p></p></strong> and <strong> GCD(x,y) = 1 </strong> .</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.The first and the only line of each test case contains a single integer denoting the upper-bound <strong>N</strong> as described in the problem statement. </p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each test case, output a single line containing the value of the required count.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10000</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10000000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n3\n\n<b>Output:</b>\n5\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>For the upper bound <b>N = 3.</b> we have exactly <b>5</b> pairs for which the <b>GCD</b> is <b>1</b>: <strong>(0,1),(1,0),<br />\n(1,1),(1,2),(2,1) <strong> </strong></strong></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-09-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Code War 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1380274200,
+        "end_date": 1380447000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1380447000,
+        "submit_start_date": 1380274200,
+        "current": 1537438148
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>Debanjan</span>",
+    "problem_name": "Khefu and GCD",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/Debanjan'>Debanjan</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "Debanjan",
+    "contest_code": "CDWR2013",
+    "max_timelimit": "1",
+    "problem_code": "GPRIME"
+}

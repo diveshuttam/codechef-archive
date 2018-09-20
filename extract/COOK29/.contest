@@ -1,0 +1,87 @@
+{
+    "announcements": "<p><b>23/12/2012, 21:30 IST: </b>The ranking for the contest can be found\u00c2\u00a0<a target=\"_blank\" href=\"/rankings/COOK29\">here</a>.</p>",
+    "ip": "149.129.135.113",
+    "code": "COOK29",
+    "duration": "150",
+    "name": "December Cook-Off 2012",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p>\u00a0</p> <p><b>The December Cook-off has ended.</b></p> <p><span>All the solutions for the problem set are public and the problems will be moved to practice section.</span></p> <p><b>The editorials for the contest can be found <a target=\"_blank\" href=\"/wiki/december%C2%A02012-cook-problem-editorials\">here</a>.</b></p> <p><b><span> </span></b></p> <p><b>The Winners blog </b><b>can be found <a target=\"_blank\" href=\"http://blog.codechef.com/2012/12/24/a-fine-closure-to-the-year/\">here</a>.</b></p> <div><b><br /></b></div> <p>\u00a0</p> <p><b>In case you are a new user, you will need to first register for a CodeChef ID\u00a0<a href=\"/user/register/\">here</a>.</b></p> <p><b><br /></b></p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at\u00a0<a target=\"_blank\" href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></li> <br /> <li>You can also send in your queries in an email to\u00a0<a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a>, during the contest.</li> <br /> <li>Contest problems will become visible on December 23rd, 2012 at 21:30 (IST). There will be 5 problems in all.\u00a0Check your timezone\u00a0<a href=\"http://timeanddate.com/worldclock/fixedtime.html?msg=December+Cook-Off+2012&amp;iso=20121223T2130&amp;p1=44&amp;ah=2&amp;am=30\" target=\"_blank\">here</a>..</li> <br /> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <br /> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <br /> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COOK29/1424957711.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "DIRECTI": {
+            "allow_submission": false,
+            "name": "Reversing directions",
+            "category_name": "main",
+            "accuracy": 52.89,
+            "successful_submissions": "731",
+            "code": "DIRECTI",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "EXGCD": {
+            "allow_submission": false,
+            "name": "Expected Greatest Common Divisor",
+            "category_name": "main",
+            "accuracy": 32.11,
+            "successful_submissions": "34",
+            "code": "EXGCD",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GRIDGAME": {
+            "allow_submission": false,
+            "name": "Game on a Grid",
+            "category_name": "main",
+            "accuracy": 3.85,
+            "successful_submissions": "1",
+            "code": "GRIDGAME",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TREEROOT": {
+            "allow_submission": false,
+            "name": "Root of the Problem",
+            "category_name": "main",
+            "accuracy": 13.55,
+            "successful_submissions": "81",
+            "code": "TREEROOT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MUFFINS3": {
+            "allow_submission": false,
+            "name": "Packaging Cupcakes",
+            "category_name": "main",
+            "accuracy": 62.58,
+            "successful_submissions": "1014",
+            "code": "MUFFINS3",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1356287400,
+        "current": 1537438602,
+        "freezing": 0,
+        "start": 1356278400
+    },
+    "user": {
+        "username": ""
+    }
+}

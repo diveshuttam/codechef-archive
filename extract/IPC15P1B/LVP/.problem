@@ -1,0 +1,33 @@
+{
+    "problem_code": "LVP",
+    "problem_author": "blunderspride",
+    "contest_name": "ICPC Preparatory Series by Team BlundersPride",
+    "todo": false,
+    "problem_author_html_handle": "blunderspride",
+    "problem_name": "Creepy Bob",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "IPC15P1B",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/blunderspride'>blunderspride</a>, <a class='problem-tag-small ' href='/tags/problems/dfs'>dfs</a>, <a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/graph'>graph</a>, <a class='problem-tag-small ' href='/tags/problems/ipc151b'>ipc151b</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nAlice and Bob go to the same college in ByteLand. Each day Bob walks Alice to her home after college. Today being the last day of college, he wants to spend maximum time with her.\n</p>\n\n<p>\nByteLand is made up of <b>N</b> points(numbered 0 to <b>N</b> - 1) where point 0 is the location of her college. Alice lives just outside the Byteland at point <b>X</b>(represented by index -1). One special thing about all the points in the city is that all of them have exactly one outbound road from them which may lead to any of the other points or they may lead to the point <b>X</b>. Some roads are mysterious too as they may lead back to themselves in a self-loop making a person stuck there as there is no other road going out. There are no bidirectional roads in ByteLand.\n</p>\n\n<p>\nBob knows that Alice will get very angry if he repeats the same road twice or visits the same point twice on their way home. She has a good memory and remembers each road she walked. None of his tricks will work. He decides to pray to God to grant him a wish. God pleased with his prayers grants him the power to redirect the road leading out from <b>atmost</b> one of the points <b>u</b> \u2208 <b>[0, N - 1]</b> and direct it to any other point of his choice(including <b>X</b>).\n</p>\n\n<p>\nHe wants to know what is the maximum length path he can create such that path  starts at 0 and ends at <b>X</b> so that he can maximize the time he gets to spend with Alice. You may assume that travelling each road takes one minute. Also, you may assume that they spend no time waiting at a point. Can you help him? </p>\n\n<h3>Input</h3>\n\n<p>\nThe first line of input has the number of test cases <b>T</b>.  <br>\nThe first line of each test case has the number of points <i>i.e.</i> <b>N</b>.\n<br>\nThe second line of each test case consists of <b>N</b> space separated integers <b>x<sub>0</sub>, x<sub>1</sub>, ..., x<sub>N - 1</sub></b>, denoting that there is a road leading out of <b>i</b> and ending at <b>x<sub>i</sub></b>.\nIf a road leads to Alice's home <i>i.e.</i> point <b>X</b>, then the corresonding <b>x<sub>i</sub></b> value will be <b>-1</b>.\n</p>\n\n\n<h3>Output</h3>\n\n<p>\nFor each test case output the maximum number of minutes he spends with Alice, in one line.\n</p>\n\n<h3>Constraints</h3>\n\n<ul>\n    <li>1 \u2264 <b>T</b> \u2264 5</li>\n    <li>1 \u2264 <b>N</b> \u2264 5*10<sup>5</sup></li>\n    <li>1 \u2264 Sum of <b>N</b> over all tests</b>  \u2264 5*10<sup>5</sup></li>\n\n</ul>\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n4\n-1 -1 -1 -1\n4\n1 2 3 -1\n\n<b>Output:</b>\n2\n4\n\n</pre>\n\n<h3>Explanation:</h3>\n<p>\nTest case 1 : All roads lead to Alice's house; the way to maximise time is to redirect the road coming out from 0 to point to 1 or 2 or 3. This way, Bob will travel through two roads before reaching Alice's home. <br>\nTest case 2 : The set-up of roads is optimal. He will spend 4 minutes with Alice before she reaches her home.\n</p>\n<p>\n<b>Note</b>: Large input files. Use scanf/printf in C++.\n</p>",
+    "category_name": "main",
+    "date_added": "1-10-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/LVP",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1448724600,
+        "end_date": 1448746200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1448746200,
+        "submit_start_date": 1448724600,
+        "current": 1537435793
+    },
+    "user": {
+        "username": ""
+    }
+}

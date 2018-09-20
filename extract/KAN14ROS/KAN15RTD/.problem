@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Leonardo Da Vinci has entered a fort which has N catacombs numbered from 1 to N . A cat-<br />\nacomb is an underground cemetery consisting of a subterranean gallery. His aim is to destroy<br />\neach of the N catacombs, as quickly as possible.</p>\n<p>The catacombs have a special structure. The catacombs are built in layers, with exactly one<br />\ncatacomb (numbered 1) in the topmost layer (layer number 1). If a catacomb is in the i<sup>th</sup> layer,<br />\nit will have exactly one passage to one of the catacombs in the (i \u2212 1)<sup>th</sup> layer. Also, from each<br />\ncatacomb, there is exactly one way out, which is to keep going to the above layers till you reach<br />\nthe top layer. In graph theory terms, the catacombs structure is a tree rooted at vertex number<br />\n1.</p>\n<p>Just before he was going to destroy the catacombs, his apprentice sent him a few messages<br />\nwith the information of the catacombs that have kids in them. Each message contains the<br />\nnumber of the catacomb that has a kid inside it. Leonardo must not destroy any catacomb<br />\nthat would lead to a kid being trapped inside the fort. Leonardo has to find out how many<br />\ncatacombs he can destroy without trapping a kid inside.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line contains a single integer T , denoting the number of testcases.<br /><br />\nEach testcase starts with a single integer N , denoting the number of catacombs.<br /><br />\nEach of the next N \u2212 1 lines contains 2 numbers A and B indicating that there is a passage between catacomb number A and B.<br /><br />\nNext line contains M , the number of messages Leonardo got from his apprentice, followed by M lines each containing an integer indicating the number of the catacomb that has a kid inside it.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each message, print the number of catacombs that Leonardo can destroy without trapping any of the kids mentioned so far in the messages.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N, M</b> \u2264 <b>50000</b></li>\n<li><b>1</b> \u2264 <b>A, B</b> \u2264 <b>N</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Sample</h3>\n<pre><b>Input:</b>\n1\n2 \n1 2\n2\n2\n1\n\n<b>Output:</b>\n0\n0\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>The above system of catacombs have catacomb number 1 in layer 1 and catacomb number 2 in layer 2.<br />\nFirst message says that there is an kid in catacomb 2. Hence none of the catacombs can be destroyed (else the kid gets trapped).<br />\nIn the second message, another kid is reported in catacomb 1. Still, none of the catacombs can be destroyed. Hence answer after each message is 0.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "31-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Kanpur Onsite Contest 2014, Replay",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1427981400,
+        "end_date": 1427999400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1427999400,
+        "submit_start_date": 1427981400,
+        "current": 1537436445
+    },
+    "problem_author_html_handle": "pnkjjindal",
+    "problem_name": "Save the kids",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pnkjjindal'>pnkjjindal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pnkjjindal",
+    "contest_code": "KAN14ROS",
+    "max_timelimit": "3",
+    "problem_code": "KAN15RTD"
+}

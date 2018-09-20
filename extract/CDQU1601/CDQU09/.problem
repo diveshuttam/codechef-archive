@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Aadil wants to code a message for his girlfriend so he wants your help.<br /> Replace every character by its position in alphabet sequence to the power 2, separate every alphabet in a word by '-' symbol and separate every word in a sentence by '$'.</p>\n<p>The position of string is 0 index based.All the alphabets will be in small letters.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <strong>T</strong> denoting the number of test cases. The description of <strong>T</strong> test cases follows.</li>\n<li>Each test case contain a single string i-e \u00a0<strong>message</strong>\u00a0to be coded<strong>\u00a0</strong></li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing the string i.e\u00a0<strong>CodedMessage</strong></li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<p>\u00a0</p>\n<ul>\n<li><strong>1</strong>\u00a0\u00a0\u2264<strong>T</strong>\u2264<strong>100</strong></li>\n<li><strong>1</strong> \u2264 <strong>|message|</strong>\u00a0\u2264<strong>10^5</strong></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><strong>Input:<br /></strong>1\nabcde fgh ijkl\n\n<strong>Output:</strong>\n0-1-4-9-16$25-36-49$64-81-100-121</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-04-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Codervation qualifiers",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1460104200,
+        "end_date": 1460140200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1460140200,
+        "submit_start_date": 1460104200,
+        "current": 1537434981
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>kripa432</span>",
+    "problem_name": "Code the message",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kripa432'>kripa432</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kripa432",
+    "contest_code": "CDQU1601",
+    "max_timelimit": "1",
+    "problem_code": "CDQU09"
+}

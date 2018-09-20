@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">\nSheldon cooper is a brilliant physicist. He is proud of getting PhD at the age of 16. His engineer friend howard wolowitz gave him a situation and tells him to code for it.\n</p>\n<p align=\"justify\">\n\u201cIn pinball game, there is N number of players (A0, A1\u2026 AN-1) and each one have been assigned a place and each player is a part of any team. The player of same team have been numbered same but assigned at different position. Sheldon have to find the pairs of position (i,j) where player of same team is positioned. Also Sheldon has to count the total number of pairs (i,j) such that Ai=Aj and i\u2260j.\u201d\n</p>\n<p align=\"justify\">\nAs Sheldon is a physicist and don\u2019t know about coding he asked for help online. Can you help Sheldon to prove himself brilliant?\n</p>\n<h3>Input</h3>\n<p align=\"justify\">\nThe first line contains T, the number of test cases. T test cases follow. \nEach test case consists of two lines; the first line contains an integer N, the size of array, while the next line contains N space separated integers.\n</p>\n<h3>Output</h3>\n<p>\nFor each test case, print the required answer on a different line.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>A[i]</b> \u2264 <b>10^6</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3\n1 2 3\n3\n1 1 2\n<b>Output:</b>\n0\n2\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-03-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Codiyapa",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1489829400,
+        "end_date": 1489915800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1489915800,
+        "submit_start_date": 1489829400,
+        "current": 1537433999
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>rohit74</span>",
+    "problem_name": "Sheldon And Wolowitz",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rohit74'>rohit74</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rohit74",
+    "contest_code": "PRCD1701",
+    "max_timelimit": "1",
+    "problem_code": "COD417"
+}

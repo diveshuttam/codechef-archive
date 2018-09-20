@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<h1>X Word</h1>\n<p>A crossword puzzle is a rectangular grid. It consists of grey and red square grids and two lists of descriptions. One list of descriptions is for \"words\" to be written across grey squares from left to right in the rows and the other list is for words to be written from top to bottom of the grey squares in the columns. One writes the words corresponding to the descriptions on the grey squares of the grid to solve a crossword puzzle. The descriptions relate to the rectangular grid according to sequential integers on grey squares which are deemed \"eligible\". <b>Grey squares are deemed \"eligible\" if they have red squares immediately to the left or above them.</b> Even those Grey squares are deemed \"eligible\" which have no squares either immediately to the left or above. No other squares are numbered. All of the squares on the first row are numbered. The numbering starts with 1 and continues consecutively from left to right of the grey squares of the first row, then from left to right of the eligible grey squares of the second row, then from left to right of the eligible grey squares of the third row and so on across all of the rest of the rows of the puzzle. The picture below illustrates a rectangular crossword puzzle grid with appropriate numbering.</p><p>\nOn a sequence of grey squares, in a row starting on a numbered square that does not follow another grey square in the same row , an \"left to right\" word for a description is written. The sequence of grey squares for that word goes from left to right of the row of the numbered square, ending immediately before the next red square in the row or in the rightmost square of the row.</p><p>\nOn a sequence of grey squares, in a column starting on a numbered square that does not follow another grey square in the same column, A 'top to bottom' word for a description is written. The sequence of grey squares for that word goes from the top to bottom of the column of the numbered square, ending immediately before the next red square in the column or in the bottom square of the column. Every grey square in a correctly solved puzzle contains a letter.</p><p>\nYou must write a program that takes several solved crossword puzzles as input and outputs the lists of 'left to right' and 'top to bottom' words which constitute the solutions.\n</p>\n\n<h3>Input</h3>\n<p>Each input starts with a line containing two integers r and c (1< r <10 and 1< c <10), where r (the first number) is the number of rows in the puzzle and c (the second number) is the number of columns. <br>The r rows of input which follow each contain c characters (excluding the end-of-line) which describe the solution. Each of those c characters is an alphabetic character which is part of a word or the character \"*\", which indicates a red square. <br>The end of input is indicated by a line consisting of the single number 0.</p>\n\n<h3>Output</h3>\n<p>Output consists the list of 'left to right' words followed by the list of 'top to bottom' words. Words in each list must be output one-per-line in increasing order of the number of their corresponding descriptions. <br>The heading for the list of left to right words is \"Left to right\". <br>The heading for the list of top to bottom words is \"Top to bottom\".<br> In the case where the lists are empty (all squares in the grid are red), the Left to right and Top to bottom headings should still appear.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n6 7\nAIM*DEN\n*ME*ONE\nUPON*TO\nSO*ERIN\n*SA*OR*\nIES*DEA\n0\n\n\n<b>Output:</b>\nLeft to right\n1.AIM\n4.DEN\n7.ME\n8.ONE\n9.UPON\n11.TO\n12.SO\n13.ERIN\n15.SA\n17.OR\n18.IES\n19.DEA\nTop to bottom\n1.A\n2.IMPOSE\n3.MEO\n4.DO\n5.ENTIRE\n6.NEON\n9.US\n10.NE\n14.ROD\n16.AS\n18.I\n20.A\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-09-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Insomnia 2010",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1283538600,
+        "end_date": 1283625000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1733529491,
+        "submit_start_date": 1283538600,
+        "current": 1537439538
+    },
+    "problem_author_html_handle": "xpurgate",
+    "problem_name": "Problem3",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/xpurgate'>xpurgate</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "xpurgate",
+    "contest_code": "INSOMNIA",
+    "max_timelimit": "6",
+    "problem_code": "AX03"
+}

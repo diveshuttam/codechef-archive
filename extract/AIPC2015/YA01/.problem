@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h2>Problem description.</h2>\n<p>\nPriyank is a very big fan of Java and loves to solve his programming questions using it.<br /><br />\nBut as Java is a slow language he faces the problem of TLE(time limit exceed) while solving many problems. Problem setters like Yatharth always set a TIME LIMIT which is difficult to satisfy in Java. To take revenge on Yatharth, Priyank decides to give him a problem which Yatharth wont be able to solve.<br />\n<br /><br /><br />\n<b>Problem:</b> A number N is given, in how many ways it can be formed as a sum of numbers which are powers of 2?<br />\n<br /><br /><br />\nAs Priyank knows that the above problem has been solved partially by Yatharth so in order to increase the difficulty for Yatharth, Priyank decides to change the definition. Instead of powers of 2, he decides to ask for powers of some random number M. So, the modified problem becomes,<br />\n<br /><br /><br />\n<b>Modified Problem:</b> In how many ways a number N, can be formed as sum of numbers which are power of the m?<br />\n<br /><br /><br />\nYour task is to help Yatharth solve this question.  <br />\n</p>\n<h3>Input:</h3>\n<pre>First line contains total number of test cases(T).\nFor next T lines, each line contains two number n and m separated by space.</pre><h3>output:</h3>\n<pre>For each test cases print one line containing total number of ways.</pre><h3>constraints :</h3>\n<pre>\n0 &lt;= n &lt;= 10000\n0 &lt; m &lt;= 10000\n</pre><h3>Sample test Cases:</h3>\n<h3>Sample input:</h3>\n<pre>\n3\n5 2\n6 2\n6 3\n</pre><h3>Sample output:</h3>\n<pre>\n4\n6\n3\n</pre><h3>Explanation of sample test cases.</h3>\n<pre>\n1) 5 can be formed by adding\n\t1, 1, 1, 1, 1\n\t1, 1, 1, 2\n        1, 2, 2\n\t1, 4\n2) 6 can be formed by adding\n\t1, 1, 1, 1, 1, 1\n\t1, 1, 1, 1, 2\n        1, 1, 2, 2\n\t2, 2, 2\n\t1, 1, 4\n\t2, 4\n3)  6 can be formed by adding\n\t1, 1, 1, 1, 1, 1\n\t1, 1, 1, 3\n\t3, 3\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-09-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Code-Adda Practice Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1445779800,
+        "end_date": 1445797740,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1445797740,
+        "submit_start_date": 1445779800,
+        "current": 1537435865
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>priyank_coder</span>",
+    "problem_name": "priyank and his revenge",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/priyank_coder'>priyank_coder</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "priyank_coder",
+    "contest_code": "AIPC2015",
+    "max_timelimit": "2",
+    "problem_code": "YA01"
+}

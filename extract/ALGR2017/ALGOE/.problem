@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Sara is fond of green apples.  Her mom has kept <b>\u201cn\u201d</b> baskets on the table, which contains a total of <b> \u201cr\u201d</b> red and <b>\u201cg\u201d</b> green apples. However Sara is blindfolded, so she randomly chooses a basket and randomly draws an apple from it. Your task is to distribute all the apples, and tell the <b>maximum</b> number of apples that can be kept in a basket in such a way that the probability of drawing a <b>green</b> apple from the baskets is the <b>maximum</b>.\n<br><br><b>Note: None of the baskets should be kept empty.</b>\n</p>\n\n<h3>Input</h3>\n<ul>\n<li>First line consists of an integer <b>\u201cT\u201d</b>, denoting number of test cases.</li>\n<li>Each test case consists of 3 space separated integers <b>\u201cn\u201d</b>, <b>\u201cr\u201d</b> and <b>\u201cg\u201d</b>, denoting the total number of baskets, red apples and green apples respectively.</li>\n</ul>\n\n<h3>Output</h3>\n<p>Print a single integer <b>\u201cm\u201d</b> denoting the maximum number of apples in the <b>n</b> baskets such that probability of drawing a green apple is also the maximum, in a separate line.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>1000</b></li>\n<li><b>0</b> \u2264 <b>r, g</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>(r+g)</b></li>\n</ul>\n<br>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2 1 1\n2 1 2\n<br><b>Output:</b>\n1\n2\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> For the 1st test case, keeping the red apple in one basket and the green apple in the other gives the maximum probability of drawing green apple -> \u00bd*1 + \u00bd*0 = \u00bd </p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-02-2017",
+    "is_direct_submittable": false,
+    "contest_name": "ALGORITHMIST",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1488209400,
+        "end_date": 1488220200,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1488220200,
+        "submit_start_date": 1488209400,
+        "current": 1537434087
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>rohit_0801</span>",
+    "problem_name": "Green Apple",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rohit_0801'>rohit_0801</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rohit_0801",
+    "contest_code": "ALGR2017",
+    "max_timelimit": "1",
+    "problem_code": "ALGOE"
+}

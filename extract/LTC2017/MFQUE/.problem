@@ -1,0 +1,33 @@
+{
+    "problem_code": "MFQUE",
+    "problem_author": "bigo_admin",
+    "contest_name": "BigO v-3.0",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>bigo_admin</span>",
+    "problem_name": "Mindfire & its Employees",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "LTC2017",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bigo_admin'>bigo_admin</a>, <a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/sqrt-decomp'>sqrt-decomp</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\n<b><a href=http://www.mindfiresolutions.com/>Mindfire Solutions Ltd.</a></b> wants to judge its employees based on their performance. You are given the list of an employee\u2019s monthly performance details in form of an array from the day he started.<br>\n<b>Mindfire</b> wants you to analyse the progress from <b>L<sup>th</sup></b> month to <b>R<sup>th</sup></b> month. The progress is calculated as follows:-<br>\n\t\t1.\tSort the performance array from the interval <b>L to R</b><br>\n\t\t2.\tCalculate the sum of squared differences of consecutive elements. \t\t                  \n\t<br>i.e. <b>(S[2]-S[1])<sup>2</sup> + (S[3]-S[2])<sup>2</sup> + (S[4]-S[3])<sup>2</sup> + ........ + (S[R-L+1]-S[R-L])<sup>2</sup>.</b>\n</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>N</b> denoting the number of months the employee has worked.</p>\n<p>The second line contains <b>N</b> space separated non-negative integers denoting the monthly performance.</p>\n<p>The third line contains an integer <b>Q</b> denoting the number of queries.</p>\n<p>Each of the following <b>Q</b> lines contains two space separated integers <b>L</b> and <b>R</b> denoting the start and end month of period of analysis.</p>\n<h3>Output</h3>\nFor Each Query output one integer in a newline \u2013 the result of progress analysis for the corresponding period.\n<h3>Constraints</h3>\n<ul><b>\n<li>1 \u2264 N, Q \u226410<sup>3</sup>\n<li>0 \u2264 A[i] \u226410<sup>3</sup>\n</ul></b>\n<h3>Example</h3>\n<b>Input:</b><br>\n6<br>\n6 8 2 10 3 2<br> \n4<br>\n2 6<br>\n1 6<br>\n2 5<br>\n1 2<br><br>\n<b>Output:</b><br>\n30<br>\n18<br>\n30<br>\n4<br>\n<h3>Explanation:</h3>\n<b>The first query:</b> sorted array looks like <b>(2, 2, 3, 8, 10)</b> and the answer is calculated as <br><b>(2-2)<sup>2</sup> + (3-2)<sup>2</sup> + (8-3)<sup>2</sup> + (10-8)<sup>2</sup> = 30</b><br><br>\n<b>The second query:</b> sorted array looks like <b>(2, 2, 3, 6, 8, 10)</b> and the answer is calculated as <b>(2-2)<sup>2</sup> + (3-2)<sup>2</sup> + (6-3)<sup>2</sup> + (8-6)<sup>2</sup> + (10-8)<sup>2</sup> = 18</b><br><br>\n<b>The last query:</b> sorted array looks like <b>(6, 8)</b> and the answer is calculated as <b>(8-6)<sup>2</sup> = 4</b>\n",
+    "category_name": "main",
+    "date_added": "11-01-2017",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/MFQUE",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1484312400,
+        "end_date": 1484323200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1484323200,
+        "submit_start_date": 1484312400,
+        "current": 1537434235
+    },
+    "user": {
+        "username": ""
+    }
+}

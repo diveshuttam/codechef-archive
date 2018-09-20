@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Decepticons have also learned about the network on which we rely upon. They have known that human-created network and computers work only on binary information, either 0 or 1. Due to this, these highly advance species are trying to uncover each and every message sent between computers by human. Our each and every strategy to fight them back is already unrevealed to them. However &ldquo;Data compression&rdquo; technique is still a reliable method that cannot be decoded by them. This increases effective data density and speeds up data transfer rates. One possible method to compress any binary message is the following: Replace any maximal sequence of n 1's with the binary version of n whenever it shortens the length of the message. \nFor example, the compressed form of the data 11111111001001111111111111110011 becomes 10000010011110011. The original data is 32 bits long while the compressed data is only 17 bits long. \nThe drawback of this method is that sometimes the decompression process yields more than one result for the original message, making it impossible to obtain the original message. Write a program that determines if the original message can be obtained from the compressed data when the length of the original message (L), the number of 1's in the original message (N) and the compressed data are given. The original message will be no longer than 16 Kbytes and the compressed data will be no longer than 40 bits. \n\n\n<h3>Input</h3>\n<p>The input file contains several test cases. Each test case has two lines. The first line contains L and N and the second line contains the compressed data. The last case is followed by a line containing two zeroes. \n\n<h3>Output</h3>\n<p>For each test case, output a line containing the case number (starting with 1) and a message YES, NO or NOT UNIQUE. YES means that the original message can be obtained. NO means that the compressed data has been corrupted and the original message cannot be obtained. NOT UNIQUE means that more than one message could have been the original message. Follow the format shown in the sample output.\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n32 26\n10000010011110011\n\n<b>Output:</b>\nYES\n<b>Input:</b>\n9 7\n1010101\n<b>Output:</b>\nNOT UNIQUE\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "TechTrishna 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1331706600,
+        "end_date": 1331760600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1331760600,
+        "submit_start_date": 1331706600,
+        "current": 1537438881
+    },
+    "problem_author_html_handle": "bestankur007",
+    "problem_name": "Compress the bits for bots",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bestankur007'>bestankur007</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bestankur007",
+    "contest_code": "TCTR2012",
+    "max_timelimit": "0.2",
+    "problem_code": "NOPC5"
+}

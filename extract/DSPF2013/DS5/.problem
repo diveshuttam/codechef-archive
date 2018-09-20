@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p><html><br />\n<body></body></html></p>\n<h3>Background</h3>\n<p>\nDuring the  Electricity cutoff in United States  this winter (caused by low leves of  the hydro dams), a  scheme was developed to turn off the Electricity to areas of the country in a particular sequence, totally fair, manner. The country was divided into N regions (LA  was region number 1, and NYC number 13). A number ,k, would be picked `at random', and the Electricity would first be turned off in region 1 (clearly the fair at starting point) and then in every k'th region after that, wrapping around to 1 after N, and ignoring regions already turned off.<br />\nThe problem is that it is perfectly fair to turn off  electricity of NYC in  last (because, the Electricity headquarters are situated there), so for a given N, the `random' number k needs to be carefully chosen so that region 13 is the last region selected.<br />\nWrite a code that will take a input number of regions and then find out the smallest number k that will ensure that NYC (region 13) can have electricity  while the rest of the country is in electricity cutoff.\n </p>\n<h3>Input</h3>\n<p>In each line input consists of a integer N (greater than or equal to 13) and input will be terminated by a line containing 0.\n</p>\n<h3>Output</h3>\n<p>\nOutput may have a single line or a series of lines, one for each line of the input. Each line will consist of the number k according to the above scheme.</p>\n<h3>Constraints</h3>\n<p>\nNumber of regions (13&lt;=N&lt;=100)\n</p>\n<h3>Sample Input</h3>\n<pre>\n17<br/>\n18<br/>\n0</br/></br/></pre><h3>Sample Output\n<pre>7<br/>\n17\n</br/></pre><p><br />\n</p>\n</h3>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "./EXECEUTE Prefest contest",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1360567800,
+        "end_date": 1360827000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1671662610,
+        "submit_start_date": 1360567800,
+        "current": 1537438516
+    },
+    "problem_author_html_handle": "opengeest",
+    "problem_name": "Electricity Cutoff",
+    "source_sizelimit": "5000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/opengeest'>opengeest</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "opengeest",
+    "contest_code": "DSPF2013",
+    "max_timelimit": "0.575143",
+    "problem_code": "DS5"
+}

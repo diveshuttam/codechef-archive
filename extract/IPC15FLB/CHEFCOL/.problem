@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Problem Statement </h3>\n<br><br>\nChef and his brother Bakku has <b>N</b> balls each. It is also known that both of them also have equal number of distinct colored balls.\nThere are <b>2</b> special balls, out of which any one is randomly given to Chef and other is given to Bakku.\n<br>\nHelp Chef to find number of ways to color all 2*N+2 balls with <b>K</b> colors before distributing special balls so that both of them have equal number of distinct balls for any distribution of special balls.\n<br><br>\n<b>Note:</b> For any distribution of Special balls both must have equal number of distinct colored balls.\n\n<br>\n<br>\n<h3> Constraints </h3><br>\n<b>1</b> <= <b>N</b> <= <b>1000</b> <br>\n<b>1</b> <= <b>K</b> <= <b>1000000</b> <br>\n\n<h3>Input Format </h3><br>\nA Single line containing of 2 integers <b>N</b> and <b>K</b>.\n<br>\n\n<h3> Output Format </h3> <br>\nPrint the number of ways of coloring so that given constraint is satisfied modulo <b>1000000007</b>. <br>\n\n<h3>Sample </h3>\n<br>\n<b>Input</b><br><br>\n2 1<br>\n<br>\n<b>Output</b><br><br>\n1<br>\n<br>\n<b>Input</b><br><br>\n2 2<br>\n<br>\n<b>Output</b><br><br>\n24<br>\n<br>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Skull Crackers",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1475310600,
+        "end_date": 1475328600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1475328600,
+        "submit_start_date": 1475310600,
+        "current": 1537434528
+    },
+    "problem_author_html_handle": "skullcrackers",
+    "problem_name": "Chef And Colors",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/ipc15flb'>ipc15flb</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/skullcrackers'>skullcrackers</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "skullcrackers",
+    "contest_code": "IPC15FLB",
+    "max_timelimit": "2",
+    "problem_code": "CHEFCOL"
+}

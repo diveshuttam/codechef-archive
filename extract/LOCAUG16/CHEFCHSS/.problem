@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nChef Hari has got a new obsession now: he has started playing chess (read about it <a href=\"https://en.wikipedia.org/wiki/Chess\">here</a>) and he is liking this game very much. Since Hari has spent several months playing chess with his friends, he has now decided to take part in some chess tournament in Cheftown.\n</p>\n<p>\nThere are currently two tournaments going on in Cheftown and each tournament has its own entry fee. Due to this economical restriction and his budget, Hari can take part in <b>only one</b> tournament.\n</p>\n<p>\nThe entry fee for first tournament is <b>F<sub>1</sub></b> units of money. The structure of tournament is as follows: first there will be group matches and then there will be finals. If Hari reaches in finals and wins it, he'll get <b>R<sub>1</sub></b> units of money. If after reaching in finals, Hari loses, he'll get <b>R<sub>2</sub></b> units of money. If Hari fails to reach in finals, he'll get nothing. The probability of reaching in finals of first tournament for Hari is <b>p<sub>1</sub></b> and probability of winning in finals after reaching is <b>p<sub>2</sub></b>.\n</p>\n<p>\nThe entry fee for second tournament is <b>F<sub>2</sub></b> units of money. The structure of tournament is as follows: first there will be group matches and then there will be finals. If Hari reaches in finals, he'll immediately get <b>R<sub>3</sub></b> units of money, otherwise he'll get nothing. If after reaching in finals, Hari wins, he'll get <b>R<sub>4</sub></b> units of money. The probability of reaching in finals of second tournament for Hari is <b>p<sub>3</sub></b> and probability of winning in finals after reaching is <b>p<sub>4</sub></b>.\n</p>\n<p>\nNow, Hari wants to maximise his profit. He wants to know which tournament he should participate in such that his expected profit is maximised. Help Hari in deciding this.\n</p>\n<p>\n<b>Note:</b>\nIn the tournaments of Cheftown, the game never ends with a draw. So, either Hari wins a game, or he loses.\n</p>\n\n<h3>Input</h3>\n<p>\nFirst line of the input contains <b>T</b>, the number of test cases. The description of each test case is as following:\n</p>\n<p>\nFirst line of each test case contains <b>6</b> integers <b>F<sub>1</sub></b>, <b>F<sub>2</sub></b>, <b>R<sub>1</sub></b>, <b>R<sub>2</sub></b>, <b>R<sub>3</sub></b> and <b>R<sub>4</sub></b>.\n</p>\n<p>\nNext line of each test case contains <b>4</b> floating point numbers <b>p<sub>1</sub></b>, <b>p<sub>2</sub></b>, <b>p<sub>3</sub></b> and <b>p<sub>4</sub></b>.\nEach number has exactly <b>2</b> digits after decimal point.\n</p>\n\n<h3>Output</h3>\n<p>\nFor each test case, output a single line having \"FIRST\" if expected profit of first tournament is maximum or \"SECOND\" if expected profit of second tournament is maximum or \"BOTH\" if expected profits of both the tournaments is exactly same.\n</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>F<sub>1</sub>, F<sub>2</sub>, R<sub>1</sub>, R<sub>2</sub>, R<sub>3</sub>, R<sub>4</sub></b> \u2264 <b>100</b></li>\n<li><b>0.00</b> \u2264 <b>p<sub>1</sub>, p<sub>2</sub>, p<sub>3</sub>, p<sub>4</sub></b> \u2264 <b>1.00</b></li>\n</ul>\n\n<h3>Subtasks</h3>\n<p>\n<b>Subtask#1: 30 points</b>\n<ul>\n<li><b>p<sub>1</sub></b> = <b>p<sub>3</sub></b> and <b>p<sub>2</sub></b> = <b>p<sub>4</sub></b></li>\n</ul>\n</p>\n\n<p>\n<b>Subtask#2: 70 points</b>\n<ul>\n<li>All usual constraints.</li>\n</ul>\n</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n30 50 70 10 40 30\n0.25 0.10 0.30 0.05\n50 36 80 38 65 32\n0.55 0.12 0.33 0.54\n\n<b>Output:</b>\nFIRST\nSECOND\n</pre>\n\n<h3>Explanation</h3>\n<p>\nIn the first case, the expected profit for first tournament is -26.00 and expected profit for second tournament is -37.55. So, first tournament has better expected profit.\n</p>\n<p>\nIn the second case, the expected profit for first tournament is -26.328 and expected profit for second tournament is -8.8476. So, second tournament has better expected profit.\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "August LoC Competitive Programming Marathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1472778190,
+        "end_date": 1473100140,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1473100140,
+        "submit_start_date": 1472778190,
+        "current": 1537434636
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>m_17</span>",
+    "problem_name": "Chef and Chess Tournaments",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/m_17'>m_17</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "m_17",
+    "contest_code": "LOCAUG16",
+    "max_timelimit": "1",
+    "problem_code": "CHEFCHSS"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Demonetization has made a tumultuous situation in stock market, which is responsible for recent layoffs in Information Technology jobs.</p>\n\n<p>Due to this, a technology company CF headed by CEO Praveen decided to layoff some people, specifically they can lay off only <b>at most four</b> people, other wise there will be a sad sentiment among the employers of the company that can effect its growth.</p>\n\n<p>There are total <b>N</b> employees in CF. The positions of the desks of these employees is given to you by the points in 2-D plane. As you know desk sizes are usually very small, thus we represent them by points in plane.</p>\n\n<p>CF uses a central wifi router for providing internet connection to its employees. Its cost to company will be equal to radius in which connectivity is needed.</p>\n\n<p>CEO would like to minimize the cost to company by laying off these employees. Can you please help the crooked but smart CEO? Find out the minimum cost of wifi needed.</p>\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>\n<p>The first line of each test case contains a single integer <b>N</b> denoting the number of employees in CF. Next <b>N</b> lines contain two space-separated real numbers <b>x</b> and <b>y</b> each, denoting the co-ordinate of the desks of <b>i</b>-th of the employee in the Cartesian plane.</p>\n\n<h3>Output</h3>\n<p>For each test case, output a single line containing three space separated real numbers <b>c<sub>x</sub></b>, <b>c<sub>y</sub></b> and <b>r</b>. First two numbers denote co-ordinates of the location of the wifi router and <b>r</b> denotes the radius of the connectivity of wifi.</p>\n<p>If there are multiple locations of wifi router possible, print any.</p>\n\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>17</b></li>\n<li><b>6</b> \u2264 <b>N</b> \u2264 <b>51</b></li>\n<li><b>-12973.1213</b> \u2264 <b>x, y</b> \u2264 <b>19291.9199</b></li>\n<li>Output should follow : <b>-1000000</b> \u2264 <b>c<sub>x</sub>, c<sub>y</sub>, r </b> \u2264 <b>1000000</b></li>\n<li>All the real numbers in the input will have a decimal point, <b> exactly</b> 4 digits after the decimal point and <b>non zero</b> number of digits before the decimal point (i.e., inputs such as <b>.2349</b> will not be given but it may be given like <b>0.2349</b>).</li>\n<li>Distance between any two given points will be greater than or equal to<b> 0.01</b> units. </li>\n<li>Output real number <b>r</b> will be acceptable if its within <b>absolute or relative</b> error of <b>10<sup>-6</sup></b> with the judge's answer. A point will be considered inside the circle even if it is actually outside but its distance from the circle is less than <b>10<sup>-6</sup></b> units.</li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n6\n0.0000 0.0000\n2.0000 0.0000\n2.0000 2.0000\n0.0000 2.0000\n1.0000 -10.0000\n1.0000 10.0000\n7\n0.0000 0.0000\n2.0000 0.0000\n2.0000 2.0000\n0.0000 2.0000\n1.0000 -10.0000\n1.0000 10.0000\n10.0000 1.0000\n\n<b>Output:</b>\n1.0000000000 0.0000000000 1.0000000000\n1.0000000000 1.0000000000 1.4142135624\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-India Finals Mirror Contest 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1483075800,
+        "end_date": 1483093800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1794096967,
+        "submit_start_date": 1483075800,
+        "current": 1537434252
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "WiFi Expenses",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin3",
+    "contest_code": "INF16MOS",
+    "max_timelimit": "1",
+    "problem_code": "INF16L"
+}

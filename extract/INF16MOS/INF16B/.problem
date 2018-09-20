@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nYou are the most notorious criminal in <b>Gwalior</b>. You've decided that you're going to rob\nhard working employees of <b>CF</b>, a famous Tech company in the city.\n</p>\n\n<p>\nThere are <b>N</b> people working in <b>CF</b>. The employees working here are conveniently numbered from <b>1</b> to <b>N</b>. Furthermore, each employee except <b>Praveen</b>, the <b>CEO</b>, has exactly <b>1</b> manager that he/she has to report to regularly. We denote the manager of the <b>ith</b> employee as <b>M<sub>i</sub></b>. <b>M<sub>i</sub> = 0</b> denotes that the <b>ith</b> employee is the CEO(Praveen). Each employee also has a salary (in rupees), which is denoted by <b>S<sub>i</sub></b>. We also define another term, <b>SUB<sub>i</sub></b>, which denotes the set of employees that are subordinates of the <b>ith</b> employee. An employee <b>y</b> is a subordinate of <b>x</b> iff <b>x = M<sub>y</sub></b> or <b>M<sub>y</sub></b> is a subordinate of <b>x</b>. Note that all employees (except the CEO) are subordinates of the CEO.\n</p>\n\n<p>\nSince <b>CF</b> hires only from top institutions, the employees there are really smart. Whenever you rob\nan employee <b>x</b>, <b>x</b> tells his/her manager <b>M<sub>x</sub></b> about the incident. <b>M<sub>x</sub></b> in turn, tells <b>M<sub>M<sub>x</sub></sub></b> about the incident, and this goes on\nuntil the CEO hears about it. Also, all subordinates of <b>x</b> i.e. all employees in <b>SUB<sub>x</sub></b> hear about the incident. Upon hearing about the incident, these employees start taking extra precautions and thus you cannot rob them in the future. Obviously, <b>x</b> takes extra precautions as well to avoid getting robbed again. Robbing employee <b>x</b> gives you <b>S<sub>x</sub></b> rupees.\n</p>\n\n<p>\nYou want to maximize the amount of money you can earn by robbing <b>exactly K</b> employees. Given information about this company, can you find the optimal amount?\n</p>\n\n<h3>Input</h3>\n<p>\nThe first line of input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.\n</p>\n<p>\nThe first line of each test case contains two space separated integers <b>N</b> and <b>K</b>.\n</p>\n<p>\nThe next <b>N</b> lines of each test case contains 2 space separated integers each. The <b>ith</b> line\ncontains two space separated integers, <b>M<sub>i</sub></b> and <b>S<sub>i</sub></b>.\n</p>\n\n\n<h3>Output</h3>\n<p>\nFor each test case, output a single line containing the answer. If a valid subset of <b>K</b> employees does not exist, print <b>-1</b>.\n</p>\n\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1 \u2264 T \u2264 2000</b></li>\n<li><b>1 \u2264 N \u2264 10<sup>5</sup></b></li>\n<li><b>1 \u2264 K \u2264 10<sup>3</sup></b></li>\n<li><b>0 \u2264 M<sub>i</sub> \u2264 N</b></li>\n<li><b>1 \u2264 S<sub>i</sub> \u2264 2000</b></li>\n<li><b>Sum of NK in a single test file does not exceed 10<sup>8</sup></b></li>\n</ul>\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n<tt>2\n4 2\n0 2\n1 5\n2 1\n1 3\n3 3\n0 100\n1 5\n1 3\n</tt>\n<b>Output:</b>\n<tt>8\n-1\n</tt>\n</pre>\n\n<h3>Explanation</h3>\n<p>\n<img src=\"http://www.codechef.com/download/upload/ACM16INF/B.png\" height=\"200\"/> <br>\nThe picture above represents the first test case.\nIn this case, you rob employee <b>2</b> first. This notifies employees <b>1</b> and <b>3</b> about the incident. Next, you rob employee <b>4</b> earning a total of <b>5 + 3 = 8</b> dollars.\n</p>\n\n<p>\nIn the second case, you cannot rob all three employees without getting caught.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-India Finals Mirror Contest 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1483075800,
+        "end_date": 1483093800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1794096966,
+        "submit_start_date": 1483075800,
+        "current": 1537434256
+    },
+    "problem_author_html_handle": "kol_adm",
+    "problem_name": "Robbery 101",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kol_adm'>kol_adm</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kol_adm",
+    "contest_code": "INF16MOS",
+    "max_timelimit": "2",
+    "problem_code": "INF16B"
+}

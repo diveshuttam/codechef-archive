@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Google researchers and academics have today demonstrated it is possible \u2013 following years of number crunching \u2013 to produce two different documents that have the same SHA-1 hash signature. SHA-1 is supposed and widely used source-code management tool Git. It is possible to create two Git repositories with the same head commit SHA-1 hash and yet the contents of the two repos differ.</p>\n<p>In company called Prolexic, every programmer commits the code to their software via Continuous Integration and VCS GitHub. You have commit logs of their recent software. You have to find whether there is a SHA-1 Collision or not. If there is a collision, are there two programmers who will be facing an issue, or the same programmer will face the issue. Or, find whether no programmers will be facing any issue due to it.</p>\n<p>The log is of form <em>timestamp</em> <em>username</em> <em>SHA-1 Commit</em>, where you to find programmer(s) with which username will face the issue, where collision happens when there is a SHA-1 repeated for different commits.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>First line will contain <b>T</b> the number of test cases. Each test case will start with <b>N</b> the number of commits. Next N lines will have logs in the form mentioned above.</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>For each test case, print <b>2</b> if 2 programmers will face the issue, <b>1</b> if only one programmer will face the issue, or print <b>-1</b> if no programmers will face any issue.\n</ul>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>20</b></li>\n<li><b>2</b> \u2264 <b>N</b> \u2264 <b>26</b></li>\n<li><b>| SHA-1 |</b> = <b>32</b></li>\n<li><b>| timestamp |</b> = <b>10</b></li>\n<li><b>| username |</b> \u2264 <b>64</b></li>\n<li>All strings are lowercase </li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n3\n1400203032 nerdyninja 4e4d6c332b6fe62a63afe56171fd3725\n1400233032 adikul30 7320eede6fd68c1d7a28506efbf593e7\n1400201232 nerdyninja 4e4d6c332b6fe62a63afe56171fd3725\n3\n1400203032 nerdyninja 4e4d6c332b6fe62a63afe56171fd3725\n1400233032 nerdyninja 7320eede6fd68c1d7a28506efbf593e7\n1400201232 adikul30 4e4d6c332b6fe62a63afe56171fd3725\n2\n1400203032 nerdyninja 4e4d6c332b6fe62a63afe56171fd3725\n1400201232 adikul30 7320eede6fd68c1d7a28506efbf593e7\n\n<b>Output:</b>\n1\n2\n-1\n\n</pre>\n<p>\u00a0</p>\n<p><b>Explanation</b></p>\n<p><b>Example 1:</b> nerdyninja only faced the SHA-1 collision.</p>\n<p><b>Example 2:</b> adikul30 and nerdyninja faced the SHA-1 collision.</p>\n<p><b>Example 3:</b> There was no SHA-1 collision</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Turing Cup Qualifier 2",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1520134200,
+        "end_date": 1520177400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1520177400,
+        "submit_start_date": 1520134200,
+        "current": 1537432883
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nerdyninja</span>",
+    "problem_name": "SHA-1 Collision",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nerdyninja'>nerdyninja</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nerdyninja",
+    "contest_code": "TCQ22018",
+    "max_timelimit": "1",
+    "problem_code": "TCQF218D"
+}

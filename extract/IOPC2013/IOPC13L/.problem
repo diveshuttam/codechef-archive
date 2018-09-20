@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>\nPrincess Leia is trapped in Alderaan. C3PO and R2D2 get in the country to save her. There are bombs kept at various locations which C3PO and R2D2 have been able to figure out.<br />\nThey don\u2019t know where Princess Leia is, therefore they decide to dispose all the bombs off to ensure her safety. But as they have already used most of their strength in figuring out where the bombs are, they don\u2019t have much strength left and want to dispose all the bombs by moving as less as possible. So they decide to split. They can start at any of the bombs\u2019 locations, but unfortunately the bombs have been programmed such that if a bomb <b>i</b> is diffused after a bomb <b>j</b> with <b>i</b> &lt; <b>j</b> then the <b>i<sup>th</sup></b> bomb and all the other remaining bombs get detonated; thereby killing the princess.<br />\nThough R2D2 and C3PO have split, they can still communicate with each other. R2D2 uses his analytical skills to figure out a way in which they should proceed, but it is not optimal. You need to help them in saving the princess by minimizing the sum of the total manhattan distance R2D2 travels and the total manhattan distance C3PO travels. You need to output the minimum sum over all possible ways in which they can diffuse all the bombs.\n</p>\n\n<h3>Input</h3>\n<p>\nThe first line of the input contains an integer <b>T</b> denoting the number of test cases.<br /><br />\nFirst line of each test case is the number of bombs <b>N</b>. <br /><br />\nEach of the next <b>n</b> lines contains three space separated integers, where the i<sup>th</sup> line contains <b>x<sub>i</sub> y<sub>i</sub> z<sub>i</sub></b>, the coordinates of the i<sup>th</sup> bomb. <br /></p>\n<h3>Output</h3>\n<p>\nFor each test case output a single line containing the minimum sum of the total manhattan distance R2D2 travels and total manhattan distance C3PO travels in order to dispose all the bombs off.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>5</b> \u2264 <b>N</b> \u2264 <b>1000</b></li>\n<li><b>0</b> \u2264 <b>x,y,z</b> \u2264 <b>5000</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n3\n2 3 4\n0 4 5\n3 4 1\n\n<b>Output:</b>\n4\n</pre>\n<h3>Explanation</h3>\n<p>C3PO starts at (2,3,4) and R2D2 starts at (3,4,1). C3PO first diffuses the bomb 1, then it moves to (0,4,5) to defuse bomb 2 then C3PO diffuses bomb 3. So the total distance they need to move is 4.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-03-2013",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2013",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1362810600,
+        "end_date": 1362897000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1362897000,
+        "submit_start_date": 1362810600,
+        "current": 1537438448
+    },
+    "problem_author_html_handle": "iopc_admin",
+    "problem_name": "Save the princess",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/iopc_admin'>iopc_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "iopc_admin",
+    "contest_code": "IOPC2013",
+    "max_timelimit": "0.869565",
+    "problem_code": "IOPC13L"
+}

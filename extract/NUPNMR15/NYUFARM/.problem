@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><img src=\"http://www.codechef.com/download/NUPN2015/farmfield.jpg\" width=\"320\" /></p>\n<p>It is interesting to look down at the farm land from an airplane. You may notice that farms are of rectangular areas and appear in different colors: gray, brown, or even black due to types of crops planted. Farms with similar color may appear as a whole <i>field</i>. Fields thus have various shapes as combinations of rectangles...</p>\n<p>In this problem you will count the number of fields for a given set of farms. Each farm is of rectangular shape with sides parallel with <i>x</i> and <i>y</i> axes. Farms will not overlap, but they may touch on the boundary. Two farms belong to a same field if they share a side of positive length (sharing only a corner does not count). This relation is transitive, so that if farm A and B belong to a same field, and B and C belong to a same field, then A, B, C all belong to a same field.</p>\n<h3>Input</h3>\n<p>The input begins with the number of test cases <b>T</b>.</p>\n<p>The first line of each test case contains an integer <b>N</b>, the number of farms.</p>\n<p>Each of the next <b>N</b> lines describes a farm with four integers <b>x, y, w, h</b>. <b>(x, y)</b> is the coordinates of the lower-left corner of the farm. <b>w, h</b> give the width and height of the farm. It is guaranteed that the area of the intersection of every pair of farms is zero.\n</p>\n<h3>Output</h3>\n<p>For each case output the number of fields.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>T \u2264 5 </b></li>\n<li><b>1 \u2264 N \u2264 10<sup>5</sup></b></li>\n<li>For each farm, <b>1 \u2264 x, y, w, h \u2264 10<sup>9</sup></b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n8\n1 5 1 2\n2 4 1 1\n2 6 2 1\n3 4 1 2\n2 1 1 2\n3 2 2 1\n5 4 2 2\n5 1 1 1\n5\n1 1 1 5\n5 1 1 5\n2 1 3 1\n2 5 3 1\n3 3 1 1\n\n<b>Output:</b>\n4\n2\n</pre><h3>Explanation</h3>\n<p><b>Example 1:</b> See the illustration for the sample case. There are 4 fields.</p>\n\n<p><img src=\"http://www.codechef.com/download/NUPN2015/farmfield.png\" width=\"500\" /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-09-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Mirror of 1st NYU ProgNova",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1444658400,
+        "end_date": 1444669200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1444669200,
+        "submit_start_date": 1444658400,
+        "current": 1537435913
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>yubowenok</span>",
+    "problem_name": "Farm and Fields",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/yubowenok'>yubowenok</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "yubowenok",
+    "contest_code": "NUPNMR15",
+    "max_timelimit": "5",
+    "problem_code": "NYUFARM"
+}

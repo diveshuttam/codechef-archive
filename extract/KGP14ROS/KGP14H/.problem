@@ -1,0 +1,33 @@
+{
+    "problem_code": "KGP14H",
+    "problem_author": "admin3",
+    "contest_name": "ACM-ICPC Asia-Kharagpur Onsite Contest 2014, Replay",
+    "todo": false,
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Pilgrimage",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "KGP14ROS",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/kgp14ros'>kgp14ros</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Professor PariBrajika is in Himalpur and wishes to go to Gyankut to attend a workshop. There are <b>K</b> temples on the way to Gyankut. The temples are numbered from 1 to <b>K</b>, Himalpur is numbered 0 and Gyankut is numbered <b>K+1</b>. She wishes to visit some of the temples on her onward journey from Himalpur to Gyankut, and the rest on her return journey from Gyankut to Himalpur. In her onward journey she must visit the chosen temples in ascending order of their numbers, and in her return journey she is required to visit the temples in descending order of their numbers. Any violation of this will waylay her and she will get permanently lost. For example, if <b>K</b> = 7, and she selects to visit (2,4,5) on her onward journey, she must travel from Himalpur to 2, 2 to 4, 4 to 5, 5 to Gyankut and then Gyankut to 7, 7 to 6, 6 to 3, 3 to 1, and 1 to Himalpur.</p>\n\n<p>The estimated travel times between any pair of the locations (with no intermediate stops) are known. A trip from any location <b>X</b> to another location <b>Y</b> takes the same time as the trip from <b>Y</b> to <b>X</b>. Assume that Professor PariBrajika spends a fixed time <b>R</b> at each of the <b>K</b> temples and at Gyankut.</p>\n\n<p>If she starts from Himalpur at time <i>t</i> = 0, what is the minimum estimated time in which Professor PariBrajika can complete the tour from Himalpur to Gyankut and back?</p>\n\n<h3>Input</h3>\n<p>The first line contains the number of test cases, <b>N</b> (0 &lt; <b>N</b> &le; 3).</p>\n\n<p>For each test case, the first line contains the two integers, <b>K</b> (0 &lt; <b>K</b> &le; 100) and <b>R</b>. This is followed by <b>K+2</b> lines, with each line containing information about travel time from one location to all other locations. Each line starts with an integer id <b>X</b> of the location (0 &lt; <b>X</b> &lt; <b>K+1</b>), followed by <b>K+1</b> pairs of integers (total <b>2K+2</b> integers), with each pair containing the id <b>Y</b> (0 &lt; <b>Y</b> &lt; <b>K+1</b>, <b>X</b> &ne; <b>Y</b>) of another location and the estimated travel time (positive integer) to location <b>Y</b> from location <b>X</b>.</p>\n\n<h3>Output</h3>\n<p>For each test case, in the first line, print the case number, followed by a colon, followed by a single space, followed by a single integer indicating estimated minimum travel time.</p>\n\n\n<h3>Sample Input</h3>\n<pre>\n2 \n3 10\n0 1 100 2 200 3 300 4 400 \n1 0 100 2 100 3 200 4 300 \n2 0 200 1 100 3 100 4 200 \n3 0 300 1 200 2 100 4 100 \n4 0 400 1 300 2 200 3 100 \n5 10 \n0 1 63 2 126 3 189 4 252 5 315 6 378 \n1 0 63 2 51 3 102 4 153 5 204 6 255 \n2 0 126 1 51 3 116 4 232 5 348 6 464 \n3 0 189 1 102 2 116 4 71 5 142 6 213 \n4 0 252 1 153 2 232 3 71 5 132 6 264 \n5 0 315 1 204 2 348 3 142 4 132 6 63 \n6 0 378 1 255 2 464 3 213 4 264 5 63\n</pre>\n\n\n<h3>Sample Output</h3>\n<pre>\nCase 1: 840\nCase 2: 886\n</pre>",
+    "category_name": "main",
+    "date_added": "18-12-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/KGP14H",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1419424200,
+        "end_date": 1419442200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1419442200,
+        "submit_start_date": 1419424200,
+        "current": 1537437043
+    },
+    "user": {
+        "username": ""
+    }
+}

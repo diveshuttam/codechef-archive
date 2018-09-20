@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>A cricket match is going on between India and South-Africa. Currently AB de Villiers is batting and team India is bowling. AB de Villiers hits a ball hard and goes high up in the air but is not able to<br />\ncover the boundary. The spot where the ball is going to fall is the point P1 in the field which has the coordinates  (x1,y1) (where x1 and y1 are integers). When the batsman hit the ball, Sir Ravindra<br />\nJadeja was the one closest to the point P1  on the ground and was initially standing at the point P2 (x2,y2) (where x2 and y2 are integers). </p>\n<p>The secret behind the fast fielding of Sir Jadeja is that he<br />\nmoves towards his target by placing his steps at only those points that have integral coordinates. Now, Sir Jadeja starts moving towards the point P1 in order to take a catch.</p>\n<p>You are the cameraman shooting the entire trajectory of Sir Jadeja. You have to know the number of steps Sir Jadeja takes at locations (x,y) on the line segment between<br />\nP1 and P2 (excluding P1 and P2) which satisfy the condition that both x and y are integers?\n</p>\n\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line contains a single integer T, the number of test cases. T lines follow.<br />\nEach of the following T lines contains one test case each. Each test case contains 4 integers x1, y1, x2 and y2 separated by a single space.</p>\n<h3>Output</h3>\n<p>A single line containing the number of steps.</p>\n<h3>Constraints</h3>\n<p>1 &lt;= T &lt;= 105</p>\n<p>-10<sup>9</sup> &lt;= x1, y1, x2, y2 &lt;= 10<sup>9</sup></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n4 0 0 2\n5 5 2 2\n8 16 1 9\n</pre><pre>\n<b>Output:</b>\n1\n2\n6\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>Between (4,0) and (0,2) there\u2019s only 1 integral point (2,1) hence 1 step.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeNiche 2014, Trial round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1393083000,
+        "end_date": 1393169400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1393169400,
+        "submit_start_date": 1393083000,
+        "current": 1537437777
+    },
+    "problem_author_html_handle": "cuttingedge03",
+    "problem_name": "Sir Ravindra Jadeja",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cuttingedge03'>cuttingedge03</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "cuttingedge03",
+    "contest_code": "CDNCTR14",
+    "max_timelimit": "0.207",
+    "problem_code": "JADEJA"
+}

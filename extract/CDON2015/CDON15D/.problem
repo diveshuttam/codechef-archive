@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<h3> Problem description </h3>\n<p>\n\t\tIn a factory, <strong> there are N machines </strong>, arranged in a straight line.The machines are numbered 1 to N.\n\t</p>\n<p>\n\t    <strong> At any time, a machine generates X  new products </strong> and the products keep on accumulating at the respective machine. Initially each machine hasn't produced any item.\n\t</p>\n\n<p>\n\t\tShakal is a very evil man, so he wants to keep you busy. At any time he can ask you to give him the machine number upto which atleast M products have been produced. However your own assistant is a good man, he informs you as soon as some machine generates any product.\n\t</p>\n\n<h3>Input</h3>\n<p>\nThe first line of input contains two numbers <strong>N</strong> &amp; <strong>Q</strong>, where <strong>N</strong> is the number of machines and <strong>Q</strong> is the number of queries.<br />\nThe next <strong>Q</strong> line contains two numbers in the form<br />\n\u00a0\u00a0\u00a0<strong>0 x val</strong>\u00a0\u00a0\u00a0\u00a0\u00a0(The machine number x has produced <strong> val new items </strong>)<br />\n\u00a0\u00a0\u00a0<strong>1 val  </strong>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0(Report the <strong> machine number upto which atleast 'val' items have been generated </strong>) </p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each query of the form <strong>1 val</strong>, report the <strong>machine number upto which atleast 'val' items have been produced.</strong> If val items have not been generated then print <strong> -1 </strong>. </p>\n\n<h3>Constraints</h3>\n<ul>\n<li><strong>1</strong> &lt;= <strong>N</strong> &lt;= <strong>10^5</strong></li>\n<li><strong>1</strong> &lt;= <strong>Q</strong> &lt;= <strong>10^5</strong></li>\n<li><strong>1</strong> &lt;= <strong>x</strong> &lt;= <strong>N</strong></li>\n<li><strong>1</strong> &lt;= <strong>val</strong> &lt;= <strong>10^9</strong></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3 4\n0 1 3\n1 2\n0 3 5\n1 7\n<b>Output:</b>\n1\n3\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<pre>\nInitially the produce of machines is represented as [0 0 0]\nAfter first command i.e 0 1 3 the machine 1 produces 3 items [3 0 0]\nAfter third command 0 3 5 the machine 3 produces 5 new items so produces becomd [3 0 5]\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-10-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Codathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1444492800,
+        "end_date": 1444505400,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1755578864,
+        "submit_start_date": 1444492800,
+        "current": 1537435940
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>thecodekaiser</span>",
+    "problem_name": "Shakal and his factory",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/thecodekaiser'>thecodekaiser</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "thecodekaiser",
+    "contest_code": "CDON2015",
+    "max_timelimit": "1",
+    "problem_code": "CDON15D"
+}

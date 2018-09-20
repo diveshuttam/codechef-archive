@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Rohan is an animal lover and loves specially dogs . He takes them daily on morning and evening walk altogether but in a specific order. Whenever someone asks him the names of the dogs, he tells the names of the dogs but the problem is that the dogs are never in order and keep on shifting their places.</p>\n<p>Let\u2019s assume that he has N number of dogs and each one has their unique integer ID number. Rohan wants his dogs to stand in their ordering, represented by the contents of an array D[1...N], where D[j] gives the ID number of the jth dog in the ordering. But every time when he tries to tell the name of the dogs, one of the dogs move to a new position in the lineup. More precisely,a dog steps away from the line,with the remaining dogs shifting over to close the resulting gaps in the lineup.\n</p>\n<p>On the way back to home from evening walk with dogs. Rohan had met with 5 people. As he comes back to his home, he is muddled about the sequence of dogs. Now you have to help him to find out that sequence.\n</p>\n<h3>Input</h3>\n<ul>\n<li>1  line of input contains N. the number of dogs.</li>\n<li>Now there will be N cases, each case represents one order of the dogs.</li>\n<li>The N lines of each case consists of N id's.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n\n<ul>\n<li>The correct original order.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>20,000</b></li>\n<li><b>1</b> \u2264 <b>ID</b> \u2264 <b>99,99,999</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n\n<b>5</b>\n<b>10</b>\n<b>20</b>\n<b>30</b>\n<b>40</b>\n<b>50</b>\n<b>20</b>\n<b>10</b>\n<b>30</b>\n<b>40</b>\n<b>50</b>\n<b>30</b>\n<b>10</b>\n<b>20</b>\n<b>40</b>\n<b>50</b>\n<b>40</b>\n<b>10</b>\n<b>20</b>\n<b>30</b>\n<b>50</b>\n<b>50</b>\n<b>10</b>\n<b>20</b>\n<b>30</b>\n<b>40</b>\n\n\n<b>Output:</b>\n\n<b>10</b>\n<b>20</b>\n<b>30</b>\n<b>40</b>\n<b>50</b>\u00a0\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "CODE BLOODED",
+    "languages_supported": "C, CPP14",
+    "todo": false,
+    "time": {
+        "view_start_date": 1458453600,
+        "end_date": 1458469800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1458469800,
+        "submit_start_date": 1458453600,
+        "current": 1537435063
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rohanraj7316</span>",
+    "problem_name": "MUDDLED ROHAN",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rohanraj7316'>rohanraj7316</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rohanraj7316",
+    "contest_code": "CLDB2016",
+    "max_timelimit": "1 - 10",
+    "problem_code": "CB20Q5"
+}

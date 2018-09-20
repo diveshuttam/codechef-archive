@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Phillip has become fascinated with sequences lately.  He looks for sequences all the time.  His favorite sequence is the Fibonacci sequence, where any element is equal to the sum of the two previous elements.  However, he isn't able to figure out the correct number for positions beyond 8 without writing it on paper.  Create a program that will take in the first two number of a Fibonacci sequence and a number of places to calculate, and print out the number that is at that place.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first two numbers of a Fibonacci sequence, and the  to print out.  Note: you only need to handle 1 sequence per run.</p>\n<h3>Output</h3>\n<p>The number at the position specified.</p>\n<h3>Example 1</h3>\n<pre><b>Input:</b>\n1 1 5\n\n<b>Output:</b>\n5\n</pre><h3>Example 2</h3>\n<pre><b>Input</b>\n1 5 7\n\n<b>Output</b>\n45\n\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Replay of Pitt CSC - University of Pittsburgh ",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1427301000,
+        "end_date": 1427311800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1427311800,
+        "submit_start_date": 1427301000,
+        "current": 1537436489
+    },
+    "problem_author_html_handle": "pwf7",
+    "problem_name": "Fibonacci",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pwf7'>pwf7</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pwf7",
+    "contest_code": "PITTCS15",
+    "max_timelimit": "10",
+    "problem_code": "PCSC2"
+}

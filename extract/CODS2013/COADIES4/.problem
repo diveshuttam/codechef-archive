@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><pre>\n<H3>Problem Description</h3>\nRaghu have <b>N</b> members in his team , each having certain strength. Ranvijay is asking some questions in\na rapid fire from him.His questions are of the form ,given strength <b>S</b> and a number <b>K</b> , do there exist\n <b>K</b> different members such that sum of their strengths is <b>S</b>.\n\n\n<H3>Input</h3>\n\nFirst line of input contains <b>N</b> and <b>Q</b>.Number of soldiers and the number of queries asked by Ranvijay.\nThen <b>N</b> lines follow describing the strength of each soldier.After that <b>Q</b> more lines are given each \ncontaining <b>S</b> and <b>K</b> as described in the problem.\n\n<h3>Output</h3>\n\nFor each query output a line containing <b>YES</b> or <b>NO</b> accordingly the \nstrength <b>S</b> can be obtained using <b>K</b> members.\n\n<H3>Constrains:</h3>\n<ul>\n<li><b>1</b>&lt;=<b>N</b>&lt;=<b>100</b>\n</li><li><b>Strength of each member is between 1 and 1000 inclusive.</b>\n</li><li><b>1</b>&lt;=<b>Q</b>&lt;=<b>1000</b>\n</li><li><b>1</b>&lt;=<b>S</b>&lt;=<b>total strength of all members</b>\n</li><li><b>1</b>&lt;=<b>K</b>&lt; <b>N/2</b>\n</li></ul>\n\n<H3>Example:</h3>\n\n<h3>Input:</h3>\n5 6\n3 2 4 5 2\n4 2\n4 1\n5 3\n5 2\n8 2\n8 4\n\n<b>Output:\nYES\nYES\nNO\nYES\nYES\nNO</b>\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-04-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Codies 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1365345000,
+        "end_date": 1365359400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1365359400,
+        "submit_start_date": 1365345000,
+        "current": 1537438371
+    },
+    "problem_author_html_handle": "teamcoadies10",
+    "problem_name": "Rapid Fire",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/teamcoadies10'>teamcoadies10</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "teamcoadies10",
+    "contest_code": "CODS2013",
+    "max_timelimit": "1",
+    "problem_code": "COADIES4"
+}

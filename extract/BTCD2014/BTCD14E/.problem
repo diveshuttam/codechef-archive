@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Sherlock works as a spy in the country of Thuvaks. Thuvaks has <strong>N</strong> cities. All roads in Thuvaks are bidirectional and have a positive length. To add to the already existing overwhelming misery  of Thuvaksian citizens, the recent floods have destroyed several roads in the country such that there is only one simple path between every pair of cities.</p>\n<p>Sherlock has an assignment.\u00a0Everyday he starts from a city in the morning and has to travel to all other cities by evening. He must do this repeatedly for <strong>K</strong>\u00a0days. The starting city for the first day is <strong>A</strong>. The path taken by Sherlock on a particular day is given by a sequence of roads, where each adjacent roads in the sequence is connected to a common city. The total distance of such a path is given by the sum of all the lengths of the roads in the path. The path has to start at a particular city and should cover all the cities. Due to Sherlock's stunning character, people remember him very well. In order to save his cover,\u00a0he does not want to start the day from the same city more than once. During the night time he travels to the city from where he wants to start the next day of his mission.</p>\n<p>Given the description of road network of Thuvaks, length of his mission <strong>K</strong> (in days) and his starting city <strong>A</strong>(1&lt;=A&lt;=N) minimize the sum of the distance he needs to travel during day time over the period of <strong>K</strong> days of his mission.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line contains three space separated integers <strong>N</strong>, <strong>K</strong> and <strong>A</strong>. Next N-1 lines consists of three space separated integers <strong>X</strong>, <strong>Y</strong> and <strong>C</strong>, implying that the city <strong>X</strong> is connected to city <strong>Y</strong> with a bidirectional road of length <strong>C</strong>.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Print a single line containing the answer ie. the sum of distance he needs to travel during the day time over the period of K days to complete his mission.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><strong>1</strong> \u2264 <strong>N</strong> \u2264 <strong>10^5</strong></li>\n<li><strong>1</strong> \u2264 <strong>K, A, X, Y </strong> \u2264 <strong> N</strong></li>\n<li><strong>1</strong> \u2264 <strong>C</strong> \u2264 <strong>10^5</strong></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example :</h3>\n<p>Input :</p>\n<p>3 3 1 <br /> 1 2 10 <br /> 1 3 20</p>\n<p>Output :</p>\n<p>100</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-03-2014",
+    "is_direct_submittable": false,
+    "contest_name": "ByteCode 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1394290800,
+        "end_date": 1394308800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1394308800,
+        "submit_start_date": 1394290800,
+        "current": 1537437717
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>vshriram93</span>",
+    "problem_name": "Sherlock In Thuvax",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vshriram93'>vshriram93</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vshriram93",
+    "contest_code": "BTCD2014",
+    "max_timelimit": "1",
+    "problem_code": "BTCD14E"
+}

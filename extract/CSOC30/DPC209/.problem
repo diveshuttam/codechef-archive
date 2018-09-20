@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"center\" class=\"MsoNormal\">\n        <b><u>\n        <span>\n        Array</span></u></b></p>\n    <p class=\"MsoNormal\">\n        <span>\n        \u00a0</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        You are given a 2D array, initially equal to 0. The next input line contains an \n        integer with a Capital character H (Horizontal) or V (Vertical) or S (Square).</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        \u00a0</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        You have to read a input line and follow the following criteria:</span></p>\n    <p class=\"MsoNormal\">\n        \n        <span><span>-<span times new>\u00a0\u00a0\u00a0\u00a0\u00a0\n        </span></span></span>\n        <span>\n        For every input, you have to start from the last row and first column of the \n        array. Start moving upward until you find an appropriate position to set the \n        input there. If you don\u2019t find a position in that column, then move to next \n        column at the last row, and so on.</span></p>\n    <p class=\"MsoNormal\">\n        \n        <span><span>-<span times new>\u00a0\u00a0\u00a0\u00a0\u00a0\n        </span></span></span>\n        <span>\n        If the input line contains 2H, then at the position where you find two \n        horizontal elements containing 0, stop there and place 1 in those elements \n        positions.</span></p>\n    <p class=\"MsoNormal\">\n        \n        <span><span>-<span times new>\u00a0\u00a0\u00a0\u00a0\u00a0\n        </span></span></span>\n        <span>\n        If the input line contains 2V, then at the position where you find two vertical \n        elements containing 0, stop there and place 1 in those elements positions.</span></p>\n    <p class=\"MsoNormal\">\n        \n        <span><span>-<span times new>\u00a0\u00a0\u00a0\u00a0\u00a0\n        </span></span></span>\n        <span>\n        If the input line contains 2S, then at the position where you find two \n        horizontal and two vertical (a square of two elements) elements containing 0, \n        stop there and place 1 in those elements positions.</span></p>\n    <p class=\"MsoNormal\">\n        \n        <span><span>-<span times new>\u00a0\u00a0\u00a0\u00a0\u00a0\n        </span></span></span>\n        <span>\n        If you cannot find a position that fits the given input, simply ignore that \n        input.</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        \u00a0</span></p>\n    <p class=\"MsoNormal\">\n        <b>\n        <span>Input</span></b><span></span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        \u00a0</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        <span>\u00a0</span>The first input line contains two \n        integers i.e. the size of the 2D array. The maximum size of the 2D array will be \n        25x25. The next lines contain input to be set in the 2D array. The input will \n        end on the line containing a single 0.</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        \u00a0</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        \u00a0</span></p>\n    <p class=\"MsoNormal\">\n        <b>\n        <span>Sample Input</span></b></p>\n    <p class=\"MsoNormal\">\n        <span>\n        8 8</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        2H</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        2V</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        3S</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        2S</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        2H</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        3H</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        0</span></p>\n    <p class=\"MsoNormal\">\n        <b>\n        <span>Sample Output</span></b></p>\n    <p class=\"MsoNormal\">\n        <span>\n        11000000</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        11000000</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        11100000</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        11100000</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        11100000</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        11110000</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        11100000</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        11000000</span></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "11-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "DreamSpark 2",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1268490600,
+        "end_date": 1268598600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1268598600,
+        "submit_start_date": 1268490600,
+        "current": 1537439658
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rushikesh30</span>",
+    "problem_name": "Array",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rushikesh30'>rushikesh30</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rushikesh30",
+    "contest_code": "CSOC30",
+    "max_timelimit": "0.1",
+    "problem_code": "DPC209"
+}

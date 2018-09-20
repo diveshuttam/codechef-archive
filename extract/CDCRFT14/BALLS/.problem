@@ -1,0 +1,33 @@
+{
+    "problem_code": "BALLS",
+    "problem_author": "darkshadows",
+    "contest_name": "CodeCraft: IIIT Hyderabad, Replay",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>darkshadows</span>",
+    "problem_name": "Naughty and Balls",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CDCRFT14",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ad-hoc'>ad-hoc</a>, <a class='problem-tag-small ' href='/tags/problems/cdcrft14'>cdcrft14</a>, <a class='problem-tag-small ' href='/tags/problems/darkshadows'>darkshadows</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\n  Mr. Naughty likes to play with balls. So his friend, Mr Nice, gave him <b>n</b><br />\n  balls to play a game. Each ball has exactly two numbers (the number on the top<br />\n  and the number on the bottom). In one move Mr Naughty can rotate any ball so<br />\n  that its bottom now becomes the top. Mr Nice knows the minimum number of such<br />\n  moves that can make at least half of the balls show same number on their top.<br />\n  So to win Mr Nice's game, Mr Naughty should figure out the minimum number of<br />\n  moves. Its not always possible to make such moves that satisfy the given<br />\n  condition.In this case Mr Naughty should figure out that it is <b>\"Impossible\"</b> to<br />\n  make such moves.</p>\n<p>  Help Mr Naughty to win the game.\n  </p>\n<h3>Input Format:</h3>\n<p>\n  The first line contains a single integer <b>n</b> - the number of balls. The<br />\n  following <b>n</b> lines contain the description of all balls, one ball per line.<br />\n  Each description has a pair of non-negative integers not exceeding <b>10^5</b> -<br />\n  numbers on top and bottom. The first number in a line is the number on top,<br />\n  the second one - on the bottom. The number on the top of the ball may be same<br />\n  as the number on the bottom.<br />\n  The numbers in the lines are separated by single spaces.\n  </p>\n<h3>Output Format:</h3>\n<p>\n  On a single line print a single integer - the minimum number of moves to win<br />\n  the game. If it is impossible to make the set funny, print <b>\"Impossible\"</b><br />\n  (quotes for clarity).\n  </p>\n<h3>Constraints:</h3>\n<p><b><br />\n  1 &le; n &le; 10^5</b>\n  </p>\n<h3>Sample Input:</h3>\n<pre>\n3\n3 100\n100 3\n5 4</pre><h3>Sample Output:</h3>\n<pre>\n1</pre><h3>Explanation:</h3>\n<p>\n  In this case Mr Naughty can rotate the first ball so that number on the top<br />\n  becomes 100. Since two of the three balls have same number on their top (100),<br />\n  you do not need to change anything else, so the answer is 1.\n  </p>\n<h3>Sample Input:</h3>\n<pre>\n5 \n5 9\n5 9\n3 2\n1 4\n5 7</pre><h3>Sample Output:</h3>\n<pre>\n0</pre><h3>Sample Input:</h3>\n<pre>\n3\n1 2\n3 4\n5 6 </pre><h3>Sample Output:</h3>\n<pre>\nImpossible</pre><p><br />\n<b>Problem Setter: Prateek Sachdev</b></p>\n",
+    "category_name": "main",
+    "date_added": "28-01-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/BALLS",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1391232600,
+        "end_date": 1391257800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1391257800,
+        "submit_start_date": 1391232600,
+        "current": 1537437881
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Crossword is a popular puzzle known to everybody. \n\nConsider a crossword in the form of a square grid of black and white squares. The white squares are filled with letters, forming the solution words, which appear either across: from left to right or down: from top to bottom. Two solution words can share a letter if one is across while the other is down. The black squares separate the solution words.\n\nGiven the set of solution words of an n x n crossword and the list of strings of letters that appear row-wise, the program should find the location of all black squares. While considering strings, black squares in a row are ignored. Assume that at least one black square is present in the crossword.\n\nThe location of a square in the crossword is identified by two integers: the row number and the column number. Rows/columns are numbered 1, 2,..., n; rows are from top to bottom while columns are from left to right.\n\nFor example, consider the solution of a 4x4 crossword given below, where a square containing the symbol # is assumed to be a black square.\n\n\n<style type=\"text/css\">\n#crossword-border td\n{\n   border: 1px solid #000;\n}\n\n</style>\n\n<table id=\"crossword-border\" border=1>\n<tr>\n     <td>#</td>\n     <td>n</td>\n     <td>i</td>\n     <td>b</td>\n</tr>\n<tr>\n     <td>s</td>\n     <td>o</td>\n     <td>#</td>\n     <td>i</td>\n</tr>\n<tr>\n     <td>a</td>\n     <td>#</td>\n     <td>#</td>\n     <td>t</td>\n</tr>\n<tr>\n     <td>d</td>\n     <td>o</td>\n     <td>n</td>\n     <td>#</td>\n</tr>\n</table>\n\n<br>\n\nGiven the set of solution words: {sad, no, bit, nib, so, don} and the list of strings of letters: (nib, soi, at, don) that appear row-wise in the crossword, the program should find the locations (1, 1), (2, 3), (3, 2), (3, 3) and (4, 4) of the black squares in row major order.\n\n\n<h3>Input</h3>\n<p>The input may contain multiple test cases. For each test case there are three input lines. \nThe first input line gives the value of n. The 2nd line contains all solution words in an arbitrary order. The 3rd line gives n strings of letters. The letters in the rth string appear from left to right in the rth row of the crossword, r= 1, 2,..., n; the black squares in a row are totally ignored. \nWords / strings in input are separated by space.\nThe input terminates with an input 0 for n.\n\n\n<h3>Output</h3>\n<p>For each test case, there is only one output line. \nThe line contains locations of all black squares in row-major order. Each location is identified by the row number and the column number, as shown in the sample output.\n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n4\nso sad bit don no nib\nnib soi at don\n4\nso sad bit don in it no nib\nsad noo iin bit\n5\neye begin india send so boat \nbso eyeb gno india nt\n\n<b>Output:</b>\n1 1 2 3 3 2 3 3 4 4\n1 1 2 3 3 2 4 4\n1 2 1 5 2 4 3 2 3 4 5 2 5 3 5 4\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-10-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Kanpur ACM ICPC Warm-up Contest",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1318694400,
+        "end_date": 1318703400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1318703400,
+        "submit_start_date": 1318694400,
+        "current": 1537439117
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Crossword",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "KANWRMUP",
+    "max_timelimit": "1",
+    "problem_code": "CRSSWRD"
+}

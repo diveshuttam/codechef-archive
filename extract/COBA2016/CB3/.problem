@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Problem Description</p>\n<p>\nSemusa assigned numbers to the English alphabets in consecutive order as A-1, B-2, C-3........Z-26 to encrypt a message given in string of letters.<br />\nHe developed a very unique cryptosystem which required an authentication text every time a user want it to use it to transit information securely.\n</p>\n<p>\nThe authentication text was developed on a mathematical series and the cryptosystem would randomly state the length of text required for one time authentication.The users entered the letters letters required as authentication text and if found valid, they were allowed to use the system.\n</p>\n<p>\nSemusa wants programmers like you to develop the authentication text generator capable of generating required text of length upto <b>88</b>.\n</p>\n<p>\n<b>NOTE:</b><br />\nThe mathematical series contains numbers which are greater than 26. In that case take <b>mod 26</b> of such numbers and assign corresponding letter.\n</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases.</li>\n<li>Each test case contains a single integer <b>N</b> denoting the length of authentication text required by the crptosystem.</li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing the authentication string of length N\".</li>\n</ul>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>20</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>88</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n5\n8\n\n<b>Output:</b>\nAABCE\nAABCEHMU\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-12-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeBar",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1452519000,
+        "end_date": 1452524400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1452524400,
+        "submit_start_date": 1452519000,
+        "current": 1537435658
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>psc94</span>",
+    "problem_name": "Semusa Modified Cipher",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/psc94'>psc94</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "psc94",
+    "contest_code": "COBA2016",
+    "max_timelimit": "1",
+    "problem_code": "CB3"
+}

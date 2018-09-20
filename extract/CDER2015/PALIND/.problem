@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Palindrome is a string that reads the same backward as forward, e.g., madam.</p>\n<p>You are given a string whose length is even, and each character of the string is either 'a', 'b' or '/' Your task is to replace each occurrence of '/' in string with either 'a' or 'b' such that the string becomes a palindrome.</p>\n<p>You are also given two integers, aCost and bCost. Replacing '/' with 'a' costs aCost, and replacing '/' with 'b' costs bCost.</p>\n<p>Return the minimum cost of replacing '/' by 'a' and 'b' such that the string turns into a palindrome. If it is impossible to obtain a palindrome, return -1.</p>\n<p>Constraints</p>\n<p> string will contain between 1 and 10000 characters, inclusive.  The length of string will be even.  Each character of the string will be either 'a' or 'b' or '/'.  aCost will be between 1 and 100, inclusive.  bCost will be between 1 and 100, inclusive.</p>\n<p>Input Format</p>\n<p>First line of input will contain the number of test cases. For each test case, there will be of three lines, the first line is the string whose palindrome is to be constructed, the second is the aCost and the third is the bCost</p>\n<p>Examples</p>\n<p>1</p>\n<p>aba/bab/</p>\n<p>4</p>\n<p>6</p>\n<p>Returns: 10</p>\n<p>The only way to produce a palindrome is to replace 4th character of string with 'b' and 8th character with 'a'. The first replacement costs 4, the second costs 6, so the total cost is 4+6=10.</p>\n<p>aaaabbbb</p>\n<p>12</p>\n<p>34</p>\n<p>Returns: -1</p>\n<p>There is no '/' character, and string is not a palindrome. We have no way to change it into a palindrome.<br /><br />\n<b> Sample Input: </b></p>\n<p>1<br /> baba//aaa/ab//<br /> 72 <br />23</p>\n<p><b>Sample Output:</b></p>\n<p>213</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeERA",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1425839400,
+        "end_date": 1426314600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426314600,
+        "submit_start_date": 1425839400,
+        "current": 1537436594
+    },
+    "problem_author_html_handle": "akhil62",
+    "problem_name": "Palindrome",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/akhil62'>akhil62</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "akhil62",
+    "contest_code": "CDER2015",
+    "max_timelimit": "1",
+    "problem_code": "PALIND"
+}

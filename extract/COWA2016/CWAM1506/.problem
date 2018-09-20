@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>\nConverting names to phone numbers</p>\n<p>INPUT IS ONLY IN UPPERCASE LETTERS!</p>\n<p>The name given as text input is converted to a text string in the following way:</p>\n<p>the ASCII notation of the uppercase letters are concatenated to form a long number.</p>\n<p>The long number is then split into 10-digit segments and they all are added.</p>\n<p>This sum mod 10^10 is the resultant phone number.</p>\n<p>Names with 3 letters as well as names with 23 letters can be expected. Code accordingly.</p>\n\n<h3>Input</h3>\n<p>\nFirst line will have number of names (n)<br />\nFollowing n lines will contain one name each</p>\n<h3>Output</h3>\n<p>\nn lines containing the phone numbers corresponding to each input name</p>\n<h3>Example</h3>\n<pre><b>Input:\n2\nadisankara\nayyappa\n</b>\n\n\n<b>Output:\n4444396630\n6253505038\n</b>\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Code-Wars#ver2.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1453548600,
+        "end_date": 1453559400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1453559400,
+        "submit_start_date": 1453548600,
+        "current": 1537435611
+    },
+    "problem_author_html_handle": "yarlagaddap",
+    "problem_name": "Tring Tring !!!",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/yarlagaddap'>yarlagaddap</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "yarlagaddap",
+    "contest_code": "COWA2016",
+    "max_timelimit": "1",
+    "problem_code": "CWAM1506"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "NUMGAME2",
+    "problem_author": "nssprogrammer",
+    "contest_name": "April Long Contest",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nssprogrammer</span>",
+    "problem_name": "Number Game Revisited",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>rajivka</span>",
+    "contest_code": "APRIL11",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/april11'>april11</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/nssprogrammer'>nssprogrammer</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Alice and Bob play the following game.They choose a number N to play with.The runs are as follows :\n<br><br>\n1.Bob plays first and the two players alternate.\n<br><br>\n2.In his/her turn ,a player can subtract from N any prime     number(including 1) less than N.The number thus obtained is the new N.\n<br><br>\n3.The person who cannot make a move in his/her turn loses the game.\n<br><br>\nAssuming both play optimally,who wins the game ?\n<h3>Input format:</h3>\n<p>The first line contains the number of test cases T.Each of the next lines contains an integer N.\n<h3>Output format:</h3>\n<p>Output T lines one for each test case,containing \"ALICE\" if Alice wins the game ,or \"BOB\" if Bob wins the game.\n<h3>Example</h3>\n<pre>\n<b>Sample Input:</b>\n2\n1\n2\n<br>\n<b>Sample Output:</b>\nALICE\nBOB\n<br>\n<b>Constraints:</b>\n1 <= T <= 1000000\n1 <= N <= 1000000000\n</pre>\n<br>\nNote : For the first test case, Bob cannot make any move and hence Alice wins the game. For the second test case, Bob subtracts 1 from N. Now, Alice cannot make a move and loses the game.\n",
+    "category_name": "main",
+    "date_added": "23-11-2010",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.31",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/NUMGAME2",
+    "problem_tester": "rajivka",
+    "time": {
+        "view_start_date": 1301650200,
+        "end_date": 1302600600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1302600600,
+        "submit_start_date": 1301650200,
+        "current": 1537439237
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Chef had a function organized in Chefland where there were a row of <b>N</b> people seated one after the other. Out of them certain number of people were from Chefland and some were visitors. Chef wanted to arrange all the visitors in such a way that they all get to sit in <b>contiguous chairs</b> so that they are comfortable talking to each other. Chef can only change the seating arrangement by asking any two adjacent people to exchange their seats and he can do this as many times as required.</p>\n<p>For example, if out of 5 people, the first and fourth are locals of Chefland and rest are vistors, then Chef can change the arrangement to 1-local, 2-visitor, 3-visitor, 4-visitor, 5-local (other ways are also possible) by asking the 4th and 5th guests to exchange their seats. This requires 1 exchange. For a given arrangement, Chef assigns to you the task of finding out the minimum number of operations required to get all the visitors next to each other.</p>\n\n<h3>Input</h3>\n<p>The first line of the input contains <b>T</b>, the number of test cases.</p>\n<p>The first line of each test case contains <b>N</b>, the number of people attending the function.</p>\n<p>The second line of each test case contains <b>N</b> space separated integers of <b>0</b>'s and <b>1</b>'s. If the i<sup>th</sup> number is 1 then the i<sup>th</sup> guest is a visitor to Chefland and if it is 0 then the i<sup>th</sup> guest is from Chefland.</p>\n<b>Note: Please trim trailing whitespaces</b>\n<p> </p>\n\n\n<h3>Output</h3>\n<p>For each test case, output a single line containing a single integer denoting the minimum number of operations needed.</p>\n\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n</ul>\n<p> </p>\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n5\n0 1 1 0 1\n9\n0 1 0 1 0 1 0 1 1\n\n<b>Output:</b>\n1\n5\n</pre>\n<p>\u00a0</p>\n\n<h3>Explanation</h3>\n<p><b>Test case 1:</b> Explained in problem description.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-02-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Coders' Legacy 2017A",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1488087000,
+        "end_date": 1488130200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1488130200,
+        "submit_start_date": 1488087000,
+        "current": 1537434097
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>subham_75</span>",
+    "problem_name": "Visitors to Chefland",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/subham_75'>subham_75</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "subham_75",
+    "contest_code": "COLG2017",
+    "max_timelimit": "1",
+    "problem_code": "CLVSTR"
+}

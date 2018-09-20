@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem</h3>\n<p>\n\t\t\tNikki's latest work is writing a story of letters. However, she finds writing story so boring that, after working for three hours, she realized that all she has written are M long words consisting entirely of letters A and B. Having accepted that she will never finish the story in time, Nikki has decided to at least have some fun with it by counting bubbly words.<br />\n\t\t<br /><br /><br />\n\t\t\tNow Nikki is connecting pairs of identical letters (A with A, B with B) by drawing lines above the word. A given word is bubbly if each letter can be connected to exactly one other letter in such a way that no two lines intersect. So here is your task. Help Nikki count how many words are bubbly.</p>\n<h3>Input</h3>\n<li>\n<ol>\n\t\t\tThe first line of input contains the positive integer M, the number of words written down by Nikki.\n\t\t\t\t</ol>\n</li>\n<li>\n<ol>\n<p>\t\t\tEach of the following M lines contains a single word consisting of letters A and B, with length<br />\n\t\t\tbetween 2 and 10^5, inclusive. The sum of lengths of all words doesn't exceed 10^6.\n\t\t\t\t</p></ol>\n</li>\n<h3>Output</h3>\n<p>\n\t\t\tThe first and only line of output must contain the number of bubbly words.\n\t\t</p>\n<h3>Constraints</h3>\n<li>\n<ol>\n<p>\t\t\t1 \u2264 M \u2264 100\n\t\t\t\t</p></ol>\n</li>\n<h3>Sample Input</h3>\n<p>\n3<br /><br />\nABAB<br /><br />\nAABB<br /><br />\nABBA<br />\n</p>\n<h3>Sample Output</h3>\n<p>2</p>\n<h3>Explanation</h3>\n<li>\n<ol>\n\t\t\t\t\t ABAB - It is not bubbly as A(indexed 1) will connect to A(indexed 3) by a line and when we try to connect B(indexed 2) with B(indexed 4) by a line then it will intersect with the line b/w A and A.\n\t\t\t\t</ol>\n</li>\n<li>\n<ol>\n\t\t\t\t\tAABB - It is bubbly as line b/w A and A will not intersect with the line b/w B and B.\n\t\t\t</ol>\n</li>\n<li>\n<ol>\n                                                                   ABBA -It is also bubbly as lines will not intersect. We can draw line b/w A and A above the line b/w B and B.\n\t\t\t\t</ol>\n</li>\n<style> p { text-align:justify } </style>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "CODE MARATHON",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457872200,
+        "end_date": 1457893800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457893800,
+        "submit_start_date": 1457872200,
+        "current": 1537435130
+    },
+    "problem_author_html_handle": "sivasaibellala",
+    "problem_name": "CONNECTING LINES",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sivasaibellala'>sivasaibellala</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sivasaibellala",
+    "contest_code": "COMN2016",
+    "max_timelimit": "1",
+    "problem_code": "NIKKLIN"
+}

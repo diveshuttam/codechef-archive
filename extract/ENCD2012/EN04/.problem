@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><pre>\nIn the &ldquo;Dancing Words&rdquo; problem, we are concerned with words constructed using the lowercase letters\n of the English alphabet - that is, a,b,c,...,z. These words need not necessarily be meaningful, any sequence\n of letters forms a word. For example, abbcada is a word.\n\nWe say that we can \"hop\" from the word word1 to the word word2 if they are \"sufficiently close\". We define\n word2 to be sufficiently close to word1 if one of the following holds:\n\n - word2 is obtained from word1 by deleting one letter.\n\n- word2 is obtained from word1 by replacing one of the letters in word1 by some letter that appears\n to its right in word1 and which is also to its right in alphabetical order.\n\nFor example, we can hop from abbca to abca by deleting the second (or third letter). \nWe can hop from aabca to abbca by replacing the a in the second position by the letter b that appears\n to the right of the a in aabca and which is also to its right in alphabetical order.\n On the other hand we cannot hop from abbca to aabca since we would need to replace the b\n in the second position by a, but a is to the left of b in alphabetical order.\n\nYou will be given a collection of words W. Your task is to find the length of the longest sequence\n w1,w2,w3&hellip;&hellip; of distinct words from W such that we may hop from w1 to w2, w2 to w3 and so on.\n We call this the hopping number for this set.\n\nFor example, if\nW = {abacd, bcdada, dd, abcd,bcdd, adcd, addd, aa, ccd, add, ad}, then\n the hopping number is 7 corresponding to the sequence\nabacd, abcd, adcd, addd, add, ad, dd\n\n<b>Input format</b>\nThe first line of the input contains one integer N indicating the number of words in the input.\n This is followed by N lines of input, lines 2, 3,..., N+1, each containing one word over the letters {a,b,..., z}.\n\n<b>Output format</b>\nThe output should be a single integer, indicating the hopping number of the given set of words.\n\n<b>Test Data:</b>\nYou may assume N &le; 100. You may assume that each word has at most 10 letters.\n\n<b>Example:</b>\nHere is the sample input and output corresponding to the example discussed above.\n\n<b>Sample Input</b>\n11\nabacd\nbcdada\ndd\nabcd\nbcdd\nadcd\naddd\naa\nccd\nadd\nad\n\n<b>Sample Output</b>\n7\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Encoder 2012",
+    "languages_supported": "C, JAVA, CS2, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330083000,
+        "end_date": 1330101000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1330101000,
+        "submit_start_date": 1330083000,
+        "current": 1537438959
+    },
+    "problem_author_html_handle": "pc_chawla",
+    "problem_name": "Dancing Words",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pc_chawla'>pc_chawla</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pc_chawla",
+    "contest_code": "ENCD2012",
+    "max_timelimit": "0.312343",
+    "problem_code": "EN04"
+}

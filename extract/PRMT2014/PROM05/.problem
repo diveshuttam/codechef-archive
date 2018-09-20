@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Natalie, Dylan and Alex of the Charlie\u2019s Angels are on a mission and they are lost in the ruins of some ancient city with enemies approaching quickly. Trying to escape they find themselves on a plank 100 feet above the ground that is held up by some unstable rock structures. This plank can only be balanced if the distribute their weight correctly. The sum of the weights of Natalie, Dylan and Alex of the Charlie\u2019s Angels are equal to A. The product of their weights is equal to B. And the sum of the squares of their weights is equal to C. Using this information find the weights of the Charlie\u2019s Angels so that they can figure out how to place themselves to ensure their survival?</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of the input file gives the number of test cases P (less than  20). Each of the following P lines give the values of A,B and C(0&lt;=A,B,C&lt;10000).</p>\n<h3>Output</h3>\n<p>For each test case, output the corresponding weights of Natalie, Dylan and Alex. If there are many possible answers, choose the one with the lower weight of Natalie. If there is a tie, output the one with the lower weight of Dylan. If there is no solution, output the line \"No solution.\" instead. </p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n1 2 3\n6 6 14\n\n<b>Output:</b>\nNo solution.\n1 2 3\n\n<p>\n\n\n<b>Note : This problem has been inspired from previously solved questions.</b> \n</p>\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-04-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Prometheus 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1397500200,
+        "end_date": 1397759400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1397759400,
+        "submit_start_date": 1397500200,
+        "current": 1537437600
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>himanshuk123</span>",
+    "problem_name": "Three Angels",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/himanshuk123'>himanshuk123</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "himanshuk123",
+    "contest_code": "PRMT2014",
+    "max_timelimit": "1",
+    "problem_code": "PROM05"
+}

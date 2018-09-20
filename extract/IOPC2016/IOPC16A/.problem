@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\n<h3>Problem description. </h3>\n</p>\n<p>Superman is afraid of Batman (Yes he is). Batman is building a Super Bat-Gun which emplifies power of Kryptonite stone.<br />\nSuperman wants to destroy the Gun before it's working. Superman knows all hideouts of Batman (thanks to infrared vision). There are many hideouts and in each hideout Batman have enough security. Superman is super but he fears that he may not be powerful enough to attack all hideouts in given time (some hideouts have Kryptonites). Knowing that such a Super Bat-Gun puts some constraints on the circuit design of hideout, Superman thinks that he may plan his attacks to beat Batman.\n</p>\n<p>\nA circuit design of Batman's hideout can be considered as a weighted directed graph with self loops but no multiple edges between two vertices.<br />\nThe constraint on such a graph, <b>G</b>, is that it <b>BatGodel(<b>G</b>)</b> must be odd. Before defining <b>BatGodel</b>, let's look at <b>SuperTuring(<b>G</b>)</b>.<br />\n<b>SuperTuring(G)</b> is set of <b>Turing-Subgraphs</b> of <b>G</b>. We call <b>G'</b> to be <b>Turing-Subgraphs</b> of <b>G</b> if <b>G'</b> is </p>\n<ul>\n<li>Subgraph of <b>G</b>.</li>\n<li>Every vertex in <b>G</b> is in <b>G'</b>.</li>\n<li>Every vertex belong to exactly one cycle in <b>G'</b>.</li>\n</ul>\n<p>We define <b>FlashCayley(<b>G</b>)</b> = Product of weight of all edges of <b>G</b>.</p>\n<p><br /><br />\n<img src=\"http://home.iitk.ac.in/~aayushoj/Sum.png\" height=\"200\" width=\"560\" /><br />\n<br />\n</p>\n<p>\nHelp Superman in beating Batman (he needs it yes he does!!!). Superman will give you a directed graph, <b>G</b>, and you need to tell whether <b>BatGodel(<b>G</b>)</b> is odd or even.\n</p>\n<h3>Input</h3>\n<p><b>Input description. </b></p>\n<ul>\n<li>The first line of the input contains an integer <b>t</b> denoting the number of test cases.</li>\n<li>\n In each test case\n<ul>\n<li>\n\t\tfirst line contains two integers separated by space <b>n</b> and <b>m</b>.<br />\n\t\t<b>n</b> is number of vertices and <b>m</b> is number of edges in graph.\n\t</li>\n<li>\n\t\tThen <b>m</b> lines follows each containing three integers <b>u</b>, <b>v</b> and <b>w</b> which means there is<br />\n\t\tan edge from <b>u</b> to <b>v</b> of weight <b>w</b>\n\t</li>\n</ul>\n</li>\n</ul>\n<p><b> Note that multiple edges between two vertices are not allowed but self loops are allowed. </b> </p>\n<h3>Output</h3>\n<p><b>Output description.</b></p>\n<ul>\n<li>For each test case, output a single line. If <b>BatGodel(<b>G</b>)</b> is odd print \"1\" else print \"0\".</li>\n</ul>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> &lt;= <b>t</b> &lt;= <b>100</b></li>\n<li><b>1</b>&lt;=<b>n</b>&lt;=<b>100</b>\n</li><li><b>0</b>&lt;=<b>m</b>&lt;=<b>n*n</b>\n</li><li><b>1</b>&lt;=<b>u</b>,<b>v</b>&lt;=<b>n</b>\n</li><li><b>0</b>&lt;=<b>w</b>&lt;=<b>10<sup>5</sup></b>\n</li></ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n1 1\n1 1 2\n2 2\n1 2 3\n2 1 5\n2 1\n1 2 5\n\n\n<b>Output:</b>\n0\n1\n0\n</pre><!-- <p>\u00a0</p> --><!-- <p>\u00a0</p> --><h3>Explanation</h3>\n<p> In first and second case there is only <b>1 Turing-Subgraph</b> of <b>G</b>. In third there are <b>no Turing-Subgraph</b> of <b>G</b>.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457789400,
+        "end_date": 1457875800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457875800,
+        "submit_start_date": 1457789400,
+        "current": 1537435146
+    },
+    "problem_author_html_handle": "admin2",
+    "problem_name": "BATGODEL and SUPERTURING",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin2'>admin2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin2",
+    "contest_code": "IOPC2016",
+    "max_timelimit": "1",
+    "problem_code": "IOPC16A"
+}

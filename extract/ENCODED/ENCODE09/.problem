@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Recently, doing some research in a far away jungle, the references of an old civilization game have been found. According to those old papers, any number of players can take part. Initially a finite number of distinct words is written and then, every player try to guess what's the  <b>largest number of pairs of words A, B that can be chosen at the same time, such that each pair has the property that either the word AB or BA is palindrome and no word can appear in more than one pair or be paired with itself</b>. The papers say people from that civilization were never good enough to say the exact number, and the game was always defined by choosing as the winner the player who said the closest number to the correct answer and in case of tie, the lowest answer was chosen. But,being such an excellent coder, you don't like that \"approximation\" answer and you claim you will be always able to say the correct number, no matter how complex the given set of words is. Thus, the ICPC (International Committee for Palindromic Challenges) has prepared several sets for you and if you tell them correct answers for all sets, you will be declared to be the Ultimate Palindromic God (which is, according to the papers, the name that should be given to the first player able to always win the game)\n\n\n<h3>Input</h3>\n<p>The input will contains several test cases. Every test case will start with a number N telling you the size of the set. Then N lines follow, each one with a word of current set, composed just with English alphabet lowercase letters.The input ends with the EOF.\n\n<h3>Output</h3>\n<p>For each test case in the input, output a single line with the required answer.<b> You can safely assume the maximum number of pairs there are in the game to be <= 3000.</b>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n  6\n  aaababa\n  aa\n  ababaaa\n  baaa\n  a\n  b\n  9\n  aabbaabb \n  bbaabbaa\n  aa\n  bb\n  a\n  bbaa\n  bba\n  bab\n  ab\n  10\n  ab\n  ba\n  aaab\n  cbaaa\n  aaabc\n  xxxcbaaa\n  aaabcxxx\n  aaa\n  a\n  b\n\n<b>Output:</b>\n  3\n  4\n  5\n\n<h3>Constraints</h3>\n1 <= N <= 1000\n1 <= length_of_word <= 1000\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "IEM - Kolkata - FESTRONIX - Encoded",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, D, PERL, FORT, ADA, ASM, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, SCM guile, TCL, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298799000,
+        "end_date": 1298831400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298831400,
+        "submit_start_date": 1298799000,
+        "current": 1537439304
+    },
+    "problem_author_html_handle": "encoded_admin",
+    "problem_name": "A Palindromic Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/encoded_admin'>encoded_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "encoded_admin",
+    "contest_code": "ENCODED",
+    "max_timelimit": "1.088",
+    "problem_code": "ENCODE09"
+}

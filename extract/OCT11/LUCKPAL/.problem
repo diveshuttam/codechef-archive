@@ -1,0 +1,33 @@
+{
+    "problem_code": "LUCKPAL",
+    "problem_author": "ankul_iiita",
+    "contest_name": "October Long Contest 2011",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>ankul_iiita</span>",
+    "problem_name": "Lucky Palin",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>masked_zorro</span>",
+    "contest_code": "OCT11",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ankul_iiita'>ankul_iiita</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/oct11'>oct11</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Chef Palin, as his name suggests, is always very interested in palindromic strings. Recently, he made a pretty interesting discovery on palindromes and that made him feel really Lucky. He came across something known as Lucky Palindromes. He defines a string as being a lucky palindrome if it is a palindrome containing the string \"lucky\" as a substring. As always, now he wants to turn every string he comes across into a lucky palindrome. Being a chef, he is a man of patience and creativity, so he knows the operation of replacing any character of the string with any other character very well and he can perform this action infinitely many times. He wants you to write a program that can help him convert a given string to a lucky palindrome using the minimum number of operations and if several such lucky palindromes are possible, then output the lexicographically smallest one.\n<br /><br />\n<b>Input</b>\n<br /><br />\nThe first line contains a single integer T &lt;= 100 the number of testcases. The following T lines each contain a string of length &lt;= 1000 and only containing characters 'a'-'z'.\n<br /><br />\n<b>Output</b>\n<br /><br />\nFor each line of testcase, your program should output on a single line, the required lucky palindrome along with the minimum number of operations, both separated by a single space. If there is no lucky palindrome possible, then just output \"unlucky\" in a single line.\n<br /><br />\n<b>Example:</b>\n<br /><br />\n<b>Input</b>\n<br /><br />\n3<br />\nlaubcdkey<br />\nluckycodechef<br />\naaaaaaaa\n<br /><br />\n<b>Output</b>\n<br /><br />\nluckykcul 8<br />\nluckycocykcul 6<br />\nunlucky<br />",
+    "category_name": "main",
+    "date_added": "27-08-2011",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.203171",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/LUCKPAL",
+    "problem_tester": "masked_zorro  ",
+    "time": {
+        "view_start_date": 1317461400,
+        "end_date": 1318325400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1318325400,
+        "submit_start_date": 1317461400,
+        "current": 1537439126
+    },
+    "user": {
+        "username": ""
+    }
+}

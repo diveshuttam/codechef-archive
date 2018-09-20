@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Problem 1 Antidote.</p>\n<p>Two students from Amrita named Dos and Dex are trying to do a research</p>\n<p>on human ageing. Dos prepares an Antidote to stop skin from aging. Dex</p>\n<p>prepares an antidote for stopping hair fall. Dos and Dex combined their</p>\n<p>experiments and came out with a single antidote, which stops the human</p>\n<p>ageing. A Researcher now wants to preserve their antidote in Amrita</p>\n<p>Research Storage Refrigerators (ARSR). But ARSR can only store N liters in</p>\n<p>a container. Prepared antidote is with research lab assistant, when asked;</p>\n<p>she fills the beaker with the antidote and gives antidote. Now researcher</p>\n<p>wants exactly N liters of antidote and researcher is left with two unused</p>\n<p>faded beaker with capacity A and B litres. Researcher now needs your help</p>\n<p>to find whether they can exactly measure N liters from their unused beaker.</p>\n<p>Allowed Operation to any beaker</p>\n<p>1. 1) Fill the beaker fully, by asking lab assistant.</p>\n<p>2. 2) Empty it entirely.</p>\n<p>3. 3) Transfer as much antidote from Beaker 1 to Beaker 2, till</p>\n<p>Beaker 1 gets empty or Beaker 2 is completely filled.</p>\n<p>*Beakers measuring marks are completely faded.\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>Test Case (T &lt;= 20).</p>\n<p>A B N in a separate line (1&lt;= A, B, N 1&lt;= 10^7).\n</p>\n<h3>Output</h3>\n<p>\u201cYES\u201d, If Researcher can fill one of beaker with n liters and give to the ARSR or else \u201cNO\u201d.\n</p>\n<h3>Example</h3>\n<pre><b>Input:\n2 \n\n5 4 3\n\n6 2 13\n\n</b>\netc.\n\n<b>Output:\nYES\n\nNO\n</b>\netc.\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Test\u00adcase 1 : Fill beaker 4 and pour it to beaker 5. Again fill beaker 4 and pour it to beaker 5. beaker 4 will contain 3 litres of antidote.<br />\nTest\u00adcase 2: we cannot have 13 litres of antidote in any beaker<br />\n</b> ...</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Code-Wars, Round 1",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1423917000,
+        "end_date": 1423924200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1423924200,
+        "submit_start_date": 1423917000,
+        "current": 1537436816
+    },
+    "problem_author_html_handle": "naveenrajan",
+    "problem_name": "Antidote",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/naveenrajan'>naveenrajan</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "naveenrajan",
+    "contest_code": "CDWR1501",
+    "max_timelimit": "1",
+    "problem_code": "CWAMR103"
+}

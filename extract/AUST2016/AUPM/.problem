@@ -1,0 +1,33 @@
+{
+    "problem_code": "AUPM",
+    "problem_author": "shakilaust",
+    "contest_name": "Intra AUST Programming Contest Fall 2015",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>shakilaust</span>",
+    "problem_name": "Printer Machine",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "AUST2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ad-hoc'>ad-hoc</a>, <a class='problem-tag-small ' href='/tags/problems/aust2016'>aust2016</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/shakilaust'>shakilaust</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Voldemort is back again! In order to kill him, Harry porter need to finish the final horcrux. The final horcux is he needs to draw a nested square of different lengths. He only can do the smaller length squares, but fails against the larger ones. Though he is a great magician, he is unable to solve this problem (he is not a programmer :p); he needs an expert to help him. As you are one of the best programmers in AUST, he asks you to solve the problem.</p>\n<p>You will be given an integer <b> N (N will be odd length) </b>, print the corresponding nested square to help Harry porter.</p>\n\n<h3>Input</h3>\n<p>First line there will an integer <b> T (1 \u2264 T \u2264 20) </b> which represents number of test cases, next following T lines, there will an integer <b>N (5 \u2264 N \u2264 100) </b>.</p>\n<h3>Output</h3>\n<p>For each test case print the case number and then print the image of the square. For drawing the lines use character <b> (\u2018#\u2019) </b>. See the sample I/O.</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n5\n7\n\n\n\n<b>Output:</b> \n\n<a href=\"http://tinypic.com?ref=350oql0\" target=\"_blank\"><img src=\"http://i68.tinypic.com/350oql0.jpg\" border=\"0\" alt=\"Image and video hosting by TinyPic\" /></a>\n\n\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "date_added": "15-01-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/AUPM",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1453467600,
+        "end_date": 1453482000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1453482000,
+        "submit_start_date": 1453467600,
+        "current": 1537435629
+    },
+    "user": {
+        "username": ""
+    }
+}

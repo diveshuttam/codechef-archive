@@ -1,0 +1,31 @@
+{
+    "status": "success",
+    "problem_tester": null,
+    "body": "<h2>Zonal Computing Olympiad 2015, 29 Nov 2014</h2>\n\n<br>\n<p> An <em>interval</em> is a pair of positive integers [a, b] with a \u2264 b. It is meant to denote the set of integers that lie between the values a and b. For example [3,5] denotes the set {3,4,5} while the interval [3, 3] denotes the set {3}.</p>\t\n\n<br>\n<p>\nWe say that an interval [a, b] is covered by an integer i, if i belongs to the set defined by [a, b]. For example interval [3, 5] is covered by 3 and so is the interval [3, 3].</p>\n<p>\nGiven a set of intervals <em>I</em>, and a set of integers <em>S</em> we say that <em>I</em> is covered by <em>S</em> if for each interval [a, b] in <em>I</em> there is an integer <em>i</em> in <em>S</em> such that [a, b] is covered by <em>i</em>. For example, the set {[3, 5], [3, 3]} is covered by the set {3}. The set of intervals {[6, 9], [3, 5], [4, 8]} is covered by the set {4, 5, 8}. It is also covered by the set {4, 7}.</p>\n\n<br>\n<p>We would like to compute, for any set of intervals <em>I</em>, the size of the smallest set <em>S</em> that covers it. You can check that for the set of intervals {[6, 9], [3, 5], [4, 8]} the answer is 2 while for the set of intervals {[3, 5], [3, 3]} the answer is 1.</p>\n\n<br>\n<p>Your program should take the set of intervals as input and output the size of the smallest set that covers it as the answer.</p>\n\n\n<br>\n<h3>Input format</h3>\n\n<p>The first line contains a single integer <em>N</em>, giving the number of intervals in the input.</p>\n\n<br>\n<p>This is followed by <em>N</em> lines, each containing two integers separated by a space describing an interval, with the first integer guaranteed to be less than or equal to the second integer.</p>\n\n<br>\n<h3>Output format</h3>\n\n<p>Output a single integer giving the size of the smallest set of integers that covers the given set of intervals.</p>\n\n<br>\n<h3>Test data</h3>\n\n<p>You may assume that all integers in the input are in the range 1 to 10^8 inclusive.</p>\n\n<br>\n<p><b>Subtask 1 (100 marks)</b> : 1 \u2264 <em>N</em> \u2264 5000.</p>\n\n<br>\n<h3>Sample Input 1</h3>\n\n<pre>\n2 \n3 5 \n3 3\n</pre>\n\n<br>\n<h3>Sample Output 1</h3>\n\n<pre>\n1\n</pre>\n\n<br>\n<h3>Sample Input 2</h3>\n\n<pre>\n3 \n6 9 \n3 5 \n4 8\n</pre>\n\n<br>\n<h3>Sample Output 2</h3>\n\n<pre>\n2\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-11-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ZCO Practice Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1446661800,
+        "end_date": 1578162600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1578162600,
+        "submit_start_date": 1446661800,
+        "current": 1537431959
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Covering",
+    "source_sizelimit": "50000",
+    "problem_status": "unattempted",
+    "problem_tester_html_handle": null,
+    "problem_author": "admin3",
+    "contest_code": "ZCOPRAC",
+    "max_timelimit": "1",
+    "problem_code": "ZCO15003"
+}

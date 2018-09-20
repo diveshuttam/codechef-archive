@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Sherlock Holmes was trying to solve another murder case. He found a box that can be unlocked only by forming a pattern on it. Box has a matrix of LEDs of N x M on the top and K switches which can toggle some LEDs on the box.</p>\n<p>Sherlock Holmes being very smart already knew the pattern that has to be formed using the LEDs to unlock the box. He found this task a bit tedious so asks you for help. Given the size of the matrix (N x M), list of K switches and with each switch a list of position(x,y) of LEDs (0 based index) that will be toggled on turning on that particular switch, you need to tell whether pattern can be formed or not</p>\n<h3>Input</h3>\n<p>First line of input contains no. of test cases T.<br /><br />\nAnd first line of each testcase contains N,M (the size of the matrix) and K (the no. of switches).<br /><br />\nThen K lines follow, first integer of each line is P (no. of LEDs it can toggle) and then follow 2*P integers denoting the x and y coordinates of the LED (like x1 y1 x2 y2 x3 y3 \u2026..xp yp)<br /><br /><br />\nThen follows the N X M matrix representing the final pattern. Each cell of the matrix will be either 1(ON) or 0(OFF)</p>\n<h3>Output</h3>\n<p>Output of each test case will be a line containing \u201cYes\u201d or \u201cNo\u201d (quotes for clarity), \u201cYes\u201d if the pattern can be formed \u201cNo\u201d if it cannot be.</p>\n<h3>Constraints</h3>\n<p>1&lt;=T&lt;=100<br/><br />\n1&lt;=N,M&lt;=20<br/><br />\n1&lt;=K&lt;400<br/></br/></br/></br/></p>\n<p>Note:<br />\nAll the LEDs are off initially<br /><br /></p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n1\n5 5\n4\n4 0 1 0 2 0 3 0 4\n8 1 1 1 2 1 3 1 4 2 1 2 2 2 3 2 4\n8 2 1 2 2 2 3 2 4 0 1 0 2 0 3 0 4\n4 3 1 3 2 3 3 3 4\n0 0 0 0 0\n0 1 1 1 1\n0 0 0 0 0\n0 1 1 1 1\n0 0 0 0 0\n\n<b>Output:</b>\nYes\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Cranium  2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1360765800,
+        "end_date": 1360783800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1360783800,
+        "submit_start_date": 1360765800,
+        "current": 1537438526
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>sameer47</span>",
+    "problem_name": "The Murder Case",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sameer47'>sameer47</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sameer47",
+    "contest_code": "CRNM2013",
+    "max_timelimit": "2",
+    "problem_code": "CRNM1303"
+}

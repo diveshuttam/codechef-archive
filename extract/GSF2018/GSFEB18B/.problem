@@ -1,0 +1,33 @@
+{
+    "problem_code": "GSFEB18B",
+    "problem_author": "janeadsouza",
+    "contest_name": "GST February SRM",
+    "todo": false,
+    "problem_author_html_handle": "janeadsouza",
+    "problem_name": "7 ate 9!",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "GSF2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cakewalk'>cakewalk</a>, <a class='problem-tag-small ' href='/tags/problems/gsf2018'>gsf2018</a>, <a class='problem-tag-small ' href='/tags/problems/janeadsouza'>janeadsouza</a>, <a class='problem-tag-small ' href='/tags/problems/janeadsouza'>janeadsouza</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>7 came back home, from College, very very hungry! Chef was really caught up, with loads of Party orders and hence couldn't satiate 7's hunger. 7 was so famished, that when it saw \"scrumptious 9\", prepared by Chef, specially for the party, it couldn't control itself and gobbled it up! Now, Chef is extremely furious and has decided to not allow 7 into his kitchen. 7 is however clubbing up with others and trying to get in.</p>\n<p>Help Chef prevent 7 from entering into the kitchen.</p>\n<p></p>\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. Each line of the test case begins with <b>N</b> denoting number of inputs, followed by numbers a<sub>1</sub>, a<sub>2</sub>,...,a<sub>N</sub> , entering the kitchen.</p>\n\n<h3>Output</h3>\n<p>Only numbers that do not contain 7 in the units place must be allowed into the kitchen. Print all the numbers from the input that must be given an entry into the kitchen</p> \n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>a<sub>i</sub></b> \u2264 <b>10<sup>8</sup></b></li>\n</ul>\n\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n4 7 17 27 37\n7 21 67 98 34 17 23 16\n\n<b>Output:</b>\n\n21 98 34 23 16\n</pre>\n<p>\u00a0</p>\n\n<h3>Explanation</h3>\n<p><b>Example case 1 : </b> An empty line will be printed because there all numbers with 7 at units place</p>\n<p><b>Example case 2 : </b> Numbers 67 and 17 contain 7 in units place and hence need to be omitted from the output list.</p>",
+    "category_name": "main",
+    "date_added": "21-02-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/GSFEB18B",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1519479000,
+        "end_date": 1519486200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1519486200,
+        "submit_start_date": 1519479000,
+        "current": 1537432945
+    },
+    "user": {
+        "username": ""
+    }
+}

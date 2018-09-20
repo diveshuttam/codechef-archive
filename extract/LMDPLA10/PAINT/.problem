@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nLeonardo da Vinci is preparing the background for his new painting. Since this is the computer age, he is using an electronic paper which is initially white. Paper is a MxN rectangular gird having MxN square cells. With paint(i,j) operation, his computer fills the cell(i,j) of the paper with black color. However, at any point in time, he may want to know the size of biggest <b>black segment</b>. <b>Black Segment</b> is defined as the group of cells in which any two <b>vertical or horizontal</b> neighboring cells are black. He asks for your help to complete the above task.\n\n<h3>Input</h3>\n</p><p>\nThe first line contains two integers, M and N. Next line contains an integer Q,  where Q is total number of queries. The following Q lines each have a query Q<sub>i</sub> containing an integer B. B is either 0 or 1. If B is 1, two integers i and j follow which corresponds to the operation paint(i,j) (1-based index). \n\n<h3>Output</h3>\n</p><p>\nFor every query with B=0, output the size of biggest black segment. \n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3 3\n9\n1\n2 1\n0\n1\n1 3\n0\n1\n3 3\n1\n2 3\n0\n1\n2 2\n0\n\n<b>Output:</b>\n1\n1\n3\n5\n\n<br />\n\n<img border=\"0\" src=\"http://db.tt/T31uorb\" />\n\n\n\nFigure from Example.\n\n\n<b>Constraints:</b>\n<ul>\n<li> 1 \u00a0 &lt;= \u00a0 M,N \u00a0 &lt;= \u00a0 1000.</li>\n<li> 1 \u00a0 &lt;= \u00a0 Q \u00a0 &lt;= \u00a0 10<sup>6</sup>.</li>\n<li> B will be either 0 or 1.</li>\n<li> 1 \u00a0 &lt;= \u00a0 i \u00a0 &lt;= \u00a0 M </li>\n<li> 1 \u00a0 &lt;= \u00a0 j \u00a0 &lt;= \u00a0 N </li>\n</ul></pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "30-09-2010",
+    "is_direct_submittable": false,
+    "contest_name": "IIIT - A , Limit-de-Plazo 2010",
+    "languages_supported": "C",
+    "todo": false,
+    "time": {
+        "view_start_date": 1286026200,
+        "end_date": 1286044200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1286044200,
+        "submit_start_date": 1286026200,
+        "current": 1537439511
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>divij</span>",
+    "problem_name": "Painting",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/divij'>divij</a>",
+    "problem_tester_html_handle": null,
+    "problem_author": "divij",
+    "contest_code": "LMDPLA10",
+    "max_timelimit": "0.2225",
+    "problem_code": "PAINT"
+}

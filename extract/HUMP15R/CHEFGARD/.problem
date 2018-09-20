@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nThere are <b>n</b> trees on a road in Chef's garden. Each tree has one of the three colours out of red, green or blue. You are given information about the colours of the trees by a string <b>s</b>. if <b>s[i]</b> is 'R', it means that <b>i<sup>th</sup></b> tree is red. Similarly 'G' denotes green and 'B' denotes blue colored tree.</p>\n<p>\nChef likes to create a beautiful pattern out of the tree colours. A pattern is called beautiful if all the trees of the same colour are continuous. eg. \"RRBGG\" and \"GGBBB\" are beautiful patterns, but \"RGRB\" is not a beautiful pattern because trees of red color are not continuous.\n</p>\n<p>\nFor achieving beautiful pattern, chef is permitted to change the colours of the trees. For changing the colour of <b>i<sup>th</sup></b> tree from any colour to any other colour, he needs to pay a cost of <b>c[i]</b> rupees. Find out the minimum amount of rupees the chef requires, to create a beautiful pattern out of the colours of the <b>n</b> trees.\n</p>\n<h3>Input</h3>\n<ul>\n<li>First line of the input contains a single integer <b>T</b> denoting number of test cases. </li>\n<li>Description of <b>T</b> test cases follows.</li>\n<li>First line of each test case will contain a single integer <b>n</b> denoting number of trees on the road in chef's garden.</li>\n<li>Second line will contain a single line containing string <b>s</b> as defined in the problem. </li>\n<li>Third line will contain <b>n</b> space separated integers denoting the array <b>c</b>, i.e. <b>c[1], c[2], .., c[n]</b>.</li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>For each test case, print a single line containing a single integer denoting minimum amount of rupees needed to create a beautiful pattern. </li>\n</ul>\n<h3>Constraints</h3>\n<ul>\n<li><b>1 \u2264 T, n \u2264 10<sup>5</sup></b></li>\n<li><b>1 \u2264 c[i] \u2264 10<sup>9</sup></b></li>\n<li> Sum of <b>n</b> over all the test cases won't exceed <b>10<sup>6</sup></b> </li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n3\nRGB\n1 2 3\n3\nRRR\n1 2 3\n3\nRBR\n1 2 3\n\n<b>Output:</b>\n0\n0\n1\n</pre><h3>Explanation</h3>\n<p><b>Example case 1.</b> Pattern is already beautiful. There is no need to pay any cost.</p>\n<p><b>Example case 2.</b> Pattern is already beautiful. There is no need to pay any cost.</p>\n<p><b>Example case 3.</b> Change colour of the first tree to blue. Then the pattern will BBR, which is beautiful pattern. Cost required will be <b>1</b>. There is no way to create a beautiful pattern by paying less than <b>1</b> rupee. Hence answer is <b>1</b>.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Hindustan University Multi Provincial Re-Contest 2015",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1425565800,
+        "end_date": 1425580200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1425580200,
+        "submit_start_date": 1425565800,
+        "current": 1537436648
+    },
+    "problem_author_html_handle": "admin2",
+    "problem_name": "Chef and beautiful patterns in the garden ",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin2'>admin2</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/hump2015'>hump2015</a>, <a class='problem-tag-small ' href='/tags/problems/minimum'>minimum</a>, <a class='problem-tag-small ' href='/tags/problems/prefix-sum'>prefix-sum</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin2",
+    "contest_code": "HUMP15R",
+    "max_timelimit": "3",
+    "problem_code": "CHEFGARD"
+}

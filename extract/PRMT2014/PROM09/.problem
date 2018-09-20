@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h2>Problem Statement \u00a0</h2>\n<p>Like many institutes of the world, Manipal is going to have it first social networking website. It is aimed at increasing positive interaction between teachers and students as well as within students. The website has been developed and has been tested by a group of students and teachers dedicated to the project. They decided that the website would be hosted outside MIT so that children can communicate even when they are outside MIT. This allowed communication between teachers and students even when they were not inside the campus.<br />\n\tHowever, when it came to hosting the website, everyone had a different opinion. While some wanted to host a website at a free of cost domain, some wanted to host it with the help a proper ISP. There were arguments even for things such as whether to give advertisements or not.<br />\n\tIn the end, after hours of deadlock, it was decided that they will go for a \u201cPartial Payment Domain\u201d. This is a new scheme started by AirTel in Karnataka which allowed institutions to host websites on their servers by paying for only 4 of the 7 days per week. However, the service cannot be discontinued before 1 year from the date the agreement was signed and the four days will have to be selected in the beginning and cannot be changed during the year. Also on holidays, the server will have to be paid for due to excessive load. (Note: Sunday is not considered as a holiday unless it is explicitly mentioned)</p>\n<p>\tSince the project receives limited funding, it needed to make sure that it uses the money as efficiently as possible. Your job is to decide the four days on which the service should be paid so as to save as much money as possible.\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line consists of an integer t (1&lt;=t&lt;=100), the number of test case. \t\t\t             t test cases follow.<br />\nThe first line of each test case is an integer n (1&lt;=n&lt;=365) denoting the number of holidays. n lines follow which will consist of three space separated integer d, m and y denoting the date of the holiday in dd mm yyyy format. The year may be normal or leap year. The holidays mentioned for one test case will always be of the same year. d and m can be single digit integers depending of the day and month, respectively. y is always a four digit number. d/m/y will  always be a valid date.\n</p>\n<h3>Output</h3>\n<p> For each test case, print the four days in the order in which they appear in a week.<br />\nNote: Sunday is considered to be the first day of the week.\n</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n4\n3 5 2005\n5 2 2005\n20 8 2005\n12 10 2005\n\n<b>Output:</b>\nSunday\nTuesday\nWednesday\nSaturday\n\n</pre><p>\n<br />\n<br />\n<b>Note : This problem has been inspired from previously solved questions.</b>\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-04-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Prometheus 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1397674066,
+        "end_date": 1397759400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1397759400,
+        "submit_start_date": 1397674066,
+        "current": 1537437603
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>himanshuk123</span>",
+    "problem_name": "Web Hosting",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/himanshuk123'>himanshuk123</a>",
+    "problem_tester_html_handle": null,
+    "problem_author": "himanshuk123",
+    "contest_code": "PRMT2014",
+    "max_timelimit": "3",
+    "problem_code": "PROM09"
+}

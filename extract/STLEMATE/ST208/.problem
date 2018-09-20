@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Do you remember those questions of Sequence and Series chapter of Class 11th in which we were required to find the next number of a particular sequence? If not then let us revise a few concepts first.\n\n</p><p>The sequences can be generally described by polynomials.  For e.g. the sequence 1, 2, 3, 4, 5 can be easily understood as a trivial polynomial. The next number is 6. But even more complex sequences, like 1, 2, 4, 7, 11, can be described by a polynomial, 1/2.n<sup>2</sup>-1/2.n+1 . Note that even if the members of the sequence are integers, polynomial coefficients may be any real numbers.\n\n</p><p>Polynomial is an expression in the following form: \nP(n) = a<sub>k</sub>.n<sup>k</sup>+a<sub>k-1</sub>.n<sup>k-1</sup>+...+a<sub>1</sub>.n+a<sub>0</sub> \n\n</p><p>If a<sub>k</sub> != 0, the number k is called a degree of the polynomial. Note that a constant function of the form P(n) = C is of degree 0, and the zero function P(n) = 0 is of degree -1. \n\n<h3>Input</h3>\n</p><p>There are multiple test cases in the input. The input begins with a single integer which gives the number of test cases. Each test case consists of two lines. First line of each test case contains two integers L and Q separated by a space, 1 \u2264 L &lt; 100, 1 \u2264 Q &lt; 100, (L+Q) \u2264 100. Here L is the length of the given sequence and Q is the amount of numbers you are required to find to complete the sequence.\n</p><p>The second line of each test case contains L integer numbers Z<sub>1</sub>, Z<sub>2</sub>, ..., Z<sub>L</sub> separated by a space. These numbers form the given sequence and it can be described by a polynomial P(n) such that for every x, Z<sub>x</sub> = P(x). Among these polynomials, we can find the polynomial Pmin with the lowest possible degree which is the required polynomial to be used for completing the sequence. \n\n<h3>Output</h3>\n</p><p>For every test case, print Q integer numbers, which are the values completing the sequence according to the polynomial Pmin, separated by a space, i.e. you need to print Pmin(L+1), Pmin(L+2), ... , Pmin(L+Q). \nIt is guaranteed that the results Pmin(L+x) will be non-negative integers. \n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n4\n4 4\n1 2 3 4\n3 4\n1 2 4\n13 2\n1 1 1 1 1 1 1 1 1 1 1 1 2\n1 9\n7\n\n<b>Output:</b>\n5 6 7 8\n7 11 16 22\n14 92\n7 7 7 7 7 7 7 7 7\n\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-10-2010",
+    "is_direct_submittable": false,
+    "contest_name": "NSIT Delhi - Stale Mate 2.0",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1288528200,
+        "end_date": 1288549800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1733529502,
+        "submit_start_date": 1288528200,
+        "current": 1537439456
+    },
+    "problem_author_html_handle": "ajitesh14",
+    "problem_name": "Progressions",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ajitesh14'>ajitesh14</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ajitesh14",
+    "contest_code": "STLEMATE",
+    "max_timelimit": "0.259206",
+    "problem_code": "ST208"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\n  You are given <b>n</b> cities with <b>m</b> bi-directional roads connecting them and the<br />\n  length of each road. There are two friends living in different cities who wish<br />\n  to collect some ingredients available at different stores to make cake. There<br />\n  are s such stores. They need not come back home after purchasing the<br />\n  ingredients. Petrol is expensive and they would hence like to travel minimum<br />\n  total distance (sum of distance distance traveled by both kids). Help them<br />\n  find out what this distance is.\n  </p>\n<h3>Input Format:</h3>\n<p>\n  <b>n m</b><br />\n  (<b>m</b> lines of the form <b>a<sub>i</sub> b<sub>i</sub> c<sub>i</sub></b>)<br />\n  Here <b>n</b> is number of cities, <b>m</b> is number of roads, <b>a<sub>i</sub></b> and <b>b<sub>i</sub></b> are the cities(0<br />\n  indexed) the roads connect and <b>c<sub>i</sub></b> is the length of this road<br />\n  <b>s</b> where <b>s</b> is the number of stores<br />\n  (1 line containing <b>s</b> space separated integers indicating the city number in<br />\n  which the stores are located.)<br />\n  (two space separated integers indicating the cities in which the two kids<br />\n  live)\n  </p>\n<h3>Output Format:</h3>\n<p>\n  Single integer <b>x</b> where <b>x</b> is the minimum distance that the duo will travel that<br />\n  is minimum sum of distance travelled by first kid and second kid.\n  </p>\n<h3>Constraints:</h3>\n<p><b><br />\n  2 &le; n &le; 100<br />\n  1 &le; m &le; (n*(n-1))/2<br />\n  0 &le; a,b &lt; n<br />\n  0 &le;c&le; 1000<br />\n  1 &le; s &le; 8<br /></b>\n  </p>\n<h3>Sample Input:</h3>\n<pre>\n5 6\n0 1 5\n1 4 1\n0 4 10\n0 2 2\n1 2 3\n2 3 4\n2\n2 4\n0 1</pre><h3>Sample Output:</h3>\n<pre>\n3</pre><p><br />\n<b>Problem Setter: Vidit Gupta</b></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-01-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeCraft: IIIT Hyderabad, Replay",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1391232600,
+        "end_date": 1391257800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1391257800,
+        "submit_start_date": 1391232600,
+        "current": 1537437885
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>darkshadows</span>",
+    "problem_name": "Ingredients",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/darkshadows'>darkshadows</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "darkshadows",
+    "contest_code": "CDCRFT14",
+    "max_timelimit": "2",
+    "problem_code": "INGREDIE"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem description.</h3>\n<p>\nGande has joined NayaSa Institute of Technology also abbreviated as NSIT and he is very happy about being in one of the highly rated college. As you might guess by the title , NSIT is very unpopular.</p>\n<p>\nSomeday some guy came from the land of \u201cThe World was there\u201d and after underestimating Gande, challenged him to solve a so called brutal problem which was never solved in their world.\n</p>\n<p>\nThe problem states that given <b>N</b> servers and <b>N-1</b> bidirectional wires you have to connect them all such that there is a path between every server (directly or indirectly). Now, out of <b>N-1</b> wires each wire has a length C.  Any wire can be used to connect any pair of the given <b>N</b> servers. The cost of the network is calculated in two terms:<br />\n</p>\n<ol>\n<li>Sum of lengths of all the wires used to connect.</li>\n<li>Sum of <b>degree(u) * degree(v)</b> for all ordered pairs  u,v such that  u!=v   (u and v are servers)</li>\n</ol>\n<p>\n<br />The cost of the network is sum of the above two terms.<br />\n<br /><br />\nGandey has to <b>maximise</b> this cost.<br /><br />\nAlthough being a student of NSIT, Gandey can easily solve this problem very quickly but he has plans with Ms. Ghatak ! So , please solve this problem while Gandey and Ghatak are watching movie.\n</p>\n<h3> Clarifications </h3>\n<ol>\n<li> Indirect connection means that if u and v are connected , and , v and w are connected that implies u and w are connected. </li>\n<li> By ordered pair problem means that (u,v) is different from (v,u).</li>\n<li> By Degree of a Server, problem means the number of bidirectional wires connected to it.</li>\n<li> It can be proven that you can always connect <b>N</b> servers with <b>N-1</b> wires</li>\n</ol>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first line of each test case contains a two integers <b>N</b> and <b>C</b> denoting the number of servers and length  of each  wire. </li>\n</ul>\n<h3>Output</h3>\n<p>\nFor each test case, output a single line containing the maximum cost possible.</p>\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>2</b> \u2264 <b>N</b> \u2264 <b>500</b></li>\n<li><b>1</b> \u2264 <b>C</b> \u2264 <b>1000</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n2 1\n<p></p>\n<b>Output:</b>\n3</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "9-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ASN_Epoch 1.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, ADA, CAML, ICK, BF, ASM, CLPS, ICON, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, JS, ERL, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455897600,
+        "end_date": 1455908400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1455908400,
+        "submit_start_date": 1455897600,
+        "current": 1537435397
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>sandeep_2795</span>",
+    "problem_name": "No one knows about NSIT",
+    "source_sizelimit": "3000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sandeep_2795'>sandeep_2795</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sandeep_2795",
+    "contest_code": "ASNE2016",
+    "max_timelimit": "5",
+    "problem_code": "STUD2"
+}

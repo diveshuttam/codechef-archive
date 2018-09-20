@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Chef Polo has recently been observing the structure of Tower of Hanoi.<br />\nSo he decides to build his own tower and names it as Tower of HanoiCake.<br />\nHe decides to build it using circular pancakes.<br />\nTo build his tower he has to arrange them vertically, one upon another.<br />\nHe knows that if he places a pancake of radius<b> r1</b> above pancake of radius <b>r2</b> such that <b>r1 >= r2</b>,<br />\nthe whole tower will shake and pancake with radius <b>r1</b> will fall on the floor and hence get wasted. Since Chef Polo is wise, he selects the pancakes in such a way that no pancake falls on the floor.<br/><br />\nHis assistants have baked all the pancakes for him already,labelled them with their radius and have arranged them in a row.<br/><br />\nHe starts his selection of pancakes in same order as they are placed in the row.He has only one chance to select each pancake.<br/><br />\nIf he selects a pancake, he places it on the top of his tower else he moves on to the next one.<br/><br />\nYou are required to find the <b>maximum height</b> of the tower which he can build.<br />\n\u00a0</br/></br/></br/></br/></p>\n<h3>Input</h3>\n<p>The first line contains the number of test cases <b>T</b>.<br />\nFirst line of each test case contains <b>n</b> (number of pancakes in the row)<br />\nNext line contains array <b>R</b> of <b>n</b> integers denoting the radii of pancakes.<br />\n.</p>\n<h3>Output</h3>\n<p>For each test case, output a single line containing the maximum height of the tower he can build.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>R[1...n]</b> \u2264 <b>10^9</b></li>\n</ul>\n<h3>Sample Input:</h3>\n<p>2<br /><br />\n5<br /><br />\n8 7 2 3 4<br /><br />\n8<br /><br />\n2 9 4 6 5 2 2 1<br /></p>\n<h3>Sample Output:</h3>\n<p>3<br /><br />\n5</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "TechnoSurge 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1361716200,
+        "end_date": 1361730600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1361730600,
+        "submit_start_date": 1361716200,
+        "current": 1537438484
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>kuldeepfouzdar</span>",
+    "problem_name": "Tower of HanoiCake",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kuldeepfouzdar'>kuldeepfouzdar</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kuldeepfouzdar",
+    "contest_code": "TCSG2013",
+    "max_timelimit": "1",
+    "problem_code": "HCAKE"
+}

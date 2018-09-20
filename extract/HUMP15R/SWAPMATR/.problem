@@ -1,0 +1,33 @@
+{
+    "problem_code": "SWAPMATR",
+    "problem_author": "admin2",
+    "contest_name": "Hindustan University Multi Provincial Re-Contest 2015",
+    "todo": false,
+    "problem_author_html_handle": "admin2",
+    "problem_name": "Swapping in a matrix",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "HUMP15R",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/2d'>2d</a>, <a class='problem-tag-small ' href='/tags/problems/admin2'>admin2</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/factorization'>factorization</a>, <a class='problem-tag-small ' href='/tags/problems/hump2015'>hump2015</a>, <a class='problem-tag-small ' href='/tags/problems/prefix-sum'>prefix-sum</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nYou are given a binary matrix (i.e. each element of matrix is either <b>0</b> or <b>1</b>) of size <b>n \u00d7 n</b>. You want to re-arrange <b>1</b>'s in such a way that they form a rectangular region. Note that the rectangular region should be made of <b>only</b> <b>1</b>'s, and all the <b>1</b>'s of the <b>entire</b> matrix should be in this rectangular region.\n</p>\n<p>\nFor achieving rectangular region, you can swap any two elements of the matrix. Please find out the minimum number of swaps needed. If it is not possible to re-arrange <b>1</b>'s in the desired way, please print <b>-1</b>.\n</p>\n<h3>Input</h3>\n<ul>\n<li>First line of the input contains a single integer <b>T</b> denoting number of test cases. </li>\n<li>Description of <b>T</b> test cases follows.</li>\n<li>First line of each test case will contain a single integer <b>n</b> denoting dimension of matrix.</li>\n<li>Each of next <b>n</b> lines will contain <b>n</b> space separated integers denoting the <b>i<sup>th</sup></b> row of the matrix.</li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>For each test case, print a single line containing a single integer denoting minimum number of swaps needed or <b>-1</b> depending on the situation. </li>\n</ul>\n<h3>Constraints</h3>\n<ul>\n<li><b>1 \u2264 T \u2264 2</b></li>\n<li><b>1 \u2264 n \u2264 1000</b></li>\n<li>Each entry of the matrix will either be <b>0</b> or <b>1</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n1 \n0\n1\n1\n\n<b>Output:</b>\n0\n0\n</pre><h3>Explanation</h3>\n<p><b>Example case 1.</b> There is no <b>1</b> in the array. So no swap is required. Hence answer is <b>0</b>.</p>\n<p><b>Example case 2.</b> There is exactly one <b>1</b>. It already forms a rectangular region of dimension <b>1 \u00d7 1</b>. So here also, no swap is required. Hence answer is <b>0</b>.</p>\n<pre><b>Input:</b>\n2\n2 \n0 1\n1 0\n2\n1 1 \n1 0\n\n<b>Output:</b>\n1 \n-1\n</pre><h3>Explanation</h3>\n<p><b>Example case 1.</b> You can swap <b>1</b> of second row first column with <b>0</b> of first row first column.  <br />\nAfter the swap, matrix will look as follows. </p>\n<pre>\n1 1 \n0 0\n</pre><p>Here all the <b>1</b>'s form a rectangular region of dimension <b>1 \u00d7 2</b>. In this case, <b>1</b> swap will be needed. \n</p>\n<p>\nNote that you can also swap <b>1</b> at first row second column with <b>0</b> at second row second column too.<br />\nMatrix after this swap will be following. </p>\n<pre>\n0 0\n1 1 \n</pre><p>So you need <b>1</b> swap in this case too.\n</p>\n<p>So overall, you need <b>1</b> swap.</p>\n<p><b>Example case 2.</b> There is no way to create a rectangular region containing <b>3</b> <b>1</b>'s in a matrix of dimension <b>2 \u00d7 2</b>, hence answer is <b>-1</b>.</p>\n<h3>Large IO Warning</h3>\n<p>Input in the problem is huge. Please use faster input output methods. Use scanf/printf instead of cin/cout.</p>\n",
+    "category_name": "main",
+    "date_added": "27-02-2015",
+    "status": "success",
+    "languages_supported": "C, JAVA",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/SWAPMATR",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1425565800,
+        "end_date": 1425580200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1425580200,
+        "submit_start_date": 1425565800,
+        "current": 1537436645
+    },
+    "user": {
+        "username": ""
+    }
+}

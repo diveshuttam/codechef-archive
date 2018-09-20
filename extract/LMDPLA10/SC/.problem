@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nThe legend says that chess was invented in India; the inventor of the game, Sassi, requested from the Brahman Rai Bhalit a modest payment: 1 grain of wheat for the first square, 2 for the second, 4 for the third, 8 for the fourth, and so on up to the sixty fourth square of the board. The Brahman, being so naive accepted the request and asked his court to make the payment to Sassi. Soon he realized that there was not enough wheat in all India to pay Sassi. Because of that, Rai Bhalit ordered another payment to Sassi based on the game he invented.</p>\n\n<p>\nThe Brahman proposed the following game to Sassi: \"I will give you a sequence of numbers and you have to place them in the chess board in an spiral way. Then, I will give you several rectangles Q<sub>i</sub> inside the board, and for each one of them you have to give me the minimum between the sum of the numbers placed on the black squares in Q<sub>i</sub> and the sum of the numbers placed on the white squares in Q<sub>i</sub>. If you are able to do so, I will give you the sum of the numbers in the whole board in gold coins. If you are not, your head will roll.\"</p>\n\n<p>\nBeing really slow to sum many numbers, Sassi requested his son Shah to help him due his outstanding ability to write programs in Whitespace. Nevertheless, Shah was not able to find a good Whitespace compiler in Rai Bhalit's palace so he is asking you to solve this problem with a more sophisticated language.</p>\n\n<p>\nThe following figure shows the way a 4x4 board is filled with the sequence: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.\n</p>\n\n\n<img border=\"0\" src=\"http://dl.dropbox.com/u/4372589/3.jpg\" alt=\"//picasaweb.google.com/anvaysrivastava/Alkhawarizm?authkey=Gv1sRgCKiltti18crPxwE#5522750288106849426\" width=\"230\" height=\"226\" />\n\n\n<p>\nNote that every chess board starts with a white square in the top-left corner and the sequence could be composed by any numbers.\n</p>\n\n<h3>Input</h3>\n<p>\nThe first line contains an integer T, which specifies the number of test cases. Then, T test case descriptions will follow.</p>\n\n<p>\nEach test case will start with a line with one positive integer N, indicating the size of the chess board. The next line will contain N<sup>2</sup> numbers to fill the chess board in the way described before.</p>\n\n<p>\nThe following line will have a positive integer Q, which specified the number of queries for this test case. Then Q query descriptions will follow.</p>\n\n<p>\nEach query is described by a line with four integers R<sub>1</sub>, C<sub>1</sub>, R<sub>2</sub> and C<sub>2</sub>, indicating the corners of a rectangle to be processed, where the pairs (R<sub>1</sub>,C<sub>1</sub>) and (R<sub>2</sub>,C<sub>2</sub>) indicate the tiles at the top-left corner and the bottom-right corner of the rectangle, respectively.</p>\n\n<h3>Output</h3>\n<p>\nFor each input case you must print the string \"Case #i:\" in a line, where i is the test case number, starting from 1. Then, for each query made for that test case, you must print the result of it in its own line.\nYou must print a new line after every test case.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input</b>\n2\n2\n3 4 1 2\n4\n0 0 0 0\n0 1 0 1\n0 0 0 1\n0 0 1 1\n3\n1 2 3 4 5 6 7 8 9\n3\n0 0 1 1\n1 1 2 2\n0 0 2 2\n\n<b>Output</b>\nCase #1:\n0\n0\n3\n4\n\nCase #2:\n10\n10\n20\n</pre>\n\n<h3>Constraints</h3>\n<pre>\n<ul>\n<li>T will be between 1 and 200, inclusive.</li>\n<li>N will be between 2 and 100, inclusive.</li>\n<li>Each element inside the sequence will be between 1 and 10<sup>4</sup>, inclusive.</li>\n<li>Q will be between 1 and 10000, inclusive.</li>\n<li>R<sub>1</sub>, C<sub>1</sub>, R<sub>2</sub>, C<sub>2</sub> will be between 0 and N-1, inclusive, for all queries.</li>\n<li>R<sub>1</sub> will be lower than or equal to R<sub>2</sub> for each query.</li>\n<li>C<sub>1</sub> will be lower than or equal to C<sub>2</sub> for each query.</li>\n</ul></pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-09-2010",
+    "is_direct_submittable": false,
+    "contest_name": "IIIT - A , Limit-de-Plazo 2010",
+    "languages_supported": "C",
+    "todo": false,
+    "time": {
+        "view_start_date": 1286026200,
+        "end_date": 1286044200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1286044200,
+        "submit_start_date": 1286026200,
+        "current": 1537439510
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>divij</span>",
+    "problem_name": "Spiral Chess",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/divij'>divij</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "divij",
+    "contest_code": "LMDPLA10",
+    "max_timelimit": "0.1 - 0.134262",
+    "problem_code": "SC"
+}

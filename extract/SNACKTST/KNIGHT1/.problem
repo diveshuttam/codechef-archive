@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>There is a rectangular N x M grid of cells. Each cell is either a valid cell or an invalid cell. There is a chess knight at a valid cell. He wants to travel to a particular destination cell, by making a series of jumps. \n<br />\nThe knight jumps like any other chess knight - he can move two squares horizontally and one square vertically, or two squares vertically and one square horizontally. The complete move therefore looks like the letter 'L'. The knight can jump over both valid and invalid cells, but he cannot land in an invalid cell or outside the board. \n<br />\nFind the minimum number of jumps required to be made, for the knight to go from the initial to the destination cell.\n<br />\n\n<h3>Input</h3>\n</p><p>The first line contains two integers N (\u2264 1000) and M (\u2264 1000), separated by a space. The next N lines contain M characters each. Each of these M characters is one of the following:\n<br />\n    1. '.', representing a valid cell,<br />\n    2. '#', representing an invalid cell,<br />\n    3. 'S', representing the initial valid cell the knight is located at,<br />\n    4. 'D', representing the destination valid cell.<br />\n\n<h3>Output</h3>\n</p><p>The output contains one integer, giving the minimum number of jumps required. The output number is -1, if the destination cell cannot be reached from the initial cell.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n\n4 5\n.#.S#\n.#...\n#D#..\n....#\n\n\n<b>Output:</b>\n4\n</pre>\n<br />\n<b>Explanation:</b>\nThe knight is located at (0,3) initially. He can make the following series of four jumps to land in the destination cell, which is (2,1).\n<br />\n(0,3) -&gt; (2,4) -&gt; (1,2) -&gt; (0,0) -&gt; (2,1).</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-08-2009",
+    "is_direct_submittable": false,
+    "contest_name": "Snackdown Test",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile",
+    "todo": false,
+    "time": {
+        "view_start_date": 1258641000,
+        "end_date": 1258648200,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1654180162,
+        "submit_start_date": 1258641000,
+        "current": 1537439862
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Knight Jumps",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "SNACKTST",
+    "max_timelimit": "0.216867",
+    "problem_code": "KNIGHT1"
+}

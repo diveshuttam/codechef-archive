@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Pirate Sagar rules a famous sea with <b>N</b> islands. As he is constantly fleeing from the Navy, he has to run from one island to another. The paths and associated cost are given to Sagar in the form an adjacency matrix. The numbering of nodes is from <b>0</b> to <b>N-1</b>.<br /><br />\nGiven <b>Q</b> queries as source <b>U</b> and destination node <b>V</b>, find the path of the lowest cost route from <b>U</b> to <b>V</b>.<br /><br />\nIt is guaranteed that the least cost path will be unique in the graph.</p>\n<h3>Input</h3>\n<ul>\n<li>First line <b>V</b> is the number of islands</li>\n<li>Next <b>V</b> lines contain the cost matrix</li>\n<li> Next line contains number of queries <b>Q</b></li>\n<li><b>Q</b> queries follow with each query on a new line with two numbers <b>U</b> and <b>V</b></li>\n</ul>\n<h3>Output</h3>\n<p>\u00a0For each query, display the path of minimum cost from <b>U</b> to <b>V</b>.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>V</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>10<sup>5</sup></b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Sample Input</b>\n3\n0 1 4\n2 0 1\n2 3 0\n4\n0 1\n1 0\n0 2\n2 0\n\n<b>Sample Output</b>\n0 1 \n1 0 \n0 1 2 \n2 0 \n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "KJSCE Coding Challenge",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1458390600,
+        "end_date": 1458405000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1458405000,
+        "submit_start_date": 1458390600,
+        "current": 1537435074
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>sichan</span>",
+    "problem_name": "Sagar and Islands",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sichan'>sichan</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sichan",
+    "contest_code": "KJSP1602",
+    "max_timelimit": "1",
+    "problem_code": "KJCC16"
+}

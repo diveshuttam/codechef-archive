@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Chef is very fond of reading programming books. So he decided to make his own collection of programming books. Initially in his room, there is one shelf which consists of $N$ books. The total number of pages in $N$ books is equal to the total number of permutations of $N$ books.  \nAfter every year his collection becomes $N$ times of last year.  \nSo after $N$ years Chef decided to go through his collection and he is curious to find the total number of pages in his collection of books. But it seems almost impossible to count the total number of pages so he decided at least to find the length of the number which depicts the total number of pages in his collection of books.  \nChef is busy in organizing his collection, so he seeks for your help in order to find the length of that number.\n\n###Input:\n\n- First line will contain $T$, number of testcases. Then the testcases follow. \n- Each testcase contain a single integer $N$, number of books.\n###Output:\nFor each testcase, print the desired output.\n\n###Constraints \n- $1 \\leq T \\leq 10^5$\n- $1 \\leq N \\leq 10^6$\n\n###Subtasks\n### 30 points : \n- $1 \\leq T \\leq 10^3$\n- $1 \\leq N \\leq 10^4$\n### 70 points : \n- $1 \\leq T \\leq 10^5$\n- $1 \\leq N \\leq 10^6$\n\n###Sample Input:\n\t2\n\t5\n\t3\n\n###Sample Output:\n\t11\n\t3\n\n###Explanation:\nfor N = 3\ntotal no. of pages for first year will be 3! = 6 for second year book will be 3 * 3 = 9 and pages will be 3!3! for third year books will be 3 * 3 * 3 = 27 pages will be 3! * 3! * 3! = 216\nso ans will 3",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Coding Hours",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1533310200,
+        "end_date": 1533483000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1533483000,
+        "submit_start_date": 1533310200,
+        "current": 1537432186
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>admin5</span>",
+    "problem_name": "Books And Pages",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin5'>admin5</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin5",
+    "contest_code": "COHR2018",
+    "max_timelimit": "0.5",
+    "problem_code": "CLCTN"
+}

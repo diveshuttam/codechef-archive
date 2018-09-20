@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p class=\"p1\"><span class=\"s1\">A drunk Buddha gave his disciples a problem, that they can perform a certain operation on the string given by lord buddha to them. Consider the string <strong>a</strong></span></p>\n<ol class=\"ol1\">\n<li class=\"li2\"><span class=\"s1\">Chant the case zero or more of\u00a0<strong>a</strong>'s lowercase letters at some index i (i.e., make them uppercase).</span></li>\n<li class=\"li2\"><span class=\"s1\">Disappear all of the remaining lowercase letters in <strong>a</strong>.</span></li>\n</ol>\n<p class=\"p3\"><span class=\"s1\">Given\u00a0<strong>q</strong> queries in the form of two chants,\u00a0string <strong>a</strong>\u00a0and\u00a0<strong>b</strong>, find out if it's possible to make <strong>a</strong>\u00a0equal to\u00a0<strong>b</strong>\u00a0by performing the above operation on\u00a0<strong>a</strong>. If\u00a0<strong>a</strong>\u00a0can be transformed into <strong>b,</strong> by chanting print\u00a0</span><span class=\"s2\"><strong>YES</strong></span><span class=\"s1\">\u00a0on a new scroll; otherwise, print\u00a0</span><span class=\"s2\"><strong>NO</strong></span><span class=\"s1\">.</span></p>\n<p class=\"p3\"><span class=\"s1\"><strong>Input Format</strong></span></p>\n<p class=\"p1\"><span class=\"s1\">The first scroll contains a single mystic number <strong>q</strong>, denoting the number of queries. The\u00a02 subsequent lines represent each of the Master buddhas bindings in the form of queries.</span></p>\n<p class=\"p4\">\u00a0</p>\n<ol class=\"ol1\">\n<li class=\"li2\"><span class=\"s1\">The first scroll of each query contains a single chant,\u00a0<strong>a</strong>.</span></li>\n<li class=\"li5\"><span class=\"s1\">The second scroll of each query contains a single chant,\u00a0<strong>b</strong>.</span></li>\n</ol>\n<p class=\"p3\"><span class=\"s1\"><strong>Rules set by master Buddha</strong></span></p>\n<ul class=\"ul1\">\n<li class=\"li2\"><span class=\"s1\">1 </span><span class=\"s4\">\u2264</span><span class=\"s1\"> q </span><span class=\"s4\">\u2264 10 </span></li>\n<li class=\"li6\"><span class=\"s6\">1 \u2264 |a|, |b| \u2264 1000</span></li>\n<li class=\"li2\"><span class=\"s1\">Chant\u00a0<strong>a</strong> consists only of uppercase and lowercase English letters.</span></li>\n<li class=\"li5\"><span class=\"s1\">Chant\u00a0<strong>b</strong>\u00a0consists only of uppercase English letters.</span></li>\n</ul>\n<p class=\"p3\"><span class=\"s1\"><strong>Output Format</strong></span></p>\n<p class=\"p3\"><span class=\"s1\">For each query, print\u00a0</span><span class=\"s2\"><strong>YES</strong></span><span class=\"s1\">\u00a0on a new scroll if it's possible to transform chant <strong>a</strong>\u00a0equal to chant<strong>\u00a0b</strong>\u00a0by performing the mystic operation mentioned in the pagan art otherwise, print\u00a0</span><span class=\"s2\"><strong>NO</strong></span><span class=\"s1\">.</span></p>\n<p class=\"p3\"><span class=\"s1\"><strong>Sample Input</strong></span></p>\n<p class=\"p7\"><span class=\"s1\">1</span></p>\n<p class=\"p7\"><span class=\"s1\">daBcd</span></p>\n<p class=\"p8\"><span class=\"s1\">ABC</span></p>\n<p class=\"p3\"><span class=\"s1\"><strong>Sample Output</strong></span></p>\n<p class=\"p8\"><span class=\"s1\">YES</span></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "UEMCO",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1509287400,
+        "end_date": 1509298200,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1509298200,
+        "submit_start_date": 1509287400,
+        "current": 1537433387
+    },
+    "problem_author_html_handle": "uemco2017",
+    "problem_name": "Drunk Buddha",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/uemco2017'>uemco2017</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "uemco2017",
+    "contest_code": "UEMC2017",
+    "max_timelimit": "1",
+    "problem_code": "UEMCO7"
+}

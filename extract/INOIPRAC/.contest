@@ -1,0 +1,672 @@
+{
+    "announcements": "<p><b>4 September 2017, 6 pm IST:</b> These problems (viz INOI1201, INOI1202, INOI1301, INOI1302, INOI1401, INOI1402, INOI1501, INOI1502, INOI1601, INOI1602) and its submissions from IOIPRAC have been moved to this contest.</p>",
+    "ip": "149.129.135.113",
+    "code": "INOIPRAC",
+    "duration": "2103840",
+    "name": "INOI Practice Contest",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "problems_data": {
+        "INOI1501": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<h2>Indian National Olympiad in Informatics 2015</h2>\n<div>\n<p>In this problem you are given two lists of N integers, a<sub>1,\u00a0</sub>a<sub>2, ...,\u00a0</sub>a<sub>N</sub> and b<sub>1,</sub>\u00a0b<sub>2, ...</sub>\u00a0b<sub>N</sub>. For any pair (i, j) with i, j \u03f5 {1, 2, ...,\u00a0N}\u00a0we define the segment from i to j, written as [i, j], to be i, i + 1, ...,\u00a0j if i \u2264 j and i, i + 1, ...,\u00a0N, 1, 2, ...,j if i > j. Thus if N = 5 then the [2, 4] = {2, 3, 4} and [4, 2] = {4, 5, 1, 2}.</p>\n<p>With each segment [i, j] we associate a special sum SSum[i, j] as follows:</p>\n<ul>\n<li>SSum[i, i] = a<sub>i</sub>.</li>\n<li>If i \u2260\u00a0j then,\u00a0\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://s3.amazonaws.com/codechef_shared/download/special-sums.png\" alt=\"\" width=\"285\" height=\"58\" /></p>\n<p>The positions i and j contribute a<sub>i\u00a0</sub>and a<sub>j</sub>, respectively, to the sum while every other position k in [i, j] contributes b<sub>k</sub>.</p>\n</li>\n</ul>\n<p>Suppose N = 5 and that the two given sequences are as follows:</p>\n<table border=1>\n<tbody>\n<tr>\n<td width=\"29\">\n<p>i</p>\n</td>\n<td width=\"24\">\n<p>1</p>\n</td>\n<td width=\"24\">\n<p>2</p>\n</td>\n<td width=\"23\">\n<p>3</p>\n</td>\n<td width=\"24\">\n<p>4</p>\n</td>\n<td width=\"24\">\n<p>5</p>\n</td>\n</tr>\n<tr>\n<td width=\"29\">\n<p>a<sub>i</sub></p>\n</td>\n<td width=\"24\">\n<p>2</p>\n</td>\n<td width=\"24\">\n<p>3</p>\n</td>\n<td width=\"23\">\n<p>2</p>\n</td>\n<td width=\"24\">\n<p>3</p>\n</td>\n<td width=\"24\">\n<p>1</p>\n</td>\n</tr>\n<tr>\n<td width=\"29\">\n<p><sup>b</sup>i</p>\n</td>\n<td width=\"24\">\n<p>3</p>\n</td>\n<td width=\"24\">\n<p>4</p>\n</td>\n<td width=\"23\">\n<p>4</p>\n</td>\n<td width=\"24\">\n<p>6</p>\n</td>\n<td width=\"24\">\n<p>3</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>\u00a0</p>\n<p>Then, SSum[1, 1] = 2, SSum[2, 4] = 3 + 4 + 3 = 10 and SSum[4, 2] = 3 + 3 + 3 + 3 = 12. Your aim is to compute the maximum value of SSum[i, j] over all segments [i, j]. In this example you can verify that this value is 18 (SSum[2, 1] = 18).</p>\n<h3>Input format</h3>\n<ul>\n<li>The first line contains a single positive integer <em>N</em>.</li>\n</ul>\n<ul>\n<li>This is followed by a line containing <em>N</em> integers giving the values of the a<sub>i</sub>s and this is followed by a line containing <em>N</em> integers giving the values of the b<sub>i</sub>s.</li>\n</ul>\n<h3>Output format</h3>\n<p>A single integer in a single line giving the maximum possible special segment sum.</p>\n<p><strong>Note</strong>: The final value may not fit in a 32 bit integer. Use variables of an appropriate type to store and manipulate this value (long long in C/C++, long in Java).</p>\n</div>\n<h3>Test Data</h3>\n<p>You may assume that -10<sup>9</sup> \u2264 a<sub>i,</sub>\u00a0b<sub>i</sub> \u2264 10<sup><sub>9</sub></sup>.</p>\n<p>Subtask 1 (10 Marks) 1 \u2264 N \u2264 3000.<br />Subtask 2 (20 Marks) 1 \u2264 N \u2264 10<sup>6</sup> and a<sub>i</sub> = b<sub>i</sub> for all 1 \u2264 i \u2264 N.<br />Subtask 3 (30 Marks) 3 \u2264 N \u226410<sup>6</sup>. Further a<sub>1</sub> = b<sub>1</sub> = a<sub>N</sub> = b<sub>N</sub> = -10<sub>9</sub> and for each<br />1 &lt; k &lt; N we have -999 \u2264 a<sub>k,</sub>\u00a0b<sub>k</sub> \u2264 999.<br />Subtask 4 (40 Marks) 1 \u2264 N \u2264 10<sup><sub>6</sub></sup>.</p>\n<h3>Example</h3>\n<div title=\"Page 2\">\n<div>\n<p>Here is the sample input and output corresponding to the example above:</p>\n</div>\n</div>\n<div title=\"Page 2\">\n<div>\n<h3>Sample input</h3>\n<pre>5<br />2 3 2 3 1<br />3 4 4 6 3</pre>\n<h3>Sample output</h3>\n<pre>18</pre>\n<br />\n<p><strong>Note</strong>: Your program should not print anything other than what is specified in the output format. Please remove all diagnostic print statements before making your final submission. A program with extraneous output will be treated as incorrect!</p>\n</div>\n</div>",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "2-01-2016",
+            "is_direct_submittable": false,
+            "contest_name": "INOI Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1451932200,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1451932200,
+                "current": 1537431934
+            },
+            "problem_author_html_handle": "admin3",
+            "problem_name": "Special Sums",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "admin3",
+            "contest_code": "INOIPRAC",
+            "max_timelimit": "3",
+            "problem_code": "INOI1501"
+        },
+        "INOI1502": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<h2>Indian National Olympiad in Informatics 2015</h2>\n<div>\n<p>A <em>string </em>is any nonempty sequence of 0s and 1s. Examples of strings are 00, 101, 111000, 1, 0, 01. The <em>length </em>of a string is the number of symbols in it. For example, the length of 111000 is 6. If <em>u </em>and <em>v </em>are strings, then <em>uv </em>is the string obtained by concatenating <em>u </em>and <em>v</em>. For example if <em>u </em>= 110 and <em>v </em>= 0010 then <em>uv </em>= 1100010.</p>\n<p>A string <em>w </em>is <em>periodic </em>if there exists a string <em>v </em>such that <em>w </em>= <em>v</em><sup><em>n </em></sup>= <em>vv </em><em>\u00b7 \u00b7 \u00b7 </em><em>v </em>(<em>n </em>times), for some <em>n </em><em>\u2265 </em>2. Note that in this case the length of <em>v </em>is strictly less than that of <em>w</em>. For example, 110110 is periodic, because it is <em>vv </em>for <em>v </em>= 110.</p>\n<p>Given a positive integer <em>N </em>, find the number of strings of length <em>N </em>which are <em>not </em>periodic. Report the answer modulo <em>M </em>. The non-periodic strings of length 2 are 10 and 01. The non- periodic strings of length 3 are 001, 010, 011, 100, 101, and 110.</p>\n<h3>Input format</h3>\n<p>A single line, with two space-separated integers, <em>N </em>and <em>M </em>.</p>\n<h3>Output format</h3>\n<p>A single integer, the number of non-periodic strings of length <em>N </em>, modulo <em>M </em>.</p>\n</div>\n<h3>Test Data</h3>\n<p>In all subtasks, 2 <em>\u2264 M \u2264 </em>10<sup>8</sup>. The testdata is grouped into 4 subtasks.</p>\n<p><strong>Subtask 1 (10 marks) </strong>1 <em>\u2264 </em><em>N </em><em>\u2264 </em>4000. <em>N </em>is the product of two distinct prime numbers.</p>\n<p><strong>Subtask 2 (20 marks) </strong>1 <em>\u2264 </em><em>N </em><em>\u2264 </em>4000. <em>N </em>is a power of a prime number.</p>\n<p><strong>Subtask 3 (35 marks) </strong>1 <em>\u2264 </em><em>N </em><em>\u2264 </em>4000.</p>\n<p><strong>Subtask 4 (35 marks) </strong>1 <em>\u2264 </em><em>N </em><em>\u2264 </em>150000.</p>\n<h3>Example</h3>\n<p>Here is the sample input and output corresponding to the example above:</p>\n<div title=\"Page 2\">\n<h3>Sample input</h3>\n<pre>3 176</pre>\n<h3>Sample output</h3>\n<pre>6</pre>\n<br />\n<p><strong>Note<em>: </em></strong>Your program should not print anything other than what is specified in the output format. Please remove all diagnostic print statements before making your final submission. A program with extraneous output will be treated as incorrect!</p>\n</div>",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "2-01-2016",
+            "is_direct_submittable": false,
+            "contest_name": "INOI Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1451932200,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1451932200,
+                "current": 1537431934
+            },
+            "problem_author_html_handle": "admin3",
+            "problem_name": "Periodic Strings",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "admin3",
+            "contest_code": "INOIPRAC",
+            "max_timelimit": "3",
+            "problem_code": "INOI1502"
+        },
+        "INOI1202": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<h2>Indian National Olympiad in Informatics 2012</h2>\n<div>\n<p>You are given a table with 2 rows and N columns. Each cell has an integer in it. The score of such a table is defined as follows: for each column, consider the sum of the two numbers in the column; the maximum of the N numbers so obtained is the score. For example, for the table</p>\n<pre>7162\n1234\n </pre>\n<p>the score is max(7 + 1, 1 + 2, 6 + 3, 2 + 4) = 9.</p>\n<p><br /> The first row of the table is fixed, and given as input. N possible ways to fill the second row are considered:</p>\n<pre>1,2,...,N\n2,3,...,N,1\n3,4,...,N,1,2\n\u00b7\u00b7\u00b7\nN, 1, ... , ,N \u2212 1\n </pre>\n<p>For instance, for the example above, we would consider each of the following as possibilities for the second row.</p>\n<pre>1234\n2341\n3412\n4123\n </pre>\n<p>Your task is to find the score for each of the above choices of the second row. In the example above, you would evaluate the following four tables,</p>\n<pre> 7162 7162 7162 7162\n 1234 2341 3412 4123\n </pre>\n<p>and compute scores 9, 10, 10 and 11, respectively.</p>\n<h3>Input format </h3>\n<p>The first line of the input has a single integer, N. The second line of the input has N integers, representing the first row, from left to right.</p>\n<h3>Output format </h3>\n<p>The output should consist of a single line with N integers. For 1 \u00b2 k \u00b2 N, the kth\u00a0number in the output should be the score when the second row of the table is taken to be k,k+1,...,N,1,...,k\u22121.</p>\n<h3>Test Data </h3>\n<p>The testdata is grouped into two subtasks with the following constraints on the inputs.</p>\n<p>\u2022 <strong>Subtask 1</strong> [30 points] : 1 \u2264 N \u2264 3000.</p>\n<p>\u2022 <strong>Subtask 2</strong> [70 points] : 1 \u2264 N \u2264 200000.</p>\n<p>In both the subtasks, all the integers in the first row of the table are between 1 and 100000, inclusive.</p>\n<h3>Example </h3>\n<p>Here is the sample input and output corresponding to the example above.</p>\n<h3>Sample input </h3>\n<pre>4\n7 1 6 2\n</pre>\n<h3>Sample output</h3>\n<pre>9 10 10 11\n</pre>\n<br>\n<p><strong>Note: </strong>Your program should not print anything other than what is specified in the output format. Please remove all diagnostic print statements before making your final submission. A program with extraneous output will be treated as incorrect!</p>\n</div>",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "1-01-2016",
+            "is_direct_submittable": false,
+            "contest_name": "INOI Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1451932200,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1451932200,
+                "current": 1537431934
+            },
+            "problem_author_html_handle": "admin3",
+            "problem_name": "Table Sum",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "admin3",
+            "contest_code": "INOIPRAC",
+            "max_timelimit": "2",
+            "problem_code": "INOI1202"
+        },
+        "INOI1602": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<p>\n\t<h2>Indian National Olympiad in Informatics 2016</h2>\n\tThere are <em>k</em> types of brackets each with its own opening bracket and closing bracket. We assume that the first pair is denoted by the numbers 1 and <em>k</em>+1, the second by 2 and <em>k</em>+2 and so on. Thus the opening brackets are denoted by 1,2,.., <em>k</em>, and the corresponding closing brackets are denoted by <em>k</em>+1,<em>k</em>+2,..., 2*<em>k</em> respectively.<br><br>\n\tSome sequences with elements from 1,2, ... 2*<em>k</em> form well-bracketed sequences while others don't. A sequence is well-bracketed, if we can match or pair up opening brackets and closing brackets of the same type in such a way that the following holds:<br><br>\n\t 1) every bracket is paired up<br>\n\t 2) in each matched pair, the opening bracket occurs before the closing bracket<br>\n\t 3) for a matched pair, any other matched pair lies either completely between them or outside them.<br><br>\n\tFor the examples discussed below, let us assume that <em>k</em> = 2. The sequence 1,1,3 is not well-bracketed as one of the two 1's cannot be paired. The sequence 3,1,3,1 is not well-bracketed as there is no way to match the second 1 to a closing bracket occurring after it. The sequence 1,2,3,4 is not well-bracketed as the matched pair 2,4 is neither completely between the matched pair 1,3 nor completely outside it. That is, the matched pairs cannot overlap. The sequence 1,2,4,3,1,3 is well-bracketed. We match the first 1 with the first 3, the 2 with the 4 and the second 1 with the second 3, satisfying all the 3 conditions. If you rewrite these sequences using [,{,],} instead of 1,2,3,4 respectively, this will be quite clear.<br><br>\n\tIn this problem you are given a sequence of brackets, of length <em>N</em>: <em>B</em>[1], .., <em>B</em>[<em>N</em>], where each <em>B</em>[<em>i</em>] is one of the brackets. You are also given an array of Values: <em>V</em>[1],.., <em>V</em>[<em>N</em>].<br><br>\n\tAmong all the subsequences in the Values array, such that the corresponding bracket subsequence in the <em>B</em> Array is a well-bracketed sequence, you need to find the maximum sum. Suppose <em>N</em> = 6, <em>k</em> = 3 and the values of <em>V</em> and <em>B</em> are as follows:<br><br>\n<pre>\ni\t1\t2\t3\t4\t5\t6\nV[i]\t4\t5\t-2\t1\t1\t6\nB[i]\t1\t3\t4\t2\t5\t6\n</pre><br>\n\tThen, the brackets in positions 1,3 form a well-bracketed sequence (1,4) and the sum of the values in these positions is 2 (4 + -2 = 2). The brackets in positions 1,3,4,5 form a well-bracketed sequence (1,4,2,5) and the sum of the values in these positions is 4. Finally, the brackets in positions 2,4,5,6 forms a well-bracketed sequence (3,2,5,6) and the sum of the values in these positions is 13. The sum of the values in positions 1,2,5,6 is 16 but the brackets in these positions (1,3,5,6) do not form a well-bracketed sequence. You can check the best sum from positions whose brackets form a well-bracketed sequence is 13.\n</p>\n\n<p>\n\t<h3>Input format</h3>\n\tOne line, which contains (2*<em>N</em> + 2) space separate integers. The first integer denotes <em>N</em>. The next integer is <em>k</em>. The next <em>N</em> integers are <em>V</em>[1],..., <em>V</em>[<em>N</em>]. The last <em>N</em> integers are <em>B</em>[1],.., <em>B</em>[<em>N</em>].\n</p>\n\n<p>\n\t<h3>Output format</h3>\n\tOne integer, which is the maximum sum possible satisfying the requirement mentioned above. \n</p>\n\n<p>\n\t<h3>Test data</h3>\n\t<p>\n\t\t1 \u2264 <em>k</em> \u2264 7<br>\n\t\t-10<sup>6</sup> \u2264 <em>V</em>[<em>i</em>] \u2264 10<sup>6</sup>, for all <em>i</em><br>\n\t\t1 \u2264 <em>B</em>[<em>i</em>] \u2264 2*<em>k</em>, for all <em>i</em>.\n\t</p>\n\t<p>\n\t\t<b>Subtask 1 (40 Marks)</b> 1 \u2264 <em>n</em> \u2264 10.<br>\n\t\t<b>Subtask 2 (60 Marks)</b> 1 \u2264 <em>n</em> \u2264 700.<br>\n\t</p>\n</p>\n\n<p>\n\t<h3>Sample Input</h3>\n\t<pre>6 3 4 5 -2 1 1 6 1 3 4 2 5 6</pre>\n</p>\n\n<p>\n\t<h3>Sample Output</h3>\n\t<pre>13</pre>\n</p>",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "22-04-2016",
+            "is_direct_submittable": false,
+            "contest_name": "INOI Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1451932200,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1451932200,
+                "current": 1537431934
+            },
+            "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>anukul</span>",
+            "problem_name": "Brackets",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "anukul",
+            "contest_code": "INOIPRAC",
+            "max_timelimit": "1",
+            "problem_code": "INOI1602"
+        },
+        "INOI1402": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<h2>Indian National Olympiad in Informatics 2014</h2>\n<div>\n<p>Nikhil\u2019s slogan has won the contest conducted by Drongo Airlines and he is entitled to a free ticket between any two destinations served by the airline. All cities served by Drongo Airlines can be reached from each other by some sequence of connecting flights. Nikhil is allowed to take as many connecting flights as needed, but he must take the cheapest route between his chosen destinations.</p>\n<p>Each direct flight between two cities has a fixed price. All pairs of cities connected by direct flights have flights in both directions and the price is the same in either direction. The price for a sequence of connecting flights is the sum of the prices of the direct flights along the route.</p>\n<p>Nikhil has information about the cost of each direct flight. He would like to maximize the value of his prize, so he would like to choose a pair of cities on the network for which the cost of the cheapest route is as high as possible.</p>\n<p>For instance, suppose the network consists of four cities <em>{</em>1<em>, </em>2<em>, </em>3<em>, </em>4<em>}</em>, connected as shown on the right.</p>\n<p>In this case, Nikhil should choose to travel between 1 and 4, where the cheapest route has cost 19. You can check that for all other pairs of cities, the cheapest route has a smaller cost. For instance, notice that though the direct flight from 1 to 3 costs 24, there is a cheaper route of cost 12 from 1 to 2 to 3.</p>\n<img src=\"https://www.codechef.com/download/free-ticket.png\"/>\n<h3>Input format</h3>\n<ul>\n<li>Line 1 : Two space-separated integers, <em>C </em>and <em>F </em>. <em>C </em>is the number of cities on the network, numbered 1<em>, </em>2<em>, . . . , C</em>. <em>F </em>is the number of pairs of cities connected by a direct flight.</li>\n<li>Lines 2 to <em>F </em>+ 1 : Each line describes one direct flight between a pair of cities and consists of three integers, <em>x</em>, <em>y </em>and <em>p</em>, where <em>x </em>and <em>y </em>are the two cities connected by this flight and <em>p </em>is the price of this</li>\n</ul>\n<p>\u00a0</p>\n<p>For all direct flights, <em>x </em><em>\u0192</em>= <em>y </em>and no pair of cities is connected by more than one direct flight. If there is a direct flight from <em>x </em>to <em>y </em>with price <em>p</em>, there is also a flight from <em>y </em>to <em>x </em>with price <em>p </em>and exactly one of these two will be listed.</p>\n<h3>Output format</h3>\n<p>The output consists of a single integer, the maximum cost among the cheapest routes between all pairs of cities across the airline\u2019s network.</p>\n</div>\n<h3>Test Data</h3>\n<p>The testdata is grouped into three subtasks. In all subtasks, 2 <em>\u2264 </em><em>C </em><em>\u2264 </em>230 and 1 <em>\u2264 </em><em>F \u2264 23665. </em>In addition, each subtask has the following constraints on the inputs.</p>\n<ul>\n<li>Subtask 1 (20 marks) : <em>F </em>= <em>C </em><em>\u2212 </em>1 (that is, the airline network is a tree) and <em>p </em>= 1 for each direct flight.</li>\n<li>Subtask 2 (30 marks) : There is no constraint on the shape of the network, but for each direct flight, <em>p </em>= 1.</li>\n<li>Subtask 3 (50 marks) : There is no constraint on the shape of the network, but for each direct flight, 0 <em>\u2264 </em><em>p </em><em>\u2264 </em>10<sup>5</sup>.</li>\n</ul>\n<div title=\"Page 2\">\n<h3>Example</h3>\n<div>\n<p>Here is the sample input and output corresponding to the example above:</p>\n<h3>Sample input</h3>\n<pre>4 5<br />1 2 10<br />1 3 24<br />2 3 2<br />2 4 15<br />3 4 7</pre>\n<h3>Sample output</h3>\n<pre>19</pre>\n<br />\n<p><strong>Note</strong>: Your program should not print anything other than what is specified in the output format. Please remove all diagnostic print statements before making your final submission. A program with extraneous output will be treated as incorrect!</p>\n</div>\n</div>",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "4-01-2016",
+            "is_direct_submittable": false,
+            "contest_name": "INOI Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1451932200,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1451932200,
+                "current": 1537431934
+            },
+            "problem_author_html_handle": "admin3",
+            "problem_name": "Free ticket",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "admin3",
+            "contest_code": "INOIPRAC",
+            "max_timelimit": "3",
+            "problem_code": "INOI1402"
+        },
+        "INOI1301": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<h2>Indian National Olympiad in Informatics 2013</h2>\n<div title=\"Page 1\">\n<p>Calvin wakes up early one morning and finds that all his friends in the hostel are asleep. To amuse himself, he decides to play the following game : he draws a sequence of N squares on the ground, numbered 1 to N, and writes an integer in each square. He starts at square k (1 \u2264 k \u2264 N). The game consists of one forward phase followed by one backward phase.</p>\n<ul>\n<li>\n<p>In the forward phase, Calvin makes zero or more moves of the following type : if his current position is p, he can jump to p+1 or p+2 as long as he stays within the N squares.</p>\n</li>\n<li>\n<p>In the backward phase, Calvin makes zero or more moves of the following type : if his current position is p, he can jump to p\u22121 or p\u22122 as long as he stays within the N squares.</p>\n</li>\n</ul>\n<p>He plays such that he finally ends up at square 1, and then he stops. He starts with a score of 0, and each time he jumps from square i to square j, he adds the integer written in square j to his score. Find the maximum score Calvin can obtain by playing this game. Recall that Calvin must start at square k and end at square 1. The integer on the square where he starts is not included in his score.</p>\n<p>For example, suppose N = 5 and the numbers in squares are 5, 3, \u22122, 1, 1. If k = 2, Calvin starts on the second square. He can make a forward move to square 4, another to square 5, a backward move to square 4, another to square 2, and another to square 1. His total score is 1+1+1+3+5 = 11. You can check that this is the maximum score possible.</p>\n<h3>Input format</h3>\n<p>\u2022 Line 1 : Two space-separated integers, N and k, with 1 \u2264 k \u2264 N.<br /> \u2022 Line 2 : A space-separated sequence of N integers, the numbers in squares 1, 2 . . . , N .</p>\n<h3>Output format</h3>\n<p>A single line with a single integer, the maximum score Calvin can obtain by playing the game.</p>\n<h3>Test Data</h3>\n<p>The testdata is grouped into two subtasks with the following constraints on the inputs.</p>\n<p>\u2022 <strong>Subtask 1</strong> [30 points] : 1 \u2264 N \u2264 3000.</p>\n<p>\u2022 <strong>Subtask 2</strong> [70 points] : 1 \u2264 N \u2264 10<sup>6</sup>.</p>\n<p>In all subtasks, the number in each square is between \u22121000 and 1000 inclusive.</p>\n</div>\n<div title=\"Page 2\">\n<h3>Example</h3>\n<div>\n<p>Here is the sample input and output corresponding to the example above.</p>\n<h3>Sample input</h3>\n<pre>5 2\n5 3 -2 1 1\n</pre>\n<h3>Sample output</h3>\n<pre>11\n</pre>\n<br />\n<p><strong>Note</strong>: Your program should not print anything other than what is specified in the output format. Please remove all diagnostic print statements before making your final submission. A program with extraneous output will be treated as incorrect!</p>\n</div>\n</div>",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "1-01-2016",
+            "is_direct_submittable": false,
+            "contest_name": "INOI Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1451932200,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1451932200,
+                "current": 1537431934
+            },
+            "problem_author_html_handle": "admin3",
+            "problem_name": "Calvins Game",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "admin3",
+            "contest_code": "INOIPRAC",
+            "max_timelimit": " - 4",
+            "problem_code": "INOI1301"
+        },
+        "INOI1601": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<p>\n\t<h2>Indian National Olympiad in Informatics 2016</h2>\n\tBoing Inc, has <em>N</em> employees, numbered 1 ... <em>N</em>. Every employee other than Mr. Hojo (the head of the company) has a manager (<em>P[i]</em> denotes the manager of employee <em>i</em>). Thus an employee may manage any number of other employees but he reports only to one manager, so that the organization forms a tree with Mr. Hojo at the root. We say that employee <em>B</em> is a subordinate of employee <em>A</em> if <em>B</em> appears in the subtree rooted at <em>A</em>.<br><br>\n\tMr. Hojo, has hired Nikhil to analyze data about the employees to suggest how to identify faults in Boing Inc. Nikhil, who is just a clueless consultant, has decided to examine wealth disparity in the company. He has with him the net wealth of every employee (denoted <em>A[i]</em> for employee <em>i</em>). Note that this can be negative if the employee is in debt. He has already decided that he will present evidence that wealth falls rapidly as one goes down the organizational tree. He plans to identify a pair of employees <em>i</em> and <em>j</em>, <em>j</em> a subordinate of <em>i</em>, such that the wealth difference between <em>i</em> and <em>j</em> is maximum. Your task is to help him do this.<br><br>\n\tSuppose, Boing Inc has 4 employees and the parent (<em>P[i]</em>) and wealth information (<em>A[i]</em>) for each employee are as follows:<br><br>\n<pre>\ni\t\t1\t2\t3\t4\nA[i]\t\t5\t10\t6\t12\nP[i]\t\t2\t-1\t4\t2\n\n\n</pre>\n<em>P</em>[2] = -1 indicates that employee 2 has no manager, so employee 2 is Mr. Hojo.<br><br>\nIn this case, the possible choices to consider are (2,1) with a difference in wealth of of 5, (2,3) with 4, (2,4) with -2 and (4,3) with 6. So the answer is 6.\n</p>\n\n<p>\n\t<h3>Input format</h3>\n\tThere will be one line which contains (2*<em>N</em> + 1) space-separate integers. The first integer is <em>N</em>, giving the number of employees in the company. The next <em>N</em> integers <em>A</em>[1], .., <em>A</em>[<em>N</em>] give the wealth of the <em>N</em> employees. The last <em>N</em> integers are <em>P</em>[1], <em>P</em>[2], .., <em>P</em>[<em>N</em>], where <em>P</em>[<em>i</em>] identifies the manager of employee <em>i</em>. If Mr. Hojo is employee <em>i</em> then, <em>P</em>[<em>i</em>] = -1, indicating that he has no manager.\n</p>\n\n<p>\n\t<h3>Output format</h3>\n\tOne integer, which is the needed answer.\n</p>\n\n<p>\n\t<h3>Test data</h3>\n\t<p>-10<sup>8</sup> \u2264 <em>A</em>[<em>i</em>] \u2264 10<sup>8</sup>, for all <em>i</em>.</p>\n\t<p>\n\t\t<b>Subtask 1 (30 Marks)</b> 1 \u2264 <em>N</em> \u2264 500.<br>\n\t\t<b>Subtask 2 (70 Marks)</b> 1 \u2264 <em>N</em> \u2264 10<sup>5</sup>.<br>\n\t</p>\n</p>\n\n<p>\n\t<h3>Sample Input</h3>\n\t<pre>4 5 10 6 12 2 -1 4 2</pre>\n</p>\n\n<p>\n\t<h3>Sample Output</h3>\n\t<pre>6</pre>\n</p>",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "22-04-2016",
+            "is_direct_submittable": false,
+            "contest_name": "INOI Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1451932200,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1451932200,
+                "current": 1537431934
+            },
+            "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>anukul</span>",
+            "problem_name": "Wealth Disparity",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "anukul",
+            "contest_code": "INOIPRAC",
+            "max_timelimit": "1",
+            "problem_code": "INOI1601"
+        },
+        "INOI1401": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<h2>Indian National Olympiad in Informatics 2014</h2>\n<div>\n<div>\n<div>\n<p>Due to resurfacing work, all north-south traffic on the highway is being diverted through the town of Siruseri. Siruseri is a modern, planned town and the section of roads used for the diversion forms a rectangular grid where all cars enter at the top-left intersection (north- west) and leave at the bottom-right intersection (south-east). All roads within the grid are one-way, allowing traffic to move north to south (up-down) and west to east (left-right) only.</p>\n<p>The town authorities are concerned about highway drivers overspeeding through the town. To slow them down, they have made a rule that no car may travel more than d consecutive road segments in the same direction without turning. (Closed-circuit TV cameras have been installed to enforce this rule.)</p>\n<p>Of course, there is also repair work going on within the town, so some intersections are blocked and cars cannot pass through these.</p>\n<p>You are given the layout of the rectangular grid of roads within Siruseri and the constraint on how many consecutive road segments you may travel in the same direction. Your task is to compute the total number of paths from the entry (top-left) to the exit (bottom-right).</p>\n<p>For instance, suppose there are 3 rows and 4 columns of intersec- tions, numbered from (1,1) at the top-left to (3,4) at the bottom-right, as shown on the right. Intersection (2,1) in the second row, first column is blocked, and no car may travel more than 2 consecutive road seg- ments in the same direction.</p>\n<p><img src=\"https://www.codechef.com/download/highway-bypass.png\" alt=\"\" width=\"265\" height=\"200\" /></p>\n<p>Here, (1,1) \u2192 (1,2) \u2192 (2,2) \u2192 (3,2) \u2192 (3,3) \u2192 (3,4) is a valid path from (1,1) to (3,4), but (1,1) \u2192 (1,2) \u2192 (1,3) \u2192 (1,4) \u2192 (2,4) \u2192 (3,4) is not, because this involves 3 consecutive road segments from left to right. The path (1, 1) \u2192 (2, 1) \u2192 (2, 2) \u2192 (2, 3) \u2192 (3, 3) \u2192 (3, 4) is ruled out because it goes through a blocked intersection. In this example, you can check that the total number of valid paths is 5.</p>\n</div>\n</div>\n<h3>Input format</h3>\n<p>\u2022\u00a0Line 1:\u00a0Three space-separated integers, R, C and d, where R is the number of rows in the grid, C is the number of columns in the grid and d is the maximum number of consecutive segments you can travel in any direction.</p>\n<p>\u2022\u00a0Lines 2 to R+1: Each line contains C integers, each of which is 0 or 1, describing one row of intersections in the grid. An intersection marked 0 is blocked and an intersection marked 1 is available to pass through. The start (top-left) and finish (bottom-right) intersections are always marked 1.</p>\n<h3>Output format</h3>\n<p>A single integer\u2014the number of paths from the top-left intersection to the bottom-right intersection that go only down and right, and obey the d constraint.</p>\n<p>Since the final answer may not fit in a variable of type int, report your answer modulo 20011. <em>Be careful to avoid overflows in intermediate computations.</em></p>\n</div>\n<h3>Test Data</h3>\n<p>The testdata is grouped into three subtasks. In all subtasks, 1 \u2264 R \u2264 300, 1 \u2264 C \u2264 300 and 1 \u2264 d \u2264 300. In addition, each subtask has the following constraints on the inputs.</p>\n<p>\u2022 <strong>Subtask 1</strong> [20 points]:\u00a0d = max(R, C) \u2212 1. (In other words, there is no limit on the number of consecutive segments you can travel in one direction.)</p>\n<p>\u2022 <strong>Subtask 2</strong> [30 points]:\u00a0d=2.</p>\n<p>\u2022 <strong>Subtask 3</strong>\u00a0[50 points]:\u00a0No additional constraint on d.</p>\n<div title=\"Page 2\">\n<h3>Example</h3>\n<div>\n<p>Here is the sample input and output corresponding to the example above.</p>\n<h3>Sample input</h3>\n<pre>3 4 2\n1 1 1 1<br />0 1 1 1<br />1 1 1 1</pre>\n<h3>Sample output</h3>\n<pre>5</pre>\n<br />\n<p><strong>Note</strong>: Your program should not print anything other than what is specified in the output format. Please remove all diagnostic print statements before making your final submission. A program with extraneous output will be treated as incorrect!</p>\n</div>\n</div>\n",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "1-01-2016",
+            "is_direct_submittable": false,
+            "contest_name": "INOI Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1451932200,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1451932200,
+                "current": 1537431934
+            },
+            "problem_author_html_handle": "admin3",
+            "problem_name": "Highway Bypass",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "admin3",
+            "contest_code": "INOIPRAC",
+            "max_timelimit": " - 4",
+            "problem_code": "INOI1401"
+        },
+        "INOI1302": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<h2>Indian National Olympiad in Informatics 2013</h2>\n<div title=\"Page 1\">\n<div>\n<div>\n<p>N people live in Sequence Land. Instead of a name, each person is identified by a sequence of integers, called his or her id. Each id is a sequence with no duplicate elements. Two people are said to be each other\u2019s relatives if their ids have at least K elements in common. The extended family of a resident of Sequence Land includes herself or himself, all relatives, relatives of relatives, relatives of relatives of relatives, and so on without any limit.</p>\n<p>Given the ids of all residents of Sequence Land, including its President, and the number K, find the number of people in the extended family of the President of Sequence Land.</p>\n<p>For example, suppose N = 4 and K = 2. Suppose the President has id (4, 6, 7, 8) and the other three residents have ids (8, 3, 0, 4), (0, 10), and (1, 2, 3, 0, 5, 8). Here, the President is directly related to (8, 3, 0, 4), who in turn is directly related to (1, 2, 3, 0, 5, 8). Thus, the President\u2019s extended family consists of everyone other than (0, 10) and so has size 3.</p>\n</div>\n</div>\n<h3>Input format</h3>\n<p>\u2022\u00a0Line 1: Two space-separated integers, N followed by K.</p>\n<p>\u2022\u00a0Lines 2 to N + 1: Each line describes an id of one of the residents of Sequence Land, beginning with the President on line 2. Each line consists of an integer p, followed by p distinct integers, the id.</p>\n<h3>Output format</h3>\n<div title=\"Page 1\">\n<div>\n<div>\n<p>The output consists of a single integer, the number of people in the extended family of the President.</p>\n</div>\n</div>\n</div>\n<h3>Test Data</h3>\n<div title=\"Page 1\">\n<div>\n<div>\n<p>The testdata is grouped into two subtasks. In both subtasks, 1 \u2264 N \u2264 300 and 1 \u2264 K \u2264 300. Each number in each id is between 0 and 10<sup>9</sup> inclusive.</p>\n</div>\n</div>\n</div>\n<p>\u2022 <strong>Subtask 1</strong> [30 points]:\u00a0The number of elements in each id is between 1 and 10 inclusive.</p>\n<p>\u2022 <strong>Subtask 2</strong> [70 points]: The number of elements in each id is between 1 and 300 inclusive.</p>\n</div>\n<div title=\"Page 2\">\n<h3>Example</h3>\n<div>\n<p>Here is the sample input and output corresponding to the example above.</p>\n<h3>Sample input</strong>\u00a0</h3>\n<pre>4 2\n4 4 6 7 8<br />4 8 3 0 4<br />2 0 10<br />6 1 2 3 0 5 8</pre>\n<h3>Sample output</h3>\n<pre>3</pre>\n<br />\n<p><strong>Note</strong>: Your program should not print anything other than what is specified in the output format. Please remove all diagnostic print statements before making your final submission. A program with extraneous output will be treated as incorrect!</p>\n</div>\n</div>",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "1-01-2016",
+            "is_direct_submittable": false,
+            "contest_name": "INOI Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1451932200,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1451932200,
+                "current": 1537431934
+            },
+            "problem_author_html_handle": "admin3",
+            "problem_name": "Sequence Land",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "admin3",
+            "contest_code": "INOIPRAC",
+            "max_timelimit": "2",
+            "problem_code": "INOI1302"
+        },
+        "INOI1201": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<h2>Indian National Olympiad in Informatics 2012</h2>\n<div title=\"Page 1\">\n<div>\n<p>The Republic of Tutaria is celebrating its 37th year of independence. To mark the occasion, the nation is organising a contest where all its N citizens take part. The event has three tracks, a COBOL programming competition, pole vault, and a doughnut-eating competition. Each citizen takes part in these three tracks in the same order\u2014a citizen starts with the programming competition, continues with the pole vault as soon as his or her COBOL masterpiece is ready, and then starts gorging on doughnuts as soon as the pole vault is done.</p>\n<p>The Supreme Leader of Tutaria closely monitors all citizens and knows the exact amount of time each citizen will take in each of the three tracks. She wants to schedule the event so that it will finish as early as possible. However, the Republic of Tutaria has only one computer, and, as a result, only one person can participate in the COBOL programming event at a time. However, any number of people may simultaneously participate in the pole vault and doughnut-eating competitions.</p>\n<p>The event works as follows. The Supreme Leader fixes the order in which contestants get access to the computer. At time 0, the first citizen in the list starts writing his or her COBOL program, while the remaining citizens wait for the computer to be free. As soon as the first citizen is done, he or she proceeds to the pole vault, and the second citizen gets the computer for the programming round. In general whenever the computer becomes free, the next citizen gets to use it. Whenever a citizen is done using the computer, he or she proceeds to the pole vault immediately, regardless of what the other citizens are doing. Similarly, whenever a citizen is done with the pole vault, he or she proceeds to the doughnut- eating track immediately, independently of the others. The event ends as soon as all the citizens have finished all the three tracks of the event.</p>\n<p>For example, suppose N = 3, and the time they need for the three tracks are as follows:</p>\n<table>\n<tbody>\n<tr>\n<td>\n<div>\n<div>\n<p>Citizen id</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>COBOL</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>Pole vault</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>Doughnut-eating</p>\n</div>\n</div>\n</td>\n</tr>\n<tr>\n<td>\n<div>\n<div>\n<p>1</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>18</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>7</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>6</p>\n</div>\n</div>\n</td>\n</tr>\n<tr>\n<td>\n<div>\n<div>\n<p>2</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>23</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>10</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>27</p>\n</div>\n</div>\n</td>\n</tr>\n<tr>\n<td>\n<div>\n<div>\n<p>3</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>20</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>9</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>14</p>\n</div>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n<p>\u00a0</p>\n<p>If the citizens start at time 0 and proceed in the order 1,2,3, then citizen 1 will finish at time 18+7+6 = 31, citizen 2 will finish at time 18+23+10+27 = 78, and citizen 3 will finishattime18+23+20+9+14=84. Theeventendsattimemax(31,78,84)=84.</p>\n<p>On the other hand, if the citizens proceed in the order 2,3,1, you can check that the event ends at max(60, 66, 74) = 74. The Supreme Leader of Tutaria wants to fix the order in which the citizens proceed so that the event ends as early as possible. You can check that in this case 74 is the earliest time at which the event can end.</p>\n<h3>Input format</h3>\n<p>The first line of input has a single integer, N, the number of citizens of the Republic of Tutaria. The next N lines contain 3 space-separated integers each: line i gives the time taken by the citizen i for COBOL programming, pole vault, and doughnut-eating respectively.</p>\n</div>\n</div>\n<div title=\"Page 2\">\n<h3>Output format</h3>\n<p>The output should have a single line with a single integer, the earliest time at which the event can end.</p>\n<h3>Test Data</h3>\n<p>The testdata is grouped into two subtasks with the following constraints on the inputs.</p>\n<p>\u2022 <strong>Subtask 1</strong> [30 points] : 1 \u2264 N \u2264 3000.</p>\n<p>\u2022 <strong>Subtask 2</strong> [70 points] : 1 \u2264 N \u2264 200000.</p>\n<p>In both the subtasks, all the numbers in the input (except possibly N) are in the range 1 to 10000, inclusive.</p>\n<h3>Example</h3>\n<p>Here is the sample input and output corresponding to the example above.</p>\n<h3>Sample input</h3>\n <pre>\n3\n18 7 6 \n23 10 27\n20 9 14\n</pre>\n<h3>Sample output</h3>\n<pre>\n74\n</pre>\n<br>\n<h3>Note:</h3> Your program should not print anything other than what is specified in the output format. Please remove all diagnostic print statements before making your final submission. A program with extraneous output will be treated as incorrect!</p>\n<p>\u00a0</p>\n</div>",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "1-01-2016",
+            "is_direct_submittable": false,
+            "contest_name": "INOI Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1451932200,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1451932200,
+                "current": 1537431934
+            },
+            "problem_author_html_handle": "admin3",
+            "problem_name": "Triathlon",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "admin3",
+            "contest_code": "INOIPRAC",
+            "max_timelimit": "2",
+            "problem_code": "INOI1201"
+        }
+    },
+    "partial_scores": {
+        "INOI1501": [
+            {
+                "score": "10",
+                "count": "89"
+            },
+            {
+                "score": "20",
+                "count": "11"
+            },
+            {
+                "score": "30",
+                "count": "16"
+            },
+            {
+                "score": "40",
+                "count": "3"
+            },
+            {
+                "score": "50",
+                "count": "1"
+            },
+            {
+                "score": "90",
+                "count": "14"
+            },
+            {
+                "score": "100",
+                "count": "334"
+            }
+        ],
+        "INOI1502": [
+            {
+                "score": "10",
+                "count": "25"
+            },
+            {
+                "score": "20",
+                "count": "10"
+            },
+            {
+                "score": "30",
+                "count": "19"
+            },
+            {
+                "score": "35",
+                "count": "1"
+            },
+            {
+                "score": "55",
+                "count": "4"
+            },
+            {
+                "score": "65",
+                "count": "9"
+            },
+            {
+                "score": "90",
+                "count": "3"
+            },
+            {
+                "score": "100",
+                "count": "344"
+            }
+        ],
+        "INOI1202": [
+            {
+                "score": "30",
+                "count": "415"
+            },
+            {
+                "score": "70",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "406"
+            }
+        ],
+        "INOI1602": [
+            {
+                "score": "40",
+                "count": "17"
+            },
+            {
+                "score": "100",
+                "count": "146"
+            }
+        ],
+        "INOI1402": [
+            {
+                "score": "20",
+                "count": "27"
+            },
+            {
+                "score": "30",
+                "count": "63"
+            },
+            {
+                "score": "50",
+                "count": "144"
+            },
+            {
+                "score": "70",
+                "count": "6"
+            },
+            {
+                "score": "80",
+                "count": "3"
+            },
+            {
+                "score": "100",
+                "count": "1245"
+            }
+        ],
+        "INOI1301": [
+            {
+                "score": "30",
+                "count": "21"
+            },
+            {
+                "score": "70",
+                "count": "24"
+            },
+            {
+                "score": "100",
+                "count": "590"
+            }
+        ],
+        "INOI1601": [
+            {
+                "score": "30",
+                "count": "35"
+            },
+            {
+                "score": "70",
+                "count": "2"
+            },
+            {
+                "score": "100",
+                "count": "404"
+            }
+        ],
+        "INOI1401": [
+            {
+                "score": "20",
+                "count": "49"
+            },
+            {
+                "score": "50",
+                "count": "4"
+            },
+            {
+                "score": "70",
+                "count": "4"
+            },
+            {
+                "score": "80",
+                "count": "4"
+            },
+            {
+                "score": "100",
+                "count": "376"
+            }
+        ],
+        "INOI1302": [
+            {
+                "score": "30",
+                "count": "100"
+            },
+            {
+                "score": "70",
+                "count": "2"
+            },
+            {
+                "score": "100",
+                "count": "638"
+            }
+        ],
+        "INOI1201": [
+            {
+                "score": "30",
+                "count": "52"
+            },
+            {
+                "score": "70",
+                "count": "7"
+            },
+            {
+                "score": "100",
+                "count": "1249"
+            }
+        ]
+    },
+    "rules": "<p><strong class=\"rules-heading\">Rules and Regulations:</strong></p>\r\n<div class=\"rules-body\">\r\n<ul>\r\n<li>The contest is open to all. There are no prizes for this contest.</li>\r\n<li>This is a practice contest for INOI aspirants.</li>\r\n<li>This is an unrated contest.</li>\r\n<li>Submissions can only be made in\u00a0<strong>C, C++, Java and Python.</strong></li>\r\n<li>The problems belong to previous years' INOI contests.</li>\r\n<li>The problems may have multiple subtasks with each subtask having different test cases.</li>\r\n</ul>\r\n</div>\r\n<p><strong class=\"rules-heading\">Judging Criteria:</strong></p>\r\n<div class=\"rules-body\">\r\n<ul>\r\n<li>All the problems have same points alloted to them.</li>\r\n<li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li>\r\n<li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem (Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved.</li>\r\n</ul>\r\n</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/sites/default/files/uploads/landing_page_banners/banner-compete.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "INOI1501": {
+            "allow_submission": true,
+            "name": "Special Sums",
+            "problem_url": "/problems/INOI1501",
+            "category_name": "main",
+            "accuracy": 17.27,
+            "successful_submissions": "334",
+            "code": "INOI1501",
+            "status_url": "/status/INOI1501",
+            "type": "3",
+            "submit_url": "/submit/INOI1501",
+            "is_direct_submittable": false
+        },
+        "INOI1502": {
+            "allow_submission": true,
+            "name": "Periodic Strings",
+            "problem_url": "/problems/INOI1502",
+            "category_name": "main",
+            "accuracy": 15.26,
+            "successful_submissions": "344",
+            "code": "INOI1502",
+            "status_url": "/status/INOI1502",
+            "type": "3",
+            "submit_url": "/submit/INOI1502",
+            "is_direct_submittable": false
+        },
+        "INOI1202": {
+            "allow_submission": true,
+            "name": "Table Sum",
+            "problem_url": "/problems/INOI1202",
+            "category_name": "main",
+            "accuracy": 13.2,
+            "successful_submissions": "406",
+            "code": "INOI1202",
+            "status_url": "/status/INOI1202",
+            "type": "3",
+            "submit_url": "/submit/INOI1202",
+            "is_direct_submittable": false
+        },
+        "INOI1602": {
+            "allow_submission": true,
+            "name": "Brackets",
+            "problem_url": "/problems/INOI1602",
+            "category_name": "main",
+            "accuracy": 23.56,
+            "successful_submissions": "146",
+            "code": "INOI1602",
+            "status_url": "/status/INOI1602",
+            "type": "3",
+            "submit_url": "/submit/INOI1602",
+            "is_direct_submittable": false
+        },
+        "INOI1402": {
+            "allow_submission": true,
+            "name": "Free ticket",
+            "problem_url": "/problems/INOI1402",
+            "category_name": "main",
+            "accuracy": 40.43,
+            "successful_submissions": "1488",
+            "code": "INOI1402",
+            "status_url": "/status/INOI1402",
+            "type": "3",
+            "submit_url": "/submit/INOI1402",
+            "is_direct_submittable": false
+        },
+        "INOI1301": {
+            "allow_submission": true,
+            "name": "Calvins Game",
+            "problem_url": "/problems/INOI1301",
+            "category_name": "main",
+            "accuracy": 16.39,
+            "successful_submissions": "590",
+            "code": "INOI1301",
+            "status_url": "/status/INOI1301",
+            "type": "3",
+            "submit_url": "/submit/INOI1301",
+            "is_direct_submittable": false
+        },
+        "INOI1601": {
+            "allow_submission": true,
+            "name": "Wealth Disparity",
+            "problem_url": "/problems/INOI1601",
+            "category_name": "main",
+            "accuracy": 25.91,
+            "successful_submissions": "404",
+            "code": "INOI1601",
+            "status_url": "/status/INOI1601",
+            "type": "3",
+            "submit_url": "/submit/INOI1601",
+            "is_direct_submittable": false
+        },
+        "INOI1401": {
+            "allow_submission": true,
+            "name": "Highway Bypass",
+            "problem_url": "/problems/INOI1401",
+            "category_name": "main",
+            "accuracy": 18.86,
+            "successful_submissions": "376",
+            "code": "INOI1401",
+            "status_url": "/status/INOI1401",
+            "type": "3",
+            "submit_url": "/submit/INOI1401",
+            "is_direct_submittable": false
+        },
+        "INOI1302": {
+            "allow_submission": true,
+            "name": "Sequence Land",
+            "problem_url": "/problems/INOI1302",
+            "category_name": "main",
+            "accuracy": 16.57,
+            "successful_submissions": "638",
+            "code": "INOI1302",
+            "status_url": "/status/INOI1302",
+            "type": "3",
+            "submit_url": "/submit/INOI1302",
+            "is_direct_submittable": false
+        },
+        "INOI1201": {
+            "allow_submission": true,
+            "name": "Triathlon",
+            "problem_url": "/problems/INOI1201",
+            "category_name": "main",
+            "accuracy": 24.88,
+            "successful_submissions": "1249",
+            "code": "INOI1201",
+            "status_url": "/status/INOI1201",
+            "type": "3",
+            "submit_url": "/submit/INOI1201",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1578162600,
+        "current": 1537431934,
+        "freezing": 0,
+        "start": 1451932200
+    },
+    "user": {
+        "username": ""
+    }
+}

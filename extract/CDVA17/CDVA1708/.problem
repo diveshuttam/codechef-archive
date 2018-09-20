@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Due to recent unfortunate accidents in the airways, airport control authority have decided that there will be separate paths/airways for going and coming back for airplanes from one airport to another.\nAs like, suppose there are two airports <b>A</b> and <b>B</b> then for going from <b>A</b> to <b>B</b> and coming from <b>B</b> to <b>A</b>, there are two separate paths .\nFor the sake of convenience, airport's authority have decided that if there is any direct or indirect path from some airport to other airport, a passenger needs to go through security check only once.\nFor example there is a path from airport <b>A</b> to <b>B</b> , from <b>B</b> to <b>C</b> , from  <b>C</b> to <b>D</b> , then a person travelling  from <b>A</b> to <b>D</b> , needs to go through security check only once .\nIf there are in total <b>N</b> airports, you have to find the minimum number of security checks needed to travel to all airports at least once .</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>First line of input contains <b>N</b> and <b>M</b>, where <b>N</b> is the total number of airports and <b>M</b> is the number of paths from some arbitrary airport <b>X</b> to <b>Y</b>.\nNext <b>M</b> lines contains two integers <b>X</b> and <b>Y</b> , where there is a path from <b>X</b> to <b>Y</b> .</p>\n<p></p>\n\n<h3>Output</h3>\n<p>The only line of output should contain the minimum number of security checks needed to travel all airports atleast once.\n</p>\n\n<h3>Constraints and subtasks </h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>0</b> \u2264 <b>M</b> \u2264 <b>5 * 10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>X</b>, <b>Y</b> \u2264 <b>N</b></li>\n\n<p></p>\n\n<b>Sub-task</b> <b>1:</b>  <b>5</b> <b>points</b>\n\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li> <b>M</b>= <b>0</b></li>\n<p></p>\n\n<p></p>\n\n<b>Sub-task</b> <b>2:</b>  <b>95</b> <b>points</b>\n<li>Original constraints</li>\n\n<p></p>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3 3\n1 2\n2 1\n2 3\n<b>Output:</b>\n1\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> A person going through security check at either airport 1 or 2 can visit all the airports.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-02-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Codevaitam 3.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1485959400,
+        "end_date": 1486305000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1486305000,
+        "submit_start_date": 1485959400,
+        "current": 1537434170
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>decoder_pheku</span>",
+    "problem_name": "Security Check",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/decoder_pheku'>decoder_pheku</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "decoder_pheku",
+    "contest_code": "CDVA17",
+    "max_timelimit": "1",
+    "problem_code": "CDVA1708"
+}

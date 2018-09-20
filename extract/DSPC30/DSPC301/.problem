@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p class=\"MsoNormal\" align=\"center\"><b><u><span>ARBITRARY PRECISION ARITHMETIC</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><span>Every\nProgramming Language defines some <span class=\"SpellE\">datatypes</span>. Most\nfamous <span class=\"SpellE\">datatypes</span> in the world of programming are the\nprimitive <span class=\"SpellE\">datatypes</span> such as Integer and Char.\nHowever, for implementation and memory management issues these sizes of these <span class=\"SpellE\">datatypes</span> are fixed.</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><span>Though\nfixing the size of <span class=\"SpellE\">datatypes</span> is simple, it has its own\ndisadvantages. The two major disadvantages are Overflow and Precision-Compensation.\n<span> </span></span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><span>In many\nCryptographic applications and also in various mathematical applications such\nas calculation of values of irrational numbers such as \u03c0, it becomes\nnecessary to override the fixed size of the <span class=\"SpellE\">datatype</span>.\nThis is done by the use of Arbitrary Precision Numbers, whose digits of\nprecision are limited only by the available memory of the host system.</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><b><span>Your task is to write a program that adds two arbitrary precision signed\nnumbers. </span></b></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><b><span>Note: The only allowed languages are C and C++</span></b></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a9Vishal Gupta</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Input:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>First line contains number of test\ncases, integer n &lt; 20.Each test contains two signed integers on two lines of\narbitrary length. Number of digits of the arbitrary precision numbers may\nextend <span class=\"SpellE\">upto</span> 1000000.</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Output:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>You need to print the sum of the two\narbitrary precision signed numbers. </span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Sample Input:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>4</span></p>\n\n<p class=\"MsoNormal\"><span>43789743298749823748374982374</span></p>\n\n<p class=\"MsoNormal\"><span>-8349328423487287236483487236482734</span></p>\n\n<p class=\"MsoNormal\"><span>4382749374923749238749234982364</span></p>\n\n<p class=\"MsoNormal\"><span>-90834789348732648723</span></p>\n\n<p class=\"MsoNormal\"><span>-9878947468732648374</span></p>\n\n<p class=\"MsoNormal\"><span>48738479234239423840823</span></p>\n\n<p class=\"MsoNormal\"><span>-982347983479832748932748923</span></p>\n\n<p class=\"MsoNormal\"><span>-5664879843749837248972398472398</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Sample Output:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>-8349284633743988486659738861500360</span></p>\n\n<p class=\"MsoNormal\"><span>4382749374832914449400502333641</span></p>\n\n<p class=\"MsoNormal\"><span>48728600286770691192449</span></p>\n\n<p class=\"MsoNormal\"><span>-5665862191733317081721331221321</span></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "DreamSpark Contest 3",
+    "languages_supported": "C, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1272112200,
+        "end_date": 1272306540,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1272306540,
+        "submit_start_date": 1272112200,
+        "current": 1537439588
+    },
+    "problem_author_html_handle": "ganesha",
+    "problem_name": "ARBITRARY PRECISION ARITHMETIC",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ganesha'>ganesha</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ganesha",
+    "contest_code": "DSPC30",
+    "max_timelimit": "0.1",
+    "problem_code": "DSPC301"
+}

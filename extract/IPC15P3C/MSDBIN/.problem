@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nBinary Representation is Ilya's favourite. She loves binary representation so much that she has completely stopped using decimal representation.\n</p>\n<p>\nOne day on their way to a hackathon her friend Vanya gave Ilya a simple problem to solve. Despite being crazy for binary numbers, Ilya is finding it difficult to answer Vanya problem. The problem is as follows:\n</p>\n<p>Given an array of <b>N</b> positive integers <b>'A'</b> and a range <b>[a, b]</b>, how many numbers exists in range [a, b] (both inclusive), whose binary representation donot contain the binary representation of any of elements of A as a substring.\n</p>\n<p>Can your help her? </p>\n<h3>Input</h3>\n<p>First line consists of an integer <b>N</b>, the number of elements in <b>A</b>.\n</p>\n<p>\nThe second line consist of <b>N</b> integers which represents the array <b>A</b>.\n</p>\n<p>\nThe third line consist of two integers <b>a</b> and <b>b</b>.\n</p>\n<p><br /></p>\n<h3>Output</h3>\n<p> No of positive integers that follows the constraint mentioned above.</p>\n<h3>Constraints</h3>\n<ul>\n<li> 1 &lt;= <b>N</b> &lt;= 10<sup>4</sup></li>\n<li> 1 &lt;= <b>A<sub>i</sub></b> &lt;= 10<sup>8</sup> </li>\n<li> 1 &lt;= <b>a</b> &lt;= <b>b</b> &lt;= 10<sup>15</sup></li>\n</ul>\n<h3>Example</h3>\n<p><br /><br />\n<b>Input:</b><br /><br />\n5<br /><br />\n2 4 6 8 10<br /><br />\n1 100<br />\n<br /><br />\n<br /></p>\n<p><b>Output:</b><br /><br />\n6<br />\n<br /><br />\n<br /></p>\n<h3>Explanation</h3>\n<p>The numbers' binary representation cannot contain '10' because 2 in present in A. The only numbers left are those whose representation consist of only 1's<br /><br />\n3 with binary representation 11<br /><br />\n7 with binary representation  111<br /><br />\n15 with binary representation 1111<br /><br />\n31 with binary representation 11111<br /><br />\n63 with binary representation 111111</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Apocalypse",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457533800,
+        "end_date": 1457551800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457551800,
+        "submit_start_date": 1457533800,
+        "current": 1537435222
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>dragonslayerx</span>",
+    "problem_name": "Messed Binary",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dragonslayerx'>dragonslayerx</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dragonslayerx",
+    "contest_code": "IPC15P3C",
+    "max_timelimit": "1",
+    "problem_code": "MSDBIN"
+}

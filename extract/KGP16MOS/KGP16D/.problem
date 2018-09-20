@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Park Street in Kolkata is famous for its mouth watering sweets. There are a total of <b>N</b>  shops in the market, which are extended over a single street with shops following one another. The shops are enumerated from <b>1</b> to <b>N</b>, from left to right. The market is unique in the sense that each shop sells only a single type of sweet. Additionally, no two shops sell the same type of sweet. For convenience, the different types of sweets are numbered from <b>1</b> to <b>N</b>.</p>\n\n<p>Though the famous market has been running smoothly for many years, the city Mayor decided to have it completely overhauled and aims to make this famous market great again. So he has issued a tender for the shops, which you happened to grab by using your good offices with the Mayor. The tender specifies that you should decide which type of sweet each shop should sell. You would like to do so, while keeping in mind that buyers like purchasing sweets if adjacent shops sell sweets of similar types, because then they can purchase similar type sweets without wandering around many shops. Formally, you would like to minimize the maximum absolute value of difference between the types of sweets in adjacent shops. Two shops which are numbered <b>i</b> and <b>i + 1</b> (<b>i < N</b>) are said to be adjacent to each other.</p>\n\n<p>The city Mayor himself is very fond of sweets and has decided to have his own shop in the market too. He has chosen shop numbered <b>S</b> in which he will sell sweets of type <b>Q</b>. For the remaining <b>N - 1</b> shops, you have to assign which sweets should be sold so as to minimize the maximum absolute difference in the type of sweets in adjacent shops.</p>\n\n<h3>Input</h3>\n<p>First line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>\n<p>The only line of each test case contains three space separated integers <b>N, S, Q</b>, denoting number of shops in the market, the shop chosen by the Mayor, and the type of sweet the Mayor's shop sells, respectively.</p>\n\n<h3>Output</h3>\n<p>For each test case, output two lines.</p>\n<p>In the first line of each test case, output the minimum value of the maximum difference in the types of sweets of adjacent shops.</p>\n<p>In the next line, output <b>N</b> space separated integers denoting the types of sweets sold in each of the shops. If there are multiple answers, output any one.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T, N</b> \u2264 <b>500</b></li>\n<li><b>1</b> \u2264 <b>S, Q</b> \u2264 <b>N</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n<tt>2\n3 2 3\n2 1 1</tt>\n\n<b>Output:</b>\n<tt>2\n1 3 2\n1\n1 2</tt>\n</pre>\n\n<h3>Explanation</h3>\n<p><b>Example case 1.</b>The city Mayor has decided to sell sweets of type 3 in the second shop. In the first shop, you can decide to sell sweets of type 1 and that of type 2 in the third shop. In this case, maximum difference in the type of sweets of adjacent shops is 2. There can be one other way of assigning sweets with shops, i.e. sell sweets of type 2 in shop 1 and that of type 1 in shop 3. In this case also, maximum difference in type of adjacent shops is 2. So, you can see that in any case, minimum value of maximum difference in type of adjacent shops will be 2. Hence answer is 2.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Kharagpur Onsite Mirror Contest 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1481954400,
+        "end_date": 1481972400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1792992006,
+        "submit_start_date": 1481954400,
+        "current": 1537434323
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Sweet Shops of Kolkata",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>, <a class='problem-tag-small ' href='/tags/problems/array'>array</a>, <a class='problem-tag-small ' href='/tags/problems/constructive'>constructive</a>, <a class='problem-tag-small ' href='/tags/problems/icpc16'>icpc16</a>, <a class='problem-tag-small ' href='/tags/problems/kgp16'>kgp16</a>, <a class='problem-tag-small ' href='/tags/problems/looping'>looping</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin3",
+    "contest_code": "KGP16MOS",
+    "max_timelimit": "2",
+    "problem_code": "KGP16D"
+}

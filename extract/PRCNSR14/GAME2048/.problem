@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem description.</h3>\n<p>In a world full of numbers, you are given \u2018N\u2019 blocks of value 2. Your target is to merge these blocks in such a way that one bigger number is formed. The merging takes place as follows : Two blocks of value 2 will make one block of value 4, then two block of value 4 will make one block of value 8 and so on. At any step, after merging, if there is a block left, then that block is automatically upgraded to next higher value. You need to find out the numbers of block merges required to get largest number possible.</p>\n<h3>Input Description</h3>\n<p>\nThe first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.<br />\nEach test case contains a number \u2018N\u2019 i.e. number of blocks of value 2\n</p>\n\n<h3>Output Description</h3>\n<p>The number of block merges required to get the largest number possible\n</p>\n\n<h3>Sample Input</h3>\n<p>\n1<br />\n5</p>\n\n<h3>Sample Output</h3>\n<p>\n4\n</p>\n\n<h3>Sample Input Explanation</h3>\n<p>\n5 blocks of 2s will make 2 blocks of 4 and one block of 2 will be upgraded to 4. Now 2 blocks of 4 will make one block 8 and one block of 4 will be upgraded to 8. Finally 2 blocks of 8 will make one block of 16 (which is the largest number possible).<br />\nHence number of merges required are: 2 + 1 + 1 = 4\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1 </b>&lt;= <b>T</b> &lt;= <b>100000</b></li>\n<li><b>1</b> \u2264 <b> <b>N<sub>i</sub></b> \u2264 <b>10000000000</b></b></li>\n</ul>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-08-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Procon 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1407670200,
+        "end_date": 1407679200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1407679200,
+        "submit_start_date": 1407670200,
+        "current": 1537437485
+    },
+    "problem_author_html_handle": "procon2014",
+    "problem_name": "2048",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/procon2014'>procon2014</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "procon2014",
+    "contest_code": "PRCNSR14",
+    "max_timelimit": "1",
+    "problem_code": "GAME2048"
+}

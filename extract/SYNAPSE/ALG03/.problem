@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Pacific Club is organizing a boat race. Participants from all around the world has arrived to participate in this event. All participating team must have exactly 3 members to be eligible to take part in the race. Only a single shaft is provided to each team. The strength of participants differ to a great extent. Some participants can drive the boat at more speed than other using the shaft. Let say for a team T, one of the member M1 has ability to drive at speed C1, M2 can drive at speed C2, M3 can drive at speed C3. Distance traveled in unit time by team T is C1 when M1 has the shaft. M1 get exhausted after unit time and passes the shaft to one of the other team member and atleast C1 time units rest is required by him before he can take the shaft again. Hence a team member gets exhausted in one unit time and needs a rest of x unit time after his turn ( x is the speed capacity of that member ). Assuming that team members are intelligent, they schedule their turns such that they finish their race in least possible time, based on the capacities of team members.\n\n<h3>Input</h3>\n<p>1st line contains number of test cases.</p>\n<p>1st line of each test case contains two integers, seperated by spaces, N D , where N=Number of teams, D= Distance to be covered.</p>\n<p>1st line of each test case is followed by N lines, where ith line consist of three integers denoting the speed capacities of each team member of team i.</p>\n\n<h3>Output</h3>\n<p>Output minimum amount of time taken by the teams that finished first (precision up to 2 decimal points) and list of all the team numbers of the team that finished first ( in increasing order ).\n<h3>Constraints</h3>\n<p>1<=N<=1000\n<p>1<=D<=50000\n<p> Speed capacity of each member will be within 1 to 20.\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n2 31\n5 4 4\n1 2 5\n\n<b>Output:</b>\n11.25 1\n\n<p> Explanation : Team 1's one of the optimum order would be : 4 4 5 X X 4 4 X 5 X 4 4  \n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "DA-IICT - Algorythmus, Synapse",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298124000,
+        "end_date": 1298210400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298210400,
+        "submit_start_date": 1298124000,
+        "current": 1537439353
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>illume</span>",
+    "problem_name": "Race",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/illume'>illume</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "illume",
+    "contest_code": "SYNAPSE",
+    "max_timelimit": "0.553333",
+    "problem_code": "ALG03"
+}

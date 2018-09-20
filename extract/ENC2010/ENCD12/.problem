@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>A palindrome is a string of letters that is equal to itself when reversed. Given an input string, not necessarily a palindrome, compute the number of times you need to swap to transform the string into a palindrome. By swap we mean reversing the order of two adjacent symbols. For example, the string \"mamad\" may be transformed into the palindrome \"madam\" with 3 swaps: <br>\nswap \"ad\" to get \"mamda\" <br>\nswap \"md\" to get \"madma\" <br>\nswap \"ma\" to get \"madam\" <br>\n\n<h3>Input</h3>\n<p>The Input will have number of test cases. For each test case, one line of input containing a string of up to 100 lowercase letters will be there. Terminate the input with a 0(zero).\n\n\n\n<h3>Output</h3>\n<p>\nOutput consists of one line. This line will contain the number of swaps, or \"Impossible\" if it is not possible to transform the input string to a palindrome.\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\nmamad\nasflkj\naabb\n0\n<b>Output:</b>\n3\nImpossible\n2\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Encoder 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1264321800,
+        "end_date": 1264350600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180168,
+        "submit_start_date": 1264321800,
+        "current": 1537439813
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rscrbv</span>",
+    "problem_name": "Distorted Palindrome",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rscrbv'>rscrbv</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rscrbv",
+    "contest_code": "ENC2010",
+    "max_timelimit": "3",
+    "problem_code": "ENCD12"
+}

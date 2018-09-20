@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>2 players <b>\"Desik\"</b> and <b>\"Chef\"</b> play a game on an array of size <b>N+1</b>, where the first index of the array is <b>0</b> and the last index is <b>N</b>.  And all the indices from <b>\"1\"</b> to <b>\"N\"</b> of the array have numbers assigned to it. \n<p> </p>\nIn one operation you can do the following move:-\n<p></p>\n<li>Choose an index <b>i</b> <b>(1 <= i <= N)</b> and if the value of the number at that index is <b>\"Odd\"</b> he subtracts <b>1</b> from that number and can <b>add</b> that <b>1</b> to any of the <b>Odd Number</b> present from <b>1</b> to <b>i - 1</b> or he can add that <b>1</b> to the <b>0th index</b> number.</li>\n<p></p>\n<li>Choose an index <b>i</b> <b>(1 <= i <= N)</b> and if the value of the number at that index is <b>\"Even\"</b> and <b>non - zero</b> he subtracts <b>1</b> from that number and can <b>add</b> that <b>1</b> to any of the <b>Even Number</b> (May be <b>Zero</b>) present from <b>1</b> to <b>i - 1</b> or he can add that <b>1</b> to the <b>0th index</b> number.</li>\n<p></p>\nThey Continue the game till all the elements of the array from <b>index 1 to N become 0</b>. The <b>one</b> who <b>moves the last</b> is the <b>winner</b>.\n<p></p>\n<b>Desik</b> always starts first. You have to determine who will win the game if both of them play <b>optimally</b>.\n</p>\n\n<h3>Input</h3>\n<ul>\n<li>First Line specifies an integer <b>T</b>, the number of test cases.</li>\n<li>Each test case consists of an integer <b>N</b> denoting the number of array elements.</li>\n<li>N lines follow denoting the array elements.</li>\n</ul>\n\n<h3>Output</h3>\n<ul>\n<li>For every test case print <b>\"Desik\"</b> or <b>\"Chef\"</b> whoever wins the game without quotes in a new line.</li>\n</ul>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10 ^ 2</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10 ^ 4</b></li>\n<li><b>0</b> \u2264 <b>Array elements</b> \u2264 <b>10 ^ 9</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n1\n2 \n1\n1\n2 \n1 2\n\n<b>Output:</b>\nChef\nDesik\nDesik\n</pre>\n\n<h3>Explanation</h3>\n<p>\n<b>Case 1</b>: <b>Initial Array:- 2</b>\n\n<p>In the first move Desik can only subtract 1 number from the 1st Index.</p>\n\n<p>In the Second Move Chef subtracts 1 number from the 1st Index.</p>\n\n<p>Now every array number is 0. So As Chef Moved last he is the winner.</p>\n</p>\n<p>\n<b>Case 3</b>: <b>Initial Array:- 1 2</b>\n\n<p>Desik subtracts 1 from the 1st Index and adds it to the 0th index as there is no odd element before 1st index.</p>\n\n<p>Now whatever move Chef does Desik can win the game.</p>\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "11-11-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Codex",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1510414200,
+        "end_date": 1510507800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1510507800,
+        "submit_start_date": 1510414200,
+        "current": 1537433361
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>sunnyaks_1997</span>",
+    "problem_name": "Desik And Chef",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sunnyaks_1997'>sunnyaks_1997</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sunnyaks_1997",
+    "contest_code": "COD2017",
+    "max_timelimit": "1",
+    "problem_code": "NITR12"
+}

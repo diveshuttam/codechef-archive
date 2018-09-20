@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>It's Christmas time and Santa is in town. There are <b>N</b> children each having a bag with a mission to fill in as many toffees as possible. They are accompanied by a teacher whose ulterior motive is to test their counting skills. The toffees are of <b>different brands</b> (denoted by lowercase letters a-z). Santa picks up a child numbered <b>m</b> and gives <b>n</b> toffees of brand <b>p</b> to the child.</br>\n</br>\nThe teacher wishes to ask the children to <b>calculate the number of toffees</b> there are of a particular brand amongst a given range of children. Formally, there are 2 queries:</br>\n</br>\n<b>Input:</b></br><br>\n    First line consists of <b>Q</b> queries.</br>\n    Each line follows and consists of four space separated values:</br><br>\n        <b>Type 1:</b> It is of the form <b>1 m x p</b></br>\n            1 is the type no,\"m\" is the child to which \"x\" toffees of a brand \"p\" are given</br><br>\n\n        <b>Type 2:</b> It is of the form <b>2 m n p</b>\n            where <b>m - n</b> is the range of children (inclusive) being queried for brand <b>p</b></br><br>\n\n<b>Output:</b></br><br>\n     Report the sum of toffees of brand <b>p</b> within the given range <b>m - n</b> for each query of type 2</br><br>\n\n<b>Constraints:</b></br><br>\n    1 <= Q <= 10^5</br>\n    1 <= N <= 10^6</br>\n    1 <= m <= n <= 10^6</br>\n    1 <= x <= 10^6</br>\n    all brand of toffees are lowercase letters</br>\n</br>\n<b>Subtask 1:</b> (30 points)</br>\n    1 <= Q <= 10^3<br>\n    1 <= m <= n <= 10^3</br>\n    1 <= x <= 10^3</br>\n</br>\n<b>Subtask 2:</b> (70 points)</br>\n    Original Constraints</br>\n</br>\n<b>Sample Input:</b></br>\n    5</br>\n    1 3 4 a</br>\n    1 5 8 a</br>\n    1 1 7 x</br>\n    2 1 6 a</br>\n    2 3 6 y</br>\n</br>\n<b>Sample Output:</b></br>\n    12</br>\n    0</br><br>\n    In first case, there are two children between 3 and 5 between 0 - 6  having sum (4 + 8)</br>\n    There's no toffee for y in given range</br>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "HACK NITJ",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1474104600,
+        "end_date": 1474115400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1474115400,
+        "submit_start_date": 1474104600,
+        "current": 1537434610
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rahul_sethi</span>",
+    "problem_name": "Santa and Children ",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rahul_sethi'>rahul_sethi</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rahul_sethi",
+    "contest_code": "SIC2016",
+    "max_timelimit": "1",
+    "problem_code": "SANTA"
+}

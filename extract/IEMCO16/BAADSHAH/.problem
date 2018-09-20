@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem description:</h3>\n<p><a href=\"https://www.codechef.com/users/algorithmist2\"><span style=\"color:#FF4500;\">Algorithmist2</span></a> was an exceptional coder from IEM who qualified for regional\u2019s in ACM twice and has 2 digit figure rank on Codechef.Once, he was solving a question in a coding contest, which was actually solved by least number of participants. He was pretty sure that he would solve it and just 5 minutes before contest, his solution got accepted and as always he topped in that contest.\n</p>\n<p>Very next day, he decided to give this question to his coder friend <a href=\"https://www.codechef.com/users/pheonix123\"><span style=\"color:#FF4500;\">Pheonix123</span></a>(even his coding capabilities can\u2019t be measured).Both of them have code flowing in their blood.<a href=\"https://www.codechef.com/users/algorithmist2\"><span style=\"color:#FF4500;\">Algorithmist2</span></a> provided him an array consisting of \u2018n\u2019 integers and asked him to do following operations: </p>\n<p>1. Update the position at \u201cx\u201d of array to \u201cy\u201d ie A[x]=y.\n<br>2. Find if there is any prefix in the array whose sum equals to \u201cS\u201d.If yes, then output \u201cFound\u201d and the last index of prefix, else output \u201cNot Found\u201d.\n<br>As expected, <a href=\"https://www.codechef.com/users/pheonix123\"><span style=\"color:#FF4500;\">Pheonix123</span></a> also did it in about 25 minutes. Now, its challenge for you to do the same.</p>\n\n<p><b>Note:Array is 1-indexed.</b>\n\n<h3>Input</h3>\n<p>First line contains two space separated  integers  <b>\u201cN\u201d</b> & <b>\u201cM\u201d</b>, denoting the number of elements in the array and the number of operations or queries.</p>\n<p>Second line consists of <b>\u201cN\u201d</b> space separated integers. </p>\n<p>Next M lines consists of queries of following form :</p>\n<ul>\n<li><b>1 p q:</b> Change the value at position p to q ie  <b>A[p] to q.</b><br>(3 space separated numbers)</li>\n<li><b>2 S:</b> Find if there is any prefix whose sum equals <b>\u201cS\u201d</b>.<br>(2 space separated numbers)</li>\n</ul>\n<p> where <b>1</b> indicates query of type 1, <b>p</b> is index of array and <b>q</b> is value to be updated with.<br>Similarly, <b>2</b> indicates query of type 2 and <b>S</b> is prefix sum which needs to be checked in the array.</p>\n<p></p>\n<h3>Output</h3>\n<p>In a single line,for each query of type <b>2</b>, if the prefix exists in the array,then print a string <b>\u201cFound\u201d</b>(without quotes) along with the index <b>i</b> denoting last position of prefix, separated by space, else print <b>\u201cNot Found\u201d</b>(without quotes). </p>\n<p> </p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>A[i],q</b> \u2264 <b>10^12</b></li>\n<li><b>1</b> \u2264 <b>N,p</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>S</b> \u2264 <b>10^17</b></li>\n</ul>\n<p> </p>\n<h3>Example</h3>\n<p>\n<b>Input:</b>\n<br>\n<br>4 4\n<br>1 2 3 4\n<br>2 6\n<br>1 4 10\n<br>2 16\n<br>2 5\n</p>\n<p>\n<b>Output:</b>\n<br>\n<br>Found 3\n<br>Found 4\n<br>Not Found\n</p>\n<p> </p>\n<h3>Explanation:</h3>\n<p>In first query of type 2, we have to check if there is any prefix with sum=6.Yes!!.The first three elements of array sums to 6(1+2+3).So, last index of prefix sum is 3.Prefix sum always means sum of first 'd' elements of array, where d can be any number starting from index 1 to N(inclusive)</p>\n<p>Similarly, check for other queries ;)</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-11-2016",
+    "is_direct_submittable": false,
+    "contest_name": "IEM Coding Olympiad 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1478442600,
+        "end_date": 1478453400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1478453400,
+        "submit_start_date": 1478442600,
+        "current": 1537434394
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>dwij28</span>",
+    "problem_name": "Algorithmist2 And Pheonix123",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dwij28'>dwij28</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dwij28",
+    "contest_code": "IEMCO16",
+    "max_timelimit": "1",
+    "problem_code": "BAADSHAH"
+}

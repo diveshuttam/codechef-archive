@@ -1,0 +1,33 @@
+{
+    "problem_code": "KRYP3",
+    "problem_author": "shivamg_isc",
+    "contest_name": "CodeRed",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>shivamg_isc</span>",
+    "problem_name": "Quest to save the planet",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CODR2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/codr2018'>codr2018</a>, <a class='problem-tag-small ' href='/tags/problems/matrix-expo'>matrix-expo</a>, <a class='problem-tag-small ' href='/tags/problems/medium-hard'>medium-hard</a>, <a class='problem-tag-small ' href='/tags/problems/shivamg_isc'>shivamg_isc</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n<p><b>\"The story of my family isn't about how we died. It's about how we lived.\"</b></p>\n\n<p>The tyranny against the family of <b>Seg-El</b> has led to a lot of turmoil. Seg-El needs to defeat the tyrants in order to save Krypton. <b>Lyta Zod</b> has agreed to help him as well despite their differences. </p>\n<p>The trap created by the tyrants is in the form of a <b>square grid</b> of size <b>N</b>. Each step on this grid has some posionous value associated with it. A <b>step</b> for this grid is defined as follows- </p>\n<p> If a person is at point <b>(A,B)</b> in the grid, then in one step he/she can move to <b>(C,D)</b> - an another point if and only if </p>\n<p><b>1 \u2264 max( | A - C | , | B - D | ) \u2264 X</b></p> \n<p>where X is some positive integer.</p>\n<p> The step will not inflict any posion only when <b>1 \u2264 X \u2264 2</b>. </p>\n<p>Lyta Zod surmises that the trap can be neutralised only if they take exactly <b>Y</b> steps. </p> \n<p>There are <b>Z</b> crucial start points. </p> \n<p>She can only help Seg-El if she gets to know the <b>number of unique poisonless combinations for each of these <b>Z</b> points with these <b>Y</b> steps such that after each step, the person stays inside the grid only i.e doesn't cross the boundary of the trap grid.</b> </p>\n<p> Two combinations are said to be different if they have at least one step which is different. </p>\n<p>Help Seg-El in finding out the number of such valid combinations for each query. As the answer can be very large, print it modulo <b>10<sup>9</sup>+7</b> </p>\n<p> </p> \n\n<p> </p>\n\n\n<h3>Input</h3>\n<p> First line contains the dimension of square matrix - <b>N</b></p>\n<p> Second line contains an integer <b>Y</b> denoting the number of steps to be taken.</p>\n<p> Third line contains an integer <b>Z</b> denoting the number of points for which the answer has to be obtained.\n<p><b>Z</b> lines follow. </p> \n<p>Each of the next <b>Z</b> lines has two integers - <b>A</b> and <b>B</b> denoting the starting coordinate. </p>\n<p> </p>\n\n<h3>Output</h3>\n<p>For each of the <b>Z</b> queries, print the required number of ways as described. For each query, answer must be on the separate line.</p>\n<p> </p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>20</b></li>\n<li><b>1</b> \u2264 <b>Y</b> \u2264 <b>10<sup>14</sup></b></li>\n<li><b>1</b> \u2264 <b>Z</b> \u2264 <b>400</b></li>\n<li><b>1</b> \u2264 <b>A,B</b> \u2264 <b>N</b></li>\n</ul>\n<p> </p>\n<h3>Example</h3>\n<p><b>Input:</b></p>\n3<br/>\n2<br/>\n1<br/>\n1 1<br/>\n<p></p>\n\n<p><b>Output:</b></p>\n64<br/>\n<p> </p>\n\n<p><b>Explanation</b></p>\n<p>If the start point is (1,1) , the number of distinct ways to make exactly 2 poisonless steps such that the person stays inside the grid only after each step is 64.</p>",
+    "category_name": "main",
+    "date_added": "4-02-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/KRYP3",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1518881400,
+        "end_date": 1518899400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1518899400,
+        "submit_start_date": 1518881400,
+        "current": 1537432983
+    },
+    "user": {
+        "username": ""
+    }
+}

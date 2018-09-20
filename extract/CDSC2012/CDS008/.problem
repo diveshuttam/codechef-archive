@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nBrunno Doiuna is very fond of caper pizzas, which he always likes to share with his girlfriend. As she also loves capers, it is of the utmost importance, in order to avoid unnecessary quarrels, to split the pizza into two equally-sized slices in such a way that each half contains exactly the same number of capers. However, most caper pizzas also contain a number of peppercorns, and neither Brunno nor his girlfriend likes them. Therefore, it is also crucial that each of the two halves contain the same number of peppercorns. As you can easily observe, depending on the position of capers and peppercorns on the pizza, it is not always possible to make a straight-line cut into the pizza in such a way that the two slices have the same area and the same number of capers and peppercorns lie in each resulting piece. Your task is to design a program to decide if it is possible to make such a cut or not, knowing the positions of capers and peppercorns.\n\n<h3>Input</h3>\n</p><p>We will assume that the pizza is circular and is centered at the origin, and is big enough to contain all capers and peppercorns. We also assume that there is an even number of capers and an even number of peppercorns, and that no cut goes through any of the capers or pepper balls. Additionally, no pair of peppercorns, capers, or a peppercorn and a caper are aligned with the origin, or form an angle of less than 10-6 degrees with the origin.\n</p><p>There can be multiple test cases, one after the other. The first line of a test case contains two even integers c&gt;=0 and p&gt;=0 (where 2&lt;=c + p&lt;=30000) separated by a space, the number of capers and peppercorns, respectively. Each of the following c lines describes the position of a caper using two floating point numbers, separated by a space, representing its x and y coordinates. Each of the next p lines holds two floating point numbers, the x and y coordinates of a peppercorn. A blank line follows each test case.\n\n</p><p>The last line of input will contain `-1 -1'. This marks the end of input -- do not write any output for this special last line.\n\n<h3>Output</h3>\n</p><p>\n`YES' for a positive answer, `NO' otherwise.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2 2\n1 1\n1 0\n0 1\n-1 1\n\n2 2\n1 1\n-1 1\n0 1\n0.1 -1\n\n-1 -1\n\n<b>Output:</b>\nNO\nYES\n\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "CodeScone contest 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330092000,
+        "end_date": 1330144200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1330144200,
+        "submit_start_date": 1330092000,
+        "current": 1537438942
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>sakshigopal7</span>",
+    "problem_name": "Divide it Equally",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sakshigopal7'>sakshigopal7</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sakshigopal7",
+    "contest_code": "CDSC2012",
+    "max_timelimit": "3",
+    "problem_code": "CDS008"
+}

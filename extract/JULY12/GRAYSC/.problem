@@ -1,0 +1,33 @@
+{
+    "problem_code": "GRAYSC",
+    "problem_author": "shangjingbo",
+    "contest_name": "July Challenge 2012",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>shangjingbo</span>",
+    "problem_name": "The Gray-Similar Code",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>laycurse</span>",
+    "contest_code": "JULY12",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/july12'>july12</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/pigeonhole'>pigeonhole</a>, <a class='problem-tag-small ' href='/tags/problems/search'>search</a>, <a class='problem-tag-small ' href='/tags/problems/shangjingbo'>shangjingbo</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nThe Gray code (see <a href=\"http://en.wikipedia.org/wiki/Gray_code\">wikipedia</a> for more details) is a well-known concept.\nOne of its important properties is that every two adjacent numbers have exactly one different digit in their binary representation.\n</p>\n<p>\nIn this problem, we will give you <b>n</b> non-negative integers in a sequence <b>A[1..n] (0&lt;=A[i]&lt;2^64)</b>, such that every two adjacent integers have exactly one different digit in their binary representation, similar to the Gray code.\n</p>\n<p>\nYour task is to check whether there exist 4 numbers <b>A[i1], A[i2], A[i3], A[i4] (1 &lt;= i1 &lt; i2 &lt; i3 &lt; i4 &lt;= n)</b> out of the given <b>n</b> numbers such that <b>A[i1] xor A[i2] xor A[i3] xor A[i4] = 0</b>. Here <b>xor</b> is a <a href=\"http://en.wikipedia.org/wiki/Bitwise_operation#XOR\">bitwise operation</a> which is same as <b>^</b> in C, C++, Java and <b>xor</b> in Pascal.\n</p>\n<h3>Input</h3>\n<p>First line contains one integer <b>n (4&lt;=n&lt;=100000)</b>.\nSecond line contains <b>n</b> space seperated non-negative integers denoting the sequence <b>A</b>.\n<h3>Output</h3>\n</p><p>Output \u201cYes\u201d (quotes exclusive) if there exist four distinct indices <b>i1, i2, i3, i4</b> such that <b>A[i1] xor A[i2] xor A[i3] xor A[i4] = 0</b>. Otherwise, output \"No\" (quotes exclusive) please.\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n\n5\n1 0 2 3 7\n\n\n<b>Output:</b>\n\nYes\n</pre></p>",
+    "category_name": "main",
+    "date_added": "9-05-2012",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.1 - 0.107125",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/GRAYSC",
+    "problem_tester": "laycurse",
+    "time": {
+        "view_start_date": 1341135000,
+        "end_date": 1341999000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1341999000,
+        "submit_start_date": 1341135000,
+        "current": 1537438770
+    },
+    "user": {
+        "username": ""
+    }
+}

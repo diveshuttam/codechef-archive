@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> A simple string contains a large repetition of letters within it. This problem is related to string handling and manipulation.  An original message is sent from planet Earth to planet Cybertron in form of a string. However, the letter position and string size is not important. The number of time each letter has occurred in the string is important. So the original string which is sent to Cybertron is encrypted in the new string which comprises the letters followed by each time it has occurred in the original string. Eg- original message is- abcdabf. Then the encrypted string is- a2b2c1d1f1\n\n<h3>Input</h3>\n<p>The input consists of a single line string without any space or numeric or special characters.\n\n<h3>Output</h3>\n<p>It will consist of in the encrypted string which comprises the letters followed by each time it has occurred in the original string in order.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\ninformation\n\n<b>Output:</b>\ni2n2f1o2r1m1a1t1\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "TechTrishna 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1331706600,
+        "end_date": 1331760600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1331760600,
+        "submit_start_date": 1331706600,
+        "current": 1537438884
+    },
+    "problem_author_html_handle": "bestankur007",
+    "problem_name": "String encryption",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bestankur007'>bestankur007</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bestankur007",
+    "contest_code": "TCTR2012",
+    "max_timelimit": "0.2",
+    "problem_code": "NOPC9"
+}

@@ -1,0 +1,213 @@
+{
+    "teamsCount": "844",
+    "announcements": "<p><b>January 14th, 12:00pm:</b> Techkriti - IOPC 2012 has started!</p>\r\n<p><b>January 14th, 12:26:</b> There was a small typo in the limits for N in IOPC1211 (The Numbers Game). It has been fixed now. There will be no penalty for submissions till now on that problem.</p>\r\n<p><b>January 14th, 12:47:</b> Some minor changes have been made in the statement of IOPC1213 (Coloring Graphs)</p>\r\n<p><b>January 14th, 12:58:</b> The error in the sample test case for IOPC1214 has been rectified</p>\r\n<p><b>January 14th, 2:27:</b> The limits on the answer for IOPC1211 has been modified. Please take note of that. Any submissions on this problem upto this point will not carry any penalties.</p>\r\n<p><b>January 14th, 17:34:</b> The sample IO for IOPC1208 has been modified. Please take note.</p>\r\n<p><b>January 14th, 18:50:</b> The output for IOPC1208 is to be given modulo 10^8 + 7. The problem has been edited as well. All penalties till now on that problem will be discounted.</p>\r\n<p><b>January 15th, 02:30:</b> There was an error in the test data for IOPC1215. It has been corrected and all solutions have ben rejudged.</p>\r\n<p><b>January 15th, 12:00:</b> The contest is complete. Congratulations to the winners! prize winners will be contacted directly by the IOPC team.</p>\r\n<p>The problems and solution booklet can be found <a href=\"http://razimantv.files.wordpress.com/2012/01/booklet1.pdf\">here</a></p>",
+    "ip": "149.129.135.113",
+    "code": "IOPC2012",
+    "duration": "1440",
+    "name": "IOPC Techkriti 2012 - IIT Kanpur",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p> <p><b>The IOPC 2012 Contest has ended!</b></p> <p><b>Solution booklet on each problem can be found\u00a0<a href=\"http://razimantv.files.wordpress.com/2012/01/booklet1.pdf\">here</a>.</b></p> <p><b>All problems have been added to the practice section.</b></p> <p><b>Solutions are public for all problems.</b></p> <p><b>And do not forget to read the Blog Post\u00a0<a href=\"http://blog.codechef.com/2012/01/18/an-overwhelming-participation-for-iopc2012/\">here</a>.</b></p> </p> <p>\u00a0</p> <p><b>Rules for Registration</b></p> <ul> <li>A team can consist of atmost 3 members.</li> <li>All the members must be registered on Codechef. Then the team can participate by registering at this link: <a href=\"/teams/register/IOPC2012/\">http://www.codechef.com/teams/register/IOPC2012/</a></li> <li>Only teams of which all members are students currently registered in a university shall be eligible for prizes. <b>However, non-students are also welcome to participate</b></li> <li>To be eligible for prizes, teams and members have to register on the <a href=\"http://www.techkriti.org/#/competitions/iopc/iopc/\">IOPC page</a> as well.</li> <li>The coordinators will be available for any queries/clarifications on <a href=\"mailto:iopc2011@gmail.com\">iopc2011@gmail.com</a> </li> </ul> <p>\u00a0</p> <p><b>Other Rules</b></p> <ul> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem. </li> <li>Teams are ranked according to the most problems solved. Ties will be broken by the total time for each team in ascending order of time.</li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> <li>You can get more information about team contests <a href=\"/wiki/team-contests\">here</a>.</li> <li>Permissible languages to send solutions in are C, C++, Pascal, Python and Java</li> <li>Compilers to be used: gcc-4.3.2 for C, g++-4.3.2 for C++, fpc-2.2.4 for pascal, python-2.5 for Python and javac-1.6.0_12 for Java</li> <li>All problems will be posted on Saturday, 14th January 2012 at 1200 hours - Indian Standard Time (GMT +530) and the competition closes on Sunday, 15th January 2012 at 1200 hours IST</li> <li>Solutions have to give the correct output for all the test data for a given problem to be deemed correct. There is no partial credit.</li> <li>Solutions can be submitted in any order.</li> <li>Each problem will have a certain specified input and output format. This format has to be adhered to, else the submission will not be accepted. </li> <li>Any team found to be indulging in any form of malpractice will be immediately disqualified. </li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained. </li> <li>The event does not require the participants to be present in IIT for participation. And hence, no registration fee is required</li> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/sites/default/files/uploads/landing_page_banners/banner-compete.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "IOPC1209": {
+            "allow_submission": false,
+            "name": "Enumeration again",
+            "category_name": "main",
+            "accuracy": 3.82,
+            "successful_submissions": "5",
+            "code": "IOPC1209",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1216": {
+            "allow_submission": false,
+            "name": "Corruption again",
+            "category_name": "main",
+            "accuracy": 18.82,
+            "successful_submissions": "16",
+            "code": "IOPC1216",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1213": {
+            "allow_submission": false,
+            "name": "Colouring graphs",
+            "category_name": "main",
+            "accuracy": 17.63,
+            "successful_submissions": "55",
+            "code": "IOPC1213",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1204": {
+            "allow_submission": false,
+            "name": "A function over factors",
+            "category_name": "main",
+            "accuracy": 3.45,
+            "successful_submissions": "11",
+            "code": "IOPC1204",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1202": {
+            "allow_submission": false,
+            "name": "Quadrilaterals",
+            "category_name": "main",
+            "accuracy": 11.3,
+            "successful_submissions": "24",
+            "code": "IOPC1202",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1201": {
+            "allow_submission": false,
+            "name": "Rubiks cube",
+            "category_name": "main",
+            "accuracy": 20.69,
+            "successful_submissions": "18",
+            "code": "IOPC1201",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1211": {
+            "allow_submission": false,
+            "name": "The numbers game",
+            "category_name": "main",
+            "accuracy": 16.53,
+            "successful_submissions": "37",
+            "code": "IOPC1211",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1214": {
+            "allow_submission": false,
+            "name": "Celebrities of Pretendia",
+            "category_name": "main",
+            "accuracy": 16.53,
+            "successful_submissions": "113",
+            "code": "IOPC1214",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1200": {
+            "allow_submission": false,
+            "name": "Hardware upgrade",
+            "category_name": "main",
+            "accuracy": 13.41,
+            "successful_submissions": "11",
+            "code": "IOPC1200",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1210": {
+            "allow_submission": false,
+            "name": "An unfortunate incident",
+            "category_name": "main",
+            "accuracy": 21.57,
+            "successful_submissions": "11",
+            "code": "IOPC1210",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1215": {
+            "allow_submission": false,
+            "name": "No to corruption",
+            "category_name": "main",
+            "accuracy": 12.96,
+            "successful_submissions": "4",
+            "code": "IOPC1215",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1205": {
+            "allow_submission": false,
+            "name": "The magical escape",
+            "category_name": "main",
+            "accuracy": 4.76,
+            "successful_submissions": "1",
+            "code": "IOPC1205",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1208": {
+            "allow_submission": false,
+            "name": "IOPC transformation",
+            "category_name": "main",
+            "accuracy": 31.11,
+            "successful_submissions": "13",
+            "code": "IOPC1208",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1203": {
+            "allow_submission": false,
+            "name": "Crazy texting",
+            "category_name": "main",
+            "accuracy": 5.58,
+            "successful_submissions": "61",
+            "code": "IOPC1203",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1206": {
+            "allow_submission": false,
+            "name": "Fair bases",
+            "category_name": "main",
+            "accuracy": 4.76,
+            "successful_submissions": "4",
+            "code": "IOPC1206",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1207": {
+            "allow_submission": false,
+            "name": "GM plants",
+            "category_name": "main",
+            "accuracy": 9.76,
+            "successful_submissions": "8",
+            "code": "IOPC1207",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1212": {
+            "allow_submission": false,
+            "name": "Utopia strikes back",
+            "category_name": "main",
+            "accuracy": 12.04,
+            "successful_submissions": "23",
+            "code": "IOPC1212",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537439036,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

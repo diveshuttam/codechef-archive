@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The RUBIX Organizing Committee had planned to start publicizing their festival on the 29<sup>th</sup> of Jan,2011. Due to a last minute mishap they lost the document which contained the information as to which volunteer would visit which college on what day!<br /> \nThey turned to their God Rubixius to help them out with the planning for the next week. They provide him with the number of volunteers and the maximum number of people each volunteer can attract per day. Being God Rubixius knows how many people will be present at each college each day. Rubixius has cast a spell which puts you in his shoes for this job. You have to help the OC by telling them the maximum number of people they can get each day along with the actual plan.\n\n<h3>Input</h3>\n</p><p>The first line contains an integer T with the number of test cases. Each test case will have 2 integers N and C representing the number of volunteers and the number of colleges respectively. The next line will have N integers each representing the maximum number of students the volunteer can attract each day. Then C lines follow each having 6 integers representing the number of people present at that college from Monday to Saturday respectively.\n\n<h3>Constraints</h3>\n</p><p>1&lt;=T&lt;=10<br />\n1&lt;=N,C&lt;=100<br />\nNumber of students that can be attracted by a volunteer and number of students present in college each day &lt;100000\n\n<h3>Output</h3>\n</p><p>For each case print a line with the maximum number of people the volunteers can get.\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n3 3\n1 1 1\n1 1 1 1 1 1\n1 1 1 1 1 1\n1 1 1 1 1 1\n\n<b>Output:</b>\n18\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Thadomal Shahani Engineering College - RUBIX - Codezilla",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1297949400,
+        "end_date": 1297967400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1297967400,
+        "submit_start_date": 1297949400,
+        "current": 1537439365
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>virai</span>",
+    "problem_name": "Chaos Management",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/virai'>virai</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "virai",
+    "contest_code": "RUBIX11",
+    "max_timelimit": "0.1",
+    "problem_code": "RBX1103"
+}

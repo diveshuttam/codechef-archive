@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Phillip and Thomas got into an argument over who is the better tennis player.  After realizing that they could debate for hours without actually proving anything, they grabbed their rackets and ran out to the courts.  When they came back, they admitted that they lost track of who actually won.  They did, however, record who scored each point.  When Phillip scored a point, they wrote down an \"A.\"  When Thomas scored a point, they wrote down a \"B.\"  Write a program that takes a list of \"A\"s and \"B\"s and outputs who won the game and the final set score.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>A list of A's and B's.</p>\n<h3>Output</h3>\n<p>A and B's final score and who won.</p>\n<p>Tips:</p>\n<ul>\n<li><a href = \"http://www.tennistips.org/tennis-scoring.html\"> Here </a> is a website about the tennis scoring system .</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\na a b a a a b b b a a a a b b b b a b a a b a b b b b b b b b a a a a a b a a a b a b b a b a a b b a a\nb b b b b b a b b a a a b a a a b a a b b b a b b b b b a a a b a b b b a b b b b b\na a a a a b a a a b a a a a a a a b a a a a a b b a b b b a b b b a b a b b b b a b b b b a b b a b a a a b a b a b b a b a a a b a a a b a a\nb b a b b a a a b a a b a a a a a b a a a a a a a a a b b b b a a a b b b a b a b a b a b a a\n\n\n<b>Output:</b>\nA: 3 sets\nB: 1 sets\nA wins\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Replay of Pitt CSC - University of Pittsburgh ",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1427301000,
+        "end_date": 1427311800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1427311800,
+        "submit_start_date": 1427301000,
+        "current": 1537436491
+    },
+    "problem_author_html_handle": "pwf7",
+    "problem_name": "Tennis Score",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pwf7'>pwf7</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pwf7",
+    "contest_code": "PITTCS15",
+    "max_timelimit": "10",
+    "problem_code": "PCSC6"
+}

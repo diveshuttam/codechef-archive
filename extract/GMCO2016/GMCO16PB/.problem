@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\u00a0</p>\n<h3>Program to compute feature strength in text corpus.</h3>\n<p>Common practice in textual data processing is to statistically model the word associations with class. Design a program to measure strength between term t and class c using two way contingency table of term t and class c, where\n<ul>\n<li>A is the number of times t and c co-occur.</li>\n<li>B is number of times term t occur without c.</li>\n<li>C is the number of times c occurs without t.</li>\n<li>D is the number of times neither c nor t occurs.</li>\n<li>N is the total number of documents.</li>\n</ul>\n</p>\n\n\n\n<h3>Input</h3>\n<p>Data: \nText corpus\n10K data points. Each data point comprises of\nClass (c)\nTextual Description: Each word in description can be treated as individual term (t).\n</p>\n\n<b> Input format example </b> \n<p> 2007 - 2011 Polaris Outlaw 525 2x4 IRS Heavy Duty Rear Inboard CV Boot Kit Pair\t  JP <br>\nNuMe Pentacle 2 in One Curler / Deep Waver 100% Tourmaline infused ceramic\tCN <br>\nLadies Women Female Real 925 Silver Mesh Lab Diamond Promise Cocktail Ring Big\tJP<br>\nPANASONIC TC-P42C2 BOARD TNPA5066 (2)SN  TNPA5066 2  5066AB\tJP<br>\nPLUG N PLAY CONSOLE SPONGEBOB SQUAREPANTS LOT 2 JAKKS PACIFIC GAMES 2003 2005\tCN</p> \n\n\n<b>Output:</b>\n\n</pre>\n<p>\u00a0\nChi-square (t,c) = \nDevelop a program to compute the chi-square for all possible combinations of term (t) and class (c).\nProgram should output accurate results with up to 3 decimal places.\nProgram should be designed with minimum possible time and space complexity.</p>\n\n<b> Output Format Example </b> \n<p> diamond,CN,0.5559020906887697 <br>\ndiamond,JP,2.6368439034781788<br> \ndiamond,AU,0.21034614226276954<br>\ndiamond,CA,0.03726595815834247<br>\ndiamond,US,1.7555236068758946</p>\n\n\n\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-10-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Techfest International Coding Challenge - Game of Codes",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1476594260,
+        "end_date": 1476678600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1787717708,
+        "submit_start_date": 1476594260,
+        "current": 1537434493
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>sujay173</span>",
+    "problem_name": "Pitney Bowes ",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sujay173'>sujay173</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sujay173",
+    "contest_code": "GMCO2016",
+    "max_timelimit": "1",
+    "problem_code": "GMCO16PB"
+}

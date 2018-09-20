@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Dewansh loves strings. His friend Adarsh gave him a simple  problem. It was like this -             Given a string  \u2018S\u2019  with only lowercase and uppercase characters. You  are supposed to perform two tasks on the entire string.  \n First \u2013 Shift the Uppercase character on the left in the order as they are present in the string. \n Second \u2013 Shift the Lowercase character on the right in the order as they are present in the string.\nYou are then supposed to print the new string with  all operations done on the string.\n</p>\n\n<h3>Input</h3>\n<ul>\n<li>First line of input will contain the number of testcases <b>T</b>. </li>\n<li>Next<b> T</b> lines will contain a String <b> S </b>.</li>\n</ul>\n<h3>Constraints </h3>\n<ul>\n<li>1<=T<=50</li>\n<li>1<=|S| (Length of the String) <=100</li></ul>\n<h3> Example </h3>\n<p><b>Input :</b></br></p>\n<p>2 <br/> \nHelLoWorlD<br/>                                                                                                                                             GaMeOvEr </p>\n<br/>\n<p><b>Output :</b></br></p>\n<p> \nHLWDeloorl<br/>                                                                                                                                            GMOEaevr\n</p>\n<p><b>Explanation :</b></br></p>\n<p> \nIn case one HelLoWorlD , H is already shifted to the atmost left , 'e' is shifted to the atmost right \n<br/><b>HlLoWorlDe</b> \nthen 'l' is shifted atmost right after 'e'\n<br/><b>HLoWorlDel</b>\n'L' is not shifted furthur as it comes after 'H' in original string as well.\n'o' is shifted atmost right.\n<br/><b>HLWorlDelo</b>\nagain 'W' is correctly placed and no shifting is required.\nfurthur letters 'o', 'r', 'l' are shifted atmost right one after the other\ngiving output -\n<br/><b>HLWDeloorl.</b>\nSimilarly second string is operated.\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Cypher August",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1535211000,
+        "end_date": 1535223600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1535223600,
+        "submit_start_date": 1535211000,
+        "current": 1537432045
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>cypher101</span>",
+    "problem_name": "Left Right Print",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cypher101'>cypher101</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "cypher101",
+    "contest_code": "CYAU2018",
+    "max_timelimit": "1",
+    "problem_code": "LRPRINT"
+}

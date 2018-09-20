@@ -1,0 +1,33 @@
+{
+    "problem_code": "ALTREE",
+    "problem_author": "neo1tech9_7",
+    "contest_name": "ICPC Preparatory Series by Team Forthewatch Mirror contest",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>neo1tech9_7</span>",
+    "problem_name": "Alternating Tree",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "IPC15CMR",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dp+bitmask'>dp+bitmask</a>, <a class='problem-tag-small ' href='/tags/problems/graph'>graph</a>, <a class='problem-tag-small ' href='/tags/problems/neo1tech9_7'>neo1tech9_7</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> You are given an undirected graph with N nodes and M edges. Each edge has a cost associated with it and is colored either black or white. You need to find a spanning tree with minimum cost such that for every path in the tree, the color of edges is alternating. The cost of the spanning tree is the sum of cost of edges in it. </p>\n\n<p> Print the minimum cost. </p>\n\n<h3>Input</h3>\n<p>The first line of input contains 2 integers N (2 <= N <= 18) and M (1 <= M <= 306), the number of nodes and the number of edges.</p>\n<p>Each of the next M lines describe an edge. Each line contains three integers U, V, C and a character S(1 <= U, V <= N, 1 <= C <= 10^9) - there is an edge between U and V with cost C. If S equal 'W' then the edge is colored white. Otherwise S equals 'B' and edge is colored black. The graph doesn't have any self loops.\n</p>\n\n<h3>Output</h3>\n<p>Output a single integer, the minimum cost of the spanning tree. If no such spanning tree exists then output -1.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>2</b> \u2264 <b>N</b> \u2264 <b>18</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>306</b></li>\n<li><b>1</b> \u2264 <b>U, V</b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>C</b> \u2264 <b>10^9</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n3 4\n1 2 2 B\n1 2 3 W\n2 3 4 W\n2 3 5 B\n\n<b>Output:</b>\n6\n</pre>",
+    "category_name": "main",
+    "date_added": "30-09-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": " - 3",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/ALTREE",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1475422200,
+        "end_date": 1475440200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1475440200,
+        "submit_start_date": 1475422200,
+        "current": 1537434503
+    },
+    "user": {
+        "username": ""
+    }
+}

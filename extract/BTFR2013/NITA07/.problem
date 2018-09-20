@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Bob is a Cat who loves challenges. Once he went to  Agartala there was a net of paths. Tasks of Bob was to enter from one corner and come out from diagonally opposite corner. There were many confusing paths to complete this task, but Bob decided to pass this net  from the shortest path. Now your task is to help Bob by finding the shortest path from top left corner to right bottom corner of net.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>\nFirst line contains number of rows(N) in Net, after this line, each of next N lines describe a row of net. There will be no more than 100 columns and no more than 100 rows and shape of net must be rectangular (not necessarily a square).</p>\n<p>Each position of the row is one of two characters. A '0' means you may move onto that position. A '1' means that space is occupied by a wall. You are allowed to move in any direction (up, down, left, right, diagonal) provided that the square you move into isn't a '1'. You always start in the upper left hand corner of the net. The exit is always at the lower right hand corner of the net. There will always be at least one path from top left corner to bottom right corner.\n</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>The output is the shortest number of squares you must step in to pass through the net.</p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n011100111\n001111011\n001111010\n100000000\n010111100\n\n<b>Output:</b>\n10\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Bit Freak 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1362825000,
+        "end_date": 1362911400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1362911400,
+        "submit_start_date": 1362825000,
+        "current": 1537438434
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>upendra1234</span>",
+    "problem_name": "shortest path",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/upendra1234'>upendra1234</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "upendra1234",
+    "contest_code": "BTFR2013",
+    "max_timelimit": "0.1",
+    "problem_code": "NITA07"
+}

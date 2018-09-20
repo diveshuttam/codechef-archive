@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>Problem description.</b></p>\n<p><span style=\"color:#FF69B4;\">Shrirupa</span> loves to celebrate Diwali every year. Besides burning crackers, she likes the lighting which shows up around this time. In order to light up the verandah, <span style=\"color:#FF69B4;\">Shrirupa</span> had bought many diyas and candles when the festival was on. Even after it is over, she is left with <b>\u2018d\u2019</b> diyas and <b>\u2018c\u2019</b> candles. Today she has decided to light all that is left, and arrange those in a single row in her verandah. \u00a0</p>\n<p>However, <span style=\"color:#FF69B4;\">Shrirupa</span> was a bit tired and she asked her friend <span style=\"color:#00FF00;\">Rohit</span> to help her out. <span style=\"color:#00FF00;\">Rohit</span> thinks that the arrangement will look <b>awesome</b> only if there are atmost <b>\u2018n1'</b>diyas, and atmost <b>\u2018n2\u2019</b> candles adjacently lined up together i.e., if there are more than <b>n1</b> diyas, or more than <b>n2</b> candles standing together<b>(successively one after another)</b>, then the arrangement will not look <b>awesome</b>.</p>\n<p>He wants to bring smile on her face by making an awesome arrangement. So, find the number of ways in which <span style=\"color:#00FF00;\">Rohit</span> can arrange <b>d</b> diyas and <b>c</b> candles so that it looks <b>awesome</b>, and <span style=\"color:#FF69B4;\">Shrirupa's</span> face lights up with smile .</p>\n\n<h3>Input</h3>\n<p>First line contains four space separated integers <b>d</b>,<b>c</b>,<b>n1</b>,<b>n2</b> where <b>d</b>,<b>c</b> denotes the no. of diyas and candles left with <span style=\"color:#FF69B4;\">Shrirupa</span>, and <b>n1</b>,<b>n2</b> denotes the largest no. of diyas and candles which can be put up in <b>succession(together)</b>, respectively.</p>\n<p></p>\n\n<h3>Output</h3>\n<p>Print the total no.of <b>awesome</b> arrangements modulo <b>10^9 + 7</b>, such that atmost <b>n1</b> diyas and <b>n2</b> candles stand <b>successively</b>.\n<br>You can learn about modulo operation <b> <a href=\"https://codeaccepted.wordpress.com/2014/02/15/output-the-answer-modulo-109-7/\">here</a></b></p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>d,c</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>n1,n2</b> \u2264 <b>20</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n1 2 5 1\n<b>Output:</b>\n1\n<br><b>Input:</b>\n3 2 2 1\n<b>Output:</b>\n5\n<br><b>Input:</b>\n3 4 1 1\n<b>Output:</b>\n1\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> <b>\u201ccdc\u201d<b> is the only awesome arrangement.</p>\n<p><b>Example case 2.</b><b>\u201ccdcdd\u201d</b>, <b>\u201ccddcd\u201d</b>, <b>\u201cddcdc\u201d</b>, <b>\u201cdcddc\u201d</b>, <b>\u201cdcdcd\u201d</b> are the 5 possibilities.</p>\n<p><b>Example case 3.</b> Only 1 arrangement is possible ie <b>\"cdcdcdc\".</b></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-11-2016",
+    "is_direct_submittable": false,
+    "contest_name": "IEM Coding Olympiad 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1478442600,
+        "end_date": 1478453400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1478453400,
+        "submit_start_date": 1478442600,
+        "current": 1537434393
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>dwij28</span>",
+    "problem_name": "Diyas And Candles",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dwij28'>dwij28</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dwij28",
+    "contest_code": "IEMCO16",
+    "max_timelimit": "1",
+    "problem_code": "RAMLEELA"
+}

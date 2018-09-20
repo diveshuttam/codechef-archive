@@ -1,0 +1,134 @@
+{
+    "announcements": "The statement for TIDUAFT is updated. Sorry for the inconvenience. <br><br>\r\n\r\nIn ISTA2001, the ant can travel in any of the faces, edges and corners as like in a real life situation. Also, ants don't fly.<br><br>\r\n\r\nTIDURAT Problem Statement Clarification:\r\n\"They first contest they will allow Tidu to compete in is the contest with index x. Also, they set up a condition of participation for more contests Formally, to participate in a contest with index k (k not equal to x): Tidu Can participate in contest k only if tk>tx. If the last contest Tidu participated in is the contest with index i and his rating after it is ri, he cannot participate in contest k (rating rk) if there is a contest (say contest j) between the time ti and tk in which Tidu can attain a rating greater than ri but lower than rk. That is, there should be no j such that t i < tj < tk. and ri < rj < rk.\"\r\n\r\nThis means that Tidu can't participate in contest k if there is a contest j with t<sub>j</sub> in the range (t<sub>i</sub>, t<sub>k</sub>) with r<sub>i</sub> < r<sub>j</sub> < r<sub>k</sub> where i is the index of the contest with the highest time Udit has taken part in till now. <br><br>\r\n\r\nTidurat sample explanation has been posted and statement has been updated. <br><br>\r\n\r\nContest Over. Hope you enjoyed it. Editorials will be posted soon. <br><br>\r\n",
+    "ip": "149.129.135.113",
+    "code": "ICOP1801",
+    "duration": "180",
+    "name": "ICO 2018 Preparatory Series - Contest 1",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "TIDURAT": [
+            {
+                "score": "70",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "2"
+            }
+        ],
+        "TIDUAFT": [
+            {
+                "score": "15",
+                "count": "4"
+            },
+            {
+                "score": "30",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "15"
+            }
+        ],
+        "RAJAPR0": [
+            {
+                "score": "15",
+                "count": "5"
+            },
+            {
+                "score": "30",
+                "count": "3"
+            },
+            {
+                "score": "35",
+                "count": "2"
+            },
+            {
+                "score": "50",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "32"
+            }
+        ],
+        "ISTA2001": [
+            {
+                "score": "10",
+                "count": "13"
+            },
+            {
+                "score": "100",
+                "count": "20"
+            }
+        ]
+    },
+    "rules": "<h1 style=\"box-sizing: border-box; margin: 0px 0px 0.5rem; padding: 0px 0px 5px; font-family: Helvetica, sans-serif; color: #535353; text-rendering: optimizeLegibility; font-stretch: normal; line-height: 1.6 !important; font-size: 20px !important;\">\r\n<p style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\"><strong class=\"rules-heading\">About Contest:</strong></p>\r\n<div class=\"rules-body\" style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\">\r\n<p>The contest is hosted as a practice for the upcoming ZCO and INOI for those who are aspiring to be a part of the ICO. Although, even college students aspiring for ICPC will also get help from this contest. This is unrated and is hosted just for the sake of problem solving practice. The problems will be set by a group of students who have qualified for IOITC or have had the pain of not clearing it. More details <a title=\"ICO Prep Series\" href=\"../ioi/2018/prep-series\" target=\"_blank\">here</a>.</p>\r\n</div>\r\n<div class=\"rules-body\" style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\">\r\n<ul style=\"font-weight: normal;\">\r\n</ul>\r\n<div>\r\n<p style=\"font-weight: normal;\"><strong class=\"rules-heading\">Contest Details:</strong></p>\r\n<div class=\"rules-body\">\r\n<ul>\r\n<li style=\"font-weight: normal;\"><span style=\"font-weight: bold;\">Contest starting time</span>: 20:00 hrs IST<br />You may check your timezone&nbsp;<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+IPC15P3C&amp;iso=20160309T20&amp;p1=44&amp;ah=5\" target=\"_blank\">here</a>.</li>\r\n<li style=\"font-weight: normal;\"><span style=\"font-weight: bold;\">Duration</span><span style=\"font-weight: normal;\">: 3 hours</span></li>\r\n<li style=\"font-weight: normal;\"><span style=\"font-weight: bold;\">Ranking format</span><span style=\"font-weight: normal;\">: Score type(Same as Long Challenges)</span></li>\r\n<li style=\"font-weight: normal;\"><strong>Prizes: </strong><span style=\"font-weight: normal;\">We will reimburse the Indian Computing Olympiad registration fees for 5 random Indian school students&nbsp;&nbsp;</span><strong style=\"font-weight: normal;\">&nbsp;</strong></li>\r\n</ul>\r\n</div>\r\n</div>\r\n</div>\r\n<p style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\"><strong class=\"rules-heading\">About International Olympiad in Informatics<br /></strong></p>\r\n<p>The IOI is one of five international science olympiads. The primary goal of the IOI is to stimulate interest in informatics (computing science) and information technology. Another important goal is to bring together exceptionally talented pupils from various countries and to have them share scientific and cultural experiences.<br />The IOI is organized annually in and by one of the participating countries. Each participating country typically sends a delegation of four contestants and two accompanying adults. Students compete individually and try to maximize their score by solving a set of informatics problems during two competition days. Cultural and recreational events are organized on the remaining days.</p>\r\n<p>&nbsp;</p>\r\n<p style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\"><strong class=\"rules-heading\">About Indian Computing Olympiad<br /></strong></p>\r\n<p>The Indian Computing Olympaid consists of Zonal Computing Olympiad, Zonal Informatics Olympiad, Indian National Olympiad in Informatics and IOI Training Camp which is conducted by the Indian Association for Research in Computing Science(IARCS) as procedure of selection to the IOI.</p>\r\n<p>&nbsp;</p>\r\n<p style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\"><strong class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</strong></p>\r\n<div class=\"rules-body\" style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\">\r\n<p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to&nbsp;<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct.</a></p>\r\n</div>\r\n<p style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\"><br /><strong class=\"rules-heading\">Rules and Regulations:</strong></p>\r\n<ul style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\">\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at&nbsp;<a href=\"mailto:feedback@codechef.com\" target=\"_blank\">feedback@codechef.com&nbsp;</a>.</li>\r\n<li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li>\r\n<li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li>\r\n</ul>\r\n<p style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\"><strong class=\"rules-heading\">Judging Criteria:</strong></p>\r\n<ul style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\">\r\n<li><strong>All the problems have same points alloted to them.</strong></li>\r\n<li><strong>Users are ranked according to their score.</strong></li>\r\n<li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li>\r\n</ul>\r\n<div style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\"><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched&nbsp;<a href=\"../ide\" target=\"_blank\">Online IDE</a>.<br /></strong><br />\r\n<p>However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</p>\r\n</div>\r\n</h1>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/ICOP1801/1507803606.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "TIDURAT": {
+            "allow_submission": false,
+            "name": "Tidu and Ratings",
+            "category_name": "main",
+            "accuracy": 20,
+            "successful_submissions": "2",
+            "code": "TIDURAT",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "TIDUAFT": {
+            "allow_submission": false,
+            "name": "Tidu and frustrated teacher",
+            "category_name": "main",
+            "accuracy": 23.19,
+            "successful_submissions": "15",
+            "code": "TIDUAFT",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "RAJAPR0": {
+            "allow_submission": false,
+            "name": "Raja and Peer Pressure",
+            "category_name": "main",
+            "accuracy": 25.38,
+            "successful_submissions": "32",
+            "code": "RAJAPR0",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "ISTA2001": {
+            "allow_submission": false,
+            "name": "Ant in a Box",
+            "category_name": "main",
+            "accuracy": 7.78,
+            "successful_submissions": "20",
+            "code": "ISTA2001",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1507915800,
+        "current": 1537433458,
+        "freezing": 0,
+        "start": 1507905000
+    },
+    "user": {
+        "username": ""
+    }
+}

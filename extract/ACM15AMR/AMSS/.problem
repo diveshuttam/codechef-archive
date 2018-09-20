@@ -1,0 +1,33 @@
+{
+    "problem_code": "AMSS",
+    "problem_author": "admin2",
+    "contest_name": "ACM-ICPC Asia-Amritapuri Site Onsite round 2015",
+    "todo": false,
+    "problem_author_html_handle": "admin2",
+    "problem_name": "Similar Strings",
+    "source_sizelimit": "32000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ACM15AMR",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acm15amr'>acm15amr</a>, <a class='problem-tag-small ' href='/tags/problems/admin2'>admin2</a>, <a class='problem-tag-small ' href='/tags/problems/combinatorics'>combinatorics</a>, <a class='problem-tag-small ' href='/tags/problems/maths'>maths</a>",
+    "body": "<p><i>Chota Pendrive</i> likes to play with strings a lot. For a given string <b>s</b>, he obtains its compressed string in the following way:</p>\n<ul>\n<li> In a single operation, he takes any two consecutive equal characters of <b>s</b>, and removes one of them. </li>\n<li> He keeps doing this operation as long as possible.  </li>\n</ul>\n<p>The resulting string will be the compressed string of <b>s</b>. e.g. if the initial string is \"abaaabb\", its compressed form is \"abab\".<br />\n</p>\n<p>\nTwo strings <b>s</b> and <b>t</b> are said to be similar if their compressed strings are equal.\n</p>\n<p>\nYou have to find the number of <b>ordered pairs</b> of similar strings <b>(s, t)</b> having length at least one and at most <b>N</b>. Both <b>s, t</b> contain lower case English alphabet. As the answer could be large, print it modulo <b>1000000007</b> (<b>10<sup>9</sup> + 7</b>).\n</p>\n<h2>Input</h2>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>\n<p>Each test case contains a single integer <b>N</b>. </p>\n<h2>Output</h2>\n<p>For each test case, print a single integer corresponding to the answer of the problem.</p>\n<h2>Constraints</h2>\n<ul>\n<li><b>1 \u2264 T, N \u2264 5000</b></li>\n</ul>\n<h2>Sample</h2>\n<h3>Input</h3>\n<pre>\n2\n1\n2\n</pre><h3>Output</h3>\n<pre>\n26\n754\n</pre><h3>Explanation</h3>\n<p><b>In the first example</b>,<br />\n<b>s</b> and <b>t</b> will be equal and will contain the same character. There are 26 possibilities for that from 'a' to 'z'.\n</p>\n<p><b>In the second example</b>, we can count the possible <b>(s, t)</b> similar pairs in the following way.\n</p>\n<ul>\n<li>Case 1: <b>s</b> is same as <b>t</b>, there are 26 (each string contains 1 character) + 26 * 26 (each string contains 2 characters) possibilites for that.</li>\n<li>Case 2: <b>s</b> is of type aa and <b>t</b> is of type a, where a is some character. There are 26 possible cases for this.</li>\n<li>Case 3: <b>s</b> is of type a and <b>t</b> is of type aa, where a is some character. There are 26 possible cases for this.</li>\n</ul>\n<p>So, in total, there are 26 + 26 * 26 + 26 + 26 = 754 ordered <b>(s, t)</b> pairs.</p>\n",
+    "category_name": "main",
+    "date_added": "20-12-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/AMSS",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1450682700,
+        "end_date": 1450691700,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1761685766,
+        "submit_start_date": 1450682700,
+        "current": 1537435713
+    },
+    "user": {
+        "username": ""
+    }
+}

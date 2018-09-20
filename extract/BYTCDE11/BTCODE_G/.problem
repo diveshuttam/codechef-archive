@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Nivash and Bhoopathi play a game of memory, which goes as follows: There is a tree containing 'N' nodes, all of which are initially uncoloured.\n\nIn the game, Nivash has 2 moves: \n\n<p>1) Command: Color a particular node with a given color.\n\n<br/>2) Query: Ask Bhoopathi if the path from node 'a' to node 'b' (both inclusive), is monochromatic or not.(i.e Whether all nodes on the path have the same color).\n\n\n\n<p>Nivash can do these steps in any order he wishes and he colors each node atmost once. Whenever Nivash puts forth a 'Query' at Bhoopathi, Bhoopathi has to recollect the colouring of the tree and reply either \"YES\" or \"NO\". Can your help Bhoopathi answer these queries?\n\n\n<h3>Input</h3>\n<p>The first line of input contains an integer 'N', denoting the number of nodes in the tree.\n\nThe next 'N-1' lines contain 2 space separated integers 'u' and 'v', denoting an edge between vertex 'u' and vertex 'v'.\n<br/>The next line contains an integer 'Q', denoting the number of inputs (commands and queries) which Nivash wants to give. The next 'Q' lines contain 3 space separated integers 'x', 'a', 'b'. If 'x' is 1, it denotes a command to color node 'a' with a color 'b'. If 'x' is 2, it denotes a query and Bhoopathi should answer if the path from node 'a' to node 'b' (both inclusive), is monochromatic or not.\n<p>All vertices of the tree are 0 based.\n\n<h3>Output</h3>\n<p>For each query, output \"YES\" or \"NO\" (quotes for clarity), denoting whether the path from node 'a' to node 'b' (both inclusive), is monochromatic or not.\n\n<p>Output \"NO\", even if all nodes on the path from node 'a' to node 'b' (both inclusive) are uncolored.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n0 1\n1 2\n7\n1 0 11\n2 0 1\n2 0 2\n1 2 12\n1 1 11\n2 0 1\n2 0 2\n\n<b>Output:</b>\nNO\nNO\nYES\nNO\n\n<b>Constraints:</b>\n1 <= N <= 100000 \n1 <= Q <= 200000\n1 <= color value <= 30.\n\n</pre>\n<b>Explanation:</b>\n<p>Initially node '0' is colored with color '11', so path between node '0' and node '1' is not monochromatic. Hence, the answer is \"NO\". The same explanation holds for the path between node '0' and  node '2'. Then node '2' is colored with color '12' and node '1' with color '11'. Now, all nodes on the path between node '0' and node '1' are colored with only one color ('11'), so the answer is \"YES\". The path between node '0' and node '2' has 2 colors ('11' and '12'), hence the answer is \"NO\".",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "NIT Trichy ByteCode 2011",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298192400,
+        "end_date": 1298214000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298214000,
+        "submit_start_date": 1298192400,
+        "current": 1537439349
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>suh_ash2008</span>",
+    "problem_name": "Coloring Trees",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/suh_ash2008'>suh_ash2008</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "suh_ash2008",
+    "contest_code": "BYTCDE11",
+    "max_timelimit": "0.206406",
+    "problem_code": "BTCODE_G"
+}

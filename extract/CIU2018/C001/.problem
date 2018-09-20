@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Atom is tired of using Notepad or Eclipse to code Java. He wants to create his own text editor. \n<br><br>\nInitially, Atoms editor contains an empty string S. He wishes his editor to perform following  type of operations:<br>\n1. Append (W) \u2013 Appends string W to the end of S.<br>\n2. Delete (k) \u2013 Deletes the last k characters from S.<br>\n3. Print (k) \u2013 Prints the kth character of S.<br>\n4. Undo() \u2013 Undo the last operation (not previously undone operation) of type 1 or 2, reverting S to the state it was in prior to that operation.<br><br>\nLet\u2019s help in creating Atoms Editor.\n<br><br><br>\n\n<b>#### Input:</b> <br><br>\nThe first line contains an integer Q denoting the number of queries or operations. <br><br>\nEach line i of Q subsequent lines ($0 \\leq i \\lt Q$) defines an operation to be performed. <br><br>\nEach operation starts with a single integer t where (t will be 1,2,3 or 4) denoting the type of operation as defined in the question above.<br><br> If the operation requires an argument, t is followed by its space-separated argument. <br>\nFor example, if t=1 and W=abcd, line will be 1 abcd.\n\n<br><br><br>\n<b>#### Constraints:</b> <br><br>\n-\t1<=Q<=10<sup>6</sup> <br>\n-\t1<=k<=|S| where |S| is the length of String S<br>\n-\tThe sum of lengths of all W in the input <= 10<sup>6</sup><br>\n-\tAll input characters are lowercase English letters.<br>\n-\tIt is guaranteed that the sequence of operations given as input is possible to perform.\n\n<br><br><br>\n\n<b>#### Output Format:</b> <br><br>\nEach operation of type 3 must print the kth character on a new line.\n\n<br><br><br>\n\n<b>#### Sample Input: </b> <br><br>\n8<br>\n1 abc<br>\n3 3<br>\n2 3<br>\n1 xy<br>\n3 2<br>\n4 <br>\n4 <br>\n3 1<br>\n\n<br><br><br>\n\n<b>#### Sample Output: </b> <br><br>\nc <br>\ny<br>\na<br>\n\n<br><br><br>\n\n<b>#### Explanation: </b> <br><br>\nInitially, S is empty. The following sequence of 8 operations are described below:\n<br><br>\n1. S= \"\".  We append abc to S , so S = abc.<br><br>\n2. Print the 3rd character on a new line. Currently, the 3rd character is c.<br><br>\n3. Delete the last 3  characters in S(abc), so now S= \"\".<br><br>\n4. Append xy to S, so S= xy.<br><br>\n5. Print the 2nd character on a new line. Currently, the 2nd character is y.<br><br>\n6. Undo the last update to S, making S empty again (i.e., S= \"\").<br><br>\n7. Undo the next to last update to S (the deletion of the last 3 characters), making S= abc.<br><br>\n8. Print the 1st character on a new line. Currently, the 1st character is a.<br><br>\n\n\n<br><br>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-07-2018",
+    "is_direct_submittable": false,
+    "contest_name": "CodeItUp",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1530599400,
+        "end_date": 1530610200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1530610200,
+        "submit_start_date": 1530599400,
+        "current": 1537432309
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>mjdubal</span>",
+    "problem_name": "Lets Help Atom",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/mjdubal'>mjdubal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "mjdubal",
+    "contest_code": "CIU2018",
+    "max_timelimit": "1",
+    "problem_code": "C001"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>2^N binary digits can be placed in a circle so that all the N-digit clockwise subsequences are distinct.\nFor N=3, two such circular arrangements are possible, ignoring rotations:\n<pre>\n                 0                      \n           1          0\n          1             0\n            1        1\n                 0\n\n                 0                      \n           1          0\n          0             0\n            1        1\n                 1\n\n</pre>For the first arrangement, the 3-digit subsequences, in clockwise order, are: 000, 001, 010, 101, 011, 111, 110 and 100.\nEach circular arrangement can be encoded as a number by concatenating the binary digits starting with the subsequence of all zeros as the most significant bits and proceeding clockwise. The two arrangements for N=3 are thus represented as 23 and 29:\n00010111 2 = 23\n00011101 2 = 29\nCalling S(N) the sum of the unique numeric representations, we can see that S(3) = 23 + 29 = 52.\nYour job is to write a program to evaluate S(N).\n<h3>Input</h3>\n<p>The value for N.\n\n<h3>Output</h3>\n<p>Evaluated value of S(N).\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:\n3</b>\n\n<b>Output:\n52</b>\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "WYSIWYG 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330185600,
+        "end_date": 1330194600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1330194600,
+        "submit_start_date": 1330185600,
+        "current": 1537438937
+    },
+    "problem_author_html_handle": "ankit_tripathi",
+    "problem_name": "Circular Permutations",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ankit_tripathi'>ankit_tripathi</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ankit_tripathi",
+    "contest_code": "ANWS2012",
+    "max_timelimit": "0.132257 - 3.33848",
+    "problem_code": "WYSIWYG2"
+}

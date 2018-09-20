@@ -1,0 +1,33 @@
+{
+    "problem_code": "AMR16J",
+    "problem_author": "admin3",
+    "contest_name": "ACM-ICPC Asia-Amritapuri Onsite Mirror Contest 2016",
+    "todo": false,
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Bob vs ATM",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "AMR16MOS",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>, <a class='problem-tag-small ' href='/tags/problems/amr16'>amr16</a>, <a class='problem-tag-small ' href='/tags/problems/icpc2016'>icpc2016</a>",
+    "body": "<p>\nDue to shortage of ATMs, a bank decided to convert some arcade gaming machines into ATMs. Unfortunately, due to a bug, the converted machine will only dispense cash if the withdrawer can win the game. \nThe game is played over a valid bracket sequence. Formally a valid bracket sequence is defined as:</p>\n\n<p>\n<ol>\n<li> An empty string is valid</li>\n<li> If A is a valid bracket sequence, then (A) is also valid</li>\n<li> If A and B are valid, AB is also valid</li>\n</ol>\n</p>\n\n<p>\nIn each move a player can erase such a non-empty valid sub-string of the remaining brackets such that they cannot be formed by concatenating 2 valid sequences. E.g. a player can erase (()) or (()()) but not ()() or (())(). The ATM always plays first. The player that is not able to make a move will lose the game. Assume that both the players play optimally.\n</p>\n\n<p>\nBob is trying to withdraw money and is frustrated as he keeps losing against the machine. He suspects the machine is rigged and always wins the game. So, he has asked you to help him out. Given a valid bracket sequence, can you determine who wins the game?\n</p>\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>\n<p>Each of the test case consists of a single line containing the string <b>S</b> - the initial bracket sequence. </p>\n\n<h3>Output</h3>\n<p>For each test case, output a single line containing the winner - either \"ATM\" or \"Bob\" without quotes.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>2</b> \u2264 <b>length of S</b> \u2264 <b>10<sup>5</sup></b></li>\n<li>The sum of all lengths of <b>S</b> will be not more than <b>10<sup>6</sup></b>\n<li><b>S</b> will be a valid bracket sequence</li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n()\n(()()(()))\n()()\n(())()\n(()()(()))((()))\n\n<b>Output:</b>\nATM\nATM\nBob\nATM\nBob\n</pre>\n\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> The ATM will erase the entire sequence and win the game </p>\n<p><b>Example case 2.</b> The ATM will again erase the entire sequence and win the game </p>\n<p><b>Example case 3.</b> The ATM can erase either the first or the second (), Bob will erase the other one and win</p>",
+    "category_name": "main",
+    "date_added": "20-12-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/AMR16J",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1482477571,
+        "end_date": 1482487200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1793475531,
+        "submit_start_date": 1482477571,
+        "current": 1537434288
+    },
+    "user": {
+        "username": ""
+    }
+}

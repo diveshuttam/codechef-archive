@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Problem description.</p>\n<p>\u00a0We have \u2018N\u2019 items each of type Tp[i] where Tp[i] is from 1 to k. <br /> Each item has a profit P[i] associated with it. We also have an array M[] containing 'k' elements : M[1] , M[2] .... , M[k]. We have to select some items from all N items such that :<br /></p>\n<ul>\n<li>For two selected items 'i' and 'j' =>  P[i] != P[j] </li>\n<li>Number of selected items from a given type \u2018j\u2019 is &lt;= M[j]</li>\n<li>Sum of profits of selected items is maximized </li>\n</ul>\n<p><br /><br />\nNote that two items having same type may have different profit values.\n</p>\n<h3>Input</h3>\n<p>Input description.</p>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.\"</li>\n<li>First line of each test case contains N and k</li>\n<li>The next N lines contain 2 integers. The i'th of the next n lines contains 2 integers Tp[i] and P[i] </li>\n<li>Last line contains k integers M[1],M[2] .... M[k]</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing the maximum profit we can get from the selected items</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>5</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>M[1],....M[k]</b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b> k, P[1],P[2],.....P[N]</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>Tp[i]</b> \u2264 <b>k</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n3 2\n1 2\n1 3\n2 3\n1 1\n\n<b>Output:</b>\n5\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b>We have 2 types of items. From each type, only 1 item can be selected. As profits of 2 selected items should not be same, we will select the first and the third item</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Apocalypse",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457533800,
+        "end_date": 1457551800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457551800,
+        "submit_start_date": 1457533800,
+        "current": 1537435225
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>kshitijbathla</span>",
+    "problem_name": "Profit Maximization",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kshitijbathla'>kshitijbathla</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kshitijbathla",
+    "contest_code": "IPC15P3C",
+    "max_timelimit": "2",
+    "problem_code": "PRMAX"
+}

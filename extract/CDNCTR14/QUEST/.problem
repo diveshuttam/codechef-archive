@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Smaug, the dragon, rules under The Mountain, Erabor which was originally the ruling place of Dwarf King. King Thorin, who is the rightful heir to the throne is on his way to take back his kingdom from Smaug. With the help of a map, King Thorin is able to find a secret entry into the mountain. But now when he has reached the door, he finds that the door has been sealed and can only be unlocked using a special key.<br />\n<br /><br />\n<br /><br />\nThe key to unlock the door is a palindrome which is an anagram of a given word.<br />\n<br /><br />\n<br /><br />\nThe king has a list of words. For each given word, can you help the king in figuring out if any anagram of it can be a palindrome or not?.\n</p>\n<h3>Input</h3>\n<p>A single line which will contain the input string</p>\n<h3>Output</h3>\n<p>A single line containing YES/NO in capital letter of english alphabet.</p>\n<h3>Constraints</h3>\n<p>1&lt;=length of string &lt;= 10^5 Each character of the string is a lowercase english alphabet.</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n\ncdcdcdcdeeeef\n\n</pre><p><b>Output:</b></p>\n<p>YES</p>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>One of the permutations of the given string which is a palindrome is ddcceefeeccdd .</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeNiche 2014, Trial round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1393083000,
+        "end_date": 1393169400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1393169400,
+        "submit_start_date": 1393083000,
+        "current": 1537437780
+    },
+    "problem_author_html_handle": "cuttingedge03",
+    "problem_name": "Help King Thorin in his quest",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cuttingedge03'>cuttingedge03</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "cuttingedge03",
+    "contest_code": "CDNCTR14",
+    "max_timelimit": "0.16",
+    "problem_code": "QUEST"
+}

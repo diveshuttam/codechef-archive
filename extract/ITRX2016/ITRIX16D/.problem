@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align = \"justify\">\nCaitlin snow is extemely upset upon the events of Escape from Earth-2. Zoom took away Jay Garrick from her. Now she wants to seek revenge against Zoom, so she is trying to come up with Velocity-X serum which will increase the speed of Barry Allen aka The Flash. She creates the serum using the components 'X', 'Y' and 'Z'. The serum is composed of a sequence of these components and it's effect on Barry depends upon the the sequence interval, which is defined as the difference between the length of the longest substring with equal number of X's,Y's and Z's and the length of the shortest substring with equal number of X's,Y's and Z's. More the sequence interval, faster he will run. She creates a number of sequences and tries to find the sequence interval for all the sequences. As the number of sequences are large, she plans to come up with an algorithm to find the sequence intervals efficiently and to find the maximum sequence interval out of all the sequences generated. Cisco and Harry are busy in developing a trap for Zoom and Felicity is stuck with team Arrow to find about Genesis, so please assist Cait in finding the sequence interval and do it fast coz <b>ZOOM IS COMING</b>.\n</p>\n<h3><b>Input</b></h3>\n<p>\nThe first line of the input consists of the number of sequences 'n' (2 &lt;= n &lt;= 1000).<br /><br />\nThe next 'n' lines consist of a string 's' (3 &lt;= length &lt;= 10000) describing the sequence. The string will have only the alphabets 'X','Y' and 'Z'.\n</p>\n<h3><b>Output</b></h3>\n<p>\nOutput 'n' lines containing the sequence distance(interval) of the correspondng input string 's'.<br /><br /><br />\nThe 'n+1' th line contains the index (1-based) of the string with the maximum sequence distance. If multiple strings have maximum sequence distance then output the </p>\n<p>index of the one that appears first in the input.</p>\n<h3><b>Example</b></h3>\n<pre>\n<b>Sample Input</b>\n3\nXYZXYZXYZ\nXXYYZZXYZ\nXXXYYYZZZ\n\n<b>Sample Output</b>\n6\n6\n0\n1\n</pre><h3><b>Explanation</b></h3>\n<p>\nIn the given sample case,<br /><br />\nfor string XYZXYZXYZ (1)  Longest = 9  Shortest = 3 Sequence distance = 6<br /><br />\nfor string XXYYZZXYZ (2)  Longest = 9  Shortest = 3 Sequence distance = 6<br /><br />\nfor string XXXYYYZZZ (3)  Longest = 9  Shortest = 9 Sequence distance = 0<br /><br />\n(1) and (2) have the maximum value so n+1th line contains 1.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ITRIX Online Programming Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455976800,
+        "end_date": 1455985800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1455985800,
+        "submit_start_date": 1455976800,
+        "current": 1537435361
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>lakshmi8</span>",
+    "problem_name": "Velocity-X",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/lakshmi8'>lakshmi8</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "lakshmi8",
+    "contest_code": "ITRX2016",
+    "max_timelimit": "5",
+    "problem_code": "ITRIX16D"
+}

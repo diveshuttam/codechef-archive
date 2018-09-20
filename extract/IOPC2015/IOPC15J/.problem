@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Given a list of <b>N</b> numbers, say <b>A[1..N]</b>. And a set of integers S. Each A[i] belongs to the set <b>S</b>. Being said that let us first define if a array is \u2018good\u2019 or not good. We say a array, Ar[M] of size \u2018M\u2019, good if<br />\nfor every pair of index <b><i, j> (A[i] !=A[j] and 1 \u2264  i, j \u2264  M)</i,></b> there exist some index <b>k (1 \u2264  k &lt; M)</b> such that at-least one of the following condition hold</p>\n<ul>\n<li>Ar[k] = Ar[i] and A[k+1] = Ar[j]</li>\n<li>Ar[k] = Ar[j] and Ar[k+1] = Ar[i]</li>\n</ul>\n<p>If it holds for every valid pair of index then we say that array Ar is good otherwise we say Ar is not good.<br />\nThe given array <b>A[N]</b> may not be good initially and Churu want to make it good. To make the list A[N] good Churu can only do the following - </p>\n<ul>\n<li>Select an integer from the given set S.</li>\n<li>Then append this selected integer at the end of the list.</li>\n</ul>\n<p>Churu can do these operations as many times as he wish.But appending an integer in the array is not for free. Churu has to spend some money to append an integer at the end. This amount depends on the integer that he wants to add (say e1) and the last element of the list (say it e2) after which he will append e1. Exact cost can be found from the cost matrix that will be given. Let the size of the set S be <b>s = |S|</b>. A symmetric cost matrix <b>C[s][s]</b> will be given. C[i][j] represents the cost of adding integer S[i] on an list if the last element of the list is S[j]. Now Churu wants to make the array good in minimum possible expenditure. Help him. Print the minimum cost to make resulting list which is good. Note that the input list, A, must be a prefix of the output list and final list and A must end with same number. Also include the initial cost to make the matrix. Assume 1st element was added free of cost.\n</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>N</b> denoting the size of A. </li>\n<li>Next line contains N space separated integrs denoting the initial array A.</li>\n<li>Next line contains single integer <b>s</b> denoting the size of set <b>S</b>.\n</li><li>Next line contains s space separated integrs denoting the set S.</li>\n<li>All elements in S will be distinct.</li>\n<li>Next s lines contain s space separated integers, jth element of ith line denotes cost of appending S[i] after S[j].</li>\n<li>Cost matrix will be symmetric.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\nOutput a single integer denoting the minimum total cost required to make the sequence good.\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>4</sup></b></li>\n<li><b>1</b> \u2264 <b>A[i]</b> \u2264 <b>10<sup>3</sup></b></li>\n<li><b>1</b> \u2264 <b>s</b> \u2264 <b>200</b></li>\n<li>All elements of A belong to S</li>\n<li><b>1</b> \u2264 <b>S[i]</b> \u2264 <b>10<sup>3</sup></b> for all <b>1</b> \u2264 <b>i</b> \u2264 <b>|S|</b></li>\n<li><b>1</b> \u2264 <b>c[i][j]</b> \u2264 <b>10<sup>3</sup></b> for all <b>1</b> \u2264 <b>i,j</b> \u2264 <b>|S|</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n1 2 3\n4\n1 3 4 2\n1 1 1 1 \n1 2 2 2\n1 2 3 3\n1 2 3 4\n<b>Output:</b>\n5\n</pre><h3>Explanation :\u00a0</h3>\n<p>The optimal good sequence for the sample example will be - out[] = 1 2 3 1 3. Given sequence 1 2 3 is prefix of this sequence. Also for each valid pair of index (i, j), out[i] and out[j] occurs consecutively somewhere in the  output list. Total cost = Initial cost + Additional cost = cost due of 1-2 + cost due to 2-3 + cost due to 3-1 + cost due to 1-3 = 1 + 2 + 1 + 1 = 5. First three terms are due to the initial list and rest two terms are due to additional elements appended.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426336200,
+        "end_date": 1426422600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426422600,
+        "submit_start_date": 1426336200,
+        "current": 1537436574
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>triveni</span>",
+    "problem_name": "Churu and his Sequence",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/triveni'>triveni</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "triveni",
+    "contest_code": "IOPC2015",
+    "max_timelimit": "2",
+    "problem_code": "IOPC15J"
+}

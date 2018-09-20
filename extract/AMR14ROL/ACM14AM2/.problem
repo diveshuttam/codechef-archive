@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>ISRO has shot to global fame after Mangalyaan. They have decided to build hi-tech ground stations throughout the country which can be used either as a control station or as a launch station (but not as both simultaneously). A control station is one which has all controls to the rocket. A launch station is the site from where a rocket is launched. For a successful launch, ISRO has identified that they need 2 control stations and that these 2 control stations should be equidistant from the launch station.</p>\n<p>Initially there is only one ground station having index <b>0</b>, where the headquarters of ISRO is located. Over a period of time, they plan to build more and more ground stations.</p>\n\n<p>They can perform two kinds of operations (for given <b>V</b>): </p>\n<ul>\n<li>\n<p>\n<b><u>Type 0</u></b>: Build a new ground station and construct a one-way road from the ground station having index <b>V</b> to the newly built ground station. In other words, if the index of the newly built ground station is <b>W</b>, then a one way road <b>V</b>-><b>W</b> having length = 1 is constructed. The index of the new ground station will be the smallest positive integer which is not the index of any existing ground station. (Of course, this also helps them to keep track of the number of ground stations they have built so far.)\n</p>\n</li>\n<li>\n<p><b><u>Type 1</u></b>: Given a ground station with index <b>V</b>, count how many unordered pairs (<b>P</b>, <b>Q</b>) of ground stations exist such that the ground stations <b>P</b> and <b>Q</b> are both reachable from <b>V</b> (paths from <b>V</b> to <b>P</b> and <b>V</b> to <b>Q</b> exist),  and there exists a ground station <b>R</b> (need not be reachable from <b>V</b>), such that distance(<b>P</b>, <b>R</b>) = distance(<b>Q</b>, <b>R</b>), <b>R</b> \u2260 <b>P</b>, <b>R</b> \u2260 <b>Q</b> and <b>P</b> \u2260 <b>Q</b>. Of course, ISRO wants to know this information beforehand since such pairs (<b>P</b>, <b>Q</b>) are possible candidates for control stations, and <b>R</b> is a possible candidate for the launch station.\n</p>\n</li>\n</ul>\n\n<p>\n<b>Adding more explanation</b></p>\n<p>\"Given a ground station with index V, count how many unordered pairs (P, Q) of ground stations exist such that the ground stations P and Q are both reachable from V (paths from V to P and V to Q exist), and there exists a ground station R (need not be reachable from V), such that distance(P,R) = distance(Q, R), R \u2260 P, R \u2260 Q and P \u2260 Q.\"<br />\n<br />\nAs this says, there need not be path from R->P or P->R. How ever please use the following as definition of distance.<br />\n<br />\nDistance(X, Y) = Number of roads in the unique path from X to Y, if the given road network were bi-directional.<br />\n<br />\nPlease note that, V->P and V->Q should still exist in directed road network.\n</p>\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>\n<p>The first line of each test case contains a single integer <b>M</b> denoting the number of operations.</p>\n<p>Each of the next <b>M</b> lines contain 2 integers -  <b>type</b> and <b>V</b>.</p>\n<p>if <b>type</b> = 0, then perform type 0 operation (for given <b>V</b>).</p>\n<p>if <b>type</b> = 1, then perform type 1 operation (for given <b>V</b>).</p>\n\n<h3>Output</h3>\n<p>For each test case, for each query of <b>type</b> 1, you must print the answer to the query on a separate line. </p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>5</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>100000</b></li>\n<li><b>0</b> \u2264 <b>type</b> \u2264 <b>1</b></li>\n<li>For both type of operations 0 &amp; 1, the given ground station <b>V</b> would have already been built.</li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n4\n1 0\n0 0\n0 1\n1 0\n6\n0 0\n0 1\n1 0\n0 1\n0 2\n1 1\n\n<b>Output:</b>\n0\n1\n1\n2\n</pre>\n<h3>Explanation</h3>\n<p><b><u>Example case 1:</u></b></p>\n<p>First operation is of <b>type</b> 1. There is only 1 ground station (with index 0), so number of pairs are 0.</p>\n<p>Second operation is of <b>type</b> 0. A new ground station with index 1 is built, and a road from <b>0->1</b> (having length 1) is added.</p>\n<p>Third operation is of <b>type</b> 0 again. A new ground station with index 2 is built, and a road from <b>1->2</b> (having length 1) is added.</p>\n<p>Fourth operation is of <b>type</b> 1. There are 3 ground stations now. (0, 2) is the only valid pair as there exists ground station 1 with distance(2, 1) = distance(0, 1) = 1, and both the stations 0 &amp; 2 are reachable from 0. </p>\n<p><b><u>Example case 2:</u></b></p>\n<p>There are 2 operations of <b>type</b> 1. For the first one, (0, 2) is the only valid pair, and for the second one, there are 2 valid pairs pairs - (2, 3) and (1, 4).</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "9-10-2014",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Amritapuri Online Contest 2014, Replay",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1414506600,
+        "end_date": 1414517400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1414517400,
+        "submit_start_date": 1414506600,
+        "current": 1537437294
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Ground Stations",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acm-icpc'>acm-icpc</a>, <a class='problem-tag-small ' href='/tags/problems/acmamr14'>acmamr14</a>, <a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>, <a class='problem-tag-small ' href='/tags/problems/dfs-order'>dfs-order</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/segment-tree'>segment-tree</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "AMR14ROL",
+    "max_timelimit": "2",
+    "problem_code": "ACM14AM2"
+}

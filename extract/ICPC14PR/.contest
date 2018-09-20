@@ -1,0 +1,1046 @@
+{
+    "teamsCount": "573",
+    "announcements": "<p><b>21/11/2014, 21:00 IST: </b>The test data for problems\u00a0AMRIT13A to\u00a0AMRIT13F have been updated and the solutions have been rejudged. Regret the inconvenience.</p>\r\n<p><b>21/11/2014, 21:00 IST: </b>The ranking for the contest can be found\u00a0<a target=\"_blank\" href=\"/rankings/ICPC14PR\">here</a>.</p>",
+    "ip": "149.129.135.113",
+    "code": "ICPC14PR",
+    "duration": "24420",
+    "name": "ACM-ICPC Practice round 2014",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "AMRIT13A": [
+            {
+                "score": "20",
+                "count": "2"
+            },
+            {
+                "score": "80",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "2"
+            }
+        ],
+        "AMRIT13D": [
+            {
+                "score": "40",
+                "count": "12"
+            },
+            {
+                "score": "70",
+                "count": "2"
+            },
+            {
+                "score": "100",
+                "count": "10"
+            }
+        ],
+        "AMRIT13E": [
+            {
+                "score": "20",
+                "count": "1"
+            },
+            {
+                "score": "80",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "12"
+            }
+        ]
+    },
+    "rules": "<div><b>Registration: </b> <ul> <div><b></b> <b>This is a team contest, so a seperate registration is needed for the team to participate. Please do the registration before the contest starts</b></div> <br /> <li>Login with your normal CodeChef user ID</li> <li>Click on the <a target=\"_blank\" href=\"/teams/register/ICPC14PR\"><b>Team Registration Link</b></a> to register your team for the contest.</li> <li>Click logout in the top right corner and login using the Team Name and password you registered with.</li> <li>You can get more information about team contests <a target=\"_blank\" href=\"/wiki/team-contests\">here.</a></li> </ul> </div> <div><b>Rules and Regulations:</b> <div> <ul> <li>Contest problems will become visible everyday from 1st December 2014 to 18th December, 2014\u00a0at 2100 HRS (IST)\u00a0to 0100 HRS (IST). </li> <li> This is a TEAM CONTEST. A team can consist of atmost 3 members. One person can\u2019t be part of more than one team.</li> <li> A team may send their solutions in all programming languages. Although different problems can be solved in different languages by the same team.</li> <li>If you do not have a CodeChef ID create one <a href=\"http://codechef.com/user/register\" target=\"_blank\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. </li> <li> Almost all languages supported on CodeChef are allowed. </li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided. </li> <li>All participants are expected to abide by the\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a></li> <li>Please contact help@codechef.com\u00a0for any queries during the contest. </li> </ul> </div> <div><b>Judging criteria : </b> <ul> <li>All the problems have same points alloted to them. </li> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time. </li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained. </li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified. </li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved. </li> </ul> </div> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/sites/default/files/uploads/landing_page_banners/banner-compete.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "HOTEL": {
+            "allow_submission": false,
+            "name": "Hotel Bytelandia",
+            "category_name": "main",
+            "accuracy": 65.22,
+            "successful_submissions": "30",
+            "code": "HOTEL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "KAN13I": {
+            "allow_submission": false,
+            "name": "Rewarding the Priests",
+            "category_name": "main",
+            "accuracy": 100,
+            "successful_submissions": "1",
+            "code": "KAN13I",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GROUPING": {
+            "allow_submission": false,
+            "name": "Grouping Chefs",
+            "category_name": "main",
+            "accuracy": 100,
+            "successful_submissions": "2",
+            "code": "GROUPING",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FALLDOWN": {
+            "allow_submission": false,
+            "name": "Remys last tour",
+            "category_name": "main",
+            "accuracy": 33.33,
+            "successful_submissions": "2",
+            "code": "FALLDOWN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PSTRINGS": {
+            "allow_submission": false,
+            "name": "Dyslexic Gollum",
+            "category_name": "main",
+            "accuracy": 13.64,
+            "successful_submissions": "3",
+            "code": "PSTRINGS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "RNEST": {
+            "allow_submission": false,
+            "name": "Escape from the Mines",
+            "category_name": "main",
+            "accuracy": 50,
+            "successful_submissions": "1",
+            "code": "RNEST",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GRIDCOL": {
+            "allow_submission": false,
+            "name": "Chef and The Colored Grid",
+            "category_name": "main",
+            "accuracy": 100,
+            "successful_submissions": "1",
+            "code": "GRIDCOL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CIELGAME": {
+            "allow_submission": false,
+            "name": "Ciel and Genjiko",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "CIELGAME",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TABUS": {
+            "allow_submission": false,
+            "name": "Traveling Plan",
+            "category_name": "main",
+            "accuracy": 100,
+            "successful_submissions": "1",
+            "code": "TABUS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GERALD05": {
+            "allow_submission": false,
+            "name": "Chef and Combinatorics",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "GERALD05",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GERALD06": {
+            "allow_submission": false,
+            "name": "Chef and Strange Graph",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "GERALD06",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DRAGNXOR": {
+            "allow_submission": false,
+            "name": "Open the Dragon Scroll",
+            "category_name": "main",
+            "accuracy": 66.67,
+            "successful_submissions": "11",
+            "code": "DRAGNXOR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COMMUTE": {
+            "allow_submission": false,
+            "name": "The Morning Commute",
+            "category_name": "main",
+            "accuracy": 58.33,
+            "successful_submissions": "7",
+            "code": "COMMUTE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COLLIDE": {
+            "allow_submission": false,
+            "name": "Collision in Space",
+            "category_name": "main",
+            "accuracy": 30.43,
+            "successful_submissions": "7",
+            "code": "COLLIDE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MINXOR": {
+            "allow_submission": false,
+            "name": "XOR Minimization",
+            "category_name": "main",
+            "accuracy": 50,
+            "successful_submissions": "1",
+            "code": "MINXOR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TASTR": {
+            "allow_submission": false,
+            "name": "Level Of Difference",
+            "category_name": "main",
+            "accuracy": 33.33,
+            "successful_submissions": "1",
+            "code": "TASTR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FLAGS": {
+            "allow_submission": false,
+            "name": "Counting Flags",
+            "category_name": "main",
+            "accuracy": 53.85,
+            "successful_submissions": "7",
+            "code": "FLAGS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GERALD3": {
+            "allow_submission": false,
+            "name": "Chef and Substrings",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "GERALD3",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ANUBTT": {
+            "allow_submission": false,
+            "name": "Build the Tree",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "ANUBTT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PNTNG": {
+            "allow_submission": false,
+            "name": "Painting",
+            "category_name": "main",
+            "accuracy": 50,
+            "successful_submissions": "5",
+            "code": "PNTNG",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SEEDS": {
+            "allow_submission": false,
+            "name": "Seeding The Pattern",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "SEEDS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PTOSS": {
+            "allow_submission": false,
+            "name": "Pizza Tossing",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "PTOSS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "AMRIT13A": {
+            "allow_submission": false,
+            "name": "Barcode",
+            "category_name": "main",
+            "accuracy": 12.5,
+            "successful_submissions": "2",
+            "code": "AMRIT13A",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "LASTDIG": {
+            "allow_submission": false,
+            "name": "Last Digit Sum",
+            "category_name": "main",
+            "accuracy": 31.03,
+            "successful_submissions": "9",
+            "code": "LASTDIG",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ANUDTC": {
+            "allow_submission": false,
+            "name": "Divide the Cake",
+            "category_name": "main",
+            "accuracy": 50,
+            "successful_submissions": "8",
+            "code": "ANUDTC",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "KAN13E": {
+            "allow_submission": false,
+            "name": "Chocolate Division",
+            "category_name": "main",
+            "accuracy": 57.14,
+            "successful_submissions": "10",
+            "code": "KAN13E",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CIELWEB": {
+            "allow_submission": false,
+            "name": "Ciel and Communications System",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "CIELWEB",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ABCSTR": {
+            "allow_submission": false,
+            "name": "ABC-Strings",
+            "category_name": "main",
+            "accuracy": 40,
+            "successful_submissions": "2",
+            "code": "ABCSTR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "WTHINGS": {
+            "allow_submission": false,
+            "name": "Where the Wild Things Are",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "WTHINGS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TAVISUAL": {
+            "allow_submission": false,
+            "name": "The Ball And Cups",
+            "category_name": "main",
+            "accuracy": 40,
+            "successful_submissions": "6",
+            "code": "TAVISUAL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "KNPSK": {
+            "allow_submission": false,
+            "name": "Knapsack Problem",
+            "category_name": "main",
+            "accuracy": 13.33,
+            "successful_submissions": "2",
+            "code": "KNPSK",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TCP": {
+            "allow_submission": false,
+            "name": "Travelling Chef Problem",
+            "category_name": "main",
+            "accuracy": 100,
+            "successful_submissions": "1",
+            "code": "TCP",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "KCHIPS": {
+            "allow_submission": false,
+            "name": "Angry Chef - Crispy Chips",
+            "category_name": "main",
+            "accuracy": 50,
+            "successful_submissions": "1",
+            "code": "KCHIPS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "AMRIT13F": {
+            "allow_submission": false,
+            "name": "Jumping on the Walls",
+            "category_name": "main",
+            "accuracy": 58.33,
+            "successful_submissions": "2",
+            "code": "AMRIT13F",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TAPALIN": {
+            "allow_submission": false,
+            "name": "Palindrome",
+            "category_name": "main",
+            "accuracy": 75,
+            "successful_submissions": "3",
+            "code": "TAPALIN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "KAN13C": {
+            "allow_submission": false,
+            "name": "Rich Rhyme",
+            "category_name": "main",
+            "accuracy": 19.31,
+            "successful_submissions": "23",
+            "code": "KAN13C",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DIVIDING": {
+            "allow_submission": false,
+            "name": "Dividing Stamps",
+            "category_name": "main",
+            "accuracy": 72.73,
+            "successful_submissions": "16",
+            "code": "DIVIDING",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "KAN13F": {
+            "allow_submission": false,
+            "name": "Merging Files",
+            "category_name": "main",
+            "accuracy": 26.32,
+            "successful_submissions": "5",
+            "code": "KAN13F",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DIGROT": {
+            "allow_submission": false,
+            "name": "Digit Rotation",
+            "category_name": "main",
+            "accuracy": 21.05,
+            "successful_submissions": "4",
+            "code": "DIGROT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GERALD04": {
+            "allow_submission": false,
+            "name": "Chef and Girlfriend",
+            "category_name": "main",
+            "accuracy": 20,
+            "successful_submissions": "1",
+            "code": "GERALD04",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DIVGAME": {
+            "allow_submission": false,
+            "name": "Game of Divisors",
+            "category_name": "main",
+            "accuracy": 25,
+            "successful_submissions": "3",
+            "code": "DIVGAME",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CIELNUM2": {
+            "allow_submission": false,
+            "name": "Ciel Numbers II",
+            "category_name": "main",
+            "accuracy": 30.56,
+            "successful_submissions": "11",
+            "code": "CIELNUM2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "EXPCOMM": {
+            "allow_submission": false,
+            "name": "Exponentiation Commutativity",
+            "category_name": "main",
+            "accuracy": 25,
+            "successful_submissions": "2",
+            "code": "EXPCOMM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "KAN13H": {
+            "allow_submission": false,
+            "name": "Multi-Peg Tower of Hanoi",
+            "category_name": "main",
+            "accuracy": 100,
+            "successful_submissions": "1",
+            "code": "KAN13H",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ANUBGC": {
+            "allow_submission": false,
+            "name": "Book Game with Chef",
+            "category_name": "main",
+            "accuracy": 25,
+            "successful_submissions": "1",
+            "code": "ANUBGC",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DIREL": {
+            "allow_submission": false,
+            "name": "Distant Relatives",
+            "category_name": "main",
+            "accuracy": 100,
+            "successful_submissions": "1",
+            "code": "DIREL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "AMRIT13E": {
+            "allow_submission": false,
+            "name": "An odd sort",
+            "category_name": "main",
+            "accuracy": 26.67,
+            "successful_submissions": "12",
+            "code": "AMRIT13E",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "PALIPALI": {
+            "allow_submission": false,
+            "name": "Palindrome Palindrome",
+            "category_name": "main",
+            "accuracy": 17.65,
+            "successful_submissions": "3",
+            "code": "PALIPALI",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "KSUBSUM": {
+            "allow_submission": false,
+            "name": "Makx Sum",
+            "category_name": "main",
+            "accuracy": 25,
+            "successful_submissions": "7",
+            "code": "KSUBSUM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BALL": {
+            "allow_submission": false,
+            "name": "Entmoot",
+            "category_name": "main",
+            "accuracy": 20,
+            "successful_submissions": "1",
+            "code": "BALL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FSSYNC": {
+            "allow_submission": false,
+            "name": "The Loyalty of the Orcs",
+            "category_name": "main",
+            "accuracy": 16.67,
+            "successful_submissions": "2",
+            "code": "FSSYNC",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ANUUND": {
+            "allow_submission": false,
+            "name": "Ups and Downs",
+            "category_name": "main",
+            "accuracy": 57.14,
+            "successful_submissions": "7",
+            "code": "ANUUND",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SNAPE": {
+            "allow_submission": false,
+            "name": "Snape and Ladder",
+            "category_name": "main",
+            "accuracy": 80,
+            "successful_submissions": "11",
+            "code": "SNAPE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FLOORSMV": {
+            "allow_submission": false,
+            "name": "Moving between Floors",
+            "category_name": "main",
+            "accuracy": 100,
+            "successful_submissions": "2",
+            "code": "FLOORSMV",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "KAN13G": {
+            "allow_submission": false,
+            "name": "Changing Money",
+            "category_name": "main",
+            "accuracy": 13.6,
+            "successful_submissions": "17",
+            "code": "KAN13G",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "AMRIT13C": {
+            "allow_submission": false,
+            "name": "Encoding Trees",
+            "category_name": "main",
+            "accuracy": 83.33,
+            "successful_submissions": "4",
+            "code": "AMRIT13C",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "AMRIT13B": {
+            "allow_submission": false,
+            "name": "Colorstripes",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "AMRIT13B",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CBLOCKS": {
+            "allow_submission": false,
+            "name": "Saruman of Many Colours",
+            "category_name": "main",
+            "accuracy": 22.08,
+            "successful_submissions": "17",
+            "code": "CBLOCKS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "KAN13D": {
+            "allow_submission": false,
+            "name": "Family of Recurrences",
+            "category_name": "main",
+            "accuracy": 12.9,
+            "successful_submissions": "4",
+            "code": "KAN13D",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DFSGRID": {
+            "allow_submission": false,
+            "name": "Chef and The Recursive Algorithm",
+            "category_name": "main",
+            "accuracy": 7.14,
+            "successful_submissions": "1",
+            "code": "DFSGRID",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "NDLVOTE": {
+            "allow_submission": false,
+            "name": "Vote for the Noodle Soup",
+            "category_name": "main",
+            "accuracy": 33.33,
+            "successful_submissions": "4",
+            "code": "NDLVOTE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COALSCAM": {
+            "allow_submission": false,
+            "name": "Coal Scam",
+            "category_name": "main",
+            "accuracy": 20,
+            "successful_submissions": "1",
+            "code": "COALSCAM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PREPARE": {
+            "allow_submission": false,
+            "name": "Preparing Dishes",
+            "category_name": "main",
+            "accuracy": 16.67,
+            "successful_submissions": "1",
+            "code": "PREPARE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "RIGHTRI": {
+            "allow_submission": false,
+            "name": "Chef and The Right Triangles",
+            "category_name": "main",
+            "accuracy": 90,
+            "successful_submissions": "7",
+            "code": "RIGHTRI",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SNAKY": {
+            "allow_submission": false,
+            "name": "Snake Snaky",
+            "category_name": "main",
+            "accuracy": 17.74,
+            "successful_submissions": "11",
+            "code": "SNAKY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PPERM": {
+            "allow_submission": false,
+            "name": "Prime Permutations",
+            "category_name": "main",
+            "accuracy": 25,
+            "successful_submissions": "4",
+            "code": "PPERM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LIGHTS": {
+            "allow_submission": false,
+            "name": "The Glittering Caves of Aglarond",
+            "category_name": "main",
+            "accuracy": 30.77,
+            "successful_submissions": "12",
+            "code": "LIGHTS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IDOLS": {
+            "allow_submission": false,
+            "name": "Idols and Fans",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "IDOLS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DQPERMS": {
+            "allow_submission": false,
+            "name": "Denethors Decryption of Dequeue permutations",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "DQPERMS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ROTSTRNG": {
+            "allow_submission": false,
+            "name": "Rotate the String",
+            "category_name": "main",
+            "accuracy": 25,
+            "successful_submissions": "1",
+            "code": "ROTSTRNG",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "KAN13B": {
+            "allow_submission": false,
+            "name": "Walking Path",
+            "category_name": "main",
+            "accuracy": 20,
+            "successful_submissions": "3",
+            "code": "KAN13B",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "AMRIT13D": {
+            "allow_submission": false,
+            "name": "The Infinite Binary Tree",
+            "category_name": "main",
+            "accuracy": 14.71,
+            "successful_submissions": "10",
+            "code": "AMRIT13D",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CIELLAND": {
+            "allow_submission": false,
+            "name": "Ciel and a new island",
+            "category_name": "main",
+            "accuracy": 10,
+            "successful_submissions": "1",
+            "code": "CIELLAND",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "YASEQ": {
+            "allow_submission": false,
+            "name": "Yet Another Sequence",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "YASEQ",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ANUSAR": {
+            "allow_submission": false,
+            "name": "Substrings and Repetitions",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "ANUSAR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TKCHOCS": {
+            "allow_submission": false,
+            "name": "Collect the Chocolate Chips",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "TKCHOCS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "KAN13A": {
+            "allow_submission": false,
+            "name": "Hard Disk",
+            "category_name": "main",
+            "accuracy": 30.43,
+            "successful_submissions": "7",
+            "code": "KAN13A",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LOGO": {
+            "allow_submission": false,
+            "name": "McHefs 3D Logo",
+            "category_name": "main",
+            "accuracy": 100,
+            "successful_submissions": "1",
+            "code": "LOGO",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "RRECIPE": {
+            "allow_submission": false,
+            "name": "Recipe Reconstruction",
+            "category_name": "main",
+            "accuracy": 40.48,
+            "successful_submissions": "17",
+            "code": "RRECIPE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TAKEAWAY": {
+            "allow_submission": false,
+            "name": "Zeta-Nim Game",
+            "category_name": "main",
+            "accuracy": 42.86,
+            "successful_submissions": "3",
+            "code": "TAKEAWAY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GERALD03": {
+            "allow_submission": false,
+            "name": "Chef Goes Through Segments",
+            "category_name": "main",
+            "accuracy": 100,
+            "successful_submissions": "1",
+            "code": "GERALD03",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ATKCTR": {
+            "allow_submission": false,
+            "name": "Gandalf vs the Balrog",
+            "category_name": "main",
+            "accuracy": 42.11,
+            "successful_submissions": "8",
+            "code": "ATKCTR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "STRDIG": {
+            "allow_submission": false,
+            "name": "Chef and The String of Digits",
+            "category_name": "main",
+            "accuracy": 66.67,
+            "successful_submissions": "2",
+            "code": "STRDIG",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FINDHOLE": {
+            "allow_submission": false,
+            "name": "The Black Riders",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "FINDHOLE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MSTRINGS": {
+            "allow_submission": false,
+            "name": "The Mirror of Galadriel",
+            "category_name": "main",
+            "accuracy": 61.31,
+            "successful_submissions": "81",
+            "code": "MSTRINGS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MINMAX": {
+            "allow_submission": false,
+            "name": "Wormtongues Mind",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "MINMAX",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TARPRACT": {
+            "allow_submission": false,
+            "name": "Target Practice",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "TARPRACT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CIELNUM1": {
+            "allow_submission": false,
+            "name": "Ciel Numbers I",
+            "category_name": "main",
+            "accuracy": 33.33,
+            "successful_submissions": "12",
+            "code": "CIELNUM1",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PUZZLES": {
+            "allow_submission": false,
+            "name": "Newspaper Puzzle",
+            "category_name": "main",
+            "accuracy": 6.25,
+            "successful_submissions": "1",
+            "code": "PUZZLES",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DIVQUERY": {
+            "allow_submission": false,
+            "name": "Chef and The Divisibility Queries",
+            "category_name": "main",
+            "accuracy": 22.22,
+            "successful_submissions": "2",
+            "code": "DIVQUERY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TABISHOP": {
+            "allow_submission": false,
+            "name": "Bishops",
+            "category_name": "main",
+            "accuracy": 100,
+            "successful_submissions": "1",
+            "code": "TABISHOP",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BICO": {
+            "allow_submission": false,
+            "name": "BiCo Gaming Grid",
+            "category_name": "main",
+            "accuracy": 16.67,
+            "successful_submissions": "1",
+            "code": "BICO",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CARVANS": {
+            "allow_submission": false,
+            "name": "Carvans",
+            "category_name": "main",
+            "accuracy": 71.79,
+            "successful_submissions": "25",
+            "code": "CARVANS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PAIRING": {
+            "allow_submission": false,
+            "name": "Pairing Chefs",
+            "category_name": "main",
+            "accuracy": 75,
+            "successful_submissions": "6",
+            "code": "PAIRING",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PALIN3": {
+            "allow_submission": false,
+            "name": "3-Palindromes",
+            "category_name": "main",
+            "accuracy": 100,
+            "successful_submissions": "1",
+            "code": "PALIN3",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MONTRANS": {
+            "allow_submission": false,
+            "name": "Money Transformation",
+            "category_name": "main",
+            "accuracy": 25.88,
+            "successful_submissions": "54",
+            "code": "MONTRANS",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537437065,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

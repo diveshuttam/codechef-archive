@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nHarsha is given 9 integers a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, .... a<sub>9</sub>. This denotes that he is given a<sub>1</sub> 1's, a<sub>2</sub> 2's,......a<sub>9</sub> 9's. Let 'x' = (a<sub>1</sub>  + a<sub>2</sub> + ...a<sub>9</sub>). Now, Harsha makes all possible 'x' digit numbers by using these given digits. Let S be the set of all such numbers which he makes. Now he constructs a directed graph containing |S| nodes, in which each node denotes a unique number from the set. For all numbers u,v belonging to S, there is a directed edge from node 'u' to node 'v in the graph iff u>v. It is easy to note that we obtain a directed acyclic graph. Whats more, the edges of the graph are weighted. The weight of an edge joining node 'u' and node 'v' is equal to u+v. Now, Deepak decides to test Harsha's memory and gives him 'Q' queries. Each query consists of two numbers 'u', 'v' (u>v, both belonging to the set S). For each query Harsha must provide the following answers:\n<p>1) How many distinct paths are there from node 'u' to node 'v' in the graph.\n<br/>2) For each distinct path 'i' from node 'u' to node 'v', let S<sub>i</sub> denote the sum of weights of all edges on this path. Calculate the value of sum(S<sub>i</sub>), for every distinct path 'i' from node 'u' to node 'v'.\n\n<h3>Input</h3>\n<p>\nThe first line of input contains 9 integers a<sub>1</sub>, a<sub>2</sub>, ....a<sub>9</sub>.\nThe second line contains a single integer 'Q', denoting the number of queries.\nEach of the next 'Q' lines contain 2 numbers 'u' and 'v'.\n\n<h3>Output</h3>\n<p>\nFor each query, output 2 space separted integers denoting the number of distinct paths and sum of weights of all paths respectively. Since the output can be large, output these quantities modulo 1000000007.\n<br/>\n<p>Two paths (v<sub>1</sub>, v<sub>2</sub>, .... v<sub>m</sub>) and (u<sub>1</sub>, u<sub>2</sub>, .... u<sub>n</sub>) are distinct if:\n<br/>1) m != n\n<br/>2) m = n, there exists some index 'k' (1 <= k <= m) such that v<sub>k</sub> != u<sub>k</sub>\n\n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2 0 1 0 0 0 0 0 0\n1\n311 113\n\n<b>Output:</b>\n2 1110\n\n<b>Constraints:</b>\n1 <= (a<sub>1</sub>  + a<sub>2</sub> + .... a<sub>9</sub>) <= 500\n1 <= Q <= 20\na<sub>i</sub> >= 0\n\n</pre>\n<b>Explanation:</b>\n<p>Test case 1: The set S for the above problem is {311, 113, 131}. The edges of the graph are 311->131, 311->113, 131->113. There are 2 distinct paths from 311 to 113, namely (311->131->113) and (311->113). The sum of weights of edges on path-1 = (311+131)+(131+113) = 686. For path-2, the sum of weights of edges = (311+113) = 424. Therefore, answer  = 686 + 424 = 1110.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "NIT Trichy ByteCode 2011",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298192400,
+        "end_date": 1298214000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298214000,
+        "submit_start_date": 1298192400,
+        "current": 1537439342
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>suh_ash2008</span>",
+    "problem_name": "Permutation Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/suh_ash2008'>suh_ash2008</a>",
+    "problem_tester_html_handle": null,
+    "problem_author": "suh_ash2008",
+    "contest_code": "BYTCDE11",
+    "max_timelimit": "0.1",
+    "problem_code": "BTCODE_I"
+}

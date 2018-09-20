@@ -1,0 +1,143 @@
+{
+    "teamsCount": "38",
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "SNCKFL17",
+    "duration": "300",
+    "name": "SnackDown 2017 Onsite Final Round",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<h4>About CodeChef SnackDown 2017</h4>\r\n<p class=\"last\">SnackDown 2017 is an annual multi-round global programming tournament conducted by CodeChef. More information about it can be found <a href=\"/snackdown/2017\">here</a>.</p>\r\n<h4 style=\"font-size: 10px;\">Prizes:</h4>\r\n<ul class=\"last\">\r\n<li>1st Prize: $10,000</li>\r\n<li>2nd Prize: $5000</li>\r\n<li>3rd Prize: $3000</li>\r\n<li>Best Indian school &amp; women team: $500 each</li>\r\n</ul>\r\n<h4>Contest Details:</h4>\r\n<ul class=\"last\">\r\n<li><strong>Duration: </strong>5 hours</li>\r\n<li><strong>Start time: </strong>1st July 2017, 1200 hrs IST</li>\r\n<li><strong>End time: </strong>1st July 2017, 1700 hrs IST</li>\r\nYou may check your timezone <a target=\"_blank\" href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=SnackDown+2017+Onsite+Final+Round&amp;iso=20170701T12&amp;p1=44&amp;ah=5\">here</a>. \r\n</ul>\r\n<div><strong>Documentation Links:</strong></div>\r\n<div>\r\n<ul class=\"last\">\r\n<li><strong>Java: </strong><a href=\"http://pd.codechef.com/docs/java/index.html\">http://pd.codechef.com/docs/java/index.html</a></li>\r\n<li><strong>C++: </strong><a href=\"http://pd.codechef.com/docs/cpp/index.html\">http://pd.codechef.com/docs/cpp/index.html</a></li>\r\n<li><strong>Python 2.7:</strong> <a href=\"http://pd.codechef.com/docs/py/2.7.9/index.html\">http://pd.codechef.com/docs/py/2.7.9/index.html</a><strong> </strong></li>\r\n<li><strong>Python 3.4: </strong><a href=\"http://pd.codechef.com/docs/py/3.4.2/index.html\">http://pd.codechef.com/docs/py/3.4.2/index.html</a></li>\r\n</ul>\r\n</div>\r\n<h4>Eligibility Criteria: Only those who qualified in <a target=\"_blank\" href=\"/SNCKEL17\">SnackDown 2017 Elimination Round</a> are eligible to take part in this contest.</h4>\r\n<p class=\"last\">Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" class=\"button blue\">CodeChef Code Of Conduct.</a></p>\r\n<h4>Rules and Regulations:</h4>\r\n<ul>\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us.</li>\r\n<li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li>\r\n<li>Please contact <a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a> for any queries during the contest.</li>\r\n</ul>\r\n<h4>Judging Criteria:</h4>\r\n<ul class=\"last\">\r\n<li>The scoreboard will be frozen 1 hour before the contest ends.</li>\r\n<li>All the problems have same points alloted to them.</li>\r\n<li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time</li>\r\n<li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error). There is no time consumed for a problem that is not solved.</li>\r\n<li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li>\r\n<li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li>\r\n</ul>\r\n<p><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a target=\"_blank\" href=\"/ide\">Online IDE</a>.</strong></p>\r\n<p>However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/SNCKFL17/1498864835.png",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "ANDGRAPH": {
+            "allow_submission": false,
+            "name": "AND Graph",
+            "category_name": "main",
+            "accuracy": 48.15,
+            "successful_submissions": "13",
+            "code": "ANDGRAPH",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MINIMAX": {
+            "allow_submission": false,
+            "name": "Minimax",
+            "category_name": "main",
+            "accuracy": 42.67,
+            "successful_submissions": "32",
+            "code": "MINIMAX",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BCYCLES": {
+            "allow_submission": false,
+            "name": "BiCycles",
+            "category_name": "main",
+            "accuracy": 31.03,
+            "successful_submissions": "9",
+            "code": "BCYCLES",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MATRIXUM": {
+            "allow_submission": false,
+            "name": "Matrix Sum",
+            "category_name": "main",
+            "accuracy": 11.11,
+            "successful_submissions": "2",
+            "code": "MATRIXUM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "REFUELS": {
+            "allow_submission": false,
+            "name": "Racing Refuels",
+            "category_name": "main",
+            "accuracy": 12.5,
+            "successful_submissions": "9",
+            "code": "REFUELS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "WEAPONS": {
+            "allow_submission": false,
+            "name": "Fusing Weapons ",
+            "category_name": "main",
+            "accuracy": 31.67,
+            "successful_submissions": "19",
+            "code": "WEAPONS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MAXIEDGE": {
+            "allow_submission": false,
+            "name": "Maximize Grid Score",
+            "category_name": "main",
+            "accuracy": 84.44,
+            "successful_submissions": "38",
+            "code": "MAXIEDGE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "UNIVERSE": {
+            "allow_submission": false,
+            "name": "Year 3017",
+            "category_name": "main",
+            "accuracy": 31.17,
+            "successful_submissions": "24",
+            "code": "UNIVERSE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MINDEG": {
+            "allow_submission": false,
+            "name": "Minimum of Degrees",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "MINDEG",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "HULLSUM": {
+            "allow_submission": false,
+            "name": "Hull Sum",
+            "category_name": "main",
+            "accuracy": 30,
+            "successful_submissions": "27",
+            "code": "HULLSUM",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537433752,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

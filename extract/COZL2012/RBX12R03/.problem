@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nProduction Manager of a biscuit manufacturing company- &ldquo;Ban-2g Pvt. Ltd.&rdquo; needs a solution. The biscuits are manufactured just on time and are ready to be delivered to a Japanese store. But just a day before the delivery, the company who had taken the contract of packaging the biscuits, changes the cost of all its delivery boxes.\n<p>\nBan-2g Pvt. Ltd. wants to buy boxes which are available in two types, first one costs c1 and can hold n1 biscuits and the second one costs c2 and can hold n2 biscuits. Each box has to be filled to its capacity. You have to find the best way to distribute the biscuits such that total cost is minimized.\n\n\n<h3>Input</h3>\n<p>\nThe first line specifies the number of test cases. For each test case, the first line of input specifies the total number of biscuits to be packed. (numbered 1 to 300,000,000). The next line contains c1, n1, c2, n2.\n\n<h3>Output</h3>\n<p>\nFor each test case in the input, print a line containing the minimum cost solution i.e. three non-negative integers m1, m2 and minimum cost (mi = number of type &lsquo;i&rsquo; boxes required if one exists).\nOtherwise print 0 0 0.\n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n78\n10 15 1 8\n37\n10 9 9 8\n\n\n<b>Output:</b>\n2 6 26\n0 0 0\n\n<b>Explanation</b>\nIn the 1st test case, no of biscuits to be packed is 78. \nThe output is &ldquo;2 6 26&rdquo;\n(&ldquo;2&rdquo; boxes of size 15, &ldquo;6&rdquo; boxes of size 8 and hence the cost is &ldquo;26&rdquo;)\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "CODEZILLA - RUBIX'12 by CSI-TSEC",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1329622200,
+        "end_date": 1329654600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1329654600,
+        "submit_start_date": 1329622200,
+        "current": 1537438979
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rishi_agarwal</span>",
+    "problem_name": "The Production Manager",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rishi_agarwal'>rishi_agarwal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rishi_agarwal",
+    "contest_code": "COZL2012",
+    "max_timelimit": "4.6875",
+    "problem_code": "RBX12R03"
+}

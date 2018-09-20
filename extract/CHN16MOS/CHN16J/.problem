@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Chef lives in a country represented by cities numbered from <b>1</b> to <b>N</b> and connected to each other via bidirectional weighted paths in such a way that there is a unique path between any pair of cities.</p>\n\n<p>Chef has aims to conquer a subset of these cities and form his Kingdom. He can choose a subset of nodes <b>v<sub>1</sub>, v<sub>2</sub>, ...., v<sub>k</sub></b> and his followers will occupy those cities to make initial kingdom consisting of those cities. Also, any city which lies on a path between any two occupied cities will be eventually occupied and will become a part of Chef's the Kingdom. </p>\n\n<p>To evaluate how good or favorable the Kingdom is, Chef defines a function. Say, if the cities in Chef's Kingdom are <b>c<sub>1</sub>, c<sub>2</sub>, ..., c<sub>n</sub></b>, then Chef defines goodness of this kingdom as <b>f(c<sub>1</sub>) + f(c<sub>2</sub>) + ... + f(c<sub>n</sub>)</b>, where <b>f(x)</b> is defined as the minimum distance a person has to travel to visit all the cities in the Kingdom at least once, if he/she starts at city number <b>x</b>.</p>\n\n<p>Now, Chef has a total of <b>Q</b> plans about which cities he want to occupy, <b>i</b><sup>th</sup> of the plan is defined by a subset of <b>K<sub>i</sub></b> cities, <b>v<sub>i, 1</sub>, v<sub>i, 2</sub>, ..., v<sub>i, K<sub>i</sub></sub></b>, denoting the initial cities that his followers will occupy. He wants you to report the goodness of the Kingdoms eventually formed by his plans.\n</p>\n\n<h3>Input</h3>\n<p>The first line of the input contains two space separated integers <b>N</b> and <b>Q</b> denoting the number of cities and number of Chef's plans, respectively.</p>\n<p>Next <b>N - 1</b> lines contain integers <b>u</b>, <b>v</b> and <b>w</b> denoting there is a bidirectional path of length <b>w</b> between cities numbered <b>u</b> and <b>v</b>.</p>\n<p>Each of the next <b>Q</b> lines describe Chef's plans. Each plan first states <b>K<sub>i</sub></b> <i>i.e.</i> number of cities in the <b>i<sup>th</sup></b> plan. Next <b>K<sub>i</sub></b> integers denote the cities to be occupied in this plan.</p>\n\n<h3>Output</h3>\n<p>For each plan of Chef, output in one line the goodness of the Kingdom formed by that plan.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N, Q</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>u, v</b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>w</b> \u2264 <b>10<sup>4</sup></b></li>\n<li><b>1</b> \u2264 <b>K<sub>i</sub></b> \u2264 <b>N</sup></b></li>\n<li><b>1</b> \u2264 <b>Sum of K<sub>i</sub> for all i</b> \u2264 <b>5*10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>v<sub>i, j</sub></b> \u2264 <b>N</b>  for all <b>i, j</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n4 3\n1 2 1\n2 3 2\n1 4 3\n1 1\n2 1 2\n2 3 4\n\n<b>Output:</b>\n0\n2\n29\n\n</pre>\n\n<h3>Explanation</h3>\n<p><b>Plan 1:</b></br>\nChef plans to occupy only city 1, in which case goodness is 0.\n</p>\n\n<p><b>Plan 2:</b></br>\nChef initially occupies cities 1 and 2. Eventually, no other city other than these two is occupied. For each city in kingdom formed, a person will need to travel at most 1 distance to visit all the cities.</p>\n\n<p><b>Plan 3:</b></br>\nChef initially occupies city 3 and 4. However, city 1 and 2 lie on a path between initial occupied cities and therefore, belong to Chef's kingdom.</p>\n\n<p>Let's see how goodness of Chef's kingdom is calculated.\n<ul>\n<li>f(1) is 9. Path 1->2->3->2->1->4 is one of the paths which can be taken.</li>\n<li>f(2) is 8. Path 2->3->2->1->4 is the path which needs to be taken.</li>\n<li>f(3) is 6. Path 3->2->1->4 is the path which needs to be taken.</li>\n<li>f(4) is 6. Path 4->1->2->3 is the path which needs to be taken.</li>\n</ul>\n</p>\n\n<p>Therefore, answer is 9 + 8 + 6 + 6 = 29.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Chennai Onsite Mirror Contest 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1482211800,
+        "end_date": 1482229800,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1793254705,
+        "submit_start_date": 1482211800,
+        "current": 1537434309
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Kingdom of Chef",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin3",
+    "contest_code": "CHN16MOS",
+    "max_timelimit": "2",
+    "problem_code": "CHN16J"
+}

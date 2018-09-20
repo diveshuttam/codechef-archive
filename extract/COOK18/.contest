@@ -1,0 +1,87 @@
+{
+    "announcements": "<p><b>22/01/12 09:35 PM </b><b>(IST)</b><b>:</b> The rankings of the contest can be viewed here:<b><a href=\"/rankings/COOK18\">http://www.codechef.com/rankings/COOK18</a></b></p>",
+    "ip": "149.129.135.113",
+    "code": "COOK18",
+    "duration": "150",
+    "name": "January Cook-Off",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div><b> </b> <p><b>The January Cook-off has ended.</b></p> <p><b>You can view the editorials for the contest <a href=\"/wiki/january-2012-cook-problem-editorials\">here</a>.</b></p> <p><b><span> </span></b></p> <p><b>The Winners blog can be viewed <a href=\"http://blog.codechef.com/2012/01/23/gennadys-blitz%C2%B7krieg/\">here</a>.<br /></b></p> <p><b>All the solutions for the problem set are public.</b></p> <b> <p><span><b>Rules:</b></span></p> <p><b><span><b> </b></span></b></p> <p class=\"MsoNoSpacing\"><b><b><b>In case you are a new user, you will need to first register for a CodeChef ID <a href=\"/user/register/\">here</a>.</b></b></b></p> <p><b><b> </b></b></p> <p><b> </b></p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\">feedback@codechef.com</a></li> <br /> <li>You can also send in your queries in an email to <a href=\"mailto:contest-admin@codechef.com\" target=\"_blank\">contest-admin@codechef.com</a>, during the contest.</li> <br /> <li>Contest problems will become visible on January 22nd, 2012 at 21:30 (IST). There will be 5 problems in all.</li> <br /> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <br /> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <br /> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> </ul> </b></div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COOK18/1424957612.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "FLOORSMV": {
+            "allow_submission": false,
+            "name": "Moving between Floors",
+            "category_name": "main",
+            "accuracy": 42.86,
+            "successful_submissions": "9",
+            "code": "FLOORSMV",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FALLDOWN": {
+            "allow_submission": false,
+            "name": "Remys last tour",
+            "category_name": "main",
+            "accuracy": 28.57,
+            "successful_submissions": "15",
+            "code": "FALLDOWN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COLLIDE": {
+            "allow_submission": false,
+            "name": "Collision in Space",
+            "category_name": "main",
+            "accuracy": 17.98,
+            "successful_submissions": "217",
+            "code": "COLLIDE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "KSUBSUM": {
+            "allow_submission": false,
+            "name": "Makx Sum",
+            "category_name": "main",
+            "accuracy": 12.22,
+            "successful_submissions": "55",
+            "code": "KSUBSUM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TAKEAWAY": {
+            "allow_submission": false,
+            "name": "Zeta-Nim Game",
+            "category_name": "main",
+            "accuracy": 21.66,
+            "successful_submissions": "32",
+            "code": "TAKEAWAY",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1327257000,
+        "current": 1537439021,
+        "freezing": 0,
+        "start": 1327248000
+    },
+    "user": {
+        "username": ""
+    }
+}

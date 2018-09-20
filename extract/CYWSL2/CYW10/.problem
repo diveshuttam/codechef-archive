@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p> In\u00a0cryptography, a\u00a0transposition cipher\u00a0is a method of encryption by which the positions held by units of\u00a0plaintext\u00a0(which are commonly characters or groups of characters) are shifted according to a regular system, so that the\u00a0ciphertext\u00a0constitutes a\u00a0permutation\u00a0of the plaintext. That is, the order of the units is changed. Mathematically a\u00a0bijective\u00a0function is used on the characters' positions to encrypt and an\u00a0inverse function\u00a0to decrypt. WAP to perform transposition encryption on a string.  \n\n<h3>Input</h3>\n</p><p>In a columnar transposition, the message is written out in rows of a fixed length, and then read out again column by column, and the columns are chosen in some scrambled order. Both the width of the rows and the permutation of the columns are usually defined by a keyword. For example, the word\u00a0ZEBRAS\u00a0is of length 6 (so the rows are of length 6), and the permutation is defined by the alphabetical order of the letters in the keyword. In this case, the order would be \"6 3 2 4 1 5\".\nIn a regular columnar transposition cipher, any spare spaces are filled with nulls; in an irregular columnar transposition cipher, the spaces are left blank. Finally, the message is read off in columns, in the order specified by the keyword. For example, suppose we use the keyword ZEBRAS\u00a0and the message\u00a0WE ARE DISCOVERED. FLEE AT ONCE.\n\n\n<h3>Output Description</h3>\n6 3 2 4 1 5\nW E A R E D \nI S C O V E \nR E D F L E \nE A T O N C \nE Q K J E U \n\n\n<pre>\n<b>Output:</b>\nEVLNE ACDTK ESEAQ ROFOJ DEECU WIREE\n\n\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "CYW Round 2",
+    "languages_supported": "C, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1269855000,
+        "end_date": 1269858600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180185,
+        "submit_start_date": 1269855000,
+        "current": 1537439631
+    },
+    "problem_author_html_handle": "arnavch",
+    "problem_name": "Cryptography",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/arnavch'>arnavch</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "arnavch",
+    "contest_code": "CYWSL2",
+    "max_timelimit": "1",
+    "problem_code": "CYW10"
+}

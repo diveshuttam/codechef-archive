@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>It is the holi season and Singal has placed <b>c</b> containers on the wall to store colors in. He has numbered them from <b>1 .. c</b>.\nContainers are kept at different heights on the wall and are connected through pipes. A pipe connects <b>2</b> containers (at different heights), one at the top end of the pipe and one at the bottom. The container at the bottom end will be filled with color from the container at the top end of pipe. \n<br /> <br />\nThere are some containers which are at the top (i.e there is no pipe connecting them from the above), Singal fills each of such containers with one of the <b>n</b> colors that he has. Other containers are filled through pipes into them \nfrom above. Liquids of different colors are immiscible, so in case a container is connected to multiple containers from above through pipes, it is filled with the color of any one of them (all the (parent) containers are equally likely to be chosen). Example configuration is given in the figure:\n\n<img src=\"http://home.iitk.ac.in/~sshekh/codeforces/graph_1.png\">\n<br />\nSingal wants to know the number of containers of each color. So he asks your help. For each color <b>b</b>, you have to calculate the expected number of containers of color <b>b</b>.\n</p>\n\n\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>Each testcase starts with a line containing 2 integers <b>c</b> and <b>p</b>, the number of containers and pipes respectively. <b>p</b> lines follow, each of the form <b>x y</b> which means there is a pipe with container <b>y</b> at top end and container <b>x</b> at bottom end (x may inherit its color from y). A pipe will occur only once in the input</li>\n<li>Next line contains <b>m</b> and <b>n</b>, number of containers at the top and number of distinct colors that Singal has. <b>m</b> lines follow, each of the form <b>x b</b>, which means that container <b>x</b> has color <b>b</b>. It is guaranteed that each <b>x</b> is distinct and there is no pipe with container <b>x</b> at bottom end. </li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<ul>\n<li>For each test case, print a single line containing <b>n</b> values, <b>i<sup>th</sup></b> value should be the expected number of containers of color <b>i</b>. Output will be accepted within an error limit of 10^-6</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>c, n</b> \u2264 <b>200</b></li>\n<li><b>0</b> \u2264 <b>p</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>x, y</b> \u2264 <b>c</b></li>\n<li><b>1</b> \u2264 <b>b</b> \u2264 <b>n</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n7 8\n1 2\n2 5\n2 3\n3 5\n3 6\n3 7\n4 6\n4 7\n3 2\n5 1\n6 2\n7 2\n\n<b>Output:</b>\n2.666666667 4.333333333 \n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>The input is the one of the figure, 1 and 2 will have color 1 with probability 0.66667 and 2 with probability 0.33334. 4 with have color 2 with probability 1 and 3 will have color 2 with probability 0.6667</b> ...</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426336200,
+        "end_date": 1426422600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426422600,
+        "submit_start_date": 1426336200,
+        "current": 1537436564
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>triveni</span>",
+    "problem_name": "Singal Pipes",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/triveni'>triveni</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "triveni",
+    "contest_code": "IOPC2015",
+    "max_timelimit": "1",
+    "problem_code": "IOPC15L"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Given n numbers, find whether there exists an increasing subsequence of length k.</p>\n<h3>Input</h3>\n<p>First line of input contains T. T test cases follow. <br/><br />\nEach test case space separated integers n and k. i<sup>th</sup> number is (i*i)%10000 (1 &lt;=i &lt;= n). (Take care of i*i going out of integer range)<br/><br />\n0 &lt; T &lt;= 5 <br/><br />\n0 &lt; n &lt;= 10000000 (10^7) <br/><br />\n0 &lt; k &lt;= 10000</br/></br/></br/></br/></p>\n<h3>Output</h3>\n<p>Output T lines, one for each test case. Every line contains either 0 or 1, depending on whether there exists such a subsequence or not.</p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n2\n5 6\n5 4\n\n<b>Output:</b>\n0\n1\n\n<b>Input:</b>\n4\n9928664 4719\n7374604 60\n4648375 9969\n2626697 8608\n\n<b>Output:</b>\n0\n1\n0\n0\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-11-2012",
+    "is_direct_submittable": false,
+    "contest_name": "ZERO1",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1353061800,
+        "end_date": 1353148200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1353148200,
+        "submit_start_date": 1353061800,
+        "current": 1537438634
+    },
+    "problem_author_html_handle": "shivamagarwal",
+    "problem_name": "Increasing Subsequence",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shivamagarwal'>shivamagarwal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shivamagarwal",
+    "contest_code": "ZERO1",
+    "max_timelimit": "0.194332 - 2.99579",
+    "problem_code": "TF03"
+}

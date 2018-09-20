@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Sourabh and Rishabh are enemies of  each other and want to kill each other. Rishabh has lot of money . So he went to the shop to buy bullets but shopkeeper was a nerd he gave him a string conatining 0's and 1's where 1  refers to unused bullet and 0 refers to bullets that are already used.\n<br><br>\nRishabh wants to buy as much bullets as he can but he doesnot want to pay for used bullets therefore he wants to collect bullets in such a way that no used bullets comes with the new bullets (he can start collecting bullet from anywhere in the string, and once he collects a bullet, he can collect bullets either from the left, or from the right without skipping any bullet and stops immediately when he reaches used bullet.) eg. if the string is 1010111011 then maximum number of bullets he can get without any used bullets are 3.\nHelp him by giving him a program for that.</p>\n\n\n\n<h3>Input</h3>\n<p>The first line of input contains T the total number of testcases and in each test case a string of 0's and 1's are given. </p>\n\n\n<h3>Output</h3>\n<p>Output a single line maximum number of bullets he can buy without without taking any used bullets among them.</p>\n\n\n<h3>Constraints</h3>\n<p>1 \u2264 T \u2264 100</p>\n<p>1 \u2264 Length of the string \u2264 10^5</p>\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n10011110111011\n111110001110\n\n\n<b>Output:</b>\n4 \n5\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b>  He will first pick the 7th bullet then keep collecting bullets from its left upto 4th bullet.</p>\n<p><b>Example case 2.</b>  He will first pick the 1st bullet then keep collecting bullets from its right upto 5th bullet.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-01-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Algoflux Qualifiers",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYPY",
+    "todo": false,
+    "time": {
+        "view_start_date": 1485792000,
+        "end_date": 1485801900,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1485877500,
+        "submit_start_date": 1485792000,
+        "current": 1537434185
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>code_hard123</span>",
+    "problem_name": "The Fight",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/code_hard123'>code_hard123</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "code_hard123",
+    "contest_code": "AGOF2017",
+    "max_timelimit": "1",
+    "problem_code": "ALGFLXQB"
+}

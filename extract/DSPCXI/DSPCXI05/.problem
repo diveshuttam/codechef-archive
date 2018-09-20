@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> The DreamSpark Yatra is Microsoft India's initiative at driving wide-spread enthusiasm for, and awareness of the latest innovations and technology. Thousands of students across the country get to experience the latest in technology, sparking, we hope, ideas and innovation. It is also a forum that helps them decide what their career path could be. </p>\n<p>DreamSpark Yatra is being carried out in 100 cities in a period of 100 days. Every MSP is trying to a host a DreamSpark Yatra in his city. To conduct a DSY MSPs need volunteers who\u2019ll help in organizing the Sessions. Being Techno-geeks MSPs have decided to select the volunteer in an interesting way. At first all the interested volunteers will register their names with the respective MSPs. Then, the MSPs will use the following algorithm to select the team: </p>\n<p> For every given name apply an StudentHashing() Function. The StudentHashing() Function produces an integer value. As a result a series of integers is obtained  corresponding to each name. The selected group of students will be a contiguous sub-group which has the maximum total value for the StudentHashing() Function. </p>\n<p>The MSPHashing() Function is defined as \u2013 (((Sum of ASCII values of all characters) % 500)-250). You need to write a program that any MSP can use it to select the volunteers randomly. </p>\n<p>Problem Setter: <a href=\"//www.facebook.com/Aasthik\">Vishal Gupta</a></p>\n\n<h3>Input:</h3>\n<p> Input consists  of a and integer  \u2018m\u2019 (1&lt;=m&lt;=1000) \u2013 the number of interested candidates, followed by names of the candidates(separated by space) in new line. Each name can have a maximum of 50 characters.</p>\n\n<h3>Ouput:</h3>\n<p> Print the number of selected candidates \u2018n\u2019 (&gt;=0) in the group and the value of sum. This should be followed by the list of selected students in a new line. If more than two sub-groups are obtained with the same number of students and same sum value then print the list which comes first in the lexicographical order. Print 'Invalid' for any invalid entry. </p>\n\n<pre>\n<b>Sample Input:</b>\n7\nAyush Azhar Shahzor Zeeshan Amritesh Kaustubh Akhil\n20\nAyush Azhar Shahzor Zeeshan Amritesh Arjun Souptik Shahbaz Shradha Kaustubh  Akhil Prakhar Himanshu Vishal Abhinav Vishesh Sujeet Kunal Jayesh Kapil\n\n<b>Sample Output:</b>\n3 407\nAmritesh Kaustubh Akhil\n4 370\nKaustubh Akhil Prakhar Himanshu\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "DreamSpark - Microsoft Software & Technology Club",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298716200,
+        "end_date": 1298759400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298759400,
+        "submit_start_date": 1298716200,
+        "current": 1537439312
+    },
+    "problem_author_html_handle": "ganesha",
+    "problem_name": "Selecting DreamSpark Volunteers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ganesha'>ganesha</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ganesha",
+    "contest_code": "DSPCXI",
+    "max_timelimit": "0.230769",
+    "problem_code": "DSPCXI05"
+}

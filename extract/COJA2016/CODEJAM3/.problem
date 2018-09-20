@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nFaculty at BITS Pilani K.K. Birla Goa Campus has found out that many of their students have problems with the conceptualization of mathematical expressions evaluated in postfix.<br />\nYou have to help them to develop a program that could evaluate expressions in postfix, therby helpin students to practice.<br /><br />\nThe program should only handle operations with two operands and one operator, real numbers and the four basic operations: addition, subtraction, multiplication and division. Also the program could only remember two operands.\n</p>\n<p><br /></p>\n<h3>Input</h3>\n<p>\nThe input is a file containing many lines for each run with each line having one expression (Each expression's structure is valid). Each line could be up to 100 characters. The program should stop after processing all the expressions. All operations will fit into an 8 bytes number (double).\n</p>\n<h3>Output</h3>\n<p>\nYou are required to show the result of each expression, one result per line. It should have a four digit precision.\n</p>\n<p><b>Sample Input</b> </p>\n<p>\n123 1254 + 1.254 * 45.87 /<br />\n5 4 +<br />\n5 4 + 1 + 2 + 12 -<br />\n3 2 * 1 - 2 / 3.1415 +\n</p>\n<p><b>Sample Output</b></p>\n<p>\n37.6446<br />\n9.0000<br />\n0.0000<br />\n5.6415</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Quark Codejam '16 ",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1454747400,
+        "end_date": 1454758200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454758200,
+        "submit_start_date": 1454747400,
+        "current": 1537435543
+    },
+    "problem_author_html_handle": "dhwanitquark",
+    "problem_name": "Expressions in postfix",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dhwanitquark'>dhwanitquark</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dhwanitquark",
+    "contest_code": "COJA2016",
+    "max_timelimit": "1",
+    "problem_code": "CODEJAM3"
+}

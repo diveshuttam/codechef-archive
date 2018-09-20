@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p dir=\"ltr\">The Fiendish Bombers, unleashed by Emporer Terrorin, have invaded Bungeling Empire in Bomber Nebula. You are Dr.Ein, the scientist assisting the Bomberman. Help him to save Planet Bomber!</p>\n<p dir=\"ltr\">Consider the Empire as <strong>(N+2)x(N+2)</strong> maze free of any rocks and obstacles. The Fiendish Bombers have reached the borders of the Empire. They are present on all border cells of the maze except the corners (they don\u2019t like to be cornered :P). Now consider the remaining NxN maze.</p>\n<p dir=\"ltr\">Some cells are with counter-explosive devices and so bombs cannot be planted there. The bombs can be planted anywhere on the remaining maze. Because of one of the new invention, the Fire, ability of the Bomberman\u2019s bomb is infinite. That is, if it explodes at (a,b) it will destroy enemies from all the cells\u00a0on the horizontal line through (a,b) and on the vertical line passing through (a,b). Note that it would not affect\u00a0<strong>any</strong> of the counter-explosive devices.</p>\n<p dir=\"ltr\">You have an encrypted connection with the Bomberman and can message him (a,b), the coordinates where a bomb can be planted. The cost of each message is <strong>M</strong>.\u00a0But the problem is, you forgot to agree upon the directions of the axis while deciding the origin. \u00a0So, when you message (a,b), Bomberman plants 2 bombs - on (a,b) and on (b,a) (provided they are distinguishable). Also, it is ensured that there is a counter-explosive device on (a,b) if and only if there is a\u00a0counter-explosive device on (b,a). Your task is to minimize the cost of eliminating all enemies.</p>\n<p dir=\"ltr\">Print a single integer, the cost of eliminating all the <strong>4*N</strong> enemies.\u00a0Print <strong>IMPOSSIBLE</strong> if it is impossible to do so.</p>\n<p><strong><span style=\"font-size: 1.17em; line-height: 1.5em;\">Input</span></strong></p>\n<ul>\n<p dir=\"ltr\">\n<li>\nThere are several test cases.</li>\n</p>\n<p dir=\"ltr\">\n<li>Each test case begins with two integers: \u00a0<strong>N</strong> - denoting size of the grid and <strong>M</strong> - denoting cost of single message.</li>\n</p>\n<p dir=\"ltr\">\n<li><strong>N</strong> lines follow. Each containing a string of <strong>N</strong> characters describing the cells of corresponding row. \u201c<strong>#</strong>\u201d denotes cell with counter-explosive device and \u201c<strong>.</strong>\u201d denotes free cell.</li>\n</p>\n<p dir=\"ltr\">\n<li>Input ends with <strong>N=0</strong> and <strong>M=0</strong>. which should not be processed.</li>\n</p>\n</ul>\n<h3>Output</h3>\n<ul>\n<p dir=\"ltr\">\n<li>For each testcase, output a single line, consisting of string \"Case#\" followed by the case number, a colon and the solution of the corresponding case.</li>\n</p>\n</ul>\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 N\u00a0\u2264 100<b><br />\n</b></li>\n<li>1\u00a0\u2264 M \u22641000</li>\n<li>Sum of\u00a0<strong>N</strong> over all test cases\u00a0\u2264 2000</li>\n</ul>\n<h3>Example</h3>\n<pre><b>Sample Input:</b></pre><p><br /></p>\n<p dir=\"ltr\">\n2 1<br /><br />\n#.<br /><br />\n.#<br /><br />\n2 1<br /><br />\n##<br /><br />\n##<br /><br />\n0 0<br />\n</p>\n<p><br /></p>\n<pre><b>Sample Output:</b></pre><p><br /><br />\nCase#1: 1<br /><br />\nCase#2: IMPOSSIBLE<br /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2014",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1393655400,
+        "end_date": 1393741800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1393741800,
+        "submit_start_date": 1393655400,
+        "current": 1537437753
+    },
+    "problem_author_html_handle": "iopc_admin",
+    "problem_name": "Bomberman and the attack of Emperor Terrorin",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/iopc_admin'>iopc_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "iopc_admin",
+    "contest_code": "IOPC2014",
+    "max_timelimit": "1",
+    "problem_code": "IOPC14J"
+}

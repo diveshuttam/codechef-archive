@@ -1,0 +1,97 @@
+{
+    "announcements": "<p><b>21:28 IST:</b> We regret for inconvenience caused in explanation of problem 1. The statement has been updated now. You have to print index of card, not the card number.</p>\r\n<p><b>21:46 IST:</b> Please refresh problem statement for \"Shubham and Maths\". The constraints regarding \"M\" was redundant and removed.</p>",
+    "ip": "149.129.135.113",
+    "code": "ICL2017",
+    "duration": "180",
+    "name": "International Coding League (Rated)",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<!-- .rules-heading { color: #444444;  font-family: Arial, sans-serif;  font-size: 13px; font-family: Arial, sans-serif;  line-height: 23px; } .rules-body p { line-height: 23px;  font-size: 13px; }  .rules-body-ul { line-height: 23px;  list-style-position: initial;  list-style-image: initial;  margin: 10px 15px;  font-size: 13px;         } .rules-body-ul li { padding-left: 3px; } -->\r\n<p><strong class=\"rules-heading\">About the Contest:</strong></p>\r\n<div class=\"rules-body\">\r\n<ul class=\"rules-body-ul\">\r\n<li><strong>Organiser: </strong> The contest is hosted by Birla Institute of Technology &amp; Science, Pilani, Pilani Campus as a part of their techfest, <a title=\"Apogee\" href=\"https://bits-apogee.org/2017/\" target=\"_blank\">Apogee</a>.</li>\r\n<li><strong>Prizes: Rs 20000 for Indian Winners(10k + 6k + 4k). Also, top 5 Global winners and top 5 Indian winners get 300 laddus each.</strong></li>\r\n<li><strong>Registrations for prizes:&nbsp;</strong><strong><strong><a title=\"Click Here for registration for prizes\" href=\"https://goo.gl/forms/ZtGBB3Db0DQGwgLq1\" target=\"_blank\">https://goo.gl/forms/ZtGBB3Db0DQGwgLq1</a></strong></strong></li>\r\n</ul>\r\n</div>\r\n<p><strong class=\"rules-heading\">Contest Details:</strong></p>\r\n<div class=\"rules-body\">\r\n<ul class=\"rules-body-ul\">\r\n<li>This is an&nbsp;<a href=\"https://blog.codechef.com/2017/03/09/a-star-studded-rating-system/\" target=\"_blank\">External Rated Contest</a>.</li>\r\n<li><strong>Duration: </strong>3&nbsp;hours</li>\r\n<li><strong>Start time: </strong>26th March 2017, 2100hrs IST</li>\r\n<li><strong>End time: </strong>27th March 2017, 0000 hrs IST<br /> You may check your timezone <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%253A+ICL2017&amp;iso=20170326T21&amp;p1=44&amp;ah=3\" target=\"_blank\">here</a>.</li>\r\n</ul>\r\n</div>\r\n<p><strong class=\"rules-heading\">Registration:</strong></p>\r\n<div class=\"rules-body\">\r\n<p>You just need to have a CodeChef username to participate. No seperate registration is required. If you do not have a CodeChef ID create one <a href=\"../user/register\" target=\"_blank\"> here</a>.</p>\r\n</div>\r\n<p><br /> <strong class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</strong></p>\r\n<div class=\"rules-body\">\r\n<p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct.</a></p>\r\n</div>\r\n<p><br /> <strong class=\"rules-heading\">Rules and Regulations:</strong></p>\r\n<ul class=\"rules-body-ul\">\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com </a>.</li>\r\n<li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li>\r\n<li>Almost all languages supported on CodeChef are allowed.</li>\r\n<li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li>\r\n<li>Please contact <a href=\"mailto:bhuvnesh_jain@ymail.com\" target=\"_blank\">bhuvnesh_jain@ymail.com</a> for any queries during the contest.</li>\r\n</ul>\r\n<p><strong class=\"rules-heading\">Judging Criteria:</strong></p>\r\n<ul class=\"rules-body-ul\">\r\n<li><strong>All the problems have same points allotted to them.</strong></li>\r\n<li><strong>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</strong></li>\r\n<li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error). There is no time consumed for a problem that is not solved.</li>\r\n<li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li>\r\n<li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li>\r\n</ul>\r\n<div class=\"rules-body-ul\"><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"../ide\" target=\"_blank\">Online IDE</a>.</strong><br /> However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/ICL2017/1489920144.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "ICL1701": {
+            "allow_submission": false,
+            "name": "Cards Game",
+            "category_name": "main",
+            "accuracy": 38.25,
+            "successful_submissions": "472",
+            "code": "ICL1701",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ICL1706": {
+            "allow_submission": false,
+            "name": "Shubham Loves Maths",
+            "category_name": "main",
+            "accuracy": 2.08,
+            "successful_submissions": "2",
+            "code": "ICL1706",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ICL1703": {
+            "allow_submission": false,
+            "name": "Infinite Graph",
+            "category_name": "main",
+            "accuracy": 22.22,
+            "successful_submissions": "18",
+            "code": "ICL1703",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ICL1705": {
+            "allow_submission": false,
+            "name": "Tree Obsession",
+            "category_name": "main",
+            "accuracy": 16,
+            "successful_submissions": "4",
+            "code": "ICL1705",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ICL1704": {
+            "allow_submission": false,
+            "name": "Worst Case Analysis",
+            "category_name": "main",
+            "accuracy": 16.4,
+            "successful_submissions": "178",
+            "code": "ICL1704",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ICL1702": {
+            "allow_submission": false,
+            "name": "Watermelon Farmer",
+            "category_name": "main",
+            "accuracy": 7.55,
+            "successful_submissions": "8",
+            "code": "ICL1702",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1490553000,
+        "current": 1537433955,
+        "freezing": 0,
+        "start": 1490542200
+    },
+    "user": {
+        "username": ""
+    }
+}

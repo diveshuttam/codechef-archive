@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Godi and Abhik are two good friends. But then the day of Department elections came. They both knew that no one in the department is as jobless as they are to contest for the post of Secretary. They had specific set of skills with which they developed closed friends group for the past three years. People belonging to that group socialize with each other so they knew each other well. But when they both decided to go apart, the group split into two parts. And thereafter, no one from a group communicates with anyone from the opposite.<br />\n\n</p>\n<p>\nThe department also has a set of students (say S) who don't mingle well with either of the groups. This is mainly because even though they like Godi or Abhik they don't want to mingle with <b>everyone</b> else in the respective groups. Godi and Abhik used their campaigning skills to attract as much crowd as possible from that set S. (They even supplied food to the student's door steps). Eshwar as greedy as always, thinks that if he pretends to support both Abhik and Godi, he can gain more. He has his own followers including Pradeep.<br />\n\n</p>\n<p>\nSubbu, the current secretary is tired of the cheap tricks played by the students belonging to the set S. He decides to conduct the elections as fairly as possible. So, he declares that \"If and only if students belonging to the set S plan to support at-most one candidate, the elections can proceed\". Obviously, he din't mean that all the students from the set S must support the same group. To check this, he prepares the list of connections between the students (by their ids). If a student is connected to a candidate (directly or indirectly) this implies he/she supports that candidate. But he later forgets the names of the students and just remembers the ids and the list of connections. So, he just checks whether he can construct a network where there is no one like Eshwar (who supports both the candidates) present in the final network. Some students like Spandana may be busy studying that they don't even know the elections are going on. Also there may be the case that no one is in the set S.  Subbu is perfectly fine with all these situations.<br />\n\n</p>\n<p>Now, Abhik and Godi are worried whether the elections will proceed or not. They seek your help, so that they can continue campaigning. Output \"YES\" if the elections will proceed, else print \"NO\".<br />\n<br />\n</p>\n<p>\n<b>Note</b> that students from set S can support a candidate by connecting with at-least one of the students belonging to the closed group of that candidate(incl. the candidate itself). And also sometimes either Godi or Abhik or both can go missing from the list of connections. In that case we can assume that their closed group will also be missing. But it is not assured that they will have non-empty friends group if they are present. Hence, if either or both the candidates are missing then we can safely assume that elections can proceed(what a irony!)\n</p>\n\n<h3>Input</h3>\n<p>Input description.</p>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first line of each test case contains two integers <b>N, M</b>. <b>N</b> denotes the number of students in the department and <b>M</b> denotes the number connections between them in the list prepared by Subbu. Then <b>M</b> lines follow. the ith line describes the ith connection. It contains two space separated integers u and v (u != v). u and v denotes the id of the students and they are 1-indexed.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Output description.</p>\n<ul>\n<li>For each test case, output \"YES\" if elections can proceed else output \"NO\".(Quotes for clarity. Do not print them)</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>20</b></li>\n<li><b>2</b> \u2264 <b>N</b> \u2264 <b>500</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>N*(N-1)/2</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n2 0\n\n2 1\n1 2\n\n5 2\n1 4\n2 3\n\n5 5\n1 4\n3 5\n2 1\n4 2\n2 5\n\n5 3\n1 2\n2 3\n4 5\n\n<b>Output:</b>\nYES\nYES\nYES\nNO\nYES\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b><br />\nNo one is connected. There can't be anyone like Eshwar planning to do the cheap trick.\n</p>\n<p><b>Example case 2.</b><br />\nStudent 1 is connected to Student 2. Subbu can consider this a perfect network by assuming Student 1 as Abhik and Student 2 to be his friend. Or the same with Godi. He can also assume Student 1 is Abhik/Godi and Student 2 is from set S.</p>\n<p><br/><br/></br/></br/></p>\n<p><b> Warning </b> Input text files contains large I/O. Consider using faster I/O techniques.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-01-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Shaastra 2014",
+    "languages_supported": "C, CPP14, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1388845800,
+        "end_date": 1388863800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1388863800,
+        "submit_start_date": 1388845800,
+        "current": 1537437930
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>karthikabinav</span>",
+    "problem_name": "Awesome Threesome",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/karthikabinav'>karthikabinav</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "karthikabinav",
+    "contest_code": "SHSTRA14",
+    "max_timelimit": "1",
+    "problem_code": "AWTHR"
+}

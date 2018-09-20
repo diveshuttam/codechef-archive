@@ -1,0 +1,137 @@
+{
+    "announcements": "<p><b>05/08/2014, 16:50 IST:</b> We have put to re-judge all the submissions for the challenge problem SEASHUF. There was a problem with the score calculation mechanism and we have made changes to it to eliminate negative scores. All submissions having negative scores will be assigned WA. We regret the inconvenience.</p>\r\n<p>\u00a0</p>\r\n<p><b>02/08/2014, 00:40 IST:</b> The test data for the problem\u00a0<a target=\"_blank\" href=\"/AUG14/problems/SIGFIB\">SIGFIB</a> has been updated and the TL has been increased to 6 sec. All the solutions have been rejudged. Regret the inconvenience.</p>",
+    "ip": "149.129.135.113",
+    "code": "AUG14",
+    "duration": "14400",
+    "name": "August Challenge 2014",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div> <div> <div><b>The August Challenge 2014 has ended!</b></div> <div><b>The editorials for the contest can be found\u00a0<a href=\"http://discuss.codechef.com/tags/aug14/\">here</a>.</b></div> <div><b>The problems have been moved to practice section.</b></div> <div><b>Solutions are public for all problems.</b></div> <div><b>Winners Blog Post can be found <a href=\"http://blog.codechef.com/2014/09/30/the-tale-of-the-perfect-scores-continues/\">here</a>.</b></div> <div><b>All the submissions to the challenge problem have been put to rejudge.</b></div> </div> <div></div> <div><b>Rules and Regulations:</b></div> <div> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\">feedback@codechef.com </a>.</li> <li> Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.. Contest problems will become visible on Friday, 1st August 2014 at 15:00 hours IST. Check your timezone <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+August+Challenge+2014&amp;iso=20140801T15&amp;p1=44\">here</a>.</li> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li> Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution</li> <li>You shall not possess more than one account on CodeChef. If you have, then do let us know, so that we can deactivate the insignificant one. If you do not report it and we come to know about it, we may deactivate both the accounts permanently.</li> <li>The score that you will see during the contest will only be partial (obtained on 20% of the test data).</li> <li>The submissions will be re-judged at the end of the contest to get full score (obtained on the whole test data).</li> <li>The number of submissions that one can make during the contest on the problem will be limited to 500.</li> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a></li> <p><b>Note: As a contestant, you are responsible for making sure others don't access the code that you submit. If you're on a network or shared computer, or using an online development environment, make sure that other contestants don't have access to your code. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</b></p> </ul> </div> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/AUG14/1424957878.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "EQUAKE": {
+            "allow_submission": false,
+            "name": "Earthquake",
+            "category_name": "main",
+            "accuracy": 11.66,
+            "successful_submissions": "254",
+            "code": "EQUAKE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLETAB": {
+            "allow_submission": false,
+            "name": "Cleaning Tables",
+            "category_name": "main",
+            "accuracy": 18.3,
+            "successful_submissions": "1746",
+            "code": "CLETAB",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CRAWA": {
+            "allow_submission": false,
+            "name": "The Leaking Robot",
+            "category_name": "main",
+            "accuracy": 28.41,
+            "successful_submissions": "3920",
+            "code": "CRAWA",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SEASHUF": {
+            "allow_submission": false,
+            "name": "Sereja and Shuffling",
+            "category_name": "main",
+            "accuracy": 26.27,
+            "successful_submissions": "114",
+            "code": "SEASHUF",
+            "type": "2",
+            "is_direct_submittable": false
+        },
+        "PUSHFLOW": {
+            "allow_submission": false,
+            "name": "Push the Flow!",
+            "category_name": "main",
+            "accuracy": 4.43,
+            "successful_submissions": "20",
+            "code": "PUSHFLOW",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MOU2H": {
+            "allow_submission": false,
+            "name": "Mountain Holidays 2",
+            "category_name": "main",
+            "accuracy": 19.97,
+            "successful_submissions": "468",
+            "code": "MOU2H",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TSHIRTS": {
+            "allow_submission": false,
+            "name": "Little Elephant and T-Shirts",
+            "category_name": "main",
+            "accuracy": 20.54,
+            "successful_submissions": "491",
+            "code": "TSHIRTS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SIGFIB": {
+            "allow_submission": false,
+            "name": "Team Sigma and Fibonacci",
+            "category_name": "main",
+            "accuracy": 4.44,
+            "successful_submissions": "37",
+            "code": "SIGFIB",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PRGIFT": {
+            "allow_submission": false,
+            "name": "Chef and Gift",
+            "category_name": "main",
+            "accuracy": 15.58,
+            "successful_submissions": "4983",
+            "code": "PRGIFT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "REVERSE": {
+            "allow_submission": false,
+            "name": "Chef and Reversing",
+            "category_name": "main",
+            "accuracy": 18.65,
+            "successful_submissions": "1735",
+            "code": "REVERSE",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1407749400,
+        "current": 1537437468,
+        "freezing": 0,
+        "start": 1406885400
+    },
+    "user": {
+        "username": ""
+    }
+}

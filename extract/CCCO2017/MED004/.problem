@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>As a beginner to the programming, Mishki came to <strong>Codechef</strong> platform, to become a better programmer. She solved some problems and felt very confident. Later being a fan of codechef, she gave a problem to her friends to solve. They will be given a string containing only lower case characters (a-z), and they need to find that by using the characters of the given string, how many times they can print \"codechef\"(without quotes). As they are new to programming world, please help them.</p><br>\n<hr>\n<h3><strong>Input</strong></h3>\n<p>The first line will consists of one integer N denoting the length of string.<br><br>\nNext line will contain the string Str containing only lower case characters.</p>\n<hr>\n<h3><strong>Output</strong></h3>\n<p>Print one integer, denoting the number of times her friends can print \"codechef\" (without quotes).</p>\n<hr> \n<h3><strong>Constraints</strong></h3>\n<p>1\u2264N\u2264106<br>\nEach character of string Str will be in range [a,z]</p><br>\n<h3>input</h3>\n<p>13<br>\ndefclocjkezxh</p>\n<br>\n<h3>output</h3>\n<p>1</p>\n<h3>Explanation</h3>\n<p>Here by using the characters of string, her friends can print \"codechef\" (without quotes) only 1 time.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "CodeChef Coding Competition",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1507717800,
+        "end_date": 1507804200,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1818486003,
+        "submit_start_date": 1507717800,
+        "current": 1537433465
+    },
+    "problem_author_html_handle": "prashantk457",
+    "problem_name": "print_codechef",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/prashantk457'>prashantk457</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "prashantk457",
+    "contest_code": "CCCO2017",
+    "max_timelimit": "1",
+    "problem_code": "MED004"
+}

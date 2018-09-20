@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Irene Adler is furious with Sherlock Holmes, as he is always busy with his work. So Sherlock decides to impress his lady love by buying her some gifts. He knows that he will have to buy at least K gifts. Miser that he is, he decides to go to the gift shop, and buy the cheapest K gifts available.</p>\n<p>The shopkeeper on seeing the famous detective enter his shop, decides to test his intelligence. He organizes all the gifts in the shop in N lines, each line having M gifts. To further add to Sherlock\u2019s misery, he encloses the gifts in each row in a transparent tube, and tells him that the gifts are accessible only from the ends i.e. he can only pick a gift only if there is no gift to its right or to its left. He asks Sherlock to pick one gift at a time and challenges him to minimize the total cost of the K gifts.</p>\n<p>Sherlock, happy to have a challenge even in this boring task of buying gifts, accepts his challenge happily. Now he needs your help to pass the shopkeeper\u2019s challenge and save some money. Given the cost of each gift in the N*M grid, find the minimum cost in which he can buy at least K gifts.</p>\n<h3>Input</h3>\n<p>The first line contains an integer T, the number of test cases.<br />\nThe first line of each test case contains 3 integers N,M and K.<br />\nThe next N lines contain M integer each, the cost of the items.</p>\n<h3>Constraints</h3>\n<p>1&lt;=T&lt;=5<br/><br />\n1&lt;=N&lt;=100<br />\n1&lt;=M&lt;=1000<br />\n1&lt;=K&lt;=1000<br />\n1&lt;=C&lt;=100000</br/></p>\n<h3>Output</h3>\n<p>For each test case output a single line containing the minimum cost of K gifts.</p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n2\n2 2 3\n6 3\n1 9\n2 4 5\n2 1 10 5\n20 1 50 1\n\n<b>Output:</b>\n10\n19\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Cranium  2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1360765800,
+        "end_date": 1360783800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1360783800,
+        "submit_start_date": 1360765800,
+        "current": 1537438521
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>sameer47</span>",
+    "problem_name": "Girl Trouble",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sameer47'>sameer47</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sameer47",
+    "contest_code": "CRNM2013",
+    "max_timelimit": "3",
+    "problem_code": "CRNM1302"
+}

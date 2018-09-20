@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Abhi Ram to avail his revenge from Krishna Murthy wants to bring in investors into his company <b>KMC</b>. He plans to conduct different rounds for the investors to participate . In each round <b>N</b> investors invest different capitals with a certain growth rate <b>G</b>. He also decides a minimum limit <b>L</b> for each round so that only the investors whose increase in investment after first round is greater than or equal to limit(<b>L</b>) reach the next round. In the next round a new set of investors add up to the qualified investors. In the new round the capital of the qualified investors will be their closing investment in the previous round, while the investments of the new investors follow the intial procedure. The rounds will continue till he chooses the limit <b>L</b> to be <b>-1</b>. After the completion of all the rounds, help Abhi to find the total investment <b>T</b> in his company.</p>\n<p>\u00a0</p>\n<h3>Input:</h3>\n<p><b>For each round :</b><br />\nThe first line contains an integer <b>N</b> which gives the number of investors in the round.<br />\nThe second line consists <b>N</b> space separated integers (<b>C<sub>1</sub>...C<sub>N</sub></b>) which denote the investments (<b>C<sub>i</sub></b> is the investment of <b>i-th</b> investor).<br />\nThe third line two integers <b>L</b> and <b>G</b> which denote limit and growth rate..</p>\n<h3>Output:</h3>\n<p>Output consists of a single integer <b>T</b> which is the total investment after all rounds. .</p>\n<p> <b>Note:</b><br />\nThe rounds will be carried out till the user input <b>L=-1</b>.<br />\nAfter each round if the investment returns a float value it should be rounded to the nearest integer.</p>\n<h3>Constraints:</h3>\n<ul>\n<li>\n<p>1&lt;=<b>N</b>&lt;=500</p></li>\n<li>1&lt;=<b>C<sub>i</sub></b>&lt;=10<sup>5</sup></li>\n<li>-1&lt;=<b>L&lt;=10<sup>4</sup></b></li>\n<li>0&lt;=<b>G</b>&lt;=20\n</li>\n</ul>\n<h3>Example:</h3>\n<pre><b>Input:\n7\n37 78 16 21 35 53 93 \n15 4\n7\n47 31 93 77 11 36 22 \n13 7\n3\n90 47 72 \n18 -1\n\n\n<b>Output:</b>\n379\n734\n</b></pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ITerate",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457242200,
+        "end_date": 1457328600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457328600,
+        "submit_start_date": 1457242200,
+        "current": 1537435247
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>sushmee04</span>",
+    "problem_name": "KMC",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sushmee04'>sushmee04</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sushmee04",
+    "contest_code": "ITRA2016",
+    "max_timelimit": "1",
+    "problem_code": "ITRA04"
+}

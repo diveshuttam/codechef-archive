@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><font style=\"font-size:17px\">\n\nOne day Watson found a sequence of <strong>n</strong> integers, written on a whiteboard. Watson can perform one operation with it, the operation consists of two steps:\n<br>\n<br>\n\n    1. Find the number that goes <strong>k-th</strong> in the current sequence and add the same number to the end of the sequence;<br>\n\n    2. Delete the first number of the current sequence. \n<br>\n<br>\n\nWatson wonders after how many operations all numbers on the board will be the same and whether all numbers will ever be the same.\n\n\n<br><br>\n\n<em><strong>Input</strong></em>\n\n<br><br>\n\nThe first line contains two space-separated integers <strong>n</strong> and <strong>k</strong> <strong>(1\u2009\u2264\u2009k\u2009\u2264\u2009n\u2009\u2264\u2009105).</strong>\n<br>\n<br>\n\nThe second line contains <strong>n</strong> space-separated integers: a<sub>1</sub>,\u2009a<sub>2</sub>,\u2009...,\u2009a<sub>n</sub> (1\u2009\u2264\u2009a<sub>i</sub>\u2009\u2264\u2009105) \u2014 the sequence that Watson found.\n\n<br><br>\n\n<em><strong>Output</strong></em>\n\n<br><br>\n\nPrint the minimum number of operations, required for all numbers on the whiteboard to become the same. If it is impossible to achieve, print -1.\n\n\n\n<br>\n<br>\n\n\n\n\n<strong>Examples</strong>\n<br>\n<hr>\n\n\n\n<strong>Input</strong>\n\n<br>\n\n3 2\n<br>\n3 1 1\n\n<br>\n\n\n<br>\n\n\n<strong>Output</strong>\n\n<br>\n\n1\n\n\n<br>\n\n\n<hr>\n\n<strong>Input</strong>\n\n<br>\n\n3 1\n<br>\n3 1 1\n\n\n\n<br>\n<br>\n\n<strong>Output</strong>\n\n<br>\n\n-1\n\n<br>\n\n</font>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "CODEX_X",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1525012200,
+        "end_date": 1525023000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1525023000,
+        "submit_start_date": 1525012200,
+        "current": 1537432498
+    },
+    "problem_author_html_handle": "futurzclub",
+    "problem_name": "Watson and the secret Sequence",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/futurzclub'>futurzclub</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "futurzclub",
+    "contest_code": "COX2018",
+    "max_timelimit": "1",
+    "problem_code": "COX02"
+}

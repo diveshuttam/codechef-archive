@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>This problem was part of the <a href=\"http://www.codechef.com/APRIL09/\">CodeChef April Challenge</a>.  All user submissions for this contest problem are publicly available <a href=\"http://www.codechef.com/APRIL09/status/B5/\">here</a>.</b></p>\n\n<p>Bugs have gotten into The Chef&#8217;s kitchen!  Help him trap them all and he&#8217;ll make you a batch of his famous chocolate chip cookies.  You are given a given a square map of the kitchen divided into tiles, and in each tile sits some known number of bugs.  You also have a square trap, which can be dropped to cover a certain number of tiles (the trap may only cover tiles from within the map, and must be aligned to the borders of the kitchen). However, the trap only catches bugs from one of the tiles which it has covered, having a minimum number of bugs on it. For all possible positions at which the trap can be dropped, determine number of bugs that will be caught.\n\n<h3>Input</h3>\n<p>Two numbers, 0< <var> n </var> <= 1000 (size of the map), and 0< <var>k</var> <= n (size of the trap), followed by <var>n</var> rows with <var>n</var> numbers, determining the number of bugs on each tile.  The number of bugs on each tile will fit in an signed 32-bit integer.\n\n<h3>Output</h3>\n<p>You should output <var>n-k+1</var> rows with <var>n-k+1</var> numbers in each row. \n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n4 2\n0 1 2 3\n4 5 6 7\n8 9 0 1\n2 3 4 0\n\n<b>Output:</b>\n0 1 2\n4 0 0\n2 0 0\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-03-2009",
+    "is_direct_submittable": false,
+    "contest_name": "April 2009 (Contest II)",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1238578200,
+        "end_date": 1239787800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1239802200,
+        "submit_start_date": 1238578200,
+        "current": 1537439955
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Squash the Bugs",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "APRIL09",
+    "max_timelimit": "0.220114 - 0.52956",
+    "problem_code": "B5"
+}

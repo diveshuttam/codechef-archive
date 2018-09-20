@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem description.</h3>\n<p>Masadla is very passionate about his business. He has been working on it for past many years and wants to make it  big. For this purpose he will be meeting an investor in the coming week. In the meeting he would have to show a graphical representation of the profit his business has been making .\n</p>\n<p>\nHe knows that to impress the investor,  he must have a good non-dropping profit graph for his company. But unfortunately this wasn\u2019t the case,  so he decides to be clever and drop some numbers and make the graph non - dropping. But there is a catch -  he can\u2019t drop a lot of numbers as investor would then get to know what he has done .Can you help him figure out, how many such numbers at best he can retain which would satisfy the criteria he needs for plotting the graph?</p>\n<h3>Input Description</h3>\n<p> The first line contains a single integer <b>N</b> denoting the number of profit data points for Masadla's business . The second line contains <b>N</b> space-separated integers <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b> denoting the profit figures for his business in increasing order of time</p>\n<p>\u00a0</p>\n<h3>Output Description</h3>\n<p>For each test case, output one integer as solution for given input as per problem statement on new line.\n</p>\n<p>\u00a0</p>\n<h3>Sample Input</h3>\n<p>\n5<br />4 1 5 5 7\n</p>\n<p>\u00a0</p>\n<h3>Sample Output</h3>\n<p>\n4\n</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100000</b></li>\n<li><b>-1000000</b> \u2264 <b> <b>A<sub>i</sub></b> \u2264 <b>1000000</b></b></li>\n</ul>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "9-08-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Procon 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1407670200,
+        "end_date": 1407679200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1407679200,
+        "submit_start_date": 1407670200,
+        "current": 1537437483
+    },
+    "problem_author_html_handle": "procon2014",
+    "problem_name": "Plotting Good Graphs",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/procon2014'>procon2014</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "procon2014",
+    "contest_code": "PRCNSR14",
+    "max_timelimit": "1",
+    "problem_code": "PLTGRP"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Dhapu is a school girl who hacks and programs in free time. But right now she has to do her boring school homework. It's a few addition and subtraction problems. She has gotten bored with doing these repetitive questions. So, she wants to automate the entire process. Will you help her write a program to complete her math homework in a fun way?</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line has an unsigned integer Q denoting the number of questions she wants to solve using the program.<br />\nEach question is in the form of a line. The line consists of 2 very long integers separated by either an addition (+) sign or a Subtraction sign (-).</p>\n<h3>Output</h3>\n<p>For every test case, print the answer to the math question.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li>1 &lt;= T &lt;= 1000</li>\n<li>1 &lt;= Operands &lt;= 10^200</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n1+1\n1-2\n141654614141045641415616417161565497897981246+489748946511344946164879465416948465489426\n5467246752197212658296172941726172167-5467246752197212658296172941726172166\n\n<b>Output:</b>\n2\n-1\n142144363087556986361781296626982446363470672\n1\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-12-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Aarohan 2, 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, RUBY, SCALA, WSPC, SCM qobi, ST, SCM guile, TCL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1421022600,
+        "end_date": 1421152200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1421152200,
+        "submit_start_date": 1421022600,
+        "current": 1537437019
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>sidthekidder</span>",
+    "problem_name": "Dhapu and the Big Sums",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sidthekidder'>sidthekidder</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sidthekidder",
+    "contest_code": "ARHN1502",
+    "max_timelimit": "1",
+    "problem_code": "ARHN04"
+}

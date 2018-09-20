@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><br /></p>\n<p>\nIndian Cricket Team has yet again beaten the Pakistan Cricket Team in t20 world cup. The Indian fans are unable to control their emotions on this win. Just like the fans, the players are also having a galla time.</p>\n<p><br /></p>\n<p>\n<b>Hardik Pandya</b> ,the new dude of the team, brought N bottles of beer for the team.The capacity of bottles may vary like one bottle can contain x litres of beer while the other can contain y liters of beer. Seeing so many beer bottles around our very own <b>Yuvraj Singh</b> decided to play a game with team. He gave them M pairs of integers where each pair denoted the starting and ending point of bottles. For example a pair(x,y) denotes all the beer bottles starting from x and ending at y.\n</p>\n<p><br /></p>\n<p>\nAfter this he started the game. The game continued for Q rounds. In each round Yuvi will tell the index of any beer bottle. If this bottle contains beer, Hardik will drink exactly 1 litre of beer from this bottle and then keep the bottle back at its position. If the bottle is already empty nothing happens. After each round Yuvi asks the team to tell him the total number of pairs(orignally given by Yuvi to the team) such that it does not contain any beer i.e. all the bottles that are included in that pair is empty.\n</p>\n<p><br /><br />\nSince the team is in trouble now , its your time to help out our heroes.<br />\n<br /><br /></p>\n<h3>Input:</h3>\n<p>The first line contains 2 integers <b>N</b> and <b>M</b> denoting the number of beer bottles and the number of pairs given by Yuvi to the team. This is followed by N space separated integers each denoting the capacity of beer bottles.After this we have M pairs of integers each separated by a new line. This is followed by an integer <b>Q</b> which denotes the number of rounds the team will play. After this we have Q integers each indicating the index of a beer bottle.<br />\n<br /><br /></p>\n<h3>Output:</h3>\n<p>Output <b>Q</b> lines , each line containing the answer of that round.<br />\n<br /><br /></p>\n<h3>Constraints:</h3>\n<p><br />1 &lt;= <b>N,M,Q</b> &lt;= 10^5<br /><br />\n<br />1 &lt;= <b>Capacity of bottle</b> &lt;= 10^5<br /><br />\n<br />The Capacity of bottle will always be an integer.<br /><br />\n<br /></p>\n<h3>Example</h3>\n<p><b>Input:</b><br /><br />\n4 3<br /><br />\n2 1 1 1<br /><br />\n2 3<br /><br />\n1 4<br /><br />\n3 3<br /><br />\n5<br /><br />\n4<br /><br />\n3<br /><br />\n1<br /><br />\n2<br /><br />\n1<br /><br />\n<br /><br />\n<b>Output</b><br /><br />\n0<br /><br />\n1<br /><br />\n1<br /><br />\n2<br /><br />\n3<br /><br />\n<br /></p>\n<h3>Explaination</h3>\n<p>After <b>2nd</b> round the state of bottles is <b>2 1 0 0</b>. So pair (3,3) is empty.<br />\n<br />After <b>4th</b> round the state is <b>1 0 0 0</b>. So pair (3,3) and (2,3) are empty.<br />\n<br />After <b>5th</b> round the state is <b>0 0 0 0</b>. So all the 3 pairs are empty now.<br />\n<br /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "BIT Mesra Overnight Coding",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1458662400,
+        "end_date": 1458675000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1458675000,
+        "submit_start_date": 1458662400,
+        "current": 1537435051
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>droidkid</span>",
+    "problem_name": "The Victory Party",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/droidkid'>droidkid</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "droidkid",
+    "contest_code": "BITC2016",
+    "max_timelimit": "1",
+    "problem_code": "TVP"
+}

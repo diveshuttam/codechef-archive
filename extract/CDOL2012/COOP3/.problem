@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Pratik has built a line follower bot. A line follower is essentially a robot which can follow a white line and the participant is graded based upon how effectively his robot performs the task at hand. Pratik decided to enter a Robotics contest to see how his bot fared over the others. The contest however had another small task that the bot was required to perform. <p>\nThe arena on which the robot was to be judged was a small 2-D matrix or grid with a black background and the lines of the grid were either red or white in color. The white lines formed a closed path, i.e. it always ended at the starting point, and no two white lines intersected. The robot was required to follow only the white lines and count the number of squares enclosed within this area. Pratik noticed red dots at the intersection of any two lines. These red dots were the corners of the squares in the grid. Pratik realized that his bot could still win the contest if he can write an extra piece of code which takes in the directions followed by his bot as input and calculates the number of squares enclosed. He reconfigured his bot such that it reported the direction in which it was travelling as and when it detected a red dot. So the input from the robot was of the form North, South, East, West. The dots were unit length apart. Help Pratik win this contest by figuring out an algorithm which takes in these sequence of steps and gives out the total area enclosed within this path.  \n\n\n\n<h3>Input</h3>\n<p>The first line of input contains 'T', the number of test cases (1<=T<=1000). This is followed by 'T' test cases. Each test case consists of one line containing a string (of length upto 100000) which is the sequence of steps ('N', 'S', 'E' or 'W') taken.\n\n<h3>Output</h3>\n<p>The output should consist of 'T' lines corresponding to the 'T' test cases. Each line should contain one number, which is the area enclosed by the walk.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\nENWS\nENWWSSEN\nNENESSWSSWWNEN\n\n\n<b>Output:</b>\n1\n3\n6\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Code Olympics 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330749000,
+        "end_date": 1330759800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1330759800,
+        "submit_start_date": 1330749000,
+        "current": 1537438909
+    },
+    "problem_author_html_handle": "karthikn5",
+    "problem_name": "A Walk to Remember",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/karthikn5'>karthikn5</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "karthikn5",
+    "contest_code": "CDOL2012",
+    "max_timelimit": "0.289362 - 0.578723",
+    "problem_code": "COOP3"
+}

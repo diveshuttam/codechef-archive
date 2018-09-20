@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p><html><br />\n<head><br />\n    <title>COPRIMES</title><br />\n</head><br />\n<body></body></html></p>\n<p>\n        <i>Motherboard</i>, the evil mother of our <i>Farzi coder</i> has gifted him an Array <b>A[]</b> of size <b>N</b>. She wanted to test the coding skills of her son. So she asked him <b>Q</b> questions of the form: given three integers (<b>L, R, K</b>), find number of special subsets of size <b>K</b> of the subarray <b>A[L], A[L+1], .... A[R]</b>. A set is special, if the greatest number which can divide all the elements of the set is 1.\n    </p>\n<p>\n        Please help our <i>Farzi Coder</i> in solving the task. As the answer can be large, print it modulo <b>10^9+7</b>.\n    </p>\n<h2>Input</h2>\n<p>\n\t\tThe first line of each file has the integer <b>N</b> denoting the size of array.\n\t</p>\n<p>\n\t\tNext line contains <b>N</b> space separated integers.\n\t</p>\n<p>\n\t\tNext line contains one integer <b>Q</b> denoting the number of queries on the array.\n\t</p>\n<p>\n\t\tNext <b>Q</b> lines contain 3 space separated integers each, \"<b>L R K</b>\" (without quotes).\n\t</p>\n<h2>Output</h2>\n<p>\n\t\tFor each query, print the required answer.\n\t</p>\n<h2>Constraints</h2>\n<p><b>1 \u2264 N \u2264 50000</b></p>\n<p><b>1 \u2264 L \u2264 R \u2264 N</b></p>\n<p><b>1 \u2264 Q \u2264 50000</b></p>\n<p><b>1 \u2264 A[i] \u2264 100000</b></p>\n<p><b>1 \u2264 K \u2264 R - L + 1</b></p>\n<h2>Sample</h2>\n<h3>Input</h3>\n<pre>\n10 \n1 2 3 4 5 6 7 8 9 10\n3\n1 5 2\n1 10 3\n1 10 4\n\t</pre><h3>Output</h3>\n<pre>\n9\n109\n205\n\t</pre><h3>Explanation</h3>\n<p>For query 1, the special sets of size 2 between the indices 1 and 5 are: {1, 2} {1, 3} {1, 4} {1, 5} {2, 3} {2, 5} {3, 4} {3, 5} {4, 5}</p>\n<p><br />\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-12-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Amritapuri Onsite Mirror Contest 2015",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1450676271,
+        "end_date": 1450690200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1761681101,
+        "submit_start_date": 1450676271,
+        "current": 1537435715
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>adurysk</span>",
+    "problem_name": "COPRIMES",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acm15amr'>acm15amr</a>, <a class='problem-tag-small ' href='/tags/problems/adurysk'>adurysk</a>, <a class='problem-tag-small ' href='/tags/problems/math'>math</a>, <a class='problem-tag-small ' href='/tags/problems/mo-algorithm'>mo-algorithm</a>, <a class='problem-tag-small ' href='/tags/problems/mobius_function'>mobius_function</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "adurysk",
+    "contest_code": "AMR15MOS",
+    "max_timelimit": "4",
+    "problem_code": "AMCOP"
+}

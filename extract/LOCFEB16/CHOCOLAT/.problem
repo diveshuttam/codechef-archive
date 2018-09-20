@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nBalajiganapathi and Bipin are brothers. They have saved their money to buy Dairy Milk for their respective girlfriend on this Valentine's day. Balaji managed to buy <b>M</b> chocolates and Bipin managed to buy <b> N</b> chocolates.\n</p>\n<p>They have made a bet as if who will give more Dairy Milk to their girlfriend.If Bipin manages to give more chocolates then Bipin is considered as the winner, else Balaji is!<br />\nNOTE: If they both buy same number of chocolates, there is no winner.\n</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.Each line contains 2 integers- N and M-the number of chocolates they buy..</p>\n<h3>Output</h3>\n<p>For each test case, output who wins the game and also by what margin does he win.(See the sample test cases) If there is a tie print \"No Winner\".</p>\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100000</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n4 6\n8 1\n\n<b>Output:</b>\n</pre><p>Balaji 2<br />\nBipin 7</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "LoC Competitive Programming Marathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1456425000,
+        "end_date": 1456770540,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1456770540,
+        "submit_start_date": 1456425000,
+        "current": 1537435275
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>bipin2</span>",
+    "problem_name": "Bipin vs Balajiganapathi ",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bipin2'>bipin2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bipin2",
+    "contest_code": "LOCFEB16",
+    "max_timelimit": "1",
+    "problem_code": "CHOCOLAT"
+}

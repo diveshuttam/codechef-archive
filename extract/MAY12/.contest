@@ -1,0 +1,137 @@
+{
+    "announcements": "<p><span style=\"color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 18px; text-align: left;\"><b>01/05/2012, 15:00 HRS IST</b>: We are still perfecting the 10th problem of the contest and will be</span><span style=\"color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 18px; text-align: left;\">uploading the same soon. Please bear with us.</span></p>\r\n<p>\u00c2\u00a0</p>\r\n<p style=\"text-align: -webkit-auto;\"><b style=\"color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 18px; text-align: left;\">01/05/2012, 15:50 HRS IST</b><span style=\"color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 18px; text-align: left;\">: </span><span style=\"color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 18px; text-align: left;\">We have updated the problem statement for <a href=\"/MAY12/problems/MEDIAN\">MEDIAN</a>. An old problem statement was visible before. Regret the inconvenience caused.<br /></span></p>\r\n<p><b style=\"color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 18px; text-align: left;\"><br />03/05/2012, 16:30 HRS IST</b><span style=\"color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 18px; text-align: left;\">: </span><span style=\"color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 13px; line-height: 18px; text-align: left;\">We have uploaded the 10th problem <a href=\"/MAY12/problems/TICKETS\">TICKETS</a>. Sorry for the delay.</span></p>",
+    "ip": "149.129.135.113",
+    "code": "MAY12",
+    "duration": "14400",
+    "name": "May Challenge 2012",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p>\u00a0</p> <p class=\"MsoNoSpacing\"><b>The May Contest has ended!</b></p> <p class=\"MsoNoSpacing\"><b>Editorials on each problem can be viewed\u00a0<a href=\"/wiki/may-2012-contest-problem-editorials\">here</a>.<br /></b></p> <p class=\"MsoNoSpacing\"><b>All problems have been added to the practice section.</b></p> <p class=\"MsoNoSpacing\"><b> </b><b>Solutions are public for all problems.</b></p> <p class=\"MsoNoSpacing\"><b>Winners Blog Post can be viewed <a href=\"http://blog.codechef.com/2012/05/11/venuswitharms-takes-the-sweet-spot/\">here</a>.</b></p> <p class=\"MsoNoSpacing\"><b>The New Contest Rating can be viewed\u00a0<a href=\"/long/ranklist/AX/\" target=\"_blank\">here</a>.</b></p> <p>\u00a0</p> <p class=\"MsoNoSpacing\"><b>Rules:</b><b> </b></p> <p class=\"MsoNoSpacing\"><span><br />Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a><br /><br /></span></p> <p class=\"MsoNoSpacing\"><span>Contest problems will become visible on May 1st 2012 at 15:00 hours IST. Check your timezone\u00a0<a href=\"http://timeanddate.com/worldclock/fixedtime.html?msg=May+Challenge+2012&amp;iso=20120501T15&amp;p1=44\">here</a>.</span><br /><br /></p> <p class=\"MsoNoSpacing\"><span>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.<br /><br /></span></p> <p class=\"MsoNoSpacing\"><span>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.<br /><br /></span></p> <p class=\"MsoNormal\"><span>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</span></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/MAY12/1424957664.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CHEFHOME": {
+            "allow_submission": false,
+            "name": "A Home for Chef",
+            "category_name": "main",
+            "accuracy": 21.58,
+            "successful_submissions": "523",
+            "code": "CHEFHOME",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CKROACH": {
+            "allow_submission": false,
+            "name": "Killing Gs",
+            "category_name": "main",
+            "accuracy": 80.52,
+            "successful_submissions": "255",
+            "code": "CKROACH",
+            "type": "2",
+            "is_direct_submittable": false
+        },
+        "TICKETS": {
+            "allow_submission": false,
+            "name": "Selling Tickets",
+            "category_name": "main",
+            "accuracy": 3.54,
+            "successful_submissions": "21",
+            "code": "TICKETS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DIGFORST": {
+            "allow_submission": false,
+            "name": "Digits Forest",
+            "category_name": "main",
+            "accuracy": 10.94,
+            "successful_submissions": "124",
+            "code": "DIGFORST",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LEBOXES": {
+            "allow_submission": false,
+            "name": "Little Elephant and Boxes",
+            "category_name": "main",
+            "accuracy": 15.5,
+            "successful_submissions": "59",
+            "code": "LEBOXES",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MEDIAN": {
+            "allow_submission": false,
+            "name": "Little Elephant and Median",
+            "category_name": "main",
+            "accuracy": 12.57,
+            "successful_submissions": "260",
+            "code": "MEDIAN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHEFLUCK": {
+            "allow_submission": false,
+            "name": "Lucky lucky number",
+            "category_name": "main",
+            "accuracy": 43.75,
+            "successful_submissions": "1543",
+            "code": "CHEFLUCK",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "STONES": {
+            "allow_submission": false,
+            "name": "Jewels and Stones",
+            "category_name": "main",
+            "accuracy": 38.93,
+            "successful_submissions": "1633",
+            "code": "STONES",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TWSTR": {
+            "allow_submission": false,
+            "name": "Remember the recipe",
+            "category_name": "main",
+            "accuracy": 30.81,
+            "successful_submissions": "1086",
+            "code": "TWSTR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DIVPAIR": {
+            "allow_submission": false,
+            "name": "Divisible Pairs",
+            "category_name": "main",
+            "accuracy": 12.06,
+            "successful_submissions": "492",
+            "code": "DIVPAIR",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1336728600,
+        "current": 1537438805,
+        "freezing": 0,
+        "start": 1335864600
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>ISRO is planning to build a landing platform on MARS as a part of MOM. It has selected a small 2-D rectangular region for the same, and every point in the region has a strength associated with it. The landing platform should be in the form of a cross (see definition below for more details) and as strong as possible.</p>\n<p>The selected 2-D rectangular region has <b>M</b> * <b>N</b> points represented by (x, y), for all <b>0</b> &lt;= x &lt; <b>M</b>, <b>0</b> &lt;= y &lt; <b>N</b>. Let <b>W[i][j]</b> denote the strength of the point (i, j). We define a cross as follows:</p>\n<ul>\n<li>\n<p>\nIt consists of 2 line segments of equal length. The end points of the line segments should coincide with any of the given <b>M</b> * <b>N</b> points.</p>\n</li>\n<li>\n<p>Each of the line segments are at an angle of 45\u00b0 with both the <b>X</b> &amp; <b>Y</b> axis.</p>\n</li>\n<li>\n<p>Both the line segments intersect exactly at one point, and their centres coincide. (i.e) if the 2 line segments are represented by { (<b>x<sub>11</sub></b>, <b>y<sub>11</sub></b>), (<b>x<sub>12</sub></b>, <b>y<sub>12</sub></b>) }, { (<b>x<sub>21</sub></b>, <b>y<sub>21</sub></b>), (<b>x<sub>22</sub></b>, <b>y<sub>22</sub></b>)  }, then (<b>x<sub>11</sub></b>+<b>x<sub>12</sub></b>) / <b>2</b> = (<b>x<sub>21</sub></b>+<b>x<sub>22</sub></b>) / <b>2</b> and (<b>y<sub>11</sub></b>+<b>y<sub>12</sub></b>) / <b>2</b> = (<b>y<sub>21</sub></b>+<b>y<sub>22</sub></b>) / <b>2</b>. The point where the 2 line segments intersect is called the center of the cross. </p>\n</li>\n<li>\n<p>Each line segment of the cross should have a non-zero length. Hence, a single point cannot be considered as a cross.</p>\n</li>\n</ul>\n\n<p>\nThe strength of a cross is defined as the sum of strengths of all points that lie on it. Your task is to find the cross with maximum strength, which ISRO would like to use as the landing platform.</p>\n\n<h3>Input</h3>\n<p>The first line contains an integer <b>T</b>, denoting the number of test cases.</p>\n<p>Then for each test case, the first line contains two integers <b>M</b> and <b>N</b>.</p>\n<p>Each of the following <b>M</b> lines, contain <b>N</b> space separated integers, where the j<sup>th</sup> integer on the i<sup>th</sup> line denotes <b>W[i-1][j-1]</b>, for all <b>1</b> &lt;= i &lt;= <b>M</b>, <b>1</b> &lt;= j &lt;= <b>N</b>.</p>\n\n<h3>Output</h3>\n<p>For each test case, output a single integer denoting the strength of the maximum-strength cross, on a separate line</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>T</b> &le; <b>100</b></li>\n<li><b>2</b> &le; <b>M</b> &le; <b>100</b></li>\n<li><b>2</b> &le; <b>N</b> &le; <b>100</b></li>\n<li><b>-10<sup>6</sup></b> &le; <b>W[i][j]</b> &le; <b>10<sup>6</sup></b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3 3\n-1 -1 1\n-1 -1 -1\n1 -1 -1\n2 3\n0 1 -2\n2 3 1\n\n<b>Output:</b>\n-1\n6\n\n</pre>\n<h3>Explanation</h3>\n<p>In the first case, the cross formed by the line segments {(0, 0), (2, 2)} and {(0, 2), (2, 0)} has the maximum strength = 1+(-1)+1+(-1)+(-1) = -1. <b><u>Note</u></b>: You cannot choose a cross with 0 strength (not passing through any of the given points) here, because it is given that each line segment of the cross should pass through atleast one of the given points</p>\n<p>In the second case, the cross formed by the line segments {(0, 0), (1, 1)} and {(0, 1), (1, 0)} has the maximum strength = 0+3+1+2 = 6</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-10-2014",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Amritapuri Site, 2nd Practice Round 2015",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1444393800,
+        "end_date": 1444404600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1444404600,
+        "submit_start_date": 1444393800,
+        "current": 1537435955
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Landing Platform",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acm-icpc'>acm-icpc</a>, <a class='problem-tag-small ' href='/tags/problems/acmamr14'>acmamr14</a>, <a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>, <a class='problem-tag-small ' href='/tags/problems/enumeration'>enumeration</a>, <a class='problem-tag-small ' href='/tags/problems/simple'>simple</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "TSTAM15",
+    "max_timelimit": "2",
+    "problem_code": "ACM14AM4"
+}

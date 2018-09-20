@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Rahul wants to encode lower case alphabet in to special symbol . in such a way that  \u2018)\u2019  for a ,  \u2018!\u2019 for b ,  \u2018@\u2019 for c. The pattern repeats after j  ie \u2018)\u2019 for k, \u2018!\u2019 for l, and t  ie \u2019)\u2019 for u and so on. You can also see on your numeric symbol 0 to 9. Rahul is given a string , please help him to encode lower case alphabet in to special symbol.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<ul>\n<li>The first line of input contains <b>T</b>, the number of  test cases, the next <b>T</b> lines contain one string each.</li>\n\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p></p>\n<ul>\n<li>Print a single containing the encoded string  For each test case.</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>length of string  </b> \u2264 <b>100</b></li></ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\nabcd\nrahul\n\n<b>Output:</b>\n)!@#\n&)&)!\n\n</pre>\n<p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Noobie Night",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1523097000,
+        "end_date": 1523111400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1523111400,
+        "submit_start_date": 1523097000,
+        "current": 1537432662
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>rahulbitd6179</span>",
+    "problem_name": "Rahul  and his encryption",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rahulbitd6179'>rahulbitd6179</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rahulbitd6179",
+    "contest_code": "NOON2018",
+    "max_timelimit": "1",
+    "problem_code": "NN02"
+}

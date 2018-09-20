@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Two friends Alice and Bob have a task A,B,C.....Z.Each have a duration of one hour.One day their supervisor decides to do a check on their performance.He punishes by finding the duration of summing up how long Alice and Bob have done the same task in the same order of increasing time which may or may not be consecutive.Find the longest possible duration they will be punished?<br /></p>\n<p>Input</p>\n<p>The first line contains Alice's task<br /><br />\nthe second line contains Bob's task<br /><br />\n<br /></p>\n<p>Output</p>\n<p>The longest possible duration they  are going to be punished</p>\n<h3>Sample Input</h3>\n<p><br /></p>\n<ul>\n<li>ABCDGH</li>\n<li>\nAEDFHR</li>\n<h3>Sample output</h3>\n<p><br /></p>\n<ul>\n<li>3</li>\n</ul>\n<h3>Explaination</h3>\n<p><br /><br />\nThe set of task they have done together is ADH.The total length is 3</p>\n</ul>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "MathRix OPC 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426001400,
+        "end_date": 1426005000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426005000,
+        "submit_start_date": 1426001400,
+        "current": 1537436612
+    },
+    "problem_author_html_handle": "suresh70",
+    "problem_name": "Fast but not Furious",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/suresh70'>suresh70</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "suresh70",
+    "contest_code": "MTHX2015",
+    "max_timelimit": "5",
+    "problem_code": "FASTFUR"
+}

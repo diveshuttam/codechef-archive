@@ -1,0 +1,33 @@
+{
+    "problem_code": "ACM14KP3",
+    "problem_author": "admin",
+    "contest_name": "ACM-ICPC Asia-Kharagpur Site First Round Online Contest 2014",
+    "todo": false,
+    "problem_author_html_handle": "admin",
+    "problem_name": "Cyclic Prefix",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ACMKGP14",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acmkgp14'>acmkgp14</a>, <a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>, <a class='problem-tag-small ' href='/tags/problems/hashing'>hashing</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/segment-tree'>segment-tree</a>, <a class='problem-tag-small ' href='/tags/problems/suffix-array'>suffix-array</a>",
+    "body": "<p>Two strings <b>a[0..n-1]</b> and <b>b[0..n-1]</b> are called <b>cyclic equivalent</b> if and only if there exists an offset <b>d</b>, such that for all <b>0 <= i < n</b>, <b>a[i] = b[(i + d) mod n]</b>.</p>\n\n<p>Given two strings <b>s[0..L-1]</b> and <b>t[0..L-1]</b> with same length <b>L</b>. You need to find the maximum <b>p</b> such that <b>s[0..p-1]</b> and <b>t[0..p-1]</b> are <b>cyclic equivalent</b>.</br>Print 0 if no such valid <b>p</b> exists.</p>\n\n<h3>Input</h3>\n<p>The first line contains an integer <b>T</b> indicating the number of test cases.</p>\n<p>For each test case, there are two lines in total. The first line contains <b>s</b>. The second line contains <b>t</b>.</p>\n<p>All strings contain only lower case alphabets.</p>\n\n<h3>Output</h3>\n<p>Output <b>T</b> lines in total. Each line should start with \"Case #: \" and followed by the maximum <b>p</b>. Here \"#\" is the number of the test case starting from 1.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b>\n<li><b>1</b> \u2264 <b>L</b> \u2264 <b>1000000</b>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\nabab\nbaba\nabab\nbaac\n\n<b>Output:</b>\nCase 1: 4\nCase 2: 3\n\n</pre>\n\n<h3>Explanation</h3>\n<p>Case 1, <b>d</b> can be 1.</p>\n<p>Case 2, <b>d</b> can be 2.</p>",
+    "category_name": "main",
+    "date_added": "18-09-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA",
+    "max_timelimit": "4",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/ACM14KP3",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1413621000,
+        "end_date": 1413631800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1724621819,
+        "submit_start_date": 1413621000,
+        "current": 1537437316
+    },
+    "user": {
+        "username": ""
+    }
+}

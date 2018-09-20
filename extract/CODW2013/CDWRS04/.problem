@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Once N number of friends set out on a treasure hunt of hidden gold coins on the sea shore of ByteLand .After  a lot of hunting they finally got the treasure of gold .They do not know how many coins are there in the treasure box. They decided to divide it equally among themselves in the morning.</p>\n<p>At night, one friend  woke up, divided the coins into N equal parts after throwing 1 coin into the sea as a Bytelandian custom, hid his pile, recombined the other N-1 piles, and went back to sleep. Later that night, each of the other friends did the same thing one after the other: Each threw 1 coin into the sea as a custom of ByteLand and  then took 1/N of the remaining ones for himself.</p>\n<p>In the morning, they divided all the remaining gold coins among themselves equally with no coins remaining ,after throwing 1 coin into the sea as a custom for the last time. What is the minimum number of coins  that could have been in the original treasure ?</p>\n<h3>Input</h3>\n<p>First line contains T ,number of test cases.T lines follow. For every test case , line contains an integer N ,the number of friends set out for treasure hunt.</p>\n<h3>Output</h3>\n<p>Output in each new line 2 spaced integers X and Y . <br /><br />\nX is  the minimum number of gold coins in the original treasure that they find initially. <br /><br />\nY is the number of coins that each of them gets in the morning after dividing the coins (This doesn't include the number of coins that they kept for themselves in the night).</p>\n<p><br />Print the answer modulo 10^9+7</p>\n<h3>Sample Input</h3>\n<p>3<br /><br />\n1<br /><br />\n2<br /><br />\n5<br /></p>\n<h3>Sample Output</h3>\n<p>1 0<br /><br />\n7 0<br /><br />\n15621 1023<br /></p>\n<h3>Constraints</h3>\n<p>1&lt;= T &lt;= 2*10^5<br /><br />\n1&lt;= N &lt;= 10^6<br /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-09-2013",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWars 2013 - BITS, Pilani Hyderabad Campus",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1380702600,
+        "end_date": 1380720600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1380720600,
+        "submit_start_date": 1380702600,
+        "current": 1537438132
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>snehansu6631</span>",
+    "problem_name": "The Treasure Hunt",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/snehansu6631'>snehansu6631</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "snehansu6631",
+    "contest_code": "CODW2013",
+    "max_timelimit": "0.290196",
+    "problem_code": "CDWRS04"
+}

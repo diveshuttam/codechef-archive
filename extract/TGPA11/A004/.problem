@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Now that the location of the Frigates and the Mother-ship has been determined , it is time to take back the Empire . In the final battle against the invaders , the Empire has the option of using the BIOTELEPORT weapon .<br />\nIt is prototype and is not perfect .<br />\n<br />\nWhat the weapon does is , it teleports a given number of targets ( let us say T1 ) to a given location , but since the weapon is not perfect , if MORE SUCH TARGETS ARE PRESENT , it TELEPORTS BACK a certain number of targets (say C1 ) that it had teleported previously , to their original location .<br />\n<br />\nThe weapon has two configurations :<br />\n<br />\nFirst configuration teleports T1 targets and teleports back C1 targets ( T1 > C1 ) .<br />\nSecond configuration teleports T2 targets and teleports back C2 targets (T2 > C2 ) .<br />\n<br />\nThe configurations can be interchanged when ever required .\n<br /><br />\nThe weapon also has certain limitations .\n<br /><br />\nIt can be used only when a minimum number of targets T1 or T2 , as the case may be , are present .<br />\n<br />\nIt needs to be decided whether it is possible to eliminate the enemies completely using the weapon in these two configuration from the galaxy .\n<br /><br />\n</p>\n<h3>Input</h3>\n<pre>\nn \nN1 T1 C1 T2 C2\nN1 T1 C1 T2 C2\n..........\n..........\n..........\nn times\n\n</pre>\n  \n<b>Where :</b> <br />\n<br />           \nn   : Number of test cases <br />\nN  : Total number of targets .<br />\nT1: Teleportation capability of the first configuration of the weapon .<br />\nC1: Back Teleportation of the first weapon .<br />\nT2 : Teleporttion capability of the second configuration of the weapon .<br />\nC2 : Back Teleportation of the second weapon .<br />\n<br />\nAll values being integers in between 0 and 1000 .<br />\n\n</p>\n<h3>Output</h3>\n<p>POSSIBLE or IMPOSSIBLE for each test case on a single line .</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n25 1 0 17 3\n213 99 6 74 22\n\n<b>Output:</b>\nPOSSIBLE\nIMPOSSIBLE\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Conscientia - TGPA 2011",
+    "languages_supported": "C, JAVA, CS2, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298737800,
+        "end_date": 1298755800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298755800,
+        "submit_start_date": 1298737800,
+        "current": 1537439321
+    },
+    "problem_author_html_handle": "roy",
+    "problem_name": "The Battle",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/roy'>roy</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "roy",
+    "contest_code": "TGPA11",
+    "max_timelimit": "1",
+    "problem_code": "A004"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nA scientist was performing an experiment with two particles, particle A and particle B. the two particles follow all the properties of light(ie. the particle travel in straight line). He placed the source of particle A at location (x1,y1) and B at (x2,y2). But he found out that area in which both particles can meet in his room is very large and it becomes difficult to observe such large region. So he introduced some obstacles like circular pillar and walls which absorbs particles falling on it and thus some region do not recieve particle A, while some did not recive particle B, but there were some regions which could recieve both A and B. Thus area under observation is reduced by significant amount.\n<p>Find the area of the region which scientist needs to observe (i.e. area which can recieve both A and B). Assume that the room is a sqaure of size 100x100(0<=x,y<=100).\n\n\n<h3>Input</h3>\n<p>1st line Number of test cases\n<p>1st line of each test case gives values of x1,y1 (position of source of A)\n<p>2nd line gives values of x2,y2(position of source of B)\n<p>3rd line contains number of pillars in the region (N)\n<p>3rd line is followed by N lines which give 3 numbers x y r. (x,y)-location of pillar and r- radius of the pillar.\n\n<h3>Output</h3>\n<p>Area of region common to both particle A and B.\n<p> (answer upto only 2 decimal places required).\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n78 38\n1 95\n1\n35 38 14\n\n<b>Output:</b>\n6846.87\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "DA-IICT - Algorythmus, Synapse",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298124000,
+        "end_date": 1298210400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298210400,
+        "submit_start_date": 1298124000,
+        "current": 1537439355
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>illume</span>",
+    "problem_name": "Particles",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/illume'>illume</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "illume",
+    "contest_code": "SYNAPSE",
+    "max_timelimit": "1",
+    "problem_code": "ALG04"
+}

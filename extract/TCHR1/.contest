@@ -1,0 +1,67 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "TCHR1",
+    "duration": "360",
+    "name": "The Code Hunt, VITS, Satna, Round 1.",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>RULES</b> :-</p> <p>1. In case you are a new user, you will need to <a target=\"_blank\" href=\"/user/register/\">register</a> first.</p> <p>2. Please do not discuss strategy, suggestions or tips in the comments section<br />during a live contest. You can post questions for clarifying the<br />problem statement.</p> <p>3. Contest problems will become visible on October 22nd, 2011 at 10:00<br />AM. There will be 3 problems in all.</p> <p>4. You will receive one point for solving a problem, regardless of the<br />level of difficulty of that problem.</p> <p>5. Users are ranked according to the most problems solved. Ties will<br />be broken by the total time for each user in ascending order of time.</p> <p>6. The total time is the sum of the time consumed for each problem<br />solved. The time consumed for a solved problem is the time elapsed<br />from the beginning of the contest to the submit of the first accepted<br />run plus 20 penalty minutes for every previously rejected run for that<br /> problem. There is no time consumed for a problem that is not solved.</p> <p>7. This round will end at\u00a0 October 22nd, 2011 , 4:00 PM.</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/sites/default/files/uploads/landing_page_banners/banner-compete.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "DS06": {
+            "allow_submission": false,
+            "name": "Total Score",
+            "category_name": "main",
+            "accuracy": 80.39,
+            "successful_submissions": "79",
+            "code": "DS06",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DS04": {
+            "allow_submission": false,
+            "name": "Sum of tokens",
+            "category_name": "main",
+            "accuracy": 71.68,
+            "successful_submissions": "79",
+            "code": "DS04",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DS05": {
+            "allow_submission": false,
+            "name": "Area of Park",
+            "category_name": "main",
+            "accuracy": 63.43,
+            "successful_submissions": "80",
+            "code": "DS05",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1319279400,
+        "current": 1537439110,
+        "freezing": 0,
+        "start": 1319257800
+    },
+    "user": {
+        "username": ""
+    }
+}

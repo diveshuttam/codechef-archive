@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Recently, DK got an internship offer from the company \"Dkoders\". DK has to travel to another destination town from his home town to work for the company. He can travel through intermediate towns to reach the destination incurring travel cost while travelling through two towns. The company offers two schemes for reimbursement of the travel expenses DK incurs when he travels from his home town to destination town and from the destination town to his home town.</p>\n<p><b>First scheme:</b></p>\n<li>He chooses any two adjacent towns(only once) on his path from home to destination. The company reimburses 50% of the travel cost incurred while traveling through the chosen adjacent towns.</li>\n<li>He chooses any two adjacent towns(only once) on his path from destination to home. The company reimburses 50% of the travel cost incurred while traveling through the chosen adjacent towns.</li>\n<p> </p>\n<p><b>Second scheme:</b></p>\n<li>He chooses any two adjacent towns(only once) on his path from destination to home. The company reimburses 100% of the travel cost incurred while traveling through the chosen adjacent towns.</li>\n<p></p>\n<p>Help DK avail the optimal scheme such that his total journey cost is minimized.</p>\n\n<p>Note:</p>\n<li>A road from town A to town B doesn't necessarily mean that there is a road from B to A as well.</li>\n<li>It is guaranteed that it is possible to reach destination from home and from destination to home.</li>\n<li>Consider floor values after availing a discount.</li>\n\n<h3>Input</h3>\n<li>First line contains contain T denoting the number of test cases.</li>\n<li>Each of the T test cases contain the following:</li>\n<li>N, M denoting the number of towns and the number of roads respectively.</li>\n<li>M lines follow containing A, B, C denoting that there is a road from A to B with cost C.</li>\n<li>S, D denoting the home town of DK and destination town respectively.</li>\n\n<h3>Output</h3>\n<li>Print the minimum round trip cost after availing the offer for each test case in a newline.</li>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>5</b></li>\n<li><b>1</b> \u2264 <b>N, M</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>A, B</b> \u2264 <b>N</b></li>\n<li><b>0</b> \u2264 <b>C</b> \u2264 <b>10 ^ 3</b></li>\n<li><b>1</b> \u2264 <b>S, D</b> \u2264 <b>N</b></li>\n<li><b>S != D</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n\n6 6\n1 2 5\n2 3 5\n3 4 5\n4 5 5\n5 6 5\n6 1 5\n1 4\n\n6 7\n1 2 5\n2 3 5\n3 4 5\n4 5 5\n5 6 5\n6 1 5\n4 1 50\n1 4\n\n<b>Output:</b>\n24\n15\n</pre>\n\n<h3>Explanation</h3>\n<pre>\nFor the first test case he can avail the first scheme:\nFrom 1 to 4 total cost is (5 + 5 + 5)15. He can choose the road from 3 to 4 and avail a 50% discount.\nSo, new road cost becomes 2.\nTherefore, cost from 1 to 4 becomes (5 + 5 + 2)12.\nHe can follow the same procedure for 4 to 1.\nTherefore, round trip cost becomes (12 + 12)24.\n\nFor the second test case he can avail the second scheme:\nFrom 1 to 4 total cost is (5 + 5 + 5)15.\nFrom 4 to 1 he can choose the road with cost 50 connecting 4 and 1 directly and avail a 100% discount,\nSo,new road cost becomes 0.\nTherefore, round trip cost becomes (15 + 0)15.\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Codex",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1510414200,
+        "end_date": 1510507800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1510507800,
+        "submit_start_date": 1510414200,
+        "current": 1537433363
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>sunnyaks_1997</span>",
+    "problem_name": "DK And Reimbursement",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sunnyaks_1997'>sunnyaks_1997</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sunnyaks_1997",
+    "contest_code": "COD2017",
+    "max_timelimit": "1",
+    "problem_code": "NITR06"
+}

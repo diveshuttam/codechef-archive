@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nDue to the large number of events being held at Cognizance this year, all major media houses have sent teams of reporters to cover the event. The reporters don't feel like walking too much, so they gather at the central registration area and decide that only a limited subset of them would go out to the site of the events and bring back information. Being new to the campus, each reporter that goes out to gather information will come back to the registration area using the same route he used to reach an event area. Being smart, the reporters decide upon the following policies:\n</p>\n<ul>\n<li>\nAll information-gathering reporters leave the registration area simultaneously.\n</li>\n<li>\nReporters will be sent out in a way which ensures that no two reporters cross paths during the course of their coverage of events. This means that reporters may not walk side by side or in opposite directions on the same road between two events, thus preventing wastage of effort.\n</li>\n<li>\nEach reporter will cover an event taking place in the vicinity of his location if and only if there is no other reporter who can cover that event using less effort.\n</li>\n<li>\nOnce a reporter returns to the registration area, he will not leave it again. \n</li>\n</ul>\n<br/>\n\nHaving no knowledge of the campus, they turn to you for help. To help them, you need to provide the following information:\n<br/><br/>\n<ul>\n<li>\nThe minimum number of reporters that need to be sent out so that the effort expended in total by all reporters is minimized, yet all events are visited.\n</li>\n<li>\nThe amount of the effort expended by the reporters as a whole while covering the events. Assume that reporters who do not leave the central registration area expend zero effort.\n</li>\n</ul>\n\nYou are supplied with the following details:\n<ul>\n<li>\nThe roads that link various event locations.\n</li>\n<li>\nA sequential labeling of the event locations (with location 1 corresponding to the central registration area)\n</li>\n<li>\nThe effort expended in moving from an event location i to its nearby event locations.\n</li>\n</ul>\n<br/><br/>\nNote: The registration area is also an event location. Assume that the number of reporters in the group is sufficient to ensure that each event can be covered individually.\n<br/><br/>\n\n<b>Input Format:</b>\n<p>\nLine 1: N - The number of event locations. 1 <= N <= 100. Event Locations are labeled 1, 2, 3... etc. In sequence.<br/><br/>\n\nLine 2: L K <br/>\n\tWhere L = the event location sequence number<br/>\n\t\tand K = the number of roads connecting to this event location 1<=15<=K\n<br/><br/>\nLine 3 to K+3: D E<br/>\n\tWhere D = the nearby event location sequence number <br/>\n\t\tand E = the effort expended in moving along this road. 1 <= E <= 1000\n<br/><br/>\nLines 2 and 3 to K+3 are repeated N times - once for each event location\n</p>\n<br/>\n<b>Output Format:</b>\n<br/>\nLine 1: M<br/><br/>\nLine 2: X<br/><br/>\nWhere M = minimum number of reporters to be sent out so as to minimize the total effort<br/>\nand X = the minimum effort that will be expended\n<br/>\n\n<br/>\n<b>Sample Input:</b>\n<pre>\n5\n1 2\n2 344\n5 707\n2 3\n1 344\n3 482\n5 652\n3 1\n2 482\n4 1\n5 281\n5 3\n1 707\n2 652\n4 281\n</pre>\n\n<br/>\n<b>Sample Output:</b>\n<pre>\n1\n3518\n</pre>\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-03-2009",
+    "is_direct_submittable": false,
+    "contest_name": "IIT Roorkee Insomnia - Thought Round",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1237649400,
+        "end_date": 1237692600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1733529444,
+        "submit_start_date": 1237649400,
+        "current": 1537439964
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Reporting Cogni",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "INSOM2",
+    "max_timelimit": "5 - 12",
+    "problem_code": "INSOMB5"
+}

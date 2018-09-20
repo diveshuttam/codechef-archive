@@ -1,0 +1,33 @@
+{
+    "problem_code": "COPRIME",
+    "problem_author": "darkshadows",
+    "contest_name": "CodeCraft: IIIT Hyderabad, Replay",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>darkshadows</span>",
+    "problem_name": "Coprime Pairs",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CDCRFT14",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cdcrft14'>cdcrft14</a>, <a class='problem-tag-small ' href='/tags/problems/darkshadows'>darkshadows</a>, <a class='problem-tag-small ' href='/tags/problems/graph'>graph</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>, <a class='problem-tag-small ' href='/tags/problems/matching'>matching</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\n  Mr. Yagami is playing a game of arrays. He is given two random arrays <b>A</b> and <b>B</b><br />\n  consisting of <b>N</b> positive integer elements. Game starts by Mr. Yagami assigning <b>0 or 1</b><br />\n  to each element in <b>A and B</b>.</p>\n<p>After this assignment is done, a graph is constructed with a node for each<br />\n  element in the array A and B (<b>2N</b> nodes) and no edges. The game proceeds with a<br />\n  valid move being defined in the following way:</p>\n<ul>\n<li>\n<p>  One of the arrays from <b>A</b> or <b>B</b> is selected.<br />\n  From the selected array, an element which has been marked <b>0</b> is chosen. Let us<br />\n  call this element as <b>X</b>.</p>\n</li>\n<li>\n<p>A set of elements, <b>Y</b>, are chosen from the array, which was not chosen in the<br />\n  first step, such that all elements of <b>Y</b> should be marked as <b>1</b> and all elements<br />\n  of <b>Y</b> should be greater than <b>X</b> and no element of<b> Y</b> should be coprime to <b>X</b>.</p>\n</li>\n<li>\n<p>Finally an edge is drawn from the node labelled <b>X</b> to all the nodes<br />\n  corresponding to the elements in set <b>Y</b>. There can only be a single edge<br />\n  between any <b>2</b> nodes in the graph.</p>\n</li>\n</ul>\n<p>  He can make as many valid moves. Mr. Yagami receives <b>1</b> point for each edge<br />\n  that is drawn in the graph.</p>\n<p>  Mr. Yagami is very clever, so he makes the initial assignment in such a way<br />\n  that it maximizes the number of points he receives in the game. You have to<br />\n  return the maximum number of points that Mr. Yagami can receive.\n  </p>\n<h3>Input Format:</h3>\n<p>\n  The first line of the input contains a single integer, <b>N (1 \u2264 N \u2264<br />\n  40)</b><br />\n  The second line of input contains <b>N</b> integers separated by a single space<br />\n  character, which represent the elements of the array <b>A. (2 \u2264 A[i] &le;  10^9)</b><br />\n  Similarly, the last line of input also contains <b>N</b> integers separated by a<br />\n  single space character, which represent the elements of the array <b>B. (2 \u2264<br />\n  B[i] \u2264 10^9)</b>\n  </p>\n<h3>Output Format:</h3>\n<p>\n  A single integer representing the maximum score which Mr. Yagami can receive.\n  </p>\n<h3>Sample Input:</h3>\n<pre>\n4\n16 3 2 9\n12 18 13 4</pre><h3>Sample Output:</h3>\n<pre>\n8</pre><h3>Explanation:</h3>\n<p>\n  He picks 2 from first array. So he gets to put 3 edges ie. 2->4, 2->12,<br />\n  2->18.<br />\t<br />\n  Next he picks 3 from the first array. So he gets to put 2 edges ie. 3->12,<br />\n  3->18.<br />\n  Next he picks 9 from the first array. So he gets to put 2 edges ie. 9->12,<br />\n  9->18.<br />\n  Next he picks 16 from the first array. So he gets to put 1 edge ie. 16->18.<br />\n  Total edges=8.\n  </p>\n<p><br />\n<b>Problem Setter: Lalit Kundu</b></p>\n",
+    "category_name": "main",
+    "date_added": "28-01-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/COPRIME",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1391232600,
+        "end_date": 1391257800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1391257800,
+        "submit_start_date": 1391232600,
+        "current": 1537437888
+    },
+    "user": {
+        "username": ""
+    }
+}

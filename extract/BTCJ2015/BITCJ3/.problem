@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nOn a straight road of length <b>10<sup>5</sup></b>, <b>n</b> CCTV cameras are placed on different positions <b>p<sub>i</sub></b>. The road starts at <b>p<sub>i</sub></b>=0 and is of length <b>10<sup>5</sup></b>. At <b>time=0</b>, the cameras are switched <b>ON</b> and are facing right. The range of view of each camera <b>r<sub>i</sub></b> is also given i.e if camera is facing right, then <b>p<sub>i</sub></b> to <b>p<sub>i</sub></b>+<b>r<sub>i</sub></b> (both inclusive) and if camera is facing left, then <b>p<sub>i</sub></b>-<b>r<sub>i</sub></b> to <b>p<sub>i</sub></b> (both inclusive) is in the viewing range of that camera. And there is a time period <b>t<sub>i</sub></b> associated with each camera i.e the <b>i</b><sup>th</sup> camera changes its direction from right to left or left to right at all multiples of <b>t<sub>i</sub></b>.</p>\n<p>\nNow, <b>q</b> queries are to be performed. A query contains two integers <b>time</b> and <b>position</b>. The answer to each query is the number of cameras watching that <b>position</b> at that <b>time</b>.\n</p>\n<h3>Input</h3>\n<p>Input description.</p>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first line of each test case contains a single integer <b>n</b> denoting the number of cameras. The second line contains <b>n</b> space-separated distinct integers <b>p<sub>1</sub></b>, <b>p<sub>2</sub></b>, ..., <b>p<sub>n</sub></b> in strictly increasing order denoting the position of each camera on the road.  The third line contains <b>n</b> space-separated integers <b>t<sub>1</sub></b>, <b>t<sub>2</sub></b>, ..., <b>t<sub>n</sub></b> denoting the time period of each camera on the road.  The fourth line contains <b>n</b> space-separated integers <b>r<sub>1</sub></b>, <b>r<sub>2</sub></b>, ..., <b>r<sub>n</sub></b> denoting the range of each camera on the road.\n</li>\n</ul>\n<p>\u00a0The next line contains an integer <b>q</b> denoting the number of queries. Each of the next <b>q</b> lines contains 2 integers <b>time</b> and <b>position</b> for which answer is to be calculated.</p>\n<h3>Output</h3>\n<p>Output description.</p>\n<ul>\n<li>For each test case, the output consists of <b>q</b> lines each containg a single integer <b>count</b> denoting the count of the camera for that query.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>5</b></li>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>10000</b></li>\n<li><b>0</b> \u2264 <b>p<sub>i</sub></b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>t<sub>i</sub></b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>r<sub>i</sub></b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>q</b> \u2264 <b>100000</b></li>\n<li><b>0</b> \u2264 <b>time</b> \u2264 <b>1000000</b></li>\n<li><b>0</b> \u2264 <b>position</b> \u2264 <b>100000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3\n0 5 10\n1 3 1\n1 2 1\n5\n0 0\n0 3\n3 3\n4 4\n6 6\n4\n0 2 4 6\n2 1 2 1\n2 2 2 2\n5\n2 0\n0 0\n0 2\n5 5\n6 4\n\n<b>Output:</b>\n1\n0\n1\n1\n1\n1\n1\n2\n2\n2\n</pre><p>\u00a0</p>\n\n<h3>Test Case explanation:</h3>\n<p><b>Case 1</b><br /><br />\nThe direction of each camera changes as shown below-</p>\n<ul>\n<li>For 1st camera at position 0:<br />\nR(0) L(1) R(2) L(3) and so on. </li>\n<li>For 2nd camera at position 5:<br />\nR(0) R(1) R(2) L(3) L(4) L(5) R(6) ...... </li>\n<li>For 3rd camera at position 10:<br />\nR(0) L(1) R(2) L(3) and so on. </li>\n</ul>\n<p>Here, R(i) means the camera is facing right at <b>i</b>th minute.<br /><br />\nAnd L(i) means the camera is facing left at <b>i</b>th minute.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-04-2015",
+    "is_direct_submittable": false,
+    "contest_name": "BIT Codejam",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1428422400,
+        "end_date": 1428431400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1428431400,
+        "submit_start_date": 1428422400,
+        "current": 1537436403
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>nims11</span>",
+    "problem_name": "Fun With Cameras",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nims11'>nims11</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nims11",
+    "contest_code": "BTCJ2015",
+    "max_timelimit": "1 - 3",
+    "problem_code": "BITCJ3"
+}

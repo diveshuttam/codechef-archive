@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>You are given a sequence <var>w</var> of integers. A mismatch is any such pair of neighbouring elements of sequence w[i] and w[i+1], that w[i]>w[i+1]+1.\nAs long as there is any mismatch, you solve it by swapping the mismatching numbers. Given an input sequence, calculate one of the possible output mismatch-less sequences obtained by successively solving mistmatches by swapping.\n\n\n<h3>Input</h3>\n<p>First - 1<=<var>t</var><=10 - the number of tests. For each test: first - 1<=<var>n</var><=100000. Then, <var>n</var> nonnegative integers.\n\n<h3>Output</h3>\n<p>For each test, you should output exactly <var>n</var> integers.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n4\n4 3 2 1\n4\n4 3 1 2\n\n<b>Output:</b>\n4 3 2 1\n1 4 3 2\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-04-2009",
+    "is_direct_submittable": false,
+    "contest_name": "May 2009 (Contest III)",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1241170200,
+        "end_date": 1242034200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1242034200,
+        "submit_start_date": 1241170200,
+        "current": 1537439948
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Swapping mismatches",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "MAY09",
+    "max_timelimit": "0.116822",
+    "problem_code": "C1"
+}

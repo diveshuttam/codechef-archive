@@ -1,0 +1,33 @@
+{
+    "problem_code": "ICL1703",
+    "problem_author": "likecs",
+    "contest_name": "International Coding League (Rated)",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>likecs</span>",
+    "problem_name": "Infinite Graph",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ICL2017",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/icl2017'>icl2017</a>, <a class='problem-tag-small ' href='/tags/problems/likecs'>likecs</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/modular-arith'>modular-arith</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>There is a graph of infinite size. The vertices of the graph are integers from negative infinity to positive infinity. <b>Each vertex has a label (It can be empty too)</b>. Every label is an array of positive integers.</p>\n\n<p>For every integer <b>x</b> in <b>u's</b> label, there is a <b>directed edge</b> from <b>u</b> to <b>(u + x)</b>. There can be multiple edges connecting any <b>2</b> vertices.</p>\n\n<p>The labels are periodic with period <b>n</b>. So label of vertex <b>v</b> is the same as the label of vertex <b>(v + n)</b> for all <b>v</b>.</p>\n\n<p>Ankita wants to color all edges of the graph (assume that she can somehow color all edges of an infinite graph).</p>\n\n<p>An edge-coloring is good if every vertex meets the following criteria : </p>\n<ol>\n<li>Colors of all outgoing edges are distinct.</li>\n<li>Colors of all incoming edges are distinct.</li>\n<li>Set of colors of incoming edges is the same as the set of colors of outgoing edges.</li>\n</ol>\n\n<p>Now Ankita wonders what is the maximum number of colors she can use to do a good coloring of a given graph's edges. Can you write a program to help her find out the answer?</p>\n\n<h3>Input</h3>\n\n<p>The first line of input consists of a single integer <b>T</b>, the number of test cases. T test cases follow.</p>\n\n<p>The first line of each test case contains a single integer <b>n</b> - the periodicity of the graph's labels.</p>\n\n<p>The next <b>n</b> lines contain the description of <b>n</b> labels. The <b>i<sup>th</sup></b> of these lines begins with the integer <b>m<sub>i</sub></b>, the length of the <b>i<sup>th</sup></b> array and and it represents the label corresponding to vertex <b>(i-1)</b>. <br />After that <b>m<sub>i</sub></b> integers follow, which are the elements of the array. Each element lies between <b>1</b> and <b>10<sup>6</sup>.</b></p>\n\n<h3>Output</h3>\n\n<p>Output a single integer for each test case in a separate line: <br />If it is not possible to color edges of the graph in a good way, output -1. <br />Otherwise output the maximum number of colors with which the graph can be colored in a good way.</p>\n\n<h3>Constraints</h3>\n\n<p>1 \u2264 T \u2264 1000 <br />\n1 \u2264 n \u2264 1000 <br />\n0 \u2264 m<sub>i</sub> \u2264 1000 <br />\nEach element of an array lies between 1 and 10<sup>6</sup> (both inclusive).<br />\nSum of n over all T doesn't exceed 1000.</p>\n\n<h3>Sample input</h3>\n\n<pre>2\n3\n1 2\n1 4\n2 5 4\n3\n1 3\n1 2\n2 1 3\n</pre>\n\n<h3>Sample output</h3>\n\n<pre>5\n-1\n</pre>\n\n<h3>Explanation</h3>\n\n<p>For the first test case the periodicity is 3 and the arrays are [2], [4] and [5, 4].\nThe graph, along with colored edges, looks like this:</p>\n\n<p><a target=\"_blank\" href=\"https://codechef_shared.s3.amazonaws.com/download/HYC/External%20contest%20images/ICL2017/BITS-P/img-graph.png\"><img src=\"https://codechef_shared.s3.amazonaws.com/download/HYC/External%20contest%20images/ICL2017/BITS-P/img-graph.png\" width=\"100%\" /></a></p>\n\n<p>Note that there can be multiple ways of coloring the above graph. This is just one of the correct solutions.</p>\n\n<p>For the second test case, the periodicity is 3 and the arrays are [3], [2], [1, 3].\nIt is not possible to color this graph in a good way.</p>\n",
+    "category_name": "main",
+    "date_added": "26-03-2017",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/ICL1703",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1490542200,
+        "end_date": 1490553000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1490553000,
+        "submit_start_date": 1490542200,
+        "current": 1537433959
+    },
+    "user": {
+        "username": ""
+    }
+}

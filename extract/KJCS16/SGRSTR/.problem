@@ -1,0 +1,33 @@
+{
+    "problem_code": "SGRSTR",
+    "problem_author": "vedipen",
+    "contest_name": "KJSCE Code Spree",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>vedipen</span>",
+    "problem_name": "Sagar And Strings",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "KJCS16",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/kjcs16'>kjcs16</a>, <a class='problem-tag-small ' href='/tags/problems/modulo'>modulo</a>, <a class='problem-tag-small ' href='/tags/problems/strings'>strings</a>, <a class='problem-tag-small ' href='/tags/problems/vedipen'>vedipen</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Statement</h3>\n<p> When Sagar was in the 4<sup>th</sup> grade, his class teacher asked him a problem he hasn't been able to solve till date. The problem is as follows: Given a string <strong>S</strong> of length <strong>N</strong> how many substrings of the string <strong>S</strong> are also substrings of the string <strong>\"....xyzabcdefghijklmnopqrstuvwxyzabc...\"</strong>? <br>Can you help Sagar solve this problem?</p> \n<p><strong>Note:</strong> The string \"....xyzabcdefghijklmnopqrstuvwxyzabc...\" wraps around infinitely in both directions</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer <strong>T</strong> denoting the number of test cases. The description of <strong>T</strong> test cases follows.<br>The first line of each testcase contains <strong>N</strong> denoting the length of the string and the second line of each testcase contains the string <strong>S</strong>.\n<br><strong>S</strong> will be made of only lowercase alphabets.\n<br>\n<h3>Output</h3>\n<p>For each test case, output the required answer</p>\n<h3>Constraints</h3>\n<strong>\n1<=T<=20\n<br>\n1<=N<=10^5\n</strong>\n<br>\n<h3>Example:</h3>\n<strong>Input:</strong>\n<br>\n2<br>\n4<br>\nabcd<br>\n3<br>\nbae<br><br>\n<strong>Output:</strong>\n<br>\n10<br>\n3<br><br>\n<strong>Explanation:</strong>\n<br>\nTestcase 1: The possible substrings are \"a\", \"b\", \"c\", \"d\", \"ab\", \"bc\", \"cd\", \"abc\", \"bcd\", \"abcd\".\n",
+    "category_name": "main",
+    "date_added": "20-09-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/SGRSTR",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1474817400,
+        "end_date": 1474828200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1474828200,
+        "submit_start_date": 1474817400,
+        "current": 1537434565
+    },
+    "user": {
+        "username": ""
+    }
+}

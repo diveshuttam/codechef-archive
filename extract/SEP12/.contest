@@ -1,0 +1,137 @@
+{
+    "announcements": "<p><b>08/09/2012, 19:10 IST: </b>The issue related to submissions has resolved. You can submit your solutions now.</p>\r\n<p><b>07/09/2012, 18:50 IST: </b>There is an issue with showing the results of your submissions. We are looking into it, please bear with us till then.</p>\r\n<p><b>06/09/2012, 23:00 IST:</b> The test data for the problems <a href=\"/SEP12/problems/CHEFTOWN\" target=\"_self\">CHEFTOWN</a> and <a href=\"/SEP12/problems/QNUMBER\" target=\"_blank\">QNUMBER</a> has been updated. All submissions for the problem have been re-judged. Regret the inconvenience caused.</p>\r\n<p>\u00c2\u00a0</p>\r\n<p><b>03/09/2012, 00:20 IST:</b> The judge data for the problem\u00c2\u00a0<a href=\"http://codechef.com/SEP12/problems/KNGHTMOV/\" target=\"_self\">KNGHTMOV</a> has been updated. All submissions for the problem have been re-judged. Regret the inconvenience caused.</p>\r\n<div></div>",
+    "ip": "149.129.135.113",
+    "code": "SEP12",
+    "duration": "14400",
+    "name": "September Challenge 2012",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p>\u00a0</p> <p class=\"MsoNoSpacing\"><b>The September Contest has ended!</b></p> <p class=\"MsoNoSpacing\"><b>Editorials on each problem can be found <a target=\"_blank\" href=\"/wiki/september-2012-contest-problem-editorials\">here</a>.<br /></b></p> <p class=\"MsoNoSpacing\"><b>All problems have been added to the practice section.</b></p> <p class=\"MsoNoSpacing\"><b> </b><b>Solutions are public for all problems.</b></p> <p class=\"MsoNoSpacing\"><b>Winners Blog Post </b><b>can be found <a target=\"_blank\" href=\"http://blog.codechef.com/2012/10/15/the-roller-coaster-ride-of-the-september-challenge-and-cook-off/\">here</a>.</b></p> <p class=\"MsoNoSpacing\"><b>The New Contest Rating can be viewed\u00a0<a target=\"_blank\" href=\"/long/ranklist/AX/\">here</a>.</b></p> <p>\u00a0</p> <p class=\"MsoNoSpacing\"><b>Rules:</b><b> </b></p> <p class=\"MsoNoSpacing\"><span><br />Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a><br /><br /></span></p> <p class=\"MsoNoSpacing\"><span>Contest problems will become visible on September 1st 2012 at 15:00 hours IST. Check your timezone\u00a0<a href=\"http://timeanddate.com/worldclock/fixedtime.html?msg=September+Challenge+2012&amp;iso=20120901T15&amp;p1=44\" target=\"_blank\">here</a>.</span><br /><br /></p> <p class=\"MsoNoSpacing\"><span>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.<br /><br /></span></p> <p class=\"MsoNoSpacing\"><span>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.<br /><br /></span></p> <p class=\"MsoNormal\"><span>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</span></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/SEP12/1424957682.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "KNGHTMOV": {
+            "allow_submission": false,
+            "name": "Knight Moving",
+            "category_name": "main",
+            "accuracy": 3.22,
+            "successful_submissions": "33",
+            "code": "KNGHTMOV",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHEFTOWN": {
+            "allow_submission": false,
+            "name": "ChefTown Parade",
+            "category_name": "main",
+            "accuracy": 12.36,
+            "successful_submissions": "664",
+            "code": "CHEFTOWN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SIMNIM": {
+            "allow_submission": false,
+            "name": "Simultaneous Nim",
+            "category_name": "main",
+            "accuracy": 54.43,
+            "successful_submissions": "126",
+            "code": "SIMNIM",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "CROWD": {
+            "allow_submission": false,
+            "name": "Three is Crowd",
+            "category_name": "main",
+            "accuracy": 14.94,
+            "successful_submissions": "679",
+            "code": "CROWD",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHEFWD": {
+            "allow_submission": false,
+            "name": "Chef World",
+            "category_name": "main",
+            "accuracy": 16.56,
+            "successful_submissions": "372",
+            "code": "CHEFWD",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PARADE": {
+            "allow_submission": false,
+            "name": "Annual Parade",
+            "category_name": "main",
+            "accuracy": 5.26,
+            "successful_submissions": "13",
+            "code": "PARADE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "QNUMBER": {
+            "allow_submission": false,
+            "name": "Queries About Numbers",
+            "category_name": "main",
+            "accuracy": 9.5,
+            "successful_submissions": "404",
+            "code": "QNUMBER",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CKISSHUG": {
+            "allow_submission": false,
+            "name": "Kisses & Hugs",
+            "category_name": "main",
+            "accuracy": 20.3,
+            "successful_submissions": "1467",
+            "code": "CKISSHUG",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LIGHT": {
+            "allow_submission": false,
+            "name": "Lights",
+            "category_name": "main",
+            "accuracy": 18.15,
+            "successful_submissions": "218",
+            "code": "LIGHT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "HORSES": {
+            "allow_submission": false,
+            "name": "Racing Horses",
+            "category_name": "main",
+            "accuracy": 36.92,
+            "successful_submissions": "2596",
+            "code": "HORSES",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1347355800,
+        "current": 1537438727,
+        "freezing": 0,
+        "start": 1346491800
+    },
+    "user": {
+        "username": ""
+    }
+}

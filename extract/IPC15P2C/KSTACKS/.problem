@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>\nChingam likes to collect plates because they remind him of food. But Jimma hates plates, because they make a lot of noise when they break. Chingam has a collection of <b>N</b> plates hidden behind Jimma's bed, so that she cannot find them. The plates are arranged in <b>K</b> stacks, such that <b>each stack has at least one plate</b>. The stacks are indexed from <b>0 to K-1</b>. Where <b>0</b> is index of the leftmost stack and <b>K-1</b> is the index of the rightmost stack.<br />\nEvery plate has a weight <b>w</b> and a capacity <b>c</b>. These values might be different for different plates. A plate breaks when the sum of weights of the plates kept above it exceeds its capacity.\n</p>\n<p>\nWhenever Chingam finds a new plate, he adds it to one of the <b>K</b> stacks. The plate is always added to the top. After he does this, some of the plates in that stack break. As Jimma is always sleeping and plotting world domination, if too many plates break at the same time, she will wake up and scratch Chingam. So Chingam will always choose the stack which minimize the number of plates that break and hope that the noise is not too loud. <b>If there are multiple ways to do that, then he will place the plate in the leftmost such stack.</b> Chingam is not very good at counting and he cannot always find the best stack on his own. Please help him!<br />\n<br /><br />\nYou are given the initial arrangement of <b>N</b> plates in the stacks and <b>Q</b> queries. Query <b>i</b> describes a plate with capacity <b>C[i]</b> and weight <b>W[i]</b>. You have to tell Chingam the index of the best stack for this plate and the number of plates which break after this plate is added to that stack.<br />\nChingam will then add the plate to that stack.\n</p>\n<p>\nNote:<br />\n<br /><br />\nThe plates should be added in the order they appear in the queries.<br />\n<br /><br />\nA plate can break only once and its weight does not change after it breaks.<br />\n<br /><br />\nIt is guaranteed that there are no broken plates in the initial arrangement; i.e. <b>for every plate, the sum of plates on top of it will not exceed its capacity.</b>\n</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first line of each test case contains the integer <b>K</b> and is followed by <b>K</b> lines.</li>\n<li>The <b>i<sup>th</sup></b> such line describes the <b>i<sup>th</sup></b> stack. The first integer on that line is <b>n[i]</b> the number of plates in that stack and is followed by <b>2*n[i]</b> space separated integers. The <b>2*j<sup>th</sup></b> and <b>2*j+1<sup>th</sup></b> integers on that line give the capacity and the weight repectively, of the j<sup>th</sup> plate from the bottom.</li>\n<li>The next line contains an integer <b>Q</b>, the number of queries and is followed by <b>Q</b> lines</li>\n<li>Each of these lines contain two space separated integers, the capacity and the weight of the plate in that query.\n</li></ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output <b>Q</b> lines, one for each query. Each line should contain two integers - the first integer should be the index of the best plate for that query and the second integer should be the number of plates which break in that query.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>3</b></li>\n<li><b>1</b> \u2264 <b>K</b> \u2264 <b>5*10<sup>4<sup></sup></sup></b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>10<sup>5<sup></sup></sup></b></li>\n<li>The total number of plates (<b>Q</b>+<b>N</b>) in each test case will not exceed <b>10<sup>5</sup></b>.</li>\n<li>All the weights and capacities are positive integers and do not exceed <b>10<sup>9</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n3\n2 5 10 3 3\n2 7 15 2 1\n1 2 8\n2\n3 4\n9 5\n\n\n<b>Output:</b>\n1 1\n2 1\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> There are <b>3</b> stacks and <b>2</b> queries. The first query has a plate of capacity <b>3</b> and weight <b>4</b>. Placing that plate in the stack numbered <b>0</b> will break both the plates in that stack. Placing it in one of the other two stacks breaks only one plate. Chingam should place it in the leftmost stack, hence the output is <b>1 1</b>.<br />\nNow stack <b>1</b> has three plates and one of them is broken. Placing the next plate in either stack <b>0</b> or <b>1</b> will break two plates, while placing it in stack <b>2</b> will break only one. Hence the output is <b> 2 1</b></p>\n<p>.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team ForTheWatch",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1454833800,
+        "end_date": 1454851800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454851800,
+        "submit_start_date": 1454833800,
+        "current": 1537435520
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>meteora</span>",
+    "problem_name": "K stacks and Plates",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/meteora'>meteora</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "meteora",
+    "contest_code": "IPC15P2C",
+    "max_timelimit": "6",
+    "problem_code": "KSTACKS"
+}

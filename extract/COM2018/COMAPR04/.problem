@@ -1,0 +1,33 @@
+{
+    "problem_code": "COMAPR04",
+    "problem_author": "akash1rakshit",
+    "contest_name": "Codemania",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>akash1rakshit</span>",
+    "problem_name": "Valentine Day",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "COM2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/akash1rakshit'>akash1rakshit</a>, <a class='problem-tag-small ' href='/tags/problems/binary-search'>binary-search</a>, <a class='problem-tag-small ' href='/tags/problems/bitmasking'>bitmasking</a>, <a class='problem-tag-small ' href='/tags/problems/com2018'>com2018</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>, <a class='problem-tag-small ' href='/tags/problems/strings'>strings</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>As Valentine week is going on, bajrang dal is in mood to execute their plans on upcoming Valentine's day. Today they called a meeting of all the members to decide their plans. After the discussions they came to an idea. The idea is as follows:</p>\n\n<p>The Leader of the dal will be having a huge string upto 100000 characters known master string <b>M</b>. And all the coordinators of the dal will visit all the parks and places of the city where there is probability to find the couples. Their task is to bring them to the leader of the group. After that the leader will assign a number to each of the couples. The number assigned is the length of substring of master string such that name of both the couples(Let <b>a</b> and <b>b</b>) is present in that substring. If there are multiple substrings containing name of both the couples the number assigned is the length of the substring which is having minimum length.</p>\n\n<p>After the number is assigned to all the couples leader of the dal puts a condition among them to set them free. He told them to divide themselves in two groups such that if they take xor of assigned numbers of all the couples, the result after addition of xor of both the groups is maximum. Can you help them ?</p>\n\n<p>Lets consider <b>P</b> is the xor of all the number of first group and <b>Q</b> is the xor of all the numbers of second group. You need to maximise <b>P + Q</b>. If there are multiple ways to divide the couples so that the previous condition fulfilled, then minimize the value <b>P</b>.</p>\n\n<p>Note: There is always a substring in the master string which will contain the names of both in the couple.</p>\n\n<h3>Input:</h3>\n<p>First line of each test file is a strigs, the master string.\nSecond line conatins the number of couples, <b>N</b> that the coordinaters brought to the Leader. Next <b>N</b> lines contains two strings <b>a</b> and <b>b</b> the name of both in the couple.</p>\n\n<h3>Output:</h3>\n<p>Print <b>N</b> space-separated integers, the i-th of them should equal either <b>1</b> if this couple should be kept in first group, or <b>2</b> if it kept in second group.</p>\n\n<h3>Contraints:</h3>\n<b>1 \u2264 length of M \u2264 100000</b><br>\n<b>1 \u2264 N \u2264 50000</b><br>\n<b>1 \u2264 length of a,b \u2264 10</b><br>\n\n\n<h4>Sample Input:</h4>\n<b>akashikharishasenorita</b><br>\n<b>3</b><br>\n<b>shikhar isha</b><br>\n<b>aka norita</b><br>\n<b>harish isha</b><br>\n\n<p><h4>Sample Output:</h4>\n<b>2 2 1</b></p>\n\n\n<h3>Explanation:</h3>\n<p>Master String M is akashikharishasenorita.\nminimum length substring of this string which contains the name of couples is as follows:</p>\n<p>\n<table>\n  <tr>\n    <th>names</th>\n    <th>minlength</th>\n    <th colspan=\"2\">substring</th>\n  </tr>\n  <tr>\n    <td>shikhar, isha</td>\n    <td>11 </td>\n    <td colspan=\"2\">shikharisha</td>\n  </tr>\n  <tr>\n    <td>aka norita</td>\n    <td>22</td>\n    <td colspan=\"2\">akashikharishasenorita</td>\n  </tr>\n   <tr>\n    <td>harish isha</td>\n    <td>7</td>\n    <td colspan=\"2\">harisha</td>\n  </tr>\n</table>\n</p>\n\n<p>Now our array is (11,22,7). We have to divide the array in two parts such that xor sum of both the array is maximum. \nsome of the combinations are<br>\n(11) and (22,7), xor sum is (11) + (22^7 = 17) = 28<br>\n(11,22) and (7), xor sum is (11^22 = 29) + (7) = 36<br>\n(7) and (11,22), xor sum is (7) + (11^22 = 29)  = 36<br>\n(11,7) and (22) , xor sum is (11^7 = 12) + (12) = 34<br></p>\n\n<p>As we have to minimize the xor of first group we would choose the 3rd partition among 2nd and 3rd, as both are correct.</p>\n\n",
+    "category_name": "main",
+    "date_added": "2-02-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "max_timelimit": "1 - 2",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/COMAPR04",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1518453000,
+        "end_date": 1518463800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1518463800,
+        "submit_start_date": 1518453000,
+        "current": 1537433002
+    },
+    "user": {
+        "username": ""
+    }
+}

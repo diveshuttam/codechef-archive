@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">Little Avani had been reading about magical tales a lot. Being fascinated by the power of magic tricks, she decided to learn magic. She bought a book which contained <b>N</b> magic tricks. Each magic trick is described as a string <b>S</b> consisting of characters from the set {a,b,c,d} only. Being very little, she was unable to understand any of the magic tricks. She put a lot of effort to figure out how to use those tricks. She then found that each magic trick <b>S<sub>i</sub></b> is dependent on another magic trick <b>S<sub>j</sub></b> such that: <br /></p>\n<li><b>S<sub>j</sub></b> is lexicographically smaller than <b>S<sub>i</sub></b>.</li>\n<li>There exits no other magic trick <b>S<sub>k</sub></b> which is lexicographically greater than <b>S<sub>j</sub></b> and lexicographically  smaller than <b>S<sub>i</sub></b>.</li>\n<li>1 &lt;= i,j,k &lt;= N</li>\n<p><br /><br />\nNow she has <b>Q</b> queries. Each query consists of a magic trick. For each query she wants to know the magic trick it is dependent on. Help her learn the magic tricks and she will give you lots of goodies in return.\n</p>\n<h3>Input</h3>\n<p>The first line contains a single integer <b>N</b> denoting the number of magic tricks in the book.<br /><br />\n<b>N</b> lines follow. Each line contains description of a magic trick.<br /><br />\nNext line contains an integer <b>Q</b> denoting the number of magic tricks Avani is interested in.<br /><br />\n<b>Q</b> lines follow. Each line contains a magic trick.<br />\n</p>\n<h3>Output</h3>\n<p>For each query, output the magic trick which it is dependent on. If there is no such magic trick, then output -1.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li>1 &lt;= <b>N</b> &lt;= 2000000</li>\n<li>1 &lt;= <b>Q</b> &lt;= 100000</li>\n<li>1 &lt;= <b>|S|</b> &lt;= 12</li>\n<li><b>S</b> contains characters from the set {a,b,c,d} only.</li>\n</ul>\n\n<h3>Example</h3>\n<p><b>Input:</b></p>\n<pre>5\naa\nabb\nbdc\ncda\ndacc\n4\nbdc\ncda\naa\nabb\n</pre><p><br /><br />\n<b>Output:</b></p>\n<pre>\nabb\nbdc\n-1\naa\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Codigo 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426608000,
+        "end_date": 1426618200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426618200,
+        "submit_start_date": 1426608000,
+        "current": 1537436530
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>rohanagarwal</span>",
+    "problem_name": "Avani and Magic",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rohanagarwal'>rohanagarwal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rohanagarwal",
+    "contest_code": "CDGO2015",
+    "max_timelimit": "1",
+    "problem_code": "AMAGIC"
+}

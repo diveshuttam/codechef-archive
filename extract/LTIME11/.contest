@@ -1,0 +1,122 @@
+{
+    "announcements": "<p><b>27/04/2014, 11:09 IST: </b>The official school rankings for the contest can be found <a target=\"_blank\" href=\"/rankings/inst/school/LTIME11\">here</a>. Overall rankings can be viewed <a target=\"_blank\" href=\"/rankings/inst/LTIME11\">here</a>.</p>\r\n<p><b>27/04/2014, 11:59 IST: </b>New testcases have been added to MPROD, and all accepted solution have been rejudged. Sorry for the inconvenience.</p>",
+    "ip": "149.129.135.113",
+    "code": "LTIME11",
+    "duration": "180",
+    "name": "April LunchTime 2014",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "KFORK": [
+            {
+                "score": "40",
+                "count": "41"
+            },
+            {
+                "score": "60",
+                "count": "2"
+            },
+            {
+                "score": "100",
+                "count": "111"
+            }
+        ],
+        "MPROD": [
+            {
+                "score": "30",
+                "count": "5"
+            },
+            {
+                "score": "100",
+                "count": "30"
+            }
+        ],
+        "TANDC": [
+            {
+                "score": "100",
+                "count": "27"
+            }
+        ],
+        "CIRCLE": [
+            {
+                "score": "30",
+                "count": "6"
+            },
+            {
+                "score": "70",
+                "count": "2"
+            },
+            {
+                "score": "100",
+                "count": "19"
+            }
+        ]
+    },
+    "rules": "<div><b>All the solutions for the problem set are public and the problems have been moved to practice section.</b></div> <div><b>The editorials for the contest can be found <a href=\"http://discuss.codechef.com/tags/ltime11/\">here</a>.</b></div> <div><b>The winners blog can be found <a href=\"http://blog.codechef.com/2014/06/05/a-chinese-lunch/\">here</a>.</b></div> <div> <div>This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test data.</div> </div> <div> <div> <ul> <li>The details of the failed test cases will also be visible on your solution page.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The contest is meant for students of high school and middle school though everyone is invited to participate.</li> <li>There will be separate ranking page for school students. The school students will be identified by the inistitution that they have enetered in their profile.</li> <li><b>We have removed all the Institutions that we could not identify from our database. We request you to update your institutions once again by going to your profile page.</b></li> <li>You can also send in your queries in an email to <a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a>, during the contest.</li> <li>Contest problems will become visible on April 27th, 2014 at 11:00 am (IST) to 2:00 pm (IST). There will be 4 problems in all. Check your time zone <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+April+Lunch+Time+2014&amp;iso=20140430T11&amp;p1=44&amp;ah=3\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></li> <li>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a>.</li> </ul> </div> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/LTIME11/1424957931.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "KFORK": {
+            "allow_submission": false,
+            "name": "Knight Fork",
+            "category_name": "main",
+            "accuracy": 14.22,
+            "successful_submissions": "111",
+            "code": "KFORK",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "MPROD": {
+            "allow_submission": false,
+            "name": "Minimum Product",
+            "category_name": "main",
+            "accuracy": 2.63,
+            "successful_submissions": "30",
+            "code": "MPROD",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "TANDC": {
+            "allow_submission": false,
+            "name": "Tracy and Charlie",
+            "category_name": "main",
+            "accuracy": 31.76,
+            "successful_submissions": "27",
+            "code": "TANDC",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CIRCLE": {
+            "allow_submission": false,
+            "name": "Minion Circle",
+            "category_name": "main",
+            "accuracy": 7.36,
+            "successful_submissions": "19",
+            "code": "CIRCLE",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1398587400,
+        "current": 1537437579,
+        "freezing": 0,
+        "start": 1398576600
+    },
+    "user": {
+        "username": ""
+    }
+}

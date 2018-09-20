@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Given are two strings(each not more than 100 characters). We need to find relation between them such that <b><u>all</u></b> the characters of the second string must appear in the first string <b><u>sequentially (not necessarily continuously).</u></b> The program should :\n<br><ul>\n<li>Print &ldquo;1&rdquo;: if the characters in the first string appear in the same sequence as that of the second string.\n<li>Print &ldquo;2&rdquo;: if the characters in the first string appear in the opposite sequence as that of second string.\n<li>Print &ldquo;3&rdquo;: if the characters in the first string appear in both ie same as well as opposite sequences of the second string.\n<li>Print &ldquo;0&rdquo;: if the characters in the first string don&rsquo;t appear in sequence of the second string.\n</ul>\n<br>\nThe characters in the strings are case-sensitive.\n\n</pre>\n<h3>Input</h3>\n<p>The first line should give the number of test cases. For each test case, it takes input two strings.\n\n<h3>Output</h3>\n<p>An integer ( 0,1,2 or 3 ) for each of the test cases.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:\n5\nnjack njk\nanwesha awesa\nwysiwig iwi\nabcdef edba\nabcdef adb\n</b>\n\n<b>Output:\n1\n1\n3\n2\n0\n</b>\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "WYSIWYG 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330185600,
+        "end_date": 1330194600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1330194600,
+        "submit_start_date": 1330185600,
+        "current": 1537438934
+    },
+    "problem_author_html_handle": "ankit_tripathi",
+    "problem_name": "Play With Strings",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ankit_tripathi'>ankit_tripathi</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ankit_tripathi",
+    "contest_code": "ANWS2012",
+    "max_timelimit": "0.199029",
+    "problem_code": "WYSIWYG4"
+}

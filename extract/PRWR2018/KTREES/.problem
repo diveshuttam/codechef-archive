@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>\nAnuj has <b>K</b> samples of <b>N</b> tree saplings of initial height <b>h[i]</b>(1 based indexing).<br>\nHe plants these <b>K</b> samples of <b>N</b> trees in a line to get <b>N*K</b> saplings.<br>\nEg. <b>N=3,K=3</b> and heights are <b>1,2,3</b>.<br>\nThe final sequence will be <b>1,2,3,1,2,3,1,2,3</b>.\n<br><br>\nNow at the end of <b>i'th</b> year, he waters the trees from index <b>1</b> to index <b>i</b>, after which height of each tree is multiplied by <b>X</b>.\n<b>i</b> starts from <b>1</b> and goes till <b>N*K</b>.<br>\nAnuj wants to find the sum of heights of all trees at the end of <b>K*N'th</b> year modulo 10^9+7.\n<br><br>\nSince he cannot handle such large additions, he wants you to do it for him.\n(and find Harshit's 5T if possible)\n</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>\nFirst line contains the number of test cases, <b>T</b>\n<br>\nFirst line of each test case contains 3 space seperated integers <b>N</b>,<b>K</b> and <b>X</b>.\n<br>\nSecond line of each test case consists of <b>N</b> space seperated integers denoting the height of the trees.\n</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>Print a single integer denoting the sum of height of all trees after the <b>K*N'th</b> year</p>\n\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<p>\n1<=<b>T</b><=100<br>\n1<=<b>N</b><=10^5<br>\n1<=<b>K,X,h[i]</b><=10^9\n</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n3 2 2\n1 2 3\n\n<b>Output:</b>\n198\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>\n<b>K*N</b> is 6.\nAt the end of first year, he waters the first tree. So its height is 2.\nAt the end of second year, he waters the first 2 trees so the new heights are 4,4.\nAt the end of third year, he waters the first 3 trees so the new heights are 8,8,6.\nAt the end of fourth year, he waters the first 4 trees so the new heights are 16,16,12,2.\nAt the end of fifth year, he waters the first 5 trees so the new heights are 32,32,24,4,4.\nAt the end of sixth year, he waters all the first 6 trees so the new heights are 64,64,48,8,8,6.\nSum of all the trees at the end of 6th year is 198.\n\n\n\n\n\n\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Pradnya Wildcard Round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1521300600,
+        "end_date": 1521307800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1521307800,
+        "submit_start_date": 1521300600,
+        "current": 1537432791
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>anuj_2106</span>",
+    "problem_name": "Anuj Plus 5T",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anuj_2106'>anuj_2106</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "anuj_2106",
+    "contest_code": "PRWR2018",
+    "max_timelimit": " - 1",
+    "problem_code": "KTREES"
+}

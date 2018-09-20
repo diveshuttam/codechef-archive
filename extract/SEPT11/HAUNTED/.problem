@@ -1,0 +1,33 @@
+{
+    "problem_code": "HAUNTED",
+    "problem_author": "pieguy",
+    "contest_name": "September Long Contest",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>pieguy</span>",
+    "problem_name": "Haunted Maze",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>gamabunta</span>",
+    "contest_code": "SEPT11",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>, <a class='problem-tag-small ' href='/tags/problems/pieguy'>pieguy</a>, <a class='problem-tag-small ' href='/tags/problems/sep11'>sep11</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nChef is trapped in a haunted maze.\nThere are ghosts that patrol the maze by following fixed paths.\nChef is trying to escape the maze, but must avoid the ghosts or he will become frightened and faint.\nAdditionally, Chef needs to escape within a certain amount of time, or he will faint from hunger.\nYour task is to determine if Chef can escape the maze without fainting, and if so the minimum time it will take.\n</p>\n<p>\nYou will be given the layout of the maze, including Chef's starting position, the position of\nthe exit, and the patrol paths of the ghosts.\nThere is a timer that keeps track of how long Chef has been in the maze.  The timer starts at 0.\nEach second, the following happens (in order):\n<ul>\n<li>If the timer is equal to the maximum time Chef is allowed\nto spend in the maze, he will faint from hunger.</li>\n<li>Chef may move to one of the adjacent cells of the maze (north, east, south, or west of his current\nposition), provided that cell is neither a wall nor occupied by a ghost.\nChef also has the option of standing still.\n</li>\n<li>All of the ghosts move to the next cell in their repsective patrol paths.\nIf any ghost moves into the cell now occupied by Chef, Chef will faint.</li>\n<li>The timer is incremented by 1.</li>\n<li>If Chef is now standing at the location of the exit, Chef successfully\nescapes the maze.</li>\n</ul>\n</p>\n<p>\nGhost patrol paths will be given as a list of waypoints.\nEach waypoint will be in-line either horizontally or vertically with the next waypoint in the list,\nand the final waypoint will similarly be in-line with the first waypoint.\nGhosts will move from waypoint to waypoint, one square at a time, using the shortest possible path.\nOnce a ghost reaches its final waypoint, it will travel back to the first waypoint and repeat the cycle.\nFor example, if a patrol path were given as the waypoints:<br/>\n(2,3) (1,3) (1,0) (0,0) (0,1) (2,1)<br/>\nThen the ghost's complete path would be:<br/>\n(2,3) (1,3) (1,2) (1,1) (1,0) (0,0) (0,1) (1,1) (2,1) (2,2)<br/>\nAfter which the sequence would repeat.\n</p>\n<h3>Input:</h3>\n<p>\nInput will begin with T, the number of test cases.\nEach test case begins with 4 integers: M, N, C, and K,\nwhere M is the height of the maze, N is the width of the maze,\nC is the number of ghosts, and K is the number of seconds before Chef will faint from hunger.\nC lines follow, each describing the patrol path of a ghost.\nEach patrol path begins with an integer L, the number of waypoints in the path, followed by L pairs of integers giving the (x,y)\ncoordinates of a waypoint on the path, where (0,0) is the top-left corner and (N-1, M-1) is the bottom-right corner.\nFinally, M lines of N characters each describe the maze itself.  A '.' character indicates a passable square, and a\n'#' character indicates an impassable wall (although the ghosts may pass through walls).  A '@' character indicates\nthe starting position of Chef (it is guaranteed that no ghost will begin here), and a '$' character indicates the exit\nof the maze (there will be exactly one '@' character and one '$' character in each test case).\n</p>\n\n<h3>Output:</h3>\n<p>For each test case, if Chef can escape without fainting, print the minimum number of seconds it will take him to escape.\nOtherwise, print -1.</p>\n\n<h3>Constraints:</h3>\nT\u226410<br/>\n1\u2264M,N\u226430<br/>\n0\u2264C\u226430<br/>\n0\u2264K\u2264100000<br/>\n2\u2264L\u226410<br/>\n\n\n<h3>Sample Input:</h3>\n<pre><code>\n4\n10 10 0 200\n##.$......\n@#.######.\n.#...#..#.\n.###....#.\n....###.#.\n#.#.....#.\n....#.###.\n.####.#.#.\n.#....#...\n..........\n3 10 1 18\n2 1 1 7 1\n###.######\n@........$\n######.###\n5 5 2 13\n2 2 4 2 1\n3 4 2 3 2 2 2\n##@##\n##.##\n$..##\n#####\n#####\n2 2 1 1000\n2 1 1 1 0\n@$\n..\n</code></pre>\n\n<h3>Sample Output:</h3>\n<pre>\n22\n18\n-1\n-1\n</pre>\n",
+    "category_name": "main",
+    "date_added": "8-06-2011",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.623838",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/HAUNTED",
+    "problem_tester": "gamabunta",
+    "time": {
+        "view_start_date": 1314869400,
+        "end_date": 1315733400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1315733400,
+        "submit_start_date": 1314869400,
+        "current": 1537439151
+    },
+    "user": {
+        "username": ""
+    }
+}

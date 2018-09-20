@@ -1,0 +1,137 @@
+{
+    "announcements": "<p>\r\n<ul>\r\n<li><b>21/01/2015, 19:00: </b>The rankings for the contest can be found\u00a0<a target=\"_blank\" href=\"/rankings/WPC1501\">here</a>.</li>\r\n\r\n<li><b>21/01/2015, 21:30: </b>New test files has been added to the problem \"DOTS Player\". All accepted submissions will be rejudged. We are sorry for the inconvenience. </li>\r\n\r\n<li> Time limti for  <a href=\"http://campus.codechef.com/WPC1501/submit/IITK2P05\">Factorisation</a> has been increased to 2 secs from 1 secs as we felt that it is slightly less for few languages. </li>\r\n\r\n<li> Problem Chapu and Matisee has been removed from the contest because we figured out it was an copy from the <a href=\"http://hsin.hr/coci/archive/2006_2007/olympiad_tasks.pdf\"> COCI Contest 2006-07 </a>. We are really sorry for the situation. One of our new/ in-experienced problem setter had mistakenly added it. We regret the inconvience :( </li>\r\n</p>\r\n\r\n<p>\r\n<b> Contest has ended. Thank you all for participating. Please provide your valuable feedback <a href=\"https://docs.google.com/forms/d/1dL9n98JQil97ED2AsufrUy_btq-X7sbdHSHgLtbEVwQ/viewform?edit_requested=true\">here</a></p>.\r\n",
+    "ip": "149.129.135.113",
+    "code": "WPC1501",
+    "duration": "360",
+    "name": "IIT Kanpur, Monthly Programming Contest 2015",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div><b>Rules and Regulations:</b></div> <div> <ul> <li>Contest problems will become visible on 21st January, 2015 at 1900 HRS (IST) and end on 22nd January, 2015 at 0100 HRS (IST). Check your timezone <a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+WPC+1%2C+2015&amp;iso=20150121T19&amp;p1=539&amp;ah=5\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at feedback@codechef.com.</li> <li>Discussing problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>If you do not have a CodeChef ID create one\u00a0<a target=\"_blank\" href=\"http://codechef.com/user/register\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided.</li> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a></li> <li>Please contact\u00a0<a href=\"mailto:triveni692@gmail.com\" target=\"_blank\">triveni692@gmail.com</a> for any queries during the contest.</li> </ul> </div> <div><b>Judging Criteria:</b> <ul> <li>All the problems have same points alloted to them.</li> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved.</li> </ul> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/sites/default/files/uploads/landing_page_banners/banner-compete.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "IITK2P09": {
+            "allow_submission": false,
+            "name": "Long Drive",
+            "category_name": "main",
+            "accuracy": 15,
+            "successful_submissions": "26",
+            "code": "IITK2P09",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IITK2P05": {
+            "allow_submission": false,
+            "name": "Factorization",
+            "category_name": "main",
+            "accuracy": 4.65,
+            "successful_submissions": "11",
+            "code": "IITK2P05",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IITK2P07": {
+            "allow_submission": false,
+            "name": "Traveller Chef",
+            "category_name": "main",
+            "accuracy": 50,
+            "successful_submissions": "1",
+            "code": "IITK2P07",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IITK2P04": {
+            "allow_submission": false,
+            "name": "DOTS Player",
+            "category_name": "main",
+            "accuracy": 17.35,
+            "successful_submissions": "17",
+            "code": "IITK2P04",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IITK2P08": {
+            "allow_submission": false,
+            "name": "Devu and Churu",
+            "category_name": "main",
+            "accuracy": 37.38,
+            "successful_submissions": "39",
+            "code": "IITK2P08",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IITK2P02": {
+            "allow_submission": false,
+            "name": "Not Palindrome",
+            "category_name": "main",
+            "accuracy": 31.87,
+            "successful_submissions": "282",
+            "code": "IITK2P02",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IITK2P06": {
+            "allow_submission": false,
+            "name": "Let us play with even and odd numbers",
+            "category_name": "main",
+            "accuracy": 33.71,
+            "successful_submissions": "991",
+            "code": "IITK2P06",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IITK2P10": {
+            "allow_submission": false,
+            "name": "Chef and Pattern",
+            "category_name": "main",
+            "accuracy": 18.16,
+            "successful_submissions": "227",
+            "code": "IITK2P10",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IITK2P03": {
+            "allow_submission": false,
+            "name": "Chaapu and Parcels",
+            "category_name": "main",
+            "accuracy": 11.88,
+            "successful_submissions": "24",
+            "code": "IITK2P03",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IITK2P01": {
+            "allow_submission": false,
+            "name": "Little Chef and the King",
+            "category_name": "main",
+            "accuracy": 17.84,
+            "successful_submissions": "470",
+            "code": "IITK2P01",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1421868600,
+        "current": 1537436953,
+        "freezing": 0,
+        "start": 1421847000
+    },
+    "user": {
+        "username": ""
+    }
+}

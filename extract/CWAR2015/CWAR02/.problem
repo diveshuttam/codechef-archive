@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>\n<h3>Problem description.</h3>\n</p>\n<p>One day, Abhishek noticed that many English words only use the letters A and B. Examples of such words include \"AB\" (short for abdominal), \"BAA\" (the noise a sheep makes), \"AA\" (a type of lava), and \"ABBA\" (a Swedish pop sensation).</p>\n<p>Inspired by this observation, Abhishek created a small and simple game. You are given two Strings: initial and target. The goal of the game is to find that whether there is a sequence of valid moves that will change initial string into target string. There are only two types of valid moves:</p>\n<ul>\n<p>    <b>1. Add the letter A to the end of the string.<br /><br />\n    2. Add the letter B to the end of the string and then reverse the entire string. (After the reversal the newly-added B becomes the first character of the string).</b></p></ul>\n<p><br /><br />\nReturn \"Possible\" (quotes for clarity) if there is a sequence of valid moves that will change initial string into target string. Otherwise, return \"Impossible\".</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p><b>Input description.</b><br /><br />\nThere will be two lines containing Two strings<br />\n<br /><br />\nline-1. Initial string <br /><br />\nline-2. Target string\n</p>\n<h3>Output</h3>\n<p><b>Output description.</b><br /><br />\nA single line showing \"Possible\" of \"Impossible\"(without the quotes) depending upon the input.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>string1</b> \u2264 <b>49</b></li>\n<li><b>2</b> \u2264 <b>string2</b> \u2264 <b>50</b></li>\n<p>target will be longer than initial.<br /><br />\nEach character in initial and each character in target will be either <b>'A' or 'B'</b>.\n</p></ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\nA\nBABA\n\n<b>Output:</b>\nPossible\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b> Example case 1.</b><br /><br />\nInitially, the string is \"A\".<br /><br />\n    Jamie adds a 'B' to the end of the string and then reverses the string. Now the string is \"BA\".<br /><br />\n    Jamie adds a 'B' to the end of the string and then reverses the string. Now the string is \"BAB\".<br /><br />\n    Jamie adds an 'A' to the end of the string. Now the string is \"BABA\".<br /></p>\n<p>Since there is a sequence of moves which starts with \"A\" and creates the string \"BABA\", the answer is <b>\"Possible\".</b>\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-09-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWar NIT Durgapur",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1443706200,
+        "end_date": 1443727800,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1443727800,
+        "submit_start_date": 1443706200,
+        "current": 1537435996
+    },
+    "problem_author_html_handle": "cad_xcoders",
+    "problem_name": "StringGame",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cad_xcoders'>cad_xcoders</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "cad_xcoders",
+    "contest_code": "CWAR2015",
+    "max_timelimit": "2 - 3",
+    "problem_code": "CWAR02"
+}

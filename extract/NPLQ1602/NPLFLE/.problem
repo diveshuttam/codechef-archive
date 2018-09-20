@@ -1,0 +1,33 @@
+{
+    "problem_code": "NPLFLE",
+    "problem_author": "npl_nitw",
+    "contest_name": "NPL Final Round ",
+    "todo": false,
+    "problem_author_html_handle": "npl_nitw",
+    "problem_name": "Colorfulness of the squares",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "NPLQ1602",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/lis'>lis</a>, <a class='problem-tag-small ' href='/tags/problems/npl_nitw'>npl_nitw</a>, <a class='problem-tag-small ' href='/tags/problems/nplq1602'>nplq1602</a>, <a class='problem-tag-small ' href='/tags/problems/subset'>subset</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nYou have n square blocks arranged in a straight line. Every block has a number written on it. And each block has a color associated with it. A sub-sequence of blocks has <b>\"colorfulness\"</b> equal to the number of distinct colors in that sub-sequence.<br>\nAn increasing sub-sequence is a sub-sequence of blocks where the numbers on the blocks are arranged in non-decreasing order.<br>\nYou are given a <b>q</b> number of tasks as follows : <br>\n<ul>\n<li>In every task you will be given a number <b>K</b>.</li>\n<li>Consider all the increasing sub-sequences of length K in the given arrangement.</li>\n<li>Find and print the minimum <b>\"colorfulness\"</b> among all such sequences.</li>\n</ul>\n\n</p>\n\n<h3>Input</h3>\n<p>\nFirst line will contain <b>n</b> number of square blocks.<br>\nNext line contains <b>n</b> values each denoting the value written on the i<sup>th</sup> block in the line.(<b>A<sub>i</sub></b>)<br>\nNext line contains <b>n</b> values each denoting the color of the i<sup>th</sup> block in the line.(<b>C<sub>i</sub></b>)<br>\nNext line contain an integer <b>q</b> denoting the number of tasks.<br>\nNext q lines contain one integer each denoting <b>K</b> for that task.<br>\n</p>\n\n<h3>Output</h3>\n<p>For each task print the minimum colorfulness among all the increasing sub-sequences of length <b>K</b>. If there are no sub-sequences of length <b>K</b> then print <b>-1</b>.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> <= <b>n</b> <= <b>2000</b></li>\n<li><b>1</b> <= <b>A<sub>i</sub></b> <= <b>10<sup>9</sup></b></li>\n<li><b>1</b> <= <b>C<sub>i</sub></b> <= <b>10</b></li>\n<li><b>1</b> <= <b>q</b> <= <b>1000</b></li>\n<li><b>1</b> <= <b>K</b> <= <b>n</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n2 1 4 5 6\n1 1 2 1 3\n2\n1\n2\n\n<b>Output:</b>\n1\n1\n",
+    "category_name": "main",
+    "date_added": "11-10-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/NPLFLE",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1477038600,
+        "end_date": 1477047600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1477047600,
+        "submit_start_date": 1477038600,
+        "current": 1537434460
+    },
+    "user": {
+        "username": ""
+    }
+}

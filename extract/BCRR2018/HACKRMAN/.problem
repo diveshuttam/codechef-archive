@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Madam EEE decided to take a surprise CT in her class. Of course, she doesn\u2019t like partial scoring. So, she assigned each student a grade of $0$ or $1$. Of course, a lot of students got a zero in the exam. So they are sad.\n\nNo worries. It\u2019s hackerman Zawad to the rescue. Being the legendary hacker he is, Zawad can hack into the PC of madam EEE and change the results of the CT. Being a member of the BUET Chirokumar Songho, Zawad cannot stand girls. So, he wishes to change each girls grade to $0$ and each boy\u2019s grade to $1$.\n\nThe results of the CT are represented as an string of $0$\u2019s and $1$\u2019s. The $i$th  of the  represents the grade of student no $i$. In a single operation, Zawad can flip (change $1$ to $0$ and $0$ to $1$) any $k$ consecutive values. He wants to perform as few as operations as possible for not raising madam EEE\u2019s suspicions. Help Zawad figure out the minimum number of operation to achieve his goals.\n\n###Input:\n\nThe first line contains a single integer $t$, the number of testcases.\n\nEach testcase consists of three lines.\n\nThe first line contains two integers $n$, the number of students and $k$.\n\nThe second line contains a string of $n$ characters. The $i$th character represents the grade of the $i$th student. Each character is either $0$ or $1$.\n\nThe third line contains a string of $n$ characters. The $i$th character is $1$ if the $i$th student is a boy, $0$ if she is a girl.\n\n\n###Output:\nFor each case output a single line containing a single integer, the minimum number of operations to change each girls grade to $0$ and each boys grade to $1$. If it is not possible, output $-1$.\n\n###Constraints \n- $1 \\leq t \\leq 10$\n-  $1 \\leq k \\leq n \\leq 10^5$.\n\n###Sample Input:\n\n4\n\n3 2\n\n101\n\n011\n\n5 3\n\n00111\n\n11100\n\n4 4\n\n0110\n\n1110\n\n5 4\n\n01110\n\n01110\n\n\n###Sample Output:\n\n1\n\n2\n\n-1\n\n0\n\n\t\n###EXPLANATION:\nIn the first sample, Zawad can achieve his objective in a single operation by flipping the first two values. So, the answer is $1$.\n\nIn the second sample, Zawad can first flip indices $3$ to $5$. Then the string becomes $00000$.\nNext he flips indices $1$ to $3$. Then the string becomes $11100$. So, the answer is $2$.\n\nIn the third sample, there is no way to achieve Zawad\u2019s goals.\n\nIn the fourth sample, each girl already has $0$ grade and each boy $1$. So, we don\u2019t need to perform any operations.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "BUET CSE 17 Reception Contest (Replay)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1524754800,
+        "end_date": 1524765600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1524765600,
+        "submit_start_date": 1524754800,
+        "current": 1537432519
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>solaimanope</span>",
+    "problem_name": "Hackerman",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/solaimanope'>solaimanope</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "solaimanope",
+    "contest_code": "BCRR2018",
+    "max_timelimit": "1",
+    "problem_code": "HACKRMAN"
+}

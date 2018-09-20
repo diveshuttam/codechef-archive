@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>A family tree of the Royal Family of Mysore has n vertices to represent each of its members. The present king, who is also the oldest member of the family, decides to find his heir. He decides that his next heir will be one of the youngest members of the family, i.e., the ones with no descendents. The king, though being just and wise, favours some of these younger members more than the others, the favour denoted by a favour number. Of course, the favour number of every other member of his family (the one with descendents) is zero, because, as the king says, they are all a bunch of schemers who are always fighting against each other. Now, each of the king\u2019s sons, knowing that they will never be the king, wanted one of the member of their own subfamily to be the next king. So, all of the king\u2019s sons, instead of fighting a huge battle against each other, decided to sit and figure out a fair solution to their problem. It was decided that each of the sons should have a fair chance of one of their bloodline being proclaimed as the next king. To achieve this, it was important that the sum of favour numbers in each subfamily, to be the same. So they all decided that to achieve this goal, they will make sure the favour number of some of the probable candidates drops to zero. It was decided that this should be achieved by dropping the least favour numbers. You, as the courtroom minister, have to find the least favour numbers to be dropped to give all the sons\u2019 sub-families an equal chance. Note, that this can always be achieved by dropping the favour number of all candidates to zero.  </p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line contains integer n (2\u2009\u2264\u2009n\u2009\u2264\u200910^5), denoting the number of member in the royal family. The next line contains n integers a1,\u2009a2,\u2009...,\u2009an (0\u2009\u2264\u2009ai\u2009\u2264\u200910^8), where ai is the favor number of the family member i. The favor number of every member with at least one descendant is guaranteed to be 0.<br />\nThen follow n\u2009-\u20091 lines, describing the relationships.\t\t\t\t\t\t\t Each line contains a pair of integers xi,\u2009yi (1\u2009\u2264\u2009xi,\u2009yi\u2009\u2264\u2009n,\u2009xi\u2009\u2260\u2009yi) \u2014 where xi is the nearest ancestor (father) of the descendant yi.<br />\nThe family members are numbered from 1 to n. Family member #1 is the king.\n</p>\n<h3>Output</h3>\n<p>Print an integer t, the least favour numbers to be dropped to give all the sons\u2019 sub-families an equal chance.</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n6\n0 0 12 13 5 6\n1 2\n1 3\n1 4\n2 5\n2 6\n\n<b>Output:</b>\n6\n\n<p>\n\n\n<b>Note : This problem has been inspired from previously solved questions.</b> \n</p>\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-04-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Prometheus 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1397500200,
+        "end_date": 1397759400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1397759400,
+        "submit_start_date": 1397500200,
+        "current": 1537437604
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>himanshuk123</span>",
+    "problem_name": "Royal Family Of Mysore",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/himanshuk123'>himanshuk123</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "himanshuk123",
+    "contest_code": "PRMT2014",
+    "max_timelimit": "1",
+    "problem_code": "PROM07"
+}

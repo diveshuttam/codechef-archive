@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><font size=2></font></p>\n<p>\nIn a galaxy far away, space is D-dimensional and folds like donuts. There are <b>K types of stars</b> in the galaxy. The stars are arranged in an <b>M x M x M ... X M (D times)</b> hypercube, where <b>M = 3^N</b>. Thus, there are 3^(N*D) stars. You will be given N to specify M.<br />\nAs we said, space folds like donuts. Let's see what that means. </p>\n<p>There are D dimensions, named from 1 ... D. Stars in a row along dimension 1 (with the same coordinates in dimensions 2 ... D) can rotate in the following manner. <b>The first star in the row, can go to the second position, the second to the third, the last to the first, and so on. </b> These 'rotations' take place freely without constraint, and the <b>stars retain their original coordinates in the other D-1 dimensions.</b>\n</p>\n<p>\nLet's say the stars have types from 1 ... K. Now, <b>two configurations of stars in a row in the first dimension are considered equivalent if through such rotations described above, we can reach the second configuration from the first</b>.\n</p>\n<p>However, this is not it. Space twists like donuts, in all dimensions. Precisely, the following can happen. Consider rows in the first dimension stacked along the second dimension (to form a planar structure). <b>These rows of configurations can rotate freely along this second dimension</b>, much in the same way as single stars rotate along a row. However, in this case, <b>a single star cannot move along the second dimension without it's neighbors in the first dimension.</b>\n</p>\n<p>Now consider a stacking of planes of the second dimension to form a cube in the third dimension. The planes can rotate along this cube, similar to what is described above. Again, planes move along with it's neighbors. <b>In general, a structure in the first k dimensions of size M X M X .. M (k times) can rotate around in the (k+1)'th dimension.</b>\n</p>\n<p><br /><br /> <b>As described above, two configurations in these D dimensions are considered equivalent if one can be obtained from the other by such rotations. Your task is to output the possible number of non-equivalent configurations, modulo an odd prime P of the form 3k + 2.</b>\n</p>\n<p>As an illustrative example in 2D, with 2 types of stars, consider the following three equivalent configurations. <br /></p>\n<pre>\n110\n001\n010\n</pre>\n<p>is converted to the following by picking the top row and put it at the bottom, shifting rows 2 and 3 upwards - <br /></p>\n<pre>001\n010\n110\n</pre>\n<p>This configuration is converted to the following configuration by rotating the bottom and the top rows by 1 to the left. The middle row is untouched.  </p>\n<pre>010\n010\n101\n</pre>\n<p>The following is a configuration that cannot be reached. </p>\n<pre>\n010\n111\n000\n\n<h3>Input</h3>\n<p>\nThere is single test case, containing 4 space separated numbers, P, N, K, D.\n</p>\n\n<h3>Output</h3>\n<p>Output a single integer, the possible number of non-equivalent configurations. </p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b> 2 </b> \u2264 <b> N </b> \u2264 <b> 10^12 </b> \n</li><li><b> 5 </b> \u2264 <b> P </b> \u2264 <b> 10^3 </b> \n</li><li><b> P is an odd prime of the form 3k + 2 </b> \n</li><li><b> 1 </b> \u2264 <b> D </b> \u2264 <b> 50 </b> \n</li><li><b> 2 </b> \u2264 <b> K </b> \u2264 <b> 10^4 </b> \n</li></ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n5 3 2 2 \n<b>Output:</b>\n2\n</pre></pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426362910,
+        "end_date": 1426422600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426422600,
+        "submit_start_date": 1426362910,
+        "current": 1537436569
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>triveni</span>",
+    "problem_name": "Counting Stars",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/triveni'>triveni</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "triveni",
+    "contest_code": "IOPC2015",
+    "max_timelimit": "3",
+    "problem_code": "IOPC15N"
+}

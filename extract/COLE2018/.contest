@@ -1,0 +1,97 @@
+{
+    "announcements": "The contest has ended. You can find the editorials <a href=\"https://discuss.codechef.com/tags/cole2018/\">here</a>. <br><br>\r\n\r\n\r\nThe time limit multiplier for PyPy is set to 3x instead of the default 5x.",
+    "ip": "149.129.135.113",
+    "code": "COLE2018",
+    "duration": "4249",
+    "name": "Coders' Legacy 2018 (Rated)",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<h4>About the Contest:</h4>\r\n<ul>\r\n<li><strong>Organiser: </strong> The contest is hosted by Kalyani Government Engineering College.</li>\r\n<li><strong>Prizes: </strong>Top 5&nbsp;Indian and&nbsp;top 5 Non-Indian winners will get 300 CodeChef laddus each.</li>\r\n<li><strong>Registrations for prizes: </strong>NA</li>\r\n</ul>\r\n<h4>Contest Details:</h4>\r\n<ul>\r\n<li>This is an&nbsp;<a href=\"https://blog.codechef.com/2017/03/09/a-star-studded-rating-system/\" target=\"_blank\">External Rated Contest</a>.</li>\r\n<li><strong>Duration: </strong>3 hours</li>\r\n<li><strong>Start time: </strong>15th April 2018, 21:30 hrs IST</li>\r\n<li><strong>End time: </strong>16th April 2018, 00:30 hrs IST<br /> You may check your timezone <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+-+Coders%27+Legacy+2018&amp;iso=20180415T2130&amp;p1=44&amp;ah=3\" target=\"_blank\">here</a>.</li>\r\n</ul>\r\n<h4>Registration:</h4>\r\n<p>You just need to have a CodeChef username to participate. No seperate registration is required. If you do not have a CodeChef ID create one <a href=\"../user/register\" target=\"_blank\"> here</a>.</p>\r\n<h4>Eligibility Criteria: Anyone with a knack for Programming :)</h4>\r\n<p class=\"&rdquo;last&rdquo;\">Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct.</a></p>\r\n<h4>Rules and Regulations:</h4>\r\n<ul class=\"last\">\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com </a>.</li>\r\n<li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li>\r\n<li>Almost all languages supported on CodeChef are allowed.</li>\r\n<li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li>\r\n<li>Please contact <a href=\"mailto:soumiksarkar.cat@gmail.com\" target=\"_blank\">keygencoders@gmail.com</a> for any queries during the contest.</li>\r\n</ul>\r\n<h4>Judging Criteria:</h4>\r\n<ul>\r\n<li><strong>All the problems have same points alloted to them.</strong></li>\r\n<li><strong>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time</strong></li>\r\n<li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus <strong>10 penalty minutes</strong> for every previously rejected run for that problem (Wrong answer, Time limit exceeded, Runtime Error). There is no time consumed for a problem that is not solved.</li>\r\n<li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li>\r\n<li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li>\r\n</ul>\r\n<p><strong>Note:</strong> You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"../ide\" target=\"_blank\">Online IDE</a>.</p>\r\n<p>However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COLE2018/1523621014.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CLUSCL": {
+            "allow_submission": false,
+            "name": "Useless Clocks",
+            "category_name": "main",
+            "accuracy": 14.86,
+            "successful_submissions": "44",
+            "code": "CLUSCL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLFIBD": {
+            "allow_submission": false,
+            "name": "Fibonacci String",
+            "category_name": "main",
+            "accuracy": 10.08,
+            "successful_submissions": "151",
+            "code": "CLFIBD",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLKLZM": {
+            "allow_submission": false,
+            "name": "Killing Zombies",
+            "category_name": "main",
+            "accuracy": 16.83,
+            "successful_submissions": "17",
+            "code": "CLKLZM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLTNGL": {
+            "allow_submission": false,
+            "name": "Triangles in a Grid",
+            "category_name": "main",
+            "accuracy": 25,
+            "successful_submissions": "1",
+            "code": "CLTNGL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLERVT": {
+            "allow_submission": false,
+            "name": "The Kingdom of Ererraveth",
+            "category_name": "main",
+            "accuracy": 23.08,
+            "successful_submissions": "3",
+            "code": "CLERVT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLSUMG": {
+            "allow_submission": false,
+            "name": "Sum of Primes",
+            "category_name": "main",
+            "accuracy": 3.13,
+            "successful_submissions": "1",
+            "code": "CLSUMG",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1524062940,
+        "current": 1537432559,
+        "freezing": 0,
+        "start": 1523808000
+    },
+    "user": {
+        "username": ""
+    }
+}

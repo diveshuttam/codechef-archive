@@ -1,0 +1,33 @@
+{
+    "problem_code": "PERMSUM",
+    "problem_author": "yash_chandnani",
+    "contest_name": "LoC May 2018",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>yash_chandnani</span>",
+    "problem_name": "SUM OVER PERMUTATIONS",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "LOCMAY18",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/finding-pattern'>finding-pattern</a>, <a class='problem-tag-small ' href='/tags/problems/locmay18'>locmay18</a>, <a class='problem-tag-small ' href='/tags/problems/math'>math</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/yash_chandnani'>yash_chandnani</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Chef has an array $A$ which is a permutation of natural numbers till $n$. He defines value of an array as no of elements in the array whose neighboring elements have sum at least $k$.(Note that first and last element of an array have only 1 neighboring elements where as remaining elements have 2 neighboring elements each.)\n\nYou don't know the permutation that chef has, so you decide to find the sum of the values of all possible permutations. Given $n$ and $k$ you need to find this sum and output it modulo 1000000007 ($10^9 + 7$).\n\n###Input:\n\n- First line will contain $T$, number of testcases. Then the testcases follow. \n- Each testcase contains of a single line of input, two integers $n, k$. \n\n###Output:\nFor each testcase, output in a single line sum of value of all possible permutations modulo 1000000007.\n\n###Constraints \n- $1 \\leq T \\leq 100000$\n- $2 \\leq n \\leq 10^5$\n- $2 \\leq k \\leq 10^5$\n\n###Subtasks\n- 30 points :\n\n    $2 \\leq n \\leq 1000$\n\n    $2 \\leq k \\leq 1000$\n\n- 70 points : Original constraints\n\n\n###Sample Input:\n\t2\n\t2 2\n\t3 3\n\n###Sample Output:\n\t2\n\t10\n\t\n###EXPLANATION:\nIn first case since only 2 permutations are possible (1,2) and (2,1) and each of which has only one element 1 whose sum of neighboring elements is 2, value of both permutations is 1 and hence required ans is 2.\n\nFor 2nd test case, we have following permutations:\n\n\t1,2,3 - Value = 1\n\t1,3,2 - Value = 3\n\t2,1,3 - Value = 1\n\t2,3,1 - Value = 3\n\t3,1,2 - Value = 1\n\t3,2,1 - Value = 1\n\n\tHence, ans is 1+3+1+3+1+1 = 10\n",
+    "category_name": "main",
+    "date_added": "24-05-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, kotlin, TEXT, SCM chicken, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/PERMSUM",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1527359400,
+        "end_date": 1527532200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1527532200,
+        "submit_start_date": 1527359400,
+        "current": 1537432416
+    },
+    "user": {
+        "username": ""
+    }
+}

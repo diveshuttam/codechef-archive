@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b> For Turbo C++ Users : Read the following document before attempting the question : <br /><a href=\"http://foobar.iiitd.edu.in/turbo.pdf\" > Switching from Turbo to GNU </a> </b><br />\n<br /><br /><br /><br />\n<b> For C and C++ users, use long long instead of int. For Java users, use long.</b><br /><br /><br /></p>\n<h3> Problem description </h3>\n<p>\n<center><i>Data here, Data There. Data Everywhere.<br/><br />\nWhich one is mine though?</br/></i></center><br />\n<br/><br />\nMain Proconist Dhruv has been given the task of encrypting a classified data file to be sent to Stockholm Convention. The encryption is as follows:<br />\n<br/>Given a number N, the encryption is a string made up of alphabets (a-z) such that the \"sum of the rank of letters\" is equal to the number N.<br />\n<br/><br />\nThe <b> Rank </b> of a letter is the position of the letter in the alphabet. For eg. Rank(\"a\") = 1 and Rank(\"t\") = 20.<br />\nSo according to the encryption, the no. 5 can be represented as \"aac\" or \"ad\" or \"e\" etc.<br />\nSince the network is slow, Dhruv wants to keep the size of the string as minimum as possible.<br />\nAnd he has asked for your help.\n</br/></br/></br/></p>\n<h3>Input</h3>\n<p>The first line consists of T: the no. of test cases.<br />\n<br/><br />\nEvery test case has one positive integer N.</br/></p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For every test case, output the minimum length of the encrypted string corresponding to the input N.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>12</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n50\n34\n23\n<b>Output:</b>\n2\n2\n1\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> 50 can be encrypted as \"yy\"</p>\n<p><b>Example case 2.</b> 34 can be encrypted as \"tn\"</p>\n<p><b>Example case 3.</b> 23 can be encrypted as \"w\"</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-07-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Procon Junior 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1438317000,
+        "end_date": 1438327800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1438327800,
+        "submit_start_date": 1438317000,
+        "current": 1537436159
+    },
+    "problem_author_html_handle": "proconjr2015",
+    "problem_name": "Stockholm Encryption",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/proconjr2015'>proconjr2015</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "proconjr2015",
+    "contest_code": "PRCNJR15",
+    "max_timelimit": "1",
+    "problem_code": "STKENC"
+}

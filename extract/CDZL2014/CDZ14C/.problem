@@ -1,0 +1,33 @@
+{
+    "problem_code": "CDZ14C",
+    "problem_author": "tussharsingh13",
+    "contest_name": "Code Zilla 2014",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>tussharsingh13</span>",
+    "problem_name": "Cross the Maze",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CDZL2014",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bfs'>bfs</a>, <a class='problem-tag-small ' href='/tags/problems/cdzl14'>cdzl14</a>, <a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/tussharsingh13'>tussharsingh13</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>In the secret vault, Eon gets information about the existence of Codezilla's castle and he finds a map with its location. But on his way to the castle, Eon encounters a maze. Now this is no ordinary maze. The maze is in the form of a rectangle with n rows and m columns. Each cell of the maze is a room and a room in the ith row and jth column is addressed as room(i,j). Rows are numbered from 1 to n from bottom to top and columns are numbered from 1 to m from left to right.</p>\n<p>The maze has two types of rooms: type A and type B. In each room of type A, there is a monster who is very hungry and Eon must give him a candy otherwise the monster will eat him. The room also contains one gold coin. In each room of type B, there is a guard who is very greedy and Eon must give him a gold coin otherwise the guard will kill him. The room also contains a candy.</p>\n<p>Every room has a door to every adjacent room (Rooms that share an edge are adjacent rooms). Before entering the maze Eon has the choice of taking either a gold coin or a candy. Eon enters the maze from room(1,1) and he has to reach the room(n,m) to get out of the maze. Eon does not have much time. Tell Eon the minimum number of rooms he needs to visit to get out of the maze alive.</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. First line of each test case consists of two integers <b>n</b> and <b>m</b>.Then follows n lines with m characters each describing the maze. '0' for room of type A and '1' for room of type B.</p>\n<h3>Output</h3>\n<p>For every test case print the minimum number of rooms Eon needs to visit to get out of the maze. If it is not possible to cross the maze, print \"-1\" without the quotes.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>m</b> \u2264 <b>1000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3 3\n011\n001\n000\n2 2\n11\n00\n\n<b>Output:</b>\n5\n-1\n</pre>",
+    "category_name": "main",
+    "date_added": "8-02-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, GO",
+    "max_timelimit": "0.213777",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/CDZ14C",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1392048000,
+        "end_date": 1392058800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1392058800,
+        "submit_start_date": 1392048000,
+        "current": 1537437850
+    },
+    "user": {
+        "username": ""
+    }
+}

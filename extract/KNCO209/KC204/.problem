@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><h2>Points:10</h2></p><p>\nYour college teacher was highly impressed by your previous achievement. So now he has given you a new project to work on. If you can make this one into a success, you could be on your way to Rio de Janeiro in Brazil to participate in the global finale of this international technical extravaganza sponsored by Bromhood Brothers, a leading software developer( Now why does it look familiar ?!?). \nYou are given  set of letters,\nand the challenge is to find how many different words can be made from these\nletters. This problem is designed to take all the fun out of it by\nautomating the process.\n \n\n\n<h3>\nInput:</h3>\n\n</p><p>Input will be in two parts. The first part will be a dictionary of less than\n1000 lines, containing words to be searched for. Each line will contain one\nword of up to 7 characters. Each word will be in lower case. The words will\nbe in alphabetical order. The end of the dictionary will be indicated by a\nline consisting of a single `#' character.\n<br />\n\nAfter the dictionary there will be data for several word puzzles, each on a\nseparate line. Each puzzle line will have from one to 7 lower case letters,\nseparated by one or more spaces. Your task is to arrange some or all of\nthese letters to form words in the dictionary. The list of puzzles will be\nterminated by a line consisting of a single `#'.\n\n<h3>\n\nOutput:\n</h3>\n\n</p><p>\n\n\nFor each puzzle line in the input, a single line of output should be\nproduced, containing the number of different words in the dictionary that\ncan be formed using the letters in the puzzle line.\n<br />\nNote that each letter may be used only as many times as it appears in the\npuzzle line. For instance, the puzzle line `u l l' may produce the word `lul'\nbut not the word `lull'.\n</p>\n\n<p>\n<h3>\nExample:</h3></p>\n<b>Input:</b>\n<pre>\nant\nbee\ncat\ndog\newe\nfly\ngnu\n#\nb e w\nb b e e w w\nt a n c u g d\n#\n</pre>\n<b>\nOutput:</b>\n<pre>\n0\n2\n3\n</pre>\n<h3></h3>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-10-2009",
+    "is_direct_submittable": false,
+    "contest_name": "Knight Coders Round 2",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1256398200,
+        "end_date": 1256484600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1256484600,
+        "submit_start_date": 1256398200,
+        "current": 1537439883
+    },
+    "problem_author_html_handle": "ankitbabbar",
+    "problem_name": "The Legend Lives On!",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ankitbabbar'>ankitbabbar</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ankitbabbar",
+    "contest_code": "KNCO209",
+    "max_timelimit": "1.29032",
+    "problem_code": "KC204"
+}

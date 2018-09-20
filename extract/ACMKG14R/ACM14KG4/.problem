@@ -1,0 +1,33 @@
+{
+    "problem_code": "ACM14KG4",
+    "problem_author": "admin",
+    "contest_name": "ACM-ICPC Asia-Kharagpur Site First Round Online Recontest 2014",
+    "todo": false,
+    "problem_author_html_handle": "admin",
+    "problem_name": "Jai Hanuman",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ACMKG14R",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acmkg14r'>acmkg14r</a>, <a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>, <a class='problem-tag-small ' href='/tags/problems/medium-hard'>medium-hard</a>, <a class='problem-tag-small ' href='/tags/problems/segment-tree'>segment-tree</a>",
+    "body": "<p>Hanuman was the army chief in the war against ravana, he helped Ram. Well, everyone knew about that, but did you know that Hanuman also helped people of byteland? Let me tell you the story!!</p>\n<p>Long long ago, on the day of diwali, people were unhappy with the crackers they had. They wanted to do some swaps with others and get the crackers they like, but they had lot of fights due to lack of rules. They all went to lord Hanuman for help, Hanuman asked them to follow few rules for peace. Firstly, Hanuman did the following,</p>\n<p>\n1) Hanuman, numbered all the people starting from <b>1</b>. There are <b>N</b> people in all.<br />\n2) Lord also numbered the crackers in order starting from <b>1</b>. There are <b>N*5</b> crackers.<br />\n3) He gave each of them 3 crackers to start with. Person numbered <b>i</b>, got crackers <b>(3*i)-2</b>, <b>(3*i)-1</b>, <b>3*i</b>.<br />\n4) Hanuman kept rest of the crackers with him.\n</p>\n<p>\nFollowing are the rules given,<br />\n1) Each person gets his chance to ask for swap of crackers. This starts with person numbered <b>1</b>, then 2, 3, 4 ... and ends with person numbered <b>N</b>. Any person, in his turn, can request for <b>3</b> swaps at the most. Note that they can also request for swap for crackers that are with Hanuman.<br />\n2) When a person asks for a swap, the other person should obey it and allow the swap.\n</p>\n<p>\nNote that, after the process described above, each person will get <b>3</b> crackers.<br />\nHaving said that, Hanuman told the people to start the process.<br />\nLet me also tell you about what the people prefer (In that order)<br />\n1) They always want their crackers numbered in order. (Example : 1, 2, 3 or 12,11,10 but not 10, 11, 13)<br />\n2) Each person has a preference number <b>P[i]</b>, they want their least-numbered cracker to be >= <b>P[i]</b> and as least as possible.<br />\n3) If he could not get set of crackers satisfying condition 1 and 2, he will then try to get his least-numbered cracker to be as least as possible (Leaving about >= <b>P[i]</b> condition)<br />\n<b>Note: </b> No person will ever break 1st condition. He will always try and get 3 ordered crackers. After that, they will try to follow 2nd condition, and if that is not possible then they move to the 3rd condition.\n</p>\n<p>\nAll <b>N</b> people are smart. They all make optimal choice. They all also know that others will always make optimal choice. Every person also knows about every other persons preference number (<b>P[ ]</b>).<br />\nYour task is to write a program, given <b>N</b> and <b>P[ ]</b>, output the least-numbered cracker each person will end up with when everyone make optimal choice of swaps.\n</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. Each test case is as follows,<br />\nFirst line of each test case has one integer, <b>N</b>. Second line of each test case contains <b>N</b> integers representing the array <b>P[ ]</b></p>\n<h3>Output</h3>\n<p>For each test case output one line with <b>N</b> integers, <b>i'th</b> integer being the least-numbered cracker received by <b>i'th</b> person</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10000</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>P[i]</b> \u2264 <b>N*5</b></li>\n<li><b>1</b> \u2264 <b>Sum of N over all test cases</b> \u2264 <b>500000</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2\n1 5\n2\n4 9\n\n<b>Output:</b>\n1 5\n4 1\n</pre><h3>Explanation</h3>\n<p><b>Test case #1:</b><br />\nFirst person does not make any swaps. He is happy with the crackers he has (1, 2, 3).<br />\nSecond person swaps cracker-4 with cracker-7 to get the crackers (5, 6, 7). This is to follow 2nd condition.\n</p>\n<p><b>Test case #2:</b><br />\nFirst person makes 3 swaps (1&lt;->4, 2&lt;->5, 3&lt;->6). At this moment, first person has (4, 5, 6) and the second person has (1, 2, 3)<br />\nIn this case, second person preference number is 9. But there are only 10 crackers, so he cannot get (9, 10, 11), it is impossible to follow condition 1 and 2, for that reason he decided to follow 1st and 3rd condition. Which means he want to minimize his least-numbered cracker. Second person will <b>not</b> request for any swaps as he already has (1, 2, 3)\n</p>\n",
+    "category_name": "main",
+    "date_added": "22-10-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/ACM14KG4",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1414672200,
+        "end_date": 1414683000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1725829441,
+        "submit_start_date": 1414672200,
+        "current": 1537437287
+    },
+    "user": {
+        "username": ""
+    }
+}

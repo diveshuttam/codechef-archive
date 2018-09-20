@@ -1,0 +1,33 @@
+{
+    "problem_code": "PREE06",
+    "problem_author": "ratish1992",
+    "contest_name": "./ Execute 2013",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>ratish1992</span>",
+    "problem_name": "Dexter and his Blood Slides",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "DSEC2013",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/desc2013'>desc2013</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>, <a class='problem-tag-small ' href='/tags/problems/ratish1992'>ratish1992</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Statement</h3>\n<p>\nDexter wants to fill a box having compartments in the form of a 3xN grid and he has blood slides of N different types to do that. Each compartment is to be filled with exactly one blood slide. An arrangement of the grid is considered beautiful if no two compartments of the same row or same column have the same type of blood slide.\n</p>\n<p>The compartments of the first two rows are already filled and they don't violate the beautiful condition (one type of blood slide doesn't appear more than once on the same row or the same column).\n</p>\n<p>\nFind how many different ways he can fill the 3rd row such that the resulting grid is beautiful. Two ways of filling the box are considered different if there is at least one compartment which is filled with a different type of blood slide.\n</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer T denoting the number of test cases.<br/><br />\nThe first line of each test case contains an integer N.<br/><br />\nThe next line contains N integers A1, A2, ..., AN, where Ai(1 \u2264 i \u2264 N) is the type of the blood slide at column i of 1st row.<br/><br />\nThe next line contains N integers B1, B2, ..., BN, where Bi(1 \u2264 i \u2264 N) is the type of the blood slide at column i of 2nd row.<br/></br/></br/></br/></br/></p>\n<h3>Output</h3>\n<p>For each test case, output the number of ways to fill the 3rd row such that the resulting grid is beautiful. Output the result modulo 1000000007.</p>\n<h3>Constraints</h3>\n<pre>\n1 \u2264 T \u2264 10\n3 \u2264 N \u2264 1000\nA1, A2, ..., AN is a permutation of the numbers 1, 2, ..., N.\nB1, B2, ..., BN is a permutation of the numbers 1, 2, ..., N.\nAi \u2260 Bi ( 1 \u2264 i \u2264 N) \n\n<h3>Example</h3>\n<h4>Input</h4>\n2\n4\n3 1 2 4\n2 4 1 3\n4\n2 4 1 3\n1 3 2 4\n<h4>Output</h4>\n2\n4\n</pre><h3>Explanation</h3>\n<p>For the 1st case the valid ways to fill the 3rd row are: {1,3,4,2} and {4,2,3,1}.<br/><br />\nFor the 2nd case the valid ways are: {3,1,4,2} , {3,2,4,1} , {4,1,3,2} and {4,2,3,1}.</br/></p>\n",
+    "category_name": "main",
+    "date_added": "12-10-2013",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.221935",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/PREE06",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1381764600,
+        "end_date": 1381937400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1381937400,
+        "submit_start_date": 1381764600,
+        "current": 1537438114
+    },
+    "user": {
+        "username": ""
+    }
+}

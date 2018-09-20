@@ -1,0 +1,137 @@
+{
+    "announcements": "<p><b>13/05/2013, 15:47 IST: </b>We have increased the allowed number of submissions to 1 every 30 seconds for a user.</p>\r\n<p><b>13/05/2013, 14:52 IST : </b>The contest has been extended for 1 Hour. it will now end at 1600 Hrs IST.</p>\r\n<p><b>13/05/2013, 14:32 IST: </b>We have restricted the allowed number of submissions to 1 every 180 seconds for a user.</p>\r\n<p><b>13/05/2013, 14:05 IST: </b>We regret to inform you that it will take us a bit more time to serve the editorials. They will be uploaded tomorrow. Please bear with us till then.</p>\r\n<p><b>13/05/2013, 14:05 IST: </b>We are facing issues with our server. Please do not make so many submissions on <a href=\"/MAY13/problems/CHALENGE\" target=\"_blank\">CHALENGE</a> problem.</p>\r\n<p><b>06/05/2013, 14:25 IST: </b>The tenth problem <a target=\"_blank\" href=\"/MAY13/problems/TREE\">TREE </a>has been added to the contest page.</p>\r\n<p><b>05/05/2013, 15:05 IST: </b>The ninth problem <a href=\"/MAY13/problems/CHALENGE\" target=\"_blank\">CHALENGE</a> has been added to the contest page.</p>\r\n<p><b>04/05/2013, 15:00 IST: </b>All the solutions for the problem <a target=\"_blank\" href=\"/MAY13/problems/MSTICK\">MSTICK</a> have been rejudged. Regret the inconvenience caused.</p>\r\n<p><b>03/05/2013, 15:20 IST: </b>We have added only 8 problems to the contest page. Our problem testers are working hard on the remaining 2 problems, which will be released soon.</p>",
+    "ip": "149.129.135.113",
+    "code": "MAY13",
+    "duration": "14460",
+    "name": "May Challenge 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p class=\"MsoNoSpacing\"><b>The May Contest has ended!</b></p> <p class=\"MsoNoSpacing\"><b>The editorials for\u00a0May </b><b>Challenge have been uploaded <a target=\"_blank\" href=\"http://discuss.codechef.com/tags/may13/\">here</a>.<span> </span></b></p> <p class=\"MsoNoSpacing\"><b><span> </span></b><b>All problems will be added to the practice section. </b><b>Solutions are public for all problems.</b></p> <p class=\"MsoNoSpacing\"><b>Winners Blog Post </b><b>can be found <a href=\"http://blog.codechef.com/2013/05/18/acrush-eclipsed/\">here</a>. </b></p> <p class=\"MsoNoSpacing\"><b> </b><b>The ratings have been calculated. The new ratings can be viewed <a target=\"_blank\" href=\"/long/ranklist/AX/\">here</a>.</b></p> <p>\u00a0</p> <p class=\"MsoNoSpacing\"><b>Rules:</b></p> <p class=\"MsoNoSpacing\"><b> </b></p> <p class=\"MsoNoSpacing\"><span><br />Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></span></p> <p class=\"MsoNoSpacing\">\u00a0</p> <p class=\"MsoNoSpacing\"><span>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</span></p> <p class=\"MsoNoSpacing\"><span><br /></span></p> <p class=\"MsoNoSpacing\"><span>Contest problems will become visible on May 3rd 2013 at 15:00 hours IST. Check your timezone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+May+Challenge+2013&amp;iso=20130503T15&amp;p1=44\" target=\"_blank\">here</a>.</span><br /><br /></p> <p class=\"MsoNoSpacing\"><span>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.<br /><br /></span></p> <p class=\"MsoNoSpacing\"><span>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.<br /><br /></span></p> <p class=\"MsoNormal\"><span>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</span></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/MAY13/1424957764.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "NAME1": {
+            "allow_submission": false,
+            "name": "Name Reduction",
+            "category_name": "main",
+            "accuracy": 33.74,
+            "successful_submissions": "1966",
+            "code": "NAME1",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CPP": {
+            "allow_submission": false,
+            "name": "Chef Protection Plan",
+            "category_name": "main",
+            "accuracy": 1.71,
+            "successful_submissions": "9",
+            "code": "CPP",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MSTICK": {
+            "allow_submission": false,
+            "name": "Matchsticks",
+            "category_name": "main",
+            "accuracy": 13.69,
+            "successful_submissions": "1081",
+            "code": "MSTICK",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "JUNONGF": {
+            "allow_submission": false,
+            "name": "Juno Puzzle for May",
+            "category_name": "main",
+            "accuracy": 7.8,
+            "successful_submissions": "230",
+            "code": "JUNONGF",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FTRIP": {
+            "allow_submission": false,
+            "name": "Field Trip",
+            "category_name": "main",
+            "accuracy": 16.39,
+            "successful_submissions": "688",
+            "code": "FTRIP",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "QTREE": {
+            "allow_submission": false,
+            "name": "Queries on tree again!",
+            "category_name": "main",
+            "accuracy": 12.88,
+            "successful_submissions": "35",
+            "code": "QTREE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TREE": {
+            "allow_submission": false,
+            "name": "Tree Counting",
+            "category_name": "main",
+            "accuracy": 23.69,
+            "successful_submissions": "343",
+            "code": "TREE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "NAME2": {
+            "allow_submission": false,
+            "name": "Your Name is Mine",
+            "category_name": "main",
+            "accuracy": 35.04,
+            "successful_submissions": "2259",
+            "code": "NAME2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "WITMATH": {
+            "allow_submission": false,
+            "name": "Witua and Math",
+            "category_name": "main",
+            "accuracy": 19.6,
+            "successful_submissions": "854",
+            "code": "WITMATH",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHALENGE": {
+            "allow_submission": false,
+            "name": "Password Cracking Challenge",
+            "category_name": "main",
+            "accuracy": 82.25,
+            "successful_submissions": "715",
+            "code": "CHALENGE",
+            "type": "2",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1368441000,
+        "current": 1537438307,
+        "freezing": 0,
+        "start": 1367573400
+    },
+    "user": {
+        "username": ""
+    }
+}

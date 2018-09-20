@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>Problem Description</b></p>\n<p>Now that the votes have been casted, its time to count them. The ballot box has been locked with a secret code and has been handled to the Election Commission for </p>\n<p>counting. The ballot box is very secure. It has 5 digits on its lock and only a particular combination of the digits can unlock it. The digits on the lock can be </p>\n<p>changed only with the help of a laser machine.</p>\n<p>The laser machine is very unique. It has <i>K</i> keys (with a number on each key) on it. In each step, it </p>\n<p>multiplies the 5 digit number on the ballot box with any of its keys and then takes the remainder with 10<sup>5</sup> so as to make the number back to 5 digits. Note </p>\n<p>that numbers are have leading 0's in case it is less than 5 digits. But using the laser machine is very expensive. Each step costs <i>C</i> Rupees. So the election </p>\n<p>commission wants to know the minimum cost to unlock the ballot box.</p>\n<p>Given the initial code, the final code (which unlocks the box), the <i>K</i> Keys and the cost per operation <i>C</i>, your job is to help find the minimum cost to </p>\n<p>unlock the box, or report that the box cannot be opened.</p>\n<p><br /> <br />\n<b>Input</b></p>\n<p>The first line of the input consists of the number of cases (T). T test cases follows. Each test case begins with a line containing 4 numbers <code>K C I F</code>, </p>\n<p>where K is the number of Keys on the laser, C is the cost of using laser once, I is a 5 digit initial code and F is a 5 digit final code to unlock. Next line contains </p>\n<p>K numbers, <i>keys[]</i> which are the keys on the laser machine.</p>\n<p><b>Output</b></p>\n<p>For each test case, output a line with one number which is the minimum cost to open the box. If the box can never be opened output -1 instead.</p>\n<p><b>Constraints</b></p>\n<pre>\nT \u2264 50<br/>\n1 \u2264 K \u2264 10 <br/>\n1 \u2264 C \u2264 10<sup>7</sup><br/>\nI, F are 5 digit numbers and can have leading zero's.\n0 \u2264 Keys[] \u2264 10<sup>5</sup>  \n</br/></br/></br/></pre><p><b>Sample Cases</b></p>\n<pre>\n2\n2 10 00002 00016\n2 4\n2 10 00002 00001\n2 4\n</pre><p><b>Output</b></p>\n<pre>\n20\n-1\n</pre><p><b>Explanations</b></p>\n<ul>\n<li>In the first case, you can use the key with number 2 to first reach to 4 and then use key 4 to reach 16. So laser was used two times.</li>\n<li>In the second case, whatever you multiply, you will never be able to reach an odd number.</li>\n</ul>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeMania 2014",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1392737400,
+        "end_date": 1392748200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1392748200,
+        "submit_start_date": 1392737400,
+        "current": 1537437806
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>phantom11</span>",
+    "problem_name": "Opening The Ballot Box",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/phantom11'>phantom11</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "phantom11",
+    "contest_code": "CDMN2014",
+    "max_timelimit": "0.5",
+    "problem_code": "BALLOT"
+}

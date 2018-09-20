@@ -1,0 +1,93 @@
+{
+    "teamsCount": "1089",
+    "announcements": "<p><b>16/08/2013, 13:30 IST:</b> The rankings can be found <a href=\"/teams/list/PRCN2013/\" target=\"_blank\">here</a>. This is a tentative ranking which does not includes time factor. Final rankings will be published soon.</p>\r\n<p><b>16/08/2013, 10:30 IST: </b>The contest has been delayed by 30 minutes, It will now start at 1330 HRS IST.</p>",
+    "ip": "149.129.135.113",
+    "code": "PRCN2013",
+    "duration": "120",
+    "name": "Procon 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": " <div class=\"applyall\"><b>The Procon Contest has ended!</b></div> <div class=\"applyall\"><b>All problems have been added to the practice section.</b></div> <div class=\"applyall\"><b> All solutions have been made public.</b></div> <p><span>To register your team, please log in and click </span><a href=\"/teams/register/PRCN2013/\" target=\"_blank\">here</a><span>.</span></p> <p><b>Rules:</b></p> <div><b><br /></b></div> <ul> <li><span> Contest problems will become visible on 16th August, 2013 at 1330 HRS (IST) and end at 16th August, 2013 at 1530 HRS (IST). Check your timezome <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+Procon+2013&amp;iso=20130816T1330&amp;p1=44&amp;ah=2\" target=\"_blank\">here</a>.</span></li> <li>The contest duration is of 2 hours, and consists of five programming problems.</li> <li>This is a TEAM CONTEST. A team can consist of atmost 2 members. One person can\u2019t be part of more than one team.</li> <li>Note that Procon is a sub-event of Techathlon, which is an aggregation of many events testing a team on various IT aspects. For a team to earn points for Techathlon, their team must have registered for Techathlon via <a href=\"https://docs.google.com/forms/d/1n6wLicjWNA-UPiDxWdyx1FA1uRZOpBJBePkECyjtsB0/viewform\" target=\"_blank\">this form</a> and then have provided Codechef user ID of any one team member via <a href=\"https://docs.google.com/a/iiitd.ac.in/forms/d/1TUHzMErFP_0umB1XrzRl2YIxWfC0MO12ng07gGJfiJQ/viewform\" target=\"_blank\">this form</a>. For further information, check out <a href=\"http://www.esya.iiitd.ac.in\" target=\"_blank\">www.esya.iiitd.ac.in</a></li> <li><b>Any one can participate, but students studying in any college across India are eligible for cash prizes of Procon, and need not necessarily register for Techathlon.</b></li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is allowed.</li> <li>Only C, C++ and Java is allowed, and a team may send their solutions in these programming languages only. Although different problems can be solved in different languages by the same team.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided, failing which the submission will get \u2018Wrong Answer\u2019 as the response.</li> <li>All participants are expected to abide by the <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a></li> <li>Please contact <a href=\"mailto:harsh12134@iiitd.ac.in\" target=\"_blank\">harsh12134@iiitd.ac.in</a> or <a href=\"mailto:maneet11062@iiitd.ac.in\" target=\"_blank\">maneet11062@iiitd.ac.in</a> for any queries during the contest.</li> </ul> <div></div> <div></div> <div><b>Judging Criteria: </b></div> <div><b><br /></b></div> <ul> <li>User will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run. There is no time consumed for a problem that is not solved.</li> <li>There is no negative marking or penalty for wrong submissions.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/sites/default/files/uploads/landing_page_banners/banner-compete.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "PC05": {
+            "allow_submission": false,
+            "name": "Number of numbers",
+            "category_name": "main",
+            "accuracy": 52.48,
+            "successful_submissions": "518",
+            "code": "PC05",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PC02": {
+            "allow_submission": false,
+            "name": "Road Map",
+            "category_name": "main",
+            "accuracy": 37.17,
+            "successful_submissions": "124",
+            "code": "PC02",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PC03": {
+            "allow_submission": false,
+            "name": "Canteen",
+            "category_name": "main",
+            "accuracy": 3.7,
+            "successful_submissions": "1",
+            "code": "PC03",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PC04": {
+            "allow_submission": false,
+            "name": "Quadrilateral",
+            "category_name": "main",
+            "accuracy": 0.88,
+            "successful_submissions": "7",
+            "code": "PC04",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PC01": {
+            "allow_submission": false,
+            "name": "Floor Confusion",
+            "category_name": "main",
+            "accuracy": 64.79,
+            "successful_submissions": "45",
+            "code": "PC01",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537438234,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

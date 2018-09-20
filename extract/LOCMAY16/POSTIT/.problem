@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nAdele is doing research in the field of computational biology this summer. She has a DNA sequence D, which is made of a smaller sequence S concatenated K times, i.e, D = S + S + S + ... (K times). Now, she needs to generate the sequence D using a smaller sequence, T of length M, of which she will make N copies. Doing this she'll get F = T + T + ... (N times).<br />\nEach DNA sequence can be represented as a string made up of lowercase latin characters.<br />\nAfter she gets F, she can extract out each individual component from the sequence(i.e, characters) and join them together(in some order) to make a new sequence which is equal to D.<br />\nNow, she wonders, given S, K and M what would be the minimum no. of copies N, of T, she will have to make in order to find T such that she can get D. She wants your help.<br />\nFor given DNA sequence S, the number of it's copies, K and the length of the sequnce T as M, print the minimum number of copies, N, of T which you will have to create and also print the lexicographic smallest such sequence T. Print -1, if not possible.\n</p>\n<h3>Input</h3>\n<p>The input contains 2 lines:</p>\n<ul>\n<li> The first line contains the string S, the DNA sequence.\n</li><li> The second line contains two space separated numbers integers K and M, denoting the number of copies of S in D and the length of the sequence T.\n</li></ul>\n<h3>Output</h3>\n<ul>\n<li> First line containing an integer N and string T, denoting the minimum number of copies.\n</li><li> Second line containing the string T.\n</li><li> Print -1 in one line if it's not possible to find such N and T.\n</li></ul>\n<h3> Subtask #1 (20 points) </h3>\n<ul>\n<li> 1 \u2264 <b>|S|</b> \u2264 100\n</li><li> 1 \u2264 <b>K</b> \u2264 10\n</li><li> 1 \u2264 <b>M</b> \u2264 1000\n</li></ul>\n<h3> Subtask #2 (80 points) </h3>\n<ul>\n<li> 1 \u2264 <b>|S|</b> \u2264 10<sup>4</sup>\n</li><li> 1 \u2264 <b>K</b> \u2264 10<sup>14</sup>\n</li><li> 1 \u2264 <b>M</b> \u2264 10<sup>5</sup>\n</li></ul>\n<h3>Sample</h3>\n<pre><b>Input 1:</b>\nmama\n2\n4\n\n<b>Output 1:</b>\n2\naamm\n\n<b>Input 2:</b>\naab\n2\n2\n\n<b>Output 2:</b>\n4\nab\n\n<b>Input 3:</b>\ntomato\n2\n2\n\n<b>Output 3:</b>\n-1\n</pre><h3>Explanation</h3>\n<p><b>Sample 1: </b> S = mama, K = 2. D = mamamama. For T = aamm and N = 2, we can get F = aammaamm.<br />\nThe characters of F can be used to make a copy of T here.<br />\n<b>Sample 2: </b> S = aab, K = 2. D = aabaab. For T = ab and N = 4, we can get F = abababab.<br />\nThe characters of F can be used to make a copy of T here. </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-05-2016",
+    "is_direct_submittable": false,
+    "contest_name": "May LoC Competitive Programming Marathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1464295718,
+        "end_date": 1464632940,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1464632940,
+        "submit_start_date": 1464295718,
+        "current": 1537434877
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>lonerunner</span>",
+    "problem_name": "Post It DNA Sequences",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/lonerunner'>lonerunner</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "lonerunner",
+    "contest_code": "LOCMAY16",
+    "max_timelimit": "1",
+    "problem_code": "POSTIT"
+}

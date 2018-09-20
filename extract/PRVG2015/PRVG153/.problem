@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>While testing the Pravega event Auction, Ishan was planning how to break ties between equal bids. The event has multiple rounds of bidding and in each round participants have to quote a certain (integral) amount. At the end of all the rounds, the sum of amounts bid in each round is the total bid of each participant. </p>\n<p>He eventually decided that in case of a tie in the bid, the participant with the highest product of bids in individual rounds would be adjudged the winner. He was, however wondering if the product of the bids could be too large to compute and seeks your help. Given a participant\u2019s total bid for an article, <b>N</b>, determine how large can the product of his individual bids be at most. Do this for <b>T</b> different numbers.</p>\n<p><b>\n<p>Input:</p>\n<p></p></b></p>\n<p>The first line of the input gives the number of test cases <b>T</b>.</p>\n<p>The next <b>T</b> lines contain a single number <b>N</b>, the total bid.</p>\n<p><b>\n<p>Output:</p>\n<p></p></b></p>\n<p>The output to each test case should be on a new line. On each of the <b>T</b> lines there should be one integer. It is the maximum possible product of individual bids that form a total bid of value <b>N</b>. The answer should be modulo 1000000007.</p>\n<p><b>\n<p>Input constraints:</p>\n<p></p></b></p>\n<p>0&lt; <b>T</b> &lt;10^4</p>\n<p>0&lt; <b>N</b> &lt;10^9</p>\n<p><b>\n<p>Sample input:</p>\n<p></p></b></p>\n<p>2</p>\n<p>2</p>\n<p>5</p>\n<p><b>\n<p>Sample output:</p>\n<p></p></b></p>\n<p>2</p>\n<p>6</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "30-12-2014",
+    "is_direct_submittable": false,
+    "contest_name": "OPC- Pravega 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PAS fpc, PAS gpc, RUBY, PHP, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, NICE, LUA, BASH, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, TEXT, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1421508600,
+        "end_date": 1421519400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1421519400,
+        "submit_start_date": 1421508600,
+        "current": 1537436976
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>pravega_opc</span>",
+    "problem_name": "The Auction",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pravega_opc'>pravega_opc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pravega_opc",
+    "contest_code": "PRVG2015",
+    "max_timelimit": "3",
+    "problem_code": "PRVG153"
+}

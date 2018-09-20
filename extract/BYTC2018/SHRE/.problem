@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Shreehari has been trying hard to solve a problem. He has managed to pass some testcases but has received runtime error on others.\n<br><br>\nHe suspects that one of the parameters p in his program, is the reason for this error. For small values of inputs he is sure that the program will pass, however for large values it doesn't.\n<br>\nHis code is buggy and over 200 lines, so he has decided to find for which values of p it will pass by writing a script and automating the submission process. \n<br><br>\nAssume the program gives runtime error for values of p >= x and correct answer for p < x.\n<br>\nHe will guess a number y, and if p>=y, his program will give up and print nothing, resulting in WA for those testcases. Note that if his guess y>x he will still get runtime error on few cases.\n<br><br>\nHe is tired of Runtime Error, so he doesn't want more than k Runtime Error submissions. He is fine with WA though.\n<br>\nYou are given n, Shreehari's upper bound for x (i.e. for p>n he knows his program gives RE), and k, the number of runtime error submissions, he is able to tolerate.\n<br><br>\nYour task is to find the minimum number of submissions he needs to make in order to find the least value of p for which his program will fail.</p>\n<p></p>\n\n<h3>Input</h3>\n<p>The first line contains the number of testcases T\n<br>\nEach of the next T lines contain two space separated integers n and k denoting the maximum value of parameter p and the maximum number of Runtime Error submissions Shreehari is able to tolerate.</p>\n<p></p>\n\n<h3>Output</h3>\n<p>Output T lines , in each line the answer to the corresponding testcase,\ni.e The minimum number of submissions Shreehari will need to make in order to find the value of P for which his program fails.\n<br>\nNote that it is possible that the program gives RE for p=1 and does not give RE for p=n.</p>\n<p></p>\n\n<h3>Constraints</h3>\n1 \\leq T \\leq 10^5\n1 \\leq n,k \\leq 10^5\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>n, k</b> \u2264 <b>10^5</b></li>\n</ul>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n100 1\n<b>Output:</b>\n100\n</pre>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> Shreehari has to make 100 submissions in worst case in order to find the maximum value of p for which his program passes. His guess will be from 1 to 100 in order.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-02-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Bytecode 2018",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1519486200,
+        "end_date": 1519504200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1519504200,
+        "submit_start_date": 1519486200,
+        "current": 1537432922
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>rohith_balaji</span>",
+    "problem_name": "Shreehari and Runtime error",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rohith_balaji'>rohith_balaji</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rohith_balaji",
+    "contest_code": "BYTC2018",
+    "max_timelimit": "1",
+    "problem_code": "SHRE"
+}

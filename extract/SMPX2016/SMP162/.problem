@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\u00a0</p>\n<p>Pokemon being of several types are obsessed with different numbers.\nAmong all,Pikachu, has this obsession with the number 9. (Because when Pikachu gets a 9, he evolves to Raichu and becomes more powerful!).\n\nOne day, Pikachu finds an <b>N</b> digit number in Pokeland. An idea strikes him, and he wonders if that number is an Evolution number\nand if yes then how many <b>N</b>-digit Evolution numbers are possible.\nHe defines an Evolution number as an <b>N</b> digit number(without leading zeroes) which when reversed, the sum of both the\nnumbers, the number and its reversed counterpart is all 9's i.e. the sum is also an <b>N</b> digit number with 9 at all\nplaces.\nPikachu devises an algorithm to compute the number of <b>N</b>-digit numbers which are Evolution numbers.\nSince Pikachu is small, help him find the answer!\n</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>Input consists of number <b>T</b>, followed by T lines containing a single input <b>N</b>.</p>\n\n<h3>Output</h3>\n<p>Output consists of a single line; the answer to the above problem. Since the answer is large, output it <b>modulo 10<sup>9</sup>+7</b>.\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10<sup>4</sup></b></li>\n<li><b>0</b> \u2264 <b>N</b> \u2264 <b>10<sup>9</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n2\n\n<b>Output:</b>\n9\n</pre>\n<p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-11-2016",
+    "is_direct_submittable": false,
+    "contest_name": "SIMPLEX",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1478361600,
+        "end_date": 1478372400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1789365724,
+        "submit_start_date": 1478361600,
+        "current": 1537434404
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>somesh1995</span>",
+    "problem_name": "Evolution Number",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/somesh1995'>somesh1995</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "somesh1995",
+    "contest_code": "SMPX2016",
+    "max_timelimit": "0.5",
+    "problem_code": "SMP162"
+}

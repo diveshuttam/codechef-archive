@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>King Johnny of Byteland has in his short period of sovereignty established quite a few national holidays (close on thirty, in fact) in honour of... more or less anything he could think of. Each of these holidays occurs every a fixed number of days (possibly different for every holiday), and is accompanied by feasts, cabaret shows, and general merrymaking. Sometimes more than one holiday occurs on a single day, and once in a while all holidays take place on the same day. If this happens, the celebrations are combined and even more festive. After one such party, king Johnny started behaving strangely and had to be temporarily isolated from society.\n<p>\nFor the period of king Johnny's absence (about 48 hours) you have been appointed Regent of Byteland. As a true patriot, you know that holidays are not good for the people, and would like to remove some before king Johnny returns (he won't mind, he never remembers anything after a party anyway). The people however, very sadly, don't know what is good for them, and will revolt if you remove more than k holidays. Try to choose the holidays you remove in such a way as to guarantee that the number of days which elapse between two consecutive holiday parties is as long as possible.\n<p>\n<b>Solve the problem in at most 4kB of source code.</b>\n\n<h3>Input</h3>\n<p>The first line of input contains a single integer t<=200 - the number of test cases. t test case descriptions follow.\n<p>\nFor each test case, the first line contains two space separated integers n k (1<=k < n<=30), denoting the total number of holidays and the number of holidays to be removed. The next line contains n space separated integers, the i-th being t<sub>i</sub> (1<=t<sub>i</sub><=10<sup>18</sup>) - the number of days every which the i-th holiday occurs.\n<h3>Output</h3>\n<p>For each test case, output one line containing an increasing sequence of exactly k integers - the numbers of the holidays to be removed (holidays are numbered in the input order from 1 to n).\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n5 2\n6 13 10 15 7\n\n<b>Output:</b>\n2 5\n</pre>\n<p>\n(The shortest period between two successive holiday parties is 2 days.)\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-12-2008",
+    "is_direct_submittable": false,
+    "contest_name": "Mindbend 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1268364600,
+        "end_date": 1268451000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180181,
+        "submit_start_date": 1268364600,
+        "current": 1537439687
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Getting Rid of the Holidays (Act I)",
+    "source_sizelimit": "4096",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "MINDB10",
+    "max_timelimit": "0.1",
+    "problem_code": "HOLIDAY1"
+}

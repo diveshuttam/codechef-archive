@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The fibonacci series is defined as :<br />\nF1 = 1<br />\nF2 = 1<br />\nF3 = 2<br />\nF4 = 3<br />\nF5 = 5<br />\nF6 = 8<br />\n.<br />\n.<br />\n.<br />\n.</p>\n<p>Given an array <b>A</b> of size <b>N</b>, you must print the GCD(FA[1], FA[2], FA[3], .... FA[N]) % (10^9 + 7).\n</p>\n<h3>Input</h3>\n<p>The first line contains an integer <b>N</b>. Next line has <b>N</b> space separated integers <b>A1, A2, A3... AN<b> denoting the array.</b></b></p>\n<h3>Output</h3>\n<p>For each test case, print the value of GCD in a new line</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>2 * 10^5</b></li>\n<li><b>1</b> \u2264 <b>Ai</b> \u2264 <b>10^12</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3 6\n<b>Output:</b>\n2\n</pre><h3>Explanation</h3>\n<p>F3 = 2 and F6 = 8. GCD(2,8) = 2. Hence the output is 2.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Code Currents",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455953400,
+        "end_date": 1455960600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1455960600,
+        "submit_start_date": 1455953400,
+        "current": 1537435381
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>moderator</span>",
+    "problem_name": "Fun with fibo",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/moderator'>moderator</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "moderator",
+    "contest_code": "COCU2016",
+    "max_timelimit": "1",
+    "problem_code": "CURR3"
+}

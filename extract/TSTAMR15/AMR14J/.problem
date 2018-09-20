@@ -1,0 +1,33 @@
+{
+    "problem_code": "AMR14J",
+    "problem_author": "murdocc007",
+    "contest_name": "ACM-ICPC Asia-Amritapuri Site, 1st Practice Round 2015",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>murdocc007</span>",
+    "problem_name": "Artist Rivalry",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "TSTAMR15",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/amr14ros'>amr14ros</a>, <a class='problem-tag-small ' href='/tags/problems/geometry'>geometry</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/murdocc007'>murdocc007</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p class=\"p1\"><span class=\"s1\">The opening ceremony of the 2015 World Cup will be organized in Christchurch, New Zealand on the 14th of February, 2015.</span></p>\n<p class=\"p5\"><span class=\"s1\">The World Cup organizers have planned an artwork in the form of huge grey circles with black boundaries. They hired number of artists to paint these N circles with each artist painting one circle. However, the artists got carried away by their rivalry and painted over each other\u2019s work, resulting in the some circles overlapping with each other. When two circles overlap, only the later painted one is fully visible, and the earlier painted one and its boundary are partly obscured by the later painted one. The organizers are interested in knowing the total length of the visible black boundary after all N circles have been painted.</span></p>\n<p> <img src=\"https://codechef_shared.s3.amazonaws.com/download/AMR14J.png\" style=\"height:200px;width:400px;\" /><br />\n</p><p class=\"p6\"><span class=\"s1\">\u00a0</span></p>\n<p class=\"p7\"><span class=\"s1\"><b>Input:</b></span></p>\n<p class=\"p7\"><span class=\"s1\">The first line contains the number of test cases, T.</span></p>\n<p class=\"p7\"><span class=\"s1\">For each test case, the first line contains N, the total number of circles. Each of the next N lines contains 3 space-separated integers xi, yi and ri, where (xi, yi) is the centre and ri is the radius of the i-th circle. Assumption is that the ith circle will be painted after the 1 to (i-1)th circles and will obscure the intersecting parts of any of these circles that it overlaps with.</span></p>\n<p class=\"p7\"><span class=\"s2\">Note</span><span class=\"s1\"><b>: </b>No 2 circles will overlap completely. In other words, no 2 circles will have the same center and same radius.</span></p>\n<p class=\"p9\">\u00a0</p>\n<p class=\"p7\"><span class=\"s1\"><b>Output:</b></span></p>\n<p class=\"p4\"><span class=\"s1\">For each test case, output the length of the total visible boundary colored black. Absolute error of upto 10^-6 is allowed.</span></p>\n<p class=\"p9\"><span class=\"s1\"><b>Constraints:</b></span></p>\n<p class=\"p7\"><span class=\"s1\">1 \u2264 T \u2264 100</span></p>\n<p class=\"p7\"><span class=\"s1\">1 \u2264 N \u2264 100</span></p>\n<p class=\"p10\"><span class=\"s1\">-10^6 &lt;= yi &lt;= 10^6</span></p>\n<p class=\"p10\"><span class=\"s1\">-10^6 &lt;= yi &lt;= 10^6</span></p>\n<p class=\"p11\"><span class=\"s1\">\u00a0 \u00a0 1 &lt;= ri &lt;= 10^6</span></p>\n<p class=\"p7\"><span class=\"s1\"><b>Sample Input:</b></span></p>\n<p class=\"p7\"><span class=\"s1\">2</span></p>\n<p class=\"p7\"><span class=\"s1\">2</span></p>\n<p class=\"p7\"><span class=\"s1\">0 0 100</span></p>\n<p class=\"p7\"><span class=\"s1\">300 0 100</span></p>\n<p class=\"p7\"><span class=\"s1\">2</span></p>\n<p class=\"p7\"><span class=\"s1\">0 0 100</span></p>\n<p class=\"p4\"><span class=\"s1\">150 0 100</span></p>\n<p class=\"p7\"><span class=\"s1\"><b>Sample Output:</b></span></p>\n<p class=\"p7\"><span class=\"s1\">1256.637061</span></p>\n<p class=\"p4\"><span class=\"s1\">1112.090212</span></p>\n<p class=\"p7\"><span class=\"s1\"><b>Explanation:</b></span></p>\n<p class=\"p12\"><span class=\"s1\">For the first example, both circles' boundary is completely visible.</span></p>\n<p class=\"p13\"><span class=\"s1\">For the second example, first circle's boundary is partially visible and second circle's boundary is completely visible.</span></p>\n<p class=\"p14\">\u00a0</p>\n",
+    "category_name": "main",
+    "date_added": "27-12-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/AMR14J",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1444145400,
+        "end_date": 1444163400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1444163400,
+        "submit_start_date": 1444145400,
+        "current": 1537435977
+    },
+    "user": {
+        "username": ""
+    }
+}

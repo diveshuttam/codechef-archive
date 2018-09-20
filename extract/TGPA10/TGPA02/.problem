@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>The students of IIST are developing their own satellite. The RF & Communications team is designing a new encryption technique. They require the usage of of Twin Primes in their cryptographic technique. (A twin prime pair is a pair of prime numbers having a difference of 2.) The more the number of pairs of Twin Primes the better their encryption technique would be and happier their mentors in ISRO. They don't have any good programmers with them as of now, so they have asked you to help them generate the count of twin primes between any two given numbers.\n<h3>Input Format</h3>\n<p>The first line will contain the number of test cases, t. \nFor each test case, a single line contains 2 numbers, m and n seperated by a space.\n<br />t<=20\n<br />1<=m<=n<=1000000000\n<br />n-m<=1000000\n\n<h3>Output Format</h3>\n<p>The number of pairs of twin primes between m and n. \n\n<pre>\n<b>Sample Input:</b>\n2\n1\t10 \n100 \t200\n\n<b>Sample Output:</b>\n2\n7\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-02-2010",
+    "is_direct_submittable": false,
+    "contest_name": "TGPA 2010",
+    "languages_supported": "C",
+    "todo": false,
+    "time": {
+        "view_start_date": 1267338600,
+        "end_date": 1267356600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180175,
+        "submit_start_date": 1267338600,
+        "current": 1537439717
+    },
+    "problem_author_html_handle": "theta",
+    "problem_name": "Twin Primes",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/theta'>theta</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "theta",
+    "contest_code": "TGPA10",
+    "max_timelimit": "0.1",
+    "problem_code": "TGPA02"
+}

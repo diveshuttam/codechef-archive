@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Problem description.</p>\n<p>\nAtsi has created a new OJ called \"Codeatsi\". Now, he has to prepare the different types of ranklists: Score based, IOI style and ACM style(Codechef inspired him). He particularly couldn't design the algorithm for the IOI based ranklist. Can you please help him out?\n<br><br>\nFor a contest, people are making submissions and the Server provides you with the Username, problem code and the score that he received for that problem in order and you just need to print the usernames in order of their ranks alongwith their scores. In IOI style ranklist, ties are broken on the bases of who reached the particular score first; suppose User A scored 200 before B scored 200 but for now both have the same score of 200, then A is ranked before B in the ranklist.\n<br><br>\nAlso, you do not know the number of participants from before, you need to consider any user a participant who makes a submission. <br><br>Note: Each problem is of 100 points.\n</p>\n\n\n<h3>Input</h3>\n<p>Input description.</p>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The first line of each test case contains a single integer <b>N</b> and <b>M</b> denoting the number of submissions and problems in a contest. The next lines contains <b>M</b> space separated aplhanumeric strings(Only uppercase) denoting the problem codes that exist in the contest. The next <b>N</b> lines contain two space separated strings and then an integer <b>username</b>(alphanumeric), <b>problemcode</b>(Uppercase alphanumeric) and <b>score</b> in order of time of submission.\n</p>\n\n<h3>Output</h3>\n<p>Output description.</p>\n<p>First print an integer <b>X</b>, the number of people who participated in the contest. Then from the next line print X lines in order of rank each containing a string and an integer separated by a space, the string representing the username and the integer representing the score.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N, M</b> \u2264 <b>10<sup>3</sup></b></li>\n<li><b>1</b> \u2264 <b>score</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>|username|, |problemcode|</b> \u2264 <b>8</b></li>\n<li>username contains lowercase latin letters and numerals</li>\n<li>problemcode contains uppercase latin latters and numerals</li>\n</ul>\n<h3>Subtasks</h3>\n<p>\n\t<b>Subtask 1(35 points):</b> <b>1</b> \u2264 <b>N</b> \u2264 <b>9</b><br>\n\t<b>Subtask 2(65 points):</b> Original constraints\n</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n2 8\nXOBMWE XRER LFO VS KO S YGT PYHCHZC \nDL PYHCHZC 79\nBRTJEHP LFO 82\n2 2\nLTFNPHR WFVNU \nJQH LTFNPHR 92\nWXK WFVNU 83\n3 10\nGTHAMRMP ZCUIPQ XY GNVLTCLZ KVRLVI GZYB KS IRVCWSL AUVNY R \nMGU XY 57\nALMBGVUZ KVRLVI 54\nBRFLM IRVCWSL 18\n\n<b>Output:</b>\n2\nBRTJEHP 82\nDL 79\n2\nJQH 92\nWXK 83\n3\nMGU 57\nALMBGVUZ 54\nBRFLM 18\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "ICO and ICPC 2018 Preparatory Series - Contest 2",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1509111000,
+        "end_date": 1509129000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1509129000,
+        "submit_start_date": 1509111000,
+        "current": 1537433407
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>ista2000</span>",
+    "problem_name": "Codeatsi Ranklist",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ista2000'>ista2000</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ista2000",
+    "contest_code": "ICOP1802",
+    "max_timelimit": "1",
+    "problem_code": "ISTA2006"
+}

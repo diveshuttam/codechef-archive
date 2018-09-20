@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>You're given an array of $N$ integers, and a number $K$.\n\nThe maximum $K$-product of the array is the maximum product of any K length subsequence of the array. For example, the maximum 2-product of the array [-5, 3, 4, -6] is 30 because the product of the subsequence [-5, -6] is 30 and it is impossible to achieve larger subsequence product.\n\nWhat is the maximum $K$-product you can achieve? Since the answer can be very large, output it modulo 10^9 + 7.\n\nNote: Recall that the result of a modulo operation is always non-negative. $For example, -8 mod 5 = 2$.\n\n###Input:\n\n- First line will contain $T$, number of testcases. Then the testcases follow. \n- The first line of each test case contains two space separated integers $N$ and $K$.The second line contains $N$ space-separated integers A1, A2, ..., An, denoting the elements of the array.\n\n\n###Output:\nFor each test case, output a single line containing the maximum K-product of the array.\n\n###Constraints \n- $1 \\leq T \\leq 10^5$\n- $1 \\leq K \\leq N \\leq 10^5$\n- $-10^9 \\leq Ai \\leq 10^9$\n\nThe sum of the Ns over all the test cases in a single test file is \\leq 5\u00d710^5\n\n###Sample Input:\n\t    3\n        4 2\n        5 -3 -4 6\n        4 2\n       -5 3 4 -6\n        3 2\n        10000 100000 100000\n        \n\n###Sample Output:\n\t    30\n        30\n        999999937\n\t\n###EXPLANATION:\nExample case 2. The maximum 2-product of the array [-5, 3, 4, -6] is 30 and is achieved by the subsequence [-5, -6].\n\nExample case 3. The maximum 2-product of the array [10000, 100000, 100000] is 10000000000 and is achieved by the subsequence [100000,100000]. Modulo 10^9 + 7, this is 999999937.\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Da-vinci Code",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PHP",
+    "todo": false,
+    "time": {
+        "view_start_date": 1523637000,
+        "end_date": 1523647800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1523647800,
+        "submit_start_date": 1523637000,
+        "current": 1537432629
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>amazingrainbow</span>",
+    "problem_name": "MAXIMUM PRODUCT",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/amazingrainbow'>amazingrainbow</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "amazingrainbow",
+    "contest_code": "DAVC2018",
+    "max_timelimit": "1",
+    "problem_code": "SANDARY"
+}

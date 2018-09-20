@@ -1,0 +1,67 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "COOK01",
+    "duration": "150",
+    "name": "July Cook Off ",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>The contest has now ended.</b></p> <p><b>Check out the post contest blog post <a href=\"http://blog.codechef.com/2010/07/24/codechef-july-2010-cook-off-results/\">here</a>.</b></p> <p><b>Check out the editorials to the contest problems <a href=\"/wiki/july-cookoff-contest-problem-editorials\">here</a>.</b></p> <p><b>NOTE:</b> The ranklist will be available at the following URL: <a href=\"/rankings/COOK01\">http://www.codechef.com/rankings/COOK01<br /></a></p> <p>\u00a0</p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at feedback@codechef.com</li> <br /> <li>You can also send in your queries in an email to contest-admin@codechef.com, during the contest.</li> <br /> <li>Contest problems will become visible on July 24th 2010 at 21:30 (IST).</li> <br /> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <br /> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <br /> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> <br /> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COOK01/1424957486.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "RIPPLE": {
+            "allow_submission": false,
+            "name": "Ripple-Carry Adder",
+            "category_name": "main",
+            "accuracy": 8.05,
+            "successful_submissions": "18",
+            "code": "RIPPLE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BWKNIGHT": {
+            "allow_submission": false,
+            "name": "The Black and White Knights",
+            "category_name": "main",
+            "accuracy": 9.17,
+            "successful_submissions": "40",
+            "code": "BWKNIGHT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BUILDING": {
+            "allow_submission": false,
+            "name": "Head office building",
+            "category_name": "main",
+            "accuracy": 5.59,
+            "successful_submissions": "10",
+            "code": "BUILDING",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1279996200,
+        "current": 1537439556,
+        "freezing": 0,
+        "start": 1279987200
+    },
+    "user": {
+        "username": ""
+    }
+}

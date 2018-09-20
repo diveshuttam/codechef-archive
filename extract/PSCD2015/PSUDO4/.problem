@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>\nIn the fest of Paradigm, every organiser is given a special kind of pager. The pager consists of a screen and a single big red button. To type a message in it, one has to push the red button that many time at which the alphabet occurs in the alphabetical order. For example for typing D, one needs to push button 4 times.<br />\nTo write a word one has to type the first word, wait for 2 seconds and then type the second word and so on.<br />\n<br /><br />\nYou have to determine the value of the pushes required to type a word to send the message.\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line will be number of strings <b>n</b>.<br /><br />\n<br />Subsequent <b>n</b> lines will consist of a string (say <b>S</b>) with no spaces in between.\n</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Output will be a number determining the number of pushes required to type the string, <b>S</b></p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li>String size, <b>len</b> will be <b>1</b> \u2264 <b>len</b> \u2264 <b>50</b></li>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>50</b></li>\n<li>String will have no spaces, either in between, leading or trailing</li>\n<li>String will be in upper case <b>('A' - 'Z')</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\nA\nAB\n\n<b>Output:</b>\n1\n3\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b><br />\nOne needs to push once.\n</p>\n<p><b>Example case 2.</b><br />\n1 push for A and 2 pushes for B, 1+2=3\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "30-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Pseudo Code",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, NODEJS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1428147000,
+        "end_date": 1428161400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1428161400,
+        "submit_start_date": 1428147000,
+        "current": 1537436427
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>codepatch</span>",
+    "problem_name": "Paradigm Messenger",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/codepatch'>codepatch</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "codepatch",
+    "contest_code": "PSCD2015",
+    "max_timelimit": "1",
+    "problem_code": "PSUDO4"
+}

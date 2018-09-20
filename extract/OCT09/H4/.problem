@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Given <var>n</var> and <var>m</var>, calculate 1<sup>1</sup> +  2<sup>2</sup> + 3<sup>3</sup> + ... + n<sup>n</sup> modulo m.</p>\n<h3>Input</h3>\n<p>The first line contains 1 &#8804; <var>t</var> &#8804; 10, the number of test cases. Then the test case definitions follow. Each test case is of the form: 1 &#8804; <var>n</var> 10<sup>18</sup>, 1 &#8804; <var>m</var> &#8804; 200000</p>\n<h3>Output</h3>\n<p>For each test case simply write a single line containing the answer to the problem.</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong>\n6\n1 100000\n2 100000\n3 100000\n4 100000\n5 100000\n6 100000\n\n<strong>Output:</strong>\n1\n5\n32\n288\n3413\n50069\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-09-2009",
+    "is_direct_submittable": false,
+    "contest_name": "October 2009 (Contest IX)",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1254389400,
+        "end_date": 1255253400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1255253400,
+        "submit_start_date": 1254389400,
+        "current": 1537439898
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Just a simple sum",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "OCT09",
+    "max_timelimit": "2.13807 - 17.1046",
+    "problem_code": "H4"
+}

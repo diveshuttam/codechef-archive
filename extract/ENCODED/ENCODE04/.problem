@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>It is high time now, IT companies are hiring in huge numbers. \nNow that they have hired they need to form teams each containing exactly 2 members. \nNo two members in the team have the same age. \nIn any team, older is given the position of a Developer (D) and younger is given the position of a Tester (T).\nThey have sorted all the members to form a list according to their ages (such that youngest in the list is the first). \nHowever even before forming teams they have assigned designations (D or T) to all the members in the list. \nNow it is your duty to tell whether it is still possible to form teams with the requirements stated above and \nalso maintain the assigned designation of each of the persons.\n\n\n<h3>Input</h3>\n<p>1st line: An Integer T denoting the number of test cases\nEach test Case Contains:\nA single line representing the list consists of only 'T '& / or  'D'\n\n\n<h3>Output</h3>\n<p>T lines each containing  'YES'  (if possible to form group) or  'NO'  (if not possible).\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\nInput\n2\nTTDD\nDDDDDD\n\n\n<b>Output:</b>\nYES\nNO\n\nCONSTRAINTS\n\n1 <= T  <= 20\n1 <= length(list)  <= 1,00,000\n\t\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "IEM - Kolkata - FESTRONIX - Encoded",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, D, PERL, FORT, ADA, ASM, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, SCM guile, TCL, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298799000,
+        "end_date": 1298831400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298831400,
+        "submit_start_date": 1298799000,
+        "current": 1537439301
+    },
+    "problem_author_html_handle": "encoded_admin",
+    "problem_name": "Developer or Tester",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/encoded_admin'>encoded_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "encoded_admin",
+    "contest_code": "ENCODED",
+    "max_timelimit": "0.71",
+    "problem_code": "ENCODE04"
+}

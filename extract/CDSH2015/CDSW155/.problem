@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>After finishing his work for the day, Mehta started examining some strings for fun.<br />\nWhile doing this, he figured out that the charming value of a substring is directly proportional to the length of the substring provided that the length of the substring doesn't exceed a particular value otherwise that substring is considered repulsive.</p>\n<p>Since Mehta is very fond of palindromes, he wants to compute the length of palindromic prefix with maximum charm for all the suffixes of a given string. Mehta is facing some difficulty in finding the solution on his own, so he turns to you for help.</p>\n<p>You will be given a <b>string (str)</b> and an array <b>allowed[]</b>. Any prefix whose length exceeds the allowed value for the suffix which contains it, will be considered repulsive (i.e. any substring whose starting index is i , will be  considered repulsive if it\u2019s length is greater than <b>allowed[i]</b>).</p>\n<pre>\nconsider a string \u201cabcd\u201d then,\nsuffix[0] = \u201cabcd\u201d\nsuffix[1] = \u201cbcd\u201d\nsuffix[2] = \u201ccd\u201d\nsuffix[3] = \u201cd\"\n</pre><p><br /></p>\n<p>You have to find the length of the palindromic prefix with maximum charm(among all the prefixes of given suffix), for all the suffixes of a given string excluding the repulsive prefixes.</p>\n\n<h3>Input</h3>\n<p>The first line of input will contain a string(str) consisting only of characters (<b>{\u2018a\u2019,\u2019b\u2019,\u2019c\u2019,\u2019d\u2019,\u2019e\u2019}</b>).<br />\nthe next line of input will contain <b>N</b> (N = length of <b>string (str)</b>) space separated integers which denotes the values of <b>allowed[]</b>.</p>\n\n<h3>Output</h3>\n<p>Your output should contain<b> N</b> (N = length of string(<b>str</b>)) space separated integers where the ith integer should contain the length of palindromic prefix with maximum charm<br />\nof suffix[i] i.e suffix starting at index i (excluding the repulsive prefixes)</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>N</b> = length of string(<b>str</b>) \u2264 <b>10<sup>5</sup></b></li>\n<li>for any i in the range (<b>0</b>,<b>N</b>-1) <br /><br />\n\t    \u00a0 \u00a0  \u00a0 \u00a0 \u00a0      <b>1</b> \u2264 <b>allowed[i]</b> \u2264 <b>N-i</b>\n</li></ul>\n<h3>Example</h3>\n<pre><b>Input1</b>\naaaa\n4 3 2 1 \n\n<b>Output1</b>\n4 3 2 1 \n\n<b>Input2</b>\nabcbaa\n4 3 3 2 2 1\n\n<b>Output2</b>\n1 3 1 1 2 1 \n</pre><h3>Explanation</h3>\n<p><b>Considering 0-based indexes</b></p>\n<pre>\nIn sample input1 , there are no repulsive prefixes, \nfor suffix[0] palindromic prefixes are {\u201ca\u201d,\u201daa\u201d,\u201daaa\u201d,\u201daaaa\u201d}, hence the answer is 4\nfor suffix[1] palindromic prefixes are {\u201ca\u201d,\u201daa\u201d,\u201daaa\u201d}, hence the answer is 3\nfor suffix[2] palindromic prefixes are {\u201ca\u201d,\u201daa\u201d}, hence the answer is 2\nfor suffix[3] palindromic prefixes are {\u201ca\u201d}, hence the answer is 1\n\nIn sample input2,\nfor suffix[0], palindromic prefixes are {\u201ca\u201d,\u201dabcba\u201d} out of which \u201cabcba\u201d is repulsive as allowed[0] = 4, hence the answer is 1\nfor suffix[1], palindromic prefixes are {\u201cb\u201d,\u201dbcb\u201d}, hence the answer is 3\nfor suffix[2], palindromic prefixes are {\u201cc\u201d}, hence the answer is 1\nfor suffix[3], palindromic prefixes are {\u201cb\u201d}, hence the answer is 1\nfor suffix[4], palindromic prefixes are {\u201ca\u201d,\u201daa\u201d}, hence the answer is 2\nfor suffix[5] palindromic prefixes are {\u201ca\u201d}, hence the answer is 1\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CODESHOW 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1424878200,
+        "end_date": 1424889600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1424889600,
+        "submit_start_date": 1424878200,
+        "current": 1537436727
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>pranjuldb</span>",
+    "problem_name": "Mehta and charming strings",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pranjuldb'>pranjuldb</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pranjuldb",
+    "contest_code": "CDSH2015",
+    "max_timelimit": "1",
+    "problem_code": "CDSW155"
+}

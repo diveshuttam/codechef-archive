@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nYou are given a square with 'n' points on each side of the square. None of these points co-incide with the corners of this square. You have to compute the total number of triangles that can be formed using these '4n' points (n points on each side of the square) as vertices of the triangle.\n</p>\n\n<h3>Input</h3>\n<p>\nFirst line contains the integer 'T', the number of test cases. This is followed by 'T' lines with a single integer 'n' on each line n <= 100.\n</p>\n\n<h3>Output</h3>\n<p>\nThe total number of triangles that can be formed.\n</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n1\n\n<b>Output:</b>\n4\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Technovanza 2010 Round 1",
+    "languages_supported": "C, JAVA, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1263396600,
+        "end_date": 1263403800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180166,
+        "submit_start_date": 1263396600,
+        "current": 1537439832
+    },
+    "problem_author_html_handle": "technovanza10",
+    "problem_name": "Square",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/technovanza10'>technovanza10</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "technovanza10",
+    "contest_code": "TV10CAT1",
+    "max_timelimit": "0.1",
+    "problem_code": "TECH07"
+}

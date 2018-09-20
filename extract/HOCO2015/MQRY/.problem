@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>One day maths teacher gave the following task for the students, only upon completion students will be taken out for a school fun trip.\nFirst you are a given a list of n numbers and q queries. For each query you are given two indices x and y , you have to report the between the maximum number and minimum number whose indices lie within x and y (both inclusive)\n</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>First line of input has two integers n and q , denoting the size of list and number of queries\nNext line consists of n spaced integers denoting the elements of the array\nNext q lines consists of two integer x and y , denoting the leftmost and rightmost indices of the query</p>\n<p>\n<b>Note : List is 0-indexed </b>\n</p>\n<h3>Output</h3>\n<p>For each query , print the answer in a new line.</p>\n<h3>Constraints</h3>\n<p>0< n,q < 100000</p>\n<p>0< element of list < 1000000000</p>\n<p>0 < x,y < n</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n<p>5 2\n1 2 3 4 5\n1 2\n4 4\n</p>\n\n<b>Output:</b>\n<p>1\n0\n</p>\n</pre>\n<h3>Explanation</h3>\n<p><b>Example case .</b></p>\n<p>\nFirst query maximum number in given range is 3 and minimum number is 2 so difference 1</p>\n<p>\nSecond Query maximum and mimimum both are 5 ,difference is 0</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-06-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Hour Of Code I",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1435491000,
+        "end_date": 1435494600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1435496400,
+        "submit_start_date": 1435491000,
+        "current": 1537436213
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>geek_geek</span>",
+    "problem_name": "MinMax Queries",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/geek_geek'>geek_geek</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "geek_geek",
+    "contest_code": "HOCO2015",
+    "max_timelimit": "1",
+    "problem_code": "MQRY"
+}

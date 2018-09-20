@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Miu - The smart cat is hungry and there are $N$ plates arranged in a sequence. Each of these plates contain either a Fish or a Jelly.    \nMiu is about to enjoy her meal, but her friend cat Tom will not let her do that alone. \n\nTom likes Jelly but he hates Fish.    \nHowever, Miu likes both Jelly and Fish.\n\nTom always sticks around with Miu wherever she goes. Let us say if Miu is eating from the $ith$ plate $( 1 <= i <= N )$, then Tom will choose the right $( (i+1)th )$ plate to eat from.     \nIf there is no plate to the right of Miu $( i = N )$ $OR$ if the right plate contains Fish, Tom will not eat.\n\nFreddy on the other hand is a scary dog who keeps chasing and annoying the cats. He decides to follow the cats and eat the food from any plate which is not consumed by any cat before.    \nThat is, Miu cannot revisit any previous left plate to eat from because Freddy consumes it.    \nFormally, if Miu is eating from the $ith$ plate she cannot revisit the $jth$ plates ( for all $1 <= j < i$ ) to eat from.\n\nMiu is so smart that she can tell you the exact amount of energy she can gain from each of the $N$ plates. Help her find out the maximum amount of energy she can gain from the $N$ plates if she eats the meal optimally. \n\n( Note that if either Tom or Freddy have already consumed the meal from a specific plate, Miu cannot gain energy from that plate )\n\n\n###Input:\n\nThe first line of the input consists of a single integer $T$ denoting the number of Test Cases.    \nThe description of the $T$ test cases follow :    \nThe first line of each test case consists of a single integer $N$ denoting the number of plates.    \nThe second line of each test case consists of $N$ space-separated characters which can be either $F$ or $J$ ( Both uppercase ).    \nThe $ith$ character $( 1 <= i <= N )$ in this line denotes the food item which will be present in the $ith$ plate.    \n( $F$ denotes Fish and $J$ denotes Jelly )    \nThe third line of each test case consists of $N$ space-separated     integers. The $ith$ integer $( 1 <= i <= N )$ in this line denotes $E(i)$, which is the amount of energy Miu can gain from the $ith$ plate.\n \n\n###Output:\nFor each Test Case output a single line consisting of a single integer, which is the answer to the corresponding test case.    \n( That is the integer should be the maximum amount of energy Miu can gain from the $N$ plates if she eats the meal optimally )\n\n\n###Constraints \n- $1 \\leq T \\leq 100$\n- $1 \\leq N \\leq 100000$\n- $1 \\leq E(i) \\leq 10^9$   \n( for all 1 <= i <= N )    \n\n\n###Sample Input:\n2    \n3    \nJ J F    \n8 9 7    \n5    \nJ J J J J    \n5 2 4 6 3    \n\n\n###Sample Output:\n16    \n12    \n\n\t\n###EXPLANATION:\nTest Case 1 :\n\nIf Miu chooses the 1st plate Tom will eat from the 2nd plate. Miu will again eat from the 3rd plate gaining a total energy of 8 + 7 = 15.     \nThe optimum way is to eat from the 2nd plate first. As Tom hates Fish he will not eat from the 3rd plate. So Miu gets the 3rd plate as well.    \nTotal energy = 9 + 7 =16    \n( Note that Miu cannot go back to the 1st plate as Freddy will consume the food from that plate )\n\nTest Case 2 :\n\nThe optimum way is to eat from the 1st plate, then the 3rd, and then the 5th.    \nTotal energy = 5 + 4 + 3 = 12    \n( Note that Tom consumes the food from the 2nd and the 4th plate while Miu was at the 1st and the 3rd plate respectively )\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "BUG4EVER 2018 Online Round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1535117400,
+        "end_date": 1535549400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1535549400,
+        "submit_start_date": 1535117400,
+        "current": 1537432032
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nerdyninja</span>",
+    "problem_name": "Miu Needs Energy",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nerdyninja'>nerdyninja</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nerdyninja",
+    "contest_code": "BUGE2018",
+    "max_timelimit": "1",
+    "problem_code": "BUG2K18E"
+}

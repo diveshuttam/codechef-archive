@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nMajin has built certain brick towers. The N (1 <= N <= 25000) towers are conveniently numbered 1..N; tower i has height M_i (1 <= M_i <= 100000).</p>\n<p>\nHe wishes to modify the towers in the following fashion:\nHe has a list of numbers B_1 through B_N (1 <= B_i <= 100000), and wants to change the tower heights to those heights B_1, ..., B_N in some order (not necessarily the order given or any other order derived from the data).</p>\n<p>\nHis strength is obviously, limited. It takes Majin a total X (1 <= X <= 100) effort per unit height added and Y (1 <= Y <= 100) effort per unit height\nreduced.</p>\n<p>\nMajin would like to know the minimum possible total effort of modifying his towers if he picks the best permutation of heights. The answer\nis guaranteed to fit within a 32-bit signed integer.\n</p>\n\n\n<h3>Input</h3>\n<p>\nThe first line has an integer 't' (1<=t<=10), the number of test cases. t cases follow.\n\nEach test case begins with three space-separated integers on a single line: N, X, and Y. N lines follow, each with integers M_i and B_i.\n\n<h3>Output</h3>\n<p>\nA single integer, the minimum total effort needed to rebuild the towers, for each test case, one per line.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n3 6 5\n3 1\n1 2\n1 2\n\n<b>Output:</b>\n11\n</pre>\n<b>Explanation</b>\n<p>\nMajin's towers have heights 3, 1, and 1. He would like to change them so that their heights are 1, 2, and 2, in some order.\nIt takes 6 units of effort to add a unit of height and 5 to remove a unit of height.\n<p>\nMajin reduces the first tower's height by 1, for an effort of 5 (yielding towers of heights 2, 1, and 1).\nHe then adds one unit of height to the second tower for an effort of 6 (yielding towers of heights 2, 2, and 1).\n\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-10-2009",
+    "is_direct_submittable": false,
+    "contest_name": "NSIT Contest 1",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1255113000,
+        "end_date": 1255199400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180153,
+        "submit_start_date": 1255113000,
+        "current": 1537439903
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Building Towers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "NSIT091",
+    "max_timelimit": "2.91",
+    "problem_code": "NSIT11"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p><h3>Problem description</h3></p>\n<p>Bob has a routine of playing games in computer. The game is called as Secret Doors. He has to solve the puzzle to open the door. If he doesn't solve it, the door will not open.</p>\n<p>The puzzle has a set of numbers and the number must be arranged in a way that each number begins with the same number as the previous number ends. For example, the number 5<u>4</u> can be followed by another number <u>4</u>6. Your task is to write a computer program that will read the list of numbers and determine whether it is possible to arrange all the numbers in a sequence (according to the given rule) and find if it is possible to open the door with that sequence.</p>\n\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. <b>T</b> test cases follow.</p>\n<p>The first line of each test case contains one integer <b>N</b> denoting the number of intgers. </p>\n<p>The subsequent lines contain <b>N</b> numbers.</p>\n<h3>Output</h3>\n<p>Your program has to determine whether it is possible to arrange all the numbers in a sequence such that the first digit of each number is equal to the last digit of the previous number. All the numbers from the list must be used, each exactly once. The numbers mentioned several times must be used that number of times.</p>\n\n<h3>Constraints</h3>\n<b>1</b> \u2264 <b>T</b> \u2264 <b>100</b>\n<b>1</b> \u2264 <b>N</b> \u2264 <b>100</b>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n3\n67\n96\n59\n3\n43\n64\n32\n2\n12\n34\n\n<b>Output:</b>\nThe door will be opened\nThe door will be opened\nThe door cannot be opened\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-02-2018",
+    "is_direct_submittable": false,
+    "contest_name": "MNM Online Programming Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH 3.6, PYPY, CS2, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, WSPC, ADA, CAML, ICK, BF, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, kotlin, TEXT, SCM chicken",
+    "todo": false,
+    "time": {
+        "view_start_date": 1519792200,
+        "end_date": 1519810200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1519810200,
+        "submit_start_date": 1519792200,
+        "current": 1537432892
+    },
+    "problem_author_html_handle": "vijaykumarakv",
+    "problem_name": "Game on Numbers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vijaykumarakv'>vijaykumarakv</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vijaykumarakv",
+    "contest_code": "MOPC2018",
+    "max_timelimit": "1",
+    "problem_code": "GNM"
+}

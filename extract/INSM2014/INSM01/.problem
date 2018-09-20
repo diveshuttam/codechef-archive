@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Its axis time and the event managers are busy conducting meetings or their events. Each event manager is  seating on a vertex of a table having shape of a regular polygon.</p>\n<p>The table has n vertices where n is the number of event managers in the meeting. </p>\n<p>Your task is to count the number of isosceles triangles formed such that each vertex of the triangle is a vertex of the table and all managers seating on these 3 vertices are of same gender.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line contains an integer T. T testcases follow.<br />\nFor each test case, there is only one line, which consists of a 01-string with length >= 2. <br /><br />\nNumber of vertices n of the regular<br />\npolygon equals length of the string.<br />\n<br /><br />\nThe string represents gender of managers seating on the vertices in clockwise order. 0 represents girls and 1 represents boys.</p>\n<h3>Output</h3>\n<p>For each test case, output one line in the format <b>Case #t: ans</b>, where t is the case number (starting from 1), and ans is the answer. </p>\n<h3>Constraints</h3>\n<p>Sum of all n in the input &lt;= 10^6</p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n01\n0001\n10001\n111010\n1101010\n\n<b>Output:</b>\nCase 1: 0\nCase 2: 1\nCase 3: 1\nCase 4: 2\nCase 5: 3\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>In case 5, indices of vertices of the three monochromatic isosceles triangles are (0,3,5), (1,3,5) and (2,4,6) (assuming indices<br />\nstart from 0)</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-09-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Insomnia 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1411749000,
+        "end_date": 1411770600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1411770600,
+        "submit_start_date": 1411749000,
+        "current": 1537437411
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>prongs7</span>",
+    "problem_name": "It Is Axis Time ",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/prongs7'>prongs7</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "prongs7",
+    "contest_code": "INSM2014",
+    "max_timelimit": "1",
+    "problem_code": "INSM01"
+}

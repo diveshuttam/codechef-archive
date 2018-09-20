@@ -1,0 +1,33 @@
+{
+    "problem_code": "POMUSE",
+    "problem_author": "sahilarora.535",
+    "contest_name": "DEMENTIA 16",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>sahilarora.535</span>",
+    "problem_name": "Po and Cleaning the Museum",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "DMNT2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dmnt2016'>dmnt2016</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/sahilarora.535'>sahilarora.535</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Po, the dragon warrior, has met his Panda dad, and he is so excited! His daddy is exactly like him, no, he his like his daddy. Po is so so happy. He plays with his daddy, they eat, and have a lot of fun. Po takes daddy to the famous Chinese Museum which has a lot of artifacts. From ancient shields, to weapons, secret scrolls, the museum has everything. But again, everything can't be happy as always. Po and his daddy mess with the museum, throw the stuff here and there, and break some things as well. Suddenly he hears some noise, and he senses that Master Shifu is on his way to the Museum. If he doesn't find the museum clean, Po will be in great trouble, and he does not want to get a scolding in front of his daddy. So he thinks of a plan. Po decides to clean the museum before Master Shifu comes, but with a different strategy.<br />The museum has <b>N</b> horizontal strips of carpet arranged adjacent to each other on the floor. Po can swap a strip with any other strip in the museum, any number of times. Each strip is made up of <b>M</b> blocks of carpet. A block of carpet is defined as a 1 \u00d7 1 unit square on the carpet strip. For every block of carpet in the museum, Po knows whether it is clean or dirty.</p>\n<p>We assume the blocks of carpet to form a matrix of size <b>N</b> \u00d7 <b>M</b>. A submatrix of such matrix is defined by a group of four integers <b>d, u, l, r (1\u2009\u2264\u2009d\u2009\u2264\u2009u\u2009\u2264\u2009N; 1\u2009\u2264\u2009l\u2009\u2264\u2009r\u2009\u2264\u2009M)</b>. The area of the submatrix is defined by the number of cells it contains.Since, there is not much time left, Po concludes that the museum may not be cleaned completely, therefore, he decides to swap strips of carpet in such a way that the area of a submatrix having all clean blocks of carpet is maximized.<br /> Help Po clean up the mess he and daddy made.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line of the input will contain two integers <b>N</b> and <b>M</b>, the number of carpet strips and the length of each strip respectively. <br />Next <b>N</b> lines contain a string of <b>M</b> characters. Each character is either <b>'C'</b> or <b>'D'</b>. 'C' denotes that the block is clean and 'D' denotes that the block is dirty.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>You need to output a single integer, the maximum area of a submatrix in which all blocks are clean. Output 0 if there are no clean blocks.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 <b>N,M</b> \u2264 4500</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1 1\nC\n\n<b>Output:</b>\n1\n</pre><p><br /></p>\n<pre><b>Input:</b>\n2 2\nCD\nCC\n\n<b>Output:</b>\n2\n</pre><p><br/></br/></p>\n<pre><b>Input:</b>\n4 3\nCDD\nDCC\nDDD\nCDC\n\n<b>Output:</b>\n2\n</pre><p>\u00a0</p>\n<p><b> Note: </b><br/> Since input files are large, it is advised to use fast input/output methods.</br/></p>\n<!-- and <b>(i,j)</b> denotes the <b>j<sup>th</sup></b> block on the <b>i<sup>th</sup></b> --><!-- and <b>(i,j)</b> denotes the <b>j<sup>th</sup></b> block on the <b>i<sup>th</sup></b> -->",
+    "category_name": "main",
+    "date_added": "30-03-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/POMUSE",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1460044800,
+        "end_date": 1460053800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1460053800,
+        "submit_start_date": 1460044800,
+        "current": 1537434991
+    },
+    "user": {
+        "username": ""
+    }
+}

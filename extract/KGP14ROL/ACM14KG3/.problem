@@ -1,0 +1,33 @@
+{
+    "problem_code": "ACM14KG3",
+    "problem_author": "admin",
+    "contest_name": "ACM-ICPC Asia-Kharagpur Online Contest 2014, Replay",
+    "todo": false,
+    "problem_author_html_handle": "admin",
+    "problem_name": "Discount on crackers",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "KGP14ROL",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acmkg14r'>acmkg14r</a>, <a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/floyd-warshall'>floyd-warshall</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Sita went to buy some crackers. They offered special discount for the ones who solve a puzzle. Sita could not solve it, she came to you for help. Following is the puzzle.</p>\n<p>A mapping \"<b>a->b</b>\" means that you can transform letter <b>'a'</b> to letter <b>'b'</b>. You are given <b>M</b> such mappings.</p>\n<p>You are given two strings <b>S</b> and <b>T</b>.<br />\nWrite a program which determines if <b>S</b> can be transformed to <b>T</b> using the provided mappings.<br />\nYou can select any position in <b>S</b> and apply any of the <b>M</b> mappings on it. You can do this any number of times. Each mapping can be used any number of times.</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>P</b> denoting the number of test cases.<br />\nFirst line of each test case has the string <b>S</b>. Second line of each test case has the string <b>T</b><br />\nThird line of each test case has <b>M</b>. Following <b>M</b> lines describes the mappings, one per line.</p>\n<h3>Output</h3>\n<p>For each test case output one line, print \"YES\" if it is possible to transfrom <b>S</b> to <b>T</b>. print \"NO\" if not possible.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>P</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>|S|, |T|</b> \u2264 <b>1000</b></li>\n<li><b>0</b> \u2264 <b>M</b> \u2264 <b>1000</b></li>\n<li><b>S</b> and <b>T</b> contain lower case English alphabet only\n</li><li>All mappings are from lower case English alphabet to lower case English alphabet\n</li><li>Length of <b>S</b> and <b>T</b> need <b>not</b> be equal.\n</li></ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\naa\nbb\n1\na->b\nab\nba\n2\na->b\nb->a\na\nb\n1\nb->a\n<b>Output:</b>\nYES\nYES\nNO\n</pre><h3>Explanation</h3>\n<p><b>Test case #1:</b><br />\nClearly 'a' can be transformed to 'b'. So \"aa\" can be transformed to \"bb\"\n</p>\n<p><b>Test case #2:</b><br />\n'a' can be transformed to 'b' by using mapping 1. 'b' can be transformed to 'a' by using mapping 2</p>\n<p><b>Test case #3:</b><br />\n'b' can be transformed to 'a' but 'a' cannot be transformed to 'b'. So it is not possible.</p>\n",
+    "category_name": "main",
+    "date_added": "22-10-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/ACM14KG3",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1417177800,
+        "end_date": 1417188600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1417188600,
+        "submit_start_date": 1417177800,
+        "current": 1537437200
+    },
+    "user": {
+        "username": ""
+    }
+}

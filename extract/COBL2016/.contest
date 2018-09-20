@@ -1,0 +1,87 @@
+{
+    "announcements": "<li>New test files have been added to the problem RNGMOD. Please resubmit your solution to know the status of your solution. Sorry for the inconvenience.</li>",
+    "ip": "149.129.135.113",
+    "code": "COBL2016",
+    "duration": "180",
+    "name": "CodeBattle",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": " <h2><strong>Code-Battle:</strong></h2> <p>Code-Battle is a 3 hour long coding contest where you can brush up your math and algorithmic skills. The contest is a part of the tech-fest Cognizance, IIT Roorkee. It is organised by the Computer Science Department of IIT Roorkee. There is no prior registration required for the contest other than registration on Codechef. Top participants will get cash prizes and some extra wisdom in the realm of programming!&nbsp;</p> <h2><strong class=\"rules-heading\">About the Contest:</strong></h2> <div class=\"rules-body\"> <ul class=\"\"> <li><strong>Organiser: </strong> The contest is hosted by Indian Institute Of Technology, Roorkee.</li> <li><strong>Prizes: </strong>Cash prizes for top participants.</li> <li><strong>Registrations for prizes:&nbsp;</strong><a href=\"http://goo.gl/dncYN1\">http://goo.gl/dncYN1</a></li> </ul> </div> <h2><strong class=\"rules-heading\">Contest Details:</strong></h2> <div class=\"rules-body\"> <ul class=\"\"> <li><strong>Duration: </strong>3 hours</li> <li><strong>Start time: </strong>15th March 2016, 2100 hrs IST</li> <li><strong>End time: </strong>16th March 2016, 0000 hrs IST<br />You may check your timezone <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+COBL2016&amp;iso=20160315T21&amp;p1=44&amp;ah=3\" target=\"_blank\">here</a>.</li> </ul> </div> <h2><strong class=\"rules-heading\">Registration:</strong></h2> <div class=\"rules-body\"> <p>You just need to have a CodeChef username to participate. No seperate registration is required. If you do not have a CodeChef ID create one <a href=\"../user/register\" target=\"_blank\"> here</a>.</p> </div>  <h2><strong class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</strong></h2>  <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct.</a></p> </div>  <h2><strong class=\"rules-heading\">Rules and Regulations:</strong></h2>  <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li> <li>Please contact <a href=\"mailto:aniketguptaknp@gmail.com\" target=\"_blank\">aniketguptaknp@gmail.com</a> for any queries during the contest.</li> </ul> <h2><strong class=\"rules-heading\">Judging Criteria:</strong></h2> <ul class=\"\"> <li><strong>All the problems have same points allotted to them.</strong></li> <li><strong>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time</strong></li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error). There is no time consumed for a problem that is not solved.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> </ul> <div class=\"\"><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"../ide\" target=\"_blank\">Online IDE</a>.</strong><br />However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COBL2016/1457688939.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "SWEGARR": {
+            "allow_submission": false,
+            "name": "Mr Swegwan and Arrays",
+            "category_name": "main",
+            "accuracy": 16.35,
+            "successful_submissions": "94",
+            "code": "SWEGARR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SWEGIRL": {
+            "allow_submission": false,
+            "name": "Mr Swegwan and His GirlFriends",
+            "category_name": "main",
+            "accuracy": 20.22,
+            "successful_submissions": "18",
+            "code": "SWEGIRL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PERFECT": {
+            "allow_submission": false,
+            "name": "Mr Perfectionist",
+            "category_name": "main",
+            "accuracy": 25.68,
+            "successful_submissions": "37",
+            "code": "PERFECT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SWEGSTR": {
+            "allow_submission": false,
+            "name": "Swegwan And Strings",
+            "category_name": "main",
+            "accuracy": 17.02,
+            "successful_submissions": "2",
+            "code": "SWEGSTR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "RNGMOD": {
+            "allow_submission": false,
+            "name": "Range Modulus",
+            "category_name": "main",
+            "accuracy": 5.31,
+            "successful_submissions": "6",
+            "code": "RNGMOD",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1458066600,
+        "current": 1537435098,
+        "freezing": 0,
+        "start": 1458055800
+    },
+    "user": {
+        "username": ""
+    }
+}

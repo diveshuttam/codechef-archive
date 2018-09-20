@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>One day a teacher give some task to students to build applications for mobile phones. Some students want to build the apps for android and others for windows phone. So the teacher decided to split them into teams, the teams must have an equal number of students.</p>\n<p>We know that this group of students has archenemies.Each student has at most two archenemies. Besides, if student A is an archenemy to student B, then student B is an archenemy to student A.</p>\n<p>The students want to split so as no two archenemies were in one team. If splitting in the required manner is impossible, some students will have to sit idle in the class.</p>\n<p>Determine the minimum number of students you will have to make them sit idle in order to form the two teams in the described manner and begin the competition at last.</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer T, the number of test cases.T test cases follow. The first line of each test case contains two space integers n and m \u2014 the number of students and the number of pairs of archenemies correspondingly.</p>\n<p>Next m lines describe enmity between students. Each enmity is described as two numbers ai and bi (1\u2009\u2264\u2009ai,\u2009bi\u2009\u2264\u2009n, ai\u2009\u2260\u2009bi) \u2014 the indexes of the students who are enemies to each other. Each enmity occurs in the list exactly once. It is guaranteed that each student has no more than two archenemies.</p>\n<p>You can consider the students indexed in some manner with distinct integers from 1 to n.</p>\n<h3>Output</h3>\n<p>\nFor each test case, in new line, print a single integer \u2014 the minimum number of students you will have to send to the bench in order to start the game.</p>\n<h3>Constraints</h3>\n<h5>1&lt;=T&lt;=1000<br />\n<br/>2&lt;=n&lt;=100<br />\n<br/>1&lt;=m&lt;=100<br />\n</br/></br/></h5>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n1\n5 4\n1 2\n5 3\n2 4\n1 4\n\n<b>Output:</b>\n1\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-10-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Obfuscation 2013",
+    "languages_supported": "C, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1361889000,
+        "end_date": 1361903400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1361903400,
+        "submit_start_date": 1361889000,
+        "current": 1537438478
+    },
+    "problem_author_html_handle": "prog_iitmandi",
+    "problem_name": "AndWinComp",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/prog_iitmandi'>prog_iitmandi</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "prog_iitmandi",
+    "contest_code": "OBFS2013",
+    "max_timelimit": "1",
+    "problem_code": "AWAPP"
+}

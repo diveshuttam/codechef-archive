@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Bala's room is in a mess. He's been so busy doing research that he hasn't bothered to clean out his room for months. Now he has decided to sort out all the items in his room and keep only the essential ones. He knows the usefulness of each of the 'N' items that he has, and wants to keep only the 'K' most useful items. Bala is also very forgetful, so he wants a procedure that doesn't require him to remember too many things at once.\n\n<h3>Input</h3>\n<p>The first line of input contains 'T', the number of test cases (1<=T<=100). This is followed by T test cases. Each test case begins with a blank line followed by one line containing two numbers 'N' (number of items), and 'K' (number of essential items) (1<=K<=N<=100000000). This is followed by one line containing the usefulness of all the 'N' items, seperated by spaces.\n\n\n<h3>Output</h3>\n<p>The output should consist of 'T' lines corresponding to the 'T' test cases. Each line should contain one number, which is the sum of the usefulness of the 'K' most useful items.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n\n5 2\n10 23 47 3 17\n\n10 4\n87 45 99 27 58 100 38 50 31 62\n\n\n<b>Output:</b>\n70\n348\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Code Olympics 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330749000,
+        "end_date": 1330759800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1330759800,
+        "submit_start_date": 1330749000,
+        "current": 1537438908
+    },
+    "problem_author_html_handle": "karthikn5",
+    "problem_name": "Needful Things",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/karthikn5'>karthikn5</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "karthikn5",
+    "contest_code": "CDOL2012",
+    "max_timelimit": "0.742138",
+    "problem_code": "COOP5"
+}

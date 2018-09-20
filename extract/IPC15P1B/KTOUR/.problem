@@ -1,0 +1,33 @@
+{
+    "problem_code": "KTOUR",
+    "problem_author": "blunderspride",
+    "contest_name": "ICPC Preparatory Series by Team BlundersPride",
+    "todo": false,
+    "problem_author_html_handle": "blunderspride",
+    "problem_name": "KingTour",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "IPC15P1B",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/blunderspride'>blunderspride</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/ipc151b'>ipc151b</a>, <a class='problem-tag-small ' href='/tags/problems/matrix-expo'>matrix-expo</a>, <a class='problem-tag-small ' href='/tags/problems/medium-hard'>medium-hard</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n<p>King Lanuk is the ruler of a vast kingdom which spans an <b>M x M</b> grid(each point on the grid is a city) which has an invisible electric fence around it. So if anybody by mistake crosses over the boundary, he dies.</p>\n<p>King Lunak decides to send his messengers on a <b>N</b> day quest. Each messenger starts from the capital of the city which is a cell given by <b>X</b>, <b>Y</b> (1-indexed). On each day, the messenger can move one step in either of the 8 cardinal directions. Now, King Lunak gave each messenger a unique <b>N</b> length string where the character at the <b>i</b><sup>th</sup> index denotes which of the 8 directions the messenger will move in on the <b>i</b><sup>th</sup> day of his quest. King Lunak sends out exactly as many messengers as the number of unique strings he can generate. The messengers know that some of these quest plans will cause them to cross the fence and thus die, but they dare not refuse the king.</p> \n\n<p>So King Lunak wants to know after <b>N</b> days, how many of the messengers survived.\n</p>\n\n\n<h3>Input</h3>\n<p>\nFirst line contains <b>T</b> which is the number of test cases.<br/>\nFirst line of each test case contains an integer <b>M</b> indicating the size of the grid.<br/>\nSecond line of each test case contains 2 integers <b>X, Y</b> indicating the starting point for each messenger.<br/>\nLast line of each test case contains an integer <b>N</b> indicating the number of days.<br/>\n</p>\n\n\n<h3>Output</h3>\n<p>For each test case, output a single line containing the number of messengers alive modulo <b>10<sup>9</sup>+7</b>.</p>\n\n<h3>Constraints:</h3>\n<ul>\n    <li>1 \u2264 <b>T</b> \u2264 10</li>\n    <li>1 \u2264 <b>M</b> \u2264 20</li>\n    <li>1 \u2264 <b>N</b> \u2264 10<sup>9</sup></li>\n</ul>\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n4\n1 1\n1\n4\n2 2\n1\n\n<b>Output:</b>\n3\n8\n</pre>\n<p> </p>\n\n<h3>Explanation</h3>\n<p>Case 1: There are 3 alive messengers. They are on cells (1, 2), (2, 2) and (2, 1). </p>\n<p>Case 2: All 8 messengers will be alive.</p>",
+    "category_name": "main",
+    "date_added": "3-10-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/KTOUR",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1448724600,
+        "end_date": 1448746200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1448746200,
+        "submit_start_date": 1448724600,
+        "current": 1537435796
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "announcements": "<p><b>25/01/2015, 11:32 IST: </b>Input format of the problem <a href=\"/LTIME20/problems/LCH15JEF\" target=\"_blank\">LCH15JEF</a> has been changed. Each testcase is represented by one line with M and S separated by whitespace.</p>\r\n<p><b>25/01/2015, 11:02 IST: </b>The rankings for the contest can be found\u00a0<a href=\"/rankings/LTIME20\" target=\"_blank\">here</a>.</p>",
+    "ip": "149.129.135.113",
+    "code": "LTIME20",
+    "duration": "180",
+    "name": "January Lunchtime 2015",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "LCH15CD": [
+            {
+                "score": "26",
+                "count": "83"
+            },
+            {
+                "score": "29",
+                "count": "49"
+            },
+            {
+                "score": "55",
+                "count": "370"
+            },
+            {
+                "score": "74",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "79"
+            }
+        ],
+        "LCH15JEF": [
+            {
+                "score": "30",
+                "count": "367"
+            },
+            {
+                "score": "70",
+                "count": "20"
+            },
+            {
+                "score": "100",
+                "count": "134"
+            }
+        ],
+        "LCH15JGH": [
+            {
+                "score": "25",
+                "count": "123"
+            },
+            {
+                "score": "100",
+                "count": "19"
+            }
+        ],
+        "LCH15JAB": [
+            {
+                "score": "28",
+                "count": "46"
+            },
+            {
+                "score": "72",
+                "count": "4"
+            },
+            {
+                "score": "100",
+                "count": "1658"
+            }
+        ]
+    },
+    "rules": "<div><b>The January LunchTime 2015 has ended!</b></div> <div><b>The editorials for the contest can be found\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/tags/ltime20\">here</a>.</b></div> <div><b>The problems have been moved to practice section.</b></div> <div><b>Solutions are public for all problems.</b></div> <div><b>Winners Blog Post can be found <a href=\"http://blog.codechef.com/2015/02/27/a-calm-lunch-after-a-chaotic-cook-off/\">here</a>.</b></div> <div></div> <div><b>Rules and Regulations:</b></div> <p>\u00a0</p> <div></div> <div>This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test data.</div> <div> <ul> <li>The details of the failed test cases will also be visible on your solution page.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The contest is meant for students of high school and middle school though everyone is invited to participate.</li> <li>There will be separate ranking page for school students. The school students will be identified by the inistitution that they have enetered in their profile.</li> <li><b>We have removed all the Institutions that we could not identify from our database. We request you to update your institutions once again by going to your profile page.</b></li> <li>You can also send in your queries in an email to\u00a0<a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a>, during the contest.</li> <li>Contest problems will become visible on January 25th, 2015 at 11:00 am (IST) to 2:00 pm (IST). There will be 4 problems in all. Check your time zone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+January+LunchTime+2015&amp;iso=20150125T11&amp;p1=44&amp;ah=3\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a target=\"_blank\" href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></li> <li>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a>.</li> </ul> <b>Note: You can now \u201cCode, Compile, and Run\u201d your codes on our newly launched IDE <a href=\"/ide\">here</a>. <br /><br />However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. </b><b> If you use\u00a0<a target=\"_blank\" href=\"http://ideone.com/\">Ideone</a>, make sure to mark your submission \"private\" (not secret)\".</b></div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/LTIME20/1424958023.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "LCH15CD": {
+            "allow_submission": false,
+            "name": "Candidate walk",
+            "category_name": "main",
+            "accuracy": 3.62,
+            "successful_submissions": "79",
+            "code": "LCH15CD",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "LCH15JEF": {
+            "allow_submission": false,
+            "name": "Just multiply",
+            "category_name": "main",
+            "accuracy": 7.07,
+            "successful_submissions": "134",
+            "code": "LCH15JEF",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "LCH15JGH": {
+            "allow_submission": false,
+            "name": "Many bananas",
+            "category_name": "main",
+            "accuracy": 2.44,
+            "successful_submissions": "19",
+            "code": "LCH15JGH",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "LCH15JAB": {
+            "allow_submission": false,
+            "name": "Piece of cake",
+            "category_name": "main",
+            "accuracy": 53.63,
+            "successful_submissions": "1658",
+            "code": "LCH15JAB",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1422174600,
+        "current": 1537436934,
+        "freezing": 0,
+        "start": 1422163800
+    },
+    "user": {
+        "username": ""
+    }
+}

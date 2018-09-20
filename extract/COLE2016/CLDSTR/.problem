@@ -1,0 +1,33 @@
+{
+    "problem_code": "CLDSTR",
+    "problem_author": "nib_ir",
+    "contest_name": "Coder's Legacy 2016",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nib_ir</span>",
+    "problem_name": "Disciple Training",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "COLE2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cole2016'>cole2016</a>, <a class='problem-tag-small ' href='/tags/problems/counting_sort'>counting_sort</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/nib_ir'>nib_ir</a>, <a class='problem-tag-small ' href='/tags/problems/sorting'>sorting</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Superman and Batman have been fighting for many years and the end doesn't seem near, so they decide to train disciples in order to carry on the fight when the time comes for them to retire to old-age homes. The students of Superman and Batman call themselves Sons of Superman and Sons of Batman respectively. Both the superheroes measure the scores of their students on the Super Scale, which is an integer ranging from <b>0 to 100</b>. After a test has been taken and the scores evaluated, Superman decides to compare his disciples with his rival's. Curiously, the scores achieved by both his and Batman's students followed a strange pattern... the score of the <b>i<sup>th</sup></b> student is found to be <b>(p^i)%q</b>.<br/>He decides to find out the average value of the score by which a Son of Superman is ahead of a Son of Batman, the pair having ranked the same in their respective schools. If there is an unmatched disciple, it is assumed the missing disciple of the pair has the same score.</br/></p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of each test case contains a single integer <b>N</b> denoting the number of disciples of Superman.</li>\n<li>The second line contains two space separated integers <b>p<sub>S</sub></b> and <b>q<sub>S</sub></b> which can be used to calculate the scores of all the Sons of Superman as explained above.</li>\n<li>The third line of each test case contains a single integer <b>M</b> denoting the number of disciples of Batman.</li>\n<li>The fourth line contains two space separated integers <b>p<sub>B</sub></b> and <b>q<sub>B</sub></b> which can be used to calculate the scores of all the Sons of Batman as explained above.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>Output a single line containing the desired value <b>correct to 1 decimal place.</b>.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N, M</b> \u2264 <b>10<sup>8</sup></b>\n</li><li><b>1</b> \u2264 <b>p</b> \u2264 <b>100</b>\n</li><li><b>1</b> \u2264 <b>q</b> \u2264 <b>101</b>\n</li>\n</ul>\n<p>\n<h3>Example</h3>\n</p>\n<pre><b>Input:</b>\n2\n2 100\n1\n3 10\n\n<b>Output:</b>\n0.5\n\n</pre>\n<h3>Explanation</h3>\n<p>The scores of the Sons of Superman are 2 and 4, whereas Batman has only one disciple who scored 3. Thus answer is ((4-3)+(2-2))/2 = 0.5</p>\n",
+    "category_name": "main",
+    "date_added": "29-01-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1.25",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/CLDSTR",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1454686200,
+        "end_date": 1454859000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454859000,
+        "submit_start_date": 1454686200,
+        "current": 1537435504
+    },
+    "user": {
+        "username": ""
+    }
+}

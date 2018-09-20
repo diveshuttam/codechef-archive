@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><h2>Problem Statement</h2></p>\n<p><font size=\"3\">Being a programmer,chef like strings lot,so one day one of his friend raju needed his help to count the no of occurences of given character c in a given string s and to identify whether the count of character c is odd-prime or even-prime or not-prime number ?\n<p> print oddprime if the answer is odd-prime number ,if the answer is even-prime print evenprime,if answer is not-prime number print notprime ,chef is busy in his hobby of cooking.</p></font>\n\n<p><font size=\"3\">Your task is to so help his friend</font></p>  </p>\n\n<p><font size=\"3\">Note:string s contains only lowercase alphabets</font></p>\n\n<h2>Input</h2>\n<p><font size=\"3\">The first line contains string s,second line contains character c</font></p>\n\n<h2>Constraints</h2>\n<p><font size=\"3\">1<=|s|<=10^4</font></p>\n<h2>Example</h2>\n<b><h3>Input:</h3></b>\n<p><font size=\"3\">accvbxzaa</font></p>\n<font size=\"3\"> a </font\">\n<h3><b><h3>Output:</h3></b></h3>\n<p><font size=\"3\">oddprime </font\"></p>\n\n<h2>Explanation</h2>\n<p>  Since 3 is a odd-prime number</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "31-03-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Explore-Code II",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, ICK, BF, ASM, PRLG, SCM qobi, ST, NICE, NEM, LISP sbcl, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1491741000,
+        "end_date": 1491754200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1491754200,
+        "submit_start_date": 1491741000,
+        "current": 1537433951
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>vivek96</span>",
+    "problem_name": "Chef,The Programmer",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vivek96'>vivek96</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vivek96",
+    "contest_code": "EXCO1701",
+    "max_timelimit": "1",
+    "problem_code": "EXPLORE2"
+}

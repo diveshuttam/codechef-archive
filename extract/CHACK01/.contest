@@ -1,0 +1,87 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "CHACK01",
+    "duration": "361",
+    "name": "Codehack 2010",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/sites/default/files/uploads/landing_page_banners/banner-compete.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "NUKES": {
+            "allow_submission": false,
+            "name": "Nuclear Reactors",
+            "category_name": "main",
+            "accuracy": 36.36,
+            "successful_submissions": "4",
+            "code": "NUKES",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FCTRL": {
+            "allow_submission": false,
+            "name": "Factorial",
+            "category_name": "main",
+            "accuracy": 76.92,
+            "successful_submissions": "9",
+            "code": "FCTRL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PCYCLE": {
+            "allow_submission": false,
+            "name": "Permutation Cycles",
+            "category_name": "main",
+            "accuracy": 80,
+            "successful_submissions": "4",
+            "code": "PCYCLE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SUMTRIAN": {
+            "allow_submission": false,
+            "name": "Sums in a Triangle",
+            "category_name": "main",
+            "accuracy": 50,
+            "successful_submissions": "6",
+            "code": "SUMTRIAN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "VOTERS": {
+            "allow_submission": false,
+            "name": "Discrepancies in the Voters List",
+            "category_name": "main",
+            "accuracy": 25,
+            "successful_submissions": "5",
+            "code": "VOTERS",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1265502600,
+        "current": 1537439748,
+        "freezing": 0,
+        "start": 1265480940
+    },
+    "user": {
+        "username": ""
+    }
+}

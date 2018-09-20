@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>    <p>Kinku is a project manager in his company. Recently, the executives decided to give bonus to everyone in his team, so Kinku was asked to give a list to them how much bonus each should get.</p>\n    <p>To do this, he selected some pairs of members, and analyzed who should get more bonus, and how more much he should get (at least). That is, if employee Tom is better than Jerry, and Tom should get at least 300$ more than Jerry, then, if Jerry gets 650$ bonus, Tom has to get atleast 950$ bonus. It should also be noted that, every one will get at least a minimum, no one will go empty handed. </p>\n    <p>Given all the comparisons, you have to find the minimum total bonus to be divided among the employees. </p>\n    \n        \n<h3>Input</h3>\n<ul>\n<li>First line contains T, the number of test cases.</li>\n\n<li>Each test case starts with three integers N(1 \u2264 N \u2264 100), M(0 \u2264 M \u2264 N*(N\u22121)/2) and L(1 \u2264 L \u2264 10000), the number of employees, number of comparisons and minimum bonus.</li> \n\n<li>Next M lines each contains three integers, i, j(1 \u2264 i, j \u2264 N) and c(0 \u2264 c \u2264 1000), referring that employee<sub>i</sub> should get at least c$ more than employee<sub>j</sub>,</li> \n</ul>\n        \n<h3>Output</h3>\n\n<p>For each test case, output the minimum total bonus on the first line, and the bonus given to each employee in the next line.</p>\n\n<p>If comparisons are inconsistent, and it\u2019s not possible distribute bonus among them, output \u201cInconsistent analysis.\u201d(without quotes). </p>\n\n<h3>Sample input</h3>\n<pre>\n2\n4 4 100\n1 2 10\n2 3 20\n1 3 40\n2 4 5\n3 3 100\n1 2 10\n2 3 10\n3 1 10\n</pre>\n\n<h3>Sample output</h3>\n<pre>\n460\n140 120 100 100\nInconsistent analysis.\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-10-2010",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Kanpur Site First Round Online Contest ",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1288429200,
+        "end_date": 1288440000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1288440000,
+        "submit_start_date": 1288429200,
+        "current": 1537439468
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Bonus",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "ACMKAN10",
+    "max_timelimit": "10",
+    "problem_code": "ACMKANPB"
+}

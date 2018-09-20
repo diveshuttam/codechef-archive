@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Samya and Utsav are good friends. Samya claims that no one can beat him in maths especially when it comes to dealing with numbers. So Samya throws a challenge at Utsav that he will be able to do any computation within a second however difficult it is. Utsav tells him a value of N and asks him to find the <b>smallest number such that it is co-prime to all first N natural numbers,it is a composite number and it is a square free number</b>.Surprisingly Samya really gives the answer within a fraction of a second for whatever N Utsav asks him to do. But Utsav is not so good at Maths.So he wants you to write a program for him so that ha can verify Samyas answer. Let's see if your program can do better than Samya's brain.<p>\n<h3>Input</h3>\n<p>1st line contain an integer T denoting the number of test cases.Each test case contains one line,an integer N\n\n<h3>Output</h3>\n<p>T lines each containing a single integer S as the answer\n\n<pre>\n<b>Input:</b>\nInput\n2\n1\n6\n\n\n<b>Output:</b>\n6\n77\n\n<h3>CONSTRAINTS:</h3>\n\n1  <=  T  <= 100000\n1  <=  N  <=46000\n1  <=  S  <= 214783647\n\n</pre>\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "IEM - Kolkata - FESTRONIX - Encoded",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, D, PERL, FORT, ADA, ASM, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, SCM guile, TCL, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298799000,
+        "end_date": 1298831400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298831400,
+        "submit_start_date": 1298799000,
+        "current": 1537439302
+    },
+    "problem_author_html_handle": "encoded_admin",
+    "problem_name": "Prime Challenge",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/encoded_admin'>encoded_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "encoded_admin",
+    "contest_code": "ENCODED",
+    "max_timelimit": "0.160714",
+    "problem_code": "ENCODE05"
+}

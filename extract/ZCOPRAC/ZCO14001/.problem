@@ -1,0 +1,31 @@
+{
+    "status": "success",
+    "problem_tester": null,
+    "body": "<h2>Zonal Computing Olympiad 2014, 30 Nov 2013</h2>\n<br>\n\n<p>You are playing a video game in which several stacks of boxes\nare lined up on the floor, with a crane on top to rearrange the\nboxes, as shown in the picture below.</p>\n\n<br>\n\n<img align=center width=300 src=\"https://www.codechef.com/download/ZCO14001.png\"/>\n\n <br>\n <p> The crane supports the following commands: </p>\n\n<br>\n<p> \u2022 Move one position left (does nothing if already at the\n  leftmost position)</p>\n\n <br>\n <p> \u2022 Move one position right (does nothing if already at the\nrightmost position)</p>\n\n<br>\n  <p> \u2022 Pick up a box from the current stack (does nothing if the\ncrane already has a box)</p>\n\n<br>\n  <p> \u2022 Drop a box on the current stack (does nothing if the\ncrane doesn't already have a box)</p>\n\n<br>\n<p> Further, there is a limit <em>H</em> on the number of boxes\non each stack. If a 'drop' command would result in a stack having\nmore than <em>H</em> boxes, the crane ignores this drop command.\nIf the current stack has no boxes, a 'pick up' command is ignored.\n</p>\n\n<br>\n<p>You are given the initial number of boxes in each stack and\nthe sequence of operations performed by the crane.  You have to\ncompute the final number of boxes in each stack.  </p>\n\n<br>\n<p>For example, suppose the initial configuration of the game is\nas shown in the figure above, with 7 stacks and <em>H</em>=4.\nThen, after the following sequence of instructions,</p>\n\n<br>\n\n  1. Pick up box<br>\n  2. Move right<br>\n  3. Move right<br>\n  4. Move right<br>\n  5. Move right<br>\n  6. Drop box<br>\n  7. Move left<br>\n  8. Pick up box<br>\n  9. Move left<br>\n  10. Drop box<br><br>\n\n<br>\n<p>the number of boxes in each stack from left to right would be 2,1,3,1,4,0,1.</p>\n   \n<br>\n<h3>Input format</h3>\n\n  <p> \u2022 Line 1 : The width of the game (the number of stacks\n  of boxes), <em>N</em>, followed by the max height <em>H</em> of\n  each stack.</p>\n\n<br>\n  <p> \u2022 Line 2 : <em>N</em> integers, the initial number of\n  boxes in each stack, from left to right. Each number is \u2264\n  <em>H</em>.</p>\n\n<br>\n  <p> \u2022 Line 3 : A sequence of integers, each encoding a\n  command to the crane.</p>\n\n  <ul>\n      <p> \u00a0\u00a0\u00a0 The commands are encoded as follows:</b></p>\n      <p> \u00a0\u00a0\u00a0 1 : Move left</p>\n      <p> \u00a0\u00a0\u00a0 2 : Move right</p>\n      <p> \u00a0\u00a0\u00a0 3 : Pick up box</p>\n      <p> \u00a0\u00a0\u00a0 4 : Drop box</p>\n      <p> \u00a0\u00a0\u00a0 0 : Quit</p>\n  </ul>\n\n<br>\n  <p> \u2022 The command Quit (0) appears exactly once, and is the last\n  command.</p>\n  <p> \u2022 The initial position of the crane is above the\n  leftmost stack, with the crane not holding any box.</p>\n\n<br>\n<h3>Output format</h3>\n\n<p>A single line with <em>N</em> integers,\nthe number of boxes in each stack, from left to right.</p>\n \n\n<br>\n<h3>Sample input 1</h3>\n<pre>\n7 4\n3 1 2 1 4 0 1\n3 2 2 2 2 4 1 3 1 4 0\n</pre>\n\n<br>\n<h3>Sample output 1</h3>\n<pre>\n2 1 3 1 4 0 1\n</pre>\n\n<br>\n<h3>Sample input 2</h3>\n<pre>\n3 5\n2 5 2\n3 2 4 2 2 2 1 4 1 1 1 1 0\n</pre>\n\n<br>\n<h3>Sample output 2</h3>\n<pre>\n1 5 2 \n</pre>\n\n<br>\n<h3>Test data</h3>\n\n<br>\n<p>There is only one subtask worth 100 marks.  In all inputs:\n\n\n<p> \u2022 The number of commands is between 1 and 10<sup>5</sup>, inclusive.</p>\n<p> \u2022 1 \u2264 <em>N</em> \u2264 10<sup>5</sup></p>\n<p> \u2022 1 \u2264 <em>H</em> \u2264 10<sup>8</sup>.</p>\n\n<br>\n<h3>Live evaluation data</h3>\n\n<p>There are 18 test inputs on the server during the exam.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-11-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ZCO Practice Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1446661800,
+        "end_date": 1578162600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1578162600,
+        "submit_start_date": 1446661800,
+        "current": 1537431951
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Video Game",
+    "source_sizelimit": "50000",
+    "problem_status": "unattempted",
+    "problem_tester_html_handle": null,
+    "problem_author": "admin3",
+    "contest_code": "ZCOPRAC",
+    "max_timelimit": "1",
+    "problem_code": "ZCO14001"
+}

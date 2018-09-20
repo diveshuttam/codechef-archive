@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Please read  <b>The Beginning</b> of  <b>Problem A001</b> to get a description of the galaxy .<br />\n<br />\n<h3>The Key</h3>\n<p>\nOn reaching the final frontier of the Galaxy , Sector 64 , the crew found themselves in a situation they had not anticipated .<br />\n<br />\nThe base they were supposed to land on was completely destroyed without any trace .<br />\nAll they found on the base was a Teleport channel , an encrypted key and some encrypted data , apparently left behind by mistake .<br />\nThe captain decided to investigate and find out where the Teleport channel leads to and what information were left behind .<br />\nTo do this , he has to decrypt the key and find a code to decode the information and unlock the Teleport channel .<br />\n<br />\nThe key had been encrypted using an ancient encryption algorithm .<br />\nIn this algorithm , a digit is preceded as well as succeeded by a certain number of characters which decides the position\nof the digit in the unencrypted code .<br />\n<br />\nThe encrypted key has the following characters and their relative weight-age :<br />\n<br />\nZ      the basic charcacter ( may be considered of unit value )<br />\nQ      equivalent to 3 Z <br />\nE      equivalent to 5 Z<br />\nT      equivalent to 7 Z<br />\nU      equivalent to 9 Z<br />\n<br />\nThe characters which precede a digit add to its weight-age and which succeed a digit subtract from its weigh-age .<br />\nThe position of a digit in the unencrypted code is decided on the basis of its weight-age , the digit with the least weight-age is the left most and the digit with the most weight-age is the right most .<br />\nIn case of same weight-age for two digits , the digit that appears later in the encrypted key appears earlier in the unencrypted code .<br />\n<br />\n<b>Example : </b>\n<br /><br />\n<b>ZZZE5UU7QQZZ7T3QQQQ4EEZ</b> <br />\n<br />\nweight-age of 5 : (3x1) + (1x5) - (2x9) = -10 <br />\nweight-age of 7 : (2x9) - (2x3) - (2x1) = 10 <br />\nweight-age of second 7 : (2x3)+(2x1) - (1x7) = 1<br />\nweight-age of 3 : (1x7) - (4x3) = - 5<br />\nweight-age of 4 : (4x3) - (2x5) - (1x1) = 1<br /> \n<br />\n\nImplying the unencrypted code is :<br />\n<br />\n<b>53477</b><br />\n\n<h3>Input</h3>\n<p><br />\nn<br />\nN1 N2 N3 N4 .................N200<br />\nN1 N2 N3 N4 .................N200<br />\n............<br />\n............<br />\nn times <br />\n<br />\n<b>Where :</b><br />\n<br />\nn : Number of test cases .<br />\n0 < n < 32000 .<br />\n<br />\nN1 , N2 , N3 , N4 .............. N200 : Sequence of 200 characters consisting of  digits ( 0 to 9 ) and characters ( A through Z ) .<br />\n<br />\n\n<h3>Output</h3>\n<br />\n<p>\nn1 n2 n3 n4 n5......<br />\nn1 n2 n3 ..........<br />\nn1 n2 n3 n4 ............<br />\n.........<br />\n.........<br />\nn cases <br />\n<br />\n<b>Where :</b><br /> \n<br />\n n1 n2 n3 n4 ........ nx : Sequence of digits representing the unencrypted code , one sequence per line . <br />\n<br />\n<h3>Example</h3>\n\n<b>Input:</b><br />\n1<br />\nE5QQT25Q48757UTZ2032E2611U37E477U4Q7Q6T45ET1U712T500603UTE385Q7Z706TTZ4Q5Z26TE43T5ZU8E6T5EZT73UT2T64Q46324862T117QUUZ5Q543832Z1Q2Q1U0723QZUQ1271136E8Q02U3T1U0T10T8225TE5886Z17Q4U8TQ0QETTE<br />\n<br />\n\n<b>Output:</b><br />\n73073365652715023241567267455511686288223117227238344168423608060017716305781270385705414842481165402735447212535<br />\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Conscientia - TGPA 2011",
+    "languages_supported": "C, JAVA, CS2, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298737800,
+        "end_date": 1298755800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298755800,
+        "submit_start_date": 1298737800,
+        "current": 1537439322
+    },
+    "problem_author_html_handle": "roy",
+    "problem_name": "The Key",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/roy'>roy</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "roy",
+    "contest_code": "TGPA11",
+    "max_timelimit": "0.652174",
+    "problem_code": "A002"
+}

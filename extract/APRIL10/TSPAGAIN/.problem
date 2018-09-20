@@ -1,0 +1,33 @@
+{
+    "problem_code": "TSPAGAIN",
+    "problem_author": "syco",
+    "contest_name": "April 2010 Contest",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>syco</span>",
+    "problem_name": "Travelling Salesman Again !",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "friggstad",
+    "contest_code": "APRIL10",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/april10'>april10</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>, <a class='problem-tag-small ' href='/tags/problems/syco'>syco</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nThere are N cities numbered from 0..N-1. A salesman is located at city 0. He wishes to visit all cities exactly once and return back to city 0. There are K toll booths. Each toll booth has a certain range of functioning. The parameters for toll k are given as x_k and y_k. If the salesman travels from city i to j, he has to pay 1 dollar toll fee to each toll p having x_p &gt;= i and y_p &lt;= j. Calculate the cheapest way for the salesman to complete his tour.\n\n<h3>\nInput :\n</h3>\nThe first line contains T the number of test cases. T test cases follow. The first line of each test case contains two space seperated integers N and K. Each of the next K lines contains 2 integers, the ith line containing x_i and y_i (0 &lt;= x_i,y_i &lt; N). A blank line seperates two test cases.\n\n<h3>\nOutput :\n</h3>\nOutput T lines, one for each test case, containing the required answer.\n\n<h3>\nSample Input :</h3>\n<pre>\n2\n3 2\n2 0\n0 2\n\n3 4\n1 0\n2 1\n0 1\n1 2\n\n</pre>\n\n<h3>\nSample Output :</h3>\n<pre>\n3\n6\n\n</pre>\n\n<h3>\nConstraints :</h3>\n<pre>\n1 &lt;= T &lt;= 50\n2 &lt;= n &lt;= 1000\n1 &lt;= K &lt;= 10000\n</pre></p>",
+    "category_name": "main",
+    "date_added": "20-03-2010",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "max_timelimit": "3.53389",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/TSPAGAIN",
+    "problem_tester": "friggstad",
+    "time": {
+        "view_start_date": 1270196899,
+        "end_date": 1271151000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1271151000,
+        "submit_start_date": 1270196899,
+        "current": 1537439599
+    },
+    "user": {
+        "username": ""
+    }
+}

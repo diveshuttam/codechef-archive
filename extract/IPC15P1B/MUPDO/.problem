@@ -1,0 +1,33 @@
+{
+    "problem_code": "MUPDO",
+    "problem_author": "blunderspride",
+    "contest_name": "ICPC Preparatory Series by Team BlundersPride",
+    "todo": false,
+    "problem_author_html_handle": "blunderspride",
+    "problem_name": "Bomber Man",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "IPC15P1B",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/blunderspride'>blunderspride</a>, <a class='problem-tag-small ' href='/tags/problems/data-structure'>data-structure</a>, <a class='problem-tag-small ' href='/tags/problems/ipc151b'>ipc151b</a>, <a class='problem-tag-small ' href='/tags/problems/medium-hard'>medium-hard</a>, <a class='problem-tag-small ' href='/tags/problems/segment-tree'>segment-tree</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nToday, we will recreate the popular game, Bomber Man! <br>\nIn Bomber Man, if a bomb is placed at a cell <b>(x, y)</b>, cells <b> (x + 1, y), (x, y + 1), (x - 1, y)</b> and <b>(x, y - 1) </b> are destroyed. \nWe will try to implement an enhanced version of this game.\n</p>\n\n<p>\nThe game will be played in an <b> N * N </b> grid. Initially, all the cells are safe. You have to handle <b>U</b> updates of form <b>(x, y)</b>. An update signifies that a bomb has been placed at that cell. The bomb destroys all cells that are within a manhattan distance of <b>K</b> from <b>(x, y)</b>. More formally, for each  update, you must mark all cells <b>(p, q) </b> such that <b> |p - x| + |q - y| \u2264 K</b> as destroyed. <b>|x|</b> denotes absolute value of <b>x</b>.<br><br>\nAfter all the updates are over, you need to answer <b>Q</b> queries of the form <b>(x, y)</b>. <br> For each query, print \"Safe\" or \"Not Safe\" depending on whether the corresponding cell has been destroyed or not, respectively. You need to consider only those cells which lie in the <b>N * N</b> region. <br> <br>\n\nSay <b>N = 4, K = 2</b> and a bomb is dropped at cell <b>(2, 2)</b>. Here is what the grid will look like. The red cells denote destroyed cells. <br><br>\n\n<img src=\"http://i.imgur.com/sQ6zb9G.png\" alt=\"Grid\" style=\"width:420px;height:300px;\">\n<br><br>\n</p>\n<p>\nYou will be given the information about the first query. For queries 2 to <b>Q</b>, you have to use the following formula to find <b>(x, y)</b> for the current query: <br> <br>\nIf the answer to <b>(i - 1)</b><sup>th</sup> query was \"Not Safe\", then <b>i</b><sup>th</sup> query is denoted by: <br>\n<b>x<sub>i</sub> = (x<sub>i-1</sub> * A + B) % N + 1</b><br>\n<b>y<sub>i</sub> = (y<sub>i-1</sub> * A + B) % N + 1</b><br> <br>\nIf answer was \"Safe\", then : <br>\n<b>x<sub>i</sub> = (x<sub>i-1</sub> * B + A) % N + 1 </b><br>\n<b>y<sub>i</sub> = (y<sub>i-1</sub> * B + A) % N + 1 </b><br>\n\n</p>\n\n<p>\n</p>\n\n<h3>Input</h3>\n\n<p>\nThe first line of the input contains four space separated integers <b>N, K, U</b> and <b>Q</b>, as described above.\n<br/>\nEach of the next <b>U</b> lines contain two integers  <b>x</b> and <b>y</b> denoting the updates.\n<br/>\nThe next line contains a pair of integers <b>x</b> and <b>y</b> denoting the first query. </br>\nThe next line contains a pair of integers <b>A</b> and <b>B</b>.\n</p>\n\n\n<h3>Output</h3>\n\n<p>\nFor each query output the required answer in one line.\n</p>\n\n<h3>Constraints</h3>\n\n<ul>\n    <li>1 \u2264 <b>N</b> \u2264 5 * 10<sup>5</sup></li>\n    <li>1 \u2264 <b>U , Q</b> \u2264 2 * 10<sup>5</sup></li> \n    <li>1 \u2264 <b>K , x , y</b> \u2264  N</li> \n    <li>1 \u2264 <b>A , B </b> \u2264 5 * 10<sup>5</sup></li>\n\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n5 2 2 3\n3 2\n5 4\n1 4\n12345 54321\n\n<b>Output:</b>\nSafe\nSafe\nNot Safe\n\n</pre>\n\n<h3>Explanation:</h3>\n<p>\nThe query points are <b>(1, 4)</b>, <b>(2, 5)</b> and <b>(3, 1)</b>.\n<p>\nNote: Large input files. Use scanf/printf in C++.\n</p>",
+    "category_name": "main",
+    "date_added": "23-11-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/MUPDO",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1448724600,
+        "end_date": 1448746200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1448746200,
+        "submit_start_date": 1448724600,
+        "current": 1537435792
+    },
+    "user": {
+        "username": ""
+    }
+}

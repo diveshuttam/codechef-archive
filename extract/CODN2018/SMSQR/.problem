@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Description</h3>\n\n<p>Given two numbers x and y, find the squares of x, x+1, x+2, ... , x+n where x+n=y. After calculating the squares of all those numbers, find the difference between every two consecutive squares. You will get n such numbers. Now, square the n numbers that you get and add them. Display the result mod 10<sup>9</sup>+7.</p>\n<p></p>\n<b>Note that always x&lt;y. </b>\n\n<h3>Input</h3>\n<p>The first line of input contains an integer T denoting the number of testcases.\nEach test case contains two space-separated integers x and y.\n</p>\n\n\n\n<h3>Output</h3>\n<p>Print the result mod 10<sup>9</sup>+7 in a new line.</p>\n\n\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>0</b> \u2264 <b>x,y</b> \u2264 <b>10<sup>5</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n1 4\n\n<b>Output:</b>\n83\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>There are 4 numbers. The square of 1 is 1, square of 2 is 4, square of 3 is 9 and square of 4 is 16.<br/>\nNow calculate the difference between every two consecutive squares. Now,we have 3, 5 and 7. Square each of them and add them i.e. 3^2 + 5^2 + 7^2 = 9 + 25 + 49 = 83. </p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Codenigma",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, kotlin, TEXT, SCM chicken, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1521214200,
+        "end_date": 1521300600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1521300600,
+        "submit_start_date": 1521214200,
+        "current": 1537432805
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>sidhuking07</span>",
+    "problem_name": "Sum Squares",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sidhuking07'>sidhuking07</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sidhuking07",
+    "contest_code": "CODN2018",
+    "max_timelimit": "1",
+    "problem_code": "SMSQR"
+}

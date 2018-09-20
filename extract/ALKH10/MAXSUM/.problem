@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p style=\"text-align:justify\";>\nRamanujan is a Mathematician. One day when he was looking for a book in library, he came across a book named <b>Formule Di Matematica</b>. He found it interesting and started reading it. While going through the book, he found a function <b>D</b> which was as following:<br><br><b>\nD(< a<sub>1</sub>,a<sub>2</sub>,a<sub>3</sub>,..,a<sub>n</sub> >) = |a<sub>1</sub>-a<sub>2</sub>| + |a<sub>2</sub>-a<sub>3</sub>| + ... +|a<sub>n-1</sub>-a<sub>n</sub>| </b><br>\nwhere < a<sub>1</sub>,a<sub>2</sub>,a<sub>3</sub>,...,an</sub> > is a sequence of n distinct integers.<br><br>Ramanujan quickly understood that the value of D would depend upon the order of integers, hence he was then interested in finding out what could possibly be the maximum value of D, given a set of Integers S.\nIt's given that, S = set of all possible permutation you can make with n different integers and the range of integers would be [1...n]. \nNow help Ramanujan to find the maximum value of D which can be obtained, if he tries each and every permutation from the set S as an argument for D.\n</p>\n\n\n<b>Input:</b>\n<p style=\"text-align:justify\";>\nThere will be T<=10<sup>5</sup> test cases. For each case there is a single line. First line contains an integer 1<=n<=10<sup>9</sup> which specifies the number of distinct integers. The integers are in the range [1..n].\n</p>\n<p style=\"text-align:justify\";>\n<b>Output:</b><br>\nFor each test case you have to output the required answer in a single line.The output will fit in 64-bit signed integer.\n</p>\n\n<h3>Example:</h3>\n<pre>\n<b>Input:</b>\n2\n1\n2\n\n<b>Output:</b>\n0\n1\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "30-09-2010",
+    "is_direct_submittable": false,
+    "contest_name": "IIIT - A , Alkhwarizm 2010",
+    "languages_supported": "C",
+    "todo": false,
+    "time": {
+        "view_start_date": 1285939800,
+        "end_date": 1285957800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1285957800,
+        "submit_start_date": 1285939800,
+        "current": 1537439518
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>divij</span>",
+    "problem_name": "Maximum Difference Sum",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/divij'>divij</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "divij",
+    "contest_code": "ALKH10",
+    "max_timelimit": "0.1",
+    "problem_code": "MAXSUM"
+}

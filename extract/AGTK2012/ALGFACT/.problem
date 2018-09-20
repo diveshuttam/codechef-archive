@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The chef was chatting with his friend who was a mathematician.<br/>Chef said \"Hi !\".<br/>\nHis friend replied that '!' is the symbol of factorial.<br/>\nChef had never heard about it and he asked more about it. Then his friend taught him how to calculate the factorial of a number.<br/>\nChef loved that But as always he got tired after calculating a few values and asked you to do it for him.<br/>\n\n<h3>Input</h3>\n<p>N : Number of inputs<br/>then N lines with input T<br/>\nN<10<br/>\nT<=200\n\n<h3>Output</h3>\n<p>The result for the corresponding value of T\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n5\n4\n6\n\n<b>Output:</b>\n120\n24\n720\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "ALGOTHIKA 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330774200,
+        "end_date": 1331958600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1331958600,
+        "submit_start_date": 1330774200,
+        "current": 1537438869
+    },
+    "problem_author_html_handle": "s4p3r_c1n0s",
+    "problem_name": "Factorial Pizza",
+    "source_sizelimit": "5000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/s4p3r_c1n0s'>s4p3r_c1n0s</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "s4p3r_c1n0s",
+    "contest_code": "AGTK2012",
+    "max_timelimit": "1.56571",
+    "problem_code": "ALGFACT"
+}

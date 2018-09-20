@@ -1,0 +1,87 @@
+{
+    "announcements": "<p><b>23/09/2012, 21:39 IST: </b>The ranking for the contest can be found\u00c2\u00a0<a target=\"_blank\" href=\"/rankings/COOK26\">here</a>.</p>\r\n<p><b>23/09/2012, 22:09 IST: </b>The site is running slowly. We are trying to sort this out. Regret the inconvenience caused.</p>\r\n<p><b>23/09/2012, 22:48 IST: </b>We had a bad SYN attack once again due to which the site was terribly slow. We are embarrassed to say the least. Now things should be fine. We have extended the contest by 45 minutes. We are sorry.</p>\r\n<p><b>24/09/2012, 00:08 IST: </b>All those who were unable to submit their submissions can try now. Regret the inconvenince caused.</p>",
+    "ip": "149.129.135.113",
+    "code": "COOK26",
+    "duration": "195",
+    "name": "September Cook-Off 2012",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p>\u00a0</p> <p><b>The September Cook-off has ended.</b></p> <p><b>All problems will be added to the practice section.</b></p> <p><b>The editorials for the contest can be found <a target=\"_blank\" href=\"/wiki/september%C2%A02012-cook-problem-editorials\">here</a>.</b></p> <p><b><span> </span></b></p> <p><b>The Winners blog can be found <a target=\"_blank\" href=\"http://blog.codechef.com/2012/10/15/the-roller-coaster-ride-of-the-september-challenge-and-cook-off/\">here</a>.<br /></b></p> <p><b>All the solutions for the problem set are public and the problems have been moved to practice section</b></p> <p><b><br /></b></p> <p>\u00a0</p> <p><b>In case you are a new user, you will need to first register for a CodeChef ID\u00a0<a href=\"/user/register/\">here</a>.</b></p> <p><b><b> </b></b></p> <p><b> </b></p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\" target=\"_blank\">feedback@codechef.com</a></li> <br /> <li>You can also send in your queries in an email to\u00a0<a href=\"mailto:contest-admin@codechef.com\" target=\"_blank\">contest-admin@codechef.com</a>, during the contest.</li> <br /> <li>Contest problems will become visible on September 23rd, 2012 at 21:30 (IST). There will be 5 problems in all. Check your timezone\u00a0<a href=\"http://timeanddate.com/worldclock/fixedtime.html?msg=September+Cook-Off+2012&amp;iso=20120923T2130&amp;p1=44&amp;ah=2&amp;am=30\" target=\"_blank\">here</a>.</li> <br /> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <br /> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <br /> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> </ul> <p>\u00a0</p> <p><b>NOTE: The contest is open to all. Participation at this warmup contest is not enough for ICPC participation. You must also register at icpc.baylor.edu. For details please visit: <a target=\"_blank\" href=\"http://icpc.amrita.ac.in/2012/\">http://icpc.amrita.ac.in/2012/</a>. For important dates visit <a target=\"_blank\" href=\"http://icpc.amrita.ac.in/2012/index.php?option=com_content&amp;view=article&amp;id=13&amp;Itemid=33\">here</a>.<br /></b></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COOK26/1424964343.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "COALSCAM": {
+            "allow_submission": false,
+            "name": "Coal Scam",
+            "category_name": "main",
+            "accuracy": 24.35,
+            "successful_submissions": "138",
+            "code": "COALSCAM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PTOSS": {
+            "allow_submission": false,
+            "name": "Pizza Tossing",
+            "category_name": "main",
+            "accuracy": 14.81,
+            "successful_submissions": "12",
+            "code": "PTOSS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "RRECIPE": {
+            "allow_submission": false,
+            "name": "Recipe Reconstruction",
+            "category_name": "main",
+            "accuracy": 35.21,
+            "successful_submissions": "769",
+            "code": "RRECIPE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PPERM": {
+            "allow_submission": false,
+            "name": "Prime Permutations",
+            "category_name": "main",
+            "accuracy": 19.58,
+            "successful_submissions": "155",
+            "code": "PPERM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CARVANS": {
+            "allow_submission": false,
+            "name": "Carvans",
+            "category_name": "main",
+            "accuracy": 39,
+            "successful_submissions": "1093",
+            "code": "CARVANS",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1348427700,
+        "current": 1537438720,
+        "freezing": 0,
+        "start": 1348416000
+    },
+    "user": {
+        "username": ""
+    }
+}

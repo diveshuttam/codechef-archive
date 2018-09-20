@@ -1,0 +1,87 @@
+{
+    "announcements": "<p>\r\n<p><b>20/05/2012, 21:39 PM : </b>The problem statement for the problem <a href=\"/COOK22/problems/LUCKYCOM\">LUCKYCOM</a> has been updated. The rankings can be viewed <a href=\"/rankings/COOK22\">here</a>.</p>\r\n<p><b><br /></b></p>\r\n<p><b>20/05/2012, 22:20 PM : </b>There was a syn-attack on our server. We have mitigated it. Inconvenience is regretted. The contest has been extended for 10 more minutes. The contest will now end at 21/05/2012, 00:10AM</p>\r\n<div></div>\r\n</p>",
+    "ip": "149.129.135.113",
+    "code": "COOK22",
+    "duration": "160",
+    "name": "May Cook-Off 2012",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>The May Cook-off has ended.</b></p> <p><b>You can view the editorials for the contest\u00a0<a href=\"/wiki/may-2012-cook-problem-editorials\">here</a>.</b></p> <p><b><span> </span></b></p> <p><b>The Winners blog can be viewed <a href=\"http://blog.codechef.com/2012/05/21/gennady-finishes-at-the-top-again/\">here</a>.<br /></b></p> <p><b>All the solutions for the problem set are public and the problems have been moved to practice section.</b></p> <p>\u00a0</p> <p class=\"MsoNoSpacing\"><b>In case you are a new user, you will need to first register for a CodeChef ID\u00a0<a href=\"/user/register/\">here</a>.</b></p> <p><b><b> </b></b></p> <p><b> </b></p> <ul> <li><b>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\" target=\"_blank\">feedback@codechef.com</a></b></li> <b><br /></b> <li><b>You can also send in your queries in an email to\u00a0<a href=\"mailto:contest-admin@codechef.com\" target=\"_blank\">contest-admin@codechef.com</a>, during the contest.</b></li> <b><br /></b> <li><b>Contest problems will become visible on May 20th, 2012 at 21:30 (IST). There will be 5 problems in all. Check your timezone\u00a0<a href=\"http://timeanddate.com/worldclock/fixedtime.html?msg=May+Cook-Off+2012&amp;iso=20120520T2130&amp;p1=44&amp;ah=2&amp;am=30\">here</a>.</b></li> <b><br /></b> <li><b>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</b></li> <b><br /></b> <li><b>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</b></li> <b><br /></b> <li><b>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</b></li> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COOK22/1424957666.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "LUCKYBAL": {
+            "allow_submission": false,
+            "name": "Little Elephant and Balance",
+            "category_name": "main",
+            "accuracy": 28.38,
+            "successful_submissions": "141",
+            "code": "LUCKYBAL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LUCKFILL": {
+            "allow_submission": false,
+            "name": "Little Elephant and Filling",
+            "category_name": "main",
+            "accuracy": 4.12,
+            "successful_submissions": "8",
+            "code": "LUCKFILL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LUCKYSWP": {
+            "allow_submission": false,
+            "name": "Little Elephant and Swapping",
+            "category_name": "main",
+            "accuracy": 29.14,
+            "successful_submissions": "42",
+            "code": "LUCKYSWP",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LUCKYSTR": {
+            "allow_submission": false,
+            "name": "Little Elephant and Strings",
+            "category_name": "main",
+            "accuracy": 47.4,
+            "successful_submissions": "597",
+            "code": "LUCKYSTR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LUCKYCOM": {
+            "allow_submission": false,
+            "name": "Little Elephant and CNSes",
+            "category_name": "main",
+            "accuracy": 21.43,
+            "successful_submissions": "3",
+            "code": "LUCKYCOM",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1337539200,
+        "current": 1537438798,
+        "freezing": 0,
+        "start": 1337529600
+    },
+    "user": {
+        "username": ""
+    }
+}

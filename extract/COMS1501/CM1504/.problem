@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p dir=\"ltr\">\n<h3> Game of Cards</h3>\n</p>\n<p dir=\"ltr\">\n    A contiguous string is a string in which all the occurrences of each character of the string is together (i.e. no same character should be separated by one<br />\n    or more other characters). For example,\n</p>\n<p><br/></br/></p>\n<p dir=\"ltr\">\n    \"dittoo\" and \"dit\" are contiguous strings.\n</p>\n<p dir=\"ltr\">\n    \"techxetra\" is not a contiguous string since the 't's don't occur together.\n</p>\n<p><br/></br/></p>\n<p dir=\"ltr\">\n    In Game of Cards, you are given a fixed number of cards, each card having a string. The cards with different strings can be combined to create new strings.<br />\n    You have to combine the cards in such a way that the combined string formed will be contiguous. If more than one contiguous string can be formed you have<br />\n    to say \u201cMORE THAN ONE\u201d\u201d, if a contiguous string cannot be formed from the given cards say \"NOT POSSIBLE\" (all quotes for clarity).\n</p>\n<p><br/></br/></p>\n<p dir=\"ltr\">\n    Input Specification\n</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">\n            First line will contain the no. of test cases T.\n        </p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">\n            Each test case contains two lines of input. The first line contains the no. of cards K. The second line contains K strings separated by a single<br />\n            space, denoting the content of the cards.\n        </p>\n</li>\n</ul>\n<p><br/></br/></p>\n<p dir=\"ltr\">\n    Output Specification\n</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">\n            If only one contiguous string can be formed print the string.\n        </p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">\n            If many such strings can be formed print \"MORE THAN ONE\".\n        </p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">\n            If no such contiguous string can be formed print \"NOT POSSIBLE\".\n        </p>\n</li>\n</ul>\n<p><br/></br/></p>\n<p dir=\"ltr\">\n    Constraints\n</p>\n<ul>\n<li dir=\"ltr\">\n<p dir=\"ltr\">\n            1&lt;=T&lt;=300\n        </p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">\n            1&lt;=K&lt;=50\n        </p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">\n            Each card will contain a string of length between 1 to 20 characters, inclusive.\n        </p>\n</li>\n<li dir=\"ltr\">\n<p dir=\"ltr\">\n            Characters can only be lowercase letters (a-z).\n        </p>\n</li>\n</ul>\n<p><br/></br/></p>\n<p dir=\"ltr\">\n    Sample Input\n</p>\n<p dir=\"ltr\">\n    4\n</p>\n<p dir=\"ltr\">\n    3\n</p>\n<p dir=\"ltr\">\n    zzzz zz z\n</p>\n<p dir=\"ltr\">\n    2\n</p>\n<p dir=\"ltr\">\n    ro ar\n</p>\n<p dir=\"ltr\">\n    3\n</p>\n<p dir=\"ltr\">\n    ro a r\n</p>\n<p dir=\"ltr\">\n    2\n</p>\n<p dir=\"ltr\">\n    ac cca\n</p>\n<p><br/><br />\n<br/></br/></br/></p>\n<p dir=\"ltr\">\n    Sample Output\n</p>\n<p dir=\"ltr\">\n    zzzzzzz\n</p>\n<p dir=\"ltr\">\n    arro\n</p>\n<p dir=\"ltr\">\n    MORE THAN ONE\n</p>\n<p dir=\"ltr\">\n    NOT POSSIBLE\n</p>\n<div>\n    <br/>\n</br/></div>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-10-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeMasters 1.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1446391800,
+        "end_date": 1446402600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1446402600,
+        "submit_start_date": 1446391800,
+        "current": 1537435846
+    },
+    "problem_author_html_handle": "rajnish22222",
+    "problem_name": "Game of Cards",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rajnish22222'>rajnish22222</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rajnish22222",
+    "contest_code": "COMS1501",
+    "max_timelimit": "1",
+    "problem_code": "CM1504"
+}

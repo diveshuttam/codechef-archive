@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Maiya like strings which are in flip flop in nature. For example, he likes XYXY, while he doesn't like XXYX. Now he want to convert every string into a string which he likes. for this, he can only delete the character in the string.</p>\n<p>Now find the minimum number of delete operation which is required to covert a string that Maiya likes.\u00a0</p>\n<h3>Input</h3>\n<p>The first line contains an integer <b>T<b> i.e the number of test cases. Next T lines contain a string each.</b></b></p>\n\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each test case, print the minimum delete operation required.</p>\n\n<p>\u00a0</p>\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>Length of the string</b> \u2264 <b>10<sup>5</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\nXXXX\nYYYYY\nXYXYXYXY\nYXYXYX\nXXXYYY\n\n<b>Output:</b>\n3\n4\n0\n0\n4\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>XXXX => X, 3 deletions YYYYY => Y, 4 deletions XYXYXYXY => XYXYXYXY, 0 deletions YXYXYXYX => YXYXYXYX, 0 deletions XXXYYY => XY, 4 deletions</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-09-2015",
+    "is_direct_submittable": false,
+    "contest_name": "NU Coding",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1442655000,
+        "end_date": 1442669400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1442669400,
+        "submit_start_date": 1442655000,
+        "current": 1537436035
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>yatharth100</span>",
+    "problem_name": "Only one by one",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/yatharth100'>yatharth100</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "yatharth100",
+    "contest_code": "NUCD2015",
+    "max_timelimit": "0.02",
+    "problem_code": "NU03"
+}

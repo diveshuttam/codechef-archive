@@ -1,0 +1,33 @@
+{
+    "problem_code": "BUGATACK",
+    "problem_author": "utkarsh_lath",
+    "contest_name": "CodeChef Snackdown 2015 Finale ",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>utkarsh_lath</span>",
+    "problem_name": "Attack of the Bugs",
+    "source_sizelimit": "15000",
+    "problem_tester_html_handle": "",
+    "contest_code": "SNCK15FL",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/combinatorics'>combinatorics</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/floyd-warshall'>floyd-warshall</a>, <a class='problem-tag-small ' href='/tags/problems/graph'>graph</a>, <a class='problem-tag-small ' href='/tags/problems/snck15fl'>snck15fl</a>, <a class='problem-tag-small ' href='/tags/problems/utkarsh_lath'>utkarsh_lath</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Read problems statements in <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/SNCK15FL/mandarin/BUGATACK.pdf\">Mandarin Chinese </a> , <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/SNCK15FL/russian/BUGATACK.pdf\">Russian</a> and <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/SNCK15FL/vietnamese/BUGATACK.pdf\">Vietnamese</a></h3>\n<p>\nAnakin's spacecraft is being attacked by Buzz droids. Again. Buzz droids intend to disable rather than destroy their targets. They achieve this by introducing bugs in the program of the underlying software.\n</p>\n<p>\nOne important module of every navigation controller is the Floyd-Warshall algorithm. Here is how the code for Floyd-Warshall looks like:\n</p>\n<pre>\n<code>\nn &lt;- number of vertices in the graph\n\nadj[n][n] &lt;- adjacency matrix(0/1) of a simple undirected graph\n\nconnected[n][n] &lt;- 2D matrix of size n * n\n\nfor (i=1; i&lt;=n; i++)\n  for (j=1; j&lt;=n; j++)\n    connected[i][j] = adj[i][j]\n\nfor (p=1; p&lt;=n; p++)    // runs only up to n-k after reprogramming\n  for (i=1; i&lt;=n; i++)\n    for (j=1; j&lt;=n; j++)\n      connected[i][j] = (connected[i][j]) \n\t\t\t|| (i!=j && connected[i][p] && connected[p][j])\n\nreturn connected\n</code>\n</pre><p>\nDue to reprogramming by Buzz droids, now the outer loop on <b><i>p</i></b> runs only from <b><i>1</i></b> to <b><i>n-k</i></b> (both inclusive).</p>\n<p>Your task is to find the number of <i>simple undirected unweighted graphs</i> for which the reprogrammed code still returns the correct answer. Two graphs are considered different if their adjacency matrices are not identical.\n</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.<br />\nEach test case consists of single line containing two integers, <b>n</b> and <b>k</b>.\n</p>\n<h3>Output</h3>\n<p>\nFor each test case, output a single line containing the number of graphs (modulo 10^9+7) for which the buggy code returns correct answer.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b> 17000 </b></li>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b> 180 </b></li>\n<li><b>0</b> \u2264 <b>k</b> \u2264 <b> n </b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n1 1\n2 2\n3 1\n\n<b>Output:</b>\n1\n2\n7\n</pre>\n<h3>Explanation</h3>\n<p>\nAll graphs of size 1 or 2 produce correct result because the matrix does not change during any iteration. For <b>n=3, k=1</b>, out of a total of 8 graphs, there is only one graph for which the result is wrong: The one with the edge set {{1,3} , {2,3}}.\n</p>\n<h3>Note</h3>\n<p>Source limit for this problem has been decreased from 50000B to 15000B.</p>\n",
+    "category_name": "main",
+    "date_added": "18-06-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "6",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/BUGATACK",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1435390200,
+        "end_date": 1435408200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1435408200,
+        "submit_start_date": 1435390200,
+        "current": 1537436227
+    },
+    "user": {
+        "username": ""
+    }
+}

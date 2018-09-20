@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p class=\"MsoNormal\" align=\"center\"><b><u><span>PRIME TRIPLES</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>The theorem\nof Pythagoras was known long before Pythagoras (who lived c540 B.C.), the\nearliest statement of it being in the Indian <span class=\"SpellE\">Sulbasutras</span>\ndated c800 B.C. The dimensions of Altars in India were based on Triples.</span></p>\n\n<p class=\"MsoNormal\"><span>Triples are\nsets of three <span class=\"GramE\">numbers(</span>integer, decimal , positive, <span class=\"SpellE\">negetive</span>). Any Triple of the form <span class=\"SpellE\">a<span class=\"GramE\">,b,c</span></span> represent a right angled triangle which Base =\na; Height = b; Hypotenuse = C. We find that <span class=\"SpellE\">cosA</span> =\na/c. Hence any triple represents an angle A.</span></p>\n\n<p class=\"MsoNormal\"><span>A Prime\nTriple is Triple if its elements are whole number and have no common factor. <span class=\"SpellE\">Forexample</span> 3<span class=\"GramE\">,4,5</span> and 24,7,25 are\nPrime Triples, however, 6,8,10 is not because 2 is a common Factor.</span></p>\n\n<p class=\"MsoNormal\"><span>Your task is\nto determine whether a Triple is Prime or Not.</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a9Vishal\nGupta</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Input:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>Input contains a number of test\ncases. Each test case contains of one line containing 3 Integers <span class=\"SpellE\">a<span class=\"GramE\">,b,c</span></span></span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Output:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>Print YES for Prime Triple and NO if\nnon-prime triple.</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Sample Input:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>3 4 5<br />4 3 5<br />24 7 25<br />6 8 10</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Sample Output:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>YES<br />YES <br />YES <br />NO </span></p>\n\n<p class=\"MsoNormal\">\u00a0</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "DreamSpark Contest 3",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1272112200,
+        "end_date": 1272306540,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1272306540,
+        "submit_start_date": 1272112200,
+        "current": 1537439591
+    },
+    "problem_author_html_handle": "ganesha",
+    "problem_name": "PRIME TRIPLES",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ganesha'>ganesha</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ganesha",
+    "contest_code": "DSPC30",
+    "max_timelimit": "0.5",
+    "problem_code": "DSPC304"
+}

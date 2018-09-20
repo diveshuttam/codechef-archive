@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h2>\u00a0The Parking slot Problem</h2>\n<p>In uvce, due to lack of parking slots a new method has been devised to allot parking places to people and hence each one of the<br />\nstudents who want a parking slot must follow this procedure every week.In all there are 5 parking slots which are rated according to the numbers<br />\nallotted, for instance a guy with the parking slot no:1 gets better facilities than the guy with parking slot no:2 and so on.<br />\nHence every one wants a parking slot which is least-numbered bcoz of the better facilities available there.<br />\nNow every week these 5 parking slots are up for grabs via the following procedure:<br />\nParticipants of this contest pick six unique numbers between 1 and 45, inclusive, for each ticket. Every Saturday, six regular numbers and one<br />\nbonus number are drawn to determine the winners. The bonus number is only used with the second slot.\n</p>\n<p>\nThe winners are determined in the following manner:<br />\nNumber of Matches on the Ticket Prize</p>\n<table>\n<tr>\n<td>6 out of 6 regular number: \t\t\t </td>\n<td>First Parking slot</td>\n</tr>\n<tr>\n<td>5 out of 6 regular numbers and the bonus number: </td>\n<td>Second Parking slot</td>\n</tr>\n<tr>\n<td>\n5 out of 6 regular numbers: \t\t\t </td>\n<td>Third Parking slot</td>\n</tr>\n<tr>\n<td>4 out of 6 regular numbers: \t\t\t </td>\n<td>Fourth Parking slot</td>\n</tr>\n<tr>\n<td>3 out of 6 regular numbers: \t\t\t </td>\n<td>Fifth Parking slot</td>\n</tr>\n<tr>\n<td>\n2 out of 6, 1 out of 6, 0 out of 6: \t\t </td>\n<td>No Parking slot</td>\n</tr>\n</table>\n<p>now a student in uvce who has bought 5 tickets just to be sure wants to know whether he has actually won a slot??</p>\n<h3>Input</h3>\n<p>The input will contain six lines of data. The first line will contain the six regular numbers (in any random order) and the<br />\nbonus number, each separated by a space. The next five lines will each contain the six numbers (in<br />\nany random order) on each of the five tickets that the student has played. Each number is separated by a<br />\nspace.</p>\n<h3>Output</h3>\n<p>The output will contain five lines of data, corresponding to each ticket line of the input . Each line will contain the<br />\nslot that the student has won, as described in the chart above.</p>\n<h3>Example</h3>\n<pre><b>Sample Input:</b>\n<p>\n35 22 42 28 20 11 25\n35 21 14 33 1 34\n35 42 16 22 38 8\n29 12 42 25 28 2\n25 28 22 11 20 35\n1 40 41 43 44 45\n</p>\n<b>Output:</b>\n\n<p>No Parking slot\nFifth Parking slot\nNo Parking slot\nSecond Parking slot\nNo Parking slot\u00a0</p></pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-11-2013",
+    "is_direct_submittable": false,
+    "contest_name": "UVCE N-Code November 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1384443000,
+        "end_date": 1384713000,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1384713000,
+        "submit_start_date": 1384443000,
+        "current": 1537437996
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>hkbharath</span>",
+    "problem_name": "The Parking Lot",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/hkbharath'>hkbharath</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "hkbharath",
+    "contest_code": "NCDRN13",
+    "max_timelimit": "0.18",
+    "problem_code": "TPLOT"
+}

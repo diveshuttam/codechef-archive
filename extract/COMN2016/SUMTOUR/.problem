@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem</h3>\n<p>\nSuppose there is a circle. There are N Juice shops on that circle. Juice shops are numbered 0 to N-1 (both inclusive). You have two pieces of information corresponding to each of the juice shop:<br />\u00a0\u00a0(1) the amount of Juice that a particular Juice shop can provide and <br />\u00a0\u00a0(2) the distance from that juice shop to the next juice shop.<br />\n<br /><br />\nInitially, there is a man with a bottle of infinite capacity carrying no juice. He can start the tour at any of the juice shops. Calculate the first point from where the man will be able to complete the circle. Consider that the man will stop at every Juice Shop. The man will move one kilometer for each litre of the juice.</p>\n<h3>Input</h3>\n<li>\n<ol>\nThe first line will contain the value of N.\n\t\t\t\t</ol>\n</li>\n<li>\n<ol>\nThe next N lines will contain a pair of integers each, i.e. the amount of juice that a juice shop can provide(in litres) and the distance between that juice shop and the next juice shop.\n\t\t\t\t</ol>\n</li>\n<h3>Output</h3>\n<p>\nAn integer which will be the smallest index of the juice shop from which he can start the tour.\n\t\t</p>\n<h3>Constraints</h3>\n<li>\n<ol>\n<p>\t\t\t\t\t1 \u2264 N \u2264 10<sup>5</sup></p>\n</ol>\n</li>\n<li>\n<ol>\n<p>\t\t\t\t\t1 \u2264 amt of juice, distance  \u2264 10<sup>9</sup>\n\t\t</p></ol>\n</li>\n<h3>Sample Input</h3>\n<p>3<br /><br />\n1 5<br /><br />\n10 3<br /><br />\n3 4<br /></p>\n<h3>Sample Output</h3>\n<p>1</p>\n<h3>Explanation</h3>\n<p>\n\t\t\tHe can start the tour from the <b><em>SECOND</em></b> Juice shop.\n\t\t</p>\n<style> p { text-align:justify } </style>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "CODE MARATHON",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457872200,
+        "end_date": 1457893800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457893800,
+        "submit_start_date": 1457872200,
+        "current": 1537435131
+    },
+    "problem_author_html_handle": "sivasaibellala",
+    "problem_name": "SUMMER TOUR",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sivasaibellala'>sivasaibellala</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sivasaibellala",
+    "contest_code": "COMN2016",
+    "max_timelimit": "1",
+    "problem_code": "SUMTOUR"
+}

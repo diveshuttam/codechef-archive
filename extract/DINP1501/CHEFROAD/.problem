@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Statement</h3>\n<p>The city of Delhi is really huge and people get lost there easily.The city consists of intersections and roads .  A common set of intersections where people get lost is where there are 2 different ways to go from one intersection to other using 2 roads. For example there are 4 intersections a,b,c,d , suppose we can go from a to b then b to c and also we can go to d from a and to c from d , then there are 2 ways of going to c from a using 2 roads . so it is a confusing set of intersections.\n</p>\n<p> In this problem you will be given the layout of Delhi and you are supposed to find number of distinct confusing sets of intersections (2 sets of intersections  are distinct if atleast 1 of the members of these 4 intersections are different , read sample for better understanding)</p>\n\n<h3>Input</h3>\n<p>The first line contains 2 integers n and m denoting the number of intersections and the number of roads . Then m lines follow each containing a pair of integers a and b denoting there is a road from intersection  a to intersection  b.</p>\n\n<h3>Output</h3>\n<p>A single integer denoting the number of confusing sets of intersections.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1&lt;=n&lt;=100</b></li>\n<li><b>0&lt;=m&lt;=1000</b></li>\n<li><b>1&lt;=a&lt;=n</b></li>\n<li><b>1&lt;=b&lt;=n</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input 1:</b>\n5 6\n1 2\n1 3\n1 4\n2 5\n3 5\n4 5\n<b>Output 1 :</b>\n3\n</pre><pre><b>Input 2:</b>\n4 12\n1 2\n1 3\n1 4\n2 1\n2 3\n2 4\n3 1\n3 2\n3 4\n4 1\n4 2\n4 3\n<b>Output 2 :</b>\n12\n</pre>\n<h3>Explaination</h3>\n<p> In Input 1 there are 5 intersections and 6 roads , there are 3 confusing roads , all three of them start from intersection 1 and lead to intersection 5 using intersection 2,3,4 as intermediate . The confusing sets of intersections are {1,2,3,5} , {1,2,4,5} and {1,3,4,5}.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "30-12-2014",
+    "is_direct_submittable": false,
+    "contest_name": "DPS Dwarka INOI practice contest 01",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1421130600,
+        "end_date": 1421476200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1421476200,
+        "submit_start_date": 1421130600,
+        "current": 1537436987
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #D0011B;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>7&#9733;</span><span>rajat1603</span>",
+    "problem_name": "Chef and confusing road",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rajat1603'>rajat1603</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rajat1603",
+    "contest_code": "DINP1501",
+    "max_timelimit": "1",
+    "problem_code": "CHEFROAD"
+}

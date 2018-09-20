@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<h3>Problem description.</h3>\n<p>\u00a0Suyash is a great magician and always helps the poor with his magic power in his town. One day a poor kid arrives in his door with 'N' coins.The poor kid was afraid that he would not survive long with 'N' coin so he asks Suyash for help.\nSuyash casts a spell in that 'N' coins.Because of the spell every day each of the coin produces three times of its identicals.For example, suppose on Day-1 the kid has 'a' coins , on Day-2 the kid will have 'a+3a' coins and so on.\nThe kid wants to know how many coins it will have on the 'M'th day.Since the kid is poor in maths,he asks for your help.\n</p>\n\n\n<h3>Input</h3>\n\n<p>The first line contains 'T',the number of test cases.\nEach of the 'i'th test case will contain two values N and M ,seperated by spaces.\u00a0</p>\n\n<h3>Output</h3>\n<p>\u00a0Each of the test case will contain the resultant coin in 'M' th day.\nSince the resultant coin is very large,print the answer modulo 10<sup>9</sup>+7.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>4</sup></b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>10<sup>5</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<b>Example case 1.</b>\n<pre><b>Input:</b>\n2 \n1 2\n3 4\n<b>Output:</b>\n4\n192\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> In the following test case, in Day-1,it has 1 coin.\nIn Day-2, it has 1 + (1*3) =4 coins due to the spell</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "CODEOUT",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1523028600,
+        "end_date": 1523039400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1523039400,
+        "submit_start_date": 1523028600,
+        "current": 1537432682
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>shiv201415</span>",
+    "problem_name": "Magic Coin",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shiv201415'>shiv201415</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shiv201415",
+    "contest_code": "CODO2018",
+    "max_timelimit": "1",
+    "problem_code": "MCOIN"
+}

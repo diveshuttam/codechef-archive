@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>You are given an infinite complete binary tree. The root is labelled 1, and each node i has two children, labeled 2i and 2i+1. (Thus, the parent of a node i is floor(i/2)). You come across such binary trees (in the finite form) while implementing segment trees/heaps etc.</p>\n<p>This problem asks you to : given two arbitrary nodes of the tree (it is infinite after all), find the distance between the two nodes. Answer this for a set of Q queries.</p>\n<p><strong>Input:</strong><br /> The first line consists of the integer Q: the number of queries.<br /> Each of the next Q lines consists of two integers: u and v, denoting the labels of the two nodes of the query.<br /> The numbers u and v can be large (larger than long long datatype): You would be required to input the numbers in the form of strings (See Constraints - Subtask 3, 4).</p>\n<p><strong>Output:</strong><br /> For each query, output a single integer: the distance between the two nodes.</p>\n<p><strong>Constraints:</strong><br /> Subtask 1: 20%<br /> Q &lt;= 100<br /> 1 &lt;= u,v &lt;= 100,000</p>\n<p>Subtask 2: 20%<br /> Q &lt;= 20,000<br /> u, v &lt;= 1,000,000</p>\n<p>Subtask 3: 30%<br /> Q &lt;= 1,000<br /> u, v &lt; 10^36</p>\n<p>Subtask 4: 30%<br /> Q &lt;= 20,000<br /> u, v &lt; 10^36</p>\n<p><strong>Sample Input:</strong><br /> 3<br /> 4 5<br /> 262144 262143<br /> 1000000 1000000</p>\n<p><strong>Sample Output:</strong><br /> 2<br /> 35<br /> 0</p>\n<p>Time Limit: 3s</p>\n<p>Memory Limit:<br /> 128 MB</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-12-2014",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Practice round 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1417372200,
+        "end_date": 1418837400,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1418837400,
+        "submit_start_date": 1417372200,
+        "current": 1537437139
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>murdocc007</span>",
+    "problem_name": "The Infinite Binary Tree",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/murdocc007'>murdocc007</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "murdocc007",
+    "contest_code": "ICPC14PR",
+    "max_timelimit": "1",
+    "problem_code": "AMRIT13D"
+}

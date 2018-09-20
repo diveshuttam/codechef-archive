@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A team of robbers have entered the premises of the Bank of Chefland. The bank consists of a long corridor, with <b>N</b> cameras fitted along the corridor. To prevent being seen in the cameras, the robbers will generate <b>K</b> electric surges to disable the cameras. If a surge is generated between distance A and B (measured from one end of the corridor), then all cameras in the inclusive range get disabled.</p>\n<p>Given the locations of the cameras and the region affected by each surge, print the total number of cameras disabled. All coordinates are measured from one end of the corridor.</p>\n<h3>INPUT</h3>\n<p>First line consists of two space-separated integers, N and K<br />Next line contains N space-separated integers, where the i<sup>th</sup> integer C<sub>i</sub> indicated the coordinate of the i<sup>th</sup> camera.<br />Each of the next K lines contains two integers. i<sup>th</sup> line contains integers A<sub>i</sub> and B<sub>i</sub> indicating the region affected by the i<sup>th</sup> surge.</p>\n<h3>OUTPUT</h3>\n<p>Print a single integer, indicating the total number of cameras disabled by the surges.</p>\n<h3>CONSTRAINTS</h3>\n<pre>1\u2264N,K\u2264100000<br />1\u2264C<sub>i</sub>,A<sub>i</sub>,B<sub>i</sub>\u226410<sup>9</sup>\n<h3>SAMPLE INPUT</h3><pre>2 3<br />2 4<br />1 3<br />2 4<br />4 6</pre><h3>SAMPLE OUTPUT</h3>\n<pre>2</pre></pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-09-2014",
+    "is_direct_submittable": false,
+    "contest_name": "TechFest 2015, Portal round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1412868600,
+        "end_date": 1413059400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1413059400,
+        "submit_start_date": 1412868600,
+        "current": 1537437357
+    },
+    "problem_author_html_handle": "techfest2k15",
+    "problem_name": "Avoiding Cameras",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/techfest2k15'>techfest2k15</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "techfest2k15",
+    "contest_code": "TCFS15P",
+    "max_timelimit": "1",
+    "problem_code": "CAMERAS"
+}

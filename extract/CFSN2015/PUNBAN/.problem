@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Like all minions Dave also like to eat bananas. So as to his obsession, he is eating banana, but this time in different way. There are N bananas in dish. Dave wants to eat all of them. He starts eating at speed 1 banana/second. He can increase or decrease speed of eating by <b>one</b> only. The condition is that he must end eating <b>at speed 1 banana/second</b>. So, your task is to find minimum time required to finish all bananas in a dish.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>First line contain number of test cases <b>T</b>. Next <b>T</b> lines contain one integer <b>N</b>. Where <b>N</b> is number of bananas in a dish.</p>\n\n\n<h3>Output</h3>\n<p>For each test case print minimum time require to eat all <b>N</b> bananas.</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2\n4\n\n<b>Output:</b>\n2\n3\n\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b>Dave will start to eat with rate of 1 banana/second. Then only one banana will remain. He will eat that banana in 1 second. Thus, Total time is 2 seconds.</p>\n<p><b>Example case 2.</b>Dave starts with rate of 1 banana/second, and then increase it to 2 bananas/second and again decrease it to 1 banana/second. So total time is 3 seconds.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-10-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Code Fusion - II",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1444221000,
+        "end_date": 1444228200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1444228200,
+        "submit_start_date": 1444221000,
+        "current": 1537435968
+    },
+    "problem_author_html_handle": "acses",
+    "problem_name": "Dave and Bananas",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acses'>acses</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "acses",
+    "contest_code": "CFSN2015",
+    "max_timelimit": "1",
+    "problem_code": "PUNBAN"
+}

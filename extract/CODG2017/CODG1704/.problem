@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> Mayank is on a trip to Singapore with his friends Ankur, Abhishek and Raju.\nHaving spent nearly whole of the day walking, visiting places and after hours of sightseeing they decide to eat something. Ankur loves chocolates so he goes and purchases some chocolates.\nNow they have a lot of chocolates to eat. It\u2019s time now to share the chocolates.\nBeing best of the friends they will be HAPPY only if they are able to divide chocolates equally among themselves otherwise they will be SAD.\n<br><br>\nSo given the number of chocolates, you have to determine whether they will be HAPPY or SAD.\n<br>\n<b>Note: They can\u2019t cut or break any chocolate into parts.</b>\n</p>\n\n<h3>Input</h3>\n<p>\nFirst line of input contains a single integer <b>T</b>, denoting number of test cases.\n<br>\nFirst line of each test case contains a single integer <b>N</b>, denoting number of chocolates. \n</p>\n<h3>Output</h3>\n<p>For each test case print <b>\"HAPPY\"</b> or <b>\"SAD\"</b> depending upon whether they can divide the chocolates equally or not.</p>\n\n<h3>Constraints</h3>\n<p>\n<b>1</b> \u2264 <b>T</b> \u2264 <b>10<sup>3</sup></b>\n<br>\n<b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>18</sup></b>\n</p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n3\n8\n27\n31\n<br>\n<b>Output:</b>\nHAPPY\nSAD\nSAD\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Codigo 2017",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1507476600,
+        "end_date": 1507487340,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1507487340,
+        "submit_start_date": 1507476600,
+        "current": 1537433476
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>imcreative</span>",
+    "problem_name": "Friends and Chocolates",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/imcreative'>imcreative</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "imcreative",
+    "contest_code": "CODG2017",
+    "max_timelimit": "1",
+    "problem_code": "CODG1704"
+}

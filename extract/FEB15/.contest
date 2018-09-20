@@ -1,0 +1,304 @@
+{
+    "announcements": "<ul>\r\n<li><b>12/2/2015, 2:30 AM IST:</b> Tests for the problem CHEFGRPH\" were regenerated. Some stronger tests were added. Also all the extra lines that, unfortunately, were found in some tests were erased</li>\r\n<li><b>10/2/2015, 12:45 PM IST:</b> We have added the new challenge problem\u00a0<a target=\"_blank\" href=\"/FEB15/problems/CHPUZZLE\">CHPUZZLE</a>. Regret the inconvenence caused.</li>\r\n<li><b>10/2/2015, 4:45 AM IST:</b> We are really sorry that we have to remove the current challenge problem due to some issues. We will add the new challenge problem in few hours. We really regret the inconvenience caused. We are also thinking of extending the contest due to this issue. We will follow you up with more details in a while.</li>\r\n<li><b>09/02/2015, 11:50 PM IST:</b> There are some issues in challenge problem scoring. We will correct it as soon as possible. </li>\r\n<li><b> 09/02/2015, 8:40 IST: </b>In the first subtask of XRMTRX problem, there was one incorrect test case. This test case has been removed and all rejected submissions were rejudged. </li>\r\n<li> In the last subtask of DEVLOCK problem, test data contains extra end lines which has been corrected. We have rejudged the submissions too. </li>\r\n<li> We have added a small note in the problem RANKLIST, i.e. \"Note that you are guaranteed that values of n, s will be given in such a way that there will exist a valid rank list.\" </li>\r\n</ul>",
+    "ip": "149.129.135.113",
+    "code": "FEB15",
+    "duration": "14400",
+    "name": "February Challenge 2015",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "CHEFGRPH": [
+            {
+                "score": "20",
+                "count": "187"
+            },
+            {
+                "score": "50",
+                "count": "251"
+            },
+            {
+                "score": "100",
+                "count": "458"
+            }
+        ],
+        "CUSTPRIM": [
+            {
+                "score": "30",
+                "count": "2"
+            },
+            {
+                "score": "100",
+                "count": "8"
+            }
+        ],
+        "DEVLOCK": [
+            {
+                "score": "10",
+                "count": "40"
+            },
+            {
+                "score": "30",
+                "count": "33"
+            },
+            {
+                "score": "60",
+                "count": "26"
+            },
+            {
+                "score": "100",
+                "count": "32"
+            }
+        ],
+        "CHEFCH": [
+            {
+                "score": "20",
+                "count": "192"
+            },
+            {
+                "score": "30",
+                "count": "3"
+            },
+            {
+                "score": "50",
+                "count": "39"
+            },
+            {
+                "score": "70",
+                "count": "20"
+            },
+            {
+                "score": "80",
+                "count": "8"
+            },
+            {
+                "score": "100",
+                "count": "5868"
+            }
+        ],
+        "CHEFEQ": [
+            {
+                "score": "30",
+                "count": "262"
+            },
+            {
+                "score": "70",
+                "count": "71"
+            },
+            {
+                "score": "100",
+                "count": "5493"
+            }
+        ],
+        "STRQ": [
+            {
+                "score": "27",
+                "count": "1000"
+            },
+            {
+                "score": "48",
+                "count": "1"
+            },
+            {
+                "score": "52",
+                "count": "244"
+            },
+            {
+                "score": "100",
+                "count": "1616"
+            }
+        ],
+        "RANKLIST": [
+            {
+                "score": "100",
+                "count": "4287"
+            }
+        ],
+        "STFM": [
+            {
+                "score": "10",
+                "count": "1043"
+            },
+            {
+                "score": "25",
+                "count": "7"
+            },
+            {
+                "score": "35",
+                "count": "493"
+            },
+            {
+                "score": "40",
+                "count": "1"
+            },
+            {
+                "score": "50",
+                "count": "3"
+            },
+            {
+                "score": "60",
+                "count": "80"
+            },
+            {
+                "score": "65",
+                "count": "5"
+            },
+            {
+                "score": "75",
+                "count": "60"
+            },
+            {
+                "score": "90",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "2259"
+            }
+        ],
+        "XRMTRX": [
+            {
+                "score": "8",
+                "count": "71"
+            },
+            {
+                "score": "24",
+                "count": "18"
+            },
+            {
+                "score": "32",
+                "count": "15"
+            },
+            {
+                "score": "100",
+                "count": "136"
+            }
+        ]
+    },
+    "rules": "<div> <div> <div> <div><b>The February Challenge 2015 has ended!</b></div> <div><b>The editorials for the contest can be found\u00a0<a href=\"http://discuss.codechef.com/tags/feb15/\">here</a>.</b></div> <div><b>The problems have been moved to practice section.</b></div> <div><b>Solutions are public for all problems.</b></div> <div><b>Winners Blog Post can be found <a href=\"http://blog.codechef.com/2015/03/10/love-code-lot-more-in-february-challenge-2015/\">here</a>.</b></div> <div><b>The ratings for the contest will be calculated soon.</b></div> <div><b>All the submissions to the challenge problem have been put to rejudge.</b></div> </div> <div></div> <div></div> <p><span>New users are requested to go through the below information to know more about the contest.</span></p> <p><br /> <b class=\"rules-heading\">CodeChef: A Platform for Aspiring Programmers</b></p> <div class=\"rules-body\"> <p>CodeChef was created as a platform to help programmers make it big in the world of algorithms, computer programming and programming contests. At CodeChef, we work hard to revive the geek in you by hosting a programming contest at the start of the month and another smaller programming challenge in the middle of the month.</p> </div> <p><br /> <b class=\"rules-heading\">About CodeChef February Long Challenge:</b></p> <div class=\"rules-body\"> <p>CodeChef Long Challenge is a 10 day monthly coding contest where you can show off your computer programming skills. The significance being - it gives you enough time to think about a problem, try different ways of attacking the problem, read the concepts etc. If you\u2019re usually slow at solving problems and have ample time at hand, this is ideal for you. We also put in a lot of efforts in getting quality problems, which would in turn foster your learning while solving them.</p> </div> <p><br /> <b class=\"rules-heading\">Contest Details:</b></p> <div class=\"rules-body\"> <ul class=\"\"> <li><b>Problem Setters: </b><a href=\"/users/berezin\">Dmytro Berezin</a>, <a href=\"/users/antoniuk1\">Vasia Antoniuk</a>, <a href=\"/users/super_sonic\">Sunny Aggarwal</a>, <a href=\"/users/dpraveen\">Praveen Dhinwa</a>, <a href=\"/users/malinovsky239\">Ilya Malinovsk</a>, <a href=\"/users/kevinsogo\">Kevin Charles Atienza</a>, <a href=\"/users/alex_2oo8\">Alexey Zayakin</a>, <a href=\"/users/chandubaba\">Chao Chandan Boruah</a>, <a href=\"/users/abhra73\">Abhra Dasgupta</a>.</li> <li><b>Problem Tester: </b><a href=\"/users/shangjingbo\">Jingbo Shang</a> and <a href=\"/users/pushkarmishra\">Pushkar Mishra</a></li> <li><b>Editorialist: </b><a href=\"/users/elfus\">Florin Elfus</a></li> <li><b>Russian Translator: </b><a href=\"/users/gomelfk\">Fedor Korobeinikov</a></li> <li><b>Mandarin Translator: </b><a href=\"/users/stzgd\">Gedi Zheng</a></li> <li><b>Duration: </b>10 Days, From 6<sup>th</sup> February 15:00 hrs IST to 16<sup>th</sup> February 15:00 hrs IST.\u00a0Check your timezone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+February+Challenge+2015&amp;iso=20150206T15&amp;p1=44\">here</a>.</li> <li><b>For ranklist visit: </b><a href=\"/rankings/FEB15\">http://www.codechef.com/rankings/FEB15</a></li> </ul> </div> <p><b class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</b></p> <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe.</p> </div> <p>\u00a0</p> <p><b class=\"rules-heading\">What's in it for you?</b></p> <div class=\"rules-body\"> <p>The idea behind these programming contests is that we want you to learn while competing. Also we believe that it is alright to refer to tutorials, books and other materials, learn a concept and then apply the same to solve a problem during a contest. But it is <b>not alright to copy other people's solutions or seek other people's help to solve a problem without understanding it.</b> The dividing line may seem to be thin but it can be captured by the spirit of learning. If whatever you are doing is making you learn while you do so, we tend to believe that it is alright. However, all the participants are expected to abide to\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a>.</p> <br /> <p>Not just that, as a token of motivation we also give away cash prizes and goodies to the winners of the contest. You can know more about prizes <a href=\"http://discuss.codechef.com/questions/51999/how-do-i-win-a-codechef-goodie\">here</a>. However, our sole intention lies in making our users learn new concepts while competing.</p> </div> <p><br /> <b class=\"rules-heading\">What\u2019s new in CodeChef?</b></p> <div class=\"rules-body\"> <p>You may now play with our new <a href=\"http://blog.codechef.com/2015/02/04/play-more-in-discuss-with-groups-latex/\">groups &amp; LaTex feature</a> on discuss.</p> </div> <p><br /> <b class=\"rules-heading\">Rules and Regulations:</b></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com</a>.</li> <li><b>All the problems will be partially graded and you will get score for passing certain test data (except tie-breaker problem). You will receive hundred (100) point for solving a problem (passing all test cases).</b></li> <li><b>The details of the failed test cases will also be visible on your solution page (except challenge problem)</b></li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. </li> <li>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</li> <li>You shall not possess more than one account on CodeChef. If you have, then do let us know, so that we can deactivate the insignificant one. If you do not report it and we come to know about it, we may deactivate both the accounts permanently.</li> <li>The score that you will see during the contest (for tie-breaker problem), will only be partial (obtained on 20% of the test data). The submissions will be re-judged at the end of the contest to get full score (obtained on the whole test data).</li> <li>The number of submissions that one can make during the contest on the problem will be limited to 500.</li> <div class=\"rules-body\"><b>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"/ide\">Online IDE</a>.</b></div> <div class=\"rules-body\">However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div> </ul> </div> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/FEB15/1424958029.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "DEVLOCK": {
+            "allow_submission": false,
+            "name": "Devu and Locks",
+            "category_name": "main",
+            "accuracy": 2.38,
+            "successful_submissions": "32",
+            "code": "DEVLOCK",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHEFGRPH": {
+            "allow_submission": false,
+            "name": "Time to Study Graphs with Chef",
+            "category_name": "main",
+            "accuracy": 4.98,
+            "successful_submissions": "458",
+            "code": "CHEFGRPH",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHPUZZLE": {
+            "allow_submission": false,
+            "name": "Jigsaw Puzzle Solving",
+            "category_name": "main",
+            "accuracy": 57.75,
+            "successful_submissions": "418",
+            "code": "CHPUZZLE",
+            "type": "2",
+            "is_direct_submittable": false
+        },
+        "CUSTPRIM": {
+            "allow_submission": false,
+            "name": "Payton numbers",
+            "category_name": "main",
+            "accuracy": 1.08,
+            "successful_submissions": "8",
+            "code": "CUSTPRIM",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "XRMTRX": {
+            "allow_submission": false,
+            "name": "Xor Matrix",
+            "category_name": "main",
+            "accuracy": 6.54,
+            "successful_submissions": "136",
+            "code": "XRMTRX",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHEFCH": {
+            "allow_submission": false,
+            "name": "Chef and Chain",
+            "category_name": "main",
+            "accuracy": 31.1,
+            "successful_submissions": "5868",
+            "code": "CHEFCH",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "STRQ": {
+            "allow_submission": false,
+            "name": "Chef and Strings",
+            "category_name": "main",
+            "accuracy": 7.82,
+            "successful_submissions": "1616",
+            "code": "STRQ",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "RANKLIST": {
+            "allow_submission": false,
+            "name": "Let us play with rank list",
+            "category_name": "main",
+            "accuracy": 24.98,
+            "successful_submissions": "4287",
+            "code": "RANKLIST",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "STFM": {
+            "allow_submission": false,
+            "name": "Chef and Strange Formula",
+            "category_name": "main",
+            "accuracy": 6.78,
+            "successful_submissions": "2259",
+            "code": "STFM",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHEFEQ": {
+            "allow_submission": false,
+            "name": "Chef and Equality",
+            "category_name": "main",
+            "accuracy": 37.56,
+            "successful_submissions": "5493",
+            "code": "CHEFEQ",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1424079000,
+        "current": 1537436783,
+        "freezing": 0,
+        "start": 1423215000
+    },
+    "user": {
+        "username": ""
+    }
+}

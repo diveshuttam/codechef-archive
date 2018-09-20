@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>Problem description.</b><br /><br />\n<b>WWE NEWS>>><br /><br /><br />\nITS TIME FOR \"ROYAL RUMBLE\" .<br /></b><br />\nJohn Cena , 15 time WWE champion is all set for another <b>\"Royal Rumble\" </b>match.<br />\n<br /><br />\nRoyal Rumble will  have n wrestlers competing each.John Cena has planned a way out to beat the wrestlers.<br /><br />\nTo win John Cena would have to pick and  carry  all wrestlers to the dark room with coordinate location( X(dark room) ,Y(dark room) ).<br />\n<br /><br />\nAll wrestlers are located at different coordinate locations.<br />\n<br />John Cena initially is located at location  ( X(dark room) ,Y(dark room) ).<br />\n<br /><br />\nJohn Cena in one turn can carry at most 2 wrestlers.<br />\n<br /><br />\nTime taken by John to go from one location to another is equal to squared length of the segment between the points of the wrestlers.<br />\n<br /><br />\nSince John Cena is too busy in preparations , he asked you to find the order of actions, which consumes minimum time.<br />\n<br />\n</p>\n<h3>Input</h3>\n<p>First line contains coordinates ( X(dark room) , Y(dark room)  ).<br />\n<br />Next line contains integer n specifying number of wrestlers   <br />excluding Cena.Then next n lines contains coordinate locations of n wrestlers.</p>\n<p><b>Tips:</b><br />\nAll wrestlers have same strength.<br />\n<br />Only their coordinate location is the key to the solution .\n</p>\n<ul>\n<li>\"The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.\"</li>\n<li>\"First line contains coordinates <b>( X(dark room) , Y(dark room)  )</b>.<br />\n      <br />Next line contains integer <b>n specifying number of wrestlers  excluding Cena</b>.<br />\n     <br /><b> Then next n lines contains coordinate locations of n wrestlers</b>.\n</li>\n</ul>\n<h3>Output</h3>\n<p>Minimum Time for taking all wrestlers to <b>( X(dark room) , Y(dark room))</b>.<br />\n\t\t <br />Next line must contain order of wrestlers.<br />\n\t\t <b><br />Each object in the input is described by its index number (from 1 to n),<br />\n\t\t <br />Dark Room's point is described by number 0</b>.<br />\n\t\t <br />The path should start and end in the Dark Room's point.<br />\n\t\t <br />If there are several optimal paths, print <b>LEXIOGRAPHICALLY SMALLEST ONE</b>.\n\t\t </p>\n<h3>Constraints:</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>50</b></li>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>24</b></li>\n<li><b>All Coordinates do not exceed 100 in absolute value.<br />All given positions are different.</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n7 -7\n2\n3 1\n-3 8\n<b>Output</b>\n490\n0 1 2 0 \n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-06-2015",
+    "is_direct_submittable": false,
+    "contest_name": "DTU Programming Mania - 2",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1435939200,
+        "end_date": 1435950000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1435950000,
+        "submit_start_date": 1435939200,
+        "current": 1537436210
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>arpitdec5</span>",
+    "problem_name": "Champ Is Here",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/arpitdec5'>arpitdec5</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "arpitdec5",
+    "contest_code": "DTMA2015",
+    "max_timelimit": "1",
+    "problem_code": "WWE"
+}

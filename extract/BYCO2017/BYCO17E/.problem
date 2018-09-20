@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Team formation</p>\n<p>\u00a0\nThere are N individual participants in a coding contest, with ids from 1 to N. No 2 participants know each other. A change.was made at the last minute, which made it mandatory to form teams of exactly 2 persons.\n\nTo allow team formation, a matching phase was created which runs for 24 hours. All possible combinations of teams are recorded in a database along with their expected score in the contest, which is the GCD of their IDs.\n\nThe organisers are interested in finding out the sum of expected scores of all teams. Help them find out!\n</p>\n\n\n<h3>Input</h3>\n<p>Input description.</p>\n<p>\u00a0\nFirst line of input contains <b>T</b>, the number of test cases. \n\n<b>T</b> lines follow, each containing the value of <b>N</b> for that test case.\n</p>\n\n<h3>Output</h3>\n<p>Output consists of <b>T</b> lines, <b>i-th</b> line containing the answer to <b>i-th</b> test case</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>200000</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000000</b></li>\n</ul>\n\n<h3>Example</h3>\n<b>Input:</b>\n<pre>\n3\n1\n2\n3\n</pre>\n<br/><br/>\n<b>Output:</b>\n<pre>\n0\n1\n3\n</pre>\n\n<h3>Explanation</h3>\n<ul>\n<li>\n<b>Example case 1: </b>\nThere are no teams\n</li>\n\n<li>\n<b>Example case 2: </b>\nPossible teams are {1,2}\n</li>\n\n<li>\n<b>Example case 3: </b>\nPossible teams are {1,2}, {1,3}, {2,3}\n</li>\n\n</ul>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-02-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Bytecode 2017",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1488641400,
+        "end_date": 1488659400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1488659400,
+        "submit_start_date": 1488641400,
+        "current": 1537434056
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>rvns03</span>",
+    "problem_name": "Easy One",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rvns03'>rvns03</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rvns03",
+    "contest_code": "BYCO2017",
+    "max_timelimit": "0.5 - 1",
+    "problem_code": "BYCO17E"
+}

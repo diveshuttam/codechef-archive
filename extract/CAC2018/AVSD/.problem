@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\u00a0</p>\n<p>There is a country called Angels Land where Angels live. Angels Land is considered very well organized and wealthy. The transportation at Angels Land takes place through tunnels so that gold and currency can be transported safely. Also, there is Another country called Demons Land where Demons live. Demons land is Known for its Destruction and terrorism. Demons are very Jealous of Angels Land's progress and wealth. They tried very hard but cannot achieve the growth rate of Angels' land. At last, they decided to attack Angels Land and convert it into Demons Land. Creatures at Angels Land are very simple and does not believe in violence. So, instead of defending they surrendered.\n\nAngels Land was divided into various states. States where named with numbers from <b>1</b> to <b>N</b>, where <b>N</b> is the total number of states. Some states were connected through tunnels for safe transportation. As Angels Land is now converted into Demons land and Demons does not like anything that was created by Angels.So, they decided to redesign the country. But Demons are very lazy and smart, they will redesign the country using the existing structure as follows :\n<ul>\n<li>If there are N states present previously. New number of states will be <b>N<sup>2</sup></b>.</li>\n<li>Name of new states will be combination any two present states(including itself). New names : <b>(i, j)</b> where  <b>1 \u2264 i,j \u2264 N </b>.</li>\n<li>All old tunnels will be destroyed. New tunnels will be formed between  states <b>(a, b)</b> and  <b>(c, d)</b> if and only if there was a tunnel between  <b>a, c</b> and <b> b, d </b>in the old country.</li>\n\nDemons call a collection of state(s) as a mini country when every state can be reached from any other state following 0 or more state(s) in between.\n\nYou have to find the total number of mini countries present. </p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<ul>\n<li>First line will contain the Integers <b>N</b> and <b>M</b> where <b>N</b> denotes the total number of states in Angels land and <b>M</b> denotes the total number of tunnels present in Angels land.</li>\n<li>Next <b>M</b> lines will contain two integers <b>R</b> and <b>S</b> indicating that states <b>R</b> and <b>S</b> are Connected with a tunnel.</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>Print the number of mini countries formed by the demons..</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>6</sup></b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>10<sup>5</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<p>Notes:</p>\n<ul>\n<li>Tunnels are bidirectional.</li>\n<li>There is no tunnels from any state which connects itself.</li>\n<li>There is no multiple tunnels between any two states.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input 1:</b>\n3 2\n1 3\n3 2\n\n<b>Output 1:</b>\n2\n</pre>\n<p>\u00a0</p>\n<pre><b>Input 2:</b>\n3 1\n1 3\n\n<b>Output 2:</b>\n7\n</pre>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> </p>\n<p>Initial Map of Angels Land : </p>\n<img src = \" https://s3.amazonaws.com/hr-assets/0/1519829766-b1ae0e49f1-graph.png\">\n<p>Since there are 3 states in the Angels land . So there will be <b>3<sup>2</sup> = 9 </b> states with the following name (1,1) , (1,2) , (1,3) , (2,1) , (2,2) , (2,3) , (3,1) , (3,2) , (3,3) in the new country formed by Demons.</p>\n\n<p>Edges between states like (a,b) and (c,d) will be formed provided there is an edge between a,c and b,d in the previous Map. Redesigned Map of Angels Land after it is attacked by Demons: </p>\n<img src = \"https://s3.amazonaws.com/hr-assets/0/1519901974-6fc90a4f3e-graph4.png\">\n<ul>\n<li>One mini country is formed by (1,1) , (3,3) , (1,2) , (2,2) , (2,1).</li>\n<li>Second mini country is formed by (2,3) , (3,1) , (1,3) , (3,2).</li>\n</ul>\n<p></p>\n<p>So, the total number of mini countries formed are 2.</p>\n<p></p>\n<p><b>Example case 2.</b> </p>\n<p>Initial Map of the Angels Land :</p>\n<img src = \" https://s3.amazonaws.com/hr-assets/0/1519831395-340d8db45b-graph2.png \">\n<p>Final Map After it is attacked of Demons:</p>\n<img src = \" https://s3.amazonaws.com/hr-assets/0/1519831442-88203ae421-graph3.png\">\n<p>So, the number of mini countries formed are 7.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-02-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Cook-a-Code",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1520352000,
+        "end_date": 1520364600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1831445462,
+        "submit_start_date": 1520352000,
+        "current": 1537432880
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>abhi1210</span>",
+    "problem_name": "Angels Vs Demons",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhi1210'>abhi1210</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abhi1210",
+    "contest_code": "CAC2018",
+    "max_timelimit": "1",
+    "problem_code": "AVSD"
+}

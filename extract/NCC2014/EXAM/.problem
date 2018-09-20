@@ -1,0 +1,33 @@
+{
+    "problem_code": "EXAM",
+    "problem_author": "wittyceaser",
+    "contest_name": "National Computing Contest 2014",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>wittyceaser</span>",
+    "problem_name": "Maximizing Marks",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "NCC2014",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/knapsack'>knapsack</a>, <a class='problem-tag-small ' href='/tags/problems/ncc2014'>ncc2014</a>, <a class='problem-tag-small ' href='/tags/problems/wittyceaser'>wittyceaser</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>An exam consists of <strong>N</strong> questions. The marks of the N questions are <strong>m<sub>1</sub>, m<sub>2</sub>, m<sub>3</sub>, .. m<sub>N</sub></strong> respectively.<br />\nJam is giving the exam and he wants to maximise his number of marks.<br />\nHowever he takes some time to solve each question. The time taken by him to solve the questions are <strong>t<sub>1</sub>, t<sub>2</sub>, t<sub>3</sub>, .. t<sub>N</sub></strong> respectively.<br />\nThe exams lasts for a total of time <strong>T</strong>.<br />\nBut Jam's teacher is very smart and she knows that Jam will find out a way to get maximum marks. So, to confuse Jam, she also puts up a bonus offer for him -<br />\nThe offer is that Jam can select a question for which he can double the marks awarded for that question.<br />\nNow, Jam is indeed confused. Help him find out the maximum number of marks he can gain.</p>\n<h3>Input</h3>\n<p><br /><br />\nThe first line contains a single integer <b>N</b>, that represents the number of questions.<br /></p>\n<p>Second line contains a single integer <b>T</b>, the total time for which the exam takes place.<br /></p>\n<p>Third line contains N space-separated integers<br />\n<b>m<sub>1</sub>, m<sub>2</sub>, m<sub>3</sub>, ... m<sub>N</sub></b>, where <strong>m<sub>i</sub></strong> represents marks assigned to the <strong>i<sup>th</sup></strong> question.<br /></p>\n<p>Fourth line contains N space-separated integers<br />\n<b>t<sub>1</sub>, t<sub>2</sub>, t<sub>3</sub>, ... t<sub>N</sub></b>, where <strong>t<sub>i</sub></strong> represents time taken to solve the <strong>i<sup>th</sup></strong> question.<br /></p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Output a single integer, that is the maximum number of marks Jam can achieve.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<p><b>1</b>&lt;=<b>N</b>&lt;=<b>1000</b><br /><br />\n<b>1</b>&lt;=<b>T</b>&lt;=<b>10000</b><br /><br />\n<b>1</b>&lt;=<b>m<sub>i</sub></b>&lt;=<b>100000</b><br /><br />\n<b>1</b>&lt;=<b>t<sub>i</sub></b>&lt;=<b>10000</b><br /></p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n10\n1 2 3\n4 3 4\n\n<b>Output:</b>\n8\n\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "date_added": "12-05-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, GO, HASK, SCALA, PERL, CAML, ASM, PERL6",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/EXAM",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1400167800,
+        "end_date": 1400178600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1400178600,
+        "submit_start_date": 1400167800,
+        "current": 1537437556
+    },
+    "user": {
+        "username": ""
+    }
+}

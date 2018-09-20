@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>kennyS has just finished his homework and wants to spend his time playing with marbles. Each marble has a beauty value bi assigned to it. He has kept the N beautiful marbles in straight line. Each marble also has some appealing factor ai. Shoxie, his friend, taught him a new game to play with. He gave kennyS two integers and K and L. According to rules, kennyS can either [WAY 1] select two marbles of same beauty and swap them if the sum of the appealing factors is less than or equal to K, or [WAY 2] he can choose two marbles of different beauties and swap them if the sum of the appealing factors is less than or equal to L.  kennyS has to tell Shoxie how many distinct sequences of beauties of marbles he can get. Shoxie being considerate enough lets kennyS tell the output modulo 109+7.  Help kennyS.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>First line contains three integers N, K and L. \nThe following N lines contain two integers bi and ai.\n</p>\n\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>Output one integer which is the answer to the question.</p>\n\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>250000</b></li>\n<li><b>1</b> \u2264 <b>K,L</b> \u2264 <b>1000000000</b></li>\n<li><b>1</b> \u2264 <b>bi</b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>ai</b> \u2264 <b>1000000000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5 7 3\n3 2\n4 3\n2 1\n4 4\n5 5\n\n\n<b>Output:</b>\n2\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b><br>\tSequence 1: 3 \u2013 4 \u2013 2 \u2013 4 \u2013 5\nSequence 2: 2 \u2013 4 \u2013 3 \u2013 4 \u2013 5\nThe second sequence can be obtained from the first one by swapping the first and third marble (WAY 2). \nNote that swapping the 2nd and the 4th marble would have made no new sequence.\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-02-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Code Conquest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1518276600,
+        "end_date": 1518283800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1518283800,
+        "submit_start_date": 1518276600,
+        "current": 1537433031
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>ipg_2015054</span>",
+    "problem_name": "Beautiful Marbles",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ipg_2015054'>ipg_2015054</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ipg_2015054",
+    "contest_code": "COCO2018",
+    "max_timelimit": "1",
+    "problem_code": "COCO4"
+}

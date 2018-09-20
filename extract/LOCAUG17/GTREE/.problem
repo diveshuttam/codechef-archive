@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Vaga is famous for embarrassing his friends by giving them tough questions to solve. This time Vaga gave a question to Abhi. Abhi decided to take revenge on him. Can you help him bring Vaga back to ground ? </p>\n\n<p>\n\tGiven a tree of N nodes rooted at <b>node 1</b>, each node has a value associated with it . \n\tFor each node x , how many <br>nodes in its subtree( excluding the node x itself ) have gcd( val<sub>subtree node</sub>,val<sub>x</sub> ) > 1 .\n</p>\n\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>The first line of input contains an integer <b>T</b> denoting the number of test cases . \nThe description of <b>T</b> test cases follows.</p>\n<p>The first line of each test case contains an integer <b>N</b> , the number of nodes of the tree</p>\n<p>The next N-1 lines contain a pair of integers <b>(u,v)</b> indicating an edge between node u and node v</p>\n<p>The next line contains <b>N</b> space separated integers denoting an array A of N integers where A<sub>i</sub> denotes value of i<sup>th</sup> node</p>\n<p>\n<b>NOTE : </b>Since the test files are large , use of faster IO(scanf/printf) is recommended .\n</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>For each test case, output N integers , the i<sup>th</sup> integer denoting answer for i<sup>th</sup> node</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n\t<li><b>1</b> \u2264 <b>T</b> \u2264 <b>7</b></li>\n\t<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100000</b></li>\n\t<li><b>1</b> \u2264 <b>u,v</b> \u2264 <b>N</b></li>\n\t<li><b>1</b> \u2264 <b>A<sub>i</sub></b> \u2264 <b>100000</b></li>\n</ul>\n\n<p></p>\n<p></p>\n<h3>Subtasks </h3>\n<ul>\n<li>Subtask 1 : N <= 1000 ( 30 points )</li>\n<li>Subtask 2 : N <= 100000 ( 70 points ) </li>\n</ul>\n\n\n<p>\u00a0</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n5\n1 2\n2 3\n2 4\n1 5\n66 15 5 7 11\n\n\n<b>Output:</b>\n2 1 0 0 0\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> \n\t<pre>\n\tFor node 1 , gcd ( A<sub>1</sub> , A<sub>2</sub> ) = gcd ( 66 , 15 ) = 3 > 1\n\t\t   \t    gcd ( A<sub>1</sub> , A<sub>5</sub> ) = gcd ( 66 , 11 ) = 11 > 1\n\tSo for node 1 , ans is 2 .\n\n\tFor node 2 , gcd ( A<sub>2</sub> , A<sub>3</sub> ) = gcd ( 15 , 5 ) = 5 > 1\n\tSo for node 2 , ans is 1 .\t \n\n\tAll other nodes are leaf nodes , so answer is 0 .\n</pre>\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-08-2017",
+    "is_direct_submittable": false,
+    "contest_name": "LoC Aug 2017",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1503599400,
+        "end_date": 1503944999,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1503944999,
+        "submit_start_date": 1503599400,
+        "current": 1537433612
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>vagesh_verma</span>",
+    "problem_name": "Tree GCD ",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vagesh_verma'>vagesh_verma</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vagesh_verma",
+    "contest_code": "LOCAUG17",
+    "max_timelimit": "1",
+    "problem_code": "GTREE"
+}

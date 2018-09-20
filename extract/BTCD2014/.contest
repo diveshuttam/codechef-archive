@@ -1,0 +1,143 @@
+{
+    "teamsCount": "389",
+    "announcements": "<ul>\r\n<li> The contest is now over. Thanks for participating. We hope that you enjoyed the contest. Congratulations to the winners.\r\n<br><strong>Top 3 Global Teams:</strong>\r\n<br>#1 <a href='http://www.codechef.com/users/ddteam_btcd14/'>ddteam_btcd14</a>\r\n<br>#2 <a href='http://www.codechef.com/users/aawisong_btcd/'>aawisong_btcd</a>\r\n<br>#3 <a href='http://www.codechef.com/users/illusion_btcd/'>illusion_btcd</a>\r\n<br>\r\n<br><strong>Top 3 Indian Teams:</strong>\r\n<br>#1 <a href='http://www.codechef.com/users/noob_killer/'>noob_killer</a>\r\n<br>#2 <a href='http://www.codechef.com/users/anu2011_btcd/'>anudeep2011</a>\r\n<br>#3 <a href='http://www.codechef.com/users/hashtrick_btcd/'>hashtrick</a>\r\n<br>\r\n<br><strong>Top 3 NITT Teams:</strong>\r\n<br>#1 <a href='http://www.codechef.com/users/theone01/'>TheOne</a>\r\n<br>#2 <a href='http://www.codechef.com/users/counter_gambit/'>counter_gambit</a>\r\n<br>#3 <a href='http://www.codechef.com/users/vivalavida/'>ungomma</a>\r\n<br>\r\n<br>Prize winners will be contacted individually to dispatch the prizes.\r\n<br>Do follow us on our <a href='https://www.facebook.com/pages/Bytecode/229215343839978'>facebook page</a> for further updates.\r\n<br>The problems are available for practice on SPOJ also.\r\n<br>\r\n</li>\r\n<li>The live rankings for the contest can be found here: <a href=\"/rankings/BTCD2014\">http://www.codechef.com/rankings/BTCD2014 </a></li>\r\n<li> In problem 'Defuse the Bombs' the constraints for K is 0 <= K <= 100 </li>\r\n</ul>",
+    "ip": "149.129.135.113",
+    "code": "BTCD2014",
+    "duration": "300",
+    "name": "ByteCode 2014",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div><b>Registration: </b> <ul> <div><b></b> <b>This is a team contest, so a seperate registration is needed for the team to participate. The team registration will be open during the contest as well.</b></div> <br /> <li>Login with your normal CodeChef user ID</li> <li>Click on the <a target=\"_blank\" href=\"/teams/register/BTCD2014\"><b>Team Registration Link</b></a> to register your team for the contest.</li> <li>Click logout in the top right corner and login using the Team Name and password you registered with.</li> <li>You can get more information about team contests <a target=\"_blank\" href=\"/wiki/team-contests\">here</a></li> </ul> </div> <div><b>Rules and Regulations:</b> <div> <ul> <li>Contest problems will become visible on 08th March, 2014 at 20:30 HRS (IST) and end at 09th March, 2014 at 0130 HRS (IST). Check your timezone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+ByteCode+2014&amp;iso=20140308T2030&amp;p1=44&amp;ah=5\" target=\"_blank\">here</a>.</li> <li> This is a TEAM CONTEST. A team can consist of atmost 3 members. One person can\u2019t be part of more than one team.</li> <li> A team may send their solutions in all programming languages. Although different problems can be solved in different languages by the same team.</li> <li>If you do not have a CodeChef ID create one <a href=\"http://codechef.com/user/register\" target=\"_blank\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. </li> <li> Almost all languages supported on CodeChef are allowed. </li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided. </li> <li>All participants are expected to abide by the\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a></li> <li>Please contact <a href=\"mailto:bytecode@pragyan.org\" target=\"_blank\">bytecode@pragyan.org</a> for any queries during the contest. </li> </ul> </div> <div><b>Judging criteria : </b> <ul> <li>All the problems have same points alloted to them. </li> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time. </li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained. </li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified. </li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved. </li> </ul> </div> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/BTCD2014/1424957917.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "BTCD14F": {
+            "allow_submission": false,
+            "name": "Defuse the bombs!",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "BTCD14F",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BTCD14C": {
+            "allow_submission": false,
+            "name": "Sherlock and DOTA",
+            "category_name": "main",
+            "accuracy": 16.67,
+            "successful_submissions": "19",
+            "code": "BTCD14C",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BTCD14D": {
+            "allow_submission": false,
+            "name": "Sherlock and Prince of Persia",
+            "category_name": "main",
+            "accuracy": 25,
+            "successful_submissions": "8",
+            "code": "BTCD14D",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BTCD14I": {
+            "allow_submission": false,
+            "name": "The Final Defusal",
+            "category_name": "main",
+            "accuracy": 15.44,
+            "successful_submissions": "21",
+            "code": "BTCD14I",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BTCD14B": {
+            "allow_submission": false,
+            "name": "Irene and Fibonacci",
+            "category_name": "main",
+            "accuracy": 18.26,
+            "successful_submissions": "42",
+            "code": "BTCD14B",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BTCD14E": {
+            "allow_submission": false,
+            "name": "Sherlock In Thuvax",
+            "category_name": "main",
+            "accuracy": 14.29,
+            "successful_submissions": "7",
+            "code": "BTCD14E",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BTCD14G": {
+            "allow_submission": false,
+            "name": "The Great Game",
+            "category_name": "main",
+            "accuracy": 16.67,
+            "successful_submissions": "1",
+            "code": "BTCD14G",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BTCD14A": {
+            "allow_submission": false,
+            "name": "Game of Pips",
+            "category_name": "main",
+            "accuracy": 21.3,
+            "successful_submissions": "158",
+            "code": "BTCD14A",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BTCD14H": {
+            "allow_submission": false,
+            "name": "Crack the Safe",
+            "category_name": "main",
+            "accuracy": 2.56,
+            "successful_submissions": "1",
+            "code": "BTCD14H",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BTCD14J": {
+            "allow_submission": false,
+            "name": "Regex Golf",
+            "category_name": "main",
+            "accuracy": 25,
+            "successful_submissions": "2",
+            "code": "BTCD14J",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537437710,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

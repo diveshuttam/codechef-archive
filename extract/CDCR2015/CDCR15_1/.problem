@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p><b>Problem description.</b></p>\n<p>Jimmy over slept and is late for class! But it had rained earlier, and the roads are filled with puddles.<br />\nThe diatance between hostel and classrooms is N meters. Jimmy doesn\u2019t like to wet his new shoes, so he decides<br />\nto jump over the puddles. Unfortunately, Jimmy cannot jump more than K meters.</p>\n<p>Help Jimmy! Tell his if he can reach his class without wetting his new shoes.\u00a0</p>\n<h3>Input</h3>\n<p>First line contains the number of test cases T.<br />\nFor each test case the first line 2 contains integers N and K.<br />\nThe next line contains a string of length N. If the i'th character is '#' means there is a puddle at i'th meter and '.' if its dry.</p>\n<h3>Output</h3>\n<p>Print \"YES\" if Jimmy can reach his class without wetting his new shoes, and \"NO\" otherwise.</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n5 3\n.###.\n6 2\n.#.#.#\n\n<b>Output:</b>\nNO\nYES\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-01-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Code Currents 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1422694800,
+        "end_date": 1422703800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1422703800,
+        "submit_start_date": 1422694800,
+        "current": 1537436880
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>varunsekar94</span>",
+    "problem_name": "Jimmy is Late",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/varunsekar94'>varunsekar94</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "varunsekar94",
+    "contest_code": "CDCR2015",
+    "max_timelimit": "1",
+    "problem_code": "CDCR15_1"
+}

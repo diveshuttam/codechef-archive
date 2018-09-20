@@ -1,0 +1,33 @@
+{
+    "problem_code": "NPLFLA",
+    "problem_author": "npl_nitw",
+    "contest_name": "NPL Final Round ",
+    "todo": false,
+    "problem_author_html_handle": "npl_nitw",
+    "problem_name": "Number Formation",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "NPLQ1602",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/basic-prog'>basic-prog</a>, <a class='problem-tag-small ' href='/tags/problems/npl_nitw'>npl_nitw</a>, <a class='problem-tag-small ' href='/tags/problems/nplq1602'>nplq1602</a>, <a class='problem-tag-small ' href='/tags/problems/string'>string</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>The task is simple! You have to form a given number <b>n</b> using following two operations.\n<br>\n<ul>\n<li> Append a digit d to current number. The cost of this operation is <b>d</b> (0<=d<=9)</li>\n<li>Append any \"substring of current number\" to the current number. The cost of this operation is <b>zero</b></li>\n<br>\nYou start the process with an empty number and repeat one of the above 2 operations until you get the desired number. Print the minimum cost to form the given number.\n</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>First line will contain <b>T</b> (the number of test cases).<br>\nFor each test case input is the number to be formed by the given operations.(The number can be very large).\n<p>\n\n<h3>Output</h3>\n<p>Print the minimum cost needed to form the given number using the given two operations.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1 \u2264 T \u2264 10</b></li>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>10<sup>10000</sup></b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n123\n1212\n\n<b>Output:</b>\n6\n3\n\n</pre>",
+    "category_name": "main",
+    "date_added": "5-09-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/NPLFLA",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1477038600,
+        "end_date": 1477047600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1477047600,
+        "submit_start_date": 1477038600,
+        "current": 1537434456
+    },
+    "user": {
+        "username": ""
+    }
+}

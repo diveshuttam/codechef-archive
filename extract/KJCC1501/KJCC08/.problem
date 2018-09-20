@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>\nClash of clans is a very popular game. Each player in the game is allocated a base with certain hit points the player can train a limited number of troops on the base. There are three types of troops: Barbarian, Archers and Giants. The Cost of training a Barbarian is 100, an Archer is 500, and a Giant is 1500. When attacking an opponent\u2019s base, Barbarian can reduce 1 hit point per sec, Archer 2 hit points per sec and Giant 3 hit points per sec.<br />\n</p>\n<p>\nAfter training the troops, you attack a particular opponent\u2019s base. The opponent\u2019s base has certain hit points. To completely destroy the opponent base, your troop's total hit points should be equal or more than the opponent's base hit points keeping in mind that the opponent's base can heal itself N*15 (Where N is the size of the troops) hit points every min<br />\n</p>\n<p>\nHere, you will be given the size <b>\u2019N\u2019</b> of the army you can take, the hit points <b>\u2019H\u2019</b> of the opponent\u2019s base, and the time <b>\u2019T\u2019</b> within which you need to destroy the opponents base.<br />\nYour task is to create a troop, which will destroy the opponent\u2019s whole base within the given time limit with a <b>MINIMUM COST.</b><br />\n</p>\n\n<p><b>Note: You need to consider all N troops for destroying the opponent base. Also the input will be such that it is possible to destroy the opponent's base using certain troops.<b><br /></b></b></p>\n\n<h3>Input</h3>\n<p>The first line contains a single integer N which is the size of the army</p>\n<p>The first line contains a single integer T which is the time limit</p>\n<p>The first line contains a single integer H which is the hit point of opponent\u2019s base</p>\n\n<h3>Output</h3>\n<p>A single line containing minimum cost of the army</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^6</b></li>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>H</b> \u2264 <b>10^6</b></li>\n</ul>\n\n<h3>Example1:</h3>\n<pre><b>Input:</b>\n9\n2\n1530\n<b>Output:</b>\n3300\n</pre>\n<h3>Example2:</h3>\n<pre><b>Input:</b>\n5\n3\n2475\n<b>Output:</b>\n7500\n</pre>\n<h3>Example3:</h3>\n<pre><b>Input:</b>\n3\n1\n60\n<b>Output:</b>\n300\n</pre>\n<h3>Explanation</h3>\n<p>\nIn Example 1: We have to take 9 troops, and we have got 2 mins to destroy i.e. 120 secs to destroy the whole base. And the hit points of the base are 1530. Including the healing effects (9*2*15 = 270) the hit points of the opponent\u2019s base is 1800. So the minimum cost army can be 6 Archers and 3 Barbarians, which cost 6*500 +3*100 =3300 which can destroy the whole base in 2 mins.</p>\n\n<p>In Example 2: We have to take 5troops, and we have got 3 mins to destroy i.e. 180 secs to destroy the whole base. And the hit points of the base are 2475. Including the healing effects (5*3*15 = 225) the hit points of the opponent\u2019s base is 2700. So the minimum cost army can be all 5 Giants, which cost 5*1500=7500 which can destroy the whole base in 3 mins.\n</p>\n\n<p>\nIn Example 3: We have to take 3 troops, and we have got 1 mins to destroy i.e. 60 secs to destroy the whole base. And the hit points of the base are 60. Including the healing effects (3*1*15 = 45) the hit points of the opponent\u2019s base is 105. So the minimum cost army can be all 3 Barbarians, which cost 3*100 =300 which can destroy the whole base in 1 mins.\n</p>\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "KJSCE Coding Challenge 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426314600,
+        "end_date": 1426357740,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426357740,
+        "submit_start_date": 1426314600,
+        "current": 1537436582
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>rkp7</span>",
+    "problem_name": "Clash of clans",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rkp7'>rkp7</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rkp7",
+    "contest_code": "KJCC1501",
+    "max_timelimit": "1",
+    "problem_code": "KJCC08"
+}

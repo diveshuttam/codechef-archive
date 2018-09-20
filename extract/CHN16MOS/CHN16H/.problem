@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Let <b>F(s, x)</b> be the number of triplets of nonnegative integers whose sum is <b>s</b> and bitwise xor is <b>x</b>.</p>\n\n<p>Given <b>a</b>, <b>b</b>, and <b>N</b>, find the sum of <b>F(a * n, b * n)</b> for all <b>n</b> such that <b>1 \u2264 n \u2264 N</b>.</p>\n\n<h3>Input</h3>\n<p>The first line of input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>\n<p>Each test case consists of a single line containing three space-separated integers: <b>a</b>, <b>b</b> and <b>N</b>.</p>\n\n\n<h3>Output</h3>\n<p>For each test case, output a single line containing the answer. Since the answer can be very large, only output it modulo <b>10<sup>9</sup> + 7</b>.</p>\n\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1 \u2264 T \u2264 1500</b></li>\n<li><b>1 \u2264 a, b \u2264 30</b></li>\n<li><b>1 \u2264 N \u2264 10<sup>12</sup></b></li>\n</ul>\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n<tt>1\n2 2 2\n</tt>\n<b>Output:</b>\n<tt>6</tt>\n</pre>\n\n<h3>Explanation</h3>\n<p>\n<ul>\n<li><b>F(2 * 1, 2 * 1) = F(2, 2) = 3</b>.</li>\n<li><b>F(2 * 2, 2 * 2) = F(4, 4) = 3</b>.</li>\n</ul>\n</p>\n<p>Thus, the answer is <b>3 + 3 = 6.</b></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Chennai Onsite Mirror Contest 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1482211800,
+        "end_date": 1482229800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1793254705,
+        "submit_start_date": 1482211800,
+        "current": 1537434301
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Sum and Xor",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin3",
+    "contest_code": "CHN16MOS",
+    "max_timelimit": "1",
+    "problem_code": "CHN16H"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "TIDUAFT",
+    "problem_author": "mathecodician",
+    "contest_name": "ICO 2018 Preparatory Series - Contest 1",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>mathecodician</span>",
+    "problem_name": "Tidu and frustrated teacher",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ICOP1801",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/mathecodician'>mathecodician</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>As you already, know all the school teachers hate Tidu and their favourite passtime is to trouble and torture him for no reason. One day a teacher called Atsi gave him a problem to solve which she thought he couldn\u2019t solve.</p>\n<p>\u00a0The problem was, given 3 numbers n,x and k you need to tell the number of ways of making an array of size n with all numbers being positive <= 100 with number x appearing exactly k times. Tidu solved this problem with ease. </p>\n<p>Atsi got furious and googled for a harder problem. Apparently, she found what coprime numbers are (coprime numbers are those whose greatest common divisor is 1). So she added an extra criteria in her problem that every adjacent pair of numbers should be coprime. </p>\n<pTidu would have solved this problem as well but as you know he is a busy man. Currently, he is busy watching the Harry Potter Marathon. You are Tidu\u2019s best friend. So Tidu has asked you to solve this problem for him.></p>\n\n<h3>Input</h3>\n<p>The only line of the input contains 3 integers n,x,k</p>\n\n<h3>Output</h3>\n<p>Output the answer modulo 10^9+7</p>\n\n<h3>Constraints</h3>\n<b>\n<p>1 <= n <= 100 <br>\n1 <= x <= 100 <br>\n0 <= k <= (n+1)/2 <br>\n</b>\n<h4>Subtask 1( 15 pnts ) - </h4> <b> n <= 4 </b> \n<h4>Subtask 2( 15 pnts ) - </h4> <b> n is odd, x > 1 and k = (n+1)/2</b> \n<h4>Subtask 3( 70 pnts )- </h4>  <b> Same as original </b> \n</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3 53 2\n<b>Output:</b>\n99\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>The only way to make this array is by letting the 1st and 3rd elements be 53 and the 2nd element could be anything <= 100 and not equal to 53.</p>",
+    "category_name": "main",
+    "date_added": "28-09-2017",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/TIDUAFT",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1507905000,
+        "end_date": 1507915800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1507915800,
+        "submit_start_date": 1507905000,
+        "current": 1537433460
+    },
+    "user": {
+        "username": ""
+    }
+}

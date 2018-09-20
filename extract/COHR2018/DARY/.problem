@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Unfortunately **Semcrack** has lost its employee data. The data is very necessary hence **Semcrack** wants to recover it. The only source to recover the data is a string consists of first letter of employee's name.  \n\n\nWith the recovery algorithm **Semcrack** can only recover the number of employee groups in organization.  A group of employee is consists of even number of employee's. But recently the recovery algorithm has been stolen by a group of hackers.\n\n**Semcrack** wants your help to recover it's data. Design an algorithm for the same.\n\nNote that the group can only contain the continuous letters from the given string.\n\n\n###Input:\n\n- First line will contain $T$, number of testcases. Then the testcases follow. \n- The first and only line of each testcase contains of a single line of input, a string of length $N$. \n\n###Output:\nFor each testcase, output in a single line the total number of emplyee groups possible.\n\n###Constraints \n- $1 \\leq T \\leq 10^5$\n- $1 \\leq N \\leq 10^5$\n\n###Subtasks\n- 30 points : $1 \\leq T \\leq 100$\n- 70 points : $1 \\leq T \\leq 10^5$\n\n###Sample Input:\n\t2\n\tasdf\n\tamb\n\n###Sample Output:\n\t4\n\t2\n\n###Explanation:  \nIn first case, **ad** and **sf** can't form a group , because skipping of characters are not allowed.\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Coding Hours",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1533310200,
+        "end_date": 1533483000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1533483000,
+        "submit_start_date": 1533310200,
+        "current": 1537432188
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>admin7</span>",
+    "problem_name": "Data Recovery",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin7'>admin7</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin7",
+    "contest_code": "COHR2018",
+    "max_timelimit": "0.2",
+    "problem_code": "DARY"
+}

@@ -1,0 +1,87 @@
+{
+    "announcements": "<p><b>18/07/2013, 21:50 IST: We were facing issues with our servers due to which the website was down. We have extended the contest by 25 minutes. The contest will now end at 00:25 AM IST. Regret the inconvenience.</b></p>\r\n<p><b>18/07/2013, 21:30 IST: </b>The ranking for the contest can be found\u00c2\u00a0<a href=\"/rankings/COOK37\" target=\"_blank\">here</a>.</p>",
+    "ip": "149.129.135.113",
+    "code": "COOK37",
+    "duration": "175",
+    "name": "August Cook-Off 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>The August Cook-Off 2013 has ended.</b></p> <p><b>All the solutions for the problem set are public and the problems have been moved to practice section.</b></p> <p><b>The editorials for the contest can be found\u00a0<a href=\"http://discuss.codechef.com/tags/cook37/\" target=\"_self\">here</a>.</b></p> <p><b>The ratings for the contest has been calculated. You can check them\u00a0<a target=\"_self\" href=\"/short/ranklist/AX\">here</a>.</b></p> <p><b>The Winners blog can be found <a href=\"http://blog.codechef.com/2013/08/27/a-bump-and-a-high-all-in-the-course-of-august-cook-off/\">here</a>.</b></p> <p>In case you are a new user, you will need to first register for a CodeChef ID\u00a0<a href=\"/user/register/\">here</a>.</p> <p><b><br /></b></p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\" target=\"_blank\">feedback@codechef.com</a></li> </ul> <div><span><span><br /></span></span></div> <ul> <li><span>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</span> <ul> <br /> </ul> </li> <li>You can also send in your queries in an email to\u00a0<a href=\"mailto:contest-admin@codechef.com\" target=\"_blank\">contest-admin@codechef.com</a>, during the contest.</li> <br /> <li>Contest problems will become visible on August 18th, 2013 at 21:30 (IST). There will be 5 problems in all.\u00a0Check your timezone\u00a0<span><a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+August+Cook-Off+2013&amp;iso=20130818T2130&amp;p1=44&amp;ah=2&amp;am=30\" target=\"_blank\">here</a></span>.</li> <br /> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <br /> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <br /> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> </ul> <div><span><span><br /></span></span></div> <ul> <li>You shall not possess more than one account on CodeChef. If you have, then do let us know, so that we can deactivate the insignificant one. If you do not report it and we come to know about it, we may deactivate both the accounts permanently.</li> </ul> <div><span><span><br /></span></span></div> <ul> <li>If anyone is using code from some other source in his submission, he should provide proper proper attribution. Failing this, it may be considered plagiarism and the submission will be subject to disqualification.</li> </ul> <div><span><span><br /></span></span></div> <ul> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a>.</li> <br style=\"font-family: Arial, sans-serif; line-height: 18px;\" /> <div></div> <b>Note: As a contestant, you are responsible for making sure others don't access the code that you submit. If you're on a network or shared computer, or using an online development environment, make sure that other contestants don't have access to your code. If you use\u00a0<a href=\"http://ideone.com/\" target=\"_blank\">Ideone</a>, make sure to mark your submission \"user\" (not private).</b> </ul> <div><span><span><br /></span></span></div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COOK37/1424957780.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "GRIDCOL": {
+            "allow_submission": false,
+            "name": "Chef and The Colored Grid",
+            "category_name": "main",
+            "accuracy": 4.55,
+            "successful_submissions": "2",
+            "code": "GRIDCOL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DIVQUERY": {
+            "allow_submission": false,
+            "name": "Chef and The Divisibility Queries",
+            "category_name": "main",
+            "accuracy": 4.68,
+            "successful_submissions": "111",
+            "code": "DIVQUERY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "RIGHTRI": {
+            "allow_submission": false,
+            "name": "Chef and The Right Triangles",
+            "category_name": "main",
+            "accuracy": 46.12,
+            "successful_submissions": "1383",
+            "code": "RIGHTRI",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "STRDIG": {
+            "allow_submission": false,
+            "name": "Chef and The String of Digits",
+            "category_name": "main",
+            "accuracy": 4.33,
+            "successful_submissions": "18",
+            "code": "STRDIG",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DFSGRID": {
+            "allow_submission": false,
+            "name": "Chef and The Recursive Algorithm",
+            "category_name": "main",
+            "accuracy": 1.44,
+            "successful_submissions": "3",
+            "code": "DFSGRID",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1376852100,
+        "current": 1537438227,
+        "freezing": 0,
+        "start": 1376841600
+    },
+    "user": {
+        "username": ""
+    }
+}

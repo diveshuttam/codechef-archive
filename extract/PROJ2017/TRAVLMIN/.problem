@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\nByteland has recently gone <b>\u2018Digital\u2019</b> (as if it weren\u2019t earlier), and now it is the most advanced country in the world. The people are very happy and want to share their expertise with other countries. Thus, their Programming Minister (P. M) has decided to travel around the globe, and share their knowledge. </p>\n<p>\nBut, due his busy schedule, he cannot spare more than <b>d</b> days for this task.\n</p>\n<p>\nGiven the schedule of flights to/from all the <b>n</b> countries from/to Byteland, help the people of Byteland spread their knowledge among as many people as they can by determine the maximum number of countries the P.M can visit.\n</p>\n<p></p>\n<hr>\n\n<h3>Input</h3>\n<p>The first line contains two space separated integers, <b>n </b>and <b>d</b>, as described above.</p>\n<b>i<sup>th</sup></b> of the next n lines contains two space separated integers, <b>a<sub>i</sub></b> - the day of flight to this country (from Byteland) and <b>b<sub>i</sub></b> - the day of flight from this country (to Byteland).\n<p>\u00a0</p>\n<hr>\n<h3>Output</h3>\n<p>Print in a single line, the maximum number of countries that can be visited by the P.M.</p>\n<p>\n<b>Note:</b>\n<ol> \n<li>Assume all flights reach their destination on the same day of their departure.\n<li>Upon returning from a country on a particular day, the P.M experiences jetlag and cannot travel again before the next day.\n</ol>\n</p>\n<p></p>\n<hr>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>d</b> \u2264 <b>10<sup>9</sup></b></li>\n<li><b>1</b> \u2264 <b>a</b> <b> < </b>  <b>b</b> \u2264  <b>d</b></li>\n</ul>\n<p>\u00a0</p>\n<hr>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5 10 \n4 7 \n5 6 \n1 6 \n2 3 \n9 10 \n\n<b>Output:</b>\n3\n\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> The P.M visits the 4<sup>th</sup>, 2<sup>nd</sup> and 5<sup>th</sup> countries. You can check that he cannot do better than this.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-07-2017",
+    "is_direct_submittable": false,
+    "contest_name": "ProCon Junior 2017",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1501414200,
+        "end_date": 1501425000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1501425000,
+        "submit_start_date": 1501414200,
+        "current": 1537433668
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>shagakur</span>",
+    "problem_name": "The Traveling Minister",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shagakur'>shagakur</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shagakur",
+    "contest_code": "PROJ2017",
+    "max_timelimit": "1",
+    "problem_code": "TRAVLMIN"
+}

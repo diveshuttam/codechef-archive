@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>This morning when Mayank woke up he found Doraemon sitting in his room! Mayank being a clever guy immediately demanded<br />\nsome special powers from Doraemon ensuring him that he will use those powers only for the good of others. Doraemon smiled and said that he is ready to give him the powers only if he can find out the coefficient of (X ^ K) after multiplying N polynomials which will be of the form (1 + A[i] * X),where 1 &lt;= i &lt;= N.<br />\nMayank didn't understand the problem at first, so he asked for an example. The example given is:</p>\n<p>Say for N = 3,the values given are A[1] = 3 and A[2] = 2 and A[3] = 1. Then the 3 polynomials obtained are<br />\n<b>(1 + 3X) (1 + 2X) (1 + X)</b>.After multiplying them we will get <b>(1 + 6(X^1) + 11(X^2) + 6(X^3) )</b>.Now for K = 1 the answer will be<br />\n6,for K = 2 answer will be 11,for K = 4 answer will be 0 and so on. After this Mayank again argued that these coefficients can be quite large,to which Doraemon replied that he has to <b>print the coefficient of (X ^ K) MODULO 101117 </b>.Mayank, still not satisfied, then asked for a hint<br />\nand then Doraemon replied \"With great power comes great complexity\". </p>\n<p>Mayank now needs your help in solving the problem and<br />\ngain those special powers.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First Line contains N, the total no of different polynomials of the form (1 + A[i]*X).<br />\nSecond Line will contain N space seperated integers denoting the values of A[1],A[2],A[3],A[4] ......A[N].<br />\nThird Line will contain one single integer denoting Q,the number of questions that Doraemon is going to ask.<br />\nThe next Q lines will contain 1 integer per line denoting the value of K.</p>\n<h3>Output</h3>\n<p>Output Q lines,each line containing the required answer for the given K.<br />\nAnswer here means coefficient of (X ^ K) MODULO 101117.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<p><b>1 &lt;= N &lt;= 40000</b></p>\n<p><b>1 &lt;= A[i] &lt;= 10^5</b></p>\n<p><b>1 &lt;= Q &lt;= N</b></p>\n<p><b>0 &lt;= K &lt;= N</b></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n3 2 1\n3\n1\n2\n3\n\n<b>Output:</b>\n6\n11\n6\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> Explained in the problem statement itself</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Ode to Code 2016 prelims",
+    "languages_supported": "C, CPP14, JAVA, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1458142200,
+        "end_date": 1458155400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1458155400,
+        "submit_start_date": 1458142200,
+        "current": 1537435078
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>diptanshu</span>",
+    "problem_name": "With great power comes great complexity!",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/diptanshu'>diptanshu</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "diptanshu",
+    "contest_code": "ODCO2016",
+    "max_timelimit": "2",
+    "problem_code": "COMPX"
+}

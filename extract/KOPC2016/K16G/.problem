@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\u00a0</p>\n<p align = \"justify\">lakshmi8 and ara46rossi are friends. Recently lakshmi8 solved a problem named \"k-Tree\". lakshmi8 suggested ara46rossi to solve that problem. Being a very good programmer, ara46rossi solved that problem very efficiently than lakshmi8. Now, lakshmi8 decides to challenge ara46rossi with a newer version of that problem, \"Given a k-Tree with 'n' nodes. k-Tree is a rooted tree (The first node is always the root) in which each node can have atmost 'k' children. The nodes are labelled as integers from 1 to n with '1' being the first node. This k-Tree is complete, in the sense that every level before the current level is completely filled and the current level is filled from left to right. You are given 'q' queries. Each query has two integer 'x' and 'y'. You have to find the length of the shortest path between node 'x' and node 'y'. Length is measured in terms of number of edges\". Now, assume you are ara46rossi. Accept lakshmi8's challenge and solve this problem.</p>\n\n\n<h3>Input</h3>\n<p>The first line consists of two integers 'n' and 'k', denoting the number of nodes in the tree and the 'k' in the k-tree \ndefinition.<br>\nThe second line consists of 'q', the number of queries.<br>\nNext q lines consists of two integers 'x' and 'y' for which you have to find the length of the shortest path.</p>\n\n<h3>Output</h3>\n<p>For ith query, print in a separate line the length of the shortest path between xi and yi.</p>\n\n<h3>Constraints</h3>\n<p>\n2 <= n <= 10^15<br>\n1 <= k <= 10^3<br>\n1 <= q <= 10^5<br>\n1 <= x, y <= n, x != y</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n7 2 \n4\n1 2\n5 6\n2 3\n3 4\n\n<b>Output:</b>\n1\n4\n2\n3\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Kurukshetra Online Programming Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYPY, CS2, PAS fpc, PAS gpc, RUBY, D, PERL, FORT, ADA, ASM, ICON, PIKE, ST, NICE, LUA, BASH, NEM, TCL, SCM chicken",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455370200,
+        "end_date": 1455388200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1839201979,
+        "submit_start_date": 1455370200,
+        "current": 1537435479
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>lakshmi8</span>",
+    "problem_name": "K! Tree",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/lakshmi8'>lakshmi8</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "lakshmi8",
+    "contest_code": "KOPC2016",
+    "max_timelimit": "0.5",
+    "problem_code": "K16G"
+}

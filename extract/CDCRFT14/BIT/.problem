@@ -1,0 +1,33 @@
+{
+    "problem_code": "BIT",
+    "problem_author": "darkshadows",
+    "contest_name": "CodeCraft: IIIT Hyderabad, Replay",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>darkshadows</span>",
+    "problem_name": "Counting Bits",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CDCRFT14",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cakewalk'>cakewalk</a>, <a class='problem-tag-small ' href='/tags/problems/cdcrft14'>cdcrft14</a>, <a class='problem-tag-small ' href='/tags/problems/darkshadows'>darkshadows</a>, <a class='problem-tag-small ' href='/tags/problems/simulation'>simulation</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nGiven <b>N</b>, if we write all numbers from <b>1</b> to <b>N</b> (both inclusive) in binary what is<br />\nthe count of 1s I have written.<br />\nFor example, if N=3,<br />\nI will write down:<br />\n1<br />\n10<br />\n11</p>\n<p>Therefore, a total of 4 ones.\n  </p>\n<h3>Input Format:</h3>\n<p>\nFirst line contains, <b>T</b>, the number of testcases. Each testcase consists of one integer per line denoting <b>N</b>.\n  </p>\n<h3>Output Format:</h3>\n<p>\nPrint the required answer.\n  </p>\n<h3>Constraints:</h3>\n<p><b><br />\n  1 &le; T &le; 1000<br />\n1 &le; N &le; 1000</b>\n  </p>\n<h3>Sample Input:</h3>\n<pre>\n1\n3</pre><h3>Sample Output:</h3>\n<pre>\n4</pre><p><br />\n<b>Problem Setter: Lalit Kundu</b></p>\n",
+    "category_name": "main",
+    "date_added": "28-01-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/BIT",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1391232600,
+        "end_date": 1391257800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1391257800,
+        "submit_start_date": 1391232600,
+        "current": 1537437886
+    },
+    "user": {
+        "username": ""
+    }
+}

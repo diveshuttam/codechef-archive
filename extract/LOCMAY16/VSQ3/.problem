@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>After a long time of training chef goes to his master and ask him to Increase the difficulty level of Questions. Chef's master will Increase the difficulty level of Questions if and only if he will solve one more very simple question.</p>\n<p>\n<h3>Description of question :</h3>\n</p><p>\u00a0<br /><br />\nGiven an array of <b>N </b>numbers and chef has to find the Largest sum of contiguous subarray.<br />\nSince this task is too easy ,therefore he add quadruple rule to them. Rule says master will give four numbers <b>Q1</b> ,<b>Q2</b> ,<b>Q3</b> and<b> Q4</b> ,<br />\nAny of these are not to be included in the contiguous subarray.</p>\n<h3>Input</h3>\n<p>First line contains <b>T</b> i.e. the number of test cases.<br />Second line contains five Integers <b>N</b> and <b>Q1</b>,<b> Q2</b>,<b> Q3</b> and <b>Q4</b>.<br /><br />\nThird line contains the <b>N </b>space separated integers.</p>\n<h3>Output</h3>\n<p>For each testcase output a single integer consist of Largest sum.</p>\n<p><br /></p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b>\n</li><li><b>1</b> \u2264 <b>N, Q1, Q2 ,Q3 ,Q4</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>-10<sup>9</sup></b> \u2264 <b>Numbers in Array</b> \u2264 <b>10<sup>9</sup></b></li>\n</ul>\n<p><br /></p>\n<h3>Subtasks</h3>\n<h3>Subtask #1 : (25 points)</h3>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000</b></li>\n<h3>Subtask #2 : (75 points)</h3>\n<li><b>No additional constraints</b></li>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<p>1<br />5 5 6 7 1<br />1 7 -10 6 2<br />\n\n<b>Output:</b>\n2</p>\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-05-2016",
+    "is_direct_submittable": false,
+    "contest_name": "May LoC Competitive Programming Marathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1464287400,
+        "end_date": 1464632940,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1464632940,
+        "submit_start_date": 1464287400,
+        "current": 1537434880
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>abhishek20113</span>",
+    "problem_name": "Very Simple Question- The Quadruple",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhishek20113'>abhishek20113</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abhishek20113",
+    "contest_code": "LOCMAY16",
+    "max_timelimit": "1",
+    "problem_code": "VSQ3"
+}

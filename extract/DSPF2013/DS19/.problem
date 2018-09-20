@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p><html><br />\n<body></body></html></p>\n<h1>Energy Drinks</h1>\n<p>\nChef has made an energy drink, where 1 bottle of drink gives a person energy to move a single step. He has organized a game in which at each step, a certain number of bottles are kept. The no. of bottles at each step represent the maximum no. of steps he can go forward from that position.You can\u2019t carry bottles from one step to other i.e. if number of bottles at a step is 3 then you can drink 0, 1, 2 or 3 bottles, if you drink 3 you have to take a jump(move) of 3 steps, you can\u2019t drink 2 bottles and carry 1 to the other step.If the no. of drinks at a step is 0, than he cannot go further. His motive is to reach his destination by optimizing his drinking in such a way that he has to make minimum no. of moves. The person knows the no. of bottles kept at each step. 1 move represents moving from 1 drinking position to the next.\n</p>\n<h3>Input: </h3>\n<p>\nThe first line contains a positive integer T representing no. of test cases. Each test case begins with a single positive integer N representing the no. of steps from beginning to the final position including both. The second line of each test case consists of a group of non-negative integers separated by space, which represent the no. of bottles kept at each step.\n</p>\n<h3>Output: </h3>\n<p>\nFor each test case, output a single line, containing the answer for the corresponding test case.\n</p>\n<h3>\nConstraint><br />\n</h3>\n<p>\n1&amp;ltT&amp;lt10<br />\n1&amp;ltN&amp;lt50\n</p>\n<h3>Sample Input</h3>\n<p><pre>\n3\n11\n1 3 5 8 9 2 6 7 6 8 9\n10\n1 3 6 3 2 3 6 8 9 5\n6\n1 3 6 1 0 9</pre></p>\n<h3> Output-</h3>\n<p><pre>\n3 \n4\n3</pre></p>\n<p><br />\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "11-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "./EXECEUTE Prefest contest",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1360740600,
+        "end_date": 1360827000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1671662611,
+        "submit_start_date": 1360740600,
+        "current": 1537438515
+    },
+    "problem_author_html_handle": "opengeest",
+    "problem_name": "Energy Drink",
+    "source_sizelimit": "5000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/opengeest'>opengeest</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "opengeest",
+    "contest_code": "DSPF2013",
+    "max_timelimit": "0.225",
+    "problem_code": "DS19"
+}

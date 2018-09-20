@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>You are given an array <strong>A<sub>1</sub>,A<sub>2</sub>...A<sub>N</sub></strong>. You have to tell how many pairs <strong>(i, j)</strong> exist such that <strong>1 \u2264 i &lt; j \u2264 N</strong> and <strong>A<sub>i</sub> XOR A<sub>j</sub></strong> is <strong>odd</strong>.</p>\n<p><strong>Input and Output</strong>   <br /><br />\nFirst line <strong>T</strong>, the number of testcases. Each testcase: first line <strong>N</strong>, followed by <strong>N</strong> integers in next line. For each testcase, print the required answer in one line. </p>\n<p><strong>Constraints</strong>    <br /><br />\n1 \u2264 T \u2264 10 <br /><br />\n1 \u2264 N \u2264 10<sup>5</sup>    <br /><br />\n0 \u2264 A<sub>i</sub> \u2264 10<sup>9</sup>    </p>\n<p><br /><b>Sample Input:</b><br />\n<br />2<br />\n<br />3<br />\n<br />1 2 3<br />\n<br />4<br />\n<br />1 2 3 4<br /><br />\n<br /><b>Sample Output:</b><br />\n<br />2<br />\n<br />4</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeERA",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426162923,
+        "end_date": 1426314600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426314600,
+        "submit_start_date": 1426162923,
+        "current": 1537436601
+    },
+    "problem_author_html_handle": "akhil62",
+    "problem_name": "I D K XOR",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/akhil62'>akhil62</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "akhil62",
+    "contest_code": "CDER2015",
+    "max_timelimit": "1",
+    "problem_code": "EXORO"
+}

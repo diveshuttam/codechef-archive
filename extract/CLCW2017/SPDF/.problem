@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>On the planet Rajpath, the way electrons are configured in an atom is similar to our planet Earth.\nEach atom has a configuration that follows a modified version of Aufbau's principle.<br>\n<img src=\"http://res.cloudinary.com/abizerlokhandwala/image/upload/v1504268237/aufbau1_bza4uq.png\" style=\"width:550px;height:600px\" ></img>\n<br>\nHere, its configuration order is 1s->2s->2p->3s->3p->4s->3d->4p->5s->4d->5p->6s.... and it goes on as shown in the image.<br>\nOn Rajpath, there exist only 4 orbitals, s, p, d, and f.<br>\nThe f orbital starts with 4f, d starts with 3d, p starts with 2p, and s starts with 1s.<br>\nEach combination of a number and an orbital character has a unique index, as given in the image (in the circle).<br>\nShubham fell in love with a girl on Earth, and she agreed to go out (of space) with him if he could solve her problem.<br>\nShe gives him an integer <b>N</b>, and a character <b>c</b>, where <b>c</b> is either 's','p','d' or 'f'.<br>\nShubham has to tell her the index of the particular combination of <b>N</b> and <b>c</b> <br>\n<br>\n<p><h3>Input</h3>\nFirst line contains <b>T</b>, number of test case.<b>T</b> test cases follow.<br>\nFirst line of each testcase contains a space seperated integer <b>N</b> and a character <b>c</b>.\n</p>\n\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>For each test case, output a single line containing the index of the combination of <b>N</b> and <b>c</b>.<br>\n</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<p><b>c</b> is always <b>s</b>,<b>p</b>,<b>d</b> or <b>f</b><br>\n<b>1</b> \u2264 <b>N</b> \u2264 <b>10^5</b>\n<b>1</b> \u2264 <b>T</b> \u2264 <b>100</b>\n \n</p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n8 s\n7 p\n13 s\n100 d\n<b>Output:</b>\n20\n19\n40\n394\n</pre>\n<p>\u00a0</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-09-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Clash Credenz 2017 Wildcard",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1504279800,
+        "end_date": 1504294200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1504294200,
+        "submit_start_date": 1504279800,
+        "current": 1537433601
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>abizerl123</span>",
+    "problem_name": "Shubham and his Orbital Theory",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abizerl123'>abizerl123</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abizerl123",
+    "contest_code": "CLCW2017",
+    "max_timelimit": "1",
+    "problem_code": "SPDF"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h2 id=\"sec1\">Introduction</h2>\n<ul class=\"itemize\">\n    <li class=\"li-itemize\">\n        Line up according to\u00a0height! \u2013 thundered the\u00a0Major.\n    </li>\n    <li class=\"li-itemize\"> Good. Slow, but good. And now line up according to\u00a0age.\n    </li>\n    <li class=\"li-itemize\"> Too long! It\u2019s taking too long, you sad sacks! Again \u2013 now line up according to\u00a0height and\n        age at the\u00a0same time!\n    </li>\n    <li class=\"li-itemize\"> But Major, I don\u2019t think that\u2019s possible...\n    </li>\n    <li class=\"li-itemize\"> An\u00a0order is an\u00a0order! If you can\u2019t do it in\u00a0one row, form more than one! Do I always have\n        to\u00a0think for\u00a0you?!\n    </li>\n</ul>\n<p></p>\n\n<h2 id=\"sec3\">Problem</h2>\n<p>\n    Propose how to\u00a0organize the\u00a0soldiers into rows. The\u00a0privates, not wanting to\u00a0irritate the\u00a0Major further, must form\n    as few rows as possible.</p>\n\t\n<h2 id=\"sec5\">Input data</h2>\n<p>\n    The\u00a0first line of\u00a0a test set includes one integer <b>T</b> denoting the\u00a0number\n    of\u00a0tests.\n    Description of\u00a0each test consists of\u00a0information regarding the\u00a0privates.</p>\n<p>The\u00a0first line of\u00a0the\u00a0description of\u00a0each test includes one integer <b>N</b>,\n    denoting the\u00a0number of\u00a0privates.\n    Each of\u00a0the next two lines consists of\u00a0<b>N</b> different integers separated with\n    single spaces.\n    The numbers are the\u00a0unique identifiers of\u00a0the privates.\n    The first line, with\u00a0numbers <b>a</b><sub>1</sub>, <b>a</b><sub>2</sub>, \u2026, <b>a</b><sub><b>N</b></sub>, represents the\u00a0order of\u00a0soldiers taking into account the\u00a0height\n    criterion.\n    The second line, with\u00a0numbers <b>b</b><sub>1</sub>, <b>b</b><sub>2</sub>,\n    \u2026, <b>b</b><sub><b>N</b></sub>, represents the\u00a0order\n    of\u00a0soldiers sorted according to\u00a0the\u00a0age criterion.</p>\n\n            <table class=\"cellpading0\">\n                <tr>\n                    <td>\u00a0</td>\n                    <td>1\u00a0\u2a7d\u00a0<b>T</b>\u00a0\u2a7d\u00a010\u00a0\n                    </td>\n                </tr>\n                <tr>\n                    <td>\u00a0</td>\n                    <td>1\u00a0\u2a7d\u00a0<b\n                           >N</b>\u00a0\u2a7d\u00a010<sup>6</sup>\u00a0\n                    </td>\n                </tr>\n                <tr>\n                    <td>\u00a0</td>\n                    <td>1\u00a0\u2a7d\u00a0<b>a</b><sub><b>i</b></sub>,\u00a0<b>b</b><sub><b>i</b></sub>\u00a0\u2a7d\u00a0<b>N</b>\u00a0\n                    </td>\n                </tr>\n                <tr>\n                    <td>\u00a0</td>\n                    <td><b>i</b>\u00a0\u2260\u00a0\n                        <b>j</b>\u00a0\u21d2\u00a0(<b>a</b><sub><b>i</b></sub>\u00a0\u2260\u00a0<b>a</b><sub><b>j</b></sub>\u00a0\u2227\u00a0<b>b</b><sub><b>i</b></sub>\u00a0\u2260\u00a0<b>b</b><sub><b>j</b></sub>)\n                    </td>\n                </tr>\n            </table>\n<p></p>\n\n<h2 id=\"sec8\">Output data</h2>\n<p>\n    For each test give any arrangement of\u00a0all soldiers into as few rows as possible,\n    privates being sorted in\u00a0each row according to\u00a0both height and age.</p>\n<p>The first output line should consist of\u00a0one integer <b>K</b>, denoting the\u00a0number\n    of\u00a0rows.\n    Each of\u00a0the following <b>K</b> lines should describe one row. Description of\u00a0a\n    single row consists of\u00a0the number\u00a0<b>R</b>,\n    denoting the\u00a0number of\u00a0soldiers in\u00a0a given row\n    and then <b>R</b> different numbers \u2013 soldiers\u2019 identifiers in\u00a0a given row. Each\n    soldier must\n    be included in\u00a0exactly one of\u00a0the output rows. Soldiers\u2019 identifiers must be separated with single spaces.</p>\n\t\n<h2 id=\"sec10\">Example</h2>\n<p>\n    For the\u00a0input data:\n</p>\n<pre><code>2\n6\n1 2 3 4 5 6\n2 3 6 1 4 5\n5\n3 4 1 5 2\n4 5 3 2 1\n</code></pre>\n<p></p>\n\n<p>\n    The correct answer is:\n</p>\n<pre><code>2\n3 2 3 6\n3 1 4 5\n2\n3 4 5 2\n2 3 1\n</code></pre>\n<p></p>\n\n<h2 id=\"sec13\">Score</h2>\n<p>\n    If the\u00a0following conditions are satisfied:\n</p>\n<ul class=\"itemize\">\n    <li class=\"li-itemize\">\n        output data is in\u00a0the correct format,\n    </li>\n    <li class=\"li-itemize\">all soldiers are correctly organized into rows according to\u00a0both the\u00a0height criterion and\n        the\u00a0age criterion,\n    </li>\n    <li class=\"li-itemize\">there is a\u00a0minimum number of\u00a0rows,\n    </li>\n</ul>\n<p>\n    the score for\u00a0the\u00a0set is 10.\n    Otherwise the\u00a0score is 0.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-01-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Replay of Deadline24 2017 Qualifying Round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, kotlin, TEXT, SCM chicken, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1518188400,
+        "end_date": 1518199200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1518199200,
+        "submit_start_date": 1518188400,
+        "current": 1537433041
+    },
+    "problem_author_html_handle": "deadline24",
+    "problem_name": "Row",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/deadline24'>deadline24</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "deadline24",
+    "contest_code": "DEAD2018",
+    "max_timelimit": "1",
+    "problem_code": "DL2017A"
+}

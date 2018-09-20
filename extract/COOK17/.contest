@@ -1,0 +1,87 @@
+{
+    "announcements": "<p><b>18/12/11 10:30 PM (IST):</b> In the problem CIELBTL, \"An input contains 5 integers VA, SA, VB, SB and MA.\" should be \"An input contains 5 integers VA, VB, SA, SB and MA.\" This has been fixed.</p>\r\n<p><b>18/12/11 09:40 PM </b><b> (IST)</b><b>:</b> The rankings of the contest can be viewed here: <b><a href=\"/rankings/COOK17\">http://www.codechef.com/rankings/COOK17</a></b></p>\r\n<p><b>18/12/11 09:38 PM</b><b> (IST)</b><b>:</b> The problems are visible now. We are extending the contest by 10 minutes. We are really sorry for the trouble. The contest will now end of at 00.10 hours India Standard Time.</p>\r\n<p><b>18/12/11 09:32 PM</b><b> (IST)</b><b>:</b> The problem statements are not appearing. We are looking into it. They will be up shortly.</p>",
+    "ip": "149.129.135.113",
+    "code": "COOK17",
+    "duration": "160",
+    "name": "December Cook-Off",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>The December Cook-off has ended.</b></p> <p><b>You can view the editorials for the contest <a href=\"/wiki/december-2011-cook-problem-editorials\">here</a>.</b></p> <p><b><span> </span></b></p> <p><b><b>The Winners blog can be viewed <a href=\"http://blog.codechef.com/2011/12/19/and-we-bid-adieu-to-this-year-with-a-great-cook-off/\" target=\"_blank\">here</a>.</b></b></p> <p><b><b>All the solutions for the problem set are public.</b></b></p> <p><b> </b></p> <p><b><b>------------------------------------------------------------</b></b></p> <p><b> </b></p> <div><b> <p>\u00a0</p> <p><span><b>Rules:</b></span></p> <p><b><span><b> </b></span></b></p> <p class=\"MsoNoSpacing\"><b><b><b>In case you are a new user, you will need to first register for a CodeChef ID\u00a0<a href=\"/user/register/\">here</a>.</b></b></b></p> <p><b><b> </b></b></p> <p><b> </b></p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\" target=\"_blank\">feedback@codechef.com</a></li> <br /> <li>You can also send in your queries in an email to\u00a0<a href=\"mailto:contest-admin@codechef.com\" target=\"_blank\">contest-admin@codechef.com</a>, during the contest.</li> <br /> <li>Contest problems will become visible on December 18th, 2011 at 21:30 (IST). There will be 5 problems in all.</li> <br /> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <br /> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <br /> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> </ul> </b></div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COOK17/1424964333.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CIEL8STR": {
+            "allow_submission": false,
+            "name": "Ciel and New Menu",
+            "category_name": "main",
+            "accuracy": 10.6,
+            "successful_submissions": "216",
+            "code": "CIEL8STR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CIELAB": {
+            "allow_submission": false,
+            "name": "Ciel and A-B Problem",
+            "category_name": "main",
+            "accuracy": 44.35,
+            "successful_submissions": "642",
+            "code": "CIELAB",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CIELQUIZ": {
+            "allow_submission": false,
+            "name": "Ciel and Quiz Game",
+            "category_name": "main",
+            "accuracy": 5.94,
+            "successful_submissions": "19",
+            "code": "CIELQUIZ",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CIELWALK": {
+            "allow_submission": false,
+            "name": "Ciel and Random Walk",
+            "category_name": "main",
+            "accuracy": 1.52,
+            "successful_submissions": "1",
+            "code": "CIELWALK",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CIELBTL": {
+            "allow_submission": false,
+            "name": "Ciel and Battle Arena",
+            "category_name": "main",
+            "accuracy": 20.69,
+            "successful_submissions": "12",
+            "code": "CIELBTL",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1324233600,
+        "current": 1537439065,
+        "freezing": 0,
+        "start": 1324224000
+    },
+    "user": {
+        "username": ""
+    }
+}

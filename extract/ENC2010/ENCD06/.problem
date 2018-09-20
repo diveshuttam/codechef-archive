@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>You are Given a 2-dimensional array of positive and negative integers, find the sub-rectangle with the largest sum. The sum of a rectangle is the sum of all the elements in that rectangle. The sub-rectangle with the largest sum is referred to as the Best sub-rectangle. A sub-rectangle is any contiguous sub-array of size 1*1 or greater located within the whole array. As an example, the maximal sub-rectangle of the array: \n<pre>\n                            0  -2  -7  0\n\t\t 9   2  -6  2 \n\t\t-4   1  -4  1\n\t\t-1   8   0 -2\n</pre>\nis\n<pre>\n                            9  2\n\t\t-4  1 \n\t\t-1  8\t\n\n</pre>\nwhich is in the lower-left-hand corner, and has the sum of 15.\n\n\n<h3>Input</h3>\n<p>The input consists of several test cases. The input begins with a single positive integer N on a line by itself indicating the size of the square two dimensional array. This is followed by Integer values for the square. These integers make up the array in row-major order (i.e., all numbers on the first row, left-to-right, then all numbers on the second row, left-to-right, etc.). N may be as large as 100. The numbers in the array will be in the range [-127, 127]. Terminate the input with N=0.\n\n<h3>Output</h3>\n<p>The output is the sum of the maximal sub-rectangle.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n4\n0 -2 -7  0 \n9  2 -6  2\n-4  1 -4  1 \n-1  8  0 -2\n0\n<b>Output:</b>\n15\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Encoder 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1264321800,
+        "end_date": 1264350600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180167,
+        "submit_start_date": 1264321800,
+        "current": 1537439810
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rscrbv</span>",
+    "problem_name": "Best Rectangle",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rscrbv'>rscrbv</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rscrbv",
+    "contest_code": "ENC2010",
+    "max_timelimit": "0.78481",
+    "problem_code": "ENCD06"
+}

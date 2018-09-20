@@ -1,0 +1,33 @@
+{
+    "problem_code": "PREE03",
+    "problem_author": "ratish1992",
+    "contest_name": "./ Execute 2013",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>ratish1992</span>",
+    "problem_name": "Shop Associations",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "DSEC2013",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/desc2013'>desc2013</a>, <a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/ratish1992'>ratish1992</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h2>Problem Statement</h2>\n<p>\nHimesh, who is the student of NITJ went to buy textbooks from market. In the market the shops are arranged in a serial order each at a distance of 1m. Each shop has its own price for the textbook. The shop from which he has bought are categorised as type I. The shop from which he has not brought are categorised as type II. <br/><br />\nEach shop has initially its own association. One assosciation will merge with another assosciation to form a new assosciation if the shops in both assosciations are of same type (i.e either of type I or type II) and there exists any two shops in the merging assosciations(one in each), distance between whome is 1m.<br/><br />\nAt the end, Himesh should be left with one assosciation of type I (i.e all the shops in that assosciation should be of type I) and  with maximum of 2 assosciation of type II (i.e all the shops in that assosciation should be of type II).<br/><br />\nHimesh wants you to help him to maximise the the sum of the prices by shops of asscosciation of type I by helping him choosing the shops to pick for buying the book. You should provide him the desired sum.\n</br/></br/></br/></p>\n<h3>Input</h3>\n<p>First line contain single integer T - the number of test cases. T test cases follow. First line of each test case contains single integer n - number of shops, next line contains n single spaced integers representing price of each shop.\n</p>\n<h3>Output</h3>\n<p>In T lines print T integers - the answers for the corresponding test cases i.e the desied sum</p>\n<h3>Constraints</h3>\n<pre>\n1 &lt;= T &lt;= 1000\n1 &lt;= n &lt;= 7000\n-2000 &lt;= prices&lt;= 2000\n</pre><h3>Example</h3>\n<h4>Input:</h4>\n<pre>\n1\n3\n-1 3 3\n</pre><h4>Output:</h4>\n<pre>\n6\n</pre>",
+    "category_name": "main",
+    "date_added": "12-10-2013",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.696",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/PREE03",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1381764600,
+        "end_date": 1381937400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1381937400,
+        "submit_start_date": 1381764600,
+        "current": 1537438112
+    },
+    "user": {
+        "username": ""
+    }
+}

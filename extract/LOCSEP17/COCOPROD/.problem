@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>A mall has <b>N</b> coconut production device numbered from <b>1</b> to <b>N</b>.\nEach device has a multiplier number associated with it. <b>A<sub>i</sub></b> is the multiplier for the <b>i<sup>th</sup></b> device.\nIf one coconut is put into device <b>i</b>, then it produces <b>A<sub>i</sub></b> coconuts. \nAshish has <b>X</b> coconuts but his friend wants exactly <b>Y</b> coconuts on his birthday. Help Ashish to guess if he can obtain exactly <b>Y</b> coconuts from <b>X</b> coconuts using the production devices.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n\n<p>For each test case, first line contains a single integer <b>N</b>, the number of production devices. </br>\nNext line contains two space separated integers <b>X</b> and <b>Y</b>.</br>\nNext line contains <b>N</b> spaced integers, <b>A<sub>1</sub>A<sub>2</sub> . . A<sub>N</sub></b></p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>Print \"POSSIBLE\" if Ashish can obtain exactly Y coconuts from X coconuts using the production devices.<br/> Otherwise print \"IMPOSSIBLE\"</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<b>Subtask 1: 30 points</b><br/>\n<p><b>1</b> \u2264 <b>N</b> \u2264 <b>10</b></br></p>\n<b>Subtask 2: 70 points</b><br/>\n<p><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></br></p>\n<p>\n<b>For both subtasks:</b><br/>\n<b>1</b> \u2264 <b>Ai</b> \u2264 <b>10<sup>9</sup></b><br/>\n<b>0</b> &lt; <b>X</b> &lt; <b>Y</b> \u2264 <b>10<sup>9</sup></b><br/>\n<b>1</b> \u2264 <b>Y - X</b> \u2264 <b>10<sup>4</sup></b></p>\n<p>\u00a0</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n27 34\n1 3 5 7\n\n<b>Output:</b>\nIMPOSSIBLE\n</pre>\n<p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-09-2017",
+    "is_direct_submittable": false,
+    "contest_name": "LoC Sep 2017",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1506709800,
+        "end_date": 1506969000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1506969000,
+        "submit_start_date": 1506709800,
+        "current": 1537433528
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>wittyceaser</span>",
+    "problem_name": "Coconut Production",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/wittyceaser'>wittyceaser</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "wittyceaser",
+    "contest_code": "LOCSEP17",
+    "max_timelimit": "1 - 3",
+    "problem_code": "COCOPROD"
+}

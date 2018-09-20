@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Problem description.</p>\n<p>\u00a02 players A and B are playing a game taking turns alternatively.They are given an array of 'N' numbers : X[1],X[2].....X[N] .. <br /> During each turn , the player selects an index 'i' &lt;= (N/2) such that X[i] > 0 ,<br />\nsubtracts 1 from X[i] and adds 1 to either X[2*i],X[3*i] or X[5*i] ( Obviously the index to which the player is adding should be less than or equal to N ) . <br />Player A starts the game and makes the first move.The player who can't make a move loses the game.<br /> Both the players are playing optimally. Determine the winner of this game.</p>\n<h3>Input</h3>\n<p>Input description.</p>\n<ul>\n<li>The first line of the input contains an integer N </li>\n<li>Next line contains N integers X[1],X[2], ..... X[N]</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Output description.</p>\n<ul>\n<li>Output a single line containing the winner : \"A\" or \"B\".</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100000</b></li>\n<li><b>0</b> \u2264 <b>X[1],X[2].....X[N]</b> \u2264 <b>1000000000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example 1</h3>\n<pre><b>Input:</b>\n5<br />\n0 0 1 0 0<br />\n\n<b>Output:</b>\nB\n</pre><h3>Example 2</h3>\n<pre><b>Input:</b>\n5<br />\n0 1 0 0 0<br />\n\n<b>Output:</b>\nA\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1 : </b> Player A can't make a move because X[1] = 0 and X[2] = 0. </p>\n<p><b>Example case 2 : </b> Player A has only 1 possible move ( X[2] = X[2] - 1 , X[4] = X[4]+1). After that the array becomes : 0 0 0 1 0 <br /> Now B can't make a move and hence B loses. Note that when A selected index i = 2 , both i*3,i*5 were greater than N and hence only 1 move was possible.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Apocalypse",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457533800,
+        "end_date": 1457551800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457551800,
+        "submit_start_date": 1457533800,
+        "current": 1537435228
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>kshitijbathla</span>",
+    "problem_name": "Array Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kshitijbathla'>kshitijbathla</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kshitijbathla",
+    "contest_code": "IPC15P3C",
+    "max_timelimit": "1",
+    "problem_code": "ARRGM"
+}

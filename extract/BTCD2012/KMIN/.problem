@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Jack and Jill got into a serious fight. Jack didn't not belive Jill when she said that her memory was far better than the others. He asked her to prove it as follows :- \n<ul>\n<li> Jack would dictate a long list of numbers to her. At any point after he has dictated  at least \"k\" numbers, he can ask her what is the k-th minimum number (the k-th number if the numbers are arranged in increasing order) in the list so far. </li>\n<li> She succeeds in proving herself if she can tell the k-th minimum number every time he asks. </li>\n<li> The number of queries (dictate a new number or ask her the k-th minimum of the numbers given till then) has to be pre-decided before he starts asking. </li>\n<p>\nJill succeeded in proving herself by convincing Jack quite a few times. Now, Jill remembered that Jack had claimed that he was good at programming. It's her turn to ask him to prove his skill. Jack doesn't want to lose to her and comes to you for help. He asks you to make the program for him. \n\n<h3>Input</h3>\n<p>Jill has agreed to let Jack decide the format of the input and here's what he has decided. First line of the input contains <b>n</b>, the number of queries. Next line contains <b>k</b>. Next n lines contain a query each, say <b>q</b>. If <b> q >= 0 </b> then the number is being 'dictated' to the system and needs to be remembered. If <b>q = -1</b>, then your program should return the <b>k-th minimum number presented so far </b>. It is given that 'q' can be -1 only if at least k numbers have already been given.\n\n<h3>Output</h3>\n<p> For every q = -1, you have to output the k-th minimum number given as input so far (not counting -1 as an input)\n\n<h3>Example</h3>\n\n<pre>\n<b>Input1:</b>\n6\n2\n3\n2\n-1\n-1\n1\n-1\n\n<b>Output1:</b>\n3\n3\n2\n</pre>\n\n<pre>\n<b>Input2:</b>\n10\n5\n3\n6\n1\n4\n2\n9\n3\n1\n0\n-1\n\n<b>Output2:</b>\n3\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-08-2012",
+    "is_direct_submittable": false,
+    "contest_name": "ByteCode 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1344781800,
+        "end_date": 1345991400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1655882067,
+        "submit_start_date": 1344781800,
+        "current": 1537438742
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rajatkhanduja</span>",
+    "problem_name": "Jack Vs Jill",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rajatkhanduja'>rajatkhanduja</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rajatkhanduja",
+    "contest_code": "BTCD2012",
+    "max_timelimit": "0.586667",
+    "problem_code": "KMIN"
+}

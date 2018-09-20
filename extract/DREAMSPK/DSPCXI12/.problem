@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>In a vacancy of three positions where the probablity of person in the front is the greatest to qualify, an intresting bribe scandal occurred. The first person,P1 managed to get first slots by bribing Rs B to his connection, the second, P2 payed the first person equal bribe, B to let him in the first position and first goes second. The third, P3 agrees to pay both P1 and P2, the amount they payed in bribe, hence position is now P3 P2 P1. Then the three arrive at a conclusion, for any new person coming for the front position, he has to pay bribe to front three positions, the amount they payed at their entry.</p>\n\n<p>Given the amount B, you need to find the bribe payed by the Nth briber.</p>\n\n<p>Problem Setter: <a href= \"http://www.facebook.com/shahzorkhan123\">Shahzor Khan</a></p>\n\n<h3>Input</h3>\n<p>First line gives the number of test cases,T(0<=T<=10000), followed by T lines.Each test case contain 2 integers B and N(described in the problem) seperated by a space.<br/>\n(0<=B<=1000)<br/>\n(0<=N<=1,000,000,000,000)</p>\n\n<h3>Output</h3>\n<p>For each case, print the amount of bribe payed by Nth briber mod 10000007.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n5\n1 0\n1 1\n1 2\n1 3\n1 4\n\n<b>Output:</b>\n0\n1\n1\n2\n4\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-04-2011",
+    "is_direct_submittable": false,
+    "contest_name": "The DreamSpark Contest -  Microsoft Software & Technology Club India",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1303050600,
+        "end_date": 1303068600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1303068600,
+        "submit_start_date": 1303050600,
+        "current": 1537439232
+    },
+    "problem_author_html_handle": "ganesha",
+    "problem_name": "The Colors of Corruption",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ganesha'>ganesha</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ganesha",
+    "contest_code": "DREAMSPK",
+    "max_timelimit": "0.385475",
+    "problem_code": "DSPCXI12"
+}

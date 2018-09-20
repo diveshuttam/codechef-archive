@@ -1,0 +1,33 @@
+{
+    "problem_code": "IITK1P09",
+    "problem_author": "admin2",
+    "contest_name": "IIT Kanpur, Monthly Programming Contest-1",
+    "todo": false,
+    "problem_author_html_handle": "admin2",
+    "problem_name": "Grid painting",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "WPC1401",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin2'>admin2</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/iitk'>iitk</a>, <a class='problem-tag-small ' href='/tags/problems/matrix-expo'>matrix-expo</a>, <a class='problem-tag-small ' href='/tags/problems/wpc'>wpc</a>, <a class='problem-tag-small ' href='/tags/problems/wpc1'>wpc1</a>, <a class='problem-tag-small ' href='/tags/problems/wpc1401'>wpc1401</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nYou have a rectangular grid of dimension N x M. You need to paint the grid with black or white color such that there is no rectangle of size X x Y having same color in each cell. Find the number of ways to paint the grid, modulo 1000000007.\n</p>\n<h3>Input</h3>\n<p>\nA single line containing 4 space separated integers, N, M, X and Y. </p>\n<h3>Output</h3>\n<p>\nA single line containing the answer modulo 1000000007\n</p>\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 X \u2264 3</li>\n<li>1 \u2264 N \u2264 10^6</li>\n<li>2 \u2264 Y \u2264 M </li>\n<li>If (X = 1), then M \u2264 10^3, no other constraint on N </li>\n<li>If (X = 2), then M \u2264 7, no other constraint on N </li>\n<li>If (X = 3), then N \u2264 8, M \u2264 5</li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2 2 1 2\n<br />\n<b>Output:</b>\n4\n<br />\n\n</pre>",
+    "category_name": "main",
+    "date_added": "30-09-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "7",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/IITK1P09",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1412083800,
+        "end_date": 1412101800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1412101800,
+        "submit_start_date": 1412083800,
+        "current": 1537437400
+    },
+    "user": {
+        "username": ""
+    }
+}

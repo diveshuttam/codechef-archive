@@ -1,0 +1,154 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "LOCJUL16",
+    "duration": "5759",
+    "name": "July LoC Competitive Programming Marathon",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "LEVENSUB": [
+            {
+                "score": "20",
+                "count": "18"
+            },
+            {
+                "score": "50",
+                "count": "135"
+            },
+            {
+                "score": "80",
+                "count": "6"
+            },
+            {
+                "score": "100",
+                "count": "662"
+            }
+        ],
+        "NUMHOLMS": [
+            {
+                "score": "10",
+                "count": "72"
+            },
+            {
+                "score": "90",
+                "count": "8"
+            },
+            {
+                "score": "100",
+                "count": "241"
+            }
+        ],
+        "PROGCOMP": [
+            {
+                "score": "30",
+                "count": "96"
+            },
+            {
+                "score": "100",
+                "count": "505"
+            }
+        ],
+        "FORALN": [
+            {
+                "score": "30",
+                "count": "1"
+            },
+            {
+                "score": "70",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "516"
+            }
+        ],
+        "CHEFSPCL": [
+            {
+                "score": "30",
+                "count": "109"
+            },
+            {
+                "score": "100",
+                "count": "16"
+            }
+        ]
+    },
+    "rules": " <p><b class=\"rules-heading\">About the Contest:</b></p> <div class=\"rules-body\"> <ul class=\"\"> <li>The LoC Competitive Programming Marathon is targeted at Indian school students to improve their programming and competitive programming skills. The Marathon is scheduled to start in the month of February 2016 through November 2016 and dates of the contest in the respective months is mentioned in the link here. At the end of the marathon (in December 2016) a fully sponsored residential programming camp will be conducted by Amrita University at their Amritapuri Campus for the champions selected from this marathon contest. The winners will be honoured as a tribute to the top notch programmer from India \u2013 Harsha Suryanarayana (Lord Harsha).</li> <li><b>Organizer: </b>The contest is hosted by Amrita University in association with CodeChef.</li> <li><b>Registrations for prizes: </b><a href=\"https://goo.gl/No9Tvb\" target=\"_blank\">https://goo.gl/No9Tvb</a></li> <li><b>Prizes:</b> Know more details <a href=\"http://loc.amrita.ac.in/?page_id=38\" target=\"_blank\">here</a>.</li> </ul> </div> <p><b class=\"rules-heading\">Contest Details:</b></p> <div class=\"rules-body\"> <ul class=\"\"> <li><b>Duration: </b>4\u00a0days</li> <li><b>Start time: </b>29th July 2016, 00:00 hrs IST</li> <li><b>End time: </b>1st August 2016, 23:59 hrs IST.<br />You may check your timezone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+LOCJULY16&amp;iso=20160729T00&amp;p1=44\" target=\"_blank\">here</a>.</li> </ul> </div> <div class=\"rules-body\"></div> <p><br /> <b class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</b></p> <div class=\"rules-body\"> <p>Please go through this <a target=\"_blank\" href=\"http://loc.amrita.ac.in/?page_id=34\">link</a> to know the eligibility criteria. Also, all the participants are expected to abide to\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct.</a></p> </div> <p><br /> <b class=\"rules-heading\">Rules and Regulations:</b></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\"> feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li> <li>Please contact <a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a> for any queries during the contest.</li> </ul> <p><b class=\"rules-heading\">Judging Criteria:</b></p> <ul class=\"\"> <li><b>All the problems will be partially graded and you will get score for passing certain test data . You will receive hundred (100) point for solving a problem (passing all test cases).</b></li> <li><b>The details of the failed test cases will also be visible on your solution page.</b></li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> </ul> <div class=\"\"><b>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a target=\"_blank\" href=\"/ide\">Online IDE</a>.</b><br /> However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/LOCJUL16/1469727956.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "LEVENSUB": {
+            "allow_submission": false,
+            "name": "Longest Even Subarray",
+            "category_name": "main",
+            "accuracy": 20.26,
+            "successful_submissions": "662",
+            "code": "LEVENSUB",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "NUMHOLMS": {
+            "allow_submission": false,
+            "name": "Sherlock Holmes and Numbers",
+            "category_name": "main",
+            "accuracy": 10.59,
+            "successful_submissions": "241",
+            "code": "NUMHOLMS",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "PROGCOMP": {
+            "allow_submission": false,
+            "name": "Arranging teams in a programming competition",
+            "category_name": "main",
+            "accuracy": 31.3,
+            "successful_submissions": "505",
+            "code": "PROGCOMP",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "FORALN": {
+            "allow_submission": false,
+            "name": "Forever alone",
+            "category_name": "main",
+            "accuracy": 34.9,
+            "successful_submissions": "516",
+            "code": "FORALN",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHEFSPCL": {
+            "allow_submission": false,
+            "name": "Chef and Special Numbers",
+            "category_name": "main",
+            "accuracy": 4.84,
+            "successful_submissions": "16",
+            "code": "CHEFSPCL",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1470076140,
+        "current": 1537434711,
+        "freezing": 0,
+        "start": 1469730600
+    },
+    "user": {
+        "username": ""
+    }
+}

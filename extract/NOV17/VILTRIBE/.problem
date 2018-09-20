@@ -1,0 +1,33 @@
+{
+    "problem_code": "VILTRIBE",
+    "problem_author": "admin2",
+    "contest_name": "November Challenge 2017",
+    "todo": false,
+    "problem_author_html_handle": "admin2",
+    "problem_name": "Villages and Tribes",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "NOV17",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin2'>admin2</a>, <a class='problem-tag-small ' href='/tags/problems/cakewalk'>cakewalk</a>, <a class='problem-tag-small ' href='/tags/problems/nov17'>nov17</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Read problems statements in <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/NOV17/mandarin/VILTRIBE.pdf\">Mandarin chinese</a>, <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/NOV17/russian/VILTRIBE.pdf\">Russian</a> and <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/NOV17/vietnamese/VILTRIBE.pdf\">Vietnamese</a> as well.</h3>\n\n\n<p>There are <b>n</b> villages in a line in an area. There are two kinds of tribes A and B that reside there. A village can be either empty or occupied by one of the tribes. An empty village is said to be controlled by a tribe of village A if it is surrounded by villages of tribes A from the left and from the right. Same goes for the tribe B.</p>\n\n<p>Find out the number of villages that are either occupied by or controlled by tribes A and B, respectively.</p>\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases.</p>\n<p>The first line of the input contains a string <b>s</b> denoting the configuration of the villages, each character of which can be 'A', 'B' or '.'.</p>\n\n<h3>Output</h3>\n<p>For each test case, output two space-separated integers denoting the number of villages either occupied by or controlled by tribe A and B, respectively.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1 \u2264 T \u2264 20</b></li>\n<li><b>1 \u2264 |s| \u2264 10<sup>5</sup></b></li>\n</ul>\n\n<h3>Subtasks</h3>\n<ul>\n<li><b>Subtask #1</b> (40 points): <b>1 \u2264 |s| \u2264 10<sup>3</sup></b></li>\n<li><b>Subtask #2</b> (60 points): Original constraints</li>\n</ul>\n\n<h3>Example</h3>\n<pre>\n<b>Input</b>\n4\nA..A..B...B\n..A..\nA....A\n..B..B..B..\n\n<b>Output</b>\n4 5\n1 0\n6 0\n0 7\n</pre>",
+    "category_name": "main",
+    "date_added": "30-10-2017",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/VILTRIBE",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1509701400,
+        "end_date": 1510579800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1510579800,
+        "submit_start_date": 1509701400,
+        "current": 1537433345
+    },
+    "user": {
+        "username": ""
+    }
+}

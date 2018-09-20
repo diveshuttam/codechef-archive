@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nFenton Crackshell started his career as a bean counter, and later was hired by Scrooge due to his prodigious counting abilities. 'Fenton can count faster than the speed of sound but his judgment is not always sound'. When Scrooge says something about liquid assets, Fenton has the entire money bin dumped into a lake. Later, he advices Scrooge to have the assets frozen.\nScrooge feels that he should be kept away from money for some time but does not want him to be idle. Fenton is very strong in arithmetic (counting) but weak in geometry. So he gives him a large number of points not all in a line and tells him to find a line having only two points on it. Solving this problem might help Scrooge decide on where to open his next gold mines to avoid interference with his rival Flintheart.\nHelp Fenton accomplish the task and get back to working with arithmetic problems with which he is comfortable.\n\n<h3>Input</h3>\n<p>\nNumber of test cases\nFor each test case:\nA test case first specifies the number of points n. The next n lines specify n points. Each point is specified by x-co-ordinate and y-co-ordinate in format <x co-ordinate> <y co-ordinate>\n\n<h3>Output</h3>\n<p>\nOutput 1 line for each test case. Print 4 numbers, specifying 2 points through which the line passes, as follows\n<Point1 x co-ordinate>  <Point1 y co-ordinate>  <Point2 x co-ordinate>  <Point2 yco-ordinate>\nIf no such line exists, output\n-1 -1 -1 -1\nNote: All points have x>=0 & y>=0\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n5\n0 0\n1 0\n1 1\n0.5 1.5\n0 1\n\n\n<b>Output:</b>\n0 0 0 1\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Technical Blitzschlag",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1264876200,
+        "end_date": 1264962600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180170,
+        "submit_start_date": 1264876200,
+        "current": 1537439759
+    },
+    "problem_author_html_handle": "vishesh_sigma",
+    "problem_name": "Problem 2",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vishesh_sigma'>vishesh_sigma</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vishesh_sigma",
+    "contest_code": "TBS102",
+    "max_timelimit": "50",
+    "problem_code": "CME02"
+}

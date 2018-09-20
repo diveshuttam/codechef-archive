@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Identify the logic behind the series:</p>\n<p>7, 31, 71, 127, 199, 287 &hellip;</p>\n<p>Create a pattern using numbers in the above series. The lower part of the pattern will be the widest and will stop narrowing as it goes upwards. Each row has one element more than the row above it. The maximum width of the pattern is 'T', which is decided by the input. In other words, there will be 'T' elements in the bottom row of the pattern.</p>\n<p><strong>Construction of the triangular tomb follows the given set of rules:</strong><br />1) Top of the pattern should contain the first number of the series<br />2) The last T numbers of the series will be contained in the last row, with the Tth number being the last element of the row<br />3) If the number is less than five digits, it has to be padded with zeroes for the perfect shape.</p>\n<p><strong>INPUT</strong>:<br />Only one integer that signifies 'T'</p>\n<p><strong>OUTPUT</strong>:<br />Required pattern.</p>\n<p><strong>CONSTRAINTS</strong>:<br />0 &lt;= T &lt;= 13</p>\n<p><strong>SAMPLE INPUT 1</strong>:<br />2</p>\n<p><strong>SAMPLE OUTPUT 1</strong>:</p>\n<p><span class=\"s1\">00007</span></p>\n<p class=\"p1\"><span class=\"s1\">00031 00071</span></p>\n<p><strong>SAMPLE INPUT 2</strong>:<br />3</p>\n<p><strong>SAMPLE OUTPUT 2</strong>:</p>\n<p class=\"p1\"><span class=\"s1\">00007</span></p>\n<p class=\"p1\"><span class=\"s1\">00031 00071</span></p>\n<p class=\"p1\"><span class=\"s1\">00127 00199 00287</span></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "UEMCO",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1509287400,
+        "end_date": 1509298200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1509298200,
+        "submit_start_date": 1509287400,
+        "current": 1537433392
+    },
+    "problem_author_html_handle": "uemco2017",
+    "problem_name": "LOGICAL Pattern",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/uemco2017'>uemco2017</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "uemco2017",
+    "contest_code": "UEMC2017",
+    "max_timelimit": "1",
+    "problem_code": "UEMCOSA2"
+}

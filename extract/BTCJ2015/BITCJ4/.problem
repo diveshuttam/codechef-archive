@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>You are given a string <b>X</b> consisting of lowercase alphabets. You are required to generate the <b>largest</b> string <b>Y</b> from <b>X</b> by following the given instructions below:</p>\n<ul>\n<li>frequency(<b>Y[i]</b>) in <b>X</b> >= frequency(<b>Y[j]</b>) in <b>X</b>, where <b> 1&lt;=j&lt;=i-1 </b> and frequency(<b>c</b>) in <b>X</b> denotes the the number of occurrences of the letter <b>c</b> in the string <b>X</b>.\n</li><li>ASCII(<b>Y[i]</b>) > ASCII(<b>Y[j]</b>), where <b>1&lt;=j&lt;=i-1</b>.</li>\n</ul>\n<p><br /><br />\nIf there are multiple such strings <b>Y</b>, then you are required to <i>print the lexicographically smallest string among them.</i></p>\n<p><b>Note: </b> All strings are indexed from <b>1</b>. </p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first line of each test case contains a single string <b>X</b></li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing the string <b>Y</b> as described above.</li>\n</ul>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b> 1000 </b></li>\n<li><b>1</b> \u2264 <b>Length of X</b> \u2264 <b> 1000 </b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\ncodejam\nbirlainstituteoftechnology\nrrramu\n<b>Output:</b>\nacdejmo\nabcfghlnot\namr\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-04-2015",
+    "is_direct_submittable": false,
+    "contest_name": "BIT Codejam",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1428422400,
+        "end_date": 1428431400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1428431400,
+        "submit_start_date": 1428422400,
+        "current": 1537436404
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>nims11</span>",
+    "problem_name": "Yet Another Problem On Strings",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nims11'>nims11</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nims11",
+    "contest_code": "BTCJ2015",
+    "max_timelimit": "1",
+    "problem_code": "BITCJ4"
+}

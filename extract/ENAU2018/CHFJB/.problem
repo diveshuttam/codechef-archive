@@ -1,0 +1,33 @@
+{
+    "problem_code": "CHFJB",
+    "problem_author": "horsbug98",
+    "contest_name": "Encoding August '18",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>horsbug98</span>",
+    "problem_name": "Chef at Job",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ENAU2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aparup_ghosh'>aparup_ghosh</a>, <a class='problem-tag-small ' href='/tags/problems/encoding'>encoding</a>, <a class='problem-tag-small ' href='/tags/problems/horsbug98'>horsbug98</a>, <a class='problem-tag-small ' href='/tags/problems/horsbug98'>horsbug98</a>, <a class='problem-tag-small ' href='/tags/problems/primes'>primes</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Chef is new to job. At his new job, there are few instructions one has to follow :-</p>\n<ol type = \"1\">\n<li>An employee is given <b>N</b> works at once and asked to finish the job within <b>N</b> days.</li>\n<li>To ensure the quality of work, the employees are warned not to complete <b>N</b> works in a single day.</li>\n<li>Since every work is given equal importance, they want every employee to perform equal number of work everyday.</li>\n</ol>\n<p></p>\n<p>An employee is given extra payment if he/she is able to complete <b>N</b> works before <b>N</b> days(atmost one can take <b>N-1</b> days). </p>\n\n<p>Being a disciplined Chef, he will not disobey any of the instructions at his new job. At the same time, our Chef is determined not to lose any extra payment. Our Chef, being quite reputed, has options at hand to join other jobs. He leaves the job and joins a new job if he loses extra payment.</p>\n<p></p>\n<p>Help find Chef the number of ways available to Chef to accomplish the <b>N</b> given works with extra payment.</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains single integer <b>T</b>, denoting the number of test cases. Then <b>T</b> test cases follow.</li>\n<li>The only line of each test case contains <b>N</b>, the number of works given to Chef.</li>\n</ul>\n<h3>Output</h3>\n<p>For each test, output the number of ways available to Chef to accomplish the <b>N</b> given works in a single line. If our Chef leaves the job output <b>-1</b>.</p>\n<h3>Constraints </h3>\n<ul>\n<li>1 \u2264 <b>T</b> \u2264 1000000</li>\n<li>2 \u2264 <b>N</b> \u2264 10000</li>\n</ul>\n<p></p>\n<h3>Example</h3>\n<b>Input</b><p></p>\n2<p></p>\n2<p></p>\n4<p></p>\n<b>Output</b><p></p>\n-1<p></p>\n1<p></p>\n<b>Explanation</b>\n<pre><b>Test case 1: N</b> = 2\nBy the instructions given at his new job, Chef has to finsh work within <b>2</b> days, but cannot finish work in <b>1</b> day.\nChef is determined not to lose any extra payment. So, he want to do the job, atmost in <b>1</b> day. \nBut, he is restricted from finishing the job in <b>1</b> day by the instructions.\nSo, he leaves the job. :(</pre>\n<p></p>\n<pre><b>Test case 2: N</b> = 4\nChef does <b>4</b> works in <b>2</b> days(<b>2</b> works per day).\nFor completing the <b>4</b> works before <b>4</b> days, Chef gets extra payment :).</pre>\n",
+    "category_name": "main",
+    "date_added": "3-08-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "1 - 2",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/CHFJB",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1533477600,
+        "end_date": 1533488400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1533488400,
+        "submit_start_date": 1533477600,
+        "current": 1537432182
+    },
+    "user": {
+        "username": ""
+    }
+}

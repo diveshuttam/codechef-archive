@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>In a class of <strong>B</strong> students, the teacher wishes to distribute <strong>N!</strong> [ <a href=\"http://en.wikipedia.org/wiki/Factorial\">Factorial</a>(N) ] oranges, such that each one of them gets equal number of oranges.<br /><br />\nThe teacher, being a lazy person, wants to give away oranges such that she has to take minimum number of them back with her.<br /><br />\nYour job is to help the teacher to determine, given <strong>N</strong> and <strong>B</strong>, whether the number of oranges received by each student is even or odd.<br /></p>\n<h3>Input Format :</h3>\n<p>First line contains <strong>T</strong>, the number of test cases. Next <strong>T</strong> lines follow, each line containing two space separated integers <strong>N</strong> and <strong>B</strong>. <br /><br /></p>\n<h3>Output Format :</h3>\n<p>The output should contain <strong>T</strong> lines, one for each test case. If the output of a test case is even print \"<strong>Even</strong>\" (without quotes), otherwise print \"<strong>Odd</strong>\". <br /><br /></p>\n<h3>Constraints :</h3>\n<ul>\n<li>N &le; 10<sup>5</sup><br /></li>\n<li>0 &lt; B \u2264 10<sup>18</sup><br /></li>\n<li>0 &lt; T \u2264100<br /><br /></li>\n<h3>Sample Input :</h3>\n<p>2<br /><br />\n3 6<br /><br />\n2 1<br /><br /></p>\n<h3>Sample Output :</h3>\n<p>Odd<br /><br />\nEven<br /><br /></p>\n</ul>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-01-2014",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2014",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1393655400,
+        "end_date": 1393741800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1393741800,
+        "submit_start_date": 1393655400,
+        "current": 1537437752
+    },
+    "problem_author_html_handle": "iopc_admin",
+    "problem_name": "Fun with flooring factorial",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/iopc_admin'>iopc_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "iopc_admin",
+    "contest_code": "IOPC2014",
+    "max_timelimit": "3",
+    "problem_code": "IOPC14A"
+}

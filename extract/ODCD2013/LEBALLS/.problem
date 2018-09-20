@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Students in Thapar University like playing with balls.And like every student, Shivam also like playing with balls.He has a large collection of balls ,say <b>n</b>.They are numbered from 1 to n.They are kept in a sequential order in a rack.Now Shivam start picking up a ball from the rack(always in a sequential order) and starts keeping them in his pocket.At any point of time he can take out any number of balls(the balls inserted last are taken out first) and throw them away.But while throwing ,he records the number on the ball and notes them down.He does so till all the balls in the rack and hence in the pocket have been thrown away.Now he also likes giving challenges.Given a sequence  (order in which he has thrown balls away), you have to tell whether the given sequence is possible or not.\n</p>\n<h3>Input</h3>\n<p>First line contains the number of test cases T(T&lt;=15).Then T test cases follow.<br />\nEach test case consists of two lines.<br />\nFirst line consists of a single integer n(3&lt;=n&lt;=9),the number of balls.<br />\nSecond line consists of the given sequence.</p>\n<h3>Output</h3>\n<p>For every test case either output \"Yes\"(without quotes)\tif it's possible and \"No\"(without quotes) if it's not possible.</p>\n<h3>Example</h3>\n<pre><b>Input :</b> \n2\n4\n2314\n5\n15324\n\n<b>Output :</b>\nYes\nNo\n</pre>\n<h3>Explanation</h3>\n<p>For the first test case Shivam can take ball numbered 1 then ball numbered 2 into his pocket and then  throw 2 away .Then he can take ball numbered 3 into his pocket and throw it away and then also throw 1 away too.Then he takes the ball numbered 4 in the pocket and also throw it away.Hence the squence 2314 is possible.<br /></p>\n<p>For the second test case Shivam cannot throw ball number 3 before throwing ball number 4.Hence sequence is not possible.<br />\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-11-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Ode2Code 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1384612200,
+        "end_date": 1384633800,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1384633800,
+        "submit_start_date": 1384612200,
+        "current": 1537438009
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>atulsehgal</span>",
+    "problem_name": "Shivam And Balls",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/atulsehgal'>atulsehgal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "atulsehgal",
+    "contest_code": "ODCD2013",
+    "max_timelimit": "0.244444",
+    "problem_code": "LEBALLS"
+}

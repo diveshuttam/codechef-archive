@@ -1,0 +1,33 @@
+{
+    "problem_code": "ACM14KP4",
+    "problem_author": "admin",
+    "contest_name": "ACM-ICPC Asia-Kharagpur Site First Round Online Contest 2014",
+    "todo": false,
+    "problem_author_html_handle": "admin",
+    "problem_name": "Determine the Maximum Sum of Weights",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ACMKGP14",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acmkgp14'>acmkgp14</a>, <a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/fenwick'>fenwick</a>, <a class='problem-tag-small ' href='/tags/problems/medium-hard'>medium-hard</a>, <a class='problem-tag-small ' href='/tags/problems/segment-tree'>segment-tree</a>",
+    "body": "<p>You are given an undirected tree with <b>n</b> nodes numbered from 1 to <b>n</b> and <b>m</b> weighted tree paths.</p>\n\n<p>If two tree paths share <b>at least one</b> common node, they are forbidden to be selected together, that is, only non-intersecting tree paths are allowed to be selected</p>\n\n<p>Your task is to select a set of tree paths such that the sum of their weights is maximized.</p>\n\n<h3>Input</h3>\n<p>The first line contains an integer <b>T</b> indicating the number of test cases.</p>\n<p>For each test case, the first line contains <b>n</b> indicating the number of nodes. </p>\n<p>Following <b>n-1</b> lines describe the tree. Each line contains two integer <b>a, b</b>, which represents an edge between node <b>a</b> and node <b>b</b>.</p>\n<p>The next line contains an integer <b>m</b>, the number of the tree paths.</p>\n<p>Next <b>m</b> lines contains three integers <b>a, b, c</b>, (<b>a!=b</b>), which represents a tree path from node <b>a</b> to node <b>b</b> and its weight is <b>c</b>.\n\n<h3>Output</h3>\n<p>Output <b>T</b> lines in total. Each line starts with \"Case #: \" and followed by the maximum sum of weights. Here \"#\" is the number of the test case starting from 1.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b>\n<li><b>1</b> \u2264 <b>n, m</b> \u2264 <b>100000</b>\n<li><b>1</b> \u2264 <b>a, b</b> \u2264 <b>n</b>\n<li><b>1</b> \u2264 <b>c</b> \u2264 <b>10000</b>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n7\n1 2\n1 3\n2 4\n2 5\n3 6\n3 7\n3\n4 7 10\n2 5 6\n6 7 5\n\n<b>Output:</b>\nCase 1: 11\n\n</pre>\n",
+    "category_name": "main",
+    "date_added": "19-09-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/ACM14KP4",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1413621000,
+        "end_date": 1413631800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1724617993,
+        "submit_start_date": 1413621000,
+        "current": 1537437314
+    },
+    "user": {
+        "username": ""
+    }
+}

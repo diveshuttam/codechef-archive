@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Problem description.</p>\n<p> The problem statement is simple ,  you are given an array  and you have to perform two types of operation on it.</p>\n<p>Type 1 : update the value of array at the given index.\n</p>\n<p>Type 2 : find the maximum sum you can obtained in the given range ( L , R ) by taking any two  index  i and j , such that  ( L &lt;= i , j &lt;= R )  and one of them is at odd position and other is at even positon. </p>\n<h3>Input</h3>\n<p>Input description.</p>\n\n<ul>\n<li> The first line of the input contains an integer <b>N</b> and <b>Q</b> denoting the size of array and number of operations.</li>\n<li>Next line contain array of <b>N</b> elements.</li>\n<li>Next <b>Q</b> lines contains queries of type 1 and 2 . <br />\nType 1 : 1 x  y  ( a[x] = y ) <br />\nType 2 : 2 L R  ( find the requires answer).\n</li></ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Output description.</p>\n<ul>\n<li>For each query of type 2 , output your answer </li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints : </h3>\n<ul>\n<li><b>1</b> \u2264 <b>N,Q,x,y</b> \u2264 <b>100000</b></li>\n<li> <b>1</b> \u2264  <b> a[i] </b> \u2264 <b> 100000 </b> </li>\n<li> <b>1</b> \u2264  <b> L \u2264 R  </b> \u2264 <b> 100000 </b> </li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5 3 \n1 2 3 4 5\n2 1 5\n1 2 5\n2 1 5\n\n<b>Output:</b>\n9        \n10      \n\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-04-2016",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWORM ",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1461141900,
+        "end_date": 1461150900,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1461150900,
+        "submit_start_date": 1461141900,
+        "current": 1537434948
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>vipsharmavip</span>",
+    "problem_name": "Update",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vipsharmavip'>vipsharmavip</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vipsharmavip",
+    "contest_code": "COWO1601",
+    "max_timelimit": "1",
+    "problem_code": "SEG003"
+}

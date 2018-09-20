@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>The day Ankush got 10 CGPA in 10th standard, he decided, to become an Engineer. Little did he know, what was ahead of him. At the start of his engineering journey, he has an initial motivation of $Z$ units.\n\nThere are many ups and downs in engineering life. Let's assume the engineering life is divided into $N$ weeks. Each week may or may not have an event associated with it.\n\nThe events can be :\n- Party: represented by $p$ which increases his motivation by 100 units\n- Watching Movie: represented by $m$ which increases his motivation by 50 units\n- Playing Cricket: represented by $c$ which increases his motivation by 200 units\n- Assignments: represented by $a$ which decreases his motivation by 50\n- Internal exams - represented by $i$ which decreases his motivation by 100\n- Externals exams - represented by $e$ which decreases his motivation by 150\n- No event - represented by $0$ (zero)\n\nAlso, the motivation level reduces by 10 every week, irrespective of any event.\n\nYour task is to find out the minimum motivation, Ankush needs to start with ($Z$), such that his motivation level is never negative throughout his journey.\n\n<hr>\n\n\n###Input:\n\n- First line will contain $T$, number of testcases. Then the testcases follow. \n- Each testcase has one line, containing a string in which each character representing a week's event.\n\n<hr>\n\n###Output:\nFor each testcase, output in a single line the value of $Z$, i.e. the minimum non-negative value of initial motivation Ankush needs, such that it never goes negative throughout his journey.\n\n<hr>\n\n###Constraints \n- $1 \\leq T \\leq 50$\n- $1 \\leq$ String Length ($N$) $\\leq 10^5$\n\n<hr>\n\n###Sample Input:\n\n2\n\n0ipme\n\n00pi0e\n\n###Sample Output:\n\n150\n\n210\n\n<hr>\n\t\n###EXPLANATION:\n\nTake motivation level 150 to start with.\n\n- At $0$ motivation level decreases by 10 making it 150-10 = 140.\n- $i$: 140-100 = 40. Also 40-10 = 30.\n- $p$: 30+100 = 130. Also 130-10 = 120.\n- $m$: 120+50 = 170. Also 170-10 = 160.\n- $e$: 160-150 = 10. Also 10-10 = 0.\n\nThus, motivation level of 150 is sufficient for him to survive through his engineering life.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Codemania 2.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1523892600,
+        "end_date": 1523900700,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1523900700,
+        "submit_start_date": 1523892600,
+        "current": 1537432618
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>ankushgarg1998</span>",
+    "problem_name": "Survive Engineering",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ankushgarg1998'>ankushgarg1998</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ankushgarg1998",
+    "contest_code": "CMA22018",
+    "max_timelimit": "1",
+    "problem_code": "ENGINEER"
+}

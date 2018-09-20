@@ -1,0 +1,114 @@
+{
+    "announcements": "Image links are provided in the explanation section of KOK001 & KOK100.\r\n",
+    "ip": "149.129.135.113",
+    "code": "KOKO2017",
+    "duration": "120",
+    "name": "KoderKombat '17",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "KOK010": [
+            {
+                "score": "30",
+                "count": "90"
+            },
+            {
+                "score": "70",
+                "count": "2"
+            },
+            {
+                "score": "100",
+                "count": "69"
+            }
+        ],
+        "KOK001": [
+            {
+                "score": "100",
+                "count": "62"
+            }
+        ],
+        "KOK011": [
+            {
+                "score": "100",
+                "count": "32"
+            }
+        ],
+        "KOK100": [
+            {
+                "score": "10",
+                "count": "14"
+            },
+            {
+                "score": "100",
+                "count": "2"
+            }
+        ]
+    },
+    "rules": "<p><strong class=\"rules-heading\">About the Contest:</strong></p>\r\n<div class=\"rules-body\">\r\n<ul class=\"rules-body-ul\">\r\n<li><strong>Organiser: </strong> The contest is hosted by National Institute of Technology Calicut.</li>\r\n<li><strong>Prizes: </strong>Prizes worth 15K (8K + 5K + 2K).</li>\r\n<li><strong>Registrations for prizes: </strong>Please fill in your contact details <a href=\"https://goo.gl/forms/NzG7uibYTya2kcGv2\" target=\"_blank\">here</a>&nbsp;to be eligible for prizes (only Indians) and also look for the Registration section below.</li>\r\n</ul>\r\n</div>\r\n<p><strong class=\"rules-heading\">Contest Details:</strong></p>\r\n<div class=\"rules-body\">\r\n<ul class=\"rules-body-ul\">\r\n<li><strong>Duration: </strong>2 hours</li>\r\n<li><strong>Start time: </strong>8th October 2017, 2000 hrs IST</li>\r\n<li><strong>End time: </strong>8th October 2017, 2200 hrs IST<br /><br /></li>\r\n</ul>\r\n</div>\r\n<p><strong class=\"rules-heading\">Registration:</strong></p>\r\n<p>Register for KoderKombat in <a href=\"http://tathva.org/tathva.org/tathva16/Website/Main/event-catagories/index_computer.html\" target=\"_blank\">here</a>. (Click on the next arrow till you get KoderKombat page).</p>\r\n<div class=\"rules-body\">\r\n<p>You need to have a CodeChef username to participate. If you do not have a CodeChef ID create one <a href=\"../user/register\" target=\"_blank\"> here</a>.</p>\r\n</div>\r\n<p><br /> <strong class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</strong></p>\r\n<div class=\"rules-body\">\r\n<p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct.</a></p>\r\n</div>\r\n<p><br /> <strong class=\"rules-heading\">Rules and Regulations:</strong></p>\r\n<ul class=\"rules-body-ul\">\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com </a>.</li>\r\n<li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li>\r\n<li>Almost all languages supported on CodeChef are allowed.</li>\r\n<li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li>\r\n<li>Please contact <a href=\"mailto:sandeep_b150487cs@nitc.ac.in\" target=\"_blank\">sandeepg.97@gmail.com</a> for any queries during the contest.</li>\r\n</ul>\r\n<p><strong class=\"rules-heading\">Judging Criteria:</strong></p>\r\n<ul class=\"rules-body-ul\">\r\n<li><strong>All the problems have same points alloted to them.</strong></li>\r\n<li><strong>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time</strong></li>\r\n<li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error). There is no time consumed for a problem that is not solved.</li>\r\n<li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li>\r\n<li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li>\r\n</ul>\r\n<div class=\"rules-body-ul\"><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"../ide\" target=\"_blank\">Online IDE</a>.</strong><br />However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/KOKO2017/1507134762.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "KOK010": {
+            "allow_submission": false,
+            "name": "Wingardium Leviosa",
+            "category_name": "main",
+            "accuracy": 19.89,
+            "successful_submissions": "69",
+            "code": "KOK010",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "KOK001": {
+            "allow_submission": false,
+            "name": "Walk on a tree",
+            "category_name": "main",
+            "accuracy": 69.66,
+            "successful_submissions": "62",
+            "code": "KOK001",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "KOK011": {
+            "allow_submission": false,
+            "name": "Very easy problem",
+            "category_name": "main",
+            "accuracy": 17.3,
+            "successful_submissions": "32",
+            "code": "KOK011",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "KOK100": {
+            "allow_submission": false,
+            "name": "Sandy the foodie",
+            "category_name": "main",
+            "accuracy": 8.7,
+            "successful_submissions": "2",
+            "code": "KOK100",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1507480200,
+        "current": 1537433479,
+        "freezing": 0,
+        "start": 1507473000
+    },
+    "user": {
+        "username": ""
+    }
+}

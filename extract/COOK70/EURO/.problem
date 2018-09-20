@@ -1,0 +1,33 @@
+{
+    "problem_code": "EURO",
+    "problem_author": "wwwwodddd",
+    "contest_name": "May Cook-Off 2016",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>wwwwodddd</span>",
+    "problem_name": "Euro",
+    "source_sizelimit": "20000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #D0011B;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>7&#9733;</span><span>kevinsogo</span>",
+    "contest_code": "COOK70",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cook70'>cook70</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/medium-hard'>medium-hard</a>, <a class='problem-tag-small ' href='/tags/problems/recursion'>recursion</a>, <a class='problem-tag-small ' href='/tags/problems/wwwwodddd'>wwwwodddd</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Read problems statements in <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/COOK70/mandarin/EURO.pdf\">Mandarin Chinese</a>, <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/COOK70/russian/EURO.pdf\">Russian</a> and <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/COOK70/vietnamese/EURO.pdf\">Vietnamese</a> as well.</h3>\n\n\n<p>\nThere is a bank which provides coins of various denominations of euros. In particular, it provides you coins of value 1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000, 20000, 50000 euros. \n</p>\n\n<p>\nToday, Chef went to market with a coin of <b>C</b> euros, i.e. the coin with value <b>C</b> is among one of the above given 15 coins. Chef wanted to buy a brand new laptop worth <b>L</b> euros from a shop. Sadly the shop owner had just opened the shop and did not had any change. So he wanted the exact amount of money, no less, no more. Chef was forced to visit the nearby bank to obtain the desired change.\n</p>\n\n<p>\nIn the bank, Chef can ask for a change of some part of the amount <b>C</b>, and deposit the remaining money in his account. Bank will give him change in the coins of above given denominations.\n</p>\n\n<p>\nChef does not want to deposit a lot of amount in his account, as he believes in having as much cash in hand as possible. So, he wants to ask the bank for a change of as large amount as possible, such that it is possible to pay the <b>L</b> euros for the laptop. As Chef does not know what particular types of coins the bank will provide him in the change, he wants to make sure that with any type of coins bank might provide, he should be able to pay the laptop cost. \n</p>  \n\n<p>\nFor example, let Chef has initially 5 euros. The laptop cost is 1 euro. \n<ul>\n<li>If he asks bank to directly provide change for 5 euros, bank might provide him a coin of 5 euros, which he can't use to pay 1 euro.</li>\n<li>If he asks bank to provide change for 4 euros, with bank depositing remaining 1 euro in his account, bank might provide him 2 coins of 2 euros each, which still he can't use to pay 1 euro.</li>\n<li>If he asks bank to provide change for 3 euros, with bank depositing remaining 2 euros in his account, bank can give him either one coin of 1 euro and another coin of 2 euros, or three coins of 1 euro each. In both of these scenarios, Chef can use the 1 euro coin to pay for the laptop.</li>\n</ul>\n</p>\n<p>\nSo, Chef will need to ask for a change of maximum 3 euros to ensure that he is able to pay for the laptop.\n</p>\n\n<p>\nYou can notice that Chef can directly ask the Bank to give him a change of <b>L</b> euros. But, in this way, bank will deposit <b>C - L</b> euros in his account. There might be a way of paying the laptop while getting a change of larger amount from the bank, thus depositing less amount in his bank balance. \n</p>\n\n<h3>Input</h3>\n<p>First line of the input contains a single integer <b>T</b> denoting the number of test cases.</p>\n<p>For each test case, there will be a single line containing two space separated integers <b>C, L</b>, denoting the value of coin Chef carries and the cost of laptop, respectively.</p>\n\n<h3>Output</h3>\n<p>For each test case, output a single integer corresponding to the maximum amount of money for which the Chef should ask the bank to provide the change so that he is able to pay for the laptop. </p>\n\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1 \u2264 T \u2264 88888</b></li>\n<li><b>C</b> is among one of the above mentioned 15 denominations, i.e. (1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000, 20000, 50000).</li>\n<li><b>1 \u2264 L \u2264 C</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input</b>\n2\n5 1\n50000 1\n\n<b>Output:</b>\n3\n3\n</pre>\n\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> It is already explained in the problem statement.</p>",
+    "category_name": "main",
+    "date_added": "14-05-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "5",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/EURO",
+    "problem_tester": "kevinsogo",
+    "time": {
+        "view_start_date": 1463932800,
+        "end_date": 1463941800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1463941800,
+        "submit_start_date": 1463932800,
+        "current": 1537434891
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Today is Limak's, the bear's birthday and Polycarp is given the task to entertain the guests at the party. \u00a0</p>\n<p>Polycarp is having <b>N</b> elements denoted by <b>A<sub>1</sub> , A<sub>2</sub> , .... A<sub>N</sub></b>. All <b>A<sub>i</sub></b>'s are distinct and are in range <b>1</b> to <b>N</b>. He has given <b>Q</b> queries of the form of two numbers i,e <b>K</b> and <b>P</b> to each person present at the party.<br />\nThe query asks the person to find the minimum number at position <b>P</b> from all the possible increasing sub-sequences of length <b>K</b>.<br />\nOutput <em>\"Not Possible\"</em> (quotes only for clarity) if no such increasing sub-sequence of length <b>K</b> exists. </p>\n<p>\nEverybody who answers the queries correctly will get extra cake. You being very humble always try to help people answer these queries. So start your work and answer the queries as fast as you can.\n</p>\n<h3>Input</h3>\n<ul>\n<li>First line of the input contains an integer <b>N</b> denoting number of elements in <b>A</b>. </li>\n<li> Next line contains <b>N</b> space separated integers denoting elements of the <b>A</b>.</li>\n<li> Next line contains an integer <b>Q</b> denoting the number of queries.</li>\n<li> Each query contains two space separated integers i.e <b>K</b> and <b>P</b> where <b>K</b> denotes the length of the subsequence and <b>P</b> denotes the position in that particular subsequence.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>For each query, output the minimum among elements that can be placed at position <b>P</b> in any increasing subsequence of length <b>K</b>.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>5 * 10^5</b></li>\n<li><b>1</b> \u2264 <b>A<sub>i</sub></b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b> 5 * 10^5</b></li>\n<li><b>1 \u2264 P \u2264 K \u2264 N </b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n4 3 1 2 5\n3\n3 2\n4 1\n2 2\n\n<b>Output:</b>\n2\nNot Possible\n2\n\n<pre><b>Input:</b>\n5\n1 2 3 4 5\n2\n3 2\n5 5\n\n<b>Output:</b>\n2\n5\n</pre><h3>Explanation</h3>\n<ul>\n<li><b>Example case 1.</b> The only increasing sequences of length 3 is {1, 2, 5}. The 2<sup>nd</sup> element is 2.</li>\n<li><b>Example case 2.</b> There does not exist any increasing sequence of length 4.</li>\n<li><b>Example case 3.</b> The increasing sequences are {1, 2}, {2, 5}, {1, 5}, {3, 5}, {4, 5}. Among all,<br /> 2 is the minimum element at position 2.\n</li>\n</ul>\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Alkhwarizm 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1459697400,
+        "end_date": 1459715400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1459715400,
+        "submit_start_date": 1459697400,
+        "current": 1537434997
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>dragonslayerx</span>",
+    "problem_name": "Celebrating Brithday",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dragonslayerx'>dragonslayerx</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dragonslayerx",
+    "contest_code": "ALKH2016",
+    "max_timelimit": "1 - 2",
+    "problem_code": "CLBMK"
+}

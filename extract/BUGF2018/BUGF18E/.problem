@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Swapnil is a good friend of the Chef and like every other good friend he likes to annoy the Chef.    \nChef is working on a sequence A of $N$ integers A1, A2, A3, \u2026 AN.    \n( A1 < A2 < A3 \u2026 < AN )    \nSwapnil has a sequence B of $N$ integers B1, B2, B3, \u2026 BN.    \n\nIn order to annoy Chef, Swapnil plans to convert the Chef\u2019s sequence A into another sequence C in the following manner:    \n- He will copy the sequence A as it is in the sequence C   \n- He will choose any $K$ integers in the sequence C and for each of these integers, he will do the following :    \n- If he has chosen the $ith$ ( 1 <= $i$ <= $N$ ) integer in the sequence C.  Then he will do either of the following :      \n$Ci$ = $Ci$ + $Bi$    \nOR    \n$Ci$ = $Ci$ - $Bi$    \n\nLet us define the Range of Change ( RoC ) of each of these $ith$ integers as the range of integers between ( $Ai$ , $Ci$ ) if ( $Ai$ < $Ci$ ) or ( $Ci$ , $Ai$ ) if ( $Ci$ < $Ai$ ).     \n( Both $Ai$ and $Ci$ are inclusive )    \n\nSwapnil believes that Chef won\u2019t be able to find out that his sequence is disturbed if all of these ranges RoC are non-overlapping and disjoint to each other.    \n\nSwapnil also wants to annoy the Chef as much as he can, so he needs your help to find out the maximum possible value of the integer $K$ in such a way that Chef won\u2019t be able to find out that his sequence is disturbed,    \ni.e. NO two ranges RoC should have the same integer common in the ranges.     \n\n\n###Input:\n\n The first line of the input consists of a single integer $T$ denoting the number of Test Cases.    \nThe description of $T$ test cases follow :    \nThe first line of each test case consists of a single integer $N$.    \nThe second line of each test case consists of $N$ space-separated integers which represent the sequence A.    \nThe third line of each test case consists of $N$ space-separated integers which represent the sequence B.    \n\n\n###Output:\nFor each test case, output a single line consisting of single integer $K$ , the answer to the corresponding test case.\n\n###Constraints \n- 1 <= $T$ <= 100\n- 1 <= $N$ <= 10^5\n- 1 <= $Ai$ , $Bi$ <= 10^9 ( For all 1 <= $i$ <= $N$ )\n- ( A1 < A2 < A3 \u2026 < AN )\n\n\n###Sample Input:\n2    \n5    \n8 12 16 17 18    \n7 3 2 9 8    \n5    \n1 3 5 7 9    \n1 1 2 1 1    \n\n\n###Sample Output:\n4    \n4     \n\n###EXPLANATION:\nTest Case 1 :    \nOne of the optimum Sequence C => 1 9 14 17 26    \nOptimum value of K = 4    \n\n( Note that the RoCs ( 1 , 8 ) , ( 9 , 12 ) , ( 14, 16 ) , ( 17 , 17 ) , ( 18 , 26 ) are non-overlapping and disjoint )    \n\nTest Case 2 :    \nOne of the optimum Sequence C => 0 2 5 6 8    \nOptimum value of K = 4    \n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "31-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "BUG4EVER 2018 Final",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, swift, D, PERL, FORT, ADA, CAML, ICK, BF, ASM, CLPS, ICON, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, JS, ERL, TCL, kotlin, PERL6, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1535776200,
+        "end_date": 1535819400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1535819400,
+        "submit_start_date": 1535776200,
+        "current": 1537432027
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nerdyninja</span>",
+    "problem_name": "Swapnil annoys Chef",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nerdyninja'>nerdyninja</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nerdyninja",
+    "contest_code": "BUGF2018",
+    "max_timelimit": "1",
+    "problem_code": "BUGF18E"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Ruskin needs a railing around his swimming pool, but he is too lazy to build it himself. So he purchased a railing-building machine.<br />\nHe wants the railing to be a regular polygon. The machine builds the railing along a single path, but it can only make railing corners at a single angle a.<br />\nWill the machine be able to build the railing Ruskin wants? In other words, is there a regular polygon which angles are equal to a?</p>\n<h3>Input </h3>\n<ul>\n<li>The first line of input contains an integer t -the number of tests. Each of the following t lines contains a single integer a  \u2014 the angle the machine can make corners at measured in degrees.<br />\n<b>T</b> test cases follows:\"</li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>For each test, output on a single line \"YES\" (without quotes), if the machine can build a railing Ruskin wants, and \"NO\" (without quotes), if it is impossible.</li>\n</ul>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>179</b></li>\n<li><b>1</b> \u2264 <b>a</b> \u2264 <b>179</b></li>\n</ul>\n<p>\u00a0</p>\n<pre><b>Input:</b>\n3\n30\n60\n90\n\n\n<b>Output:</b>\nNO\nYES\nYES\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>case 1.</b> It is impossible to build the Railing, since there is no regular polygon with angle.  </p>\n<p><b>case 2.</b> The Railing is a regular triangle, and in the last test case \u2014 a square. </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-03-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Prometheus 2013 ",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1365589800,
+        "end_date": 1365964200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1365964200,
+        "submit_start_date": 1365589800,
+        "current": 1537438348
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>abeersethi</span>",
+    "problem_name": "Swimming Pool",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abeersethi'>abeersethi</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abeersethi",
+    "contest_code": "PROM2013",
+    "max_timelimit": "0.166667",
+    "problem_code": "PT1"
+}

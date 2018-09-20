@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Read problems statements in <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/LTIME43/mandarin/FLYMODE.pdf\">Mandarin Chinese</a>, <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/LTIME43/russian/FLYMODE.pdf\">Russian</a> and <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/LTIME43/vietnamese/FLYMODE.pdf\">Vietnamese</a> as well.</h3>\n\n<p>You like tracking airplane flights a lot. Specifically, you maintain history of an airplane\u2019s flight at several instants and record them in your notebook. Today, you have recorded <b>N</b> such records <b>h<sub>1</sub>, h<sub>2</sub>, ..., h<sub>N</sub></b>, denoting the heights of some airplane at several instants. These records mean that airplane was first flying on height <b>h<sub>1</sub></b>, then started changing its height to <b>h<sub>2</sub></b>, then from <b>h<sub>2</sub></b> to <b>h<sub>3</sub></b> and so on. The airplanes are usually on cruise control while descending or ascending, so \nyou can assume that plane will smoothly increase/decrease its height from <b>h<sub>i</sub></b> to <b>h<sub>i + 1</sub></b> with a constant speed. You can see that during this period, the airplane will cover all possible heights in the range <b>[min(h<sub>i</sub>, h<sub>i+1</sub>), max(h<sub>i</sub>, h<sub>i+1</sub>)]</b> (both inclusive). It is easy to see that the plane will be at all possible heights in the range exactly a single instant of time during this ascend/descend.\n</p>\n\n<p>You are interested in finding the maximum integer <b>K</b> such that the plane was at some height exactly <b>K</b> times during the flight.</p>\n\n\n<h3>Input</h3>\n<p>There is a single test case.</p>\n<p>First line of the input contains an integer <b>N</b> denoting the number of records of heights of the plane.</p>\n<p>Second line contains <b>N</b> space separated integers denoting <b>h<sub>1</sub>, h<sub>2</sub>, ..., h<sub>N</sub></b>.</p>\n\n<h3>Output</h3>\n<p>Output a single maximum integer <b>K</b> in one line, such that the plane was at some height exactly <b>K</b> times during the flight.</p>\n</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>h<sub>i</sub> \u2260 h<sub>i+1</sub></b></li>\n</ul>\n\n<h3>Subtasks</h3>\n<p>\n<b>Subtask #1: (30 points)</b>\n<ul>\n<li><b>1 \u2264 N \u2264 1000</b></li>\n<li><b>1 \u2264 h<sub>i</sub> \u2264 1000</b></li>\n</ul>\n</p>\n\n<p>\n<b>Subtask #2: (70 points)</b>\n<ul>\n<li><b>1 \u2264 N \u2264 10<sup>5</sup></b></li>\n<li><b>1 \u2264 h<sub>i</sub> \u2264 10<sup>9</sup></b></li>\n</ul>\n</p>\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n1 2 3 2 3\n\n<b>Output:</b>\n3\n</pre>\n\n<h3>Explanation</h3>\n<p>\nThe flight can be draw as:\n</p>\n\n<pre>\n3  /\\/\n2 /\n1\n</pre>\n\n<p>\nThere are infinitely many heights at which the plane was 3 times during the flight, for example 2.5, 2.1. Notice that the plane was only 2 times at height 2. Moreover, there are no height at which the plane was more than 3 times, so the answer is 3.\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "December Lunchtime 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1483192800,
+        "end_date": 1483203600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1483203600,
+        "submit_start_date": 1483192800,
+        "current": 1537434243
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>pkacprzak</span>",
+    "problem_name": "Fly height mode",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/line-sweep'>line-sweep</a>, <a class='problem-tag-small ' href='/tags/problems/ltime43'>ltime43</a>, <a class='problem-tag-small ' href='/tags/problems/pkacprzak'>pkacprzak</a>, <a class='problem-tag-small ' href='/tags/problems/simple'>simple</a>, <a class='problem-tag-small ' href='/tags/problems/sorting'>sorting</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pkacprzak",
+    "contest_code": "LTIME43",
+    "max_timelimit": "2",
+    "problem_code": "FLYMODE"
+}

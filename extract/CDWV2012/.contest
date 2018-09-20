@@ -1,0 +1,97 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "CDWV2012",
+    "duration": "180",
+    "name": "CodeWeavers 2012 ",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p>\u00a0</p> <p class=\"p1\"><b>Rules and Regulations:</b></p> <ul class=\"ul1\"> <li class=\"li2\">Contest problems will become visible on November 7th, 2012 at 21:00 (IST) and end at November 8th, 2012 00:00 (IST).</li> <li class=\"li2\">It will be open for all \u2013students and professionals, but professionals will not be eligible for the prizes.</li> <li class=\"li2\">The contest is for individuals. No teams are allowed.</li> <li class=\"li2\">Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok.</li> <li class=\"li2\"><b>Languages allowed are: C, C++ and Java.</b> You can find about the compiler options in each language <a href=\"http://discuss.codechef.com/questions/3480/what-are-the-compiler-options-that-the-judge-uses\"><span class=\"s1\">here</span></a>. In the 'Language Drop Down Menu' on the submission page of each problem you will see multiple language options. <b>You must choose only among the following languages: C, C99Strict, C++ 4.0.0-8, C++ 4.3.2, and Java.</b> Submissions in any other language will be ignored.</li> <li class=\"li2\">Each program will be tested based on our critical test data. A program will be considered as correct if its output matches with our output against our critical test data. All white space characters in the output will be ignored.</li> <li class=\"li2\">Please scroll down to the bottom of this page to read announcements made during the contest and also check for important comments on every question page.</li> <li class=\"li2\">Winners (top 2 teams) will be notified by email/website on 8th November 2012.</li> <li class=\"li2\">Please contact <a href=\"mailto:sachchit.bansal@gmail.com\"><span class=\"s1\">sachchit.bansal@gmail.com</span></a> for any queries during the contest.</li> </ul> <div></div> <p><br /><br /></p> <p class=\"p2\"><b>Judging Criteria:</b></p> <ul class=\"ul1\"> <li class=\"li2\">You will receive ONE point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <li class=\"li2\">Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <li class=\"li2\">The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li class=\"li2\">Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> <li class=\"li2\">The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error ). There is no time consumed for a problem that is not solved.</li> </ul> <div></div> <p><br /><br /></p> <p class=\"p2\"><b>Prize Distribution Criteria:</b></p> <ul class=\"ul1\"> <li class=\"li2\">All the participants also have to be registered on <a target=\"_blank\" href=\"http://infotsav.iiitm.in\">www.infotsav.org</a> and <a target=\"_blank\" href=\"http://code.infotsav.iiitm.in\">code.infotsav.iiitm.in</a> to be eligible for the prize.</li> <li class=\"li2\">Only students who are studying in graduate and post-graduate level in an Indian university are eligible for the prizes. Professionals can participate but are not eligible for the prizes.</li> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/CDWV2012/1424957701.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "TOYSGAME": {
+            "allow_submission": false,
+            "name": "Game of Toys",
+            "category_name": "main",
+            "accuracy": 5.75,
+            "successful_submissions": "5",
+            "code": "TOYSGAME",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DISHMIX": {
+            "allow_submission": false,
+            "name": "Mixing the Ingredients",
+            "category_name": "main",
+            "accuracy": 36.89,
+            "successful_submissions": "70",
+            "code": "DISHMIX",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GESCAPE": {
+            "allow_submission": false,
+            "name": "The Great Escape",
+            "category_name": "main",
+            "accuracy": 8.05,
+            "successful_submissions": "7",
+            "code": "GESCAPE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BERRY": {
+            "allow_submission": false,
+            "name": "Berry Tough Distribution",
+            "category_name": "main",
+            "accuracy": 20,
+            "successful_submissions": "11",
+            "code": "BERRY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CANDYPK": {
+            "allow_submission": false,
+            "name": "Packing Candies ",
+            "category_name": "main",
+            "accuracy": 17.16,
+            "successful_submissions": "28",
+            "code": "CANDYPK",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TENNCLUM": {
+            "allow_submission": false,
+            "name": "Clumsy Tennis ",
+            "category_name": "main",
+            "accuracy": 43.31,
+            "successful_submissions": "238",
+            "code": "TENNCLUM",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1352313000,
+        "current": 1537438658,
+        "freezing": 0,
+        "start": 1352302200
+    },
+    "user": {
+        "username": ""
+    }
+}

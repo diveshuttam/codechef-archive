@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>SECRETS</b></p>\n<p>Johnny wants to plan a heist with his friend Chef. They need to encrypt their conversations so that they don\u2019t get caught. Chef suggested the following:</p>\n<p>In each word, remove the first few letters of the word till we reach a vowel or end of the word, then append the removed letters and a \u2019ay\u2019 at the end.\n</p>\n<p>For example, code becomes odecay, Chef becomes efchay and Johnny becomes ohnnyjay<br/><br />\nFor words that begin with a vowel, just append \u2019way\u2019 at the end. So online becomes onlineway. And also each convo ends with the word done<br/><br />\nNow, Johnny needs your help in encoding.\n</br/></br/></p>\n<p><b>Input</b><br/></br/></p>\n<p>\n sentences which has words beginning with words beginning with both consonants and vowels.\n</p>\n<p><b>Output</b><br/></br/></p>\n<p>The output contains the coded words in which the order of sentence and words remain unaffected.\n</p>\n<p><b>Sample Input</b><br/><br />\n\tThe game is on. <br/><br />\n\tIntelligent people participate in Aaruush. done\n\t</br/></br/></p>\n<p><b>Sample Output</b><br/><br />\nEthay amegay isway onway. <br/><br />\nIntelligentway eoplepay articipatepay inway Aaruushway</br/></br/></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-08-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWars, Aaruush 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1440937800,
+        "end_date": 1441110600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1441110600,
+        "submit_start_date": 1440937800,
+        "current": 1537436083
+    },
+    "problem_author_html_handle": "aaruush15",
+    "problem_name": "SECRETS",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aaruush15'>aaruush15</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "aaruush15",
+    "contest_code": "CODEWARS",
+    "max_timelimit": "1",
+    "problem_code": "CW007"
+}

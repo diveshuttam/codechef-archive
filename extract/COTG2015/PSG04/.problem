@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Telephone numbers in India are 10 digits long (excluding an initial zero which is required at times) and fall in at least four distinct categories:</p>\n<ul>\n<li>\n\t<b>Landlines:</b> Written as 0AAABBBBBBB, where AAA is the Subscriber Trunk Dialing code (long distance code) and BBBBBBB is the phone number. The total length of the Subscriber Trunk Dialing code and the phone number is 10 digits.\n\t</li>\n<li>\n    <b>Mobiles:</b> Written as AAAAABBBBB for ease of remembering. Mobile numbers which are not local need to be prefixed by a 0 while dialing, or by +91 (91 is the country code for India). A mobile number written as +91AAAAABBBBB is valid throughout India, and in other countries where the + is recognized as a prefix to the country code.\n\t</li>\n<li>\n    <b>Toll Free:</b> These are usually ten digit numbers beginning with 1800. Sometimes they are accessible (or are toll-free) only when called from the government-owned telephone corporation, BSNL/MTNL.\n\t</li>\n<li>\n    <b>Service numbers:</b> These are usually three or four digit numbers (e.g. Police is 100) used to access an emergency service (Fire, Ambulance, Police, Roadside assistance) or a value-added service.\n\t</li>\n</ul>\n<p>\t[Source: <a href=\"http://en.wikipedia.org/wiki/National_conventions_for_writing_telephone_numbers#India\">Wikipedia</a>]<br />\n<br />Please, help me in finding a given string is valid phone number or not.\n</p>\n<p>Newbies, please refer to <a href=\"http://www.codechef.com/wiki/sample-solutions\">\t Codechef sample solution</a> before starting to code, </p>\n<h3>INPUT:</h3>\n<p>The first line of input contains an integer <b>T</b> denoting the number of test cases.</p>\n<p>The next <b>T</b> lines contains a input string <b>S</b>.</p>\n<h3>OUTPUT:</h3>\n<p>Output <b>T</b> lines, each line <b>\"true\"</b> if the string is a valid phone number  and <b>\"false\"</b> if they cant.</p>\n<h3>CONSTRAINTS:</h3>\n<ul><b>\n<li>0 \u2264 <b>T</b> \u2264 1000</li>\n<p></p></b></ul>\n<h3>TESTCASES:</h3>\n<h3>INPUT:</h3>\n<p>3<br /><br />\n8015578079<br /><br />\n801557<br /><br />\n08015578079<br /><br />\n</p>\n<h3>OUTPUT:</h3>\n<p>true<br /><br />\nfalse<br /><br />\ntrue<br /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Code On the Go 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1425915884,
+        "end_date": 1426005000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1736972710,
+        "submit_start_date": 1425915884,
+        "current": 1537436618
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>jeffrycopps_2</span>",
+    "problem_name": "Valid phone number",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/jeffrycopps_2'>jeffrycopps_2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "jeffrycopps_2",
+    "contest_code": "COTG2015",
+    "max_timelimit": "1",
+    "problem_code": "PSG04"
+}

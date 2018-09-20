@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>Given a Tree <b>T</b> where each vertex <b>v</b> has a weight <b>w</b>, you need to support the following queries:\n<ul>\n<li> <b> 0 v m </b> Add the number <b>m</b>, <b> K </b> times to the vertex <b> v </b>. Here <b> K </b> denotes the last 5 digits of <b> L </b> where L is the number of ways you can make <b> m </b> by using the numbers 2 and 4. <br />Eg. for a query 0 1 6, you need to add 6, 3 times to the vertex 1. Which means you will add 18 to the weight of vertex 1. This is because 6 = 2 + 2 + 2 or 6 = 2 + 4 or 6 = 4 + 2. The vertices are indexed from 1.</li>\n<li><b> 1 v </b> Print the sum of all weights in the subtree rooted at vertex <b> v </b>. The weight w<sub>v</sub> is also included. </li>\n<p>The entire tree is assumed to be <b> rooted at vertex 1. Also, the initial weights of all vertices is 1</b>\n</p>\n<h3>Input</h3>\n<p>The first line of input contains integers <b> N </b> and <b> Q </b> denoting the number of vertices and the number of queries respectively<br />The next N - 1 lines contain an integers <b>u</b> and <b>v</b> each denoting an edge in the tree.<br />The next <b>Q</b> lines each contain one query as described earlier.\n</p>\n<h3>Output</h3>\n<p>For every type 1 query output a single integer containing the result modulo (10<sup>9</sup> + 7)[specifically the remainder when the result is divided by (10<sup>9</sup> + 7)]\n</p>\n<h3>Constraints</h3>\n<ul>\n<li> 2 \u2264 N \u2264 10<sup>4</sup></li>\n<li> 1 \u2264 Q \u2264 10<sup>5</sup></li>\n<li> 0 \u2264 m &lt; 10<sup>9</sup> + 7</li>\n</ul>\n</ul></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n6 4\n1 2\n1 3\n1 4\n1 5\n1 6\n1 3\n0 3 6\n1 3\n1 1\n<br />\n<b>Output:</b>\n1\n19\n24\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-07-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Procon 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1439037000,
+        "end_date": 1439046000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1439046000,
+        "submit_start_date": 1439037000,
+        "current": 1537436149
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>ambarpal</span>",
+    "problem_name": "Graph Sum",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ambarpal'>ambarpal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ambarpal",
+    "contest_code": "PROCON15",
+    "max_timelimit": "1",
+    "problem_code": "PRCNSR3"
+}

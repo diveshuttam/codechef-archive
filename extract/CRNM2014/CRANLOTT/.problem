@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><span style=\"color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.727272033691406px; line-height: 15.454545021057129px;\">You have won the CSI lottery, and have become very rich. But being a programmer you started wondering about the well known problem:\"How many ways are there to make change for n rupees.There are 5 types of coins in the currency of worth 1 rupee, 5 rupees, 10 rupees,25 rupees and 50 rupees.\"</span><br style=\"color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.727272033691406px; line-height: 15.454545021057129px;\" /><span style=\"color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.727272033691406px; line-height: 15.454545021057129px;\">You have won no small amount,after-all its the CSI-Lottery :P, it can be as large as 10^18 rupees. However you are curious as to how to find the answer efficiently for such a large amount.</span></p>\n<h3>Input</h3>\n<p><span style=\"color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.727272033691406px; line-height: 15.454545021057129px;\">The first line</span><span style=\"display: inline; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.727272033691406px; line-height: 15.454545021057129px;\">\u00a0will contain t-number of test cases.</span></p>\n<p><span style=\"display: inline; color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.727272033691406px; line-height: 15.454545021057129px;\">Each of the following t lines will contain an integer n</span></p>\n<h3>Output</h3>\n<p>For every test case output the<span style=\"color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.727272033691406px; line-height: 15.454545021057129px;\">\u00a0number of ways you can make change for the amount n modulo 10^9+7 in a separate line.</span></p>\n<p><span style=\"color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.727272033691406px; line-height: 15.454545021057129px;\"><span style=\"color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.727272033691406px; line-height: 15.454545021057129px;\">1&lt;=n&lt;=10^18</span><br style=\"color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.727272033691406px; line-height: 15.454545021057129px;\" /><span style=\"color: #333333; font-family: 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 12.727272033691406px; line-height: 15.454545021057129px;\">1&lt;=t&lt;=10^5</span></span></p>\n<h3>Example</h3>\n<pre><strong>Input:</strong>\n1</pre><pre>14\n\n<strong>Output:</strong>\n4</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Cranium 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1391873400,
+        "end_date": 1391884200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1391884200,
+        "submit_start_date": 1391873400,
+        "current": 1537437859
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>apoorv_j</span>",
+    "problem_name": "Lottery!",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/apoorv_j'>apoorv_j</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "apoorv_j",
+    "contest_code": "CRNM2014",
+    "max_timelimit": "1",
+    "problem_code": "CRANLOTT"
+}

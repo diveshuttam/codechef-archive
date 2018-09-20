@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nIn an Unix like environment, an administrator wants do following task:\nThere <i>n</i> programs and <i>k</i> users. Each user has permission to execute\ncertain programs. Now, the administrator wants to divide programs into\nminimum number of groups, so that each program belongs to an unique\ngroup, and assign users to these groups, such that only users\nbelonging to the group have permissions to execute programs in the\ngroup.\n\n<h3>Input</h3>\n</p><p>\nFirst line gives <i>t</i>, the number of test cases (t \u2264 30). Then <i>t</i> test cases follow.<br />\nFor each test case:\nThe first line gives 2 integers <i>n</i> and <i>k</i>.  (1 \u2264 <i>n</i> \u2264 10<sup>5</sup>  and 1\u2264 <i>k</i> \u22641000 )\nNext <i>k</i> lines follow. Each line contains a set of integers. If an\ninteger \"i\" exists in a line \"k\" then the k<sup>th</sup> user has permission to execute program \"i\".\n\n<h3>Output</h3>\n</p><p>\nFor each test case output a single line.<br />\nEach line should give the minimum number of\ngroups possible.\n\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n1\n5 5\n1 2 4\n1 2 4\n1 2 4\n2 3 5\n3 5\n\n<b>Output:</b>\n3\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-10-2009",
+    "is_direct_submittable": false,
+    "contest_name": "Inscription 2009",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1256461200,
+        "end_date": 1256479200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180156,
+        "submit_start_date": 1256461200,
+        "current": 1537439888
+    },
+    "problem_author_html_handle": "fctrl",
+    "problem_name": "GROUPS",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/fctrl'>fctrl</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "fctrl",
+    "contest_code": "INS09",
+    "max_timelimit": "4.77167",
+    "problem_code": "INS0902"
+}

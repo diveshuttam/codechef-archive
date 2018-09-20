@@ -1,0 +1,87 @@
+{
+    "announcements": "<p><b>24/03/2013, 21:40 IST: </b>The corrected problems have been added to the contest and <b>the contest has been extended by 7 minutes. The contest will now end at 00:07 HRS IST.</b> Please refresh your contest page once.</p>\r\n<p><b>24/03/2013, 21:35 IST: </b>There was a error from our side. We by mistakely added last Cook-Off's problems. We are adding the problems soon. Please bear with us.</p>\r\n<p><b>24/03/2013, 21:30 IST: </b>The ranking for the contest can be found\u00c2\u00a0<a href=\"/rankings/COOK32\" target=\"_blank\">here</a>.</p>\r\n<p>\u00c2\u00a0</p>",
+    "ip": "149.129.135.113",
+    "code": "COOK32",
+    "duration": "157",
+    "name": "March Cook-off 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p>The March Cook-off has ended.</p> <p>All the solutions for the problem set are public and the problems have been moved to practice section.</p> <p>The editorials for the contest can be found <a href=\"http://discuss.codechef.com/tags/cook32/\" target=\"_blank\">here</a>.</p> <p>The Winners blog post can be found <a href=\"http://blog.codechef.com/2013/04/01/the-color-and-mischief-of-march-contests/\">here</a>.</p> <p>The New Contest Rating can be viewed\u00a0<a href=\"/short/ranklist/AX/\" target=\"_blank\">here</a>.</p> <p>\u00a0</p> <p>In case you are a new user, you will need to first register for a CodeChef ID\u00a0<a href=\"/user/register/\">here</a>.</p> <p><b><br /></b></p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at\u00a0<a target=\"_blank\" href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></li> </ul> <div><span><span><br /></span></span></div> <ul> <li><span>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</span> <ul> <br /> </ul> </li> <li>You can also send in your queries in an email to\u00a0<a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a>, during the contest.</li> <br /> <li>Contest problems will become visible on March 24th, 2013 at 21:30 (IST). There will be 5 problems in all.\u00a0Check your timezone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+March+Cook-Off+2013&amp;iso=20130324T2130&amp;p1=44&amp;ah=2&amp;am=30\" target=\"_blank\">here</a>.</li> <br /> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <br /> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <br /> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COOK32/1424957747.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "TAPALIN": {
+            "allow_submission": false,
+            "name": "Palindrome",
+            "category_name": "main",
+            "accuracy": 26.93,
+            "successful_submissions": "380",
+            "code": "TAPALIN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TAVISUAL": {
+            "allow_submission": false,
+            "name": "The Ball And Cups",
+            "category_name": "main",
+            "accuracy": 44.44,
+            "successful_submissions": "867",
+            "code": "TAVISUAL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TASTR": {
+            "allow_submission": false,
+            "name": "Level Of Difference",
+            "category_name": "main",
+            "accuracy": 12.17,
+            "successful_submissions": "31",
+            "code": "TASTR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TABISHOP": {
+            "allow_submission": false,
+            "name": "Bishops",
+            "category_name": "main",
+            "accuracy": 5.15,
+            "successful_submissions": "5",
+            "code": "TABISHOP",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TABUS": {
+            "allow_submission": false,
+            "name": "Traveling Plan",
+            "category_name": "main",
+            "accuracy": 8.72,
+            "successful_submissions": "28",
+            "code": "TABUS",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1364150220,
+        "current": 1537438372,
+        "freezing": 0,
+        "start": 1364140800
+    },
+    "user": {
+        "username": ""
+    }
+}

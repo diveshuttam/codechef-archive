@@ -1,0 +1,33 @@
+{
+    "problem_code": "CVW",
+    "problem_author": "acesprime",
+    "contest_name": "CODE_WAR",
+    "todo": false,
+    "problem_author_html_handle": "acesprime",
+    "problem_name": "CivilWar",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "COWS2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acesprime'>acesprime</a>, <a class='problem-tag-small ' href='/tags/problems/array'>array</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/traversal'>traversal</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b><h>Problem Statement:</h></b></p>\n\n<b>Captain America</b> and <b>Iron Man</b> are at WAR and the rage inside <b>Iron Man</b> is rising.\n</br></br>\nBut Iron Man faces a problem to identify the location of Captain America.\n</br></br>\nThere are N buildings situtaed adjacently to each other and Captain America can be at any building.\n</br></br>\nIron Man has to arrange the Buildings from 1 to N is such a way that <b>Value(i.e abs(Building Number -Position of Building))=K</b> for every building.\n</br></br>\nCan You help Iron Man to Find The Arrangement of the Buildings?\n</br></br>\n<b>P.S</b>- If no arrangement exist, then print         \n        \u201cCAPTAIN AMERICA EVADES\u201d.\n</br></br>\n<p><b><h>Input Format:</h></b></p>\n  The first line of input contains a single integer,<b>T</b>, denoting the number of test cases.\n</br>\n<ul>\nEach of the <b>T </b>\u00a0subsequent lines contains 2 space-separated integers describing the respective <b>N</b> and <b>K</b> values for a test case.\n</ul></br>\n<p><b><h>Output Format:</h></b></p>\nOn a new line for each test case, \n</br>Print the lexicographically smallest arrangement; \n</br>If no absolute arrangement exists, print \u201cCAPTAIN AMERICA EVADES\u201d.\n</br></br>\n<p><b><h>Constraints:</h></b></p>\n<ul>\n<p><b>SubTask#1</b></p>\n1<=T<=10\n</br>\n1<=N<=10^5\n</br>\n0<=K<=N\n</br></br>\n<p><b>SubTask#2</b></p>\nOriginal Constraints..\n</br></br>\n<p><b>SubTask#3</b></p>\nOriginal Constraints..\n</br></br>\n</ul>\n<p><b><h>Sample Input:</h></b></p>\n3\n</br>2 1\n</br>3 0\n</br>3 2\n</br></br>\n<p><b><h>Sample Output:</h></b></p>\n\n2 1\n</br>1 2 3\n</br>CAPTAIN AMERICA EVADES\n</br></br>\n<p><b><h>Explanation:</h></b></p>\nCase 1:\n</br>N=2 and K=1\n</br>Therefore the arrangement is [2,1].\n</br></br>\nCase 2:\n</br>N=3 and K=0\n</br>Therefore arrangement is [1,2,3].",
+    "category_name": "main",
+    "date_added": "18-09-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/CVW",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1474468200,
+        "end_date": 1474554600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1474554600,
+        "submit_start_date": 1474468200,
+        "current": 1537434586
+    },
+    "user": {
+        "username": ""
+    }
+}

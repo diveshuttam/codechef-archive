@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\n\nYou are given a cyclic array A having N numbers.\n\nIn an XOR round, each element of the array A is replaced by the bitwise XOR (Exclusive OR) of itself, the previous element, and the next element in the array. All operations take place simultaneously. Can you calculate A after K such XOR rounds ?\n\n<h3>Input</h3>\n<p>The first line contains the number of test cases T (T <= 50).\n\nThere follow 2T lines, 2 per test case. The first line contains two space seperated integers N (3 <= N <= 500) and K (1 <= K <= 1000000000). The next line contains N space seperated integers Ai (0 <= Ai <= 1000000000), which are the initial values of the elements in array A. \n\n\n\n<h3>Output</h3>\n<p>Output T lines, one per test case. For each test case, output a space seperated list of N integers, specifying the contents of array A after K XOR rounds.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n3 1\n1 2 3\n5 100\n1 11 111 1111 11111\n\n<b>Output:</b>\n0 0 0\n11117 101 1075 12127 12081\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-12-2009",
+    "is_direct_submittable": false,
+    "contest_name": "Codechef Campus ReSnackdown",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1261305000,
+        "end_date": 1261315800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1261315800,
+        "submit_start_date": 1261305000,
+        "current": 1537439845
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "XOR Rounds",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "RESNKDWN",
+    "max_timelimit": "2.5814",
+    "problem_code": "RESN02"
+}

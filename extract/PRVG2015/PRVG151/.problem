@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Tapan had bought a board to countdown to Pravega 2015. Pravega being a unique fest could not have an ordinary countdown. So he decided to write two numbers <b>A</b> and <b>B</b> on the board. Each day a new number is to be written on the board. The new number must not already be on the board and must be the absolute value of the difference of two distinct numbers already on the board. This is continued till it is possible to do so. He says on the day of the fest no new numbers can be written. Can you identify how many days are left for the fest?</p>\n<h3>\n<p>Input:</p>\n</h3>\n<p>The first line contains the number of test cases <b>T</b>.</p>\n<p>The next T lines contain two space separated integers <b>A</b> and <b>B</b>.</p>\n<h3>\n<p>Output:</p>\n</h3>\n<p>The output should be on <b>T</b> lines with the number of days for each of the test cases on a different line.</p>\n<h3>\n<p>Constraints:</p>\n</h3>\n<p>0 &lt; <b> T </b> &lt; 10^6</p>\n<p>0 &lt; <b> A </b> , <b> B </b> &lt; 10^15</p>\n<h3>\n<p>Sample Input:</p>\n</h3>\n<p>2</p>\n<p>2 7</p>\n<p>3 6</p>\n<h3>\n<p>Sample Output:</p>\n</h3>\n<p>5</p>\n<p>0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "30-12-2014",
+    "is_direct_submittable": false,
+    "contest_name": "OPC- Pravega 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PAS fpc, PAS gpc, RUBY, PHP, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, NICE, LUA, BASH, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, TEXT, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1421508600,
+        "end_date": 1421519400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1421519400,
+        "submit_start_date": 1421508600,
+        "current": 1537436977
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>pravega_opc</span>",
+    "problem_name": "Countdown",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pravega_opc'>pravega_opc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pravega_opc",
+    "contest_code": "PRVG2015",
+    "max_timelimit": "1",
+    "problem_code": "PRVG151"
+}

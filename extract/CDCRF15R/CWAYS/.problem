@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>You have a <b>N x M</b> matrix of cells. The cell <b>(i,\u2009j)</b> represents the cell at row <b>i</b> and column <b>j</b>. You can go from one cell <b>(i,\u2009j)</b> only down or right, that is to cells <b>(i\u2009+\u20091,\u2009j)</b> or <b>(i,\u2009j\u2009+\u20091)</b>.</p>\n<p>But <b>K</b> cells are blocked in the matrix(you can\u2019t visit a blocked cell). You are given coordinates of all these cells.</p>\n<p>You have to count number of ways to reach cell <b>(N, M)</b> if you begin at cell <b>(1, 1)</b>.</p>\n<p>Two ways are same if and only if path taken is exactly same in both ways.\n</p>\n<h3>Input</h3>\n<p>First line consists of <b>T</b>, denoting the number of test cases.<br />\nEach test case consists of <b>N, M and K</b> in single line. Each of the next <b>K</b> lines contains two space separated integers <b>(x<sub>i</sub>, y<sub>i</sub>)</b>, denoting the blocked cell\u2019s coordinates.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each test case print the required answer modulo <b>10<sup>9</sup>+7</b> in one line.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1 \u2264 T \u2264 10</b></li>\n<li><b>1 \u2264 N, M \u2264 10<sup>5</sup></b></li>\n<li><b>0 \u2264 K \u2264 10<sup>3</sup></b></li>\n<li><b>1 \u2264 x<sub>i</sub> \u2264 N</b></li>\n<li><b>1 \u2264 y<sub>i</sub> \u2264 M</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3 2 0\n2 3 1\n1 2\n\n\n<b>Output:</b>\n3\n1\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example test case 1.</b><br />\nNo cell is blocked.<br />\n3 distinct paths are:<br /><br />\n(1,1) -> (1,2) -> (2,2) -> (3,2).<br /><br />\n(1,1) -> (2,1) -> (2,2) -> (3,2).<br /><br />\n(1,1) -> (2,1) -> (3,1) -> (3,2).<br /></p>\n<p><br /><b>Example test case 2.</b><br />\nOnly one valid path (1,1) -> (2,1) -> (2,2) -> (2,3).</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeCraft 2015 Replay",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1422973800,
+        "end_date": 1422991800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1422991800,
+        "submit_start_date": 1422973800,
+        "current": 1537436865
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>tanmaysahay94</span>",
+    "problem_name": "Count Paths",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/tanmaysahay94'>tanmaysahay94</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "tanmaysahay94",
+    "contest_code": "CDCRF15R",
+    "max_timelimit": "1",
+    "problem_code": "CWAYS"
+}

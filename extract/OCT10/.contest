@@ -1,0 +1,97 @@
+{
+    "announcements": "<p><b>9:00 AM 3rd October: </b>We have identified some weak test data and hence added more test cases for the problems COUNTPAL and STREDUC. All the submissions are being re-judged. Apologies for the same.</p>\r\n<p>\u00c2\u00a0</p>\r\n<p><b>8:00 PM 3rd October: </b>The submissions are still being re-judged. The change in the submission status may take more time to reflect in the rankings. Inconvenience is deeply regretted.</p>\r\n<p>\u00c2\u00a0</p>\r\n<p><b>4:00 PM 5th October: </b>The change in submission status is still not reflected in the rankings. It will take us some more time. Sorry for the delay.  However, the test data is sorted now. There should not be any further issues regarding the same.</p>\r\n<p>\u00c2\u00a0</p>\r\n<p><b>9:45 PM 6th October: </b>The rankings have been updated now. Please report any issues to feedback@codechef.com.</p>\r\n<p>\u00c2\u00a0</p>\r\n<p><b>12:30 AM 7th October: </b>We have identified another issue in the scoring of the challenge problem. The scores for the challenge problem are notbeing updated. We are investigating the same and shall get back to you on that shortly.</p>\r\n<p>\u00c2\u00a0</p>\r\n<p><b>01:20 PM 7th October: </b>There was an issue with the Judge of the challenge problem. It has been rectified and all the submissions are being re-judged now and the scores are being updated. We are sorry for the inconvenience caused.</p>",
+    "ip": "149.129.135.113",
+    "code": "OCT10",
+    "duration": "14400",
+    "name": "October 2010 Challenge",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p class=\"MsoNoSpacing\"><span><b>The contest has ended. The results will be declared soon.</b></span></p> <p class=\"MsoNoSpacing\"><span><b>View the editorials to the the contest problems <a target=\"_blank\" href=\"/wiki/october-2010-contest-problem-editorials\">here</a>.</b></span></p> <p class=\"MsoNoSpacing\"><span><span><b>Check out our blog with all the winners and contests statistics <a target=\"_blank\" href=\"http://blog.codechef.com/2010/10/11/october-2010-challenge/\">here</a>.</b></span></span></p> <p class=\"MsoNoSpacing\"><span><b>Rules:</b><span><b> </b></span><br /> <br /> Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at<span> </span><a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a><br style=\"mso-special-character: line-break;\" /> <br style=\"mso-special-character: line-break;\" /> <o:p></o:p></span></p> <p class=\"MsoNoSpacing\"><span><span>Contest problems will become visible on October 1st 2010.</span><br style=\"mso-special-character: line-break;\" /> <br style=\"mso-special-character: line-break;\" /> <o:p></o:p></span></p> <p class=\"MsoNoSpacing\"><span>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.<br style=\"mso-special-character: line-break;\" /> <br style=\"mso-special-character: line-break;\" /> <o:p></o:p></span></p> <p class=\"MsoNoSpacing\"><span>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.<br style=\"mso-special-character: line-break;\" /> <br style=\"mso-special-character: line-break;\" /> <o:p></o:p></span></p> <p class=\"MsoNormal\"><span>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.<o:p></o:p></span></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/OCT10/1424957499.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "INTCOMB": {
+            "allow_submission": false,
+            "name": "Integer Combinations Of Vectors",
+            "category_name": "main",
+            "accuracy": 55.14,
+            "successful_submissions": "54",
+            "code": "INTCOMB",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "COUNTPAL": {
+            "allow_submission": false,
+            "name": "Count palindromes",
+            "category_name": "main",
+            "accuracy": 17.92,
+            "successful_submissions": "161",
+            "code": "COUNTPAL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "STREDUC": {
+            "allow_submission": false,
+            "name": "Reduce string",
+            "category_name": "main",
+            "accuracy": 2.38,
+            "successful_submissions": "18",
+            "code": "STREDUC",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLUE": {
+            "allow_submission": false,
+            "name": "Get a Clue",
+            "category_name": "main",
+            "accuracy": 6.74,
+            "successful_submissions": "10",
+            "code": "CLUE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LOGGERS": {
+            "allow_submission": false,
+            "name": "Logging Game",
+            "category_name": "main",
+            "accuracy": 19.18,
+            "successful_submissions": "73",
+            "code": "LOGGERS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "POST": {
+            "allow_submission": false,
+            "name": "Post Office",
+            "category_name": "main",
+            "accuracy": 1.62,
+            "successful_submissions": "4",
+            "code": "POST",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1286789400,
+        "current": 1537439481,
+        "freezing": 0,
+        "start": 1285925400
+    },
+    "user": {
+        "username": ""
+    }
+}

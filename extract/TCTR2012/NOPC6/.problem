@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Chocolate in its many forms is enjoyed by millions of people around the world every day. It is a truly universal candy, available in virtually every country around the world. \nYou find that the only thing better than eating chocolate is to share it with friends. Unfortunately, your friends are very picky and have different appetites: some would like more and others less of the chocolate that you offer them. You have found it increasingly difficult to determine whether their demands can be met. It is time to write a program that solves the problem once and for all! \nYour chocolate comes as a rectangular bar. The bar consists of same-sized rectangular pieces. To share chocolate, you may break one bar into two pieces along a division between rows or columns of the bar. You may then repeatedly break the resulting pieces in the same manner. Each of your friends insists on a getting a single rectangular portion of the chocolate that has a specified number of pieces. You are a little bit insistent as well: you will break up your bar only if all of it can be distributed to your friends, with none left over. \n\nFor example, Figure shows one way that a chocolate bar consisting of   3 &times; 4  pieces can be split into 4 parts that contain 6, 3, 2, and  11 pieces respectively, by breaking it 3 times. (This corresponds to the first sample input.) \n <pre>\n _ _ _ _\n|_|_|_|_|\n|_|_|_|_|\n|_|_|_|_|\n\n   |\n   |\n   v\n\t\n _ _ _      _\n|_|_|_|     |_|\n|_|_|_|     |_|\n                           _ \n _ _ _                 |_|\n|_|_||_|\n\n\n</pre>\n\n<h3>Input</h3>\n<p>\nThe input consists of multiple test cases, each describing a chocolate bar to share. Each description starts with a line containing a single integer n (1 &le;n &le;15), the number of parts into which the bar is supposed to be split. \nThis is followed by a line containing two integers x and y(1 &le;x ,y  &le;&le;100), the dimensions of the chocolate bar. \nThe next line contains n positive integers, giving the number of pieces that are supposed to be in each of the n parts. \nThe input is terminated by a line containing the integer zero. \n\n\n<h3>Output</h3>\n<p>For each test case, first display its case number. Then display whether it is possible to break the chocolate in the desired way: display &ldquo;Yes&rdquo; if it is possible, and &ldquo;No&rdquo;&rdquo; otherwise. Follow the format of the sample output. \n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n4\n3 4\n6 3 2 1\n<b>Output:</b>\nYES\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "TechTrishna 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1331706600,
+        "end_date": 1331760600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1331760600,
+        "submit_start_date": 1331706600,
+        "current": 1537438882
+    },
+    "problem_author_html_handle": "bestankur007",
+    "problem_name": "Share chocolate",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bestankur007'>bestankur007</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bestankur007",
+    "contest_code": "TCTR2012",
+    "max_timelimit": "0.2",
+    "problem_code": "NOPC6"
+}

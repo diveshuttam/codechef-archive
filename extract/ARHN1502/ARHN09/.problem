@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Problem description.</p>\n<p>\u00a0You have to write a program which can answer Q queries of the form   sum i j  where you have to print sum from i to j (both i and j inclusive ) of the<br />\n    given N numbers where the indexing  of numbers is from 1 to N .<br />\n   <br /><br /><br />\n    Note :-<br />\n    Each number is from 1 to 100 ( both inclusive )<br />\n<br /><br />\n    Constraints :-<br />\n<br /><br />\n    0 &lt; Q &lt; 1000000<br />\n    <br />0 &lt; N &lt; 1000000<br />\n    <br />0 &lt; i &lt;= N<br />\n   <br /> 0 &lt; j &lt;= N<br />\n <br /><br />\n   Input :-<br />\n<br /><br />\n   first line contains N and Q .<br /><br />\n   next line conatins N numbers <br /><br />\n   then Q queries are present  <br /><br />\n<br /><br />\n   Ouput :-<br />\n<br /><br />\n  for each query print the result<br />\n<br /><br /><br />\n  Ex :-<br />\n<br /><br />\n 3 2<br /><br />\n1 2 3<br /><br />\nsum  1 2<br /><br />\nsum  1 3  <br /><br />\n<br /><br /><br />\n Output :-<br />\n<br /><br />\n3<br /><br />\n6<br />\n    </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-01-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Aarohan 2, 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1421022600,
+        "end_date": 1421152200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1421152200,
+        "submit_start_date": 1421022600,
+        "current": 1537437015
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>sidthekidder</span>",
+    "problem_name": "Queries",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sidthekidder'>sidthekidder</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sidthekidder",
+    "contest_code": "ARHN1502",
+    "max_timelimit": "1",
+    "problem_code": "ARHN09"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "ABX01",
+    "problem_author": "abx_2109",
+    "contest_name": "December Lunchtime 2017",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>abx_2109</span>",
+    "problem_name": "Strange Function",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>kingofnumbers</span>",
+    "contest_code": "LTIME55",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abx_2109'>abx_2109</a>, <a class='problem-tag-small ' href='/tags/problems/fast-expo'>fast-expo</a>, <a class='problem-tag-small ' href='/tags/problems/ltime55'>ltime55</a>, <a class='problem-tag-small ' href='/tags/problems/observations'>observations</a>, <a class='problem-tag-small ' href='/tags/problems/simple'>simple</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Read problems statements in <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/LTIME55/mandarin/ABX01.pdf\">Mandarin chinese</a>, <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/LTIME55/russian/ABX01.pdf\">Russian</a> and <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/LTIME55/vietnamese/ABX01.pdf\">Vietnamese</a> as well.</h3>\n\n\n<p>As New Year is approaching, Salik is studying functions in order to sharpen his math skills. Instead of regular functions, he is studying a strange function <b>F</b> which operates on non-negative integers. The value of <b>F</b>(<b>A</b>) is obtained by the following process:\n<ul>\n<li>Compute the sum of digits of <b>A</b>; let's denote this sum by <b>S</b>.</li>\n<li>If <b>S</b> is a single-digit integer, then <b>F</b>(<b>A</b>) = <b>S</b>.</li>\n<li>Otherwise, <b>F</b>(<b>A</b>) = <b>F</b>(<b>S</b>).</li>\n</ul></p>\n<p>It's guaranteed that this process correctly defines the function <b>F</b>.</p>\n\n<p>\nSince this problem was pretty straightforward, he invented a new problem: Given two integers <b>A</b> and <b>N</b>, compute <b>F</b>(<b>A<sup>N</sup></b>). Can you help him solve this task?</p>\n\n<h3>Input</h3>\n<p><ul>\n<li>The first line of the input contains a single integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first and only line of each test case contains two space-separated integers <b>A</b> and <b>N</b>.</li>\n</ul></p>\n\n<h3>Output</h3>\n<p>For each test case, print a single line containing one integer \u2014 the value of <b>F</b>(<b>A<sup>N</sup></b>).</p>\n\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 <b>T</b> \u2264 10<sup>5</sup></li>\n<li>1 \u2264 <b>A</b>, <b>N</b> \u2264 10<sup>18</sup></li>\n</ul>\n\n<h3>Subtasks</h3>\n\n<p>\n<b>Subtask #1 (10 points):</b>\n<ul>\n<li>1 \u2264 <b>N</b> \u2264 3</li>\n<li>1 \u2264 <b>A</b> \u2264 10<sup>5</sup></li>\n</ul>\n</p>\n\n<p>\n<b>Subtask #2 (20 points):</b>\n<ul>\n<li>1 \u2264 <b>N</b> \u2264 100</li>\n<li>1 \u2264 <b>A</b> \u2264 10<sup>5</sup></li>\n</ul>\n</p>\n\n<p>\n<b>Subtask #3 (70 points):</b> original constraints\n</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n\n3\n5 2\n7 2\n127 1\n\n<b>Output:</b>\n\n7\n4\n1\n</pre>\n\n<h3>Explanation</h3>\n<p><b>Example case 1:</b> F(5 \u00b7 5) = F(25) = F(2+5) = F(7) = 7</p> <p><b>Example case 2:</b> F(7 \u00b7 7) = F(49) = F(4+9) = F(13) = F(1+3) = F(4) = 4</p>\n<p><b>Example case 3:</b> F(127) = F(1+2+7) = F(10) = F(1+0) = F(1) = 1</p>",
+    "category_name": "main",
+    "date_added": "30-10-2017",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "0.5",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/ABX01",
+    "problem_tester": "kingofnumbers",
+    "time": {
+        "view_start_date": 1514642400,
+        "end_date": 1514653200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1514653200,
+        "submit_start_date": 1514642400,
+        "current": 1537433255
+    },
+    "user": {
+        "username": ""
+    }
+}

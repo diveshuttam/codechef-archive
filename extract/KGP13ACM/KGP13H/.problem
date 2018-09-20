@@ -1,0 +1,33 @@
+{
+    "problem_code": "KGP13H",
+    "problem_author": "shangjingbo",
+    "contest_name": "ACM-ICPC Kharagpur onsite regionals 2013 : Replay",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>shangjingbo</span>",
+    "problem_name": "Toy Exchange",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "KGP13ACM",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kgp13acm'>kgp13acm</a>, <a class='problem-tag-small ' href='/tags/problems/medium-hard'>medium-hard</a>, <a class='problem-tag-small ' href='/tags/problems/shangjingbo'>shangjingbo</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>During the pre-puja bonanza, the Khelnacompany has put <b>K</b> different types (numbered from 1 to <b>K</b>) of Disney figurines in their hot-selling RC cars. You can find the Disney figurine only after you have bought a RC car and opened the box. Sumana just loves Khelnacompany\u2019s cars and the Disney characters, and wants to collect as many different Disney figurines as possible.</p>\n<p>So Sumana tries to trade some of the figurines she has with her <b>M </b>friends to get figurines that she does not have. Any of Sumana\u2019s friends (say X) will trade a figurine with Sumana if \u00a0and only if X has a duplicate of that figurine, and Sumana gives X a figurine X does not have. Moreover, Sumana\u2019s friends are not as crazy as Sumana about collecting figurines, so they don\u2019t exchange any figurines among themselves; they just exchange with Sumana to make her happy.</p>\n<p>Sumana is clever and has realized that in some cases it might be good to exchange a Disney figurine she has for another figurine of a type she already possesses, or trade off a figurine even if she has only one copy of it. Given that Sumana knows exactly how many figurines of each type each of her friends has, can you help her find the maximum number of different Disney figurines that she can get by trading figurines with her friends?</p>\n<h3>Input</h3>\n<p>The first line contains the number of tests cases <b>N</b></p>\n<p>For each test case, the first line contains the value of <b>K</b> and <b>M</b>. The second line contains <b>K</b> integers, with the j-th integer indicating the number of figurines of type j that Sumana has. This is followed by <b>M</b> lines, one for each of Sumana\u2019s <b>M</b> friends. Each of these lines contains <b>K</b> integers, with the j-th integer indicating the number of figurines of type j possessed by that friend. Note that Sumana or a friend may not possess any figurine of a particular type, in which case that number will be 0. </p>\n<h3>Output</h3>\n<p>For each test case, print the case number, followed by a colon, followed by a single space, followed by a single integer indicating the maximum number of Disney figurines Sumana can collect.</p>\n<h3>Constraints</h3>\n<p>0 &lt; <b>N</b> &#8804; 3</p>\n<p>0 &lt; <b>K</b> &#8804; 100</p>\n<p>0 &lt; <b>M</b> &#8804; 100</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3 1\n3 0 0\n1 3 3\n4 2\n3 3 0 0\n0 0 3 0\n1 1 0 2\n\n<b>Output:</b>\nCase 1: 1\nCase 2: 4\n\n</pre>",
+    "category_name": "main",
+    "date_added": "18-12-2013",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "3",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/KGP13H",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1388233800,
+        "end_date": 1388251800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1388251800,
+        "submit_start_date": 1388233800,
+        "current": 1537437949
+    },
+    "user": {
+        "username": ""
+    }
+}

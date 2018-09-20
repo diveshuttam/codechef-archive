@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>You start with a sequence of consecutive integers. You want to group them into sets.<br />\nYou are given the interval, and an integer P. Initially, each number in the interval is in its own set.<br />\nThen you consider each pair of integers in the interval. If the two integers share a prime factor which is at least P, then you merge the two sets to which the two integers belong.<br />\nHow many different sets there will be at the end of this process?</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>One line containing an integer C, the number of test cases in the input file.<br />\nFor each test case, there will be one line containing three single-space-separated integers A, B, and P. A and B are the first and last integers in the interval, and P is the number as described above.</p>\n<h3>Output</h3>\n<p>For each test case, output one line containing the number of sets..</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n10 20 5\n10 20 3\n\n\n<b>Output:</b>\n9\n7\n\n\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "International Code Zilla 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1361257200,
+        "end_date": 1361284200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1672256211,
+        "submit_start_date": 1361257200,
+        "current": 1537438497
+    },
+    "problem_author_html_handle": "codecheftsec",
+    "problem_name": "Prime Factor",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/codecheftsec'>codecheftsec</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "codecheftsec",
+    "contest_code": "INCD2013",
+    "max_timelimit": "0.833333",
+    "problem_code": "RBXINT4"
+}

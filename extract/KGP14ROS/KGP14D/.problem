@@ -1,0 +1,33 @@
+{
+    "problem_code": "KGP14D",
+    "problem_author": "admin3",
+    "contest_name": "ACM-ICPC Asia-Kharagpur Onsite Contest 2014, Replay",
+    "todo": false,
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Interview Scheduling",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "KGP14ROS",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/kgp14ros'>kgp14ros</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Professor Calculus wishes to hire graduate engineers for a few open positions in his funded projects. He has called <b>K</b> candidates for interview (numbered from 1 to <b>K</b>), and based on the profile of the candidates, has decided on an estimated time duration of interview for each candidate. A single interview board is going to conduct all the interviews. Assume that the interview board starts the interviews at time <i>t</i> = 0.</p>\n\n    \n<p>Since candidates from outside the town may want to go back on the same day, Professor Calculus has asked each candidate for the departure time of the train that they wish to take to go back after the interview. Many candidates have indicated such times, while others who are local candidates or non-local candidates who do not wish to go back the same day have not.</p>\n    \n    \n<p>In order to cause any inconvenience to as few of the candidates as possible, Professor Calculus attempts to order the interviews such that the number of candidates who wish to go back the same day after the interview but will miss their trains is minimized. Assume that to catch a train, the interview of each candidate has to end at least 30 minutes before the departure time of the train the candidate wishes to take. You can also assume that all departure times specified are more than 30 minutes after the start of the first interview at t = 0.</p>\n    \n<p>Can you help the Professor Calculus prepare a schedule of the interviews so that the number of candidates who miss their trains is minimized?</p>\n\n<h3>Input</h3>\n<p>The first line contains the number of test cases <b>N</b> (0 &lt; <b>N</b> &le; 3).</p>\n<p>For each test case, the first line contains the number of candidates <b>K</b> (0 &lt; <b>K</b> &le; 100). The second line contains a sequence of <b>K</b> positive integers indicating the estimated interview duration in minutes of the <b>K</b> candidates. The third line contains a sequence of <b>K</b> positive integers indicating the time, in number of minutes from <i>t</i> = 0, of the departure time of a train that a candidate has to catch. If a candidate has not given any such time, the corresponding integer is set to -1.</p>\n\n\n<h3>Output</h3>\n<p>For each test case, print the case number, followed by a colon, followed by a single space, followed by a single integer indicating the minimum number of candidates who will miss their trains.</p>\n\n\n<h3>Sample Input</h3>\n<pre>\n2 \n5 \n10 15 20 15 25 \n60 70 50 90 80 \n4 \n15 25 20 30 \n-1 75 70 70\n</pre>\n\n\n<h3>Sample Output</h3>\n<pre>\nCase 1: 2\nCase 2: 1\n</pre>",
+    "category_name": "main",
+    "date_added": "18-12-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/KGP14D",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1419424200,
+        "end_date": 1419442200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1419442200,
+        "submit_start_date": 1419424200,
+        "current": 1537437040
+    },
+    "user": {
+        "username": ""
+    }
+}

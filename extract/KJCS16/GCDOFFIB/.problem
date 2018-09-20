@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Statement</h3>\n<p>Abhishek loves to play with Fibonacci numbers. One day he came up with a problem. Given <strong>N</strong>\u00a0 pairs of numbers,he had to perform two types of operations. First type of operation was an update operation. In this operation, he was given three integers<strong> B</strong> ,<strong>P </strong>and<strong> Q</strong>. He had to replace the <strong>B<sup>th</sup></strong> pair (<strong>1 indexing</strong>) in the list with new pair of numbers <strong>P </strong>and <strong>Q</strong>. In the second type of operation, two integers <strong>L</strong> and <strong>R</strong> were provided. This time the task was to \u00a0find the pair in the range <strong>L</strong> to <strong>R</strong>(both inclusive) with the maximum <strong> X</strong> value and to print the <strong>X</strong> value of that pair.</p>\n<p>For a pair with values P and Q,</p>\n<p><strong>X = gcd(fib(P), fib(Q)) % M</strong></p>\n<p><strong>Where \u00a0fib</strong><strong>(i) denotes the (ith Fibonacci) and M=10<sup>9</sup>+7</strong></p>\n<p><strong>Note :</strong> Consider 1 indexing and Fibonacci numbers starting with 1 i.e fib(1)=1,fib(2)=1,fib(2)=2,etc</p>\n<p>Now, Abhishek has been given a list of operations to be performed.Help him to solve them correctly.</p>\n<h3><strong>Input</strong></h3>\n<p>The first line contains a single integer <strong>N</strong> denoting the number of pairs.</p>\n<p>Each of the next <strong>N</strong> lines contain a pair of integers <strong>P</strong> and <strong>Q</strong> .</p>\n<p>The next line contains a single integer <strong>K</strong> denoting \u00a0the number of operations to be done.</p>\n<p>Each of the next <strong>K</strong> lines denote either update or maximum operation. For an operation to be an update operation, there must be 4 integers such that the first integer is 0 which denotes it is an update operation (<strong>type 0</strong>) . The next 3 integers <strong>B</strong>, <strong>P</strong> and <strong>Q</strong> as described above denote the <strong>B<sup>th</sup></strong> pair to be replaced with <strong>P</strong> and <strong>Q</strong>. For maximum operation, there are 3 integers. The first integer is 1 (<strong>type 1</strong> for maximum operation) and the next two integers <strong>L</strong> and <strong>R</strong> denote the range for the particular operation.</p>\n<h3><strong>Output</strong></h3>\n<p>Output answer of each operation of type 1<strong>(Maximum)</strong> separated by space.</p>\n<h3><strong>Constraints</strong></h3>\n<p><strong>1&lt;=N&lt;=10<sup>5</sup></strong></p>\n<p><strong>1&lt;=P,Q&lt;=10<sup>9</sup></strong></p>\n<p><strong>1&lt;=K&lt;=10<sup>5</sup></strong></p>\n<p><strong>1&lt;=L&lt;=R&lt;=N</strong></p>\n<p><strong>1&lt;=B&lt;=N</strong></p>\n<h3><strong>Example</strong></h3>\n<p><strong>Input</strong></p>\n<p>3</p>\n<p>2 3</p>\n<p>5 10</p>\n<p>12 8</p>\n<p>3</p>\n<p>0 2 6 8</p>\n<p>1 1 3</p>\n<p>1 2 3\u00a0</p>\n<p><strong>Output</strong></p>\n<p>3 3</p>\n<p><strong>Explanation</strong></p>\n<p>Pair 1:(2, 3),Pair 2:(5,10),Pair 3:(12,8)</p>\n<p>The first operation is an update operation.</p>\n<p>Thus Pair 2 changes to(6,8).</p>\n<p>The next operation is to find the pair in the range [1,3] with maximum X value.</p>\n<p>X value for pair 1:gcd(fib(2),fib(3))%(10<sup>9</sup>+7)=gcd(1,2)%(10<sup>9</sup>+7)=1</p>\n<p>X value for pair 2:gcd(fib(6),fib(8))%(10<sup>9</sup>+7)=gcd(8,21)%(10<sup>9</sup>+7)=1</p>\n<p>X value for pair 3:gcd(fib(12),fib(8))%(10<sup>9</sup>+7)=gcd(144,21)%(10<sup>9</sup>+7)=3</p>\n<p>Thus,the maximum value of X is 3.</p>\n<p>The next operation is again a type(1)maximum operation in the range [2,3]</p>\n<p>X value for pair 2:1</p>\n<p>X value for pair 2:3</p>\n<p>Thus, the maximum value of X is 3.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "KJSCE Code Spree",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1474817400,
+        "end_date": 1474828200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1474828200,
+        "submit_start_date": 1474817400,
+        "current": 1537434564
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>vedipen</span>",
+    "problem_name": "Crazy Queries",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vedipen'>vedipen</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vedipen",
+    "contest_code": "KJCS16",
+    "max_timelimit": "1",
+    "problem_code": "GCDOFFIB"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "QUCOCYL",
+    "problem_author": "grebnesieh",
+    "contest_name": "Quark CodeJam",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #D0011B;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>7&#9733;</span><span>grebnesieh</span>",
+    "problem_name": "Challenge your Limits",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "QUCO2014",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/grebnesieh'>grebnesieh</a>, <a class='problem-tag-small ' href='/tags/problems/quco2014'>quco2014</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h2>STATEMENT</h2>\n<p>\nIt is time for <a href=\"http://bits-spree.org/\">Spree</a>, the annual sports festival of BITS Goa. One of the main events, \"Challenge your Limits\" is a relay race and your college needs your help to figure out the quickest way to win.\n</p>\n<p>\nEach team will consist of 2 players. The entirety of the campus can be considered as a graph containing <b>N</b> vertices (0-based indexing) with <b>M</b> unidirectional roads of varying distances. The first player begins at node 0. There are <b>C</b> check points among the vertices of the graph. The second player of each team can chose one of those check points and stand there until the first player reaches him and then proceed towards one of <b>F</b> finish points.\n</p>\n<p>\nSimply put, you have to find the shortest path from the starting point to any one of the finish points such that it contains at least one check point.\n</p>\n<h2>INPUT</h2>\n<p>\nThe first line contains four space separated integers <b>N</b>, <b>M</b>, <b>C</b> and <b>F</b> as described above.\n</p>\n<p>\nThe second line contains C space separated integers, the nodes that act as check points.\n</p>\n<p>\nThe third line contains F space separated integers, the nodes that act as finish points.\n</p>\n<p>\nThe next M lines of each test case will contain 3 space separated integers <b>SOURCE</b>, <b>DESTINATION</b> and <b>DISTANCE</b>, describing the M edges. Each edge starts from <b>SOURCE</b>, ends at <b>DESTINATION</b> and has a distance of <b>DISTANCE</b> units.\n</p>\n<p><b>1 &lt;= N &lt;= 100000<br />\n1 &lt;= M &lt;= 1000000<br />\n1 &lt;= C &lt;= N<br />\n1 &lt;= F &lt;= N<br />\n0 &lt;= SOURCE &lt;= N - 1<br />\n0 &lt;= DESTINATION &lt;= N - 1<br />\n0 &lt;= DISTANCE &lt;= 1000000000</b></p>\n<h2>OUTPUT</h2>\n<p>Print a single integer, the distance of the shortest path from the starting point to any one of the finish points such that it contains at least one check point. Print <b>-1</b> if no such path exists.</p>\n<h2>EXAMPLE</h2>\n<h3>INPUT</h3>\n<p>5 12 2 2<br />\n1 3<br />\n2 4<br />\n0 1 10<br />\n0 2 5<br />\n1 3 1<br />\n1 2 2<br />\n2 1 3<br />\n2 1 5<br />\n2 3 9<br />\n2 4 2<br />\n3 4 4<br />\n3 4 8<br />\n4 3 6<br />\n4 0 7</p>\n<h3>OUTPUT</h3>\n<p>10</p>\n<h3>EXPLANATION</h3>\n<p><img src=\"/download/extimages/9eff28cc8c777d70935d27de416bd5e6.png\" /></p>\n<p>The shortest path is 0-2-1-2</p>\n",
+    "category_name": "main",
+    "date_added": "18-12-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1 - 5",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/QUCOCYL",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1419089400,
+        "end_date": 1419100200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1419100200,
+        "submit_start_date": 1419089400,
+        "current": 1537437062
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "status": "success",
+    "problem_tester": null,
+    "body": "<h2>Indian National Olympiad in Informatics 2015</h2>\n<div>\n<p>In this problem you are given two lists of N integers, a<sub>1,\u00a0</sub>a<sub>2, ...,\u00a0</sub>a<sub>N</sub> and b<sub>1,</sub>\u00a0b<sub>2, ...</sub>\u00a0b<sub>N</sub>. For any pair (i, j) with i, j \u03f5 {1, 2, ...,\u00a0N}\u00a0we define the segment from i to j, written as [i, j], to be i, i + 1, ...,\u00a0j if i \u2264 j and i, i + 1, ...,\u00a0N, 1, 2, ...,j if i > j. Thus if N = 5 then the [2, 4] = {2, 3, 4} and [4, 2] = {4, 5, 1, 2}.</p>\n<p>With each segment [i, j] we associate a special sum SSum[i, j] as follows:</p>\n<ul>\n<li>SSum[i, i] = a<sub>i</sub>.</li>\n<li>If i \u2260\u00a0j then,\u00a0\n<p><img style=\"display: block; margin-left: auto; margin-right: auto;\" src=\"https://s3.amazonaws.com/codechef_shared/download/special-sums.png\" alt=\"\" width=\"285\" height=\"58\" /></p>\n<p>The positions i and j contribute a<sub>i\u00a0</sub>and a<sub>j</sub>, respectively, to the sum while every other position k in [i, j] contributes b<sub>k</sub>.</p>\n</li>\n</ul>\n<p>Suppose N = 5 and that the two given sequences are as follows:</p>\n<table border=1>\n<tbody>\n<tr>\n<td width=\"29\">\n<p>i</p>\n</td>\n<td width=\"24\">\n<p>1</p>\n</td>\n<td width=\"24\">\n<p>2</p>\n</td>\n<td width=\"23\">\n<p>3</p>\n</td>\n<td width=\"24\">\n<p>4</p>\n</td>\n<td width=\"24\">\n<p>5</p>\n</td>\n</tr>\n<tr>\n<td width=\"29\">\n<p>a<sub>i</sub></p>\n</td>\n<td width=\"24\">\n<p>2</p>\n</td>\n<td width=\"24\">\n<p>3</p>\n</td>\n<td width=\"23\">\n<p>2</p>\n</td>\n<td width=\"24\">\n<p>3</p>\n</td>\n<td width=\"24\">\n<p>1</p>\n</td>\n</tr>\n<tr>\n<td width=\"29\">\n<p><sup>b</sup>i</p>\n</td>\n<td width=\"24\">\n<p>3</p>\n</td>\n<td width=\"24\">\n<p>4</p>\n</td>\n<td width=\"23\">\n<p>4</p>\n</td>\n<td width=\"24\">\n<p>6</p>\n</td>\n<td width=\"24\">\n<p>3</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>\u00a0</p>\n<p>Then, SSum[1, 1] = 2, SSum[2, 4] = 3 + 4 + 3 = 10 and SSum[4, 2] = 3 + 3 + 3 + 3 = 12. Your aim is to compute the maximum value of SSum[i, j] over all segments [i, j]. In this example you can verify that this value is 18 (SSum[2, 1] = 18).</p>\n<h3>Input format</h3>\n<ul>\n<li>The first line contains a single positive integer <em>N</em>.</li>\n</ul>\n<ul>\n<li>This is followed by a line containing <em>N</em> integers giving the values of the a<sub>i</sub>s and this is followed by a line containing <em>N</em> integers giving the values of the b<sub>i</sub>s.</li>\n</ul>\n<h3>Output format</h3>\n<p>A single integer in a single line giving the maximum possible special segment sum.</p>\n<p><strong>Note</strong>: The final value may not fit in a 32 bit integer. Use variables of an appropriate type to store and manipulate this value (long long in C/C++, long in Java).</p>\n</div>\n<h3>Test Data</h3>\n<p>You may assume that -10<sup>9</sup> \u2264 a<sub>i,</sub>\u00a0b<sub>i</sub> \u2264 10<sup><sub>9</sub></sup>.</p>\n<p>Subtask 1 (10 Marks) 1 \u2264 N \u2264 3000.<br />Subtask 2 (20 Marks) 1 \u2264 N \u2264 10<sup>6</sup> and a<sub>i</sub> = b<sub>i</sub> for all 1 \u2264 i \u2264 N.<br />Subtask 3 (30 Marks) 3 \u2264 N \u226410<sup>6</sup>. Further a<sub>1</sub> = b<sub>1</sub> = a<sub>N</sub> = b<sub>N</sub> = -10<sub>9</sub> and for each<br />1 &lt; k &lt; N we have -999 \u2264 a<sub>k,</sub>\u00a0b<sub>k</sub> \u2264 999.<br />Subtask 4 (40 Marks) 1 \u2264 N \u2264 10<sup><sub>6</sub></sup>.</p>\n<h3>Example</h3>\n<div title=\"Page 2\">\n<div>\n<p>Here is the sample input and output corresponding to the example above:</p>\n</div>\n</div>\n<div title=\"Page 2\">\n<div>\n<h3>Sample input</h3>\n<pre>5<br />2 3 2 3 1<br />3 4 4 6 3</pre>\n<h3>Sample output</h3>\n<pre>18</pre>\n<br />\n<p><strong>Note</strong>: Your program should not print anything other than what is specified in the output format. Please remove all diagnostic print statements before making your final submission. A program with extraneous output will be treated as incorrect!</p>\n</div>\n</div>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "INOI Practice Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1451932200,
+        "end_date": 1578162600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1578162600,
+        "submit_start_date": 1451932200,
+        "current": 1537431935
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Special Sums",
+    "source_sizelimit": "50000",
+    "problem_status": "unattempted",
+    "problem_tester_html_handle": null,
+    "problem_author": "admin3",
+    "contest_code": "INOIPRAC",
+    "max_timelimit": "3",
+    "problem_code": "INOI1501"
+}

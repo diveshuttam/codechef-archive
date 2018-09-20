@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Brazilian supermodel 'Genesis Koboi' fell from the ramp during a fashion show and lost her memory. The only thing she remembers is her twitter handle and her password. The only way to regain her entire memory is for her to read all the tweets she ever wrote.\n</p>\n<p>\nEvery tweet consists of a maximum length of 140 characters. Now, given an input string of SPACE SEPARATED words of equal length, which MAY OR MAY NOT make sense, form a tweet which can contain the MAXIMUM number of SPACE SEPARATED words from the input string. A word CAN REPEAT in each tweet ANY NUMBER of times. Calculate the maximum number of tweets N that you can form using this principle and help Genesis regain her memory.\n</p>\n<p>\nEach input string will consist of words i.e. <b>ONLY</b> alphabets.\n</p>\n<h3>Input</h3>\n<p>The First line contains the number of test cases, <b>T</b>.<br /></p>\n<p><b>T</b> test cases follow.<br /><br />\nEach test case contains a single line which is the string of space separated words of equal length.\n</p>\n<h3>Output</h3>\n<p>\n<b>N</b>, where N is (the maximum possible number of tweets) % 10^9+7\n</p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\nabcdefghijklm mlkjihgfedcba\n\n<b>Output:</b>\n1024\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-08-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Clash Credenz 2013",
+    "languages_supported": "C, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1377541800,
+        "end_date": 1377714600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1377714600,
+        "submit_start_date": 1377541800,
+        "current": 1537438207
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>ashmew2</span>",
+    "problem_name": "Twitter Conundrum",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ashmew2'>ashmew2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ashmew2",
+    "contest_code": "CLASH13",
+    "max_timelimit": "0.37",
+    "problem_code": "CREDCJ3"
+}

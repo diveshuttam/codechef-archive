@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n\n<p> Sagar had an array <b>A</b> of <b>N</b> elements, he asked his friends Akash and Shivam to perform the following operations at the most <b>Q</b> number of times :<br> \nChoose any pair <b>(A<sub>i</sub>, A<sub>j </sub>)</b><b>  i &lt; j </b>from the array and replace<b> A<sub>i</sub></b> with <b>(A<sub>i</sub>+A<sub>j</sub>)</b>, and delete <b>A<sub>j</sub></b> from the array.<br>\nAt the end they were asked to choose any <b>K</b> numbers from the array and find their product. \n<br>\nSagar wanted this product to be maximum possible .  \n<br>\nAkash and Shivam were too busy solving ladders that they never got enough time to solve this.<br>\nSagar still wants an answer to his question.<br>\nHelp him get the answer.<br>\n</p>\n\n\n<h3>Input</h3>\n\n<ul>\n\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases . The description of <b>T</b> testcases follow.\n</li>\n<li>The first line of each test case contains three space seperated integers <b>N K Q</b> .\n</li>\n<li>The second line of each test case contains <b>N</b> space seperated integers denoting the elements of array <b>A</b>.\n</li>\n<li> Caution : Heavy Input. Use fast I/O methods.</li>\n</ul>\n<p> </p>\n\n<h3>Output</h3>\n<p>For each test case, output the maximum possible product modulo 1000000007 on a new line.<br>\n\n</p>\n<p></p>\n<p> </p>\n\n\n<h3>Constraints</h3>\n<p></p>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b>\n</li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10000</b>\n</li>\n<li><b>1</b> \u2264 <b>K</b> \u2264 <b>N</b>\n</li>\n<li><b>0</b> \u2264 <b>Q</b> \u2264 <b>100000</b>\n</li>\n<li><b>0</b> \u2264 <b>A<sub>i</sub></b> \u2264 <b>10000</b>\n</li>\n</ul>\n\n<p> </p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<br>\n2<br>\n5 2 1<br>\n5 5 5 5 4<br>\n3 3 5<br>\n1 2 3<br>\n<b>Output:</b>\n<br>50\n<br>6\n\n</pre>\n\n\n<p> </p>\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-09-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Clash Credenz 2018 Wildcard",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, PYP3, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1537111800,
+        "end_date": 1537122600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1537122600,
+        "submit_start_date": 1537111800,
+        "current": 1537431996
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>sagar_b</span>",
+    "problem_name": "Maximize K Product",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sagar_b'>sagar_b</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sagar_b",
+    "contest_code": "CCWC2018",
+    "max_timelimit": "1",
+    "problem_code": "MXPROD"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Chef's city contains a straight line of <b>N</b> regions numbered <b>1</b> to <b>N</b> in increasing order. Fibonazi have started bombing the city at different regions. Now their bombs are weird, when Fibonazi drop a bomb of intensity <b>d</b> at some position <b>x</b>, region <b>x</b> suffers<br />\na damage equal to <b>F<sub>d</sub></b>, where <b>F<sub>d</sub></b> is the <b>d<sup>th</sup></b> Fibonacci number (<b>F<sub>0</sub> = 0</b>),<br />\nregions <b>x - 1</b> and <b>x + 1</b> (if they exist) suffer a damage <b>F<sub>d - 1</sub></b> and so on (regions at distance <b>i</b> from x suffer a damage <b>F<sub>d - i</sub></b>). If the damage by the bomb reaches 0 at some region, it remains 0 for all regions farther than it from <b>x</b>. Chef wants to know the total damage done from city <b>x</b> to city <b>y</b><br />\nas the bombs are being dropped.\n</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of each test case contains a single integer <b>N</b> denoting the number of regions in the city and the number of queries <b>Q</b>. <b>Q</b> lines follow, each of the following 2 types :  </li>\n<li><b>1 x d</b> bomb dropped at region <b>x</b> with intensity <b>d</b></li>\n<li><b>2 x y</b> Find the total damage done from region <b>x</b> to region <b>y</b> (both included) by the bombs dropped.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>For each query of type 2, print the required total damage modulo <b>1000000009</b>.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N, Q</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>d</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>x</b> \u2264 <b>y</b> \u2264 <b>n</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n7 2\n1 2 4\n2 1 7\n\n<b>Output:</b>\n9\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>After the bombing, the damage becomes 2 3 2 1 1 0 0</b></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426336200,
+        "end_date": 1426422600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426422600,
+        "submit_start_date": 1426336200,
+        "current": 1537436577
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>triveni</span>",
+    "problem_name": "Fibonacci Wars I",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/triveni'>triveni</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "triveni",
+    "contest_code": "IOPC2015",
+    "max_timelimit": "2",
+    "problem_code": "IOPC15I"
+}

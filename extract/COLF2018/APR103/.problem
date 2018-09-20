@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>You are given a single string containing some words.The string contains numbers and letters in lowercase.\n\nA valid word is a word whose second letter is a vowel and first letter is not a digit.You have to find the lexicographically smallest string which consists of the first letters of all the valid words given.\n\nYou can assume that all words have length greater than equal to two.\nThere will be at least 1 valid word.\n\n\n###Input:\nThe first line contains the single string \u2018s\u2019.\n\n###Output:\nPrint the required string \u2018s1\u2019\n\n###Constraints \n- $21 \\leq length of string \\leq 1000$\n\n###Sample Input:\n1afv hefkd myfysd cajyedy mohgd ndghjk\n###Sample Output:\nchm\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Code-Golf",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1523194200,
+        "end_date": 1523205000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1523205000,
+        "submit_start_date": 1523194200,
+        "current": 1537432654
+    },
+    "problem_author_html_handle": "adityarohan14",
+    "problem_name": "VALID WORDS",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/adityarohan14'>adityarohan14</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "adityarohan14",
+    "contest_code": "COLF2018",
+    "max_timelimit": "1",
+    "problem_code": "APR103"
+}

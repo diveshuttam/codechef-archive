@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>You will be given a sequence A of $N$ distinct integers A1, A2, A3, \u2026 AN.    \nLet the new sequence B obtained after sorting the given sequence in ascending order be B1, B2, B3, \u2026 BN.     \nLet $P(i)$ be the position of the $ith$ element of sequence B in sequence A.    \n\nNow, let us define another sequence C of $N$ integers C1, C2, C3, \u2026 CN such that,    \nFor all ( 1 <= $i$ <= $N$ )    \n$Ci$ = $Bi$ * | $P(i)$ - $i$ |    \n( | $P(i)$ - $i$ | represents magnitude of ( $P(i)$ - $i$ ), that is if ( $P(i)$ - $i$ ) is negative, take only the positive value. )    \n\nYour task is to find out $K$ , which is the total number of pairs ( $x$ , $y$ ) in the sequence C such that, ( $x$ < $y$ ) AND ( $Cx$ > $Cy$ ) , i.e. $x$ is strictly smaller than $y$ AND the $xth$ element in the sequence C is strictly greater than the $yth$ element in the sequence C.    \n( 1 <= $x$ < $y$ <= $N$ )    \n\n\n###Input:\n\n The first line of the input consists of a single integer $T$ denoting the number of Test Cases.    \nThe description of $T$ test cases follow :    \nThe first line of each test case consists of a single integer $N$.    \nThe second line of each test case consists of $N$ space-separated  integers which represent the sequence A.    \n\n\n###Output:\nFor each test case, output a single line consisting of single integer $K$ , the answer to the corresponding test case.\n\n###Constraints \n- 1 <= $T$ <= 100\n- 2 <= $N$ <= 10^5\n- 1 <= $Ai$ <= 10^9 ( For all 1 <= $i$ <= $N$ )\n\n\n###Sample Input:\n2    \n5    \n3 4 5 6 2    \n4    \n9 2 7 5    \n\n\n###Sample Output:\n4    \n2    \n\t\n###EXPLANATION:\nTest Case 1 :     \nSequence A => 3 4 5 6 2    \nSequence B => 2 3 4 5 6    \nSequence C =>  ( 2 * 4 )   ( 3 * 1 )   ( 4 * 1 )  ( 5 * 1 )   ( 6 * 1 )  => 8 3 4 5 6    \nSo, K=4    \n\nTest Case 2 :    \nSequence A => 9 2 7 5    \nSequence B => 2 5 7 9     \nSequence C => ( 2 * 1 )  ( 5 * 2 )   ( 7 * 0 )  ( 9 * 3 )   => 2 10 0 27     \nSo, K=2    \n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "31-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "BUG4EVER 2018 Final",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, swift, D, PERL, FORT, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, JS, ERL, TCL, kotlin, PERL6, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1535776200,
+        "end_date": 1535819400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1535819400,
+        "submit_start_date": 1535776200,
+        "current": 1537432023
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nerdyninja</span>",
+    "problem_name": "Fake Sort",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nerdyninja'>nerdyninja</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nerdyninja",
+    "contest_code": "BUGF2018",
+    "max_timelimit": "0.75",
+    "problem_code": "BUGF18D"
+}

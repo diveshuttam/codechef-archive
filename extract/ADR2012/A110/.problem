@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Voting is an important part of any democratic system. A newly appointed collector of a city has been assigned with a task of constructing the voter's list of his city. A task which is prone to errors. Some voters may have been away on vacation, others may have moved during the enrollment and so on. In order to be as accurate as possible he entrusted this task to three different officials. These were to independently record the list of voters and send it to him. In this city, every one has a ID number and  the list would only list their ID nos and no names. The officials were expected to arrange the ID numbers in ascending order in their lists. When the collector receives the list, he realised there were discrepencies. The three lists were not identical.So he has called upon you to create a program for him which is capable of selecting those IDs which are in majority,i.e. they appear in the list at least 2 out of 3 times.</p>\r\n<h3>Input</h3>\r\n<p>The first line of the input contains 3 integers N1, N2 and N3, N1 is the number of voters as counted by official 1, N2 is the number of voters as counted by official 2, N3 is the number of voters counted by official3.Then next N1 lines contain one positive integer each and describe the first list in ascending order. This is followed by N2 lines describing the second list and so on by N3 lines describing the thirs list in ascending orders.</p>\r\n<h3>Output</h3>\r\n<p>The first line of the output should contain a single integer M indicating the number of voters in the final list, followed by M lines that contain one positive integer each, describing the list of voters in the final list in ascending order.</p>\r\n<h3>Example</h3>\r\n<pre><b>Input:</b>\r\n3 3 3\r\n23\r\n30\r\n42\r\n21\r\n23\r\n35\r\n21\r\n23\r\n30\r\n\r\n<b>Output:</b>\r\n3\r\n21\r\n23\r\n30\r\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-04-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Android Hack Camp v.02",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1338215400,
+        "end_date": 1338388200,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1338388200,
+        "submit_start_date": 1338215400,
+        "current": 1537438797
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>solas_143</span>",
+    "problem_name": "Voting",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/solas_143'>solas_143</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "solas_143",
+    "contest_code": "ADR2012",
+    "max_timelimit": "0.104444",
+    "problem_code": "A110"
+}

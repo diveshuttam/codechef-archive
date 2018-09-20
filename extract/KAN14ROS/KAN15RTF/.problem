@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The kingdom of France is about to be at war with one of its neighbouring kingdoms. Both<br />\nthese kingdoms share a long border along which the French army has set up a number of posts.<br />\nEach post has an army posted on it to protect the kingdom from the enemy attacking at that<br />\npost. Geographically, the most vulnerable of these army posts is the post by the Sienne river.<br />\nTherefore it is expected that the first attack from the enemy is going to be on this post of<br />\nSienne. The total army strength of France is currently at an all time low. Thus army strength<br />\nat the post of Sienne is not much and in case of an attack it will need backup from the other<br />\narmy posts. Thus, it is very necessary for the French troops at all the other posts to be able to<br />\nmove quickly to the post of Sienne in case of an attack.</p>\n<p>There is a road network connecting the army posts. Each of these roads has an army post<br />\nat either end. The roads are bidirectional, i.e. the army at any one of these posts can move on<br />\nthe road to reach the post at the other end. The soldiers can also take a sequence of roads to<br />\ngo to the required post for backing it up.</p>\n<p>The enemy is suspected to make an attempt to destroy exactly one road of this network so<br />\nthat the post of Sienne can not receive full backup from some or all of the other posts. Fear-<br />\ning this, the French King has asked Leonardo Da Vinci to construct a few more similar roads<br />\nconnecting these army posts. Even if exactly one of the roads gets destroyed by the enemy,<br />\nthis construction must ensure that the post of Sienne can receive backup from all the remaining<br />\narmy posts.</p>\n<p>Your goal is to help Leonardo and tell him the minimum number of roads that need to be<br />\nbuilt to make this possible. You are given the information about the road network connecting<br />\nthe army posts. There are N army posts, labelled 1, 2, . . . , N with the post of Sienne being<br />\nlabelled 1. Currently there are M roads each connecting 2 army posts. At most one road can<br />\nexist between two army posts. It is possible that with the given set of roads, you cannot reach<br />\nsome army posts from the post of Sienne.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer T , the number of test cases in the file. Then T<br />\ntest cases follow. The first line of each test case contains two space separated integers N and<br />\nM . Following next are M lines which indicate the M roads. Of these lines, the i th line contains<br />\ntwo space separated integers a<sub>i</sub> and b<sub>i</sub> indicating the army posts connected by the i<sup>th</sup> road.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each test case, print in a separate line the minimum number of roads that need to be built<br />\nto achieve the above goal. If it is not possible print \u22121.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>13</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>5000</b></li>\n<li><b>0</b> \u2264 <b>M</b> \u2264 <b>131313</b></li>\n<li><b>1</b> \u2264 <b>a<sub>i</sub>, b<sub>i</sub></b> \u2264 <b>N</b></li>\n<li>For no pair <i>i</i> and <i>j</i> (<i>i</i> \u2260 <i>j</i>) both a<sub>i</sub> = a<sub>j</sub> and b<sub>i</sub> = b<sub>j</sub></li>\n<li>The maximum number of lines in each file would be 500000.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Sample</h3>\n<pre><b>Input:</b>\n1\n4 3\n1 2\n2 3\n3 4\n\n<b>Output:</b>\n1\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>Adding road 1, 4 will ensure that each army post is connected to 1 even if any road fails.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-04-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Kanpur Onsite Contest 2014, Replay",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1427981400,
+        "end_date": 1427999400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1427999400,
+        "submit_start_date": 1427981400,
+        "current": 1537436448
+    },
+    "problem_author_html_handle": "pnkjjindal",
+    "problem_name": "Connecting Army Troops",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pnkjjindal'>pnkjjindal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pnkjjindal",
+    "contest_code": "KAN14ROS",
+    "max_timelimit": "1",
+    "problem_code": "KAN15RTF"
+}

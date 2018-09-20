@@ -1,0 +1,33 @@
+{
+    "problem_code": "KNIGHTS",
+    "problem_author": "pieguy",
+    "contest_name": "The November CookOff",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>pieguy</span>",
+    "problem_name": "N Knights Problem",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "friggstad",
+    "contest_code": "COOK04",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cook04'>cook04</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/pieguy'>pieguy</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Dave recently mastered the problem of placing N queens on a chessboard so\nthat no two queens attack eachother.\nNow he wants to see how many knights he can place on a chessboard so\nthat no two knights attack eachother.\nNormally this would be a simple task, but some of the squares of the\nchessboard have been marked as unusable and hence cannot have a knight placed\non them.</p>\n<p>Recall that a knight can attack another knight if their vertical distance\nis 2 and their horizontal distance is 1, or if their vertical distance is 1 and\ntheir horizontal distance is 2.  Only one knight may be placed on each square\nof the chessboard</p>\n\n<h3>Input</h3>\n<p>The first line of input contains an integer T (0&lt;T\u226450), the number of test cases to follow.</p>\n<p>Each test case will begin with a line containing 2 integers M and N (0&lt;M,N\u226430), \ndenoting the number of rows and columns, respectively.\nM lines follow, each containing exactly N characters.\nThe j-th character of the i-th line is '.' if a knight may be placed in the j-th column of the i-th\nrow, and '#' if the square is unusable.</p>\n\n<h3>Output</h3>\n<p>For each test case, output on a single line the maximum number of knights that may be placed\non the chessboard such that no two attack eachother.</p>\n\n<h3>Sample input:</h3>\n<pre><code>2\n2 4\n....\n....\n5 5\n..#..\n#..#.\n##...\n...##\n.....\n</code></pre>\n\n<h3>Sample output:</h3>\n<pre>4\n11\n\n</pre>\n\n<p>The following image represents the chessboard and a possible solution to the second test case:<br />\n<img src=\"http://www.codechef.com/download/board.png\" alt=\"nn#_n\n#n_#n\n##__n\n_n_##\nnnn_n\" /></p>",
+    "category_name": "main",
+    "date_added": "9-11-2010",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "max_timelimit": "0.294118",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/KNIGHTS",
+    "problem_tester": "friggstad",
+    "time": {
+        "view_start_date": 1290873600,
+        "end_date": 1290882600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1290882600,
+        "submit_start_date": 1290873600,
+        "current": 1537439437
+    },
+    "user": {
+        "username": ""
+    }
+}

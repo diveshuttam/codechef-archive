@@ -1,0 +1,33 @@
+{
+    "problem_code": "CLCO04",
+    "problem_author": "rjohari23",
+    "contest_name": "Clash of Coders",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>rjohari23</span>",
+    "problem_name": "Hopscotch",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CLCO2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/clco2015'>clco2015</a>, <a class='problem-tag-small ' href='/tags/problems/hopscotch'>hopscotch</a>, <a class='problem-tag-small ' href='/tags/problems/rjohari23'>rjohari23</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>After getting bored of the monotonous routine of college, Chahak wants go back to the golden days of her life \u2018Her Childhood\u2019 when she used to enjoy playing games and one such game is <b style=\"font-size:14px\">\"Stapu\" (<a href=\"http://en.wikipedia.org/wiki/Hopscotch\">Hopscotch</a>)</b>.<br /><br /></p>\n<p>Chahak wants to play the game differently now. She plays the game on marble floor consisting of <b>N</b> parallelly placed rectangular tiles.<br />\nShe can jump to next one or jump over one or two tiles at a time. There are some tiles considered <b>\u2018unlucky\u2019</b> and number of such tiles is known to her.<br />\nShe doesn\u2019t want to step on them as she fears to lose the game.<br />\nShe will win only if she completes the game starting from first tile and ending at the last one.<br />\nHelp Chahak to find out if she can jump through all the tiles and win the game without stepping on the unlucky tiles.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<ul>\n<li>The first line contains <b>T</b>, number of test cases.</li>\n<li>The first line of each testcase contains two integers <b>N</b> and <b>M</b> -- total number of tiles (index starts from 1) and number of unlucky tiles respectively.</li>\n<li>The second line contains <b>M</b> different space-separated integers <b>A<sub>i</sub></b> representing the number of the unlucky tile(in arbitrary order).</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>Output \"YES\" if Chahak can win the game, otherwise print \"NO\" (without quotes).</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>9</sup></b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>3000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n10 6\n2 4 8 3 6 7\n10 5\n2 4 5 7 9\n\n<b>Output:</b>\nNO\nYES\n\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "date_added": "29-04-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CLCO04",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1430490600,
+        "end_date": 1430509500,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1430509500,
+        "submit_start_date": 1430490600,
+        "current": 1537436334
+    },
+    "user": {
+        "username": ""
+    }
+}

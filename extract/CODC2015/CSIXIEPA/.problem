@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Given a list of sentences, for each sentence, determine if it is a pangram or not.<br /><br />\npangrams are sentences constructed by using every letter of the alphabet at least once.<br />\n    <br /><br /></p>\n<p>    <b>For example:</b>  How quickly daft jumping zebras vex\n  </p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line contains T, the number of test cases.<br />\nThe following lines will contain the sentences.</p>\n<h3>Output</h3>\n<p>You have to print TRUE if a given sentence is a pangram else print FALSE<br /></p>\n<p>Constraints:<br />\n1 &lt;= T &lt;= 100<br />\n1 &lt;= Length of the sentence &lt;= 200\n</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\nHow quickly daft jumping zebras vex\nwhat are you doing\n\n<b>Output:</b>\nTRUE\nFALSE\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CSI XIE Contest 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1423197000,
+        "end_date": 1423211400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1423211400,
+        "submit_start_date": 1423197000,
+        "current": 1537436856
+    },
+    "problem_author_html_handle": "avinashroshan",
+    "problem_name": "Fun with Pangrams",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/avinashroshan'>avinashroshan</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "avinashroshan",
+    "contest_code": "CODC2015",
+    "max_timelimit": "1",
+    "problem_code": "CSIXIEPA"
+}

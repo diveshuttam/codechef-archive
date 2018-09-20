@@ -1,0 +1,33 @@
+{
+    "problem_code": "KFORK",
+    "problem_author": "piyushkumar",
+    "contest_name": "April LunchTime 2014",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>piyushkumar</span>",
+    "problem_name": "Knight Fork",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "LTIME11",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/brute-force'>brute-force</a>, <a class='problem-tag-small ' href='/tags/problems/ltime11'>ltime11</a>, <a class='problem-tag-small ' href='/tags/problems/piyushkumar'>piyushkumar</a>, <a class='problem-tag-small ' href='/tags/problems/simple'>simple</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Read problems statements in <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/LTIME11/mandarin/KFORK.pdf\">Mandarin Chinese </a> and <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/LTIME11/russian/KFORK1.pdf\">Russian</a>.</h3>\n\nForking is an important tactics in the game of chess. A piece is said to perform a fork if <br>\n1) It is on a safe square, i.e., the next move by the opponent does not kill the piece<br>\n2) It targets atleast 2 of the opponents pieces in its next move. So even if the opponent moves one of his pieces to safety, one of his remaining pieces can be killed.<br>\n<br>\nYou are given an <b>NxN</b> board, containing <b>M</b> White Queens. Remember, a Queen can move vertically, horizontally and diagonally; and kills any opponents piece directly in these directions. A Knight has 8 possible moves from position (i,j), viz (i+1,j+2), (i+1,j-2), (i-1,j+2), (i-1,j-2), (i+2,j+1), (i+2,j-1), (i-2,j+1), (i-2,j-1) (while remaining inside the NxN board). You have to find out the number of unoccupied positions on the NxN board, where a Black Knight can be placed such that it forks atleast 2 Queens.<br>\n<br>\n<b>INPUT:</b><br>\nFirst line contains <b>T</b>, number of testcases<br>\nEach testcase starts with a line containing two integers <b>N</b> and <b>M</b><br>\nThen M lines follow, ith line containing two space separated integers X[i] and Y[i], the coordinates of the ith Queen<br>\n<br>\n<b>OUTPUT:</b><br>\nFor each testcase, output a single line containing the answer to the question<br>\n<br>\n<b>CONSTRAINTS:</b><br>\n1<=T<=10<br>\n1<=X[i],Y[i]<=N <br>\n0<=M<=N*N <br>\n40 points : 1<=N<=8<br>\n60 points : 1<=N<=1000<br>\nNo two queens can be in the same square.<br>\n<br>\n<b>SAMPLE INPUT:</b><br>\n1<br>\n5 2<br>\n1 1<br>\n3 1<br>\n<br>\n<b>SAMPLE OUTPUT:</b><br>\n1<br>\n<br>\n<b>EXPLANATION:</b><br>\nOnly forking position is (2,3)",
+    "category_name": "main",
+    "date_added": "20-04-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/KFORK",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1398576600,
+        "end_date": 1398587400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1398587400,
+        "submit_start_date": 1398576600,
+        "current": 1537437580
+    },
+    "user": {
+        "username": ""
+    }
+}

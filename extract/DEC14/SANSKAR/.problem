@@ -1,0 +1,33 @@
+{
+    "problem_code": "SANSKAR",
+    "problem_author": "jay_adm",
+    "contest_name": "December Challenge 2014",
+    "todo": false,
+    "problem_author_html_handle": "jay_adm",
+    "problem_name": "Alok-nath and His Sanskars",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>shiplu</span>",
+    "contest_code": "DEC14",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bit'>bit</a>, <a class='problem-tag-small ' href='/tags/problems/dec14'>dec14</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/jay_adm'>jay_adm</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Read problems statements in <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/DEC14/mandarin/SANSKAR.pdf\">Mandarin Chinese </a> and <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/DEC14/russian/SANSKAR.pdf\">Russian</a>.</h3>\n\n\n<p>Alok-nath is man of equality. He needs your help to divide his \u201csanskars\u201d evenly amongst all his followers. By doing this, Alok-nath can create equality amongst his followers and he'll be called a true \u201csanskari\u201d.</p>\n\n<p>Alok-nath has <b>N</b> sanskars, and <b>K</b> followers. Each sanskar is given a numerical value which shows its intensity.</p>\n\n<p>Your task is to determine whether it is possible to allocate all the sanskars to followers in such a way that the sum of intensities of the sanskars allocated to each follower is equal. <b>Note : </b>A sanskar can be allocated to only one of the followers.</p>\n\n<h3>Input</h3>\n\n<p>The first line of the input contains an integer <b>T</b>, denoting the number of test cases. Then <b>T</b> test cases follow. The first line of each case contains two integers <b>N</b> and <b>K</b>, with <b>N</b> denoting the number of sanskars and <b>K</b> denoting the number of followers. In the next line are <b>N</b> space separated integers denoting the intensities of each sanskar.</p>\n\n<h3>Output</h3>\n\n<p>For each test case, output \"yes\" if it is possible to divide his sanskars equally amongst his followers; otherwise output \"no\" (without quotes).</p>\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>21</b></li>\n<li><b>1</b> \u2264 <b>K</b> \u2264 <b>8</b></li>\n<li>Subtask #1 (20 points) : <b>0</b> \u2264 <b>intensity of sanskar</b> \u2264 <b>10^5</b></li>\n<li>Subtask #2 (80 points) : <b>0</b> \u2264 <b>intensity of sanskar</b> \u2264 <b>10^10</b></li>\n</ul>\n\n<p> </p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n5 3\n1 2 4 5 6\n5 3\n1 2 4 5 7\n\n<b>Output:</b>\nyes\nno\n</pre>\n<p> </p>\n<h3>Explanation</h3>\n\n<p>In the first case, sanskars can be allocated as follows, each follower receiving a total intensity of 6: {1,5}, {2,4}, {6}.</p>",
+    "category_name": "main",
+    "date_added": "21-02-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/SANSKAR",
+    "problem_tester": "shiplu",
+    "time": {
+        "view_start_date": 1417771800,
+        "end_date": 1418635800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1418643000,
+        "submit_start_date": 1417771800,
+        "current": 1537437171
+    },
+    "user": {
+        "username": ""
+    }
+}

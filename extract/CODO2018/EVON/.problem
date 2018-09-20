@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Statement</h3>\n<p>Sachin loves to play with binary numbers as he is very fascinated about how computer computes various calculation and gives different results accordingly. Though he is more fascinated about Quantum computers where every data is stored and evaluated on basis of spin of electrons rather than our traditional computers. But as far now, quantum computing is future of computing world, so his fascination is also limited to traditional computers which work on binary numbers. One day, he wanted to calculate number of ones corresponding to the particular bit of the array elements and if the count is even, then he assigns 1 to that particular bit of the resultant number.</p><br>\n<p>For example, if the array elements are 2, 3, 4, then the result is 2.</p><br>\n<p>As</p>\n<p>a1= 00...... 0 0 1 0</p>\n<p>a2= 00.......0 0 1 1</p>\n<p>a3= 00.......0 1 0 0</p>\n<p>----------------------</p>\n<p>r  = 00.......0 0 1 0</p>\n<br>\n<p>Note that count of only the zeros before the last ones are considered to be non-even.</p>\n\n<h3>Input Format</h3>\n<p>First line of each test case contains number of test case T.</p>\n<p>First line of each test case contains N the number of elements in the given array.</p>\n<p>Second line contains N space separated integers.</p>\n\n<h3>Output Format </h3>\n<p>Print only one integer of each test cases in separate line.</p>\n\n<h3>Constraints:</h3>\n<p>1<=T<=20</p>\n<p>1<=Size of the array<=10^7</p>\n<p>1<=Ai<=10^18</p>\n<hr>\n<h3>Sample Input</h3>\n<p>2</p>\n<p>3</p>\n<p>2 3 4</p>\n<p>4</p>\n<p>2 3 4 8</p>\n<hr>\n<h3>Sample Output</h3>\n<p>2</p>\n<p>2</p>\n<br>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "CODEOUT",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1523028600,
+        "end_date": 1523039400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1523039400,
+        "submit_start_date": 1523028600,
+        "current": 1537432684
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>shiv201415</span>",
+    "problem_name": "Even Ones",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shiv201415'>shiv201415</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shiv201415",
+    "contest_code": "CODO2018",
+    "max_timelimit": "0.5",
+    "problem_code": "EVON"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The classic Two jug problem is to find out if, given 2 jugs, A and B of capacity Ca and Cb, is it possible to get a volume V in jug B.Considering the only moves being - FILLA, FILLB, POURA, POURB, EMPTYA, EMPTYB; where POURA means pouring the water from jug A to B untill either A is empty or B is full.</p>\n\n<p>In a contest between human and Computers to test whether computers can beat humans in solving the problem in minimum moves,  but the judges forgot the computers cannot cheat unless taught to. The participating human cheated as he was able to detect a half filled jug by tilting the jug till the base is just visible above the water level.Hence he could now perform 6 more operations - HFILLA, HFILLB, HPOURA, HPOURB, HEMPTYA, HEMPTYB; where HPOURA means the water from jug A is poured to jug B till jug B is half-filled, or A is empty.</p>\n\n<p>Clearly proving the intelligence of Humans over computers the Human won many cases and others they tied.You need to write a program to detremine if for a given scenario the human won or it was a tie.</p>\n\n<p>Problem Setter: <a href= \"http://www.facebook.com/shahzorkhan123\">Shahzor Khan</a></p>\n\n<h3>Input</h3>\n<p>The first line of input gives the number of test cases, T(0 <= T <= 1000).Next T lines each describe 3 integers Ca, Cb and V,(1 <= Ca, Cb, V <=100) and (Ca<=Cb).</p>\n\n<h3>Output</h3>\n<p>For each test case print \"WIN BY X MOVES\" or \"TIED\" without the quotes, X here refers to difference between nuber of moves of Human and Computer.\nIn case the computer didnt finish, X is number of moves for human to win.</p>\n\n\n<h3>Example:</h3>\n\n<pre>\n<b>Input:</b>\n2\n3 5 4\n4 8 1\n\n<b>Output:</b>\nWON \nTIED.\n</pre>\n\n<h3>Explaination:</h3>\nComputer: FILLB POURB EMPTYA POURB FIILB POURB<br/>\nHuman: HFILLA HFILLB POURA\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-03-2011",
+    "is_direct_submittable": false,
+    "contest_name": "The DreamSpark Contest -  Microsoft Software & Technology Club India",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1303050600,
+        "end_date": 1303068600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1303068600,
+        "submit_start_date": 1303050600,
+        "current": 1537439230
+    },
+    "problem_author_html_handle": "ganesha",
+    "problem_name": "Human vs Artificial Intelligence",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ganesha'>ganesha</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ganesha",
+    "contest_code": "DREAMSPK",
+    "max_timelimit": "0.1",
+    "problem_code": "DSPCXI11"
+}

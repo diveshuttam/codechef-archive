@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0You are given 3 numbers <b>N</b>, <b>D</b> and <b>K</b> . Consider all the <b>permutations</b> of number <b>N</b>. Find out the number of permutations that give <b>K</b> modulo <b>D</b>.</p>\n<h3>Input</h3>\n<ul>\n<li>The input consists of 3 space-separated numbers <b> N </b> ,  <b> D </b>  , <b> K </b> </li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p><ul>\n<li>Output the required answer.</li>\n</ul>\n</p>\n<h3>Constraints</h3>\n<p><ul>\n<li><b>0</b> \u2264 <b>N</b> \u2264 <b>10<sup>14</sup></b></li>\n<li><b>1</b> \u2264 <b>D</b> \u2264 <b>1000</b></li>\n<li><b>0</b> \u2264 <b>K</b> \u2264 <b>D - 1</b></li>\n</ul>\n</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n214 2 0\n\n<b>Output:</b>\n4\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>214 has 6 permutations. Out of these the valid permutations are 124 , 142 , 214 , 412 </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Sataday",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1454256600,
+        "end_date": 1454274600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454274600,
+        "submit_start_date": 1454256600,
+        "current": 1537435572
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>tapan0007</span>",
+    "problem_name": "Three Numbers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/tapan0007'>tapan0007</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "tapan0007",
+    "contest_code": "IPC15P2A",
+    "max_timelimit": "2",
+    "problem_code": "SATA08"
+}

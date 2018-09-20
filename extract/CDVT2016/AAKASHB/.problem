@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Aakash is the number one foodie of USICT and he loves to eat a lot. On his birthday his friends wanted to give him\nthe best feast he ever had. So they took him to restaurant and ordered N number of dishes.</p> \n<p>Initially his hunger is 0,\nas the time passes the hunger of Aakash increases by K ounces per second(i.e he can eat K ounces after 1 sec, K more after another\nsecond and so on). Now at end of certain time T[i] seconds, dish weighing D[i] ounces arrives.Aakash can reject this dish if he wants, but Aakash can only eat this dish if his hunger is greater than or equal to the D[i] and D[i] will be subtracted from his current hunger.\nElse he has to reject the dish, the dish is thrown away and nothing is reduced from his current hunger.\n</p>\n<p>\nAakash wants to eat maximum number of dishes\nso he asks for your help. Help him figure out the maximum number of dishes he can eat.<br>\nNote : Aakash will eat the dish completely, so no partial eating and whole weight of the dish is reduced for his hunger.\n</p>\n<b>Input :</b><br>\n<p>\nFirst Line consists of a single integer N - number of dishes.\nNext N lines consists of T[i] and D[i] - arrival time of a dish and it weight.<br>\nAll T[i] are distinct.<br>\nLast line consists of a single integer K - the rate at which Aakash's hunger increases.<br>\n</p>\n<p>\n<b>Output:</b>\n<br>\nOutput a single integer , telling the maximum number of dishes Aakash can eat.\n</p>\n<p>\n<b>Constraints :</b>\n<br>\n<b>Subtask 1 :</b><br>\n\t1 <= N <= 1000<br>\n\t1 <= T[i] , D[i] <= 1000 <br>\n\t1 <= K <= 10^7<br>\n\n<b>Subtask 2:</b><br> \n\t1 <= N <= 500000<br>\n\t1 <= T[i] , D[i] <= 10^9<br>\n\t1 <= K <= 10^7<br>\n</p>\n<p>\n<b>Sample input 1 : </b>\n</p>\n<p>\n5<br>\n11 2<br>\n2 3<br>\n4 2<br>\n10 7<br>\n12 1<br>\n1<br>\n</p>\n<p>\n<b>Sample output 1 :</b>\n<br>\n4<br>\n</p>\n\n<p>\n<b>Explaination :</b><br>\nAakash can eat maximum 4 dishes. Aakash cannot eat the dish arrived at T[i] = 2 with D[i]=3 as his current hunger is 2 while the weight of the dish is 3, \nrest he can eat all 4 dishes afterwards.\n</p>\n<p>\n<b>Sample input 2 :</b><br>\n3<br>\n2 100<br>\n3 101<br>\n5 200<br>\n12<br>\n</p>\n<p>\n<b>Sample output 2:</b><br>\n0<br>\n</p>\n<p>\n<b>Explaination :</b><br>\nAakash cannot eat any of the dishes as his hunger is always less than the D[i] at corresponding T[i].<br>\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-10-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Codester veteran",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1477198800,
+        "end_date": 1477207800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1477207800,
+        "submit_start_date": 1477198800,
+        "current": 1537434428
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>gagan86nagpal</span>",
+    "problem_name": "Foodie Aakash",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/gagan86nagpal'>gagan86nagpal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "gagan86nagpal",
+    "contest_code": "CDVT2016",
+    "max_timelimit": "1",
+    "problem_code": "AAKASHB"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "TIMPLEM",
+    "problem_author": "vijju123",
+    "contest_name": "ICO Preparatory Contest 2019 #2",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>vijju123</span>",
+    "problem_name": "Vijju, Taran and Terrible Implementations",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ICOP1902",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/icop1902'>icop1902</a>, <a class='problem-tag-small ' href='/tags/problems/prefix-sum'>prefix-sum</a>, <a class='problem-tag-small ' href='/tags/problems/prime'>prime</a>, <a class='problem-tag-small ' href='/tags/problems/simple'>simple</a>, <a class='problem-tag-small ' href='/tags/problems/taran_1407'>taran_1407</a>, <a class='problem-tag-small ' href='/tags/problems/vijju123'>vijju123</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>In a far away Galaxy of Tilky Way, there was a planet Tarth where the sport of Tompetitive Toding was very popular. According to legends, there lived a very random setter known for the terrible implementation problems he made there.\n\nTodechef had been at chaos all day! Turns out, two of the legendary toders, Misha and Mykhailo had a spat *again* and decided to settle the matter by a Toding Duel.\n\n\"When they both last duelled this Saturday, they submitted over $1000$ submissions for a challenge question and crashed the judge. We had to make our contest unrated!\" \n\nThe admins at Todechef tried to think of a solution, when one of them said-\n\n\"Everyone hates implementation problems!\"\n\nAnd thats how Vijju and Taran were summoned to make the nastiest, deadliest implementation problem to prevent Misha and Mykhailo from wrecking havoc on Todechef's servers.\n\nVijju opened his thousand paged Tathematics book, and wrote down an evil function-\n\n<pre>EvilFunction(int l,int r){\n    sum=0;\n\tfor(i=l;i<=r;i++){\n\t    flag=(i==1);\n\t    for(j=2;j< i;j++){\n\t        cantCheckJ=0;\n\t        for(k=2;k<=FindSquareRootOf(j);k++)\n\t            if(j%k==0)\n\t                cantCheckJ++;\n\t        if(cantCheckJ==0 and i%j==0)\n\t            flag=1;\n\t    }\n\t    if(flag==0)\n\t        sum+=Power(i,i);\n\t}\n\treturn sum;\n}</pre>\n\nHere, Power(a,b) takes $2$ integers as input and returns ${a}^{b}$ as output while FindSquareRootOf(a) takes one integer $a$ as input and returns square root of it rounded off to nearest integer.\n\nVijju then made the problem that given an interval of $[l,r]$, you need to find the value this function returns.\n\n\"Dont ask for just one interval!\" Taran screamed, \"Ask for so many intervals so that their solutions TLE in I/O operations itself!!\"\n\nNot a bad idea.\n\n\"Also, make sure the sample I/O is COMPLETELY incomprehensible!\"\n\nOkay, Taran *definitely* deserved a promotion.\n\nAnd this is how, the nastiest implementation problem was born. But they want to test if its nasty enough. Can you help them in knowing if their problem is terrible enough to save Todechef?\n<hr></hr>\n###Input:\n\n- First line will contain $T$, number of testcases. Then the testcases follow. \n- Each testcase contains of a single line of input, two integers $L, R$. \n<hr></hr>\n###Output:\nFor each testcase, output in a single line, the value the function returns. Since it can be large, output it modulo ${10}^{9}+7$.\n<hr></hr>\n###Constraints \n- $1 \\leq T \\leq {10}^{5}$\n- $1 \\leq L \\leq R \\leq {10}^{5}$\n<hr></hr>\n###Subtasks\n- 30 points : $1 \\leq T,L,R \\leq 1000$\n- 70 points : $1 \\leq T,L,R \\leq 10^5$\n\n<hr></hr>\n###Sample Input:\n\t1\n\t24 30\n\n###Sample Output:\n\t847614936\n<hr></hr>\n###EXPLANATION:\nEvilFunction returns the following value when given parameters are passed, as we can confirm by manual dry running.",
+    "category_name": "main",
+    "date_added": "15-08-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/TIMPLEM",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1535290200,
+        "end_date": 1535304600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1535304600,
+        "submit_start_date": 1535290200,
+        "current": 1537432040
+    },
+    "user": {
+        "username": ""
+    }
+}

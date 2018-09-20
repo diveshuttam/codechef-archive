@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nIn the land of Hedonia the offcial language is Hedonian. A Hedonian professor had noticed that many of her students still did not master the syntax of Hedonian well. Tired of correcting the many syntactical mistakes, she decided to challenge the students and asked them to write a program that could check the syntactical correctness of any sentence they wrote. Similar to the nature of Hedonians, the syntax of Hedonian is also pleasantly simple. Here are the rules:<br/><br />\n0. The only characters in the language are the characters p through z and N, C, D, E, and I.<br/><br />\n1. Every character from p through z is a correct sentence.<br/><br />\n2. If s is a correct sentence, then so is Ns.<br/><br />\n3. If s and t are correct sentences, then so are Cst, Dst, Est and Ist.<br/><br />\n4. Rules 0. to 3. are the only rules to determine the syntactical correctness of a sentence.<br/><br />\nYou are asked to write a program that checks if sentences satisfy the syntax rules given in Rule 0. - Rule 4. </br/></br/></br/></br/></br/></br/></p>\n<h3>Input</h3>\n<p>The input consists of a number of sentences consisting only of characters p through z and N, C, D, E, and I. Each sentence is ended by a new-line character. The collection of sentences is terminated by the end-of- file character. If necessary, you may assume that each sentence has at most 256 characters and at least 1 character. </p>\n<h3>Output</h3>\n<p>The output consists of the answers YES for each well-formed sentence and NO for each not-well-formed sentence. The answers are given in the same order as the sentences. Each answer is followed by a new-line character, and the list of answers is followed by an end-of- file character. </p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\nCp\nIsz\nNIsz\nCqpq\n\n<b>Output:</b>\nNO\nYES\nYES\nNO\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-01-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Techspardha 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1359783000,
+        "end_date": 1359793800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1359793800,
+        "submit_start_date": 1359783000,
+        "current": 1537438560
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>assasin143</span>",
+    "problem_name": "Simple Syntax",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/assasin143'>assasin143</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "assasin143",
+    "contest_code": "TCSP2013",
+    "max_timelimit": "0.206897",
+    "problem_code": "SMPX"
+}

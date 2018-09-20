@@ -1,0 +1,280 @@
+{
+    "announcements": "<ul>\r\n<b>\r\n<li>The September Challenge 2016 has ended!</li>\r\n<li>The editorials for the contest can be found <a href=\"https://discuss.codechef.com/tags/sept16/\">here</a>.</li>\r\n<li>The problems have been moved to practice section.</li>\r\n<li>Solutions are public for all the problems.</li>\r\n<li>The winners blog post can be found <a href=\"https://blog.codechef.com/2016/09/30/yay-the-biggest-long-challenge-yet-literally/\">here</a>.</li>\r\n</b> \r\n</ul>\r\n<p><b>11/09/2016, 17:16 HRS IST:\u00a0Update: </b>The issue has been resolved. We have enabled submissions, you should now be able to make submissions and get the result. Thanks for being with us.</p>\r\n<p><b>11/09/2016, 1600 HRS IST:\u00a0Update</b>: We have disabled submissions for now, we'll be back soon.</p>\r\n<p><b>11/09/2016, 1600 HRS IST: </b>We are facing some technical issue at our judge\u2019s end due to which the submissions are not getting judged. We are looking into it and will fix it at the earliest. We regret the inconvenience.</p>\r\n<p><b>09/09/2016, 2000 HRS IST: </b>The contest has been extended for 3 days. It will now end on 15th September, 1500 hrs IST.</p>\r\n<p><b>08/09/2016, 0047 HRS IST: </b>The 10th problem\u00a0<a title=\"https://www.codechef.com/SEPT16/problems/CHEFSPAG\" href=\"/SEPT16/problems/CHEFSPAG\">CHEFSPAG</a> has been added to the contest page.</p>\r\n<p><b>07/09/2016, 1700 HRS IST: </b>The 9th problem\u00a0<a href=\"/problems/CHEFKC\" target=\"_blank\">CHEFKC</a> has been added to the contest page.</p>\r\n<div><b>06/09/2016, 1900 HRS IST: </b>The 8th problem\u00a0<a href=\"/problems/CIRCLEQ\" target=\"_blank\">CIRCLEQ</a> has been added to the contest page.</div>\r\n<p><b>06/09/2016, 1800 HRS IST: </b>The timelimit for the problem <a target=\"_blank\" href=\"/SEPT16/problems/DIVMAC\">DIVMAC</a> has been updated and all the accepted solutions have been rejudged. Regret the inconvenience.</p>\r\n<p><b>02/09/2016, 1500 HRS IST: </b>The remaining three problems are still in the kitchen. They will be served soon. Till then you can enjoy the rest.</p>",
+    "ip": "149.129.135.113",
+    "code": "SEPT16",
+    "duration": "18720",
+    "name": "September Challenge 2016",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "DIVMAC": [
+            {
+                "score": "10",
+                "count": "1284"
+            },
+            {
+                "score": "25",
+                "count": "74"
+            },
+            {
+                "score": "35",
+                "count": "139"
+            },
+            {
+                "score": "75",
+                "count": "2"
+            },
+            {
+                "score": "100",
+                "count": "1251"
+            }
+        ],
+        "LONGSEQ": [
+            {
+                "score": "40",
+                "count": "92"
+            },
+            {
+                "score": "60",
+                "count": "21"
+            },
+            {
+                "score": "100",
+                "count": "8431"
+            }
+        ],
+        "CHEFKC": [
+            {
+                "score": "20",
+                "count": "136"
+            },
+            {
+                "score": "100",
+                "count": "27"
+            }
+        ],
+        "CHEFSPAG": [
+            {
+                "score": "10",
+                "count": "42"
+            },
+            {
+                "score": "40",
+                "count": "27"
+            },
+            {
+                "score": "100",
+                "count": "6"
+            }
+        ],
+        "LEXOPAL": [
+            {
+                "score": "47",
+                "count": "12"
+            },
+            {
+                "score": "53",
+                "count": "16"
+            },
+            {
+                "score": "100",
+                "count": "7436"
+            }
+        ],
+        "RESCALC": [
+            {
+                "score": "20",
+                "count": "1063"
+            },
+            {
+                "score": "80",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "5095"
+            }
+        ],
+        "JTREE": [
+            {
+                "score": "10",
+                "count": "16"
+            },
+            {
+                "score": "25",
+                "count": "258"
+            },
+            {
+                "score": "50",
+                "count": "13"
+            },
+            {
+                "score": "100",
+                "count": "659"
+            }
+        ],
+        "CHFNFRN": [
+            {
+                "score": "30",
+                "count": "284"
+            },
+            {
+                "score": "100",
+                "count": "1761"
+            }
+        ],
+        "CIRCLEQ": [
+            {
+                "score": "10",
+                "count": "4"
+            },
+            {
+                "score": "20",
+                "count": "3"
+            },
+            {
+                "score": "30",
+                "count": "91"
+            },
+            {
+                "score": "40",
+                "count": "1"
+            },
+            {
+                "score": "50",
+                "count": "44"
+            },
+            {
+                "score": "100",
+                "count": "42"
+            }
+        ]
+    },
+    "rules": " <p><b class=\"rules-heading\">CodeChef: A Platform for Aspiring Programmers</b></p> <div class=\"rules-body\"> <p>CodeChef was created as a platform to help programmers make it big in the world of algorithms, computer programming and programming contests. At CodeChef, we work hard to revive the geek in you by hosting a programming contest at the start of the month and another smaller programming challenge in the middle of the month.</p> </div> <p><br /> <b class=\"rules-heading\">About CodeChef September Long Challenge:</b></p> <div class=\"rules-body\"> <p>CodeChef Long Challenge is a 10 day monthly coding contest where you can show off your computer programming skills. The significance being- it gives you enough time to think about a problem, try different ways of attacking the problem, read the concepts etc. If you're usually slow at solving problems and have ample time in hand, this is ideal for you. There would a tremendous amount of learning while competing. We also put in a lot of efforts in getting quality problems, which would in turn foster your learning while solving them.</p> </div> <p><br /> <b class=\"rules-heading\">Contest Details:</b></p> <div class=\"rules-body\"> <p><b>Duration: </b>10 Days, From 2<sup>nd</sup> September 15:00 hrs IST to 12<sup>th</sup> September 15:00 hrs IST. Check your timezone <a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+September+Challenge+2016&amp;iso=20160902T15&amp;p1=44\">here</a>.</p> </div> <p><br /> <b class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</b></p> <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a>.</p> </div> <p><br /> <b class=\"rules-heading\">What is it for you?</b></p> <div class=\"rules-body\"> <p>The idea behind these programming contests is that we want you to learn while competing. Also we believe that it is alright to refer to tutorials, books and other materials, learn a concept and then apply the same to solve a problem during a contest. But it is <b>not alright to copy other people's solutions or seek other people's help to solve a problem without understanding it.</b> The dividing line may seem to be thin but it can be captured by the spirit of learning. If whatever you are doing is making you learn while you do so, we tend to believe that it is alright.</p> <br /> <p>Not just that, as a token of motivation we also give away cash prizes and goodies to the winners of the contest. However, our sole intention lies in making our users learn new concepts while competing. FYI, here are the list of prizes: <br /><br /> <b class=\"rules-heading\">For Indians:</b></p> <ul class=\"\"> <li>1st prize: INR 12000/-</li> <li>2nd prize: INR 8000/-</li> </ul> <b class=\"rules-heading\">For Rest of World:</b> <ul class=\"\"> <li>1st prize: $400</li> <li>2nd prize: $300</li> </ul> </div> <div class=\"rules-body\"> <p>In addition to the above prizes. Top 10 global, Top 20 Indian, Top 5 school (Indian), Top 5 school (Global), Top 3 challenge problem solvers Indian and Global (apart from the winners), Top 5 girl coders given that they are among top 100 in the final ranklist (this will be irrespective of the region) get CodeChef laddus with which the winners can claim cool CodeChef goodies, know more here: <a href=\"/laddu\" target=\"_blank\">https://www.codechef.com/laddu</a>.</p> </div> <p><br /> <b class=\"rules-heading\">Rules and Regulations:</b></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li><b>All the problems will be partially graded and you will get score for passing certain test data (except tie-breaker problem). You will receive hundred (100) point for solving a problem (passing all test cases).</b></li> <li><b>The details of the failed test cases will also be visible on your solution page (except challenge problem)</b></li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</li> <li>You shall not possess more than one account on CodeChef. If you have, then do let us know, so that we can deactivate the insignificant one. If you do not report it and we come to know about it, we may deactivate both the accounts permanently.</li> <li>The score that you will see during the contest (for tie-breaker problem), will only be partial (obtained on 20% of the test data). The submissions will be re-judged at the end of the contest to get full score (obtained on the whole test data).</li> <li>The number of submissions that one can make during the contest on the problem will be limited to 200 for Tie breaker problem and 500 for rest.</li> <div class=\"rules-body\">However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/SEPT16/1472726549.png",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "DIVMAC": {
+            "allow_submission": false,
+            "name": "Dividing Machine",
+            "category_name": "main",
+            "accuracy": 4.16,
+            "successful_submissions": "1251",
+            "code": "DIVMAC",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHMTDV": {
+            "allow_submission": false,
+            "name": "Chef and Matrix Division",
+            "category_name": "main",
+            "accuracy": 65.16,
+            "successful_submissions": "639",
+            "code": "CHMTDV",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "CHEFKC": {
+            "allow_submission": false,
+            "name": "Chef and Cut",
+            "category_name": "main",
+            "accuracy": 5.49,
+            "successful_submissions": "27",
+            "code": "CHEFKC",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHFNFRN": {
+            "allow_submission": false,
+            "name": "Chef and Friends",
+            "category_name": "main",
+            "accuracy": 6.41,
+            "successful_submissions": "1761",
+            "code": "CHFNFRN",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "LEXOPAL": {
+            "allow_submission": false,
+            "name": "Faded Palindromes",
+            "category_name": "main",
+            "accuracy": 42.57,
+            "successful_submissions": "7436",
+            "code": "LEXOPAL",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "JTREE": {
+            "allow_submission": false,
+            "name": "JosephLand",
+            "category_name": "main",
+            "accuracy": 10.28,
+            "successful_submissions": "659",
+            "code": "JTREE",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "RESCALC": {
+            "allow_submission": false,
+            "name": "Chef and calculation",
+            "category_name": "main",
+            "accuracy": 19.09,
+            "successful_submissions": "5095",
+            "code": "RESCALC",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CIRCLEQ": {
+            "allow_submission": false,
+            "name": "The New Restaurant",
+            "category_name": "main",
+            "accuracy": 2.3,
+            "successful_submissions": "42",
+            "code": "CIRCLEQ",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHEFSPAG": {
+            "allow_submission": false,
+            "name": "Chef has a Spaghetti Garden",
+            "category_name": "main",
+            "accuracy": 0.49,
+            "successful_submissions": "6",
+            "code": "CHEFSPAG",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "LONGSEQ": {
+            "allow_submission": false,
+            "name": "Chef and digits of a number",
+            "category_name": "main",
+            "accuracy": 31.56,
+            "successful_submissions": "8431",
+            "code": "LONGSEQ",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1473931800,
+        "current": 1537434613,
+        "freezing": 0,
+        "start": 1472808600
+    },
+    "user": {
+        "username": ""
+    }
+}

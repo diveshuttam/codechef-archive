@@ -1,0 +1,33 @@
+{
+    "problem_code": "BITMASK5",
+    "problem_author": "hsagarthegr8",
+    "contest_name": "Bit Mask",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>hsagarthegr8</span>",
+    "problem_name": "Flipping the bits",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "BITM2017",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/hsagarthegr8'>hsagarthegr8</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/segment-tree'>segment-tree</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>There is a bit-string <b>S</b> of length <b>N</b> (0- indexed) which can contain only 0s and 1s. Initially, all the bits are 0. Now you have to perform two types of operations:</p>\n<p>1) Flip all the bits between <b>s[x]</b> and <b>s[y]</b> (both inclusive). This is represented by the command <b>\"0 x y\"</b>\u00a0</p>\n<p>2) Answer how many bits between <b>s[x]</b> and <b>s[y]</b> (both inclusive) are 1. This is represented by the command <b>\"1 x y\"</b>.\n\n\n<h3>Input</h3>\n<p>The first line of the input contains two integer <b>N</b> and <b>Q</b>  denoting the length of the string and the number of queries to be executed respectively. </p>\n<p>Each of the next <b>Q</b> lines are either of the form <b>\"0 x y\"</b> or <b>\"1 x y\"</b> as mentioned above.\u00a0</p>\n\n<h3>Output</h3>\n\n<p>Output single line for each of the queries of the form <b>\"1 x y\"</b> containing the required answer for the corresponding query.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N,Q</b> \u2264 <b>100000</b></li>\n<li><b>0</b> \u2264 <b>x,y</b> \u2264 <b>N-1</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4 7\n1 0 3\n0 1 2\n1 0 1\n1 0 0\n0 0 3\n1 0 3 \n1 3 3\n\n<b>Output:</b>\n0\n1\n0\n2\n1\n</pre>\n<p>\u00a0</p>",
+    "category_name": "main",
+    "date_added": "28-04-2017",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "0.015",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/BITMASK5",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1493980200,
+        "end_date": 1493998200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1493998200,
+        "submit_start_date": 1493980200,
+        "current": 1537433892
+    },
+    "user": {
+        "username": ""
+    }
+}

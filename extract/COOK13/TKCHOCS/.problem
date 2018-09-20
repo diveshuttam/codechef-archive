@@ -1,0 +1,33 @@
+{
+    "problem_code": "TKCHOCS",
+    "problem_author": "flying_ant",
+    "contest_name": "August Cook-off 2011",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>flying_ant</span>",
+    "problem_name": "Collect the Chocolate Chips",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>masked_zorro</span>",
+    "contest_code": "COOK13",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cook13'>cook13</a>, <a class='problem-tag-small ' href='/tags/problems/flying_ant'>flying_ant</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">Did you know that chocolate chip cookie was invented by accident ? They even declared May 15 as National Chocolate Chip day :). Po and Mantis love choco chips and they want to collect them on the board. The board is in the shape of a right-angled triangle having <b>N</b> rows, with i cells in the i<sup>th</sup> row ( 1-based indices, as shown below for N=4 ). Cell (i,j) refers to the cell in j<sup>th</sup> column in the i<sup>th</sup> row.</p>\n<p align=\"justify\"> Po starts from the top-most cell (1,1) and from a cell (i,j) Po can move to any of the cells (i+1,j-1), (i+1,j) or (i+1,j+1) in one step, if it exists. Mantis starts from the right-most cell (N,N) and from a cell (i,j) Mantis can move to any of the cells (i-1,j-1), (i,j-1) or (i+1,j-1) in one step, if it exists. When Po or Mantis are in a cell, they can collect all the choco chips in it. They both want to reach the bottom-left cell (N,1) after collecting as many choco chips as possible. Find the maximum number of choco chips they can collect i.e., maximize the sum of chips collected by each of them.<br />\n<br/></br/></p>\n<table border=0>\n<tbody>\n<tr>\n<td></td>\n<p><b></b></p>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<p><br />\n    </p></tr>\n<tr>\n      <b>\n<td>1</td>\n<p></p></b>\n<td><i>Po</i><br />(1,1)</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>2</td>\n<td>(2,1)</td>\n<td>(2,2)</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>3</td>\n<td>(3,1)</td>\n<td>(3,2)</td>\n<td>(3,3)</td>\n<td></td>\n</tr>\n<tr>\n<td>4</td>\n<td>(4,1)<br/> <i>Exit</i></br/></td>\n<td>(4,2)</td>\n<td>(4,3)</td>\n<td>(4,4)<br/> <i>Mantis</i></br/></td>\n</tr>\n</tbody>\n</table>\n<p><br/></br/></p>\n<h3>Input</h3>\n<p align=\"justify\">First line contains an integer T (number of test cases, around 10 ). T cases follow. Each case starts with a line having an integer N ( 2 &lt;= N &lt;= 500 ). N lines follow with ith line having i non-negative integers from range [0 - 1,000,000], number of chips in each cell as explained above.</p>\n<h3>Output</h3>\n<p align=\"justify\">For each case, output the maximum number of choco chips Po and Mantis can collect, in a separate line.</p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n2\n2\n1\n1 1\n3\n1\n2 5\n1 3 1\n\n<b>Output:</b>\n3\n11\n</pre><p><br/><br />\n<b>Explanation:</b><br/><br />\nCase 2 : Po can visit (1,1) -> (2,2) -> (3,1) and Mantis can visit (3,3) -> (3,2) -> (3,1). Note that if both step in to a same cell, we must count the choco chips in it only once in the final answer.<br />\nThe cell (3,1) is reached by both, but the 1 choco chip in it must be added only once ( of course :) ).</br/></br/></p>\n",
+    "category_name": "main",
+    "date_added": "19-08-2011",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.355932",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/TKCHOCS",
+    "problem_tester": "masked_zorro",
+    "time": {
+        "view_start_date": 1313942400,
+        "end_date": 1313951400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1313951400,
+        "submit_start_date": 1313942400,
+        "current": 1537439158
+    },
+    "user": {
+        "username": ""
+    }
+}

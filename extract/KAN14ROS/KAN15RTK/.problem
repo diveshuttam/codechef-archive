@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><head><br />\n<meta charset=\"UTF-8\" /><br />\n</head> </p>\n<p>The Second Italian War of 1499 has started and the French troops have attacked Milan. Leonardo Da Vinci is worried for the safety of his diary where he keeps the secrets of all his creations. He would never want that diary to get into the hands of the French King. For this, he creates a special box which can only be opened if you enter a special key K. K is an N - 1 length string containing only lowercase letters of the English alphabet. But when Leonardo was putting his diary into the box and was about to lock it with the key, the French soldiers walk in. They saw the key entered by Leonardo and have taken him captive and have possession of the box.</p>\n<p>\nBut when Leonardo was putting his diary into the box and was about to lock it with the key, the French soldiers walk in. They saw the key entered by Leonardo and have taken him captive and have possession of the box. But knowing the reputation of Leonardo, they are being cautious and have captured one of Leonardo's apprentices to gather more information on how to open the box. The apprentice (after torture) provided them with the following information: </p>\n<ul>\n<li>Leonardo has made the box in such a way that you could lock it by entering any N length string L of lowercase letters such that removing exactly one letter from L gives K, the string that will unlock the box. The soldiers have seen Leonardo entering N in the box.</li>\n<li>If they enter a wrong key, the contents of the box will be destroyed by an acidic substance hidden inside the box.</li>\n<li>It may happen that the box is rigged to hurt the person trying to open the box, by possibly throwing some acidic substance over his hands.</li>\n</ul>\n\n<p>\nThe soldiers have now decided not to take the risk of getting acid burns and have forced the apprentice to open the box on the condition that his life will be spared only if he opens the box without damage. The apprentice fearing for his life, has entered a string K as the unlock pattern.\n</p>\n<p>\nGiven the two strings L and K, the one entered by Leonardo, and the one entered by the apprentice respectively, can you tell whether Leonardo's secrets will be uncovered or not?\n</p>\n<h3>Input</h3>\n<ul>\n<li>The first line contains an integer T which is the number of test cases to solve. It is followed by 2T lines containing the test cases. </li>\n<li>Each test case consists of 2 strings L and K, respectively in separate lines.</li>\n</ul>\n\n<h3>Output</h3>\n<ul>\n<li>For each test case print the output in a separate line. If Leonardo's secrets are now in hands of French soldier, print 1 otherwise 0.</li>\n</ul>\n\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 T \u2264 100</li>\n<li>1 \u2264 N \u2264 20000</li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\nacmicpc\nacicpc\nacmicpc\nacmicp\nacmicpc\ncmicpc\nacmicpc\nacmcpi\nacmicpc\ncmicpa\n\n<b>Output:</b>\n1\n1\n1\n0\n0\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-04-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Kanpur Onsite Contest 2014, Replay",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1427981400,
+        "end_date": 1427999400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1427999400,
+        "submit_start_date": 1427981400,
+        "current": 1537436443
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>piyushkumar</span>",
+    "problem_name": "Unlock Secrets or Leonardo",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/piyushkumar'>piyushkumar</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "piyushkumar",
+    "contest_code": "KAN14ROS",
+    "max_timelimit": "2",
+    "problem_code": "KAN15RTK"
+}

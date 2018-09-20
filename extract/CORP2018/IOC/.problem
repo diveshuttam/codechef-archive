@@ -1,0 +1,33 @@
+{
+    "problem_code": "IOC",
+    "problem_author": "jatin_cpp",
+    "contest_name": "CodeRun - Prelims",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>jatin_cpp</span>",
+    "problem_name": "Icing on cake",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>ishu_05</span>",
+    "contest_code": "CORP2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/chef'>chef</a>, <a class='problem-tag-small ' href='/tags/problems/corp2018'>corp2018</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/greedy'>greedy</a>, <a class='problem-tag-small ' href='/tags/problems/jatin_cpp'>jatin_cpp</a>, <a class='problem-tag-small ' href='/tags/problems/sorting'>sorting</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>The chef has prepared huge amounts of cake for Gavneesh's birthday! As everyone knows, he just loves the icing on the cakes. Also everyone knows that frosting can be on top of the cake and on the boundaries. So, chef decides to make Gavneesh happy and maximise the amount of icing!\n\nFor this problem, we will consider cakes as 2D rectangles.\n\nTo increase the amount of icing the cakes can have, the chef decided to cut some cakes. Each cake can be cut only once and the resulting pieces must also be rectangular.\n\nAlso, chef decides to cut at most K cakes so that no one gets suspicious.\n\nHelp the chef in figuring out the amount of extra icing needed to ice the newly formed boundaries.\n\n###Input:\nFirst line contains the number of cakes, N and the max cuts chef can do, K.   \nEach of the following N lines gives the length l and breadth b for each cake.\n\n###Output:\nOutput the amount of extra icing needed.\n\n###Constraints \n- 1<=N<=100000\n- 0<=K<=N\n- 1<=l,b<=10000\n###Sample Input:\n\t2 1\n\t4 6   \n2 8 \n\n###Sample Output:\n\t16\n\t\n###Explanation:\nTo maximise the icing the chef will cut second cake parallel to side of length 8. So extra icing needed is 16.\n",
+    "category_name": "main",
+    "date_added": "20-04-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/IOC",
+    "problem_tester": "ishu_05",
+    "time": {
+        "view_start_date": 1524317400,
+        "end_date": 1524324600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1524324600,
+        "submit_start_date": 1524317400,
+        "current": 1537432553
+    },
+    "user": {
+        "username": ""
+    }
+}

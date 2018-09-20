@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p><!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"><html><head><META http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" /></head><body></body></html></!doctype></p>\n<div>\n<p>\n        <i>Chota Pendrive</i>, <i>Farzi Coder</i>, <i>Programmer Bhai</i> and <i>Chota Vakil</i> (oh boy! These deadly coder mafias together, must be looking for something deadly.) are on a hunt, hunt for a treasure. They finally reached their destination. Their destination is a cave which is secured with a gate. When they reached the gate to open it, a magical matrix of size <b>N x M</b> appeared on the gate. And a task appears in front of them.\n    </p>\n<p>\n    Along with the matrix a number <b>K</b> also appeared. As everything is magical here, there are some specific properties for the gate which are the following:\n        </p>\n<ol>\n<li> K is square free i.e. it is not divisible by any square number greater than 1. e.g. 7, 14, 15 are square free numbers while 12, 9, 50 are not.</li>\n<li> Every number inside the matrix is either 1 or a prime factor of K </li>\n</ol>\n<p>        The task here is to calculate the number of sub-matrices whose product of elements is equal to K.</p>\n<h2>Input</h2>\n<p>    First line contains N, M, K i.e. Number of rows in matrix, number of columns in matrix and magical number.<br />\n    Next N lines contains M integers each.</p>\n<h2>Output</h2>\n<p>    One line containing total number of submatrices whose product of all elements is equal to K.</p>\n<h2>Constraints</h2>\n<ul>\n<li><b>1 \u2264 N,M \u2264 1000</b></li>\n<li><b>1 \u2264 K \u2264 10000</b></li>\n<li><b>K is square-free.</b></li>\n<li><b>All elements of matrix are either 1 or one of the prime factors of K.</b></li>\n</ul>\n<h2>Sample</h2>\n<h3>Input 1</h3>\n<pre>2 2 2\n1 2\n2 1\n    </pre><h3>Output 1</h3>\n<pre>6\n    </pre><p>    <br /></p>\n<h3>Input 2</h3>\n<pre>3 3 6\n1 2 3\n3 1 2\n2 2 3\n    </pre><h3>Output 2</h3>\n<pre>9\n    </pre></div>\n<p></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-12-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Amritapuri Onsite Mirror Contest 2015",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1450672200,
+        "end_date": 1450690200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1761681100,
+        "submit_start_date": 1450672200,
+        "current": 1537435717
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>akash4983</span>",
+    "problem_name": "Magical Matrix",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acm15amr'>acm15amr</a>, <a class='problem-tag-small ' href='/tags/problems/akash4983'>akash4983</a>, <a class='problem-tag-small ' href='/tags/problems/divide-and-conq'>divide-and-conq</a>, <a class='problem-tag-small ' href='/tags/problems/two-pointers'>two-pointers</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "akash4983",
+    "contest_code": "AMR15MOS",
+    "max_timelimit": "2",
+    "problem_code": "AMMAM"
+}

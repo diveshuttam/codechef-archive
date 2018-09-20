@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A mathematician wants to create a calculator, he wants to add an extra feature which displays the number of digits. Now we want you to help the mathematician \nin finding the number of digits of the given expression.\n\n<p>NOTE:</p>\n<p>1.) Mathematician uses only<strong> !,*,/,^ </strong>operators. </p>\n<p>2.) Since ! being an unary operator, second number is assigned as 0. i.e,. 5!0 is to find number of digits of factorial(5).</p>\n<p>3.) In case of division we want you to display only the number of digits of integer part.</p></p>\n\n<h3>Input</h3>\n<p>Input consists of an expression, having two integers(<10000) with\na given operator between them.</p>\n\n<h3>Output</h3>\n<p>Output should display the number of digits of the given expression.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n5!0\n\n<b>Output:</b>\n3\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "9-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Conscientia 2012",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330187400,
+        "end_date": 1330201800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1330201800,
+        "submit_start_date": 1330187400,
+        "current": 1537438930
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>suryaiist</span>",
+    "problem_name": "Dynamic Display Length",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/suryaiist'>suryaiist</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "suryaiist",
+    "contest_code": "CNSC2012",
+    "max_timelimit": "0.150943",
+    "problem_code": "C3004"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Smurfs have a different way of deciding tennis match winner. The winner is the person who wins most games in the limited time of play. A game is played in a <b>best-of-7 point\u2019s manner</b> (No deuce).<br />\nA player\u2019s first point win is displayed as 15, second as 30, third as 40 and then the final winning point. Whenever any players wins a game, a new game is started and both their points resets to 0.</p>\n<p>Smurfette and Clumsy are playing a match. Brainy is keeping track of their points win by storing each point win for Smurfette and Clumsy as <b>S</b> and <b>C</b> respectively, in a string <b><i>P</i></b>. He needs your help in finding out the final score using <b><i>P</i></b>. </p>\n<p>Print the number of <b>games won</b> by Smurfette and Clumsy. In case of an unfinished game also display their <b>point statistics</b> in the proper manner for that game.</p>\n<h3>Input</h3>\n<p>First line will consist of <b>T</b> (number of test cases, <b>T</b> &lt;100). First line of each test case is the length of the string, maximum length not exceeding 10<sup>5</sup>. Second line will consist of the string <b><i>P</i></b>. </p>\n<h3>Output</h3>\n<p>Games won by Smurfette and Clumsy separated by a \u2018-\u2019. In case of unfinished game, display point position of Smurfette and Clumsy separated by a \u2018-\u2019. The point statistics should be comma, <b>\u2018,\u2019</b> , separated from the game wins.</p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n2\n12\nSCSCCCSSSCCS\n9\nSCCSSSCCS\n\n\n<b>Output:</b>\n1-1\n1-0,15-30\n\n</pre><h3> Explanation</h3>\n<p>In the first test case Clumsy wins the first game and Smurfette wins the second game.</p>\n<p>In the second test case there is a game win by Smurfette and a game in process in which Smurfette has earned a point compared to Clumsy getting two. </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-11-2012",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWeavers 2012 ",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1352302200,
+        "end_date": 1352313000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1352313000,
+        "submit_start_date": 1352302200,
+        "current": 1537438664
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>kumarvimal</span>",
+    "problem_name": "Clumsy Tennis ",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kumarvimal'>kumarvimal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kumarvimal",
+    "contest_code": "CDWV2012",
+    "max_timelimit": "0.47",
+    "problem_code": "TENNCLUM"
+}

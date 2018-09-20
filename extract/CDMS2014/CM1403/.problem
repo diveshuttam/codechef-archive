@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<h3>Problem description.</h3>\n<p>\u00a0<br />\nA traveler has to travel from a source to a destination along a straight path,the locations of which are given as <b>s1</b> and <b>d1</b>. On his way he encounters <b>N</b> townships each consisting of any no of houses, all located along the straight path,the locations of which are given by <b>t1,t2,.....tk</b>. <br />\nEach township must have at least a single house and no house can be in more than <b>1</b> township.The source and destination are not in any township.The traveler must stop in every township.Again,he also must stop in only a single house in a township.The traveler can stop in a house depending on whether that house is reachable from the house he stayed in the previous township,(i.e  the maximum distance <b>M</b> the traveler is allowed to travel before resting will be specified). </p>\n<p>More over he cannot stay in any house which is not included in any township. You have to find  the no of ways to reach the destination from the source.<br />\n<br />\nAssume that all the houses in the first township are reachable from the source and the destination is reachable from all the houses in the last township irrespective of the value of M.\n</p>\n<h3>Input</h3>\n<p>\nThe first line contains the number of test cases <b>T</b><br />\nFor each test case, the first line contains two space separated integers <b>A</b> and <b>M</b>.  A is the total no of houses including source and destination and M is the maximum distance the traveler is allowed to travel before resting.<br />\n <br />\nThen A lines will follow and the <b>i</b>th line will have the value of <b>ti</b>. The input will be such that a solution will always exist.The locations will be given in ascending order.<br />\n<br />\nThen  the next line will contain the number of townships <b>N</b>. Then <b>N</b> lines follow with each line specifying the starting and ending index of the houses located in that township given in ascending order(i.e the indexes of the array where the house locations are stored.Index position is assumed to start from 0).</p>\n\n<h3>Output</h3>\n\n<p>\n Output in a new line the no of possible ways to reach from source to destination..<br />\nFor two consecutive test cases, the outputs should have a gap of one line between them.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li> <b>2</b> &lt; <b>A</b> &lt;= <b>1000</b> </li>\n<li> <b>1</b> &lt;= <b>M</b> &lt;= <b>500</b> </li>\n<li> <b>s1</b> &lt; <b>t1</b> &lt; <b>t2</b> &lt; ....... &lt; <b>tk</b> &lt; <b>d1</b></li>\n<li> <b>1</b> &lt;= <b>N</b> &lt;= <b>A-2</b></li>\n<li> <b>0</b> &lt;= <b>ti</b> &lt;= <b>5000</b> </li>\n</ul>\n<p>\u00a0<br />\nStarting index of a house in a township, <B>a</b> > Ending index of a house in that township, <b>b</b><br />\nDistance between the end houses in two consecutive townships,<br />\n<b>D</b> >= <b>M</b><br />\nDistance between the starting  houses in two consecutive townships,<b>L</b> &lt;= <b>M</b><br />\n</p>\n<p>The source must be reachable to all the houses in the first township<br />\nAll houses in the last township must be reachable to the destination\n</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<p>\n1\n8  3\n0\n2\n3\n4\n6\n8\n9\n11\n3\n2 2\n4 4\n5 6\n</p>\n\n<b>Output:</b>\n<p>\u00a0\n2\n</p>\n</pre><h3>Explanation</h3>\n<p><b>Example case 1.</b> <br />\nHere the two paths are<br />\n0->3->6->8->11 <br />\n0->3->6->9->11\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-10-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeMasters 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1413610200,
+        "end_date": 1413619200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1413619200,
+        "submit_start_date": 1413610200,
+        "current": 1537437321
+    },
+    "problem_author_html_handle": "codemaster_tx",
+    "problem_name": "Travelling Nomad",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/codemaster_tx'>codemaster_tx</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "codemaster_tx",
+    "contest_code": "CDMS2014",
+    "max_timelimit": "1",
+    "problem_code": "CM1403"
+}

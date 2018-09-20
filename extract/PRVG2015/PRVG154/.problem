@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Sanal has designed the Pravega event Connect the Dots. The event is a one on one contest between two players. The coders need to solve problems which are placed in a rectangular box. The game starts at one corner of the box and the players pick a problem alternately. One can only pick a problem that is directly below or to the right of the previous problem opened by the opponent. The contest ends when the problem at the other end of the diagonal has been solved.</p>\n<p>Each problem has a certain score associated with it (based on the difficulty of course). Suppose the contest is now between Alex and Bob and Alex is starting. He can only see the points for each problem on the box. Assuming both players are capable of solving every problem and play optimally, can you determine the highest net score Alex can have at the end of the game. The net score of Alex = points scored by Alex - points scored by Bob.</p>\n<p><b>\n<p>Input:</p>\n<p></p></b></p>\n<p>The first line gives the number of test cases <b>T</b>.</p>\n<p>For each of the <b>T</b> test cases, the first line contains two integers <b>M</b> and <b>N</b>. The following <b>M</b> lines contain <b>N</b> space separated integers <b>P[i][j]</b> that give you the points for each problem on the board.</p>\n<p><b>\n<p>Output:</p>\n<p></p></b></p>\n<p>The output to each test case should be on a new line. On each of the T lines print the highest possible net score of Alex.</p>\n<p><b>\n<p>Input constraints:</p>\n<p></p></b></p>\n<p>0&lt; <b>T </b> &lt;100</p>\n<p>0&lt; <b> M </b>, <b>N </b>&lt;500</p>\n<p>0&lt;= <b> P[i][j] </b>&lt;10000</p>\n<p><b>\n<p>Sample input:</p>\n<p></p></b><br />\n1 <br />\n2 2 <br />\n1 3 <br />\n4 5 </p>\n<p><b>\n<p>Sample output:</p>\n<p></p></b><br />\n2</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "30-12-2014",
+    "is_direct_submittable": false,
+    "contest_name": "OPC- Pravega 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PAS fpc, PAS gpc, RUBY, PHP, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, NICE, LUA, BASH, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, TEXT, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1421508600,
+        "end_date": 1421519400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1421519400,
+        "submit_start_date": 1421508600,
+        "current": 1537436975
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>pravega_opc</span>",
+    "problem_name": "Connect The Dots",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pravega_opc'>pravega_opc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pravega_opc",
+    "contest_code": "PRVG2015",
+    "max_timelimit": "1",
+    "problem_code": "PRVG154"
+}

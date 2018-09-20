@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Once upon a time, a king and a few of his soldiers were  caught by an enemy king in a war. <br>\n<br>\nHe puts them in a circle. The first man in the circle has to kill the second man, the third man has to kill the fourth, fifth man to kill the sixth and so on. When the circle is completed, the remaining people have to form a circle and the process has to repeat. The last man standing will be set free.<br>\n<br>\nIf the king has to be set free, which position must he take? For any given N number of people, write a program to find the position that the king has to take.\n\n<h3>Input</h3>\n<p> Any positive integer in the range 1 to 10000.\n\n<h3>Output</h3>\n<p> A positive integer indicating safest position\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n9\n\n<b>Output:</b>\n3\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-09-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Epiphany 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1348745400,
+        "end_date": 1348835400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1659758257,
+        "submit_start_date": 1348745400,
+        "current": 1537438710
+    },
+    "problem_author_html_handle": "krupakar",
+    "problem_name": "Save the King",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/krupakar'>krupakar</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "krupakar",
+    "contest_code": "EPNY2012",
+    "max_timelimit": "0.712291 - 30",
+    "problem_code": "EPI02"
+}

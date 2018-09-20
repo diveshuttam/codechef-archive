@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nProfessor X has to schedule some jobs on a grid of processors. Assume that the execution time of each job scales linearly with the power of the processor. This means, if a particular job takes 2 seconds to finish on a processor with power P, it will take 1 second to finish on a processor with power 2P. He knows the processing power of each processor. Given an array A, containing the execution times of each job on a processor with 1 unit processing power, and the processing powers of the available processor, find the minimum total time taken to complete the concurrent execution of all the jobs (Note: The jobs need not be processed in the given order).\n\n<h3>Input</h3>\n<p>\n1.The first input will be T, the tumber of testcases. T <= 100<br>\n2.The next line will be the number of jobs, N. N <= 10<br>\n3.N lines follow. On the ith line, the input is an integer which lies between 1 and 30 inclusive. The ith integer is the time taken to execute the ith job on a processor with a processing power of 1 unit.\n<br>4.The next line will contain an integer P, 1 <= P <= 5. P denotes the number of processors.\n<br>5.K lines follow. The kth integer is the processing power of the kth processor.\n\n<h3>Output</h3>\n<p>\nFor each test case, output a number which represents the sum of the first 'n' natural numbers.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n3\n10\n1\n1\n2\n20\n8\n2\n4\n4\n1\n7\n<b><br>Output:</b>\n0.500000\n1.142857\n<b><br>Explanation</b>\nFor the first case, we can use the processor with power 20 to handle the job which takes 10 <br>\nunits of time, and the other processor to handle the left two jobs. The second processor<br>\n will be done in 0.25 time units, but the other processor would be half done, and would <br>\nfinally complete its job after taking 0.5 time units. In the second case, there is only<br>\n one processor, and hence the total time taken would be (4+4)/7 = 1.42857 time units.<br>\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-02-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Rubix 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1266129000,
+        "end_date": 1266150600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1266150600,
+        "submit_start_date": 1266129000,
+        "current": 1537439736
+    },
+    "problem_author_html_handle": "csirubix",
+    "problem_name": "Optimal Scheduling",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/csirubix'>csirubix</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "csirubix",
+    "contest_code": "RUBIX10",
+    "max_timelimit": "0.421053",
+    "problem_code": "RUBIX1"
+}

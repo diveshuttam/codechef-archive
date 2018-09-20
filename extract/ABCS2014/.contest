@@ -1,0 +1,97 @@
+{
+    "announcements": "Contest ended. <br> Thanks to all the participants who made our Abacus OPC as a grand success. <br> Congratulations to the winners.<br>\r\n1.Rajagopal Srinivasan<br>2.Jai Vasanth<br>3.con_nha_ngheo<br>\r\n<br>\r\nSave the Hacker will take place at CEG, Anna University in Chennai on March 22, 2014.<br>\r\nWinners will get cash prizes worth <b><em>Rs. 50,000</em></b> and a chance at building a career at Freshdesk.<br>\r\nTo know more and to register: <a href=\"http://www.savethehacker.com/abacus/\" > save the hacker </a> <br>\r\n<br>\r\nContest Duration is extended by 30 minutes. <br>\r\n<br>\r\nGuys for the Grand staircase prob do look at the string and the output surely you will get an idea!!<br><br>\r\nMore Testcases for grand staircase:<br>\r\nInput:<br>\r\n1<br>\r\nabcba<br>\r\nOutput:<br>\r\n0<br>\r\nExplanation:<br>\r\na will form a set 5,1<br>\r\nb will form a set 4,2<br>\r\nc will form a set 3<br>\r\nso after re-arranging we ll get 5,1,4,2,3,4,2,5,1<br>\r\nthey will pick stair set 1,2,3,4,5 so they are having enough stairs<br>\r\nto form a valid staircase and so the anwer is 0<br>\r\nTestcase for Grand Staircase:<br>\r\n<br>\r\nInput:<br>\r\n3<br>\r\nabc<br>\r\nacc<br>\r\naba<br>\r\n<br>\r\nOutput:<br>\r\n2<br>\r\n1<br>\r\n0<br>\r\nIn the flappy bird question, there is a correction for the constraints. <br>\r\nThe x values are given in non-decreasing order and not the y-values as stated. <br>\r\n<br>\r\nMore test case for Pipes:<br>\r\nInput:<br>\r\n2<br>\r\n2 3<br>\r\n3 4 5<br>\r\n6 5 4<br>\r\n2 3<br>\r\n1 1 1<br>\r\n2 3 11 <br>\r\n<br>\r\nOutput: <br>\r\n-1 <br>\r\n-1<br>\r\n<br>",
+    "ip": "149.129.135.113",
+    "code": "ABCS2014",
+    "duration": "210",
+    "name": "aBaCUS'14",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div><b>Rules and Regulations:</b></div> <div> <ul> <li>Contest problems will become visible on 15th March, 2014 at 20:00 HRS (IST) and end at 15th March, 2014 at 23:00 HRS (IST). Check your timezone <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+aBaCUS%2714&amp;iso=20140315T20&amp;p1=176&amp;ah=3\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at feedback@codechef.com.</li> <li>Discussing problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>If you do not have a CodeChef ID create one\u00a0<a target=\"_blank\" href=\"http://codechef.com/user/register\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided.</li> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a></li> <li>Please contact\u00a0<span><a target=\"_blank\" href=\"mailto:abacusopc@gmail.com\">abacusopc@gmail.com</a></span> for any queries during the contest.</li> </ul> </div> <div><b>Judging Criteria:</b> <ul> <li>All the problems have same points alloted to them.</li> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved.</li> </ul> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/sites/default/files/uploads/landing_page_banners/banner-compete.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "ABA14E": {
+            "allow_submission": false,
+            "name": "Grand Staircase",
+            "category_name": "main",
+            "accuracy": 10,
+            "successful_submissions": "2",
+            "code": "ABA14E",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ABA14B": {
+            "allow_submission": false,
+            "name": "Chain Reaction",
+            "category_name": "main",
+            "accuracy": 36.88,
+            "successful_submissions": "95",
+            "code": "ABA14B",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ABA14A": {
+            "allow_submission": false,
+            "name": "Help Ram",
+            "category_name": "main",
+            "accuracy": 15.07,
+            "successful_submissions": "149",
+            "code": "ABA14A",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ABA14C": {
+            "allow_submission": false,
+            "name": "Flappy Bird",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "ABA14C",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ABA14F": {
+            "allow_submission": false,
+            "name": "Super Mario",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "ABA14F",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ABA14D": {
+            "allow_submission": false,
+            "name": "Pipes",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "ABA14D",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1394906400,
+        "current": 1537437697,
+        "freezing": 0,
+        "start": 1394893800
+    },
+    "user": {
+        "username": ""
+    }
+}

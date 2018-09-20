@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nVipul has fallen in love with Valentina ,the queen of Byteland.He decided to propose her on this valentine at her palace.Byteland is a 3D world where queen's palace is located at co-ordinate <b>(xf,yf,zf)</b> and Vipul lives at <b>(0,0,0)</b>.\n</p>\n<p><br /></p>\n<p>\nBut here comes the problem . Valentina has two Brothers and they are guarding the palace at two co-ordinate positions between <b>(0,0,0)</b> and <b>(xf,yf,zf)</b>.</p>\n<p><br /></p>\n<p>\nVipul does not want to hurt her brothers.He decides to avoid any way that passes through the co-ordinates guarded by her brothers.In one step Vipul can move from co-ordinate <b>(x,y,z)</b> to <b>(x+1,y,z)</b> or <b>(x,y+1,z)</b> or <b>(x,y,z+1)</b>.\n</p>\n<p><br /></p>\n<p>\nNow Vipul needs your help ,given the two co-ordinates ,<b>(Bx1,By1,Bz1)</b> and <b>(Bx2,By2,Bz2)</b> of her brothers ,he wants you to find the number of ways, he can reach Valentina without traversing the given two co-ordinates.\n</p>\n<p><br /><br />\n<h4>\nInput:</h4>\n</p><p><b></b><br /></p>\n<p>\n First Line contains number of test cases.<br /><br />\n First line of each test case contains three space separated integers,xf,yf and zf.<br /><br />\n Next two lines contain three space separated integers <b>Bx1,By1,Bz1</b> in first line and <b>Bx2,By2,Bz2</b> in second line .<br />\n </p>\n<p> <b><br />\n<h4>\nOutput:</h4>\n<p></p></b><br /><br />\n For each test case output the number of ways Vipul can reach Valentina palace without traversing any co-ordinate which is guarded by any brother.<br /><br />\nSince answer can be huge , output it in modulo 1000000007.<br /><br />\n<br /><br />\n<b><br />\n<h3>Constraints:</h3>\n<p></p></b><br /><br />\n1&lt;=<b>T</b>&lt;=100<br /><br />\n(0,0,0)&lt;=<b>(Bx1,By1,Bz1),(Bx2,By2,Bz2)</b>&lt;=<b>(xf,yf,zf)</b>&lt;=(1000,1000,1000)<br /></p>\n<h3>Example :</h3>\n<p><br /><br />\n<b><br />\n<h3>Input :</h3>\n<p></p></b><br /></p>\n<p>3<br /><br />\n2 2 2<br /><br />\n2 0 2<br /><br />\n2 2 0<br /></p>\n<p>2 2 2<br /><br />\n2 1 1<br /><br />\n2 1 2<br /></p>\n<p>2 2 2<br /><br />\n2 1 1<br /><br />\n1 1 1<br /></p>\n<p><b><br />\n<h3>Output :</h3>\n<p></p></b><br />\n78<br /><br />\n48<br /><br />\n42<br /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "./Execute 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1424705400,
+        "end_date": 1424721600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1424721600,
+        "submit_start_date": 1424705400,
+        "current": 1537436734
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>divyank1</span>",
+    "problem_name": "Vipul and Valentina",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/divyank1'>divyank1</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "divyank1",
+    "contest_code": "DOEX2015",
+    "max_timelimit": "1",
+    "problem_code": "VIVAL"
+}

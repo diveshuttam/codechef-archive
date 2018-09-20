@@ -1,0 +1,328 @@
+{
+    "announcements": "<p class=\"MsoNormal\"><b>21/04/2017, 15:00 hrs IST: </b>We have recalculated the ratings since February Challenge 2017 to fix the issue caused by the late removal of two problems into the contest. Should you find any discrepancies in your ratings, kindly do let us know?</p>\r\n<p><b>15/02/2017, 01:01 hrs IST: </b>The sample example in problem JAKKU was inconsistent with the statement constraints. It has been fixed now. However, the actual test data does not have this problem and satisfies the stated constraints. So you do not need to resubmit, as the actual test data has not been changed.</p>\r\n<p><b>13/02/2017, 04:36 hrs IST: </b>The last problem has been added into the contest page.</p>\r\n<p><b>10/02/2017, 21:27 hrs IST: </b>The contest has been extended by 6 days. It will now end on 19th February 2017, 1500 hrs IST.</p>\r\n<p><b>09/02/2017, 14:00 hrs IST: </b>New problem\u00a0GERMANDE has been added to the contest.</p>\r\n<div><b>08/02/2017, 23:00 hrs IST: </b>New problem\u00a0MFREQ has been added to the contest.</div>\r\n<p><b>08/02/2017, 00:1 hrs IST: </b>New problem DISTNUM3 has been added to the contest.</p>\r\n<p><b>07/02/2017, 19:45 hrs IST: </b><span>New problem JAKKU has been added to the contest. Rest problems will be added soon.</span></p>\r\n<p><span><b style=\"font-weight: bold;\">06/02/2017, 19:40 hrs IST: </b>The problem\u00a0CHEFBEST has been removed from the contest. It was found to be available online. We will be adding another problem. Regret the inconvenience.</span></p>\r\n<p><b style=\"font-weight: bold;\">06/02/2017, 1600 hrs IST: </b>The problem\u00a0KBIGNUMB has been removed from the contest. It was found to be available online. We will be adding another problem. Regret the inconvenience.</p>\r\n<p><b><b>03/02/2017, 2037 hrs IST</b>: </b>Tests for problem CHEFAPAR were incorrect. They have been corrected and all the solutions have been put to rejudge. We regret the inconvenience caused</p>\r\n<p><b><b>03/02/2017, 1500 hrs IST</b>: </b>Only 7 problems have been added to the contest. The remaining problems will be added soon.</p>",
+    "ip": "149.129.135.113",
+    "code": "FEB17",
+    "duration": "23040",
+    "name": "February Challenge 2017",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "INTERVAL": [
+            {
+                "score": "20",
+                "count": "145"
+            },
+            {
+                "score": "40",
+                "count": "88"
+            },
+            {
+                "score": "100",
+                "count": "474"
+            }
+        ],
+        "CHEFAPAR": [
+            {
+                "score": "30",
+                "count": "55"
+            },
+            {
+                "score": "70",
+                "count": "3"
+            },
+            {
+                "score": "100",
+                "count": "6136"
+            }
+        ],
+        "SEAINVS": [
+            {
+                "score": "10",
+                "count": "37"
+            },
+            {
+                "score": "30",
+                "count": "133"
+            },
+            {
+                "score": "100",
+                "count": "41"
+            }
+        ],
+        "MAKETRI": [
+            {
+                "score": "10",
+                "count": "994"
+            },
+            {
+                "score": "30",
+                "count": "6"
+            },
+            {
+                "score": "40",
+                "count": "81"
+            },
+            {
+                "score": "60",
+                "count": "37"
+            },
+            {
+                "score": "70",
+                "count": "6"
+            },
+            {
+                "score": "90",
+                "count": "13"
+            },
+            {
+                "score": "100",
+                "count": "1950"
+            }
+        ],
+        "GERMANDE": [
+            {
+                "score": "10",
+                "count": "135"
+            },
+            {
+                "score": "20",
+                "count": "25"
+            },
+            {
+                "score": "30",
+                "count": "242"
+            },
+            {
+                "score": "70",
+                "count": "2"
+            },
+            {
+                "score": "80",
+                "count": "2"
+            },
+            {
+                "score": "90",
+                "count": "19"
+            },
+            {
+                "score": "100",
+                "count": "1682"
+            }
+        ],
+        "MFREQ": [
+            {
+                "score": "10",
+                "count": "127"
+            },
+            {
+                "score": "30",
+                "count": "123"
+            },
+            {
+                "score": "40",
+                "count": "720"
+            },
+            {
+                "score": "100",
+                "count": "1241"
+            }
+        ],
+        "CHEFYODA": [
+            {
+                "score": "10",
+                "count": "6"
+            },
+            {
+                "score": "20",
+                "count": "52"
+            },
+            {
+                "score": "40",
+                "count": "115"
+            },
+            {
+                "score": "60",
+                "count": "5"
+            },
+            {
+                "score": "80",
+                "count": "2"
+            },
+            {
+                "score": "100",
+                "count": "450"
+            }
+        ],
+        "DISTNUM3": [
+            {
+                "score": "23",
+                "count": "238"
+            },
+            {
+                "score": "100",
+                "count": "102"
+            }
+        ],
+        "JAKKU": [
+            {
+                "score": "10",
+                "count": "155"
+            },
+            {
+                "score": "40",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "12"
+            }
+        ]
+    },
+    "rules": " <p><b class=\"rules-heading\">CodeChef: A Platform for Aspiring Programmers</b></p> <div class=\"rules-body\"> <p>CodeChef was created as a platform to help programmers make it big in the world of algorithms, computer programming and programming contests. At CodeChef, we work hard to revive the geek in you by hosting a programming contest at the start of the month and another smaller programming challenge in the middle of the month.</p> </div> <p><br /> <b class=\"rules-heading\">About CodeChef February Long Challenge:</b></p> <div class=\"rules-body\"> <p>CodeChef Long Challenge is a 10 day monthly coding contest where you can show off your computer programming skills. The significance being- it gives you enough time to think about a problem, try different ways of attacking the problem, read the concepts etc. If you're usually slow at solving problems and have ample time in hand, this is ideal for you. There would a tremendous amount of learning while competing. We also put in a lot of efforts in getting quality problems, which would in turn foster your learning while solving them.</p> </div> <p><br /> <b class=\"rules-heading\">Contest Details:</b></p> <div class=\"rules-body\"> <p><b>Duration: </b>10 Days, From 3<span>rd</span> February 15:00 hrs IST to 13<sup>th</sup> February 15:00 hrs IST. Check your timezone <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=February+Challenge+2017&amp;iso=20170203T15&amp;p1=44\" target=\"_blank\">here</a>.</p> </div> <p><br /> <b class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</b></p> <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a>.</p> </div> <p><br /> <b class=\"rules-heading\">What is it for you?</b></p> <div class=\"rules-body\"> <p>The idea behind these programming contests is that we want you to learn while competing. Also we believe that it is alright to refer to tutorials, books and other materials, learn a concept and then apply the same to solve a problem during a contest. But it is <b>not alright to copy other people's solutions or seek other people's help to solve a problem without understanding it.</b> The dividing line may seem to be thin but it can be captured by the spirit of learning. If whatever you are doing is making you learn while you do so, we tend to believe that it is alright.</p> <br /> <p>Not just that, as a token of motivation we also give away cash prizes and goodies to the winners of the contest. However, our sole intention lies in making our users learn new concepts while competing. FYI, here are the list of prizes: <br /><br /> <b class=\"rules-heading\">For Indians:</b></p> <ul class=\"\"> <li>1st prize: INR 12000/-</li> <li>2nd prize: INR 8000/-</li> </ul> <b class=\"rules-heading\">For Rest of World:</b> <ul class=\"\"> <li>1st prize: $400</li> <li>2nd prize: $300</li> </ul> </div> <div class=\"rules-body\"> <p>In addition to the above prizes. Top 10 global, Top 20 Indian, Top 5 school (Indian), Top 5 school (Global), Top 3 challenge problem solvers Indian and Global (apart from the winners), Top 5 girl coders given that they are among top 100 in the final ranklist (this will be irrespective of the region) get CodeChef laddus with which the winners can claim cool CodeChef goodies, know more here: <a href=\"/laddu\" target=\"_blank\">https://www.codechef.com/laddu</a>.</p> </div> <p><br /> <b class=\"rules-heading\">Rules and Regulations:</b></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\"> feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li><b>All the problems will be partially graded and you will get score for passing certain test data (except tie-breaker problem). You will receive hundred (100) point for solving a problem (passing all test cases).</b></li> <li><b>The details of the failed test cases will also be visible on your solution page (except challenge problem)</b></li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</li> <li>You shall not possess more than one account on CodeChef. If you have, then do let us know, so that we can deactivate the insignificant one. If you do not report it and we come to know about it, we may deactivate both the accounts permanently.</li> <li>The score that you will see during the contest (for tie-breaker problem), will only be partial (obtained on 20% of the test data). The submissions will be re-judged at the end of the contest to get full score (obtained on the whole test data).</li> <li>The number of submissions that one can make during the contest on the problem will be limited to 200 for Tie breaker problem and 500 for rest.</li> <div class=\"rules-body\">However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/FEB17/1485952446.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "KBIGNUMB": {
+            "allow_submission": false,
+            "name": "Eugene and big number",
+            "category_name": "main",
+            "accuracy": 7.51,
+            "successful_submissions": "618",
+            "code": "KBIGNUMB",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "INTERVAL": {
+            "allow_submission": false,
+            "name": "Interval Game",
+            "category_name": "main",
+            "accuracy": 4.26,
+            "successful_submissions": "474",
+            "code": "INTERVAL",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHEFBEST": {
+            "allow_submission": false,
+            "name": "Chef and his Best Friend",
+            "category_name": "main",
+            "accuracy": 7.6,
+            "successful_submissions": "398",
+            "code": "CHEFBEST",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHEFAPAR": {
+            "allow_submission": false,
+            "name": "Chef and His Apartment Dues",
+            "category_name": "main",
+            "accuracy": 41.62,
+            "successful_submissions": "6136",
+            "code": "CHEFAPAR",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHEFYODA": {
+            "allow_submission": false,
+            "name": "Chef and Yoda",
+            "category_name": "main",
+            "accuracy": 6.87,
+            "successful_submissions": "450",
+            "code": "CHEFYODA",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "DISTNUM3": {
+            "allow_submission": false,
+            "name": "Primitive Queries",
+            "category_name": "main",
+            "accuracy": 5.29,
+            "successful_submissions": "102",
+            "code": "DISTNUM3",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "MFREQ": {
+            "allow_submission": false,
+            "name": "Most Frequent Element",
+            "category_name": "main",
+            "accuracy": 6.23,
+            "successful_submissions": "1241",
+            "code": "MFREQ",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "SEAINVS": {
+            "allow_submission": false,
+            "name": "Sereja and Inversions",
+            "category_name": "main",
+            "accuracy": 5.89,
+            "successful_submissions": "41",
+            "code": "SEAINVS",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "MAKETRI": {
+            "allow_submission": false,
+            "name": "Chef and Triangles",
+            "category_name": "main",
+            "accuracy": 6.49,
+            "successful_submissions": "1950",
+            "code": "MAKETRI",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "GERMANDE": {
+            "allow_submission": false,
+            "name": "Gerrymander",
+            "category_name": "main",
+            "accuracy": 14.08,
+            "successful_submissions": "1682",
+            "code": "GERMANDE",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "ALICGARD": {
+            "allow_submission": false,
+            "name": "Alice and her garden",
+            "category_name": "main",
+            "accuracy": 70.69,
+            "successful_submissions": "158",
+            "code": "ALICGARD",
+            "type": "2",
+            "is_direct_submittable": false
+        },
+        "JAKKU": {
+            "allow_submission": false,
+            "name": "Rebel rescue",
+            "category_name": "main",
+            "accuracy": 2.19,
+            "successful_submissions": "12",
+            "code": "JAKKU",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1487496600,
+        "current": 1537434135,
+        "freezing": 0,
+        "start": 1486114200
+    },
+    "user": {
+        "username": ""
+    }
+}

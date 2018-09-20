@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>In India every state is flooded with engg. colleges. So, state government's have decided to change their state's name according to the number of colleges in their \n\nstate. Some one has developed a software which guess first letter for their states name when fed with input as total number of engg. colleges in that state. \n\nMaximum number of colleges can be 9999999999 in any state and minimum is 1. If a state has no engg. college then software terminates and doesn't output any \n\nfurther result. But the person who developed the software has forgot the logic he applied in that code. You need to guess the logic so that further \n\ndevelopment can take place.\n<h3>Input</h3>\n<p>Each line of input consists of a number of colleges (maximum 10 digits) to be tested. when 0 is encountered as input program terminates\n\n<h3>Output</h3>\n<p>Ouput consists of an alphabet for each input number.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2134757888\n123987\n122455\n35677\n0\n\n<b>Output:</b>\nI\nE\nK\nL\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-10-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Thapar University - Aranya 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1286454600,
+        "end_date": 1286541000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180200,
+        "submit_start_date": 1286454600,
+        "current": 1537439491
+    },
+    "problem_author_html_handle": "Chunky",
+    "problem_name": "Engineering Mania",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/Chunky'>Chunky</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "Chunky",
+    "contest_code": "RGEAR",
+    "max_timelimit": "1.16129",
+    "problem_code": "RG03"
+}

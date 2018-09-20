@@ -1,0 +1,33 @@
+{
+    "problem_code": "CNTMTX",
+    "problem_author": "daga_07",
+    "contest_name": "Algophobic Online Mirror",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>daga_07</span>",
+    "problem_name": "Century Matrix",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ALPH2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/algophobic'>algophobic</a>, <a class='problem-tag-small ' href='/tags/problems/alph2016'>alph2016</a>, <a class='problem-tag-small ' href='/tags/problems/daga_07'>daga_07</a>, <a class='problem-tag-small ' href='/tags/problems/implemenatation'>implemenatation</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Virat Kohli is fond of matrices. He has played a total of <b>M*N</b> matches so far and has kept record of all the scores in a <b>score matrix</b> of size <b>M*N</b>. He also loves to score a perfect hundred and calls a matrix a <b>century matrix</b> if all it's elements are <b>100</b>. He wants to transform his <b>score matrix</b> to a <b>century matrix</b> of same size. To do this, he wants to performs a finite number of operations on his matrix. The single operation involves adding any integer to two <b>adjacent cells</b> in the matrix so as to try to convert it into <b>century matrix</b>. He is going to play in world cup and wants you to figure out if it is possible to transform his <b>score matrix</b> into <b>century matrix</b>.</p>\n<p>Two cells are said to be <b>adjacent</b> if they share a common side.\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<ul>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows:</p>\n<li>The first line of each test case contains two integers <b>M,N</b>. Next <b>M</b> lines will contain <b>N</b> space-separated integers denoting the score of Virat Kohli. </li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each test case, print \"YES\" if transformation is possible, else print \"NO\". (without quotes) </p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>M,N</b> \u2264 <b>500</b></li>\n<li><b>1</b> \u2264 <b>score</b> \u2264 <b>1000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3 3\n90 90 90\n90 90 90\n90 90 100\n2 2\n60 50\n70 90\n\n\n<b>Output:</b>\nYES\nNO\n</pre>",
+    "category_name": "main",
+    "date_added": "5-03-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CNTMTX",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1457627400,
+        "end_date": 1457640000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457640000,
+        "submit_start_date": 1457627400,
+        "current": 1537435198
+    },
+    "user": {
+        "username": ""
+    }
+}

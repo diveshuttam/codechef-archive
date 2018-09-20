@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Polycarp gave you a <b>N * N</b> grid with each cell either comprising of a <b>'#'</b> or a '.'  character.\u00a0</p>\n<p> <b>'#'</b> denotes a blocked cell whereas <b>'.'</b> denotes an empty cell.  </p>\n<p>\nRecently, he got admission into a prestigious institute which specializes in Optics. He has a challenge to prepare for a local contest of institute. So, after days of thinking he came up with an idea. You are his good friend and have to help him solve the following problem based on his new idea.\n</p>\n<p>\nA ray of light starts from the west direction and moves towards east. However, it cannot move through a blocked cell in the rectangular grid.<br />\nYou need to place reflectors(opaque on one side, shiny on the other) in the grid to reflect light towards south such that maximum number of rays emerge out from the south.\n</p>\n<p>\nYou have solved a lot of problems related to physics in your high school but now you remember less about the laws of Optics. Hence, you decide to bring your programming knowledge to rescue. Help your friend Polycarp to solve the problem.\n</p>\n<p>\n<img src=\"https://codechef_shared.s3.amazonaws.com/download/HYC/External%20contest%20images/ALKH2016/Grid_ALKH2016.png\" height = '350' width = '530' />\n</p>\n<p><b>Note : </b> A ray of light cannot be reflected multiple times by using multiple reflectors. </p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases.</li>\n<li>First line of each test case contains <b>N </b> denoting the dimension of the grid..</li>\n<li>Next <b>N</b> line contains <b>N</b> characters each denoting type of characters in the grid.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>Output a single integer for each test case in a separate line, denoting the maximum number of rays that can emerge out from the south.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>500</b></li>\n<li>Grid consists of two kinds of characters only i.e <b>'#'</b> and <b>'.'</b>\n</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n5\n.....\n#..#.\n.....\n.#...\n....#\n<b>Output:</b>\n4\n</pre><h3> Explanation </h3>\n<p>See the image provided above for the sample test case given.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Alkhwarizm 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1459697400,
+        "end_date": 1459715400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1459715400,
+        "submit_start_date": 1459697400,
+        "current": 1537434999
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>dragonslayerx</span>",
+    "problem_name": "Polycarp And Love For Optics",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dragonslayerx'>dragonslayerx</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dragonslayerx",
+    "contest_code": "ALKH2016",
+    "max_timelimit": "1",
+    "problem_code": "POPT"
+}

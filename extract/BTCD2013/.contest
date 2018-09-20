@@ -1,0 +1,137 @@
+{
+    "announcements": "<p>The problem statements for Change in Primeland, Help Sherlock, and Save Mumbai, have been updated.</p>\r\n<p>Solutions for the problem 'Help Sherlock' have been rejudged. Please check and notify if there is any problem.<br>Also note that the final rank calculation for the prizes will be done after removing the penalties.</p>\r\n<br>\r\n<b>\r\nResults for Bytecode can be seen \r\n<a href=\"http://www.techniche.org/techniche13/#/predefined/bytecode\">here</a>\r\n<br>\r\nWith global ranking on\r\n<a href=\"http://www.codechef.com/rankings/BTCD2013/\">this link</a>\r\n<br>\r\nPlease note that the ranking for prizes is calculated for those\r\nparticipants who have registered for the event by removing the penalty\r\ntime (20 minutes per penalty).\r\n</b>",
+    "ip": "149.129.135.113",
+    "code": "BTCD2013",
+    "duration": "14400",
+    "name": "ByteCode 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p>Rules For The Contest</p> <p>\u00a0</p> <p>\u25cf There will be 10 problems. 5 problems will be live on August 18th, 2013 at 12:00 noon IST. The</p> <p>remaining 5 on 22nd August 2013 at 12:00 noon i.e. after the closing of the registration for the</p> <p>event. Check your timezone <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=Codechef+%3A+Byetcode&amp;iso=20130818T12&amp;p1=1041\" target=\"_blank\">here</a>.</p> <p>\u25cf User will receive one point for solving a problem (passing all test cases no</p> <p>partial credit),</p> <p>regardless of the level of difficulty of that problem.</p> <p>\u25cf There is no negative marking or penalty for wrong submissions.</p> <p>\u25cf Users are ranked according to the most problems solved. Ties will be broken by the total time for</p> <p>each user in ascending order of time.</p> <p>\u25cf The total time is the sum of the time consumed for each problem solved. The time consumed for a</p> <p>solved problem is the time elapsed from the beginning of the contest to the submission of the first</p> <p>accepted run. There is no time consumed for a problem that is not solved.</p> <p>\u25cf This is a TEAM CONTEST. A team can consist of at most 3 members. One person can be part of</p> <p>only one team.</p> <p>\u25cf The team will have to use a single codechef ID to compete (any one of the team member's will do)</p> <p>\u25cf This competition will be open globally. Anybody can participate and win prizes. But to claim the</p> <p>prizes, one should register <a href=\"https://docs.google.com/a/codechef.com/forms/d/1YgslTWFFwdPSGcqTedF2_dPd5My3OeIsY6EBmJk44YM/viewform\">here</a> before 12:00 noon on 22nd of August 2013.</p> <p>\u25cf Team members cannot be changed during the event.</p> <p>\u25cf The decision of the organizers in declaring the results will be final. No queries in this regard will be</p> <p>entertained.</p> <p>\u25cf Anyone can participate, but only those participants studying in college/school are eligible for cash</p> <p>prizes.</p> <p>\u25cf Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting</p> <p>questions, clarifying the problem statement is allowed.</p> <p>\u25cf Any participant found to be indulging in any form of malpractice will be immediately disqualified.</p> <p>\u25cf In case of queries , send a mail on g.harsh@iitg.ac.in</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/BTCD2013/1424957783.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "MAGSTK": {
+            "allow_submission": false,
+            "name": "Magic Sticks",
+            "category_name": "main",
+            "accuracy": 40.56,
+            "successful_submissions": "335",
+            "code": "MAGSTK",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FMAP": {
+            "allow_submission": false,
+            "name": "FreeKart Map",
+            "category_name": "main",
+            "accuracy": 33.88,
+            "successful_submissions": "551",
+            "code": "FMAP",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "RANBOT": {
+            "allow_submission": false,
+            "name": "Bot of Rancho",
+            "category_name": "main",
+            "accuracy": 55.95,
+            "successful_submissions": "351",
+            "code": "RANBOT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PLAYNUM": {
+            "allow_submission": false,
+            "name": "Play with numbers",
+            "category_name": "main",
+            "accuracy": 46.49,
+            "successful_submissions": "422",
+            "code": "PLAYNUM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SPLCND": {
+            "allow_submission": false,
+            "name": "Timon & Pumba",
+            "category_name": "main",
+            "accuracy": 48.77,
+            "successful_submissions": "235",
+            "code": "SPLCND",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SCNDWAR": {
+            "allow_submission": false,
+            "name": "Save Mumbai",
+            "category_name": "main",
+            "accuracy": 26.91,
+            "successful_submissions": "553",
+            "code": "SCNDWAR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MAXCOMB": {
+            "allow_submission": false,
+            "name": "Help Sherlock",
+            "category_name": "main",
+            "accuracy": 31.92,
+            "successful_submissions": "111",
+            "code": "MAXCOMB",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CNG": {
+            "allow_submission": false,
+            "name": "Change in Primeland",
+            "category_name": "main",
+            "accuracy": 28.79,
+            "successful_submissions": "1007",
+            "code": "CNG",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DIFBMB": {
+            "allow_submission": false,
+            "name": "Defuse the bomb",
+            "category_name": "main",
+            "accuracy": 34.15,
+            "successful_submissions": "507",
+            "code": "DIFBMB",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PRSN": {
+            "allow_submission": false,
+            "name": "Monkeys",
+            "category_name": "main",
+            "accuracy": 17.39,
+            "successful_submissions": "230",
+            "code": "PRSN",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1377671400,
+        "current": 1537438209,
+        "freezing": 0,
+        "start": 1376807400
+    },
+    "user": {
+        "username": ""
+    }
+}

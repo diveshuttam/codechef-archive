@@ -1,0 +1,33 @@
+{
+    "problem_code": "ANURRZ",
+    "problem_author": "anudeep2011",
+    "contest_name": "January Cook-Off 2015",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>anudeep2011</span>",
+    "problem_name": "Random Rudreshwar",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>xiaodao</span>",
+    "contest_code": "COOK54",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anudeep2011'>anudeep2011</a>, <a class='problem-tag-small ' href='/tags/problems/cook54'>cook54</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Read problems statements in <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/COOK54/mandarin/ANURRZ.pdf\">Mandarin Chinese</a> and <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/COOK54/russian/ANURRZ.pdf\">Russian</a> as well.</h3>\n<h3>Problem description</h3>\n<p>Rudreshwar likes random numbers and random arrays. Today Rudreshwar started playing with a couple of Arrays <b>A</b> and <b>B</b>, each of size <b>N</b>.</p>\n<p>Initially <b>A</b> is filled with zeros. Rudreshwar filled <b>B</b> with random numbers.</p>\n<p>Rudreshwar visits each index <b>i</b> (1 &lt;= <b>i</b> &lt;= <b>N</b>) in random order. When at <b>i</b>, he selects another random index <b>j</b> such that <b>j</b> is greater or equal to <b>i</b>. He then increments <b>A[i]</b>, <b>A[i+1]</b>, <b>A[i+2]</b> ... <b>A[j]</b> by 1.</p>\n<p>Finally if for any index <b>i</b>, <b>A[i]</b> is greater than <b>B[i]</b>, he then throws away that array <b>A</b></p>\n<p>For a given <b>B</b>, calculate the number of different arrays <b>A</b>, that Rudreshwar can end up with. Two arrays are called different if there exists an index where the arrays have different values</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows. First line of each test case contains an integer <b>N</b>. Second line contains <b>N</b> space separated integers representing the array <b>B</b></p>\n<h3>Output</h3>\n<p>For each test case, output a single line containing the required answer modulo 1000000007.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>B[i]</b> \u2264 <b>N</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2\n2 2\n3\n1 1 1\n\n<b>Output:</b>\n2\n1\n</pre><h3>Explanation</h3>\n<p><b>Test case 1</b></p>\n<p>{1, 1} and {1, 2} are valid.</p>\n<p><b>Test case 2</b></p>\n<p>{1, 1, 1} is the only possible final array A.</p>\n",
+    "category_name": "main",
+    "date_added": "6-01-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/ANURRZ",
+    "problem_tester": "xiaodao",
+    "time": {
+        "view_start_date": 1421596800,
+        "end_date": 1421609400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1421609400,
+        "submit_start_date": 1421596800,
+        "current": 1537436971
+    },
+    "user": {
+        "username": ""
+    }
+}

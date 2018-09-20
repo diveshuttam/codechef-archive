@@ -1,0 +1,33 @@
+{
+    "problem_code": "INSQ15_A",
+    "problem_author": "amanmittal",
+    "contest_name": "Insomnia 2015 Qualifier",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>amanmittal</span>",
+    "problem_name": "The Gift Of Raksha Bandhan",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "INSQ2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/amanmittal'>amanmittal</a>, <a class='problem-tag-small ' href='/tags/problems/binary-search'>binary-search</a>, <a class='problem-tag-small ' href='/tags/problems/hashing'>hashing</a>, <a class='problem-tag-small ' href='/tags/problems/insq2015'>insq2015</a>, <a class='problem-tag-small ' href='/tags/problems/rabin-karp'>rabin-karp</a>, <a class='problem-tag-small ' href='/tags/problems/z-algorithm'>z-algorithm</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>Its time of Raksha Bandhan so its compulsory for every </p>\n<p>brother to give a gift to his sister. </p>\n<p>Brother Jon is planning to give a string <b>S</b> of length </p>\n<p><b>L</b> to his sister Arya. </p>\n<p>After receiving the gift from her brother, Arya decided to share </p>\n<p>the string with her brother Jon.  </p>\n<p>String <b>S</b> contains characters from index <b>0</b> to </p>\n<p>index <b>L - 1</b>. </p>\n<p>She will select a pivot called P ie any index <b>P(1 \u2264 P \u2264 L - 1)</b> and divides the original string into two parts. First </p>\n<p>part will contain characters from index <b>0</b> to index <b>P - 1</b> and second part will contain characters from index </p>\n<p><b>P</b> to <b>L - 1</b>.</p>\n<p>Jon will keep the first part and Arya will keep the second </p>\n<p>part. </p>\n<p>Arya is great fan of LCP (Longest Common Prefix) so she </p>\n<p>decided that she will select such an index as pivot such that  </p>\n<p>LCP of the two part is high.</p>\n<p>Though she like LCP but she does not know how to calculate </p>\n<p>it. Help her to solve the problem.</p>\n<p>Arya will ask you <b>Q</b> questions. Each question is </p>\n<p>represented by a index <b>P</b> and you have to answer the LCP</p>\n<p>(Longest Common Prefix) of the two parts.</p>\n\n<h3>Input</h3>\n<p> First line of input contains a string <b>S</b>. </p>\n<p> Second line of input contains a positive number <b>Q</b> </p>\n<p>representing the number of question Arya will ask you. </p>\n<p> <b>Q</b> lines will follow each containing a positive </p>\n<p>number <b>P</b> </p>\n\n<h3>Output</h3>\n<p> Output <b>Q</b> numbers(the required answer). Each number </p>\n<p>on a separate line.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>Length of the string(or L) </b> \u2264\n<p><b>5 * 10<sup>6</sup></b></p></li>\n<li> <b>1</b> \u2264 <b>P</b> \u2264 <b>L - 1</b> </li>\n<li> <b>1</b> \u2264 <b>Q(number of queries)</b> \u2264 <b>10<sup>6</sup></b>\n</li>\n<li>\nAll characters in the string will be small case english alphabets (a-z)\n</li>\n</ul>\n\n<p>\n<b>NOTE: C++ users, please do not use cin and cout as test cases are huge, prefer scanf and printf<br />\n</b>\n</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\nabababa\n4\n1\n2\n3\n6\n\n\n<b>Output:</b>\n0\n2\n0\n1\n</pre>\n<h3>Explanation</h3>\n<p>\nFor the first query, first part is <b>a</b>.and second part is <b>bababa</b>, hence LCP is 0.  </p>\n<p>For the second query, first part is <b>ab</b>.and second part is <b>ababa</b>, hence LCP is 2.  </p>\n<p>For the third query, first part is <b>aba</b>.and second part is <b>baba</b>, hence LCP is 0.  </p>\n<p>For the fourth query, first part is <b>ababab</b>.and second part is <b>a</b>, hence LCP is 1.  </p>\n",
+    "category_name": "main",
+    "date_added": "2-09-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/INSQ15_A",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1441555200,
+        "end_date": 1441566000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1441566005,
+        "submit_start_date": 1441555200,
+        "current": 1537436064
+    },
+    "user": {
+        "username": ""
+    }
+}

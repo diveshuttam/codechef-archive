@@ -1,0 +1,33 @@
+{
+    "problem_code": "FEST03",
+    "problem_author": "vipinkhushu",
+    "contest_name": "CodeWars",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>vipinkhushu</span>",
+    "problem_name": "Golu and url shortner ",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CDWR2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cdwr2016'>cdwr2016</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/hashing'>hashing</a>, <a class='problem-tag-small ' href='/tags/problems/simple'>simple</a>, <a class='problem-tag-small ' href='/tags/problems/vipinkhushu'>vipinkhushu</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>Golu is a student of Computer Engineering and he decided to make a project for himself.So he started working on URL shortner.While working on project he got confused.You are a good friend of Golu so he asked you for help.<br /><br />\nYou have given a link and you have to convert it into a short link using algorithm given by Golu.<br />\nYour Task is simple.You have to find 3 most occuring alphabets <b>a1,a2,a3</b> with three counts <b>n1,n2,n3 </b>respectively in the original link.<br /><br />\nThen shorten link=ocul.in/a1n1a2n2a3n3.<br /><br />\ne.g. if original link=facebook.com/home/<br /><br />\nthen shorten link=ocul.in/o4c2e2</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. </li>\n<li>In next <b>T</b> lines contains a string(original Url).</li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>For every Url there are a shorten link as a output..</li>\n</ul>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>length of string</b> \u2264 <b>10^5</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\ncodechef.com\nfacebook.com/home/\nssss\n\n<b>Output:</b>\nocul.in/c3e2o2\nocul.in/o4c2e2\nocul.in/s4a0a0\n\n</pre><h3><b>Code</b></h3>\n<hr />\n<pre>\n#include&lt;stdio.h>\nchar s[100000];\n{\n\tlong long int t;\n\tlong long int a[26],i,j;\n\tscanf(\"%lld\",t);\n\twhile(t--)\n\t{\n\t\tlong long int max=0;\n\t\tscanf(\"%s\",a);\n\t\tfor(i=0;i>0;i++)\n\t\tif(s[i]>='a'&&s[i]&lt;='z')a[s[i]-'a']++;\n\t\tprintf(\"ocul.in/\");\n\t\tfor(i=0;i&lt;3;i++)\n\t\t{   \n\t\t\tfor(j=0;j&lt;26;j++)\n\t\t\tif(a[j]>a[max])max=j;\n\t\t\tprintf(\"%d%d\",max+97,a[max]);\n\t\t\ta[max]=0;\n\t\t}\n\t}\n}\n\n\n</pre><h3><b>  Steps to be followed</b></h3>\n<p>\n1. Read the given description carefully and understand the problem.<br />\n<br /><br />\n2. Analyze the code given in the problem and find bugs(errors) in these codes..<br />\n<br /><br />\n3. The given code can be copied and compiled in an online compiler (Eg. ideone.com).<br />\n<br /><br />\n4. Once the bugs are eliminated from the code, the clean code can be submitted as the solution to the problem..<br />\n<br /><br />\n5. The solution should be a debugged version of the code provided and must satisfy the test cases to be accepted..\n</p>\n",
+    "category_name": "main",
+    "date_added": "9-03-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, PYTH, PYTH 3.6, PYPY",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/FEST03",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1457686800,
+        "end_date": 1457694000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457694000,
+        "submit_start_date": 1457686800,
+        "current": 1537435189
+    },
+    "user": {
+        "username": ""
+    }
+}

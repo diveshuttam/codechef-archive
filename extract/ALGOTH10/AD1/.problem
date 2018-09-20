@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Prime number one of the simplest concept in our childhood and comes under the basics of maths . Now, cody's teacher has taught him the prime number concept  and he decided to have some fun with it.</p>\n<p>\nCody knows that</p>\n   <p>     \" a prime number  is a natural number that has exactly two distinct natural number divisors: 1 and itself\"\n</p>\n<p>\nNow, to check if he has learnt the prime number concept, he picked randomly a number n and if the number is prime then \"YEAH\" or else \"NAA\" and he has to find next 10 prime numbers\n\n\n<h3>Input</h3>\n<p>\nThe first line contains t, the number of test cases (1<=t<=10000).\nFollowed by t lines which contain values of n(1 <=n <= 10^12)\n\n<h3>Output</h3>\n<p>\nFor every test case if n is a prime number print \"YEAH\" or else print \"NAA\" and print 10 successive prime numbers\nseparated by a single space.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n19\n63\n23497.\n\n<b>Output:</b>\nYEAH\n\nNAA\n67 71 73 79 83 89 97 101 103 107\n\nYEAH\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-02-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Algothika 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1267705800,
+        "end_date": 1268397000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1268397000,
+        "submit_start_date": 1267705800,
+        "current": 1537439697
+    },
+    "problem_author_html_handle": "killer17",
+    "problem_name": "The Next Prime",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/killer17'>killer17</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "killer17",
+    "contest_code": "ALGOTH10",
+    "max_timelimit": "0.1",
+    "problem_code": "AD1"
+}

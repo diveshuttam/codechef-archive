@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Mark,a magician, has a great interest in arranging sticks. He use to play with various sticks of different lengths. He put n sticks on the table along one axis, going from left to right. Every stick stands perpendicular to that axis so that the axis passes through the center of its base. The i-th stick has the coordinate xi and the length li. Now Mark wants to learn for every stick, how many sticks will fall if he pushes it to the right. Help him in finding that.<br />\n<br /><br />\nConsider that a stick falls if it is touched strictly above the base. In other words, the fall of the stick with the initial coordinate x and height h leads to the fall of all sticks on the segment [x\u2009+\u20091,\u2009x\u2009+\u2009h\u2009-\u20091].</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line contains the number of test cases(1&lt;= T &lt;=10). The next line contains integer n (1\u2009\u2264\u2009n\u2009\u2264\u200910^5) which is the number of sticks. Then follow n lines containing two integers xi and li (\u2009-\u200910^8\u2009\u2264\u2009xi\u2009\u2264\u200910^8,\u20092\u2009\u2264\u2009li\u2009\u2264\u200910^8) each, which are the coordinate and height of every stick. No two sticks stand on one point.\n</p>\n<h3>Output</h3>\n<p>Print n space-separated numbers zi \u2014 the number of sticks that will fall if Mark pushes the i-th stick to the right (including the stick itself).\n</p>\n<h3>Example</h3>\n<pre>\nInput\n1\n4\n16 5\n20 5\n10 10\n18 2\n\nOutput\n3 1 4 1 \n\nInput\n1\n4\n0 10\n1 5\n9 10\n15 10\n\nOutput\n4 1 2 1 \n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-08-2013",
+    "is_direct_submittable": false,
+    "contest_name": "ByteCode 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1377153000,
+        "end_date": 1377671400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1377671400,
+        "submit_start_date": 1377153000,
+        "current": 1537438211
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>harshg0910</span>",
+    "problem_name": "Magic Sticks",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/harshg0910'>harshg0910</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "harshg0910",
+    "contest_code": "BTCD2013",
+    "max_timelimit": "0.1",
+    "problem_code": "MAGSTK"
+}

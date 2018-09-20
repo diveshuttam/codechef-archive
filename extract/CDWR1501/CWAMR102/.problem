@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Prithvi , An AI machine which likes playing with prime numbers. A prime number is given to prithvi , He has to calculate the primitive numbers of the given prime number. A number X is primitive of a prime number P, if (X^i) mod P generates all numbers in range 1 to P-1 where i ranges from 1 to P-1. Due to government\u2019s erratic power cut operations, prithvi has malfunctioned and failed to execute its job. So , your task is to find the primitive numbers of the given  prime number.<br />\nNote: Input given will be a prime number.. Return 0 if there are no primitive numbers for a prime number.\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line contains the number of prime numbers N.<br />\nFollowing N lines have prime number P.\n</p>\n<h3>Output</h3>\n<p>For each test case, output the primitive numbers of the prime number .</p>\n<h3>Constraints</h3>\n<p>1&lt;=N&lt;=15<br />\n2&lt;=P&lt;=599<br />\nTIMELIMIT: 3s</p>\n<p>:</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n5\n13\n\n\n<b>Output:</b>\n2 3\n2 6 7 11\n\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Code-Wars, Round 1",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1423917000,
+        "end_date": 1423924200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1423924200,
+        "submit_start_date": 1423917000,
+        "current": 1537436817
+    },
+    "problem_author_html_handle": "naveenrajan",
+    "problem_name": "A game with primes",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/naveenrajan'>naveenrajan</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "naveenrajan",
+    "contest_code": "CDWR1501",
+    "max_timelimit": "3",
+    "problem_code": "CWAMR102"
+}

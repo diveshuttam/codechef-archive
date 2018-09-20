@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>In the Kingdom of floating stones\u00a0 each stone has some magical value. The people in the kingdom will consider some stones as holy when the stones belongs to the holy sequence.The holy sequence must be a continuous sequence and they must be in this form stones[i]&lt;stones[i+1]...&lt;stones[j]>stones[j+1]>stones[j+2]..>stones[k], (i&lt;j&lt;k)\u00a0 all the stones in the interval [i..k] are\u00a0 holy stones.Rekoj , being evil,\u00a0 he will try to disrupt the holy sequence by changing the magical value\u00a0 of some Xth\u00a0 stone.People were not able to find out the holy sequence because of the frequent change in magical values of stones.Being a programmer it\u2019s your task to help them find the length of the longest holy sequence.</p>\n<h3>Input</h3>\n<p>First line consists of two numbers N and M </p>\n<p>N denotes the number of stones present in the kingdom </p>\n<p>M denotes , the number of changes the Rekoj will make.</p>\n<p>Next line contains N integers which denote the magical value of the stones.</p>\n<p>Next M lines will contains two integers X which denotes index and V denotes the magical value of the stone.</p>\n<h3>Output</h3>\n<p>For each M lines, print the maximum holy sequence.</p>\n<h3>Constraints</h3>\n<p>1&lt;=N&lt;=1000 </p>\n<p>1&lt;=M&lt;=10000</p>\n<p>-100000 &lt;= stones[i], V &lt;= 100000</p>\n<p>0&lt;=X&lt; N<br />\n<br />\n<br />\n<b><i>All the integers are distinct.</i></b> </p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n8 3\n11 8 10 7 6 100 9 5\n0 3\n3 90\n4 92\n\n<b>Output:</b>\n5\n5\n8\n</pre>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> After Rekoj changed the 0th stone into 3 the maximum holy sequence will be 3 &lt; 8<br />\n&lt;10>7>6 so the answer is 5. </p>\n<p><b>Example case 2.</b> After Rekoj changed the 3rd stone into 90 the maximum holy sequence will be 7 &lt;<br />\n90 &lt; 100 > 9 > 5.. </p>\n<p><b>Example case 3.</b> After Rekoj changed the 4th stone into 92 the maximum holy sequence will be the </p>\n<p>entire sequence.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-01-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Kurukshetra 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1422109800,
+        "end_date": 1422127800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1422127800,
+        "submit_start_date": 1422109800,
+        "current": 1537436943
+    },
+    "problem_author_html_handle": "kopc_admin",
+    "problem_name": "Holy Sequence",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kopc_admin'>kopc_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kopc_admin",
+    "contest_code": "KRKS2015",
+    "max_timelimit": "0.5",
+    "problem_code": "K15J"
+}

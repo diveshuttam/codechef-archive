@@ -1,0 +1,33 @@
+{
+    "problem_code": "PAC6",
+    "problem_author": "chhekur",
+    "contest_name": "Coding Hours",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>chhekur</span>",
+    "problem_name": "Save Patient",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CODH2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/chhekur'>chhekur</a>, <a class='problem-tag-small ' href='/tags/problems/codh2018'>codh2018</a>, <a class='problem-tag-small ' href='/tags/problems/dijkstra'>dijkstra</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/graph'>graph</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A tragic accident happened on National Highway, so ambulance arrived immediately and the patient has to be detained in the Hospital as soon as possible. There are <b>N</b> Cities numbered from <b>1, 2,3 .... N </b> in the nearby location and patient has <b>M</b> minutes left before he dies, and there is only one Hospital which is situated at <b>Y</b> and now you are at <b>X</b>, So you have to reach to the Hospital as soon as possible.</p>\n<p>You have to find that whether the patient can be saved in <b>M</b> minutes or not.</p>\n<p>\u00a0</p>\n\n\n\n<h3>Input</h3>\n<ul>\n<li>First line contains five space separated integers <b>N, M, R, X and Y</b> denoting the number of cities, patient has minutes left before he dies, number of route to reach Hospital, position where you are, and where Hospital is situated.</li>\n<li>Next <b>R</b> line contains route between Cities and Hospital and the time associated with route.</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>For each test case, If the patient is alive print <b>alive</b> and time taken to reach hospital, otherwise <b>died</b>.</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>4</sup></b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>10<sup>8</sup></b></li>\n<li><b>1</b> \u2264 <b>X, Y</b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>R</b> \u2264 <b>10<sup>6</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Subtasks</h3>\n<p><b>Subtask #1 (30 points):</b></p>\n<ul><li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>2</sup></b></li>\n<li><b>1</b> \u2264 <b>R</b> \u2264 <b>10<sup>4</sup></b></li></ul>\n<p><b>Subtask #2 (70 points):</b> original constraints</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n10 7 19 5 7\n3 10 8\n1 2 9\n2 3 3\n5 10 3\n1 3 7\n1 7 1\n3 6 2\n2 5 6\n2 4 8\n7 8 1\n1 10 6\n2 7 1\n2 8 2\n3 5 2\n2 6 5\n4 7 4\n6 9 9\n8 10 8\n7 10 2\n\n\n<b>Output:</b>\nalive 5\n</pre>\n<p>\u00a0</p>\n\n<h3>Explanation</h3>\n<p><b>Example case 1.</b></p>\n<p><img src='https://ibin.co/3pzxn5xSi2Hx.png'></img></p>\n<p>This is the graph which is given to you.</p>\n<p><img src='https://ibin.co/3pzy8wz5ruFN.png'></img></p>\n<p>Here is the minimum time to reach destination from source is 5.</p>",
+    "category_name": "main",
+    "date_added": "24-01-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "0.2",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/PAC6",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1517581800,
+        "end_date": 1517668200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1517668200,
+        "submit_start_date": 1517581800,
+        "current": 1537433081
+    },
+    "user": {
+        "username": ""
+    }
+}

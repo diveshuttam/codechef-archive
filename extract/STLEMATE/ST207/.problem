@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>The Indian archaeologists recently found remains of an ancient architecture. The location where it was found can be modeled as X, Y square grid cells. The archaeologists then determined whether a building existed at a particular cell or not.\n\n<p>After examining all the clues, they concluded that two buildings, with square shaped floor plans, existed at the location from different periods in time. There is also a possibility that their floor plans may overlap as the buildings were from different periods in time.\n\n<p>You need to determine, for each building, the possible location and size (the length of a side of the square of the floor plan).\n\n<h3>Input</h3>\n<p>On the first line, there are two integers X (1 \u2264 X \u2264 100) and Y (1 \u2264 Y \u2264 100),  which specify the size of the location. The next X lines contain strings comprising of '.' (dot) or 'x' (lowercase letter). Here '.' indicates that nothing was found in that cell, while 'x' means that a building was present there. \n\n<h3>Output</h3>\n<p>For each of the two buildings, print on a single line the row and the column of its upper left corner and the size of the building. Also please note that the test data will guarantee that a solution always exists, although it may not necessarily be unique.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n4 6\nxx....\nxx.xxx\n...xxx\n...xxx\n\n<b>Output:</b>\n1 1 2\n2 4 3\n\n<b>Input:</b>\n3 3\nxx.\nxxx\n...\n\n<b>Output:</b>\n1 1 2\n2 3 1\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-10-2010",
+    "is_direct_submittable": false,
+    "contest_name": "NSIT Delhi - Stale Mate 2.0",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1288528200,
+        "end_date": 1288549800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180202,
+        "submit_start_date": 1288528200,
+        "current": 1537439455
+    },
+    "problem_author_html_handle": "ajitesh14",
+    "problem_name": "Can you dig it",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ajitesh14'>ajitesh14</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ajitesh14",
+    "contest_code": "STLEMATE",
+    "max_timelimit": "1",
+    "problem_code": "ST207"
+}

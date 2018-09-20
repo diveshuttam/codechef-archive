@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p style=\"text-align:justify\">\nCoding in Sprout (a programming language) is very intuitive. Chef is giving his minions a demonstration in Sprout and wants you to\nhelp him determine if they are not too difficult for them.\n</p>\n<p style=\"text-align:justify\">\nA program in Sprout is written using three kinds of instructions.\n</p>\n<p style=\"text-align:justify\"><ul>\n\t<li>Load Instruction: Load a value into buffer.</li>\n\t<li>Increment Instruction: Increment the value in buffer.</li>\n\t<li>Print Instruction: Print the value from buffer.</li>\n</ul></p>\n<p style=\"text-align:justify\">\nThe buffer stores a single integer between 0 and 25, both inclusive. If the value in the buffer is x, the increment instruction\nmakes the value (x+1), if x &lt; 25. At x = 25 the increment instruction makes the value 0.\n</p>\n<p style=\"text-align:justify\">\nLoad Instruction can be used to load any value between 0 and 25 (inclusive) into the buffer.\n</p>\n<p style=\"text-align:justify\">\nPrint from the buffer prints a lowercase English character based on the value in the buffer. Precisely, it prints the (x+1)th character\nin the alphabet. Thus, for x = 0, 'a' is printed; x = 1, 'b' is printed and so on. For x = 25, 'z' is printed.\n</p>\n<p style=\"text-align:justify\">\nTo keep his programs clear, he uses the load instruction only once in the beginning (before printing any character). Then\nhe proceeds instruction after instruction. A program is simple, if the number of instructions is not more than ELEVEN times the length\nof the word that it prints.\nGiven the word Chef wants his program to print and assuming he will write the shortest code (i.e. use the fewest instructions)\nto print it, will the program be simple?\n</p>\n<h3>Input</h3>\n<p style=\"text-align:justify\">\nThe first Line contains a single number T, the number of test cases.\n</p>\n<p style=\"text-align:justify\">\nEach test case contains 1 word on a line by itself - the word that would be printed by Chef's program.\n</p>\n<h3>Output</h3>\n<p style=\"text-align:justify\">\nAssuming Chef writes the shortest code (with minimum instructions) to print the given word, output \"YES\" if this code is not more than\nELEVEN times the length of the word being printed; \"NO\" otherwise\n</p>\n<h3>Constraints</h3>\n<p style=\"text-align:justify\">\n<pre>1 \u2264 T \u2264 100\n1 \u2264 length of word \u2264 1000\n</pre>\n</p>\n<h3>Sample Input</h3>\n<p style=\"text-align:justify\">\n<pre>2\nhelloworld\nmississippi\n</pre>\n</p>\n<h3>Sample Output</h3>\n<p style=\"text-align:justify\">\n<pre>NO\nYES\n</pre>\n</p>\n<h3>Explanation</h3>\n<p style=\"text-align:justify\">\nThe optimal program length for mississippi is 112 instructions and that is smaller than 121 (length of 'mississippi' * 11)\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-08-2012",
+    "is_direct_submittable": false,
+    "contest_name": "August Cook-Off 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1345390200,
+        "end_date": 1345402200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1345402200,
+        "submit_start_date": 1345390200,
+        "current": 1537438752
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>gamabunta</span>",
+    "problem_name": "Code Crazy Minions",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cook25'>cook25</a>, <a class='problem-tag-small ' href='/tags/problems/gamabunta'>gamabunta</a>, <a class='problem-tag-small ' href='/tags/problems/greedy'>greedy</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "gamabunta",
+    "contest_code": "COOK25",
+    "max_timelimit": "0.445",
+    "problem_code": "NOCODING"
+}

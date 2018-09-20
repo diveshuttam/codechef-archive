@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>John&rsquo;s machine manufacturing company gets failed ( even your program could not save him !! ) so he starts a new box business. He has many boxes left from his previous business. He has exactly M boxes each of which could be denoted by its 3 dimensions &ndash; (X,Y,Z). He has been given an order according to which he needs to deliver N <b><u>identical</u></b> boxes to keep N objects of some given dimension. Dimension of the object will be again of the form &ndash; (X,Y,Z).  You may assume that an object of size (X, Y, Z) would \ufb01t perfectly into a box of size (X,Y,Z). If there are not at least N boxes that \ufb01t perfectly, then John wants N boxes that \ufb01t the items as tightly as possible. The box size that \ufb01ts the items as tightly as possible is the one which minimizes the empty space when the item is put inside the box. An item can be rotated in any direction to be accommodated inside a box; therefore, a box of size(X, Y, Z) is as good as a box of size (Y, Z, X), for example. \n\n<h3>Input</h3>\n</p><p>The first line would give the number of test cases.\n<br />The \ufb01rst line of a test case contains two integers N and M, indicating respectively the number of boxes the client orders (1 &le; N &le; 1500) and the number of boxes John has (1 &le; M &le; 1500). The second line contains three integers X, Y and Z, representing the dimensions of the item the client wants to wrap (0 &lt; X, Y, Z &le; 50). Each of the next M lines contains three integers A, B and C representing the dimensions of a box in the stock list (0 &lt; A, B, C &le; 50).\n<br />Repeat for next test case.\n\n<h3>Output</h3>\n</p><p>For each test case in the input your program must produce one line, containing either :\n<ul>\n<li>The single word &lsquo;impossible&rsquo;, in case it is not possible to ful\ufb01ll the client&rsquo;s order (because there are not at least N boxes of the same size in stock that can contain the item).\n\n</li><li>one integer V , which speci\ufb01es the volume of empty space left when one of the N items packed in one of the boxes chosen.\n\n</li></ul><br />\n<h3>Example</h3>\n\n<pre>\n<b>Input:\n3\n1 1\n2 4 3\n2 3 4\n2 6\n3 1 3\n7 4 7\n10 8 2\n2 8 10\n6 2 9\n7 7 4\n6 2 9\n1 1\n3 3 3\n1 1 1\n</b>\n\n<b>Output:\n0\n99\nimpossible\n</b>\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "WYSIWYG 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330185600,
+        "end_date": 1330194600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1330194600,
+        "submit_start_date": 1330185600,
+        "current": 1537438933
+    },
+    "problem_author_html_handle": "ankit_tripathi",
+    "problem_name": "Choosing The Box",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ankit_tripathi'>ankit_tripathi</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ankit_tripathi",
+    "contest_code": "ANWS2012",
+    "max_timelimit": "1",
+    "problem_code": "WYSIWYG5"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>On the planet curvy everything is curved. Even light travel in a curve there. They imported a rectangular grid and some very delicious square donuts from nearby planet straighty. The size of grid is m x n and area of a donut is one unit square.</p>\n<p>Donuts are placed such that :<br />\nFor every value of x from 0 to m, a series is created which determines the position of y coordinate on which donut is placed : </p>\n<p>Yn = Yn-1 + n</p>\n<p>where , </p>\n<p>Yn    = y coordinate of current donut.</p>\n<p>Yn-1 = y-coordinate of previous donut.</p>\n<p> n     = number of donut for current series.</p>\n<p>Y1 is equal to the x coordinate for that particular series.</p>\n<p>for eg x=1 donuts are placed at<br />\n Y=1, Y=3, Y=6, Y=10 , \u2026..</p>\n<p>For x=2 donuts are placed at:<br />\n Y=2, Y=4, Y=7\u2026.</p>\n<p>Equation of curve of line of sight at position (0,0) is given by:<br />\nY=(x-a)^2</p>\n<p>On the day of competition contestant are asked to stand at a position (0,b). Now you have to determine how many donuts does that contestant can see.</p>\n<p>Note that since area of donut is 1 unit square, if a donut is placed at (h,k) then is visible from<br />\n(x,y) such that : ( ( h - 0.5 ) &lt; x&lt; = ( h + 0.5 ) ) and ( ( k - 0.5 ) &lt;   y &lt; = ( k + 0.5 ) ) </p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer T denoting the number of test cases, each test case contains size of grid (MxN) i.e value of M &amp; N followed by values of a &amp; b.</p>\n<h3>Output</h3>\n<p>For each test case, output a single line with number of donuts visible to person.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>200</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000</b></li>\n<li><b>0</b> \u2264 <b>a</b> \u2264 <b>1000</b></li>\n<li><b>0</b> \u2264 <b>b</b> \u2264 <b>1000</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n10 10 1 2\n25 50 2 5\n<b>Output:</b>\n5\n14\n\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Case 1 :</b> for grid 10x10 and person standing at (0,2) , donuts visible to him are at coordinates</p><p> (1,1) , (2,2) , (3,3), (3,5) , (4,9) </p>\n<p><b>Case 2 :</b> for grid 25x50 and person standing at (0,5) , donuts visible to him are at coordinates</p><p>(1,1) , (1,3), (3,3), (4,4), (4,6), (5,7), (5,10), </p><p>(6,15), (6,20), (7,21), (7,27), (8,35), (8,43), (9,44)</p></pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Algothika 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, PERL, SCM qobi, LUA, JS, PERL6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1363023000,
+        "end_date": 1363282200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1363282200,
+        "submit_start_date": 1363023000,
+        "current": 1537438412
+    },
+    "problem_author_html_handle": "paramjeet",
+    "problem_name": "I DONT SEE IT STRAIGHT",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/paramjeet'>paramjeet</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "paramjeet",
+    "contest_code": "ALGT2013",
+    "max_timelimit": "5",
+    "problem_code": "TNMALG03"
+}

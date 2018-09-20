@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n<p>Problem description.</p>\n<p> Shah and Rukh survives and gets recruited by Hela. Now they have to work for Hela else she would throw them off into the hell. Since Hela is a God of Death, she wants more people to work for her.\nOn the Earth, Hela finds people with either good deeds or bad deeds. Also there are some exceptional people with neither good nor bad deeds. She wants to select some good people who are honest and would be ready to work for her at any cost and at any time she calls.\n<p>So, Hela provides a set of deeds of <b>N</b> people to Shah and Rukh (1 based indexing). For optimum selection she asks <b>Q</b> queries. In each query she provides a range of people from <b>l</b> to <b>r</b> (both inclusive) and asks both of them to find minimum number of people from the given range such that the product of their deeds is maximum, as they would be more honest and dedicated people.\n<p>If Shah and Rukh makes Hela happy, they both would get combined and ultimately would become a legend named Shahrukh! Help Shah and Rukh find the minimum number of people with maximum product of their deeds.\n</p>\n<p></p>\n<h3>Input Format</h3>\n<ul>\n<li>The first line of the input contains an integer <b>N</b> denoting the number of people . \n</li>\n<li> Next line contains N space separated integers denoting the deeds of i<sup>th</sup> person.\n</li>\n<li> Next line has the number of queries, <b>Q</b>, Hela would ask\n</li>\n<li> Following Q lines contain two space separated integers <b>l</b> and <b>r</b> denoting the range (both inclusive)\n</li>\n</ul>\n<p> </p>\n<h3>Constraints</h3>\n<p></p>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b>\n</li>\n<li><b>-10<sup>9</sup></b> \u2264 <b>a[i]</b> \u2264 <b>10<sup>9</sup></b>\n</li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>10<sup>5</sup></b>\n</li>\n</ul>\n<p> </p>\n<h3>Output Format</h3>\n<p> Print an integer on a new line for each query that denotes the answer.\n<br>\n<p></p>\n\n\n<h3>Example</h3>\n<pre><b>Input</b>\n<br>4<br>\n7 6 8 9<br>\n2<br>\n2 4<br>\n1 3<br>\n<b>Output : </b>\n<br>3<br>\n3<br>\n</pre>\n<p><b>Explanation : </b>\nFor the second query maximum product is 7 x 6 x 8, hence the ans is 3.\n\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Codexact Wildcard",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1534347000,
+        "end_date": 1534356000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1534356000,
+        "submit_start_date": 1534347000,
+        "current": 1537432111
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>vector_99</span>",
+    "problem_name": "Face Hela",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vector_99'>vector_99</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vector_99",
+    "contest_code": "COWC2018",
+    "max_timelimit": "1",
+    "problem_code": "CEW4"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b><h>Problem Statement</h></b></p>\n</br>The great cowboy of the wild west \"<b>BLACK JACK</b>\" wants to train his horses running along a long straight track in the Westland.</br> Each horse can starts at a distinct position on the track, and can runs at distinct speed.</br> The track is divided into lanes so that horses may move past each other. </br>No two horses in the same lane may never occupy the same position. </br><b>BLACK JACK</b> doesn't want any horses to have to change lanes or adjust speed, and he wonders how many lanes he will need to accomplish this if the horses are going to train for<b> T </b>minutes.\n</br>\n</br>\n<p><b><h>Input Format:</h></b></p> \n\nThe first line of input contains <b>N</b> and <b>T</b>.</br>\n<ul><li>The following <b>N</b> lines each \n        <ul type=\"circle\" style=\"margin-left:20px;\"><p>contain the initial position and speed of a single cow.</br> Position is a <b>integer</b> and speed is a <b>positive integer</b>. </br>All cows can start at distinct positions, and these will be given in increasing order in the input.\n</p>\n</ul>\n</li>\n</ul>\n\n<p><b><h>Output Format:</h></b></p>\n\nA <b>single integer</b> indicating the <i>minimum number of lanes necessary so\nthat no two cows in the same lane ever occupy the same location\n(including at time T).</i>\n</br></br>\n<p><b><h>Constraints:</h></b></p>\n<ul>\n<ul><p>SubTask#1</p>\n<li>1<=N<=100\n<li>1<=T<=100\n</ul>\n<ul><p>SubTask#2</p>\n<li>1<=N<=2*10^5\n<li>1<=T<=2*10^5\n</ul>\n</ul>\n</br>\n</br>\n<p><b><h>Sample Input:</h></b></p>\n5 3\n</br>0 1\n</br>1 2\n</br>2 3\n</br>3 2\n</br>6 1\n</br></br>\n<p><b><h>Sample Output:</h></b></p>\n3",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "CODE_WAR",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1474468200,
+        "end_date": 1474554600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1474554600,
+        "submit_start_date": 1474468200,
+        "current": 1537434582
+    },
+    "problem_author_html_handle": "acesprime",
+    "problem_name": "Cowboy",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acesprime'>acesprime</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "acesprime",
+    "contest_code": "COWS2016",
+    "max_timelimit": "1",
+    "problem_code": "CWB"
+}

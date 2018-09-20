@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Problem description.</p>\n<p>Its Ignus and Timo wants to take part in BreakThrough which is the city wide treasure hunt. As a part of a task in the hunt Timo has to visit some malls in the city.<br />\n<br />\nN malls were situated in a row. Timo has to visit K malls. But as she is running out of time she does not want to visit two consecutive malls.<br />\n<br />\n<br />\nHow many different combinations of malls should Timo consider?\n</p>\n<h3>Input</h3>\n<p>The first line contains an integer <b>T</b> - the number of test cases. Next follow T lines, each containing two space separated integers, <b>N</b> and <b>K</b>.</p>\n<h3>Output</h3>\n<p>For each test case, output a single integer representing the number of combinations of malls.<br />\n<br />\nOutput the answer <b>modulo 100003</b>.\n</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^16</b></li>\n<li><b>1</b> \u2264 <b>K</b> \u2264 <b>10^16</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Sample Input:</h3>\n<pre><b>Input:</b>\n2\n5 2\n5 3\n<b>Output:</b>\n6\n1\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>For the first test case: <br />\n<b>vovoo</b><br />\n<br />\n<b>voovo </b><br />\n<br />\n<b>vooov </b><br />\n<br />\n<b>ovovo </b> <br />\n<b>ovoov</b> <br />\n<b>oovov</b>  <br />\nFor the second test case: <br />\n<b>vovov</b> </p>\n<p>where <b>v</b> are the visited malls.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "IGNUS",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1424269800,
+        "end_date": 1424280600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1424280600,
+        "submit_start_date": 1424269800,
+        "current": 1537436779
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>bewithaman</span>",
+    "problem_name": "BreakThrough",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bewithaman'>bewithaman</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bewithaman",
+    "contest_code": "IGNU2015",
+    "max_timelimit": "1",
+    "problem_code": "IGNUS15C"
+}

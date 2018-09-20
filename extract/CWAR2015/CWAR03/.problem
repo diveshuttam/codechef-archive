@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>\n<h3>Problem description.</h3>\n</p>\n<p>\nTechnoshine the annual tech fest is on and the fest is getting more participants than the volunteers can handle. Now as the participants has started meeting and talking with each other they have started forming connections with each other. Seeing this the management team has started to wonder how quickly can a message spread among the participants if one of them is given a message.<br />\nFor that they realised they need to figure out the maximum number of groups with the equal number of participants. Can you help them figure out the number of  groups. Given the total no of people(N) and the number of connections(M)<br />\nA connection is made everytime one of the participants talks with another participant. <b>If A is connected to B and B is connected to C then A,B,C forms a group together. A person who has made no connections is also considered as a group of 1 person.<br /><br />\nif we have two with the same no of people in the each group then max no of people in each group get the preference.<br />\n</b><br />\n\u00a0</p>\n<h3>Input</h3>\n<p>Input description.</p>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.<br /><br />\n2nd line contains two space separated integers N and M(consequtively).<br /><br />\nThen following <b>M</b> lines containing two space separated integers.<br /> indicating the connections. i.e.  A  B\n</p>\n<h3>Output</h3>\n<p>Output description.</p>\n<p>one line containing two space separated integers X Y <br />where,<br /><br />\n<b> X-> No of people in each group<br />Y-> No of Groups.</b>\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>50</b></li>\n<li><b>2</b> \u2264 <b>N</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>1000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n6  4\n1  2\n2  3\n4  5\n5  6\n<br />\n<b>Output:</b>\n3  2\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b><br /><br />\nAs we can clearly see that there are 6 people and 4 connection description is given and as per the description we can see that there is two groups<b> 1,2,3 and 4,5,6 </b>with equal(3) people is formed so the answer is\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-09-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWar NIT Durgapur",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1443706200,
+        "end_date": 1443727800,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1443727800,
+        "submit_start_date": 1443706200,
+        "current": 1537435995
+    },
+    "problem_author_html_handle": "cad_xcoders",
+    "problem_name": "TechnoshineGroups",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cad_xcoders'>cad_xcoders</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "cad_xcoders",
+    "contest_code": "CWAR2015",
+    "max_timelimit": "1",
+    "problem_code": "CWAR03"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Abhishek is fond of playing cricket very much. One morning, he is playing cricket with his friends. Abhishek  is a right-hand batsman<br />\n.He has to face  all types of balls either good or  bad. There are total 26 balls in the game and each ball is represented<br />\nby one of the following two ways:-</p>\n<p>1. \"g\" denotes a good ball.</p>\n<p>2. \"b\" denotes a bad  ball.</p>\n<p>All 26 balls are represented by lower case letters (a,b,.....z).</p>\n<p>Balls faced by Abhishek are represented as a string <b>s</b>, all the characters of which are lower case  i.e, within  26 above mentioned balls.</p>\n<p>A substring s[l...r] (1\u2264l\u2264r\u2264|s|) of string s=s<sub>1</sub>s<sub>2</sub>...s<sub>|s|</sub> (where |s| is the length of string s) is string s<sub>l</sub>s<sub>l+1</sub>...s<sub>r</sub>.</p>\n<p>The substring s[l...r] is good, if among the letters s<sub>l</sub>s<sub>l+1</sub>...s<sub>r</sub>, there are at most <b>k </b>bad ones (refer sample explanation ).</p>\n<p>Your task is to find out the number of distinct good substrings for the given string s. Two substrings s[x...y] and s[p...q] are considered distinct if their contents are different, i.e. s[x...y]\u2260s[p...q].</p>\n<h3>Input Format</h3>\n<p>First Line contains an integer T, number of test cases. For each test case, first line contains a string - a sequence of balls faced by Abhishek.<br />\nAnd, next line contains a string of characters \"g\" and \"b\" of length 26 characters. If the i<sup>th</sup> character of this string equals \"1\", then the i-th English letter is good, otherwise it's bad. That is, the first character of this string corresponds to letter \"a\", the second one corresponds to letter \"b\" and so on.<br />\nAnd, the third line of the test case consists of a single integer k (0\u2264k\u2264|s|) \u2014 the maximum acceptable number of bad characters in a good substring.</p>\n<h3>Output Format </h3>\n<p>For each test case, print a single integer \u2014 the number of distinct good substrings of string s.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1&lt;=T&lt;=1000</b></li>\n<li>1&lt;=|s|&lt;=2000</li>\n<li>0&lt;=k&lt;=|s|</li>\n<p></p></ul>\n<h3>Subtasks</h3>\n<p><b>Subtask 1 : 20 Points</b></p>\n<ul>\n<li>1&lt;=T&lt;=10</li>\n<li>1&lt;=|s|&lt;=20</li>\n<li>0&lt;=k&lt;=|s|</li>\n</ul>\n\n<p><b>Subtask 2 : 80 Points </b></p>\n<p>Original Constraints</p>\n<pre>\n<b>Sample Input</b>\n2\nababab\nbgbbbbbbbbbbbbbbbbbbbbbbbb\n1\nacbacbacaa\nbbbbbbbbbbbbbbbbbbbbbbbbbb\n2\n<b>Sample Output</b>\n5\n8\n\n<p><b>Explanation</b></p>\nIn the first test case there are following good substrings: \"a\", \"ab\", \"b\", \"ba\", \"bab\".\n\nIn the second test case there are following good substrings: \"a\", \"aa\", \"ac\", \"b\", \"ba\", \"c\", \"ca\", \"cb\".\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "I-CODE 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455625800,
+        "end_date": 1455885000,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1455885000,
+        "submit_start_date": 1455625800,
+        "current": 1537435414
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>manu4056</span>",
+    "problem_name": "Abhishek and Cricket",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/manu4056'>manu4056</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "manu4056",
+    "contest_code": "ICOD2016",
+    "max_timelimit": "1",
+    "problem_code": "ICODE16G"
+}

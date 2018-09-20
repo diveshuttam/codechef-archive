@@ -1,0 +1,31 @@
+{
+    "status": "success",
+    "problem_tester": null,
+    "body": "<h2>Zonal Computing Olympiad 2013, 10 Nov 2012</h2>\n\n<p><em>N</em> teams participate in a league cricket tournament on Mars, where each pair of distinct teams plays each other exactly once. Thus, there are a total of <em>(N \u00d7 (N-1))/2</em> matches. An expert has assigned a strength to each team, a positive integer. Strangely, the Martian crowds love one-sided matches and the advertising revenue earned from a match is the absolute value of the difference between the strengths of the two matches. Given the strengths of the <em>N</em> teams, find the total advertising revenue earned from all the matches.</p>\n\n<br>\n<p>For example, suppose <em>N</em> is 4 and the team strengths for teams 1, 2, 3, and 4 are 3, 10, 3, and 5 respectively. Then the advertising revenues from the 6 matches are as follows:</p>\n\n<br>\n<p>\n<table border=\"1\">\n<tr>\n<th>Match</th> <th>Team A</th> <th>Team B</th> <th>Ad revenue</th>\n</tr>\n<tr> <td align=center>1</td>  <td align=center>1</td>  <td align=center>2</td>   <td align=center>7</td>  </tr>\n<tr> <td align=center>2</td>  <td align=center>1</td>  <td align=center>3</td>   <td align=center>0</td>  </tr>\n<tr> <td align=center>3</td>  <td align=center>1</td>  <td align=center>4</td>   <td align=center>2</td>  </tr>\n<tr> <td align=center>4</td>  <td align=center>2</td>  <td align=center>3</td>   <td align=center>7</td>  </tr>\n<tr> <td align=center>5</td>  <td align=center>2</td>  <td align=center>4</td>   <td align=center>5</td>  </tr>\n<tr> <td align=center>6</td>  <td align=center>3</td>  <td align=center>4</td>   <td align=center>2</td>  </tr>\n</table>\n</p>\n\n<br>\n<p>Thus the total advertising revenue is 23.</p>\n\n<br>\n<h3>Input format</h3>\n<p>Line 1 : A single integer, <em>N</em>.</p>\n<p>Line 2 : <em>N</em> space-separated integers, the strengths of the <em>N</em> teams.</p>\n\n<br>\n<h3>Output format</h3>\n<p>A single integer, the total advertising revenue from the tournament.</p>\n\n<br>\n<h3>Sample input</h3>\n<pre>\n4\n3 10 3 5\n</pre>\n\n<br>\n<h3>Sample output</h3>\n<pre>\n23\n</pre>\n\n<br>\n<h3>Test data</h3>\n\n<p>In all subtasks, the strength of each team is an integer between 1 and 1,000 inclusive.</p> \n<ul>\n<li><b>Subtask 1 (30 marks)</b> : 2 \u2264 <em>N</em> \u2264 1,000.</li>\n<li><b>Subtask 2 (70 marks)</b> : 2 \u2264 <em>N</em> \u2264 200,000.</li>\n</ul>\n\n<br>\n<h3>Live evaluation data</h3>\n<ul>\n<li><b>Subtask 1</b>: Testcases 0,1,2.</li>\n<li><b>Subtask 2</b>: Testcases 3,4,5.</li>\n</ul>\n\n<br>\n<h3>Note</h3>\n\n<p>The answer might not fit in a variable of type <tt>int</tt>. We recommend that type <tt>long\u00a0long</tt> be used for computing all advertising revenues. If you use <tt>printf</tt> and <tt>scanf</tt>, you can use <tt>%lld</tt> for <tt>long\u00a0long</tt>. </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-11-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ZCO Practice Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1446661800,
+        "end_date": 1578162600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1578162600,
+        "submit_start_date": 1446661800,
+        "current": 1537431957
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Tournament",
+    "source_sizelimit": "50000",
+    "problem_status": "unattempted",
+    "problem_tester_html_handle": null,
+    "problem_author": "admin3",
+    "contest_code": "ZCOPRAC",
+    "max_timelimit": "1",
+    "problem_code": "ZCO13001"
+}

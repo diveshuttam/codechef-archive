@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>For a given number $N$, You need to find no. of perfect squares or perfect cubes from 1 to N ( both inclusive )  \nNote : If a number, like $64$, which is both square ( 8^2 ) and cube (4^3) should be counted once only.\n### Input:\n\n- First line contains $T$ no. of test cases\n- for every test case, Next line consists an integer, N\n\n### Output:\nFor every test case print count in new line\n\n### Constraints \n- $1 \\leq T \\leq 1000$\n- $0 \\leq N \\leq 1000000000000000$\n\n### Sample Input:\n\t2\n\t10\n\t67\n\n### Sample Output:\n\t4\n\t10\n### EXPLANATION:\nFor Test #1, The numbers are 1,4,8,9  \nFor Test #2, The numbers are 1,4,8,9,16,25,27,36,49,64 ",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Binary Battle",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1535810400,
+        "end_date": 1535819400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1535823000,
+        "submit_start_date": 1535810400,
+        "current": 1537432020
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>babangain</span>",
+    "problem_name": "Square Cube",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/babangain'>babangain</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "babangain",
+    "contest_code": "BIBA2018",
+    "max_timelimit": "0.02",
+    "problem_code": "SQCB"
+}

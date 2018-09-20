@@ -1,0 +1,93 @@
+{
+    "teamsCount": "132",
+    "announcements": "<p><b>2:30pm: </b>You will be able to download a PDF of the contest problems <a href=\"/download/problemset.pdf\">here</a>.</p>\r\n<p><b>2:40pm:</b> The RankList for the contest is available here: <a href=\"/rankings/ACMKAN10\">http://www.codechef.com/rankings/ACMKAN10</a></p>\r\n<p><b>3:45pm:</b> Time limits for the problem <a href=\"/ACMKAN10/problems/ACMKANPE/\">Algebra Express</a> has been increased from 10s to 20s . Solutions for the same are being rejudged.<br /><br /><b>3:45pm: </b>In the problem <a href=\"/ACMKAN10/problems/ACMKANPB/\">Bonus</a> there is only one space between the words 'Inconsistent analysis' in the Sample Output.</p>\r\n<p><b>3:50pm: </b>The 5th bullet point in the problem <a href=\"/ACMKAN10/problems/ACMKANPD/\">A New Number System</a> has been changed. The latter half of the point now states: <b>4 - 2 = 2 times (11)</b></p>",
+    "ip": "149.129.135.113",
+    "code": "ACMKAN10",
+    "duration": "180",
+    "name": "ACM-ICPC Asia-Kanpur Site First Round Online Contest ",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b><span> </span></b></p> <p><b>NOTE: Please scroll down to the bottom of this page to read announcements made during the contest.</b></p> <p><b><b>Rules:</b></b></p> <p><span><br /></span></p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></li> <br /> <li>You can also send in your queries in an email to\u00a0<a href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a>, during the contest.</li> <br /> <li>Contest problems will become visible on October 30th, 2010 at 14:30 (IST) and end at 17:30 (IST).</li> <br /> <li>This is a team based contest.</li> <br /> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <br /> <li>Teams are ranked according to the most problems solved. Ties will be broken by the total time for each team in ascending order of time..</li> <br /> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> <br /> <li>Languages allowed are: C, C++ and Java.</li> <br /> <li>In the 'Language Drop Down Menu' on the submission page of each problem you will see multiple language options. You must choose only among the following languages: C, C99Strict, C++ 4.3.2, Java. Submissions in any other language will be ignored. </li> <br /> <li>Organizing Institute will not be responsible in case your program does not work at the contest environment, so try to use one of the mentioned compiler versions.</li> <br /> <li>Selected teams will be notified by email/website on 2 November 2010.</li> <br /> <li>Judges' decision will be treated as final. No correspondence in this regard will be entertained.</li> <br /> <li>Kanpur Site will not be responsible for any internet failure during the online contest at the contestants\u2019 site.</li> <br /> <li>Each participating team must submit solutions within 3 hours from the contest start time as mentioned in the submission procedure.</li> <br /> <li>All white space characters in the output will be ignored.</li> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/ACMKAN10/1424957508.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "ACMKANPA": {
+            "allow_submission": false,
+            "name": "Problem With Strings",
+            "category_name": "main",
+            "accuracy": 4,
+            "successful_submissions": "1",
+            "code": "ACMKANPA",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ACMKANPE": {
+            "allow_submission": false,
+            "name": "Algebra Express",
+            "category_name": "main",
+            "accuracy": 1.52,
+            "successful_submissions": "1",
+            "code": "ACMKANPE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ACMKANPC": {
+            "allow_submission": false,
+            "name": "Traffic Jam",
+            "category_name": "main",
+            "accuracy": 2.7,
+            "successful_submissions": "1",
+            "code": "ACMKANPC",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ACMKANPB": {
+            "allow_submission": false,
+            "name": "Bonus",
+            "category_name": "main",
+            "accuracy": 4.52,
+            "successful_submissions": "14",
+            "code": "ACMKANPB",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ACMKANPD": {
+            "allow_submission": false,
+            "name": "A New Number System",
+            "category_name": "main",
+            "accuracy": 19.18,
+            "successful_submissions": "75",
+            "code": "ACMKANPD",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537439463,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

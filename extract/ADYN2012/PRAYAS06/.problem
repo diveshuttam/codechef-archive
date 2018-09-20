@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Vicky wishes to be the richest ice cream parlor owner of Varanasi. For this he must install ice cream parlors on the roads such that every road has at least one such parlor. Vicky has figured out that the obvious optimal strategy would be to install them on the junctions of roads so that more than one road gets covered by a single ice cream parlor (A junction, as considered here, can also be the end point of a single road such that installing an ice cream parlor there will cover just that single road). Vicky wishes to install exactly <b>k</b> Ice cream parlors and yet cover every road in Varanasi. Help Vicky figure out whether it is possible to cover every road in Varanasi by installing exactly <b>k</b> ice cream parlors.<br /><br />\n\n<b>Note:</b> Don\u2019t waste your time finding a polynomial time algorithm for the problem as none are known to exist for this question till now. Instead use smart optimization to achieve a good enough solution as the test cases have been designed in a way that a good heuristic should do the needful well within time.\n<h3>Input</h3>\n</p><p>The first line contains the number of test-cases <b>T</b>, followed by a blank line, followed by <b>T</b> test cases each separated from the previous one by a blank line. The first line of each test-case contains three space separated integers \u2013 <b>n</b> - Number of road junctions in Varanasi, <b>e</b> \u2013 Number of roads in Varanasi and <b>k</b> \u2013 Number of ice cream parlor Vicky wishes to install.\nThereafter follows <b>e</b> lines, each containing two integers <b>xi</b> and <b>yi</b> which are the road junctions connected by the <b>i</b>th road.\n There is no road which connects a junction to itself, nor are there multiple roads connecting the same pair of road junctions.\n\n<h3>Output</h3>\n</p><p>For each test case output a \u201c<b>YES</b>\u201d in case such an arrangement is possible, otherwise \u201c<b>NO</b>\u201d, on a separate line. (without quotes)\n\n<h3>Constraints</h3>\n<pre>\nT &lt;=6\n1&lt;= n &lt;=100 \n1&lt;= e &lt;= n(n-1)/2\n1&lt;= k &lt;= n\n</pre>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n3 3 2\n0 1\n1 2\n2 0\n\n<b>Output:</b>\nYES\n\n</pre>\n\n<b>Explanation:</b>\n</p><p>Selecting any two cities will help cover all the roads.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Adhyayan 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1332333000,
+        "end_date": 1332354600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1332354600,
+        "submit_start_date": 1332333000,
+        "current": 1537438852
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>the123abhishek</span>",
+    "problem_name": "Million Dollar Vicky",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/the123abhishek'>the123abhishek</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "the123abhishek",
+    "contest_code": "ADYN2012",
+    "max_timelimit": "1",
+    "problem_code": "PRAYAS06"
+}

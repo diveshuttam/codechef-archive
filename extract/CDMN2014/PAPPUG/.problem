@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>Problem Description</b></p>\n<p>Pappu G of the famous C Party recently faced an interview. But as expected of him, he had studied only few words like RTI, women empowerment, youth, open system etc. He used these words so often in the interview that the audience mocked at him after the interview. Pappu G got very upset with all these and decided to analyze his interview. Of course he knows nothing and has so asked you to write a program to calculate the frequency of each of his words.</p>\n<p>Given a sentence <i>S</i>, and <i>Q</i> words, you need to find out the count of each of those words in the interview.</p>\n<p><b>Input</b></p>\n<p>The first line of the input consists of the number of cases (T). T test cases follows. Each test case begins with line with the sentence (S). The sentence consists of upper case and lower case English alphabets only. Next line indicates the number of queries (Q). Next Q lines have a word each whose count you need to find in the sentence.</p>\n<p><b>Output</b></p>\n<p>For each test case, output Q lines, one for each query which is the count of the word.</p>\n<p><b>Constraints</b></p>\n<pre>\nT \u2264 50<br/>\n1 \u2264|S| \u226410000<br/>\nQ \u2264 100<br/>\n1 \u2264 |word| \u226410000<br/>\n</br/></br/></br/></br/></pre><p><b>Sample Cases</b></p>\n<pre>\n2\nRTIWomenRTIYouthRTI\n5\nCountry\nRTI\nWomen\nYouth\nrti\nPPP\n1\nPP\n</pre><p><b>Output</b></p>\n<pre>\n0\n3\n1\n1\n0\n2\n</pre><p><b>Explanations</b></p>\n<ul>\n<li>In the first case, we have 3 occurrences of \"RTI\" and 1 each for \"Women\" and \"Youth\". Note that words are case sensitive. After all Pappu G is a sensitive person. So \"rti\" has 0 frequency.</li>\n<li>In the second case, \"PP\" has 2 occurrence. Note that words may overlap.</li>\n</ul>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeMania 2014",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1392737400,
+        "end_date": 1392748200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1392748200,
+        "submit_start_date": 1392737400,
+        "current": 1537437805
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>phantom11</span>",
+    "problem_name": "Too Many Repetitions",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/phantom11'>phantom11</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "phantom11",
+    "contest_code": "CDMN2014",
+    "max_timelimit": "1",
+    "problem_code": "PAPPUG"
+}

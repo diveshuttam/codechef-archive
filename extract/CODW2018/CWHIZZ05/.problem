@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<h3>Problem description.</h3>\n<p>In a game points are awarded as the main character\nTom eats candy as he journeys across location <b>A(0,0,0)</b>\nto location <b>B (N,N,N)</b> . Each candy has different points\nallotted to it. Now Queries will be given of the form :\u00a0</p>\n<pre>\n- UPDATE x y z w\nWhich updates the value of candy at location (x,y,z) to w.\n- QUERY x<sub>1</sub> y<sub>1</sub> z<sub>1</sub> x<sub>2</sub> y<sub>2</sub> z<sub>2</sub>\nCalculates sum of values of candy items between the co-ordinates given .\n</pre>\n\n\n<h3>Input</h3>\n<pre>The first line contains an integer T, the number of test-cases. T testcases follow.\nFor each test case, the first line will contain two integers N and M separated by a single\nspace.\nN defines the N * N * N matrix.\nM defines the number of operations.\nThe next M lines will contain either.\n1. UPDATE x y z W\n2. QUERY x<sub>1</sub> y<sub>1</sub> z<sub>1</sub> x<sub>2</sub> y<sub>2</sub> z<sub>2</sub></pre>\n\n<h3>Output</h3>\n<p>Print the result for each QUERY.</p>\n\n\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>50</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>x<sub>1</sub></b> \u2264 <b>x<sub>2</sub></b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>y<sub>1</sub></b> \u2264 <b>y<sub>2</sub></b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>z<sub>1</sub></b> \u2264 <b>z<sub>2</sub></b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>x,y,z</b> \u2264 <b>N</b></li>\n<li><b>-10<sup>9</sup></b> \u2264 <b>W</b> \u2264 <b>10<sup>9</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n4 5\nUPDATE 2 2 2 4\nQUERY 1 1 1 3 3 3\nUPDATE 1 1 1 23\nQUERY 2 2 2 4 4 4\nQUERY 1 1 1 3 3 3\n2 4\nUPDATE 2 2 2 1\nQUERY 1 1 1 1 1 1\nQUERY 1 1 1 2 2 2\nQUERY 2 2 2 2 2 2\n\n<b>Output:</b>\n4\n4\n27\n0\n1\n1\n<p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "11-01-2018",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWhizz 1.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1516026600,
+        "end_date": 1516044600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1516044600,
+        "submit_start_date": 1516026600,
+        "current": 1537433172
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>kjsreddy123</span>",
+    "problem_name": "Tom and his game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kjsreddy123'>kjsreddy123</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kjsreddy123",
+    "contest_code": "CODW2018",
+    "max_timelimit": "1",
+    "problem_code": "CWHIZZ05"
+}

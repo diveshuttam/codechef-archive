@@ -1,0 +1,33 @@
+{
+    "problem_code": "COMAPR05",
+    "problem_author": "kornalaarun",
+    "contest_name": "Codemania",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>kornalaarun</span>",
+    "problem_name": "Rebuilding Konoha",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "COM2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/com2018'>com2018</a>, <a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/kornalaarun'>kornalaarun</a>, <a class='problem-tag-small ' href='/tags/problems/maths'>maths</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The leaf village is destroyed and as a responsible hokage, Naruto has decided to rebuild the village with sturdier security measures. To ensure better security, Naruto wants to set up 4 identical check posts such that the check-posts form the vertices of a <b>square</b>. The leaf village is in form of an <b>(n+1)*(n+1)</b> grid and and check-posts can be set up at the intersection point of any two lines. Only one-check post can be set up at one point. Naruto also wants to ensure faster communication between check-posts. Since communication lines have been laid along the grid directions (i.e. x and y directions), either the <b>side</b> of the square or it\u2019s <b>diagonal</b> must be along these directions(x and y).\n\n\nNaruto wants to determine all possible ways of establishing check-posts. Having skipped Math 101 to practice his Shadow clone jutsu, he needs your help. Help Naruto determine the no of possible ways in which he can set check-posts.\n</p>\n\n\n<h3>Input</h3>\n<p>The first line has <b>t</b> denoting the number of test cases. <br><br>\nThe next t lines contain the value of <b>n</b>.\n</p>\n\n<h3>Output</h3>\n<p>Output a single number denoting the no of possible ways of setting check-posts. Since this answer can be very large print the answer mod <b>10^9+7</b>.\n</p>\n\n<h3>Constraints</h3>\n<p>\n<ul>\n<li><b>1</b> \u2264 <b>t</b> \u2264 <b> 1000000</b></li>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b> 1000000000</b> </li>\n</ul>\n</p>\n\n<h3>Example</h3>\n<p>\n<pre><b>Input:</b>\n2\n1\n2\n\n<b>Output:</b>\n1\n6\n</pre>\n</p>\n\n<h3>Explanation</h3>\n<p><b>Example case 2.</b>\n<img src=\"https://codechef_shared.s3.amazonaws.com/download/upload/COM2018/COM2018.png\" />\nAs shown in the image following 6 squares are possible {ABED,BCFE,DEHG,EFIH,ACIG,DBFH}. <br>\nAll these squares have vertices on the points of the grid.\nDBFH has it\u2019s diagonals along the grid directions, whereas the remaining squares have their sides along the grid directions.\n</p>",
+    "category_name": "main",
+    "date_added": "5-02-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/COMAPR05",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1518453000,
+        "end_date": 1518463800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1518463800,
+        "submit_start_date": 1518453000,
+        "current": 1537433003
+    },
+    "user": {
+        "username": ""
+    }
+}

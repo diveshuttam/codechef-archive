@@ -1,0 +1,107 @@
+{
+    "announcements": "Sample Input for NODEJP has been updated. <br>\r\n\r\n\r\n<b>The seventh problem has been added. The delay is regretted.</b>\r\n\r\n\r\nThere will be seven problems in the contest. 6 are uploaded in the order of difficulty. The seventh will be up soon.\r\n",
+    "ip": "149.129.135.113",
+    "code": "PROJ2017",
+    "duration": "180",
+    "name": "ProCon Junior 2017",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<!-- .rules-heading { color: #444444;  font-family: Arial, sans-serif;  font-size: 13px; font-family: Arial, sans-serif;  line-height: 23px; } .rules-body p { line-height: 23px;  font-size: 13px; }  .rules-body-ul { line-height: 23px;  list-style-position: initial;  list-style-image: initial;  margin: 10px 15px;  font-size: 13px;         } .rules-body-ul li { padding-left: 3px; } -->\r\n<p><strong class=\"rules-heading\">About the Contest:</strong></p>\r\n<div class=\"rules-body\">\r\n<ul class=\"rules-body-ul\">\r\n<li><strong>Organiser: </strong> The contest is hosted by Esya'17, IIIT Delhi's techfest.</li>\r\n<li><strong>Prizes: Bonus Marks </strong>for admission in IIITD will be given to the top 3 winners of the onsite finals. Moreover, 25k worth prizes are up for grab for the top 5 participants.</li>\r\n<li><strong>Registrations for prizes: </strong>Please fill the form <a href=\"https://docs.google.com/forms/d/e/1FAIpQLScnRTjz5mE4jypXB4T2rokaslZwSk9ckKfpc1s4FH_1VgLKow/viewform\" target=\"_blank\">here</a></li>\r\n</ul>\r\n</div>\r\n<p><strong class=\"rules-heading\">Contest Details:</strong></p>\r\n<div class=\"rules-body\">\r\n<ul class=\"rules-body-ul\">\r\n<li><strong>Duration: </strong>3 hours</li>\r\n<li><strong>Start time: </strong>30th July 2017, 1700 hrs IST</li>\r\n<li><strong>End time: </strong>30th July 2017, 2000 hrs IST<br /> You may check your timezone <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+Procon+Junior+2017&amp;iso=20170730T17&amp;p1=44&amp;ah=3\" target=\"_blank\">here</a>.</li>\r\n</ul>\r\n</div>\r\n<p><strong class=\"rules-heading\">Registration:</strong></p>\r\n<div class=\"rules-body\">\r\n<p>This is an open contest for all(all you need is a codechef ID). However, we will be making a separate ranklist for school students who have registered for ProCon Jr using the form mentioned above. Out of these students, all participants solving more than X problems will qualify for the onsite finals which will take place on 25th August.&nbsp;</p>\r\n<p>To register for codechef, &nbsp;click <a class=\"rules-body-ul\" title=\"Sign Up\" href=\"../user/register\" target=\"_self\">here</a>.</p>\r\n</div>\r\n<p><br /> <strong class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :p</strong></p>\r\n<div class=\"rules-body\">\r\n<p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct.</a>&nbsp;Prizes will be given to the winners of the onsite finals.</p>\r\n</div>\r\n<p><br /> <strong class=\"rules-heading\">Rules and Regulations:</strong></p>\r\n<ul class=\"rules-body-ul\">\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com </a>.</li>\r\n<li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li>\r\n<li>Allowed languages: C, C++, Java, Python.</li>\r\n<li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li>\r\n<li>Please contact <a href=\"mailto:kushagra15049@iiitd.ac.in\" target=\"_blank\">kushagra15049@iiitd.ac.in</a> for any queries during the contest.</li>\r\n</ul>\r\n<p><strong class=\"rules-heading\">Judging Criteria:</strong></p>\r\n<ul class=\"rules-body-ul\">\r\n<li><strong>All problems are have a binary grading . You will be given 100 points only if you pass all the testcases</strong><strong>.</strong></li>\r\n<li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li>\r\n<li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li>\r\n<li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li>\r\n<li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li>\r\n</ul>\r\n<div class=\"rules-body-ul\"><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"../ide\" target=\"_blank\">Online IDE</a>.</strong><br /> However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/PROJ2017/1501340018.png",
+    "isRanklistFrozen": true,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "TRAVLMIN": {
+            "allow_submission": false,
+            "name": "The Traveling Minister",
+            "category_name": "main",
+            "accuracy": 33.79,
+            "successful_submissions": "49",
+            "code": "TRAVLMIN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IMPPAL": {
+            "allow_submission": false,
+            "name": "Impersonating Palindromes",
+            "category_name": "main",
+            "accuracy": 50.88,
+            "successful_submissions": "140",
+            "code": "IMPPAL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "JONSNOW": {
+            "allow_submission": false,
+            "name": "Jon Snow vs White Walkers",
+            "category_name": "main",
+            "accuracy": 53.96,
+            "successful_submissions": "427",
+            "code": "JONSNOW",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "WEIRD": {
+            "allow_submission": false,
+            "name": "Weird Bacteria",
+            "category_name": "main",
+            "accuracy": 7.02,
+            "successful_submissions": "8",
+            "code": "WEIRD",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FNDJOB": {
+            "allow_submission": false,
+            "name": "Finding Job",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "FNDJOB",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CURREQ": {
+            "allow_submission": false,
+            "name": "Currency Equity",
+            "category_name": "main",
+            "accuracy": 29.33,
+            "successful_submissions": "205",
+            "code": "CURREQ",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "NODEJP": {
+            "allow_submission": false,
+            "name": "Node Jumping",
+            "category_name": "main",
+            "accuracy": 34.48,
+            "successful_submissions": "10",
+            "code": "NODEJP",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1501425000,
+        "current": 1537433667,
+        "freezing": 1501423200,
+        "start": 1501414200
+    },
+    "user": {
+        "username": ""
+    }
+}

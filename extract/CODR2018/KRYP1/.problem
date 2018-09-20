@@ -1,0 +1,33 @@
+{
+    "problem_code": "KRYP1",
+    "problem_author": "shivamg_isc",
+    "contest_name": "CodeRed",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>shivamg_isc</span>",
+    "problem_name": "First Challenge of Krypton",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CODR2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/codr2018'>codr2018</a>, <a class='problem-tag-small ' href='/tags/problems/dp+trees'>dp+trees</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/shivamg_isc'>shivamg_isc</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p> <b>\"The story of my family is one of triumph and sacrifice\"</b></p>\n<p><b>Seg-El</b>, grandfather of <b>Kal-El (Superman)</b> needs to redeem his family's honour and save Krypton from the impending chaos.</p> \n<p> He is provided a tree of <b>N</b> nodes, where <b>i<sup>th</sup></b> of it has value <b>A<sub>i</sub></b> associated with it.  </p>\n<p> He is provided <b>Q</b> queries as well.</p>\n<p> In each query, a value <b>X</b>, denoting the node number will be provided.</p>\n<p> At the beginning of each query, the tree gets <b>rooted at node X</b>. Seg-El needs to consider every simple path from this root X to the leaf nodes. Now, along any of these paths, Seg- El can purchase a gem at price of <b>A<sub>Y</sub></b> , and <b>then</b> sell it at price of <b>A<sub>Z</sub></b>, where <b>Y</b> and <b>Z</b> are nodes along the path chosen. Also, <b>Y and Z can be the same nodes. </b> </p>  \n<p> The profit which he earns out of this will act as a boost to Krypton's power. Hence, you need to help Seg-El in <b>maxmising the profit</b> for each of the queries. </p> \n<p></p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>First line of each input file comprises two space separated integers, <b>N</b>- denoting the number of nodes of the tree and <b>Q</b>- denoting the number of queries. </p>\n<p>Second lines comprises <b>N</b> space separated integers denoting the value of the nodes <b>A<sub>i</sub></b></p>\n<p> The next <b>N-1</b> lines contains two separated integers <b>X</b> and <b>Y</b>, denoting a bi-directional edge between these nodes. </p>\n<p>The next <b>Q</b> lines have an integer <b>X</b> denoting the node of the tree. </p> \n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>For each of the <b>Q</b> queries, print the maximum profit Seg-El can earn as per the mentioned criteria on a separate line. </p>   \n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b> 100000 </b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b> 100000 </b></li>\n<li><b>1</b> \u2264 <b>X,Y</b> \u2264 <b> N</b></li>\n<li><b>1</b> \u2264 <b> A<sub>i</sub></b> \u2264 <b> 10<sup>9</sup> </b></li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Example</h3>\n<p><b>Input:</b></p>\n<p>5 5</p>\n<p>4 3 15 2 18</p> \n<p>1 2</p>\n<p>1 3</p>\n<p>2 4</p>\n<p>2 5</p>\n<p>1</p>\n<p>2</p>\n<p>3</p>\n<p>4</p>\n<p>5</p>\n\n\n<b>Output:</b>\n<br/>\n15<br/>\n15<br/> \n15<br/>\n16<br/> \n12<br/> \n\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>For 1<sup>st</sup> query, the tree gets rooted at node 1. Consider simple paths from this root to all leaf nodes i.e 3,4 and 5. Along the path to node 3, the maximum profit will be 11 which can be attained by purchasing at node 1 for the price of 4 and then selling it at node 3 for price 15.  Along the path to node 4, the maximum profit will be 0 by choosing any node and purchasing and selling at the same node. Along the path to node 5, the maximum profit will be 15 and can be attained by purchasing at node 2 and then selling at node 5. </p>\n<p> For 5<sup>th</sup> query, the tree is rooted at node 5, and he can purchase at node 2 and then sell at node 3 to attain maximum profit.</p>",
+    "category_name": "main",
+    "date_added": "24-01-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/KRYP1",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1518881400,
+        "end_date": 1518899400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1518899400,
+        "submit_start_date": 1518881400,
+        "current": 1537432980
+    },
+    "user": {
+        "username": ""
+    }
+}

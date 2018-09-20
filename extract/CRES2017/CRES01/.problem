@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>Bharath</b> is a professional programmer such that whatever he finds  interesting, he would immediately convert it into a problem and try to get an algorithm for it which is the stepping stone for solving a problem. He saw water stagnation infront of his house after a heavy rain. So, he got an idea to write a program to find the amount of water stagnated, which is the inspiration for this problem</p>\n<p><b>Problem Description</b></p>\n<p>\u00a0\nYou are given an iron bar which is of dimension 1 unit. Iron bars are placed in a particular format for each test case, You must display the maximum units of accumulation of water between the iron bars if rainfall has occured in that building.\n\n</p>\n<p>You can refer to the below image for clear understanding of the problem</p>\n\n\n<img src=\"https://www.codechef.com/download/CRES2016-waterTrap.jpg\">\n<h3>Input</h3>\n<ul>\n<li>\"The first line of the input contains an integer <b>T</b> denoting the number of test cases</li>\n<li> \"The first line of each test case contains a single integer <b>N</b> denoting the total number of bars that can be arranged horizontally</li>\n<li> The second line of each test case contains <b>N</b> space-separated integers <b>A<sub>0</sub></b>, <b>A<sub>1</sub></b>, ..., <b>A<sub>N-1</sub></b> denoting the bars which are placed vertically one above the other at each place <b>A<sub>0</sub></b>,<b>A<sub>1</sub>...<b>A<sub>N-1</sub></b>  respectively</li>\n</ul>\n<p>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing a single integer <b>max</b> which contains the maximum units of accumulation of water assuming a unit as the place between  alternate bars</li>\n</ul>\n</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b>\u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b>\u2264<b>N</b>\u2264 <b>1000</b></li>\n<li><b>0</b>\u2264 <b>A<sub>0</sub></b>,<b>A<sub>1</sub>,....<b>A<sub>N-1</sub> \u2264 <b>1000</b></ul><p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n6\n3 0 0 2 0 4\n6\n3 0 3 3 3 3\n<b>Output:</b>\n10\n3\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-02-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Cresense2k17",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1487766600,
+        "end_date": 1487939400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1487939400,
+        "submit_start_date": 1487766600,
+        "current": 1537434117
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>ravi_palanchu</span>",
+    "problem_name": "Bharath and his Idea",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ravi_palanchu'>ravi_palanchu</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ravi_palanchu",
+    "contest_code": "CRES2017",
+    "max_timelimit": "1",
+    "problem_code": "CRES01"
+}

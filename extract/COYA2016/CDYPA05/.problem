@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Raju and Gopi are best friends. They have spent their entire childhood in the beautiful town of Timarkhantola. They read in same college.\u00a0</p>\n<p>The town has a unique architecture with total N houses. The college where they study is a very big and beautiful building having address = 1. Rest of the houses in the town have some unique address, (say A), are connected by roads and there is always a unique path between any two houses in the town. Note that the college is also included in these houses.</p>\n<p>\u00a0Raju and Gopi have decided to play Hide and Seek taking the entire town as their arena. In the given scenario of the game, it's Raju's turn to hide and Gopi is supposed to find him.<br />\nRaju can hide in any of the houses in the town including the college. As Gopi is a very lazy person, for finding Raju, he either goes towards the college (he stops when he reaches there), or he moves away from the college in any possible path till the last house on that path.</p>\n<p> Raju runs and hides in some house (say X) and Gopi is starting the game from his house (say Y). If Gopi reaches house X, then he surely finds Raju.</p>\n<p>Given Q queries, you need to tell Gopi if it is possible for him to find Raju or not.</p>\n<p> The queries can be of the following two types:</p>\n<ul>\n<li>\n0 X Y : Gopi moves towards the college.\n</li><li>\n1 X Y : Gopi moves away from the college.\n</li></ul>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains a single integer <b>N</b>, total number of houses in the town. Next N-1 lines contain two space separated integers <b>A</b> and <b>B</b> denoting a road between the houses at address A and B.</li>\n<li>\nNext line contains a single integer <b>Q</b> denoting the number of queries.</li>\n<li>\nFollowing Q lines contain three space separated integers representing each query as explained above.\n</li>\n</ul>\n<h3>Output</h3>\n<p>Print \"YES\" or \"NO\" for each query depending on the answer to that query..</p>\n<h3>Constraints:</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>6</sup></b></li>\n<li><b>1</b> \u2264 <b>A,B</b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>X,Y</b> \u2264 <b>N</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example:</h3>\n<pre><b>Input:</b>\n8\n1 2\n1 4\n1 6\n2 3\n4 5\n6 8\n6 7\n4\n0 4 5\n1 4 5\n0 7 4\n1 8 1\n\n<b>Output:</b>\nYES\nNO\nNO\nYES\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>Query 1 Gopi goes from 5 towards 1(college) meeting 4 in the path. Query 2 Gopi goes from 5 away from 1 and never meets 4. Query 3 Gopi goes from 4 towards 1 and never meets 7.  Query 4 Gopi goes from 1 away from 1 and meets finds Raju at 8. he can take the following two paths 1 -> 6 -> 7 OR 1 -> 6-> 8. 8 appears in at least one of them</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Codiyapa",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457170200,
+        "end_date": 1457515800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457515800,
+        "submit_start_date": 1457170200,
+        "current": 1537435238
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>sumit_kap</span>",
+    "problem_name": "The game of childhood",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sumit_kap'>sumit_kap</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sumit_kap",
+    "contest_code": "COYA2016",
+    "max_timelimit": "1",
+    "problem_code": "CDYPA05"
+}

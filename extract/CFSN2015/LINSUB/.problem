@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>This time minions are celebrating Diwali Festival. There are <b>N</b> minions in total. Each of them owns a house. On this Festival, Each of them wants to decorate their house. But none of them have enough money to do that. One of the minion, Kevin, requested Gru for money. Gru agreed for money distribution but he will be giving money to a minion if and only if demanded money is <b>less than or equal</b> to the money Gru have. Now Gru wonders if he can spend <b>all</b> the money or not.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line have number of test cases <b>T</b>. Each test case consist of Two Lines. First line contains two space separated integers <b>N</b> and <b>K</b> i.e. Number of minions and Amount of Money Gru have. Next line contains <b>N</b> space separated integers <b>A<sub>1</sub>,A<sub>2</sub>,A<sub>3</sub>,.....,A<sub>N</sub></b> representing amount of money demanded by <b>i<sup>th</sup></b> minion.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Output <b>YES</b> if Gru can spend his all of the money on minions i.e. after distribution Gru have zero amount of money else <b>NO</b>.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>2</sup></b></li>\n<li><b>1</b> \u2264 <b>K,A<sub>i</sub></b> \u2264 <b>10<sup>9</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2 \n4 9\n5 2 2 4\n4 9\n5 2 18 3\n\n\n<b>Output:</b>\nYES\nNO\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b>At first Gru is having 9 Rs. If he gives 5 Rs. to first minion then remaining 4 Rs. can be given to 2nd and 3rd minion or to the 4th minion. Which will leave zero amount of money in the hands of Gru.</p>\n<p><b>Example case 2.</b>At first Gru is having 9 Rs. If he gives 5 Rs. to the first minion then from remaining 4 Rs. either he can give 2 Rs. to the 2nd minion or 3 Rs. to the fourth minion. Which will leave either 2 Rs. or 1 Rs. in the hands of Gru. </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-09-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Code Fusion - II",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1444221000,
+        "end_date": 1444228200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1444228200,
+        "submit_start_date": 1444221000,
+        "current": 1537435967
+    },
+    "problem_author_html_handle": "acses",
+    "problem_name": "Festival Celebration",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acses'>acses</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "acses",
+    "contest_code": "CFSN2015",
+    "max_timelimit": "1 - 2",
+    "problem_code": "LINSUB"
+}

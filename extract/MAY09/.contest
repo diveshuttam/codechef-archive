@@ -1,0 +1,97 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "MAY09",
+    "duration": "14400",
+    "name": "May 2009 (Contest III)",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>Rules:</b><br /> <ul> <li>Contest problems will become visible on May 1st 15:00 IST.</li> <li>The contest will consist of 6 problems of varying difficulty.</li> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li>Each contest will have one min/max tie breaker problem (i.e. <a href=\"http://www.codechef.com/MAY09/problems/CX/\">Best board fill</a>), where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution</li> <li>In the unlikely case of an overall tie (including the same score on the tie-breaker) a winner will be randomly chosen from the top scorers.</li> </ul> <br /> <em>Prizes are only available to users within India</em></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/MAY09/1424957404.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CX": {
+            "allow_submission": false,
+            "name": "Best board fill",
+            "category_name": "main",
+            "accuracy": 67.5,
+            "successful_submissions": "15",
+            "code": "CX",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "C2": {
+            "allow_submission": false,
+            "name": "The powerful sum",
+            "category_name": "main",
+            "accuracy": 3.78,
+            "successful_submissions": "28",
+            "code": "C2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "C4": {
+            "allow_submission": false,
+            "name": "Healthy dinner party",
+            "category_name": "main",
+            "accuracy": 17.16,
+            "successful_submissions": "46",
+            "code": "C4",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "C1": {
+            "allow_submission": false,
+            "name": "Swapping mismatches",
+            "category_name": "main",
+            "accuracy": 1.9,
+            "successful_submissions": "15",
+            "code": "C1",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "C3": {
+            "allow_submission": false,
+            "name": "Prime words",
+            "category_name": "main",
+            "accuracy": 7.16,
+            "successful_submissions": "17",
+            "code": "C3",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "C5": {
+            "allow_submission": false,
+            "name": "An interesting subsequence",
+            "category_name": "main",
+            "accuracy": 3.88,
+            "successful_submissions": "13",
+            "code": "C5",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1242034200,
+        "current": 1537439943,
+        "freezing": 0,
+        "start": 1241170200
+    },
+    "user": {
+        "username": ""
+    }
+}

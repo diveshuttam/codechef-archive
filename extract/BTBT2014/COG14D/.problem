@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>There  was  tough  competition  between  <b>Amy  Adams</b> and  <b>Cate  Blanchett</b> for Best Actress Award in Oscars 2014. The Oscar Committee decided to choose the one who wins the below game.\n</p>\n<p>The game rules are described as follows:</p>\n<p><b>1)</b>Amy will play first.</p>\n<p><b>2)</b>Each actress can remove 1,<b>K</b> or <b>L</b> characters from the beginning of a given string during each move.</p>\n<p><b>3)</b>The actress who obtains lexicographically Mth smallest string after doing operation <b>(2)</b> will be declared as winner.</p>\n<p>If given string is already Mth smallest string,then second actress wins as first actress cannot perform operation <b>2)</b>.</p>\n<p>Given  the  values  of <b>K</b> ,<b>L</b>  and  <b>M</b> and a string <b>S</b>,your task is to tell who wins the game. As both the actresses are intelligent and are eager to win the award, they play the game optimally.\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases.<br />\nThe description of <b>T</b> test cases follows in <b>3T</b> lines.</p>\n<p>The first line of each test case contains the integers <b>K</b> and <b>L</b>.</p>\n<p>The second line contains a string <b>S</b> consisting of only lowercase<b> [a-z]</b> alphabets.</p>\n<p>The third line contains the rank <b>M</b>.\n</p>\n<h3>Output</h3>\n<p>For each test case, output a single line containing <b>A</b> if Amy wins else print <b>B</b> if Blanchett wins.\n</p>\n<h3>Constraints</h3>\n<p><ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> &lt; <b>K</b> &lt; <b>L</b> &lt; <b>10</b></li>\n<li><b>1</b> \u2264 <b>|S|</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>|S|</b></li>\n</ul>\n</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n2 3 \nabcdefg\n5\n\n<b>Output:</b>\nB\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>5th smallest string obtained by removing letters from beginning is <b>efg</b>.<br />\nIf Amy removes 1,2 or 3 letters from beginning Blanchett can remove 3,2 or 1 letters in turn in order to obtain efg.Thus Blanchett  wins.\n</p>\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-03-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Bit Battle 2014",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1395504000,
+        "end_date": 1395513000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1395513000,
+        "submit_start_date": 1395504000,
+        "current": 1537437673
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>purvi2</span>",
+    "problem_name": "Best Actress Award",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/purvi2'>purvi2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "purvi2",
+    "contest_code": "BTBT2014",
+    "max_timelimit": "1",
+    "problem_code": "COG14D"
+}

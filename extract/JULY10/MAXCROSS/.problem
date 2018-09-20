@@ -1,0 +1,33 @@
+{
+    "problem_code": "MAXCROSS",
+    "problem_author": "anhdq",
+    "contest_name": "July 2010",
+    "todo": false,
+    "problem_author_html_handle": "AnhDQ",
+    "problem_name": "Maximal crosses",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>anshuman_singh</span>",
+    "contest_code": "JULY10",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anhdq'>anhdq</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/july10'>july10</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>On the matrix A sized n\u00d7n, some cells were marked by crosses (X). For each cell (i,j) (with i \u2013 the row index, j \u2013 the column index), we define B(i,j) as the maximal number of continuous crosses \u201cgoing across\u201d the cell (i,j) in the same horizontal, vertical or diagonal; B(i,j)=0 if A(i,j) is empty ( '.' ).\n[ Empty cells are marked by '.'] .</p>\n\n<p>\nClarification:<br />\nContinuous crosses going across cell (i,j) in horizontal direction = x1 + x2 - 1<br />\nwhere x1 = highest possible x such that<br />\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0j + x - 1&lt;= n and A(i, j ... j + x - 1) are all 'X'<br />\nand x2 = highest possible x such that<br />\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0j - x + 1 &gt; 0  and A(i, j - x + 1...j) are all 'X'<br />\n<br />\nSimilarily we can extend the definition for vertical and diagonal directions.\n</p>\n\n<h3>Task</h3>\n<p>Given matrix A as input, calculate matrix B.</p>\n\n<h3>Input</h3>\n<p>\n<ul>\n                <li> The first line contains the integer n. </li>\n                <li> Then follow n lines , each containing n characters. The j-th character of the i-th line represents the cell (i,j) of the matrix A, with A(i,j)='X' if it contains a cross, or A(i,j)='.' if it is empty. </li>\n        </ul>\n</p>\n\n<h3>Output</h3>\n<p>\nOutput n lines, each contains n integers, the j-th integer of the i-th line shows the value of B(i,j).<br />\n<b><em>(Each integer on a same line must be separated by exactly one space character)</em></b>\n</p>\n\n<h3>Example</h3>\n\n<b>Input:</b>\n<pre>\n10\n..X....XX.\nXX.X..XX.X\n.....XX..X\n.XXX..X.X.\n.....X..XX\n....X....X\nX.X....XX.\n.X...X.X.X\nX.X..X....\n..XXXXX.XX\n</pre>\n\n<b>Output:</b>\n<pre>\n0 0 2 0 0 0 0 3 3 0 \n2 2 0 2 0 0 3 3 0 2 \n0 0 0 0 0 3 3 0 0 2 \n0 3 3 3 0 0 3 0 2 0 \n0 0 0 0 0 3 0 0 2 2 \n0 0 0 0 3 0 0 0 0 3 \n4 0 3 0 0 0 0 2 3 0 \n0 4 0 0 0 3 0 3 0 2 \n3 0 4 0 0 3 0 0 0 0 \n0 0 5 5 5 5 5 0 2 2\n</pre>\n\n<h3>Limitations</h3>\n0&lt;n\u22641 000",
+    "category_name": "main",
+    "date_added": "4-05-2010",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "max_timelimit": "0.170455 - 0.255682",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/MAXCROSS",
+    "problem_tester": "anshuman_singh",
+    "time": {
+        "view_start_date": 1277976600,
+        "end_date": 1278840600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1278840600,
+        "submit_start_date": 1277976600,
+        "current": 1537439565
+    },
+    "user": {
+        "username": ""
+    }
+}

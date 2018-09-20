@@ -1,0 +1,33 @@
+{
+    "problem_code": "HBB",
+    "problem_author": "akku_bigasia",
+    "contest_name": "ICODE 3",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>akku_bigasia</span>",
+    "problem_name": "Birthday Bash",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "IC32016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/akku_bigasia'>akku_bigasia</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/ic32016'>ic32016</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Humpy, the little elephant, has his birthday coming up. He invited all his cousins but doesn\u2019t know how many of them are really coming as some of them are having exams coming up. He will only get to know how many of them are coming on the day of his birthday.<br /><br /><br />\nHe ordered sugarcane for his party, of length <b>L</b>.<br /><br /><br />\nHumpy\u2019s mom decided that she will be dividing the sugarcane among Humty and his friends in a way such that they get the sugarcane in ratio of their ages.<br />\n<br /><br />Your task is to determine whether it is possible to serve sugarcane to everyone as integral multiples of their ages.\n</p>\n<p>\u00a0</p>\n<h3>INPUT</h3>\n<p>First line of input contains an integer <b>N</b>, denoting the number of test cases.<br /><br />\nThen <b>N</b> test cases follow.<br /><br />\nThe first line of each test case contains three integers <b>K, L</b> and <b>E</b>. <b>K</b> denoting the number of friends coming; <b>L</b> denoting the length of the sugarcane and<b> E </b>denoting the age of the little elephant. Next line has  <b>K </b> space separated integers denoting the age of friends who came to the party.\n</p>\n<p>\u00a0</p>\n<h3>OUTPUT</h3>\n<p>\nFor each test case, output \u201cYES\u201d (without quotes) if everyone gets their part as integral multiples of their ages; otherwise output \u201cNO\u201d(without quotes).\n</p>\n<h3>CONSTRAINTS</h3>\n<p><ul>\n<li><b>1</b> &lt;= <b>T</b>&lt;=<b>30</b></li>\n<li><b>1</b> &lt;= <b>K</b>&lt;=<b>1000</b></li>\n<li><b>1</b> &lt;= <b>L</b>&lt;=<b>1000000</b></li>\n<li><b>1</b> &lt;= <b>E</b>&lt;=<b>100000</b></li>\n<li><b>1</b> &lt;= <b>Age of Cousins</b>&lt;=<b>100000</b></li>\n</ul>\n</p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n4 10 2\n2 2 3 1\n4 12 3\n6 5 7 3\n\n<b>Output:</b>\nYES \nNO\n\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "date_added": "30-01-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, PERL, FORT, PRLG, JS, PERL6, SCM chicken",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/HBB",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1455247800,
+        "end_date": 1455377400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1455377400,
+        "submit_start_date": 1455247800,
+        "current": 1537435486
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Chef Palin, as his name suggests, is always very interested in palindromic strings. Recently, he made some interesting discoveries on palindromes. Chef Polo, Palin's friend, likes lucky strings a lot.</p>\n<p>A string <b>S</b> is said to be <b>K-lucky</b> if<br />\nit does not have a non-empty palindromic substring of length more than or equal to <b>K</b> <br/><br />\n<b>For example :</b> string <b>zzyaabb</b> is <b>3-lucky</b> but not <b>2-lucky</b> because it has palindromic substring of length 2 (like zz) while it does not have such substring of length 3.\n</br/></p>\n<p>\nNow Chef Polo has a string <b>S</b> of length <b>N</b>,he asks his friend Palin to find a non-empty <b>K-lucky</b> string <b>P</b> which is lexicographically larger than S and have size equal to <b>S</b> i.e <b>|S|=|P|</b>. If there are more than one such strings then he selects the string which is lexicographically smallest. <br/>But Chef palin is busy and he knows your extra-ordinary programming skills so he wants your help<br/><br />\n<b>Note:</b> Given string <b>S</b> may or may not be <b>K-lucky</b> But string <b>P</b> must be <b>K-lucky</b> </br/></br/></p>\n<h3>Input</h3>\n<p>First line contain an integer <b>K</b>. Next line contain string <b>S</b></p>\n<h3>Output</h3>\n<p>\nsingle line contains string <b>P</b>. if no such string exists output \"<b>NO RESULT</b>\" (quotes for clarity).\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>4*10^5</b></li>\n<li><b>1</b> \u2264 <b>K</b> \u2264 <b>N</b></li>\n<li>The string consists of lowercase English alphabets.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example 1</h3>\n<pre><b>Input:</b>\n3\nzzyzzzz\n<b>Output:</b>\nNO RESULT\n</pre><h3>Example 2</h3>\n<pre>\n<b>Input:</b>\n2\naba\n<b>Output:</b>\nabc\n</pre><h3>Example 3</h3>\n<pre>\n<b>Input:</b>\n3\nzzxzzzz\n<b>Output:</b>\nzzyaabb\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "TechnoSurge 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1361716200,
+        "end_date": 1361730600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1361730600,
+        "submit_start_date": 1361716200,
+        "current": 1537438485
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>kuldeepfouzdar</span>",
+    "problem_name": "Polo and Palin",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kuldeepfouzdar'>kuldeepfouzdar</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kuldeepfouzdar",
+    "contest_code": "TCSG2013",
+    "max_timelimit": "0.5",
+    "problem_code": "LUCKPOLO"
+}

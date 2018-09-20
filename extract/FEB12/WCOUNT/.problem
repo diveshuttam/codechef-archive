@@ -1,0 +1,33 @@
+{
+    "problem_code": "WCOUNT",
+    "problem_author": "yellow_agony",
+    "contest_name": "February 2012 Challenge",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>yellow_agony</span>",
+    "problem_name": "Word Couting",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>anton_lunyov</span>",
+    "contest_code": "FEB12",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/feb12'>feb12</a>, <a class='problem-tag-small ' href='/tags/problems/yellow_agony'>yellow_agony</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Chef has decided to retire and settle near a peaceful beach. He had always been interested in literature & linguistics. Now when he has leisure time, he plans to read a lot of novels and understand structure of languages. Today he has decided to learn a difficult language called Smeagolese. Smeagolese is an exotic  language whose alphabet is lowercase and uppercase roman letters. Also every word on this alphabet is a meaningful word in Smeagolese. Chef, we all know is a fierce learner - he has given himself a tough exercise. He has taken a word and wants to determine all possible anagrams of the word which mean something in Smeagolese.  Can you help him ?\n\n<h3>Input</h3>\n<p> Input begins with a single integer T, denoting the number of test cases. After that T lines follow each containing a single string S - the word chef has chosen. You can assume that 1 <= T <= 500 and 1 <= |S| <= 500. You can also assume that no character repeats more than 10 times in the string. \n\n<h3>Output</h3>\n<p>Output one line per test case - the number of different words that are anagrams of the word that chef has chosen. As answer can get huge, print it modulo 10^9 + 7\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n4\nab\naa\naA\nAAbaz\n\n<b>Output:</b>\n2\n1\n2\n60\n</pre>\n\n<b>Description:</b>\nIn first case \"ab\" & \"ba\" are two different words. In third case, note that A & a are different alphabets and hence \"Aa\" & \"aA\" are different words.",
+    "category_name": "main",
+    "date_added": "17-01-2012",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.53598",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/WCOUNT",
+    "problem_tester": "anton_lunyov",
+    "time": {
+        "view_start_date": 1328088600,
+        "end_date": 1328952600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1328952600,
+        "submit_start_date": 1328088600,
+        "current": 1537439013
+    },
+    "user": {
+        "username": ""
+    }
+}

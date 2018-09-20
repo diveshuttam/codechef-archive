@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>In cryptography, a\u00a0<strong>transposition cipher</strong>\u00a0is a method of encryption by which the positions held by units of plaintext (which are commonly characters or groups of characters) are shifted according to a regular system, so that the\u00a0<strong>ciphertext</strong>\u00a0constitutes a permutation of the plaintext.\n</p>\n<p>In this question, you are given two permutations of numbers from\u00a0<strong>1 to N</strong> namely <strong>A</strong> and <strong>B</strong>. In a single move you permute <strong>A</strong>\u00a0according to the permutation <strong>B</strong><strong>\u00a0i.e.\u00a0</strong><strong>A<sub>i</sub></strong>\u00a0moves to position <strong>B</strong><strong><sub><strong>i</strong></sub><strong> ,</strong></strong>\u00a0for all <strong>i</strong> from <strong>1</strong> to <strong>N</strong>. If the initial permutation is the <strong>A</strong> given in the input,\u00a0find the <strong>minimum</strong> number of times you need to permute <strong>A</strong> such that it becomes same as the initial\u00a0 permutation.\n</p>\n<p>Note:- <strong>A</strong> must be permuted at least once.\n</p>\n<p><strong>INPUT</strong>:\n<br />\nThe first line contains <strong>T</strong>, the number of test cases.\n<br />\nFor Every test case, the first line consists of <strong>N</strong>, the length of <strong>A</strong> and <strong>B</strong>.<br>The second line contains  <strong>N</strong> space-separated integers <strong>(A<sub>1</sub> A<sub>2</sub> A<sub>3</sub> ... A<sub>N</sub>)\u00a0</strong>\u00a0i.e the\u00a0permutation <strong>A</strong>.<br>The third line contains <strong>N</strong> space-separated integers <strong>(B<sub>1</sub>\u00a0B<sub>2</sub>\u00a0B<sub>3</sub> ... B<sub>N</sub>)\u00a0</strong>\u00a0i.e the\u00a0permutation <strong>B</strong>.\n</p>\n<p><strong>OUTPUT</strong>:\n<br />\nFor every test case, output the required answer in the new line.\n</p>\n<p><strong>CONSTRAINTS</strong>:\n<br />\n1 &lt;= <strong>T</strong> &lt;= 100000\n<br />\n1 &lt;= <strong>N</strong> &lt;= 100 <br>\n<strong>1</strong> &lt;= <strong>A<sub> i</sub>, B<sub>i</sub></strong>\u00a0&lt;= <strong>N</strong>\n</p>\n<p><strong>Example</strong>:\n</p>\n<p><strong>INPUT</strong>:\n<br />\n2\n<br />\n3\n<br />\n3 2 1\n<br />\n3 1 2\n<br />\n4\n<br />\n4 2 3 1\n<br />\n1 2 3 4\n</p>\n<p><strong>OUTPUT</strong>:\n<br />\n3\n<br />\n1\n</p>\n<p><strong>Explanation</strong>\n</p>\n<p>For test case 1:\n</p>\n<p>A : 3 2 1 -> 2 1 3 -> 1 3 2 -> 3 2 1\n</p>\n<p>For test case 2:\n</p>\n<p>A: 4 2 3 1 -> 4 2 3 1\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "CodeZilla",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1507374000,
+        "end_date": 1507386600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1507386600,
+        "submit_start_date": 1507374000,
+        "current": 1537433495
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>mohitbindal644</span>",
+    "problem_name": "Transposition Cipher",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/mohitbindal644'>mohitbindal644</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "mohitbindal644",
+    "contest_code": "CZIL2017",
+    "max_timelimit": "1",
+    "problem_code": "CZTC17"
+}

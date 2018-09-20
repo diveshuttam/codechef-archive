@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nSwati has lost her mystic bag which she bought few days back. She suspects someone must have stolen it. Devastated, she decides to visit 221B Baker St. <br>\nWhile explaining her ordeal to Sherlock, she reveals what was so mystical about the bag. And that caught the attention of Mr. Holmes. The bag is so made that you can give voice commands to it.\n<br> \n(Everything is becoming smart these day so here it is folks! The \u201cSmart Bag\u201d).<br><br>\nShe explains, if you want to put anything into it, you simply say <b>\u201cadd n\u201d (Type 1 Command)</b>, if you want to pick out some item you say <b>\u201cremove n\u201d (Type 2 Command)</b>. The thing Swati loves the most about the bag is that it is so magically capable of even finding items in it. All she has to say is <b>\u201cgive n\u201d(Type 3 Command)</b> for any item say n. Sherlock is already trying every known permutation, combination, maths, chemistry, physics everything to figure out if such a bag is even possible. What completely took him off guard is her next description of the voice command <b>\u201cget l r\u201d (Type 4 Command)</b> which basically gets her the sum of all item values falling in the range l to r. She has no clue about what use this command could possibly have but for some reasons, it's there. \n<br>\nNow, hearing out everything, Sherlock is wondering \u201cHow on earth is such a bag even possible!\u201d\n<br><br>\nSherlock needs answers and Swati needs her bag.<br> \nFirst things first, we have to get answers.<br>\nHow is this bag even possible?\n</p>\n\n<h3>Input</h3>\n<p>\nThe first line of the input contains a single integer <b>q</b> denoting the number of voice commands given to the bag.<br> \nThe next q lines contain any of the <b>4 command types in exact format</b> as stated in the problem description with <b>n, l, r being integers</b>.\n<br><br>\nLet s be the result of the previous Type 4 command and let <b>s = 0</b> for all the commands until the 1st Type 4 command.\n<br>\nLet c = 10<sup>9</sup> + 7.\n<br>\nYou have to process the commands for some integer n as <b>(n + s) % c</b>. \nSo Type 1 becomes add <b>(n + s) % c</b>. Similarly for Type 2 and Type 3 commands, process queries as <b>(n + s) % c</b>. \n<br>\nFor Type 4 command, process the command as to get the sum of all values in the bag falling in the range of numbers <b>((l + s) % c, (r + s) % c)</b> with both values inclusive.\n</p>\n\n<h3>Output</h3>\n<p>\nFor each <b>Type 3</b> command, you have to print <b>\u201cYes\u201d</b> or <b>\u201cNo\u201d</b> depending upon whether n is there in the bag or not.\n<br>\nFor all the <b>Type 4</b> command, you have to compute and print the sum of all the values falling in the range. \n</p>\n\n<h3>Constraints</h3>\n<p>\n<b>1</b> \u2264 <b>q</b> \u2264 <b>10<sup>5</sup></b><br>\n<b>0</b> \u2264 <b>n, l, r</b> \u2264 <b>10<sup>9</sup></b><br>\n</p>\n\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n12\nadd 5\nadd 6\nadd 7\nadd 7\ngive 10\ngive 5\nremove 5\ngive 4\nremove 11\ngive 6\nget 5 7\nget 6 7\n\n<b>Output:</b>\nNo\nYes\nNo\nYes\n13\n0\n</pre>\n\n<h3>Explanation</h3>\n<p>\n<b>Example case 1.</b>First three commands add the given numbers to the bag. 4th command attempts to add an already existing element. Such attempts do not alter the contents of the bag. 5th and 6th command find the numbers in the bag. 7th command removed the number 5 from the bag. \n8th and 10th command is to find the number 4 and 6 in the bag.<br>\n9th Command attempts to remove the number 11 from the bag. Attempts to remove the non existing numbers are ignored.<br>\n11th command is the 1st Type 4 command so s is 0.  So at the end of the 11th command, s becomes 13 for the next commands.<br>\nThe 12th Command is the second Type 4 Command, so we take s = 13. It ultimately turns into summing up all the values falling in the range ((6 + 13) % c, (7 + 13) % c) which results into 0.\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Codigo 2017",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1507476600,
+        "end_date": 1507487340,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1507487340,
+        "submit_start_date": 1507476600,
+        "current": 1537433475
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>shvm_7397</span>",
+    "problem_name": "Sherlock S05E01",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shvm_7397'>shvm_7397</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shvm_7397",
+    "contest_code": "CODG2017",
+    "max_timelimit": "1",
+    "problem_code": "CODG1702"
+}

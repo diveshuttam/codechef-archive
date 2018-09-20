@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>CHOCOLATES</b></p>\n<p>\n\tChef and his girlfriend, Chief are playing a game. They got N piles of K chocolates as gifts on their anniversary, and they\u2019re taking turns dividing each pile into smaller units. They can\u2019t divide a single chocolate ie. fractions of chocolates aren\u2019t permitted. The person who is unable to further divide the pile of chocolates further loses. Chief is the first to divide.\n</p>\n<p>\nFor example, if they have 2 piles of 2 and 3 chocolates, <br/><br />\n- Chief divides the 2 chocolates into 1 and 1 <br/><br />\n- Chef divides the 3 chocolates into 1.5 and 1.5 <br/><br />\nChef can\u2019t divide any further, so Chef wins. <br/>\n</br/></br/></br/></br/></p>\n<p>\n\t<b>Input</b><br/><br />\n\tFirst give T - the no. of test cases (1 \u2264 T \u2264 450)<br/><br />\n\tEach case should begin on a new line, with N = no. of piles of chocolates (1 \u2264 N \u2264 7) <br/><br />\n\tOn the same line, mention the no. of chocolates in each pile. Number of chocolates shouldn't exceed 300.\n</br/></br/></br/></p>\n<p>\n\t<b>Output</b><br/><br />\n\tFor each test case, output should be a single line containing the name of the winner of the game, ie. Chef or Chief.\n</br/></p>\n<p>\n\t<b>Sample input</b><br/><br />\n\t1<br/><br />\n\t3 4 5 6 \n</br/></br/></p>\n<p>\n\t<b>Sample Output</b><br/><br />\n\tChief\n</br/></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-08-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWars, Aaruush 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1440937800,
+        "end_date": 1441110600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1441110600,
+        "submit_start_date": 1440937800,
+        "current": 1537436086
+    },
+    "problem_author_html_handle": "aaruush15",
+    "problem_name": "CHOCOLATES",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aaruush15'>aaruush15</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "aaruush15",
+    "contest_code": "CODEWARS",
+    "max_timelimit": "1",
+    "problem_code": "CW006"
+}

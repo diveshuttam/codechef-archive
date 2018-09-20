@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Our Chef is doing what he is best at, COOKING A BARBECUE for his guests. He has invited all of us, and taking the help of his apprentice to smoke the barbecues. The chef has got BBQ sticks, each can take <b>N</b> fillings, and he presents <b>N</b> distinctly filled sticks in front his guests forming a <b>N*N</b>  matrix\n<p>\nBut here is the problem, he has got only two type of fillings, meat and capsicum, but still wants the <b>N</b>  sticks to look <i>\"presentable\"</i>, he is very particular about it. As a solution he fills the main diagonal of the <b>N*N</b>  matrix with the same type of filling (either meat or capsicum) forming a <i>\"presentable\"</i> set\n<p>\nThe Chef's apprentice is a fool, so the Chef asks him to cook <b>M</b> distinctly filled sticks ,so that the Chef is sure that among <b>M</b> there exist <b>N</b> sticks forming a <i>\"presentable\"</i> set. Your job is to determine smallest possible value of <b>M</b>.\n\n\n<h3>Input</h3>\n<p><b>T</b>, the number of test cases, followed by <b>T</b> lines. <p>Each line containing the positive integer <b>N</b> >= 4\n\n<h3>Output</h3>\n<p><b>T</b> lines of output, each line contain the positive integer <b>M</b>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n4\n\n<b>Output:</b>\n5\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "ALGOTHIKA 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1331113709,
+        "end_date": 1331958600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1331958600,
+        "submit_start_date": 1331113709,
+        "current": 1537438874
+    },
+    "problem_author_html_handle": "s4p3r_c1n0s",
+    "problem_name": "Barbeque sticks (SET II)",
+    "source_sizelimit": "5000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/s4p3r_c1n0s'>s4p3r_c1n0s</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "s4p3r_c1n0s",
+    "contest_code": "AGTK2012",
+    "max_timelimit": "0.1",
+    "problem_code": "ALGBBQ"
+}

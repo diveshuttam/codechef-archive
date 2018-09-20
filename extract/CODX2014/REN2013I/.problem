@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Bob was walking down the street all alone one day thinking of what to do. While walking he found a couple of sticks of different lengths lying on the road. He picked them up and devised a game that could be played with them.</p>\n<p>\nHe glued magnets on to both ends of all the sticks so that he could easily join any two sticks. In this way he could form many triangles. Now the game he made was to use all or some of these magnetic sticks to form triangles. The winner of the game was the one who could form triangles such that the sum of the area of all triangles formed was larger.</p>\n<p>\nSo now he called up Alice and asked her to play this game with him. They both select some sticks and a make triangles out of them and then the one to make triangles such that total area of those triangles is larger wins.</p>\n<p>\nAs usual Alice goes first. In her turn she doesn't actually show all the triangles to Bob, rather she just tells him the total area of the triangles formed. Bob is aware of the fact that Alice might cheat or not play properly so if he sees that it is not possible to make triangles such that the sum of the area amounts to what Alice said then he openly declares that it's not possible , otherwise Bob plays his turn.</p>\n<p>\nAlice plays optimally, in the sense that if she declares her total area then for at least one possible subset of the given set of stick lengths , the maximum area possible using the sticks in that subset is the area declared by Alice. If the area declared by Alice is not exactly equal to the maximum area of any subset of the set of stick lengths then Bob considers it to be not possible.</p>\n<p>\nBob plays optimally, in the sense that the area he declares will be the maximum possible area for the given set of stick lengths ( because he had a lot of time for testing all possible set selections while Alice was coming to his house ).<br />\nTherefore the game can end only in a DRAW,BOB WINS or AREA NOT POSSIBLE verdict (poor Alice :( ).</p>\n<p>\nSo given the stick lengths and the area declared by Alice, you have to predict the verdict of the game.</p>\n<h3>Input</h3>\n<p>The input will start with a single line containing the number of sticks in the set ( 1&lt;=N&lt;=16 ).</p>\n<p>\nThe next N lines contain a single integer. The i<sup>th</sup> of these lines contains L<sub>i</sub> (1&lt;=L<sub>i</sub> &lt;=100) the length of the i<sup>th</sup>.</p>\n\n<p>The last line contains a single real number A (1&lt;=A&lt;=10000000).</p>\n<h3>Output</h3>\n<p>The first line of the output should consist of the verdict of the game. If the game ends in a draw print \"DRAW\" , if bob wins print \"BOB WINS\", if Alice's area is not proper as per Bob then print \"AREA NOT POSSIBLE\" (all of which will be without quotes).</p>\n<p>\nAdditionally, if Bob wins print in the next line the area declared by Bob. Errors in the answer less than 10<sup>-6</sup> are neglected.</p>\n<h3>Example</h3>\n<pre><b>Input 1:</b>\n7\n3\n4\n5\n6\n7\n8\n9\n6\n\n<b>Output 1:</b>\n\nBOB WINS\n36.754383\n\n\n<b>Input 2:</b>\n\n7\n3\n4\n5\n6\n7\n8\n9\n21.630119\n\n<b>Output 2:</b>\n\nAREA NOT POSSIBLE\n</pre>\n<h3>Explanation</h3>\n<p><b>Example case 1</b><br />\nAlice's area is valid as it is the maximum sum of area of triangles formed by picking sticks of length 3,4 and 5.But Bob wins as overall maximum is more than Alice's area.\n</p>\n<p><b>Example case 2</b><br />\nAlice's area can be made using stick lengths 4,5 and 7 as one triangle and 3,8 and 9 as another triangle but using the set 4,5,7,3,8,and 9 the maximum area that can be made is 32.832816 which means Alice did not play optimally hence This area is not possible.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-01-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeX 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1390570200,
+        "end_date": 1390656600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1390656600,
+        "submit_start_date": 1390570200,
+        "current": 1537437902
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>amitrc17</span>",
+    "problem_name": "Game Of Sticks",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/amitrc17'>amitrc17</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "amitrc17",
+    "contest_code": "CODX2014",
+    "max_timelimit": "0.155446 - 0.310891",
+    "problem_code": "REN2013I"
+}

@@ -1,0 +1,87 @@
+{
+    "announcements": "<h3>NOTE</h3>\r\n<p><b>The contest will be unrated.</b>. This has been decided after considering all possibilities of resolving the issue of how to reduce to impact on ratings due to the selection of CHNGFUNC's judge as IOI judge, which allowed brute force solutions to pass the full solution. There were quite a possible options of making the contest rated, notably the following two.\r\n<ul>\r\n<li>Making the contest rated as it is</li>\r\n<li>Making the contest rated with considering the brute force solutions to be seen as passed,\r\n and consider them failed and taking the maximum rating change in both of these cases. The rating changes in both the cases had a lot of difference for many participants. This volatility in the rating changes forced us to not use option.</li>\r\n</ul>\r\n</p>\r\n\r\n<p>After obtaining the data for these situations, we notice that none of the methods would be fair to people specifically around 160 people that were affected. Hence, we have decided to make this contest unrated.</p>\r\n\r\n\r\n<p>In CHNGSEQ, \"Find out how many sequences of non-negative integers exist\" has been changed to \"Find out how many sequences of non-negative integers of length <b>N</b> exist\".</p>\r\n<p>In problem CHNGSEQ, there was an issue with sample input. Please note that the value of parameter <b>C</b> in the second example is 2. It was 1 earlier, its changed now.</p>",
+    "ip": "149.129.135.113",
+    "code": "COOK84",
+    "duration": "150",
+    "name": "July Cook-Off 2017",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p class=\"last\">New users are requested to go through the below information to know more about the contest.</p>\r\n<h4>CodeChef: A Platform for Aspiring Programmers</h4>\r\n<p class=\"last\">CodeChef was created as a platform to help programmers make it big in the world of algorithms, computer programming and programming contests. At CodeChef, we work hard to revive the geek in you by hosting a programming contest at the start of the month and another smaller programming challenge in the middle of the month.</p>\r\n<h4>About CodeChef July Cook-Off:</h4>\r\n<p class=\"last\">CodeChef Cook-Off is a two hand half hour coding contest where you can show off your computer programming skills.</p>\r\n<h4>Contest Details:</h4>\r\n<ul class=\"last\">\r\n<li><b>Duration: </b> 2.5 hours</li>\r\n<li><b>Start Date: </b> Sunday, 23th July, 2017 at 21:30 HRS (IST)</li>\r\n<li><b>End Date: </b> Sunday, 24th July,\u00a02017 at 00:00 HRS (IST)</li>\r\n<li>Check your timezone <a target=\"_blank\" href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=July+Cook-off+2017&amp;iso=20170723T2130&amp;p1=44&amp;ah=2&amp;am=30\">here</a>. </li>\r\n</ul>\r\n<h4>Eligibility Criteria: Anyone with a knack for Programming :P</h4>\r\n<p class=\"last\">Our contests are open to all the programmers across the globe.</p>\r\n<h4>What's in it for you?</h4>\r\n<p>The idea behind these programming contests is that we want you to learn while competing. Also we believe that it is alright to refer to tutorials, books and other materials, learn a concept and then apply the same to solve a problem during a contest. But it is <b>not alright to copy other people's solutions or seek other people's help to solve a problem without understanding it.</b> The dividing line may seem to be thin but it can be captured by the spirit of learning. If whatever you are doing is making you learn while you do so, we tend to believe that it is alright. However, all the participants are expected to abide to <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" class=\"button blue\">CodeChef Code Of Conduct</a></p>\r\n<p>Not just that, as a token of motivation we also give away goodies to the winners of the contest.</p>\r\n<p><b>For Indians:</b></p>\r\n<ul>\r\n<li>Top 10 from ranklist will get CodeChef laddus</li>\r\n</ul>\r\n<p><b>For Rest of World:</b></p>\r\n<ul>\r\n<li>Top 10 from ranklist will get CodeChef laddus</li>\r\n</ul>\r\n<p class=\"last\">With CodeChef laddus, the winners can claim cool CodeChef goodies. Know more here: <a target=\"_blank\" href=\"/laddu\">https://www.codechef.com/laddu</a>. However, our sole intention lies in making our users learn new concepts while competing.</p>\r\n<h4>What\u2019s new in CodeChef?</h4>\r\n<p class=\"last\">You may now play with our new <a href=\"http://blog.codechef.com/2015/02/04/play-more-in-discuss-with-groups-latex/\">groups &amp; LaTex feature</a> on discuss.</p>\r\n<h3>Rules and Regulations:</h3>\r\n<ul>\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com </a>.</li>\r\n<li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li>\r\n<li>You can also send in your queries in an email to contest- admin@codechef.com, during the contest.</li>\r\n<li><b>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</b></li>\r\n<li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li>\r\n<li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li>\r\n<li>You shall not possess more than one account on CodeChef. If you have, then do let us know, so that we can deactivate the insignificant one. If you do not report it and we come to know about it, we may deactivate both the accounts permanently.</li>\r\n<li>If anyone is using code from some other source in his submission, he should provide proper attribution. Failing this, it may be considered plagiarism and the submission will be subject to disqualification.</li>\r\n<li>The number of submissions that one can make during the contest on the problem will be limited to 200 for Tie breaker problem and 500 for rest.</li>\r\n</ul>\r\n<p><b>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"/ide\">Online IDE</a>.</b></p>\r\n<p>However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COOK84/1500816463.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CHNGFUNC": {
+            "allow_submission": false,
+            "name": "Chang and the Perfect Function",
+            "category_name": "main",
+            "accuracy": 24.45,
+            "successful_submissions": "1262",
+            "code": "CHNGFUNC",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHNGSUM": {
+            "allow_submission": false,
+            "name": "Chang and Perfect Quadruples",
+            "category_name": "main",
+            "accuracy": 17.02,
+            "successful_submissions": "174",
+            "code": "CHNGSUM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHNGSEQ": {
+            "allow_submission": false,
+            "name": "Chang and Beautiful Sequences",
+            "category_name": "main",
+            "accuracy": 41.46,
+            "successful_submissions": "17",
+            "code": "CHNGSEQ",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHNGOR": {
+            "allow_submission": false,
+            "name": "Chang and Bitwise OR",
+            "category_name": "main",
+            "accuracy": 46.92,
+            "successful_submissions": "1668",
+            "code": "CHNGOR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BIPARTRE": {
+            "allow_submission": false,
+            "name": "Bipartite Graph from Trees",
+            "category_name": "main",
+            "accuracy": 30.24,
+            "successful_submissions": "62",
+            "code": "BIPARTRE",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1500834600,
+        "current": 1537433710,
+        "freezing": 0,
+        "start": 1500825600
+    },
+    "user": {
+        "username": ""
+    }
+}

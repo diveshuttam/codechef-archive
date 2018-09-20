@@ -1,0 +1,31 @@
+{
+    "status": "success",
+    "problem_tester": null,
+    "body": "<h2>Zonal Computing Olympiad 2012, 26 Nov 2011</h2>\n\n<br>\n<p> It's dinner time in Castle Camelot, and the fearsome Knights of the Round Table are clamouring for dessert. You, the chef, are in a soup.  There are <em>N</em> knights, including King Arthur, each with a different preference for dessert, but you cannot afford to make desserts for all of them.</p>\n\n<br>\n<p>You are given the cost of manufacturing each Knight's preferred dessert\u2013since it is a round table, the list starts with the cost of King Arthur's dessert, and goes counter-clockwise.</p>\n\n<br>\n<p>You decide to pick the cheapest desserts to make, such that for every pair of adjacent Knights, at least one gets his dessert. This will ensure that the Knights do not protest.</p>\n\n&lt;!--<p>A strange feature of the Knights is that they will not complain about not getting dessert unless they get support from both their neighbours.  So, you decide to pick the cheapest desserts to make, such that for every pair of adjacent Knights, at least one gets his dessert.</p>--&gt;\n\n<br>\n<p>What is the minimum cost of tonight's dinner, given this condition?</p>\n\n<br>\n<p>For instance, suppose there are 5 Knights and their desserts cost 1, 2, 1, 2 and 2.  In this case, the minimum cost is 4, which you can achieve by feeding the first, third and fourth (or fifth) Knights.  </p>\n\n\n<br>\n<h3>Input format</h3>\n\n<p>There are 2 lines of input.  The first line contains a single integer <em>N</em>, the number of seats at the table. The next line contains <em>N</em> space separated integers, each being the cost of the dessert of a Knight, listed in counterclockwise order around the table, starting with King Arthur.</p>\n\n<br>\n<h3>Output format</h3>\n\n<p>The output should be a single line containing a single integer, the minimum possible cost for you, the chef.</p>\n\n\n<br>\n<h3>Testdata</h3>\n\n<p>Each Knight's dessert costs strictly more than 0 and strictly less than 1000.  You may assume that 1\u00a0\u2264\u00a0<em>N</em>\u00a0\u2264\u00a010<sup>6</sup>.  In 30% of the test cases, 1\u00a0\u2264\u00a0<em>N</em>\u00a0\u2264\u00a010<sup>3</sup>.\n\n<br>\n<ul>\n<li><b>Subtask 1 (30 marks)</b></li>\n<li><b>Subtask 2 (70 marks)</b></li>\n</ul>\n</p>\n\n<br>\n<h3>Sample Input</h3>\n\n<pre>\n5\n1 2 1 2 2\n</pre>\n\n<br>\n<h3>Sample Output</h3>\n\n<pre>\n4\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-11-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ZCO Practice Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1446661800,
+        "end_date": 1578162600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1578162600,
+        "submit_start_date": 1446661800,
+        "current": 1537431955
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Round Table",
+    "source_sizelimit": "50000",
+    "problem_status": "unattempted",
+    "problem_tester_html_handle": null,
+    "problem_author": "admin3",
+    "contest_code": "ZCOPRAC",
+    "max_timelimit": "1",
+    "problem_code": "ZCO12004"
+}

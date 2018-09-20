@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p><b>Problem description.</b></p>\n<p>\u00a0Sadiq  had planned to go on a date with his girl friend.   He is also a gaming freak so he forgot about his date timings .Now, his girl friend is waiting for him and will be very angry if he doesn\u2019t reach on time. There is timer which shows how much time he has got. As soon as the timer shows  0 , his girlfriend will go back to her hostel  and Sadiq will miss his date. Also, there are<b> n</b> clock stations, station number <b>i </b>is located at point <b>(xi,yi) </b>on the plane. As he reaches the station <b>i</b>, he can increase the time on his timer by<b> ai</b> . But the stations are for one time use only, so if he visits some station another time ,the time won\u2019t grow up.</p>\n<p>\nSadiq spends <b>d.dist </b>  time units to move between stations, where dist is the distance the player has covered and <b>d </b> is some constant. The distance between station i and station j is determined as <b><br />\n |xi-xj|+|yi-yj|. </b></p>\n<p>\nInitially, sadiq is at station 1 and he has strictly more than zero and less than one unit time. Though at station 1, one unit of money can increase the time on the timer by one unit time.<b> (Only integer units of time can be bought.)</b><br />\nNow Sadiq needs your help. He wants to know the minimum amount of money he needs to get to station<b> n </b>where his girlfriend is waiting.\n</p>\n<h3>Input</h3>\n<p>Input description.</p>\n<p>The first line contains integer n and d <b>(3&lt;=n&lt;=100,1000&lt;=d&lt;=100000) </b>denoting the number of stations and the constant from the statement .<br />\nThe second line contains n-2 integers: <b> a2, a3,\u2026 an-1 (1&lt;=ai&lt;=1000).</b><br />\nThe next n lines contain the coordinates of the stations .The ith line contains two integers xi and yi<br />\n<b><br />\n(-100&lt;=xi,yi&lt;=100).</b><br />\n\u00a0</p>\n<h3>Output</h3>\n<p>\nOutput the minimum amount of money in a single line.</p>\n<h3>Example</h3>\n<pre><b>Input:\n3 1000\n1000\n0 0\n0 1\n0 3\n</b>\n\n<b>Output:\n2000\n</b>\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> He will buy 2000 units of time on station1. He can't move to station 3 directly as it would cost him 3000 units of time which is more than what he has.</p>\n<p>So he goes to station 2 which costs him 1000 units of time from staiton1.At station 2 he earns 1000 units of time totalling his time to 3000 units which is sufficient to go from station 2 to station 3. </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-01-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Code Currents 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1422694800,
+        "end_date": 1422703800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1422703800,
+        "submit_start_date": 1422694800,
+        "current": 1537436882
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>varunsekar94</span>",
+    "problem_name": "Sadiq On a Date",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/varunsekar94'>varunsekar94</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "varunsekar94",
+    "contest_code": "CDCR2015",
+    "max_timelimit": "1",
+    "problem_code": "CDCR15_5"
+}

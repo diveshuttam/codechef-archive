@@ -1,0 +1,33 @@
+{
+    "problem_code": "NPLELE",
+    "problem_author": "npl_nitw",
+    "contest_name": "NPL Elimination Round",
+    "todo": false,
+    "problem_author_html_handle": "npl_nitw",
+    "problem_name": "Bob and his problem",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "NPLQ1601",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/graphs'>graphs</a>, <a class='problem-tag-small ' href='/tags/problems/lazy'>lazy</a>, <a class='problem-tag-small ' href='/tags/problems/npl_nitw'>npl_nitw</a>, <a class='problem-tag-small ' href='/tags/problems/nplq1601'>nplq1601</a>, <a class='problem-tag-small ' href='/tags/problems/or'>or</a>, <a class='problem-tag-small ' href='/tags/problems/propagation'>propagation</a>, <a class='problem-tag-small ' href='/tags/problems/segment'>segment</a>, <a class='problem-tag-small ' href='/tags/problems/tree'>tree</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nBob likes trees and XOR (Exclusive OR) very much. So he created a tree with each edge having a weight associated with it.<br>\nOne day his friend Alice came to his house, after playing video games for some time they got bored and decided to play something else. Bob showed the tree to Alice and told her that given any 2 vertices in the tree he can tell the XOR of all the weights on the unique path joining these 2 vertices. <br>\nAlice thought it was a little easy and wanted to twist this a little bit. Now she proposed a different version involving <b>q</b> queries:\n\n<ul>\n<li>Each query can be of 2 types.</li>\n<li><b>1 x y</b> change the weight of x<sup>th</sup> edge to y.</li>\n<li><b>2 u v</b> find the xor of the weights on the path joining vertices <b>u and v</b>.</li>\n</ul>\n\nCan you help Bob solve this problem? For every query of <b>2<sup>nd</sup></b> type output the XOR value.\n</p>\n\n<h3>Input</h3>\n<p>\nFirst line will contain <b>n</b> the number of vertices in tree.<br>\nNext n-1 lines contain description of the edges in the form <b>u<sub>i</sub> v<sub>i</sub> w<sub>i</sub></b> denoting an edge between <b>u<sub>i</sub> and v<sub>i</sub></b> with the weight <b>w<sub>i</sub></b>.<br>\nNext line contains <b>q</b> denoting number of queries.<br>\nNext <b>q</b> lines contains queries as mentioned above.\n</p>\n\n<h3>Output</h3>\n<p>For each query of <b>2<sup>nd</sup></b> type output the <b>XOR</b> of the weights on the path from vertex <b>u to v</b>.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> <= <b>n</b> <= <b>10<sup>5</sup></b></li>\n<li><b>1</b> <= <b>u<sub>i</sub>,v<sub>i</sub></b> <= <b>n</b></li>\n<li><b>1</b> <= <b>w<sub>i</sub></b> <= <b>10<sup>9</sup></b></li>\n<li><b>1 <= q <= 10<sup>5</sup></b></li>\n<li><b>1 <= x <= n-1</b></li>\n<li><b>1 <= y <= 10<sup>9</sup></b></li>\n<li><b>1 <= u,v <= n</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n1 2 5\n1 3 4\n2 4 6\n4 5 7\n5\n1 1 4\n2 2 5\n2 3 4\n1 4 9\n2 1 5\n\n\n<b>Output:</b>\n1\n6\n11\n\n",
+    "category_name": "main",
+    "date_added": "10-10-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/NPLELE",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1476793800,
+        "end_date": 1476802800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1476802800,
+        "submit_start_date": 1476793800,
+        "current": 1537434466
+    },
+    "user": {
+        "username": ""
+    }
+}

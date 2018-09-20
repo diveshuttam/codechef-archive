@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Aniket loves strings and hence he keeps expanding his collection of strings. Harsh came up with an idea to tease Aniket. Harsh can ask Aniket to do one of the following operations to his collection of strings (Initially he has an empty collection).\n<ul>\n<li><b>Add: </b> Add a given string to the collection. </li>\n<li><b>Ask: </b> Ask if there exists a group of <b> k </b> strings such that they have a common suffix of length <b> l </b>.</li>\n<li><b>Remove<sub>i</sub>: </b> Remove the string that was added in the i<sup>th</sup> operation (if the string is not already removed). It is guaranteed that i<sup>th</sup> operation was an Add operation.\n</ul>\n<br>\n</p>\n\nAniket is tired of the mid-sem exams he has just had. Can you help him do all these operations and find the answers of all Ask operations.\n\n<h3>Input</h3>\n<p>First line of input contains an integer <b>q</b> denoting the total number of operations Harsh does. q lines follow in the following format.\n<ul>\n<li><b> 1 s </b> Add the string s(all lowercase characters) to Aniket's collection of strings.</li>\n<li><b> 2 k l </b> Ask if there exists a group of k strings such that they have a common suffix of length l.</li>\n<li><b> 3 x</b> Remove the string added in the x<sup>th</sup> operation (if not already removed).</li>\n<br>\n<p>\n\n<h3>Output</h3>\n<p>Print the answer to all the Ask operations in different lines. Print <b>\"YES\"</b> if it exists else print <b>\"NO\"</b>.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1 \u2264 q \u2264 10<sup>5</sup></b></li>\n<li><b>1 \u2264 |s| (sum of lengths of all strings added to the collection) \u2264 10<sup>5</sup></b></li>\n<li><b>1 \u2264 k,l \u2264 10<sup>5</sup></b></li>\n<li><b>1 \u2264 x \u2264 number of operations done yet</b></li>\n</ul>\n\n<h3>Example</h3>\n\n<pre><b>Input 1:</b>\n9\n1 aba\n1 accba\n2 2 2\n2 2 3\n1 aaaa\n1 ababa\n2 3 2\n3 1\n2 3 2\n\n\n<b>Output 1:</b>\nYES\nNO\nYES\nNO\n\n</pre>\n\n<br>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-10-2016",
+    "is_direct_submittable": false,
+    "contest_name": "NPL Final Round ",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1477038600,
+        "end_date": 1477047600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1477047600,
+        "submit_start_date": 1477038600,
+        "current": 1537434458
+    },
+    "problem_author_html_handle": "npl_nitw",
+    "problem_name": "Query On Strings",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/npl_nitw'>npl_nitw</a>, <a class='problem-tag-small ' href='/tags/problems/nplq1601'>nplq1601</a>, <a class='problem-tag-small ' href='/tags/problems/strings'>strings</a>, <a class='problem-tag-small ' href='/tags/problems/trie'>trie</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "npl_nitw",
+    "contest_code": "NPLQ1602",
+    "max_timelimit": "1",
+    "problem_code": "NPLFLF"
+}

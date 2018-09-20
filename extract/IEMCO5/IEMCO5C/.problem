@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Description</h3>\n<br><br>\n<p>\n\t<b>Shubham</b> has a garden with <b>N</b> segments of plants arranged linearly. In each individual segment, the height of plants is in <i>increasing</i> order from left to right.\n\t<br><br>\n\tThe height of the first and last plants of ith segment are L[i] and R[i]. and the height of plants in the segment <b>increases linearly by a constant k</b>, i.e., height of plants in ith segment will be L[i], L[i]+k, L[i]+2*k, L[i]+3*k........R[i].\n\t<br><br>\n\tHe has <b>Q</b> queries. For ith, query he has an integer <b>p[i]</b> and he is trying to find the height of the <b>p[i]th</b> smallest plant in the garden. After all the queries, he will find the average of these heights (results of all the queries). Help him find this average in the form x / y where gcd of x and y is 1 i.e <b>fraction x/y is in lowest form.</b>\n\t<br><br>\n\t<b><i>Note: The heights of plants in segments are such that: For ith and jth segments if i > j then L[i] > R[j].</i></b>\n</p>\n\n\n<h3>Input</h3>\n<ul>\n<li>First line contains <b>N</b> (Number of segments), <b>Q</b> (Number of Queries), <b>K</b> (constant by which height is increasing in each segment respectively).</li>\n<li>Next <b>N</b> lines contain two space separated integers <b>L[i], R[i]</b> the starting height and end height of ith segment of plants.</li>\n<li>Next <b>Q</b> lines contain a integer <b>p[i]</b> for each query.</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p></p>\n<ul>\n<li>Output the average height across all queries in the form of x/y in lowest form.</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<p></p>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>L[i], R[i]</b> \u2264 <b>10^18</b></li>\n<li><b>1</b> \u2264 <b>p[i]</b> \u2264 <b>10^18</b>, for each query</li>\n<li><b>1</b> \u2264 <b>K</b> \u2264 <b>10</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n\n3 3 3\n1 10\n11 20\n21 30\n5\n7\n9\n\n<b>Output:</b>\n\n49/3\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>\n\tThe height of plants in the garden are: [1, 4, 7, 10, 11, 14, 17, 20, 21, 24, 27, 30]\n\tWe need the average of heights of 5th, 7th, 9th smallest plants which have heights 11, 17, 21 respectively \n\tTheir average height expressed in the form x/y where gcd(x, y) = 1 is 49/3\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "IEM Coding Olympiad (IEMCO)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1524321000,
+        "end_date": 1524331800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1524331800,
+        "submit_start_date": 1524321000,
+        "current": 1537432545
+    },
+    "problem_author_html_handle": "tkh_iem",
+    "problem_name": "Shubham and His Garden",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/tkh_iem'>tkh_iem</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "tkh_iem",
+    "contest_code": "IEMCO5",
+    "max_timelimit": "1",
+    "problem_code": "IEMCO5C"
+}

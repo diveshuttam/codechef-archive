@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nWe all have played a game called FLAMES during our childhood. In this we take input as two names, eliminate the similar alphabets in both the words and count the remaining number of alphabets and calculate the corresponding relationship according to FLAMES(Friend, Love, Affection, Marriage, Enemy or Sister)\n<h3>Input</h3>\n</p><p>Input description...\nName of you and your partner\n<h3>Output</h3>\n\n</p><p>Output description...\nCount the number of remaining dissimilar alphabets and according to flame find the corresponding relationship\nF- FRIEND\nL- LOVE\nA-AFFECTION\nM- MARRIAGE\nE - ENEMY\nS- SISTER\n<h3>Example</h3>\n\n\n<pre>\n<b>Input:</b>\nRAHUL\nPREETI\n\n<b>Output:</b>\nE- ENEMY\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "31-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "EMA 2010",
+    "languages_supported": "C, JAVA, CS2, PAS fpc, PAS gpc, NICE",
+    "todo": false,
+    "time": {
+        "view_start_date": 1270146600,
+        "end_date": 1270287000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180187,
+        "submit_start_date": 1270146600,
+        "current": 1537439609
+    },
+    "problem_author_html_handle": "rajneeshrana",
+    "problem_name": "Flames",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rajneeshrana'>rajneeshrana</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rajneeshrana",
+    "contest_code": "EMA2010",
+    "max_timelimit": "1",
+    "problem_code": "EMA09"
+}

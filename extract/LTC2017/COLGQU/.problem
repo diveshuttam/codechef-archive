@@ -1,0 +1,33 @@
+{
+    "problem_code": "COLGQU",
+    "problem_author": "bigo_admin",
+    "contest_name": "BigO v-3.0",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>bigo_admin</span>",
+    "problem_name": "Streets Of VSSUT",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "LTC2017",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bigo_admin'>bigo_admin</a>, <a class='problem-tag-small ' href='/tags/problems/dfs'>dfs</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/union-find'>union-find</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nThere are <b>N</b> departments and <b>M</b> roads in <b>VSSUT, Burla</b>. Each road has an <b>ID</b> associated with it. You are to process the following queries:-<br>\nIn the <b>i<sup>th</sup></b> query you are given two numbers <b>u<sub>i</sub></b> and <b>v<sub>i</sub></b> .\nFind the number of distinct <b>IDs</b> that satisfy the following condition: the roads of that <b>ID</b> connect vertex <b>u<sub>i</sub></b> and <b>v<sub>i</sub></b> either <b>directly or indirectly</b>.\n</p>\n<h3>Input</h3>\n<p>The first line of the input contains two space-separated integers <b>n</b> and <b>m</b> (2\u2009\u2264\u2009n\u2009\u2264\u2009100,\u20091\u2009\u2264\u2009m\u2009\u2264\u2009100)</b>, denoting the number of the departments and the number of the roads, respectively.<br></p>\n<p>The next <b>m</b> lines contain three space-separated  integers <b>a<sub>i</sub>, b<sub>i</sub> (1\u2009\u2264\u2009a<sub>i</sub>\u2009&lt;\u2009b<sub>i</sub>\u2009\u2264\u2009n) and c<sub>i</sub> (1\u2009\u2264\u2009c<sub>i</sub>\u2009\u2264\u2009m)</b>, <b> where <b>a<sub>i</sub> is the source node, b<sub>i</sub> is the destination node and c<sub>i</sub></b> is the <b>ID</b></b>. Note that there can be multiple roads between two departments. However, there are no multiple roads of the same id between two departments, that is, if <b>i\u2009\u2260\u2009j, (a<sub>i</sub>,\u2009b<sub>i</sub>,\u2009c<sub>i</sub>)\u2009\u2260\u2009(a<sub>j</sub>,\u2009b<sub>j</sub>,\u2009c<sub>j</sub>)</b>.<br></p>\n<p>The next line contains an integer <b>q (1\u2009\u2264\u2009q\u2009\u2264\u2009100)</b>, denoting the number of the queries.</p>\n<p>Then follows <b>q</b> lines, containing two space-separated integers <b>u<sub>i</sub> and v<sub>i</sub> (1\u2009\u2264\u2009u<sub>i</sub>,\u2009v<sub>i</sub>\u2009\u2264\u2009n)</b>. It is guaranteed that <b>u<sub>i</sub>\u2009\u2260\u2009v<sub>i</sub></b>.</p>\n<h3>Output</h3>\nFor each query, print the answer in a separate line.\n<p>\n<h3>Examples</h3>\n<b>Input</b><br>\n8 9<br>\n2 8 6<br>\n5 5 1<br>\n4 1 3<br>\n6 7 6<br>\n6 6 5<br>\n4 3 6<br>\n1 7 4<br>\n1 5 3<br>\n5 7 6<br>\n2<br>\n5 8<br>\n5 7<br><br>\n<b>Output</b><br>\n0<br>\n1<br><br>\n<b>Input</b><br>\n7 8<br>\n7 1 4<br>\n5 3 5<br>\n2 4 6<br>\n5 6 7<br>\n3 1 7<br>\n1 3 1<br>\n3 5 3<br>\n1 4 3<br>\n2<br>\n1 7<br>\n1 3<br><br>\n<b>Output</b><br>\n1<br>\n2<br><br>\n<b>Explanation</b><br>\nCase 1\n<br>Query 1: There is no path connecting 5 to 8 with all the edges of same ID. So, the answer is 0.<br>\nQuery 2: There is a path connecting 5 to 7 with the ID 6. So, the answer is 1.<br>",
+    "category_name": "main",
+    "date_added": "11-01-2017",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/COLGQU",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1484312400,
+        "end_date": 1484323200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1484323200,
+        "submit_start_date": 1484312400,
+        "current": 1537434233
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">There was a guy named <b>Ankit</b>. He was a smart guy. Why wouldn't he be? After all he had encyclopedic memory. But sadly, he lost his childhood  to evil witch<b> Zoombie.</b> And now, he was unbearable..</p>\n<p align=\"justify\">Luckily he had a friend,<b> Suresh.</b> According to legends, he knew the solution to Ankit\u2019s problem. He knew where the chest containing Ankit's chidhood is. He also had a scroll where he had list of locations all the N memories of Ankit. Each memory would give a bit about the key needed to unlock the chest. And he knew that to get the key, he would need to multiply the order in which he visited the locations with their actual position in the scroll and sum them all. i.e Lets say a memory was located at index b>y </b> in scroll, but in his actual order of visiting, it occurred at index<b> x</b>, so<b> key += x*y.</b> But, co-ordinates were really complex and big. He somehow deciphered them to numbers, but how he achieved the goal is still a mystery.\u00a0</p>\n<p align=\"justify\">Historians say that if we assume Suresh was at point 0, and all the points were lying on positive x coordinate, he would have solved the problem if he covered them all in smallest time possible. Assuming he takes <b>1 unit</b> of time to cover<b> 1 </b>unit of distance, you have to print the order in which he would have visited the co-ordinates so that it took him smallest time possible. Assume that as soon as he visits the last memory, zombie containing childhood would appear there itself. Also, print the value of the key needed to unlock the zoombie.</p>\n\n<h3>Input</h3>\n<ul>\n<li type=\"desc\"> The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.\"</li>\n<li> The first line of each test case contains a single integer <b>N</b> denoting the size of the array. The second line contains <b>N</b> space-separated integers <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b> denoting the elements of array </li>\n</ul>\n<p><b>NOTE:- </b>element counting start at position 1 and so on..</p>\n<h3>Output</h3>\n<ul type=\"desc\">\n<li >Output contains two lines. The first line contains array elements and the second line contains a single integer denoting the key value..</li>\n</ul>\n<h3>Constraints</h3>\n<ul type=\"desc\">\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>A<sub>i</sub></b> \u2264 <b>10<sup>30</sup></b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n4\n10 30 40 20\n<b>Output:</b>\n10 20 30 40\n27\n</pre>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b>Key value: 1*1 + 2*4 + 3*2 + 4*3 = 27</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-03-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Codiyapa",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1489829400,
+        "end_date": 1489915800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1489915800,
+        "submit_start_date": 1489829400,
+        "current": 1537434008
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>rohit74</span>",
+    "problem_name": "Ankit Childhood",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rohit74'>rohit74</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rohit74",
+    "contest_code": "PRCD1701",
+    "max_timelimit": "1",
+    "problem_code": "CODA2017"
+}

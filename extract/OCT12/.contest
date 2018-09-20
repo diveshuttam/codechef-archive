@@ -1,0 +1,137 @@
+{
+    "announcements": "<p><b>11/10/2012, 13:27 IST: </b>The tenth problem\u00c2\u00a0<a target=\"_blank\" href=\"/OCT12/problems/MAXCIR/\">MAXCIR</a> has been added to the contest. The issue has been resolved. All problems are there on the contest page. Please <a target=\"_blank\" href=\"mailto:feedback@codechef.com\">let us know</a>, if you face any issues. We regret the inconvenience caused.</p>\r\n<p><b>11/10/2012, 10:47 IST: </b>The problem\u00c2\u00a0<a target=\"_blank\" href=\"/OCT12/problems/CIELHACK/\">CIELHACK</a> is not appearing on the main contest page. However you can submit the solution for the same. We are fixing this issue. Regret the inconvenience caused.</p>\r\n<p><b>10/10/2012, 08:57 IST: </b>The statement of the problem\u00c2\u00a0<a target=\"_blank\" href=\"/OCT12/problems/CIELHACK/\">CIELHACK</a> has been updated. Regret the inconvenience caused.</p>\r\n<p><b>09/10/2012, 17:04 IST: </b>The eighth and ninth problems <a target=\"_blank\" href=\"/OCT12/problems/CIELHACK/\">CIELHACK</a> and <a target=\"_blank\" href=\"/OCT12/problems/TEAMSIZE\">TEAMSIZE</a> have been added to the contest. The last one will be added by 10th October. <b>The contest has been extended till 15th of October 2012.\u00c2\u00a0The contest will now end at 15th October 2012, 1500 hrs IST.</b></p>\r\n<p><b>04/10/2012, 17:04 IST: </b>The seventh problem\u00c2\u00a0<a target=\"_blank\" href=\"/OCT12/problems/LUCKY10/\">LUCKY10</a> has been added to the contest.</p>\r\n<p><b>03/10/2012, 15:00 IST: </b>The sixth problem\u00c2\u00a0<a target=\"_blank\" href=\"/OCT12/problems/BMASTER/\">BMASTER</a> has been added to the contest.</p>\r\n<p><b>01/10/2012, 15:00 IST: </b>Five of the ten problems are still being cooked in the kitchen. We will be serving them soon.</p>",
+    "ip": "149.129.135.113",
+    "code": "OCT12",
+    "duration": "20160",
+    "name": "October Challenge 2012",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p>\u00a0</p> <p class=\"MsoNoSpacing\"><b>The October Contest has ended!</b></p> <p class=\"MsoNoSpacing\"><b>Editorials on each problem can be found <a target=\"_blank\" href=\"/wiki/october-2012-contest-problem-editorials\">here</a>.<br /></b></p> <p class=\"MsoNoSpacing\"><b>All problems have been added to the practice section.</b></p> <p class=\"MsoNoSpacing\"><b> </b><b>Solutions are public for all problems.</b></p> <p class=\"MsoNoSpacing\"><b>Winners Blog Post </b><b>will be updated soon.</b></p> <p class=\"MsoNoSpacing\"><b>The New Contest Rating can be viewed\u00a0<a href=\"/long/ranklist/AX/\" target=\"_blank\">here</a>.</b></p> <p>\u00a0</p> <p class=\"MsoNoSpacing\">\u00a0</p> <p class=\"MsoNoSpacing\"><b>Rules:</b><b> </b></p> <p class=\"MsoNoSpacing\"><span><br />Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a><br /><br /></span></p> <p class=\"MsoNoSpacing\"><span>Contest problems will become visible on October 1st 2012 at 15:00 hours IST. Check your timezone\u00a0<a href=\"http://timeanddate.com/worldclock/fixedtime.html?msg=October+Challenge+2012&amp;iso=20121001T15&amp;p1=44\" target=\"_blank\">here</a>.</span><br /><br /></p> <p class=\"MsoNoSpacing\"><span>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.<br /><br /></span></p> <p class=\"MsoNoSpacing\"><span>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.<br /><br /></span></p> <p class=\"MsoNormal\"><span>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</span></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/OCT12/1424957683.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "DIAMOND": {
+            "allow_submission": false,
+            "name": "Need More Diamonds",
+            "category_name": "main",
+            "accuracy": 17.01,
+            "successful_submissions": "476",
+            "code": "DIAMOND",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DRGNBOOL": {
+            "allow_submission": false,
+            "name": "Fierce Battles",
+            "category_name": "main",
+            "accuracy": 42.27,
+            "successful_submissions": "2169",
+            "code": "DRGNBOOL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BMASTER": {
+            "allow_submission": false,
+            "name": "Blade Master",
+            "category_name": "main",
+            "accuracy": 9.69,
+            "successful_submissions": "171",
+            "code": "BMASTER",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LUCKY10": {
+            "allow_submission": false,
+            "name": "Little Elephant and Order",
+            "category_name": "main",
+            "accuracy": 27.6,
+            "successful_submissions": "969",
+            "code": "LUCKY10",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MAXRECT": {
+            "allow_submission": false,
+            "name": "Maximum Sub-rectangle in Matrix",
+            "category_name": "main",
+            "accuracy": 63.67,
+            "successful_submissions": "653",
+            "code": "MAXRECT",
+            "type": "2",
+            "is_direct_submittable": false
+        },
+        "NEWSCH": {
+            "allow_submission": false,
+            "name": "The New Scheme",
+            "category_name": "main",
+            "accuracy": 29.37,
+            "successful_submissions": "1429",
+            "code": "NEWSCH",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MAXCIR": {
+            "allow_submission": false,
+            "name": "Max Circumference",
+            "category_name": "main",
+            "accuracy": 1.14,
+            "successful_submissions": "7",
+            "code": "MAXCIR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CIELHACK": {
+            "allow_submission": false,
+            "name": "Ciel and password cracking",
+            "category_name": "main",
+            "accuracy": 1.82,
+            "successful_submissions": "2",
+            "code": "CIELHACK",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TEAMSIZE": {
+            "allow_submission": false,
+            "name": "Team Formation",
+            "category_name": "main",
+            "accuracy": 10.6,
+            "successful_submissions": "123",
+            "code": "TEAMSIZE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MAXCOMP": {
+            "allow_submission": false,
+            "name": "Event Organizer",
+            "category_name": "main",
+            "accuracy": 31.23,
+            "successful_submissions": "1268",
+            "code": "MAXCOMP",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1350293400,
+        "current": 1537438684,
+        "freezing": 0,
+        "start": 1349083800
+    },
+    "user": {
+        "username": ""
+    }
+}

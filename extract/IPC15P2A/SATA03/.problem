@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The enemies of Flatland are planning on dropping several bombs on Flatland. Flatland can be represented as a <b>2 dimensional Cartesian plane</b>. To decide where they will drop the bombs they follow a 2 step procedure.</p>\n<ul>\n<li><b>Step 1: </b> They write down the co-ordinates <b>(x,y)</b> of <b>N</b> points. Then for the <b>i</b>th point with some probability they select it for Step 2, otherwise they throw it away.\n</li>\n<p><br /></p>\n<li><b>Step 2: </b>After step 1, they are left with a set of points. For all subsets of this set, they drop a bomb at the co-ordinates <b>(X,Y)</b> where:<br />\n<center><b>X</b> = sum of <b>x</b> of points in the subset.</center><br />\n<center><b>Y</b> = sum of <b>y</b> of points in the subset.</center>\n</li>\n</ul>\n\n<p>\nLukas is in charge of the defense system of Flatland. He is supposed to set up a defensive shield in the shape of a convex polygon in such a way that any bomb that is dropped falls on an area covered by the shield. He is only allowed to set up 1 shield. Lukas doesn't like being wasteful and so the shield he sets up has the minimum area required. For different outcomes of <b>Step 1</b>, he will have to protect a different set of points. Now, he wants to know the expected area of the defensive shield he will set up.\n</p>\n<p>\nPlease refer to the sample case for clarification.\n</p>\n<h3>Input</h3>\n<p>\nThe first line of input contains a single integer <b>N</b> denoting the number of points used in step 1 of the attack. The next <b>N</b> lines each contain 3 space-separated integers. The <b>i</b>th line contains <b>x<sub>i</sub>, y<sub>i</sub>, prob<sub>i</sub></b>, denoting the x co-ordinate, y co-ordinate and 100 times the probability of the <b>i</b>th point. In other words the probability that point <b>i</b> is selected for <b>Step 2</b> is <b>prob<sub>i</sub>/100</b>.\n</p>\n<h3>Output</h3>\n<p>In a single line print the expected area that will be covered by the defense system. Your answer will be considered correct if it has absolute or relative error less than 10<sup>-2</sup></p>\n<h3>Constraints</h3>\n<p><ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>x<sub>i</sub>,y<sub>i</sub></b> \u2264 <b>10000</b></li>\n<li><b>0</b> \u2264 <b>prob<sub>i</sub></b> \u2264 <b>100</b></li>\n</ul>\n</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n1 1 50\n2 1 50\n\n<b>Output:</b>\n0.2500000000\n\n</pre><h3>Explanation</h3>\n<p>There are 4 possible outcomes of <b>Step 1</b>:</p>\n<ul>\n<li><b>Case 1: no points chosen for step 2</b>: In this case, the only subset of this set is the empty set, and so a bomb will be dropped at (0,0). This means a shield covering just that single point is enough.</li>\n<li><b>Case 2: only point 1 chosen for step 2</b>: In this case, there are 2 subsets of the set. The empty set, and the set itself. So bombs will be dropped at (0,0) and (1,1). This means a shield covering the line joining those 2 points is enough.</li>\n<li><b>Case 3: only point 2 chosen for step 2</b>: In this case, there are 2 subsets of the set. The empty set, and the set itself. So bombs will be dropped at (0,0) and (2,1). This means a shield covering the line joining those 2 points is enough.</li>\n<li><b>Case 4: all points chosen for step 2</b>: In this case, there are 4 subsets of the set. So bombs will be dropped at (0,0),(1,1)(2,1) and (3,2). The smallest polygon covering all these points has an area of 1.</li>\n</ul>\n<p><br /><br />\nEach of the 4 cases has an equal probability of 0.25. So the expected area covered by the shield = 0.25*0 + 0.25*0 + 0.25*0 + 0.25*1 = <b>0.25</b>.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "30-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Sataday",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1454256600,
+        "end_date": 1454274600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454274600,
+        "submit_start_date": 1454256600,
+        "current": 1537435570
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>akulsareen</span>",
+    "problem_name": "Defense System",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/akulsareen'>akulsareen</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "akulsareen",
+    "contest_code": "IPC15P2A",
+    "max_timelimit": "1",
+    "problem_code": "SATA03"
+}

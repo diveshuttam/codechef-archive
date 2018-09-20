@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p> This is the algorithmic version of a game that kids play in our part of the country. You will be provided with a few sticks. The length of the sticks will be in the order of powers of 2. (1,2,4,8,16,32....). You will also be given another test stick of any length. The task is to write a program that finds the minimum number of sticks required to make the required test stick.\n\n<h3>Input</h3>\n<p> A positive integer in the range 1 to 10000\n\n<h3>Output</h3>\n<p> A positive integer denoting the minimum number of sticks\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n5\n\n<b>Output:</b>\n2\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-09-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Epiphany 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1348745400,
+        "end_date": 1348835400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1659758256,
+        "submit_start_date": 1348745400,
+        "current": 1537438711
+    },
+    "problem_author_html_handle": "krupakar",
+    "problem_name": "Stick the Sticks",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/krupakar'>krupakar</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "krupakar",
+    "contest_code": "EPNY2012",
+    "max_timelimit": "0.207589 - 3.2811",
+    "problem_code": "EPI01"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "CHEFCOUN",
+    "problem_author": "admin2",
+    "contest_name": "October Challenge 2017",
+    "todo": false,
+    "problem_author_html_handle": "admin2",
+    "problem_name": "Counter Test For CHEFSUM",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #D0011B;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>7&#9733;</span><span>alex_2oo8</span>",
+    "contest_code": "OCT17",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin2'>admin2</a>, <a class='problem-tag-small ' href='/tags/problems/oct17'>oct17</a>, <a class='problem-tag-small ' href='/tags/problems/simple'>simple</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Read problems statements in <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/OCT17/mandarin/CHEFCOUN.pdf\">mandarin chinese</a> and <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/OCT17/vietnamese/CHEFCOUN.pdf\">vietnamese</a> as well.</h3>\n\n<p>Once Chef was writing test data for the problem <a href=\"https://codechef.com/problems/CHEFSUM\"> CHEFSUM </a>. For your convenience, the summary of this problem is provided as below.</p>\n\n<p>You are given an array <b>a</b> of size <b>n</b>. Let <b>prefSum[i]</b> denote the sum of first <b>i</b> elements and <b>sufSum[i]</b> denote the sum of last <b>n - i + 1</b> elements of the array <b>a</b>. You have to find the least index <b>i</b> such that value of <b>prefSum[i] + sufSum[i]</b> is the minimum possible. The bounds/constraints on <b>n</b> could be as large as 10<sup>5</sup>.\n\n<p>A newbie programmer was trying to solve this problem. He didn't take care of the fact that the values of <b>prefSum[i] + sufSum[i]</b> might not fit into <em>unsigned int</em> data type. He wrote the following C++ code to solve the problem.</p>\n\n<p>\n<code>\n<pre>int wrongSolver(std::vector &lt;unsigned int> a) {\n\tint n = a.size();\n\tstd::vector&lt;unsigned int> prefSum(n), sufSum(n);\n\tprefSum[0] = a[0];\n\tfor (int i = 1; i < n; i++) {\n\t\tprefSum[i] = prefSum[i - 1] + a[i];\n\t}\n\tsufSum[n - 1] = a[n - 1];\n\tfor (int i = n - 2; i >= 0; i--) {\n\t\tsufSum[i] = sufSum[i + 1] + a[i];\n\t}\n\tunsigned int mn = prefSum[0] + sufSum[0];\n\tint where = 1;\n\tfor (int i = 1; i < n; i++) {\n\t\tunsigned int val = prefSum[i] + sufSum[i];\n\t\tif (val < mn) {\n\t\t\tmn = val;\n\t\t\twhere = i + 1;\n\t\t}\n\t}\n\treturn where;\n}</pre>\n</code>\n</p>\n\n<p>Assume that an <em>unsigned int</em> is 4 bytes long, i.e. it stores values from <b>0</b> up to <b>2<sup>32</sup> - 1</b>. Addition of two unsigned int's <b>x</b> and <b>y</b> is done as <b>(x + y) modulo 2<sup>32</sup></b>. This way, you can see that whenever the value of an unsigned int exceeds the maximum possible value (<b>2<sup>32</sup> - 1</b>), it wraps around.</p>\n\n<p>Chef as a problem setter knows that the above program should not get an AC. Hence, he wants to generate a counter case to fail this solution. He asks your help in generating such a counter case.</p>\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases.<p>\n<p>The only line of each test case contains a single integer <b>n</b> denoting the number of integers in the array <b>a</b>.</p>\n\n<h3>Output</h3>\n<p>For each test case, output <b>n</b> space separated integers in a line denoting the content of array <b>a</b> for which the above program will give a wrong answer.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n</ul>\n\n<h3>Subtasks</h3>\n<ul>\n\t<li><b>Subtask #1 : (50 points) </b> <b>99991</b> \u2264 <b>n</b> \u2264 <b>10<sup>5</sup></b>, <b>1</b> \u2264 <b>a<sub>i</sub></b> \u2264 <b>2 * 10<sup>9</sup></b></li>\n\t<li><b>Subtask #2 : (50 points) </b> <b>99991</b> \u2264 <b>n</b> \u2264 <b>10<sup>5</sup></b>, <b>1</b> \u2264 <b>a<sub>i</sub></b> \u2264 <b>10<sup>5</sup></b></li>\n</ul>",
+    "category_name": "main",
+    "date_added": "1-09-2017",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/CHEFCOUN",
+    "problem_tester": "alex_2oo8",
+    "time": {
+        "view_start_date": 1507282200,
+        "end_date": 1508146200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1508146200,
+        "submit_start_date": 1507282200,
+        "current": 1537433447
+    },
+    "user": {
+        "username": ""
+    }
+}

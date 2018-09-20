@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><pre>\n<div style=\"text-align:justify\">\nThe Restaurant was starting to fill up as Debra Morgan walked in. She scanned the crowd\nfor her sister, brother-in-law, and nephew. Seeing her sister waving from the far end of the\nrestaurant, she made her way back to their booth. &ldquo;Hi, Debra&rdquo;, her sister and brother-inlaw,\nAstor and Quinn Chapman, greeted her.\n\n&ldquo;Hi, guys&rdquo;, she replied. &ldquo;What are you doing, John?&rdquo; she asked her nephew. He was busy\nworking on one of the restaurant's activity sheets with a crayon.\n\n&ldquo;I'm doing a word search game,&rdquo; John explained. &ldquo;I have to find all of these words in this big\nmess of letters. This is really hard.&rdquo; John looked intently at the paper in front of him.\n\n&ldquo;Can I help?&rdquo; asked Debra, looking across the table at the activity sheet.\n\n&ldquo;Sure. These are the words we're looking for. They're the names of different kinds of\nPlanes, Trains, and Automobiles.&rdquo;\n\n<b>Input</b>\nThe first line of input will specify the length of the sides of the letter matrix (the matrix of\nletters will be <b>square</b>). The length, l, will be in the range 1 &le; l &le; 100. The next l lines of\ninput will be the matrix itself, each line will contain l uppercase letters.\nA list of words will follow. Each word will be on a line by itself; there will be 100 or fewer\nwords. Each word will be 100 or fewer characters long, and will only contain uppercase\nletters.\n\nThe final line of input will contain a single zero character.\n\n<b>Output</b>\nYour program should attempt to find each word from the word list in the puzzle. A word is\n&ldquo;found&rdquo; if all the characters in the word can be traced in a single (unidirectional)\nhorizontal, vertical, or diagonal line in the letter matrix. Words may not &ldquo;wrap around&rdquo;\nrows, columns or diagonals.\n\n-Horizontal words may proceed from right to left (''backwards'') and vice versa.\n\n-Vertical words may proceed upwards and downwards.\n\n-Diagonal words may proceed from left to right (both upward and downward) but not in\nright to left direction.\n\nFor each word that is found, your program should print the coordinates of its first and last\nletters in the matrix on a single line, separated by a single space. Coordinates are pairs of\ncomma-separated integers (indexed from 1), where the first integer specifies the row\nnumber and the second integer specifies the column number.\n\nIf a word is not found, the string &ldquo;Not found&rdquo; should be output instead of a pair of\ncoordinates.\n\nEach word from the input can be &ldquo;found&rdquo; at most once in the puzzle.\n\n<b>Sample Input</b>\n5\nEDEEE\nDISKE\nESEEE\nECEEE\nEEEEE\nDISC\nDISK\nIEEE\nDISP\n0\n\n<b>Sample Output</b>\n1,2 4,2\n2,1 2,4\n2,2 5,5\nNot found\n</div>\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Encoder 2012",
+    "languages_supported": "C, JAVA, CS2, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330083000,
+        "end_date": 1330101000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1330101000,
+        "submit_start_date": 1330083000,
+        "current": 1537438961
+    },
+    "problem_author_html_handle": "pc_chawla",
+    "problem_name": "Word Mess",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pc_chawla'>pc_chawla</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pc_chawla",
+    "contest_code": "ENCD2012",
+    "max_timelimit": "0.136752",
+    "problem_code": "EN03"
+}

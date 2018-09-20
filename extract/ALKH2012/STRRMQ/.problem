@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>String comparison is an age old concept. We have the same simple task\nfor you too, just expected to be performed many-many times.\nGiven an array A containing N strings a0,a2 ... an-1, each of length M, you are expected to handle queries of the type:\n<p>0 x y: Output the index of the lexicographically smallest string in A[x...y]. (if there is more smallest ones, pick one with smallest index)\n<p>1 x: Pop the starting letter of the string at index x (if string is empty do nothing).\n\n<p> <b>Note</b> : IO is huge \n\n<p> Constraints : \n<p> N <= 1000\n<p> M <= 1000\n<p> Q <= 10^5\n<p> T <= 20\n\n<h3>Input</h3>\n<p>First line contains T (T <= 20), number of test cases. T test cases follows. First line contains N and M. N lines follow each containing string of length M. Number  Q follows donating number of queries. Q lines follow describing query as in problem statement.\n\n<h3>Output</h3>\n<p>Output only answers for queries of first type\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n5 5\nktyeu\nktyeh\nyjsdb\nbonye\nktngm\n5\n1 1\n1 3\n0 0 3\n1 2\n0 2 4\n\n\n<b>Output:</b>\n0\n2\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-09-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Alkhwarizm 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1348925400,
+        "end_date": 1348943400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1348943400,
+        "submit_start_date": 1348925400,
+        "current": 1537438708
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>budabudimir</span>",
+    "problem_name": "Fun with known problems",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/budabudimir'>budabudimir</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "budabudimir",
+    "contest_code": "ALKH2012",
+    "max_timelimit": "2.68907",
+    "problem_code": "STRRMQ"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "ACMICL5",
+    "problem_author": "f2012086",
+    "contest_name": "ACM-ICL Prelims 2015",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>f2012086</span>",
+    "problem_name": "Summing the Intervals",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ICL2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/f2012086'>f2012086</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>, <a class='problem-tag-small ' href='/tags/problems/icl2015'>icl2015</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<h2>Problem description.</h2>\n<p>Rishabh doesn't know programming. As a programmer you thought you could help him. <br/>The problem is that you have <b>T</b> intervals. From each interval you will pick one integer value(integer picked could be the boundary also). <br/>Now you are required to sum those values. For each integer <b>N<sub>i</sub></b> between <b>N and N+X(both included)</b>, print the total number of ways in which these values can be picked so that the sum of values is equal to <b>N<sub>i</sub></b>.<br/> As this number of ways may be large, print your answer modulo 1000000007. In case no such way exist, print NO corresponding to the sum. Also note {1,2} is different from {2,1}.</br/></br/></br/></p>\n<h3>Input</h3>\n<ul>\n<li>Input begins with the first line containing <b>T</b> denoting the number of intervals.</li>\n<li>Then <b>T</b> lines contains <b>s,e</b>.</li>\n<li>The last line contains <b>N</b> and <b>X</b>.</li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>Output <b>X+1</b> lines each line containing the number of ways of forming the required sum.</li>\n</ul>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b> 1000000 </b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b> 100 </b></li>\n<li><b>1</b> \u2264 <b>X</b> \u2264 <b> 1000 </b></li>\n<li>Each of the interval is <b>[s,e]</b> where <b>s>=0</b> and <b>e&lt;=500</b>, <b>s&lt;=e</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n0 2\n2 5\n1 2\n<b>Output:</b>\nNO\n1\n2\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>There are two intervals . The number 1 cannot be formed as we have to take one integer each <br/>from 2 intervals, whereas 2 has 1 way and 3 has 2 ways.</br/></p>\n",
+    "category_name": "main",
+    "date_added": "17-02-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "max_timelimit": "3",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/ACMICL5",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1428925852,
+        "end_date": 1424637000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1428925733,
+        "submit_start_date": 1428925852,
+        "current": 1537436743
+    },
+    "user": {
+        "username": ""
+    }
+}

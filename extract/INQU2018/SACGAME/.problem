@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Gaitonde and Sartaj were playing a game called \"Sacred Game\".\n\n**Sacred Game** \nThe game has a long straight array of blocks arranged side by side, labeled with consecutive integers starting from 0. Both players have a pawn each, having starting position of 0. The players take turn alternatively. On a turn, the player throws a magic dice which gives any positive random number x, then the player moves his pawn x blocks ahead. The game ends when both pawns enter in same block after the same number of turns by both players (except at block 0).\n\nSartaj was wordering about the complexity of the game, hence wants to know total number of possible ways in which the game ends in **K<sup>th</sup>** block, and both players have taken exactly **N** turns each.\n\n\n###Input:\n\n- First line will contain **T**, number of testcases. Then the testcases follow. \n- Each testcase contains a single line, having two space separated integers **N** and **K**. \n- where, **N** is the number of turns each player takes and **K** is the block in which the game ends.\n###Output:\nFor each test case output the corresponding answer **modulo 1000000007**.\n\n###Constraints \n- 1 \u2264 T \u2264 10000\n- 1 \u2264 N \u2264 100000\n- 1 \u2264 K \u2264 100\n\n###Sample Input:\n2  \n2 4  \n3 4 \n\n###Sample Output:\n6  \n2",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Insomnia Qualifier 2018",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1535819400,
+        "end_date": 1535832000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1535832000,
+        "submit_start_date": 1535819400,
+        "current": 1537432013
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>smtcoder</span>",
+    "problem_name": "Sacred Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/smtcoder'>smtcoder</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "smtcoder",
+    "contest_code": "INQU2018",
+    "max_timelimit": "1",
+    "problem_code": "SACGAME"
+}

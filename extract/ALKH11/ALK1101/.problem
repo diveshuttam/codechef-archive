@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Napolean has three troops of fierce soldiers. The recent attack on his kingdom requires all the three troops to be used at the battlefield. In the battle, soldiers go off for fighting one at a time. Each soldier is to be used exactly once. However inside each troop the relative order in which they go for fight any battle is defined by some precedence relationship among them.King Napolean for testing the strength of his army wants to know how many ways are there to send all his soldiers to the battlefield.</p>\n\n<h3>Input</h3>\n<p>First line contains the number of test cases T. Then T testcases follow.\nFirst line of each testcase contains three integers N1,N2 and N3, the number of soldiers in first , second and third troop respectively. The precedence order of soldiers in a troop having N soldiers\nis described by a NxN matrix . Y at (i,j)th entry in the matrix for a troop indicates that in any battle the jth soldier of that troop goes before the ith soldier of that troop . The matrices for each troop are given one below the other i.e a N1xN1 martix for troop1 followed by a N2xN2 martix for troop2 and finally a N3xN3 matrix for troop3.</p>\n\n<h3>Output</h3>\n<p>For each test case output the number of ways to send all soldiers to the battlefield , modulo\n1,000,000,007. Output of each testcase should end with a newline.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n3 3 3\nNNN\nYNN\nNYN\n\nNNN\nYNY\nNNN\n\nNNN\nNNN\nNNN\n\n<b>Output:</b>\n20160\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-09-2011",
+    "is_direct_submittable": false,
+    "contest_name": "AlKhwarizm, IIIT Allahabad",
+    "languages_supported": "C, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1317137400,
+        "end_date": 1317153600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1317153600,
+        "submit_start_date": 1317137400,
+        "current": 1537439137
+    },
+    "problem_author_html_handle": "saabir",
+    "problem_name": "Ordering Soldiers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/saabir'>saabir</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "saabir",
+    "contest_code": "ALKH11",
+    "max_timelimit": "2.18103",
+    "problem_code": "ALK1101"
+}

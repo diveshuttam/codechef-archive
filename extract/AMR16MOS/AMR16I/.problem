@@ -1,0 +1,33 @@
+{
+    "problem_code": "AMR16I",
+    "problem_author": "admin3",
+    "contest_name": "ACM-ICPC Asia-Amritapuri Onsite Mirror Contest 2016",
+    "todo": false,
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Mancunian Hoards Black Money",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "AMR16MOS",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>, <a class='problem-tag-small ' href='/tags/problems/amr16'>amr16</a>, <a class='problem-tag-small ' href='/tags/problems/amr16mos'>amr16mos</a>, <a class='problem-tag-small ' href='/tags/problems/icpc2016'>icpc2016</a>",
+    "body": "<p>\nMancunian is a real estate dealer in Mancunia. He is part of The Elite Builders Society who work hard day and night to improve the infrastructure of the city, but they need cash to do this. They have a unique way to increase the amount of black money they possess.\nThey start with a pile of cash amounting to <b>S</b> dollars. Then they repeat the following process <b>N</b> times. Before the <b>i<sup>th</sup></b> step, there are already <b>i</b> piles of cash on the table. They create another pile amounting to the sum of amounts of all the <b>i</b> previous piles and add another <b>C<sub>i</sub></b> dollars to it.\n</p>\n\n<p>\nA hot piece of property priced at <b>X</b> dollars has just appeared on the market and the society decided that they must buy it at all costs. They need to select a few of the piles from the ones on the table, whose sum is exactly <b>X</b>. \n</p>\n\n<p>Although shrewd businessmen, they lack mathematical skills. Can you help them decide whether it is possible or not?\n</p>\n\n\n<h3>Input</h3>\n<p>The first line of the file contains an integer <b>T</b> denoting the number of test cases.</p>\n<p>Each case consists of two lines.</b>\n<p>The first line contains three integers <b>S</b>, <b>N</b> and <b>X</b> denoting the amount of cash in the first pile, the number of times the society creates a new pile and the cost of the in-demand property respectively.</p>\n<p>The second line contains <b>N</b> integers denoting the values <b>C<sub>i</sub></b> mentioned in the problem description.</p>\n\n\n<h3>Output</h3>\n<p>Output <b>T</b> lines. In each line, output \"yes\" if the society can buy the property and \"no\" otherwise.</p>\n\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T, N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>sum of N over all test cases</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>S, X, C<sub>i</sub></b> \u2264 <b>10<sup>18</sup></b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n1 4 6\n1 2 4 2\n100 2 500\n51 749\n\n<b>Output:</b>\nyes\nno\n</pre>\n\n<h3>Explanation</h3>\n<p><b>Example case 1:</b>\nThe piles of cash are <b>1</b>, <b>2</b>, <b>5</b>, <b>12</b> and <b>22</b>. The society will use the piles of cash amounting to <b>1</b> and <b>5</b> to get a total of <b>6</b>.\n</p>\n<p><b>Example case 2:</b>\nThe piles of cash are <b>100</b>, <b>151</b> and <b>1000</b>. The society cannot buy the property costing <b>500</b> using any of the piles of cash they have.\n</p>",
+    "category_name": "main",
+    "date_added": "20-12-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/AMR16I",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1482477560,
+        "end_date": 1482487200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1793475531,
+        "submit_start_date": 1482477560,
+        "current": 1537434295
+    },
+    "user": {
+        "username": ""
+    }
+}

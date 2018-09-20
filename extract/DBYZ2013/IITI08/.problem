@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>Its time for the Potions class and Professor Snape is hell-bent on giving a detention to Harry. Today's class has a long table on which <b>N</b> elemental potions (numbered from 1 to <b>N</b>) are arranged. The queerness of the ith potion is <b>A[i]</b>. A unique bipotion can be obtained by mixing together small quantities of exactly two distinct elemental potions. Each unordered pair of distinct elemental potions corresponds to a different bipotion. The queerness of a bipotion is the product of the queernesses of the two elemental potions from which it was obtained.</p>\n<p>Professor Snape performs <b>Q</b> actions during the course of the class. The ith action is specified by 3 integers, as follows : <br /><br />\n0 <b>q1</b> <b>q2</b> : He replaces the potion at the <b>q1</b>'th position with a potion of queerness <b>q2</b>. <br />1 <b>q1</b> <b>q2</b> : He points to two potions <b>q1</b> and <b>q2</b> (st <b>q1</b>&lt;<b>q2</b>). In response to this, Harry must report the total queerness of all possible bipotions that can be obtained using the elemental potions numbered from <b>q1</b> to <b>q2</b> (inclusive).</p>\n<p>Harry gets a detention if he answers any of the queries wrongly. You must help him to avoid getting one.</p>\n<h3>Input</h3>\n<p>The first line of input consists of a single integer <b>N</b>.<br />\nThe second line contains <b>N</b> integers, <b>A[1], A[2] .. A[N]</b>. (Note that potions are allowed to have negative queerness.)<br />\nThe third line contains a single integer <b>Q</b>.<br />\n<b>Q</b> lines follow. Each of these lines consists of 3 space-seperated integers : <b>tp</b>,<b>q1</b>,<b>q2</b>.\n</p>\n\n<h3>Output</h3>\n<p>Correctly formatted output consists of one line for each action with <b>tp</b>=1. Each of these lines must consist of a single integer: the number that Harry must report in response to that particular action.\n</p>\n\n<h3>Constraints</h3>\n<p>2&lt;=<b>N</b>&lt;=100000<br /><br />\n-1000&lt;=<b>A[i]</b>&lt;=1000<br /><br />\n1&lt;=<b>Q</b>&lt;=100000<br /><br />\n0&lt;=<b>tp</b>&lt;=1<br /><br />\nif <b>tp</b>=0, 1&lt;=<b>q1</b>&lt;=<b>N</b> and -1000&lt;=<b>q2</b>&lt;=1000<br /><br />\nif <b>tp</b>=1, 1&lt;=<b>q1</b>&lt;<b>q2</b>&lt;=<b>N</b><br />\n</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n5 4 3 2 1\n3\n1 2 4\n0 3 7\n1 2 4 \n\n<b>Output:</b>\n26\n50\n</pre>\n<h3>Explanation</h3>\n<p>The queerness sequence at the time of the first query is [5,4,3,2,1].<br />\nThe queried section is [4,3,2].<br />\n2*3 + 3*4 + 2*4 = 6 + 12 + 8 = 26.<br />\nThe queerness sequence at the time of the first query is [5,4,7,2,1].<br />\nThe queried section is [4,7,2].<br />\n2*7 + 7*4 + 2*4 = 50.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-03-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Divide By Zero 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1363429800,
+        "end_date": 1363437000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1363437000,
+        "submit_start_date": 1363429800,
+        "current": 1537438405
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>architk</span>",
+    "problem_name": "Bi Potions",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/architk'>architk</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "architk",
+    "contest_code": "DBYZ2013",
+    "max_timelimit": "2",
+    "problem_code": "IITI08"
+}

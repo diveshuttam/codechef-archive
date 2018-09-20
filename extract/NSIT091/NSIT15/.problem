@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nMajin wants to label his N (1 <= N <= 1,000,000) towers. He has lost the labels with the digit L (0 <= L <= 9) written on them. Assume he has sufficient labels to complete the task.</p>\n<p>\nIf the towers are labeled with the smallest set of N positive integers that don't have the digit L, what is the largest number that Majin will label the tower as ?</p>\n\n<h3>Input</h3>\n<p>\nThe first line has an integer 't' (1<=t<=10), the number of test cases. t cases follow.</p>\n<p>\nEach test case containse two space-separated integers on a single line: N and L</p>\n\n<h3>Output</h3>\n<p>\nA single integer that is the largest number a tower can have.<p>\n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n10 0\n\n<b>Output:</b>\n11\n\n<b>Explanation</b>\n\nThe smallest 10 numbers he can use are: 1, 2, 3, 4, 5, 6, 7, 8, 9, and 11.\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-10-2009",
+    "is_direct_submittable": false,
+    "contest_name": "NSIT Contest 1",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1255113000,
+        "end_date": 1255199400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180153,
+        "submit_start_date": 1255113000,
+        "current": 1537439904
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Not that Digit",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "NSIT091",
+    "max_timelimit": "1",
+    "problem_code": "NSIT15"
+}

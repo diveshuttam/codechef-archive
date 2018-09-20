@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A war is going on and Cody our spy is receiving information from the other side. But there is a problem, due to weak transmitters on other side; he misses out parts of the strings (made of bits 0s and 1s) he receives, so he needs your help. As part of an error correction technique the strings are made such that the number of 0s and number of 1s have difference less than or equal to 2. This stringent condition applies to every substring of the given string also. i.e. </p>\n<p>\n-2&lt;=[count of 1s \u2013 count of 0s]&lt;=2 \n</p><p>\nYour job is to find all possible combinations that could be made from the incomplete strings. \n</p>\n<h3>Input</h3>\n<p>First line of input consists of \u2018t\u2019 (1&lt;=t&lt;=15)  test cases, then \u2018t\u2019 test cases follows, each case with 1 lines and length  of each string is maximum 50..\n\nEach line consisting of 1s 0s and *s, with each * denoting a missing bit. \n\n<h3>Output</h3>\n</p><p>The output must contain \u2018n\u2019 lines of output, with 1 integer in each line. The integer is the number of possible combinations the string can form satisfying the error correction technique! \n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n10**00\n10***11 \n\n<b>Output:</b>\n1\n2 \n\n<b>Explanation</b>\nTest case 1 : 101100  [1]\n\nTest case 2 : 1010011,  1001011  [2] \n\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-02-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Algothika 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1267705800,
+        "end_date": 1268397000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1268397000,
+        "submit_start_date": 1267705800,
+        "current": 1537439696
+    },
+    "problem_author_html_handle": "killer17",
+    "problem_name": "STRINGENT STRINGS ",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/killer17'>killer17</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "killer17",
+    "contest_code": "ALGOTH10",
+    "max_timelimit": "2",
+    "problem_code": "AD3"
+}

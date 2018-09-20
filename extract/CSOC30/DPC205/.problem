@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"center\" class=\"MsoNormal\">\n        <b><u>\n        <span>\n        Politics</span></u></b></p>\n    <p class=\"MsoNormal\">\n        <span>\n        \u00a0</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        Leaders of N political parties agree to have a conference to resolve a political \n        issue through discussion. However due to animosity between parties and leaders, \n        some of the leaders may dislike sitting next to leaders specified by them. The \n        problem is to determine, if possible, sitting arrangements on the table, so that \n        a leader is not required to sit next to another leader disliked by him/her. \n        Leaders are identified by integers 1,2,..,N. It may be noted that if a leader \n        \u2018i\u2019 dislikes sitting next to another leader \u2018j\u2019, then the leader \u2018j\u2019 may not \n        necessarily dislike sitting next to leader \u2018i\u2019. However in such a case \u2018i\u2019 and \n        \u2018j\u2019 cannot sit next to each other because \u2018i\u2019 dislikes \u2018j\u2019.</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        \u00a0</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        An arrangement is represented by a sequence of N integers 1,2,\u2026,N indicating the \n        relative position of each leader. In case of more than one arrangement, the \n        arrangements are to be printed in lexicographic order.</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        Write a program to print all possible sitting arrangements for the conference.</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        \u00a0</span></p>\n    <p class=\"MsoNormal\">\n        <b>\n        <span>Input:</span></b></p>\n    <p class=\"MsoNormal\">\n        <span>\n        The input may contain multiple test cases. The first line of each test case \n        contains the case number \u2018c\u2019 and the total number of leaders N where N will be \n        less than 100. Each of the next N lines contains N 0\u2019s or 1\u2019s. If the value in i<sup>th</sup> \n        row and j<sup>th</sup> column contains 1, then the i<sup>th</sup> leader cannot \n        sit with j<sup>th</sup> leader. This is true for all I,j=1,2,\u2026,N. The input \n        terminates with a single 0 in the last line.</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        \u00a0</span></p>\n    <p class=\"MsoNormal\">\n        <b>\n        <span>Output:</span></b></p>\n    <p class=\"MsoNormal\">\n        <span>\n        For each test case, print the case number \u2018c\u2019 and the total number of possible \n        arrangements \u2018k\u2019 in first line with a single space between them. Each of the \n        next k lines prints an arrangements in lexicographical order separated with a \n        single space.</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        \u00a0</span></p>\n    <p class=\"MsoNormal\">\n        <b>\n        <span>Sample Input</span></b></p>\n    <p class=\"MsoNormal\">\n        <span>\n        1 5</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        11010</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        01001</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        00100</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        10010</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        01011</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        2 6</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        101100</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        010001</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        101000</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        100110</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        001011</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        010011</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        0</span></p>\n    <p class=\"MsoNormal\">\n        <b>\n        <span>Sample Output</span></b></p>\n    <p class=\"MsoNormal\">\n        <span>\n        1 0</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        2 2</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        1 5 2 3 4 6</span></p>\n    <p class=\"MsoNormal\">\n        <span>\n        1 5 2 4 3 6</span></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "DreamSpark 2",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1268490600,
+        "end_date": 1268598600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1268598600,
+        "submit_start_date": 1268490600,
+        "current": 1537439657
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rushikesh30</span>",
+    "problem_name": "Politics",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rushikesh30'>rushikesh30</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rushikesh30",
+    "contest_code": "CSOC30",
+    "max_timelimit": "0.1",
+    "problem_code": "DPC205"
+}

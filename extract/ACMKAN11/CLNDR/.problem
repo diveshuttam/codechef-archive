@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>We know that there are so many calendar systems. For example, Bangla, Christ, Arabic, Chinese etc. This problem is about Decimal calendar. There are <b>3</b> months in this calendar. First month is <b>\"Hundreds\"</b>. There are <b>300</b> days in this month. Second month is <b>\"Tens\"</b>. There are <b>60</b> days in this month. And this followed by the last month <b>\"Ones\"</b> having <b>5</b> or <b>6</b> days depending on whether this is leap year or not. A Decimal year spans a full Christ calendar. That is <b>1st</b> Hundreds in Decimal Calendar is 1st January in Christi Calendar. Similarly, 31st December of Christ Calendar is <b>5th</b> or <b>6th</b> day of Decimal calendar (depending on whether it is leap year or not).\n\nA year in Decimal calendar is leap year if the corresponding Christ year is leap year. For example, the Decimal year corresponding to <b>2000</b> Christ year is leap year but <b>2001</b> is not, and again <b>1900</b> is not leap year too. A year in Christ calendar is leap year if the year is divisible by <b>400</b> or divisible by <b>4</b> but not by <b>100</b>.\n\nYou are given a day in Christ calendar in <b>DD-MMM-YYYY</b> format (<b>DD</b> stands for day, <b>MMM</b> stands for first <b>three</b> letters (in <b>CAPS</b>) of the month and <b>YYYY</b> stands for the year). You are to give the date in Decimal Calendar format.\n\n<h3>Input</h3>\n</p><p>First line contains number of test case. Every test case consists of a date in Christ Calendar format in each line.\n\n<h3>Output</h3>\n</p><p>You are to output the case number and the date in Decimal Calendar format. Output the date and the month in the Decimal Calendar.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n01-JAN-1900\n10-JAN-1900\n16-DEC-1900\n\n<b>Output:</b>\nCase 1: 1 Hundreds\nCase 2: 10 Hundreds\nCase 3: 50 Tens\n\n<b>Note</b>\nFirst three letters for the months are:\nJAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC.\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-10-2011",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Kanpur Site First Round Online Contest",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1319878800,
+        "end_date": 1319886000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1319886000,
+        "submit_start_date": 1319878800,
+        "current": 1537439100
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Calendar",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "ACMKAN11",
+    "max_timelimit": "0.92",
+    "problem_code": "CLNDR"
+}

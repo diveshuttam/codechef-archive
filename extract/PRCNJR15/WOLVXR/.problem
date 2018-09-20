@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b> For Turbo C++ Users : Read the following document before attempting the question : <br /><a href=\"http://foobar.iiitd.edu.in/turbo.pdf\" > Switching from Turbo to GNU </a> </b><br />\n<br /><br /><br /></p>\n<h3> Problem description </h3>\n<p>\nLogan is tired of not being able to clear security clearances while travelling (thanks to his Adamantium skeleton :\\ ). He goes to Magneto for some help regarding this matter.<br /> Magneto decides to help him, but only if Wolverine can answer his question correctly.<br />\n<br /><br /><br />\n<i>Given any number \u2018n\u2019, calculate the bitwise <a href=\"https://en.wikipedia.org/wiki/XOR_gate\">XOR</a> of all whole numbers from 0 to 2<sup>n</sup>-1 (including 0)  , i.e. , [0,2<sup>n</sup>).</i><br />\n<br /><br /></p>\n<p><b>Bitwise XOR</b><br/><br />\n0^0 = 0, 1^1 = 0, 1^0 = 0^1 = 1<br/><br />\n2 XOR 3:<br/><br />\n2 ==       \u00a0\u00a0\u00a0\u00a00 | 1 | 0<br/><br />\n3 ==       \u00a0\u00a0\u00a0\u00a00 | 1 | 1<br/><br />\n2^3 == 0 | 0 | 1 <br/><br />\nTo do \"XOR\" of 2 integer variables, most languages support '^' operator, i.e. , a = b ^ c ; will store b XOR c in a.<br />\nLogan isn\u2019t so smart, so he comes to you for help.\n</br/></br/></br/></br/></br/></br/></p>\n<h3>Input</h3>\n<p>\nFirst line contains T, the number of test cases.<br /><br />\nEach test case consists of a number N on a new line.<br />\n</p>\n<h3>Output</h3>\n<p>For each test case, print the desired answer on a new line.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>0</b> \u2264 <b>N</b> \u2264 <b>10<sup>7</sup></b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n2\n\n<b>Output:</b>\n0\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-07-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Procon Junior 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1438317000,
+        "end_date": 1438327800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1438327800,
+        "submit_start_date": 1438317000,
+        "current": 1537436161
+    },
+    "problem_author_html_handle": "proconjr2015",
+    "problem_name": "Wolverine and XOR",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/proconjr2015'>proconjr2015</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "proconjr2015",
+    "contest_code": "PRCNJR15",
+    "max_timelimit": "1",
+    "problem_code": "WOLVXR"
+}

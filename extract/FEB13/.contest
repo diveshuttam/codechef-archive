@@ -1,0 +1,137 @@
+{
+    "announcements": "<p><b>01/02/2013, 15:00 IST: </b>The tenth problem is still being cooked in the kitchen. We will be serving it soon.</p>\r\n<p><b>02/02/2013, 23:55 IST : </b>The tenth problem <a target=\"_blank\" href=\"/problems/FEB13/ROC\">ROC</a> has been added to the contest.</p>\r\n<p><b>05/02/2013, 01:40 IST : </b>The statement and test cases for the problem\u00c2\u00a0<a target=\"_blank\" href=\"/problems/FEB13/ROC\">ROC</a> has been updated. Regret the inconvenience caused.</p>",
+    "ip": "149.129.135.113",
+    "code": "FEB13",
+    "duration": "14400",
+    "name": "February 2013 Challenge",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p class=\"MsoNoSpacing\"><b>The February Contest has ended!</b></p> <p class=\"MsoNoSpacing\"><b><span>The editorials for </span><span> February Challenge can be found <a href=\"http://discuss.codechef.com/tags/feb13/\">here</a>.</span><span> </span></b></p> <p class=\"MsoNoSpacing\"><b><span> </span></b><b>All problems have been added to the practice section.</b></p> <p class=\"MsoNoSpacing\"><b> </b><b>Solutions are public for all problems.</b></p> <p class=\"MsoNoSpacing\"><b>Winners Blog Post </b><b>will be updated soon.</b></p> <p class=\"MsoNoSpacing\"><b>The New contest rankings can be viewed <a href=\"/long/ranklist/AX/\" target=\"_blank\">here</a></b></p> <p class=\"MsoNoSpacing\"><b><br /></b></p> <p class=\"MsoNoSpacing\"><b>Rules:</b><b> </b></p> <p class=\"MsoNoSpacing\"><span><br />Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></span></p> <p class=\"MsoNoSpacing\">\u00a0</p> <p class=\"MsoNoSpacing\"><span>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</span></p> <p class=\"MsoNoSpacing\"><span><br /></span></p> <p class=\"MsoNoSpacing\"><span>Contest problems will become visible on February 1st 2013 at 15:00 hours IST. Check your timezone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=Febrary+Challenge+2013&amp;iso=20130201T15&amp;p1=44\" target=\"_blank\">here</a>.</span><br /><br /></p> <p class=\"MsoNoSpacing\"><span>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.<br /><br /></span></p> <p class=\"MsoNoSpacing\"><span>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.<br /><br /></span></p> <p class=\"MsoNormal\"><span>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</span></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/FEB13/1424957718.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CLMBSTRS": {
+            "allow_submission": false,
+            "name": "Climbing Stairs",
+            "category_name": "main",
+            "accuracy": 25.31,
+            "successful_submissions": "2203",
+            "code": "CLMBSTRS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LECARDS": {
+            "allow_submission": false,
+            "name": "Little Elephant and Cards",
+            "category_name": "main",
+            "accuracy": 23.98,
+            "successful_submissions": "1468",
+            "code": "LECARDS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ROC": {
+            "allow_submission": false,
+            "name": "Room Corner",
+            "category_name": "main",
+            "accuracy": 12.22,
+            "successful_submissions": "27",
+            "code": "ROC",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "WPLAY": {
+            "allow_submission": false,
+            "name": "Word Play",
+            "category_name": "main",
+            "accuracy": 10.07,
+            "successful_submissions": "122",
+            "code": "WPLAY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TESTERS": {
+            "allow_submission": false,
+            "name": "Vacation",
+            "category_name": "main",
+            "accuracy": 6.95,
+            "successful_submissions": "30",
+            "code": "TESTERS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BUY1GET1": {
+            "allow_submission": false,
+            "name": "Buy1-Get1",
+            "category_name": "main",
+            "accuracy": 33.74,
+            "successful_submissions": "3333",
+            "code": "BUY1GET1",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "EFFPAINT": {
+            "allow_submission": false,
+            "name": "Efficient Painting",
+            "category_name": "main",
+            "accuracy": 64.54,
+            "successful_submissions": "726",
+            "code": "EFFPAINT",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "TRIQUERY": {
+            "allow_submission": false,
+            "name": "Triangular Queries",
+            "category_name": "main",
+            "accuracy": 5.09,
+            "successful_submissions": "113",
+            "code": "TRIQUERY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MBOARD": {
+            "allow_submission": false,
+            "name": "Magic Board",
+            "category_name": "main",
+            "accuracy": 7.67,
+            "successful_submissions": "271",
+            "code": "MBOARD",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "QUERY": {
+            "allow_submission": false,
+            "name": "Observing the Tree",
+            "category_name": "main",
+            "accuracy": 5.33,
+            "successful_submissions": "21",
+            "code": "QUERY",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1360575000,
+        "current": 1537438528,
+        "freezing": 0,
+        "start": 1359711000
+    },
+    "user": {
+        "username": ""
+    }
+}

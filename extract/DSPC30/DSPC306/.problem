@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p class=\"MsoNormal\" align=\"center\"><b><u><span>S L <span class=\"SpellE\">Loney</span></span></u></b></p>\n\n<p class=\"MsoNormal\"><span>To match the\nrequirements of the current IIT-JEE pattern, the publishers of Co-ordinate\nGeometry by S L <span class=\"SpellE\">Loney</span> have decided to introduce new\nMultiple Choice Questions in the upcoming edition. A large number of new\nquestions have been added but they want to verify the answers before publishing.\nSo, they have decided to hire a Computer Programmer who will write programs to\ngenerate absolute results.</span></p>\n\n<p class=\"MsoNormal\"><span>The one who\nsolves the following problem in minimum time gets the Job:</span></p>\n\n<p class=\"MsoNormal\"><span>\u201cRotate the\nline <span class=\"SpellE\">ax+by+c</span> =0 through the angle <span class=\"SpellE\">a<span class=\"GramE\">,b,c</span></span>(TRIPLE Representation) about the point P(<span class=\"SpellE\">x,y</span>). Output the Equation of the line after rotation.\u201d</span></p>\n\n<p class=\"MsoNormal\"><b><span>You need to output the coefficients\nof the new equation.</span></b></p>\n\n<p class=\"MsoNormal\"><span>\u00a9 Vishal Gupta</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Input:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>Input contains a number of test\ncases. Each test case consists of 4 lines.<b><u></u></b></span></p>\n\n<p class=\"MsoNormal\"><span>First line contains 0 or 1. <span> </span>0 implies anti-clock wise rotation and 1\nimplies clockwise rotation. </span></p>\n\n<p class=\"MsoNormal\"><span>Second line contains the co-<span class=\"SpellE\">efficients</span> <span class=\"SpellE\">a<span class=\"GramE\">,b,c</span></span>\nof the line <span class=\"SpellE\">ax+by+c</span>=0</span></p>\n\n<p class=\"MsoNormal\"><span>Third line contains the angle in the\nform of triple <span class=\"SpellE\">p<span class=\"GramE\">,q,r</span></span>.</span></p>\n\n<p class=\"MsoNormal\"><span>Fourth line contains <span class=\"SpellE\">x<span class=\"GramE\">,y</span></span> (Integers), the co-ordinates\nof P.</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Output:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>Print co-<span class=\"SpellE\">efficients</span> A<span class=\"GramE\">,B,C</span> of the line after\nrotation.</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Sample Input:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>0</span></p>\n\n<p class=\"MsoNormal\"><span>2 3 -4</span></p>\n\n<p class=\"MsoNormal\"><span>3 4 5</span></p>\n\n<p class=\"MsoNormal\"><span>0 0</span></p>\n\n<p class=\"MsoNormal\"><span>0</span></p>\n\n<p class=\"MsoNormal\"><span>2 -1 1</span></p>\n\n<p class=\"MsoNormal\"><span>4 3 5</span></p>\n\n<p class=\"MsoNormal\"><span>0 0</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Sample Output:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>6 -17 20</span></p>\n\n<p class=\"MsoNormal\"><span>11 2 5</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "DreamSpark Contest 3",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1272112200,
+        "end_date": 1272306540,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1272306540,
+        "submit_start_date": 1272112200,
+        "current": 1537439596
+    },
+    "problem_author_html_handle": "ganesha",
+    "problem_name": "S L LONEY",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ganesha'>ganesha</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ganesha",
+    "contest_code": "DSPC30",
+    "max_timelimit": "1",
+    "problem_code": "DSPC306"
+}

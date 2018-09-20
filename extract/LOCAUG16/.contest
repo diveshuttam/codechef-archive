@@ -1,0 +1,124 @@
+{
+    "announcements": "<p><b>01/09/2016, 23:57 hrs IST:</b> Only two problems will be added at the start of the contest. Rest of the problems will be added as we progress into the contest. Regret the inconvenience caused.</p>\r\n<p><b>02/09/2016, 11:07 hrs IST</b>: Problem\u00a0MINMO has been added to the contest.</p>",
+    "ip": "149.129.135.113",
+    "code": "LOCAUG16",
+    "duration": "5759",
+    "name": "August LoC Competitive Programming Marathon",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "CHEFCHSS": [
+            {
+                "score": "70",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "262"
+            }
+        ],
+        "CHEFBGNM": [
+            {
+                "score": "10",
+                "count": "64"
+            },
+            {
+                "score": "30",
+                "count": "26"
+            },
+            {
+                "score": "70",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "52"
+            }
+        ],
+        "MINMO": [
+            {
+                "score": "20",
+                "count": "14"
+            },
+            {
+                "score": "30",
+                "count": "4"
+            },
+            {
+                "score": "50",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "362"
+            }
+        ]
+    },
+    "rules": " <p><b class=\"rules-heading\">About the Contest:</b></p> <div class=\"rules-body\"> <ul class=\"\"> <li>The LoC Competitive Programming Marathon is targeted at Indian school students to improve their programming and competitive programming skills. The Marathon is scheduled to start in the month of February 2016 through November 2016 and dates of the contest in the respective months is mentioned in the link here. At the end of the marathon (in December 2016) a fully sponsored residential programming camp will be conducted by Amrita University at their Amritapuri Campus for the champions selected from this marathon contest. The winners will be honoured as a tribute to the top notch programmer from India \u2013 Harsha Suryanarayana (Lord Harsha).</li> <li><b>Organizer: </b>The contest is hosted by Amrita University in association with CodeChef.</li> <li><b>Registrations for prizes: </b><a href=\"https://goo.gl/No9Tvb\" target=\"_blank\">https://goo.gl/No9Tvb</a></li> <li><b>Prizes:</b> Know more details <a href=\"http://loc.amrita.ac.in/?page_id=38\" target=\"_blank\">here</a>.</li> </ul> </div> <p><b class=\"rules-heading\">Contest Details:</b></p> <div class=\"rules-body\"> <ul class=\"\"> <li><b>Duration: </b>4 days</li> <li><b>Start time: </b>2nd September 2016, 00:00 hrs IST</li> <li><b>End time: </b>5th September 2016, 23:59 hrs IST.</li> </ul> </div> <div class=\"rules-body\"></div> <p><br /> <b class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</b></p> <div class=\"rules-body\"> <p>Please go through this <a target=\"_blank\" href=\"http://loc.amrita.ac.in/?page_id=34\">link</a> to know the eligibility criteria. Also, all the participants are expected to abide to\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct.</a></p> </div> <p><br /> <b class=\"rules-heading\">Rules and Regulations:</b></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\"> feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li> <li>Please contact <a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a> for any queries during the contest.</li> </ul> <p><b class=\"rules-heading\">Judging Criteria:</b></p> <ul class=\"\"> <li><b>All the problems will be partially graded and you will get score for passing certain test data . You will receive hundred (100) point for solving a problem (passing all test cases).</b></li> <li><b>The details of the failed test cases will also be visible on your solution page.</b></li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> </ul> <div class=\"\"><b>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a target=\"_blank\" href=\"/ide\">Online IDE</a>.</b><br /> However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/LOCAUG16/1472749652.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CHEFCHSS": {
+            "allow_submission": false,
+            "name": "Chef and Chess Tournaments",
+            "category_name": "main",
+            "accuracy": 43.84,
+            "successful_submissions": "262",
+            "code": "CHEFCHSS",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "BSQUARE": {
+            "allow_submission": false,
+            "name": "Bob and square field",
+            "category_name": "main",
+            "accuracy": 24.16,
+            "successful_submissions": "436",
+            "code": "BSQUARE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHEFBGNM": {
+            "allow_submission": false,
+            "name": "Three Chefs and a Big Number",
+            "category_name": "main",
+            "accuracy": 10.42,
+            "successful_submissions": "52",
+            "code": "CHEFBGNM",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "MINMO": {
+            "allow_submission": false,
+            "name": "Moves like a jagger",
+            "category_name": "main",
+            "accuracy": 51.13,
+            "successful_submissions": "362",
+            "code": "MINMO",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1473100140,
+        "current": 1537434633,
+        "freezing": 0,
+        "start": 1472754600
+    },
+    "user": {
+        "username": ""
+    }
+}

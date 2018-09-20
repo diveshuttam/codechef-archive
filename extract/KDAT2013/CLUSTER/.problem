@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Now it has been quite a long time since Chef Po cooked his first dish and as the time evolved so evolved the dishes he cooked. On a fine day Chef Po was looking at his recipes book and after that he realised that it is almost impossible for him to search a recipe in that cluster containing a particular key ingredient. So he comes to you as a favour to develop a program that could find lexicographically smallest recipe present in L, a list of recipes, which is prefixed by the given key ingredient S. If no recipe is in L is prefixed by S then simply print S.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line of input contains a number T, number of test cases. First line of each test case contains a string S. Next line contains a number N which is the number of strings present in list L. Each of the next N line contains a string.</p>\n<h3>Output</h3>\n<p>Print lexicographically smallest string present in L prefixed by S.</p>\n<h3>Constraints</h3>\n<p>T&lt;=100<br /><br />\n\t\t|s| &lt;= 50<br /><br />\n\t\tN&lt;=10<br />\n</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\ncheese\n3\ncheeseroll\nchees\ncheesetoast<br />\n<b>Output:</b>\ncheeseroll\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-04-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Kodeathon 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1365921000,
+        "end_date": 1365949800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1365949800,
+        "submit_start_date": 1365921000,
+        "current": 1537438358
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>gauravjasraj</span>",
+    "problem_name": "Recipe Cluster",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/gauravjasraj'>gauravjasraj</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "gauravjasraj",
+    "contest_code": "KDAT2013",
+    "max_timelimit": "1",
+    "problem_code": "CLUSTER"
+}

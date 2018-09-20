@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>The Barbarian King is playing Clash of Clans. He finds a secret maze in the game filled with a bag of green gems.The given maze is split into <b>N\u2009\u00d7\u2009N </b>cells. All cells does not contains gems, some of them contains greedy goblins who love to steal these gems. If the barbarian king moves to a cell containing bag of gems he takes it but if he moves to a cell containing goblins he loses some gems. Each cell contains the amount of gems he gains or loses. As everybody knows the value of these green gems, he wants to maximize the gems as much as possible maintaining the following constraints:</p>\n<ul>\n<li>He enters the maze from bottom left corner. Right after the start he runs towards top right corner, besides he can only move one cell upward or one cell right in one move.</li>\n<p><br /></p>\n<li>When he reaches top right corner he runs towards bottom left corner to exit the maze, he can only move one cell downward or one cell left in one move.</li>\n<p><br /></p>\n<li>He is not allowed to move outside the maze.</li>\n<p><br /></p>\n<li>Gems can be gained or lost only once from each cell.</li>\n<p><br /></p>\n<ul>\n<br /><br />\nHelp the barbarian king to obtain as much gems as possible. The output can be negative in this case the barbarian king loses his own gems.\n\n<p><b>Note:</b> positive number in cells denote <b>G<sub>p</sub></b> amount of gems gained and negative number in cells denote <b>G<sub>n</sub></b> amount of gems lost.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<p><br /></p>\n<li>The first line contains a single integer <b>N</b>.</li>\n<p><br /></p>\n<li>The next <b>N</b>  lines contain <b>N</b> integers each, denoting <b>G<sub>p</sub></b> or <b>G<sub>n</sub></b> as mentioned above.</li>\n<p><br />\n</p></ul>\n<h3>Output</h3>\n<p>Print <b>T</b> lines each containing a single integer, the answer to each test case.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100</b></li>\n<li><b>-1000</b> \u2264 <b>G<sub>p</sub></b> , <b>G<sub>n</sub></b> \u2264 <b>1000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<p>2\n2\n5 3\n-2 1\n3\n-200 98 7\n54 -149 89\n-115 -176 136</p>\n\n<b>Output:</b>\n<p>7\n-16</p>\n</pre></ul></ul>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Code Mania 2016",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1456155000,
+        "end_date": 1456165800,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1456165800,
+        "submit_start_date": 1456155000,
+        "current": 1537435342
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>subham_kumar</span>",
+    "problem_name": "Lust for Gems",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/subham_kumar'>subham_kumar</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "subham_kumar",
+    "contest_code": "COMA2016",
+    "max_timelimit": "1",
+    "problem_code": "CDMN1604"
+}

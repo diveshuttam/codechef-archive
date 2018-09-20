@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nWhile learning simple DP problems, Ira came across this simple problem. Given a grid in two dimensions having <b>N </b> rows and <b> M </b> columns, how many paths exist from top-left cell of the grid to bottom-right cell when allowed movements in one step are one cell from left to right or one cell top to bottom only? </p>\n<p>\nFormally, a cell of the given grid <b>G</b> in the <b>i<sup>th</sup> </b> row and <b> j <sup> th </sup> </b> column is represented as <b>G(i, j) </b>. In one step, Ira can go from G(i, j) to either G(i+1, j) or G(i, j+1). One way to count number of paths from G(1, 1) to G(N, M) is using Dynamic Programming. Let us denote this count as C(G) i.e., number of paths from G(1, 1) to G(N, M) in grid G. \n</p>\n<p> \nAfter learning this DP problem, she thought about a similar problem. Given the value of X = C(G), find the corresponding Grid, G. There might be many grids G having same value of C(G). You need to find out all of them satisfying the output constraints given under constraints section.\n</p>\n\n\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>Only line of each test case contains one integer denoting value of X </li>\n</ul>\n<p> </p>\n\n<h3>Output</h3>\n<ul>\n<li>For each test case, if there are no grids G having N rows and M columns, satisfying the constraints, such that C(G) = X then print in one line \"The Grid is Too Big!\".</li> \n<li>Otherwise, in first line print the number of grids such that C(G) = X and satisfying the output constrains. Following lines, each containing one possible grid, two space separated integers denoting N and M respectively. Output should be sorted according to increasing value of N. </li>\n</ul>\n<p> </p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>X</b> \u2264 <b>10<sup>1000</sup></b> </li>\n</ul>\n<p> </p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n2\n6\n2011\n\n<b>Output:</b>\n1\n2 2\n3\n2 6\n3 3\n6 2\nThe Grid is Too Big!\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Horcruxes",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1454513400,
+        "end_date": 1454531400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454531400,
+        "submit_start_date": 1454513400,
+        "current": 1537435551
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>triveni</span>",
+    "problem_name": "Number of Paths in a Grid",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/triveni'>triveni</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "triveni",
+    "contest_code": "IPC15P2B",
+    "max_timelimit": "1.5",
+    "problem_code": "PATHS"
+}

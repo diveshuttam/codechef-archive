@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Geek Room is a square with N x N tiles. Geek wants to play with his RC car in this room.<br/><br />\nThe battery of the car is of limited capacity. We say the capacity of the battery is C, when, from an initial tile, a car with full charge<br />\ncan reach a tile with Manhattan distance of atmost C from the initial tile, i.e,<br/><br />\n|X<sub>f </sub>- X<sub>s</sub>| + |Y<sub>f</sub> - Y<sub>s</sub>| &lt;= C<br />\nwhere, <br/> (X<sub>f</sub>, Y<sub>f</sub>) are the co-ordinates of the final tile,<br/><br />\n      (X<sub>s</sub>, Y<sub>s</sub>) are the co-ordinates of the initial tile.<br/><br />\nInitially, the car is placed in a tile T<sub>s</sub> and the battery has no charge. Geek then recharges the battery (he cannot recharge<br />\nthe battery partially) and plays with the car for some time before recharging again. The battery<br />\nmay or may not be exhausted before he decides to recharge it again. After a 'play', the car would have moved from the initial tile to another tile whose Manhattan<br />\ndistance from the initial tile is less than C. He recharges the car keeping it at the final tile of the previous play and starts playing again from that tile.<br/></br/></br/></br/></br/></br/></br/></p>\n<p>Some of the tiles in Geek Room are damaged and Geek will never make his car stop at a damaged tile at the end of a play. The car also won't be placed in a damaged tile initially.(T<sub>s</sub> won't be damaged)<br />\n<br/></br/></p>\n<p>Now, your task is to find the number of ways the car could have moved after R recharges.</p>\n<p><b>Note</b><br/></br/></p>\n<ul>\n<li>After a 'play', the car can stay in the initial tile.</li>\n<li>The number of ways the car could have moved after a play is the number of final tiles possible.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line contains the number of test cases T. T cases follow. Each case contains integers N, R and C on the first line. The next N lines contains N characters each. The ith character on the jth line is a '.' if the corresponding tile is a normal tile, 'D' if the tile is damaged, or 'S' if it is the initial tile T<sub>s</sub>. .</p>\n<h3>Output</h3>\n<p>For each case, output the number of ways the car could have moved after R recharges. Output each answer modulo 1000000007.\u00a0</p>\n<h3>Constraints</h3>\n<p><b>1</b> &lt;= <b>T</b> &lt;= <b>10</b> <br/><br />\n<b>1</b> &lt;=<b> C</b> &lt;= <b>N</b> &lt;= <b>250</b> <br/><br />\n<b>1</b> &lt;= <b>R</b> &lt;= <b>200</b> \u00a0</br/></br/></p>\n<p><br/></br/></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3  \n4 1 1  \n....  \n.SD.  \n....  \n....  \n3 2 1  \n...  \n...  \n..S  \n4 3 2  \n....  \n...S  \n..D.  \n...D\n\n<b>Output:</b>\n4  \n11  \n340\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>For the first case, the car could move to any of the 4 adjacent tiles, except the tile to the right. It can also remain at its position. Thus there are 4 ways the car could have moved after a recharge</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "aBaCUS16",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457623800,
+        "end_date": 1457633700,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457633700,
+        "submit_start_date": 1457623800,
+        "current": 1537435204
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>uvsankar</span>",
+    "problem_name": "Geek Room",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/uvsankar'>uvsankar</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "uvsankar",
+    "contest_code": "ABCS2016",
+    "max_timelimit": "0.1 - 0.5",
+    "problem_code": "ABACUS07"
+}

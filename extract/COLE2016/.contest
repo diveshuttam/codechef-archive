@@ -1,0 +1,107 @@
+{
+    "announcements": "Problem Name: <b>Final Showdown</b>\r\nSample Input and output is provide in the comment section.   \r\n<br/><br/>\r\nProblem Name: <b>Overhead Attack</b>\r\nPlease note that Superman and Batman will always move optimally, i.e Superman will try to catch Batman in as less moves as possible whereas Batman will try to outrun Superman for as many moves as he can.   <br/>\r\nNOTE: The answer should be correct upto 7 decimal places.\r\n<br/><br/>\r\n\r\nProblem Name: <b>Disabling Installations</b>\r\nThe sample input is wrong. You do not have to take the number of test cases as input.There will always be 1 test case. Example:<br/>\r\nInput:<br/>\r\n2 10<br/>\r\n1 2<br/>\r\nOutput:<br/>\r\n11\r\n<br/><br/>\r\nProblem Name: <b>Moon Throwing</b>\r\nThe sample input is incorrect. The correct input is:<br/>\r\nInput:<br/>\r\n1<br/>\r\n0 0 0 10<br/>\r\n50 0 0 5<br/>\r\n65 0 0 8<br/>\r\nThe constraints should be: <br/>\r\n    0 \u2264 <b>all coordinates</b> \u2264 10^9\r\n",
+    "ip": "149.129.135.113",
+    "code": "COLE2016",
+    "duration": "2880",
+    "name": "Coder's Legacy 2016",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": " <p><b class=\"rules-heading\">About Contest:</b></p> <div class=\"rules-body\"> <ul class=\"\"> <li><b>Organiser: </b> The contest is hosted by Kalyani Government Engineering College.</li> <li><b>Prize details: </b><br />- \u00a0Top one winner overall will receive a CodeChef goodie.<br />- Top two winners from Kalyani Government Engineering College will receive a \u00a0 CodeChef goodie.</li> <li><b>Registrations for prizes: </b><span> </span><a target=\"_blank\" rel=\"nofollow nofollow\" href=\"http://goo.gl/forms/yfLR9pPamL\">goo.gl/forms/yfLR9pPamL</a></li> </ul> </div> <p><b class=\"rules-heading\">Contest Details:</b></p> <div class=\"rules-body\"> <ul class=\"\"> <li><b>Duration: </b>03 days</li> <li><b>Start time: </b>05th February 2016, 2100 hrs IST</li> <li><b>End time: </b>07th February 2016, 2100 hrs IST<br /> You may check your timezone <a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+Coder%27s+Legacy+2016&amp;iso=20160205T21&amp;p1=44\">here</a>.</li> </ul> </div> <p><b class=\"rules-heading\">Registration:</b></p> <div class=\"rules-body\"> <p>You just need to have a CodeChef username to participate. No seperate registration is required. If you do not have a CodeChef ID create one <a target=\"_blank\" href=\"/user/register\"> here</a>.</p> </div> <p><br /> <b class=\"rules-heading\">CodeChef: A Platform for Aspiring Programmers</b></p> <div class=\"rules-body\"> <p>CodeChef was created as a platform to help programmers make it big in the world of algorithms, computer programming and programming contests. At CodeChef, we work hard to revive the geek in you by hosting a programming contest at the start of the month and another smaller programming challenge in the middle of the month.</p> </div> <p><br /> <b class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</b></p> <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct.</a></p> </div> <p><br /> <b class=\"rules-heading\">What's new in CodeChef?</b></p> <div class=\"rules-body\"> <p>You may now play with our new <a target=\"_blank\" href=\"http://blog.codechef.com/2015/02/04/play-more-in-discuss-with-groups-latex\">groups &amp; LaTex feature</a> on discuss.</p> </div> <p><br /> <b class=\"rules-heading\">Rules and Regulations:</b></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\"> feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li> <li>Please contact <a target=\"_blank\" href=\"mailto:soumyadeep.roy9@gmail.com\">soumyadeep.roy9@gmail.com</a> for any queries during the contest.</li> </ul> <p><b class=\"rules-heading\">Judging Criteria:</b></p> <ul class=\"\"> <li><b>All the problems have same points alloted to them.</b></li> <li><b>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time</b></li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> </ul> <div class=\"\"><b>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched<a href=\"/ide\" target=\"_blank\">Online IDE</a>.</b><br />However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COLE2016/1454649203.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CLDROP": {
+            "allow_submission": false,
+            "name": "Drop Testing",
+            "category_name": "main",
+            "accuracy": 4.57,
+            "successful_submissions": "14",
+            "code": "CLDROP",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLDSTR": {
+            "allow_submission": false,
+            "name": "Disciple Training",
+            "category_name": "main",
+            "accuracy": 2.15,
+            "successful_submissions": "10",
+            "code": "CLDSTR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLDSIN": {
+            "allow_submission": false,
+            "name": "Disabling Installations",
+            "category_name": "main",
+            "accuracy": 1.9,
+            "successful_submissions": "3",
+            "code": "CLDSIN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLSHDN": {
+            "allow_submission": false,
+            "name": "Final Showdown",
+            "category_name": "main",
+            "accuracy": 2.5,
+            "successful_submissions": "1",
+            "code": "CLSHDN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLBMUP": {
+            "allow_submission": false,
+            "name": "Batmobile Upgradation",
+            "category_name": "main",
+            "accuracy": 47.73,
+            "successful_submissions": "464",
+            "code": "CLBMUP",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLMNTR": {
+            "allow_submission": false,
+            "name": "Moon Throwing",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "CLMNTR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLATTK": {
+            "allow_submission": false,
+            "name": "Overhead Attack",
+            "category_name": "main",
+            "accuracy": 3.95,
+            "successful_submissions": "3",
+            "code": "CLATTK",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1454859000,
+        "current": 1537435502,
+        "freezing": 0,
+        "start": 1454686200
+    },
+    "user": {
+        "username": ""
+    }
+}

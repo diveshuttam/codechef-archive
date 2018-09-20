@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<h3>Problem description</h3>\n<p>Lets play some mind(brain) games ! </p>\n<p>TO CHECK WHETHER THE GIVEN CHARACTER IS ODD OR EVEN?</p>\n<p> Use <b>Brainfuck</b> Programming Language</p>\n<p>The Input needs to be converted to a decimal(ascii). Then check the decimal value is odd or even and print whether the input is odd or even.</p>\n\n<a href=\"https://drive.google.com/open?id=0BzoJ3-ZOiz8mOGg2WG1hRXBQclk\" target=\"_blank\"> CLICK HERE for language documentation. </a>\n\n\n<h3>Input</h3>\n<p>Input description.</p>\n<ul>\n<li>A single line of the input is provided which contains a string of characters.</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>\u00a0For each character, output \"odd\" if the input character has an odd ascii value.</p>\n<p>\u00a0For each character, output \"even\" if the input character has an even ascii value.</p>\n<p> </p>\n\n<h3>Example</h3>\n<b>Input:</b>\n<p>qwerty</p>\n\n<b>Output:</b></br>\nodd</br>\nodd</br>\nodd</br>\neven</br>\neven</br>\nodd</br></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "CodeYourHistory",
+    "languages_supported": "BF",
+    "todo": false,
+    "time": {
+        "view_start_date": 1507394400,
+        "end_date": 1507401600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1507401600,
+        "submit_start_date": 1507394400,
+        "current": 1537433486
+    },
+    "problem_author_html_handle": "architkaila",
+    "problem_name": "Stress Your Brain !!",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/architkaila'>architkaila</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "architkaila",
+    "contest_code": "COYH2017",
+    "max_timelimit": "1",
+    "problem_code": "Q3_NU"
+}

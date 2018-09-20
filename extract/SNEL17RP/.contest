@@ -1,0 +1,137 @@
+{
+    "announcements": "<p><b>2321 hrs IST:</b> Hello Everyone, We noticed that we have missed making the solutions of the elimination round private. Now we are already half way through the contest and the damage is done. Keeping into consideration of the series of events and the spirit of the competition, we are calling back the prizes that were announced earlier. We shall be more diligent in our future events and we sincerely apologize for the inconvenience caused. Thank you for bearing with us.</p>\r\n<p><b>2100 hrs IST</b>: The problem\u00a0SPCLN from yesterday's elimination round has been removed from today's replay round. It was found to be similar to another problem.</p>",
+    "ip": "149.129.135.113",
+    "code": "SNEL17RP",
+    "duration": "300",
+    "name": "SnackDown 2017 Online Elimination Round Replay",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<h4>About CodeChef SnackDown 2017</h4>\r\n<p class=\"last\">SnackDown 2017 is an annual multi-round global programming tournament conducted by CodeChef. More information about it can be found <a href=\"/snackdown/2017\">here</a>.</p>\r\n<h4 style=\"font-size: 10px;\">Prizes:</h4>\r\n<ul class=\"last\">\r\n<li>Top 3 winners will win cool SnackDown t-shirts.</li>\r\n</ul>\r\n<h4>Contest Details:</h4>\r\n<ul class=\"last\">\r\n<li><b>Duration: </b>5 hours</li>\r\n<li><b>Start time: </b>4th\u00a0June 2017, 2100 hrs IST</li>\r\n<li><b>End time: </b>5th June 2017, 0200 hrs IST</li>\r\nYou may check your timezone <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+SnackDown+Elimination+Replay+Round&amp;iso=20170604T21&amp;p1=44&amp;ah=5\" target=\"_blank\">here</a>. \r\n</ul>\r\n<h4>Eligibility Criteria:</h4>\r\n<p class=\"last\">Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" class=\"button blue\">CodeChef Code Of Conduct.</a></p>\r\n<h4>Rules and Regulations:</h4>\r\n<ul>\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us.</li>\r\n<li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li>\r\n<li>Please contact <a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a> for any queries during the contest.</li>\r\n</ul>\r\n<h4>Judging Criteria:</h4>\r\n<ul class=\"last\">\r\n<li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li>\r\n<li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li>\r\n<li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li>\r\n<li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li>\r\n<li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li>\r\n</ul>\r\n<p><b>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"/ide\" target=\"_blank\">Online IDE</a>.</b></p>\r\n<p>However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/sites/default/files/uploads/landing_page_banners/banner-compete.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "PLUSMUL": {
+            "allow_submission": false,
+            "name": "Add or Multiply",
+            "category_name": "main",
+            "accuracy": 49.02,
+            "successful_submissions": "49",
+            "code": "PLUSMUL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "WIQ": {
+            "allow_submission": false,
+            "name": "Waiting in a Queue",
+            "category_name": "main",
+            "accuracy": 54.29,
+            "successful_submissions": "18",
+            "code": "WIQ",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BLACKCOM": {
+            "allow_submission": false,
+            "name": "Black Nodes in Subgraphs",
+            "category_name": "main",
+            "accuracy": 81.82,
+            "successful_submissions": "16",
+            "code": "BLACKCOM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GQUERY": {
+            "allow_submission": false,
+            "name": "Game Revisited",
+            "category_name": "main",
+            "accuracy": 75,
+            "successful_submissions": "15",
+            "code": "GQUERY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MEXDIV": {
+            "allow_submission": false,
+            "name": "Mex division",
+            "category_name": "main",
+            "accuracy": 53.66,
+            "successful_submissions": "39",
+            "code": "MEXDIV",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHEFPRAD": {
+            "allow_submission": false,
+            "name": "Chef and Pairs",
+            "category_name": "main",
+            "accuracy": 56,
+            "successful_submissions": "27",
+            "code": "CHEFPRAD",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ROBOTDAG": {
+            "allow_submission": false,
+            "name": "Robots in a DAG",
+            "category_name": "main",
+            "accuracy": 64.86,
+            "successful_submissions": "22",
+            "code": "ROBOTDAG",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PREFIXOR": {
+            "allow_submission": false,
+            "name": "Prefix XOR",
+            "category_name": "main",
+            "accuracy": 46.81,
+            "successful_submissions": "19",
+            "code": "PREFIXOR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ANCESTOR": {
+            "allow_submission": false,
+            "name": "Ancestors in Two Trees",
+            "category_name": "main",
+            "accuracy": 40.63,
+            "successful_submissions": "34",
+            "code": "ANCESTOR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FOURPTS": {
+            "allow_submission": false,
+            "name": "Four Points",
+            "category_name": "main",
+            "accuracy": 41.18,
+            "successful_submissions": "21",
+            "code": "FOURPTS",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1496608200,
+        "current": 1537433801,
+        "freezing": 0,
+        "start": 1496590200
+    },
+    "user": {
+        "username": ""
+    }
+}

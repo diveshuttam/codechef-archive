@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>You are the organizer of a very famous programming competition. There are total n students participating in it. Before the start of the competition, all participants were asked to sit in a line. The participants sat at any positions according to their choices. You are given this initial sitting of participants by a string <b>s</b> of size n. Each character of string <b>s</b> is a lower case English alphabet from 'a' to 'z' denoting the team name of the participant.</p>\n\n<p>\nInitially, the participant did not even take care that all the participants of same team should be sitting consecutively, continuously as a group, so that they can discuss the problems among themselves. You are annoyed to see this and want to rearrange the sitting of the participants.\n</p>\n\n<p>\nBeing a mathematician, you thought of following way for rearranging the students - You generate a permutation <b>P</b> of {1, 2, ..., n}. Then you ask the participant sitting at position <b>i</b> to go and stand at position <b>P<sub>i</sub></b>. After the rearrangement is done, you ask all the standing participants to sit down and occupy the seats. Let us take an example, say \"abc\" denote the current arrangement of students. Let permutation <b>P</b> be {2, 3, 1}. Then participant 'a' at position 1 will go and stand at position 2, participant 'b' sitting at position 2 will go to position 3 and stand there. Participant 'c' will go and stand at position 1. Finally, all the participants will sit at their position and the final rearrangement will be shown by string \"cab\".\n</p>\n\n<p>\nYou just realized that not all permutations will arrange the participants in a correct way. So, you are just wondering how many permutations <b>P</b> of {1, 2, , n} exist such that the rearranged sittings of the participants satisfy the requirement of team members of each team being continuous. As the answer could be large, output it modulo <b>10<sup>9</sup> + 7</b>.\n</p>\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>\n<p>The only line of the each test case will contain a string <b>s</b> denoting the initial arrangement of the participants..</p>\n\n<h3>Output</h3>\n<p>For each test case, output a single integer corresponding to number of valid permutations as stated in the problem. Output your answer modulo <b>10<sup>9</sup> + 7</b>. </p>\n\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>s</b> will consist of lower case English alphabets, i.e. characters from 'a' to 'z'.</li>\n</ul>\n\n<h3>Subtasks</h3>\n<p>\n<b>Subtask #1 (30 points)</b>\n<ul>\n<li>1 \u2264 n, i.e. size of string <b>s</b> \u2264 <b>8</b></li>\n</ul>\n</p>\n\n<p>\n<b>Subtask #2 (70 points)</b>\n<ul>\n<li>1 \u2264 n, i.e. size of string <b>s</b> \u2264 <b>10<sup>5</sup></b></li>\n</ul>\n</p>\n\n<h3>Example</h3>\n<pre><b>Input</b>\n3\naba\naaa\nabc\n\n<b>Output:</b>\n4\n6\n6\n</pre>\n\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> There are total 4 valid permutations. These are {1, 3, 2}, {2, 1, 3}, {2, 3, 1}, {3, 1, 2}. The invalid permutations are {1, 2, 3} and {3, 2, 1}.</p>\n<p><b>Example case 2.</b> As all the participants belong to same team. All the 6 permutations will be valid.</p>\n<p><b>Example case 3.</b> In this case, there is a single participant per team, so here also all the 6 permutations will be valid.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-07-2016",
+    "is_direct_submittable": false,
+    "contest_name": "July LoC Competitive Programming Marathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1469730600,
+        "end_date": 1470076140,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1470076140,
+        "submit_start_date": 1469730600,
+        "current": 1537434715
+    },
+    "problem_author_html_handle": "admin2",
+    "problem_name": "Arranging teams in a programming competition",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin2'>admin2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin2",
+    "contest_code": "LOCJUL16",
+    "max_timelimit": "2",
+    "problem_code": "PROGCOMP"
+}

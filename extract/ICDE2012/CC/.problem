@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Given a undirected graph find the number of connected components.\n\n<h3>Input</h3>\n<p>First line of the input is 't'- number of test case.<br/> Followed by N, the number of vertices  (Numbered 0 to N-1).<br/> Followed by 'e' number of edges.<br/> Followed by description of  'e' edges in the form 'a b'  I.e. an edge exist between vertex a and b.<br/>\nConstraints:<br/>\nT=10<br/>\n2 <= N <= 100000<br/>\n0 <= e <= N/2<br/>\n\n\n<h3>Output</h3>\n<p>One line per test case, number of connected components in the graph.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n4\n2\n0 1\n0 2\n8\n0\n\n\n<b>Output:</b>\n2\n8\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "I-Code 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1331479800,
+        "end_date": 1331490600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1331490600,
+        "submit_start_date": 1331479800,
+        "current": 1537438892
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>jishnuunique</span>",
+    "problem_name": "Connected Components",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/jishnuunique'>jishnuunique</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "jishnuunique",
+    "contest_code": "ICDE2012",
+    "max_timelimit": "0.117647",
+    "problem_code": "CC"
+}

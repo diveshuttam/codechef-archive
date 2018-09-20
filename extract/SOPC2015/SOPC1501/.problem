@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Luke Skywalker has to reach the Death Star to prevent the destruction of another planet and thwart Darth Vader. But Jar Jar Binks has somehow managed to screw up his hyperdrive! So, he is forced to go to each planet on the way to refuel. The amount of fuel required to go from planet number 'n' to the next planet (n+1) is given by the function f , f(2n) = f(n), f(2n+1) = f(2n)+1 and f(1) = 1.Assuming that Luke gets only the exact amount of fuel to go to the next planet, find the size of the fuel tank that would be just sufficient enough for the journey from planet x to the Death Star which orbits the planet y.\n</p>\n<p>May the Force be with you!!</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The planet numbers x and y will be given as two space separated integers.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Output a single integer that denotes the capacity of the fuel tank which would be just sufficient enough for the entire journey.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<p>The planet numbers range from 1 to 10^6.</p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5 10\n\n<b>Output:</b>\n3\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>They have to start from planet 5 and reach planet 10.<br />\nSo,f(5),f(6),f(7),f(8) and f(9) have to be considered.<br />\nf(1) = 1,<br />\nf(2) = 1,<br />\nf(3) = 2,<br />\nf(4) = 1,<br />\nf(5) = 2,<br />\nf(6) = 2,<br />\nf(7) = 3,<br />\nf(8) = 1 and<br />\nf(9) = 2.</p>\n<p>So the size of the tank which would be sufficient enough is 3.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-12-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Shaastra Online Programming Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1450539000,
+        "end_date": 1450552500,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1450552500,
+        "submit_start_date": 1450539000,
+        "current": 1537435742
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>partha278</span>",
+    "problem_name": "Bumbling Binks",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/partha278'>partha278</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "partha278",
+    "contest_code": "SOPC2015",
+    "max_timelimit": "0.001",
+    "problem_code": "SOPC1501"
+}

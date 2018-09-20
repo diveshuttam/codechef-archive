@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">\nTurtur has started preparation for All Champions Mathematics Contest going to be held in Feb. this year. Although he is very good at mathematics, but his weakest among all topics is Number Theory. So he has been studying various Number Theory problems from past few days. He came across one of the problems called <b>Excessivity of a number problem.</b>\n<br /><br /><b>Excessivity</b> of a number is defined as the product of <b>Summation excess function</b> of every prime below or equal to that number. \n<br /><b>Summation excess function</b> for a prime number is defined as sum of <b>Excess function</b> of all positive powers till power <b>K</b> of that prime number.\n<br /><b>Excess function</b> of a number is defined as the sum of all divisors of that number (including 1 and itself) minus that number itself.\n<br /><br />\nExcess(x) = sum of divisors of \"x\" \u2013 x.<br />\nSummationExcess(P,K) =<img src=\"http://www.csidtu.com/cranium/problem3_1.JPG\" /> <br />\nExcessivity(N,K) = <img src=\"http://www.csidtu.com/cranium/problem3_2.JPG\" /><br />\n<br />\nTurtur has found a very nice solution for this problem for some values of <b>N</b> &amp; <b>K</b>. But since he is weak in Number Theory, he is unsure of his results and he wants to crosscheck his answers for given values of <b>N</b> &amp; <b>K</b>. Since this result can be pretty large, just tell him the Excessivity(N,K) modulo 10^9+7.\n\n\n<h3>Input</h3>\n</p><p>First line consists of <b>T</b> the number of test cases. Each of the next <b>T</b> lines contains two integers <b>N</b> and <b>K</b>.\n\n\n<h3>Output</h3>\n</p><p>Output <b>T</b> lines each containing the Excessivity(N,K) modulo 10^9+7.\n\n<h3>Constraints</h3>\n</p><p>\n1&lt;=N&lt;=10^6<br />\n1&lt;=K&lt;=10^9<br />\n1&lt;=T&lt;=10<br />\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n2 3\n5 2\n\n<b>Output:</b>\n11\n140\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Cranium Contest 2012",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1329831900,
+        "end_date": 1329860700,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1329860700,
+        "submit_start_date": 1329831900,
+        "current": 1537438969
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>abhidce2013</span>",
+    "problem_name": "All Champions Mathematics Contest",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhidce2013'>abhidce2013</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abhidce2013",
+    "contest_code": "CRNM2012",
+    "max_timelimit": "0.344828",
+    "problem_code": "CRNM1203"
+}

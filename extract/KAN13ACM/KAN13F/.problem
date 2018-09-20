@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>In olden days, when primary memory was not as available as it is now, files were stored in external storage devices like tapes, and then two files or their parts were loaded in memory for merging. In merging two sorted files, in the worst case, number of comparisons required equals sum of lengths of the two files. Assume in <b>K</b>-way merging the number of comparisons equals sum of lengths of files to be merged. Given length of a set of files you are required to find order in which these files will have to be merged in minimum number of comparisons.</p>\n<h3>Input</h3>\n<p>The first line of input is an integer <b>T</b>, denoting the number of test cases. </p>\n<p>From the next line, test cases follow. For each case, the first line contains two integers, <b>N</b> and <b>K</b>, representing respectively number of files to be merged and maximum number of files that can be merged at the same time. Next line contains <b>N</b> positive integers representing the length of each file.\u00a0</p>\n<h3>Output</h3>\n<p>For each test case, you must print a single line with the test case number and the minimum number of comparisons incurred to merge the files. Please refer to the sample input and output for exact formatting.</p>\n<h3>Constraints</h3>\n<p>1 &lt;= <b>T</b> &lt;= 50</p>\n<p>1 &lt;= <b>N</b> &lt;= 1000</p>\n<p>2 &lt;= <b>K</b> &lt;= <b>N</b></p>\n<p>The maximum length of a file can be 10^8.</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n11 2\n3 1 4 5 2 7 6 8 3 9 4\n11 3\n3 1 4 5 2 7 6 8 3 9 4\n\n<b>Output:</b>\nCase 1: 172\nCase 2: 110\n\n</pre>\n<p><b>\n<p>Problem Setter : Dr. M. Kaykobad</p>\n<p></p></b></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-12-2013",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Kanpur onsite regionals 2013 : Replay",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1387027800,
+        "end_date": 1387045800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1387045800,
+        "submit_start_date": 1387027800,
+        "current": 1537437980
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>shangjingbo</span>",
+    "problem_name": "Merging Files",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/greedy'>greedy</a>, <a class='problem-tag-small ' href='/tags/problems/kan13acm'>kan13acm</a>, <a class='problem-tag-small ' href='/tags/problems/medium-hard'>medium-hard</a>, <a class='problem-tag-small ' href='/tags/problems/shangjingbo'>shangjingbo</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shangjingbo",
+    "contest_code": "KAN13ACM",
+    "max_timelimit": "0.35907",
+    "problem_code": "KAN13F"
+}

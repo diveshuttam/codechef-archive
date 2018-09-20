@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>You are given the coordinates of 4*K+5 points on a plane such that no three of them are collinear. You need to select five points from these : a central point O and four arm points A,B,C,D such that:\n<ul><li>Rays from the centre to the arm points divide the plane into four regions containing an equal number of points\n<li>None of the four central angles is a reflex angle\n<li> Sum of absolute values of the cotangents of the central angles is as low as possible\n</ul>\n<p>\n<p>If it is possible to choose points satisfying this condition, output the lowest possible value for the sum of absolute values of the cotangents of the central angles. Otherwise report that it is not possible.\n\n<h3>Input</h3>\n<p>The first line of input contains T(<=4), the number of test cases. Following this are the descriptions of the T test cases.\n<p>The first line in the description of each test case gives K(<=100). Following this are 4*K+5 lines giving the x and y coordinates of each point separated by a space (0<=x,y<=10<sup>6</sup>)\n\n<h3>Output</h3>\n<p>For each test case output in a different line the minimum sum of absolute values of the cotangents of the central angles, with six digits after the decimal point. If the division cannot be done in the manner explained, print Impossible\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n0\n0 0\n0 1\n1 1\n1 0\n2 3\n0\n0 0\n2 0\n0 1\n2 1\n1 2\n\n<b>Output:</b>\n4.000000\nImpossible\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "IIT Kanpur IOPC 2011",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1297492200,
+        "end_date": 1297578600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1297578600,
+        "submit_start_date": 1297492200,
+        "current": 1537439382
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>razimantv</span>",
+    "problem_name": "Partitioning the plane",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/razimantv'>razimantv</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "razimantv",
+    "contest_code": "IOPC2011",
+    "max_timelimit": "6",
+    "problem_code": "IOPC1106"
+}

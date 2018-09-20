@@ -1,0 +1,33 @@
+{
+    "problem_code": "BANKPASS",
+    "problem_author": "prog_iitmandi",
+    "contest_name": "Dementia 2015",
+    "todo": false,
+    "problem_author_html_handle": "prog_iitmandi",
+    "problem_name": "Bank and vulnerable passwords",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "DMNT2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/prog_iitmandi'>prog_iitmandi</a>, <a class='problem-tag-small ' href='/tags/problems/trie'>trie</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nThere is a bank which gives their customers a password 'only' for transactions(there is no username) via ATM. Also the ATM does not have any enter key, it automatically logs you into your account as soon as you enter the right password. There is a huge problem in such type of system,i.e., suppose that if two people A and B have \u201caadil\u201d and \u201caadilahmad\u201d as their passwords respectively, so whenever B will try to login, the machine will automatically login B into A\u2019s account.\n</p>\n<p>\n<b>Input:</b><br /><br />\n\tFirst line of the input contains an integer N,the number of users in Bank. Next N lines contains strings which are passwords of the users. Tell if the bank is vulnerable or non-vulnerable.\n</p>\n<p>\n<b>Output:</b><br /><br />\nPrint \"vulnerable\" if the bank is vulnerable or \"non vulnerable\" if the bank is not vulnerable.\n</p>\n<p>\n<b>Program constraints -</b> <br /><br />\nN &lt;= 10^5<br /><br />\nAll passwords consists of lower case english alphabets<br /><br />\n1&lt;=length of password&lt;=50<br />\n</p>\n<p>\n<b>Sample Input -</b> <br /><br />\n2<br /><br />\nlikemeifyoucan<br /><br />\nlikeme<br />\n</p>\n<p>\n<b>Sample Output -</b> <br /><br />\nvulnerable<br />\n</p>\n",
+    "category_name": "main",
+    "date_added": "23-03-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/BANKPASS",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1427905800,
+        "end_date": 1427914800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1427914800,
+        "submit_start_date": 1427905800,
+        "current": 1537436453
+    },
+    "user": {
+        "username": ""
+    }
+}

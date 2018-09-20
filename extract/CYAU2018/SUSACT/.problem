@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>You are the new night guard at the famous Museum of Natural History and you are required to keep everything in check so as to keep your job. The Museum has $N$ sections and the sections are connected to each other such that they form a tree. \nAt the beginning all the sections are marked as unsuspicious but you have to check area which are suspicious in the museum.\nYou will be given $Q$ queries and you have to solve them to keep the museum safe. The queries are as follows:\n- 0 $a$: change the section $'a'$ from suspicious to unsuspicious or vice-versa.\n- 1 $a$: Give the minimum distance to a section $b$ from $a$, such that $b$ is suspicious. Note that if $'a'$ itself is suspicious then the answer will always be 0.\n\n###Input:\n\n- The first line contains $N$, the number of sections in the museum. \n- The next $N-1$ lines are of the form $u$ $v$ which means that the section $'u'$ is connected to section $'v'$ and vice-versa.\n- The next line contains $Q$, the number of queries.\n- In the next $Q$ lines are queries of the type $\"0$ $a\"$ or $\u201c1$ $a\u201d$.\n\n###Output:\nFor each query of the type $\u201c1$ $a\u201d$, print one integer representing the minimum distance to the closest suspicious section. If there is no suspicious section in the museum then you should print $\u201c-1\u201d$.\n\n###Constraints \n- $1 \\leq N \\leq 100000$\n- $1 \\leq a, u, v \\leq N$\n- $1 \\leq Q \\leq 100000$\n\n###Sample Input:\n    10\n    7 1\n    10 2\n    7 3\n    10 4\n    2 5\n    7 6\n    5 7\n    2 8\n    10 9\n    5\n    0 5\n    1 4\n    1 2\n    0 5\n    0 1\n###Sample Output:\t\n3        \n1\n\t\n###EXPLANATION:\nThe section 5 is marked as suspicious by the first query, the second query asks for the closest suspicious section to 4 as only section 5 is marked suspicious in the whole museum we output the distance to 5. Similarly, for third query the answer is the distance from section 2 to 5.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Cypher August",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1535211000,
+        "end_date": 1535223600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1535223600,
+        "submit_start_date": 1535211000,
+        "current": 1537432047
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>cypher101</span>",
+    "problem_name": "Suspicious Activity",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cypher101'>cypher101</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "cypher101",
+    "contest_code": "CYAU2018",
+    "max_timelimit": "2",
+    "problem_code": "SUSACT"
+}

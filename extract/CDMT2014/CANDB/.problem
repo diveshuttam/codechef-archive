@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Ram is playing a game where there are exactly N cups numbered 1 to N in a row in front of him and he has balls numbered from 1 to N with him. In this game his opponent gives him a number K(0 &lt;= K &lt;= N), and Ram has to arrange the the balls in the cup (1 ball per cup) such that he gets exactly k good cups.</p>\n<p>If the balls arranged in the row are numbered a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>, .... a<sub>n</sub> then a cup is good if |a<sub>i</sub> - i| = 1. </p>\n<p>Ram is a mathematician so, he is thinking the total number of ways he can arrange the balls in the cups such that he get K good positions. Help ram in the problem. As the result might be large, output the ans mod 10^9 + 7.</p>\n<h3>Input:</h3>\n<p>The first line would contain the number of test cases T.<br />\nEvery test case consist of two space separated values N and K. </p>\n<h3>Output:</h3>\n<p>For every test case output the single Integer, the number of ways Ram can arrange exactly N balls in the cups such that he gets K good positions mod 10^9 + 7 (1000000007)</p>\n<h3>Constraints</h3>\n<p>1 &lt;= T &lt;= 201 &lt;= N &lt;= 1000 0 &lt;= K &lt;= N</p>\n<h3>Examples</h3>\n<p><strong>INPUT</strong><br />\n5<br />\n1 0<br />\n2 1<br />\n3 2<br />\n4 1<br />\n7 4<br />\n<strong>OUTPUT</strong><br />\n1<br />\n0<br />\n4<br />\n6<br />\n328</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Code Mutants 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1393081200,
+        "end_date": 1393099200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1393099200,
+        "submit_start_date": 1393081200,
+        "current": 1537437790
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>a_g2009</span>",
+    "problem_name": "Cups and Balls",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/a_g2009'>a_g2009</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "a_g2009",
+    "contest_code": "CDMT2014",
+    "max_timelimit": "2",
+    "problem_code": "CANDB"
+}

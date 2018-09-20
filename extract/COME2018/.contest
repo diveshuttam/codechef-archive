@@ -1,0 +1,123 @@
+{
+    "teamsCount": "290",
+    "announcements": "Please note that penalty for wrong submissions is decreased from 20 mins to 5 mins.\r\nDue to large input for certain questions, use fastio for input/output operations.\r\nThe questions are not in order of difficulty, so make sure to read all the questions once.\r\n\r\nWe have added sample testcase for the question CEXE06 for your understanding.\r\n",
+    "ip": "149.129.135.113",
+    "code": "COME2018",
+    "duration": "120",
+    "name": "comp.exe",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<h4>About the Contest:</h4>\r\n<ul>\r\n<li><strong>Organiser: </strong> The contest is hosted by IIT Madras.</li>\r\n<li><strong>Prizes: </strong>Prizes worth Rs. 6000 to be won! (For Indian participants only)</li>\r\n<li><strong>Registrations for prizes: </strong>Register here before the contest starts to be eligible for prizes: <a href=\"https://www.exebit.in/events/comp.exe\">https://www.exebit.in/events/comp.exe</a><br /><strong></strong></li>\r\n</ul>\r\n<h4>Contest Details:</h4>\r\n<ul class=\"last\">\r\n<li><strong>Duration: </strong>2 hours</li>\r\n<li><strong>Start time: </strong>11th April 2018, 21:00 hrs IST</li>\r\n<li><strong>End time: </strong>11th April 2018, 23:00 hrs IST<br /> You may check your timezone <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+-+comp.exe&amp;iso=20180411T21&amp;p1=44&amp;ah=2\" target=\"_blank\">here</a>.</li>\r\n</ul>\r\n<h4>Registration:</h4>\r\n<p>This is a team contest, so a separate registration is needed for the team to participate. Go through the following steps to register your team:</p>\r\n<ul class=\"last\">\r\n<li>Login with your normal CodeChef user ID.</li>\r\n<li>Click on the <a href=\"../teams/register/COME2018\" target=\"_blank\"><strong>Team Registration Link</strong></a> and register your team for the contest.</li>\r\n<li>Click logout in the top right corner and login using the Team Name and password you registered with.</li>\r\n<li>You can get more information about team contests <a href=\"../wiki/team-contests\" target=\"_blank\">here</a>.</li>\r\n<li>If you do not have a CodeChef ID create one <a href=\"../user/register\" target=\"_blank\"> here</a>.</li>\r\n</ul>\r\n<h4>Eligibility Criteria: Anyone with a knack for Programming :)</h4>\r\n<p class=\"last\">Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct.</a></p>\r\n<h4>Rules and Regulations:</h4>\r\n<ul class=\"last\">\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us. </li>\r\n<li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li>\r\n<li>Almost all languages supported on CodeChef are allowed.</li>\r\n<li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li>\r\n<li>Please contact <a href=\"mailto:dasannagariteja@gmail.com\" target=\"_blank\">dasannagariteja@gmail.com</a> for any queries during the contest.</li>\r\n</ul>\r\n<h4>Judging Criteria:</h4>\r\n<ul class=\"last\">\r\n<li><strong>All the problems have same points alloted to them.</strong></li>\r\n<li><strong>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time</strong></li>\r\n<li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error). There is no time consumed for a problem that is not solved.</li>\r\n<li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li>\r\n<li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li>\r\n</ul>\r\n<p><strong>Note:</strong> You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"../ide\" target=\"_blank\">Online IDE</a>.</p>\r\n<p>However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/sites/default/files/uploads/landing_page_banners/banner-compete.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "CEXE01": {
+            "allow_submission": false,
+            "name": "Fantastic Twos",
+            "category_name": "main",
+            "accuracy": 37.06,
+            "successful_submissions": "131",
+            "code": "CEXE01",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CEXE06": {
+            "allow_submission": false,
+            "name": "Thanos and the Infinity Stones",
+            "category_name": "main",
+            "accuracy": 31.25,
+            "successful_submissions": "4",
+            "code": "CEXE06",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CEXE08": {
+            "allow_submission": false,
+            "name": "Repeated Calculations",
+            "category_name": "main",
+            "accuracy": 26.76,
+            "successful_submissions": "19",
+            "code": "CEXE08",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CEXE07": {
+            "allow_submission": false,
+            "name": "I Can See You",
+            "category_name": "main",
+            "accuracy": 31.01,
+            "successful_submissions": "49",
+            "code": "CEXE07",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CEXE02": {
+            "allow_submission": false,
+            "name": "Prof Kamakoti and IPL queues",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "CEXE02",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CEXE03": {
+            "allow_submission": false,
+            "name": "Nim x Nim",
+            "category_name": "main",
+            "accuracy": 25.4,
+            "successful_submissions": "16",
+            "code": "CEXE03",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CEXE04": {
+            "allow_submission": false,
+            "name": "GCD Queries",
+            "category_name": "main",
+            "accuracy": 26.77,
+            "successful_submissions": "34",
+            "code": "CEXE04",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CEXE05": {
+            "allow_submission": false,
+            "name": "Satisfying Gourmets",
+            "category_name": "main",
+            "accuracy": 20.83,
+            "successful_submissions": "5",
+            "code": "CEXE05",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537432634,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

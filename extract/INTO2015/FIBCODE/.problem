@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Every positive integer can be represented uniquely as the sum of <i>one or more</i> distinct Fibonacci numbers in such a way that the sum does not include any two consecutive Fibonacci numbers.</p>\n<p>With the help of the above proposition, every integer can be encoded into a sequence of 0s and 1s.</p>\n<p>For a number <b><i>N</i></b>, if <b><i>d(0), d(1), d(2)...d(k-1) and d(k)</i></b> represent the digits of the code word representing <b><i>N</i></b> then we have:</p>\n<p><img src=\"http://www.codechef.com/download/INTO2015/FIBCODE.png\" /></p>\n<p>....where <b><i>F </i>(<i>i</i>)</b> is the <i>i</i>th Fibonacci number, and so <b><i>F</i> (<i>i</i>+2) </b>is the <i>i</i>th distinct Fibonacci number starting with <i>1, 2, 3, 5, 8, 13</i>... The last bit <b><i>d(k)</i></b> is always an appended bit of 1 and does not carry place value.</p>\n<p>It is one example of representations of integers based on <a href=\"https://en.wikipedia.org/wiki/Fibonacci_number\" title=\"Fibonacci number\">Fibonacci numbers</a>. Each code word ends with \"11\" and contains no other instances of \"11\" before the end.</p>\n<p>Given a set of numbers, write a program to encode each of them into code words as described above.</p>\n<p><b>Input/Input Format...</b></p>\n<p>Line 1: A single integer T, the number of test cases</p>\n<p>Line 2 to T+1: Each of these lines describes a single integer X (i), followed by a newline.</p>\n<p><b>Output/Output Format...</b></p>\n<p>Line 1 to T: Each of these lines must describe the code for the corresponding integer that had been entered, followed by a newline.</p>\n<p><b>Constraints</b></p>\n<p>All integers in the input are going to be natural numbers.</p>\n<h1>\u00b7 T&lt;=100000 &amp; X (i) &lt;= 18446744073709551615</h1>\n<p><b>Sample Input...</b></p>\n<p>1</p>\n<p>7</p>\n<p><b>Sample Output...</b></p>\n<p>01011</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-07-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Intoxia",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1438489800,
+        "end_date": 1438500600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1438500600,
+        "submit_start_date": 1438489800,
+        "current": 1537436152
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>arpanb8</span>",
+    "problem_name": "Mr Fibonacci does some Encoding",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/arpanb8'>arpanb8</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "arpanb8",
+    "contest_code": "INTO2015",
+    "max_timelimit": "3",
+    "problem_code": "FIBCODE"
+}

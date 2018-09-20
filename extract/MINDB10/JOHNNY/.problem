@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<P>\nJohnny visited his favourite supermarket to purchase as many sweets as he could afford. Since daddy had left his credit card at home untended, this was not really a problem. Once he had (barely) managed to push the trolley laden with chocolate bars past the cash desk, he began to wonder how to carry all the shopping home without breaking his back.\n</p>\n<p>\nYou must know that Johnny is a perfectly normal child, and has exactly 2 hands. Help him distribute his load between both hands so as to minimise the difference in load between both hands.\n</P>\n<H3>Input</H3>\n<P>\nThe first line of input contains a single integer <i>n</i><= 10000 denoting the number of sweet packets Johnny has bought. In each of the next <i>n</i> lines a single positive integer is given, describing the weight of the respective packet (the weight is an integer value never exceeding 10<sup>14</sup>).\n</P>\n<H3>Output</H3>\n<P>\nIn separate lines, output the numbers of the packets which Johnny should carry in his left hand. Assume packets are numbered in the input order from 1 to <i>n</i>.\n</P>\n<H3>Scoring</H3>\n<P>\nYour program shall receive log<sub>10</sub> (<i>s</i>/(|<i>d</i>|+1)) points, where <i>s</i> is the total weight of all parcels, while <i>d</i> denotes the difference in weight between the load carried in Johnny's left and right hand.\n</P>\n<H3>Example</H3>\n<p>\nFor the sample input:\n<pre>\n3\n5\n8\n4\n</pre>\n<p>\na program outputting:\n<pre>\n2\n3\n</pre>\n<p>will score log<sub>10</sub> ((5+8+4)/(|8+4-5|+1))= 0.327 points.\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-12-2008",
+    "is_direct_submittable": false,
+    "contest_name": "Mindbend 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1268364600,
+        "end_date": 1268451000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180181,
+        "submit_start_date": 1268364600,
+        "current": 1537439689
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Johnny Goes Shopping",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "MINDB10",
+    "max_timelimit": "1.11738",
+    "problem_code": "JOHNNY"
+}

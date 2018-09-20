@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Chef loves playing with integers <b>0</b> and <b>1</b> a lot.\nHe always wants to convert an integer into its binary representation \nand does some experiment on that. Suppose Chef has a number <b>N</b> and he writes binary representation of all numbers from <b>0</b> to <b>2<sup>N</sup>-1</b>. He then converts all the <b>0</b> in the binary representation  to <b>1</b> and <b>1</b> to <b>0</b>. Your job's is to help chef to count the total numbers having consecutive <b>1</b>'s in the modified binary representations of numbers from <b>0</b> to <b>2<sup>N</sup>-1</b>. As the total count can be very large, so output count as count modulo <b>1e</b><b>9</b>+<b>7</b>.<br>\n<b>Note</b> :  0011, 11 ,100110, all numbers have consecutive 1's.</p>\n<p>\u00a0</p>\n\n<h3>Input</h3>\n\nThe first line of the input contains an integer <b>T</b> denoting the number of test cases. \n<br>\nNext <b>T</b> lines contains a single integer <b>N</b>.\n\n<p>\u00a0</p>\n\n<h3>Output</h3>\nFor each test case, output a single line containing answer of the problem.\n\n<p>\u00a0</p>\n\n<h3>Constraints and Subtasks </h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>18</sup></b></li>\n\n<p></p>\n\n<b>Subtask</b> <b>1:</b>  <b>5</b> <b>points</b>\n\n\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>20</b></li>\n<p></p>\n\n\n<b>Subtask</b> <b>2:</b>  <b>10</b> <b>points</b>\n\n\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>7</sup></b></li>\n\n<p></p>\n\n<b>Subtask</b> <b>3:</b>  <b>85</b> <b>points</b>\n<li>Original Constraints.\n</ul>\n<p>\u00a0</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n1\n2\n\n<b>Output:</b>\n0\n1\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 2:</b> <b>N</b> is <b>2</b> so chef writes binary representation from <b>0</b> to <b>3</b> which will be 00, 01, 10, 11 and after converting all <b>0</b> to <b>1</b> and all <b>1</b> to <b>0</b> the new sequence of representations will be 11, 10, 01 and 00 respectively. And the total count of numbers having consecutive <b>1</b>'s is one. </p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "31-01-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Codevaitam 3.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1485959400,
+        "end_date": 1486305000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1486305000,
+        "submit_start_date": 1485959400,
+        "current": 1537434169
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>decoder_pheku</span>",
+    "problem_name": "Chef and Binary number",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/decoder_pheku'>decoder_pheku</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "decoder_pheku",
+    "contest_code": "CDVA17",
+    "max_timelimit": "1",
+    "problem_code": "CDVA1705"
+}

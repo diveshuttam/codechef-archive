@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Modern cryptosystems rely heavily on our inability to factor large integers quickly as the basis for their security. They need a quick and easy way to generate and test for primes. Very often, the primes generated are very large numbers. You need to implement ways to test the primality of very large numbers.</p>\n\n<h3>Input</h3>\n<p>Line 1: A number (no more than 1000 digits long)</p>\n\n<h3>Output</h3>\n<p>Line 1: PRIME or COMPOSITE</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2760727302517\n\n<b>Output:</b>\nPRIME\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-03-2009",
+    "is_direct_submittable": false,
+    "contest_name": "IIT Roorkee Insomnia - Speed Round",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1237555800,
+        "end_date": 1237559400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180135,
+        "submit_start_date": 1237555800,
+        "current": 1537439971
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Primality Testing ",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "INSOM1",
+    "max_timelimit": "0.397377 - 6.66",
+    "problem_code": "INSOMB1"
+}

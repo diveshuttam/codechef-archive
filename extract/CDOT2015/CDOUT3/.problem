@@ -1,0 +1,33 @@
+{
+    "problem_code": "CDOUT3",
+    "problem_author": "maz92",
+    "contest_name": "CodeOut 2015",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>maz92</span>",
+    "problem_name": "Susobhan Runs to Win",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CDOT2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/maz92'>maz92</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>Susobhan has decided to take part in a running competition in his locality. Unlike other running competitions this competition doesn't have a fixed path. There are <b>N</b> points numbered 1\u2026<b>N</b> and are connected with one-way roads whose lengths are given. There are <b>R</b> roads connecting these <b>N</b> points. There can be more than one road connecting two points. The participants has to run from point 1, which is the starting point to point  <b>N</b> which is the end point. The participant who reaches point <b>N</b> first is the winner. Susobhan has trained really hard and can beat any other participant expect his rival Mukhesh. They both run at exactly the same speed and thus the winner will be the one who selects the shortest path. Mukhesh has already chosen his path and calculated the length of the path which is <b>C</b>. Now, Susobhan has to select a path as well and you have to tell the probability of him winning the race.<br />\n<b>Note:</b>A path is a route in which no point appears twice.<br />\n<a href=\"http://en.wikipedia.org/wiki/Path_%28graph_theory%29\">Path in a Graph</a></p>\n<h3>Input</h3>\n<p>The first line contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.<br />\nThe first line of each test case contains three space separated integers <b>N</b>, <b>R</b> and <b>C</b>.<br />\nThe following R lines describes one road by providing 3 integers <b>S</b>, <b>D</b> and <b>L</b>. <b>S</b> is the source point, <b>D</b> is the destination point and L  is the length of that road.</p>\n<h3>Output</h3>\n<p>For each test case output a single decimal number which is the probability of Susobhan winning the race, up to 2 places of decimal.</p>\n<h3>Constraints</h3>\n<ul>\n<li>1\u2264 <b>T</b> \u226410 </li>\n<li>2\u2264 <b>N</b> \u226415 </li>\n<li>2\u2264 <b>R</b> \u2264100 </li>\n<li>0\u2264 <b>C</b> \u226410^5 </li>\n<li>1\u2264 <b>S</b> \u2264<b>N</b></li>\n<li>1\u2264 <b>D</b> \u2264<b>N</b></li>\n<li>0\u2264 <b>L</b> \u226410^5 </li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n<p>1\n4 5 13\n1 2 4\n2 4 2\n1 4 13\n1 3 9\n3 4 10\n\n</p>\n\n<b>Output:</b>\n<p>0.33\n</p></pre>",
+    "category_name": "main",
+    "date_added": "3-02-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "3",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CDOUT3",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1428075000,
+        "end_date": 1428085800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1428085800,
+        "submit_start_date": 1428075000,
+        "current": 1537436434
+    },
+    "user": {
+        "username": ""
+    }
+}

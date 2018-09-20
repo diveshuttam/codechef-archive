@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Just as the name suggests, this problem is very simple.<br>\nYou are given N operators and N+1 operands. Find the result after performing those operations serially from left to right.\n\n<h3>Input</h3>\n<p>The first line of the input contains <b>T</b> the number of test cases.<br>\nEach test case consists of 2 lines. First line consists <b>N</b> denoting the number of operators. Second line consists of N operators followed by space and N+1 spaced integers which are operands.\n</p>\n\n<h3>Output</h3>\n<p>\nOutput a single line containing the value after performing all those operations serially from left to right.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10</b></li>\n<li>0 \u2264 Operands \u2264 10<sup>3</sup></li>\n<li>Operators are: <br>\n<b>+</b>  - Addition, <b>-</b> - Subtraction, <b>*</b> - Multiplication, <b>/</b> - Division </li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n3\n+-+  1 0 7 7<br>\n<b>Output:</b>\n1<br>\n</pre>\n\n<h3>Explanation</h3>\n<p><b>Example case 1:</b> 1 + 0 - 7 + 7 = 1\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-07-2017",
+    "is_direct_submittable": false,
+    "contest_name": "BUG4EVER 2017",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1504441800,
+        "end_date": 1504452600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1504452600,
+        "submit_start_date": 1504441800,
+        "current": 1537433594
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nerdyninja</span>",
+    "problem_name": "Easy Arithmetic",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nerdyninja'>nerdyninja</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nerdyninja",
+    "contest_code": "BUGE2017",
+    "max_timelimit": "1",
+    "problem_code": "BUG2K17C"
+}

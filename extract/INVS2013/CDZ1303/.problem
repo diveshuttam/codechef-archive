@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p> The Chef is fond of polynomials so he decides to fix the rate of the food items in the form of a polynomial equation for his hotel.<br /><br /><br />\nHe decides to put the rate of the items in the form of coefficients of the polynomial where, if the  rate of tea is \"a1\" and rate of sandwich is \"a2\u201d  and so on, then the rate list will be in the form of a0 *x^0+ a1 *x^1.......aN-1 *x^(N-1).<br />\n<br /><br />But his competitor Ciel copies this policy .In the same way, Ciel also designs a polynomial rate list for his hotel. But this makes the condition miserable for both of them as the profit gets divided in an unbalanced form. So both of them decide to multiply the coefficient of their polynomial and get a resultant polynomial. They put the resultant list on their rate boards. But they are weak in mathematics so help them to do this task!!\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line of the Input contains T, the number of test cases.<br />\n<br /><br /><br />\nEach test case is given as follows:<br />\nTwo space separated integers ,  N1 and N2 which denote the degree of polynomials of Chef and Ciel respectively.<br />\n<br /><br /><br />\nThe second line contains N1+1 coefficients in the order of a0 a1 .......aN1.  These coefficients denote the coefficients of Chef\u2019s polynomial .<br /><br /><br />\nThe second line contains N2+1 coefficients in the order of a0 a1 .......aN2.  These coefficients denote the coefficients of Ciel\u2019s  polynomial .\n</p>\n<h3>Output</h3>\n<p>First line of the output should have the degree of the resultant polynomial, N.<br />\nSecond line of the output should have the resultant polynomial coefficients for their hotels in the order of a0 a1 ....... aN   all separated by a space.Since the coefficients can be large print their value <b>mod 2^32</b>\n</p>\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>0</b> \u2264 <b>N1,N2</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>value of the coefficients (a0, a1 ,..)&lt;=</b> \u2264 <b>1000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n1 1\n1 2\n2 3\n2 0\n1 2 3\n4<br />\n\n<b>Output:</b>\n2\n2 7 6 \n2\n4 8 12\n</pre><p>\u00a0</p>\n<p>NOTE :<b> Use fast Input Output. </b></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-03-2013",
+    "is_direct_submittable": false,
+    "contest_name": "CodeZilla 2013",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1363707000,
+        "end_date": 1363714200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1363714200,
+        "submit_start_date": 1363707000,
+        "current": 1537438388
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>tussharsingh13</span>",
+    "problem_name": "Chef And The Polynomial",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/tussharsingh13'>tussharsingh13</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "tussharsingh13",
+    "contest_code": "INVS2013",
+    "max_timelimit": "3",
+    "problem_code": "CDZ1303"
+}

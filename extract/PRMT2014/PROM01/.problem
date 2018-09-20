@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h2>Problem Statement \u00a0</h2>\n<p>Rohit and Ali are having a water balloon fight on their terrace. Their terrace can be thought of as a grid playing field. In order for any of them to win, one of them needs to get a direct hit and they need to be in a direct line of vision of the other person, horizontal, vertical or diagonal. Given a (P*Q) playing field you will have to decide in how many ways can the two of them be positioned to obtain a head-on attack on each other.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>Input file can contain up to 5000 lines of inputs. Each line contains two positive integers which denote the value of P and Q (0&lt; P, Q&lt;10^6) respectively. Input is terminated by a line containing two zeroes. These two zeroes need not be processed.</p>\n<h3>Output</h3>\n<p> For each line of input produce one line of output, denoting the number of ways they can be in an attacking position in the (P*Q) playing field. All output values will fit in 64-bit signed integer.\n</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2 2\n100 223\n0 0\n\n<b>Output:</b>\n12\n10907100\n\n</pre><p>\n<br />\n<br />\n<b>Note : This problem has been inspired from previously solved questions.</b>\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-04-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Prometheus 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1397413800,
+        "end_date": 1397759400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1397759400,
+        "submit_start_date": 1397413800,
+        "current": 1537437601
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>himanshuk123</span>",
+    "problem_name": "Balloon Fight",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/himanshuk123'>himanshuk123</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "himanshuk123",
+    "contest_code": "PRMT2014",
+    "max_timelimit": "1 - 3",
+    "problem_code": "PROM01"
+}

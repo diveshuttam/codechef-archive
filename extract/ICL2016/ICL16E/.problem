@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>There is war in middle earth. The humans are fighting multiple mythical creatures. There are orcs, elves, dwarfs and many other new creatures that want to now control middle earth. You are Aragorn. You have no friends except other humans (Rohan and other small communities). You have to form a strong army, but your resources are scarce.<br />\nThere are a total of N number of armies of different creatures.</p>\n<p>If you defeat K of them, the others will automatically come under you.<br />\nSome of the armies may be under the control of another army. For example, Saruman's army is ultimately under Sauron's control. So if you defeat Sauron, Saruman will automatically be considered defeated by you i.e. You wont have to fight him. An army will only be directly under at max one other army.</p>\n<p>Each army requires X<sub>i</sub> units of your army to defeat them.</p>\n<p>You need to minimize X<sub>i</sub>.</p>\n<p>Find the minimum units required for you to be victorious.</p>\n<p><b>NOTE :</b> For any 2 armies <em>a</em> and <em>b</em>, if <em>b</em> is directly or indirectly under <em>a</em> then <em>a</em> won't be directly or indeirectly under <em>b</em>.</p>\n<h3>Input</h3>\n<p>First line contains <em>n</em> and <em>m</em>.</p>\n<p>Next <em>n</em> lines contain the name of the creature's army, followed by the number of units required to defeat them(X<sub>i</sub>) and the number of armies directly under that creature's army  followed by the list of creatures.</p>\n<h3>Output</h3>\n<p>Output the minimum units required for you to be victorious.</p>\n<h3>Constraints</h3>\n<p>2 &le; <em>n</em> &le; 7000</p>\n<p>2 &le; <em>m</em> &le; n</p>\n<p>0 &le; <em>X<sub>i</sub></em> &le; 10<sup>8</sup></p>\n<p>1 &le; <em>|length of name of army|</em> &le; 10</p>\n<h3>Sample input</h3>\n<pre><code>7 4\norcs 5 2 elves trolls\nelves 10 2 centaurs dwarves\ntrolls 7 0\nimps 8 1 kelpies\ncentaurs 6 0\ndwarves 2 0\nkelpies 3 0</code></pre><h3>Sample output</h3>\n<pre><code>5</code></pre><h3>Explanation</h3>\n<p>Defeating orcs will be enough to control 4 armies(in this case it is 5 i.e. elves, trolls, centaurs, dwarves and orcs)</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "International Coding League, BITS Pilani",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455202800,
+        "end_date": 1455210000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1455210000,
+        "submit_start_date": 1455202800,
+        "current": 1537435490
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>sourabh13</span>",
+    "problem_name": "Battle for Middle Earth",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sourabh13'>sourabh13</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sourabh13",
+    "contest_code": "ICL2016",
+    "max_timelimit": "1",
+    "problem_code": "ICL16E"
+}

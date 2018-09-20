@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Showndarya is obsessed with 2 things in her life. Binary numbers and troubling her friends with tricky problems. So she makes one question to trouble her friends.\nShe gives them a binary string, i.e a string of characters containing only 0s and 1s, of length <b>N</b>. She asks them <b>M</b> queries. There are 2 types of queries.<br /><br />\n\nType 1: This type of query starts with number 1 denoting the type, followed by 2 integers <b>l</b> and <b>r</b>.<br/>\n        She asks them to make one move, and in one single move flip all the characters between a and b where l<=a<=b<=r. You need to print the maximum number of zeros in the string if the characters in range <b>a</b>\n and <b>b</b> are flipped. You should not actually flip the characters in the string.<br/>\n        Type 2: This type of query starts with number 2 denoting the type, followed by 1 integer <b>x</b>. You are supposed to flip the character at <b>x</b>.<br/>\n        \n<h3>Input</h3>\n<p>\nThe first line of the input contains an integer <b>T</b> denoting the number of test cases.Each test case contains an integer <b>N</b> which is the length of the string and M which is the number of queries. In the next line, you are given a string <b>S</b> of length <b>N</b>. The next <b>M</b> are queries. Each of the <b>M</b> lines begins either with 1 or 2. If it is 1, it is followed by 2 integers <b>l</b> and <b>r</b> where 0\u2264<b>l,r</b>\u2264<b>N-1</b>. If the line starts with 1 it is followed by only one integer <b>x</b>, where 0\u2264<b>x</b>\u2264<b>N-1</b>.\n</p>\n<p> </p>\n\n<h3>Output</h3>\n<p>For every query of type 1, output the maximum count of zero one can obtain in <b>exactly 1</b> move. </p>\n<p> </p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N,M</b> \u2264 <b>10<sup>4</sup></b></li>\n</ul>\n<p></p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n5 4\n10000\n1 0 1\n1 0 4\n2 4\n1 0 4\n\n<b>Output:</b>\n2\n5\n4\n</pre>\n<p> </p>\n\n<b>Explanation:</b></br></br>\nThe first query is of type 1. Between 0 and 1, if one flips character at 0, the maximum count of zeroes obtained between 0 and 1 is 2. Hence answer is 2.<br/></br>\nIn the second query, between 0 and 4, if one flips the character at 0, the maximum count of zeroes obtained between 0 and 4 is 5. <br/></br>\nThe third query being of type 2, the character at 4th position is flipped. Now the string is 10001.<br/></br>\nIn the fourth query, between 0 and 4, one can flip atmost 1 character to get the maximum count of zeroes. No other other way is possible. So the character to be \nflipped can be either 0th character or the 4th character, both which after flipping gives answer 4.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "30-09-2017",
+    "is_direct_submittable": false,
+    "contest_name": "KJSCE CodeSpree 2017",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1506871800,
+        "end_date": 1506884400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1506884400,
+        "submit_start_date": 1506871800,
+        "current": 1537433531
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>mad_sri</span>",
+    "problem_name": "Flipping Obsession",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/mad_sri'>mad_sri</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "mad_sri",
+    "contest_code": "KJCS17",
+    "max_timelimit": "0.5",
+    "problem_code": "KJCS17F"
+}

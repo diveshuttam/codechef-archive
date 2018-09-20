@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p class=\"MsoNormal\" align=\"center\"><b><u><span>TRIPLE ARITHMETIC</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>The CGBSE\nBoard has decided to introduce TRIPLES as a part of their Curriculum of High\nSchool. They believe this will make it easier for students to learn Co-ordinate\nGeometry and Calculus easily.</span></p>\n\n<p class=\"MsoNormal\"><span>Any Triple\nof the form <span class=\"SpellE\">a<span class=\"GramE\">,b,c</span></span> represents\na right angled triangle with Base = a; Height = b; Hypotenuse = C. Hence any\ntriple represents an angle A such that <span class=\"SpellE\">cosA</span> = a/c.</span></p>\n\n<p class=\"MsoNormal\"><span>A Triple is called\na Prime Triple if its elements are whole number and have no common factor. For example\n(3, 4, 5) and (24, 7, 25) are Prime Triples. However, (6, 8 10) is not because\n2 is a common Factor.</span></p>\n\n<p class=\"MsoNormal\"><span>The very\nbasic Triple Arithmetic includes addition of Angles of Triple, i.e. if a1,a2,a3\ndefine angle A and b1,b2,b3 define angle B then you need to find <b>Prime Triple</b> corresponding to angles\nA+B or A-B.</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a9Vishal\nGupta</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Input:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>Input contains a number of test\ncases. Each test case contains 3 lines.<b><u></u></b></span></p>\n\n<p class=\"MsoNormal\"><span>First Line contains either \u2018+\u2019 or\n\u2018-\u2018.</span></p>\n\n<p class=\"MsoNormal\"><span>Second Line contains Triple for angle\nA a1<span class=\"GramE\">,a2,a3</span></span></p>\n\n<p class=\"MsoNormal\"><span>Third Line contains Triple for Angle\nB b1<span class=\"GramE\">,b2,b3</span></span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Output:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span class=\"GramE\"><span>If the input is +,\nyou need to output the Prime Triple Corresponding to angle A+B.</span></span><span></span></p>\n\n<p class=\"MsoNormal\"><span class=\"GramE\"><span>If the input is -,\nyou need to output the Prime Triple Corresponding to angle A-B.</span></span><span></span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Input:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>+<br />4 3 5<br />15 8 17<br />-<br />4 3 5<br />3 4 5<br />+<br />3 4 5<br />3 4 5<br />+<br />-1 0 1<br />0 1 1</span></p>\n\n\n<p class=\"MsoNormal\"><b><u><span>Sample Output:</span></u></b><span></span></p>\n\n<p class=\"MsoNormal\"><span>36 77 85<br />24 -7 25<br />-7 24 25<br />0 -1 1</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "DreamSpark Contest 3",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1272112200,
+        "end_date": 1272306540,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1272306540,
+        "submit_start_date": 1272112200,
+        "current": 1537439593
+    },
+    "problem_author_html_handle": "ganesha",
+    "problem_name": "TRIPLE ARITHMETIC",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ganesha'>ganesha</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ganesha",
+    "contest_code": "DSPC30",
+    "max_timelimit": "0.291667",
+    "problem_code": "DSPC309"
+}

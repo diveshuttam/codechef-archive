@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>There are two circles of radius <b>R</b> on a coordinate system such that the center of first circle lies on <b>(-R,0)</b> and the center of second circle lies on <b>(R,0)</b>. There exist two points on the coordinate system such that first point lies on the center of one circle and the other point can lie anywhere on the circumference of another circle with equal probability everywhere.<br />\nFind out the <a href=\"http://en.wikipedia.org/wiki/Expected_value\">expected value</a> of the distance between both the points.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>Contains a single integer <b>R</b> - the radius of both circles.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Output a the integer part of the expected value of distance between those points.<br/><br />\nThe decimal part of the answer has to be dropped.</br/></p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<p><b>0</b> \u2264 <b>R</b> \u2264 <b>10^5</b> </p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n\n<b>Output:</b>\n2\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-08-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Clash Credenz 2014 Wild Card Round",
+    "languages_supported": "C",
+    "todo": false,
+    "time": {
+        "view_start_date": 1409499000,
+        "end_date": 1409585400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1409585400,
+        "submit_start_date": 1409499000,
+        "current": 1537437448
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>wittyceaser</span>",
+    "problem_name": "Expected Distance",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/wittyceaser'>wittyceaser</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "wittyceaser",
+    "contest_code": "CLASH14",
+    "max_timelimit": "1",
+    "problem_code": "CREDDIST"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>In a distant future, the world has reduced down to very few cities, all hostile to each other. So much so, that each city built its own roads to other cities, if needed and <b>these roads were one way roads.</b> </p>\n<p>No one dares to walk on someone else's and even though teleportation is possible, the dangers involved are too great for anyone to risk their lives.</p>\n<p>With time, however, certain cities became allies and certain blocks were formed. Within each block, trade was possible between any two cities by road but teleportation was used to reduce the travelling time to zero.</p>\n<p>Bilbo wants to reach a city 'D' (destination) and he's at city 'S' in the shortest time possible. However, Bilbo has a map that's a few years old and represents the travelling time between two cities before the blocks described above were formed.</p>\n<p>Your job is to find what the actual minimum possible time to travel from a city S to a city D for Bilbo.</p>\n<h3>Input</h3>\n<p>The first line of input will consist of two integers n and q. n represents the number of cities in the old map and q is the number of queries.\n</p><p>The next few lines of the input consist of 3 integers, i, j, k, which represents a one way road from city i to city j with travelling time of k. The roads information ends with an input of -1   -1   -1.</p>\n<p>The next q lines contain 2 integers s   d. s represents the source city and d represents the destination city.</p>\n<h3>Output</h3>\n<p>For each query you have to output a single line containing an integer denoting the minimum time possible between the two cities.</p>\n<p>If no path is possible between the two cities, output \u201cUnreachable\u201d (quotes only for clarity).</p>\n<h3>Constraints</h3>\n<p>2 &lt;= n &lt;= 50</p>\n<p>0 &lt;= i, j &lt; n</p>\n<p>1 &lt;= k &lt;= 100000</p>\n<p>1 &lt;= q &lt;= 100000</p>\n<p>0 &lt;= s, d &lt; n</p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n6 5\n0 1 2\n1 2 10\n0 3 9\n4 5 2\n4 1 15\n2 4 20\n3 4 8\n-1 -1 -1\n0 1\n0 5\n3 4\n0 3\n4 5\n<b>Output:</b>\n2\n4\n8\n9\n2\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Bytes 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1360506600,
+        "end_date": 1360524600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1360524600,
+        "submit_start_date": 1360506600,
+        "current": 1537438543
+    },
+    "problem_author_html_handle": "troika_bytes13",
+    "problem_name": "Future Wars",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/troika_bytes13'>troika_bytes13</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "troika_bytes13",
+    "contest_code": "BYTS2013",
+    "max_timelimit": "0.5",
+    "problem_code": "BYTESC"
+}

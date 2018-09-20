@@ -1,0 +1,33 @@
+{
+    "problem_code": "CPC4",
+    "problem_author": "chhekur",
+    "contest_name": "Coding Hours",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>chhekur</span>",
+    "problem_name": "Campus Drive",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CODH2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/chhekur'>chhekur</a>, <a class='problem-tag-small ' href='/tags/problems/codh2018'>codh2018</a>, <a class='problem-tag-small ' href='/tags/problems/decomposition'>decomposition</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/segment-tree'>segment-tree</a>, <a class='problem-tag-small ' href='/tags/problems/sqrt'>sqrt</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>SemCrack</b> is hosting a campus drive for emerging programmers, there are <b>N</b> number of programmers who  attended the drive and their skills are as follows <b>S[0], S[1].....S[N-1]</b> (assume 0 based indexing). Company has it's set of protocols to select the programmer which are as follows:</p>\n<ul>\n<li>Campus has set a condition that a programmer can only be selected, if his/her skills are strictly greater than <b>K</b>, which is defined by company.</li>\n</ul>\n<p>There are <b>Q</b> number of queries that need to be executed. These queries may be of following two types:</p>\n<ul>\n<li><b>1 X Y (0 \u2264 X \u2264 N-1)</b> - Replace the value of<b> X<sup>th</sup></b> array element by <b>Y</b>. </li>\n<li><b>2 L R (1 \u2264 L \u2264 R \u2264 N-1)</b> - Return the number of selected programmers in this range.</li>\n</ul>\n<p></p>\n\n\n\n<h3>Input</h3>\n<ul>\n<li>The first line contains two space separated positive integers <b>N</b> and <b>K</b> denoting the total number of programmers and <b>K</b> condition which is defined by company.</li><li>Next line contains the skills of programmers <b>S[0], S[1]......S[N-1]</b>.</li><li>Next line contains an integer <b>Q</b> number of queries.</li><li>\nEach of the next <b>Q</b> lines contains one of the two queries described above.</li>\n</ul>\n<p>\u00a0</p>\n\n\n\n<h3>Output</h3>\n<p>For each query of type 2, print the required answer in a new line.</p>\n<p>\u00a0</p>\n\n\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>S[i]</b> \u2264 <b>10<sup>8</sup></b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>10<sup>6</sup></b></li>\n<li><b>0</b> \u2264 <b>X</b> \u2264 <b>N-1</b></li>\n<li><b>1</b> \u2264 <b>Y, K</b> \u2264 <b>10<sup>8</sup></b></li>\n<li><b>0</b> \u2264 <b>L </b> \u2264 <b> R </b> \u2264 <b>N-1</b></li>\n</ul>\n<p>\u00a0</p>\n\n\n<h3>Subtasks</h3>\n<p><b>Subtask #1 (20 points):</b></p>\n<ul><li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>4</sup></b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>10<sup>3</sup></b></li>\n</ul>\n<p><b>Subtask #2 (30 points):</b></p>\n<ul><li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>10<sup>5</sup></b></li></ul>\n<p><b>Subtask #3 (50 points):</b> original constraints</p>\n\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n10 3\n2 4 7 6 7 2 4 2 5 1\n5\n2 0 3\n1 4 7\n1 6 7\n2 1 1\n1 5 8\n\n<b>Output:</b>\n3\n1\n</pre>\n<p>\u00a0</p>\n\n\n\n<h3>Explanation</h3>\n<p><b>Example case 1.</b></p>\n<p>First you have an array</p><p> <b>S = {2, 4, 7, 6, 7, 2, 4, 2, 5, 1}</b></p>\n<p><b>Query 1.</b></p>\n<p>Number of selected programmers in range [0, 3]</p>\n<p>There are three programmer having skills greater then <b>K</b></p>\n<p>2, 4, 7<br>So answer is 3.</p>\n<p><b>Query 2.</b></p>\n<p>Replace value of 4<sup>th </sup> element with 7.</p>\n<p>S = {2, 4, 7, 6, 7, 2, 4, 2, 5, 1}</p>\n<p><b>Query 3.</b></p>\n<p>Replace value of 6<sup>th </sup> element with 7.</p>\n<p>S = {2, 4, 7, 6, 7, 2, 4, 7, 5, 1}</p>\n<p><b>Query 4.</b></p>\n<p>Number of selected programmers in range [1, 1]</p>\n<p>There is only one programmer having skills greater then <b>K</b></p>\n<p>4<br>So answer is 1.</p>\n<p><b>Query 5.</b></p>\n<p>Replace value of 5<sup>th </sup> element with 8.</p>\n<p>S = {2, 4, 7, 6, 7, 2, 4, 7, 8, 1}</p>",
+    "category_name": "main",
+    "date_added": "24-01-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "0.7",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/CPC4",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1517581800,
+        "end_date": 1517668200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1517668200,
+        "submit_start_date": 1517581800,
+        "current": 1537433082
+    },
+    "user": {
+        "username": ""
+    }
+}

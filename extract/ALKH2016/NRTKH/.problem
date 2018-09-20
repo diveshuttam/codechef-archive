@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Konahamaru and Naruto were on a mission to catch a fierce cat. After carrying out the mission successfully, both of them are feeling very hungry. Hence, they decided to go to the ramen shop to have some <a href=\"http://naruto.wikia.com/wiki/Ramen_Ichiraku\">Ichiraku Ramen</a> (A Japanese Dish). Good things do not come your way so easily, neither does Ichiraku Ramen. <br /></p>\n<p>Chef at the ramen shop has given them a string of length <b>L</b>, consisting of only characters such as <b>'a'</b>, <b>'b'</b> and <b>'c'</b>. Naruto and Konahamaru have to calculate the number of non-empty <b>valid</b> substrings satisfying the following constraints in order to enjoy their meal.  </p>\n<ul>\n<li>\nThe <b>valid</b> substring should contain atleast one occurrence of alphabet <b>'a'</b> or <b>'b'</b></li>\n<li>They satisfy the following equation. Here, <b> f('x') </b> denotes the occurrences of character <b>'x'</b> in the given input string<br />\n<ul>\n<li><b>2 * f('a') </b> =  <b> 3 * f('b').</b>.</li>\n</ul></li>\n</ul>\n\n<p><br /><br />\n<b>Note:</b><br /><br />\nThe valid substring may have any number of occurrences of <b>'c'</b> but must have atleast one occurrence of <b>'a'</b> or <b>'b'</b>. or <b>'b'</b>.</p>\n<p>\n<center><br />\n<img src=\"https://s3.amazonaws.com/codechef_shared/download/ALKH2016/2.png\"  height = \"260\" width=\"400\" /> </center> </p>\n<h3>Input</h3>\n<ul>\n<li> First line of the input consists of <b>T</b> denoting  number of test cases.\n</li>\n<li> Each test case consists of an integer <b>L</b> denoting the length of the string followed by a string of size <b>L</b>.\n</li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output the number of substrings satisfying the above criteria, in a separate line.</li>\n</ul>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n7\nabbabab\n7\naaabbbb\n<br />\n<b>Output:</b>\n0\n1\n</pre><p>\u00a0</p>\n<h3>Explanation </h3>\n<p><b>Example case 1.</b> There is no string satisfying the second  condition </p>\n<p><b>Example case 2.</b> The only string satisfying the above criteria is from index 0 to index 4 (assuming 0 based indexing)</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Alkhwarizm 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1459697400,
+        "end_date": 1459715400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1459715400,
+        "submit_start_date": 1459697400,
+        "current": 1537435000
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>dragonslayerx</span>",
+    "problem_name": "Naruto and Konahamaru",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dragonslayerx'>dragonslayerx</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dragonslayerx",
+    "contest_code": "ALKH2016",
+    "max_timelimit": "1",
+    "problem_code": "NRTKH"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nAlice is a very brilliant student. He considers '4' and '7' as Magic numbers. The numbers containing only magic numbers are also magical. Given a magic number <b>N</b> ,he wants to know what could be the next magical number greater than the given number.\n\n<h3>Input</h3>\n<p>\nFirst line of input contains number of test cases <b>T</b>. For each test case, there is exits only one line containing a magic number <b>N</b>. \n\n<h3>Output</h3>\n<p>\nFor each test case,  output a single line containing the next greater magical number.\n\n<h3>Constraints</h3>\n<pre>\n1<=<b>T</b><=1000\n4<= <b>N</b><=10^100\n</pre>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n4\n47\n\n<b>Output:</b>\n7\n74\n</pre>\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-09-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Alkhwarizm 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1348925400,
+        "end_date": 1348943400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1348943400,
+        "submit_start_date": 1348925400,
+        "current": 1537438705
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>bb_1</span>",
+    "problem_name": "Next Magic Number",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bb_1'>bb_1</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bb_1",
+    "contest_code": "ALKH2012",
+    "max_timelimit": "0.190476",
+    "problem_code": "NMAGIC"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Chef is standing at a point on a 2-D plane. He has m points around him. Let the j th point be at a distance k[ j ] (1&lt;=j&lt;=m) from<br />\nthe point at which Chef is standing. He also has n sticks with him. Let the length of the i th stick be L[ i ] (1&lt;=i&lt;=n). He has an infinite number of stick with L[ i ] length.<br />\nNow, chef is assigned a task. The task is that he has to check if a line segment can be formed from his position to the other points around him using the sticks that he has. The only boundation is that, he can either use only one or at most 2 sticks. The 2 sticks can be of same length. In other words, he can either use one stick as one line segment or join any two sticks or even the same stick to form one single line segment. </p>\n<p>Your task is to count the total number of points that have its distance from chef equal to any of the line segments.<br />\nNOTE: Line segments should be exactly equal to the distance of points from chef.</p>\n<h3>Input</h3>\n<p>The first line of input contains a positive integer n, the number of sticks with chef.<br />\nThe next line contains n space separated integers, the values of the lengths of n sticks.<br />\nThe third line of input contains a poititive integer m, denoting the number of points around chef.<br />\nThe next line contains m space separated integers denoting the distance of the points around chef in the 2-D plane from the chef's position.</p>\n<h3>Output</h3>\n<p>A single integer denoting the number of points that can have a line segment equal to its length.</p>\n<h3>Constraints</h3>\n<p>1&lt;=n,m,k[j],L[i]&lt;=200000</p>\n<h3>Sample Test cases</h3>\n<p><b>Input:</b><br />\n2<br />\n1 2<br />\n5<br />\n3 4 3 2 1<br />\n<b>Output</b><br />\n5</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Delhi Coding League 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1425396600,
+        "end_date": 1425742200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1425742200,
+        "submit_start_date": 1425396600,
+        "current": 1537436626
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>pratku123</span>",
+    "problem_name": "Chef and the line segments",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pratku123'>pratku123</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pratku123",
+    "contest_code": "DCL1501",
+    "max_timelimit": "1",
+    "problem_code": "DCL2015G"
+}

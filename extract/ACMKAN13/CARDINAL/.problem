@@ -1,0 +1,33 @@
+{
+    "problem_code": "CARDINAL",
+    "problem_author": "admin",
+    "contest_name": "ACM-ICPC Asia-Kanpur Site First Round Online Contest 2013",
+    "todo": false,
+    "problem_author_html_handle": "admin",
+    "problem_name": "Cardinality",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>gamabunta</span>",
+    "contest_code": "ACMKAN13",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acmkan13'>acmkan13</a>, <a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p style=\"text-align: justify\">You have a set of unique numbers. You are trying to find a <b>subset</b> of this set such that <b>no two numbers in the subset have a common digit</b>. There will of course be several such subsets. You are interested in the subset with the <b>maximum sum</b>. The sum of a subset is defined as the sum of the numbers in the subset.</p>\n<p style=\"text-align: justify\">In fact, you are most interested in the <b>cardinality</b> - that is, the number of elements - of the subset with the <b>maximum sum</b>. Of course there may be several such subsets with the same <b>maximum sum</b>. Find the <b>cardinality</b> of the subset with the <b>most elements</b> among such sets.</p>\n<p style=\"text-align: justify\">Refer to the explanation section for more clarity.</p>\n<h3>Input</h3>\n<p style=\"text-align: justify\">There will be several test cases. Each test case is described in two lines. The first line contains the number <b>N</b>, the number of numbers in the set given to you. The second line contains <b>N</b> space separated positive integers, <b>A<sub>1</sub>, A<sub>2</sub> ..., A<sub>N</sub></b>. The input is terminated by <b>EOF</b>.</p>\n<h3>Output</h3>\n<p style=\"text-align: justify\">For each test case, output a single line. The line should contain a single integer which denotes the <b>cardinality of the set</b> that satisfies all the requirements in the problem statement.</p>\n<h3>Constraints</h3>\n<pre>\n<b>1 \u2264 N \u2264 100</b>\n<b>1 \u2264 A<sub>i</sub> \u2264 1000000000</b>\n<b>No two A<sub>i</sub>'s will be same.</b>\n<b>There will be at most 100 test cases.</b>\n\n</pre><h3>Sample Input</h3>\n<pre>\n3\n7 17 10\n2\n12 29\n3\n1 2 12\n\n</pre><h3>Sample Output</h3>\n<pre>\n2\n1\n1\n\n</pre><h3>Explanation</h3>\n<p style=\"text-align: justify\">In the first test case, the maximum sum possible is <b>17</b>. There are two ways to achieve that sum. <b>{7, 10}</b>, with a <b>cardinality of 2</b>. <b>{17}</b>, with a <b>cardinality of 1</b>. Hence, the answer is <b>2</b>, since it is more.</p>\n<p style=\"text-align: justify\">In the second test case, we can select only <b>1</b> number due to the constraint that <b>the numbers in the subset should not share any digits</b>. The answer is of course <b>1</b>, for the subset <b>{29}</b>.</p>\n<p style=\"text-align: justify\">Note that a subset of cardinality <b>2</b> is possible, <b>{1, 2}</b>. But, its sum is only <b>3</b>. The sum of the subset <b>{12}</b> is <b>12</b>, which is the maximum possible. Hence the answer is the cardinality of the set <b>{12}</b>, which is <b>1</b>.</p>\n",
+    "category_name": "main",
+    "date_added": "13-10-2013",
+    "status": "success",
+    "languages_supported": "C, JAVA",
+    "max_timelimit": "3",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CARDINAL",
+    "problem_tester": "gamabunta",
+    "time": {
+        "view_start_date": 1382160600,
+        "end_date": 1382169600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1382169600,
+        "submit_start_date": 1382160600,
+        "current": 1537438099
+    },
+    "user": {
+        "username": ""
+    }
+}

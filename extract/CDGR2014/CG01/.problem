@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>One day Chini while digging his ancestral farmland found the 2 boxes. He opened the 1st box, it was empty while in the second, there was 3 piles of gold coins. Whenever he chooses a pile of Y coins (y>=1)  from 2nd box, the coins in the 1st box increases by Y but only one gold coin gets reduced from the pile in the 2nd box. He can choose one pile at a<br />\ntime. He repeats the operation N times.  Each pile will contain coins between 1 and 50, inclusive, initially.<br />\nFind the maximum gold coins he can take with him.\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of input consists of T, the number of test cases. Exactly t test cases follow.<br />\nSecond line of input consists of number of coins in the three piles respectively, separated by space. Third line of input consist of a single integer N.\n</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Single line consisting of maximum coins he can take.</p>\n<h3>Constraints</h3>\n<p>1&lt;=T&lt;=100<br />1&lt;=N&lt;=150</p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:\n1\n3 7 6\n3\n</b>\n<b>Output:\n19</b>\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>The three numbers are (3, 7, 6). One possible optimal strategy is as follows:<br />\nChini chooses 7. he gains 7 points, and the numbers become (3, 6, 6). Chini chooses 6. he gains 6 points, and the numbers become (3, 6, 5). Chini chooses 6. he gains 6 points, and the numbers become (3, 5, 5).<br />\n</b></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-04-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeGuru 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, SCALA, PERL, WSPC, ADA, BF, ASM, PRLG, SCM qobi, PIKE, ST, BASH, LISP sbcl, LISP clisp, SCM guile, JS, TCL, PERL6, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1397968200,
+        "end_date": 1397979000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1397979000,
+        "submit_start_date": 1397968200,
+        "current": 1537437595
+    },
+    "problem_author_html_handle": "tejas02",
+    "problem_name": "The Magic box",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/tejas02'>tejas02</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "tejas02",
+    "contest_code": "CDGR2014",
+    "max_timelimit": "5",
+    "problem_code": "CG01"
+}

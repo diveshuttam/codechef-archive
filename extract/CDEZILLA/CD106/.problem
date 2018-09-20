@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> An Archaeopteryx and its family want to spend their weekend at Adventure Island. They see an Octopus ride. They want to enjoy it. However, there are some problems (as usual).\n<p>Each family member likes some other person in the family. Each member insists that he/she will go on the ride only if all the people whom that person likes and all the people who like him/her also go on the ride. But if he/she doesn't like anyone and no one likes him/her, he/she may come for the ride. \n<p>Ajitesh wants to help the dino family solve this dilemma, for which he wants your help. Given the weight of each family member, the list of people they like and the max weight that the Octopus can bear safely, calculate the max number of family members who can go on the octopus.\n\n\n<h3>Input</h3>\n<p>There will be more than one test case with the max number being 50. For convenience the family members are numbered from 1 to n. Each test case begins with two integers n(1n<=1000)and c(0<=c<=1000),where 'n' is the number of people in the family and 'c' the maximum capacity of the ride in kg. \n<p>On the next line three are 'n' integers with the kth integer giving the weight of the kth family member. The weights are positive and less than or equal to 200 kg. Then n lines follow with each line containing a sequence of integers separated by spaces. The first integer i gives the number of people in the family that person k likes, followed by the person(s) k likes. Each test case is separated by an empty line. The end of input is indicated by n=0 and c=0 and it should not be processed.\n\n\n<h3>Output</h3>\n<p>For each test case, the output should contain the maximum number of people that can take the ride under the given conditions, on a separate line.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n5 210\n50 50 50 50 50\n1 2\n1 3\n0\n1 5\n1 4\n\n8 600\n80 80 80 80 80 80 80 80\n1 2\n1 3\n1 4\n1 5\n1 6\n1 7\n1 8\n1 1\n\n0 0\n\n<b>Output:</b>\n3\n0\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-04-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Netaj Subhash Institute of Technology - CodeZilla",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1303738200,
+        "end_date": 1303756200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1303756200,
+        "submit_start_date": 1303738200,
+        "current": 1537439220
+    },
+    "problem_author_html_handle": "ajitesh14",
+    "problem_name": "The Octopus",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ajitesh14'>ajitesh14</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ajitesh14",
+    "contest_code": "CDEZILLA",
+    "max_timelimit": "0.521739",
+    "problem_code": "CD106"
+}

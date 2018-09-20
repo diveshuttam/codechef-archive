@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">\nTed has a magical stick. He can put life in that stick and makes it move wherever he wants. His friend Barney gave him a box which has some paths. The inside structure of the box is like a ladder having <b>N</b> horizontal pipes, numbered <b>1</b> to <b>N</b> from bottom to top. It also has 2 Vertical pipes, one on the left and other on the right. Barney placed <b>K</b> crabs at distinct locations inside the pipes of the ladder, with the <b>ith</b> crab at the intersection of horizontal pipe <b>Hi</b> and vertical pipe <b>Vi</b>.\n</p>\n<p align=\"justify\">\nIn order to take that magical stick from Ted, Barney asked him to place his stick in the pipes of the ladder with the tip of the stick at the intersection of some horizontal pipe and vertical pipe and from there each subsequent segment of the body of stick extends up, down, left or right to follow a horizontal or vertical pipe to another intersection. Ted likes to moves his stick but he can\u2019t let it to touch any crabs, so he insists that the path that the body of the stick takes must not touch any intersection more than once, and must not touch any intersection that has a crab. Conveniently, the stick is exactly long enough to theoretically pass through all intersections that don\u2019t have crabs- that is, if consecutive horizontal and vertical pipes are 1 unit apart from one another, then the stick has a length of <b>2*N-k-1</b> units. Note that the stick may have 0 length (in which case it\u2019ll only occupy a single intersection).\nIn order to protect his stick, ted has to count the number of different ways in which it can position its stick on the ladder, such that it covers all the intersections which don\u2019t contain crabs. An arrangement of the stick is defined by an ordered sequence of intersections that the stick passes through, starting from its tip.<br>\nCan you help Ted not to lose his stick?\n</p>\n<h3>Input</h3>\n<p align=\"justify\">\nInput begins with an integer <b>T</b>, the number of test cases. For each test case, there is first a line containing the space-separated integers <b>N</b> and <b>K</b>. Then <b>K</b> lines follow, the <b>ith</b> of which contains the space-separated integers <b>Hi</b> and <b>Vi</b>.\n</p>\n<h3>Output</h3>\n<p>\nFor each test case, print a line containing the number of ways in which the stick can be arranged, modulo 10^9 + 7.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^12</b></li>\n<li><b>0</b> \u2264 <b>K</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>Hi</b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>Vi</b> \u2264 <b>2</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2 0\n3 2\n2 1\n2 2\n<b>Output:</b>\n8\n0\n</pre>\n<h3>Explanation</h3>\n<p><b>For the first case, the stick can place its tip in any of the 4 intersections, and from each one it can arrange itself in 2 ways for 8 ways total. For the second case, the crabs prevent the stick from crossing from the top 2 intersections to the bottom 2 (or vice versa).\n</b></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-03-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Codiyapa",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1489829400,
+        "end_date": 1489915800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1489915800,
+        "submit_start_date": 1489829400,
+        "current": 1537434003
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>rohit74</span>",
+    "problem_name": "Magical Stick",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rohit74'>rohit74</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rohit74",
+    "contest_code": "PRCD1701",
+    "max_timelimit": "1",
+    "problem_code": "COD22017"
+}

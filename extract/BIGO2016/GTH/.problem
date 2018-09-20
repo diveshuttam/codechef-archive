@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\n<b>Tarun</b> and <b>Varun</b> are learning game theory. Today they came up with a new game.\n</p>\n<p>The rules are as follows:</p>\n<ol>\n<li>Initially they have a string consisting of lowercase english alphabets only.<br />\n</li><li>Each of them take turn. <br />\n</li><li>In each turn, a player removes some alphabets from the string (at least one). But the condition is<br />\nall the alphabets removed must be same (see explanation of the test cases). <br />\n</li><li>The player who is unable to make a move loses. <br />\n</li></ol>\n\n<p>\nYou are given the string and the player who makes the first move. You have to print the name of the<br />\nwinner.</p>\n<h3>Input</h3>\n<p>\nThe first line of the input will contain a single integer <b>T</b>, the number of test cases. Each of<br />\nnext <b>T</b> lines will contain two strings separated by a space. First is the name of the player who starts<br />\nthe game (\u201c<b>Tarun</b>\u201d or \u201c<b>Varun</b>\u201d without quotes ), second is the input string with which the game is to<br />\nbe played.\n</p>\n<h3>Output</h3>\n<p>\nPrint \u201c<b>Tarun</b>\u201d, if Tarun wins, else print \u201c<b>Varun</b>\u201d without the quotes.\n</p>\n<h3>Constraints</h3>\n<p><b>1 &lt;= T &lt;= 100</b><br />\n<br /><br />\nInput string will contain lower case alphabets only.<br />\nLength of input string will not exceed 100.</p>\n<h3>Sample Cases</h3>\n<p><b>Input</b><br />\n3<br />\nTarun aaa<br />\nVarun ababa<br />\nTarun abacd <br /><br />\n<b>Output</b><br />\nTarun<br />\nVarun<br />\nTarun </p>\n<h3>Explanation</h3>\n<ol>\n<li>Tarun can remove all three 'a' and win.<br />\n</li><li>Varun can remove a single 'a' in his turn. Tarun will be left with two 'b' and two 'a'. If he removes both 'b' Varun can remove both 'a' and win, else if he removes a single 'a', Varun will be left with 'a', 'b' and 'b'. Varun can remove a single 'b', then Tarun will be left with 'a' and 'b'. Whatever he removes, Varun will remove the last letter and win.\n</li></ol>\n<p><br /><b>Note:</b> Remember neither of them can remove letters like {'a','a','b'}, {'a','b','a','b'} etc as the condition says all the letters removed must be same.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "11-04-2016",
+    "is_direct_submittable": false,
+    "contest_name": "BIG-O v2.0",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1460809800,
+        "end_date": 1460820600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1460820600,
+        "submit_start_date": 1460809800,
+        "current": 1537434960
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>bigo_admin</span>",
+    "problem_name": "Game Theory",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bigo_admin'>bigo_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bigo_admin",
+    "contest_code": "BIGO2016",
+    "max_timelimit": "1",
+    "problem_code": "GTH"
+}

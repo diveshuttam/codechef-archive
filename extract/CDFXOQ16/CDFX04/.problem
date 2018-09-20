@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A prisoner from the Central Jail has just escaped in the late night, the city has been put on high alert. Special Security forces are chasing him. To catch him as soon as possible they seek the help of CAI.</p>\n<p>\nYou are an agent at Central Agency of Investigation a.k.a CAI, your boss has assigned you a task of tracking a person who has just escaped the prison, with the help of the advanced satellite imaging of the institute.\n </p>\n<p>\nThe satellite sends you the real time coordinates of the prisoner as well as that of the city. You figured out that the city is a straight line divided into <b>N</b> segments. It is also known that for a pair of segment, they either have no common points or all points of one segment belong to the second segment. (Here points are the houses belonging to segment)\n</p>\n<p>\nThe satellite gives you <b>M</b> changing positions of the prisoner. For each position, your task is to report the security forces of the segment of minimum length, to which the prisoner belongs.\n</p>\n<h3>Input</h3>\n<p>The first line consists of an integer <b>N</b>, that is the number of segments The Next <b>N</b> lines consists of integers <b>xi</b> and <b>yi</b> that are the coordinates of the endpoints of the segment. All segments are distinct. The next <b>M</b> lines contains an integer <b>cj</b>, that is the number of changing positions.<b>cj</b>.\n</p>\n<h3>Output</h3>\n<p>For each position output the number of the corresponding segment on a single line, if the point doesn\u2019t belong to any segment, print <b>\u201c-1\u201d.</b>\n</p>\n<p><b> Note:</b> The segments are ordered from <b>1 to N.</b>\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>xi</b> &lt; <b>yi</b> \u2264 <b>10^9 </b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>cj</b> \u2264 <b>10^9</b></li>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n2 10\n2 3\n5 7\n5\n1\n2\n3\n4\n5\n\n<b>Output:</b>\n-1\n2\n2\n1\n3\n</pre><p><br /></p>\n<p> Problem Setter : Anish Kumar </p>\n</ul>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "CodeFlux Qualifiers",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1456758000,
+        "end_date": 1456765200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1456765200,
+        "submit_start_date": 1456758000,
+        "current": 1537435286
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>sumit.asr_128</span>",
+    "problem_name": "Catch the Prisoner",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sumit.asr_128'>sumit.asr_128</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sumit.asr_128",
+    "contest_code": "CDFXOQ16",
+    "max_timelimit": "1",
+    "problem_code": "CDFX04"
+}

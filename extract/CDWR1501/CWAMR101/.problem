@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Thomas Anderson is a computer programmer who maintains a double life as \"Neo\" the hacker. Another hacker named Trinity contacts Neo and informs him that a man named Morpheus can tell him the meaning of \"the Matrix\", a cryptic phrase that Neo has encountered repeatedly online; however, three dark-suited Agents, led by Agent Smith, appear determined to prevent them meeting. Undeterred, Neo eventually meets Morpheus, who warns him that once he knows the truth, he will not be able to return to his normal life. Neo indicates his acceptance by choosing to swallow an offered red pill. His reality soon disintegrates and he abruptly wakes, naked and weak, in a liquid-filled vessel, finding himself as one of billions of people connected by cables to an elaborate electrical system. Morpheus explains that in the 21st century, humans waged a war against intelligent machines they had created. When humans blocked the machines' access to solar energy, the machines instead turned to harvesting the humans' bioelectricity as a substitute power source, while keeping them trapped in the Matrix.<br />\nMorpheus have to hack into the Matrix and Unplug the enslaved humans. There is a display board attached to every vessel displaying a 4 digit value. It also has V buttons with a four digit number associated with it. Morpheus's secret agents had noticed when any of these buttons is pressed, the number associated with that button was added with the displayed value and so a new number was displayed. He also realised that after a particular number of presses the alarm starts ringing. Your task is to create a program that will help him to find that threshold after which the alarm will ring.<br />\nThere are certain humans enslaved permanently,called the zivots.Also find the zivots so that Morpheus can save the rest and not waste time..</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>There will be at most 100 test cases. For each test case, there will be 3 numbers: L, U and R where<br />\nrepresents the current lock code, Urepresents the unlock<br />\ncode and R represents the number of available buttons. After that, there are R numbers<br />\nin a line representing the value of buttons. The values of L, U, RVi will always be<br />\ndenoted by a four digit number (even if it is by padding with leading zeroes). Input will be terminated<br />\nwhen L = U = R = 0..</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each test case, there will be one line of output which represents the serial of output followed by the<br />\nminimum number of button press required to unlock the lock. If it is not possible to unlock the lock,<br />\nthen print a line \u2018Zivot\u2019 instead (without quotes).</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<p>L (0000 \u2264 L \u2264 9999)<br />\n      U (0000 \u2264 U \u2264 9999)<br />\n      R (1 \u2264 R \u2264 10)<br />\nthere are R numbers (0 \u2264 RVi \u2264 9999)</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n0000 9999 1\n1000\n0000 9999 1\n0001\n5234 1212 3\n1023 0101 0001\n0 0 0\n\n\n<b>Output:</b>\nCase 1: Zivot\nCase 2: 9999\nCase 3: 48\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-01-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Code-Wars, Round 1",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1423917000,
+        "end_date": 1423924200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1423924200,
+        "submit_start_date": 1423917000,
+        "current": 1537436814
+    },
+    "problem_author_html_handle": "naveenrajan",
+    "problem_name": "The Hacker",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/naveenrajan'>naveenrajan</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "naveenrajan",
+    "contest_code": "CDWR1501",
+    "max_timelimit": "2",
+    "problem_code": "CWAMR101"
+}

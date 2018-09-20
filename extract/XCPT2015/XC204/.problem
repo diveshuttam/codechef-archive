@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Problem description.</p>\n<p>Hacker Aiden Pearce wants to access the CTOS security system.<br />\nThe system is protected by a firewall which consists of many layers. The firewall is represented by a string \u2018S\u2019 . Each layer of firewall is represented by a string S\u2019 which belongs to S.<br />\nSince the system is much secured there are as many layers as possible but each layer is distinct.<br />\nNow, to break into the system, hacker has to program worms to destroy firewall. Now a worm is programmed to destroy only a single layer.<br />\nYou are required to determine the number of worms required to break the firewall.\u00a0</p>\n<h3>Input</h3>\n<p>First line of input gives <b>'T'</b> the number of test cases.<br />\nEach test case contains a string <b>'S'</b>.</p>\n<h3>Output</h3>\n<p>For each test case print the number of worms that need to be programmed.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>|S|</b> \u2264 <b>100</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\nabc\naba\naaa\n\n<b>Output:</b>\n6\n5\n3\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1 :</b> In the first case there are 6 possible layers 'a','b','c','ab','bc','abc'</p>\n<p><b>Example case 3 :</b> In the first case there are 3 possible layers 'a','aa','aaa'</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-01-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Xception 2.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, RUBY, PHP, NODEJS, SCALA, PERL, BASH, PERL6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1422718200,
+        "end_date": 1422730800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1422730800,
+        "submit_start_date": 1422718200,
+        "current": 1537436873
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>ashishrko</span>",
+    "problem_name": "Watchdogs",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ashishrko'>ashishrko</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ashishrko",
+    "contest_code": "XCPT2015",
+    "max_timelimit": "1",
+    "problem_code": "XC204"
+}

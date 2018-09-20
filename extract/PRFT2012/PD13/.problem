@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\n\nGiven a natural number n (1 <= n <= 500000), please output the summation of all its proper divisors.\n\nDefinition: A proper divisor of a natural number is the divisor that is strictly less than the number.\n\ne.g. number 20 has 5 proper divisors: 1, 2, 4, 5, 10, and the divisor summation is: 1 + 2 + 4 + 5 + 10 = 22.\n\n\n<h3>Input</h3>\n<p>\nAn integer stating the number of test cases (equal to about 200000), and that many lines follow, each containing one integer between 1 and 500000 inclusive.\n\n<h3>Output</h3>\n<p>\nOne integer each line: the divisor summation of the integer given respectively.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n\n3\n2\n10\n20\n\n<b>Output:</b>\n\n1\n8\n22\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Dot Slash Execute Prefest Contest Page 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330313400,
+        "end_date": 1330374600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1330374600,
+        "submit_start_date": 1330313400,
+        "current": 1537438920
+    },
+    "problem_author_html_handle": "mani_yadav",
+    "problem_name": "Divisor Summation",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/mani_yadav'>mani_yadav</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "mani_yadav",
+    "contest_code": "PRFT2012",
+    "max_timelimit": "0.171034",
+    "problem_code": "PD13"
+}

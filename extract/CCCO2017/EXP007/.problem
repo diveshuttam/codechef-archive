@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\u00a0</p>\n<p>Problem description.</p>\n<p>Given a list of non negative integers, arrange them in such a manner that they form the largest number possible.\n\nThe result is going to be very large, hence return the result in the form of a string.\u00a0</p>\n\n\n<h3>Input</h3>\n<p>The first line of input consists number of the test cases. The description of T test cases is as follows:\n\nThe first line of each test case contains the size of the array, and the second line has the elements of the array.</p>\n<br>\n<h3>Output</h3>\n<p>In each separate line print the largest number formed by arranging the elements of the array in the form of a string.</p>\n<br>\n<h3>Constraint</h3>\n<p>1 \u2264 T \u2264 70<br>\n1 \u2264 N \u2264 100<br>\n0 \u2264 A[i] \u2264 1000<br></p>\n<p><b>Input</b><br>\n2<br>\n5<br>\n3 30 34 5 9<br>\n4<br>\n54 546 548 60<br>\n</p>\n<p><b>Output</b>\n<br><br>\n9534330<br><br>\n6054854654<br></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "CodeChef Coding Competition",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1507717800,
+        "end_date": 1507804200,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1818486003,
+        "submit_start_date": 1507717800,
+        "current": 1537433466
+    },
+    "problem_author_html_handle": "prashantk457",
+    "problem_name": "Largest Number formed from an Array",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/prashantk457'>prashantk457</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "prashantk457",
+    "contest_code": "CCCO2017",
+    "max_timelimit": "1",
+    "problem_code": "EXP007"
+}

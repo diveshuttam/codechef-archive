@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Tanu is bored with school, doing same old questions. The Maths teacher has given then homework to calculate mean, median and mode of some data. Can you help Tanu with the homework?<br /><br /><i>Mean</i> of an array of numbers mean their average.<br /><i>Median</i> of an array means the middle element when the array is sorted. Note that when the array size (=n) is even, the median is (n/2 + 1)<sup>th</sup> element.<br /><i>Mode</i> of an array is the number that occurs maximum number of times in the array. If there are more than one number having this property, mode is the largest number amongst them.<br /><br /><br />\n<h3>INPUT</h3>\n</p><p>First line of input contains two integers, <b>N</b> and <b>Q</b>, the size of the array and number of queries.<br />The next line contains array <b>A</b>, containing N space separated integers.<br />Each of the next Q lines contain two integers, <b>POS</b> and <b>VAL</b>, which means change the POS<sup>th</sup> value of A to VAL.<br /><br /><br />\n<h3>OUTPUT</h3>\n</p><p>After each query, print a single line containing the mean, median and mode of the updated array. The value of mean should be correct to upto 5 decimal places.<br /><br /><br />\n<h3>CONSTRAINTS</h3>\n</p><p>1&lt;=N&lt;=100000<br />1&lt;=Q&lt;=100000<br />0&lt;=POS&lt;=N-1<br /> Each element of array A, and VAL will be between 0 and 1000000000, inclusive.<br /><br /><br />\n<h3>SAMPLE INPUT</h3>\n<pre>3 2<br />1 2 2<br />0 5<br />1 3</pre></p><p><br /><br /><br />\n<h3>SAMPLE OUTPUT</h3>\n<pre>3.0000000 2 2<br />3.3333333 3 5</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-09-2014",
+    "is_direct_submittable": false,
+    "contest_name": "TechFest 2015, Portal round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1412868600,
+        "end_date": 1413059400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1413059400,
+        "submit_start_date": 1412868600,
+        "current": 1537437364
+    },
+    "problem_author_html_handle": "techfest2k15",
+    "problem_name": "Statistics HW",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/techfest2k15'>techfest2k15</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "techfest2k15",
+    "contest_code": "TCFS15P",
+    "max_timelimit": "2",
+    "problem_code": "STATSHW"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Treasure Hunting is a great computer game that has attracted generations of Bytelandian children.\n<p>In the game, there is a maze divided into NxN squares. Dave starts in the top-left corner, which is square (1,1), and needs to go to the bottom-right corner, which is square (n,n).\n<p>Some of the squares are blocked and some of the squares contain treasures.\n<p>Dave needs to capture all the treasures in the maze before going to square (n,n).\n<p>In each second, Dave can go to one of its four adjacent squares (if the destination is not blocked). \n<p>Find the earliest time that Dave can reach the destination(n,n) after collecting all the treasures in the maze.\n\n<h3>Input</h3>\n<p>The first line contains t, the number of test cases (about 15). Then t test cases follow. Each test case has the following form.\n<p>The first line contains N (1 <= N <= 13), the size of the maze\n<p>The N following lines describe the maze. The meaning of the symbols is as follows:\n<p>'.' : an empty square\n<p>'*' : a treasure\n<p>'#' : a blocked square\n<p>The number of treasures in the maze does not exceed 13. Squares (1,1) and (n,n) are always empty.\n<p>Each test case's input is separated by a blank line.\n\n<h3>Output</h3>\n<p>For each test case, print in a single line the earliest time that Dave can reach the destination after collecting all the treasures. If Dave cannot reach the destination, print -1.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n4\n\n3\n...\n.##\n*#.\n\n3\n..*\n...\n...\n\n3\n..*\n*..\n...\n\n4\n....\n.#.*\n.#*.\n**#.\n\n<b>Output:</b>\n-1\n4\n6\n16\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-02-2010",
+    "is_direct_submittable": false,
+    "contest_name": "March 2010 Contest",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1267435800,
+        "end_date": 1268472600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1268472600,
+        "submit_start_date": 1267435800,
+        "current": 1537439680
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Treasure Hunting",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "MARCH10",
+    "max_timelimit": "0.444444",
+    "problem_code": "N1"
+}

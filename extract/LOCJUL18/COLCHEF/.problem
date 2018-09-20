@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>College is a major part of life, it gives you new friends life experiences and other stuff, our chef has joined as a teacher in college and he is watching the fresher\u2019s closely.\nThere are $N$ students in a class and they don\u2019t know each other. Slowly they start talking to each other and form groups of friends. Chef wants to keep track of all the events for answering questions about the class to the principal.\n\nThere are 2 types of queries :\n1.\t0 A B : The student with number A becomes friends with student with number B\n2.\t1 X Y: You have to tell whether the student number X and student number Y are friends or not.\n\n\n\n\n\n\n$Note$ : If A is friends with B, and B is friends with C. That implies C is friends with A.\n\n###Input:\n\n- First line will contain $N$, the number of students in class.  \n- Next line contains $Q$, number of queries.\n- Next $Q$ lines contain 3 integers as per the query above.\n###Output:\nFor each query, of type 2 Print \u201cYES\u201d, if they are friends and \u201cNO\u201d, if they are not.\n###Constraints \n- $1 \\leq N \\leq 100000$\n- $1 \\leq Q \\leq 100000$\n- $1 \\leq A,B,X,Y \\leq N$\n\n###Subtasks\n- 30 points : $1 \\leq N, Q \\leq 1000$\n- 70 points : Original Constraints \n\n\n\n\n###Sample Input:\n3  \n4  \n0 1 2  \n1 1 3  \n0 2 3  \n1 1 3  \n\t\n###Sample Output:\n\nNO  \nYES\t\n\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-07-2018",
+    "is_direct_submittable": false,
+    "contest_name": "LoC July 2018",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1532716200,
+        "end_date": 1532889000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1532889000,
+        "submit_start_date": 1532716200,
+        "current": 1537432206
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>thegamer1907</span>",
+    "problem_name": "Chef And College",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/thegamer1907'>thegamer1907</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "thegamer1907",
+    "contest_code": "LOCJUL18",
+    "max_timelimit": "1",
+    "problem_code": "COLCHEF"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>In a kingdom, there are N cities, numbered from 1 to N, with some pairs of them connected by bidirectional roads, the lengths of which are known. The cost of maintaining a road is 1 per unit length. The capital of the kingdom is city 1. Now the king wishes to maintain only some roads such that :\n\n<ol>\n<li> He himself does not like treading roads not maintained. Thus, there should be a path from the capital to any other city using only maintained roads.</li>\n<li> People do not like walking long roads. Hence if there exists a road between X and Y of length L, he will not maintain the road if there exists another path in the kingdom between X and Y on which none of the roads are of length >= L. Maintaining such a road would be useless since people would never use it.</li>\n<li>The total cost of the maintained roads should be minimum.</li>\n</ol>\n</p>\n\n<p>\nGiven a description of the kingdom, output the cost of maintaining roads satisfying the above conditions.\n</p>\n\n<h3>Input</h3>\n<p>The first line contains the number of test cases T(<=10). T test cases follow. For each test case, the first line contains N (<= 300), the number of cities. There follow N lines, each with N integers. The ith integer on the jth line is the length of the road between cities i and j (0 if there is no road). The ith integer on the jth line will be equal to the jth integer on the ith line. Also, the ith integer on the ith line will be a 0. No value will be greater than 1000000.\n</p>\n\n<h3>Output</h3>\n<p>Output T lines, 1 corresponding to each test case, containing the desired answer.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n2\n0 1\n1 0\n\n<b>Output:</b>\n1\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Technovanza",
+    "languages_supported": "C, JAVA, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1264350600,
+        "end_date": 1264359600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180168,
+        "submit_start_date": 1264350600,
+        "current": 1537439799
+    },
+    "problem_author_html_handle": "technovanza10",
+    "problem_name": "Maintaining Roads",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/technovanza10'>technovanza10</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "technovanza10",
+    "contest_code": "TV10CAT3",
+    "max_timelimit": "0.697674",
+    "problem_code": "TECH11"
+}

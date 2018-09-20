@@ -1,0 +1,33 @@
+{
+    "problem_code": "CUBTOWER",
+    "problem_author": "xcwgf666",
+    "contest_name": "SnackDown 2016 Online Elimination Round",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>xcwgf666</span>",
+    "problem_name": "Cube Towers",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": null,
+    "contest_code": "SNCKEL16",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/medium-hard'>medium-hard</a>, <a class='problem-tag-small ' href='/tags/problems/range-tree'>range-tree</a>, <a class='problem-tag-small ' href='/tags/problems/snckel16'>snckel16</a>, <a class='problem-tag-small ' href='/tags/problems/xcwgf666'>xcwgf666</a>",
+    "body": "<h3> Read problems statements in <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/SNCKEL16/mandarin/CUBTOWER.pdf\">Mandarin Chinese</a>, <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/SNCKEL16/russian/CUBTOWER.pdf\">Russian</a> and <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/SNCKEL16/vietnamese/CUBTOWER.pdf\">Vietnamese</a> as well.</h3>\n<p>Besides numbers Alice also likes to play with cubes of letters.</p>\n<p>She has infinite supply of the cubes with every lowercase Latin letter written on it. So she often builds the towers from her cubes.</p>\n<p>Specifically, there are <b>N</b> initially empty towers of cubes. Step-by-step, Alice picks a cube and puts it to the top of some of the towers.</p>\n<p>Sometimes she becomes curious about how many towers <i>contain</i> some of her <b>M</b> favorite words (not necessarily real English words).</p>\n<p>Alice considers that a tower <i>contains</i> a word in case this word can be read on some consecutive \"subtower\" of this tower in up-down direction. For example, if Alice puts cubes with letters <b>a, b, c, d</b> (in this order) to the top of the tower, then the tower contains words <b>cba</b> or <b>dc</b> and doesn't contain words <b>abcd</b>, <b>e</b>.</p>\n<p>But now the towers has grown very large, so Alice asks you to help her. There will be three types of queries given to you:</p>\n<ul>\n<li><b>0 X C</b>: put the cube with letter <b>C</b> to the top of the <b>X</b><sup>th</sup> tower.</li>\n<li><b>1 L R P</b>: find the number of towers in the range <b>[L, R]</b> which <i>contain</i> the <b>P</b><sup>th</sup> favorite word.</li>\n<li><b>2 L R P</b>: find the number of ways to pick a tower in the range <b>[L; R]</b> and then to read an <i>occurrence</i> of the <b>P</b><sup>th</sup> favorite word at this tower. Two ways are considered different, if the tower or if the topmost cube position of the occurrence are different.</li>\n</ul>\n\n<p>Please help Alice.</p>\n<h3>Input</h3>\n<p>The first line of the input contains three space-separated integers <b>N</b>, <b>M</b> and <b>Q</b> denoting the number of towers, the number of Alice's favorite words and the number of queries respectively.</p>\n<p>Each of the following <b>M</b> lines contains a lowercase Latin letters string <b>w<sub>i</sub></b>, denoting the <b>i</b><sup>th</sup> favorite word of Alice.</p>\n<p>Each of the following <b>Q</b> lines contains a query in one of the formats described above.</p>\n<h3>Output</h3>\n<p>For each query of the type <b>1</b> or <b>2</b>, output the answer on the separate line.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>2 \u00d7 10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>X</b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>L</b> \u2264 <b>R</b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>P</b> \u2264 <b>M</b> \u2264 <b>65536</b></li>\n<li><b>1</b> \u2264 sum of <b>|w<sub>i</sub>|</b> \u2264 <b>65536</b></li>\n<li>All <b>w<sub>i</sub></b>'s are different.</li>\n<li><b>C</b> is a lowercase Latin letter</li>\n<li><b>w<sub>i</sub></b> contains only lowercase Latin letters</li>\n<li>There will be no more than <b>65536</b> queries of the type <b>0</b>.</li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<tt>3 2 10\na\nab\n0 1 a\n1 1 2 1\n0 2 a\n1 1 2 1\n1 1 2 2\n0 1 a\n2 1 3 1\n0 1 b\n1 1 2 2\n2 2 3 1</tt>\n\n<b>Output:</b>\n<tt>1\n2\n0\n3\n0\n1</tt>\n</pre><h3>Explanation</h3>\n<ul>\n<li>In the second query the only tower containing the word <b>a</b> is the tower <b>1</b></li>\n<li>In the fourth query the towers containing the word <b>a</b> are towers <b>1</b> and <b>2</b></li>\n<li>In the fifth query there is no even a single tower containing the word <b>ab</b></li>\n<li>In the seventh query there are two ways to read the word <b>a</b> at the tower <b>1</b> (starting at the topmost or at the bottommost cube), one way to read the word <b>a</b> at the tower <b>2</b> (since this tower consists only of one cube with letter <b>a</b>) and zero ways to read the word <b>a</b> at the tower <b>3</b> (since it's empty)</li>\n<li>In the ninth query there is no way to read the word <b>ab</b> from any tower. Please pay attention that if we try to read a two-letter word from the top of the first tower, we will get <b>ba</b> and not <b>ab</b></li>\n<li>In the tenth query the only tower containing the word <b>a</b> is the tower <b>2</b>, and since it consists only of one cube with letter <b>a</b>, there is surely only one way to read this word</li>\n</ul>\n",
+    "category_name": "main",
+    "date_added": "13-06-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "3",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CUBTOWER",
+    "problem_tester": "kingofnumbers,antoniuk1,xcwgf666,kevinsogo",
+    "time": {
+        "view_start_date": 1466344800,
+        "end_date": 1466362800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1777445151,
+        "submit_start_date": 1466344800,
+        "current": 1537434821
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "SCC5",
+    "problem_author": "chhekur",
+    "contest_name": "Coding Hours",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>chhekur</span>",
+    "problem_name": "Celebrity In Trouble",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CODH2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/chhekur'>chhekur</a>, <a class='problem-tag-small ' href='/tags/problems/codh2018'>codh2018</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/graph'>graph</a>, <a class='problem-tag-small ' href='/tags/problems/stack'>stack</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A late night party is going on in hotel Taj. There are <b>N</b> persons numbered from <b>1, 2, 3 ..... N</b> (assume one based indexing) and a celebrity is present in the party. Some goons are planning to assassin the celebrity, meanwhile cops come to know about the assassination, so they arrive immediately at the party to protect the celebrity.</p>\n<p>A person can be termed as a Celebrity if he/she fulfills following conditions :</p>\n<ul>\n<li>If a person is known to each and every person present in the party, but he doesn't know anyone.</li>\n</ul>\n<p>You have to find out whether the celebrity is alive or not.</p>\n\n\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases is as follows.</li>\n<li>First line of each test case contains two integers,  <b>N</b> denoting number of persons and <b>M</b> denoting number of relations between them.</li>\n\n<li>Next <b>M</b> lines contains two space separated integers, relation between two persons.</li>\n</ul>\n<p>\u00a0</p>\n<hr>\n<h3>Output</h3>\n<p>If the celebrity is alive then print <b>alive and who is celebrity</b> otherwise <b>dead</b>.</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>3</sup></b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>10<sup>8</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Subtasks</h3>\n<p><b>Subtask #1 (20 points):</b></p>\n<ul><li><b>1</b> \u2264 <b>T</b> \u2264 <b>10<sup>2</sup></b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>2</sup></b></li></ul><br>\n<p><b>Subtask #2 (80 points):</b> original constraints</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n10 17\n1 8\n1 9\n2 8\n2 6\n3 8\n3 10\n4 7\n4 8\n10 8\n4 10\n5 8\n6 8\n7 8\n7 9\n5 7\n9 8\n10 3\n10 8\n1 5\n5 1\n5 3\n6 1\n6 4\n8 7\n9 1\n10 7\n\n<b>Output:</b>\nalive 8\ndead\n\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b></p>\n<p><img src = 'https://ibin.co/3pzx2Zghg1Pk.png'></img></p>\n<p>Here is only 8 available who is know to every one but he doesn't know any one.</p>\n<p><img src='https://ibin.co/3pzxMFDAiSLx.png'></img></p>\n<p>So answer is 'alive 8'.</p>\n<p><b>Example case 2.</b></p>\n<p>There is no person available who is know to every one.</p>",
+    "category_name": "main",
+    "date_added": "24-01-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/SCC5",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1517581800,
+        "end_date": 1517668200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1517668200,
+        "submit_start_date": 1517581800,
+        "current": 1537433079
+    },
+    "user": {
+        "username": ""
+    }
+}

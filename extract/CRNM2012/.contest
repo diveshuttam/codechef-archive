@@ -1,0 +1,107 @@
+{
+    "announcements": "<p><b>21/02/2012 06:45 PM (IST)</b>: The contest will start by 07:15 pm IST due to some technical issues. Apologies for the inconvenience</p>\r\n<p><b>21/02/2012 07:28 PM (IST)</b>: Please note that CRNM1206 is a partial problem.</p>\r\n<p><b>21/02/2012 08:00 PM (IST)</b>: In CRNM1201, assume that totient(1)=1.</p>\r\n<p><b>21/02/2012 08:30 PM (IST)</b>: The ranking for the contest can be viewed <a href=\"/rankings/CRNM2012\">here</a>.</p>\r\n<p><b>21/02/2012 10:01 PM (IST)</b>: Problem Setters and Testers : Ankur Gupta , Sidharth Gupta , Jyoti Gupta ( Delhi College of Engineering )\r\n<br>  3 hours left !!\r\nThe duration of the contest has been increased by 2 hours. The contest will end at 3:15am. Happy coding :)\r\n</p> \r\n<p><b>21/02/2012 11:16 PM (IST)</b>:There has been some problems with the testdata of problem <b>CRNM 1205 City of Romino </b>. The problem is being updated.All the solutions will be rejudged. Sorry for the trouble.\r\n<b>Update</b> : Rejudging is complete.Now you can submit the solutions to the problem.\r\n</p> \r\n\r\n<p><b>21/02/2012 11:56 PM (IST)</b>: The testdata for problem 1201 is being updated. All the solutions will be rejudged. Inconvenience regretted.\r\n</p> <b>Update</b> : Rejudging is complete.Now you can submit the solutions to the problem.\r\n\r\n<p><b>22/02/2012 03:34 AM (IST)</b>: The contest is over. Except for glitches in test data for some problems, hope you all liked the level of contest! We will announce the winners and prizes by tomorrow. Keep checking this page for updates. </p>\r\n",
+    "ip": "149.129.135.113",
+    "code": "CRNM2012",
+    "duration": "480",
+    "name": "Cranium Contest 2012",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>The Contest has ended!</b></p> <p><b>All problems have been added to the practice section.</b></p> <p><b>Solutions are public for all problems.</b></p> <p><b>Rules and Regulations:</b></p> <p>1. All problems will be posted on Tuesday, 21st February 2012 at 19:00 hours - Indian Standard Time (GMT +5:30) and the competition closes on Tuesday, 22nd February 2012 at 01:00 hours IST. Check your time zone <a href=\"http://timeanddate.com/worldclock/fixedtime.html?msg=Cranium+by+The+Delhi+College+Of+Engineering&amp;iso=20120221T19&amp;p1=44&amp;ah=6\">here</a>.</p> <p>2. It will be open for all STUDENTS, no professional will be allowed.</p> <p>3. The contest is for individuals. No teams are allowed.</p> <p>4. There is no restriction on the programming language to be used. Almost all languages are supported by Codechef.</p> <p>5. Participant must be registered <a href=\"http://www.phoenix.csidtu.com\">here</a> to avail prizes.</p> <p>\u00a0</p> <p><b>Judging Criteria:</b></p> <p>1. You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</p> <p>2. Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</p> <p>3. The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</p> <p>4. Any participant found to be indulging in any form of malpractice will be immediately disqualified.</p> <p>5. The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</p> <p>6. For any queries please contact Abhijeet Kumar at abhijeetkmr.dce@gmail.com.</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/CRNM2012/1424957630.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CRNM1207": {
+            "allow_submission": false,
+            "name": "Silly YooTi",
+            "category_name": "main",
+            "accuracy": 11.75,
+            "successful_submissions": "34",
+            "code": "CRNM1207",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CRNM1205": {
+            "allow_submission": false,
+            "name": "City of Romini",
+            "category_name": "main",
+            "accuracy": 11.48,
+            "successful_submissions": "5",
+            "code": "CRNM1205",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CRNM1204": {
+            "allow_submission": false,
+            "name": "Jungle Book",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "CRNM1204",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CRNM1202": {
+            "allow_submission": false,
+            "name": "The Two Little Sisters",
+            "category_name": "main",
+            "accuracy": 9.09,
+            "successful_submissions": "19",
+            "code": "CRNM1202",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CRNM1206": {
+            "allow_submission": false,
+            "name": "The FarmLand Ways",
+            "category_name": "main",
+            "accuracy": 8.33,
+            "successful_submissions": "1",
+            "code": "CRNM1206",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "CRNM1201": {
+            "allow_submission": false,
+            "name": "Sunny and Isha",
+            "category_name": "main",
+            "accuracy": 4.2,
+            "successful_submissions": "10",
+            "code": "CRNM1201",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CRNM1203": {
+            "allow_submission": false,
+            "name": "All Champions Mathematics Contest",
+            "category_name": "main",
+            "accuracy": 16.88,
+            "successful_submissions": "11",
+            "code": "CRNM1203",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1329860700,
+        "current": 1537438962,
+        "freezing": 0,
+        "start": 1329831900
+    },
+    "user": {
+        "username": ""
+    }
+}

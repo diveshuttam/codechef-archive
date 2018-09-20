@@ -1,0 +1,137 @@
+{
+    "announcements": "<div><span style=\"font-weight: bold;\">03/08/2013, 20:00 IST : </span>The statements of all the problems have been updated.</div>\r\n<div><span style=\"font-weight: bold;\"><br /></span></div>\r\n<div><span style=\"font-weight: bold;\">02/08/2013, 18:50 IST :</span><span style=\"font-weight: bold;\"> </span>The statement for the problem <a href=\"/AUG13/problems/PRIMEDST\" target=\"_blank\">PRIMEDST</a> has been updated</div>\r\n<p><span style=\"font-weight: bold;\"> </span><b>02/08/2013, 16:09 IST : </b>The last problem <a target=\"_blank\" href=\"/AUG13/problems/HELLO\">HELLO</a> has been added to the contest page.</p>\r\n<p><b> </b><b>02/08/2013, 15:05 IST:</b> Only 9 problems have been added as of now. The tenth one will be added soon.</p>",
+    "ip": "149.129.135.113",
+    "code": "AUG13",
+    "duration": "14400",
+    "name": "August Challenge 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div> <div class=\"applyall\"><b>The August Contest has ended!</b></div> <div class=\"applyall\"><b>The editorials for the contest can be found <a target=\"_blank\" href=\"http://discuss.codechef.com/tags/aug13/\">here</a>.</b></div> <div class=\"applyall\"><b>All problems have been added to the practice section and solutions have been made public.</b></div> <div class=\"applyall\"><b>Winners Blog Post can be found <a href=\"http://blog.codechef.com/2013/08/27/the-big-fat-august-challenge/\">here</a>.</b></div> <div class=\"applyall\"><b><br /></b></div> </div> <div></div> <div><b>Rules:</b></div> <ul> <li><span>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a target=\"_blank\" href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a>.</span></li> <li>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community..</li> <li>Contest problems will become visible on August 2nd 2013 at 15:00 hours IST. Check your timezone\u00a0<a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+August+Long+Challenge+2013&amp;iso=20130802T15&amp;p1=44\">here</a>.</li> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution</li> <li>You shall not possess more than one account on CodeChef. If you have, then do let us know, so that we can deactivate the insignificant one. If you do not report it and we come to know about it, we may deactivate both the accounts permanently.</li> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a>.</li> </ul> <p><b>Note: As a contestant, you are responsible for making sure others don't access the code that you submit. If you're on a network or shared computer, or using an online development environment, make sure that other contestants don't have access to your code. If you use\u00a0<a target=\"_blank\" href=\"http://ideone.com/\">Ideone</a>, make sure to mark your submission \"user\" (not private).</b></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/AUG13/1424957778.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CHMOD": {
+            "allow_submission": false,
+            "name": "Chef and Segments",
+            "category_name": "main",
+            "accuracy": 6.79,
+            "successful_submissions": "838",
+            "code": "CHMOD",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CNTSOLS": {
+            "allow_submission": false,
+            "name": "The Number Of Solutions",
+            "category_name": "main",
+            "accuracy": 18.26,
+            "successful_submissions": "716",
+            "code": "CNTSOLS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "HELLO": {
+            "allow_submission": false,
+            "name": "Hello Hello",
+            "category_name": "main",
+            "accuracy": 28.01,
+            "successful_submissions": "2550",
+            "code": "HELLO",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SEABAL": {
+            "allow_submission": false,
+            "name": "Sereja and Ballons",
+            "category_name": "main",
+            "accuracy": 14.9,
+            "successful_submissions": "256",
+            "code": "SEABAL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SHIRO": {
+            "allow_submission": false,
+            "name": "Save The Princess",
+            "category_name": "main",
+            "accuracy": 24.23,
+            "successful_submissions": "959",
+            "code": "SHIRO",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DELNMS": {
+            "allow_submission": false,
+            "name": "Deleting numbers",
+            "category_name": "main",
+            "accuracy": 57.41,
+            "successful_submissions": "718",
+            "code": "DELNMS",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "PRIMEDST": {
+            "allow_submission": false,
+            "name": "Prime Distance On Tree",
+            "category_name": "main",
+            "accuracy": 9.81,
+            "successful_submissions": "95",
+            "code": "PRIMEDST",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LYRC": {
+            "allow_submission": false,
+            "name": "Music & Lyrics",
+            "category_name": "main",
+            "accuracy": 6.56,
+            "successful_submissions": "175",
+            "code": "LYRC",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SPCANDY": {
+            "allow_submission": false,
+            "name": "Splitting Candies",
+            "category_name": "main",
+            "accuracy": 22.87,
+            "successful_submissions": "3466",
+            "code": "SPCANDY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LELEMON": {
+            "allow_submission": false,
+            "name": "Little Elephant and Lemonade",
+            "category_name": "main",
+            "accuracy": 48.33,
+            "successful_submissions": "2769",
+            "code": "LELEMON",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1376299800,
+        "current": 1537438241,
+        "freezing": 0,
+        "start": 1375435800
+    },
+    "user": {
+        "username": ""
+    }
+}

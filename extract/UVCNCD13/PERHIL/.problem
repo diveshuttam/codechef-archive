@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem statement</h3>\n<p>\n\tAn Adventure Club in UVCE usually goes for trekking. Some members thought that, simply climbing the hill is not very interesting. They came up with a new idea to find the perfectness of the hill. you are given the slant height of the hill, and your task is to help the UVCE Adventure Club to decide whether the hill is perfect or not.\n</p>\n<p>\n\tAdventure Club thinks that all the hills are typically in the shape of isosceles triangles and for given slant height, if the height of the hill can be integer and base-width can be an even integer then the hill is said to be <strong>PERFECT</strong>, otherwise it is <strong>IMPERFECT</strong>.\n</p>\n\n<h3>INPUT</h3>\n<p>\nFirst line of the input contains the <strong>T</strong>, number of test cases.<br />\nEach test case contains a single line containing an integer <strong>S</strong>, the slant height of the hill.</p>\n<p><h3>OUTPUT</h3>\n</p><p>\nFor each test case output <strong>PERFECT</strong>,if the hill is perfect otherwise output <strong>IMPERFECT</strong>.\n</p>\n<h3>\nCONSTRAINTS</h3>\n<ul>\n<li>1 \u2264 T \u2264 10000</li>\n<li>1 \u2264 S \u2264 1000000</li>\n</ul>\n<h3>EXAMPLE</h3>\n<p><b>Input</b></p>\n<p>\n2<br />\n5<br />\n7\n</p>\n<p><b>Output</b></p>\n<p>\nPERFECT<br />\nIMPERFECT\n</p>\n<h3>EXPLANATIONS</h3>\n<ol>\n<li>An isosceles triangle whose equal sides are 5 units can have 4 unit height and base width can be 6 units.</li>\n<li>For a isosceles triangle whose equal sides are 7 units, there is no possibility of having integral height and base width of even integer.</li>\n\n</ol>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-10-2013",
+    "is_direct_submittable": false,
+    "contest_name": "UVCE NCode- October 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1381138200,
+        "end_date": 1382002200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1382002200,
+        "submit_start_date": 1381138200,
+        "current": 1537438104
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>hkbharath</span>",
+    "problem_name": "Perfect Hill",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/hkbharath'>hkbharath</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "hkbharath",
+    "contest_code": "UVCNCD13",
+    "max_timelimit": "0.15625",
+    "problem_code": "PERHIL"
+}

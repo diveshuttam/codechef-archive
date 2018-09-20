@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p> <b>X-24</b> - the clone of Logan has evil plans, and this time he has decided to reduce Logan to ashes. He has a subset code which can cause havoc, and Logan must know what it is to curb X-24's actions. </p>\n<p> After musing for a long time, Logan finally deduced the subset code. </p>\n<p> Let's say there are <b>N</b> targets of the subset code. Each target has some value associated with it. </p>\n<p> Logan can carry out the following operation <b>any number of times ( even 0 times )</b> </p>\n<p> Logan can choose a particular subset of those <b>N</b> targets (even no element) ( let's say <b>X</b> elements ), and <b>decrease</b> the value of those elements by an integer <b>K1</b>, and also <b>increases</b> the value of rest of the targets ( remaining <b>N-X</b> elements  ) by another healing integer <b>K2</b>.  </p>\n\n<p> Laura advises Logan to anyhow convert value of at least <b>Y</b> targets to <b>Z</b> if he wants to stop the destruction.</p> \n<p> Help Logan in determining if the destruction can be stopped or not </p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p> You are provided with <b>T</b> test cases. </p>\n<p> First line of each test case contains an integer <b>N</b>.</p>\n<p> Second line contains N space separated integers- <b>Arr[ ]</b> </p>\n<p> Third line has 4 integers - <b>K1, K2, Z, Y</b> </p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>For each test case, print <b>\"YES\" or \"NO\" (without quotes)</b> as per the condition stated above.</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>Arr[i]</b> \u2264 <b>4*10<sup>9</sup></b></li>\n<li><b>1</b> \u2264 <b>K1,K2</b> \u2264 <b>4*10<sup>9</sup></b></li>\n<li><b>1</b> \u2264 <b>Z</b> \u2264 <b>4*10<sup>9</sup></b></li>\n<li><b>1</b> \u2264 <b>Y</b> \u2264 <b>N</b></li>\n<li><b>GCD(K1,K2)=1</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<p><b>Input:</b></p>\n<p> 2 </p>\n<p> 5 </p>\n<p> 3 5 6 9 10 </p>\n<p> 1 2 5 3 </p>\n<p> 2 </p>\n<p> 1 2 </p>\n<p> 1 2 2 2 </p>\n\n<p><b>Output:</b></p>\n<p> YES </p>\n<p> NO </p>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p> In the first test case, we need to convert atleast 3 elements into 5. </p>\n<p>One possible set of operations can be like this -</p>\n<li> <p>Decrease subset { 9 } by 1 and increase rest of the elements by 2. </p>\n<p>The new values - { 5, 7, 8, 8, 12 }</p> </li>\n<li> <p>Decrease subset { 8,8 } by 1 and increase rest of the elements by 2. </p> <p> The new values - { 7, 9, 7, 7, 14 } </p> </li>\n<li> <p> Decrease subset { 7,7,7 } by 1 and increase rest of the elements by 2.</p> <p>The new values - { 6,11, 6, 6, 16 } </p></li>\n<li> <p>Decrease subset { 6,6,6 } by 1 and increase rest of the elements by 2.</p> <p>The new values - { 5,13, 5, 5, 18 }</p> </li>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-03-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Alkhwarizm 2017 (Rated)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1490369400,
+        "end_date": 1490387400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1490387400,
+        "submit_start_date": 1490369400,
+        "current": 1537433981
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>shivamg_isc</span>",
+    "problem_name": "X-24 and his SUBSET code",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shivamg_isc'>shivamg_isc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shivamg_isc",
+    "contest_code": "ALKH2017",
+    "max_timelimit": "1",
+    "problem_code": "INCDEC"
+}

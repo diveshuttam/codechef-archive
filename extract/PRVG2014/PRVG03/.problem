@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Description</h3>\n<p>Housed in the Main Building of IISc, Faculty Hall is a very prestigious building. The building, one of the prominent landmarks of Bangalore, was designed in 1912 \u2013 13 and is opposite the historic statue of J N Tata. It is one of the locations for Pravega 2014 to be held from 31st January 2014 and 2nd February 2014.</p>\n<p>One of the key features of Pravega is the lecture series. Pranav Mundada has received the start time and end time for the various talks by Nobel Laureates. Pranav wants to have all the talks in the Faculty Hall. However, some talks overlap and all cannot be held in the Faculty Hall. So Pranav wants to occupy the Faculty Hall for as long a duration as possible so that the other auditoriums are occupied for a minimum duration.  You need to help Pranav find the total duration for which the Faculty Building will be occupied.</p>\n<p>PS: Pranav, trying to help you, had stored the start times and end times in microseconds. You too can help him by giving the answer in microseconds itself.</p>\n<h3>Input format</h3>\n<p>The first line of the input gives you the number of test cases T.</p>\n<p>In each test case, the first line contains the number of lectures N. The following N lines contain two numbers t<sub>i1</sub> and t<sub>i2</sub> separated by a space. The ith line reads the start time and end time of the ith lecture. If a lecture starts at time t<sub>1</sub> and ends at time t<sub>2</sub> and is being held in Faculty Hall, then another lecture held there must either start at or after time (t<sub>2</sub> + 1) or end at or before time (t<sub>1</sub> \u2013 1).</p>\n<h3>Output Format</h3>\n<p>The output should contain T integers on T different lines, the duration for which the Faculty Hall will be occupied in the corresponding test case.</p>\n<h3>Sample Input</h3>\n<div style=\"font-family:monospace;\">\n2<br /><br />\n7<br /><br />\n8 10<br /><br />\n0 10<br /><br />\n1 1<br /><br />\n4 8<br /><br />\n4 5<br /><br />\n1 10<br /><br />\n0 3<br /><br />\n7<br /><br />\n30764 820680<br /><br />\n456065 734674<br /><br />\n603052 632489<br /><br />\n863160 915957<br /><br />\n293048 463736<br /><br />\n473326 592262<br /><br />\n140264 201404\n</div>\n<p><br /></p>\n<h3>Sample Output</h3>\n<div style=\"font-family:monospace;\">\n11<br /><br />\n842715\n</div>\n<p><br /></p>\n<h3>Input constraints</h3>\n<p>1 \u2264 T \u2264 200<br /><br />\n1 \u2264 N \u2264 30,000<br /><br />\n1 \u2264 t<sub>i1</sub> &lt; t<sub>i2</sub> \u2264 10<sup>12</sup></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "9-11-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Pravega 2014",
+    "languages_supported": "C, CPP14, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1384011000,
+        "end_date": 1384018200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1384018200,
+        "submit_start_date": 1384011000,
+        "current": 1537438041
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>pravega_opc</span>",
+    "problem_name": "Lecture Series",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pravega_opc'>pravega_opc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pravega_opc",
+    "contest_code": "PRVG2014",
+    "max_timelimit": "1",
+    "problem_code": "PRVG03"
+}

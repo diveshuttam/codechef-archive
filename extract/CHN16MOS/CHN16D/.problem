@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nAn entire class of students has gone to the ATM to withdraw cash. Let's name them <b>{S<sub>1</sub>, S<sub>2</sub>, .., S<sub>N</sub>}</b>. Obviously they have to stand in a queue. They want to do so, such that close friends are standing not too far from each other. Specifically, if <b>S<sub>i</sub></b> and <b>S<sub>j</sub></b> are close friends, then there should not be more than 2 other students standing in between them. Given the close-friendship information, you need to tell whether it is possible to form such a queue, or not.\n</p>\n\n<p>\n\nFormally, you should state whether there exists a permutation <b>(S<sub>p1</sub>, S<sub>p2</sub>, .., S<sub>pN</sub>)</b> of <b>{S<sub>1</sub>, S<sub>2</sub>, .., S<sub>N</sub>}</b>, such that for all pairs <b>(S<sub>pi</sub>, S<sub>pj</sub>)</b> where <b>S<sub>pi</sub></b> and <b>S<sub>pj</sub></b> are close friends,  <b>|i-j| \u2264 3</b> holds true.\n</p>\n\n\n<h3>Input</h3>\n<p>The first line of input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>\n<p>The first line contains two integers <b>N, M</b>, denoting the number of students, and the number of close-friendship pairs, respectively.</p>\n<p>The next <b>M</b> lines contain two integers each, separated by single spaces: <b>i j</b>, denoting that <b>S<sub>i</sub></b> and <b>S<sub>j</sub></b> are close friends.</p>\n\n\n<h3>Output</h3>\n<p>Output a single line for each testcase, containing the answer, which should be <b>1</b>, if such a queue is possible, and <b>0</b> otherwise.</p>\n\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1 \u2264 T \u2264 3</b></li>\n<li><b>1 \u2264 N \u2264 30</b></li>\n<li><b>1 \u2264 M \u2264 200</b></li>\n</ul>\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n<tt>1\n5 6\n1 2\n3 1\n4 1\n2 5\n2 4\n5 4\n</tt>\n<b>Output:</b>\n<tt>1</tt>\n</pre>\n\n<h3>Explanation</h3>\nConsider the permutation <b>(S<sub>1</sub>, S<sub>3</sub>, S<sub>2</sub>, S<sub>4</sub>, S<sub>5</sub>)</b>. No pair of close friends have more than 2 students between them. So this is a valid queue, and hence the answer is <b>1</b>.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Chennai Onsite Mirror Contest 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1482211800,
+        "end_date": 1482229800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1793254705,
+        "submit_start_date": 1482211800,
+        "current": 1537434308
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "ATM Queue",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin3",
+    "contest_code": "CHN16MOS",
+    "max_timelimit": "2",
+    "problem_code": "CHN16D"
+}

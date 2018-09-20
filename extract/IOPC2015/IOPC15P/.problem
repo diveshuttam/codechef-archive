@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The socialist state of Karuka is a beautiful circular island, with a huge lake in the middle. The N cities of Karuka are along the island, consecutively along the circle, consecutively numbered 0 ... N-1.<br />\n<br /><br />Each of the cities initially have some amount of wealth, given by an array W, of length N. Karukians are happy within themselves, and there is no mechanism to gain wealth in Karuka.<br />\n<br /><br />The only transfer of wealth that happens in Karuka, is this. On every day, the president of Karuka selects a city W[i], takes away (N-1) of it's wealth and gives 1 amount of wealth to each of the other cities. That is,<b></b></p>\n<ul>\n<li> W[i] &lt;- W[i] - (N - 1)\n</li><li> For all (j != i), W[j] &lt;- W[j] + 1\n</li></ul>\n<p><br />\n<br />To ensure that the principles of the socialist state are honored, the <b>probability of selection of city i is set to be proportional to W[i], at every point.</b> (this probability changes after every day, if W[i] changes)</p>\n<p><br /><br />As the president of Karuka, you are interested in the probability that each of the i'th cities is selected at the Kth day from now. </p>\n<p><br /><br />Note: today's transfer of wealth is yet to happen. (That is, <b>a total of K transfers will happen before the Kth day</b>).\n</p>\n<h3>Input</h3>\n<p>There will be a single test case. The first line will contain two space separated integers, N and K.<br />\n<br /> The next line will contain N space separated integers, specifying the array W.</p>\n<h3>Output</h3>\n<p>Output a N space separated real values, where the i'th one gives the expected wealth after K transfers, <b>correct to an error of 10^-6 </b></p>\n<h3>Constraints</h3>\n<p><ul>\n<li><b>5</b> \u2264 <b>N</b> \u2264 <b>6*10^3</b></li>\n<li><b>20</b> \u2264 <b>K</b> \u2264 <b>3*10^3</b></li>\n<li><b>K*(N-1)</b> \u2264 <b>W[i]</b> \u2264 <b>10^9</b></li>\n<li><b> It is ensured that at most N-2 cities can possibly become worthless </b></li>\n</ul>\n</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5 20\n100 100 101 101 100\n<b>Output:</b>\n100.07257380 100.07257380 100.89113929 100.89113929 100.07257380 \n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426336200,
+        "end_date": 1426422600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426422600,
+        "submit_start_date": 1426336200,
+        "current": 1537436571
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>triveni</span>",
+    "problem_name": "The socialist state of Karuka",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/triveni'>triveni</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "triveni",
+    "contest_code": "IOPC2015",
+    "max_timelimit": "1",
+    "problem_code": "IOPC15P"
+}

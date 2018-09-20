@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nIn this problem your task is to reduce a given number 'N' to a non-positive number in as little moves as possible. \n\nThe moves allowed are : Given an integer 'N' you can subtract one of its factors (excluding 'N' itself) from 'N' and continue the same process with the resulting number until you reach a non-positive number. Note that there is a special case when N=1, you can subtract '1' to reach 0.\n\n\n<h3>Input</h3>\n<p>\nFirst line contains the number of test cases 'T'. 'T' lines follow containing a single integer 'N' 2<=N<100,000.\n\n<h3>Output</h3>\n<p>\nA single integer denoting the minimum number of moves necessary.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n10\n\n<b>Output:</b>\n5\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Technovanza 2010 Round 1",
+    "languages_supported": "C, JAVA, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1263396600,
+        "end_date": 1263403800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180165,
+        "submit_start_date": 1263396600,
+        "current": 1537439831
+    },
+    "problem_author_html_handle": "technovanza10",
+    "problem_name": "rnumber",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/technovanza10'>technovanza10</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "technovanza10",
+    "contest_code": "TV10CAT1",
+    "max_timelimit": "18.6115",
+    "problem_code": "TECH02"
+}

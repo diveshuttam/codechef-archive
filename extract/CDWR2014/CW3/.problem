@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>\n<br />Magar Anand is Pro-App developer. He usually writes apps using his own mXAML(modified XAML format) code.<br />\n<br />However, since he writes such enormous apps with XAML, he finds it difficult to maintain statistics of his code.\n</p>\n<p>\n<br />The most basic unit of mXAML code is a tag. A tag can be either opening or closing or both.<br />\n<br /> This is an opening tag &lt;StackPanel&gt; while this is a closing tag &lt;/StackPanel&gt; whereas a both opening and closing tag is &lt;StackPanel/&gt;<br />\n<br />Here, StackPanel is a tagname. Tagnames can have only lower-case and upper-case alphabets.<br />\n<br />Now, <b>Opening tags</b> and <b>both Opening and Closing tags</b> may have attributes associated with it.<br />\n<br />Attributes are specified by listing them after the tagname separated by spaces. Attribute names can have only lower-case and upper-case alphabets.<br />\n<br />Each attribute can have a string value consisting of lower-case and upper-case alphabets, numbers and commas and periods.<br />\n<br />This is the general format of a tag.<br />\n<br /><center>&lt;Tagname Attribute1name=\"value1\" Attribute2name=\"value2\"......&gt;  //For opening tags</center><br />\n<br /><center>&lt;Tagname Attribute1name=\"value1\" Attribute2name=\"value2\"......&gt;  //For both opening and closing tags</center><br />\n<br />Where tagname and attributenames can be any valid names for tags and attributes as specified above.<br />\n<br />Note that there is no need for an opening tag to match with a closing tag except for the first tag in input. The input terminates with the closing tag for the first tag.\n</p>\n<p>\n<br />Now tags can also be indented for purposes of nesting. Indenting is done with the character '#'.<br />\n<br />The number of #s preceding a tag is the level of indentation for the tag. (A tag without any preceding #'s is said to have 0 level of indentation)<br />\n<br />You need to help Magar Anand to find the tags, their levels of indenting and number of attributes which are used in each tag. Clearly, you only need to do this for open tags or both opening/closing tags only, since closing tags cannot have attributes.\n</p>\n\n<h2>Input</h2>\n<p> Input will consist of multiple lines of valid mXAML code.<br />\nEach line will have only one tag either opening, closing or both opening/closing.<br />\nThe input terminates with the closing tag for the first tag.<br />\nInput will not have more than 100 lines. Length of each line will not exceed 200 characters.\n</p>\n<h2>Output</h2>\n<p> For each opening or both opening/closing tag, you need to print the name of the tag, level of the tag and the number of attributes used in that particular tag.</p>\n\n<h2>Example</h2>\n<p> <b>Input:</b></p>\n<p>\n<br />&lt;StackPanel&gt;<br />\n<br />#&lt;Panel color=\"023456\" margin=\"1,1,1,1\"&gt;<br />\n<br />#&lt;Panel backgroundcolor=\"234556\" margin=\"2,3,4,3\"/&gt;<br />\n<br />##&lt;Label text=\"HelloWorld\"/&gt;<br />\n<br />#&lt;/Panel&gt;<br />\n<br />&lt;/StackPanel&gt;<br />\n<br />\n</p>\n<p> <b>Output:</b></p>\n<p>StackPanel 0 0<br />\n<br />Panel 1 2<br />\n<br />Panel 1 2<br />\n<br />Label 2 1<br />\n<br />\n</p>\n<h2>Explanation</h2>\n<p><b>Example case 1.</b>\"StackPanel\" is a tag with indent 0 and 0 attributes. Next line, Panel has 1 indent and 2 attributes \"color\" and \"margin\". Next Panel also has the same number of indents and attributes.<br />\n\"Label\" has 1 attribute \"text\" and 2 indents. Rest of the tags are closing and should not be processed. Note that &lt;/StackPanel&gt; terminates the input since &lt;StackPanel&gt; if the first tag.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-10-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Codewars 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1412771400,
+        "end_date": 1412785800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1412785800,
+        "submit_start_date": 1412771400,
+        "current": 1537437386
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>srujanjha</span>",
+    "problem_name": "APP DEVELOPER DILEMMA",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/srujanjha'>srujanjha</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "srujanjha",
+    "contest_code": "CDWR2014",
+    "max_timelimit": "1",
+    "problem_code": "CW3"
+}

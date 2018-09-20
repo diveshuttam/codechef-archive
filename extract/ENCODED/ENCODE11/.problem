@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>IEM(International Energitic Medical Board) has received a sample of viruses. The sample contain exactly N types of virus. Each type is recognised by a unique value(So, N values are necessarily DISTINCT).<br>IEM has also received some statistics forecasting the behaviours of the viruses.This provided mainly three ideas:-<br>\n<b>1.The initial number of each type of viruses,I( in other words, initially all type of viruses have same count ie I )<p>\n2.Information regarding Q days about the behaviour of viruses. For each day, they have given 3 integers X,Y and V which means ALL THE TYPES PRESENT in the sample whose values are in between X and Y(both inclusive) will have an increase in number by value V.<p>\n3.Information about the critical virus at the end of each of Q days. For each day, they provide one integer R which means if all the viruses (generated TILL THE END OF THAT DAY) are sorted, in ascending order of their values, then the virus at position R in the sorted list is termed as \"CRITICAL VIRUS\"(the starting position in the list is '1' ie the list has '1' based indexing)</b>\n<p>Scientists working at IEM need to know the<b> TYPE-VALUE of the critical virus at the end of each day</b>,but as they are too energitic, they cannot wait for Q long days to have the list of critical viruses.So, they are asking you to help them.\n\n\n\n<h3>Input</h3>\n<p>\n1st line contains one integer N<br>\n2nd line contains N space separated integers which denote values associated with the types present in the sample(they are distinct)<br>\n3rd line contain I and Q separated by a spoace\nEach of the following Q lines will have exactly 4 integers X,Y,V and R separated by spaces.<br><br>\n(the meanings of N,Q,X,Y,V and R are as described in the problem)\n\n\n<h3>Output</h3>\n<p>Output exactly Q lines corresponding to Q days.Each line should contain an integer denoting the type-value of the critical virus among the viruses generated till the end of that day.\n<p>*NOTE:R has nothing to do with X,Y & V particularly on that day, rather it denotes the position in the whole sorted list of viruses generated upto that day.<br>\ntype-value of a virus is typically the value associated with its type.<br>\ndon't assume N values (defining N different types) initially given are some permutation of the numbers from 1 to N. <br>\nthe types which are not present in the sample, are need not to be considered during updating the sample...\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n5\n9 3 5 1 6\n2 3\n3 6 1 1\n1 3 3 11\n5 9 2 20\n\n\n<b>Output:</b>\n1\n3\n6\n\n\n<b>Constraints:</b>\n1<=N<=100000\n1<=type-value<=2*10^9\n1<=Q<=200000\n1<=I<=10000\n1<=X<=Y<=2*10^9\n1<=V<=10000\n1<=R<=total_no_of_viruses_generated_at_that_time\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "IEM - Kolkata - FESTRONIX - Encoded",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, D, PERL, FORT, ADA, ASM, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, SCM guile, TCL, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298799000,
+        "end_date": 1298831400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298831400,
+        "submit_start_date": 1298799000,
+        "current": 1537439297
+    },
+    "problem_author_html_handle": "encoded_admin",
+    "problem_name": "Virus",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/encoded_admin'>encoded_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "encoded_admin",
+    "contest_code": "ENCODED",
+    "max_timelimit": "0.148951",
+    "problem_code": "ENCODE11"
+}

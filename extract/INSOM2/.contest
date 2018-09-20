@@ -1,0 +1,107 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "INSOM2",
+    "duration": "720",
+    "name": "IIT Roorkee Insomnia - Thought Round",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>Congratulations Winners:</b><br /> The contest has been really exciting with the top three positions fighting it out right up to the last minute.<br /> 1. Ajay Somani - for a 1.5 MB solution taking 0.00 time at 7:38 am for problem INSOMB8<br /> 2. Anshuman Singh - for a 1.7 MB solution taking 0.00 time at 7:28 am for problem INSOMB8<br /> 3. Keshav Dhandhania - for a 2.5 MB solution taking 0.0 time at 7:27 am for problem INSOMB8<br /> <br /> The first two levels were tied on time. Decision has been made using memory usage of INSOMB8.</p> <br /> <b>Updates:</b> <ul> <li>3:54 am - Test Case for INSOMB7 has been updated. Rejudge in progress.</li> <li>2:48 am - The final 2 problems will become available at 3:15am</li> <li>2:26 am - Test Cases for INSOMB5 have been updated. Rejudge in progress.</li> <br /> <b>Rules:</b><br /> 1. There are 7 problems in total. At 9PM IST initial 5 problems will be available.<br /> 2. The 2 remaining problems will be put up 30 minutes after any participant successfully solves all 5 problems correctly.<br /> 3. If there is a tie after the round is over then tie would be broken as follows:<br /> a. First level tie break will be on the basis of execution time of the last problem<br /> b. Second level tie break will be on the basis of the execution time of the second last problem<br /> c. In case there is still a tie, then the ties will be broken on the basis of the memory used for the last and then the second last problem.<br /> d. In case the tie still persists, then the time of submissions for the best solution to the last problem will be considered.<br /> 4. The contest ends at 9AM IST Sunday March 22nd.</ul> ",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/INSOM2/1424957408.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "INSOMB3": {
+            "allow_submission": false,
+            "name": "I for Insomnia",
+            "category_name": "main",
+            "accuracy": 12,
+            "successful_submissions": "14",
+            "code": "INSOMB3",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "INSOMB4": {
+            "allow_submission": false,
+            "name": "Box Packers",
+            "category_name": "main",
+            "accuracy": 4.81,
+            "successful_submissions": "5",
+            "code": "INSOMB4",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "INSOMB2": {
+            "allow_submission": false,
+            "name": "Timepass",
+            "category_name": "main",
+            "accuracy": 20.08,
+            "successful_submissions": "45",
+            "code": "INSOMB2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "INSOMB5": {
+            "allow_submission": false,
+            "name": "Reporting Cogni",
+            "category_name": "main",
+            "accuracy": 82.61,
+            "successful_submissions": "10",
+            "code": "INSOMB5",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "INSOMB7": {
+            "allow_submission": false,
+            "name": "Tom And Jerry",
+            "category_name": "main",
+            "accuracy": 54.72,
+            "successful_submissions": "8",
+            "code": "INSOMB7",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "INSOMB6": {
+            "allow_submission": false,
+            "name": "CEO Ride",
+            "category_name": "main",
+            "accuracy": 28.19,
+            "successful_submissions": "34",
+            "code": "INSOMB6",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "INSOMB8": {
+            "allow_submission": false,
+            "name": "Falling Snow",
+            "category_name": "main",
+            "accuracy": 47.19,
+            "successful_submissions": "3",
+            "code": "INSOMB8",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1237692600,
+        "current": 1537439960,
+        "freezing": 0,
+        "start": 1237649400
+    },
+    "user": {
+        "username": ""
+    }
+}

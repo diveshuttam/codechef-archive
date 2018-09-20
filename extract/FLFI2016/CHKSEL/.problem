@@ -1,0 +1,33 @@
+{
+    "problem_code": "CHKSEL",
+    "problem_author": "vibhor3gupta",
+    "contest_name": "Flaw Fishing",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>vibhor3gupta</span>",
+    "problem_name": "Help with selection",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "FLFI2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/combinatorics'>combinatorics</a>, <a class='problem-tag-small ' href='/tags/problems/flfi2016'>flfi2016</a>, <a class='problem-tag-small ' href='/tags/problems/lucas-theorem'>lucas-theorem</a>, <a class='problem-tag-small ' href='/tags/problems/medium-hard'>medium-hard</a>, <a class='problem-tag-small ' href='/tags/problems/number-theory'>number-theory</a>, <a class='problem-tag-small ' href='/tags/problems/vibhor3gupta'>vibhor3gupta</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>This time Rahul has been given a simple problem. <br /><br />\nHe has to find the number of ways of selecting <b>K</b> distinct items from a group of <b>N</b> distinct items.<br /><br />\nAs the output can be large print the answer modulo <b>P</b>.<br />\n</p>\n<p>\u00a0</p>\n<h3>Flawed code</h3>\n<p>\n#include <bits/stdc++.h><br /><br />\n#define ll long long<br /><br />\nll fact[1000000];<br /><br />\nint pwr(int x,int p,int mod){<br /><br />\n    ll t = 1,a=x;<br /><br />\n    while(p){a=(a*a)%mod;p=p>>1;}<br />\n    return t;}<br /><br />\nll abc(int n,int r,int MOD){<br /><br />\n    ll tem=(fact[r]*fact[n-r])%MOD;<br /><br />\n    tem=pwr(tem,MOD-1,MOD);<br /><br />\n    return (tem*fact[n])%MOD;}<br /><br />\nll xyz(ll n,ll m,int p){<br /><br />\n    if(n==0)return 1;<br /><br />\n    if(m==0)return 1;<br /><br />\n    int ni=n%p;<br />\n    int mi=m%p;<br /><br />\n    return xyz(n/p,m/p,p)*abc(ni,mi,p)%p;}<br /><br />\nll C(ll n,ll r,int MOD){<br /><br />\n    fact[0]=1; for(int i=1;i!=MOD;i++) fact[i]=(i*fact[i-1])%MOD;<br /><br />\n    return xyz(n,r,MOD);}<br /><br />\nint main(){<br /><br />\n    int t;cin>>t;<br /><br />\n    while(t--){<br /><br />\n        ll n,k;int p;<br /><br />\n        cin>>n>>k>>p; <br /><br />\n        printf(\"%lld\",C(n,k,p));<br /><br />\n}}<br /></bits/stdc++.h></p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first line of each test case contains 3 integers, <b>N</b> denoting the total number of distinct items, <b>K</b> denoting number of distinct items to be choosed, <b>P</b>.\n</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing the answer.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li> 1 \u2264 <b>T</b> \u2264 100</li>\n<li> 1 \u2264 <b>N</b> \u2264 10^18</li>\n<li> 1 \u2264 <b>K</b> \u2264 <b>N</b></li>\n<li> 1 \u2264 <b>P</b> \u2264 10^5</li>\n<li> <b>P</b> is a prime</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n10 2 7\n4 2 3 \n\n<b>Output:</b>\n3\n0\n\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "date_added": "15-03-2016",
+    "status": "success",
+    "languages_supported": "CPP14",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/CHKSEL",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1458135000,
+        "end_date": 1458140400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1458140400,
+        "submit_start_date": 1458135000,
+        "current": 1537435087
+    },
+    "user": {
+        "username": ""
+    }
+}

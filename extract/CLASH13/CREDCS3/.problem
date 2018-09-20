@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Amit was given a balance and n weights (where n is a positive integer) of weight 2^0, 2^1, 2^2,.... 2^(n-1). He is now assigned a task to place the weight that has not been placed on the balance, either on the right pan or the left pan until all of the weights have been placed.But at every step he needs to make sure that the right pan is never heavier than left pan. You have to help him determine the number of ways in which this can be done.\n</p>\n<p><h3>Input</h3>\n</p><p>\nFirst line contains <b>T</b>, the number of test cases.<br />\n<b>T</b> test cases follow.<br /><br />\nEach test case contains a single line containing <b>N</b>, the total number of weights.\n</p>\n<h3>Output</h3>\n<p>The total number of possible ways modulo 10^9+7.</p>\n<h3>Constraints</h3>\n<p>0 &lt;= <b>N</b> &lt;= 100<br /></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n2\n3\n8\n\n<b>Output:</b>\n3\n15\n2027025\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-08-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Clash Credenz 2013",
+    "languages_supported": "C, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1377541800,
+        "end_date": 1377714600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1377714600,
+        "submit_start_date": 1377541800,
+        "current": 1537438202
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>ashmew2</span>",
+    "problem_name": "Balance it Out",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ashmew2'>ashmew2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ashmew2",
+    "contest_code": "CLASH13",
+    "max_timelimit": "0.12 - 0.205714",
+    "problem_code": "CREDCS3"
+}

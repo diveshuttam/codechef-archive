@@ -1,0 +1,33 @@
+{
+    "problem_code": "REDBLUE",
+    "problem_author": "kingofnumbers",
+    "contest_name": "December Challenge 2017",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>kingofnumbers</span>",
+    "problem_name": "Red and blue points",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "DEC17",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dec17'>dec17</a>, <a class='problem-tag-small ' href='/tags/problems/kingofnumbers'>kingofnumbers</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Read problems statements in <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/DEC17/mandarin/REDBLUE.pdf\">Mandarin chinese</a>, <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/DEC17/russian/REDBLUE.pdf\">Russian</a> and <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/DEC17/vietnamese/REDBLUE.pdf\">Vietnamese</a> as well.</h3>\n\n<p>You are given <b>N</b> red points and <b>M</b> blue points on a 2D plane.</p>\n\n<p>You are required to delete the minimum number of points(the deleted points can be of both colors) so that it's possible to draw a line such that all remaining red points are on one side of the line while all remaining blue points are on the other side of the line.</p>\n\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases.</li>\n\n<li>The first line of each test case contains two space-separated integers <b>N</b> and <b>M</b>.</li>\n\n<li>Each of the next <b>N</b> lines contains two integers <b>Xr<sub>i</sub></b>, <b>Yr<sub>i</sub></b> describing the coordinates of the i-th red point.</li>\n\n<li>Each of the next <b>M</b> lines contains two integers <b>Xb<sub>i</sub></b>, <b>Yb<sub>i</sub></b> describing the coordinates of the i-th blue point.</li>\n</ul></p>\n\n<h3>Output</h3>\n<p>For each test case, output a single line containing one integer denoting the minimum number of points to be deleted.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 <b>T</b> \u2264 100</li>\n<li>1 \u2264 <b>N</b>, <b>M</b> \u2264 1,000</li>\n<li>1 \u2264 sum of <b>N</b> in all test cases \u2264 1,000</li>\n<li>1 \u2264 sum of <b>M</b> in all test cases \u2264 1,000</li>\n<li>-10<sup>9</sup> \u2264 <b>Xr<sub>i</sub></b>, <b>Yr<sub>i</sub></b>, <b>Xb<sub>i</sub></b>, <b>Yb<sub>i</sub></b> \u2264 10<sup>9</sup></li>\n<li>No two points among both red and blue points have same coordinates</li>\n<li>No three points among both red and blue points are collinear</li>\n</ul>\n\n<h3>Subtasks</h3>\n\n<p>\n<b>Subtask #1 (20 points):</b> 1 \u2264 sum of <b>N</b> in all test-cases,  sum of <b>M</b> in all test-cases \u2264 100\n</p>\n\n<p>\n<b>Subtask #2 (80 points):</b> original constraints\n</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n\n1\n4 4\n0 0\n10 10\n0 10\n10 0\n12 11\n2 1\n12 1\n2 11\n\n<b>Output:</b>\n\n2\n</pre>\n",
+    "category_name": "main",
+    "date_added": "30-11-2017",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/REDBLUE",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1512120600,
+        "end_date": 1512984600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1512984600,
+        "submit_start_date": 1512120600,
+        "current": 1537433307
+    },
+    "user": {
+        "username": ""
+    }
+}

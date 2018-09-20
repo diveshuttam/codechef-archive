@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Problem description.</p>\n<p>\nAtsi and his friend got together after a long time and had some fun arranging glasses(instead of playing cards) in form of pyramids.<br>\n\n<pre>\n\t      \\_/\n\t    \\_/\\_/\n\t  \\_/\\_/\\_/\n\t\\_/\\_/\\_/\\_/\n\t       .\n               .\n               .\t\n</pre>\u00a0<br> Unlike card towers, glass towers are fun because you can pour water into them. They decided to pour water only into the top glass. One might notice, as the top glass fills up, water overflows from the sides and evenly topples to the glasses on the second row, and this process continues.<br><br>Since, it's been years, his friend decides to give Atsi a problem to solve. He will give Atsi two integers <b>i</b> and <b>j</b> and Atsi will have to tell him the amount of water to be poured to just fill up the <b>jth cup in the ith row</b>. Can you help Atsi solve this problem? He doesn't want to be embarrassed in front of his friend. :(\n<br><br>\nAlso, unfortunately, you have only a limited supply of water, specifically <b>10<sup>18</sup></b> mL of water with you and cannot put in more water than this amount into the tower.\n</p>\n\n\n<h3>Input</h3>\n<p>Input description.</p>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases.\u00a0For each test case there will be three space-separated integers <b>i, j, c</b> denoting the row number of the required glass, position of the glass in the <b>ith</b> row and capacity of each glass <b>in mL</b> respectively. Both <b>i</b> and <b>j</b> are 1-indexed.</p>\n\n<h3>Output</h3>\n<p>Output description.</p>\n<p>For each test case, output a single integer <b>X</b> the amount of water(<b>in mL</b>) to be poured to the topmost glass for the <b>jth</b> glass on the <b>ith</b> row to be just full(It should not overflow). You can assume that there are infinite number of rows and glasses, but the <b>ith</b> row will have maximum of <b>i</b> glasses. Print <b>-1</b> if you do not have enough water.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>4</b></li>\n<li><b>1</b> \u2264 <b>i, j</b> \u2264 <b>2000</b></li>\n<li><b>1</b> \u2264 <b>c</b> \u2264 <b>10<sup>9</sup></b></li>\n</ul>\n<h3>Subtasks</h3>\n<p>\n\t<b>Subtask 1(10 points):</b> <b>1</b> \u2264 <b>i, j</b> \u2264 <b>10</b><br>\n\t<b>Subtask 2(20 points):</b> <b>T = 1<br>\n\t<b>Subtask 3(70 points):</b> Original Constraints<br>\n</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n5 2 5\n2 1 2\n3 2 2\n1 1 3\n2 2 1\n\n<b>Output:</b>\n69\n6\n10\n3\n3\n\n</pre>\n<p>\u00a0</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "ICO and ICPC 2018 Preparatory Series - Contest 2",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1509111000,
+        "end_date": 1509129000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1509129000,
+        "submit_start_date": 1509111000,
+        "current": 1537433404
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>ista2000</span>",
+    "problem_name": "Pyramid falls",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ista2000'>ista2000</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ista2000",
+    "contest_code": "ICOP1802",
+    "max_timelimit": "5",
+    "problem_code": "PYFALLS"
+}

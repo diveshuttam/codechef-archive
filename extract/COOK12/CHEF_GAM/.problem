@@ -1,0 +1,33 @@
+{
+    "problem_code": "CHEF_GAM",
+    "problem_author": "gamabunta",
+    "contest_name": "July Cook-off 2011",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>gamabunta</span>",
+    "problem_name": "Chefs Game",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>anton_lunyov</span>",
+    "contest_code": "COOK12",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cook12'>cook12</a>, <a class='problem-tag-small ' href='/tags/problems/gamabunta'>gamabunta</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p style=\"text-align:justify\">Chef loves that his cooks involve themselves in group activities.<br />\n\tThis month, Chef has involved his cooks in a rather very curious game.<br />\n\tIt involves all his cooks, standing in a circle. Each cook is given one integer to keep,<br />\n\twhich may be positive or negative (or zero).<br />\n\tThe sum of all the integers, given to the cooks, is positive.</p>\n<p style=\"text-align:justify\">Suppose there are N (N \u2265 3) cooks. Cooks are labeled from 1 to N.<br />\n\tk's neighbors are (k-1) and (k+1), as they are standing in a circle.<br />\n\tNote that if k = 1, k-1 wraps around to N; and if k = N, k+1 wraps around to 1.<br />\n\tLet A[i] represent the integer that is kept by the cook i.<br />\n\tThe game proceeds in turns. In each turn, any one cook may opt to play.<br />\n\tNow, suppose the cook k wants to play in this turn, the following changes happen, in the given order:</p>\n<ul>\n<li>A[k-1] = A[k-1] + A[k]</li>\n<li>A[k+1] = A[k+1] + A[k]</li>\n<li>A[k] = -A[k]</li>\n</ul>\n<p style=\"text-align:justify\">The game would end as soon as all the numbers kept by the cooks (each A[i]) is non-negative.</p>\n<p style=\"text-align:justify\">Cooks are very impatient people!<br />\n\tThey want to end the game as quickly as possible!<br />\n\tHelp them determine a sequence in which they must play, such that the number of turns in which<br />\n\tthe game finishes, is as low as possible.<br />\n\tFor the purpose of this problem, you are to find the minimum number of turns in which the game can end!</p>\n<p style=\"font-size:1.5em;font-weight:bold\">Input format</p>\n<p style=\"text-align:justify\">The first line contains the number T, the number of test cases. In the following lines, T test cases follow (without any newlines between them.) Each test case consists of exactly two lines.<br />\nThe first line contains the only positive integer N, the number of cooks playing the game. The second line contains N space separated integers, the initial numbers kept by the cooks.</p>\n<p style=\"font-size:1.5em;font-weight:bold\">Output format</p>\n<p style=\"text-align:justify\">For each test case, print the minimum number of turns in which the game can end.</p>\n<p style=\"font-size:1.5em;font-weight:bold\">Constraints</p>\n<p>1 \u2264 T \u2264 10<br />\n3 \u2264 N \u2264 50000<br />\n-200000 \u2264 (initial numbers kept by the cooks) \u2264 200000</p>\n<p style=\"font-size:1.5em;font-weight:bold\">Sample input</p>\n<pre>2\n3\n1 -1 2\n3\n4 -2 -1\n\n</pre><p style=\"font-size:1.5em;font-weight:bold\">Sample output</p>\n<pre>1\n6\n\n</pre><p style=\"font-size:1.5em;font-weight:bold\">Explanation</p>\n<p style=\"text-align:justify\">In the first case, cook 2 can take the first turn which converts the sequence into<br />\n\t(0, 1, 1) and end the game.</p>\n<p style=\"text-align:justify\">In the second case, the following sequence of moves are optimal.</p>\n<ul>\n<li>0. (4, -2, -1) -- initial</li>\n<li>1. (3, -3, 1) -- after cook 3 moves</li>\n<li>2. (0,  3, -2) -- after cook 2 moves</li>\n<li>3. (-2, 1, 2) -- after cook 3 moves</li>\n<li>4. (2, -1, 0) -- after cook 1 moves</li>\n<li>5. (1, 1, -1) -- after cook 2 moves</li>\n<li>6. (0, 0, 1) -- after cook 3 moves</li>\n</ul>\n",
+    "category_name": "main",
+    "date_added": "11-07-2011",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.4",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CHEF_GAM",
+    "problem_tester": "anton_lunyov",
+    "time": {
+        "view_start_date": 1311523200,
+        "end_date": 1311532200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1311532200,
+        "submit_start_date": 1311523200,
+        "current": 1537439176
+    },
+    "user": {
+        "username": ""
+    }
+}

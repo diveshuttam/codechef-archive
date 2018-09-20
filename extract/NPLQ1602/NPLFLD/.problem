@@ -1,0 +1,33 @@
+{
+    "problem_code": "NPLFLD",
+    "problem_author": "npl_nitw",
+    "contest_name": "NPL Final Round ",
+    "todo": false,
+    "problem_author_html_handle": "npl_nitw",
+    "problem_name": "A walk on a grid",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "NPLQ1602",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bfs'>bfs</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/memoization'>memoization</a>, <a class='problem-tag-small ' href='/tags/problems/npl_nitw'>npl_nitw</a>, <a class='problem-tag-small ' href='/tags/problems/nplq1602'>nplq1602</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nGiven a <b>n*n</b> grid with every cell in it consisting of number <b>1,2 or 3</b>. A person standing at cell <b>(a,b)</b> can go to <b>(c,d)</b> only if <b>(c-a)+(d-b)=1 and c>=a and d>=b</b>.<br>\nThe <b>cost</b> of a <b>walk</b> is the product of all the numbers on the cells visited in that walk.<br>\nNow you have to answer <b>q</b> queries of the form: for each given <b>x, y</b> ->\nYou start at <b>(1,1)</b> and end your walk in the cell <b>(n,n)</b>, now you want to know if there is a walk such that its cost is equal to <b>2<sup>x</sup>*3<sup>y</sup></b>.\n\n</p>\n\n<h3>Input</h3>\n<p>\nFirst line will contain <b>n</b> the dimension of the grid.<br>\nNext n ines contain n values each denoting the values in the <b>j<sup>th</sup> cell of the i<sup>th</sup> row</b>.<br>\nNext line contains an integer <b>q</b> no of queries.\nNext q lines contains 2 integers <b>x and y</b> denoting the query.<br>\n</p>\n\n<h3>Output</h3>\n<p>For every query print <b>\"YES\"</b>(without quotes) if there is a walk with cost <b>2<sup>x</sup>*3<sup>y</sup></b> and <b>\"NO\"</b> otherwise.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> <= <b>n</b> <= <b>18</b></li>\n<li><b>1</b> <= <b>A<sub>i,j</sub></b> <= <b>3</b></li>\n<li><b>1</b> <= <b>q</b> <= <b>1000</b></li>\n<li><b>1</b> <= <b>x,y</b> <= <b>2*n-1</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n1 2 2 3 1\n1 1 1 2 3\n1 2 3 1 2\n1 2 2 2 2\n3 3 3 3 3\n1\n6 1\n\n<b>Output:</b>\nYES\n",
+    "category_name": "main",
+    "date_added": "11-10-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/NPLFLD",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1477038600,
+        "end_date": 1477047600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1477047600,
+        "submit_start_date": 1477038600,
+        "current": 1537434461
+    },
+    "user": {
+        "username": ""
+    }
+}

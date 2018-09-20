@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Chef's best friend Jerry gives Chef a string A and wants to know the number of string <b>A</b> that can be obtained from another string <b>B</b>. <b>A</b> is made up of unique characters and every character in <b>B</b> can also be found in <b>A</b>. Chef is only allowed to remove string A from string B when it appears as a substring in string B. After one removal, the gap created will be closed and Chef can repeat the process.</p>\n<p>Chef wants you to help Jerry to find the answer.</p>\n\n<h3>Input</h3>\n<p>The first line of the input contains <b>T</b>, the number of test cases.</p>\n<p>The first line of each test case contains the string <b>A</b>.</p>\n<p>The second line of each test case contains the string <b>B</b>.</p>\n<b>Note: Please trim trailing whitespaces</b>\n<p> </p>\n\n\n<h3>Output</h3>\n<p>For each test case, output a single line consisting of the number of string <b>A</b> that can be obtained from string <b>B</b> as described.</p>\n\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>20</b></li>\n<li><b>1</b> \u2264 <b>|A|</b> \u2264 <b>26</b></li>\n<li><b>A</b> is made up of uppercase alphabet only</li>\n<li><b>A</b> does not have repeated characters</li>\n<li><b>1</b> \u2264 <b>|B|</b> \u2264 <b>3\u00d710<sup>5</sup></b></li>\n<li><b>B</b> only contains characters present in <b>A</b></li>\n</ul>\n<p> </p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\nTIGER\nGTIGETIGERRERTIGTTIGERIGERER\nHELO\nHELHELLOO\n\n<b>Output:</b>\n5\n0\n</pre>\n<p>\u00a0</p>\n\n<h3>Explanation</h3>\n<p><b>Test case 1:</b> 5 TIGERs can be obtained from code B as follows:<br>\nGTIGETIGERRERTIGT<b>TIGER</b>IGERER<br>\nGTIGE<b>TIGER</b>RERTIGTIGERER<br>\nGTIGERERTIG<b>TIGER</b>ER<br>\nGTIGERER<b>TIGER</b><br>\nG<b>TIGER</b>ER<br>\nGER\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-02-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Coders' Legacy 2017A",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1488087000,
+        "end_date": 1488130200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1488130200,
+        "submit_start_date": 1488087000,
+        "current": 1537434093
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>subham_75</span>",
+    "problem_name": "Count Strings",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/subham_75'>subham_75</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "subham_75",
+    "contest_code": "COLG2017",
+    "max_timelimit": "1",
+    "problem_code": "CLSTRN"
+}

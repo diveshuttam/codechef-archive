@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p><b>Problem description.</b></p>\n<p>\u00a0<b>Bharath</b> and <b>Ravi</b> are feeling bored during Management class. <b>Ravi</b> challenged <b>Bharath</b> to play a game. If <b>Bharath</b> wins, then <b>Ravi</b> will take him to party, otherwise vice-versa. <b>Bharath</b> accepted the challenge. <b>Ravi</b> will give two arrays <b>kbk,prk</b>, for every element i, <b>kbk[i],prk[i],</b> <b>Bharath</b> needs to find the minimum number <b>X</b> which satisfies the following equation<br/>\n       <pre>                         <b>X%kbk[i] = prk[i]</b><br/>    </pre>\n<br/>       \nIt is not sure that the minimum value always appear. Help <b>Bharath</b> to win the game.\n</p>\n\n\n<h3>Input</h3>\n<p><b>Input description.</b></p>\n<ul>\n<li> \"The first line of the input contains an integer <b>T</b>  denoting number of test cases.\n The description of <b>T</b> test cases follows.\"</li>\n<li> First line contains no.of elements in arrays for each test case.</li>\n<li> Second line consists of first array elements.</li>\n<li> Third line contains second array elements..</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p><b>Output description.</b></p>\n<ul>\n<li> \"For each test case, output a single line containing. minimum possible value for <b>x</b>\". if no minimum number takes place, print '0' without quotes</li>\n</ul>\n\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10000</b></li>\n<li><b>1</b> \u2264 <b>kbk[i], prk[i]</b> \u2264 <b>10000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n3\n3 4 5\n2 3 1\n<b>Output:</b>\n11\n</pre>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b><br/>\n11 is the smallest number such that: <br/>\n  (1) When we divide it by 3, we get remainder 2. <br/> \n  (2) When we divide it by 4, we get remainder 3. <br/>\n  (3) When we divide it by 5, we get remainder 1. <br/>\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-02-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Cresense2k17",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1487766600,
+        "end_date": 1487939400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1487939400,
+        "submit_start_date": 1487766600,
+        "current": 1537434118
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>ravi_palanchu</span>",
+    "problem_name": "Hang Over for a party",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ravi_palanchu'>ravi_palanchu</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ravi_palanchu",
+    "contest_code": "CRES2017",
+    "max_timelimit": "1",
+    "problem_code": "CRES05"
+}

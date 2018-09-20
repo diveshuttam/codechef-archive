@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The legendary Sherlock Holmes needs your help in solving a case. He has been trying to solve the case of The Lost Number for a long time and using his exceptional skills, has been able to discover all N parts of the number. He also knows that the Lost Number is the arrangement of these N parts, that results in the numerically maximum number.</p>\n<p>Since he is very busy with other cases, he needs you to use your coding skills to  help him find The Lost Number. Given N numbers K<sub>1</sub> K<sub>2</sub> K<sub>3</sub>\u2026K<sub>n</sub>, output the biggest number that can be formed by joining these N numbers.</p>\n<h3>Input</h3>\n<p>First line of the input contains the number of test cases T.<br/><br />\nFor each test case there are 2 lines of input-<br/><br />\nThe first line contains an integer N.<br/><br />\nThe second line contains N space separated numbers K<sub>i</sub>.</br/></br/></br/></p>\n<h3>Output</h3>\n<p>For each test case output a single line containing the maximum number that can be formed.</p>\n<h3>Constraints</h3>\n<p>1&lt;=T&lt;=20<br/><br />\n1&lt;=N&lt;=100<br/><br />\n1&lt;=K [i]&lt;=10^18<br/></br/></br/></br/></p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n3\n3\n4 1 8\n2\n231 942\n2\n59 542\n\n<b>Output:</b>\n841\n942231\n59542\n\n<b>Explanation for the second test case:</b>\n231 and 942 can have 2 possible arrangements 231942 and 942231.\nSince 942231>231942, the correct answer is 942231.\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-01-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Cranium  2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1360765800,
+        "end_date": 1360783800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1360783800,
+        "submit_start_date": 1360765800,
+        "current": 1537438520
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>sameer47</span>",
+    "problem_name": "The Lost Number",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sameer47'>sameer47</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sameer47",
+    "contest_code": "CRNM2013",
+    "max_timelimit": "1",
+    "problem_code": "CRNM1301"
+}

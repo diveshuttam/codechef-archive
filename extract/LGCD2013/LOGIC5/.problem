@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>A</b> and <b>B</b> are playing a game. They start with two piles of <b>p</b> and <b>q</b> chips, respectively. <b>A</b> and <b>B</b> take a move alternately(<b>A</b> starts the game). A move consists of removing any pile and splitting the other pile into two piles (of any sizes). The loser is the one who cannot make a move any more. Can you decide who will win the game, assuming both the players play optimally?</p>\n<h3>Input</h3>\n<p>An integer <b>T</b>, denoting the number of test cases. Each test case contains two integers <b>p</b> and <b>q</b>, the size of the two piles.</p>\n<h3>Output</h3>\n<p>For every test case print \"A\" if <b>A</b> wins or \"B\" if <b>B</b> wins in a new line(without quotes). </p>\n<h3>Constraints</h3>\n<p>1 &lt;= <b>T</b> &lt;= 100000</p>\n<p>1 &lt;= <b>p</b> &lt;= 10<sup>18</sup></p>\n<p>1 &lt;= <b>q</b> &lt;= 10<sup>18</sup></p>\n<h3>Example</h3>\n<p><b>Sample Input</b><br />3<br />1 3<br />5 6<br />6 7<br /><br /><b>Sample Output</b><br />B<br />A<br />A<br /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-09-2013",
+    "is_direct_submittable": false,
+    "contest_name": "LogiCode 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1380285000,
+        "end_date": 1380306600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1380306600,
+        "submit_start_date": 1380285000,
+        "current": 1537438164
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>adurysk</span>",
+    "problem_name": "Piles",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/adurysk'>adurysk</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "adurysk",
+    "contest_code": "LGCD2013",
+    "max_timelimit": "0.126761",
+    "problem_code": "LOGIC5"
+}

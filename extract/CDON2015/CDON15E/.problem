@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<h3> Problem description </h3>\n<p></p><p>\n\t\tMadman is a rich diamond trader. When ENEMYLAND attacked MACTLAND Prabhu helped Madman to save his life<br />\n\t\tand property. When the war ended Madman decided to reward Prabhu with diamonds.\n\t</p>\n<p></p>\n<p>\n\t\tMadman stores the diamonds in very special way. He has <strong>N</strong> rooms numbered from<br />\n\t\t<strong>1</strong> to <strong>N</strong> in which diamonds are stored.<br />\n\t\tAny room numbered <strong>R</strong> has <strong>d(R)</strong> diamonds.\n\t</p>\n<p></p>\n<p>\n\t\t<strong>d(a)</strong> denotes number of positive divisors of an integer <strong>a</strong>.\n\t</p>\n<p>\t<br/></br/></p>\n<p>\n\t\tMadman asks Prabhu to choose one of <strong>N</strong> rooms and take all the diamonds in that room.<br />\n\t\tPrabhu being a mathematician chooses one of those rooms which gives him maximum diamonds.\n\t</p>\n<p></p>\n<p>\n\t\tYour task is to print the number of diamonds that Prabhu will take.\n\t</p>\n\n<h3>Input</h3>\n<p>\n\tThe first line of input contains an integer <strong>T</strong> denoting the number of test cases.<br />\n\t<br />\n\tEach test case contains a single integer <strong>N</strong> denoting number of rooms.\n</p>\n\n<h3>Output</h3>\n<p>For each test case, output single integer in each line - number of diamonds that Prabhu will take.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 <strong>T</strong> \u2264 <strong>100</strong></li>\n<li>1 \u2264 <strong>N</strong> \u2264 <strong>10<sup>16</sup></strong></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n5\n7\n12\n30\n100\n10000000000000000\n\n<b>Output:</b>\n4\n6\n8\n12\n41472\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<pre>\nTest Case 1: Number of diamonds in each room: 1 -> 1, 2 -> 2, 3 -> 2, 4 -> 3, 5 -> 2, 6 -> 4, 7 -> 2.\nPrabhu will choose room <strong>6</strong> and take <strong>4</strong> diamonds with him.\nTest Case 2: Prabhu will choose room <strong>12</strong> and take <strong>6</strong> diamonds.\nTest Case 3: Prabhu will choose room <strong>24</strong> and take <strong>8</strong> diamonds.\nTest Case 4: Prabhu will choose room <strong>96</strong> and take <strong>12</strong> diamonds.\nTest Case 5: Prabhu will choose room <strong>8086598962041600</strong> and take <strong>41472</strong> diamonds.\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-10-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Codathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1444492800,
+        "end_date": 1444505400,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1755578865,
+        "submit_start_date": 1444492800,
+        "current": 1537435945
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>thecodekaiser</span>",
+    "problem_name": "Prabhu and Madman",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/thecodekaiser'>thecodekaiser</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "thecodekaiser",
+    "contest_code": "CDON2015",
+    "max_timelimit": "1",
+    "problem_code": "CDON15E"
+}

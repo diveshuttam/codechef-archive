@@ -1,0 +1,138 @@
+{
+    "announcements": "<p><b>30/06/2013, 11:30 IST: </b>The statement and test data for the problem\u00c2\u00a0<a target=\"_blank\" href=\"/LTIME01/problems/COUPON\">COUPON</a> has been updated. All the solutions for the problem\u00c2\u00a0<a target=\"_blank\" href=\"/LTIME01/problems/COUPON\">COUPON</a> have been rejudged.</p>\r\n<p><b>30/06/2013, 11:10 IST: </b>The official school rankings for the contest can be found\u00c2\u00a0<a target=\"_blank\" href=\"/rankings/inst/school/LTIME01\">here</a>. Overall rankings can be viewed <a target=\"_blank\" href=\"/rankings/inst/LTIME01\">here</a>.</p>\r\n<p>\u00c2\u00a0</p>",
+    "ip": "149.129.135.113",
+    "code": "LTIME01",
+    "duration": "180",
+    "name": "Lunch Time June 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "GRTRIP": [
+            {
+                "score": "0.4",
+                "count": "3"
+            },
+            {
+                "score": "1",
+                "count": "8"
+            }
+        ],
+        "TASTYD": [
+            {
+                "score": "0.21",
+                "count": "55"
+            },
+            {
+                "score": "0.6",
+                "count": "3"
+            },
+            {
+                "score": "1",
+                "count": "7"
+            }
+        ],
+        "COUPON": [
+            {
+                "score": "0.2",
+                "count": "33"
+            },
+            {
+                "score": "0.4",
+                "count": "4"
+            },
+            {
+                "score": "0.6",
+                "count": "11"
+            },
+            {
+                "score": "1",
+                "count": "62"
+            }
+        ],
+        "NUMFACT": [
+            {
+                "score": "0.3",
+                "count": "1"
+            },
+            {
+                "score": "0.4",
+                "count": "25"
+            },
+            {
+                "score": "0.7",
+                "count": "68"
+            },
+            {
+                "score": "1",
+                "count": "212"
+            }
+        ]
+    },
+    "rules": " <div class=\"applyall\"><b> The First Lunchtime has ended.<br /> All the solutions for the problem set are public and the problems have been moved to practice section.<br /> The editorials for the contest can be found <a target=\"_blank\" href=\"http://discuss.codechef.com/tags/ltime01/\">here</a>.</b></div> <div class=\"applyall\"><b>The winners blog post can be found <a href=\"http://blog.codechef.com/2013/08/04/the-course-of-first-lunch/\">here</a>.</b></div> <div class=\"applyall\"></div> <div class=\"applyall\"><b><br /></b></div> <div class=\"applyall\"><b>In case you are a new user, you will need to first register for a CodeChef ID <a href=\"/user/register/\" target=\"_blank\">here</a>. </b> <br /> <br /></div> <div class=\"applyall\"> <ul> <li>This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test data.</li> <li>The details of the failed test cases will also be visible on your solution page.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The contest is meant for students of high school and middle school though everyone is invited to participate.</li> <li>There will be separate ranking page for school students. The school students will be identified by the inistitution that they have enetered in their profile. </li> <li><b>We have removed all the Institutions that we could not identify from our database. We request you to update your institutions once again by going to your profile page.</b> </li> <li>You can also send in your queries in an email to <a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a>, during the contest.</li> <li>Contest problems will become visible on June 30th, 2013 at 11:00 am (IST) to 2:00 pm (IST). <span id=\"docs-internal-guid-44de7f0f-9015-6ef2-9575-f72334c25d39\">There will be 4 problems in all. </span>Check your time zone <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+Lunchtime+June+2013&amp;iso=20130630T11&amp;p1=44&amp;ah=3\">here</a>. </li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></li> <li>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> </ul> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/LTIME01/1424957772.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "GRTRIP": {
+            "allow_submission": false,
+            "name": "Greedy Trip",
+            "category_name": "main",
+            "accuracy": 8.89,
+            "successful_submissions": "8",
+            "code": "GRTRIP",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "TASTYD": {
+            "allow_submission": false,
+            "name": "Tasty Dishes",
+            "category_name": "main",
+            "accuracy": 1.6,
+            "successful_submissions": "7",
+            "code": "TASTYD",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "COUPON": {
+            "allow_submission": false,
+            "name": "Online Shopping",
+            "category_name": "main",
+            "accuracy": 11.72,
+            "successful_submissions": "62",
+            "code": "COUPON",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "NUMFACT": {
+            "allow_submission": false,
+            "name": "Number of Factors",
+            "category_name": "main",
+            "accuracy": 13.36,
+            "successful_submissions": "212",
+            "code": "NUMFACT",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1372581000,
+        "current": 1537438277,
+        "freezing": 0,
+        "start": 1372570200
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p></p>\n\t<p>A graph is to be constructed with two types of nodes in it. <b>A</b> and <b>B</b> type.  For each of <b>A</b> type node, there must be two <b>B</b> type stations equidistant from each  <b>A</b>  type node.</br>\nInitially there is only one node having index 0, where the main node is located. Over a period of time, more and more nodes are extended.</br>\nThere are two functions that can be performed using these nodes(<b>X</b>):</br></br>\n<u>Type P</u>: Create a new node and lay a path from the specified node <b>X</b> to the newly contructed  node.In other words, if the index of the new node is <b>Y</b>, then a uni-directional path X->Y having length = 1 is constructed. The index of the new node will be the smallest positive integer which is not the index of any existing node.(To keep count of number of nodes)</br></br>\n\n<u>Type Q</u>: Given a node with index X, count how many sets {P, Q} of nodes exist such that the nodes P and Q are both reachable from X (paths from X to P and X to Q exist), and there exists a node R (need not be reachable from X), such that distance(P, R) = distance (Q, R), R \u2260 P, R \u2260 Q and P \u2260 Q. Of course, we want to know this information beforehand since such sets {P, Q} are possible candidates for <b>B</b> type nodes., and R is a possible candidate for the <b>A</b> type node.</br></br>\n\n<u>Distance(X, Y)</u> = Number of paths(of length 1) in the unique path from X to Y, if the given path network were bi-directional.</br>\n\nPlease note that, X->P and X->Q should still exist in directed path network.</br>\n</p>\n<h3><u>Input</u></h3>\n<p>The first line of the input contains an integer T denoting the number of test cases. The description of <b>T</b> test cases follows</br>.\nThe first line of each test case contains a single integer O denoting the number of functions.</br>\n</br>\nEach of the next <b>M</b> lines contain 2 integers \u2013 function type and <b>X</b>.</br></br>\nif type = 0, then perform type P function (for given X).</br>\nif type = 1, then perform type <b>Q</b> function (for given X).</br></p>\n<h3><u>Output</u></h3>\n<p>\nFor each test case, for each question of type <b>Q</b>, you must print the answer to the question on a separate line.</p>\n<h3><b>Constraints</b></h3>\n<p>\n\u2022\t1 \u2264 T \u2264 5</br>\n\u2022\t1 \u2264 O \u2264 100000</br>\n\u2022\t0 \u2264 type \u2264 1</br>\n\u2022\tFor both type of functions <b>P</b> & <b>Q</b>, the given node <b>X</b> would have already been created.</br></br>\n</p>\n<h3>Example</h3>\n<p>\n<b><u>Input:</u></b></br>\n\n2</br>\n6</br>\n0 0</br>\n0 1<br>\n1 0</br>\n0 1</br>\n0 2</br>\n1 1</br>\n4</br>\n1 0</br>\n0 0</br>\n0 1</br>\n1 0</br>\n\n<b><u>Output:</u></b></br>\n1</br>\n2</br>\n0</br>\n1</br>\n</p>\n</br>\n<h3>Explanation</h3>\n<b>Example case 1: </b></br>\n<p>\nThere are 2 functions of type <b>P</b>. For the first one, (0, 2) is the only valid pair, and for the second one, there are 2 valid pairs pairs - (2, 3) and (1, 4).</br>\n</br>\n<b> Example case 2:</b></br>\nFirst function is of type <b>Q</b>. There is only 1 <b>A</b> node (with index 0), so number of pairs are 0.</br></br>\nSecond function is of type <b>P</b>. A new node with index 1 is created, and a path from <b>0->1</b> (having length 1) is added.</br></br>\nThird function is of type <b>P</b> again. A new node with index 2 is created, and a path from <b>1->2</b> (having length 1) is added.</br></br>\nFourth function is of type <b>Q</b>. There are 3 nodes now. (0, 2) is the only valid pair as there exists node 1 with distance(2, 1) = distance(0, 1) = 1, and both the nodes 0 & 2 are reachable from 0.</br></br>\n</p>\n\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Shaastra Programming Contest 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1482568200,
+        "end_date": 1482579000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1482579000,
+        "submit_start_date": 1482568200,
+        "current": 1537434284
+    },
+    "problem_author_html_handle": "nishalrd",
+    "problem_name": "The Nodal Network",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nishalrd'>nishalrd</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nishalrd",
+    "contest_code": "SOPC2016",
+    "max_timelimit": "2 - 5",
+    "problem_code": "SPC1605"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "NPLELD",
+    "problem_author": "npl_nitw",
+    "contest_name": "NPL Elimination Round",
+    "todo": false,
+    "problem_author_html_handle": "npl_nitw",
+    "problem_name": "Another maths problem",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "NPLQ1601",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/maths'>maths</a>, <a class='problem-tag-small ' href='/tags/problems/npl_nitw'>npl_nitw</a>, <a class='problem-tag-small ' href='/tags/problems/nplq1601'>nplq1601</a>, <a class='problem-tag-small ' href='/tags/problems/number-theory'>number-theory</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nWe all know Mike is good with numbers. One day his professor came up with a problem that required his mathematical skills.\n<br>\nThe problem goes as follows:<br>\n\n<ul>\n<li>You are given an array of integers (<b>A</b>).</li>\n<li>Given Q queries consisting of a single integer</li>\n<li>For each query <b>K</b> you need to find the number of pairs <b>i and j</b> such that the product of <b>A<sub>i</sub> and A<sub>j</sub></b> divides <b>K</b>.</li>\n<li>As this number can be large, for each query output the answer modulo <b>10<sup>9</sup>+7</b></li>\n</ul>\n<br>\n<b>Note:</b>Large input/output data so use faster input techniques. (e.g. <b>scanf/printf</b> in <b>c++</b> instead of <b>cin/cout</b>)\n</p>\n\n<h3>Input</h3>\n<p>First line will contain <b>n</b> the size of the array <b>A</b>.<br>\nNext line contains <b>n</b> integers, i<sup>th</sup> number denoting A<sub>i</sub>.<br>\nNext line contains <b>q</b> denoting number of queries.<br>\nNext <b>q</b> lines contains one integer each denoting <b>K</b>.\n</p>\n\n<h3>Output</h3>\n<p>For each query print the number of pairs <b>i and j</b> such that the product of A<sub>i</sub> and A<sub>j</sub> divides <b>K</b>. Output this number by taking modulo <b>10<sup>9</sup>+7</b></p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>A<sub>i</sub></b> \u2264 <b>10<sup>6</sup></b></li>\n<li><b>1 \u2264 q \u2264 10<sup>5</sup></b></li>\n<li><b>1 \u2264 K \u2264 10<sup>6</sup></b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n2 5 6 2 3\n5\n12\n20\n7\n10\n200\n\n<b>Output:</b>\n5\n3\n0\n2\n3\n\n\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> <br>\nNumber of pairs that divide 12 are : (1,3),(1,4),(1,5),(3,4),(4,5)\nNumber of pairs that divide 20 are : (1,2),(1,4),(2,4)\nNumber of pairs that divide 7 are : None (0)\nand so on...\n</p>",
+    "category_name": "main",
+    "date_added": "10-10-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1 - 2",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/NPLELD",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1476793800,
+        "end_date": 1476802800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1476802800,
+        "submit_start_date": 1476793800,
+        "current": 1537434468
+    },
+    "user": {
+        "username": ""
+    }
+}

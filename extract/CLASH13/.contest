@@ -1,0 +1,107 @@
+{
+    "announcements": "A minor bug in the I/O for CREDCS1 has been rectified. And submissions have been rejudged!",
+    "ip": "149.129.135.113",
+    "code": "CLASH13",
+    "duration": "2880",
+    "name": "Clash Credenz 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>Rules and Regulations:</b></p> <p><b><br /></b></p> <p>1. Contest problems will become visible on August 27th, 2013 at 0000 HRS (IST) and end at August 29th 2013 at 0000 HRS (IST).</p> <p>2. This contest is open ONLY to undergraduate students.</p> <p>3.\u00a0In order to be eligible for the wildcard round, you need to register on the official website of\u00a0<a target=\"_blank\" href=\"http://www.credenz.info/wildcard.php\">Credenz '13</a> at with your codechef ID. In case you fail to register yourself at the Credenz website, you will NOT be considered for selection , even though you make it through the wildcard round.</p> <p>4. Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok.</p> <p>5. Participants are allowed to code in C and C++\u00a0only.</p> <p>6. Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided. All white space characters in the output will be ignored.</p> <p>7. Problems CREDCJ1,CREDCJ2, CREDCJ3 and CREDCJ4 are ONLY for the FeatherWeight Division (First Year and Second Year Undergrads ONLY).</p> <p>8. Problems CREDCS1, CREDCS2 and CREDCS3 can be attempted by people interested in the HeavyWeight Division (open to all undergraduates).</p> <p>9. Please contact\u00a0<a target=\"_blank\" href=\"mailto:clash@credenz.info\">clash@credenz.info</a> for any queries during the contest. More details regarding Clash can be found\u00a0<a target=\"_blank\" href=\"http://www.credenz.info/clash.php\">here</a>.</p> <p>10. Check your timezone\u00a0<a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+Clash+Credenz+2013&amp;iso=20130827T00&amp;p1=44\">here</a>.</p> <p>11.\u00a0All participants are expected to abide by the <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a>.</p> <p>\u00a0</p> <p><b>Judging Criteria:</b></p> <p>1. User will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</p> <p>2. Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</p> <p>3. Any participant found to be indulging in any form of malpractice will be immediately disqualified.</p> <p>4. The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error ). There is no time consumed for a problem that is not solved.</p> <p>5. The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/sites/default/files/uploads/landing_page_banners/banner-compete.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CREDCJ2": {
+            "allow_submission": false,
+            "name": "Speed Racer",
+            "category_name": "main",
+            "accuracy": 25,
+            "successful_submissions": "1",
+            "code": "CREDCJ2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CREDCS3": {
+            "allow_submission": false,
+            "name": "Balance it Out",
+            "category_name": "main",
+            "accuracy": 55.76,
+            "successful_submissions": "169",
+            "code": "CREDCS3",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CREDCS1": {
+            "allow_submission": false,
+            "name": "The Amazing Race",
+            "category_name": "main",
+            "accuracy": 25.81,
+            "successful_submissions": "46",
+            "code": "CREDCS1",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CREDCJ4": {
+            "allow_submission": false,
+            "name": "Snyder Man",
+            "category_name": "main",
+            "accuracy": 58.06,
+            "successful_submissions": "40",
+            "code": "CREDCJ4",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CREDCS2": {
+            "allow_submission": false,
+            "name": "Lego Builder",
+            "category_name": "main",
+            "accuracy": 0.57,
+            "successful_submissions": "1",
+            "code": "CREDCS2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CREDCJ1": {
+            "allow_submission": false,
+            "name": "Music Mania",
+            "category_name": "main",
+            "accuracy": 2.42,
+            "successful_submissions": "2",
+            "code": "CREDCJ1",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CREDCJ3": {
+            "allow_submission": false,
+            "name": "Twitter Conundrum",
+            "category_name": "main",
+            "accuracy": 1.59,
+            "successful_submissions": "3",
+            "code": "CREDCJ3",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1377714600,
+        "current": 1537438199,
+        "freezing": 0,
+        "start": 1377541800
+    },
+    "user": {
+        "username": ""
+    }
+}

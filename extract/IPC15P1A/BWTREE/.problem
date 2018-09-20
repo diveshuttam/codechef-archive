@@ -1,0 +1,33 @@
+{
+    "problem_code": "BWTREE",
+    "problem_author": "skullcrackers",
+    "contest_name": "ICPC Preparatory Series by Team SkullCrackers",
+    "todo": false,
+    "problem_author_html_handle": "skullcrackers",
+    "problem_name": "Alternating Colored Paths",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "IPC15P1A",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/skullcrackers'>skullcrackers</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Given a tree of size <b>N</b> with each vertex colored either black or white. Find the number of paths with alternating colors.\n\n<h3>Input</h3>\n<p>First line will have <b>N</b>, the number of vertices of the tree and then <b>N-1</b> lines will follow of the form <b>u v</b> which denotes an edge between the vertex <b>u</b> and <b>v</b>. Finally, the next line will contain the space separated color(either W for white or B for Black) of each vertex.</p>\n\n<h3>Output</h3>\n<p>Single number denoting the number of paths with alternating colors modulo 10^9 + 7 (1000000007).</p>\n\n<h3>Constraints</h3>\n<b> N <= 10^5 </b>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n1 2\n1 3\nW B B\n\n<b>Output:</b>\n6\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\nThese are the alternating colored paths [1],[2],[3],[1,2],[1,3],[2,1,3]",
+    "category_name": "main",
+    "date_added": "5-10-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/BWTREE",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1448465400,
+        "end_date": 1448483400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1448483400,
+        "submit_start_date": 1448465400,
+        "current": 1537435800
+    },
+    "user": {
+        "username": ""
+    }
+}

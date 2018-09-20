@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Monica Gellar loves to organize things. At the same time Monica has her own picky tastes and would like to include her favorite numbers 4 and 7 in her organizing / numbering system, i.e. her numbering system will consist a sequence of the numbers 4 and 7.<br />\nMonica brought home a book collection s with n books. The numberings of her book collection only consists of her favorite numbers. The digits are numbered from the left to the right starting with 1. Her brother Ross the Phd, challenges Monica to do the following steps to her numbering system. Now Monica should execute m queries of the following form:<br />\n\u2022\tswitch l r \u2014 Exchanges her favorite numbers  at all positions  with the opposite favorite number with indexes from l to r, inclusive: each digit 4 is replaced with 7 and each digit 7 is replaced with 4 (1\u2009\u2264\u2009l\u2009\u2264\u2009r\u2009\u2264\u2009n);<br />\nRoss loves to irritate Monica being her brother and then asks to find out the following from the revised numberings she created above.<br />\n\u2022\tcount \u2014 find and print on the screen the length of the longest non-decreasing subsequence of books of book collection s.<br />\nSubsequence of a book collection s is a book collection that can be obtained from s by removing zero or more of its elements. A book collection s is called non-decreasing if each successive book has a numbering which is not less than the previous one according to the revised numberings.<br />\nHelp Monica complete Ross\u2019 challenge.</p>\n<h3>Input</h3>\n<p>The first line contains two integers n and m \u2009 \u2014 the size of the book collection s and the number of queries correspondingly. The second line contains n favorite digits without spaces \u2014 Monica\u2019s initial string. Next m lines contain queries in the form described in the statement given by Ross.</p>\n<h3>Output</h3>\n<p>For each query count print an answer on a single line.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>10^6</b></li>\n<li><b>1</b> \u2264 <b>m</b> \u2264 <b>3*10^5</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2 3\n47\ncount\nswitch 1 2\ncount\n\n3 5\n747\ncount\nswitch 1 1\ncount\nswitch 1 3\ncount\n<b>Output:</b>\n2\n1\n\n2\n3\n2\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-04-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Prometheus 2013 ",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1365929669,
+        "end_date": 1365964200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1365964200,
+        "submit_start_date": 1365929669,
+        "current": 1537438350
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>abeersethi</span>",
+    "problem_name": "The Gellar Siblings",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abeersethi'>abeersethi</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abeersethi",
+    "contest_code": "PROM2013",
+    "max_timelimit": "0.1",
+    "problem_code": "PT8"
+}

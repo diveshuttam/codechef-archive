@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b><h>Problem Statement:</h></b></p>\nWe all know Chandler and Joey; they are the best buddies. \n</br>\nOne day they went to a fare and they saw a Balloon-shooting shop and suddenly Chandler challenges Joey to a shooting challenge.\n</br>The rule of challenge is that Joey has to shoot alternative balloons one from the beginning another one from the end and so on, from the row of balloons. \n</br>Every balloons are marked with some specific points. \n</br>Chandler ask Joey if he can shoot the balloons and get a specific score set by him. \n</br>If Joey can do that he will have a treat from chandler in the \u201ccentral-perk\u201d otherwise he needs to pay for the coffee next time. \n</br>So Joey wants to know whether he will be able to get the score or not and we have to help him figuring that out.\n</br>\n</br><b>NOTE:</b> The game always starts by bursting the first balloon first and so on.\n</br></br>\n<p><b><h>INPUT FORMAT:</h></b></p>\n\nThe first line contains the no. of test cases T.\n</br>Each test cases contains three lines, \n</br>First line shows the total no. of balloons N.\n</br>Second line will have the points of each balloons in an array.\n</br>Third line shows the specific score S set by chandler.\n</br></br>\n<p><b><h>OUTPUT FORMAT:</h></b></p>\n\nIf it is possible then print the position of balloons that Joey had popped or else print <b>\u201cBING\u201d</b>.\n</br></br>\n<p><b><h>CONSTRAINTS:</h></b></p>\n<ul>\n<p><b>SubTask#1</b></p>\n1<=T<=10^5\n</br>1<=N<=10^7\n</br>1<=S<=10^18\n</br></br>\n<p><b>SubTask#2</b></p>\nOriginal Constraints..\n</br></br>\n<p><b>SubTask#3</b></p>\nOriginal Constraints.\n</ul>\n</br></br>\n<p><b><h>SAMPLE INPUT:</h></b></p>\n\n1\n</br>6\n</br>17  8  9  21  3  5\n</br>30\n</br></br>\n<p><b><h>SAMPLE OUTPUT:</h></b></p>\n1  6  2\n</br></br>\n<p><b><h>EXPLANATION:</h></b></p>\nAs we can see that if we burst the balloons of position 1 ,6  and 2 \n</br>The sum of score will add up to 17+5+8=30\n</br>So the answer is 1 6 2.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "CODE_WAR",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1474468200,
+        "end_date": 1474554600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1474554600,
+        "submit_start_date": 1474468200,
+        "current": 1537434581
+    },
+    "problem_author_html_handle": "acesprime",
+    "problem_name": "FriendsChallenge",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acesprime'>acesprime</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "acesprime",
+    "contest_code": "COWS2016",
+    "max_timelimit": "1",
+    "problem_code": "FRCH"
+}

@@ -1,0 +1,93 @@
+{
+    "teamsCount": "702",
+    "announcements": "Correction in problem PRVG152 : Harshith stops hanging the bells only when he sees a tree with exactly as many bells to be hanged as the 'capacity'. There may be trees before that in which he hangs strictly more bells than the 'capacity'. We apologise for the confusion.",
+    "ip": "149.129.135.113",
+    "code": "PRVG2015",
+    "duration": "180",
+    "name": "OPC- Pravega 2015",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div><b>Registration: </b> <ul> <div><b></b> <b>This is a team contest, so a seperate registration is needed for the team to participate. Please do the registration before the contest starts</b></div> <br /> <li>Login with your normal CodeChef user ID</li> <li>Click on the <a target=\"_blank\" href=\"/teams/register/PRVG2015\"><b>Team Registration Link</b></a> to register your team for the contest.</li> <li>Click logout in the top right corner and login using the Team Name and password you registered with.</li> <li>You can get more information about team contests <a target=\"_blank\" href=\"/wiki/team-contests\">here.</a></li> <li><b>To eligible for prizes, the participants need to register <a target=\"_blank\" href=\"http://pravega.org/OPC.php\">here</a>.</b></li> </ul> </div> <div><b>Rules and Regulations:</b> <div> <ul> <li>Contest problems will become visible on 17th January, 2015 at 2100 HRS (IST) and end on 18th January, 2015 at 0000 HRS (IST). Check your timezone <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+OPC-+Pravega+2015&amp;iso=20150117T21&amp;p1=44&amp;ah=3\">here</a>.</li> <li>This is a TEAM CONTEST. A team can consist of atmost 3 members. One person can\u2019t be part of more than one team.</li> <li> A team may send their solutions in all programming languages. Although different problems can be solved in different languages by the same team.</li> <li>If you do not have a CodeChef ID create one <a href=\"http://codechef.com/user/register\" target=\"_blank\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. </li> <li> Almost all languages supported on CodeChef are allowed. </li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided. </li> <li>All participants are expected to abide by the\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a></li> <li>Please contact <a href=\"mailto:sabareesh@pravega.org\" target=\"_blank\">sabareesh@pravega.org</a> for any queries during the contest. </li> </ul> </div> <div><b>Judging criteria : </b> <ul> <li>All the problems have same points alloted to them. </li> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time. </li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained. </li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified. </li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved. </li> </ul> </div> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/PRVG2015/1424958021.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "PRVG155": {
+            "allow_submission": false,
+            "name": "CFTG",
+            "category_name": "main",
+            "accuracy": 11.92,
+            "successful_submissions": "22",
+            "code": "PRVG155",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PRVG154": {
+            "allow_submission": false,
+            "name": "Connect The Dots",
+            "category_name": "main",
+            "accuracy": 17.58,
+            "successful_submissions": "40",
+            "code": "PRVG154",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PRVG152": {
+            "allow_submission": false,
+            "name": "Decorating Trees",
+            "category_name": "main",
+            "accuracy": 6.67,
+            "successful_submissions": "5",
+            "code": "PRVG152",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PRVG153": {
+            "allow_submission": false,
+            "name": "The Auction",
+            "category_name": "main",
+            "accuracy": 14.5,
+            "successful_submissions": "131",
+            "code": "PRVG153",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PRVG151": {
+            "allow_submission": false,
+            "name": "Countdown",
+            "category_name": "main",
+            "accuracy": 23.01,
+            "successful_submissions": "225",
+            "code": "PRVG151",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537436972,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

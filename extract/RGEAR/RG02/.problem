@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>A scientist had two large jars before him as if they are mirror image to each other on the laboratory table. The jar on his left contained a hundred fleas; the jar on his right was empty. The scientist carefully lifted a flea from the jar on the left, placed the flea on the table between the two jars, stepped back and in a loud voice said, \"Jump.\" The flea jumped and was put in the jar on the right. In the same manner, the scientist treated second flea but this time have to said \"jump\" twice .similarly for third he said \"jump jump jump\".\n<h3>Input</h3>\n<p>Each line of input consists of a string (each of length < 9 digits) to be tested. when 0 is encountered as input program terminates\n\n<h3>Output</h3>\n<p>Ouput consists of a modified string for each input string.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\nravi\nSaHil\nAakasH\nAranyA\nchunky\nraj\n0\n\n<b>Output:</b>\niagu\nHaUus\nZarclX\nZjbpfE\nxthptg\nias\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-10-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Thapar University - Aranya 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1286454600,
+        "end_date": 1286541000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180200,
+        "submit_start_date": 1286454600,
+        "current": 1537439492
+    },
+    "problem_author_html_handle": "Chunky",
+    "problem_name": "Experiment",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/Chunky'>Chunky</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "Chunky",
+    "contest_code": "RGEAR",
+    "max_timelimit": "1.24138",
+    "problem_code": "RG02"
+}

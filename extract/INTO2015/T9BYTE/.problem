@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><img src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc0CZ014yIuEY0XjDxNeHltMJpWAvF2tQsS3qQDLQM76NfexNDWA\" /></p>\n<p>ByteLandSoft has launched a new mobile phone which has got a T9 keyboard. They have introduced a new feature which lets you type without pressing the same key multiple times. That is, if you want to enter a letter, you have to press the key it corresponds to just once. For example, if you want to enter \u2018q\u2019, you have to press 7 <i>only once</i> ('p', 'q', 'r' and 's' correspond to 7, remember?). With the help of a list of commonly used words (i.e. a dictionary), the add-on tries to predict the word the user wants to type. For instance, if the series of key-presses be 466453, the user must be trying to type \u201cgoogle\u201d.</p>\n<p>But there\u2019s a catch here. If there is more than one word in the dictionary which correspond to the same series of key-presses, the add-on gets confused. That is, two words in the dictionary are said to be confusing if they correspond to the same series of key-presses. </p>\n<p>Given a list of lower-case words, find the number of <i>confusing pairs</i> of words in the list.</p>\n<p><b>Input</b></p>\n<p>\u00b7 Line 1: A single integer N.</p>\n<p>\u00b7 Lines 2 to N+1: Each of these lines consist of a single word...containing only lowercase letters. They are not necessarily valid English words.</p>\n<p><b>Output</b></p>\n<p>Print a single integer, the number of confusing pairs.</p>\n<p><b>Constraints</b></p>\n<p>The largest test file consists of all English words (not necessarily in alphabetical order).</p>\n<p><b>Sample Input</b></p>\n<p>4</p>\n<p>abc</p>\n<p>dbd</p>\n<p>bab</p>\n<p>eaf</p>\n<p><b>Sample Output</b></p>\n<p>2</p>\n<p><b>Explanation</b></p>\n<p>The two pairs are:</p>\n<p>\u00b7 \u201dabc\u201d and \u201cbab\u201d both correspond to 222.</p>\n<p>\u00b7 \u201cdbd\u201d and \u201ceaf\u201d both correspond to 323.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-07-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Intoxia",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1438489800,
+        "end_date": 1438500600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1438500600,
+        "submit_start_date": 1438489800,
+        "current": 1537436153
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>arpanb8</span>",
+    "problem_name": "The Confused Mobile Keypad",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/arpanb8'>arpanb8</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "arpanb8",
+    "contest_code": "INTO2015",
+    "max_timelimit": "1 - 2",
+    "problem_code": "T9BYTE"
+}

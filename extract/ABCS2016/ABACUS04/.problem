@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>To attain inner peace <b> Geek Sundaram </b> has to pass through the <B>\"Hall of Valley of Death\"</b>. The floor of this hall is a square with length <B>100</b> m. It is laid with square tiles of size <B> 1 X 1 </b> arranged over the entire hall. But, at some places in the hall tiles are broken. The moment a person enters the hall, the underworld awakens and dead souls emerge from these broken tiles. The only way to escape from these evil souls is to completely cover the broken locations with magic planks from the room of requirements. Each plank has size <B>100 X 1</b> and can only be placed parallel to either sides of the floor. Now Geek Sundaram has to save himself from these evil souls. He figures out that he has to use the minimum number of planks possible. Please help <b>Geek Sundaram</b> to attain inner peace.</p>\n<h3>Input</h3>\n<ul>\n<li> The first line of the input is a positive integer <B>t &lt;= 30</b>, denoting the number of halls.\n</li><li> The descriptions for the t halls follow one after the other.\n</li><li> <B>Hall Description:</b>\n<ul>\n<li> The first line of the hall description is a positive integer <B>n (n  &lt;=  10000)</b>, denoting the number of broken tile locations.\n</li><li> This is followed by the <B>n</b> lines, one for each broken tile location.\n</li><li> Each line contains two integers <B>x y (0 &lt;= x, y &lt; 100)</b>, separated by a single space, representing the co-ordinates of the broken tile location.\n\t\t</li></ul>\n</li></ul>\n<p><br /></p>\n<h3>Output</h3>\n<p>The output should consist of <B>t</b> lines, one for each hall. The <B>k<sup>th</sup></b> line in the output should be an integer <B>m<sub>k</sub></b>, the minimum number of planks needed for the <B>k<sup>th</sup></b> hall.\n</p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<br />2\n<br />3\n<br />1 0\n<br />2 0\n<br />3 0\n<br />4\n<br />1 1\n<br />2 2\n<br />3 3\n<br />4 4\n\n\n<b>Output:</b>\n<br />1\n<br />4\n\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "aBaCUS16",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457623800,
+        "end_date": 1457633700,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457633700,
+        "submit_start_date": 1457623800,
+        "current": 1537435205
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>uvsankar</span>",
+    "problem_name": "Geek Sundaram attains inner peace",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/uvsankar'>uvsankar</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "uvsankar",
+    "contest_code": "ABCS2016",
+    "max_timelimit": "1",
+    "problem_code": "ABACUS04"
+}

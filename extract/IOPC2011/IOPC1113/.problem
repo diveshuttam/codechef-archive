@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A skier wants to ski down from the top of a mountain to its base. There are several possible routes, using different slopes enroute, and passing through some flat areas. The effort expended in skiing down a slope depends upon the length of the slope and the speed of skiing. For each slope, there is a maximum advisable speed. The skier wants to use a toute that minimizrs the <b>average effort spent per unit distance traveled</b> (i.e. the total effort expended divided by the total distance traveled).\n\n</p><p>The flat regions on the mountain are numbered 1 to N from top to bottom. The skier begins at level 1 and needs to reach level N. You are given the numbers of the flat regions each slope connects. Note that on a slope, one can only ski downwards. For each slope, you are also given the length of the slope and the maximum advisable speed for it. The effort expended in skiing down a particular slope is given by the following formula:\n\n</p><p>e = d*(70-s) if s \u2264 60, and e = d*(s-50) if s &gt; 60\n\n</p><p>where e is the effort required, d is the distance traveled and s is the speed of travel.\n\n</p><p>You have to determine the minimum average effort per unit distance that the skier has to expend in order to reach the mountain base, while staying within the maximum advisable speed at every slope.\n\n<h3>Input</h3>\n</p><p>The first line of input gives the number of test cases T(\u226420). This is followed by the descriptions of the test cases\n</p><p>For each test case, the first line of input gives the number of flats, N (N \u2264 1000), and the number of slopes, R (R \u2264 20000), connecting them respectively. Each of the next R lines describes a slope by giving: the numbers of the flats at the top and the bottom of the slope, the maximum advisable speed for the slope (\u2264 100), and the length of the slope (\u2264 1000) respectively.\n\n<h3>Output</h3>\n</p><p>For each test case, output a single number (with four places after the decimal point, rounded up) that gives the minimum average effort per unit distance that needs to be expended to ski down from the mountain top to the base. The output for each test case should be on a separate line.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n4 5\n1 4 30 60\n1 2 50 40\n1 3 60 20\n2 4 60 50\n3 4 50 50\n3 3\n1 2 50 40\n1 3 40 20\n2 3 20 30\n\n<b>Output:</b>\n14.4445\n30.0000\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "IIT Kanpur IOPC 2011",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1297492200,
+        "end_date": 1297578600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1297578600,
+        "submit_start_date": 1297492200,
+        "current": 1537439384
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>razimantv</span>",
+    "problem_name": "Ski slopes",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/razimantv'>razimantv</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "razimantv",
+    "contest_code": "IOPC2011",
+    "max_timelimit": "0.325581",
+    "problem_code": "IOPC1113"
+}

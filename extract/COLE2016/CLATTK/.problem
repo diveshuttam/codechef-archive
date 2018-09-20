@@ -1,0 +1,33 @@
+{
+    "problem_code": "CLATTK",
+    "problem_author": "nib_ir",
+    "contest_name": "Coder's Legacy 2016",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nib_ir</span>",
+    "problem_name": "Overhead Attack",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "COLE2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cole2016'>cole2016</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/nib_ir'>nib_ir</a>, <a class='problem-tag-small ' href='/tags/problems/probability'>probability</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>After taking a hard punch from Superman, Batman finds himself lying in an alley between two high buildings and exits blocked by heavy dumpsters. He knows that he will be forced to fight, but wants to avoid it for as long as possible in order to get his strength back.<br/><br />\nSuperman is currently flying next to a window of the topmost floor. When seen from the side, the windows on the building fall into neat rows and columns. The building is <b>W</b> windows wide and <b>H</b> windows high. Due to inexplicable circumstances, Superman and Batman move turn by turn. Superman may move to <b>any of the windows around the one he's currently next to</b> (8 when not in the first or last row or column) in one turn, while Batman may move <b>one window left or right, or choose to stay where he is</b>. Superman moves <b>first</b>, and then each take turns moving. If they initially start at random positions,  what is the expected number of moves in which Superman catches up to Batman?</br/></p>\n<p><b>NOTE:</b> Batman is always on the ground and Superman is always at the top floor at the initial position. <br />Superman and Batman will always move optimally, i.e Superman will try to catch Batman in as less moves as possible whereas Batman will try to outrun Superman for as many moves as he can.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases.</li>\n<li>Each test case consists of one line containing two space separated integers <b>H</b> and <b>W</b>, denoting the height and width of the building.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing the answer <b>correct to 7 decimal places</b>.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>H</b> \u2264 <b>1500</b></li>\n<li><b>1</b> \u2264 <b>W</b> \u2264 <b>1500</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2 2\n2 3\n\n<b>Output:</b>\n1.0000000\n1.2222222\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>In the first case, no matter where Superman starts, he always catches Batman in the first move. <br/>In the second case, Superman can always get Batman in the first move unless Superman is in the first column and Batman in the last, or vice versa, which then takes 2 moves. Expected value is then (7*1+2*2)/9 = 1.2222222</br/></p>\n",
+    "category_name": "main",
+    "date_added": "28-01-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/CLATTK",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1454686200,
+        "end_date": 1454859000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454859000,
+        "submit_start_date": 1454686200,
+        "current": 1537435509
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Elliot has a habit of saving all his data in an encrypted format! Good for you, Elliot! But this time his computer has ran into some problem, and he needs your help.\n</p>\n<p>He usually saves all his data in a key-value pair type. For example, if the world is <b>ellioooottt</b>, it will be saved as <b>eil2o4t3</b>. That is an alphabet and a number if the alphabet is repeated or just the alphabet if it is not repeated.Also the final encrypted string will have alphabetically ordered characters. So given a list of words, encrypt it all for him!</p>\n<br>\n<h3>INPUT</h3>\n<p>The first line of input contains one integer <b>T</b> denoting the number of test cases.\nThe next <b>T</b> lines contains string <b>S</b> which is to be encrypted. <b>All the letters will be lowercase!</b></p>\n<br>\n<h3>OUTPUT</h3>\nFor each test case output the encrypted string in a new line.\n<br>\n<h3>CONSTRAINTS</h3>\n<p>\n1< <b>T</b> < 50<br>\n10 < S <50<br>\n</p>\n<br>\n<h3>EXAMPLE</h3>\n<p>\n<b>Input:</b><br>\n2<br>\nellioooottt<br>\nyyoouuu<br>\n<br>\n<b>Output:</b><br>\neil2o4t3<br>\no2u3y2\n<br>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "BUG4EVER",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1474169400,
+        "end_date": 1474212600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1474212600,
+        "submit_start_date": 1474169400,
+        "current": 1537434599
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nerdyninja</span>",
+    "problem_name": "Mr Robot",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nerdyninja'>nerdyninja</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nerdyninja",
+    "contest_code": "GSTS1601",
+    "max_timelimit": "1",
+    "problem_code": "BUG2K16H"
+}

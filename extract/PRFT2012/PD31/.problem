@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\n\nYou are given an unweighted, undirected graph. Write a program to check if it's a tree topology.\n\n<h3>Input</h3>\n<p>\nThe first line of the input file contains two integers N and M --- number of nodes and number of edges in the graph (0 < N <= 10000, 0 <= M <= 20000). Next M lines contain M edges of that graph --- Each line contains a pair (u, v) means there is an edge between node u and node v (1 <= u,v <= N).\n\n<h3>Output</h3>\n<p>\nPrint YES if the given graph is a tree, otherwise print NO.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3 2\n1 2\n2 3\n\n\n<b>Output:</b>\nYES\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Dot Slash Execute Prefest Contest Page 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330399800,
+        "end_date": 1330461000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1330374600,
+        "submit_start_date": 1330399800,
+        "current": 1537438921
+    },
+    "problem_author_html_handle": "mani_yadav",
+    "problem_name": "Is it a tree",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/mani_yadav'>mani_yadav</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "mani_yadav",
+    "contest_code": "PRFT2012",
+    "max_timelimit": "0.156842",
+    "problem_code": "PD31"
+}

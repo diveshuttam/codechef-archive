@@ -1,0 +1,33 @@
+{
+    "problem_code": "MINMAX",
+    "problem_author": "admin",
+    "contest_name": "ACM-ICPC Amritapuri onsite regionals 2012 : Replay",
+    "todo": false,
+    "problem_author_html_handle": "admin",
+    "problem_name": "Wormtongues Mind",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ACMAMR12",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acmamr12'>acmamr12</a>, <a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/probability'>probability</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><html> <body><br />\n<h1 style=\"font-family: Arial;\"><small>ACM International Collegiate     Programming Contest, Asia-Amritapuri Site, 2012</small></h1>\n<h2>Wormtongue's Mind<br /> </h2>\n<p> <i>Wormtongue looked from face to face. In his eyes was the hunted look of a beast seeking some gap in the ring of his enemies.<br />     'Nay, Eomer, you do not fully understand the mind of Master Wormtongue,' said Gandalf, turning his piercing glance upon him. 'He is bold and cunning.     Even now he plays a game with peril and wins a throw.' </i>- Gandalf, trying to figure out Wormtongue's mind.<br /> <br /> In fact, Wormtongue's mind is a complicated system of evaluating various variables and parameters. In essence, each parameter is a uniform random floating point variable between 0 and 1 (inclusive). Further, his mind works on calculating best and worst-case values, which are equivalent to min/max of 2 expressions.<br /> <br /> For example, right now Wormtongue is calculating :<br /> 'Chances of escaping' = <b>max</b>('Theoden letting me go', 'Me killing everyone')<br /> 'Theoden letting me go' = <b>max</b>('Theoden is forgiving by nature', 'Gandalf advises him to let me go').<br /> 'Me killing everyone' = <b>min</b>('Me killing Gandalf', 'Me killing Theoden').<br /> <br /> So, you are given an expression consisting of independent uniform [0, 1] random variables, on which you have an expression consisting of \"<b>min</b>\", and \"<b>max</b>\" alone. Help Gandalf figure out Wormtongue's mind by finding the <b>expected value</b> of this expression.<br /><br />\n<h3>Input (STDIN):</h3>\n</p><p> The first line contains <b>T</b>, the number of test cases.<br /> Each test case consists of a single line describing the expression. The characters of the string are derived from the set {'<b>M</b>','<b>m</b>','<b>x</b>'}, where '<b>M</b>' stands for <b>max</b>, '<b>m</b>' stands for <b>min</b>, and '<b>x</b>' is a random variable<br /> Formally, in the expression tree, each node which asks for <b>max</b> is labeled as '<b>M</b>', each node which asks for <b>min</b> is labelled '<b>m</b>', and all the leaves are labeled '<b>x</b>'. The description of the expression is preorder traversal of this tree.<br /> For example, <b>Mxmxx</b> describes the expression <b>max(x1, min(x2, x3))</b>.<br /><br />\n<h3>Output (STDOUT):</h3>\n</p><p> For each test case, output one line which contains the <b>expected value</b> of the expression. <b>The results should be accurate within an error range of 10^-6.</b><br /><br />\n<h3>Constraints:</h3>\n</p><p><b>1 &lt;= T &lt;= 1,000<br /> 1 &lt;= input string length &lt;= 100</b><br /> <br /><br />\n<h3>Sample Input:</h3>\n</p><p> <span style=\"font-family: Courier New,Courier,monospace;\"> 4<br /> x<br /> mxx<br /> Mxx<br /> MmxxMxx </span><br /><br />\n<h3>Sample Output:</h3>\n</p><p> <span style=\"font-family: Courier New,Courier,monospace;\"> 0.500000<br /> 0.333333<br /> 0.666667<br /> 0.700000<br /> </span><br /><br />\n<h3>Notes/Explanation of Sample Input:</h3>\n</p><p> For the first test case, it asks for the mean of a random number between 0 and 1, which is 0.5.<br /> <br /> Note:<br /> It is recommended to use <b>long long</b> and <b>long double</b> data types in calculation to avoid precision errors.<br /> <br /> <br /> </p></body> </html> </p>\n",
+    "category_name": "main",
+    "date_added": "22-01-2013",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "3",
+    "problem_status": "unattempted",
+    "editorial_url": "http://codechef.com/download/editorials/ACMAMR12/MINMAX.pdf",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1359106200,
+        "end_date": 1359365400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1359365400,
+        "submit_start_date": 1359106200,
+        "current": 1537438579
+    },
+    "user": {
+        "username": ""
+    }
+}

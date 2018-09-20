@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>It's a fine Sunday morning and Rohil is sitting on the breakfast table, waiting for his breakfast to be served. In the meantime, his mom asks him to cut the square shaped butter cake into maximum number of pieces but with only X number of cuts. She also asks him to only make horizontal and vertical cuts (parallel to the sides of the cake), edge to edge.\n\n<h3>Input</h3>\n<p>The first line of input contains an integer X (1 \u2264 X \u2264 100), the number of cuts Rohil can make.\n\n<h3>Output</h3>\n<p>Print the maximum number of pieces the butter cake can be cut into.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n\n<b>Output:</b>\n2\n\n<b>Input:</b>\n3\n\n<b>Output:</b>\n6\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-10-2010",
+    "is_direct_submittable": false,
+    "contest_name": "NSIT Delhi - Stale Mate 2.0",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1288528200,
+        "end_date": 1288549800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180203,
+        "submit_start_date": 1288528200,
+        "current": 1537439458
+    },
+    "problem_author_html_handle": "ajitesh14",
+    "problem_name": "The Great Cut!",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ajitesh14'>ajitesh14</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ajitesh14",
+    "contest_code": "STLEMATE",
+    "max_timelimit": "0.2",
+    "problem_code": "ST202"
+}

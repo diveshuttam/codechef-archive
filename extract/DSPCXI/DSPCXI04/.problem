@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> Organizing any event requires team-work. We at MSTC are lucky to have committed and dedicated members which have been divided into different teams.  Each team has been allotted a team leader whose responsibility is to to divide the workload for the team-members fairly. Any un-allotted work needs to be done by team leader himself. Each member is allotted responsibility of a task but each task is performed by team as a whole. </p>\n\n<p> Given the responsibility of a team member be \u2018r\u2019, and the team size be \u2018n\u2019, each member performs r/n work and remaining is done by leader. Hence each member of a team will perform divided workload of each team member and remaining of each member\u2019s workload will be done by team leader. </p>\n\n<p> Presently there are 3 team-leaders \u2013 Ayush, Souptik and Azhar \u2013 who are trying to minimize their collective work by grouping the members in 3 teams. You need to write a program that will help them achieve their objective of minimizing the work done. Note that the sequence of workloads is to be retained while splitting and each team should have at least 1 member. </p>\n\n<p>Problem Setter: <a href=\"//www.facebook.com/Aasthik\">Vishal Gupta</a></p>\n\n <h3>Input: </h3>\nThe first line gives number of test cases T(1&lt;=T&lt;=100).\nThe following T lines have an integer N(3&lt;=N&lt;=200), the number of members followed by N workloads.\n\n <h3>Output: </h3>\nPrint the minimum sum of workload of the leaders.\n<br /><br />\n\n<pre>\n<b>Sample Input:</b>\n2\n5 5 7 21 33 42\n10 56 60 63 66 68 78 79 79 88 88\n\n<b>Sample Output:</b>\n0\n7\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "DreamSpark - Microsoft Software & Technology Club",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298716200,
+        "end_date": 1298759400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298759400,
+        "submit_start_date": 1298716200,
+        "current": 1537439310
+    },
+    "problem_author_html_handle": "ganesha",
+    "problem_name": "The MSTC Team",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ganesha'>ganesha</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ganesha",
+    "contest_code": "DSPCXI",
+    "max_timelimit": "0.107143",
+    "problem_code": "DSPCXI04"
+}

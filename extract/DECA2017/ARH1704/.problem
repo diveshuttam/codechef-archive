@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Dom is the king of codeland. Brian, his best-friend wants to replace him. Brian wants to kill him in order to become king of codeland. \n\tBrian is standing on a rectangular grid of size n x m. The starting cell is marked 'S' and Dom is standing at cell marked with 'T', \n\trest all the cells are marked with lowercase english alphabet (It is guaranteed that there is only one 'S' and one \n\t'T' in the grid). The time required to move from one cell to another is 1 minute. It takes 0 minutes to move within a cell. A person can \t\tonly move from a cell to it's adjacent cells (if available). A person can visit atmost 'k' different types of cell. Cells marked with 'S' \t\tand 'T' are not counted. But, a person can visit 'S' and 'T' exactly once.\n   \tBrian wants to kill him as soon as possible. So, he asks for your help to kill Dom.\n\tYour task is to find a path from 'S' to 'T' that takes minimum time. If there are multiple paths taking same time, print the \n\tlexicographically smallest one.</p>\n\n<h3>Input</h3>\n<p>\n\tFirst line consists of an integer 't' denoting number of testcases.\n\tEach testcase consists of three integers 'n', 'm' and 'k'. Then 'n' lines follows. Each line consist of exactly 'm' characters\n\twhich are lowercase english alphabets and the characters 'S' and 'T'.</p>\n\n\n<h3>Output</h3>\n<p>If there is a path sequence satisfying the above mentioned conditions print the path(don't print the characters 'S' and 'T'),else print -1.\n\t\n\tNote:  If the path sequence is empty just print a blank line.</p>\n\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1<=t<=25</b></li>\n<li><b>1<= n,m <=50</b></li>\n<li><b>n x m >=2/b></li>\n<li><b>1<=k<=4</b></li>\n</ul>\n\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n3 5 2\nSbcaT\nacbab\nacccb\t\n1 4 1\nSxyT\t\n3 4 2\t\nSbbb\naabT\nabbc\n\n<b>Output:</b>\n</pre>\n<p>aacccaa<br>\n\t-1<br>\n\taab\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-02-2017",
+    "is_direct_submittable": false,
+    "contest_name": "DECATHLON",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1486742400,
+        "end_date": 1486751400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1486751400,
+        "submit_start_date": 1486742400,
+        "current": 1537434162
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>parakh94</span>",
+    "problem_name": "King of Codeland",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/parakh94'>parakh94</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "parakh94",
+    "contest_code": "DECA2017",
+    "max_timelimit": "1",
+    "problem_code": "ARH1704"
+}

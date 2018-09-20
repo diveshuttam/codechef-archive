@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem description</h3>\n<p><b>N</b> number of Postage Stamps are available in a newly opened Shop. Different Stamps have different ID's (1,2,3, ...) to distinguish one from other. Collecting Stamps is Ashish's hobby. One day his friend, Devesh, told him about the collection in that Shop. They both went to the Shop to purchase stamps. A philately competition was going on. Being too much excited, Ashish wanted to take part in the competition. Pardyot, another Stamp lover, is his competitor.<br /><br />\nThe competition is such that:<br /><br />\nThe Shopkeeper will give them range <b>[a,b]</b> , they have to find out the cost of the Stamps from <b>a</b> to <b>b</b>. The one who answers it earliest will win. Now, the cost depends upon the ID's of the Stamps. Cost is the Summation of ID number multiplied by the square of the occurence of that ID number in a given range. Pardyot is too good at Mathematics. Ashish wants your help to calculate it.\n</p>\n<h3>Input</h3>\n<p>First line contains Integer <b>N</b>- number of Postage Stamps.<br /><br />\nNext line contains <b>N</b> integers denoting ID's of the Stamps.<br /><br />\nNext line contains <b>Q</b> - number of queries.<br /><br />\nNext <b>Q</b> lines contains two Integes <b>a</b> and <b>b</b> \u2013 starting and ending index.<br />\n</p>\n<h3>Constraints</h3>\n<ul>\n<li>1&lt;=N,Q&lt;=200000</li>\n<li>1&lt;=ID&lt;=1000000</li>\n<li>1&lt;=a&lt;=b&lt;=N</li>\n</ul>\n<p><br /></p>\n<h3>Output</h3>\n<p>In Q lines, output the cost of the Stamps for a given range.\n</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n8\n1 1 2 2 1 3 1 1\n2\n2 7\n1 6\n\n<b>Output:</b>\n20\n20\n\n<b>Explanation:</b>\nFor query 1:\n2 7\noccurrence of 1- 3\noccurrence of 2- 2\noccurrence of 3- 1\ncost=3*3*1 + 2*2*2 + 1*1*3= 20\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "February Farewell 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1425483000,
+        "end_date": 1425493800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1425493800,
+        "submit_start_date": 1425483000,
+        "current": 1537436658
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>giriraj</span>",
+    "problem_name": "Stamp collection",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/giriraj'>giriraj</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "giriraj",
+    "contest_code": "FBFRW15",
+    "max_timelimit": "2.5",
+    "problem_code": "FBFRW4"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>\nThe Department of CSE, IITK tried a new experiment by giving <b>M</b> algorithmic assignments to students in groups of size <b>N</b>. Students are allowed to divide an assignment into parts such that each part is solved by a different student. It must be noted that a student may do atmost one assignment at a time. Also, an assignment can be attempted by exactly one student at a time, it may not be the case that two different students be solving different parts of the same assignment at the same time. </p>\n<p>Here at IITK every student is believed to have the same potential. The professors estimated the total number of student hours each assignment will require. Now as the student calendar is filled with a lot of interesting activities, this makes it difficult for the students to be always available for an assignment. Most of the times, they are involved in doing many interesting activities e.g., many of them must be participating in IOPC 2013 right now :)</p>\n<p>\nThe Department knows that the students of CSE, IITK are very competent and have knowledge of when an assignment will be put up, how much student hours it requires and  the deadline of the assignments. The Professors must know that the students here are very moody. So, it is possible that a student gets bored of solving an assignment for a long time, leaves it in the middle to pick another assignment without wasting any time. The student may later come back to the earlier assignment or may ask one of his friends (of the group of <b>N</b> students) to solve it.\n</p>\n<p> Your task is to help the Professors figure out if this experiment of theirs would be a success. In other words, figure out if it is possible for the group of <b>N</b> students to finish the given <b>M</b> assignments by the deadline. </p>\n\n<h3>Input</h3>\n<p>\nThe first line of the input contains an integer <b>T</b> denoting the number of test cases<br /><br />\nFirst line of each test case contains two integers <b>N </b>the number of students  and <b>M</b> the number of assignments given to the group.<br /><br />\nThe next <b>N</b> lines contain two integers <b>S</b> and <b>E</b> denoting the start and end time at which the student is free to solve his/her assignments.<br /><br />\nThe next <b>M</b> lines contain three integers <b>A, D and H</b> denoting the start time of the assignment, the deadline of the assignment and the expected student hours needed to complete the assignment respectively.\n</p>\n\n<h3>Output</h3>\n<p>\nFor each test case, output a single line containing \u201cYES\u201d (without quotes) if  it is possible to complete all assignments by their deadline and \u201cNO\u201d (without quotes) otherwise.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>120</b></li>\n<li><b>1</b> \u2264 <b>N,M</b> \u2264 <b>50</b></li>\n<li><b>0</b> \u2264 <b>S,E,A,D,H</b> \u2264 <b>10<sup>7</sup></b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n\n1\n2 2\n1 5\n3 4\n1 5 3\n2 4 2\n<b>Output:</b>\nYES\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-03-2013",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2013",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1362810600,
+        "end_date": 1362897000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1362897000,
+        "submit_start_date": 1362810600,
+        "current": 1537438452
+    },
+    "problem_author_html_handle": "iopc_admin",
+    "problem_name": "Assignments at IITK",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/iopc_admin'>iopc_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "iopc_admin",
+    "contest_code": "IOPC2013",
+    "max_timelimit": "0.121212",
+    "problem_code": "IOPC13M"
+}

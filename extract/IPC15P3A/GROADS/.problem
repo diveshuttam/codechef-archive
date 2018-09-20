@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n<p>\n\nA particular country has <b>n</b> cities and <b>m</b> bidirectional roads. The cities are labeled <b>1, 2, ..., n</b>. Each road connects two distinct cities and can be traveled in both directions. Each pair of city is directly connected by at most one road and no city is directly connected to itself. A road connecting cities <b>u</b> and <b>v</b> is called interesting if for all other cities </b>w, w</b> is either directly connected to <b>u</b> or to <b>v</b> (or maybe both). Find the number of interesting roads in the country. \n\n</p>\n<p> </p>\n\n\n<h3>Input</h3>\n\n<ul>\n<li>The first two lines will contain <b>n, m</b>, denoting the number of cities and roads respectively.</li>\n<li>The next <b>m</b> lines will contain a pair of integers <b>u, v</b> each, meaning that there is a road which connects cities <b>u</b> and <b>v</b>.</li>\n<li>A pair can appear at most once in this list and the numbers in each pair are guaranteed to be distinct. </li>\n</ul>\n<p> </p>\n\n<h3>Output</h3>\n<ul>\n<li>Print a single line: the number of interesting roads in the country.</li>\n</ul>\n<p> </p>\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264  <b>n, m</b> \u2264  <b>100000</b></li>\n<li><b>1</b> \u2264  <b>u, v</b> \u2264  <b>n</b></li>\n</ul>\n<p> </p>\n\n\n<h3>Example</h3>\n<pre><b>Input </b>\n3 3\n1 2\n2 3\n3 1\n\n<b>Output:</b>\n\n3 </pre>\n<p> </p> <p> </p>\n\n<pre><b>Input:</b>\n4 4\n1 3\n2 3\n2 4\n3 4\n\n<b>Output:</b>\n3\n</pre>\n<p> </p>\n<h3>Explanation</h3>\n<p> <b> Example case 1. </b>\nAll roads are good. </p>\n\n<p><b>Example case 2.</b> \nThe roads joining the cities (1, 3), (2, 3) and (3, 4) good. Road (2, 4) isn't good because city 1 is not directly connected to any of 2 or 4.    \n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team apqAW2",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1456669800,
+        "end_date": 1456687800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1456687800,
+        "submit_start_date": 1456669800,
+        "current": 1537435295
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>AnonymousBunny</span>",
+    "problem_name": "Good Roads",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/AnonymousBunny'>AnonymousBunny</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/graphs'>graphs</a>, <a class='problem-tag-small ' href='/tags/problems/ipc15p3a'>ipc15p3a</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "AnonymousBunny",
+    "contest_code": "IPC15P3A",
+    "max_timelimit": "1",
+    "problem_code": "GROADS"
+}

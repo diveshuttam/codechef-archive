@@ -1,0 +1,103 @@
+{
+    "teamsCount": "7153",
+    "announcements": "<li>The contest has been ended and the problems have been moved to <a href=\"/problems/school\" target=\"_blank\">practice section</a>.</li>\r\n<li>The editorials for the contest be found <a target=\"_blank\" href=\"https://discuss.codechef.com/tags/snckpb16,editorial\">here</a>.</li>",
+    "ip": "149.129.135.113",
+    "code": "SNCKPB16",
+    "duration": "1440",
+    "name": "SnackDown Online Pre- elimination Round B",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": " <p><b class=\"rules-heading\">About:</b></p> <div class=\"rules-body\"> <p><span>SnackDown 2016 is an annual multi round global programming tournament conducted by CodeChef. More information about it can be found <a href=\"/snackdown/2016\">here</a>.</span></p> </div> <p><b class=\"rules-heading\">Contest Details:</b></p> <div class=\"rules-body\"> <ul class=\"\"> <li><b>Duration: </b>24 hours</li> <li><b>Start time: </b>12th June 2016, 2100 hrs IST</li> <li><b>End time: </b>13th June 2016, 2100 hrs IST<br />You may check your timezone <a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=SnackDown16+Online+Pre-Elimination+Round-B&amp;iso=20160612T21&amp;p1=44\">here</a>.</li> </ul> </div> <div class=\"rules-body\"> <ul class=\"\"> </ul> </div> <p><b class=\"rules-heading\">Eligibility Criteria: </b><span class=\"rules-heading\">Only those who qualified in <a target=\"_blank\" href=\"/SNCKQL16\">SnackDown 2016 Qualifiers</a> are eligible to take part in this contest. <b>Note:</b> Teams who have qualified for Elimination from Round A, will not be allowed to take part in this round..</span></p> <p><b class=\"rules-heading\">Rules and Regulations:</b></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\"> feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li>You will be ranked only on the basis of the score that you get. The score is the total number of points that you get in a contest.</li> <li>You shall not possess more than one account on CodeChef. If you have, then do let us know, so that we can deactivate the insignificant one. If you do not report it and we come to know about it, we may deactivate both the accounts permanently.</li> <li>The number of submissions that one can make during the contest on the problem will be limited to 500.</li> <div class=\"rules-body\">However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/SNCKPB16/1465567977.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "ENTEXAM": {
+            "allow_submission": false,
+            "name": "Entrance Exam",
+            "category_name": "main",
+            "accuracy": 14.24,
+            "successful_submissions": "1635",
+            "code": "ENTEXAM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MMPROD": {
+            "allow_submission": false,
+            "name": "Best Maximum Product",
+            "category_name": "main",
+            "accuracy": 3.41,
+            "successful_submissions": "170",
+            "code": "MMPROD",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "REGIONS": {
+            "allow_submission": false,
+            "name": "Dividing into Regions",
+            "category_name": "main",
+            "accuracy": 7.58,
+            "successful_submissions": "5",
+            "code": "REGIONS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LISLDS": {
+            "allow_submission": false,
+            "name": "LIS and LDS",
+            "category_name": "main",
+            "accuracy": 9.51,
+            "successful_submissions": "31",
+            "code": "LISLDS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MINSHIFT": {
+            "allow_submission": false,
+            "name": "Cyclic Shifts",
+            "category_name": "main",
+            "accuracy": 0.71,
+            "successful_submissions": "6",
+            "code": "MINSHIFT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FAIRPAIR": {
+            "allow_submission": false,
+            "name": "Fair Pairing",
+            "category_name": "main",
+            "accuracy": 6.11,
+            "successful_submissions": "59",
+            "code": "FAIRPAIR",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537434846,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

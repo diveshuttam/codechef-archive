@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Statement</h3>\n<p>Jay has got an array <b>A</b> (1-based indexing) of <b>N</b> integers, and he wants to perform some shifting operations on the array. Each operation can be of 2 types.\n</p>\n<ul>\n<li>[ <code> 1 l r</code> ] modify the array by removing all the elements till index <code><b>l</b></code> (i.e., the sub-array <b>A</b>[<code>1..l-1</code>] ) and place them after the element with index <code><b>r</b></code>.<br />\n<!-- (Order of the elements of sub-array <b>A</b>[<code>1..l-1</code>] must be preserved.)   --><!-- (Order of the elements of sub-array <b>A</b>[<code>1..l-1</code>] must be preserved.)   --></li>\n<li>[ <code> 2 l r</code> ] modify the array by removing all the elements after index <code><b>r</b></code> (i.e., the sub-array <b>A</b>[<code>r+1..N</code>] ) and place them before the element with index <code><b>l</b></code>.              </li>\n<p>( Please check sample test case for better understanding. )\n</p></ul>\n\n<p>After performing <b>Q</b> such operations, Jay needs to print all elements of the array. Since he is in a hurry to meet his girlfriend he asks his friend, Chef to solve this problem. But our Chef only knows how to cook food, not codes! So can you help our Chef ? :P</p>\n<h3>Input</h3>\n<p>First line consists of two space-separated integers, <b>N</b> and <b>Q</b>.\n</p>\n<p>\nSecond line contains <b>N</b> space-separated integers, which represent the elements of the array.\n</p>\n<p>\nThen <b>Q</b> queries follow. Each line contains a query in the form <code><b>type l r</b></code>.\n</p>\n<h3>Output</h3>\n<p>Print <b>N</b> space-seperated integers, representing the elements of the resulting array <b>A</b> after performing all the quries.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N,Q</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>A[i]</b> \u2264 <b>10^9</b></li>\n<li> <b>1</b> \u2264 <code><b>l</b>  \u2264 <b>r</b></code> \u2264 <b>N</b></li>\n<li><b>type</b> = {<b>1,2</b>} </li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n<code>\n8 5\n6 2 6 9 8 9 0 1\n1 4 6\n2 3 7\n2 2 5\n1 4 6\n1 5 6\n</code>\n<b>Output:</b>\n<code>\n2 6 0 8 1 9 9 6</code>\n</pre>\n<h3>Explanation</h3>\n<pre>After Query 1, the array becomes <code><b>9 8 9 6 2 6 0 1</b></code>.<br />\nAfter Query 2, the array becomes <code><b>9 8 1 9 6 2 6 0</b></code>.<br />\nAfter Query 3, the array becomes <code><b>9 2 6 0 8 1 9 6</b></code>.<br />\nAfter Query 4, the array becomes <code><b>0 8 1 9 2 6 9 6</b></code>.<br />\nAfter Query 5, the array becomes <code><b>2 6 0 8 1 9 9 6</b></code>.<br />\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-10-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Koder Kombat",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1445697000,
+        "end_date": 1445711400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1445711400,
+        "submit_start_date": 1445697000,
+        "current": 1537435875
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>prb456</span>",
+    "problem_name": "Shifting Sub-arrays",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/prb456'>prb456</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "prb456",
+    "contest_code": "KOKT2015",
+    "max_timelimit": "1",
+    "problem_code": "KOKT01"
+}

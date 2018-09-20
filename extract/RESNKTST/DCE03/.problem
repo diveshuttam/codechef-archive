@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>The captain of TITANIC is a mathematics freak. He has recently been given a problem that he is unable to solve. And he has asked your help to solve it.<br />\n\nThere are n numbers in a given expression.<br />\n\nX1 X2 X3 ....  Xn<br />\n\nWhat is the number of ways to put parenthesis in the expression.<br />\n\nFor n=4, the different ways are <br />\n<pre>\n(((x1.x2).x3).x4)\n((x1.x2).(x3.x4))\n(x1.((x2.x3).x4))\n(x1.(x2.(x3.x4)))\n((x1.(x2.x3)).x4)\n</pre>\n\nHence the required answer would be 5.<br />\n\n\n<h3>Input</h3>\n<p>The first line contains the number of test cases t <=10.\nEach of the next t lines contain single integers <=1000 denoting n.\n\n\n<h3>Output</h3>\n<p>Display t lines containg the number of ways to put parenthesis in the expression of length n modulo 10000.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n4\n5\n\n\n<b>Output:</b>\n5\n14\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-10-2009",
+    "is_direct_submittable": false,
+    "contest_name": "Resnackdown Practice Run",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1261059300,
+        "end_date": 1261063800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180162,
+        "submit_start_date": 1261059300,
+        "current": 1537439851
+    },
+    "problem_author_html_handle": "uploader0",
+    "problem_name": "Parenthesis",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/uploader0'>uploader0</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "uploader0",
+    "contest_code": "RESNKTST",
+    "max_timelimit": "3.55556",
+    "problem_code": "DCE03"
+}

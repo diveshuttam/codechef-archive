@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n<p> Question has been revised.</p>\n<p>\tMarc is Robot who can move in four directions left(<b>L</b>) ,right(<b>R</b>) ,up(<b>U</b>) ,down(<b>D</b>) based on instructions given to him. Marc is sitting in an unknown location in <b>M</b>x<b>N</b> grid of cells (<b>M</b> columns,<b>N</b> rows). <br>\n<b>Rules for following an instruction:</b><br>\nIf Marc can move in the direction specified he moves one cell in that direction.<br>\nHowever, if he is already at the boundary, he ignores the instruction.</p>\n<h4>Task</h4>\n<p>A known string of instructions has been sent to Marc. But since you don\u2019t know where he started you have no idea where he has moved to.<br> Your task is to find the minimum number additional instructions to be given to Marc to move him one of the four corners of the grid independent of Marc\u2019s initial position.\n</p>\n<p> </p>\n<h3>Input</h3>\n<p>The first line of each test case consists of three space separated integers specifying the width(<b>M</b>)  ,height(<b>N</b>) of the grid and no. of instructions(<b>K</b>) respectively.<br>\nThe next line consists of a string <b>K</b> instructions which can be (<b>U</b>,<b>D</b>,<b>L</b>,<b>R</b>).</p>\n<h3>Output</h3>\n<p>You need to print number of additional instructions required followed by a newline character.</p>\n<p> </p>\n<h3>Constraints</h3>\n<ul>\n<li>\n\t<b>1</b>\n\t\u2264\n\t<b>M</b>\n\t\u2264\n\t<b>100</b>\n</li>\n<li>\n\t<b>1</b>\n\t\u2264\n\t<b><b>N</b></b>\n\t\u2264\n\t<b>100</b>\n</li>\n<li>\n\t<b>0</b>\n\t\u2264\n\t<b>K</b>\n\t\u2264\n\t<b>1000000</b>\n</li>\n\n</ul>\n<p> </p>\n<h3>Sample</h3>\n<p>\tLet the grid be of 5 columns and 3 rows and Marc starts in an unknown position.It receives a string of instructions containing: ULDDRR. Marc then following the rules moves according to the instructions.Now for the given instructions no matter where Marc starts he will always end up in the 3rd row and always to the right of 2nd column. Now if you send RR as the additional instructions Marc will finally end up at bottom right corner regardless of its starting cell.\nIn this case your output should be 2.\n</p>\n<h4>Input</h4>\n<p>5 3 6<br>ULDDRR</p>\n<h4>Output</h4>\n<p>2</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Shaastra Programming Contest 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1482568200,
+        "end_date": 1482579000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1482579000,
+        "submit_start_date": 1482568200,
+        "current": 1537434282
+    },
+    "problem_author_html_handle": "nishalrd",
+    "problem_name": "Corner Mark",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nishalrd'>nishalrd</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nishalrd",
+    "contest_code": "SOPC2016",
+    "max_timelimit": "1",
+    "problem_code": "SPC1601"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\u00a0</p>\n<p>Problem description.</p>\n<p>\nPushkar gives Ravi a rectangle chocolate bar composed of square chocolates and asks him to find the minimum cost of breaking the chocolates back down into individual square blocks(1x1) pieces, and if he succeeds then he will give the chocolate bar to him. To break the bar down, Ravi must make use his mind to cut the chocolate in its horizontal or vertical engraved lines.\n\nTo reduce the choclate to squares X<sub>n-1</sub>,  vertical cuts must be made at locations (x<sub>1</sub>,x<sub>2</sub>,x<sub>3</sub>,x<sub>4</sub>,....,x<sub>n-1</sub> and y<sub>m-1</sub> horizontal cuts must be made at locations y<sub>1</sub>,y<sub>2</sub>,y<sub>3</sub>,y<sub>4</sub>,....,y<sub>n-1</sub>. Each cut along x<sub>i</sub> (or y<sub>j</sub>) has a cost C <sub>x</sub><sub>i</sub> or C<sub>y<sub>j</sub></sub>. The total cost of a cut is n x c, where n is the number of already-cut segments that the cut passes through.\n\nThe cost of cutting the whole bar down into 1 x 1 chocolate boxes is the sum of the cost of each successive cut. Recall that the cost of a cut is multiplied by the number of already-cut segments it crosses through.\n\nCan you help Ravi find the minimum cost and get the chocolate?\n\n\u00a0</p>\n\n\n<h3>Input</h3>\n<p>Input description.</p>\n<p>\n\nThe first line contains a single integer q denoting the number of queries. <br>The 3q subsequent lines describe each query over 3  lines according to the following format:\n\nThe first line has two positive space-separated integers <b>m</b> and <b>n</b>, detailing the respective height (y) and width (x) of the bar.<br>\nThe second line has m-1 space-separated integers listing the cost C<sub>y<sub>j</sub></sub> of cutting a segment of the bar at each respective location from y<sub>1</sub>,y<sub>2</sub>,.....,y<sub>m-1</sub>.<br>\nThe third line has n-1 space-separated integers listing the cost C<sub>x<sub>i</sub></sub> of cutting a segment of the bar at each respective location from y<sub>1</sub>,y<sub>2</sub>,.....,y<sub>n-1</sub>.\n<br>\n<b>Note</b>: If we were to superimpose the <b>m</b> x <b>n</b> bar on a 2D graph x<sub>0</sub>, x<sub>n</sub>, y<sub>0</sub>, y<sub>n</sub>, and  would all be edges of the bar and thus not valid cut lines.\n</p>\n\n<h3>Output</h3>\n<p>Output description.</p>\n<p>\nFor each of the q queries, find the minimum cost (minCost) of cutting the bar into 1x1 squares and print the value of minCost % (10<sup>9</sup>+7).\n</p>\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> \u2264 <b>q</b> \u2264 <b>20.</b></li>\n<li><b>2</b> \u2264 <b>m,n</b> \u2264 <b>1000000</b></li>\n<li><b>2</b> \u2264 <b>C<sub>x<sub>i</sub></sub>,C<sub>y<sub>j</sub></sub></b> \u2264 <b>10<sup>9</sup</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n2 2\n2\n1\n\n<b>Output:</b>\n4\n</pre>\n<p>\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "MSTC March FaceOff",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1521941400,
+        "end_date": 1522067400,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1833075286,
+        "submit_start_date": 1521941400,
+        "current": 1537432737
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>sanurocks5</span>",
+    "problem_name": "Choclate Fight",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sanurocks5'>sanurocks5</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sanurocks5",
+    "contest_code": "MMFO2018",
+    "max_timelimit": "1",
+    "problem_code": "MSTC04"
+}

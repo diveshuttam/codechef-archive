@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>It can be seen that the number, 125874, and its double, 251748, contain exactly the same digits, but in a different order. <br />\nWAP to check that if 2 such numbers have this property</p>\n\n<h3>Input:</h3>\n\n<p>The first line will consist of the total number of test cases T(1<=T<=10). <br />\nThe next T lines will consist of one number on each line. This is the number N(1<=N<=100000000).</p>\n\n<h3>Output:</h3>\n\n<p>For each test case, output a single line which returns 1 if the 2 numbers satisfy the above said conditions and 0 otherwise</p>\n\n<p>Example:<br />\nInput:</p>\n\n<p>5<br />\n23<br />\n45<br />\n123<br />\n123<br />\n1234<br />\n123<br />\n1223<br />\n1222<br />\n1223<br />\n1234</p>\n\n<p>Output:</p>\n\n<p>0<br />\n1<br />\n0<br />\n0<br />\n0</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "CE 2010",
+    "languages_supported": "WSPC, BF, PRLG, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1269523800,
+        "end_date": 1270042200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180184,
+        "submit_start_date": 1269523800,
+        "current": 1537439613
+    },
+    "problem_author_html_handle": "cerebration",
+    "problem_name": "Numb3rs",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cerebration'>cerebration</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "cerebration",
+    "contest_code": "CE2010",
+    "max_timelimit": "0.1",
+    "problem_code": "CE02"
+}

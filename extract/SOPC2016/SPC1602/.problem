@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p> \n<p>You are on a quest to find a Treasure, but on your way you found an obstacle protected by N guards.<br>\nEach guard will make a statement which can be true or false.If you find out the maximum number of guards who are definitely telling the truth, the guards will open the gate. \n<br>Guard number i will make a statement of the form \n<q> At least <b>R<sub>i</sub></b> guards (including myself) are telling the truth </q>\n<br><b>At least one guard will be telling the truth.</b><br>\nYou must determine the maximum number of guards who are definitely telling the truth.\n</p>\n<p> </p>\n<h3>Input</h3>\n<p>The first line of input contains an integer, <b>N</b>.<br>\nThe next line contains <b>N</b> space separated integers each contain <b>R<sub>i</sub></b> for <b>i = 1, 2, . . . N .</b>\t\n</p>\n<h3>Output</h3>\n<p>The output consists of a single line containing a single integer: maximum number of guards who are definitely telling the truth, followed by a newline character.\n</p>\n<p> </p>\n<h3>Constraints</h3>\n<ul>\n<li>\n\t<b>1 &le; N &le; 1000000 </b>\n</li>\n<li>\n\t<b>0 &lt; R<sub>i</sub> &le; N ,</b> &forall;<b> i</b>\n\t such that \n\t<b>1 &le; i &le; N</b>\n</li>\n</ul>\n<p> </p>\n<h3>Sample</h3>\n<p>Let there be 5 guards,<br>\nGuard 1 says, <q> At least 4 guards are telling the truth. </q> <br>\nGuard 2 says, <q> At least 1 guard is telling the truth.</q> <br>\nGuard 3 says, <q> At least 3 guards are telling the truth. </q> <br>\nGuard 4 says, <q> At least 3 guards are telling the truth. </q> <br>\nGuard 5 says, <q> At least 1 guard is telling the truth. </q> <br>\n<strong>We know that at least 1 guard must be telling the truth.</strong><br>\nHere the statements given by Guard 2 and 5 are same they both must be telling the truth.<br>\nBut we cannot be sure about the remaining guards\u2019 truthfulness.<br> \nIn this case the output should be 2 </p>\n<h4>Input</h4>\n<p>5<br>4 1 3 3 1</p>\n<h4>Output</h4>\n<p>2</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Shaastra Programming Contest 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1482568200,
+        "end_date": 1482579000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1482579000,
+        "submit_start_date": 1482568200,
+        "current": 1537434285
+    },
+    "problem_author_html_handle": "nishalrd",
+    "problem_name": "Treasure of truth",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nishalrd'>nishalrd</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nishalrd",
+    "contest_code": "SOPC2016",
+    "max_timelimit": "1",
+    "problem_code": "SPC1602"
+}

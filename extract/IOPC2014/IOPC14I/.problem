@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The Arkham Asylum of Gotham, is the place of residence of evils. Batman uses his super awesome Bat-Technology to guard it against the potential outbreak.<br /><br /></p>\n<p>The Asylum can be considered as a <strong>NxN</strong> maze, where each cell houses a building. Note that, the left most building in the bottom most row is said to be present at the cell in 1<sup>st</sup> row and 1<sup>st</sup> column. Similarly, the right most building in the top most row is said to be present at the cell in N<sup>th</sup> row and N<sup>th</sup> column. Each building is pyramidal in shape and is three storey high. </p>\n<!--There is a road in front of the asylum and an infinite, non-penetrable forest on all other sides.--><!--There is a road in front of the asylum and an infinite, non-penetrable forest on all other sides.--><p><br /><br /> </p>\n<p>Once a while, Batman catches prisoners and puts them into Arkham Asylum. Note that, initially, the Asylum is empty. For proper utilization of pyramidal space, the distribution of <strong>new prisoners</strong> in a building is as follows:<br /><br />\nIf D+D<sup>2</sup>+D<sup>3</sup> new prisoners are inserted in a building, D<sup>3</sup> goes into ground floor, D<sup>2</sup> into first floor and D into second floor. <br /><br /></p>\n<p>Now, Batman places the new prisoners in the buildings along a tilted line, 45\u00b0 to the sides of the maze, in the increasing direction of row numbers.<br />\nNote that, he could start this line anywhere in the first row. He would place (D+D<sup>2</sup>+D<sup>3</sup>) prisoners in each building, in above described manner.Also, it is guaranteed that the number of new prisoners would be a multiple of D+D<sup>2</sup>+D<sup>3</sup> and this line would atmost reach the boundary of the maze, i.e Batman would start this line well in advance, so as to accommodate all prisoners.<br /><br /></p>\n<p>Under the effect of the super awesome Bat-Technology, the power packets required to escape from the Asylum, for each prisoner living in the building at j<sup>th</sup> row and<br />\ni<sup>th</sup> column of the maze is given by:<br />\n<ul>\n<li>F<sub>0</sub> (i,j) = (j-1)<sup>3</sup> for the ground floor</li>\n<li>F<sub>1</sub> (i,j) = (j-1)<sup>2</sup> for the first floor</li>\n<li>F<sub>2</sub> (i,j) = (j-1) for the second floor</li>\n</ul>\n</p><p><br /><br />\nNote that the super awesome Bat-Technology is super-costly (even for Batman!) and is employed just inside the Asylum and nowhere else outside it. So, the prisoners are free to move anywhere once they are outside the prison.<br /><br /></p>\n<p>Now the Joker, who enjoys chaos, decides to free some prisoners. For that, he needs some power packets, which he can smuggle into the Asylum and distribute it amongst prisoners so as they can be free and join with him in his quest for establishing the reign of Chaos in the universe. <br /><br /></p>\n<p>The Joker needs your help to find out the number of power packets needed to free the prisoners from all the building in between and including columns X and Y, in all rows. Since the answer could be very, very large (after all, you are fighting against the super awesome Bat-Technology), you need to print your answer modulus 10<sup>9</sup>+7.<br /><br /></p>\n<h3>Input Format</h3>\n<p><br />\n<ul>\n<li>First Line contains 2 space separated Integers N and T, denoting the size of the maze and the number of queries to follow.</li>\n<p><br /></p>\n<li>Next T lines follow which will either be of form (U X Y D) OR (Q X Y) without brackets.</li>\n</ul>\n</p><p><br /><br />\nU X Y D denotes the addition of (Y-X+1)*(D+D<sup>2</sup>+D<sup>3</sup>) prisoners, in a line starting from the X<sup>th</sup> building in first row and extending upto Y<sup>th</sup> building in (Y-X+1)<sup>th</sup> row,<br /><br />\nQ X Y denotes that Joker wishes to query the cost of releasing the prisoners in the above described manner.<br /><br />\n<br /><br /></p>\n<h3>Output Format </h3>\n<p><br /></p>\n<ul>\n<li>For each Query of type Q output a single line containing the answer as required.</li>\n</ul>\n<p><br /><br /></p>\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 N \u2264 10<sup>5</sup></li>\n<p><br /></p>\n<li>1 \u2264 T \u2264 10<sup>5</sup></li>\n<p><br /></p>\n<li>1 \u2264 X \u2264 Y \u2264 N</li>\n<p><br /></p>\n<li>1 \u2264 D \u2264 100<br /></li>\n</ul>\n<p><br /></p>\n<h3>Sample Input</h3>\n<p>4 2<br /><br />\nU 1 4 2<br /><br />\nQ 2 3<br /></p>\n<h3>Sample Output</h3>\n<p>98<br /><br />\n<br /></p>\n<h3>Explanation</h3>\n<p><br /><br />\nAfter the first update, the Asylum looks like this:<br /></p>\n<p>0,0,0 0,0,0 0,0,0 8,4,2 <br /><br />\n0,0,0 0,0,0 8,4,2 0,0,0 <br /><br />\n0,0,0 8,4,2 0,0,0 0,0,0 <br /><br />\n8,4,2 0,0,0 0,0,0 0,0,0 <br /><br />\n<br /><br />\nHere, each tuple (a,b,c) denotes the current number of persons in the building, in ground floor, first floor and second floor respectively.<br /><br />\nThe answer is (8*1+4*1+2*1)+(8*8+4*4+2*2) = 14+84 = 98</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2014",
+    "languages_supported": "C, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1393655625,
+        "end_date": 1393741800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1393741800,
+        "submit_start_date": 1393655625,
+        "current": 1537437738
+    },
+    "problem_author_html_handle": "iopc_admin",
+    "problem_name": "Joker and the Arkham Asylum",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/iopc_admin'>iopc_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "iopc_admin",
+    "contest_code": "IOPC2014",
+    "max_timelimit": "2 - 3",
+    "problem_code": "IOPC14I"
+}

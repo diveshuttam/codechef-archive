@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nGandalf is fighting a Balrog in abandoned dwarf city of Moria.<br />\nUnfortunately he doesn't have much time and want to end fight as soon as possible.<br />\nAs Gandalf is poor in maths you have to help him in forming the strategy.<br />\nBalrog has power which is denoted by a number <b>X</b>. Gandalf has three types of weapon<br />\nfirst one can reduce the power of Balrog to half, another weapon reduces Balrog's<br />\npower to one third of the current power. The last weapon only reduces Balrog's power<br />\nby decrementing it by one.<br />\nTo kill Balrog, Gandalf has to reduce his total power to zero by using minimum number of strike.\n</p>\n<h3>Input</h3>\n<p>\nThe first line of input contains a integer <b>T</b> which denotes the number to test cases.<br />\nAfter which <b>T</b> lines follows. Every line contains an integer <b>X</b> which denote the initial power of Balrog.\n</p>\n<h3>Output</h3>\n<p>\nFor every test case output a integer in a new line which denotes the minimum number of strikes required to kill Balrog.\n</p>\n<h3>Input Constrain:</h3>\n<pre>\n1 &lt;= T &lt;= 20\n2 &lt;= X &lt;= 1000000\n</pre><h3>Example:</h3>\n<pre>\n<b>Input:</b>\n2\n10\n19\n\n<b>Output:</b>\n4\n5\n\n</pre><p><b>Explanation:</b></p>\n<p>\nIn 1st test case:<br/><br />\nFirst use weapon which reduce power by 1. Then use weapon which reduce power to one third twice.<br />\nThen again the weapon which reduce power by 1.<br/><br />\n10-1=9<br/><br />\n9/3=3<br/><br />\n3/3=1<br/><br />\n1-1=0\n</br/></br/></br/></br/></br/></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Code Olympics 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1362112200,
+        "end_date": 1362123000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1362123000,
+        "submit_start_date": 1362112200,
+        "current": 1537438475
+    },
+    "problem_author_html_handle": "abhics1",
+    "problem_name": "Dwarf City of Moria",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhics1'>abhics1</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abhics1",
+    "contest_code": "CDOL2013",
+    "max_timelimit": "0.15",
+    "problem_code": "CDOLP3"
+}

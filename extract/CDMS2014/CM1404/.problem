@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<h3>Problem description.</h3>\n<p>Liza wants to share her  pizza among n friends, What are the minimum number of straight knife strokes required to cut the pizza into n pieces?\n </p>\n<h3>Input</h3>\n<p>The first line contains number of test cases <b>T</b>.<br />\nThe next <b>T</b> lines contain the input numbers <b>N</b>, the numbers of pieces required.\n</p>\n<h3>Output</h3>\n<p>For each test case, output in a new line, the minimum number of straight knife strokes(integer), required for the test case.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>t</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>1000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n4\n5\n6\n<b>Output:</b>\n2\n3\n3\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-10-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeMasters 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1413610200,
+        "end_date": 1413619200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1413619200,
+        "submit_start_date": 1413610200,
+        "current": 1537437322
+    },
+    "problem_author_html_handle": "codemaster_tx",
+    "problem_name": "Pizza",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/codemaster_tx'>codemaster_tx</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "codemaster_tx",
+    "contest_code": "CDMS2014",
+    "max_timelimit": "1",
+    "problem_code": "CM1404"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "RG_01",
+    "problem_author": "rahulakaneo",
+    "contest_name": "June Long Contest 2011",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>rahulakaneo</span>",
+    "problem_name": "Maximal Score Path",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>gamabunta</span>",
+    "contest_code": "JUNE11",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/june11'>june11</a>, <a class='problem-tag-small ' href='/tags/problems/rahulakaneo'>rahulakaneo</a>, <a class='problem-tag-small ' href='/tags/problems/re_01'>re_01</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\n\n<h3>Problem Statement</h3> Given a weighted and undirected graph G = (V, E), let us define the score of an edge as its weight, and the score of a path as the minimum of the scores of its edges. For each pair of vertices (u, v), let us define a best path as a path with the maximal score, that starts at u and ends at v. Your task is to find out the score of a best path over all pairs of distinct vertices (u, v) given the description of the graph G.\n\n<h3>Input</h3>\n</p><p> The first line contains V, the number of vertices, and E, the number of edges in the graph. The graph will be weighted, undirected, simple (no self loops and no parallel edges), and connected. Each of the next E lines contains three non-negative integers u, v, and w, denoting that there is an edge (u, v) in the graph with a score of w. u and v are guaranteed to be distinct, and no edge will repeat in the input.\n\n<h3>Output</h3>\n</p><p> Output a total of V lines each containing V integers. The vth integer on the uth line should be 0 if u = v, or the score of a best path that starts at vertex u and ends at vertex v.\n\n<h3>Constraints</h3>\n2 \u2264 V \u2264 1000\n<br />V - 1 \u2264 E \u2264 V(V - 1)/2\n<br />0 \u2264 u, v \u2264 V - 1\n<br />0 \u2264 w \u2264 10^8\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3 3\n0 1 1\n1 2 2\n0 2 3\n\n<b>Output:</b>\n0 2 3\n2 0 2\n3 2 0\n\n<h3> Warning</h3> Large Input/Output. Use faster Input/Output techniques.</pre></p>",
+    "category_name": "main",
+    "date_added": "10-04-2011",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.367424",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/RG_01",
+    "problem_tester": "gamabunta",
+    "time": {
+        "view_start_date": 1306920600,
+        "end_date": 1307871000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1307871000,
+        "submit_start_date": 1306920600,
+        "current": 1537439196
+    },
+    "user": {
+        "username": ""
+    }
+}

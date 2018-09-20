@@ -1,0 +1,87 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "ICL2018",
+    "duration": "150",
+    "name": "International Coding League (Rated)",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<!-- .rules-heading { color: #444444;  font-family: Arial, sans-serif;  font-size: 13px; font-family: Arial, sans-serif;  line-height: 23px; } .rules-body p { line-height: 23px;  font-size: 13px; }  .rules-body-ul { line-height: 23px;  list-style-position: initial;  list-style-image: initial;  margin: 10px 15px;  font-size: 13px;         } .rules-body-ul li { padding-left: 3px; } -->\r\n<p><strong class=\"rules-heading\">About the Contest:</strong></p>\r\n<div class=\"rules-body\">\r\n<ul class=\"rules-body-ul\">\r\n<li><strong>Organiser: </strong> The contest is hosted by <!-- &lt;! td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;} &gt; --> <span style=\"font-size: 10pt; font-family: Arial; text-align: center;\">BITS-Pilani</span>.</li>\r\n<li><strong>Prizes: </strong>20K for top 3 Indians, (10K + 6K + 4K). Also global top 5 and indian top 5 get 300 codechef laddus each.</li>\r\n<li><strong>Registrations for prizes: </strong>https://goo.gl/JvGYKd</li>\r\n</ul>\r\n</div>\r\n<p><strong class=\"rules-heading\">Contest Details:</strong></p>\r\n<div class=\"rules-body\">\r\n<ul class=\"rules-body-ul\">\r\n<li>This is an\u00a0<a target=\"_blank\" href=\"https://blog.codechef.com/2017/03/09/a-star-studded-rating-system/\">External Rated Contest</a>.</li>\r\n<li><strong>Duration: </strong>2.5 hours</li>\r\n<li><strong>Start time: </strong>27th February 2018, 20:00 hrs IST</li>\r\n<li><strong>End time: </strong>27th February 2018, 22:30 hrs IST<br /> You may check your timezone <a target=\"_blank\" href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=International+Coding+League+%28ICL%29&amp;iso=20180227T20&amp;p1=176&amp;ah=2&amp;am=30\">here</a>.</li>\r\n</ul>\r\n</div>\r\n<p><strong class=\"rules-heading\">Registration:</strong></p>\r\n<div class=\"rules-body\">\r\n<p>You just need to have a CodeChef username to participate. No seperate registration is required. If you do not have a CodeChef ID create one <a target=\"_blank\" href=\"/user/register\"> here</a>.</p>\r\n</div>\r\n<p><br /> <strong class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</strong></p>\r\n<div class=\"rules-body\">\r\n<p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct.</a></p>\r\n</div>\r\n<p><br /> <strong class=\"rules-heading\">Rules and Regulations:</strong></p>\r\n<ul class=\"rules-body-ul\">\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\"> feedback@codechef.com </a>.</li>\r\n<li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li>\r\n<li>Almost all languages supported on CodeChef are allowed.</li>\r\n<li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li>\r\n<li>Please contact <!-- &lt;! td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;} &gt; --> <span style=\"font-size: 10pt; font-family: Arial;\"><a href=\"mailto:f2016615@pilani.bits-pilani.ac.in\">f2016615@pilani.bits-pilani.ac.in</a></span> for any queries during the contest.</li>\r\n</ul>\r\n<p><strong class=\"rules-heading\">Judging Criteria:</strong></p>\r\n<ul class=\"rules-body-ul\">\r\n<li><strong>All the problems have same points allo<a name=\"https://goo.gl/JvGYKd\"></a>ted to them.</strong></li>\r\n<li><strong>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time</strong></li>\r\n<li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error). There is no time consumed for a problem that is not solved.</li>\r\n<li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li>\r\n<li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li>\r\n</ul>\r\n<div class=\"rules-body-ul\"><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a target=\"_blank\" href=\"/ide\">Online IDE</a>.</strong><br /> However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/ICL2018/1519720151.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "ICL1802": {
+            "allow_submission": false,
+            "name": "Stingy Strings",
+            "category_name": "main",
+            "accuracy": 29.81,
+            "successful_submissions": "263",
+            "code": "ICL1802",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ICL1805": {
+            "allow_submission": false,
+            "name": "Raid Systems",
+            "category_name": "main",
+            "accuracy": 24.32,
+            "successful_submissions": "9",
+            "code": "ICL1805",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ICL1804": {
+            "allow_submission": false,
+            "name": "Maze Love",
+            "category_name": "main",
+            "accuracy": 38.86,
+            "successful_submissions": "136",
+            "code": "ICL1804",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ICL1801": {
+            "allow_submission": false,
+            "name": "Matrix Game",
+            "category_name": "main",
+            "accuracy": 39.19,
+            "successful_submissions": "560",
+            "code": "ICL1801",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ICL1803": {
+            "allow_submission": false,
+            "name": "Replace and Substring Queries",
+            "category_name": "main",
+            "accuracy": 9.09,
+            "successful_submissions": "4",
+            "code": "ICL1803",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1519750800,
+        "current": 1537432897,
+        "freezing": 0,
+        "start": 1519741800
+    },
+    "user": {
+        "username": ""
+    }
+}

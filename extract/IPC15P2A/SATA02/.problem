@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nLukas just bought a new phone so he has decided to sell his old phone. He needs to decide a price at which he will sell his phone. There are <b>n</b> prospective buyers and each one of them has a secret valuation for the phone which is unknown to Lukas. Analysing historical data,Lukas finds out that the valuation of each prospective buyer is a number chosen <b>uniformly at random</b> from <b>[0,100]</b> dollars. If the valuation of any of the buyers is greater than the price set by Lukas, he will be able to sell his phone at the price set by him. Help Lukas set a  price to maximize his expected revenue.<br />\n\u00a0</p>\n<h3>Input</h3>\n<p>\nThe first line of the input contains a single integer <b>T</b> which denotes the number of testcases.<br />\n<br />Each testcase consists of a single line containing a single integer <b>n</b> where <b>n</b> denotes the number of prospective buyers.<br />\n\u00a0</p>\n<h3>Output</h3>\n<p>\nFor each testcase, output a single number which denotes the price at which Lukas maximizes his expected revenue in a single line.<br />\n<br />Your output will be considered correct if the absolute difference between your output and the correct one is less than 10<sup>-6</sup><br />\n\u00a0</p>\n<h3>Constraints</h3>\n<p>\n<b></b></p>\n<li> 1&lt;=T&lt;=100\n</li><li> 1&lt;=n&lt;=500<br />\n<br />\n\u00a0\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n1\n<b>Output:</b>\n50\n</pre></li>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "31-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Sataday",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1454256600,
+        "end_date": 1454274600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454274600,
+        "submit_start_date": 1454256600,
+        "current": 1537435569
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>anmol21</span>",
+    "problem_name": "Optimal Reserve Price",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anmol21'>anmol21</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "anmol21",
+    "contest_code": "IPC15P2A",
+    "max_timelimit": "1",
+    "problem_code": "SATA02"
+}

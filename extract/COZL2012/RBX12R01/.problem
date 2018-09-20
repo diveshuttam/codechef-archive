@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nMr. X stays in a mansion whose door opens in the North. He travels every morning to meet his friend Ms. Y walking a predefined path.\n<p>\nTo cut the distance short, one day he decides to construct a skywalk from his place to his friend&rsquo;s place. Help him to find the shortest distance between the two residences.\n\n\n<h3>Input</h3>\n<p>\nThe first line contains a single positive integer T <= 100, the number of test cases. T test cases follow. The only line of each test case contains a string which is the path from X to Y. The integer value represents the distance. The character R or L represents a Right or a Left respectively.\n\n<h3>Output</h3>\n<p>\nFor each test case, output a single line containing the minimum distance and the direction(N,S,W,E,NE,NW,SE,SW) of Y&rsquo;s residence with respect to X&rsquo;s residence. The output distance should have only 1 decimal place with no approximation. Print &ldquo;0.0&rdquo; if X&rsquo;s and Y&rsquo;s residence coincide.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n2 L 2 R 2 L 1\n\n<b>Output:</b>\n5.0NW\n\n<b>Explanation</b>\nMr. X travels 2units and then takes a Left, and then he travels 2units and takes a Right, then after travelling 2units he takes a Left and finally travels 1unit to reach Y&rsquo;s residence.\n(Unlike Input, Output does not have spaces between the distance and direction)\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "CODEZILLA - RUBIX'12 by CSI-TSEC",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1329622200,
+        "end_date": 1329654600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1329654600,
+        "submit_start_date": 1329622200,
+        "current": 1537438981
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rishi_agarwal</span>",
+    "problem_name": "The Shortest Path",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rishi_agarwal'>rishi_agarwal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rishi_agarwal",
+    "contest_code": "COZL2012",
+    "max_timelimit": "0.17",
+    "problem_code": "RBX12R01"
+}

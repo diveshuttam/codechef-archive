@@ -1,0 +1,33 @@
+{
+    "problem_code": "PRCS16A",
+    "problem_author": "rounaqwl66",
+    "contest_name": "ProCon 2016 | Esya'16",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rounaqwl66</span>",
+    "problem_name": "Horrible Bosses",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "PROC2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ad-hoc'>ad-hoc</a>, <a class='problem-tag-small ' href='/tags/problems/cakewalk'>cakewalk</a>, <a class='problem-tag-small ' href='/tags/problems/proc2016'>proc2016</a>, <a class='problem-tag-small ' href='/tags/problems/rounaqwl66'>rounaqwl66</a>",
+    "body": "<p>\u00a0</p>\n<p>There is a fight between a boss and his 3 employees. But instead of firing, the boss invites them to a judo fight. As if that was not enough, he says that 2 employees can come together to fight him. If we define the power of the 3 employees as <b>P<sub>1</sub></b>,<b>P<sub>2</sub></b> and <b>P<sub>3</sub></b>, and <b>W</b> is the power of the boss. Now, the fight is won by the team which has higher total combined power. In case of same power, the employees win. You need to check if the employees can win or not.</p>\n<p>\u00a0</p>\n\n<h3>Input</h3>\n<p>The input contains 4 lines: <b>P<sub>1</sub></b>, <b>P<sub>2</sub></b>, <b>P<sub>3</sub></b> and <b>W</b>, in this order only.</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>Output a single word: <b>\"YES\"</b> if the employees can win, <b>\"NO\"</b> otherwise. Don't print the quotes in the output.</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>P<sub>1</sub></b>,<b>P<sub>2</sub></b>,<b>P<sub>3</sub></b> \u2264 <b>5</b></li>\n<li><b>1</b> \u2264 <b>W</b> \u2264 <b>20</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n2\n3\n7\n<b>Output:</b>\nNO\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\nWe take 1 + 2 , 2 + 3 or 1 + 3, but all are less than 7. So the boss is invincible.",
+    "category_name": "main",
+    "date_added": "2-08-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/PRCS16A",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1470497400,
+        "end_date": 1470508200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1781502282,
+        "submit_start_date": 1470497400,
+        "current": 1537434697
+    },
+    "user": {
+        "username": ""
+    }
+}

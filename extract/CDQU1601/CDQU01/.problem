@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>\nNew Session of IERT has started. Freshers come to college with lot of Buzz of seniors, who may come to interact with them or take their ragging. Mostly they saw that their seniors comes and ask for \"INTRO\" and they have to again repeat their introduction \"My name is ...\" . <br /><br />\nBut later they realized one thing that they themself are not able to remember name of their friends so, they put their teasing names for friends based on certain characteristics like Shubham Singh becomes sebu,Gyandeep becomes GD, Pawan becomes scientist ,Kripa shanker becomes Kp and so on.</p>\n<p><br /><br /><br />\nTrue name and their new nick names will be provided to you in advance.<br />\n<br /><br /><br />\nYour task is to answer <strong> Q </strong> queries in which you have to print their real names from their new nick names .<br />\n<br /><br /><br />\nIf trueName for that nick name is not found print \"Name not found\" (without quotes ).<br />\n<br /><br /><br />\nQ strings denoting new names will be provided to you. <br /><b>Note:-</b>Name doesn't contain space i.e. \"Ajay Pandey\" is invalid. \"AjayPandey\" is valid</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line of input contains two integer <strong> N</strong> denoting the number of friends and <strong> Q</strong> numbers of queries.<br />\n<br /><br />\nNext<strong> N</strong> lines contains two space separated strings <strong>trueName</strong> and <strong>newName</strong>.<br />\n<br /><br />\nAfter that <strong>Q </strong>lines contain a single string denoting new names.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each test case, print a single string in a line corresponding to the true name.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<p> <strong>1&lt;= |trueName| ,|newName| &lt;=100</strong><br />\n<br /><br />\n<strong>1&lt;=N,Q&lt;=10000</strong><br />\n<br /></p>\n<p><br /><br />\nSum of All test files doesn't exceed 2MB</p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5 4\nGyandeep GD\nShubham sebu\nPawan scientist\nPrakhar rangua\nAadil wikipedia\nsebu\nGD\nrangua\nkp\n<b>Output:</b>\nShubham\nGyandeep\nPrakhar\nName not found\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>True or real name of sebu is Shubham and so on...</p>\n<p>kp is not found as not provided in above list of trueName and newName</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Codervation qualifiers",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1460104200,
+        "end_date": 1460140200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1460140200,
+        "submit_start_date": 1460104200,
+        "current": 1537434986
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>kripa432</span>",
+    "problem_name": "Freshers and Name problem",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kripa432'>kripa432</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kripa432",
+    "contest_code": "CDQU1601",
+    "max_timelimit": "1",
+    "problem_code": "CDQU01"
+}

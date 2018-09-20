@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>It's time of ACM ICPC World Finals. A lot of teams from all over the world have gathered to compete. Their stay has been planed at a grand hotel. As the organizers want people to interact with each other, they accommodated all the people in a single floor of the hotel. There are a total <b>n</b> * <b>m</b> rooms in the floor, which are arranged in <b>n</b> rows, with each row containing <b>m</b> rooms. </p>\n\n<p>Teams have come from various countries. There are a total of <b>C</b> such countries, and each country has <b>c<sub>i</sub></b> teams. Total number of teams are <b>n * m</b>, so each team will stay in a separate room. The director knows that people have traveled a lot of distance to come to the site, and will feel bored and homesick if they are unable to communicate with each and every person of their country. Communication of competitive programmers is usually discussion of problems, which they really like. There is a small window in each of the four walls of the rooms. Teams can talk to each other through the window. Teams are usually suspicious and very apprehensive of discussing problems with teams of other countries. So, two teams from different countries don't discuss problems at all.</p>\n\n<p>Two teams of same country can communicate with each other, If\n<ul>\n<li>Either, the two rooms share a wall with each other. Then they will communicate through the small window on that wall.</li>\n<li>Or, they can communicate with each other indirectly by communicating through other teams of the same country. \nThat is, take 2 teams: Team A and Team B from the same country. They can communicate with each other indirectly, if there is a sequence of teams (Team A, Team X<sub>1</sub>, Team X<sub>2</sub>, .., Team X<sub>k</sub>, Team B), where all of them are from the same country, and every adjacent pair of teams in this sequence are in rooms which share a wall.</li>\n</ul>\n</p>\n\n<p>The director wants to provide accommodation to the teams in such a way that teams from the same country are able to communicate among themselves. But he doesn't know whether he can arrange the teams in such a way or not, so he requires your help in this task. Can you please tell him whether it is possible to do so, If yes, then also output which country's team should occupy each room.</p>\n\n<h3>Input</h3>\n<p>First line of the input contains <b>T</b> - number of test cases. <b>T</b> test cases follows.</p>\n<p>First line of each test case contains three space separated integers <b>n, m, C</b>, denoting the number of rows, number of columns, and number of countries participating.</p>\n<p>Second line of each test case contains <b>C</b> space separated <b>c<sub>1</sub>, c<sub>2</sub>, ..., c<sub>C</sub></b>, denoting that there are <b>c<sub>i</sub></b> teams of <b>i</b>-th country.</p>\n\n<h3>Output</h3>\n<p>For each test case, output -1 in a separate line if it is not possible to arrange the teams in the desired way. Otherwise print <b>n</b> rows, each containing <b>m</b> space separated integers, where <b>j</b>-th element in the <b>i</b>-th row should be an integer from <b>1</b> to <b>C</b> denoting which country's team is provided accommodation in the room <b>(i, j)</b>. If there are more than one possible ways of accommodation of teams satisfying the above conditions, you can output any of them.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T, n, m</b> \u2264 <b>50</b></li>\n<li><b>1</b> \u2264 <b>C</b> \u2264 <b>n * m</b></li>\n<li><b>1</b> \u2264 <b>c<sub>i</sub></b> \u2264 <b>n * m</b></li>\n<li><b>c<sub>1</sub></b> + <b>c<sub>2</sub></b> + ... + <b>c<sub>C</sub></b> = <b>n * m</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2 2 2\n2 2\n2 2 1\n4\n<b>Output:</b>\n1 2\n1 2\n1 1\n1 1\n</pre>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> Teams from country 1 and country 2, both can discuss problems among themselves. </p>\n<p>Note that the below given arrangement of teams is not a valid one, as the teams from same countries can't discuss problems with each other.\n<pre>\n1 2\n2 1\n</pre>\n</p>\n<p><b>Example case 2.</b> Teams are only from country 1. You can see that all the teams able to communicate with each other.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Chennai Onsite Mirror Contest 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1482211800,
+        "end_date": 1482229800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1793254705,
+        "submit_start_date": 1482211800,
+        "current": 1537434306
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "ACM ICPC World Finals Accommodation",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin3",
+    "contest_code": "CHN16MOS",
+    "max_timelimit": "1",
+    "problem_code": "CHN16F"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Dipak's base is being attacked by Chef, and he chooses to hide all his followers by considering their bases as octal and hexadecimal.<br>\nHe has <b>N</b> followers, all of them can be considered as both octal and hexadecimal numbers.<br>\nAt first he considers every follower as an octal number (base 8), and then converting to its decimal form and storing it in an array <b>A</b>.\n<br>\nThen, to confuse the Chef even more, Diapk also considers the original <b>N</b> followers as hexadecimal numbers (base 16), and converts these hexadecimal treated numbers into decimal and joins them to the same array <b>A</b>.<br>\nNow, Dipak wants to find his friend, whose number corresponds to the <b>Kth</b> smallest entry in the converted array <b>A</b>, but all of them are hiding in decimal formats after being treated as octal and hexadecimal numbers.<br>\nGiven the number of followers <b>N</b>, and <b>K</b>, help Chef in finding out who his friend is.<br>\n<b>Note:</b> Each number is converted to decimal after being treated as an octal and a hexadecimal number. Hence for <b>N</b> numbers, the array will have size <b>2*N</b>.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>First line contains <b>T</b> number of test cases. Every test cases contains 2 lines as follows:<br>\nFirst line of every test case contains 2 numbers <b>N</b> and <b>K</b>.<br>\nSecond line contains space seperated <b>N</b> numbers.</p>\n\n<h3>Output</h3>\n<p>Output the original number before conversion which corresponds to the <b>Kth</b> smallest entry in the array and the base it was treated as, seperated by a space.</p>\n<p><b>Note:</b> Only if a number has the same decimal representation when treated as octal and hexadecimal, treat the octal number smaller than the hexadecimal number in the sorted array.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>8</b> \u2264 <b>N</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>K</b> \u2264 <b>2*N</b></li>\n<li><b>1</b> \u2264 <b>Ai</b> \u2264 <b>10^5</b></li>\nNo digits can have digits larger than 7\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n3 4\n11 22 33\n<b>Output:</b>\n33 8\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>11 ,22 ,33 treated as octal equals 9, 18, 27 in decimal respectively.<br>\n11,22,33 treated as hexadecimal equals 17, 34, 51 in decimal respectively.<br>\nThus the final sorted array is: 9,17,18,27,34,51<br>\nThus the 4th smallest entry is 27 => 33 in octal. <br>\nExpected output : 33 8</b></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-02-2017",
+    "is_direct_submittable": false,
+    "contest_name": "National Computing Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1488297600,
+        "end_date": 1488309300,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1799372491,
+        "submit_start_date": 1488297600,
+        "current": 1537434075
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>abizerl123</span>",
+    "problem_name": "Wandip Base",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abizerl123'>abizerl123</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abizerl123",
+    "contest_code": "NCC2017",
+    "max_timelimit": "1",
+    "problem_code": "WANBASE"
+}

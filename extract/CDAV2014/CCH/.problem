@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>There is a chef who makes chocolate. One day he has prepared chocolate for N people but due to some scrap he could only make N-1 problem. Now he has decided to distribute N-1 chocolate as</p>\n<p>\nN people are arranged in a circle labeled as 1\u2026\u2026\u2026\u2026..N. Every mth person is given a chocolate and removed from the circle. Stop this process when there is one person left.<br />\n\u00a0</p>\n<p>Your tasks is:<br />\nFind out the last person label as Z.If Z is>9 then Z=sum of digits of Z.<br />\nFind out all person\u2019s label, who got chocolate in order and print as a string those labels after adding Z.\n</p>\n<h3>Input</h3>\n\n<ul>\n<li>First line contains integer <b>N</b> which denote number of people.</li>\n<li>Second line contains an integer <b>m</b>.\n </li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n\n<ul>\n<li>First line contains (N-1) label\u2019s string.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n\n<ul>\n<li><b>2</b> \u2264 <b>N</b> \u2264 <b>64</b></li>\n<li><b>2</b> \u2264 <b>m</b> &lt; <b>N</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input</b>\n<p>\n7\n3\n</p>\n\n<b>Output</b>\n<p>471059638</p>.\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-11-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Code Avengers 2014,  ABESEC Ghaziabad. ",
+    "languages_supported": "C, CPP14, JAVA, CS2, GO, PERL, JS, PERL6, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1415802600,
+        "end_date": 1415813400,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1415813400,
+        "submit_start_date": 1415802600,
+        "current": 1537437256
+    },
+    "problem_author_html_handle": "dheeraj053",
+    "problem_name": "Chef and Chocolates",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dheeraj053'>dheeraj053</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dheeraj053",
+    "contest_code": "CDAV2014",
+    "max_timelimit": "1",
+    "problem_code": "CCH"
+}

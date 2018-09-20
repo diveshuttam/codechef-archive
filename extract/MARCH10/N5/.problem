@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Little Johnny has a selection of boxes. Each box has a number on its side. The boxes are placed in a sequence, and Johnny wants to sort them (in ascending order). He has a device to manipulate the boxes, which performs the following operation. Johnny can select a subset of boxes, and the machine will lift the selected subset, shift the selected subset to the right (keeping the order in the subset), shift the not-selected subset to the left, filling up empty spaces (keeping the order in the subset), then finally move the raised boxes to be in one level again.</p>\n<p>For example: if Johnny has the sequence: 1,2,3,4,5,6, and selects the subset in bold: 1,2,<strong>3</strong>,<strong>4</strong>,5,<strong>6</strong>, then the result is: 1,2,5,<strong>3</strong>,<strong>4</strong>,<strong>6</strong>.</p>\n<p>Help Johnny to write a program that will calculate the minimal number of moves required to sort the given sequence of boxes in ascending order of numbers.</p>\n<h3>Input</h3>\n<p>First, 1\u2264t\u226410, the number of test cases. Then, t testcases follow. Each starts with 1\u2264n\u226410<sup>5</sup>, the number of boxes. Then, n integer values describing the sizes of boxes in the sequence.</p>\n<h3>Output</h3>\n<p>For each testcase, in a separate line, print the answer to that testcase.</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong>\n1<br />6 1 3 5 2 4 6<br /><strong>Output:</strong>\n2</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-02-2010",
+    "is_direct_submittable": false,
+    "contest_name": "March 2010 Contest",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1267435800,
+        "end_date": 1268472600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1268472600,
+        "submit_start_date": 1267435800,
+        "current": 1537439681
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Traffic jam",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "MARCH10",
+    "max_timelimit": "0.123153 - 0.527692",
+    "problem_code": "N5"
+}

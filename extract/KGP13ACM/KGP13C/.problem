@@ -1,0 +1,33 @@
+{
+    "problem_code": "KGP13C",
+    "problem_author": "shangjingbo",
+    "contest_name": "ACM-ICPC Kharagpur onsite regionals 2013 : Replay",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>shangjingbo</span>",
+    "problem_name": "Stairway Reduction",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "KGP13ACM",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/kgp13acm'>kgp13acm</a>, <a class='problem-tag-small ' href='/tags/problems/shangjingbo'>shangjingbo</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A garrison of soldiers is stationed at on old fort built long ago by a king located on the top of a hill. The fort can be accessed only by a cemented stairway with <b>K</b> steps (steps are numbered 1 to <b>K</b> from the bottommost to the topmost as shown below). The width of all the steps in the stairway is the same (<b>w</b>), but the length (<b>l</b>) and the height (<b>h</b>)<br />\nof each step is made different to take care of the difference in the slope of the hill at different places along the climb.</p>\n<p class=MsoNormal align=center><img src=\"/download/extimages/a64fd69cb80f042939bd7afe577f8e5a.png\" /></p>\n<p>Everyday, supplies are delivered to the soldiers stationed at the fort by laborers carrying the supplies on their back. To his utter dismay, the commander finds that the laborers are charging by the number of steps they have to climb, and not by the distance travelled or height climbed. Since the fort is at a strategic location and will be occupied for long, the commander decides to remove some of the steps by filling them up with concrete. Keeping in mind how high the fort is at, the commander decides to convert the stairway to <b>M</b> steps (0 &lt; <b>M</b> &lt; <b>K</b>). However, he knows he has to do this with the limited budget that he has, and wishes to minimize the total extra concrete he has to pour to reduce the steps. Given the common width of all the steps, and the length and height of each step, all in inches, can you help the commander find the minimum amount of concrete (in cubic inches) he has to plan for?</p>\n<h3>Input</h3>\n<p>The first line contains the number of test cases <b>N</b></p>\n<p>For each test case, the first line contains <b>K</b>, <b>M</b>, and the common width <b>w</b> (positive integer). This is followed by <b>K</b> lines, with the j-th line (1 \u2264 j \u2264 <b>K</b>) containing the length <b>l</b> and height <b>h</b> of the j-th step (both positive integers).</p>\n<h3>Output</h3>\n<p>For each test case, print the case number, followed by a colon, followed by a single space, followed by a single integer indicating the total amount of concrete needed (in cubic inches). </p>\n<h3>Constraints</h3>\n<p>0 &lt; <b>N</b> \u2264 3</p>\n<p>0 &lt; <b>K </b>\u2264 500</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3 2 48\n18 12\n24 14\n16 10\n7 3 24\n12 12\n24 24\n30 30\n36 36\n18 22\n18 22\n32 18\n\n<b>Output:</b>\nCase 1: 11520\nCase 2: 57888\n</pre>",
+    "category_name": "main",
+    "date_added": "18-12-2013",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.321429",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/KGP13C",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1388233800,
+        "end_date": 1388251800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1388251800,
+        "submit_start_date": 1388233800,
+        "current": 1537437950
+    },
+    "user": {
+        "username": ""
+    }
+}

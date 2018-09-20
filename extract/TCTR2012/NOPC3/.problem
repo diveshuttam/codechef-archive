@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Decepticons are quiet clever and strong. Megatron was behind the cube called &ldquo;All Spark&rdquo; which was lost. Only few pieces remained which were too powerful to be kept together at one place. Thus all the pieces were scattered across the world, so that their energy could be minimized. But in the battle with Decepticons, Autobots need a source of energy that can continuously supply them energy to fight the battle. They are helped by the human army in the battle. Thus they need to go to the sites where pieces are placed to repower themselves. All of them cannot leave the battle field altogether. So they stay at the battle field for a fixed duration and after that leave to repower. The army chief is monitoring the time they enter the field and the time they leave the field. By doing this he is capable to know that how many autobots are simultaneously in the battlefield to fight against the Decepticons. Note that if one autobot arrives at the same time another leaves, they are never considered to be in the battlefield.\n\n<h3>Input</h3>\n<p>Input an integer N, the number of autobots. Two lines follow, each with exactly N positive integers. The i-th integer of the first line is the arrival time of the i-th autobot, and the i-th integer of the second line is the departure time of  the i-th autobot (which will be strictly greater than the arrival time). \n<h3>Output</h3>\n<p>For each test case, print the maximum number of autobots that are simultaneously at the hotel. \n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n5\n1 2 3 18 20\n2 3 21 19 21\n<b>Output:</b>\n2\n<b>Input:</b>\n4\n4 5 6 7\n5 6 7 8\n<b>Output:</b>\n1\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "TechTrishna 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1331706600,
+        "end_date": 1331760600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1331760600,
+        "submit_start_date": 1331706600,
+        "current": 1537438878
+    },
+    "problem_author_html_handle": "bestankur007",
+    "problem_name": "We dont fall outnumber in battlefield",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bestankur007'>bestankur007</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bestankur007",
+    "contest_code": "TCTR2012",
+    "max_timelimit": "0.2",
+    "problem_code": "NOPC3"
+}

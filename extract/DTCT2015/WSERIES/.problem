@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Rahul Dravid may have gone into retirement but his job of facing the bouncers isn't over yet . Only this time , it is his son who is delivering them in the form of mathematical queries . One such query is finding the nth term of the series given by</p>\n<pre>\t\tf(n) = f(n-2) + f(n-3) + n*2 </pre><p><br /></p>\n<p>your task is to help Dravid solve the query , given f(0)=0 , f(1)=1 , f(2)=1 </p>\n<h3>Input</h3>\n<p>first line denotes the number of test cases T<br />T lines follow each containing a number  n  </p>\n<h3>Output</h3>\n<p>Output T lines, one for each test case, containing the required answer.As the number can be very large, output the answer modulo 10000003.</p>\n<h3>Constraints</h3>\n<p>1&lt; t &lt;=1000<br /><br />\n\t1&lt; n &lt;=10^9</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n3\n5\n10\n\n\n<b>Output:</b>\n7\n18\n125\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-04-2015",
+    "is_direct_submittable": false,
+    "contest_name": "DTU Programming Mania",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1429284600,
+        "end_date": 1429295400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1429295400,
+        "submit_start_date": 1429284600,
+        "current": 1537436379
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>v_a_b_s</span>",
+    "problem_name": "Series vs Wall",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/v_a_b_s'>v_a_b_s</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "v_a_b_s",
+    "contest_code": "DTCT2015",
+    "max_timelimit": "1",
+    "problem_code": "WSERIES"
+}

@@ -1,0 +1,107 @@
+{
+    "announcements": "<p>The Questions EvenOnes and Bumble Base have been updated .</p>",
+    "ip": "149.129.135.113",
+    "code": "CODO2018",
+    "duration": "180",
+    "name": "CODEOUT",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<h4>About the Contest:</h4>\r\n<ul>\r\n<li><strong>Organiser: </strong> The contest is hosted by TECHNO INDIA , SALTLAKE.</li>\r\n<li><strong>Prizes: 10K (Only for Indian Participants)&nbsp;</strong></li>\r\n<li><strong>Registrations for prizes: </strong>NA</li>\r\n</ul>\r\n<h4>Contest Details:</h4>\r\n<ul>\r\n<li><strong>Duration: </strong>3&nbsp;hours</li>\r\n<li><strong>Start time: </strong>6th April 2018, 21:00 hrs IST</li>\r\n<li><strong>End time:&nbsp; 6</strong>th April 2018, 23:59 hrs IST<br /> You may check your timezone <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+-+CODEOUT&amp;iso=20180406T21&amp;p1=44&amp;ah=3\" target=\"_blank\">here</a>.</li>\r\n</ul>\r\n<h4>Registration:</h4>\r\n<p>You just need to have a CodeChef username to participate. No seperate registration is required. If you do not have a CodeChef ID create one <a href=\"../user/register\" target=\"_blank\"> here</a>.</p>\r\n<h4>Eligibility C`riteria: Anyone with a knack for Programming :P</h4>\r\n<p class=\"&rdquo;last&rdquo;\">Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct.</a></p>\r\n<h4>Rules and Regulations:</h4>\r\n<ul class=\"last\">\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com </a>.</li>\r\n<li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li>\r\n<li>Almost all languages supported on CodeChef are allowed.</li>\r\n<li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li>\r\n<li>Please contact <a href=\"mailto:shivkumar201415@gmail.com\" target=\"_blank\">shivkumar201415@gmail.com</a> for any queries during the contest.</li>\r\n</ul>\r\n<h4>Judging Criteria:</h4>\r\n<ul>\r\n<li><strong>All the problems have same points alloted to them.</strong></li>\r\n<li><strong>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time</strong></li>\r\n<li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error). There is no time consumed for a problem that is not solved.</li>\r\n<li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li>\r\n<li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li>\r\n</ul>\r\n<p><strong>Note:</strong> You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"../ide\" target=\"_blank\">Online IDE</a>.</p>\r\n<p>However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/CODO2018/1522909647.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "MCOIN": {
+            "allow_submission": false,
+            "name": "Magic Coin",
+            "category_name": "main",
+            "accuracy": 14.81,
+            "successful_submissions": "116",
+            "code": "MCOIN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COUT18A": {
+            "allow_submission": false,
+            "name": "Segmentation",
+            "category_name": "main",
+            "accuracy": 26.67,
+            "successful_submissions": "70",
+            "code": "COUT18A",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "EVON": {
+            "allow_submission": false,
+            "name": "Even Ones",
+            "category_name": "main",
+            "accuracy": 24.41,
+            "successful_submissions": "51",
+            "code": "EVON",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "EDGEXP": {
+            "allow_submission": false,
+            "name": "Expressions",
+            "category_name": "main",
+            "accuracy": 38.33,
+            "successful_submissions": "45",
+            "code": "EDGEXP",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "EDGBASE": {
+            "allow_submission": false,
+            "name": "Bumble Base",
+            "category_name": "main",
+            "accuracy": 22.73,
+            "successful_submissions": "10",
+            "code": "EDGBASE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "AXXOR": {
+            "allow_submission": false,
+            "name": "Array Xor",
+            "category_name": "main",
+            "accuracy": 48.64,
+            "successful_submissions": "193",
+            "code": "AXXOR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SMST": {
+            "allow_submission": false,
+            "name": "Symmetric Stones",
+            "category_name": "main",
+            "accuracy": 15.38,
+            "successful_submissions": "2",
+            "code": "SMST",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1523039400,
+        "current": 1537432680,
+        "freezing": 0,
+        "start": 1523028600
+    },
+    "user": {
+        "username": ""
+    }
+}

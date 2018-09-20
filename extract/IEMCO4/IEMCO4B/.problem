@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Description</h3>\n<p> </p>\n<p>Entrepreneur Ekta owns the best sweet shop in town. But she is not happy with the quality of sweets prepared by the newly recruited chefs. So as a punishment, she asked those chefs to <b>maximise</b> the Selling price of sweets.\nFor this she provided each chef with an integer <b>p</b> and Selling Price of sweets are defined as follows:\n<br><br>\n<b>S.P. = Value of \"q\" for which ( q + p ) = (~q & p) | (q & ~p), where q <= p and \"q\" is a non-negative integer.</b>\n<br><br>\nHere, <b>~</b> denotes the <b>bitwise not</b> operation, <b>&</b> denotes the <b>bitwise and</b> operation, <b>|</b> denotes the <b>bitwise or</b> operation and <b>+</b> denotes the <b>bitwise addition</b> operation for <b>non-negative integers</b>.\n<br><br>\nEkta will fire those newly recruited chefs from job, if she comes to know that they provided a wrong solution. \n<br>\nYou being good in Mathematics, help chefs in finding the maximum selling price.\u00a0</p>\n\n\n<h3>Input</h3>\n<p></p>\n<ul>\n<li>First line consists of single integer <b>n</b> denoting number of newly recruited chefs.</li>\n<li>Next <b>n</b> lines consists of a single integer <b>p</b> as stated above.</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p></p>\n<ul>\n<li>\nFor each of the <b>n</b> chefs, output the maximum selling price in a separate line.</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<p></p>\n<ul>\n<li><b>1</b> \u2264 <b> n </b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b> p </b> \u2264 <b>10^18</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n\n2\n2\n16\n\n<b>Output:</b>\n\n1\n15\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-11-2017",
+    "is_direct_submittable": false,
+    "contest_name": "IEM Coding Olympiad (IEMCO)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1509805800,
+        "end_date": 1509816600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1509816600,
+        "submit_start_date": 1509805800,
+        "current": 1537433374
+    },
+    "problem_author_html_handle": "tkh_iem",
+    "problem_name": "Sweet Ventures",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/tkh_iem'>tkh_iem</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "tkh_iem",
+    "contest_code": "IEMCO4",
+    "max_timelimit": "1",
+    "problem_code": "IEMCO4B"
+}

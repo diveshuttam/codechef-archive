@@ -1,0 +1,203 @@
+{
+    "teamsCount": "390",
+    "announcements": "<ul>\r\n<li>The contest is now over! Congratulations to the winners</li>\r\n<li>The solution outline to the problems can be seen <a href=\"http://razimantv.files.wordpress.com/2011/02/booklet1.pdf\">here</a>.</li>\r\n<li>T-shirts will be given as prizes to the teams that give the <b>successful submissions with minimum code length</b> to IOPC1101 (Spreadsheet scrolling). There are more goodies on offer too!</li>\r\n<li><b>We will contact the winners in a few days with prize details</b></li>\r\n</ul>",
+    "ip": "149.129.135.113",
+    "code": "IOPC2011",
+    "duration": "1440",
+    "name": "IIT Kanpur IOPC 2011",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div> <p><b>Please read the rules before starting the contest</b></p> <p><b>General Rules:</b></p> <p>1. All the teams should register at: <a href=\"/teams/register/IOPC2011\">http://www.codechef.com/teams/register/IOPC2011</a> before the contest starts. While registering, the teams should enter their CodeChef username in the \"member information\" text-box.</p> <p>2. Only teams of which all members are currently registered in a university shall be eligible for prizes. However, non-students are also welcome to participate. Teams need to register on the <a href=\"http://www.techkriti.org/#/competitions/iopc/iopc/\">IOPC site</a> as well to be eligible for prizes.</p> <p>3. Registration will shut once the contest begins.</p> <p>4. Teams will be able to view problems individually, but will be able to submit solutions only by logging in with their team id.</p> <p>5. There may be a maximum of 3 participants per team.</p> <p>6. Each participant should be the member of one and only one team.</p> <p>7. Submitting the same code by more than one team will lead to disqualification of teams.</p> <p>8. Discussion of strategy, suggestions or tips in the comments during a live contest shall lead to disqualification. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you have any further queries, organizers will be available for chat for the duration of the contest at iopc2011@gmail.com</p> <br /> <p><b>Rules for Ranking:</b></p> <p>1. Users will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</p> <p>2. Users are ranked according to most problems solved. Ties will be broken by the total time for each user in ascending order of time.</p> <p>3. The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</p> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/IOPC2011/1424957533.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "IOPC1108": {
+            "allow_submission": false,
+            "name": "Progressive progressions",
+            "category_name": "main",
+            "accuracy": 25,
+            "successful_submissions": "4",
+            "code": "IOPC1108",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1109": {
+            "allow_submission": false,
+            "name": "Move the books",
+            "category_name": "main",
+            "accuracy": 23.53,
+            "successful_submissions": "4",
+            "code": "IOPC1109",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1102": {
+            "allow_submission": false,
+            "name": "Chocolate distribution",
+            "category_name": "main",
+            "accuracy": 4.95,
+            "successful_submissions": "29",
+            "code": "IOPC1102",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1114": {
+            "allow_submission": false,
+            "name": "Place-name game",
+            "category_name": "main",
+            "accuracy": 8.63,
+            "successful_submissions": "11",
+            "code": "IOPC1114",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1112": {
+            "allow_submission": false,
+            "name": "Sister cities",
+            "category_name": "main",
+            "accuracy": 21.74,
+            "successful_submissions": "5",
+            "code": "IOPC1112",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1111": {
+            "allow_submission": false,
+            "name": "Giant fountain",
+            "category_name": "main",
+            "accuracy": 20.69,
+            "successful_submissions": "4",
+            "code": "IOPC1111",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1104": {
+            "allow_submission": false,
+            "name": "Triangle equality",
+            "category_name": "main",
+            "accuracy": 9.29,
+            "successful_submissions": "13",
+            "code": "IOPC1104",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1115": {
+            "allow_submission": false,
+            "name": "Enumeration of rationals",
+            "category_name": "main",
+            "accuracy": 5.6,
+            "successful_submissions": "7",
+            "code": "IOPC1115",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1107": {
+            "allow_submission": false,
+            "name": "Leaky containers",
+            "category_name": "main",
+            "accuracy": 15,
+            "successful_submissions": "3",
+            "code": "IOPC1107",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1101": {
+            "allow_submission": false,
+            "name": "Spreadsheet scrolling",
+            "category_name": "main",
+            "accuracy": 8.4,
+            "successful_submissions": "26",
+            "code": "IOPC1101",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1116": {
+            "allow_submission": false,
+            "name": "Counting the teams",
+            "category_name": "main",
+            "accuracy": 4.35,
+            "successful_submissions": "1",
+            "code": "IOPC1116",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1105": {
+            "allow_submission": false,
+            "name": "Military patrol",
+            "category_name": "main",
+            "accuracy": 13.64,
+            "successful_submissions": "3",
+            "code": "IOPC1105",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1103": {
+            "allow_submission": false,
+            "name": "Truly magical numbers",
+            "category_name": "main",
+            "accuracy": 28.57,
+            "successful_submissions": "4",
+            "code": "IOPC1103",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1106": {
+            "allow_submission": false,
+            "name": "Partitioning the plane",
+            "category_name": "main",
+            "accuracy": 33.33,
+            "successful_submissions": "3",
+            "code": "IOPC1106",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1110": {
+            "allow_submission": false,
+            "name": "Road trip",
+            "category_name": "main",
+            "accuracy": 16.47,
+            "successful_submissions": "13",
+            "code": "IOPC1110",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC1113": {
+            "allow_submission": false,
+            "name": "Ski slopes",
+            "category_name": "main",
+            "accuracy": 37.5,
+            "successful_submissions": "3",
+            "code": "IOPC1113",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537439368,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

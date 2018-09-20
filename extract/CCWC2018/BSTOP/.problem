@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n\n<p> Pune city has <b>N</b> different tourist spots(numbered from <b>1</b> to <b>N</b>), each tourist spot has a bus stop.\nThe tourist management has <b>N-1 </b> buses ,each operating between a fixed pair of stops( in both the directions).\nThus, in order to travel between any two spots one might have to take several buses. In\nfact, since the management has made sure that it\u2019s possible to travel between any pair of tourist spot,\nthere is a unique set of buses a passenger has to take in order to travel between a particular pair of tourist spots.<br><br></p>\n<p>\nNow, after so many years the management thinks of changing the route plan. \nThey want to remove a bus and replace it with another one so as to minimize <b>X</b> , where <b>X</b> is the maximum number of buses one has to change in order to travel between any pair of tourist spots.\nYou were given the job to remove a bus and replace it with another ,subject to above condition.<br>\nPrint the maximum number of buses one has to change in order to travel between any pair of tourist spot after the buses have been replaced.<br>\n</p>\n\n\t\n\n</p>\n\n\n<h3>Input</h3>\n\n<ul>\n\n<li>The first line of the input contains an integer <b>N</b> denoting the number of tourist spots . \n<li>Next <b>N\u2009-\u20091</b> lines contain two space separated integers <b>u</b> and <b>v</b>, denoting a bus operating between the spots u and v . \n</li>\n<li> Input is provided in such a way that, it will always be possible to construct better route plan.</li> \n</ul>\n<p> </p>\n\n<h3>Output</h3>\n<p>For each test case, output the minimum value of <b>X</b><br>\n\n</p>\n<p></p>\n<p> </p>\n\n\n<h3>Constraints</h3>\n<p></p>\n<ul>\n\n<li><b>4</b> \u2264 <b>N</b> \u2264 <b>2500</b>\n</li>\n<li><b>1</b> \u2264 <b>u,w</b> \u2264 <b>N</b>\n</li>\n<li><b>u</b> != <b>v</b> \n</li>\n\n</ul>\n\n<p> </p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<br>\n4<br>\n1 2<br>\n3 4<br>\n2 3<br>\n\n<b>Output:</b>\n<br>2\n\n</pre>\n\n\n<p> </p>\n<h3>Explanation</h3>\n<p>\nRemove a bus operating between spot  1 and spot 2 and add a bus between spot 3 and spot 1.<br>\nNow, to travel between any pair of tourist spot, one has to change maximum 2 buses.<br>\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-09-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Clash Credenz 2018 Wildcard",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, PYP3, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1537111800,
+        "end_date": 1537122600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1537122600,
+        "submit_start_date": 1537111800,
+        "current": 1537431993
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>sagar_b</span>",
+    "problem_name": "Bus Stop",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sagar_b'>sagar_b</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sagar_b",
+    "contest_code": "CCWC2018",
+    "max_timelimit": "1",
+    "problem_code": "BSTOP"
+}

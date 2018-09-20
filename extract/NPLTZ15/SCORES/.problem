@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>Mrityunjay is a high-school teacher, currently coaching students for <b>JEE (Joint Entrance Exam)</b>. Mrityunjay every year gives prizes to the toppers of JEE in India. A lot of students give this exam in India and it is difficult for him to manually go through results and select two top students from them. So he asked for your help. He is interested in knowing the scores of top two students in the exam. You are given scores of all the students appeared for this exam. Now tell him the scores of two toppers. <b>Remember that top two scores may be the same.</b></p>\n<h3>Input Description</h3>\n<ul>\n<li>The first line contain <b>N</b>, the number of students appeared for JEE.</li>\n<li>Next line contains <b>N</b> integers, scores of all the students.</li>\n</ul>\n\n<h3>Output Description</h3>\n<p>Output in a single line two space separated integers, highest sore and second highest score.</p>\n\n<h3>Constraints</h3>\n<li><b>2</b> \u2264  <b>N</b> \u2264  <b>2 * 10<sup>5</sup></b>, <b>1</b> \u2264  <b>A<sub>i</sub></b> \u2264 <b>10<sup>9</sup> </b></li>\n<h3>Example</h3>\n<pre>\n<h3>Input</h3>\n\n3 \n12 20 12\n\n\n<h3>Output</h3>\n\n20 12\n\n<h3>Input</h3>\n\n3 \n30 30 20\n\n\n<h3>Output</h3>\n\n30 30\n\n<h3>Explanation:</h3>\nIn the given case top two scores are 20 and 12.\nIn sample example 2 , like we have \"Clearly\" mentioned, two toppers may have same score i.e. highest score = 30 , second highest score = 30.\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-10-2015",
+    "is_direct_submittable": false,
+    "contest_name": "NPL, TechnoZion 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1445254200,
+        "end_date": 1445265000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1445265000,
+        "submit_start_date": 1445254200,
+        "current": 1537435882
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>devamanyu</span>",
+    "problem_name": "Exam results",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/devamanyu'>devamanyu</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "devamanyu",
+    "contest_code": "NPLTZ15",
+    "max_timelimit": "1",
+    "problem_code": "SCORES"
+}

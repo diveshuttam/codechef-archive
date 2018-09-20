@@ -1,0 +1,33 @@
+{
+    "problem_code": "FUNC",
+    "problem_author": "viv001",
+    "contest_name": "June Challenge 2014",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>viv001</span>",
+    "problem_name": "Chef and Functions",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>shiplu</span>",
+    "contest_code": "JUNE14",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/binary-search'>binary-search</a>, <a class='problem-tag-small ' href='/tags/problems/june14'>june14</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/number-theory'>number-theory</a>, <a class='problem-tag-small ' href='/tags/problems/viv001'>viv001</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Read problems statements in <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/JUNE14/mandarin/FUNC.pdf\">Mandarin Chinese </a> and <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/JUNE14/russian/FUNC.pdf\">Russian</a>.</h3>\n<p> Chef has just been introduced to functions and he has been experimenting a lot with the different kinds of functions. In the process, the chef has come up with an interesting problem for you. </p>\n<p> Chef defines a function <b> root(i, x) </b> which gives the greatest integer less than or equal to the <b> i <sup>th</sup> </b> root of a positive integer <b> x </b>. For example, <b> root(2, 4) </b> is  <b> 2 </b> and <b> root(2, 2) </b> is <b> 1 </b>.  </p>\n<p> Now the chef defines another function <b> val(x, A, N) </b> as follows : <br/> <br/></br/></br/></p>\n<p><b> val(x, A, N) =  root(1, x)*A[1]  +  root(2, x)*A[2] +  ...  + root(N, x)*A[N] </b> <br/> <br/></br/></br/></p>\n<p>where <b> A </b> is an array of integers of size <b> N </b> (indexed from 1 onwards)  and <b> x </b> is a positive integer.\n</p>\n<p> You are given the array <b> A </b> and its size <b> N </b>. You need to find out the value of <b> val(x, A, N) </b> for several values of <b> x </b>. Since this number can be very large, print the result modulo <b> 10<sup>9</sup> + 7 </b>.\n</p>\n<h3>Input</h3>\n<p> The first line contains an integer <b>T</b> denoting the number of test cases. Each test case begins with a line containing two integers <b>N</b> and <b> Q </b> denoting the size of array <b>A</b> and the number of queries. The second line of each test case consists of <b>N</b> space separated integers where the <b>i<sup>th</sup></b> integer represents <b>A[i]</b>. The third line of each test case consists of <b>Q</b> space separated integers denoting the value of <b> x </b> for the <b>i<sup>th</sup></b> query.\n</p>\n<h3>Output</h3>\n<p> For each test case, print in a single line <b> Q </b> integers, where the <b>i<sup>th</sup></b> integer represents the answer to the <b>i<sup>th</sup></b>  query. ( i.e <b> val(x, A, N) % ( 10<sup>9</sup> + 7 ) </b> )\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b> 1 </b>\u2264  <b>T</b> \u2264 <b>  10 </b></li>\n<li><b> 1 </b> \u2264 <b> N</b>  \u2264 <b> 10<sup>4</sup> </b></li>\n<li><b> 1 </b> \u2264 <b> Q</b>  \u2264 <b> 15000</b></li>\n<li><b> -10<sup>9</sup> </b> \u2264 <b> A[i] </b>  \u2264 <b> 10<sup>9</sup> </b></li>\n<li><b> 1 </b> \u2264 <b> x </b>  \u2264 <b> 10<sup>18</sup> </b>  for each number in the query. </li>\n</ul>\n<p><br/></br/></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n3 2\n4 5 6\n8 30\n<br/>\n<b>Output:</b>\n54 163\n<br/>\n</br/></br/></pre><h3>Explanation</h3>\n<p><b>Query 1.</b><br/><br />\n<b> (root(1,8)*4 + root(2,8)*5 + root(3,8)*6) % 1000000007 = (8*4 + 2*5 + 2*6) % 1000000007 = 54 % 1000000007 = 54 <br/><br />\n </br/></b>\n </br/></p>\n<p><b>Query 2.</b><br/><br />\n<b> (root(1,30)*4 + root(2,30)*5 + root(3,30)*6) % 1000000007 = (30*4 + 5*5 + 3*6) % 1000000007 = 163 % 1000000007 = 163 <br/><br />\n </br/></b>\n</br/></p>\n",
+    "category_name": "main",
+    "date_added": "8-01-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/FUNC",
+    "problem_tester": "shiplu",
+    "time": {
+        "view_start_date": 1402047000,
+        "end_date": 1402911000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1402911000,
+        "submit_start_date": 1402047000,
+        "current": 1537437531
+    },
+    "user": {
+        "username": ""
+    }
+}

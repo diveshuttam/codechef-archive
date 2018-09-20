@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>As a project for her arithmancy class, Hermoine has designed a magical plate which contains a sequence of <b>N</b> numbers which permutes according to a fixed permutation everyday. We denote the sequence of numbers on the ith day as <b>A[i][1], A[i][2], ... A[i][N]</b>.<br /><b>f[1],f[2]...f[N]</b> is a fixed permutation of (1,2,..<b>N</b>). The sequence <b>A[i+1][1],A[i+1][2],...A[i+1][N]</b> is the result of applying the permutation <b>f[1],f[2],..f[N]</b> to the sequence <b>A[i][1],A[i][2],...A[i][N]</b>. See the sample input for clarity.</p>\n<p>The arithmancy teacher has asked Hermoine to report the sequence of numbers that she started with. Hermoine has forgotten the original sequence. Ron wants to impress Hermoine because well, she's gorgeous! He knows the number of days <b>K</b> that have passed since the design of the magical plate, the current sequence of numbers and the fixed permutation <b>f</b>. He now wants to find out the original sequence of integers on the magical plate.</p>\n<h3>Input</h3>\n<p>The first line of input contains a single integer <b>T</b>, the total number of test cases.<br /><br />\n3*<b>T</b> lines follow, 3 corresponding to each test case.<br /><br />\nThe first line of each test case contains 2 space-seperated integers <b>N</b>,<b>K</b>.<br /><br />\nThe second line contains <b>N</b> space-seperated integers : <b>A[<b>K</b>][1], A[K][2], ... A[K][N]</b>.<br /><br />\nThe third line also contains <b>N</b> space-seperated integers : <b>f[1], f[2], ... f[N]</b>. It is guaranteed that <b>f[1],f[2],...f[<b>N</b>]</b> is a permutation of (1,2,...<b>N</b>).<br />\n</p>\n<h3>Output</h3>\n<p>The output must consist of <b>T</b> lines, one corresponding to each test case.</p>\n<p>Corresponding to each test case output in a single line <b>N</b> space-seperated integers : <b>A[0][1], A[0][2], .. A[0][N]</b>.</p>\n<p>It is trivial to note that the solution exists and is unique.</p>\n<h3>Constraints</h3>\n<p>1 &lt;= <b>T</b> &lt;= 10<br /></p>\n<p>1 &lt;= <b>N</b> &lt;= 1000<br /></p>\n<p>0 &lt;= <b>K</b> &lt; <b>N</b><br /></p>\n<p>1 &lt;= <b>A[K][i]</b> &lt;= 10^9<br /></p>\n<p>1 &lt;= <b>f[i]</b> &lt;= <b>N</b><br /></p>\n<p><b>f[i] != f[j]</b> for all i,j st 1 &lt;= i &lt; j &lt;= <b>N</b>.</p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n5 2\n200 100 500 300 400\n3 4 5 1 2\n\n<b>Output:</b>\n100 500 300 400 200\n\n</pre><h3>Explanation</h3>\n<p>(100,500,300,400,200) -> (300,400,200,100,500) -> (200,100,500,300,400)\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-03-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Divide By Zero 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1363429800,
+        "end_date": 1363437000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1363437000,
+        "submit_start_date": 1363429800,
+        "current": 1537438402
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>architk</span>",
+    "problem_name": "Magical Plate",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/architk'>architk</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "architk",
+    "contest_code": "DBYZ2013",
+    "max_timelimit": "1",
+    "problem_code": "IITI09"
+}

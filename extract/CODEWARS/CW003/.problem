@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>\u00a0MOVING TIME!</b></p>\n<p>Chef has a very organised spice rack and he keeps each spice in its own separate box. However, now he has to shift to another kitchen and move all his boxes. To make it easier to carry, he wants to pack the boxes together. To pack 2 boxes of x &amp; y size, the box needs to be of x+y size. For each box, the movers will charge him money equivalent to the size of the box.Find the no of ways in which the boxes can be packed, and also the minimum total cost</p>\n<p>\u00a0</p>\n<h3>Input </h3>\n<p>the first  line consists the number t indicating the number of test cases.<br /><br />\nIn the following t cases consists of n+1 lines where<br /><br />\nThe first line of input is n the number of boxes to shift. <br /><br />\nThe next n lines of input contain  positive integer k  which is the size of a box</p>\n<h3>Output </h3>\n<p>For each test case, Print   2 numbers separated by spaces: the cost , and the number of distinct ways of achieving this solution (modulo 10^9)</p>\n<h3>Constraints</h3>\n<p>1 &lt;= t &lt;= 100,<br />\n1 &lt;= n &lt;= 1000,<br />\n1&lt;= k &lt;=  100000</p>\n<h3>Sample Input</h3>\n<p>1</p>\n<p>8</p>\n<p>1</p>\n<p>2</p>\n<p>3</p>\n<p>4</p>\n<p>5</p>\n<p>6</p>\n<p>7</p>\n<p>8</p>\n\n<h3>Sample Output</h3>\n<p>102 9</p>\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-08-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWars, Aaruush 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1440937800,
+        "end_date": 1441110600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1441110600,
+        "submit_start_date": 1440937800,
+        "current": 1537436084
+    },
+    "problem_author_html_handle": "aaruush15",
+    "problem_name": "MOVING TIME!",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aaruush15'>aaruush15</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "aaruush15",
+    "contest_code": "CODEWARS",
+    "max_timelimit": "1",
+    "problem_code": "CW003"
+}

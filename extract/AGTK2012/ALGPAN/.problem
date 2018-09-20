@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nSo the Chef has become health conscious and is now lifting weights at the gym. But its his first time so the trainer gives him a simple job to do. \n\n<p>He has been given a weight lifting rod and <b>N</b> heavy weights, each weighing 2<sup>0</sup>, 2<sup>1</sup>, .... , 2<sup>n-1</sup>. He has to stick each of the \"<b>N</b>\" weights on the rod, one after another, in such a way that the right side is never heavier than the left side. At each step he chooses one of the weights that has not yet been fixed on the rod, and fix it on either the left side of the rod or the right, until all of the weights have been placed.\n\nNow help the chef and find out, in how many ways the chef can accomplish this?\n\n<h3>Input</h3>\n<p>First line of input contains an integer <b>T</b>, the number of test cases. Then <b>T</b> test cases follow. Each line of test case contains one integer, <b>N</b> denoting the number of weights\n\n<h3>Output</h3>\n<p>The output contains <b>T</b> lines, each containing an integer denoting all possible combinations\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n2\n5\n18\n\n\n<b>Output:</b>\n3\n945\n221643095476699771875\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "ALGOTHIKA 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330774200,
+        "end_date": 1331958600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1331958600,
+        "submit_start_date": 1330774200,
+        "current": 1537438873
+    },
+    "problem_author_html_handle": "s4p3r_c1n0s",
+    "problem_name": "Chef at GYM",
+    "source_sizelimit": "5000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/s4p3r_c1n0s'>s4p3r_c1n0s</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "s4p3r_c1n0s",
+    "contest_code": "AGTK2012",
+    "max_timelimit": "0.1",
+    "problem_code": "ALGPAN"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Mani has a string S and an integer d in hand. He has to deal with special strings now :( .  A string is a special string if the length of its Longest Palindromic Substring is less than d. He needs to find the lexicographically smallest special string <strong>X</strong> among all special strings which are lexicographically larger than S</p>\n<p>If there is no possible value of <strong>X</strong>, print \"Impossible\"(without quotes)\u00a0</p>\n<h3>Input</h3>\n<ul>\n<li>First line of input contains an integer - d</li>\n<li>Second line contains a string S of length n</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Output consists of a string in the first line, the solution to this problem</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>d</b> \u2264 <b>n</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<p><b>Input:</b><br/></br/></p>\n<pre>\n3\naaaaaaa\n</pre><p>.<br />\n<b>Output:</b><br/></br/></p>\n<pre>\naabbcaa\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ByteCode 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1456498800,
+        "end_date": 1456516800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1456516800,
+        "submit_start_date": 1456498800,
+        "current": 1537435323
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>bkarthikeyan28</span>",
+    "problem_name": "Special String",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bkarthikeyan28'>bkarthikeyan28</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bkarthikeyan28",
+    "contest_code": "BYCO2016",
+    "max_timelimit": "1",
+    "problem_code": "BYCD1604"
+}

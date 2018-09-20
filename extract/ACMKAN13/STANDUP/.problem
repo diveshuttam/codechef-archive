@@ -1,0 +1,33 @@
+{
+    "problem_code": "STANDUP",
+    "problem_author": "admin",
+    "contest_name": "ACM-ICPC Asia-Kanpur Site First Round Online Contest 2013",
+    "todo": false,
+    "problem_author_html_handle": "admin",
+    "problem_name": "Stand Up",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>gamabunta</span>",
+    "contest_code": "ACMKAN13",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acmkan13'>acmkan13</a>, <a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/probability'>probability</a>, <a class='problem-tag-small ' href='/tags/problems/simple-math'>simple-math</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p style=\"text-align: justify\">A classroom at the Academy of Bit Wizardry contains <b>N rows</b> of chairs. Each row, contains exactly <b>M chairs</b>. Each chair is expected to be filled by exactly one student; you may assume no chair is ever empty.</p>\n<p style=\"text-align: justify\">Curiously, <b>N*M</b> is guaranteed to be an <b>even number</b>. This means there are always an <b>even number of students</b> in a class. The students come to the Academy of Bit Wizardry from <b>(N*M / 2)</b> coutries. In fact, <b>exactly 2 students come from each country</b>.</p>\n<p style=\"text-align: justify\">You enter the classroom and find all the students sitting. This displeases you and you request them to stand up. They tell you that they are going to play a game with you. You will play the game <b>move by move</b>. In each move you <b>first make 1 student stand up and declare his country name</b>. Then, you make <b>another student stand up and declare his country name</b>. If both the students belong to the same country, they both remain <b>standing</b>. Otherwise, they will now both sit down. Of course, you may ask the same student to stand up again in a later move.</p>\n<p style=\"text-align: justify\">You grin as you know you have an amazing memory. Although you don't know initially which student belongs to what country, you are sure that <b>once a student declares it, you will remember it indefinitely</b>. You will never have to make a student stand up more than twice. Soon, you will have the entire class standing.</p>\n<p style=\"text-align: justify\">There is no way for you to know what country a student belongs to initially. You could choose a fixed strategy that does not optimize itself based on the responses the students are giving and easily have the class standing in exactly <b>N*M</b> moves. But you are smarter; hence, you will <b>dynamically optimize your strategy based on their responses</b>.</p>\n<p style=\"text-align: justify\">Assuming that the students choose their chairs uniformally randomly over all possible seatings, what is the <b>expected number of moves</b> that such a dynamically optimized optimal strategy would take to make every student stand up?</p>\n<h3>Input</h3>\n<p style=\"text-align: justify\">There are at most <b>100 test cases</b> in each test file. Each test case contains a single line with two positive integer <b>N</b> and <b>M</b>. The input is terminated by <b>EOF</b>.</p>\n<h3>Output</h3>\n<p style=\"text-align: justify\">For every test case, output a single line with the <b>expected number of moves</b> you will take to make every student stand up if you employ an optimal strategy. Print this number <b>rounded to 4 decimal places</b>.</p>\n<h3>Constraints</h3>\n<pre>\n<b>1 \u2264 N \u2264 50</b>\n<b>1 \u2264 M \u2264 50</b>\n\n</pre><h3>Sample Input</h3>\n<pre>\n1 2\n2 2\n\n</pre><h3>Sample Output</h3>\n<pre>\n1.0000\n2.6667\n\n</pre><h3>Explanation</h3>\n<p style=\"text-align: justify\">In the first test case, there are only 2 students. Of course they are from the same country. Hence, only 1 move is needed.</p>\n<p style=\"text-align: justify\">In the second test case, we wil leither take 2 moves, or three moves at most.</p>\n<p style=\"text-align: justify\">In the first move, the probability that we choose a pair of students from the same country, is 1/3. In this case, the game ends in 2 moves.</p>\n<p style=\"text-align: justify\">Otherwise, with probability 2/3, we have selected two students from different countries. Now, we will only take 2 more moves. <b>For the third student we ask to stand up, after the first 2 sit, we already know who his pair is from the first move.</b> And the remaining two will be asked to stand up in the third move.</p>\n<p style=\"text-align: justify\">Hence, the expected number of moves is <b>2 * (1/3) + 3 * (2 / 3) = 2.6667</b></p>\n",
+    "category_name": "main",
+    "date_added": "13-10-2013",
+    "status": "success",
+    "languages_supported": "C, JAVA",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/STANDUP",
+    "problem_tester": "gamabunta",
+    "time": {
+        "view_start_date": 1382160600,
+        "end_date": 1382169600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1382169600,
+        "submit_start_date": 1382160600,
+        "current": 1537438100
+    },
+    "user": {
+        "username": ""
+    }
+}

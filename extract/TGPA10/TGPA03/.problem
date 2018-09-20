@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>We, the team members of Conscientia regard ourselves as very intelligent and hardworking people. So when the time came to distribute the responsibility for the food stalls we all knew that the one responsible would gain maximum benefits. That started a fight. Now being very intelligent I proposed that we come to a conclusion based on some random procedure. So I proposed that we all should stand sequentially and remove every kth person from the line until only one is left. Everyone thought this to be a really good idea as only I, being the only one from CS background knew that this is not at all random. Now that I have been chosen, you have to basically prove to the team that I made a fool of them.\n<h3><b>Input Format</b></h3>\n<p>The first line contains the number of test cases, <b>t</b>. \nFor each test case, a single line contains a single number <b>n</b> denoting the number of people in the team.\n\n<h3><b>Output Format</b></h3>\n<p>For each test case the position where I stood to get the responsibility for the food stalls in a seperate line.\n\n<h3>Limits</h3>\n0<=n<=10^8\n<pre>\n\n<b>Sample Input:</b>\n2\n10 3\n20 5\n\n<b>Sample Output:</b>\n4\n7\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-02-2010",
+    "is_direct_submittable": false,
+    "contest_name": "TGPA 2010",
+    "languages_supported": "C, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1267338600,
+        "end_date": 1267356600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180175,
+        "submit_start_date": 1267338600,
+        "current": 1537439719
+    },
+    "problem_author_html_handle": "theta",
+    "problem_name": "Fight",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/theta'>theta</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "theta",
+    "contest_code": "TGPA10",
+    "max_timelimit": "0.1",
+    "problem_code": "TGPA03"
+}

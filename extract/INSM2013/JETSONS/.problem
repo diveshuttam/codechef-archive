@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>It's the year of Jetsons(yeah your favourite cartoon series ;). So, we know jetsons live high up in sky on a house supported by a cylindrical bar.<br />\nLet's say they have a rectangular shaped house and high flying lights to facilitate the traffic in night of course even air traffic needs night light.<br />\nNow since not all people can afford houses that high. most people have houses at lower levels and others at higher level.yeah there are divides even then<br />\n:(.</p>\n<p>So the then government decided to find the inconvience caused due to high houses obstacling the traffic light.Now your task is to find the shadow of the house.Well that didn't sound so good ok you have to find the area of the shadow.</p>\n<p>Now if the shadow area is infinite print -1 or if shadow is a line print 0 as its area.</p>\n<h3>Input</h3>\n<p>T number of test cases.<br />\nfor each test cases first two lines each contain the x, y and z coordinates of the diagonal of the house.<br />\nthe next line contains the x, y and z coordinates of the traffic light.</p>\n<h3>Output</h3>\n<p>One line containing the area of shadow cast.</p>\n\n<pre><b>Input:</b>\n1\n1 1 1 \n10 1 1 \n5 5 5\n\n<b>Output:</b>\n0.000000\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-09-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Insomnia 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1379694600,
+        "end_date": 1379716200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1379716200,
+        "submit_start_date": 1379694600,
+        "current": 1537438183
+    },
+    "problem_author_html_handle": "insomnia_adm",
+    "problem_name": "JETSONS HOME",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/insomnia_adm'>insomnia_adm</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "insomnia_adm",
+    "contest_code": "INSM2013",
+    "max_timelimit": "1",
+    "problem_code": "JETSONS"
+}

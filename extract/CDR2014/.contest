@@ -1,0 +1,133 @@
+{
+    "teamsCount": "197",
+    "announcements": "<p>Contest has started. Rankings available at http://www.codechef.com/rankings/CDR2014</p>\r\n\r\n<p>Problem - Rohan and Digits - Line no. 9 in the problem statement (line just above INPUT), changed to \"it's print the smallest integer having x holes in it\" </p>\r\n\r\n<p>Problem - Funky Numbers - Add Constraint - low <= hi <= 2,000,000,000. Also You have to output the \"number of\" funky numbers from low to high.(both inclusive), not the funky numbers themselves.</p>\r\n\r\n<p>Problem - Tyrion and his Girlfriend - Correction : (x+p,y+q) or (x+p,y-q) or (x-p,y+q) or (x-p,y-q) </p>\r\n\r\n<p> Solutions for Funky Numbers rejudged! </p>\r\n\r\n<p> Contest is over. Thanks for participating! Winners will be contacted shortly! </p>",
+    "ip": "149.129.135.113",
+    "code": "CDR2014",
+    "duration": "300",
+    "name": "Coder 2014",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div><b>Registration: </b> <ul> <div><b></b> <b>This is a team contest, so a seperate registration is needed for the team to participate. Please do the registration before the contest starts</b></div> <br /> <li>Login with your normal CodeChef user ID</li> <li>Click on the <a target=\"_blank\" href=\"/teams/register/CDR2014\"><b>Team Registration Link</b></a> to register your team for the contest.</li> <li>Click logout in the top right corner and login using the Team Name and password you registered with.</li> <li>You can get more information about team contests <a target=\"_blank\" href=\"/wiki/team-contests\">here.</a></li> <li>To be eligible for prizes register <a href=\"https://docs.google.com/forms/d/1U4i6u1rKZXw7bsSqU2G_qQ6Ky56OxKuWTwl7T3lS77s/viewform\">here</a>.</li> </ul> </div> <div><b>Rules and Regulations:</b> <div> <ul> <li>Contest problems will become visible on 22nd March, 2014 at 21:00 HRS (IST) and end at\u00a023rd March, 2014 at 02:00 HRS\u00a0(IST). Check your timezome <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+Coder+2014&amp;iso=20140322T21&amp;p1=44&amp;ah=5\">here</a>.</li> <li> This is a TEAM CONTEST. A team can consist of atmost 2 members. One person can\u2019t be part of more than one team.</li> <li> A team may send their solutions in all programming languages. Although different problems can be solved in different languages by the same team.</li> <li>If you do not have a CodeChef ID create one <a href=\"http://codechef.com/user/register\" target=\"_blank\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. </li> <li> Almost all languages supported on CodeChef are allowed. </li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided. </li> <li>All participants are expected to abide by the\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a></li> <li>Please contact\u00a0<a href=\"mailto:arvchamp@gmail.com\">arvchamp@gmail.com</a> for any queries during the contest. </li> </ul> </div> <div><b>Judging criteria : </b> <ul> <li>All the problems have same points alloted to them. </li> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time. </li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained. </li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified. </li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved. </li> </ul> </div> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/CDR2014/1424957921.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "COD05": {
+            "allow_submission": false,
+            "name": "Nikhil and FlappyBirds",
+            "category_name": "main",
+            "accuracy": 24.57,
+            "successful_submissions": "83",
+            "code": "COD05",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COD01": {
+            "allow_submission": false,
+            "name": "Good Poem",
+            "category_name": "main",
+            "accuracy": 11.11,
+            "successful_submissions": "3",
+            "code": "COD01",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COD04": {
+            "allow_submission": false,
+            "name": "Rohan and Digits",
+            "category_name": "main",
+            "accuracy": 44.73,
+            "successful_submissions": "119",
+            "code": "COD04",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COD08": {
+            "allow_submission": false,
+            "name": "Cersey Energy Game",
+            "category_name": "main",
+            "accuracy": 72.88,
+            "successful_submissions": "41",
+            "code": "COD08",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COD09": {
+            "allow_submission": false,
+            "name": "Catch me if you can",
+            "category_name": "main",
+            "accuracy": 29.82,
+            "successful_submissions": "17",
+            "code": "COD09",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COD06": {
+            "allow_submission": false,
+            "name": "Tyrion and his girlfriend",
+            "category_name": "main",
+            "accuracy": 38.3,
+            "successful_submissions": "18",
+            "code": "COD06",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COD03": {
+            "allow_submission": false,
+            "name": "Funky Numbers",
+            "category_name": "main",
+            "accuracy": 29.41,
+            "successful_submissions": "5",
+            "code": "COD03",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COD02": {
+            "allow_submission": false,
+            "name": "Jaime and his numbers",
+            "category_name": "main",
+            "accuracy": 5.71,
+            "successful_submissions": "6",
+            "code": "COD02",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COD07": {
+            "allow_submission": false,
+            "name": "Lazy Puzzle",
+            "category_name": "main",
+            "accuracy": 31,
+            "successful_submissions": "31",
+            "code": "COD07",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537437659,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

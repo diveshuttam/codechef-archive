@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p> Deadpool: <i><b>\"You\u2019re probably thinking \u201cWhose balls did I have to fondle to get my very own COOL PROBLEM\u201d? I can\u2019t tell you his name, but it rhymes with \u2018pullverine' \" </b></i>  \n<p><b>Deadpool</b> and <b>Wolverine</b> go head to head in a crazy game on Crazy Country.</p>\n<p> Let\u2019s first get some details about <b>Crazy country</b>. The Crazy Country has <b>N</b> cities. It is possible to go from one city to any other city in Crazy Country And there is a <b>unique path between every pair of cities</b>. <b>City 1 is the capital city</b> and it located at level 0.  Every city in this country is assigned a <b>level which is equal to its </b>distance from the capital city. </p>\n<p> <b> Distance between cities A and B = number of cities encountered while going from city A to city B (excluding both) + 1.  </b> </p>\n<p> Every city in this crazy country has a certain number of aircrafts in it. Deadpool has designed these really cool aircrafts. Every aircraft contains some <b>Cool Buttons</b>. Each button has a Coolness associated with it. Initially, each aircraft has exactly 1 button of Coolness <b>C</b>, for all integers <b>C &ge; 1</b>. When a functional button with <b>Coolness X</b> on a aircraft lying in city of <b>level L</b> is pressed, it takes the aircraft to a city of <b>level (L-X)</b> which lies on the path between this city and the capital city (obviously , there is only one such city). Of course , the buttons with <b>Coolness > L</b> are dysfunctional in an aircraft which is in city of level <b>L</b> as the aircrafts are not allowed to go beyond the capital city. </p>\n<p> Plus , there is something really weird about these aircrafts,  whenever you press a button with a particular Coolness <b>X</b> then <b>all the buttons of this aircraft become dysfunctional  that are of Coolness (I*X) , where I >= 1.</b> </p>\n<p> Now, Deadpool and Wolverine <b>take turns</b> and press a functional Cool button on any one of the aircrafts of their choice. <b>The Player who can\u2019t make a move loses</b>.  Being the smart guys that they are, they obviously play <b>optimally</b>. </p>\n<p>Given a crazy country setup, you have to <b>determine who will win this game if Deadpool makes the first move.</b></p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>First line contains an integer <b>T</b> denoting the number of test cases.</p>\n<p>First line of every test case contains <b>N</b> \u2013 The number of cities in the Crazy Country.</p>\n<p>Second line of every test case contains <b>N</b> integers, where <b>i<sup>th</sup></b> integer signifies <b>number of aircrafts</b> in <b>i<sup>th</sup></b> city.</p>\n<p>Next <b>N-1</b> lines follow- each line has <b>2 integers A and B</b>, showing that there is a <b>direct path</b> between city <b>A</b> and city <b>B</b>. </p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>If Deadpool wins then print \u201c<b>Deadpool</b>\u201d(without quotes) else print \u201c<b>Wolverine</b>\u201d(without quotes).</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 <b>T</b> \u2264 100</li>\n<li>1 \u2264 <b>N</b> \u2264 10000</li>\n<li>0 \u2264 <b>Number of aircrafts in one city of Crazy Country</b> \u2264 50000</li>\n<li>1 \u2264 <b>A,B</b> \u2264 <b>N</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<p><b>Input:</b></p>\n<p>1</p>\n<p>3</p>\n<p>0 0 1 </p>\n<p>1 2</p>\n<p>1 3</p>\n\n<b>Output:</b>\n<p>Deadpool</p>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>Deadpool moves the aircraft from city 3 to city 1 by pressing the button with Coolness 1 in the first move. Now, Wolverine loses as he can\u2019t make any move.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-03-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Alkhwarizm 2017 (Rated)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1490369400,
+        "end_date": 1490387400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1490387400,
+        "submit_start_date": 1490369400,
+        "current": 1537433982
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>shivamg_isc</span>",
+    "problem_name": "Deadpool and his COOLEST Problem Ever",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shivamg_isc'>shivamg_isc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shivamg_isc",
+    "contest_code": "ALKH2017",
+    "max_timelimit": "1",
+    "problem_code": "DEADFOOL"
+}

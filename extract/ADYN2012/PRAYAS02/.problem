@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>Vicky has embarked on a tour where he travels only by buses running over small distances. In general there are <b>n</b> buses all going in the same direction, with the <b>i</b>th bus starting at <b>(xi &ndash; 1)</b> km from his starting point and running upto <b>yi</b> km from his starting point covering <b>(yi &ndash; xi + 1)</b> km. The buses do not stop anywhere in between so Vicky cannot switch buses while in the middle of a bus journey. Neither does he go back from where a bus has dropped him to catch another bus whose starting location might have been left behind his current location. He must walk from where the previous bus has dropped him to the location where the next bus he intends to catch starts.\n Vicky wants to travel as much distance as possible through these buses no matter how long does this tour of him takes him. Given the starting and the finishing location of buses, help Vicky choose the buses that will ensure he travels the maximum distance on the chosen set of buses. The starting point is obviously taken as 0 km.\n\n<h3>Input</h3>\n<p>The first line consist of number of test cases <b>T</b>, followed by a blank line, followed by <b>T</b> test cases each separated from the previous one by a blank line. The first line of each test case consist of a single number <b>n</b> &ndash; the number of bus services, followed by <b>n</b> lines where the <b>i</b>th line contains two space separated integer <b>xi</b> and <b>yi</b>, such that the <b>i</b>th bus starts at a distance <b>(xi &ndash; 1)</b> km from his starting point and travels upto <b>yi</b> km from his starting point.\n\n<h3>Output</h3>\n<p>For each test case print the maximum distance Vickey can travel through these buses on a separate line.\n\n<h3>Constraints</h3>\n1 <= T <= 2<br>\n1 <= n <= 10000<br>\n1 <= xi <= yi <= 100000000<br>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n\n3\n1 4\n2 6\n6 8\n\n<b>Output:</b>\n7\n\n<b>Explanation:</b>\n<p>Vicky can travel maximum distance by taking buses 1st and 3rd , covering a total of (4 &ndash; 1 + 1) +<br>(8 &ndash; 6 + 1) = 7 km. Had he taken the first 2nd bus he could have travelled (6 &ndash; 2 + 1) = 5km.</p>\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Adhyayan 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1332333000,
+        "end_date": 1332354600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1332354600,
+        "submit_start_date": 1332333000,
+        "current": 1537438851
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>the123abhishek</span>",
+    "problem_name": "As Far As It Takes Me",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/the123abhishek'>the123abhishek</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "the123abhishek",
+    "contest_code": "ADYN2012",
+    "max_timelimit": "0.182573",
+    "problem_code": "PRAYAS02"
+}

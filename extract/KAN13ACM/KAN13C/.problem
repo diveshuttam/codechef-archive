@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>In the land of Rhyme, the King and his people always speak in rhymes. They are so accustomed in conversing using rhymes that at one point it became monotonous. So what was once a source of happiness and amusement is now creating a strange emotion within the heart of the people. The productivity of the people has become less and more importantly, the happiness index of the land has plummeted. The experts have investigated the whole matter and reported that speaking in rhyme is not the problem; it is the monotony of the same thing that is affecting the people. In fact they suggested changing the definition of rhyme slightly. One of their recommendations is to introduce a new concept of \"richness\" in a sentence.\n</p>\n<p>A sentence would be termed rich if it starts and ends with the same word! The King seems to like this definition. But he is finding it difficult to even say a simple meaningful sentence that is \"rich\".  The King became quite anxious. Your boss, King\u2019s ICT adviser, suggested that a competition among the general people should be thrown where the participants would have to submit a piece (story/poem/essay etc.) full of rich sentences. Then the richest pieces would be judged and be awarded.  The King made a decree accordingly. Your boss was ordered to formulate a judging scheme for the pieces and write a program immediately to do the judgment. And as usual he formulated something and asked you to implement that. What he has asked you to do is as follows. You will take as input a piece as a character array. And output another array where each position will give the richness of the piece up to that position.\n</p>\n<p>\u201cWhat is richness?\u201d You asked.\n</p>\n<p>Your boss replied, \u201cThe richness is the size of the identical proper substring which is present at the beginning and at the end of the piece. But, the complete string cannot be considered as its substring.\u201d\n</p>\n<p>\u201cBut you said to calculate the richness at each position\u201d! You inquired.\n</p>\n<p>\u201cYes, of course! When you calculate up to a position, you will have to assume that the piece ends at that position.\u201d Your boss smiled. He seemed to be quite happy in formulating this.\n</p>\n<p>You asked again, \"Don't I need to think about the word boundaries?\"\n</p>\n<p>\u201cNot now, my son. We will think about it later. Do it without considering word boundaries for now. You will consider the input character by character\u201d. He assured you. He seemed all the more content with his own formulation and probably was not seeing the possible pitfalls. He continued, \"And one other point; richness of the first position would always be 0.\"\n</p>\n<p>Meaningful, you thought. But you had to ask a final question. \u201cHow would you then finally compute the richness of the total piece using all these information? What will be the formula?\u201d\n</p>\n<p>Your boss seemed perplexed. He did not think this through, as it seemed. So, he said, \u201cYou need not worry about that. Do as I said. Just remember that the input size could be quite large.\u201d\n</p>\n<p>You knew that you have to stop asking and start coding now. \u201cYes, boss!\u201d you said. You also realized the implication of the last direction of your boss. Few years back there was another competition on literary works. And the size of some pieces was 4 million characters!\n</p>\n<h3>Input</h3>\n<p>Input consists of several lines. Each line contains a string of lowercase English letters. End of input is indicated by a line containing the string \u201cEnd\u201d. No output line should be produced for this line.\n</p>\n<h3>Output</h3>\n<p>For each input line, you must output a line containing several integers, separated by space. The number of integers must be same as the length of the input string. The Integer at a specific position must represent the richness of the input string up to that position. There must not be any trailing space in any output line.\n</p>\n<h3>Constraints</h3>\n<p>The total length of input is less than 4 * 10^6</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\noebmgoca\nbdblhc\njgojeqp\natofpgrwk\nfdcdd\nababbacdbacdbacd\ndacc\ncbda\naccb\ndcbb\ndacbbcbcbcbcdcbbbcbcbcbcbcbcdacbbcbcdcbbbcbcdcbbdcbb\nEnd\n\n\n<b>Output:</b>\n0 0 0 0 0 1 0 0\n0 0 1 0 0 0\n0 0 0 1 0 0 0\n0 0 0 0 0 0 0 0 0\n0 0 0 0 0\n0 0 1 2 0 1 0 0 0 1 0 0 0 1 0 0\n0 0 0 0\n0 0 0 0\n0 0 0 0\n0 0 0 0\n0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 3 4 5 6 7 8 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0\n</pre>\n<p><b>\n<p>Problem Setter : Dr. M Sohel Rahman</p>\n<p></p></b></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-12-2013",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Kanpur onsite regionals 2013 : Replay",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1387027800,
+        "end_date": 1387045800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1387045800,
+        "submit_start_date": 1387027800,
+        "current": 1537437977
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>shangjingbo</span>",
+    "problem_name": "Rich Rhyme",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kan13acm'>kan13acm</a>, <a class='problem-tag-small ' href='/tags/problems/kmp'>kmp</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/shangjingbo'>shangjingbo</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shangjingbo",
+    "contest_code": "KAN13ACM",
+    "max_timelimit": "1.83714",
+    "problem_code": "KAN13C"
+}

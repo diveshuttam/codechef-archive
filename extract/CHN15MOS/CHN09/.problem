@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Little Malvika is very peculiar about colors. On her birthday, her mom wanted to buy balloons for decorating the house. So she asked her about her color preferences. The sophisticated little person that Malvika is, she likes only two colors \u2014 amber and brass. Her mom bought <b>n</b> balloons, each of which was either amber or brass in color. You are provided this information in a string <b>s</b> consisting of characters 'a' and 'b' only, where 'a' denotes that the balloon is amber, where 'b' denotes it being brass colored.\n</p>\n\n<p>\nWhen Malvika saw the balloons, she was furious with anger as she wanted all the balloons of the same color. In her anger, she painted some of the balloons with the opposite color (i.e., she painted some amber ones brass and vice versa) to make all balloons appear to be the same color. As she was very angry, it took her a lot of time to do this, but you can probably show her the right way of doing so, thereby teaching her a lesson to remain calm in difficult situations, by finding out the minimum number of balloons needed to be painted in order to make all of them the same color.\n</p>\n\n<h3>Input</h3>\n<ul>\n<li>The first line of input contains a single integer <b>T</b>, denoting the number of test cases.</li>\n<li>The first and only line of each test case contains a string <b>s</b>.</li>\n</ul>\n\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing an integer \u2014 the minimum number of flips required.</li>\n</ul>\n\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> &le; <b>T</b> &le; <b>100</b></li>\n<li><b>1</b> &le; <b>n</b> &le; <b>100</b>, where <b>n</b> denotes to the length of the string <b>s</b>.</li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\nab\nbb\nbaaba\n\n<b>Output:</b>\n1\n0\n2\n</pre>\n\n<h3>Explanation</h3>\n<p><b>In the first example</b>, \nyou can change amber to brass or brass to amber. In both the cases, both the balloons will have same colors. So, you will need to paint 1 balloon. So the answer is 1.\n</p>\n\n<p><b>In the second example</b>,\nAs the color of all the balloons is already the same, you don't need to paint any of them. So, the answer is 0.\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Chennai Onsite Mirror Contest 2015",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1453528800,
+        "end_date": 1453546800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1764568884,
+        "submit_start_date": 1453528800,
+        "current": 1537435615
+    },
+    "problem_author_html_handle": "admin2",
+    "problem_name": "Malvika is peculiar about color of balloons",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acm15chn'>acm15chn</a>, <a class='problem-tag-small ' href='/tags/problems/admin2'>admin2</a>, <a class='problem-tag-small ' href='/tags/problems/loops'>loops</a>, <a class='problem-tag-small ' href='/tags/problems/strings'>strings</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin2",
+    "contest_code": "CHN15MOS",
+    "max_timelimit": "1",
+    "problem_code": "CHN09"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The IP Address Class defines the number of networks and IP addresses that are available to an organization for use. An IP Address is comprised of 32 bits (4 octets) \n\nof information. The IP address is working with two pieces of information: the network ID and the host ID. Based on the number of network and hosts the IP Addresses \n\nhave been divided into different classes \u2013 A, B, C, D &amp; E.</p>\n<p> Currently the <a href=\"//nettech.in\u201d\">NetTech team</a> is conducting its certification course at BIT Mesra. <a href=\"//www.facebook.com/kedia.ayush\u201d\">Ayush Kedia </a> is a first year student and has little knowledge of networking. However the test is coming up and he needs your \n\nhelp to top the list. He has a list of IPs which has to be classified based on the IP Addresses. Your job is to write a program that will print the class of the given \n\nIP Address.</p>\n<p>Problem Setter: <a href=\"//www.facebook.com/Aasthik\">Vishal Gupta</a></p>\n\n <h3>Input: </h3>\nThe input contains a series of IP addresses, each beginning in a new line.\n\n <h3>Output: </h3>\nFor each IP Address print the class of the IP Address each in a single line. Print \u2018Invalid\u2019 for any invalid entry.  \n<br /><br />\n\n<pre>\n<b>Input:</b>\n192.168.102.11\n10.87.78.0\n189.09.89.98\n225.78.98.89\n25.98.268.09\n0.0.0.0<br />\n\n<b>Output:</b>\nClass C\nClass A\nClass B\nClass D\nInvalid\nInvalid\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "DreamSpark - Microsoft Software & Technology Club",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298716200,
+        "end_date": 1298759400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298759400,
+        "submit_start_date": 1298716200,
+        "current": 1537439311
+    },
+    "problem_author_html_handle": "ganesha",
+    "problem_name": "What is your IP",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ganesha'>ganesha</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ganesha",
+    "contest_code": "DSPCXI",
+    "max_timelimit": "0.214286",
+    "problem_code": "DSPCXI01"
+}

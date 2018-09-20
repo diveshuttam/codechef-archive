@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Pratzz and Abhi are roommates. Pratzz will throw Abhi out of the room if he fails to answer this question. Please help him stay in the room by answering the queries. Formally stating, there is an array <b>A</b> given initially of size <b>N</b>. All the array elements are initially 0.Array is 1-indexed.Based on that, you have to process <b>'Q'</b> queries.Each query can be of 2 types:\n<br>\n<br>\t\t\t\n<b>1 i a</b> - For this, you have to update the array element at <b>ith</b> index\nof array to <b>'a'</b>.\n<br>\n<b>2 k</b> - To answer this query, we generate a new array <b>S</b> of the same size as given array <b>A</b>.\n<br>\nThe description of array <b>S</b> is mentioned below :\n<br><br>\n\t\t\t<b>S[1]=A[1] </b>when  <b> i=1 </b>\n<br>\n\t\t\t<b>S[i]=A[i] | S[i-1]</b> when <b> i>1</b> and <b>i<=n </b>.<b>|</b> denotes <b>bitwise OR</b> operator.\n<br><br>\nWe need to find a whether a subset of array <b>S</b> exists whose XOR is equal to <b>'k'</b>.\nFor example, suppose the elements of a subset of array <b>S</b> is  {S[1],S[3],S[4]}, then XOR of the subset = S[1]^S[3]^S[4].\n\n<br>\n<br>\nThe answer to this query should be either <b>\"YES\"</b> if we can find a subset of <b>S</b> whose XOR is equal to<b> 'k'</b>\nor <b>\"NO\"</b> otherwise.\n<br>\n<br>\nNote: Assume XOR of empty subset to be 0.\n</p>\n<h3>Input</h3>\n<p>The first line of input contains <b>N</b>, denoting\n the number of elements in <b>A</b> and <b>Q</b>, the number\nof queries. Next <b>Q</b> lines will \ncontain the <b>Q</b> queries described above.</p>\n\n<h3>Output</h3>\n<p>For each query of type 2, answer <b>\"YES\"</b> or <b>\"NO\"</b> in a new line..</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N,Q</b> \u2264 <b>10^5</b></li>\n<li><b>0</b> \u2264 <b>a,k</b> \u2264 <b>10^9</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Subtasks</h3>\n<b>Subtask #1 (20 points), Time limit : 1 sec<br>\n1 \u2264 N,Q \u2264 10, 0 \u2264 a,k \u2264 10^9 </b><br><br><br>\n<b>Subtask #2 (80 points), Time limit : 1 sec<br>\nOriginal Constraints </b>\n\n<h3>Example</h3>\n<pre><b>Input:</b> \n\n4 5\n2 0\n2 2\n1 1 3\n2 3\n2 2\n\n<b>Output:</b>\n\nYES\nNO\nYES\nNO\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p> In the sample input 1:<br>\nfor query 1, Array A={0,0,0,0},Array S={0,0,0,0}. Answer for 0 is YES because it can be formed from Xor of subset {0} .\n<br>\nfor query 2, no subset gives Xor as 2 so Answer is NO.\n<br>\nfor query 3, we update Array A={3,0,0,0}, Array S={3,3,3,3}.\n<br>\nfor query 4, Array A={3,0,0,0}, Array S={3,3,3,3}. Answer for 3 is YES\nbecause it can be formed from Xor of subset {3}.\n<br>\nfor query 5, no subset gives Xor as 2 so Answer is NO.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-06-2017",
+    "is_direct_submittable": false,
+    "contest_name": "LoC June 2017",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1498761000,
+        "end_date": 1499106599,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1499106599,
+        "submit_start_date": 1498761000,
+        "current": 1537433739
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>shivamtanay</span>",
+    "problem_name": "Roommate Trouble",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shivamtanay'>shivamtanay</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shivamtanay",
+    "contest_code": "LOCJUN17",
+    "max_timelimit": "1",
+    "problem_code": "PRATABHI"
+}

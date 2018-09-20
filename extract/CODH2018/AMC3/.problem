@@ -1,0 +1,33 @@
+{
+    "problem_code": "AMC3",
+    "problem_author": "chhekur",
+    "contest_name": "Coding Hours",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>chhekur</span>",
+    "problem_name": "Harry And Ron Got A Map",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CODH2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/chhekur'>chhekur</a>, <a class='problem-tag-small ' href='/tags/problems/codh2018'>codh2018</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/graph'>graph</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p ><b>Harry</b> & <b>Ron</b> used to be good friends until they got a map of a treasure. <b>Harry</b> being a greedy and opportunist thought to acclaim the treasure alone. <b>Ron</b> came to know about his intentions and they had a fight and amidst the fight , the map got torn into pieces.</p>\n<p>Now, since none of them would ever get to the treasure until they compromise, so both of them settled the differences in between.</p><p>Now, in order to get the treasure, they have to consolidate the pieces together, so that they get back the original map.</p><p>So help them to find the correct map.</p>\n\n<h3>Input</h3>\n<ul>\n<li>First line of input contains an integer <b>A</b>.</li>\n<p>\n \u00a0 \u00a0  Which denotes the number of edges in the in first graph.\n</p>\n\n<li>Next <b>A</b> lines contains two integer <b>'a<sub>1</sub>'</b>,<b> 'b<sub>1</sub>' </b>.</li>\n<p>\n \u00a0 \u00a0  Which defines the bidirectional relationship in graph 'A'.\n</p>\n\n\n<li>( A + 2 )<sup><b> th</b></sup> contains an intiger <b>B</b> .</li>\n<p>\n \u00a0 \u00a0  Which denotes the number of edges in the in second graph.\n</p>\n\n<li>Next <b>B</b> lines contains two integetr <b>'a<sub>2</sub>'</b>,<b> 'b<sub>2</sub>' </b>.</li>\n<p>\n \u00a0 \u00a0  Which defines the bidirectional relationship in graph 'B'.\n</p>\n\n\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>\n \u00a0 \u00a0  Output a single line containing <b>'YES' or 'NO'</b><br>\n \u00a0 \u00a0  if both the graphs are Similar or Not respectively .\n</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>A + B</b> \u2264 <b>7*10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>a</b>,<b>b</b> \u2264  <b>10<sup>3</sup></b>  </li>\n</ul>\n\n\n<h3>Subtasks</h3>\n<p><b>Subtask #1 (50 points):</b></p>\n<ul><li><b>1</b> \u2264 <b>A + B</b> \u2264 <b>10<sup>3</sup></b></li></ul>\n<p><b>Subtask #2 (50 points):</b> original constraints</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n1 2\n4 3\n3 2\n4 5\n5 3\n5\n3 1\n1 2\n4 5\n4 3\n3 2\n\n<b>Output:</b>\nNO\n</pre>\n<p>\u00a0</p>\n\n<h3>Explanation</h3>\n<p><img src=\"https://ibin.co/3q00uMGJnM6m.png\"></p>",
+    "category_name": "main",
+    "date_added": "24-01-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/AMC3",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1517581800,
+        "end_date": 1517668200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1517668200,
+        "submit_start_date": 1517581800,
+        "current": 1537433078
+    },
+    "user": {
+        "username": ""
+    }
+}

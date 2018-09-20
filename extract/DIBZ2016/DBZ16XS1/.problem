@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Shil has a number <b>X</b>.He challenges you to find minimum positive number <b>K</b> such that <b>F(K)</b> is equal to <b>X</b>.</p>\n<li>\n<b>F(x)</b> is defined as <b>1^2^3^....x</b>.  ^ denotes the bitwise <a href=\"http://www.wikiwand.com/en/Bitwise_operation\">Xor operation</a> \n<p>\u00a0</p>\n</li>\n<h3>Input</h3>\n<ul>\n<p> First line of input will consists of total number of test cases <b>T</b>.Next <b>T</b> lines contains a number <b>X</b>.\n</p></ul>\n\n<h3>Output</h3>\n<ul>\n<p>For each test case , output minimum possible value of <b>K</b> such that <b>F(K)</b> is equal to <b>X</b>.If there is no such <b>K</b> , print -1.Note that K should be positive number.</p>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>1000000</b></li>\n<li> <b>0</b> \u2264 <b>X</b> \u2264 <b>10<sup>18</sup></b> </li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n1\n2\n100\n\n<b>Output:</b>\n1\n-1\n100\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>F(1)=1 , F(100)=100 and there is no such K such that F(K)=2</b></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Divide by zero",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1454167800,
+        "end_date": 1454185800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454185800,
+        "submit_start_date": 1454167800,
+        "current": 1537435588
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>ruchirgarg05</span>",
+    "problem_name": "Shil Loves Exclusive Or",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ruchirgarg05'>ruchirgarg05</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ruchirgarg05",
+    "contest_code": "DIBZ2016",
+    "max_timelimit": "1",
+    "problem_code": "DBZ16XS1"
+}

@@ -1,0 +1,97 @@
+{
+    "announcements": "<p><b>11th April, 03:00am: </b>The contest has been extended for 24 hours and will end on 12th March, 2011 at 15:00 hours.</p>\r\n<p><b>11th April, 02:30am: </b>We are back online, sorry for keeping you waiting.<b> </b></p>\r\n<p><b>11th April, 12:45am: </b>Our judge has got a network breakdown and has gone offline. We will keep you updated when the judge will be back online. We will also inform you shortly about the extension of the contest.</p>\r\n<p><b>11th April, 12:36am: </b>We found a problem in our judge for L2GRAPH. The problem has been rectified and we are re-judging all the submissions for this problem.</p>\r\n<p><b>7th April, 5:25pm : </b>We are re-judging all submissions for RECTCNT problem.<br /><br /><b>6th April, 12:20pm :</b> Our judge is fine now and should be stable. Incase you are experiencing anything unsual feel free to write in to feedback@codechef.com. We regret the inconvenience caused.</p>\r\n<p><b>5th April, 8:55pm :</b> Our judge has got a network breakdown and has gone offline. Please bear with us till the judge is back, we regret the inconvenience caused. We will keep you updated when the judge will be back online.</p>\r\n<p><b>1st April, 3:15pm :</b> Yes, we know our 6 problem contest has only half the number of problems available at the moment. Worry not, this is not an April Fool's prank! :) We will be updating the contest with the rest of the problems within the next 48 hours.</p>\r\n<p>\r\n<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\r\n</p>",
+    "ip": "149.129.135.113",
+    "code": "APRIL11",
+    "duration": "15840",
+    "name": "April Long Contest",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p>\u00a0</p> <p class=\"MsoNoSpacing\"><b><span>The April Long Contest has ended!</span></b></p> <p class=\"MsoNoSpacing\"><b><span>Check out the Editorials for the problems <a href=\"/wiki/april-2011-contest-problem-editorials\" target=\"_blank\">here</a>.<br />Check out the Winners Blog post <a target=\"_blank\" href=\"http://blog.codechef.com/2011/04/14/april-2011-challenge-winners/\">here</a>.</span></b></p> <p class=\"MsoNoSpacing\"><b><span>All problem solutions have been made visible and have also been moved to the\u00a0<a href=\"/problems/easy\" target=\"_blank\">practice section</a>.</span></b></p> <p class=\"MsoNoSpacing\">\u00a0</p> <p class=\"MsoNoSpacing\"><b><b>Rules:</b></b></p> <p>\u00a0</p> <p><b> </b></p> <p class=\"MsoNoSpacing\">In case you are a new user, you will need to first register for a CodeChef ID\u00a0<a href=\"/user/register/\">here</a>.</p> <p><b> </b></p> <p class=\"MsoNoSpacing\"><span>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. <b>In case you notice any malpractice or cheating during any contest please email us at <a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></b><br /><br />Contest problems will become visible on April 1st 2011 at 15:00 hours IST.<br /></span><span><b> </b></span></p> <p class=\"MsoNoSpacing\"><span><br />You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</span></p> <p><b> </b></p> <p class=\"MsoNoSpacing\"><b><span>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</span></b></p> <p><b> </b></p> <p class=\"MsoNoSpacing\"><span><b><span>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</span></b></span></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/APRIL11/1424957555.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "NUMGAME2": {
+            "allow_submission": false,
+            "name": "Number Game Revisited",
+            "category_name": "main",
+            "accuracy": 36.9,
+            "successful_submissions": "522",
+            "code": "NUMGAME2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SPREAD": {
+            "allow_submission": false,
+            "name": "Gravel",
+            "category_name": "main",
+            "accuracy": 8.08,
+            "successful_submissions": "181",
+            "code": "SPREAD",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "L2GRAPH": {
+            "allow_submission": false,
+            "name": "Graphs in Euclidean Space",
+            "category_name": "main",
+            "accuracy": 65.02,
+            "successful_submissions": "79",
+            "code": "L2GRAPH",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "CPOINT": {
+            "allow_submission": false,
+            "name": "Central Point",
+            "category_name": "main",
+            "accuracy": 14.41,
+            "successful_submissions": "120",
+            "code": "CPOINT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "RECTCNT": {
+            "allow_submission": false,
+            "name": "Rectangles Counting",
+            "category_name": "main",
+            "accuracy": 17.02,
+            "successful_submissions": "211",
+            "code": "RECTCNT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GENIND": {
+            "allow_submission": false,
+            "name": "Generalized Independent Sets",
+            "category_name": "main",
+            "accuracy": 5.81,
+            "successful_submissions": "24",
+            "code": "GENIND",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1302600600,
+        "current": 1537439235,
+        "freezing": 0,
+        "start": 1301650200
+    },
+    "user": {
+        "username": ""
+    }
+}

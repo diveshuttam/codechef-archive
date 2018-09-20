@@ -1,0 +1,33 @@
+{
+    "problem_code": "KGP13D",
+    "problem_author": "shangjingbo",
+    "contest_name": "ACM-ICPC Kharagpur onsite regionals 2013 : Replay",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>shangjingbo</span>",
+    "problem_name": "Building Township",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "KGP13ACM",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/graph'>graph</a>, <a class='problem-tag-small ' href='/tags/problems/kgp13acm'>kgp13acm</a>, <a class='problem-tag-small ' href='/tags/problems/shangjingbo'>shangjingbo</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A real estate company undertakes to build a large township. The work is complex and requires the company to hire different categories of highly skilled laborers at different times for different parts of the work. An analysis of the whole project showed that <b>K </b>different groups of highly skilled laborers are needed for <b>K</b> subparts of the project, each of which takes a certain number of days. \u00a0The subparts are numbered from 1 to <b>K</b>.</p>\n<p>The whole work is supervised by a consultant of the company and he can supervise only one subpart at a time, so only one group of skilled laborers is actually utilized at one time. However, it is very difficult to find skilled labor just when you need them, so in order to avoid delays due to non-availability of required labor when it is needed, the company decides to hire all skilled laborers at the start of the project itself, paying them from the beginning of the project till their subpart is done, at which time, they are let go. Each such group costs the company a certain amount of money per day from the day they are hired till the day they finish their part.</p>\n<p>The situation is compounded by the fact that some of these subparts have to be done in order. However, it is seen that any subpart can be dependent on at most one other subpart and can cause at most one other subpart to be dependent on it.</p>\n<p>What is the minimum total amount the company has to pay to the laborers?</p>\n<h3>Input</h3>\n<p>The first line contains the number of test cases <b>N</b>.</p>\n<p>For each test case, first line contains the number of subparts <b>K</b>. Second line contains a sequence of <b>K </b>integers indicating the number of days required to finish each subpart. Third line contains a sequence of <b>K</b> integers indicating the hiring cost per day for the labor group needed for each subpart. The fourth line contains an integer <b>D</b> indicating the number of pairs of subparts where one subpart is dependent on the other. This is followed by <b>D</b> lines, each of which contains two integers<b> x</b> and <b>y</b> (in that order), where subpart <b>y</b> depends on subpart <b>x</b> (i.e., <b>y</b> can start only after <b>x</b> has finished).</p>\n<h3>Output</h3>\n<p>For each test case, print the case number, followed by a colon, followed by a single space, followed by a single integer indicating the total labor cost paid by the company.</p>\n<h3>Constraints</h3>\n<p>0 &lt; <b>N</b> &#8804; 3</p>\n<p>0 &lt; <b>K</b> &#8804; 200</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n5\n21 27 12 33 5\n100 200 50 25 75\n3\n1 2\n3 5\n5 4\n4\n10 10 10 10\n40 30 20 10\n0\n\n<b>Output:</b>\nCase 1: 21125\nCase 2: 2000\n\n</pre>",
+    "category_name": "main",
+    "date_added": "18-12-2013",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "3",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/KGP13D",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1388233800,
+        "end_date": 1388251800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1388251800,
+        "submit_start_date": 1388233800,
+        "current": 1537437946
+    },
+    "user": {
+        "username": ""
+    }
+}

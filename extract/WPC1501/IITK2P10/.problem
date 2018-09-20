@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><font size = 2></font></p>\n<p>Chef was feeling bored so he decided to create a pattern to play with. His pattern always has 1  as its first element. Then he chooses a number <b>K</b> as the second element. After selecting K as his second number he creates next element in the pattern by multiplying all previously existing elements of the pattern.\n</p>\n<p>Now he asks for your help to find the <b> Nth </b> element in his pattern. As his number can be very large, so output modulo 10<sup>9</sup> + 7.\n</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.\n</li>\n<li>The only line of each test case contains two space separated integers <b>K</b> and <b> N </b> as described in the problem statement.\n</li></ul>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing the answer to the corresponding test case.</li>\n</ul>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100,000</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1,000,000,000(10<sup>9</sup>)</b></li>\n<li><b>1</b> \u2264 <b>K</b> \u2264 <b>100,000</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2 2\n3 4\n<b>Output:</b>\n2\n9\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-01-2015",
+    "is_direct_submittable": false,
+    "contest_name": "IIT Kanpur, Monthly Programming Contest 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1421847000,
+        "end_date": 1421868600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1421868600,
+        "submit_start_date": 1421847000,
+        "current": 1537436961
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>triveni</span>",
+    "problem_name": "Chef and Pattern",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/triveni'>triveni</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "triveni",
+    "contest_code": "WPC1501",
+    "max_timelimit": "1",
+    "problem_code": "IITK2P10"
+}

@@ -1,0 +1,107 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "BCRR2018",
+    "duration": "180",
+    "name": "BUET CSE 17 Reception Contest (Replay)",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<h4>About the Contest:</h4>\r\n<ul class=\"last\">\r\n<li> <strong>Organiser: </strong> The contest is hosted by       <span style=\"font-family: arial, sans, sans-serif; white-space: pre-wrap;\">BUET</span>. </li>\r\n<li> <strong>Prizes: </strong>Not declared</li>\r\n<li> <strong>Registrations for prizes: </strong>NA </li>\r\n<li><strong>Event page: </strong>https://www.facebook.com/events/1677735278947082/</li>\r\n</ul>\r\n<h4>Contest Details:</h4>\r\n<ul class=\"last\">\r\n<li> <strong>Duration: </strong>3 hours </li>\r\n<li> <strong>Start time: </strong>26th April 2018, 20:30 hrs IST </li>\r\n<li> <strong>End time: </strong>26th April 2018, 23:30 hrs IST <br />You may check your timezone       <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+BUET+CSE+17+Reception+Contest+%28Replay%29&amp;iso=20180426T2030&amp;p1=44&amp;ah=3\" target=\"_blank\">here</a>.</li>\r\n</ul>\r\n<h4>Registration:</h4>\r\n<p class=\"last\">You just need to have a CodeChef username to participate. No seperate registration is required. If you do not have a CodeChef    ID create one    <a href=\"../user/register\" target=\"_blank\"> here</a>.</p>\r\n<h4>Eligibility Criteria: Anyone with a knack for Programming :P</h4>\r\n<p class=\"last\">Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to    <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct.</a></p>\r\n<h4>Rules and Regulations:</h4>\r\n<ul class=\"last\">\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying       the problem statement is ok. If you are unsure, email us at       <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com </a>. </li>\r\n<li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead       to disabling of respective account and banning from the community. </li>\r\n<li>Almost all languages supported on CodeChef are allowed.</li>\r\n<li>Each program will be tested based on our critical test data. However output and input should be exactly as specified       in the samples provided</li>\r\n</ul>\r\n<h4>Judging Criteria:</h4>\r\n<ul>\r\n<li> <strong>All the problems have same points alloted to them.</strong> </li>\r\n<li> <strong>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending       order of time</strong> </li>\r\n<li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the       time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes       for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error). There is no       time consumed for a problem that is not solved. </li>\r\n<li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li>\r\n<li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li>\r\n</ul>\r\n<p><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched    <a href=\"../ide\" target=\"_blank\">Online IDE</a>.</strong> However, if you are using any other online development environment, make sure that other contestants don't have access to    your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you    use Ideone, make sure to mark your submission \"private\" (not secret)\".</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/BCRR2018/1524734322.png",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "HLPCRUSH": {
+            "allow_submission": false,
+            "name": "Helping Out Crush",
+            "category_name": "main",
+            "accuracy": 35.56,
+            "successful_submissions": "32",
+            "code": "HLPCRUSH",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "HACKRMAN": {
+            "allow_submission": false,
+            "name": "Hackerman",
+            "category_name": "main",
+            "accuracy": 27.78,
+            "successful_submissions": "5",
+            "code": "HACKRMAN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ATDSHT": {
+            "allow_submission": false,
+            "name": "Attendence Sheet",
+            "category_name": "main",
+            "accuracy": 35.25,
+            "successful_submissions": "128",
+            "code": "ATDSHT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "VYREVY": {
+            "allow_submission": false,
+            "name": "vyrevy-array",
+            "category_name": "main",
+            "accuracy": 33.33,
+            "successful_submissions": "9",
+            "code": "VYREVY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MARRIAGE": {
+            "allow_submission": false,
+            "name": "Boring Marriage",
+            "category_name": "main",
+            "accuracy": 75.19,
+            "successful_submissions": "446",
+            "code": "MARRIAGE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TOINF": {
+            "allow_submission": false,
+            "name": "To Infinity And Beyond",
+            "category_name": "main",
+            "accuracy": 16.8,
+            "successful_submissions": "21",
+            "code": "TOINF",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LUVNUM": {
+            "allow_submission": false,
+            "name": "Lover Numbers",
+            "category_name": "main",
+            "accuracy": 19.71,
+            "successful_submissions": "65",
+            "code": "LUVNUM",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1524765600,
+        "current": 1537432516,
+        "freezing": 0,
+        "start": 1524754800
+    },
+    "user": {
+        "username": ""
+    }
+}

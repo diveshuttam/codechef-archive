@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p style=\"text-align:justify;\">\nAlice and Bob are a paranoic couple who wants to hold a remote conversation using a chat client. However, they do not like the existent ones (e.g. gtalk, MSN, Facebook chat, etc.), as they think that there might be hidden backdoors in them that allows spies to read their conversations about their never ending love.</p>\n\n<p style=\"text-align:justify;\">\nLast week, they decided to build their unique chat client, called ABmod, which will encode their messages using a symmetric approach. First, Alice and Bob will choose a public prime integer P and exchange a private key composed of two integers A and B, here 0 <= A,B < P. <br>To encode a message X they will apply the following function: </p>\n<b>f(X) = (A x X + B) mod P</b>\n<p style=\"text-align:justify;\">\nwhere C mod M is the remainder of dividing C between M. This operator satisfy the following properties (among others not mentioned here):</p>\n<ul>\n<li>(A + B) mod M = ((A mod M) + (B mod M)) mod M</li>\n<li>(A x B) mod M = ((A mod M) x (B mod M)) mod M</li>\n</ul>\n\n<p style=\"text-align:justify;\"><br>\nEve is in a crush for Bob and wants to spy and interfere his conversation with Alice. To do this, Eve managed to intercept N messages in their plain and encoded forms. Now, she wants\nto deduce the private key (A,B) to send fake encoded messages to Alice pretending she is Bob. However, she has no idea of how to do it, so she is asking for your help in this task.</p>\n\n<h3>Input</h3>\n<p style=\"text-align:justify;\">\nThe first line contains an integer T, which specifies the number of test cases. Then, T test case descriptions will follow.</p>\n\n<p style=\"text-align:justify;\">\nEach test case will start with a line with two positive integers, N and P, whose meanings were described previously. The next N lines will contain each 2 integers X<sub>i</sub> and Y<sub>i</sub>, which represents an intercepted message whose plain form is X<sub>i</sub> and encoded form is Y<sub>i</sub>.</p>\n\n<h3>Output</h3>\n<p style=\"text-align:justify;\">\nFor each input case you must print the string \"Case #i: \", where i is the test case number, starting from 1, followed by the number A and B that compose the private key. If there multiple valid keys, print \"MULTIPLE SOLUTIONS\" instead. If there are no valid keys, print\n\"NO SOLUTIONS\" instead.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input</b>\n4\n2 5\n3 0\n1 4\n1 13\n0 12\n2 2\n0 0\n0 1\n4 97\n0 13\n1 46\n2 79\n3 15\n\n<b>Output</b>\nCase #1: 3 1\nCase #2: MULTIPLE SOLUTIONS\nCase #3: NO SOLUTIONS\nCase #4: 33 13\n</pre>\n\n<h3>Constraints</h3>\n<p style=\"text-align:justify;\">\n<ul>\n<li>T will be between 1 and 1000, inclusive.</li>\n<li>P will be a prime number.</li>\n<li>P will be between 2 and 10<sup>6</sup>, inclusive.</li>\n<li>N will be between 1 and 100, inclusive.</li>\n<li>X<sub>i</sub> and Y<sub>i</sub> will be between 0 and P-1, inclusive, for all i between 1 and N, inclusive.</li>\n</ul>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-09-2010",
+    "is_direct_submittable": false,
+    "contest_name": "IIIT - A , Alkhwarizm 2010",
+    "languages_supported": "C",
+    "todo": false,
+    "time": {
+        "view_start_date": 1285939800,
+        "end_date": 1285957800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1285957800,
+        "submit_start_date": 1285939800,
+        "current": 1537439515
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>divij</span>",
+    "problem_name": "Modular Enigma",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/divij'>divij</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "divij",
+    "contest_code": "ALKH10",
+    "max_timelimit": "0.110588",
+    "problem_code": "MDLREN"
+}

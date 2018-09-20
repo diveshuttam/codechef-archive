@@ -1,0 +1,77 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "DMNT2016",
+    "duration": "150",
+    "name": "DEMENTIA 16",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": " <p><strong class=\"rules-heading\">About the Contest:</strong></p> <div class=\"rules-body\"> <ul class=\"\"> <li><strong>Organiser: </strong> The contest is hosted by Indian Institute of Technology, Mandi under the Codechef Campus Chapter - KamandPrompt.</li> <li><strong>Prizes: </strong>Worth INR 7,000 for Indian winners, and INR 3,000 for IIT Mandi winners.</li> <li><strong>Registrations for prizes: </strong><a target=\"_blank\" href=\"http://goo.gl/forms/yZ0jlynhvo\"><span>http://goo.gl/forms/yZ0jlynhvo</span></a></li> <li><strong>Event Details: </strong><a target=\"_blank\" href=\"https://www.facebook.com/events/920007158116591/\"><span>https://www.facebook.com/events/920007158116591/</span></a><strong><br /></strong></li> </ul> </div> <p><strong class=\"rules-heading\">Contest Details:</strong></p> <div class=\"rules-body\"> <ul class=\"\"> <li><strong>Duration: </strong>2.5 hours</li> <li><strong>Start time: </strong>7th April \u00a02016, 21:30 hrs IST</li> <li><strong>End time: </strong>8th April 2016, 00:00 hrs IST<br />You may check your timezone <a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+DMNT2016&amp;iso=20160407T2130&amp;p1=44&amp;ah=2&amp;am=30\">here</a>.</li> </ul> </div> <p><strong class=\"rules-heading\">Registration:</strong></p> <p><span class=\"rules-heading\">For Prizes, register here - <a target=\"_blank\" href=\"http://goo.gl/forms/yZ0jlynhvo\">http://goo.gl/forms/yZ0jlynhvo</a></span><strong class=\"rules-heading\"><br /></strong></p> <div class=\"rules-body\"> <p>For participation,<strong> </strong>you just need to have a CodeChef username to participate. No seperate registration is required. If you do not have a CodeChef ID create one <a target=\"_blank\" href=\"/user/register\"> here</a>.</p> </div> <p><br /> <strong class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</strong></p> <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct.</a></p> </div> <p><br /> <strong class=\"rules-heading\">Rules and Regulations:</strong></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\"> feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li> <li>Please contact <a target=\"_blank\" href=\"mailto:sahilarora.535@gmail.com\">sahilarora.535@gmail.com</a> for any queries during the contest.</li> </ul> <p><strong class=\"rules-heading\">Judging Criteria:</strong></p> <ul class=\"\"> <li><strong>All the problems have same points allotted to them.</strong></li> <li><strong>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time</strong></li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error). There is no time consumed for a problem that is not solved.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> </ul> <div class=\"\"><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a target=\"_blank\" href=\"/ide\">Online IDE</a>.</strong><br />However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/DMNT2016/1459544821.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "POMUSE": {
+            "allow_submission": false,
+            "name": "Po and Cleaning the Museum",
+            "category_name": "main",
+            "accuracy": 17.17,
+            "successful_submissions": "17",
+            "code": "POMUSE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SHISTR": {
+            "allow_submission": false,
+            "name": "Shifu and Strings",
+            "category_name": "main",
+            "accuracy": 17.56,
+            "successful_submissions": "65",
+            "code": "SHISTR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "POFACT": {
+            "allow_submission": false,
+            "name": "Po and Factorials",
+            "category_name": "main",
+            "accuracy": 20.8,
+            "successful_submissions": "152",
+            "code": "POFACT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DDCC": {
+            "allow_submission": false,
+            "name": "Daddy and Chocolates",
+            "category_name": "main",
+            "accuracy": 11.26,
+            "successful_submissions": "22",
+            "code": "DDCC",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1460053800,
+        "current": 1537434989,
+        "freezing": 0,
+        "start": 1460044800
+    },
+    "user": {
+        "username": ""
+    }
+}

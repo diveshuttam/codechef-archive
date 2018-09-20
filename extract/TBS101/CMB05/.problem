@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nSome of the secret doors contain a very interesting word puzzle. The team of archaeologists has\n\nto solve it to open that doors. Because there is no other way to open the doors, the puzzle is\n\nvery important for us.\n\n\n\nThere is a large number of magnetic plates on every door. Every plate has one word\n\nwritten on it. The plates must be arranged into a sequence in such a way that every\n\nword begins with the same letter as the previous word ends. For example, the word\n\n'annum'can be followed by the word 'motorola'. Your task is to write a computer program \n\nthat will read the list of words and determine whether it is possible to arrange all of \n\nthe plates in a sequence (according to the given rule) and consequently to open the door.\n\n\n<h3>Input</h3>\n<p>\nThe input consists of T test cases. The number of them (T, equal to about 500) is\n\ngiven on the first line of the input file. Each test case begins with a line containing \n\na single integer number N that indicates the number of plates (1 <= N <= 100000). \n\nThen exactly N lines follow, each containing a single word. Each word contains at least \n\ntwo and at most 1000 lowercase characters, that means only letters 'a' through 'z' will \n\nappear in the word. The same word may appear several times in the list.\n\n\n<h3>Output</h3>\n<p>\nYour program has to determine whether it is possible to arrange all the plates in a \n\nsequence such that the first letter of each word is equal to the last letter of the \n\nprevious word. All the plates from the list must be used, each exactly once. The words\n\nmentioned several times must be used that number of times.If there exists such an \n\nordering of plates, your program should print the sentence \"Ordering is possible.\". \n\nOtherwise, output the sentence \"The door cannot be opened.\".\n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n2\nannum\nnoone\n\n<b>Output:</b>\nThe door cannot be opened.\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Technical Blitzschlag",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1264876200,
+        "end_date": 1264962600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180170,
+        "submit_start_date": 1264876200,
+        "current": 1537439764
+    },
+    "problem_author_html_handle": "vishesh_sigma",
+    "problem_name": "Problem 5",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vishesh_sigma'>vishesh_sigma</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vishesh_sigma",
+    "contest_code": "TBS101",
+    "max_timelimit": "50",
+    "problem_code": "CMB05"
+}

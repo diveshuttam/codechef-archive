@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n<p>\nAppu recently went trekking with her friends. During the trek, she saw a strange kind of tree in the middle of the forest. It can be described as follows - <br><br>\nA Binary Search Tree, is a node-based binary tree data structure which has the following properties:<br><br>\n\nThe <b>left subtree</b> of a node contains only nodes with keys <b>less than the node\u2019s key</b>.<br>\nThe <b>right subtree</b> of a node contains only nodes with keys <b>greater than the node\u2019s key</b>.<br>\nThe left and right subtree each must also be a binary search tree.\nThere must be <b>no duplicate nodes</b>.\n<br><br>\n\nTo insert a given node in Binary Search Tree, we first compare it with root. If key is greater than root\u2019s key, we recur for right subtree of root node. Otherwise we recur for left subtree. Once a leaf node is found, the new node is added as a child of the leaf node.<br><br>\n\nIntrigued by the tree, Appu decided to solve a problem concerning it.\n\nThe Binary Search Tree she saw is of size <b>n</b> rooted at <b>R</b>, which contains all numbers in the range [<b>1,n</b>] (Both inclusive).\n\n<br>\nHelp Appu find the different number of permutations of first <b>n</b> natural numbers which are <b>compatible</b> with given Binary Search Tree.<br>\n\nA permutation is said to be <b>compatible</b> with given BST if it constructs the same BST when nodes are inserted to an empty BST according to the permutation ordering.\n</p>\n<p> </p>\n\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>n</b> denoting the size of the array.The second line of the input contains an integer <b>R</b> denoting the root of the Binary Search Tree.Next <b>n-1</b> lines contain 2 space saperated integers <b>u, v</b> denoting the edge (<b>u->v</b>) of the tree.\n\n<p> </p>\n\n<h3>Output</h3>\n<p> Output a single integer corresponding to the number of different ways of constructing the given Binary Search Tree (modulo <b>10<sup>9</sup>+7</b>).</p>\n<p> </p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>R</b> \u2264 <b>n</b></li>\n<li><b>1</b> \u2264 <b>u</b> \u2264 <b>n</b></li>\n<li><b>1</b> \u2264 <b>v</b> \u2264 <b>n</b></li>\n\n</ul>\n<p> </p>\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n2\n2 1\n2 3\n\n<b>Output:</b>\n2\n</pre>\n<p> </p>\n<h3>Explanation</h3>\n\tIf the elements are added to an empty BST in the order according to the permutations [2,1,3] and [2,3,1],they construct the given Binary Search Tree.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "NPL Qualifier",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1508596200,
+        "end_date": 1508607000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1508607000,
+        "submit_start_date": 1508596200,
+        "current": 1537433431
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>vinod10</span>",
+    "problem_name": "Compatible Sequences",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vinod10'>vinod10</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vinod10",
+    "contest_code": "NPLQ2017",
+    "max_timelimit": "1",
+    "problem_code": "NPL1701D"
+}

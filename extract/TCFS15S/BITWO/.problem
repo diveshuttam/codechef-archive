@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Tanu's favourite number is 2. He only likes number made entirely of 2, like 2,22,222,2222,22222, etc. So much so that he is willing to change base of the number from 10 to a different one to make it entirely of 2s.</p>\n<p>Now he wants to know which numbers are made entirely of 2s in atleast 2 different bases. Can you help him?</p>\n<h3>INPUT</h3>\n<p>First line contains Q, number of testcases. Then Q lines follow.<br />Each testcase is represented by two integers A and B.</p>\n<h3>OUTPUT</h3>\n<p>For each query, print a single line containing the number of integers in the inclusive range [A,B] that are made entirely of 2s in atleast 2 different bases.</p>\n<h3>CONSTRAINTS</h3>\n<pre>1\u2264Q\u226410<sup>5</sup><br />1\u2264A,B\u226410<sup>12</sup></pre><h3>SAMPLE INPUT</h3>\n<pre>2<br />1 42<br />2 2</pre><h3>SAMPLE OUTPUT</h3>\n<pre>3<br />1</pre><h3>SAMPLE EXPLANATION</h3>\n<p>First three number of the given type are 2, 26 and 42. Thus the range [1,42] has 3 and range[2,2] has 1 such integers.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-09-2014",
+    "is_direct_submittable": false,
+    "contest_name": "TechFest 2015, Screening round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1413124200,
+        "end_date": 1413140400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1724129868,
+        "submit_start_date": 1413124200,
+        "current": 1537437346
+    },
+    "problem_author_html_handle": "techfest2k15",
+    "problem_name": "BITWO",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/techfest2k15'>techfest2k15</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "techfest2k15",
+    "contest_code": "TCFS15S",
+    "max_timelimit": "1",
+    "problem_code": "BITWO"
+}

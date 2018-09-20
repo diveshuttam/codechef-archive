@@ -1,0 +1,33 @@
+{
+    "problem_code": "ACM14KN4",
+    "problem_author": "admin",
+    "contest_name": "ACM-ICPC Asia-Kanpur Site First Round Online Contest 2014",
+    "todo": false,
+    "problem_author_html_handle": "admin",
+    "problem_name": "The Problem Set",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ACMKAN14",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acmkan14'>acmkan14</a>, <a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>, <a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/segment-tree'>segment-tree</a>",
+    "body": "<p>As we all know that team LaZyProblemSetters is gearing up for ICPC 2015 and have finally reached in front of a computer together to solve a problem set. Since they have already wasted too much time procrastinating, they have decided to manage the problem set with more caution. They are now ordering the problems according to their difficulty levels instead of solving all the easy problems as they used to do earlier.\n</p>\n<p>\nFor this practice round, everybody has pitched in a few problems of their choice. So in the end, they have a set of <b>N</b> problems ordered as P<sub>1</sub>, ..., P<sub>N</sub>, where P<sub>i</sub> denotes the i<sup>th</sup> problem. For each problem that was brought in by any team member, he assigned an integer D<sub>i</sub> which according to him is the difficulty level of that problem.\n</p>\n<p>\nThe difficulty level assigned to a problem is exactly the number of time units one expects to solve that particular problem. However, as we all know, that assigning difficulty to a problem is really subjective and the assigned difficulty level of the problem may change when all the three team members look at that problem. Since, they are busy solving the problem, they have asked you to help in giving them the information they need about the problem set.\n</p>\n<p>Following is the list of all of their requirements, for which they need your help:<br />\n<br /></p>\n<ol>\n<li> Update the difficulty level of a problem.</li>\n<li> Tell them the difficulty level of the most difficult problem in the problem set.</li>\n<li> The total time it would take them to solve a set of problems.</li>\n<li> Whether a list of consecutive problems are in some order of difficulty.\n<ul>\n<li>P<sub>x</sub> to P<sub>y</sub> are in increasing order of difficulty if D<sub>x</sub>\u2264 D<sub>x+1</sub>\u2264 ... \u2264 D<sub>y</sub></li>\n<li>P<sub>x</sub> to P<sub>y</sub> are in decreasing order of difficulty if D<sub>x</sub>\u2265 D<sub>x+1</sub>\u2265 ... \u2265 D<sub>y</sub></li>\n</ul>\n</li>\n</ol>\n\n<p>To make it easier, faster and accurate, they have decided to communicate with you as follows:<br />\n<br /></p>\n<ol>\n<li> <b>U x d</b><br />\nThe difficulty level of the problem P<sub>x</sub> has been updated to <b>d</b>. Hence D<sub>x</sub> = d.\n</li>\n<li><b>M x y</b><br />\nWhat is the difficulty level of the most difficult problem in range P<sub>x</sub>, ..., P<sub>y</sub>.\n</li>\n<li><b>S x y</b><br />\nHow much total time it would take them to solve all the problems in range P<sub>x</sub>, ..., P<sub>y</sub>.\n</li>\n<li><b>I x y</b><br />\nWhether the problems in range P<sub>x</sub>, ..., P<sub>y</sub> are in increasing order of difficulty. Print 1 if they are, 0 otherwise.</li>\n<li><b>D x y</b><br />\nWhether the problems in range P<sub>x</sub>, ..., P<sub>y</sub> are in decreasing order of difficulty. Print 1 if they are, 0 otherwise.</li>\n</ol>\n\n<h3>Input</h3>\n<p>First line will have two space separated integers <b>N</b> and <b>M</b> denoting the number of problems and the number of operations that you are asked to perform for the LaZyProblemSetters.<br />\nNext line will have <b>N</b> space separated integers where the i<sup>th</sup> integer denotes D<sub>i</sub>.<br />\nNext <b>M</b> lines will each represent one of the five operations mentioned above in the form <b>U x d</b> or <b>O x y</b> where <b>O</b> is from the set <b>{M,S,I,D}</b>.\n</p>\n<h3>Output</h3>\n<p>Print one line with the answer corresponding to each operation of the form <b>O x y</b> where <b>O</b> is from the set <b>{M,S,I,D}</b>.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b> 1 </b> \u2264 <b> x </b> \u2264 <b> y</b> \u2264 <b> N </b> \u2264 <b> 10<sup>5</sup></b> </li>\n<li><b> 1 </b> \u2264 <b> M </b> \u2264 <b> 5*10<sup>5</sup> </b></li>\n<li><b> 1 </b> \u2264 <b> D<sub>i</sub>, d</b> \u2264 <b> 10<sup>9</sup> </b></li>\n<li><b> O is a character from {M,S,I,D} </b> </li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5 7\n1 2 4 5 10\nS 1 5\nS 1 4\nM 1 5\nI 2 4\nU 2 11\nM 1 5\nD 3 4\n\n<b>Output:</b>\n22\n12\n10\n1\n11\n0\n</pre><p>\n<b>Note: Large I/O, be careful with certain languages</b></p>\n",
+    "category_name": "main",
+    "date_added": "4-10-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA",
+    "max_timelimit": "3",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/ACM14KN4",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1414830600,
+        "end_date": 1414837800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1725832606,
+        "submit_start_date": 1414830600,
+        "current": 1537437278
+    },
+    "user": {
+        "username": ""
+    }
+}

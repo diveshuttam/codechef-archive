@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\u00a0</p>\n<p>Gaurav has a box of infinte capacity containing infinite \"sandwiches\". His friend has N boxes, each numbered as 1,2,3....N, all of capacity N each. His task is to distribute the items from the infinite box into these N boxes such that no 2 boxes have the same number of items and every box is filled, i.e. non empty. <br>Also, an even numbered box cannot have even number of \"sandwiches\", and an odd numbered box cannot have odd number of \"sandwiches\". <br>\nHelp him find the total number of \"sandwiches\" together in all after the distribution.\n</p>\n\n<h3>Input</h3>\n<p>First line contains an integer <b>T</b> denoting number of test cases.<br>\nEach test case contains one line denoting number of boxes, <b>N</b>.<br>\n<b>N</b> is guaranteed an even number.\n</p>\n\n<h3>Output</h3>\n<p>Output the total number of \"sandwiches\" after the required distribution.\n</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^9</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n4<br>\n<b>Output:</b>\n10\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-02-2017",
+    "is_direct_submittable": false,
+    "contest_name": "National Computing Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1488297600,
+        "end_date": 1488309300,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1799372491,
+        "submit_start_date": 1488297600,
+        "current": 1537434077
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>abizerl123</span>",
+    "problem_name": "Box Distribution",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abizerl123'>abizerl123</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abizerl123",
+    "contest_code": "NCC2017",
+    "max_timelimit": "1",
+    "problem_code": "BXDIST"
+}

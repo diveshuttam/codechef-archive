@@ -1,0 +1,33 @@
+{
+    "problem_code": "BYTES14",
+    "problem_author": "arpitdec5",
+    "contest_name": "BYTES",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>arpitdec5</span>",
+    "problem_name": "Rohan And His House",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": null,
+    "contest_code": "BYTE2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/arpitdec5'>arpitdec5</a>, <a class='problem-tag-small ' href='/tags/problems/bytes2016'>bytes2016</a>, <a class='problem-tag-small ' href='/tags/problems/dp+probability'>dp+probability</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p><b>Problem description.</b></p>\n<p>Today Rohan lost his way back to home in the woods . He wants to go back to his home . He is n distance away from his home . He can reach his way back by jumping through the woods .<br /><br /><br />\nHe can make either a 2 distance jump or a 3 distance jump . He will make a 2 distance jump with probability p , else he will make a 3 distance jump . What is the expected time for Rohan to reach his home , if each jump takes 2 sec time .<br /><br /><br />\nPS. He can also cover distance greater than n through his jumps i.e., if he covers distance greater than n or equal to n , in both the cases it is considered as he has reached his home .<br /><br /><br />\n\u00a0</p>\n<h3>Input</h3>\n<p><br /></p>\n<p>First line of input is the number of test cases <b>t </b> .  For each test case ,next line contains 2 integers <b>n </b> and <b>p</b> . <br /></p>\n<h3>Output</h3>\n<p><br /></p>\n<p>Only one line per test case, the answer to the question ( rounded off  to <b>exactly</b> two decimal places).<br /></p>\n<p><b>CONSTRAINTS:</b><br /><br /><br />\n1&lt;=t&lt;=100 , 1&lt;= n &lt;=100000 , 0 &lt;= p &lt;= 1.\n</p>\n<p><b> SAMPLE </b><br /><br /><b>INPUT </b><br /><br />\n1<br />3 0.00<br /><br /><br />\n<b>OUTPUT</b><br /><br />\n2.00<br />\n</p>\n",
+    "category_name": "main",
+    "date_added": "26-01-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/BYTES14",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1454859000,
+        "end_date": 1454869800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454869800,
+        "submit_start_date": 1454859000,
+        "current": 1537435500
+    },
+    "user": {
+        "username": ""
+    }
+}

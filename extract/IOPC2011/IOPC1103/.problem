@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Prashant thinks that the number 142857 is magical. When he multiplies the number with 2, he gets 285714 which is a permutation of the digits of the original number. On multiplying with 3,4,5 and 6 too he observes a similar behaviour.\n\n<p>Now Prashant wants to find out truly magical numbers. A truly magical number of order N is a number P with the following properties:\n<ul>\n<li> P should have N digits and the first digit should be non-zero\n<li> On multiplying the number with any i such that 1<=i<=k, the result should be a permutation of the digits of P\n<li> There should not exist any N digit number Q (without leading zeros) with the property that for all i such that 1<=i<=k+1, Q*i is a permutation of digits of Q (Here k has the same value as in the previous point)\n<li> N should not have consecutive zero digits anywhere\n</ul>\n\n<p><p>It is easily seen that P=142857 is indeed a truly magical number of order 6. P has no leading zeros or consecutive zeros appearing anywhere. For 1<=i<=6, P*i is a permutation of digits of P. Also, there does not exist any number Q such that for all 1<=i<=7, Q*i is a permutation of digits of Q.\n\n<p>Given an integer N, find a truly magical number of order N. Note that for certain values of N there may be more than one truly magical number of order N. In such a case, it is enough to output any one of the truly magical numbers of order N.\n\n<h3>Input</h3>\n<p>The first line of input contains an integer T (<=100), the number of test cases to follow.\n<p>Following this are T lines, each containing an integer N, 250<=N<=40000\n\n<h3>Output</h3>\n<p>Output T lines, each containing a truly magical number of order N\n\n<h3>Example</h3>\n<p>The input limits are such that an example cannot be shown here. However, to explain the formatting of the input and output, we show here a sample case that has N outside the input limit range\n\n<pre>\n<b>Input:</b>\n2\n2\n6\n\n<b>Output:</b>\n13\n142857\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "IIT Kanpur IOPC 2011",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1297492200,
+        "end_date": 1297578600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1297578600,
+        "submit_start_date": 1297492200,
+        "current": 1537439381
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>razimantv</span>",
+    "problem_name": "Truly magical numbers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/razimantv'>razimantv</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "razimantv",
+    "contest_code": "IOPC2011",
+    "max_timelimit": "3",
+    "problem_code": "IOPC1103"
+}

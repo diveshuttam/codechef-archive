@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Ravi just started a factory of fountain pens. Every pen has a production number on it. He considers a pen as lucky if the difference between the sum of digits at even place and sum of digits at odd place of the production number of pen is a positive multiple of 3 or 5 or 7. (indexing starts from the unit's place, with unit's place location being 1, ten's place as 2, hundred's place as 3 and so on)\n\nFor e.g. ... for 19520\n\ndigits at even location 9, 2\n\ndigits at odd location 1, 5, 0\n\ndiff = (9+2)-(1+5+0) = 5 ... a positive multiple of 5 ... similarly for 3, 7\n\nTherefore, pen with 19520 as its production number is a lucky pen.\u00a0\n\nRam, the business partner of Ravi wanted to gift a bunch of pens to him on his birthday. So he wanted to know how many lucky pens will be produced in the next production batch. Production numbers of pens are given using consecutive integers in a range. Given two integers starting production number '**a**' and ending production number '**b**', help Ram find the number of luck pens contained in the range \\[**a**, **b**\\] (**a**, **b** both inclusive).\n\n**Input**:\n\nFirst line will have a number '**t**' denoting the number of test cases.\n\nEach line of test case will have 2 numbers '**a**' and '**b**', the starting production number and the ending production number\n\n**t** &lt;= 200\n\n1 &lt;= **a**,**b** &lt;= 10^9\n\n**Output**:\n\nPrint a single integer on each line, denoting the count of lucky pens in the range \\[**a**, **b**\\].\n\n**Examples**:\n\nInput-\n\n1\n\n1 50\n\nOutput-\n\n3\n\nExplanation: 3 lucky pen numbers are 30, 41, 50\n\nInput-\n\n1\n\n50 70\n\nOutput-\n\n6\n\nExplanation: 6 lucky pen numbers are 50, 52, 60, 61, 63, 70",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "CodeAthon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1534060800,
+        "end_date": 1534075200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1534075200,
+        "submit_start_date": 1534060800,
+        "current": 1537432162
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>herambpatil98</span>",
+    "problem_name": "Special Pens",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/herambpatil98'>herambpatil98</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "herambpatil98",
+    "contest_code": "COAT2018",
+    "max_timelimit": "1",
+    "problem_code": "SPCLPN"
+}

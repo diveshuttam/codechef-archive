@@ -1,0 +1,33 @@
+{
+    "problem_code": "FUNFUN",
+    "problem_author": "gvaibhav21",
+    "contest_name": "Insomnia 2018 (Rated)",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #D0011B;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>7&#9733;</span><span>gvaibhav21</span>",
+    "problem_name": "Function Function",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "INSO2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/gvaibhav21'>gvaibhav21</a>, <a class='problem-tag-small ' href='/tags/problems/inso2018'>inso2018</a>, <a class='problem-tag-small ' href='/tags/problems/insomnia18'>insomnia18</a>, <a class='problem-tag-small ' href='/tags/problems/pag'>pag</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nConsider a bijective function $\u0192$\n$$\nf: {1, 2, 3, \\dots, n} \\rightarrow {1, 2, 3, \\dots, n}\n$$\n</p>\n\n<p>\nWe have $M$  different color. We have to associate a color to every $x \\in {1, 2, 3, ... n}$ with one of the color such that $x$ and$\u0192(\u0192(x))$ has same  color .\n</p>\n\nLet <b>G</b> be an array, where <b>G[x] = pair(\u0192[x], color[x])</b>. <br>\nFind the number of distinct arrays <b>G</b> modulo 1000000007.<br>\n\n<h3>Input Format:</h3>\nFirst and the only line of the input, contains 2 space seperated intergers <b>N</b> and <b>M</b>.\n<br>\n\n<h3>Output Format:</h3>\nPrint single integer, i.e, number of distinct arrays <b>G</b> modulo 1000000007.\n<br>\n\n<h3>Constraints:</h3>\n<ul>\n<li>1<= <b>N</b> <= 2000<br></li>\n<li>1<= <b>M</b> <= 2000<br></li>\n</ul>\n<p></p>\n\n<h3>Sample Input 1:</h3>\n2 2<br>\n\n<h3>Sample Output 1:</h3>\n8<br>\n\n<h3>Explanation:</h3>\nCase 1:<br>\n<ul>\n<li>G[1] = (1, 1)<br></li>\n<li>G[2] = (2, 1)<br><br></li>\n</ul>\nCase 2:<br>\n<ul>\n<li>G[1] = (1, 2)<br></li>\n<li>G[2] = (2, 2)<br><br></li>\n</ul>\nCase 3:<br>\n<ul>\n<li>G[1] = (1, 1)<br></li>\n<li>G[2] = (2, 2)<br><br></li>\n</ul>\nCase 4:<br>\n<ul>\n<li>G[1] = (1, 2)<br></li>\n<li>G[2] = (2, 1)<br><br></li>\n</ul>\nCase 5:<br>\n<ul>\n<li>G[1] = (2, 1)<br></li>\n<li>G[2] = (1, 1)<br><br></li>\n</ul>\nCase 6:<br>\n<ul>\n<li>G[1] = (2, 2)<br></li>\n<li>G[2] = (1, 2)<br><br></li>\n</ul>\nCase 7:<br>\n<ul>\n<li>G[1] = (2, 1)<br></li>\n<li>G[2] = (1, 2)<br><br></li>\n</ul>\nCase 8:<br>\n<ul>\n<li>G[1] = (2, 2)<br></li>\n<li>G[2] = (1, 1)<br><br></li>\n</ul>\n\n<h3>Sample Input 2:</h3>\n3 2<br>\n\n<h3>Sample Output 2:</h3>\n36<br>",
+    "category_name": "main",
+    "date_added": "21-03-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/FUNFUN",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1521883800,
+        "end_date": 1521901800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1521901800,
+        "submit_start_date": 1521883800,
+        "current": 1537432764
+    },
+    "user": {
+        "username": ""
+    }
+}

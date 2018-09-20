@@ -1,0 +1,32 @@
+{
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Doctor Strange is trapped in an $N$-dimensional cage. He knows that in the $i^{th}$ dimension's the cage ranges from $a_i$ to $b_i$. Using his powers, he will try to reduce the size of the cage. Specifically, he will reduce the size of the cage in the $i^{th}$ dimension to $c_i$. However, the cage is dangerous! Strange has $S$ seconds to reduce the cage. Each second, Strange can move each face of the cage by any non-negative integer distance towards the opposing face. Each face moves independently of all the others.\n\nBeing Doctor Strange, he wants to calculate how many different ways there are to do this. Two ways are considered different if after any second the distance any face has moved is different. Find the number of different ways modulo $M$.\n\n###Input\n- The first line contains three space-separated integers, $N$, $S$, and $M$.\n- $N$ lines follow, each containing three space-separated integers - $a_i$, $b_i$ and $c_i$.\n\n###Output\n- Print a single integer, the number of different ways modulo $M$.\n\n###Constraints\n- $1 \\leq N \\leq 10^3$\n- $0 \\leq a_i \\leq b_i \\leq 10^6$\n- $0 \\leq c_i \\leq (b_i - a_i)$\n- $1 \\leq S \\leq 10^6$\n\n###Subtasks\n- For $10$ points: $N = 1, 0 \\leq a_i \\leq b_i \\leq 10, 1 \\leq S \\leq 10, M = 23$\n- For $30$ points: $M = 23$\n- For $60$ points: $M = 1901911003$\n\n###Sample Input\n1 1 23\n\n2 5 1\n\n###Sample Output\n3\n\n###Sample Explanation\nThe faces are initially at 2 and 5, and after $S = $1 seconds, they are at a distance of 1. This can be achieved in 3 ways - $(2, 3), (3, 4), (4, 5)$.",
+    "problem_tester": null,
+    "problem_status": "unattempted",
+    "is_direct_submittable": false,
+    "date_added": "8-09-2018",
+    "problem_code": "GGLSTRNG",
+    "status": "success",
+    "max_timelimit": "1",
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>ayushkmr</span>",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, PYP3, CLOJ, COB, FS",
+    "problem_tester_html_handle": "",
+    "time": {
+        "view_start_date": 1536420600,
+        "submit_start_date": 1536420600,
+        "practice_submission_allowed": true,
+        "current": 1537430937,
+        "visible_start_date": 1536431400,
+        "end_date": 1536431400
+    },
+    "category_name": "main",
+    "problem_author": "ayushkmr",
+    "source_sizelimit": "50000",
+    "contest_name": "GOOGOL V3.0",
+    "user": {
+        "username": ""
+    },
+    "contest_code": "GOV32018",
+    "todo": false,
+    "problem_name": "A Strange Conundrum",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ayushkmr'>ayushkmr</a>"
+}

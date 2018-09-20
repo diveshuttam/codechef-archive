@@ -1,0 +1,33 @@
+{
+    "problem_code": "FSSYNC",
+    "problem_author": "admin",
+    "contest_name": "ACM-ICPC Amritapuri onsite regionals 2012 : Replay",
+    "todo": false,
+    "problem_author_html_handle": "admin",
+    "problem_name": "The Loyalty of the Orcs",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ACMAMR12",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acmamr12'>acmamr12</a>, <a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><html> <body><br />\n<h1 style=\"font-family: Arial;\"><small>ACM International Collegiate     Programming Contest, Asia-Amritapuri Site, 2012</small></h1>\n<h2>The Loyalty of the Orcs<br /> </h2>\n<p> <i>'I think that the enemy brought his own enemy with him,' answered Aragorn. 'These are Northern Orcs from far away.     Among the slain are none of the great Orcs with the strange badges.     There was a quarrel, I guess: it is no uncommon thing with these foul folk. Maybe there was some dispute about the road.'</i> - Aragorn describing the nature of Orcs.<br /> <br /> Indeed, everyone knows that the Orcs are treacherous creatures who look for their own satisfaction and more often than not disregard the rules. The only way to keep them in line, is by maintaining the chain of command over a strict hierarchy among the ranks, wherein each Orc is responsible to his immediate superior all the way up to the army's head.<br /> <br /> Further, the powers that be, have decided to have regular checks of their army's loyalties, just in case some Orc has been killed and all his juniors end up turning rogue!<br /> <br /> There are <b>N</b> orcs, numbered 1 to <b>N</b>, wherein the lead orc is numbered 1.<br /> <b>Step 1.</b> Randomly choose a fixed order in which to test Orcs' loyalties.<br /> <b>Step 2.</b> Going in this order, you make a \"roll-call\" to check if the current Orc is alive or not.<br /> <b>Step 3.</b> If the current Orc is dead, then he is marked as \"deleted\".<br /> <br /> With this information, it is possible to tell which all Orcs will be loyal, and which won't be. However, cunning Master Wormtongue suggests the following optimization:<br /> In <b>step 2</b>, if any of the considered Orc's superiors (not necessarily immediate superior) is marked as deleted, then the roll-call is not made.<br /> <br /> Now, given this algorithm and the hierarchy of the army, along with which Orcs are dead, what is the expected number of roll-calls (taken over all possible orderings in <b>Step 1</b>) that you save by performing this optimization?<br /><br />\n<h3>Input (STDIN):</h3>\n</p><p> The first line contains <b>T</b>, the number of test cases.<br /> The first line of each test case contains <b>N</b>, the number of orcs in the army. The next <b>N</b>-1 lines contain two space-separated integers <b>u v</b>, denoting that <b>u</b> is the immediate superior of <b>v</b> or vice-versa. The head of the army is the orc labelled 1. The next line contains <b>m</b>, the number of dead orcs. The next line contains <b>m</b> space separated integers, which are the labels of the dead orcs.<br /><br />\n<h3>Output (STDOUT):</h3>\n</p><p> Output one real number for each test case containing the expected number of roll-calls that you save.<b> The results should be accurate within an error range of 10^-6.</b><br /><br />\n<h3>Constraints:</h3>\n</p><p> <b>1 &lt;= T &lt;= 5<br /> 1 &lt;= N &lt;= 100,000<br /> 1 &lt;= u, v &lt;= N<br /> u != v<br /> The given set of u-v pairs form a valid chain of command. That means every Orc, except the Orc labeeled 1, has exactly one immediate superior.</b><br /> <br /><br />\n<h3>Sample Input:</h3>\n</p><p> <span style=\"font-family: Courier New,Courier,monospace;\"> 2<br /> 2<br /> 1 2<br /> 1<br /> 1<br /> 2<br /> 1 2<br /> 1<br /> 2</span><br /><br />\n<h3>Sample Output:</h3>\n</p><p> <span style=\"font-family: Courier New,Courier,monospace;\"> 0.5<br /> 0</span><br /><br />\n<h3>Notes/Explanation of Sample Input:</h3>\n</p><p> For the first test case, the Orc labelled 1 is dead. The two possible orderings are [1, 2] and [2, 1]. With the optimization, for the order [1, 2], we save the roll-call to 2. So, the total number of roll-calls without the optimization is 4, and with the optimization is 3. Expected number of roll-calls is therefore, (4 - 3) / 2 = 0.5 .<br /> For the second test case, the Orc labeled 2 is dead. Since he does not have any sub-ordinates, the optimization does not have any effect.<br /> <br /> </p></body> </html> </p>\n",
+    "category_name": "main",
+    "date_added": "22-01-2013",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1 - 2",
+    "problem_status": "unattempted",
+    "editorial_url": "http://codechef.com/download/editorials/ACMAMR12/FSSYNC.pdf",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1359106200,
+        "end_date": 1359365400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1359365400,
+        "submit_start_date": 1359106200,
+        "current": 1537438577
+    },
+    "user": {
+        "username": ""
+    }
+}

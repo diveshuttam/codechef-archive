@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>In a country, a person's health and wealth is measured in terms of time(seconds) left. Suppose a person there has 24x60x60 = 86400 seconds left, then he would live for another 1 day. A person dies when his time left becomes 0. Some time-amount can be borrowed from other person, or time banks.<br />\nSome time amount can also be lend to another person, or can be used to buy stuffs.</p>\n<p>The president of that country is in very critical condition and has very less time left. A bank is giving away free time amount worth 1000 years.</p>\n<p>Bank released N slips, A[1],A[2],...A[N]. Each slip has a time amount(can be +ve or -ve).<br />\nA person can pick any number of slips(even none, or all of them, or some of them) out of the N slips. But bank introduced a restriction, they announced one more number K. Restriction is that, if a person picks a slip A[i], then the next slip that he can choose to pick will be A[i+K+1]. It means there should be a difference of atleast K between the indices of slips picked.</p>\n<p>Now slip(s) should be picked in such a way that their sum results in maximum positive time-amount sum possible with the given restriction.</p>\n<p>If you predict the maximum positive sum possible, then you win.\u00a0</p>\n<h3>Input Format</h3>\n<ul>\n<li>\nFirst line of the test file contains single number T, the number of test cases to follow.</li>\n<li>Each test case consists of two lines.</li>\n<li>First line contains two numbers N and K , separated by a space. </li>\n<li>Second line contains the N numbers A[1], A[2] ..... A[N] separated by space.</li>\n</ul>\n<p><br /><br /></p>\n<h3>Output</h3>\n<ul>\n<li>For every test case, output in a single line the maximum positive sum possible, that is output for the case.\n</li>\n</ul>\n<p>\u00a0</p>\n<p><br /></p>\n<h3>Constraints</h3>\n<ul>\n<li>T = 250</li>\n<li>\nN = 10000</li>\n<li>\n-10^9 = A[i] = 10^9</li>\n<li>\n0 = K = N-1</li>\n</ul>\n<p><br /></p>\n<h3>Example</h3>\n<p><b>Input:</b></p>\n<pre>2\n10 1\n1  2  -3  -5  4  6  -3  2  -1 2\n10 2\n1  2  -3  -5  4  6  -3  2  -1  2</pre><p><br /><br /></p>\n<p><b>Output:</b></p>\n<pre>12\n10\n</pre><p><br /></p>\n<h3>Explanation</h3>\n<ul>\n<li>1st Case:<br /><br />\nWe can take slips { A[2]=2, A[6]=6, A[8]=2, A[10]=2 }, slips are atleast 1 indices apart<br />\nthis makes maximum sum, A[2]+A[6]+A[8]+A[10]=12</li>\n<li>2nd Case:<br /><br />\nWe can take slips { A[2]=2, A[6]=6, A[10]=2 }, slips are atleast 2 indices apart<br />\nthis makes maximum sum, A[2]+A[6]+A[10]=10 </li>\n</ul>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-01-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Equilibrio 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1421393400,
+        "end_date": 1421400600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1421400600,
+        "submit_start_date": 1421393400,
+        "current": 1537436991
+    },
+    "problem_author_html_handle": "abhiroop20",
+    "problem_name": "Save President",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhiroop20'>abhiroop20</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abhiroop20",
+    "contest_code": "EQBR2014",
+    "max_timelimit": "1",
+    "problem_code": "CDXM3"
+}

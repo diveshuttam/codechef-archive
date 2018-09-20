@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p><h2><b>Problem description</b></h2></p>\n<p>\u00a0Supergirl was having her favorite cheese pasta when she gets the news  that Lex Luther has kidnapped the prime minister of the states.Luther kept him in a life support system which will explode in some hours. To come out of that system, supergirl needs to unlock the password but it has certain rules.<br><br>\nThe rules are as follows:\nShe needs to unlock the password but it has a game which is to be played in pairs. So, she calls all the Avengers  and they reach there within seconds.Now each pair of a team has to collect pebbles(from outside the life support system).\nThe pairs are standing in a queue.The rule is if the first person of the pair collects k number of pebbles then the next one has to collect more than k pebbles and thus the number of pebbles must be pairwise sorted.</p>\n\n<hr/>\n<h3>Input</h3>\n<p>First line of input contains total number of Avengers, N. The next line contains pebbles each avenger is having.\n</p>\n\n<hr/>\n<h3>Output</h3>\n<p>Output \"Yes\" (without quotes) if they will be able to get the prime minister out of that system and \"No\" (without quotes) if not. </p>\n\n<hr/>\n<h3>Constraints</h3>\n<p>1 \u2264 N \u2264 100\n</p>\n<hr/>\n<h3>Example</h3>\n<pre><b>Input:</b>\n6\n10 12 10 13 1 5<br>\n<b>Output:</b>\nYes\n\n<b>Explanation:</b>\n<p>In the pairs (10,12),(10 13),(1 5) the second person collected more number of pebbles than the first one.  <br>Therefore the output is \"Yes\".</p>\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-12-2017",
+    "is_direct_submittable": false,
+    "contest_name": "BITFLIT v.02",
+    "languages_supported": "C, CPP14, JAVA, CS2, PAS fpc, PAS gpc, GO, NODEJS, HASK, D, PERL, FORT, ADA, CAML, ICK, BF, ASM, CLPS, ICON, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, JS, ERL, kotlin, PERL6, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1514395639,
+        "end_date": 1514397600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1514397600,
+        "submit_start_date": 1514395639,
+        "current": 1537433259
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>vidhika_30</span>",
+    "problem_name": "Supergirl to the Rescue",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vidhika_30'>vidhika_30</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vidhika_30",
+    "contest_code": "BITF2017",
+    "max_timelimit": "1",
+    "problem_code": "SUPGLRES"
+}

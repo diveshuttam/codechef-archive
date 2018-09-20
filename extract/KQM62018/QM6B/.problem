@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>There is an array of length <b>n</b>. Print the minimum of all the maximum values of all the contiguous subarrays of the array of length <b>k</b>.</p>\n\n<h3>Input</h3>\nInput starts with a number <b>T</b> (1<=<b>T</b><=10) on a newline, the count of test cases. <br/>\nIn  each test case,\nfirst line contains <b>n</b> and <b>k</b> (1<=<b>k</b><=<b>n</b><=1e5).\nIn the second line there would be n integers denoting elements of array. (1<=a[i]<=1e9)\n<br/><br/>\n\n<h3>Output</h3>\nPrint the values of each test case on a newline each.<br/>\n<br/>\n<h3>Sample cases:</h3>\n<b>Input</b><br/>\n2<br/>\n5 2<br/>\n5 8 2 1 9<br/>\n3 3<br/>\n1 2 3<br/>\n<br/>\n<b>Output</b><br/>\n2<br/>\n3<br/>\n<br/>\n<b>Explanation for first test case:</b><br/>\nfrom each index take a sub array of length 2: [5,8] [8,2] [2,1] [1,9]<br/>\nanswer will be minimum of  {8,8,2,9}=2.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-01-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Keteki quick match 6",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1516509000,
+        "end_date": 1516510800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1516510800,
+        "submit_start_date": 1516509000,
+        "current": 1537433142
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>chandubaba</span>",
+    "problem_name": "Max Subarray (keteki)",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/chandubaba'>chandubaba</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "chandubaba",
+    "contest_code": "KQM62018",
+    "max_timelimit": "1",
+    "problem_code": "QM6B"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "RRTREGAM",
+    "problem_author": "npl_nitw",
+    "contest_name": "NPL Elimination Round",
+    "todo": false,
+    "problem_author_html_handle": "npl_nitw",
+    "problem_name": "A friends game",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "NPLQ1601",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/game'>game</a>, <a class='problem-tag-small ' href='/tags/problems/grundy'>grundy</a>, <a class='problem-tag-small ' href='/tags/problems/npl_nitw'>npl_nitw</a>, <a class='problem-tag-small ' href='/tags/problems/numbers'>numbers</a>, <a class='problem-tag-small ' href='/tags/problems/theory'>theory</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Ross and Rachel are playing a game. They have a tree rooted at <b>1</b>. Each vertex is having some number of stones in it. In one move a player can choose <b>2 stones</b> from some same node and move it to any of the ancestors of that node in the tree. The player not able to make a move loses. Help them find the winner of the game if they play optimally. <b>Rachel</b> starts first.\n\n</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>First line will contain <b>n</b> (no of nodes in the tree. The next line contains n integers, number of stones in i<sup>th</sup> node.<br>\nNext n-1 lines contain a pair of integers <b>(x,y)</b> denoting an edge between x and y.</p>\n\n\n<h3>Output</h3>\n<p>Print \"<b>Rachel</b>\" (without quotes) if Rachel wins the game and \"<b>Ross</b>\" if Ross wins.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1 \u2264 stones[i] \u2264 10<sup>9</sup></b></li>\n<li><b>1 \u2264 x,y \u2264 n</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n10 6 7 19 3\n1 2\n1 3\n1 4\n2 5\n\n<b>Output:</b>\nRachel\n",
+    "category_name": "main",
+    "date_added": "5-09-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/RRTREGAM",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1476793800,
+        "end_date": 1476802800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1476802800,
+        "submit_start_date": 1476793800,
+        "current": 1537434465
+    },
+    "user": {
+        "username": ""
+    }
+}

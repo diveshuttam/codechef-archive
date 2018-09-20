@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\u00a0</p>\n<p>You have 3  bottles and 3 bottle openers. You know the time necessary to open each bottle using each opener. Find the minimum total time for opening all 3 bottles.\n</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>The input consists of 3 lines, each containing 3 integers. The jth number on the ith line is the time necessary to open bottle i using the opener j.\n</p>\n\n<h3>Output</h3>\n<p>Print the answer on the first line.\n</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>Time</b> \u2264 <b>100</b></li>\n<li>You can open one bottle at a time</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5 4 3\n7 6 11\n7 9 2\n\n<b>Output:</b>\n11\n</pre>\n<p>\u00a0</p>\n<pre><b>Input:</b>\n1 2 2\n2 1 2\n2 2 1\n\n<b>Output:</b>\n3\n</pre>\n<p>\u00a0</p>\n<pre><b>Input:</b>\n3 2 7\n1 5 8\n3 3 10\n\n<b>Output:</b>\n6\n</pre>\n<p>\u00a0</p>\n\n<h3>Explanation</h3>\n<p><b>Example case 1.</b>Use bottle openers 3, 2 and 3</p>\n<p><b>Example case 2.</b>Use bottle opener i for bottle i</p>\n<p><b>Example case 3.</b>Use opener 2 for bottle 1, opener 1 for bottle 2 and opener 1 or 2 for bottle 3</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "MSTC March FaceOff",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1521941400,
+        "end_date": 1522067400,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1833075286,
+        "submit_start_date": 1521941400,
+        "current": 1537432738
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>sanurocks5</span>",
+    "problem_name": "Bottles",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sanurocks5'>sanurocks5</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sanurocks5",
+    "contest_code": "MMFO2018",
+    "max_timelimit": "1",
+    "problem_code": "MSTC02"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem description.</h3>\n<p>You are designing a overhead bridge across a busy road for your city. You are given the <b>maximum height</b> (in metres) the bridge has to reach and the <b>width of the road</b> (in metres) it has to cross.</p>\n<p><br /><br /></p>\n<p>For the people to <b> climb the bridge</b>, steps are used where each step raises the height of the bridge by 1 metre and has a width of 1 metre. The <b>same type of steps can also be used to descend from the bridge</b>. There can also be flat surface blocks, which has a width of 1 metre and do not raise the height of the bridge. You are to use these two type of blocks to design the bridge.</p>\n<p>Apart from the height and width constraints, you are given a list of numbers where each number denotes the height where a flag must be kept at the end of a step. The flags should be kept in the order given.</p>\n<p><br /></p>\n<p>Given all of the above information, you are to determine the number of valid designs of the bridge. A valid design is defined as follows: <br /><br />\n1. The bridge must start at height 0 and end at height 0. <br /><br />\n2. Has at least one block which has the maximum height and no block should exceed the maximum height<br /><br />\n3. The bridge must not touch height 0 (i.e the road) in the mid way. <br /><br />\n4. The flags must follow the order given. If there are two consecutive flags that are to be kept at the same height, then they should be placed at the end of two different steps and not at the same step.</p>\n<p><br /></p>\n<p><b>If there are no valid designs then output 0.</b><br /></p>\n<h3>Input</h3>\n<p>Input description.</p>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows</li>\n<li>The first line of each test case contains two space separated integers <b>A, B</b> where A denotes the <b>Width</b> of the road and B denotes the <b>Maximum height of the bridge</b>. The second line contains <b>N</b> denoting the number of flags that should be kept in the bridge. The next line contains <b>N</b> space-separated integers <b>H<sub>1</sub></b>, <b>H<sub>2</sub></b>, ..., <b>H<sub>N</sub></b> denoting the height where the flags should be kept.</li>\n</ul>\n<p><br /><br /></p>\n<h3>Output</h3>\n<p>Output description.</p>\n<ul>\n<li>For each test case, output a single line containing the number of valid designs of the bridge.</li>\n</ul>\n<p><br /><br /></p>\n<h3>Constraints</h3>\n<ul>\n<li><b>2</b> \u2264 <b>A</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>B</b> \u2264 <b>50</b></li>\n<li><b>0</b> \u2264 <b>N</b> \u2264 <b>50</b></li>\n<li><b>1</b> \u2264 <b>H<sub>i</sub></b> \u2264 <b>B</b></li>\n</ul>\n<p><br /><br /></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n5 2\n0\n5 2\n2\n2 2\n\n<b>Output:</b>\n3\n1\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>Let us name the block used to climb the bridge as <b>U</b>, the flat block as <b>F</b> and the block used to descend from the bridge as <b>D</b> <br /><br /></p>\n<p><b>Example case 1: </b> The possible formations are UUFDD, UFUDD, UUDFD. Hence there are 3 possible bridges.</p>\n<p><b>Example case 2: </b> The possible formation is UUFDD. One flag at the end of second U block and the other at the end of F block. It satisfies the given formation requirement. Hence there is only 1 possible bridge formation.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ByteCode 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1456498800,
+        "end_date": 1456516800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1456516800,
+        "submit_start_date": 1456498800,
+        "current": 1537435320
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>bkarthikeyan28</span>",
+    "problem_name": "Valid Plans",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bkarthikeyan28'>bkarthikeyan28</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bkarthikeyan28",
+    "contest_code": "BYCO2016",
+    "max_timelimit": "1",
+    "problem_code": "BYCD1606"
+}

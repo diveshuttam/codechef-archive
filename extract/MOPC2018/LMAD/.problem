@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Problem description</p>\n<p>\u00a0Davy wants to do the matrix multiplication using Linked List,\n so help her to write the program</p>\n\n\n<h3>Input</h3>\n<p><b>T</b> is the number of test cases as follows<br><b>m</b> and <b>n</b> of numbers of rows and columns for the first matrix i.e.,a1<sub>1 1</sub>, a1<sub>1 2</sub>...a1<sub>m n</sub>.<br> <b>n</b> and <b>k</b> represents number of rows and columns for the second matrix i.e., a2<sub>1 1</sub>, a2<sub>1 2</sub>...a2<sub>n k</sub>.</p>\n\n<h3>Output</h3>\n<p>Output should provide a matrix a3<sub>1 1</sub>, a3<sub>1 2</sub>...a3<sub>m k</sub>(Linked List)</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>m</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>k</b> \u2264 <b>100</b></li>\n<li>a1<sub>1 1</sub>, a1<sub>1 2</sub>...a1<sub>m n</sub></li>\n<li>a2<sub>1 1</sub>, a2<sub>1 2</sub>...a2<sub>n k</sub></li>\n<li>a3<sub>1 1</sub>, a3<sub>1 2</sub>...a3<sub>m k</sub></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3\n3 \n1-> 2-> 3->\\n\n4-> 5-> 6->\\n\n7-> 8-> 9->\\n\n3\n3\n10-> 11-> 12->\\n\n13-> 14-> 15->\\n\n16-> 17-> 18->\\n\n2\n3\n1-> 2-> 3->\\n\n4-> 5-> 6->\\n\n4\n3\n7-> 8-> 9->\\n\n10-> 11-> 12->\\n\n13-> 14-> 15->\\n\n16-> 17-> 18->\\n\n\n<b>Output:</b>\n3\n3\n84-> 90-> 96->\\n\n201-> 216-> 231->\\n\n318-> 342-> 366->\\n\nThe Matrix Multiplication is not possible\n\nExplanation\nThe matrix will look like\n84-> 90-> 96->\\n\n |          |         |\n v         v        v\n201-> 216-> 231->\\n\n |          |         |\n v         v        v\n318-> 342-> 366->\\n\n |         |       |\n v        v      v \n\\n       \\n     \\n\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-02-2018",
+    "is_direct_submittable": false,
+    "contest_name": "MNM Online Programming Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH 3.6, PYPY, CS2, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, WSPC, ADA, CAML, ICK, BF, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, kotlin, TEXT, SCM chicken",
+    "todo": false,
+    "time": {
+        "view_start_date": 1519792200,
+        "end_date": 1519810200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1519810200,
+        "submit_start_date": 1519792200,
+        "current": 1537432893
+    },
+    "problem_author_html_handle": "vijaykumarakv",
+    "problem_name": "Linked List Matrix Multiplication",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vijaykumarakv'>vijaykumarakv</a>",
+    "problem_tester_html_handle": null,
+    "problem_author": "vijaykumarakv",
+    "contest_code": "MOPC2018",
+    "max_timelimit": "1",
+    "problem_code": "LMAD"
+}

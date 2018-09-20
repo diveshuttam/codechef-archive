@@ -1,0 +1,87 @@
+{
+    "announcements": "<p><span style=\"font-family: 'Times New Roman'; font-size: medium;\"> </span></p>\r\n<div style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: #ffffff; background-position: initial initial; background-repeat: initial initial; margin: 8px;\">\r\n<div style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; margin-top: 8px; margin-right: 8px; margin-bottom: 8px; margin-left: 8px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: #ffffff; background-position: initial initial; background-repeat: initial initial; \">\r\n<p><span style=\"color: #444444; font-family: Arial, sans-serif; font-size: 12px; line-height: 18px;\"><b>11:40pm:</b> The contest has been extended by 1min :) since there was a minute long delay at the start of the contest.\u00c2\u00a0<br /></span></p>\r\n<p><span style=\"font-family: Arial, sans-serif; color: #444444;\"><span style=\"font-size: 12px; line-height: 18px;\"><b>09:30pm:</b> The Rank List for the CodeChef September Cook Off is available\u00c2\u00a0<br />here:\u00c2\u00a0<a href=\"/rankings/COOK14\" target=\"_blank\">http://www.codechef.com/rankings/COOK14</a></span></span></p>\r\n</div>\r\n</div>",
+    "ip": "149.129.135.113",
+    "code": "COOK14",
+    "duration": "151",
+    "name": "September Cook-off",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>The September Cook-off has eneded!</b></p> <p><b>You can view the ediotrials for the contest <a target=\"_blank\" href=\"/wiki/september-cookoff%C2%A0contest-problem-editorials\">here</a>.</b></p> <p><b>The Winners blog is up, and can be viewed <a target=\"_blank\" href=\"http://blog.codechef.com/2011/09/19/the-landmark-2011-september-cook-off/\">here</a>.<br /></b></p> <p><b>------------------------------------------------------------</b></p> <p>\u00a0</p> <p><span><b>Rules:</b></span></p> <p><b><span><b> </b></span></b></p> <p class=\"MsoNoSpacing\"><b><b><b>In case you are a new user, you will need to first register for a CodeChef ID\u00a0<a href=\"/user/register/\">here</a>.</b></b></b></p> <p><b><b> </b></b></p> <p><b><span> </span></b></p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\" target=\"_blank\">feedback@codechef.com</a></li> <br /> <li>You can also send in your queries in an email to\u00a0<a href=\"mailto:contest-admin@codechef.com\" target=\"_blank\">contest-admin@codechef.com</a>, during the contest.</li> <br /> <li>Contest problems will become visible on September 18th, 2011 at 21:30 (IST). There will be 5 problems in all.</li> <br /> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <br /> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <br /> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> </ul> <div></div> <div><span><br /></span></div> <ul> <li><b>The online round of the <a target=\"_blank\" href=\"http://icpc.amrita.ac.in/2011/\">ACM ICPC Amritapuri 2011</a></b><b> takes place on 16th October, 2011. </b></li> </ul> <div></div> <ul> <li><b>You can register for it <a target=\"_blank\" href=\"http://icpc.amrita.ac.in/2011/index.php?option=com_content&amp;view=article&amp;id=5&amp;Itemid=7\">here</a>.</b></li> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COOK14/1424957586.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "TARPRACT": {
+            "allow_submission": false,
+            "name": "Target Practice",
+            "category_name": "main",
+            "accuracy": 3.94,
+            "successful_submissions": "8",
+            "code": "TARPRACT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "HOTEL": {
+            "allow_submission": false,
+            "name": "Hotel Bytelandia",
+            "category_name": "main",
+            "accuracy": 47.61,
+            "successful_submissions": "372",
+            "code": "HOTEL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LASTDIG": {
+            "allow_submission": false,
+            "name": "Last Digit Sum",
+            "category_name": "main",
+            "accuracy": 18.44,
+            "successful_submissions": "110",
+            "code": "LASTDIG",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DIGROT": {
+            "allow_submission": false,
+            "name": "Digit Rotation",
+            "category_name": "main",
+            "accuracy": 14.34,
+            "successful_submissions": "161",
+            "code": "DIGROT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "YASEQ": {
+            "allow_submission": false,
+            "name": "Yet Another Sequence",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "YASEQ",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1316370660,
+        "current": 1537439141,
+        "freezing": 0,
+        "start": 1316361600
+    },
+    "user": {
+        "username": ""
+    }
+}

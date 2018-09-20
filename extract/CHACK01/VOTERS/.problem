@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p> As you might remember, the collector of Siruseri had ordered\na complete revision of the Voters List. He knew that constructing\nthe list of voters is a difficult task, prone to errors. Some\nvoters may have been away on vacation, others may have moved\nduring the enrollment and so on. </p>\n\n<p> To be as accurate as possible, he entrusted the task to three different \nofficials. Each of them was to independently record the list of voters and \nsend it to the collector. In Siruseri, every one has a ID number and\nthe list would only list the ID numbers of the voters and not their names.\nThe officials were expected to arrange the ID numbers in ascending order\nin their lists. </p>\n\n<p> On receiving the lists, the Collector realised that there were\ndiscrepancies - the three lists were not identical.  He decided\nto go with the majority. That is, he decided to construct the\nfinal list including only those ID numbers that appeared in at\nleast 2 out of the 3 lists.  For example if the three lists\nwere</p>\n\n<pre style=\"margin:10px\">\n23  30  42  57  90\n21  23  35  57  90  92\n21  23  30  57  90 \n</pre>\n\n<p>then the final list compiled by the collector would be:</p>\n\n<pre style=\"margin:10px\">\n21  23  30  57  90\n</pre>\n\n<p> The ID numbers 35, 42 and 92 which appeared in only one list\neach do not figure in the final list.</p>\n\n<p> Your task is to help the collector by writing a program that\nproduces the final list from the three given lists.</p>\n\n<p style=\"font-weight: bold\">Input format</p>\n\n<p>The first line of the input contains 3 integers\n<em>N</em><sub>1</sub>, <em>N</em><sub>2</sub> and\n<em>N</em><sub>3</sub>.  <em>N</em><sub>1</sub> is the number of\nvoters in the first list, <em>N</em><sub>2</sub> is the number of\nvoters in the second list and <em>N</em><sub>3</sub> is the number of\nvoters in the third list.  The next <em>N</em><sub>1</sub> lines\n(lines 2,...,<em>N</em><sub>1</sub>+1) contain one positive integer\neach and describe the first list in ascending order.  The following\n\n<em>N</em><sub>2</sub> lines (lines\n<em>N</em><sub>1</sub>+2,...,<em>N</em><sub>1</sub>+<em>N</em><sub>2</sub>+1)\ndescribe the second list in ascending order and the final\n<em>N</em><sub>3</sub> lines (lines\n\n<em>N</em><sub>1</sub>+<em>N</em><sub>2</sub>+2,...,<em>N</em><sub>1</sub>+<em>N</em><sub>2</sub>+<em>N</em><sub>3</sub>+1)\ndescribe the third list in ascending order.</p>\n\n<p style=\"font-weight: bold\">Output format</p>\n\n<p>The first line of the output should contain a single integer\n<em>M</em> indicating the number voters in the final list. The next\n<em>M</em> lines (lines 2,...,<em>M</em>+1) should contain one\npositive integer each, describing the list of voters in the final\nlist, in ascending order.</p>\n\n<p style=\"font-weight: bold\">Test data</p>\n\n<p>You may assume that 1 \u2264\n<em>N</em><sub>1</sub>,<em>N</em><sub>2</sub>,<em>N</em><sub>3</sub>\n\u2264 50000.\n</p>\n\n<p style=\"font-weight: bold\">Example</p>\n<p style=\"font-weight: bold\">Sample input:</p>\n\n<pre style=\"margin:0px\">\n5 6 5\n23\n30\n42\n57\n90\n21 \n23 \n35 \n57 \n90 \n92 \n21 \n23 \n30 \n57 \n90 \n</pre>\n\n<p style=\"font-weight: bold\">Sample output:</p>\n\n<pre style=\"margin:0px\">\n5\n21 \n23 \n30 \n57 \n90\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "30-07-2009",
+    "is_direct_submittable": false,
+    "contest_name": "Codehack 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1265480940,
+        "end_date": 1265502600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180172,
+        "submit_start_date": 1265480940,
+        "current": 1537439753
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Discrepancies in the Voters List",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "CHACK01",
+    "max_timelimit": "1.15243",
+    "problem_code": "VOTERS"
+}

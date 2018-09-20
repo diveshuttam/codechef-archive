@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<pre>\nPilot styrofox was sent on a mission to enemy territory. He is flying in a bomber plane.\n\n<b>Captain Dinesh</b>: Hello styrofox! You got a new task.\n\n<b>Pilot Styrofox</b>   : Yeah! Am waiting for that..\n\n<b>Captain Dinesh</b>: Few enemy tankers has arrived. You need to take them\n                               before they attack your squadron.\n\n<b>Pilot Styrofox</b>   : Oh! this must be a simple one.\n\n<b>Captain Dinesh</b>: Not as you think you've got only limited bombs.\n\t\t \t       More tankers are expected to arrive so use just one.\n\n<b>Pilot Styrofox</b>   : Give me a second. I'll finish it off..\n\n<b>Captain Dinesh</b>: Just wait. Since it is possible for you to be locked\n                               by enemies, just make your shot from xd,yd,zd which is \n                               closest safe point.\n\n<b>Pilot Styrofox</b>   : Anything more ?\n\n<b>Captain Dinesh</b>: That's it for now. Give your best shot.\n    \t\t\t      Go! Go! Go! \n\n<b>Pilot Styrofox</b>   : Copied that!!\n</pre><p>\nThe bomb being dropped kills any life around 50km where it explodes.\nThe damage it makes on the tanker is inversely proportional to the \nsquare of distance between tanker and the point of explosion.\nNow your task is to compute the speed with which the bomb must be dropped \nat the point xd,yd,zd such that no tanker remains better than rest in the group and to damage severely. As the pilot doesn't \nwant to take risk he flies the plane towards the direction of his interest \nfor this task through the point xd,yd,zd without lowering the altitude.\n</p>\n<h3>Input</h3>\n<p>First line contains T, No.of test case. For each test case, the first line contains\nthree integers xd,yd and zd separated by a single space.Second line contains an integer N,\nwhich is the number of tankers.Following N line contains two integer xi,yi separated by a\nsingle space denoting the position of ith tanker in the ground. Test cases are separated by\na new line. \n</p>\n<b>constraints:</b>\n<pre>\nAll coordinate given are scaled in kilometers from the reference point 0,0,0.\nT&lt;=10\n1&lt;=N&lt;=10\n0&lt;=xi,yi,zi&lt;=1000\nacceleration due to gravity 9.8 m/s<sup>2</sup>\n</pre>\n<h3>Output</h3>\n<p>For each test print the speed to be attained by the pilot in km/hr correct upto 3 decimal\nplace separated by a new line.Incase if it is not possible to take all the tankers just\nprint \"NEGATIVE\" instead.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n8 9 10\n2\n0 0\n0 110\n\n8 9 10\n3\n0 0\n0 3\n1 1\n\n\n<b>Output:</b>\nNEGATIVE\n873.862461\n</pre>\n\n<b>Explanation:</b>\n</p><p>Case 1:<br />\nSince the blast radius is limited to 50km, it cannot take both tankers at a time.</p>\n\n<p>Case 2:<br />\nThe bomb will be dropped at 0,1.5 to damage the tankers at 0,0 and 0,3 equally. The one at 1,1 is still closer to point of explosion and hence no tanker remains better than the rest in the group.\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-03-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Madras Institute of Technology - Prayatna11 - Xecute",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1299767400,
+        "end_date": 1299781800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180225,
+        "submit_start_date": 1299767400,
+        "current": 1537439283
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>styrofox</span>",
+    "problem_name": "HAWX",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/styrofox'>styrofox</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "styrofox",
+    "contest_code": "XECUTE",
+    "max_timelimit": "1",
+    "problem_code": "HAWX3D"
+}

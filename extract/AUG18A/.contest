@@ -1,0 +1,324 @@
+{
+    "announcements": "<p><b>13th August 2018, 15:00 IST: </b><b>The August Challenge 2018 has ended!</b></p>\r\n<p><b>The editorials will be uploaded\u00a0<a href=\"https://discuss.codechef.com/tags/aug18/\">here</a>.</b></p>\r\n<p><b>The problems have been moved to\u00a0practice\u00a0section.</b></p>\r\n<p><b>Solutions are public for all the problems.</b></p>\r\n<p><b>MOSS results are not out yet.\u00a0Ranklist\u00a0will be recalculated and Laddus will be provided post the MOSS process.</b></p>\r\n<p><b>6th August 2018, 14:46 IST: </b> We have added more test-cases to problem RIVER and rejudged all accepted submissions.</p>\r\n<p><b>3rd August 2018, 14:00 IST: </b>For the challenge problem, the time and memory consumption\u00a0shown\u00a0for a submission will be the maximum of the corresponding metric on only the 20% of the test files on which it is being scored now. You will still get a WA/TLE/MLE verdict if your submission fails in the remaining 80% of the test files. This change is done so as to curtail the possible abuse due to visible information about maximum time and\u00a0memory\u00a0limit of hidden test files.</p>\r\n<p>We are looking for problem setters for our upcoming contests. If you want to cook up some interesting problems for Chef, please reach us at\u00a0<a href=\"/For the challenge problem, the time and memory consumption shown for a submission will be the maximum of the corresponding metric on only the 20% of the test files on which it is being scored now. You will still get a WA/TLE/MLE verdict if your submission fails in the remaining 80% of the test files. This change is done so as to curtail the possible abuse due to visible information about maximum time and memory limit of hidden test files.     We are looking for problem setters for our upcoming contests. If you want to cook up some interesting problems for Chef, please reach us at https:/codechef.com/problemsetting/setting\">https://codechef.com/problemsetting/setting</a>.</p>",
+    "ip": "149.129.135.113",
+    "code": "AUG18A",
+    "duration": "14400",
+    "non_scorable_heading": "Non Scorable Problems for Practice",
+    "name": "August Challenge 2018 Division 1",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "scorable_message": "",
+    "partial_scores": {
+        "PROBLEMS": [
+            {
+                "score": "25",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "79"
+            }
+        ],
+        "LONCYC": [
+            {
+                "score": "20",
+                "count": "9"
+            },
+            {
+                "score": "100",
+                "count": "138"
+            }
+        ],
+        "RIVER": [
+            {
+                "score": "29",
+                "count": "4"
+            },
+            {
+                "score": "41",
+                "count": "20"
+            },
+            {
+                "score": "100",
+                "count": "14"
+            }
+        ],
+        "SAFPAR": [
+            {
+                "score": "10",
+                "count": "29"
+            },
+            {
+                "score": "15",
+                "count": "1"
+            },
+            {
+                "score": "20",
+                "count": "35"
+            },
+            {
+                "score": "35",
+                "count": "4"
+            },
+            {
+                "score": "60",
+                "count": "25"
+            },
+            {
+                "score": "100",
+                "count": "34"
+            }
+        ],
+        "PRINDRAG": [
+            {
+                "score": "10",
+                "count": "105"
+            },
+            {
+                "score": "20",
+                "count": "56"
+            },
+            {
+                "score": "40",
+                "count": "9"
+            },
+            {
+                "score": "60",
+                "count": "1"
+            },
+            {
+                "score": "90",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "34"
+            }
+        ],
+        "KCOMPRES": [
+            {
+                "score": "10",
+                "count": "4"
+            },
+            {
+                "score": "30",
+                "count": "4"
+            },
+            {
+                "score": "40",
+                "count": "83"
+            },
+            {
+                "score": "90",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "258"
+            }
+        ],
+        "INMAT": [
+            {
+                "score": "10",
+                "count": "73"
+            },
+            {
+                "score": "20",
+                "count": "2"
+            },
+            {
+                "score": "30",
+                "count": "117"
+            },
+            {
+                "score": "40",
+                "count": "1"
+            },
+            {
+                "score": "60",
+                "count": "46"
+            },
+            {
+                "score": "70",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "119"
+            }
+        ],
+        "GCDMOD": [
+            {
+                "score": "10",
+                "count": "21"
+            },
+            {
+                "score": "50",
+                "count": "21"
+            },
+            {
+                "score": "90",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "691"
+            }
+        ],
+        "SPELLBOB": [
+            {
+                "score": "100",
+                "count": "114"
+            }
+        ],
+        "SHKNUM": [
+            {
+                "score": "30",
+                "count": "5"
+            },
+            {
+                "score": "100",
+                "count": "120"
+            }
+        ]
+    },
+    "rules": "<h4 style=\"font-size: 10px;\">Sponsored by ShareChat</h4>\r\n<div class=\"text-center\"><img width=\"120\" alt=\"Smiley face\" src=\"https://mail.codechef.com/uploads/1518183329.png\" /></div>\r\n<div style=\"display: flex;justify-content: space-between;align-items: center;margin: 30px 0;\">\r\n<div>\r\n<h4 style=\"font-size: 10px;\">Full-time open positions at ShareChat</h4>\r\n<p>ShareChat is looking for full-time Backend, Android, Machine Learning Engineers and Web Developers to be a part of their team. These positions are open for professionals across the globe. Click <a href=\"https://docs.google.com/document/d/1pn69tTcvlc7yAqvchYR5QF_bbXOUggeY38G8PPASvCI/edit\" target=\"_blank\">here</a> to know more about the open positions. Compete in the contest and apply to be a part of ShareChat.\u00a0<br /><br /></p>\r\n<p style=\"text-align:center;\"><a style=\"display:inline-block\" class=\"button blue\" href=\"https://goo.gl/forms/VxcY3O4WFbytx1GF3\">Apply Now</a></p>\r\n</div>\r\n</div>\r\n<h4 style=\"font-size: 10px;\">About ShareChat</h4>\r\n<p class=\"last\"><a target=\"_blank\" href=\"https://www.sharechat.com/\">ShareChat</a> is a social network for the next billion smartphone users. They have grown organically to 18 million active users and are doubling every 4 months. Currently, their userbase is majorly from India, Sri Lanka, Bangladesh, Nepal, Kuwait, Qatar, UAE, Canada and are expanding at a very rapid pace. We are happy to associate with ShareChat and would like to announce that they are the official sponsors for the August Long Challange 2018. Through this contest, they are also providing internships and full-time opportunities with lucrative offers. Interested programmers can go through the above mentioned application links.</p>\r\n<p class=\"last\">New users are requested to go through the below information to know more about the contest.</p>\r\n<h4>CodeChef: A Platform for Aspiring Programmers</h4>\r\n<p class=\"last\">CodeChef was created as a platform to help programmers make it big in the world of algorithms, computer programming, and programming contests. At CodeChef, we work hard to revive the geek in you by hosting a programming contest at the start of the month and another smaller programming challenge in the middle of the month.</p>\r\n<h4>About CodeChef August Long Challenge:</h4>\r\n<p class=\"last\">CodeChef Long Challenge is a 10-day monthly coding contest where you can show off your computer programming skills. The significance being - it gives you enough time to think about a problem, try different ways of attacking the problem, read the concepts etc. If you\u2019re usually slow at solving problems and have ample time at hand, this is ideal for you. We also put in a lot of efforts in getting quality problems, which would, in turn, foster your learning while solving them.</p>\r\n<h4>Contest Details:</h4>\r\n<ul class=\"last\">\r\n<li><strong>Duration: </strong>10 Days, From 3rd August 1500 hrs IST to 13th\u00a0August 1500 hrs IST. Check your timezone <a target=\"_blank\" href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+August+Challenge+2018&amp;iso=20180803T15&amp;p1=44\">here</a>.</li>\r\n</ul>\r\n<h4>Eligibility Criteria: Anyone with a knack for Programming :P</h4>\r\n<p class=\"last\">Our contests are open to all the programmers across the globe.</p>\r\n<h4>What's in it for you?</h4>\r\n<p>The idea behind these programming contests is that we want you to learn while competing. Also we believe that it is alright to refer to tutorials, books and other materials, learn a concept and then apply the same to solve a problem during a contest. But it is not alright to copy other people's solutions or seek other people's help to solve a problem without understanding it. The dividing line may seem to be thin but it can be captured by the spirit of learning. If whatever you are doing is making you learn while you do so, we tend to believe that it is alright. However, all the participants are expected to abide to <a href=\"/codeofconduct\">CodeChef Code Of Conduct</a></p>\r\n<p>Not just that, as a token of motivation we also give away cash prizes and goodies to the winners of the contest. However, our sole intention lies in making our users learn new concepts while competing. You can know more about prizes <a href=\"http://discuss.codechef.com/questions/51999/how-do-i-win-a-codechef-goodie\">here</a>. FYI, here are the list of cash prizes:</p>\r\n<p><strong>For Indians:</strong></p>\r\n<ul>\r\n<li>1st prize: INR 12000/-</li>\r\n<li>2nd prize: INR 8000/-</li>\r\n</ul>\r\n<p><strong>For Rest of World:</strong></p>\r\n<ul>\r\n<li>1st prize: $400</li>\r\n<li>2nd prize: $300</li>\r\n</ul>\r\n<div><strong><span style=\"font-size: 1em;\">Rules and Regulations:</span></strong></div>\r\n<div><strong><span style=\"font-size: 1em;\"><br /></span></strong></div>\r\n<ul>\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\"> feedback@codechef.com</a>.</li>\r\n<li>All the problems will be partially graded and you will get a score for passing certain test data (except tie-breaker problem). You will receive hundred (100) points for solving a problem (passing all test cases).</li>\r\n<li>The details of the failed test cases will also be visible on your solution page (except challenge problem)</li>\r\n<li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li>\r\n<li>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</li>\r\n<li>You shall not possess more than one account on CodeChef. If you have, then do let us know, so that we can deactivate the insignificant one. If you do not report it and we come to know about it, we may deactivate both the accounts permanently.</li>\r\n<li>The score that you will see during the contest (for tie-breaker / challenge problem), will only be partial (scored on 20% of the test data). The submissions will be re-judged at the end of the contest to get a full score (scored on the whole test data).</li>\r\n<li>Similarly, for the challenge problem, the time and memory consumption shown for a submission will be the maximum of the corresponding metric on only the 20% of the test files on which it is being scored now. You will still get a WA/TLE/MLE verdict if your submission fails in the remaining 80% of the test files.</li>\r\n<li>The number of submissions that one can make during the contest on the problem will be limited to 500 and the maximum number of submissions allowed in the challenge problem are limited to 100.</li>\r\n</ul>\r\n<p><strong>Note: You can now \"Code, Compile, and Run\" your codes on our <a href=\"/ide\">Online IDE</a>.</strong></p>\r\n<p>However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. <strong>If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</strong></p>",
+    "non_scorable_message": "<p>The following problems are <b>NOT part of the contest</b>, and will not be counted towards your rankings and ratings. These are problems from Division 2, made available for you to practice. Click <a href='/ratings/divisions'>here</a> to know more. They will be considered for plagiarism though.</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/AUG18A/1533225462.png",
+    "scorable_heading": "Scorable Problems for Division 1",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "SHKNUM": {
+            "allow_submission": false,
+            "name": "Sheokand and Number",
+            "category_name": "unscored",
+            "accuracy": 28.86,
+            "successful_submissions": "120",
+            "code": "SHKNUM",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "LONCYC": {
+            "allow_submission": false,
+            "name": "Lonely Cycles",
+            "category_name": "main",
+            "accuracy": 11.43,
+            "successful_submissions": "138",
+            "code": "LONCYC",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "MYST": {
+            "allow_submission": false,
+            "name": "Chef in a Mysterious Land (Challenge)",
+            "category_name": "main",
+            "accuracy": 65.19,
+            "successful_submissions": "10",
+            "code": "MYST",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "SAFPAR": {
+            "allow_submission": false,
+            "name": "Safe Partition",
+            "category_name": "main",
+            "accuracy": 2.76,
+            "successful_submissions": "34",
+            "code": "SAFPAR",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "PRINDRAG": {
+            "allow_submission": false,
+            "name": "Princess and Dragons",
+            "category_name": "main",
+            "accuracy": 2.1,
+            "successful_submissions": "34",
+            "code": "PRINDRAG",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "KCOMPRES": {
+            "allow_submission": false,
+            "name": "Coordinate Compression ",
+            "category_name": "main",
+            "accuracy": 4.44,
+            "successful_submissions": "258",
+            "code": "KCOMPRES",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "INMAT": {
+            "allow_submission": false,
+            "name": "Interactive Matrix",
+            "category_name": "main",
+            "accuracy": 1.68,
+            "successful_submissions": "119",
+            "code": "INMAT",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "GCDMOD": {
+            "allow_submission": false,
+            "name": "Modular GCD",
+            "category_name": "main",
+            "accuracy": 12.13,
+            "successful_submissions": "691",
+            "code": "GCDMOD",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "PROBLEMS": {
+            "allow_submission": false,
+            "name": "Problem Sort",
+            "category_name": "unscored",
+            "accuracy": 46.89,
+            "successful_submissions": "79",
+            "code": "PROBLEMS",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "SPELLBOB": {
+            "allow_submission": false,
+            "name": "Spell Bob",
+            "category_name": "unscored",
+            "accuracy": 63.93,
+            "successful_submissions": "114",
+            "code": "SPELLBOB",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "RIVER": {
+            "allow_submission": false,
+            "name": "Chef at the River",
+            "category_name": "main",
+            "accuracy": 3.3,
+            "successful_submissions": "14",
+            "code": "RIVER",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1534152600,
+        "current": 1537432126,
+        "freezing": 0,
+        "start": 1533288600
+    },
+    "user": {
+        "username": ""
+    }
+}

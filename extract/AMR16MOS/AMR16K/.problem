@@ -1,0 +1,33 @@
+{
+    "problem_code": "AMR16K",
+    "problem_author": "admin3",
+    "contest_name": "ACM-ICPC Asia-Amritapuri Onsite Mirror Contest 2016",
+    "todo": false,
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Paint for Vernon",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "AMR16MOS",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>",
+    "body": "<p>Vernon is a painter. He specializes in postmodern art.</p>\n\n<p>His paintings used to be very simple but creative. These were the paintings that were enjoyed by masses. They were nothing marvellous but their simplicity had a remarkable effect on the viewer. They were usually sold to the general public with a very low margin, and were very much affordable to everyone. Now, after demonetization, people don't have sufficient cash of lower denominations of rupee notes to buy the simple paintings. So Vernon is forced to change his appeal. Now he decides to create paintings that are still simple-looking, but are \u201csufficiently complex\u201d too, and only of certain colors. He also doesn't like paintings that are too large. These kind of paintings are usually liked a lot by rich people and will fetch Vernon a good amount of much-needed cash.</p>\n\n<p>Specifically, Vernon only looks at <b>R cm \u00d7 C cm</b> paintings where:</p>\n\n<p>\n<ul>\n<li>Each <b>1 cm \u00d7 1 cm</b> cell is colored with exactly one color, which is either red, green, or blue.</li>\n<li>The dimensions are at least <b>5 cm</b>, i.e., <b>R, C \u2265 5</b>.</li>\n<li>The dimensions are at most <b>64 cm</b>, i.e., <b>R, C \u2264 64</b>.</li>\n</ul>\n</p>\n\n<p>In addition, Vernon has a specific measure of an artwork's <b>beauty</b>. He defines it as the number of sets of three <em>connected</em> 1 cm \u00d7 1 cm cells whose colors are distinct.</li>\n</ul>\n\n<p>For example, consider the following painting:</p>\n\n<p>\n<!-- TODO PLEASE INSERT IMAGE HERE, THEN REMOVE THE ASCII VERSION ABOVE -->\n<img src=\"https://s3.amazonaws.com/codechef_shared/download/upload/1A.png\" height=\"160px\"/>\n</p>\n\n<p>Its beauty, according to Vernon, is 7, due to the following sets of cells:</p>\n\n<p>\n<!-- TODO PLEASE INSERT IMAGE HERE, THEN REMOVE THE ASCII VERSION ABOVE -->\n<img src=\"https://s3.amazonaws.com/codechef_shared/download/upload/amr03.png\"  height=\"160px\"/>\n</p>\n\n<p>\n<!-- TODO PLEASE INSERT IMAGE HERE, THEN REMOVE THE ASCII VERSION ABOVE -->\n<img src=\"https://s3.amazonaws.com/codechef_shared/download/upload/amr04.png\"  height=\"160px\"/>\n</p>\n\n<p>On the other hand, these sets of cells do not contribute to the beauty:</p>\n\n<p>\n<!-- TODO PLEASE INSERT IMAGE HERE, THEN REMOVE THE ASCII VERSION ABOVE -->\n<img src=\"https://s3.amazonaws.com/codechef_shared/download/upload/3A.png\" height=\"160px\"/>\n</p>\n\n<p>The first set doesn't have three cells, the second set doesn't have distinct colors, and the third set is not connected.</p>\n\n<p>Today, he went to Amritapuri to find prospective artists. Your goal is to impress him with your postmodern creativity. Specifically, your task is to give him a painting that he will look at, and whose beauty is exactly <b>N</b> according to him. He gives you complete creativity over the solution; he will accept any solution that satisfies all the requirements.</p>\n\n<p>Vernon also leaves in five hours, so you must finish the painting rapidly. If you perform exceptionally well, he might even get you a trip to Rapid City.</p>\n\n<h3>Input</h3>\n<p>The first line of input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>\n<p>Each test case consists of a single line containing a single integer <b>N</b>.</p>\n\n\n<h3>Output</h3>\n<p>For each test case, first output <b>R</b> and <b>C</b>, separated by a space, in a single line. Then, output <b>R</b> lines, each containing <b>C</b> characters which are either <tt>R</tt>, <tt>G</tt> or <tt>B</tt>, which stands for red, green, blue, respectively.</p>\n\n<p>If it's not possible to make such a painting at all, just output <b>-1</b> in a single line.</p>\n\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1 \u2264 T \u2264 2000</b></li>\n<li><b>0 \u2264 N \u2264 10<sup>6</sup></b></li>\n</ul>\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n<tt>1\n7</tt>\n<b>Output:</b>\n<tt>5 5\nRGRGB\nRBBBB\nBBBBB\nBBBBB\nBBBBB</tt>\n</pre>\n\n<h3>Explanation</h3>\n\n<p>The sample output represents the painting shown in the problem statement. Other solutions may be possible.</p>\n",
+    "category_name": "main",
+    "date_added": "20-12-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "max_timelimit": "5",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/AMR16K",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1482477581,
+        "end_date": 1482487200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1793475532,
+        "submit_start_date": 1482477581,
+        "current": 1537434293
+    },
+    "user": {
+        "username": ""
+    }
+}

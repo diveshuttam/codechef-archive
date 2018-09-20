@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Chef Jessie has a lot of recipes with her (N). She often remembered the starting few characters of the recipe and forgot the rest. As all the great chefs do, Jessie also numbered the recipes depending on the priority. So, given the list of recipes along with their priorities answer Jessie\u2019s queries.<br />\nJessie\u2019s queries are as follows:<br />\nShe gives you the first few characters of a recipe; you have to print the complete recipe with the highest priority.</p>\n<p><b>Note:</b><br />\nEvery recipe has a unique priority\n</p>\n<h3>Input</h3>\n<p>First line contains an integer N - the number of recipes.<br />\nFollowed by N strings Si along with an integer each Vi.<br />\nSi stands for the recipe and Vi for the priority.<br />\nIt is followed by an integer Q - the number of queries.<br />\nFollowed by Q strings Qi.<br />\nEach string Si, Qi contain only lowercase Latin alphabets ('a' - 'z') and '-'.\n</p>\n<h3>Output</h3>\n<p>Q \u2013 lines, each contain the answer for each of the query.<br />\nIf for a query no recipe matches print \"NO\". (Without quotes)\n</p>\n<h3>Constraints</h3>\n<p>0 &lt;= <b>N</b> &lt;= 1000<br /></p>\n<p>0 &lt;= <b>Q</b> &lt;= 1000<br /></p>\n<p>-10^9 &lt;= <b>Vi</b> &lt;= 10^9<br /></p>\n<p>1 &lt;= <b>|Si|</b> &lt;= 1000 (length of <b>Si</b>)<br /></p>\n<p>1 &lt;= <b>|Qi|</b> &lt;= 1000 (length of <b>Qi</b>)</p>\n<h3>Example1:</h3>\n<pre><b>Input:</b>\n4\nflour-with-eggs 100\nchicken-ham -10\nflour-without-eggs 200\nfish-with-pepper 1100\n6\nf\nflour-with\nflour-with-\nc\nfl\nchik\n\n<b>Output:</b>\nfish-with-pepper\nflour-without-eggs\nflour-with-eggs\nchicken-ham\nflour-without-eggs\nNO\n\n</pre><hr />\n<h3>Code</h3>\n<pre>\nThis is the solution that P wrote for the problem:\n<pre>\n<div>\n\t#include &lt;iostream.h>\n\t#include &lt;map>\n\tusing namespace std;\n</div>\n<div>\n\tint main() {\n\tint n,q,l;\n\tstring s;\n\tlong long v;\n\tmap&lt;long long,string>m;\n\tcin>>n;\n\tfor(int i=0;i&lt;n;i++){\n\tcin>>s;\n\tm[v]=s;\n\t}\n\tcin>>v;\n\tmap&lt;long long,string>::reverse_iterator rit;\n\tfor(int i=0;i&lt;q;i++){\n\tcin>>q;\n\tl=s.length();\n\tfor(rit=m.rbegin();rit!=m.rend();rit++){\n\tif(rit->second->substr(0,l)=s){\n\tcout&lt;&lt;rit->second&lt;&lt;endl;\n\tbreak;\n\t}\n\t}\n\tif(rit==M.rend())\n\tcout&lt;&lt;\"NO\"&lt;&lt;endl;\n\t}\n\treturn 0;\n\t}\n</div>\n</pre><hr />\n<h3>Steps to be followed</h3>\n<p>    1. Read the given description carefully and understand the problem.<br /><br /></p>\n<p>    2. Analyze the code given in the problem and find bugs(errors) in these codes..<br /><br /></p>\n<p>    3. The given code can be copied and compiled in an online compiler (Eg. ideone.com).<br /><br /></p>\n<p>    4. Once the bugs are eliminated from the code, the clean code can be submitted as the solution to the problem..<br /><br /></p>\n<p>    5. The solution should be a debugged version of the code provided and must satisfy the test cases to be accepted..<br /><br /></p>\n<p><b>All the best!!</b></p>\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Whats Bugging You",
+    "languages_supported": false,
+    "todo": false,
+    "time": {
+        "view_start_date": 1453635000,
+        "end_date": 1453645800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1453645800,
+        "submit_start_date": 1453635000,
+        "current": 1537435604
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>sneha_rajeev</span>",
+    "problem_name": "Recipie",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sneha_rajeev'>sneha_rajeev</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sneha_rajeev",
+    "contest_code": "WBY2016",
+    "max_timelimit": "1",
+    "problem_code": "WBUP102"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "IITI14",
+    "problem_author": "iiti_adm",
+    "contest_name": "Divide By Zero 2014",
+    "todo": false,
+    "problem_author_html_handle": "iiti_adm",
+    "problem_name": "Sherlock and the Perfect Array",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "DBYZ2014",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ad-hoc'>ad-hoc</a>, <a class='problem-tag-small ' href='/tags/problems/dbyz2014'>dbyz2014</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/iiti_adm'>iiti_adm</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Watson, from one of his programmer friends, finds out about the site codechef. Fascinated by the questions, he decides to make a question himself. He defines a pair of numbers <b>(x,y)</b> a perfect pair if at least one of the numbers is greater than a given number <b>K</b>. Now he wants to find out that given an array <b>A</b> (1-based index) of size <b>N</b>, and an operation (defined below) what should be the minimum number of operations required to make every possible pair in the array perfect.<br />\nThe only operation which can be done on the array is as follows:<br />\nSelect two distinct indices <b>i</b>, <b>j</b> <b>(1 &lt;= i &lt;= N and 1 &lt;= j &lt;= N)</b> and replace one of <b>A[i]</b> or <b>A[j]</b> with <b>A[i]*A[j]</b>.<br />\nNow he challenged Sherlock to solve this problem. As Sherlock is busy with his cases, help him to find the answer.\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<ul>\n<li>First line contains no of test cases <b>T</b>.</li>\n<li>Each test case has 2 lines. First line has two integers <b>N</b> and <b>K</b> seperated by space. Second line has <b>N</b> numbers seperated by space, where ith integer is <b>A[i]</b>.\n</li>\n</ul>\n\n<h3>Output</h3>\n<ul>\n<li>For each test case, print in a single line, the minimum number of operations required for that case. If it is not possible to make every pair in an array perfect then output <b>-1</b>.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>2</b> \u2264 <b>N</b> \u2264 <b>10^5</b></li>\n<li><b>0</b> \u2264 <b>A[i]</b> \u2264 <b>10^9</b></li>\n<li><b>0</b> \u2264 <b>K</b> \u2264 <b>10^9</b></li>\n<li>Sum of <b>N</b> across all the test cases in a test file does not exceed <b>10^6</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<p>\n2\n5 25\n4 3 2 1 5\n5 25\n0 0 3 4 5\n</p>\n\n<b>Output:</b>\n<p>\n5\n-1\n</p>\n</pre>",
+    "category_name": "main",
+    "date_added": "28-01-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/IITI14",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1391270400,
+        "end_date": 1391279400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1391279400,
+        "submit_start_date": 1391270400,
+        "current": 1537437873
+    },
+    "user": {
+        "username": ""
+    }
+}

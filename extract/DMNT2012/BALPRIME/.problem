@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A balanced prime is one which is the average of the previous and the next prime number. Your task in this problem is to write a program that can calculate the nth balanced prime</p>\n\n<h3>Input</h3>\n<p>The first line of input contains t, the number of test cases. This is followed by t lines each containing a number n.</p>\n\n<h3>Output</h3>\n<p>For each test case output the nth balanced prime on a new line.</p>\n\n<h3>Example</h3>\n\n<p>Input:</p>\n\n<pre><code>7\n1\n2\n3\n4\n5\n6\n7\n\n</code></pre>\n\n<p>Output:</p>\n\n<pre><code>5\n53\n157\n173\n211\n257\n263\n\n</code></pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-01-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Dementia 2012 - IIT Mandi",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1327149000,
+        "end_date": 1327170600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1327170600,
+        "submit_start_date": 1327149000,
+        "current": 1537439035
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>singh_sume</span>",
+    "problem_name": "Balanced Primes",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/singh_sume'>singh_sume</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "singh_sume",
+    "contest_code": "DMNT2012",
+    "max_timelimit": "0.173913",
+    "problem_code": "BALPRIME"
+}

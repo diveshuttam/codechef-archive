@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": "shilp_adm",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p style=\"text-align:justify\">\nThere is a new mall in the city and customers have one floor of parking available in its basement. The parking lot consists of m rows of n parking slots each. When owners come back  where (s)he has parked his/her car they may have to examine mXn cars in the worst case to find the car.</p>\n<p style=\"text-align:justify\">In order to attract customers, the mall has decided to ease this trouble by hiring a new parking lot attendant to park the cars. The diligent attendant has thought of the following scheme to park the cars. The license number of each vehicle is a positive number. License numbers are unique to a car - no two cars have the same number. The attendant has decided that for ease of locating a car, he will keep each row and each column sorted in ascending order of license numbers.</p>\n<p style=\"text-align:justify\">Imagine the columns as being arranged from west to east and the rows being arranged north to south. Any unused slot in a row or column will be present only at the end - that is, once an empty slot is encountered on a row, there will be no car to the east of the slot on the same row, and once an empty slot is encountered on a column, there will be no car to the south of the slot on that column. Let's call such a lot as an \"ordered lot\".</p>\n<p style=\"text-align:justify\">Once he has thought of this scheme, he has to design various operations to maintain the order once cars are removed. We wish him well with his grand scheme, but we will assist him only in the simplest operation - that of removing the car with the smallest license number. This operation is performed on an already ordered lot.</p>\n<p style=\"text-align:justify\">If we remove any car creating an empty slot, we can fill that empty slot by moving the car immediately to its east, or immediately south, to the empty slot. The attendant has to do this until the parking lot becomes an \"ordered lot\", once again. You have to help him by computing the least number of cars that he has to move, after removing the smallest numbered car, such that the lot becomes ordered.</p>\n<h3>Input</h3>\n<p style=\"text-align:justify\">The input consists of several lines. The first line is a number saying how many distinct parking lots are present in the input. </p>\n<p style=\"text-align:justify\">This is followed by a set of inputs, each representing an ordered parking lot. Each lot starts with a line containing two numbers m and n, separated by a blank space where the first number m is  the number of rows and the second one, n, is the number of columns in that lot. This is followed by m rows of n columns of numbers, each representing a license number. Empty slots will be represented by the number 2147483647.</p>\n<h3>Output</h3>\n<p style=\"text-align:justify\">The output should consist of several line, each containing a number. Each line i corresponds to a parking lot i in the input. The output number for a lot should be the minimum number of cars that the attendant should move once the car with the minimum license number is removed, to maintain an ordered lot.</p>\n<h3>Sample Input</h3>\n<pre>\n2\n3 3\n1 2 3\n4 5 6\n7 8 9\n4 2\n1 2\n3 2147483647\n4 2147483647\n2147483647 2147483647\n\n</pre><h3>Sample Output</h3>\n<pre>\n4\n1\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-11-2012",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Kanpur Site First Round Online Contest 2012",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1351933200,
+        "end_date": 1351940400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1351940400,
+        "submit_start_date": 1351933200,
+        "current": 1537438670
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Parking Woes",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>shilp_adm</span>",
+    "problem_author": "admin",
+    "contest_code": "ACMKAN12",
+    "max_timelimit": "3",
+    "problem_code": "PARKWOE"
+}

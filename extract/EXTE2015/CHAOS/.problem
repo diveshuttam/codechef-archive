@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">\nRG loves to create chaos. He has decided to create chaos in the state of <i>Mysteryland</i>.\n</p>\n<p align=\"justify\">\nThere are <b>n</b> cities in the state of  <i>Mysteryland</i> indexed from 1 to <b>n</b>. Initially, there are <b>m</b> cities that are already chaotic.<br />\nNow, RG can create chaos in a city with index <b>i</b> which is not chaotic only if there is at least one chaotic city with index <b>j</b> such that:<br /><br />\n<center><a href=\"https://en.wikipedia.org/wiki/Absolute_difference\">absolute difference </a>(<b>i</b>, <b>j</b>) =1.</center><br />\n<br /><br />\nNow, help him find the possible number of ways of making all the cities chaotic.\n</p>\n<h3>Input</h3>\n<p align=\"justify\">\nThe first line contains a single integer <b>T</b>, denoting the number of testcases. The descriptions of <b>T</b> test cases follow.</p>\n<p align=\"justify\">The first line of each test case contains two space separated integers <b>n</b> and <b>m</b> where <b>n</b> represents total number of cities in Mysteryland and <b>m</b> represents the number of cities that are already chaotic.<br />Next line contains <b>m</b> distinct integers lying between 1 and <b>n</b> (both inclusive) representing the indices of the cities that are already chaotic.</p>\n<h3>Output</h3>\n<p align=\"justify\">\nFor each Test case, print the number of ways he can make all cities chaotic. As the answer can be very large, print it modulo <b>1000000007</b>.\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>1000.</b></li>\n<li><b>1</b> \u2264 <b>m</b> \u2264 <b>n</b> \u2264 <b>1000</b>\n</li></ul>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n3\n5 1\n1\n4 2\n1 3\n4 1\n2\n\n<b>Output:</b>\n1\n2\n3\n</pre><h3>Explanation</h3>\n<p align=\"justify\"><b>Example case 1.</b> There is only one way of making all the cities chaotic. RG can make the cities chaotic in the order {2, 3, 4, 5}.</p>\n<p align=\"justify\"><b>Example case 2.</b> There are two ways of making all the cities chaotic. RG can make the cities chaotic in the order {2, 4} or {4, 2}.</p>\n<p align=\"justify\"><b>Example case 3.</b> There are three ways of making all the cities chaotic. RG can make the cities chaotic in the order {1,3,4} , {3,1,4} or {3,4,1}.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-11-2015",
+    "is_direct_submittable": false,
+    "contest_name": "./Execute, NIT Jalandhar",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1446564600,
+        "end_date": 1446575400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1446575400,
+        "submit_start_date": 1446564600,
+        "current": 1537435838
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>prashantpcm94</span>",
+    "problem_name": "RG and Chaos",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/prashantpcm94'>prashantpcm94</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "prashantpcm94",
+    "contest_code": "EXTE2015",
+    "max_timelimit": "1",
+    "problem_code": "CHAOS"
+}

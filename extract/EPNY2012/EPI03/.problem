@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p> You will be given a string of alphabets. You will also be given a single character. You have to find the number of times the alphabet repeats in the string.\n\n<h3>Input</h3>\n<p> First input is a string less than 100 Characters.\n<br> Second Input is a single Character.\n\n<h3>Output</h3>\n<p> A positive integer denoting the number of repetitions.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\nRRGVRDU\nR\n\n<b>Output:</b>\n3\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-09-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Epiphany 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1348745400,
+        "end_date": 1348835400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1659758257,
+        "submit_start_date": 1348745400,
+        "current": 1537438712
+    },
+    "problem_author_html_handle": "krupakar",
+    "problem_name": "Copy cats",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/krupakar'>krupakar</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "krupakar",
+    "contest_code": "EPNY2012",
+    "max_timelimit": "0.42 - 0.645161",
+    "problem_code": "EPI03"
+}

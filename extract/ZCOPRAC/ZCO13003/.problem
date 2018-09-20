@@ -1,0 +1,31 @@
+{
+    "status": "success",
+    "problem_tester": null,
+    "body": "<h2>Zonal Computing Olympiad 2013, 10 Nov 2012</h2>\n\n<br>\n\n<p>Hobbes has challenged Calvin to display his chewing skills and\nchew two different types of <em>Chewing Magazine</em>'s Diabolic\nJawlockers chewing gum at the same time. Being a generous sort of\ntiger, Hobbes allows Calvin to pick the two types of gum he will\nchew.</p>\n\n<br>\n<p>Each type of chewing gum has a hardness quotient, given by a\nnon-negative integer.  If Calvin chews two pieces of gum at the\nsame time, the total hardness quotient is the sum of the\nindividual hardness quotients of the two pieces of gum.</p>\n\n<br>\n<p>Calvin knows that he cannot chew any gum combination whose\nhardness quotient is <em>K</em> or more. He is given a list with\nthe hardness quotient of each type of gum in the Diabolic\nJawlockers collection.  How many different pairs of chewing gum\ncan Calvin choose from so that the total hardness quotient\nremains strictly below his hardness limit <em>K</em>?</p>\n\n<br>\n<p>For instance, suppose there are 7 types of chewing gum as\nfollows:\n\n<br>\n<p>\n<table border=\"1\">\n<tr> <td align=center>\u00a0Chewing gum type\u00a0</td>\n     <td align=center>\u00a01\u00a0</td>\n     <td align=center>\u00a02\u00a0</td>\n     <td align=center>\u00a03\u00a0</td>\n     <td align=center>\u00a04\u00a0</td>\n     <td align=center>\u00a05\u00a0</td>\n     <td align=center>\u00a06\u00a0</td>\n     <td align=center>\u00a07\u00a0</td>\n</tr>\n<tr> <td align=center>\u00a0Hardness quotient\u00a0</td>\n     <td align=center>\u00a010\u00a0</td>\n     <td align=center>\u00a01\u00a0</td>\n     <td align=center>\u00a03\u00a0</td>\n     <td align=center>\u00a01\u00a0</td>\n     <td align=center>\u00a05\u00a0</td>\n     <td align=center>\u00a05\u00a0</td>\n     <td align=center>\u00a00\u00a0</td>\n</tr>\n</table>\n</p>\n\n<br>\n<p> If Calvin's hardness limit is 4, there are 4 possible pairs he can choose: type 2 and 7 (1+0 &lt; 4), type 3 and 7 (3+0 &lt; 4), type 2 and 4 (1+1 &lt; 4) and type 4 and 7 (1+0 &lt; 4). </p>\n\n<br>\n<h3>Input format</h3>\n<p>Line 1 : Two space separated integers <em>N</em> and <em>K</em>, where <em>N</em> is the number of different types of chewing gum and <em>K</em> is Calvin's hardness limit.</p>\n<p>Line 2: <em>N</em> space separated non-negative integers, which are the hardness quotients of each of the <em>N</em> types of chewing gum.</p>\n\n<br>\n<h3>Output format</h3>\n<p> The output consists of a single non-negative integer, the number of pairs of chewing gum with total hardness quotient strictly less than <em>K</em>.  </p>\n\n<br>\n<h3>Sample Input</h3>\n\n<pre>\n7 4\n10 1 3 1 5 5 0\n</pre>\n\n<br>\n<h3>Sample Output</h3>\n<pre>\n4\n</pre>\n\n\n<br>\n<h3>Test data</h3>\n<p>In all subtasks, you may assume that all the hardness quotients as well as the hardness limit <em>K</em> are between 0 and 1,000,000, inclusive.</p>\n<ul>\n<li><b>Subtask 1 (30 marks)</b> : 2 \u2264 <em>N</em> \u2264 2,000.</li>\n<li><b>Subtask 2 (70 marks)</b> : 2 \u2264 <em>N</em> \u2264 100,000.</li>\n</ul>\n\n<br>\n<h3>Live evaluation data</h3>\n<ul>\n<li><b>Subtask 1</b>: Testcases 0,1,2,3.</li>\n<li><b>Subtask 2</b>: Testcases 4,5,6.</li>\n</ul>\n\n<br>\n<h3>Note</h3>\n<p>The answer might not fit in a variable of type <tt>int</tt>. We recommend that type <tt>long\u00a0long</tt> be used for computing the answer.  If you use <tt>printf</tt> and <tt>scanf</tt>, you can use <tt>%lld</tt> for <tt>long\u00a0long</tt>. </p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-11-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ZCO Practice Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1446661800,
+        "end_date": 1578162600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1578162600,
+        "submit_start_date": 1446661800,
+        "current": 1537431954
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Chewing",
+    "source_sizelimit": "50000",
+    "problem_status": "unattempted",
+    "problem_tester_html_handle": null,
+    "problem_author": "admin3",
+    "contest_code": "ZCOPRAC",
+    "max_timelimit": "1",
+    "problem_code": "ZCO13003"
+}

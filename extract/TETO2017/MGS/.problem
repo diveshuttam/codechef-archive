@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>There are n stones. When Amy see the stones through a magical mirror, he observes some unique number on each stone. So when he multiplies all those numbers he gets the product from number 1 to n. Now, when Amy see stones, he wants to choose  the number which can divide the product. He tries to think what will be the total ways (x) of choosing the stone(s) such that product of whose(stones) reflection in the mirror is odd and can be expressed in the form of x / y (where y is the total ways of choosing the number that can divide the product).\n<br> Now again he is adding a constraint that x and y has the property that they don't have any common factor between these two except they are the stones. He wants you to add those two quantities x and y.\n</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>\n<br>\nT : Number of Test Cases\n<br>\nOnly line of each test case contains  a positive integer <b>n</b> </p>\n\n\n<h3>Output</h3>\n<p> For each test case, output a line containing the value of x + y </p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>n<b> < <b>10^100</b></li>\n<li><b>1</b> \u2264 <b>T<b> < <b>100</b></li>\n</ul>\n\n<h3>Example</h3>\n\n<pre><b><h4>Input:</h4></b>\n2\n2\n21\n<b><h4>Output:</h4></b>\n3\n20\n</pre>\n<p>\u00a0</p>\n<h3>Explanation </h3>\n<p> for Test Case :1 </p> \n<p><b> the product will be 1 * 2 <br>   \nhere ,Total number of stones which contain the odd number is : 1 <br>\npossibility of choosing stone with odd number is  :   1 / 2 (1 from total 2 stones) \n<br> <br>so the output is 1 + 2 = 3   </b></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "11-08-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Techtonic",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1502598600,
+        "end_date": 1502821740,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1502821800,
+        "submit_start_date": 1502598600,
+        "current": 1537433651
+    },
+    "problem_author_html_handle": "anu2506",
+    "problem_name": "Numbers Magic",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anu2506'>anu2506</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "anu2506",
+    "contest_code": "TETO2017",
+    "max_timelimit": "1",
+    "problem_code": "MGS"
+}

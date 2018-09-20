@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The capital city of the kingdom of France has a lot of tribal clans living in the outskirts. Farming<br />\nand hunting are the two major occupations of these people. These clans keep moving around<br />\nthe kingdom and make their homes using wood and leaves. Each clan has a different culture<br />\nand in general people of one clan do not like people from the other clans. They live separately<br />\nand have intra-clan weddings only.</p>\n<p>With the advent of the new season, there are floods coming in from the Seine River. As<br />\nthese people don\u2019t have proper houses to live in, they have requested the King to provide shel-<br />\nter in the well protected capital city. The King has decided to construct temporary houses for<br />\nthese clans in the Great Royal Circle which is a circle in shape. As these clans do not like each<br />\nother, they can\u2019t live together and would need some kind of a boundary to separate their shelters.</p>\n<p>The King has come up with a plan to do so. He decided that a number of bamboo sticks<br />\nwill be placed on the boundary of the Great Royal Circle. Then for every pair of bamboo sticks<br />\na wired fence will be used to connect them and create partitions of the circle. The bamboo sticks<br />\nwill be placed such that no three fences cross at the same point within the circle. Proper joints<br />\nare placed at locations where two fences cross each other. In this way, the Great Royal Circle is divided into a number of regions each of which will be given to a clan to live in temporarily.</p>\n<p>As there is a shortage of dry bamboo sticks, the King\u2019s soldiers could only manage N bamboo sticks to be placed on the boundary of the Great Royal Circle. What is the maximum<br />\nnumber of different clans the King can provide shelter to?</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer T which is the number of test cases. Next follow<br />\nT lines each containing an integer N, the number of bamboo sticks available.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each test case, output in a separate line the maximum number of clans which can be provided shelter from the floods. Since this number can be very big, output it modulo 1000000007.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>30000</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>9</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n2\n3\n4\n5\n\n<b>Output:</b>\n2\n4\n8\n16\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "31-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Kanpur Onsite Contest 2014, Replay",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1427981400,
+        "end_date": 1427999400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1427999400,
+        "submit_start_date": 1427981400,
+        "current": 1537436449
+    },
+    "problem_author_html_handle": "pnkjjindal",
+    "problem_name": "Accommodating tribal clans",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pnkjjindal'>pnkjjindal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pnkjjindal",
+    "contest_code": "KAN14ROS",
+    "max_timelimit": "1",
+    "problem_code": "KAN15RTB"
+}

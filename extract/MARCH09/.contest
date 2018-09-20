@@ -1,0 +1,97 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "MARCH09",
+    "duration": "20280",
+    "name": "March 2009 (Contest I)",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p>\u00a0</p> <p><b>Congratulations to our Winners:</b><br /> 1. Anshuman Singh - IIIT Hyderabad<br /> 2. Ajay Somani - IIIT Hyderabad<br /> 3. Prateek Karandikar - Indian Statistical Institute</p> <p>\u00a0</p> <p><b>Updates:</b></p> <ul> <li>March 13th 7:49pm - We have removed two test cases for problem AX where there was no need to place any mines. This condition was not clear in the given problem statement. A rejudge of all submissions is in progress.</li> <li>March 5th 3:57pm - The ouput for contest problem A4 has been modified to avoid floating point precision issues. All submissions have been rejudged.</li> <li>March 2nd 5:04pm - Contest problem A4 has been readded with modified tests. We have rejudged all the solutions and none of the existing ones have passed. Please continue to submit your solutions.</li> <li>March 1st 12:50pm - Contest problem A4 is being taken down for review. We will provide more information shortly.</li> </ul> <p>\u00a0</p> <p><b>Rules:</b></p> <ul> <li>Contest problems will become visible on March 1st.</li> <li>The contest will consist of 6 problems of varying difficulty.</li> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li>Each contest will have one min/max tie breaker problem (i.e. solve a Rubik's cube in the fewest number of moves), where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</li> <li>In the unlikely case of an overall tie (including the same score on the tie-breaker) a winner will be randomly chosen from the top scorers.</li> </ul> <p><br /> <br /> <i>Please note: Prizes are awarded to users within India only.</i></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/MARCH09/1424957402.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "A4": {
+            "allow_submission": false,
+            "name": "The Rise and Fall of Power",
+            "category_name": "main",
+            "accuracy": 3.55,
+            "successful_submissions": "25",
+            "code": "A4",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "A1": {
+            "allow_submission": false,
+            "name": "Paying up",
+            "category_name": "main",
+            "accuracy": 23.71,
+            "successful_submissions": "160",
+            "code": "A1",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "A2": {
+            "allow_submission": false,
+            "name": "Johnny and the Beanstalk",
+            "category_name": "main",
+            "accuracy": 26.84,
+            "successful_submissions": "131",
+            "code": "A2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "A6": {
+            "allow_submission": false,
+            "name": "Some More Homework",
+            "category_name": "main",
+            "accuracy": 5.77,
+            "successful_submissions": "22",
+            "code": "A6",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "A3": {
+            "allow_submission": false,
+            "name": "The Guessing Game",
+            "category_name": "main",
+            "accuracy": 3.92,
+            "successful_submissions": "21",
+            "code": "A3",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "AX": {
+            "allow_submission": false,
+            "name": "Place the mines!",
+            "category_name": "main",
+            "accuracy": 68.44,
+            "successful_submissions": "14",
+            "code": "AX",
+            "type": "2",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1237055400,
+        "current": 1537439976,
+        "freezing": 0,
+        "start": 1235838600
+    },
+    "user": {
+        "username": ""
+    }
+}

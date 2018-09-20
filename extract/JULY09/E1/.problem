@@ -1,0 +1,33 @@
+{
+    "problem_code": "E1",
+    "problem_author": "admin",
+    "contest_name": "July 2009 (Contest V)",
+    "todo": false,
+    "problem_author_html_handle": "admin",
+    "problem_name": "The White Knight",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "JULY09",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>You are given a chessboard of size NxN. There is a white knight and several black pawns located on the board. The knight can move similarly to the normal knight in the game of chess; however it can only move towards the right of the board (see the below figure).</p>\n<p><img src=\"https://vn.spoj.pl/SPOJVN/content/whitekn.png\" alt=\"\" /></p>\n<p>The mission of the knight is to capture as many black pawns as possible. Its journey ends when it moves to the rightmost column of the board.</p>\n<p>Compute the maximum number of black pawns the white knight can capture.</p>\n<h3>Input</h3>\n<p>The first line contains t, the number of test cases (about 10). Then t test cases follow.</p>\n<p>Each test case has the following form:</p>\n<ul>\n<li>The first line contains N, the size of the chessboard (4 \u2264 N \u2264 1000).</li>\n<li>Then N lines follow, each line containing N characters which may be '.', 'K' or 'P', corresponding to the empty cell, the white knight, and the black pawn, respectively. There is exactly one 'K' character in the whole of the board.</li>\n</ul>\n<h3>Output</h3>\n<p>For each test case, print in a single line the maximum number of black pawns that can be captured.</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong>\n1\n5\nK....\n..P..\n.P...\n...P.\n.....\n\n<strong>Output:</strong>\n2 \n</pre>",
+    "category_name": "main",
+    "date_added": "5-06-2009",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "max_timelimit": "0.913548",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/E1",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1246440600,
+        "end_date": 1247477400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1247477400,
+        "submit_start_date": 1246440600,
+        "current": 1537439929
+    },
+    "user": {
+        "username": ""
+    }
+}

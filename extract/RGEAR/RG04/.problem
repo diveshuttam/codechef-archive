@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>As engineering colleges are proliferating without any check, so a law has been passed stating that the number of colleges in any state should be limited \n\nto a single digit. So a software engg. was called to develop some code which takes number of colleges as input and display the single digit number of \n\nrequired colleges as output for each state.\n<h3>Input</h3>\n<p>Each line of input consists of a number of colleges (maximum 5 digits) to be tested. when 0 is encountered as input program terminates\n\n<h3>Output</h3>\n<p>Ouput consists of a single digit number for each input number fed to that software.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n21347\n12387\n77775\n35677\n33977\n0\n\n<b>Output:</b>\n3\n3\n6\n4\n2\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-10-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Thapar University - Aranya 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1286454600,
+        "end_date": 1286541000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180200,
+        "submit_start_date": 1286454600,
+        "current": 1537439493
+    },
+    "problem_author_html_handle": "Chunky",
+    "problem_name": "Engineering Phobia",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/Chunky'>Chunky</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "Chunky",
+    "contest_code": "RGEAR",
+    "max_timelimit": "0.258065",
+    "problem_code": "RG04"
+}

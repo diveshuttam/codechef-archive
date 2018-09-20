@@ -1,0 +1,166 @@
+{
+    "announcements": "<p><b>24/11/2013, 12:06 IST: </b>The official school rankings for the contest can be found\u00c2\u00a0<a target=\"_blank\" href=\"/rankings/inst/school/LTIME06\">here</a>. Overall rankings can be viewed\u00c2\u00a0<a target=\"_blank\" href=\"/rankings/inst/LTIME06\">here</a>.</p>",
+    "ip": "149.129.135.113",
+    "code": "LTIME06",
+    "duration": "210",
+    "name": "November Lunchtime 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "NUMBERS": [
+            {
+                "score": "17",
+                "count": "9"
+            },
+            {
+                "score": "19",
+                "count": "1"
+            },
+            {
+                "score": "30",
+                "count": "33"
+            },
+            {
+                "score": "34",
+                "count": "6"
+            },
+            {
+                "score": "36",
+                "count": "1"
+            },
+            {
+                "score": "51",
+                "count": "1"
+            },
+            {
+                "score": "64",
+                "count": "3"
+            },
+            {
+                "score": "66",
+                "count": "10"
+            },
+            {
+                "score": "83",
+                "count": "6"
+            },
+            {
+                "score": "100",
+                "count": "196"
+            }
+        ],
+        "PALINDR": [
+            {
+                "score": "33",
+                "count": "19"
+            },
+            {
+                "score": "50",
+                "count": "12"
+            },
+            {
+                "score": "73",
+                "count": "15"
+            },
+            {
+                "score": "100",
+                "count": "7"
+            }
+        ],
+        "QMARKS": [
+            {
+                "score": "16",
+                "count": "5"
+            },
+            {
+                "score": "48",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "3"
+            }
+        ],
+        "LMA1": [
+            {
+                "score": "29",
+                "count": "2"
+            },
+            {
+                "score": "75",
+                "count": "4"
+            },
+            {
+                "score": "100",
+                "count": "19"
+            }
+        ]
+    },
+    "rules": "<div><b>The November Lunch Time 2013 has ended.<br />All the solutions for the problem set are public and the problems have been moved to practice section.<br /></b><b>The editorials for the contest have been updated, you can check them\u00a0<a href=\"http://discuss.codechef.com/tags/ltime06/\">here</a>.<br /></b><b>The winners blog post can be found <a href=\"http://blog.codechef.com/2013/12/27/a-contest-of-minimum-moves/\">here</a>.</b></div> <div> <div></div> <div><b>Rules and Regulations:</b></div> <div><b><br /></b></div> <div> <p>This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test data.</p> <ul> <li>The details of the failed test cases will also be visible on your solution page.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The contest is meant for students of high school and middle school though everyone is invited to participate.</li> <li>There will be separate ranking page for school students. The school students will be identified by the inistitution that they have enetered in their profile.</li> <li><b>We have removed all the Institutions that we could not identify from our database. We request you to update your institutions once again by going to your profile page.</b></li> <li>You can also send in your queries in an email to <a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a>, during the contest.</li> <li>Contest problems will become visible on November 24th, 2013 at 11:00 am (IST) to 2:00 pm (IST). There will be 4 problems in all. Check your time zone <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+November+Lunch+Time+2013&amp;iso=20131124T11&amp;p1=44&amp;ah=3\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></li> <li>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a>.</li> </ul> </div> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/LTIME06/1424957841.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "NUMBERS": {
+            "allow_submission": false,
+            "name": "Lucy and the Number Game",
+            "category_name": "main",
+            "accuracy": 22.32,
+            "successful_submissions": "196",
+            "code": "NUMBERS",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "PALINDR": {
+            "allow_submission": false,
+            "name": "Lucy and Palindromes",
+            "category_name": "main",
+            "accuracy": 3.7,
+            "successful_submissions": "7",
+            "code": "PALINDR",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "QMARKS": {
+            "allow_submission": false,
+            "name": "Lucy and Question Marks",
+            "category_name": "main",
+            "accuracy": 11.54,
+            "successful_submissions": "3",
+            "code": "QMARKS",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "LMA1": {
+            "allow_submission": false,
+            "name": "Lucy and the Math Analysis",
+            "category_name": "main",
+            "accuracy": 5.64,
+            "successful_submissions": "19",
+            "code": "LMA1",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1385283600,
+        "current": 1537437985,
+        "freezing": 0,
+        "start": 1385271000
+    },
+    "user": {
+        "username": ""
+    }
+}

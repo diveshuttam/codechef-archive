@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p class=\"MsoNormal\" align=\"center\"><b><u><span lang=\"EN-US\">Double Near Palindromes</span></u></b></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">C-3PO is an expert in\npretty much every language. His <span class=\"GramE\">conversation with R2-D2 are</span>\nalways fun to observe un that R2-D2 speaks in Droid, C-3PO speak in English,\nand they understand each other perfectly! Anyway, humans and droids both enjoy\nplaying word games.<br /><br /> A palindrome is a word or sequence of one or more letters\nthat reads the same forwards and backwards. A near palindrome is a word or\nsequence that can be changed to or kept a palindrome by changing exactly one\nletter to a different letter. For example, BAT is a near palindrome, since\nchanging the T to a B would make the word a palindrome: BAB. PEEP is not a near\npalindrome: although PEEP is palindrome, changing any letter would remove its\npalindrome status.<br /><br />A double near palindrome is a word or sequence that consists\nof two near palindromes concatenated together. For example, BATMAN is a double\nnear palindrome, since BAT and MAN are both near palindromes. Given a list of\nwords, you are to determine which words are double near palindromes and which\nare not.</span></p>\n\n<p class=\"MsoNormal\"><b><span lang=\"EN-US\">Input</span></b></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">The input consists of one\nor more words. All words (except the last) will be inclusively between 1 and 25\nletters long and will consist of entirely of capital letters. The last word\nwill be *END* and is not be processed; it simply indicates the end of the\ninput. There may be any number of spaces and characters before, after, and\nbetween words.</span></p>\n\n<p class=\"MsoNormal\"><b><span lang=\"EN-US\">Output</span></b></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">The output cases are to\nappear in the same order in which they appear in the input. For each input\ncase, you are to print either w is a double near palindrome. <span class=\"GramE\">or</span>\nw is not a double near palindrome. whichever is appropriate, where w is the\ninput word. Exactly one should follow each output case (meaning there should be\nno blank lines in the output).</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"> </span></p>\n\n<p class=\"MsoNormal\"><b><u><span lang=\"EN-US\">Sample Input:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">BATMAN<br /> CONSTANTINOPLE <br />*END*</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"> </span></p>\n\n<p class=\"MsoNormal\"><b><u><span lang=\"EN-US\">Sample Output:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">BATMAN is a double near palindrome.<br /> CONSTANTINOPLE is not a double near palindrome.</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"> </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">Time <span class=\"GramE\">limit<span> \n</span>:</span><span>   </span>1s</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">Source limit:<span>       </span>50000B</span></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "DreamSpark Contest 3",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1272112200,
+        "end_date": 1272306540,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1272306540,
+        "submit_start_date": 1272112200,
+        "current": 1537439594
+    },
+    "problem_author_html_handle": "ganesha",
+    "problem_name": "DOUBLE NEAR PALINDROME",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ganesha'>ganesha</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ganesha",
+    "contest_code": "DSPC30",
+    "max_timelimit": "0.333333",
+    "problem_code": "DSPC302"
+}

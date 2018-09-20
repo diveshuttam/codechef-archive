@@ -1,0 +1,31 @@
+{
+    "status": "success",
+    "problem_tester": null,
+    "body": "<h2>Zonal Computing Olympiad 2012, 26 Nov 2011</h2>\n\n<br>\n<p>A sequence of opening and closing brackets is <em>well-bracketed</em> if we can pair up each opening bracket with a matching closing bracket in the usual sense.  For instance, the sequences <tt>()</tt>, <tt>(())</tt> and <tt>()(())</tt> are well-bracketed, while <tt>(</tt>, <tt>())</tt>, <tt>(()()</tt>, and <tt>)(</tt>  are not well-bracketed.</p>\n\n<br>\n<p> The <em>nesting depth</em> of a well-bracketed sequence tells us the maximum number of levels of inner matched brackets enclosed within outer matched brackets.  For instance, the nesting depth of <tt>()</tt> and <tt>()()()</tt> is 1, the nesting depth of <tt>(())</tt> and <tt>()(())</tt> is 2, the nesting depth of <tt>((()))</tt> is 3, and so on.  </p>\n\n<br>\n<p> Given a well-bracketed sequence, we are interested in computing the following: </p>\n\n<ul>\n<li> <p>The nesting depth, and the first position where it occurs\u2013this will be the position of the first opening bracket at this nesting depth, where the positions are numbered starting with 1.</p></li>\n  \n<li> <p>The maximum number of symbols between any pair of matched  brackets, including both the outer brackets, and the first position where this occurs\u2013that is, the position of the first opening bracket of this segment<p></li>\n</ul>\n\n\n<br>\n<p>For instance, the nesting depth of <tt>()(())()(()())(()())</tt> is 2 and the first position where this occurs is 4.  The opening bracket at position 10 is also at nesting depth 2 but we have to report the first position where this occurs, which is 4.</p>\n\n\n<br>\n<p>In this sequence, the maximum number of symbols between a pair of matched bracket is 6, starting at position 9. There is another such sequence of length 6 starting at position 15, but this is not the first such position.</p>\n\n<br>\n<h3>Input format</h3>\n\n<p>The input consists of two lines. The first line is a single integer <em>N</em>, the length of the bracket sequence. Positions in the sequence are numbered 1,2,\u2026,<em>N</em>. The second line is a sequence of <em>N</em> space-separated integers that encode the bracket expression as follows: 1 denotes an opening bracket <tt>(</tt> and 2 denotes a closing bracket <tt>)</tt>.  Nothing other than 1 or 2 appears in the second line of input and the corresponding expression is guaranteed to be well-bracketed.</p>\n\n<br>\n<h3>Output format</h3>\n\n<p> Your program should print 4 space-separated integers in a line, denoting the four quantities asked for in the following order: nesting depth, first position that achieves the nesting depth, length of the maximum sequence between matching brackets and the first position where such a maximum length sequence occurs.  </p>\n\n<br>\n<h3>Testdata</h3>\n\n<p>\nYou may assume that 2\u00a0\u2264\u00a0<em>N</em>\u00a0\u2264\u00a010<sup>5</sup>.  In 30% of the test cases, 2\u00a0\u2264\u00a0<em>N</em>\u00a0\u2264\u00a010<sup>3</sup>.\n\n<br>\n<ul>\n<li><b>Subtask 1 (30 marks)</b></li>\n<li><b>Subtask 2 (70 marks)</b></li>\n</ul>\n</p>\n\n<br>\n<h3>Sample Input</h3>\n<pre>\n20\n1 2 1 1 2 2 1 2 1 1 2 1 2 2 1 1 2 1 2 2\n</pre>\n\n<br>\n<h3>Sample Output</h3>\n<pre>\n2 4 6 9\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-11-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ZCO Practice Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1446661800,
+        "end_date": 1578162600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1578162600,
+        "submit_start_date": 1446661800,
+        "current": 1537431952
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Matched Brackets",
+    "source_sizelimit": "50000",
+    "problem_status": "unattempted",
+    "problem_tester_html_handle": null,
+    "problem_author": "admin3",
+    "contest_code": "ZCOPRAC",
+    "max_timelimit": "1",
+    "problem_code": "ZCO12001"
+}

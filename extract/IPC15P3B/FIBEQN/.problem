@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>\nIn the year 4242, the language Haskell has evolved so much that it has become an AI. It can solve very challenging problems, in very little time. Humanity is worried that Haskell will take over the world. All hopes remain tied to the Competitive Programming community as they are the expert in shaving milliseconds off code runtime. Haskell creators have found one particular task that if solved faster than Haskell itself, can be used to hack into Haskell's codebase and thus defeat it. The exact details of the task are as follows,<br />\n<br /><br /><br />\n\" Calculate the sum, <b>S(N, K)</b> = <img src=\"http://i.imgur.com/S9o1Ukt.gif\" align=middle alt=\"(\\sum_{i=0}^N F_i \\ K^i)\\ mod\\ (10^9+7)\" />, for <b>Q</b> queries. Here <b>F<sub>i</sub></b> is i<sup>th</sup> Fibonacci number defined as: <b>F<sub>i</sub></b> = <b>i</b> if i = 0 or 1 and <b>F<sub>i</sub></b> = <b>F<sub>i-1</sub></b> + <b>F<sub>i-2</sub></b> if i >= 2. \"<br />\n<br /><br /><br />\nYou being a member of the Competitive Programming community are encouraged to make a submission to this task.\n</p>\n\n<h3>Input</h3>\n<p>\nThe first line contains a single integer <b>Q</b>, the number of queries.<br />\nEach of the next <b>Q</b> lines contain two integers each, <b>N<sub>i</sub></b> and <b>K<sub>i</sub></b>.\n</p>\n<h3>Output</h3>\n<p>\nOutput <b>Q</b> lines with one integer each. The i<sup>th</sup> line should contain the value <b>S(N<sub>i</sub>, K<sub>i</sub>)</b>.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> &lt;= <b>Q</b> &lt;= <b>5*10<sup>4</sup></b></li>\n<li><b>1</b> &lt;= <b>N</b> &lt;= <b>10<sup>18</sup></b></li>\n<li><b>1</b> &lt;= <b>K</b> &lt;= <b>10<sup>18</sup></b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n1 1\n<b>Output:</b>\n1\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Akatsuki",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457274600,
+        "end_date": 1457292600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457292600,
+        "submit_start_date": 1457274600,
+        "current": 1537435258
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>satwantrana</span>",
+    "problem_name": "Fibonacci Equation",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/satwantrana'>satwantrana</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "satwantrana",
+    "contest_code": "IPC15P3B",
+    "max_timelimit": "2 - 4",
+    "problem_code": "FIBEQN"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>XYZ is an International Airline Company. It has flights between different cities across the globe but does not have a direct flight for all the pairs of cities. Flights are such that, all the cities with an airport are reachable by other city either by a direct flight or through other cities. Total number of flights is of the order of number of airports. </p>\n\n<p>For the past few years, their statistics are given below:</p>\n<ul><li>2005 - 487 flights covering 319 different airports.</li>\n<li>2007 - 782 flights covering 549 different airports.</li>\n<li>2009 - 1197 flights covering 886 different airports.</li>\n</ul>\n\n<p>They are planning to start a new flight between cities x and y, whose cost would be C units for the passengers. They need to calculate the percentage decrease in the total minimum cost for all pair of cities. So, let say total minimum cost to travel between all pairs of cities is initially C1 and after the new flight introduction becomes C2. You need to calculate (C1-C2)X100/C1.\n</p>\n<h3>Input</h3>\n<p>First line would give t (number of test cases).<br>\nEach test case starts with line containing n(number of cities) and f(number of flights) seperated by space.<br>\nAll the cities are numbered as 0,1,2,...,n-1.<br>\nNext f lines will give, index of two cities(i and j) and the cost of flight(C).<br>\nEach case ends with a line containing x and y with its cost separated by space.<br>\nt<=10<br>\nn<=1000, f<=2000<br>\nC<=30000 units (is always an integer)</p>\n\n<h3>Output</h3>\n<p>For each test case output the percentage decrease rounded off to two decimal places on a separate line.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n3 2\n0 1 3500\n1 2 4000\n0 2 2700\n5 7\n0 1 5500\n2 3 8100\n4 0 4300\n1 2 2300\n0 3 6000\n4 2 3100\n3 4 3700\n1 3 2800\n<b>Output:</b>\n32.00\n14.93\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Manthan 2010",
+    "languages_supported": "C",
+    "todo": false,
+    "time": {
+        "view_start_date": 1269779400,
+        "end_date": 1269801000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1269801000,
+        "submit_start_date": 1269779400,
+        "current": 1537439643
+    },
+    "problem_author_html_handle": "manthan",
+    "problem_name": "Travel Plan",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/manthan'>manthan</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "manthan",
+    "contest_code": "MANTH10",
+    "max_timelimit": "0.728261",
+    "problem_code": "CF03"
+}

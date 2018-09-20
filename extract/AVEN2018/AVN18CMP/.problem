@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>It is here - the biggest battles of all times - DC vs Marvel!\n\nThe DC folk all stand on the left of the battlefield. The Marvel folk all stand on the right of the battlefield. This war though, will be bloodless. At the center of the battlefield sits Jedi Master Yoda!\n\nYoda has decided, for the sake of the entire universe that both the guilds of superheroes do not fight with violence but rather with brains. He sets up in the middle of the battlefield the Goblet of Fire which burn with high blue flames!\n\nHe allows a certain number of rounds. In each round, a member from both sides will be allowed to toss in a piece of paper into the Goblet of Fire containing their names.\n\nThe Goblet of Fire then spits out a single paper containing a prime number.\n\nYoda transfers this number to Gandalf the Grey who being a magician instantly finds out which side won the round. His trick is - he again breaks down this number into two numbers whose squares add up the number in the paper. The number on the left is allotted to DC and the number on the right is allotted to Marvel (same as their positions in the battlefield!). The side which gets the higher number is declared winner by Gandalf (oh that wise sly fellow!).\n\nBut suddenly Gandalf disappears and the world is thrown into chaos! It is now up to you to determine the winner among the fighting guilds by doing the same that Gandalf did! \n\nBut remember! You are biased! You cheat and always allot the larger number to DC!\n\n<h3>Input:</h3>\n\nThe first line of input contains a single integer N which denotes the number of rounds to be held.\nN lines follow, one for each round containing a single prime integer S.\n\n<h3>Output:</h3>\n\nBreak the integer S into two positive integers a and b whose squares add up to S. For each round, in a line output both numbers separated by space such that a > b.\n\n<h3>Constraints:</h3>\n\n1 <= N <= 100\n\n2 <= S <= 10<sup>9</sup>\n\n\n<h3>Example:</h3>\n\nInput:\n<br><br>\n3<br>\n5<br>\n13<br>\n17<br><br>\n\n\nOutput:\n<br><br>\n2 1<br>\n3 2<br>\n4 1<br>\n<br>\n<h3>Explanation</h3>\nThere are 3 test cases.\n\nFor the first test case, 5 = 2<sup>2</sup> + 1<sup>2</sup> so the output is 2 1\n\nFor the second test case, 13 = 3<sup>2</sup> + 2<sup>2</sup> so the output is 3 2\n\nFor the third test case, 17 = 4<sup>2</sup> + 1<sup>2</sup> so the output is 4 1",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "9-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "AVENIR-ENCODING",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1523691000,
+        "end_date": 1523701800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1523701800,
+        "submit_start_date": 1523691000,
+        "current": 1537432622
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>xprilion</span>",
+    "problem_name": "DC vs Marvel",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/xprilion'>xprilion</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "xprilion",
+    "contest_code": "AVEN2018",
+    "max_timelimit": "1",
+    "problem_code": "AVN18CMP"
+}

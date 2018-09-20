@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Palet town has <strong>P</strong> areas. Each area can be thought of as a <strong>2xN </strong> grid where each cell represents a Pokemon.  Every cell in the area contains a single lowercase character denoting the first character of the pokemon corresponding to that cell.\n<br><br>\nYou can catch a pokemon by moving from one place to another. But you can only move by 1 step from each cell only in either horizontal or in vertical direction. Diagonal movement is forbidden.<br><br>\n\nAsh wants to catch all the pokemons in Palet town. He can start his adventure by catching any pokemon and will stop when he has collected each pokemon at least once. Moreover Ash wants to defeat Gary therefore he plans to collect the pokemons in the minimum time.<br><br>\nAfter catching pokemons from each area, Ash forms a string from the initials of pokemons he caught. How many different strings can he form in each area ?\n<br><br>\n<strong>Input Format :</strong><br><br>\nThe first line contains a single integer,<strong>P</strong> , denoting the number of areas. The  subsequent lines describe each area over the following three lines: <br>\nThe first line contains an integer,<strong>N</strong> , denoting the number of columns in the area. <br>\nEach of the next two lines contains a string,<strong>S</strong> , of length <strong>N</strong> denoting the characters for the first and second row of the area.<br><br>\n<strong>Constraints :</strong><br><br>\n1<=<strong>P</strong><=15<br>\n<br>\n1<=<strong>N</strong><=600<br><br>\n<strong>Output Format :</strong><br><br>\nFor each area, print the number of distinct strings Ash can form on a new line.<br><br>\n<strong>Sample Input :</strong><br>\n3<br>\n1<br>\na<br>\na<br>\n3<br>\ndab<br>\nabd<br>\n5<br>\nababa<br>\nbabab<br><br>\n<strong>Sample Output :</strong><br>\n1<br>\n8<br>\n2<br>\n\n In test case 2, eight different strings can be formed (abdbad, badabd , dababd, dabdba, bdbada,dbabad, adabdb and dbadab), so we print 8 on a new line.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Codeathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1473521400,
+        "end_date": 1473528600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1473528600,
+        "submit_start_date": 1473521400,
+        "current": 1537434630
+    },
+    "problem_author_html_handle": "kushagrawal071",
+    "problem_name": "Gotta Catch them all",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kushagrawal071'>kushagrawal071</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kushagrawal071",
+    "contest_code": "CDTN2016",
+    "max_timelimit": "2",
+    "problem_code": "CDTN02"
+}

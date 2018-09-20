@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Long ago on planet Xartha there lived a wise man, Lavit. He found the Ultimate question to Life, Universe<br /> and everything. But then there was captain Xoxo who wanted this supreme knowledge. To thwart the evil <br />plans of Xoxo, Lavit encoded the Ultimate question into a magical matrix. </p>\n<p>The magical matrix was a <b>M</b> X <b>N</b> matrix of characters where words can be formed by moving horizontally<br /> or vertically, and using each character at most once. When Captain Xoxo hears this news from a spy, he<br /> wages a war against Lavit. Lavit manages to keep the matrix to himself, but he forgets the ultimate<br /> question. Still he has his hands on a list of questions and he is sure the question was one from this list. <br />Now since finding all the words in the matrix is too tedious a task, Lavit needs you to find the question for him.</p>\n<p>You will be given access to the special matrix, and Lavit will give you his list of questions. You will need<br /> to tell Lavit the Ultimate question. You need to ignore character case while comparing.\u00a0</p>\n<h3>Input</h3>\n<p>The first line will contain two Integers, <b>M</b> and <b>N</b>.<br /><br />\nThe next <b>M</b> lines will contain a string of <b>N</b> characters each.<br /><br />\nNext Line will contain an Integer <b>L</b> denoting number of questions in Lavit's list.<br /><br />\nEach of the next <b>L</b> lines will contain a question.\n</p>\n<h3>Output</h3>\n<p>Output a single line, The ultimate question to Life, Universe and everything.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>M, N</b> \u2264 <b>6</b></li>\n<li><b>1</b> \u2264 <b>L</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>Length of each question in List </b> \u2264 <b>6*M*N</b></li>\n</ul>\n<p><br /></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3 3\nhas\npps\nine\n5\nfood\nluxury\nmoney\nhappiness\nhappening\n\n<b>Output:</b>\nhappiness\n</pre><h3>Explanation</h3>\n<p>The only word from the list that can be found in the matrix is <b>happiness</b><br />\n(0,0)-->(0,1)-->(1,1)-->(1,0)-->(2,0)-->(2,1)-->(2,2)-->(1,2)-->(0,2)\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-09-2013",
+    "is_direct_submittable": false,
+    "contest_name": "CodeClash 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1380699000,
+        "end_date": 1380717000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1380717000,
+        "submit_start_date": 1380699000,
+        "current": 1537438139
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>aichemzee</span>",
+    "problem_name": "Question to Life, Universe and Everything",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aichemzee'>aichemzee</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "aichemzee",
+    "contest_code": "CDCL2013",
+    "max_timelimit": "1",
+    "problem_code": "XLIFE"
+}

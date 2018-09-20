@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Despite indications to the contrary, India too has had its share of UFOs. There is enormous debate in UFO circles about the veracity of sightings of UFOs in the Aksai Chin area near Kashmir.  A naughty local wanted to play truant and decided to set up a fake UFO base. To generate interest, he decided to draw square number patterns on the ground. The general pattern of the square was as follows:</p>\n\n<pre>\n   1   2   3   4   5    6   7  8\n28 29 48 47 46 45 44  9\n27 30 49 50 51 52 43 10\n26 31 60 61 64 53 42 11\n25 32 59 62 63 54 41 12\n24 33 58 57 56 55 40 13\n23 34 35 36 37 38 39 14\n22 21 20 19 18 17 16 15\n</pre>\n<p>\nYou need to write a program to generate such a square for a given input N.\n</p>\n\n<h3>Input</h3>\n<p>N = the size of the side of a square you should generate</p>\n\n<h3>Output</h3>\n<p>An NxN square according to the rules described above</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n8\n\n<b>Output:</b>\n1 2 3 4 5 6 7 8\n28 29 48 47 46 45 44 9\n27 30 49 50 51 52 43 10\n26 31 60 61 64 53 42 11\n25 32 59 62 63 54 41 12\n24 33 58 57 56 55 40 13\n23 34 35 36 37 38 39 14\n22 21 20 19 18 17 16 15\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-03-2009",
+    "is_direct_submittable": false,
+    "contest_name": "IIT Roorkee Insomnia - Speed Round",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1237545000,
+        "end_date": 1237559400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180134,
+        "submit_start_date": 1237545000,
+        "current": 1537439974
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Alien Spiral ",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "INSOM1",
+    "max_timelimit": "0.43 - 2.4",
+    "problem_code": "INSOMA1"
+}

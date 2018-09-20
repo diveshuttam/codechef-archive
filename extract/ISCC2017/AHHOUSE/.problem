@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>\nSuhana is planning to adventure a horror house. <br>\nShe has the map of the horror house. It is a N x M rectangle. <br>\n<br>\nEntrance is (1, 1) and (N, M) is the exit. <br>\nFrom each cell, she can go to any side-adjacent cell but the only exit is (N, M). <br>\nAt each cell, there is a <i>Panic Factor PF<sub>i,j</sub></i> and <i>Passing Time PT<sub>i,j</sub></i>. <br>\n<br>\nShe aims to exit the with minimum sum of panic factor. But she found that there can be many ways possible with minimum sum panic factor, so out of these ways she will be taking the one with minimum total time. <br>\n</p>\n\n\n<h3>Input</h3>\nFirst line contains T, number of test cases. <br>\nEach test case contains N and M, the dimensions of dark room. <br>\nEach of next N lines of each test case contains M numbers denoting PF matrix. <br>\nEach of next N lines of each test case contains M numbers denoting PT matrix. <br>\n\n</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>For each test case output minimum sum of panic factor and minimum sum of passing time as described in problem.<br></p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N, M</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>PF<sub>i,j</sub></i>, <i>PT<sub>i,j</sub></b> \u2264 <b>10</b></li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2 2\n1 2\n3 4\n2 3\n1 4\n2 2\n1 2\n2 4\n2 1\n3 4\n<b>Output:</b>\n7 9\n7 7\n</pre>\n<p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-07-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Innerve's Summer Code Challenge",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1500283800,
+        "end_date": 1501147800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1501147800,
+        "submit_start_date": 1500283800,
+        "current": 1537433704
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>codopediac3</span>",
+    "problem_name": "Suhana and Horror House",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/codopediac3'>codopediac3</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "codopediac3",
+    "contest_code": "ISCC2017",
+    "max_timelimit": "1",
+    "problem_code": "AHHOUSE"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem description.</h3>\n<p>\nIts Kazima's 13th birthday on this 13th and his father is very excited. To make this occasion memorable for him, he decides to decorate the venue of his birthday party with unique numbers having a special property-:  Sum of digits of each number is equal to the date of birth(only the date, not month or year!) of his lovely child.\n</p>\n<p>\nThe numbers are to be printed on posters of same size(one number on one poster). Size of the poster is the number of digits you want to write on the poster. On asking the decorator for this job, Kazima's father realized that he will have to pay the cost of decoration at the rate of maximum poster size length required. Now he is confused about how many digits he would at least need for making N numbers with this property as this would directly imply the poster sizes he would need. Can you help him realize answer for this problem ?\n</p>\n<h3>Input Description</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases.<br />\nT lines follow each containing an integer N, numbers kazima wants to generate </p>\n<h3>Output Description</h3>\n<p>One Integer answer for every test case which is the minimum digits needed for generating N numbers\n</p>\n<h3>Sample Input</h3>\n<p>\n2<br />2<br />7</p>\n<h3>Sample Output</h3>\n<p>2<br />3 </p>\n<h3>Sample Input Explanation</h3>\n<p>\nNumbers whose digits sum to 13 :  <i> 49,58,67,76,85,94,139,148,157,166... </i><br />\nfor just 2 such numbers we can pick for example 49 and 67 which would require only 2 digits<br />\nfor 7 numbers we will need 3 digits as only six 2 digit numbers have this property, one 3 digit number would be required\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b> <b>T</b> \u2264 <b>100</b></b></li>\n<li><b>0 </b> \u2264 <b> <b>N</b> \u2264 <b>75000</b></b></li>\n</ul>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-08-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Procon 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1407670200,
+        "end_date": 1407679200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1407679200,
+        "submit_start_date": 1407670200,
+        "current": 1537437482
+    },
+    "problem_author_html_handle": "procon2014",
+    "problem_name": "Happy Birthday Kazima",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/procon2014'>procon2014</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "procon2014",
+    "contest_code": "PRCNSR14",
+    "max_timelimit": "1",
+    "problem_code": "HPYBDAY"
+}

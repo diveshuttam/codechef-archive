@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><font size = 2></font></p>\n<p>One day Abhinav was teaching little Shark about data structures and algorithms related to trees. He told that given a rooted tree <b>T</b> containing <b>N</b> nodes, numbered from <b>1</b> to <b>N</b>, rooted at node <b>1</b>. Pre-order array of the tree can be obtained by doing pre-order depth first search on the tree, starting from node <b>1</b> and recursively visiting the subtrees rooted at the children of the root. For example, given a tree containing 5 nodes and following pair of nodes are connected via direct edge -\n<ul>\n<li> 1 2\n</li><li> 1 3\n</li><li> 2 4\n</li><li> 2 5</li></ul>\n</p><p>then pre order array can be -  1 2 4 5 3.<br /> Clearly there are many possible pre-order array for a given tree. e.g, (1 3 2 5 4) is also a valid pre order array for the given tree. Then Abhinav told little Shark that all the nodes in the subtree rooted at a node, say <b>nd</b> appears consecutively in the pre-order array ! For example, nodes in the subtree rooted at <b>nd = 2</b> in the given example are 2, 4 and 5. Clearly these numbers appears consecutively in the pre-order array starting at index 2 (1 based index). This is true for any pre-order array for the tree. You may verify that.</p>\n<p>\nLittle Shark got the point Abhinav was trying to make. But after pondering over the concept for some time he asked Abhinav can we recover the tree if pre-order array is given !<br />\n\u00a0</p>\n<p>\nIn this problem you will be given pre-order array of a tree and some clues about some of the subtrees of the tree. You need to find a tree satisfying the given clues and has at least one pre-order traversal as given in the input.\n</p>\n<p>\nClues will be given in the from three integers <b>nd, l</b> and <b>r </b>. Denoting that nodes of the subtree rooted at node <b>nd</b> lies consecutively in the given pre-order array from index <b>l</b> to <b>r</b>. Can you find the tree ?\n</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains a single integer <b>N</b> denoting the size of the tree (size of the pre-order array). The second line contains <b>N</b> space-separated integers denoting the elements of the pre-order array.</li>\n<li>Next line contains an integer <b>Q</b> denoting the number of clues given.</li>\n<li>Next Q lines each contains three space separated integers denoting <b>nd, l and r</b> respectively as described in the problem statement. </li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>First line of the output should contain an integer <b>f</b>. If there is no such tree satisfying all the clues, then f should be equal to 0. Otherwise it should be equal to 1.</li>\n<li>If <b>f = 1</b> then in next <b>N-1</b> lines print the edges of the tree. Each line should contain two integers <b>u and v</b> denoting there is direct edge between node u and node v in the tree. Output must satisfy a valid tree structure.</li>\n</ul>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>nd</b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>l  \u2264 r </b> \u2264 <b>N</b></li>\n<li>Elements of the preorder array will be between 1 and N (both inclusive).</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n1 2 3 4\n4\n1 1 4\n2 2 4\n3 3 4\n4 4 4\n\n<b>Output:</b>\n1\n1 2\n2 3\n3 4\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426336200,
+        "end_date": 1426422600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426422600,
+        "submit_start_date": 1426336200,
+        "current": 1537436578
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>triveni</span>",
+    "problem_name": "Reverse Pre-order Traversal",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/triveni'>triveni</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "triveni",
+    "contest_code": "IOPC2015",
+    "max_timelimit": "0.5",
+    "problem_code": "IOPC15Q"
+}

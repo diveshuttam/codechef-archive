@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\r\n<p>\u00a0</p>\r\n<h3>Problem description</h3>\r\n<p>On the eve of EKATHRA-2K18 all the classes in GVP were gifted with strings consisting of 1's and 0's. But since CSE students of GVP are awesome as always, they have a special privilege to reject a string offered to them, if they do not like it. The students do not like a string if it contains 010 as a substring of the given string. But since the offered string is too long for them to check manually, kindly help them to <b>d</b><strong>etermine the minimum no. of flips required to change the string as per their favour(Without any 010 patterns in the given string).</strong></p>\r\n<p>\u00a0</p>\r\n<p>\u00a0</p>\r\n<h3>Input</h3>\r\n<p>The first line of the Input contains T test cases. Each of the T test cases contain two lines specifying the size of the string and the binary string respectively</p>\r\n<h3>Output</h3>\r\n<p>Output the minimum number of flips required to make CSE students happy</p>\r\n<h3>Constraints</h3>\r\n<h4>Sub-Task1(30-Points)</h4>\r\n<pre>1 &lt;= T = 10\r\n5 &lt;= N = 25\r\n</pre>\r\n<h4>Sub-Task2(30-Points)</h4>\r\n<pre>1 &lt;= T = 10\r\n5 &lt;= N = 1000\r\n</pre>\r\n<h4>Sub-Task3(40-Points)</h4>\r\n<pre>1 &lt;= T &lt;= 25\r\n5 &lt;= N = 10^5\r\n</pre>\r\n<h3>Example</h3>\r\n<p><b>Input:</b></p>\r\n<pre>2\r\n5\r\n11010\r\n3\r\n101\r\n</pre>\r\n<p><b>Output:</b></p>\r\n<pre>1\r\n0\r\n\r\n<h3>Explanation</h3>\r\n<p><b>Example case 1: Flipping Either Of One Zero is enough to satisfy the requirements.</b> \r\n<b>Example case 2: The Given string already satisfies all the requirements of CSE students.</b></p></pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "COUT-2K18",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1520409600,
+        "end_date": 1520510400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1520510400,
+        "submit_start_date": 1520409600,
+        "current": 1537432869
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>surya_code</span>",
+    "problem_name": "G A B STRS",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/surya_code'>surya_code</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "surya_code",
+    "contest_code": "COUT2018",
+    "max_timelimit": "1",
+    "problem_code": "STRS"
+}

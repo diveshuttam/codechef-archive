@@ -1,0 +1,286 @@
+{
+    "announcements": "<p><b>Sun, 10th\u00a0June 2018, 21:35 IST: </b>In the problem <b>BUILDIT</b>, it is guarantee that <b>s</b> is not divisible by the corresponding modulo (163577857).</p>\r\n<p><b>Thu, 7th\u00a0June 2018, 23:55 IST: </b>Give your best for the June Long Contest as we're announcing 100% scholarships for students! Those scoring the highest from their school or university and matching the below criteria will receive a full scholarship for the July\u00a0<a href=\"/ccdsap\">CCDSAP Certification Exam</a> levels as given below.:</p>\r\n<ul>\r\n<li>Div 1 Students: Score above 200 + highest score in Institution = Advanced Level 100% Scholarship</li>\r\n<li>Div 2 Students: Score above 400 + highest score in Institution = Foundation Level 100% Scholarship</li>\r\n</ul>\r\n<p>To avail the scholarship, please fill up the following form:\u00a0<a href=\"https://goo.gl/VQNb4j\" target=\"_blank\">goo.gl/VQNb4j</a>. All the best!</p>\r\n<p><b>Mon, 4th June 2018, 15:12 IST:</b> We know that you all love solving programming contest challenges. Sometimes, it's even more interesting to wear a hat of problem writers to see the world from the other side. If you are one of those who likes to challenge people by creative tasks, you are most welcome to join\u00a0<a href=\"/problemsetting/setting\">CodeChef problem setting panel</a>.</p>\r\n<p>Now, you can directly propose your problem ideas by filling\u00a0<a href=\"https://docs.google.com/forms/d/e/1FAIpQLScj_EWz2L7meYKxYP8mYBDDg7vRtC9NhDVdIgsJmDn7IFKR6w/viewform\">this form</a>.</p>\r\n<p>For the upcoming long contests, we are more in need of problems of hard difficulty. If you have some problems of that level, send us immediately ;) Even, otherwise, please keep your problem ideas flowing.</p>",
+    "ip": "149.129.135.113",
+    "code": "JUNE18B",
+    "duration": "14400",
+    "non_scorable_heading": "Non Scorable Problems for Practice",
+    "name": "June Challenge 2018 Division 2",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "scorable_message": "",
+    "partial_scores": {
+        "PLUSEQ": [
+            {
+                "score": "0",
+                "count": "2"
+            }
+        ],
+        "VSN": [
+            {
+                "score": "25",
+                "count": "37"
+            },
+            {
+                "score": "75",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "1165"
+            }
+        ],
+        "TWOFL": [
+            {
+                "score": "20",
+                "count": "255"
+            },
+            {
+                "score": "40",
+                "count": "44"
+            },
+            {
+                "score": "80",
+                "count": "5"
+            },
+            {
+                "score": "100",
+                "count": "160"
+            }
+        ],
+        "ARCTR": [
+            {
+                "score": "0",
+                "count": "8"
+            }
+        ],
+        "NAICHEF": [
+            {
+                "score": "20",
+                "count": "84"
+            },
+            {
+                "score": "80",
+                "count": "19"
+            },
+            {
+                "score": "100",
+                "count": "8510"
+            }
+        ],
+        "WRKWAYS": [
+            {
+                "score": "10",
+                "count": "24"
+            },
+            {
+                "score": "20",
+                "count": "1"
+            },
+            {
+                "score": "30",
+                "count": "21"
+            },
+            {
+                "score": "90",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "40"
+            }
+        ],
+        "BUILDIT": [
+            {
+                "score": "5",
+                "count": "11"
+            },
+            {
+                "score": "10",
+                "count": "1"
+            },
+            {
+                "score": "15",
+                "count": "78"
+            },
+            {
+                "score": "35",
+                "count": "1"
+            },
+            {
+                "score": "40",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "15"
+            }
+        ],
+        "BINSHFFL": [
+            {
+                "score": "20",
+                "count": "48"
+            },
+            {
+                "score": "80",
+                "count": "11"
+            },
+            {
+                "score": "100",
+                "count": "2359"
+            }
+        ],
+        "SHKSTR": [
+            {
+                "score": "30",
+                "count": "1432"
+            },
+            {
+                "score": "70",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "1053"
+            }
+        ]
+    },
+    "rules": "<p class=\"last\">New users are requested to go through the below information to know more about the contest.</p>\r\n<h4>CodeChef: A Platform for Aspiring Programmers</h4>\r\n<p class=\"last\">CodeChef was created as a platform to help programmers make it big in the world of algorithms, computer programming, and programming contests. At CodeChef, we work hard to revive the geek in you by hosting a programming contest at the start of the month and another smaller programming challenge in the middle of the month.</p>\r\n<h4>About CodeChef June Long Challenge:</h4>\r\n<p class=\"last\">CodeChef Long Challenge is a 10-day monthly coding contest where you can show off your computer programming skills. The significance being - it gives you enough time to think about a problem, try different ways of attacking the problem, read the concepts etc. If you\u2019re usually slow at solving problems and have ample time at hand, this is ideal for you. We also put in a lot of efforts in getting quality problems, which would, in turn, foster your learning while solving them.</p>\r\n<h4>Contest Details:</h4>\r\n<ul class=\"last\">\r\n<li><strong>Duration: </strong>10 Days, From 1<sup>st</sup> June 1500 hrs IST to 11<sup>th</sup> June 1500 hrs IST. Check your timezone <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+June+Challenge+2018&amp;iso=20180601T15&amp;p1=44\" target=\"_blank\">here</a>.</li>\r\n</ul>\r\n<h4>Eligibility Criteria: Anyone with a knack for Programming :P</h4>\r\n<p class=\"last\">Our contests are open to all the programmers across the globe.</p>\r\n<h4>What's in it for you?</h4>\r\n<p>The idea behind these programming contests is that we want you to learn while competing. Also we believe that it is alright to refer to tutorials, books and other materials, learn a concept and then apply the same to solve a problem during a contest. But it is not alright to copy other people's solutions or seek other people's help to solve a problem without understanding it. The dividing line may seem to be thin but it can be captured by the spirit of learning. If whatever you are doing is making you learn while you do so, we tend to believe that it is alright. However, all the participants are expected to abide to <a class=\"button blue\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a></p>\r\n<p>Not just that, as a token of motivation we also give away cash prizes and goodies to the winners of the contest. However, our sole intention lies in making our users learn new concepts while competing. You can know more about prizes <a href=\"http://discuss.codechef.com/questions/51999/how-do-i-win-a-codechef-goodie\">here</a>.</p>\r\n<ul>\r\n</ul>\r\n<p class=\"last\">With CodeChef laddus, the winners can claim cool CodeChef goodies. Know more here: <a href=\"https://goodies.codechef.com\" target=\"_blank\">https://goodies.codechef.com</a></p>\r\n<p><b>Additional incentives in this long challenge:</b></p>\r\n<p>More reasons to give your best for the June Long Contest as we're announcing 100% scholarships for students! Those scoring the highest from their school or university and matching the below criteria will receive a full scholarship for the July\u00a0<a href=\"/ccdsap\">CCDSAP Certification Exam</a> levels as given below.:</p>\r\n<ul>\r\n<li>Div 1 Students: Score above 200 + highest score in Institution = Advanced Level 100% Scholarship</li>\r\n<li>Div 2 Students: Score above 400 + highest score in Institution = Foundation Level 100% Scholarship</li>\r\n</ul>\r\n<p>To avail the scholarship, please fill up the following form:\u00a0<a target=\"_blank\" href=\"https://goo.gl/VQNb4j\">goo.gl/VQNb4j</a>. All the best!</p>\r\n<h4>Rules and Regulations:</h4>\r\n<ul>\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com</a>.</li>\r\n<li><strong>All the problems will be partially graded and you will get a score for passing certain test data (except tie-breaker problem). You will receive hundred (100) point for solving a problem (passing all test cases).</strong></li>\r\n<li><strong>The details of the failed test cases will also be visible on your solution page (except challenge problem)</strong></li>\r\n<li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li>\r\n<li>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</li>\r\n<li>You shall not possess more than one account on CodeChef. If you have, then do let us know, so that we can deactivate the insignificant one. If you do not report it and we come to know about it, we may deactivate both the accounts permanently.</li>\r\n<li>The score that you will see during the contest (for tie-breaker problem), will only be partial (obtained on 20% of the test data). The submissions will be re-judged at the end of the contest to get a full score (obtained on the whole test data).</li>\r\n<li>The number of submissions that one can make during the contest on the problem will be limited to 500 and the maximum number of submissions allowed in the <strong>challenge problem</strong> are limited to <b>99</b>.</li>\r\n</ul>\r\n<p><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"/ide\">Online IDE</a>.</strong></p>\r\n<p>However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</p>",
+    "non_scorable_message": "<p>The following problems are <b>NOT part of the contest</b>, and will not be counted towards your rankings and ratings. These are problems from Division 1, made available for you to practice. Click <a href='/ratings/divisions'>here</a> to know more. They will be considered for plagiarism though.</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/JUNE18B/1527843938.jpg",
+    "scorable_heading": "Scorable Problems for Division 2",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "PLUSEQ": {
+            "allow_submission": false,
+            "name": "Plus Equation",
+            "category_name": "unscored",
+            "accuracy": 0,
+            "successful_submissions": "0",
+            "code": "PLUSEQ",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "BIBOARD": {
+            "allow_submission": false,
+            "name": "Binary Board",
+            "category_name": "unscored",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "BIBOARD",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "WAREHOUS": {
+            "allow_submission": false,
+            "name": "Warehouseman (Challenge)",
+            "category_name": "main",
+            "accuracy": 14,
+            "successful_submissions": "4",
+            "code": "WAREHOUS",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "BUILDIT": {
+            "allow_submission": false,
+            "name": "Expected Buildings",
+            "category_name": "main",
+            "accuracy": 1.29,
+            "successful_submissions": "15",
+            "code": "BUILDIT",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "VSN": {
+            "allow_submission": false,
+            "name": "Vision",
+            "category_name": "main",
+            "accuracy": 10.16,
+            "successful_submissions": "1165",
+            "code": "VSN",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "NAICHEF": {
+            "allow_submission": false,
+            "name": "Naive Chef",
+            "category_name": "main",
+            "accuracy": 50.82,
+            "successful_submissions": "8510",
+            "code": "NAICHEF",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "ARCTR": {
+            "allow_submission": false,
+            "name": "Archi and Tree",
+            "category_name": "unscored",
+            "accuracy": 2.47,
+            "successful_submissions": "2",
+            "code": "ARCTR",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "TWOFL": {
+            "allow_submission": false,
+            "name": "Two Flowers",
+            "category_name": "main",
+            "accuracy": 2.52,
+            "successful_submissions": "160",
+            "code": "TWOFL",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "SHKSTR": {
+            "allow_submission": false,
+            "name": "Sheokand and String",
+            "category_name": "main",
+            "accuracy": 4.83,
+            "successful_submissions": "1053",
+            "code": "SHKSTR",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "BINSHFFL": {
+            "allow_submission": false,
+            "name": "Binary Shuffle",
+            "category_name": "main",
+            "accuracy": 10.43,
+            "successful_submissions": "2359",
+            "code": "BINSHFFL",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "WRKWAYS": {
+            "allow_submission": false,
+            "name": "Ways to Work",
+            "category_name": "main",
+            "accuracy": 1.62,
+            "successful_submissions": "40",
+            "code": "WRKWAYS",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1528709400,
+        "current": 1537432400,
+        "freezing": 0,
+        "start": 1527845400
+    },
+    "user": {
+        "username": ""
+    }
+}

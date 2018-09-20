@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Hououin Kyouma built a time machine and went to future to a time where P = NP is proved. But, as the world lines are separated, in the new world line, people don't add numbers the way we do. They take bitwise xor to add numbers</p>\n<p>\u00a0In that world, can you solve the subset sum problem ?<br />\nGiven <b>N</b> numbers and <b>K</b>, find out if there exists a subset of numbers such that their bitwise xor is <b>K</b>.</p>\n<h3>Input</h3>\n<p>\nFirst line contains N and K.<br />\nThe second line contains <b>N</b> space-separated integers <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b> denoting the  N numbers. </p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Output \"Yes\" if such subset exists, \"No\" otherwise.(without quotes)</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>200</b></li>\n<li><b>1</b> \u2264 <b>K,A<sub>i</sub></b> \u2264 <b>10<sup>9</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4 101 \n1 2 100 1000\n\n<b>Output:</b>\nYes\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> We can take xor of 1 and 100 to get 101</p>\n<h3>Note</h3>\n<p>Bitwise xor of a subset A<sub>1</sub>, A<sub>2</sub>, .., A<sub>N</sub> is equal to (..(A<sub>1</sub> xor A<sub>2</sub>) xor A<sub>3</sub>).. A<sub>N</sub>).Each bit of bitwise xor of two numbers is calculated separately. The result in each position is 1 if only the first bit is 1 or only the second bit is 1, but will be 0 if both are 0 or both are 1. For example, bitwise xor of 1(01) and 3(11) is 2 (10). </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Akatsuki",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457274600,
+        "end_date": 1457292600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457292600,
+        "submit_start_date": 1457274600,
+        "current": 1537435260
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>harrypotter192</span>",
+    "problem_name": "Hououin Kyouma and Xorsack",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/harrypotter192'>harrypotter192</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "harrypotter192",
+    "contest_code": "IPC15P3B",
+    "max_timelimit": "1",
+    "problem_code": "XORSACK"
+}

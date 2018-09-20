@@ -1,0 +1,33 @@
+{
+    "problem_code": "IGAME",
+    "problem_author": "nssprogrammer",
+    "contest_name": "August Long Contest 2011",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nssprogrammer</span>",
+    "problem_name": "Infinite Grid Game",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>gamabunta</span>",
+    "contest_code": "AUG11",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aug11'>aug11</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/nssprogrammer'>nssprogrammer</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">After a long period of relaxation Alice and Bob decided to play a game.\nThis time of course not a number game. The rules of the game are as follows:</p>\n\n<p align=\"justify\">There is a vehicle situated at the point <strong>(m, n)</strong> of a rectangular grid.\nOnly one corner of the rectangular grid is defined, i.e. the left-top point <strong>(0, 0)</strong>,\nwhich is also known as the origin. The grid extends infinitely towards east and infinitely towards south.\nAlice and Bob are both sitting in a vehicle, initially situated at the point <strong>(m, n)</strong>.\nThe game they are playing ends as soon as one of them reaches <strong>(p, q)</strong>.</p>\n\n<p align=\"justify\">Now, Alice and Bob have to drive the vehicle in their respective turn.\nIn their own turn they can move the vehicle, from <strong>(x, y)</strong> to <strong>(x', y)</strong>\nor <strong>(x, y')</strong>; where <b>p \u2264 x' &lt; x</b> and <b>q \u2264 y' &lt; y</b>.\nThey can also move the vehicle to the point <strong>(x-a, y-a)</strong>, where <b>0 &lt; a \u2264 min(x-p, y-q)</b>.\nAlso, <b>0 \u2264 p &lt; m</b> and <b>0 \u2264 q &lt; n</b>.\nThe winner is the game is the one who drives the vehicle to <strong>(p, q)</strong>.</p>\n\n<p align=\"justify\">Cunning Alice uses a biased coin for tossing purpose and always plays first.\nIt is assumed that both Alice and Bob play optimally in their respective turns.</p>\n\n<h3>Input</h3>\n<p align=\"justify\">The first line contains a single integer T denoting the number of test cases.\nT test cases follow. Each test case consists of a single line consisting of four space separated integers m, n, p, q\nrespectively.</p>\n\n<h3>Output</h3>\n<p align=\"justify\">For each test case print a string - either \"Alice\" or \"Bob\" (without the quotes), denoting the winner.</p>\n\n<h3>Constraints</h3>\n<p>1 \u2264 T \u2264 1000<br />\n1  \u2264 m, n  \u2264 1000<br />\n0 \u2264 p &lt; m<br />\n0 \u2264 q &lt; n</p>\n\n<h3>Sample Input</h3>\n<pre>2\n1 1 0 0\n2 4 1 2\n\n</pre>\n\n<h3>Sample Output</h3>\n<pre>Alice\nBob\n\n</pre>\n\n<h3>Explanation</h3>\n<p align=\"justify\">In the second test case, initially the vehicle is at co-ordinate (2, 4).\nAlice now has four possible moves. Alice can move the vehicle to position (1, 4), (1, 3), (2, 3) and (2, 2).\nFor all moves that Alice can do, Bob can move the vehicle to the position (1, 2), winning the game.</p>",
+    "category_name": "main",
+    "date_added": "7-07-2011",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.323333",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/IGAME",
+    "problem_tester": "gamabunta",
+    "time": {
+        "view_start_date": 1312191000,
+        "end_date": 1313141400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1313141400,
+        "submit_start_date": 1312191000,
+        "current": 1537439167
+    },
+    "user": {
+        "username": ""
+    }
+}

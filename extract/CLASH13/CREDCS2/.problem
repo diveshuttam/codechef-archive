@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Your younger brother just purchased a set of lego blocks. He built a house and now wishes to build a rectangular fence around it.\n</p>\n<p>\nBut he has only a few blocks left.  Width of each block is 1 unit. Help him build the fence on the periphery of the board. </p>\n<p>\nIt is strictly desired that the fence has equal width at all the points equal to 1 unit.\n</p>\n<p><h3>Input</h3>\n</p><p>\nThe first line contains the dimensions of the board <b>L</b> and <b>B</b> which has to be fenced.<br /><br />\nA number of lines follow, where each line is<br />\nin the form of <b>N S</b>,<br />  where <b>N</b> is the number of blocks and <b>S</b> is the corresponding Size (Length).<br /><br />\nInput is terminated by 0.\n</p>\n<h3>Output</h3>\n<p>Output \"YES\" or \"NO\" (without the quotes) depending on whether it is possible to construct the fence with the given configuration of the blocks or not.</p>\n<h3>Constraints</h3>\n<p>1 &lt;= <b>B</b> &lt;= <b>L</b> &lt;= 200<br /><br />\n0 &lt;= <b>N</b>,<b>S</b> &lt;= 10^4<br /></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n6 4\n1 6\n2 3\n1 4\n0\n\n<b>Output:</b>\nYES\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-08-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Clash Credenz 2013",
+    "languages_supported": "C, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1377541800,
+        "end_date": 1377714600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1377714600,
+        "submit_start_date": 1377541800,
+        "current": 1537438205
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>ashmew2</span>",
+    "problem_name": "Lego Builder",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ashmew2'>ashmew2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ashmew2",
+    "contest_code": "CLASH13",
+    "max_timelimit": "2",
+    "problem_code": "CREDCS2"
+}

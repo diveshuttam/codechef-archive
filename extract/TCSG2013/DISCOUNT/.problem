@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Chef Polo has opened up a new restaurant. He wants to make it as much popular as he can. Chef has <b>M</b> dishes to serve (numbered from 0 to M-1).<br />\nTo make his restaurant popular he wants to give discount everyday for a dish. But he has not been able to decide which dish should be discounted on a particular day. So he takes help from<br />\nhis friend Palin. Palin has come up with a unique algorithm<br/><br />\nHe has choosen 3 secret numbers, <b> A,B,C</b> to start with<br />\n<br/><br />\nHis unique algorithm says:<br/><br />\nOn day 1 choose dish no. <b>A</b>.<br />\n(Now keep track of day numbers.)<br/><br />\nNow on nth day: suppose dish chosen on day n-1 was <b>K</b><br/><br />\nIf n is even, choose<b> (K+B)<sup>th</sup></b> dish<br/><br />\notherwise, choose<b> (K*C)<sup>th</sup></b> dish<br/><br />\nOffcourse he will take MOD of dish number thus found with <b>M</b> (because he has only M dishes)<br/><br />\n<b>Example</b><br/> If A=5, B=3, C=2, M=20<br/><br />\nThen dishes chosen for first 5 days will be 5,8,16,19,18<br />\n<br/><br/><br />\nChef Polo is too much curious about future<br />\nso he wants to know which dish will be discounted on <b>n<sup>th</sup></b> day. But he is busy with preparing<br />\nthe dishes So he wants your help.\n</br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></p>\n<h3>Input</h3>\n<p>first line contains <b>T</b>, the no of test cases<br/><br />\nEach of next <b>T</b> lines contains 5 integers <b>A,B,C,n,M</b>\n</br/></p>\n<h3>Output</h3>\n<p>For every testcase the only line should contain single integer, answer to the problem</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10^4</b></li>\n<li><b>1</b> \u2264 <b>A,B,C,n,M</b> \u2264 <b>10^9</b></li>\n<li><b>A</b> &lt; <b>M</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n1 2 3 4 5\n6 7 8 9 10\n\n<b>Output:</b>\n1\n6\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "TechnoSurge 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1361716200,
+        "end_date": 1361730600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1361730600,
+        "submit_start_date": 1361716200,
+        "current": 1537438488
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>kuldeepfouzdar</span>",
+    "problem_name": "Discount on Dishes",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kuldeepfouzdar'>kuldeepfouzdar</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kuldeepfouzdar",
+    "contest_code": "TCSG2013",
+    "max_timelimit": "1",
+    "problem_code": "DISCOUNT"
+}

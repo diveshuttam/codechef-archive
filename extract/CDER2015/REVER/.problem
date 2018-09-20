@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Dark was deeply studying in the afternoon and came across a concept called as \"REVERSE OF A NUMBER\". He decided to design a program which can reverse any long numbers.</p>\n<p>At the end of afternoon, he started to code and finally end up with no results, so decided to ask you all for the help, he wanted you to design a very efficient method to reverse a number and say it as a EVEN or ODD.</p>\n<p>Confused, Simply print \"EVEN\"(without quotes) if the reverse of the given number is even and print \"ODD\"(without quotes) if the reverse of the given number is odd.</p>\n<p>Input:</p>\n<p>The first line contains T, the number of test cases. Followed by T lines each contains a single number.</p>\n<p>Output:</p>\n<p>For every test case print the \"EVEN\"(without quotes) if reverse of GIVEN number is even else print \"ODD\"(without quotes).</p>\n<p>Constraints:</p>\n<p>1&lt;=T&lt;=10000</p>\n<p>1&lt;=N&lt;=10100</p>\n<p><br /><b>Sample Input: </b><br />4 <br />1<br /> 3<br /> 6<br /> 15</p>\n<p><b>Sample Output:</b><br /> ODD<br /> ODD <br />EVEN<br /> ODD</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeERA",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426162952,
+        "end_date": 1426314600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426314600,
+        "submit_start_date": 1426162952,
+        "current": 1537436592
+    },
+    "problem_author_html_handle": "akhil62",
+    "problem_name": "REVERSE",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/akhil62'>akhil62</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "akhil62",
+    "contest_code": "CDER2015",
+    "max_timelimit": "1",
+    "problem_code": "REVER"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align = \"justify\">\nRamakrishnan aka Ram loves prime numbers. He is always interested in solving and setting problems on primes. His brother Sanju has been given the responsibility of setting the problems for ITRIX Online Programming Contest. Sanju decides to set a problem on math for which he asked Ram to help him. If Ram gave a problem which impresses Sanju, Sanju will present him a gift. Ram loves gifts too. Ram also knows that Sanju loves arrays. So, he decided to create a problem using arrays and primes.<br /><br /></p>\n<p>Ram introduces a new term called \"Prime frequency\". Prime frequency of a number is defined as the amount of contribution of prime numbers to that number. For example:<br />\n<br /><br /><br />\ni) 2<br /><br />\nPrime frequency of '2' is 1.<br />\n<br /><br /><br />\nii) 14<br /><br />\n14 can be expressed as 2 * 7. Prime frequency of '14' is 2.<br />\n<br /><br /><br />\niii) 30<br /><br />\n30 can be expressed as 2 * 3 * 5. Prime frequency of '30' is 3.<br />\n<br /><br /><br />\n<b>Note:</b> Prime frequency of '1' is 0.<br />\n<br /><br /><br />\nProduct of an array is the product of all the numbers in the array. <br /><br />\nPrime frequency of an array is defined as the prime frequency of the product of the array.<br />\n<br /><br /><br />\nEx: Array {2, 3, 5}<br /><br />\nProduct of the array = 2 * 3 * 5 = 30<br /><br />\nPrime frequency of the array = Prime frequency of 30 = 3<br /><br /></p>\n<p>Now the question which Ram puts forth is \"Given an array, find the prime frequency of it.\"</p>\n<h3><b>Input</b></h3>\n<p>\nThe first line consists of 't', the number of test cases.<br /><br />\nThe first line of each testcase consists of 'n', the number of elements in the array.<br /><br />\nThe second line of each testcase consists of the elements of the array.<br />\n</p>\n<h3><b>Constraints</b></h3>\n<p>\n1 &lt;= t &lt;= 500<br /><br />\n1 &lt;= n &lt;= 10^6<br /><br />\n1 &lt;= a[i] &lt;= 10^5<br />\n</p>\n<h3><b>Output</b></h3>\n<p>\nFor each testcase, output a single line containing the required answer.<br />\n</p>\n<h3><b>Example</b></h3>\n<pre>\n<b>Input:</b>\n\n2\n3\n2 3 5\n4\n2 4 6 8\n\n<b>Output:</b>\n\n3\n8\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ITRIX Online Programming Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455976800,
+        "end_date": 1455985800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1455985800,
+        "submit_start_date": 1455976800,
+        "current": 1537435360
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>lakshmi8</span>",
+    "problem_name": "Prime Frequency",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/lakshmi8'>lakshmi8</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "lakshmi8",
+    "contest_code": "ITRX2016",
+    "max_timelimit": "1",
+    "problem_code": "ITRIX16A"
+}

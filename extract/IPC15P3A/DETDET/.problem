@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nConsider a <b>k x k matrix M</b> with entries as the following:</p>\n<ul>\n<li><b>M(i, i) = 1 </b>(Diagonal is all 1s)</li>\n<li><b>M(i, i+1) = 1 </b>(Diagonal just above the main diagonal is all 1s)</li>\n<li><b>M(i, i-1) = -1 </b>(Diagonal just below the main diagonal is all -1s)</li>\n<li><b>All the other elements of M are 0</b></li>\n</ul>\n<pre>\n\nExample for k = 4 would be:\n<b>\n1 1 0 0\n-1 1 1 0\n0 -1 1 1\n0 0 -1 1\n</b>\n\nWe denote the determinant of such a k x k matrix as <b>D(k)</b>.\nWe have to now compute the following sum for a given N:\n<b>S = \u03a3 gcd(D(i), D(N))  \u2200 i = 1 to N (both inclusive)</b>.\nAs the answer can be quite large, print it modulo <b>10<sup>9</sup> + 7</b>\n</pre>\n<h3>Input</h3>\n<p>\n    First line of the input consists of <b>T</b>, the number of test cases.<br />\n    The next T lines contain an integer each, <b>N</b>, which corresponds to the N as explained in the problem statement.\n</p>\n<h3>Output</h3>\n<p>\n    For each test case, output the value of the desired sum, modulo 10<sup>9</sup> + 7\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1 \u2264 T \u2264 10<sup>5</sup></b></li>\n<li><b>1 \u2264 N \u2264 10<sup>5</sup></b></li>\n</ul>\n\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n5\n1\n2\n3\n4\n5\n\n<b>Output:</b>\n1\n3\n5\n8\n13\n</pre><h3>Explanation</h3>\n<p>\nKnowing the values of D(i) for i = 1 to 5, we can easily verify that the produced output is the value of the sum of gcds of the determinants as required.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team apqAW2",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1456669800,
+        "end_date": 1456687800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1456687800,
+        "submit_start_date": 1456669800,
+        "current": 1537435294
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>aseemraj</span>",
+    "problem_name": "Determining Determinants",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aseemraj'>aseemraj</a>, <a class='problem-tag-small ' href='/tags/problems/fibonacci'>fibonacci</a>, <a class='problem-tag-small ' href='/tags/problems/ipc15p3a'>ipc15p3a</a>, <a class='problem-tag-small ' href='/tags/problems/number-theory'>number-theory</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "aseemraj",
+    "contest_code": "IPC15P3A",
+    "max_timelimit": "1",
+    "problem_code": "DETDET"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Saraswati Puja is celebrated at NIT Trichy every year with a lot of enthusiasm. Every year <b>N</b> number of people volunteer to serve food to the people attending the puja. Let\u2019s call these N people the <b>servers</b> and the people to be served as <b>eaters</b>.<br>\nThe eaters are sitting in <b>M</b> columns. The number of eaters in each column can be different.<br>\nHarsh is in charge of managing the servers. He doesn\u2019t want any server to get in each other\u2019s way and also only a single server should serve a particular column. Each server should get at least one column to serve to and the columns that he is serving to must be sequential.<br><br>\nIn other words, we need to partition the columns and assign a section to a server.<br><br>\nHe wants to assign the servers in such a way that the maximum number of eaters a server has to serve to is minimal.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>Input description.</p>\n<p>\nFirst line consists of two integers <b>N</b> and <b>M</b>\nSecond line consists of M space separated integers denoting the number of eaters in each column\n</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>Output description.</p>\n<p>\nA single integer denoting the maximum amount of eaters a server has to serve to in an optimal assignment i.e minimising this value\n</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>6</sup></b></li>\n<li> <b>N</b> \u2264 <b>M</b> </li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>10<sup>6</sup></b></li>\n<li><b>1</b> \u2264 <b>Number of eaters in each column</b> \u2264 <b>10<sup>9</sup></b></li>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b><br>\n5 7\n342 340 250 100 10 230 400\n<b>Output:</b>\n400\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\nThe eaters can be partitioned in the following manner:<br>\n\n342 | 340 | 250 100 | 10 230 | 400",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-02-2017",
+    "is_direct_submittable": false,
+    "contest_name": "CodeSurf 17",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1486222200,
+        "end_date": 1486233000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1486233000,
+        "submit_start_date": 1486222200,
+        "current": 1537434178
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>h5harsh_5</span>",
+    "problem_name": "Saraswati Puja",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/h5harsh_5'>h5harsh_5</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "h5harsh_5",
+    "contest_code": "COSU2017",
+    "max_timelimit": "1",
+    "problem_code": "VORTEX4"
+}

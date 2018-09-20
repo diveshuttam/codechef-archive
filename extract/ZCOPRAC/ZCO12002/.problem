@@ -1,0 +1,31 @@
+{
+    "status": "success",
+    "problem_tester": null,
+    "body": "<h2>Zonal Computing Olympiad 2012, 26 Nov 2011</h2>\n\n<br>\n<p> The year is 2102 and today is the day of ZCO. This year there are <em>N</em> contests and the starting and ending times of each contest is known to you. You have to participate in exactly one of these contests. Different contests may overlap. The duration of different contests might be different. </p>\n\n<br>\n<p>There is only one examination centre. There is a wormhole <em>V</em> that transports you from your house to the examination centre and another wormhole <em>W</em> that transports you from the examination centre back to your house. Obviously, transportation through a wormhole does not take any time; it is instantaneous. But the wormholes can be used at only certain fixed times, and these are known to you.</p>\n\n<br>\n<p>So, you use a <em>V</em> wormhole to reach the exam centre, possibly wait for some time before the next contest begins, take part in the contest, possibly wait for some more time and then use a <em>W</em> wormhole to return back home. If you leave through a <em>V</em> wormhole at time <em>t</em><sub>1</sub> and come back through a <em>W</em> wormhole at time <em>t</em><sub>2</sub>, then the total time you have spent is (<em>t</em><sub>2</sub>\u00a0-\u00a0<em>t</em><sub>1</sub>\u00a0+\u00a01). Your aim is to spend as little time as possible overall while ensuring\nthat you take part in one of the contests.</p>\n\n<br>\n<p>You can reach the centre exactly at the starting time of the contest, if possible. And you can leave the examination centre the very second the contest ends, if possible. You can assume that you will always be able to attend at least one contest\u2013that is, there will always be a contest such that there is a <em>V</em> wormhole before it and a <em>W</em> wormhole after it.</p>\n\n<br>\n<p> For instance, suppose there are 3 contests with (start,end) times (15,21), (5,10), and (7,25), respectively.  Suppose the <em>V</em> wormhole is available at times 4, 14, 25, 2 and the <em>W</em> wormhole is available at times 13 and 21.  In this case, you can leave by the <em>V</em> wormhole at time 14, take part in the contest from time 15 to 21, and then use the <em>W</em> wormhole at time 21 to get back home.  Therefore the time you have spent is (21\u00a0-\u00a014\u00a0+\u00a01) = 8. You can check that you cannot do better than this.</p>\n\n<br>\n<h3>Input format</h3>\n\n<p>The first line contains 3 space separated integers <em>N</em>, <em>X</em>, and <em>Y</em>, where <em>N</em> is the number of contests, <em>X</em> is the number of time instances when wormhole <em>V</em> can be used and <em>Y</em> is the number of time instances when wormhole <em>W</em> can be used.  The next <em>N</em> lines describe each contest.  Each of these <em>N</em> lines contains two space separated integers <em>S</em> and <em>E</em>, where <em>S</em> is the starting time of the particular contest and <em>E</em> is the ending time of that contest, with <em>S</em> &lt; <em>E</em>.  The next line contains <em>X</em> space separated integers which are the time instances when the wormhole <em>V</em> can be used.  The next line contains <em>Y</em> space separated integers which are the time instances when the wormhole <em>W</em> can be used.</p>\n\n<br>\n<h3>Output format</h3>\n\n<p>Print a single line that contains a single integer, the minimum time needed to be spent to take part in a contest.</p>\n\n<br>\n<h3>Testdata</h3>\n\n<p> All the starting and ending times of contests are distinct and no contest starts at the same time as another contest ends. The time instances when wormholes are available are all distinct, but may coincide with starting and ending times of contests. All the time instances (the contest timings and the wormhole timings) will be integers between 1 and 1000000 (inclusive).\n\n<br>\n<ul>\n<li><b>Subtask 1 (30 marks)</b></li>\n<li><b>Subtask 2 (70 marks)</b></li>\n</ul>\n</p>\n\n<br>\n<p>You may assume that \n1\u00a0\u2264\u00a0<em>N</em>\u00a0\u2264\u00a010<sup>5</sup>,\n1\u00a0\u2264\u00a0<em>X</em>\u00a0\u2264\u00a010<sup>5</sup>, and\n1\u00a0\u2264\u00a0<em>Y</em>\u00a0\u2264\u00a010<sup>5</sup>.\n</p>\n\n<br>\n<p>In 30% of the cases, \n1\u00a0\u2264\u00a0<em>N</em>\u00a0\u2264\u00a010<sup>3</sup>,\n1\u00a0\u2264\u00a0<em>X</em>\u00a0\u2264\u00a010<sup>3</sup>, and\n1\u00a0\u2264\u00a0<em>Y</em>\u00a0\u2264\u00a010<sup>3</sup>.\n</p>\n\n<br>\n<h3>Sample Input</h3>\n\n<pre>\n3 4 2\n15 21\n5 10\n7 25\n4 14 25 2\n13 21\n</pre>\n\n<br>\n<h3>Sample Output</h3>\n\n<pre>\n8\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-11-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ZCO Practice Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1446661800,
+        "end_date": 1578162600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1578162600,
+        "submit_start_date": 1446661800,
+        "current": 1537431946
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Wormholes",
+    "source_sizelimit": "50000",
+    "problem_status": "unattempted",
+    "problem_tester_html_handle": null,
+    "problem_author": "admin3",
+    "contest_code": "ZCOPRAC",
+    "max_timelimit": "1",
+    "problem_code": "ZCO12002"
+}

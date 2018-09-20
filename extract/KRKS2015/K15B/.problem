@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">Kashyap is playing a message passing game with his friends. Kashyap always starts the game. At the beginning of the game, Kashyap will pass the message to some of the players. When a player receives a message, he may pass the message to some of the other players.A player will not pass the message to someone who has already received the message.A player may also choose not to spread the message.At the end of the game, everyone would have received the message. After the game, each player writes his Id and Sum of Ids of the players to whom he passed the message. Find out the ID of Kashyap.</p>\n<h3>Input</h3>\n<p>First line will have an integer T which denotes the number of test cases. </p>\n<p>First line of each test case contains N which denotes the number of players. </p>\n<p>Next N lines contains two integers A and B </p>\n<p>A denotes the id of the person </p>\n<p>B denotes the sum of ids of the players to whom he passed the message. </p>\n<p>1&lt;=A&lt;=N. </p>\n<p>IDs of the players are always unique. </p>\n<h3> Output </h3>\n<p>For each test case, print the ID of Kashyap. </p>\n<h3>Constraints</h3>\n<p>1&lt;=T&lt;=100</p>\n<p>1&lt;=N&lt;=100000</p>\n<p>1&lt;=A&lt;=N</p>\n<p>0&lt;=B<N*(N+1)/2</br></n*(n+1)/2</br></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3\n1 5\n2 0\n3 0\n3\n1 2\n2 3\n3 0\n\n<b>Output:</b>\n1\n1\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> there are 3 people in the game. Player 1 has passed the message to 2 and 3. Player 2 and Player 3 have not passed any message.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-01-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Kurukshetra 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1422109800,
+        "end_date": 1422127800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1422127800,
+        "submit_start_date": 1422109800,
+        "current": 1537436942
+    },
+    "problem_author_html_handle": "kopc_admin",
+    "problem_name": "Message Passing",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kopc_admin'>kopc_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kopc_admin",
+    "contest_code": "KRKS2015",
+    "max_timelimit": "1",
+    "problem_code": "K15B"
+}

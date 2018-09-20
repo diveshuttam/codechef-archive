@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem description</h3>\n<p>This year\u2019s IPL is set to be bigger than ever before. Several new international venues and players are going to play in this year\u2019s edition. The new president of the organizing committee has thus introduced a set of new rules: </p>\n<p></p>\n<ul>\n<li>A team can consist of one or more number of players but each player should be willing to play with every other player of his team.</li>\n<li>If \u2018P\u2019 is willing to play with \u2018Q\u2019 and \u2018Q\u2019 is willing to play with \u2018R\u2019 then \u2018P\u2019 will also be willing to play with \u2018R\u2019.</li>\n<li>If \u2018P\u2019 is willing to play with \u2018Q\u2019 and \u2018Q\u2019 is also willing to play with \u2018P\u2019 then \u2018P\u2019 and \u2018Q\u2019 should play for the same team ( or else they will fix the match :P)</li>\n<li>A team can play with any other team if and only if at least one of the team members is willing to play with at least one team member of the other team.</li>\n</ul>\n<p></p>\n<p>Little Chef wants to cheer the team that can play with all the remaining team (He wants to see his team beating every other team). It's your turn to help Little Chef. </p>\n<h3>Input</h3>\n<p>First line contains 2 space separated integers N and M where N is the total number of players. Each player is labeled uniquely from 1 to N. M lines follow. Each line contains 2 space separated integers X and Y signifying that the player X is willing to play with player Y.</p>\n<h3>Output</h3>\n<p>Output should consist of 2 lines. First line should contain the number of members in the team that the Chef should choose. The second line should contain a space separated list of all the players in Chef\u2019s team in increasing order. If no such team exist then print \u201c-1\u201d in a single line. (Second line not required).</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>10^6</b></li>\n<li><b>1</b> \u2264 <b>X,Y</b> \u2264 <b>N</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n8 13\n1 2\n5 1\n2 5\n5 6\n2 6\n2 3\n6 7\n7 6\n3 7\n4 3\n3 4\n7 8\n4 8\n\n<b>Output:</b>\n3\n1 2 5      \n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-04-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Tux Coder 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1396884600,
+        "end_date": 1396895400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1396895400,
+        "submit_start_date": 1396884600,
+        "current": 1537437630
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>tusharmakkar08</span>",
+    "problem_name": "Little Chefs Team",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/tusharmakkar08'>tusharmakkar08</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "tusharmakkar08",
+    "contest_code": "TUXO2014",
+    "max_timelimit": " - 0.5",
+    "problem_code": "TUX02"
+}

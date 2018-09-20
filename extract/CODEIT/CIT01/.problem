@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nA chocolate manufacturing company wants to buy boxes to pack chocolates. Boxes are available in two types, first one costs c1 and can hold n1 chocolates and the second one costs c2 and can hold n2 chocolates. Each box to be filled to its capacity. You have to find the best way to distribute the chocolates such that total cost is minimized.\n\n<h3>Input</h3>\n<p>\nThe first line specifies the number of test cases. \n\nFor each test case, the first line of input specifies the total number of chocolate to be packed. (numbered 1 to 300,000,000). The next line contains c1 n1 c2 n2. A test  case containing zero for the number of chocolates indicates termination of input.\n\n<h3>Output</h3>\n<p>\nFor each test case in the input print a line containing the minimum cost solution (two\nnonnegative integers m1 and m2, where mi = number of type i boxes required if one\nexists. Otherwise print 0 0.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n\n44\n10 9 9 8\n37\n10 9 9 8\n0\n\n<b>Output:</b>\n4 1\n0 0\n</pre>\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "9-01-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Indian Statistical Institute - CodeIT",
+    "languages_supported": "C, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1295749800,
+        "end_date": 1295793000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180208,
+        "submit_start_date": 1295749800,
+        "current": 1537439406
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>bst0602</span>",
+    "problem_name": "Chocolate Manufacturing Company",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bst0602'>bst0602</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bst0602",
+    "contest_code": "CODEIT",
+    "max_timelimit": "0.1",
+    "problem_code": "CIT01"
+}

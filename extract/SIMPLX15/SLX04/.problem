@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Gandhi Jayanti is here and the chief scout Sanchit wants to prepare a team of scouts for the annual function. He must be able to arrange them in a line such that the difference between height of any two consecutive scouts is always less than or equal to the value <b>K</b>. There are <b>N</b> students who want to be a part of the scouts. The height of the <b>i<sup>th</sup></b> student is <b>A[i]</b>. The chief wants to select as many as possible for his scout-team. What is the maximum number of students that he can select?</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of the input consists of <b>T</b>, the number of test cases. 2T lines follow. <br /><br />\nFirst line of each test case consists of 2 integers : <b>N</b> and <b>K.</b><br /><br />\nThe second line of each test-case consists of N space-separated integers which denotes the heights of the interested students.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each test case print in a single line the maximum number of students that the chief can select.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>K</b> \u2264 <b>1000000</b></li>\n<li><b>1</b> \u2264 <b>A[i]</b> \u2264 <b>1000000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n4 2\n4 2 7 4\n3 3\n6 2 12\n4 4\n2 8 7 10\n\n<b>Output:</b>\n3\n1\n3\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-09-2015",
+    "is_direct_submittable": false,
+    "contest_name": "SIMPLEX",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1443801600,
+        "end_date": 1443810600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1443810600,
+        "submit_start_date": 1443801600,
+        "current": 1537435984
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>incognito_14</span>",
+    "problem_name": "GANDHI",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/incognito_14'>incognito_14</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "incognito_14",
+    "contest_code": "SIMPLX15",
+    "max_timelimit": "1",
+    "problem_code": "SLX04"
+}

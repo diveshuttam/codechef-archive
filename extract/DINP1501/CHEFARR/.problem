@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Statement</h3>\n<p> Chef has an array of N numbers . Chef wants to know the number of ways to divide it into 3 contiguous parts such that the sum of the three parts is equal . Formally you need to find number of indices i,j such that sum of elements from 1 to i-1 = sum of elements from i to j = sum of elements from j+1 to N .\n</p>\n\n<h3>Input</h3>\n<p>The first line contains an integer N . Then the next line has N integers denoting the array 'A'.</p>\n\n<h3>Output</h3>\n<p>A single integer denoting the number of ways to split the array into 3 parts with equal sum.\n</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> &lt;= <b>N</b> &lt;= <b>5*10<sup>5</sup></b></li>\n<li><b>0</b> &lt;= <b>|A[i]|</b> &lt;= <b>10<sup>9</sup></b></li>\n</ul>\n\n<p> Note : The numbers might be negative .</p>\n<h3>Example</h3>\n<pre><b>Input 1:</b>\n5\n1 2 3 0 3\n<b>Output 1:</b>\n2\n</pre><pre><b>Input 2:</b>\n4\n0 1 -1 0\n<b>Output 2:</b>\n1\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "31-12-2014",
+    "is_direct_submittable": false,
+    "contest_name": "DPS Dwarka INOI practice contest 01",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1421130600,
+        "end_date": 1421476200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1421476200,
+        "submit_start_date": 1421130600,
+        "current": 1537436985
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #D0011B;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>7&#9733;</span><span>rajat1603</span>",
+    "problem_name": "Chef and array",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rajat1603'>rajat1603</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rajat1603",
+    "contest_code": "DINP1501",
+    "max_timelimit": "1",
+    "problem_code": "CHEFARR"
+}

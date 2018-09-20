@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The BSA (Bytelandian Security Agency) has intercepted several secret keys from the Trojan Kingdom.\nEach secret key is a prime number. But BSA was only able to retrieve some part of the digits, not all of them!\n</p>\n<p>Johnny's job is to help BSA recover these lost primes, and he has delegated the task to you!</p>\n\n<h3>Input</h3>\n<p>The first line contains a number t (about 15) which is the number of test cases. Then t test cases follow. Each test case is described in a single line containing the  patterns of the lost primes (the unknown digits are represented by '?'s.</p>\n<p>Each pattern's length is at most 12.</p>\n\n<h3>Output</h3>\n<p>For each test case, print the recovered prime. If there are multiple solutions, print any of them. The recovered prime should have the same number of digits as the corresponding pattern and should contain no leading zeros.</p>\n<p>You can assume that there is at least one solution for each test case.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n?\n?3\n1??\n\n<b>Output:</b>\n5\n23\n101\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-12-2009",
+    "is_direct_submittable": false,
+    "contest_name": "January 2010 (Contest XII)",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1262338200,
+        "end_date": 1263547800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1263547800,
+        "submit_start_date": 1262338200,
+        "current": 1537439826
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Lost Primes",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "JAN10",
+    "max_timelimit": "0.615385",
+    "problem_code": "L3"
+}

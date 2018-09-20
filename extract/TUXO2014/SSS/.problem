@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Mr. Vallya,the rich playboy billionaire , has recently bought an IPL team Surathkal SuperStars (SSS) . Now he has the challenging task of buying the best possible team in the IPL auction . For this , he is aiming to make a priority order list in which he wants to buy each player . </p>\n<p>The total number of players available for auction is N . As we all know he is quite busy with his famous PingFisher Calendar photoshoot , he has decided to give you the task of finding the total number of possible priority lists for N players. </p>\n<p>As the number can be quite large you need to find it modulo P , where P is a prime number and is close to N . He asks T such queries.\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. Next T lines contains T queries of the form \u201cN P\u201d. (quotes for clarity)</li>\n<p>\u00a0</p>\n<h3>Output</h3>\n<li>Output exactly T lines containing the desired answer.</li>\n\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<pre>\n1 &lt;= T &lt;= 1000\n1 &lt; P &lt;= 2*10^9\n1 &lt;= N &lt;= 2*10^9\nAbs(N-P) &lt;= 1000\n</pre><p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n\n3\n2 5\n5 11\n21 71\n\n<b>Output:</b>\n\n2\n10\n6\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>In first test case we have 2 players , A and B . So the possible priority lists are {A,B} and {B,A} . So the answer is 2%5=2 </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-04-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Tux Coder 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1396884600,
+        "end_date": 1396895400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1396895400,
+        "submit_start_date": 1396884600,
+        "current": 1537437626
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>tusharmakkar08</span>",
+    "problem_name": "Surathkal SuperStars",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/tusharmakkar08'>tusharmakkar08</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "tusharmakkar08",
+    "contest_code": "TUXO2014",
+    "max_timelimit": "1",
+    "problem_code": "SSS"
+}

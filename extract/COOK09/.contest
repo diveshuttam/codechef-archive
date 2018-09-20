@@ -1,0 +1,87 @@
+{
+    "announcements": "<p>\r\n<div style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: #ffffff; margin: 8px;\">\r\n<p><b>09:30pm: </b>The Rank List for the CodeChef April Cook Off is available here:<a href=\"http://www.codechef.com/rankings/COOK09\">http://www.codechef.com/rankings/COOK09</a></p>\r\n</div>\r\n</p>",
+    "ip": "149.129.135.113",
+    "code": "COOK09",
+    "duration": "150",
+    "name": "April Cook-Off Challenge",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>The April Cook-off has ended!</b></p> <p><b>Problems have been transferred to the <a target=\"_blank\" href=\"/problems/easy\">practice section</a>. </b></p> <p><b>Solutions to all the problems have been made visible.</b></p> <p><b>Check out the editorials <a href=\"/wiki/april%C2%A0cookoff%C2%A0contest-problem-editorials\" target=\"_blank\">here</a>.<br />Check out the Winners Blog Post <a href=\"http://blog.codechef.com/2011/04/25/the-april-cookoff-has-ended/\">here</a>.</b></p> <p><b>Don't forget to check out your <a href=\"/short/ranklist/AX\" target=\"_blank\">Contest Rating</a>.</b></p> <p><b><br /></b></p> <p><span><b>Rules:</b></span></p> <p><b><span><b> </b></span></b></p> <p class=\"MsoNoSpacing\"><b><b><b>In case you are a new user, you will need to first register for a CodeChef ID\u00a0<a href=\"/user/register/\">here</a>.</b></b></b></p> <p><b><b> </b></b></p> <p><b><span> </span></b></p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at\u00a0<a target=\"_blank\" href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></li> <br /> <li>You can also send in your queries in an email to\u00a0<a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a>, during the contest.</li> <br /> <li>Contest problems will become visible on April 24th, 2011 at 21:30 (IST). There will be 5 problems in all.</li> <br /> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <br /> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <br /> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COOK09/1424957560.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "COOKOFF2": {
+            "allow_submission": false,
+            "name": "The Grand Cook Off",
+            "category_name": "main",
+            "accuracy": 18,
+            "successful_submissions": "18",
+            "code": "COOKOFF2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PRIMES2": {
+            "allow_submission": false,
+            "name": "A Prime Conjecture",
+            "category_name": "main",
+            "accuracy": 26.19,
+            "successful_submissions": "139",
+            "code": "PRIMES2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DIGITS2": {
+            "allow_submission": false,
+            "name": "Product of Digits Again",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "DIGITS2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MUFFINS2": {
+            "allow_submission": false,
+            "name": "Frosting Cupcakes",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "MUFFINS2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MIME2": {
+            "allow_submission": false,
+            "name": "Internet Media Types",
+            "category_name": "main",
+            "accuracy": 33.84,
+            "successful_submissions": "212",
+            "code": "MIME2",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1303669800,
+        "current": 1537439222,
+        "freezing": 0,
+        "start": 1303660800
+    },
+    "user": {
+        "username": ""
+    }
+}

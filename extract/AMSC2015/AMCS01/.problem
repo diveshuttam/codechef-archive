@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Chef has a problem with the new city he has invented. The city has N buildings and there are bridges which connect some pair of buildings in such a way that there is exactly one path between any pair of buildings. (i.e. They form a tree). All bridges are of equal length. Distance between two buildings is the sum of lengths all bridges connecting the two buildings. Now chef wants to find for each building i, the number of buildings that are farthest from it.</p>\n<h3>Input format </h3>\n<p> First line contains an integer <b>N</b>.</p>\n<p> Next <b>N - 1</b> lines contains 2 integers each. i+1<sup>th</sup> line contains <b>u</b><sub>i</sub> and <b>v</b><sub>i</sub> which means that there is a bridge between  <b>u</b><sub>i</sub> and <b>v</b><sub>i</sub> </p>\n<h3> Output format </h3>\n<p> Print <b>N</b> integers seperated by a space in a single line denoting the answer for each building</p>\n<h3>Constraints</h3>\n<ul>\n<li> 2 &le; <b>N</b> &le; 10<sup>5</sup></li>\n<li> 0 &le; <b>u</b><sub>i</sub> , <b>v</b><sub>i</sub> &amp;lt <b>N</b> for all <b>i</b> from 1 to <b>N</b> - 1</li>\n</ul>\n<h3> Example </h3>\n<p> Input </p>\n<p>4 </p>\n<p>0 1</p>\n<p>1 2</p>\n<p>1 3</p>\n<p> Output </p>\n<p>2 3 2 2</p>\n<h3> Explanation </h3>\n<p>2 and 3 are farthest from 0 (both at a distance of 2 bridges). So there are 2 of them and hence first number is 2.</p>\n<p>0,2 and 3 are farthest from 1. So the next number is 3.</p>\n<p>Similarly for 2 and 3. </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-07-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Amritapuri Summer Camp Final Contest 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1435982400,
+        "end_date": 1435996800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1747031430,
+        "submit_start_date": 1435982400,
+        "current": 1537436199
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>adurysk</span>",
+    "problem_name": "New City",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/adurysk'>adurysk</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "adurysk",
+    "contest_code": "AMSC2015",
+    "max_timelimit": "1",
+    "problem_code": "AMCS01"
+}

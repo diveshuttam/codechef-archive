@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>There are n children who have landed up in an unknown place where they find just some jar of cookies to eat. They also have a dog with them. The children gather all the cookies and put them in a big jar. Exhausted, they agree to go and wait until the next morning to divide up the cookies.\n</p><p>At one o'clock in the morning, the first child wakes up. He realizes that he can't trust the others, and decides to take his share now. He divides the cookies into n equal shares, but there is one left over. He gives that cookie to the dog, hides his cookies, and puts the rest of the cookies back. \nAt two o'clock, the second child wakes up. Not realizing that the first child has already taken his share, he too divides the cookies up into n shares, leaving one over which he gives to the dog. He then hides his share, and puts the remainder back.\nAt three, four, five\u2026\u2026 \u2018n\u2019 o'clock in the morning, the third, fourth, fifth \u2026\u2026.nth children each wake up and carry out the same actions.\n</p><p>In the morning, all the children wake up, and try to look innocent. No one makes a remark about the diminished share of cookies, and no one decides to be honest and admit that they've already taken their share. Instead, they divide the share up into nshares, for the (n+1)th time, and find that there is yet again one cookie left over, which they give to the dog. You have to find out how many cookies were present originally in the jar.\n<h3>Input</h3>\n</p><p>\nThe input will contain several numbers of test cases. The first line will contain the number of test cases(x) followed by \u2018x\u2019 lines of inputs which contains the values of \u2018n\u2019.\n<h3>Output</h3>\n</p><p>\nFor each input print the number of cookies present in the jar.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n5\n6\n\n\n<b>Output:</b>\n15621\n279931\n\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "CodeScone contest 2012",
+    "languages_supported": "C, JAVA, PYTH 3.6, CS2, PAS fpc, PAS gpc, PHP, GO, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330092000,
+        "end_date": 1330144200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1330144200,
+        "submit_start_date": 1330092000,
+        "current": 1537438944
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>sakshigopal7</span>",
+    "problem_name": "Wanna Eat Cookies",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sakshigopal7'>sakshigopal7</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sakshigopal7",
+    "contest_code": "CDSC2012",
+    "max_timelimit": "0.65",
+    "problem_code": "CDS002"
+}

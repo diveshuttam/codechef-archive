@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nAllen Rusk is building Latex. Latex is a modern typesetting software which will be known for its letter AI. Note that Latex is a modern software and supports way more than 26 letters. The letter AI consists of a database of letter pairs with a hit-rate and type associated with every pair. Since Latex is in beta stage, there are only two types of letter pairs right now: <b>Modern</b> and <b>Rustic</b>.<br />\nToday Allen is testing Latex.<br /><br />\nEach test starts with a <b>Test-Sum TS set to 0</b> and <b>Type-Sum PS set to 0</b>. The test consists of <b>N</b> phases where <b>N</b> is the total number of distinct letters available to him. For the first phase he chooses a random letter and writes it down. For each subsequent phase, he chooses a letter <b>R</b> which has not been written down and also that there exists a letter <b>L</b> which has been written down and the letter pair <b>L R exists in the AI database</b>. He also adds the hit-rate of <b>L - R to his Test-Sum TS</b>. Also, if the letter pair is <b>Modern, he adds 1 to his Type-Sum.</b><br /><br />\nAt the end of each test he checks his Type-Sum. <b>X</b> is his lucky number. Hence if the Type-Sum is equal to <b>X or N - 1 - X</b>, he notes down the Test-Sum for this test.<br /><br />\nAllen doesn't have much to do today, and he spends the whole day testing Latex. So much so that he exhausts all tests that are possible with the given Letter AI database. Finally, he finds out the minimum among all the Test-Sums he noted in the entire day. However, this has been tiring for him and he wonders whether he can find out the Minimum Test-Sum given just the AI database. Can you?<br />\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<ul>\n<li>First line containts a single integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li> First line of each test case consists of 4 space separated integers <b>N, M<sub>1</sub>, M<sub>2</sub>, X</b> where <b>N</b> is the no. of distinct letters, <b>M<sub>1</sub></b> is the no.of pairs in AI database with type as <b>Modern</b>, <b>M<sub>2</sub></b> is the no. of pairs in AI database with type as <b>Rusti</b>c and <b>X</b> is the lucky number.</li>\n<li>Next <b>M<sub>1</sub></b> lines for Modern type contains 3 space separated integers <b>L, R, H</b> denoting that pair <b>L, R</b> have type modern and hit rate <b>H</b></li>\n<li>Next <b>M<sub>2</sub></b> lines for Rustic type contains 3 space separated integers <b>L, R, H</b> denoting that pair <b>L, R</b> have type rustic and hit rate <b>H</b></li>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing the <b>minimum test sum TS</b> that he obtained with type sum equal to <b>X or N - 1 - X</b>. If there doesn't exist any such test print <b>-1</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>50</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>200</b></li>\n<li><b>1</b> \u2264 <b>M<sub>1</sub> + M<sub>2</sub></b> \u2264 <b>600</b></li>\n<li><b>0</b> \u2264 <b>X</b> \u2264 <b>N - 1</b></li>\n<li><b>1</b> \u2264 <b>L, R</b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>H</b> \u2264 <b>100</b></li>\n</ul>\n<p>\u00a0</p>\n<pre><b>Sample Input:</b>\n1\n5 3 2 1\n1 2 1\n2 3 1\n3 4 1\n4 5 1\n3 5 1\n<b>Sample Output:</b>\n4\n</pre></ul>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team ForTheWatch",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1454833800,
+        "end_date": 1454851800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454851800,
+        "submit_start_date": 1454833800,
+        "current": 1537435521
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>ashish1610</span>",
+    "problem_name": "IPC Latex",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ashish1610'>ashish1610</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ashish1610",
+    "contest_code": "IPC15P2C",
+    "max_timelimit": "1.5",
+    "problem_code": "IPCASH"
+}

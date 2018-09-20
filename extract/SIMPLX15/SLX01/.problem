@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Neha loves bangles. One day she goes to the annual fair near the college. There she finds a huge stall of exotic bangles. The vendor has set up N stacks of bangles where the <b>i<sup>th</sup></b> stack has <b>A[i]</b> bangles of beauty values <b>1,2,3...,A[i]</b>. Neha wants to look the most beautiful among her friends, so she wishes to buy the bangles with the highest beauty value. But she needs to buy only <b>K</b> bangles. Help her select the best K bangles available and find the sum of their beauty values.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>Input consist of input <b>T</b>, total number of test cases. Then <b>2T</b> cases follow. Each test case consists of 2 lines.<br /><br />\nFirst line of each test case consists of 2 integers : <b>N</b> and <b>K.</b><br /><br />\nThe second line consists of <b>N</b> space separated integers denoting the highest beauty value of each stack.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each test case, output a single line containing the total beauty value of the bangles bought.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10000</b></li>\n<li><b>1</b> \u2264 <b>K</b> \u2264 <b>1000000000</b></li>\n<li><b>1</b> \u2264 <b>A[i]</b> \u2264 <b>1000000000</b></li>\n</ul>\n<p>Sum of <b>A[i]</b> for all <b>1&lt;=i&lt;=N</b> will always be greater than or equal to <b>K</b>.</p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n2 4\n3 2\n3 5\n4 3 7\n3 1\n4 4 3\n\n<b>Output:</b>\n8\n26\n4\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-09-2015",
+    "is_direct_submittable": false,
+    "contest_name": "SIMPLEX",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1443801600,
+        "end_date": 1443810600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1443810600,
+        "submit_start_date": 1443801600,
+        "current": 1537435982
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>incognito_14</span>",
+    "problem_name": "ANNUAL FAIR",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/incognito_14'>incognito_14</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "incognito_14",
+    "contest_code": "SIMPLX15",
+    "max_timelimit": "1",
+    "problem_code": "SLX01"
+}

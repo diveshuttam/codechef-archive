@@ -1,0 +1,107 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "JULY09",
+    "duration": "17280",
+    "name": "July 2009 (Contest V)",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>Updates:</b></p> <ul> <li>At the end of the contest, the challenge problem (tie breaker) will be rejudged with new test data. Check out our <a href=\"http://blog.codechef.com/2009/06/30/important-rule-change-for-july-contest/\">blog post on this</a> for more info</li> <li>Comments have been disabled for all the problems. If you have any issues with the problem statement or any other thing, post in the forums.</li> <li>The constraints for the problem Johnny, the farmer have been changed. Please read the updated constraints.</li> <li>The problem EX is being rejudged.</li> <li>The contest is now over. The problem EX is being rejudged. The final standings will be declared shortly.</li> <li>July 14th - We are rejuding again. All submissions are now publically available. You can click on a problem, all submissions, view submission to see. We will announce the winners by tomorrow.</li> <li>Julty 15th - <a href=\"http://blog.codechef.com/2009/07/15/july-algorithm-challenge-winners-test-cases-stats/\">Winners have been announced.</a> We will be getting in touch with everyone over the next few days regarding prizes.</li> </ul> <p><br /> <b>Rules:</b></p> <ul> <li>Contest problems will become visible on July 1st 15:00 IST.</li> <li>The contest will consist of 6-8 problems of varying difficulty.</li> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</li> <li>In the unlikely case of an overall tie (including the same score on the tie-breaker) a winner will be randomly chosen from the top scorers.</li> </ul> ",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/JULY09/1424964316.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "E5": {
+            "allow_submission": false,
+            "name": "Buggy algorithm",
+            "category_name": "main",
+            "accuracy": 19.46,
+            "successful_submissions": "39",
+            "code": "E5",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CUBESUM": {
+            "allow_submission": false,
+            "name": "Sums in a cuboid",
+            "category_name": "main",
+            "accuracy": 28.05,
+            "successful_submissions": "166",
+            "code": "CUBESUM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "E3": {
+            "allow_submission": false,
+            "name": "Johny the farmer",
+            "category_name": "main",
+            "accuracy": 3.3,
+            "successful_submissions": "42",
+            "code": "E3",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "E1": {
+            "allow_submission": false,
+            "name": "The White Knight",
+            "category_name": "main",
+            "accuracy": 19.38,
+            "successful_submissions": "201",
+            "code": "E1",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "E2": {
+            "allow_submission": false,
+            "name": "Lights Off",
+            "category_name": "main",
+            "accuracy": 18.45,
+            "successful_submissions": "74",
+            "code": "E2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "E4": {
+            "allow_submission": false,
+            "name": "Quadratic Equations",
+            "category_name": "main",
+            "accuracy": 5.19,
+            "successful_submissions": "58",
+            "code": "E4",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "EX": {
+            "allow_submission": false,
+            "name": "Lights Off, Revisited!",
+            "category_name": "main",
+            "accuracy": 72.87,
+            "successful_submissions": "54",
+            "code": "EX",
+            "type": "1",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1247477400,
+        "current": 1537439924,
+        "freezing": 0,
+        "start": 1246440600
+    },
+    "user": {
+        "username": ""
+    }
+}

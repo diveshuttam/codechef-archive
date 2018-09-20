@@ -1,0 +1,33 @@
+{
+    "problem_code": "CANDLE",
+    "problem_author": "pieguy",
+    "contest_name": "The October Cook-Off (ACM ICPC Warm Up IIT-K)",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>pieguy</span>",
+    "problem_name": "Birthday Candles",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "Maksflow",
+    "contest_code": "COOK03",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cook03'>cook03</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/pieguy'>pieguy</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The chef is preparing a birthday cake for one of his guests,\nand his decided to write the age of the guest in candles on the cake.\nThere are 10 types of candles, one for each of the digits '0' through '9'.\nThe chef has forgotten the age of the guest, however, so doesn't know whether he has enough candles of the right types.\nFor example, if the guest were 101 years old, the chef would need two '1' candles and one '0' candle.\nGiven the candles the chef has, your task is to determine the smallest positive integer that cannot be represented with those candles.</p>\n\n<h3>Input:</h3>\n<p>Input will begin with an integer T\u2264100, the number of test cases.\nEach test case consists of a single line with exactly 10 integers, each between 0 and 8, inclusive.\nThe first integer of each test case represents the number of '0' candles the chef has,\nthe second integer represents the number of '1' candles the chef has, and so on.</p>\n\n<h3>Output:</h3>\n<p>For each test case, output on a single line the smallest positive integer that cannot be expressed with the given candles.</p>\n\n<h3>Sample input:</h3>\n<pre>3\n2 1 1 4 0 6 3 2 2 2\n0 1 1 1 1 1 1 1 1 1\n2 2 1 2 1 1 3 1 1 1\n </pre>\n \n<h3>Sample output:</h3>\n<pre>4\n10\n22\n </pre>",
+    "category_name": "main",
+    "date_added": "26-09-2010",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "max_timelimit": "0.333333",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CANDLE",
+    "problem_tester": "maksflow",
+    "time": {
+        "view_start_date": 1287158400,
+        "end_date": 1287167400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1287167400,
+        "submit_start_date": 1287158400,
+        "current": 1537439476
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Wadiya recently built a <i>Great Wall</i> to protect itself from its  enemies. The wall, of size <b>10<sup>5</sup> x 10<sup>5</sup></b>, is made of tiles of size <b>1x1</b>.<br /><br />\nBeing a citizen of Wadiya, you are responsible to paint the wall.<br /><br />\nTo paint it, you can perform 2 types of paint operations <br /></p>\n<ul>\n<li><b>Type 1: </b> This operation is represented by <b>1 R C1 C2</b>  which means you have to paint the tiles from column <b>C1</b> till column <b>C2</b> in the <b>R<sup>th</sup></b> row.</li>\n<li><b>Type 2: </b> This operation is represented by <b>2 C R1 R2</b>  which means you have to paint the tiles from row <b>R1</b> till row <b>R2</b> in the <b>C<sup>th</sup></b> column.</li>\n</ul>\n<p><br /><br />\nLength of an operation is defined as the number of tiles painted in one operation.<br /></p>\n<ul>\n<li>For <b>Type 1</b> operations, Length = <b>(C2 - C1 + 1)</b> </li>\n<li>For <b>Type 2:</b> operations, Length = <b>(R2 - R1 + 1)</b> </li>\n</ul>\n<p><br /><br />\nYou have to perform <b>M</b> operations one by one in the given order.<br /><br />\nAfter performing the <b>M</b> operations, print the <i>total number of different colors visible on the wall.</i></p>\n<h3>Note</h3>\n<ul>\n<li>No two paint operations use the same color.</li>\n<li>The color on a tile at any time will be the color in which it was last painted.</li>\n<li>The sum of lengths of all <b>Type 2</b> operations will be less than <b>10<sup>5</sup></b> i.e. <b>\u03a3(R2-R1+1) \u2264 10<sup>5</sup></b> for each test case.</li>\n</ul>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases.</li>\n<li>First line of each test case contains an integer <b>M</b> followed by <b>M</b> paint operations.</li>\n<li>The next <b>M</b> lines contain 4 space separated integers representing a <b>Type 1</b> or a <b>Type 2</b> operation as described in the problem statement. The first integer of each line describes the <b>Type</b> of the operation.</li>\n</ul>\n<h3>Output</h3>\n<p>For each test case, print a single line containing the total number of different colors visible on the wall.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>R,C</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>C1</b> \u2264 <b>C2</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>R1</b> \u2264 <b>R2</b> \u2264 <b>10<sup>5</sup></b></li>\n<li>The sum of lengths of all <b>Type 2</b> operations will be less than <b>10<sup>5</sup></b> i.e. <b>\u03a3(R2-R1+1) \u2264 10<sup>5</sup></b> for each test case. </li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n5\n1 5 2 9 \n1 3 3 5 \n2 5 2 6 \n1 3 2 7 \n2 1 3 4 \n\n<b>Output:</b>\n4\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b></p>\n<p>After the <b>third</b> operation, the wall would look like this :<br />\n<a href=\"http://imgur.com/aEpgww3\"><img src=\"/download/extimages/4c734b10a9906b15bda0bad5310ac6c2.png?1\" title=\"source: imgur.com\" /></a><br />\n<br /><br /><br />\nAfter the <b>fifth</b> operation, the wall would look like this :<br />\n<a href=\"http://imgur.com/oCxCqY9\"><img src=\"/download/extimages/8e7cd83a4a10a56fbdc304b9c8807922.png\" title=\"source: imgur.com\" /></a><br />\n<br /><br /><br />\nFor the above images, we assumed that the following colors were used:</p>\n<ul>\n<li><b>Operation 1</b> : Green</li>\n<li><b>Operation 2</b> : Red</li>\n<li><b>Operation 3</b> : Yellow</li>\n<li><b>Operation 4</b> : Violet/Purple</li>\n<li><b>Operation 5</b> : Light Blue</li>\n</ul>\n<p>After the fifth operation, you can clearly see that there are only <b>four</b> colors visible on the wall.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-04-2015",
+    "is_direct_submittable": false,
+    "contest_name": "BIT Codejam",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1428422400,
+        "end_date": 1428431400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1428431400,
+        "submit_start_date": 1428422400,
+        "current": 1537436406
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>nims11</span>",
+    "problem_name": "The Great Wall Of Wadiya",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nims11'>nims11</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nims11",
+    "contest_code": "BTCJ2015",
+    "max_timelimit": "2",
+    "problem_code": "BITCJ2"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "TEX",
+    "problem_author": "jatin_cpp",
+    "contest_name": "CodeRun - Prelims",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>jatin_cpp</span>",
+    "problem_name": "Tour and Expenses",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>ishu_05</span>",
+    "contest_code": "CORP2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ad-hoc'>ad-hoc</a>, <a class='problem-tag-small ' href='/tags/problems/cakewalk'>cakewalk</a>, <a class='problem-tag-small ' href='/tags/problems/corp2018'>corp2018</a>, <a class='problem-tag-small ' href='/tags/problems/jatin_cpp'>jatin_cpp</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Adhiraj, Bhavesh, Chirag decided to go on a trip to Hong Kong. They enjoyed very much on the trip. Now, the time of returning to home has arrived so they decided to equally distribute the expenses of the trip so that the trip would be fair (Since everyone should be happy after the trip). Since they are very tired after the whole trip hence want you being their friend to help them distribute the whole money.\n\n(Let's call Adhiraj A, Bhavesh B, Chirag C )\u2026\n\nEven they want that they have to do the least number of transaction to one another (as they are very tired). \n\nYou being their friend decided to help them.\n\n\n###Input:\n\nThe first line will contain T that is number of test cases \nEach line of test case contains A, B, C that is the amount paid by Adhiraj, Bhavesh, Chirag during the trip.\n\n###Output:\nFor each test case, you have to print the least number of transactions that have to be made between the friends so that the money could be equally distributed.\n\n###Constraints \n- 1<=T<=100000\n- 0<=A, B, C<=10^8\n- A+B+C is divisble by 3\n\n###Sample Input:\n2   \n2 4 3   \n7 3 2\n\n###Sample Output:\n1   \n2\n\t\n###EXPLANATION:\nExplanation of test case 1   \nA gives 1 unit of money to B and everyone has hence paid 3 unit of money\n\nExplanation of test case 2   \nC gives 2 unit of money to A   \nB gives 1 unit of money to A and hence everyone has paid the same amount\n",
+    "category_name": "main",
+    "date_added": "19-04-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/TEX",
+    "problem_tester": "ishu_05",
+    "time": {
+        "view_start_date": 1524317400,
+        "end_date": 1524324600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1524324600,
+        "submit_start_date": 1524317400,
+        "current": 1537432552
+    },
+    "user": {
+        "username": ""
+    }
+}

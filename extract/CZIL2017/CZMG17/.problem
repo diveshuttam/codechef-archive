@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>There are <strong>N </strong>factories numbered from <strong>1 </strong>to <strong>N</strong>. For each of the factory you are given the maximum units of product it can manufacture (say <strong>B </strong>where <strong>Bi </strong>denotes the max limit of <strong>i<sup>th</sup> </strong>factory) and the cost of manufacturing per unit product (say\u00a0<strong>C</strong> where <strong>C</strong><strong><sub>i</sub> </strong>denotes the cost of manufacturing of <strong>i<sup>th </sup></strong>factory). </p>\n<p>For each of the factory you are given the amount of product it needs to produce (say <strong>A </strong>where <strong>Ai </strong>denotes the units of product <strong>i<sup>th </sup></strong>factory needs to manufacture). Now while manufacturing the products the <strong>i<sup><sub>th </sub></sup></strong>factory can either manufacture the product itself or pass the product to <strong>(</strong><strong>i+1)<sup>th</sup></strong> factory\u00a0for manufacture (the\u00a0<strong>(i+1)<sup>th\u00a0</sup></strong>factory can again pass the product further or manufacture it). Given an array\u00a0<strong>D\u00a0</strong>(length <strong>N-1</strong>), it costs <strong>D<sub>i</sub>\u00a0</strong>if the <strong>i<sup>th </sup></strong>factory passes a single product to\u00a0<strong>(i+1)<sup>th </sup></strong>factory.</p>\n<p>You need to print the <strong>minimum cost</strong>\u00a0required to manufacture all the needed products. In case it is not possible to manufacture all the products print\u00a0<strong>-1.</strong></p>\n<p><strong>Input</strong></p>\n<p>The first line contains an integer <strong>N </strong>denoting the number of factories.</p>\n<p>The second line contains <strong>N </strong>integers denoting the array <strong>A </strong><strong>(A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub>,..., A<sub>N</sub>)</strong></p>\n<p>The third line contains <strong>N </strong>integers denoting the array\u00a0<strong>B</strong> <strong>(B<sub>1</sub>, B<sub>2</sub>, B<sub>3</sub>,..., B<sub>N</sub>)</strong></p>\n<p>The fourth line contains <strong>N </strong>integers denoting the array\u00a0<strong>C</strong> <strong>(C<sub>1</sub>, C<sub>2</sub>, C<sub>3</sub>,..., C<sub>N</sub>)</strong></p>\n<p>The fifth line contains <strong>N-1 </strong>integers denoting the array\u00a0<strong>D</strong> <strong>(D<sub>1</sub>, D<sub>2</sub>, D<sub>3</sub>,..., D<sub>N-1</sub>)</strong></p>\n<p><strong>Output</strong></p>\n<p>Print the required answer in a new line.</p>\n<p><strong>Constraints</strong></p>\n<ul>\n<li>1 &lt;= <strong>N </strong>&lt;= 400</li>\n<li>1 &lt;= <strong>A<sub>i</sub>, B<sub>i</sub> </strong>&lt;= 10<sup>6</sup></li>\n<li>0 &lt;= <strong>C<sub>i</sub>, D<sub>i</sub> </strong>&lt;= 10<sup>6</sup></li>\n</ul>\n<p><strong>Example</strong></p>\n<p><strong>Input</strong></p>\n<p>3<br />2 3 2<br />1 2 5<br />2 3 1<br />1 1\u00a0</p>\n<p><strong>Output</strong></p>\n<p>14</p>\n<p><strong>Explanation</strong></p>\n<p>Minimum cost comes when factory 1 manufacture 1 unit of product, factory 2 manufactures 1 unit of product and factory 3 manufactures 5 units of product.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "CodeZilla",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1507374000,
+        "end_date": 1507386600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1507386600,
+        "submit_start_date": 1507374000,
+        "current": 1537433491
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>mohitbindal644</span>",
+    "problem_name": "Manufacturing Goods",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/mohitbindal644'>mohitbindal644</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "mohitbindal644",
+    "contest_code": "CZIL2017",
+    "max_timelimit": "1",
+    "problem_code": "CZMG17"
+}

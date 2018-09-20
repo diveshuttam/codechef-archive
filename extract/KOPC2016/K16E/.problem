@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p align = \"justify\">\nLakshmi Narayanan is so fond of arrays. His friend Siva gifted him an array of positive integers of size n x T. The array \n\nhas the property, for any i > n, a[i]\u2009=\u2009a[i\u2009-\u2009n]. He is interested in knowing the length of the longest non-decreasing \n\nsubsequence of the given array. \n</p>\n\n\n<h3><b>Input</b></h3>\n<p>\nThe first line contains two space-separated integers: n, T (1\u2009\u2264\u2009n\u2009\u2264\u2009100, 1\u2009\u2264\u2009T\u2009\u2264\u200910^7). <br>\nThe second line contains n space-separated integers a1,\u2009a2,\u2009...,\u2009an (1\u2009\u2264\u2009ai\u2009\u2264\u2009300).\n</p>\n\n<h3><b>Output</b></h3>\n<p>\nPrint a single number \u2014 the length of the longest subsequence. \n</p>\n\n<h3><b>Example</b></h3>\n<pre><b>Input:</b>\n4 3 \n3 1 4 2 \n\n<b>Output:</b>\n5\n</pre>\n\n<h3>Explanation</h3>\n<p>\nThe array given in the sample looks like that: 3,<b>1</b>,4,<b>2</b>, <b>3</b>,1,<b>4</b>,2, 3,1,<b>4</b>,2. The elements \n\nin bold form the subsequence.\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Kurukshetra Online Programming Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYPY, CS2, PAS fpc, PAS gpc, RUBY, D, PERL, FORT, ADA, ASM, ICON, PIKE, ST, NICE, LUA, BASH, NEM, TCL, SCM chicken",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455370200,
+        "end_date": 1455388200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1839201979,
+        "submit_start_date": 1455370200,
+        "current": 1537435477
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>lakshmi8</span>",
+    "problem_name": "The Cakewalk",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/lakshmi8'>lakshmi8</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "lakshmi8",
+    "contest_code": "KOPC2016",
+    "max_timelimit": "0.5",
+    "problem_code": "K16E"
+}

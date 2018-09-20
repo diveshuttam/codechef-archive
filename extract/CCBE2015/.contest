@@ -1,0 +1,136 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "CCBE2015",
+    "duration": "720",
+    "name": "C-Cube 2015",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "CCUBE04": [
+            {
+                "score": "15",
+                "count": "2"
+            },
+            {
+                "score": "25",
+                "count": "3"
+            },
+            {
+                "score": "40",
+                "count": "44"
+            },
+            {
+                "score": "100",
+                "count": "14"
+            }
+        ],
+        "CCUBE05": [
+            {
+                "score": "30",
+                "count": "2"
+            },
+            {
+                "score": "60",
+                "count": "2"
+            },
+            {
+                "score": "100",
+                "count": "21"
+            }
+        ],
+        "CCUBE01": [
+            {
+                "score": "100",
+                "count": "119"
+            }
+        ],
+        "CCUBE03": [
+            {
+                "score": "50",
+                "count": "1"
+            },
+            {
+                "score": "70",
+                "count": "1"
+            }
+        ]
+    },
+    "rules": "<div><address style=\"font-size: 13px; padding-left: 0 !important;\"><b><span>New users are requested to go through the below information to know more about the contest.</span></b></address><address style=\"font-size: 13px; padding-left: 0 !important;\"><b><span><br /></span></b></address> <div></div> <div><b class=\"rules-heading\">CodeChef: A Platform for Aspiring Programmers</b></div> <div></div> <div><span>CodeChef was created as a platform to help programmers make it big in the world of algorithms, computer programming and programming contests. At CodeChef, we work hard to revive the geek in you by hosting a programming contest at the start of the month and another smaller programming challenge in the middle of the month.<br /><br /></span></div> <div></div> <div><b class=\"rules-heading\">About C - Cube Contest:</b></div> <div></div> <div><span>C - Cube is a online C programming contest hosted by Indian Institute of Space Science &amp; Technology. The winners of the contest will be provided with prizes worth INR 5000. <br /><br /></span></div> <div></div> <div><b class=\"rules-heading\">Contest Details:</b></div> <div></div> <div> <ul> <li>Problem Setters:\u00a0<span>Team IIST.</span></li> <li>Duration: From\u00a05th<span> March, 2015 at 21:00 HRS (IST) to 6th \u00a0March, 2015 09:00 HRS (IST).\u00a0<br />You\u00a0may check your\u00a0timezone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+C-Cube+2015&amp;iso=20150305T21&amp;p1=44&amp;ah=12\">here</a>.</span></li> <li>For ranklist visit:\u00a0<a href=\"/rankings/CCBE2015/\">http://www.codechef.com/rankings/CCBE2015/</a></li> </ul> </div> <div> <ul> </ul> </div> <div><b class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</b></div> <div></div> <div><span>The contest is open to all the programmers across the globe.<br /><br /></span></div> <div></div> <div><b class=\"rules-heading\">What\u2019s new in CodeChef?</b></div> <div></div> <div><span>You may now play with our new </span><a href=\"http://blog.codechef.com/2015/02/04/play-more-in-discuss-with-groups-latex/\">groups &amp; LaTex feature</a><span> on discuss.</span></div> </div> <div><b><br />Rules and Regulations:</b></div> <div> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at feedback@codechef.com.</li> <li>Discussing problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>If you do not have a CodeChef ID create one\u00a0<a target=\"_blank\" href=\"http://codechef.com/user/register\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok.</li> <li>Submission in only C and C++ are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided.</li> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a></li> <li>Please contact\u00a0<span><a target=\"_blank\" href=\"mailto:c.cubeconscientia@gmail.com\">c.cubeconscientia@gmail.com</a></span> for any queries during the contest.</li> </ul> </div> <div><b><br />Judging Criteria:</b> <ul> <li>All the problems have same points alloted to them. However, the problems will be partially graded.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>The details of the failed test cases will also be visible on your solution page.</li> <li>Users are ranked according to the most problems solved.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> <li>The total time is the sum of the time consumed for each problem solved. </li> </ul> <b>Note: You can now \u201cCode, Compile, and Run\u201d your codes on our newly launched IDE\u00a0<a href=\"/ide\">here</a>. </b></div> ",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/CCBE2015/1425494919.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CCUBE04": {
+            "allow_submission": false,
+            "name": "ArmWeak Numbers",
+            "category_name": "main",
+            "accuracy": 6.23,
+            "successful_submissions": "14",
+            "code": "CCUBE04",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CCUBE05": {
+            "allow_submission": false,
+            "name": "Counting Stars",
+            "category_name": "main",
+            "accuracy": 42.86,
+            "successful_submissions": "21",
+            "code": "CCUBE05",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CCUBE02": {
+            "allow_submission": false,
+            "name": "Board Game",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "CCUBE02",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CCUBE01": {
+            "allow_submission": false,
+            "name": "Code Compile Contest",
+            "category_name": "main",
+            "accuracy": 40,
+            "successful_submissions": "119",
+            "code": "CCUBE01",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CCUBE03": {
+            "allow_submission": false,
+            "name": "Patrix",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": "0",
+            "code": "CCUBE03",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1425612600,
+        "current": 1537436634,
+        "freezing": 0,
+        "start": 1425569400
+    },
+    "user": {
+        "username": ""
+    }
+}

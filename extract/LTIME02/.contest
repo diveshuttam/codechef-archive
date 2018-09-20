@@ -1,0 +1,150 @@
+{
+    "announcements": "<p><b>28/07/2013, 11:06 IST:</b>The official school rankings for the contest can be found\u00c2\u00a0<a target=\"_blank\" href=\"/rankings/inst/school/LTIME02\">here</a>. Overall rankings can be viewed\u00c2\u00a0<a target=\"_blank\" href=\"/rankings/inst/LTIME02\">here</a>.</p>\r\n<p><b>28/07/2013, 13:30 IST: </b>The contest has been extended by 30 minutes. It will now end at 14:30 HRS IST</p>",
+    "ip": "149.129.135.113",
+    "code": "LTIME02",
+    "duration": "210",
+    "name": "Lunch Time July 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "TANGLED": [
+            {
+                "score": "0.15",
+                "count": "135"
+            },
+            {
+                "score": "0.3",
+                "count": "25"
+            },
+            {
+                "score": "0.35",
+                "count": "5"
+            },
+            {
+                "score": "0.5",
+                "count": "10"
+            },
+            {
+                "score": "0.7",
+                "count": "4"
+            },
+            {
+                "score": "1",
+                "count": "7"
+            }
+        ],
+        "COOKFOOD": [
+            {
+                "score": "0.3",
+                "count": "8"
+            },
+            {
+                "score": "0.5",
+                "count": "7"
+            },
+            {
+                "score": "0.75",
+                "count": "18"
+            },
+            {
+                "score": "1",
+                "count": "80"
+            }
+        ],
+        "TRIPCOST": [
+            {
+                "score": "0.3",
+                "count": "2"
+            },
+            {
+                "score": "1",
+                "count": "27"
+            }
+        ],
+        "COINCHNG": [
+            {
+                "score": "0.2",
+                "count": "21"
+            },
+            {
+                "score": "0.4",
+                "count": "6"
+            },
+            {
+                "score": "0.8",
+                "count": "3"
+            },
+            {
+                "score": "1",
+                "count": "22"
+            }
+        ]
+    },
+    "rules": "<p><b><span><span>The\u00a0Lunch Time July 2013\u00a0Lunchtime has ended.</span></span><br /><span><span>All the solutions for the problem set are public and the problems have been moved to practice section.</span></span></b></p> <p><b> </b><b>The editorials for the contest have been uploaded, you can check them <a href=\"http://discuss.codechef.com/tags/ltime02/\">here</a>.<br /></b><b>In case you are a new user, you will need to first register for a CodeChef ID\u00a0<a target=\"_blank\" href=\"/user/register/\">here</a>.\u00a0<br />The winners blog post can be found <a href=\"http://blog.codechef.com/2013/08/08/another-hot-lunch/\">here</a>.</b></p> <div class=\"applyall\"><span> </span></div> <div class=\"applyall\"><span>This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test data.</span></div> <div class=\"applyall\"> <ul> <li>The details of the failed test cases will also be visible on your solution page.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The contest is meant for students of high school and middle school though everyone is invited to participate.</li> <li>There will be separate ranking page for school students. The school students will be identified by the inistitution that they have enetered in their profile.</li> <li><b>We have removed all the Institutions that we could not identify from our database. We request you to update your institutions once again by going to your profile page.</b></li> <li>You can also send in your queries in an email to\u00a0<a href=\"mailto:contest-admin@codechef.com\" target=\"_blank\">contest-admin@codechef.com</a>, during the contest.</li> <li>Contest problems will become visible on July 28th, 2013 at 11:00 am (IST) to 2:00 pm (IST).\u00a0<span id=\"docs-internal-guid-44de7f0f-9015-6ef2-9575-f72334c25d39\">There will be 4 problems in all. </span>Check your time zone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+July+Lunch+Time+2013&amp;iso=20130728T11&amp;p1=44&amp;ah=3\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></li> <li>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>All participants are expected to abide by the <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a>.</li> </ul> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/LTIME02/1424957777.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "TANGLED": {
+            "allow_submission": false,
+            "name": "Entangled Strings",
+            "category_name": "main",
+            "accuracy": 0.72,
+            "successful_submissions": "7",
+            "code": "TANGLED",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "COOKFOOD": {
+            "allow_submission": false,
+            "name": "Cooking dishes",
+            "category_name": "main",
+            "accuracy": 17.22,
+            "successful_submissions": "80",
+            "code": "COOKFOOD",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "TRIPCOST": {
+            "allow_submission": false,
+            "name": "Optimal Trip",
+            "category_name": "main",
+            "accuracy": 46.55,
+            "successful_submissions": "27",
+            "code": "TRIPCOST",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "COINCHNG": {
+            "allow_submission": false,
+            "name": "Paying optimally",
+            "category_name": "main",
+            "accuracy": 3.99,
+            "successful_submissions": "22",
+            "code": "COINCHNG",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1375002000,
+        "current": 1537438252,
+        "freezing": 0,
+        "start": 1374989400
+    },
+    "user": {
+        "username": ""
+    }
+}

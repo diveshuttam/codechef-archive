@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Charlie has <b>N</b> containers. Each container <b>i</b> has some capacity <b>c<sub>i</sub></b>. Initially the container <b>i</b> contains some amount of water <b>A<sub>i</sub></b>. Now Charlie wants to reach a final state where each container <b>i</b> will contain a specified amount of water <b>B<sub>i</sub></b> obeying the following rules:</p>\n<ul>\n<li> In each step, he can choose any two containers and pour the water of the first container in the second container till the first container becomes empty or the second container becomes full.</li>\n<li> He cannot measure the amount of water by his eyes i.e. he cannot pour any partial amount of water from one container to the other.</li>\n<li> There is no external source of water apart from the initial amount of water in the containers.</li>\n</ul>\n<p>Help Charlie to find the minimum number of steps required to reach the final state from the initial state of the containers.</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>\n<ul>\n<li> For each test case the first line will contain <b>N</b>, the number of containers.</li>\n<li> Second line will contain N space separated integers <b>c<sub>1</sub>,c<sub>2</sub>,....,c<sub>N</sub></b> which are the capacities of the containers.</li>\n<li> Third line will contain N space separated integers <b>A<sub>1</sub>,A<sub>2</sub>,....,A<sub>N</sub></b> which are the initial amount of water in the containers.</li>\n<li> Fourth line will contain N space separated integers <b>B<sub>1</sub>,B<sub>2</sub>,....,B<sub>N</sub></b> which are the final amount of water in the containers.</li>\n<li> There is no empty line between different test cases.</li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing an integer which will be the minimum number of steps required. If it is not possible to reach the final state, print -1.</li>\n</ul>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>30</b></li>\n<li> <b>2</b> \u2264 <b>N</b> \u2264 <b>10</b> </li>\n<li> <b>1</b> \u2264 <b>c<sub>i</sub></b> \u2264 <b>1000</b> </li>\n<li> <b>0</b> \u2264 <b>A<sub>i</sub></b> \u2264 <b>c<sub>i</sub></b> </li>\n<li> <b>0</b> \u2264 <b>B<sub>i</sub></b> \u2264 <b>c<sub>i</sub></b> </li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3\n19 13 7\n0 13 7\n10 10 0\n3\n19 13 7\n0 13 7\n10 5 5\n\n<b>Output:</b>\n16\n-1\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeCrusade 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1393648200,
+        "end_date": 1393660200,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1393660200,
+        "submit_start_date": 1393648200,
+        "current": 1537437760
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>prashant89</span>",
+    "problem_name": "Fun with Containers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/prashant89'>prashant89</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "prashant89",
+    "contest_code": "CDCS2014",
+    "max_timelimit": "1 - 30",
+    "problem_code": "CDCRTS2"
+}

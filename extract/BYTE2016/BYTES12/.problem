@@ -1,0 +1,33 @@
+{
+    "problem_code": "BYTES12",
+    "problem_author": "arpitdec5",
+    "contest_name": "BYTES",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>arpitdec5</span>",
+    "problem_name": "Virat and his Team",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "BYTE2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/arpitdec5'>arpitdec5</a>, <a class='problem-tag-small ' href='/tags/problems/bytes2016'>bytes2016</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/sieve+dp'>sieve+dp</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Cheeku aka VIRAT KOHLI the great Indian Batsman is loved by all for his tremendous batting skills but still many hate him because of his attitude which he possesses both inside and outside the field.Still he is the best and will remain the best .Recently he decided to complete the competitive programming course at National University of Singapore and was presented with the following problem at the interview :<br />\n<br /><br /><br />\nConsider yourself at Nth block ( N will be provided as an input ) .Now you are allowed to jump backwards with jump length being a prime factor of the block you are currently on . Lets say you are on the 12th block then you can jump either to 10th block ( 2 is prime factor of 12 ) or 9th block (3 is prime factor of 12 ). Your end goal is to reach 0th block with minimum possible time assuming each jump takes 1s .<br />\n<br /><br />\nFor more info on prime numbers check this link : <a href=\"https://en.wikipedia.org/wiki/Prime_number\">https://en.wikipedia.org/wiki/Prime_number</a><br />\n<br /><br /><br />\nVirat is weak at competitive coding .Help him!!\n</p>\n<h3>Input</h3>\n<p>Input will contain an integer N denoting the block Virat will be currently on .</p>\n<h3>Output</h3>\n<p>Minimum time to reach 0th block.</p>\n<h3>Constraints</h3>\n<p>2&lt;=N&lt;=1000000<br />\n<br /></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n\n<b>Output:</b>\n2</pre>",
+    "category_name": "main",
+    "date_added": "24-01-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/BYTES12",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1454859000,
+        "end_date": 1454869800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454869800,
+        "submit_start_date": 1454859000,
+        "current": 1537435501
+    },
+    "user": {
+        "username": ""
+    }
+}

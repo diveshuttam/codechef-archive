@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Everyone knows the God of Cricket , Sachin Tendulkar , and his cricket records are marvellous . One day, Bob tried to make a list of his (Sachin) runs , he scored in each match .<br /> He(Bob) was getting bored in collecting the data so he decided determine whether the runs scored by Sachin in a particular range are in AP or not . Bob also make mistakes in his list . So he will also update the list frequently.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line contains \u2018n\u2019 total no of matches . Next line contains n space separated integers the runs scored by Sachin in these matches (F[i])  .Then next line contains an integer \u2018Q\u2019 , the no of ranges , Bob wishes to determine about .<br /> Then Q lines proceed containing three A,B,C integers if, A is 1 , then B and C describe the range (1 based ). if , A is 0 then B represents the match no for which Bob wishes to update runs for (1 based) and C represents value to which the runs of match B are changed to .</p>\n<h3>Output</h3>\n<p>For each query of type 1 , print \u2018\u20191\u201d  if range is in AP or \u201c0\u201d (quotes for clarity) if range is not in AP . Print your answer per line for each query of type 1.</p>\n<h3>Constraints</h3>\n<ul>\n<li>1&lt;= n &lt;=100000</li>\n<li>1&lt;= Q &lt;=100000</li>\n<li>0&lt;= F[i] &lt;= 10^9</li>\n<li>0&lt;= A &lt;=1</li>\n<li>1&lt;= B &lt;= n</li>\n<li>If , A=1 , 1&lt;= C &lt;= n , B &lt;= C</li>\n<li>If, A=0 , 1&lt;= C &lt;= 20000</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n2 3 4 5 6 \n3\n1 2 4\n0 3 6\n1 2 4\n\n<b>Output:</b>\n1\n0\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>First query , the sequence 3 4 5 is an AP<br /><br />\nSecond query , element at index 3 ie,. 4 is changed to 6<br /><br />\nThird query , the sequence 3 6 5 is not an AP<br />\n</b></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-04-2015",
+    "is_direct_submittable": false,
+    "contest_name": "DTU Programming Mania",
+    "languages_supported": "C, CPP14, JAVA, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1429284600,
+        "end_date": 1429295400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1429295400,
+        "submit_start_date": 1429284600,
+        "current": 1537436381
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>coolboy95</span>",
+    "problem_name": "Sachin and Sequences",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/coolboy95'>coolboy95</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "coolboy95",
+    "contest_code": "DTCT2015",
+    "max_timelimit": "1",
+    "problem_code": "SSEQ"
+}

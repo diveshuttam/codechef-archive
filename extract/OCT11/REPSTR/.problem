@@ -1,0 +1,33 @@
+{
+    "problem_code": "REPSTR",
+    "problem_author": "anhdq",
+    "contest_name": "October Long Contest 2011",
+    "todo": false,
+    "problem_author_html_handle": "AnhDQ",
+    "problem_name": "Repeated String",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>masked_zorro</span>",
+    "contest_code": "OCT11",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anhdq'>anhdq</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/oct11'>oct11</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Given a string S (containing at most 10<sup>5</sup> lowercase English letters). You are requested to find out from continuous substrings a string having length from L to H, which appears the most times; if there are more than one answer, find the most length.</p>\n\n<h3>Input</h3>\n<p>There are several test cases (fifteen at most), each formed as follows:\n<ul>\n<li>The first line contains two positive integers L, H.</li>\n<li>The second line contains the string S.</li>\n</ul>\nThe input is ended with L = H = 0.\n</p>\n\n<h3>Output</h3>\n<p>For each test case, output on a line two integers which are the number of times appearing and the length of the found string, respectively.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3 5\naabcbcbca\n3 5\nbaaaababababbababbab\n1 4\nabcd\n0 0\n\n\n<b>Output:</b>\n2 4\n6 3\n1 4\n</pre>\n\n<h3>Explanation</h3>\nCase #1: <b>bcbc</b> occurs twice - at position 3 and position 5 (occurrences may overlap).<br />\nCase #2: <b>bab</b> occurs 6 times.<br />\nCase #3: <b>abcd</b> occurs 1 time.<br />",
+    "category_name": "main",
+    "date_added": "22-08-2011",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "10",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/REPSTR",
+    "problem_tester": "masked_zorro",
+    "time": {
+        "view_start_date": 1317461400,
+        "end_date": 1318325400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1318325400,
+        "submit_start_date": 1317461400,
+        "current": 1537439127
+    },
+    "user": {
+        "username": ""
+    }
+}

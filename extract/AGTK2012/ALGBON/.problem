@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The famous Fibonacci sequence as you all know \n A<sub>1</sub> = 1, A<sub>2</sub> = 2, A<sub>i</sub> = A<sub>i-1</sub> + A<sub>i-2</sub> (i > 2).\n<p>\nNow we represent a natural number <b>N</b> by the maximum numbers that are less than or equal to <b>N</b> in Fibonacci sequence: <b>N = b<sub>1</sub>*A<sub>1</sub> + b<sub>2</sub>*A<sub>2</sub> + \u2026</b> \n<p>\nHence <b>N</b> can be represented as: b<sub>n</sub>b<sub>n-1</sub>\u2026b<sub>1</sub>. For eg, 1 = 1<sub>f</sub>, 2 = 10<sub>f</sub>, etc. \n<p>\nOn writing all <b>N</b> successively in Fibonacci system, we will obtain a sequence like this: 110\u2026 We call this \u201cFibonacci sequence till <b>N</b> in bit format\u201d.\n\n&lt;!--Your task is counting the numbers of times that bit 1 appears in first <b>M</b> bits of this sequence.--&gt;\n\n\n<h3>Input</h3>\n<p><b>T</b>, the number of test cases, followed by <b>T</b> lines. <p>Each line containing the positive integer <b>M</b>, where 0<=<b>M</b><=10<sup>18</sup>\n\n<h3>Output</h3>\n<p><b>T</b> lines of output, each line contain the positive integer, denoting the count of the numbers of times that bit 1 appears in first <b>M</b> bits of this sequence.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n2\n8\n10\n\n<b>Output:</b>\n2\n4\n6\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "ALGOTHIKA 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1331892316,
+        "end_date": 1331958600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1331958600,
+        "submit_start_date": 1331892316,
+        "current": 1537438871
+    },
+    "problem_author_html_handle": "s4p3r_c1n0s",
+    "problem_name": "Grand son of Bonacci (TIEBREAKER)",
+    "source_sizelimit": "5000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/s4p3r_c1n0s'>s4p3r_c1n0s</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "s4p3r_c1n0s",
+    "contest_code": "AGTK2012",
+    "max_timelimit": "0.1",
+    "problem_code": "ALGBON"
+}

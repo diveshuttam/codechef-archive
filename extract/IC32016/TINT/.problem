@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Pirates of the Carribean were able to reach the place where the treasure was hidden but are unable to understand the situation. Two metal rods are joined in a \u201cplus shaped\u201d manner. Both the rods has gold balls stuck on them.<br />\n The treasure is inside two balls.<br />\n<br />Consider that two rods intersect at point S.<br />\nYou are given horizontal distance of ball from <b>S</b> to be <b>P</b>, and vertical distance to be <b>Q</b>.</p>\n<p> Clue for the hunt is that, treasure is in the balls which are the farthest among all the balls present.<br /> You need to help them collect the balls in the first attempt.<br /></p>\n<p>\u00a0</p>\n<h3>INPUT</h3>\n<p>First line contains <b>N</b>, the number of balls, and then <b>N</b> lines follow specifying the position of balls..<br />\n<br /><br />\nEach line contains <b>P</b> and <b>Q</b>, where, <b>P</b> specifies the horizontal distance from <b>S</b> and <b>Q</b> specifies the vertical distance from <b>S</b>.\n</p>\n<p>\u00a0</p>\n<h3>OUTPUT</h3>\n<p>A single integer specifying the distance between the two balls placed at maximum distance.</p>\n<p>\u00a0</p>\n<h3>CONSTRAINTS</h3>\n<ul>\n<li><b>1</b> &lt; <b>N</b> &lt; <b>100000</b></li>\n<li><b>-10<sup>9</sup></b> &lt; <b>P</b> &lt; <b>10<sup>9</sup></b></li>\n<li><b>-10<sup>9</sup></b> &lt; <b>Q</b> &lt; <b>10<sup>9</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>EXAMPLE</h3>\n<pre><b>Input:</b>\n2\n1 0\n0 1\n\n<b>Output:</b>\n1\n\n<b>Explanation:</b>\nAnswer is the floor value of the desired distance. \nThe distance between the two balls is square root of 2. Therefore, answer comes out to be 1.\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "30-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICODE 3",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455247800,
+        "end_date": 1455377400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1455377400,
+        "submit_start_date": 1455247800,
+        "current": 1537435485
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>akku_bigasia</span>",
+    "problem_name": "The Intersection",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/akku_bigasia'>akku_bigasia</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/ic32016'>ic32016</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "akku_bigasia",
+    "contest_code": "IC32016",
+    "max_timelimit": "1",
+    "problem_code": "TINT"
+}

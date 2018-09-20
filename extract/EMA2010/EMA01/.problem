@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>To find the zeroes in a factorial of a number. In this problem, we have to find the number of zeroes following a non negative number in a factorial of a number. Suppose the number entered is 6 and we know factorial of 6 is 720 thus there is only one zero after a non- negative number, so the output is 1.\n\n<h3>Input</h3>\n</p><p>The first number N indicates the number of test cases to be followed.It stands for number of numbers to be followed. Then there are N lines each containing exactly one positive integer for which the solution to be found out.\n<h3>Output</h3>\n</p><p>For every number, output a single line containing the single non negative integer.\n\n<h3>Example\n</h3>\n\n<pre>\n<b>Input:</b>Sample Input\n\n6\n3\n18\n\n\n<b>Output:</b>\n1\n0\n5\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "EMA 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1270146600,
+        "end_date": 1270287000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180187,
+        "submit_start_date": 1270146600,
+        "current": 1537439610
+    },
+    "problem_author_html_handle": "rajneeshrana",
+    "problem_name": "ZEROS",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rajneeshrana'>rajneeshrana</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rajneeshrana",
+    "contest_code": "EMA2010",
+    "max_timelimit": "1",
+    "problem_code": "EMA01"
+}

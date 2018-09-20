@@ -1,0 +1,33 @@
+{
+    "problem_code": "KNIGHTMV",
+    "problem_author": "anton_lunyov",
+    "contest_name": "June Cook-off",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>anton_lunyov</span>",
+    "problem_name": "Correctness of Knight Move",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>rajivka</span>",
+    "contest_code": "COOK11",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anton_lunyov'>anton_lunyov</a>, <a class='problem-tag-small ' href='/tags/problems/cook11'>cook11</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nChef develops his own computer program for playing chess. He is at the very beginning. At first he needs to write the module that will receive moves written by the players and analyze it. The module will receive a string and it should report at first whether this string represents the correct pair of cells on the chess board (we call such strings correct) and then report whether it represents the correct move depending on the situation on the chess board. Chef always has troubles with analyzing <a href=\" http://en.wikipedia.org/wiki/Knight_%28chess%29\">knight moves</a>. So at first he needs a test program that can say whether a given string is correct and then whether it represents a correct knight move (irregardless of the situation on the chess board). The cell on the chessboard is represented as a string of two characters: first character is a lowercase Latin letter from <b>a</b> to <b>h</b> and the second character is a digit from <b>1</b> to <b>8</b>. The string represents the correct pair of cells on the chess board if it composed of 5 characters where first two characters represent the cell where chess figure was, 3rd character is the dash <b>\"-\"</b> and the last two characters represent the destination cell.\n\n<h3>Input</h3>\n<p> The first line contains a single integer <b>T <= 50000</b>, the number of test cases. <b>T</b> test cases follow. The only line of each test case contains a non-empty string composed the characters with ASCII-codes from 32 to 126. The length of the string is not greater than <b>10</b>.\n\n<h3>Output</h3>\n<p> For each test case, output a single line containing the word <b>\"Error\"</b> if the corresponding string does not represent the correct pair of cells on the chess board. Otherwise output <b>\"Yes\"</b> if this pair of cells represents the correct knight move and <b>\"No\"</b> otherwise.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n4\na1-b3\nd2-h8\na3 c4\nErrorError\n\n<b>Output:</b>\nYes\nNo\nError\nError\n</pre>\n",
+    "category_name": "main",
+    "date_added": "13-06-2011",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.514286",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/KNIGHTMV",
+    "problem_tester": "rajivka",
+    "time": {
+        "view_start_date": 1308499200,
+        "end_date": 1308508200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1308508200,
+        "submit_start_date": 1308499200,
+        "current": 1537439187
+    },
+    "user": {
+        "username": ""
+    }
+}

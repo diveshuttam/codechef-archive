@@ -1,0 +1,33 @@
+{
+    "problem_code": "HAPPY",
+    "problem_author": "spooky ",
+    "contest_name": "July 2010",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>spooky</span>",
+    "problem_name": "Happy Days",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>anshuman_singh</span>",
+    "contest_code": "JULY10",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/july10'>july10</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/spooky '>spooky </a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Johnny has a pool in his garden. There are several islands in the pool. Some islands are connected by bridges. Any bridge can be removed. Every day Johnny removes some bridges so that there is only one way from any island to any other. In the evening he returns removed bridges to their places. Also he has some favorite bridges which he never removes. Johnny will be happy if he is able to make a configuration of bridges on the given day which he has never made before. You have to count the amount of days he will be happy. Of course, if the favorite bridges themselves don't satisfy the happiness condition Johnny will not be happy for even single day.\n\n<h3>Input</h3>\n<p>The first line of input file contains number t \u2013 the number of test cases. Then the description of each test case follows. The first line of each test case contains number n \u2013 the number of islands. Islands are numbered with integers from 1 to n. Then n lines follow each containing n characters defining the connectivity matrix of those islands. Character in column x of line y will be \u20181\u2019 if the islands with numbers x and y are connected and \u20180\u2019 otherwise. The next line is number p \u2013 the number of favorite bridges. The next p lines contain the pairs of islands that are connected by favorite bridges.\n\n<h3>Output</h3>\n<p>For each test case print the number of days Johnny will be happy in this situation.\n\n<h3>Constraints</h3>\n<p>1 <= t <= 5<br />\n2 <= n <= 30<br />\n1 <= p <= min(6, n-1)\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n4\n0111\n1011\n1101\n1110\n2\n1 2\n3 4\n\n<b>Output:</b>\n4\n\n</pre>\n",
+    "category_name": "main",
+    "date_added": "3-05-2010",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "max_timelimit": "0.71",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/HAPPY",
+    "problem_tester": "anshuman_singh",
+    "time": {
+        "view_start_date": 1277976600,
+        "end_date": 1278840600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1278840600,
+        "submit_start_date": 1277976600,
+        "current": 1537439564
+    },
+    "user": {
+        "username": ""
+    }
+}

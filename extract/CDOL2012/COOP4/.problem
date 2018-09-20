@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Girish has recently joined IISc. Being a highly enthusiastic\nstudent he wants to attend as many classes as possible. He has\nprepared a list of classes he wants to attend along with their timings.\nBut he realizes that he can not attend all the classes as some of\ntheir timings clash with each other. Given the schedule of classes,\nhelp Girish identify the maximum number of classes he can attend.\n\n<h3>Input</h3>\n<p>The first line of input contains 'T', the number of test cases (1<=T<=1000). This is followed by 'T' test cases. Each test case consists of a blank line followed by one line containing a number 'C', the number of classes (1<= C <= 1000000). This is followed by 'C' lines, each containing two integers representing the start and end times of each class.\n\n\n<h3>Output</h3>\n<p>The output should consist of 'T' lines corresponding to the 'T' test cases. Each line should contain one number, which is the maximum number of classes that can be attended.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n\n2\n10 20\n20 30\n\n3\n35 50\n15 30\n20 40\n\n\n<b>Output:</b>\n2\n2\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Code Olympics 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330749000,
+        "end_date": 1330759800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1330759800,
+        "submit_start_date": 1330749000,
+        "current": 1537438910
+    },
+    "problem_author_html_handle": "karthikn5",
+    "problem_name": "Perfect Timing",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/karthikn5'>karthikn5</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "karthikn5",
+    "contest_code": "CDOL2012",
+    "max_timelimit": "1.49",
+    "problem_code": "COOP4"
+}

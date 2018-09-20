@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nLet's consider a triangle of numbers in which a number appears in the first line, two numbers appear in the second line, three in the third line, etc. Develop a program which will compute the largest of the sums of numbers that appear on the paths starting from the top towards the base, so that:\n<ul><li> on each path the next number is located on the row below, more precisely either directly below or below and one place to the right;</li>\n<li> the number of rows is strictly positive, but less than 100 </li>\n<li> all numbers are positive integers between 0 and 99.</li>\n</ul>\n\n<h3>Input</h3>\n<p>\nIn the first line integer n - the number of test cases (equal to about 1000). \nThen n test cases follow. Each test case starts with the number of lines which is followed by their content.\n<h3>Output</h3>\n<p>\nFor each test case write the determined value in a separate line. \n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n3\n1\n2 1\n1 2 3\n4 \n1 \n1 2 \n4 1 2\n2 3 1 1 \n\n<b>Output:</b>\n5\n9\n</pre>\n<br/>\n<b>Warning: large Input/Output data, be careful with certain languages</b> ",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-12-2008",
+    "is_direct_submittable": false,
+    "contest_name": "Codehack 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1265480940,
+        "end_date": 1265502600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180172,
+        "submit_start_date": 1265480940,
+        "current": 1537439752
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Sums in a Triangle",
+    "source_sizelimit": "5000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": null,
+    "problem_author": "admin",
+    "contest_code": "CHACK01",
+    "max_timelimit": "3",
+    "problem_code": "SUMTRIAN"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p></p>\n\n<p>\nIn a different dimension of our very own earth, are every person on the planet is provided with a unique identity code(UIC).Theis a total of 9 continents on this planet.To classify each person based on their continent, signifies particular quality of their UIC is used.Multiply all the non-zero digits in their UIC and repeat the process till the result is a single digit ranging from 1-9.This final signifies\n which continent a particular person belongs to.Suggest an effficient algorithm for the authorities on that planet to find which continent a person belongs to based on their UIC.\n</p>\n\n<p></p>\n\n\n<h3> Input : <h3>\n<p>\tInput of each test case contains a <b>single UIC number</b> with the following constraints.\n</p>\n\n\n<h3> Input constraints: </h3>\n<p>\nInput number UIC limits:<br/>\n<b>0</b> < <b>UIC number </b> <= <b>10pow(15)</b>\n\n<h3> Output Description: <h3>\n<p>\nOutput should contain a single digit as the answer which is the continent belonging to particular UIC.\n</p>\n\n<p></p>\n\n<h3> Example : </h3>\n<pre>\n<b> Input: </b><br/>\n469795\n\n<h3> Output: </h3>\n8\n</pre>\n<p></p>\n\n<h3> Explanation: </h3>\n<p>\n4*6*9*7*9*5 = 68040<br/>\n6*8*4 = 192<br/>\n1*9*2 = 18<br/>\n1*8 = 8<br/>\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Shaastra Programming Contest 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1482568200,
+        "end_date": 1482579000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1482579000,
+        "submit_start_date": 1482568200,
+        "current": 1537434283
+    },
+    "problem_author_html_handle": "nishalrd",
+    "problem_name": "Unique Code",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nishalrd'>nishalrd</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nishalrd",
+    "contest_code": "SOPC2016",
+    "max_timelimit": "1",
+    "problem_code": "SPC1603"
+}

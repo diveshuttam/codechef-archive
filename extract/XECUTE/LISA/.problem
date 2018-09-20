@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nGiven a sequence of integers, find the maximum difference between first and last element of the longest increasing subsequence.\n<h3>Input</h3>\n</p><p>First line contains T, number of test cases followed by T test cases. For each test case first line contains an integer N , the next line contains sequence of N integers.\n<pre>\n<b>Constraints:</b>\nT&lt;=100\n1&lt;=N&lt;=10000\nAll numbers in the sequence will fit into 64-bit integer\n</pre>\n<h3>Output</h3>\n</p><p>For each test case print the maximum difference between first and last element of the longest increasing subsequence.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n4\n1 2 5 4\n\n<b>Output:</b>\n4\n\nExplanation:(There are 2 Longest Increasing Subsequences:1 2 5 and 1 2 4.\nBut the first subsequence gives the maximum difference(5-1=4) \n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-03-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Madras Institute of Technology - Prayatna11 - Xecute",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1299767400,
+        "end_date": 1299781800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1733529520,
+        "submit_start_date": 1299767400,
+        "current": 1537439285
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>styrofox</span>",
+    "problem_name": "Maximum Longest Increasing Subsequence",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/styrofox'>styrofox</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "styrofox",
+    "contest_code": "XECUTE",
+    "max_timelimit": "1",
+    "problem_code": "LISA"
+}

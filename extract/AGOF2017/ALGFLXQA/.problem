@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>As usual, our Mr. X was challenged by Mr. Z and he asks you to help him out by solving this problem.</p>\n\n<strong>bool ok(string s , int n) \u00a0\u00a0<br>\n    {<br>\n    set < char > mset; <br>\n    for(int i = 0; i < n; ++i) \u00a0\u00a0\u00a0{<br>    \n    \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0mset.insert(s[i]); <br>\n    } <br>\n    bool rekt = 1; <br>\n    for(int i = 0; i < n; ++i) \u00a0\u00a0\u00a0{ <br>\n        \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0rekt &= s[i] == s[n - i - 1]; <br>\n    } <br>\n    if(mset.size() >= ( (n >> 1) + (n & 1) ) \u00a0\u00a0&& rekt) \u00a0\u00a0\u00a0{ <br>\n        \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0return 1; <br>\n    } <br>\n    return 0; <br>\n} <br> </strong>\n\n<br><p>Mr. Z will give him all the possible strings of length n having only lower case alphabets 'a' - 'z'. He will pass each of the string given by Mr. Z to the above function and add the value returned by it to the sum modulo 10^9 + 7. </p>\n<p>Can you please help him finding out that value?</p>\n\n\n\n\n<h3>Input</h3>\n<p>The first line of the input contains T denoting the total number of testcases. Each of the next T lines contains single positive integer n.</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>For each test case, output the answer modulo 1000000007.</p>\n\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<b><p>1 <= T <= 10^5</p>\n<p>1 <= n <= 10^9</p></b>\n\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n4\n9\n\n<b>Output:</b>\n650\n7893600\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> Self Explanatory.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-01-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Algoflux Qualifiers",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYPY",
+    "todo": false,
+    "time": {
+        "view_start_date": 1485792000,
+        "end_date": 1485801900,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1485877500,
+        "submit_start_date": 1485792000,
+        "current": 1537434187
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>code_hard123</span>",
+    "problem_name": "Mr X and Challenge",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/code_hard123'>code_hard123</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "code_hard123",
+    "contest_code": "AGOF2017",
+    "max_timelimit": "1",
+    "problem_code": "ALGFLXQA"
+}

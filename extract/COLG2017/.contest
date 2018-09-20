@@ -1,0 +1,117 @@
+{
+    "announcements": "12:12pm: There was an issue with the time limit for CLWALL. Please resubmit your solutions. Already submitted solutions will be rejudged at the end of the contest. Apologies for the inconvenience caused.",
+    "ip": "149.129.135.113",
+    "code": "COLG2017",
+    "duration": "720",
+    "name": "Coders' Legacy 2017A",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": " <p><strong class=\"rules-heading\">About the Contest:</strong></p> <div class=\"rules-body\"> <ul class=\"\"> <li><strong>Organiser: </strong> The contest is hosted by Kalyani Government Engineering College.</li> <li><strong>Prizes: </strong>300 laddus each for the top 3 winners, at least one of which must be from KGEC.</li> <li><strong>Registrations for prizes: </strong><a href=\"https://goo.gl/RRPnJe\" target=\"_blank\">Here</a></li> <li><strong>For further queries contact </strong>Subham Das [9475231036]&nbsp;<strong>or </strong>Soumik Sarkar [8981631028].</li> </ul> </div> <p><strong class=\"rules-heading\">Contest Details:</strong></p> <div class=\"rules-body\"> <ul class=\"\"> <li><strong>Duration: </strong>12 hours</li> <li><strong>Start time: </strong>26th Feb 2017, 1100 hrs IST</li> <li><strong>End time: </strong>26th Feb 2017, 2300 hrs IST<br /> You may check your timezone <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%253A+COLG2017&amp;iso=20170226T11&amp;p1=44\" target=\"_blank\">here</a>.</li> </ul> </div> <p><strong class=\"rules-heading\">Registration:</strong></p> <div class=\"rules-body\"> <p>You just need to have a CodeChef username to participate. No seperate registration is required. If you do not have a CodeChef ID create one <a href=\"../user/register\" target=\"_blank\"> here</a>.</p> </div> <p><br /> <strong class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</strong></p> <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct.</a></p> </div> <p><br /> <strong class=\"rules-heading\">Rules and Regulations:</strong></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li> <li>Please contact <a href=\"mailto:dassubham9@gmail.com\" target=\"_blank\">dassubham9@gmail.com</a> for any queries during the contest.</li> </ul> <p><strong class=\"rules-heading\">Judging Criteria:</strong></p> <ul class=\"\"> <li><strong>All the problems have same points allotted to them.</strong></li> <li><strong>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time</strong></li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error). There is no time consumed for a problem that is not solved.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> </ul> <div class=\"\"><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"../ide\" target=\"_blank\">Online IDE</a>.</strong><br /> However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COLG2017/1488061268.png",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CLSAVE": {
+            "allow_submission": false,
+            "name": "Saving Up",
+            "category_name": "main",
+            "accuracy": 46.85,
+            "successful_submissions": "401",
+            "code": "CLSAVE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLWALL": {
+            "allow_submission": false,
+            "name": "Wall Painting",
+            "category_name": "main",
+            "accuracy": 4.9,
+            "successful_submissions": "3",
+            "code": "CLWALL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLTRTS": {
+            "allow_submission": false,
+            "name": "Treats on a Tree",
+            "category_name": "main",
+            "accuracy": 23.91,
+            "successful_submissions": "11",
+            "code": "CLTRTS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLSTRN": {
+            "allow_submission": false,
+            "name": "Count Strings",
+            "category_name": "main",
+            "accuracy": 13.31,
+            "successful_submissions": "35",
+            "code": "CLSTRN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLHMSG": {
+            "allow_submission": false,
+            "name": "Hidden Message",
+            "category_name": "main",
+            "accuracy": 50,
+            "successful_submissions": "3",
+            "code": "CLHMSG",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLPLCS": {
+            "allow_submission": false,
+            "name": "Names of Places",
+            "category_name": "main",
+            "accuracy": 37.87,
+            "successful_submissions": "98",
+            "code": "CLPLCS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLNUMG": {
+            "allow_submission": false,
+            "name": "Number Game",
+            "category_name": "main",
+            "accuracy": 34.9,
+            "successful_submissions": "306",
+            "code": "CLNUMG",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CLVSTR": {
+            "allow_submission": false,
+            "name": "Visitors to Chefland",
+            "category_name": "main",
+            "accuracy": 30.11,
+            "successful_submissions": "54",
+            "code": "CLVSTR",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1488130200,
+        "current": 1537434088,
+        "freezing": 0,
+        "start": 1488087000
+    },
+    "user": {
+        "username": ""
+    }
+}

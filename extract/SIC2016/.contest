@@ -1,0 +1,98 @@
+{
+    "announcements": "3:30 PM - Due to some technical bug rank list is uneven. We are working on that. Happy Coding. :)\r\n4:30 PM - Problem Statement for SANTA has been updated.",
+    "ip": "149.129.135.113",
+    "code": "SIC2016",
+    "duration": "180",
+    "name": "HACK NITJ",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "SANTA": [
+            {
+                "score": "30",
+                "count": "31"
+            },
+            {
+                "score": "100",
+                "count": "31"
+            }
+        ]
+    },
+    "rules": " <p><strong class=\"rules-heading\">About the Contest:</strong></p> <div class=\"rules-body\"> <ul class=\"\"> <li><strong>Organiser: </strong> The contest is hosted by Dr. B. R. Ambedkar National Institute of Technology, Jalandhar.</li> <li><strong>Prizes: </strong>Winners will get direct entry to onsite round for './execute' on 'TechNiti'.</li> <li><strong>Registrations for prizes: </strong>NA</li> </ul> </div> <p><strong class=\"rules-heading\">Contest Details:</strong></p> <div class=\"rules-body\"> <ul class=\"\"> <li><strong>Duration: 3</strong>&nbsp;hours</li> <li><strong>Start time: </strong>17th September 2016, 1500 hrs IST</li> <li><strong>End time: </strong>17th September 2016, 1800 hrs IST<br />You may check your timezone <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+SIC2016&amp;iso=20160917T15&amp;p1=44&amp;ah=4\" target=\"_blank\">here</a>.</li> </ul> </div> <p><strong class=\"rules-heading\">Registration:</strong></p> <div class=\"rules-body\"> <p>You just need to have a CodeChef username to participate. No seperate registration is required. If you do not have a CodeChef ID create one <a href=\"../user/register\" target=\"_blank\"> here</a>.</p> </div> <p><br /> <strong class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</strong></p> <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct.</a></p> </div> <p><br /> <strong class=\"rules-heading\">Rules and Regulations:</strong></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li> <li>Please contact <a href=\"mailto:rahuls.13.cse@nitj.ac.in\" target=\"_blank\">rahuls.13.cse@nitj.ac.in</a> for any queries during the contest.</li> </ul> <p><strong class=\"rules-heading\">Judging Criteria:</strong></p> <ul class=\"\"> <li><strong>All the problems will be partially graded and you will get score for passing certain test data . You will receive hundred (100) point for solving a problem (passing all test cases).</strong></li> <li><strong>The details of the failed test cases will also be visible on your solution page.</strong></li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> </ul> <div class=\"\"><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"../ide\" target=\"_blank\">Online IDE</a>.</strong><br />However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/SIC2016/1474036927.png",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "SHINI": {
+            "allow_submission": false,
+            "name": "Shinigami and Apples ",
+            "category_name": "main",
+            "accuracy": 6.63,
+            "successful_submissions": "23",
+            "code": "SHINI",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ASH": {
+            "allow_submission": false,
+            "name": "Ash and Pikachu",
+            "category_name": "main",
+            "accuracy": 11.68,
+            "successful_submissions": "23",
+            "code": "ASH",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SPEC": {
+            "allow_submission": false,
+            "name": "Flash and his Race ",
+            "category_name": "main",
+            "accuracy": 11.96,
+            "successful_submissions": "10",
+            "code": "SPEC",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "NEAR": {
+            "allow_submission": false,
+            "name": "Nearest cab",
+            "category_name": "main",
+            "accuracy": 16.89,
+            "successful_submissions": "108",
+            "code": "NEAR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SANTA": {
+            "allow_submission": false,
+            "name": "Santa and Children ",
+            "category_name": "main",
+            "accuracy": 9.7,
+            "successful_submissions": "31",
+            "code": "SANTA",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1474115400,
+        "current": 1537434603,
+        "freezing": 0,
+        "start": 1474104600
+    },
+    "user": {
+        "username": ""
+    }
+}

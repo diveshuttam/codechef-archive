@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>You have been given an assignment by your computer teacher. You need to study interactions among large numbers of very small charged particles. There are <b>N</b> charged particles at regular spacing along a straight line. They can be modelled as the integer points {1,2,....<b>N</b>} on the real line. At every point <i>j</i>, there is a particle with charge <b>Q<sub>j</sub></b> (this could be positive or negative). </p>\n<p>\nThe total net force on particle <i>j</i>, by Coulomb's Law, is equal to \n\n<p></p>\n<img src=\"https://codechef_shared.s3.amazonaws.com/download/HYC/External%20contest%20images/IOPC2017/puush-linux%2B%282017-04-21%2Bat%2B02.07.37%29.png\" height=\"50\"/>\n<p></p>\n\n<p>\n You need to compute total force on each particle. For sake of convenience you can take <b>C=50</b>.\n</p>\n\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>N</b> denoting the number of charged particles.\n<li>The ith of the next <b>N</b> lines each contain one real number denoting the charge of the ith particle, ie . <b>Q<sub>j</sub></b></li>\n</ul>\n\n<h3>Output</h3>\n<ul>\n<li>Print <b>N</b> real numbers (force on each charge), one in each line. The ith line should contain <i>F<sub>j</sub></i>.</li>\n<li>The absolute error should be less than 10<sup>-2</sup>.</li>\n</ul>\n\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 <b>N</b> \u2264 100000</li>\n<li>10  \u2264 <b>|Q<sub>i</sub>|</b>  \u2264 1001</li>\n<li> Input charges will be given in standard decimal notation. There will be exactly 4 digits after the decimal point in the input charges.</li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n10.0121\n-81.0100\n\n<b>Output:</b>\n40554.011050\n-40554.011050\n\n</pre>\n<h3>Explanation</h3>\n<p>We are given two opposite charged particles. The particle at 1 has charge 10.0121 and the particle at 2 has charge -81.0100. Applying the formula, we get the answer. Note that in this case, the output is equal and opposite in nature.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-04-2017",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2017 (Rated)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1492767000,
+        "end_date": 1492781400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1492781400,
+        "submit_start_date": 1492767000,
+        "current": 1537433929
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>varunkhare1234</span>",
+    "problem_name": "Solve the Assignment",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/varunkhare1234'>varunkhare1234</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "varunkhare1234",
+    "contest_code": "IOPC2017",
+    "max_timelimit": "3",
+    "problem_code": "IOPC17F"
+}

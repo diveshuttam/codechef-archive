@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p align = \"justify\">\n<b>pK</b> has landed on <b>Earth</b>. Two things are worrying him right now:\n<br><br>\n1. His \"<b>Remote control</b>\", that has been stolen by Tapaswi Maharaj.\n<br><br>\n2. The <b>Religious/communal</b> clashes among people in the earth.(None of them are 'Athiests' & there are atleast two religions being followed)\n<br><br>\nGod feeling pity, gives pK a chance to bring an end to these communal clashes between Humans.\n<br><br>\nTo start with, <b>God</b> creates 'C' <b>cities</b> (for C religions). He then assigns each person to their respective cities on the basis of the religion that they \n\nfollow. And people belonging to a particular city are bound to obey their \"City Heads\". He also builds individual \"<b>Passages</b>\" between each pair of cities.\n<br><br>\nIn order to increase the integrity among people of different cities, God arranges a meeting inviting the \"City Heads\" of all the cities, requesting them to be peaceful \n\nwith each other. Though many of the city heads mutually accepted this request of God, there were still some pairs of \"City Heads\" who were reluctant to be friendly \n\nwith each other. God names the passages between these cities as \"<b>Antagonistic</b>\" passages & the rest as \"<b>Friendly</b>\" passages.\n<br><br>\npK feared the existence of Antagonistic passages in the earth. God planned a re-Arrangement so as to transfer some cities to <b>pK's planet</b> such that these \n\nconditions are satisfied:<br><br>\n1) No Antagonistic passages are allowed to exist solely inside the Earth.<br>\n2) No Friendly passages are allowed to exist solely inside pK's planet(So that pK could concentrate in avoiding clashes at Antagonistic passages).<br>\n3) Both these passages are allowed to exist between Earth and pK's planet.(So that both pK and God could take care of the clashes in Antagonistic passages of this \n\ntype).<br>\n4) Both the earth and pK's planet must be non empty.(No partiality).<br>\n5) It is not necessary for every city in pK's planet to have a passage to earth's cities.<br>\n<br>\nIf such an arrangement is not possible,some communal clash and loss of life is bound to occur.\n<br><br>\nWicked Tapaswi Maharaj prays & hypnotizes God, attaining power to even destroy a city that exists in earth or pK's planet. He decides to destroy zero or more cities\n\n(and thus the passages linked with those cities)so that the above arrangement being planned by God gets hampered & some communal clash occurs.Even if he destroy a single \n\ncity he must be returning the \"Remote control\" to pK. (Considered by God as Tapaswi's sacrifice :/)\nWhatsoever, the power attained by Tapaswi is such that it gets exhausted when the total number of cities becomes two or less than that.\n<br><br>\npK is said to have succeeded if he saves people's life by avoiding any clash from occuring.Or otherwise wicked Tapaswi is said to have succeeded.\n\n</p>\n\n<h3><b>Input</b></h3>\n<p>\nThe first line consists of an integer T(1<=T<=100), the number of test cases. T test cases follow :<br>\nThe first line of each test case contains two integers C & A.<br>\n'C'-> No. of cities.(2<=C<=200)( Cities being labelled from 0 to C-1 )<br>\n'A'-> No. of Antagonistic passages.<br>\n'A' lines follow,each containg two integers c1 & c2(0<=c1,c2<=C-1), the indexes of cities between which such a passage exists.<br>\n\n</p>\n\n\n\n<h3><b>Constraints</b></h3>\n<p>\n1<=T<=100<br>\n2<=C<=200<br>\n0<=A<=20000<br>\n0<=c1,c2<=C-1<br>\n\n</p>\n\n<h3><b>Output</b></h3>\n<p>\nEach test case consists of two lines of output.<br>\nFirst Line consists of either of the two strings \"pK triumphs\" or \"Tapaswi Maharaj triumphs\" on respective cases.<br>\nSecond Line contains the information about the current status of the \"Remote control\",i.e,either of the two strings \"Remote control lies with Tapaswi\" or \"pK gets back \n\nhis Remote control\". (Quotes for clarification).\n\n</p>\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n4 2\n0 2\n1 3\n\n<b>Output:</b>\nTapaswi Maharaj triumphs\nRemote control lies with Tapaswi\n</pre>\n<h3><b>Explanation</b></h3>\n<p>Tapaswi need not destroy any city this time, as such an arrangement following the conditions is not possible with the given set of Antoganistic passages \n\nexisting.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Kurukshetra Online Programming Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYPY, CS2, PAS fpc, PAS gpc, RUBY, D, PERL, FORT, ADA, ASM, ICON, PIKE, ST, NICE, LUA, BASH, NEM, TCL, SCM chicken",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455370200,
+        "end_date": 1455388200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1839201979,
+        "submit_start_date": 1455370200,
+        "current": 1537435480
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>lakshmi8</span>",
+    "problem_name": "Religion",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/lakshmi8'>lakshmi8</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "lakshmi8",
+    "contest_code": "KOPC2016",
+    "max_timelimit": "0.4",
+    "problem_code": "K16D"
+}

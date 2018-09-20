@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>As the name of our college \"Government College of Engineering & Textile Technology Berhampore\" is too long, many students usually misspell the name.  \nHence our college has decided to reject any application, if more than 50% characters of any word is wrong.  \nYou need to calculate if a application will be accepted or rejected.  \nNote : It is guaranteed that each word in input consists of equal no. of characters as college name. Also, They are not case sensitive.\n\n### Input:\n\n- First line contains $T$ no. of test cases\n- for every test case, a line containing the name written in the application.  \n\n### Output:\nFor every test case print $accept$  or $reject$ in new line\n\n### Constraints \n- $1 \\leq T \\leq 50$\n\n### Sample Input:\n\t3\n\tgovernment college of engineering & textile technology berhampore\n\tGovernment collage of Enjineering & taxtile tachnology berhampure\n\tgovernment college of engineering & textile technology Baharampor\n    \n### Sample Output:\n\taccept\n\taccept\n\treject\n\t\n### EXPLANATION:\nFirst case, every word are same so accepted.  \nSecond case, in 2nd word 1 out of 7 characters mismatch. Hence passed. Again, in 4th, 6th and 7th, 8th word 1,1,1,2 out of 11, 8, 10,10 mismatched ( < 50% ). Hence accepted\n\nIn third case, 9 character mismatch from berhampore ( total 10 chars ). So, more than 50% mismatch ( 9 >5 ) hence reject",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Binary Battle",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1535810400,
+        "end_date": 1535819400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1535823000,
+        "submit_start_date": 1535810400,
+        "current": 1537432019
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>babangain</span>",
+    "problem_name": "Name Problem",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/babangain'>babangain</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "babangain",
+    "contest_code": "BIBA2018",
+    "max_timelimit": "0.5",
+    "problem_code": "GCTNM"
+}

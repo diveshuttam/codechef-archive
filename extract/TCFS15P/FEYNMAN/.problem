@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>There us a story told by Richard Feynman in the book \"Surely You're Joking Mr. Feynman\" where he describes inspecting a manufacturing plant. The plant has <b> N </b> chambers and <b> M </b> valves, each valve connects two chambers. The valves are <b> bidirectional </b>, i.e., substance can flow in either direction through the valve. <br /></p>\n<p>Substance is manufactured in chamber 1 and flows to chamber N, where is exits the plant. <br /></p>\n<p>Due to it's explosive nature, the substance should not be allowed to accumulate. Hence the plant has the property that failure of a single valve cannot prevent substance flow from chamber 1 to chamber N. (Failure of a valve means that substance cannot flow in either direction through that valve). <br /></p>\n<p>Feynman \"accidentally\" found a valve that violated the condition mentioned above. Can you? <br /><br />\n<br /><br />\nINPUT : <br /><br />\nFirst line contains an integer T, number of test cases <br /><br />\nEach testcase starts with a line containing two space-separated integers, N and M <br /><br />\nM lines follow, each containing two space-separated integers A and B, indicating that there is a valve from chamber A to chamber B. <br /></p>\n<p>Assume that it is possible for substance to flow from any chamber to any other in the input. <br /><br />\n<br /><br />\nOUTPUT : <br /><br />\nFor each testcase, print the <b>total number of valves</b> which violate the mentioned condition. <br /><br />\n<br /><br />\nSAMPLE INPUT : <br /><br />\n1 <br /><br />\n4 3 <br /><br />\n1 2 <br /><br />\n2 3 <br /><br />\n3 4 <br /><br />\n<br /><br />\nSAMPLE OUTPUT : <br /><br />\n3 <br /><br />\n<br /><br />\nCONSTRAINTS : <br /><br />\n1 &lt;= T &lt;= 10 <br /><br />\n1 &lt;= N &lt;= 100000 <br /><br />\n1 &lt;= M &lt;= 200000</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-08-2014",
+    "is_direct_submittable": false,
+    "contest_name": "TechFest 2015, Portal round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1412868600,
+        "end_date": 1413059400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1413059400,
+        "submit_start_date": 1412868600,
+        "current": 1537437353
+    },
+    "problem_author_html_handle": "techfest2k15",
+    "problem_name": "Feynman and Manufacturing Plant",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/techfest2k15'>techfest2k15</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "techfest2k15",
+    "contest_code": "TCFS15P",
+    "max_timelimit": "2",
+    "problem_code": "FEYNMAN"
+}

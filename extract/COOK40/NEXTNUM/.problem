@@ -1,0 +1,33 @@
+{
+    "problem_code": "NEXTNUM",
+    "problem_author": "vineetpaliwal",
+    "contest_name": "November Cook-off 2013",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>vineetpaliwal</span>",
+    "problem_name": "Rank of the Number",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>rubanenko</span>",
+    "contest_code": "COOK40",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bruteforce'>bruteforce</a>, <a class='problem-tag-small ' href='/tags/problems/cakewalk'>cakewalk</a>, <a class='problem-tag-small ' href='/tags/problems/cook40'>cook40</a>, <a class='problem-tag-small ' href='/tags/problems/enumeration'>enumeration</a>, <a class='problem-tag-small ' href='/tags/problems/factorial'>factorial</a>, <a class='problem-tag-small ' href='/tags/problems/vineetpaliwal'>vineetpaliwal</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Read problems statements in Russian <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/COOK40/russian/NEXTNUM.pdf\">here</a></h3>\n<p> The Head Chef has received his id from the Association of Byteland . He wants to know the numerical rank of his number among the numbers that can be formed by the exact same digits ( i.e. among numbers having same number of 0's , 1's ... 9's as his id ) .  Note that id's can start with 0 . Given a number, find the rank of the number .\n\n\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li> Each test case contains a single integer <b>N</b> denoting the id the chef has received .\n</ul>\n\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing the answer to the given test case . </li>\n</ul>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10000</b></li>\n<li><b>1</b> \u2264 <b>number of digits in N</b> \u2264 <b>18</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n276\n762\n\n<b>Output:</b>\n2\n6\n</pre>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b>The numbers that can be formed with one '2' ; one '7' and one '6' in increasing order are : <br>\n267 <br>\n276 <br>\n627 <br>\n672 <br>\n726 <br>\n762 <br>\nThe <b> rank </b> for 276 is 2 and <b>rank</b> for 762 is 6.</p>",
+    "category_name": "main",
+    "date_added": "1-11-2013",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/NEXTNUM",
+    "problem_tester": "rubanenko",
+    "time": {
+        "view_start_date": 1384704000,
+        "end_date": 1384713000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1384713000,
+        "submit_start_date": 1384704000,
+        "current": 1537438003
+    },
+    "user": {
+        "username": ""
+    }
+}

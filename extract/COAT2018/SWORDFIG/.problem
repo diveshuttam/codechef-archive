@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>There are **N** fighters in the field. Power of figher **i** is given by **P<sub>i</sub>**.\nA fight between two fighters **i** and **j**  is described as below:\n\nThe fight lasts till atleast one of them has non zero power left. \nEach turn is described as below:\n1. Fighter i swings his sword if **P<sub>i</sub>** is not divisible by 2.\n2. Fighter j swings his sword if **P<sub>j</sub>** is not divisible by 2.\n3. No points are awarded if both or none swing their swords. If exactly one of them swings his/her sword, 1 point is awarded to the one who swinged the sword.\n4. Power of each fighter - P<sub>i</sub> and P<sub>j</sub>, becomes *floor*(P<sub>i</sub> / 2) and *floor*(P<sub>j</sub> / 2) respectively.\n\nThe fighter with more number of points at the end of the fight, is awarded with 1 win-point. If it's a draw, both get 0 win-points.\nThen both fighters regain their original powers.\n\nA tournament is organized among these N fighters, where each fighter fights against every other fighter. \nThe one with maximum number of win-points, wins the tournament. Can you tell which fighters would be the winners of the tournament.\n\n*Note*: Multiple people can win the tournament.\n\n### Input\n- First line contains a single integer T - denoting the number of testcases. Each testcase is described by 2 lines.\n- First line of each test case contains a single integer **N**\n- Second line of each test case conatains **N** space seperated integers, where i<sup>th</sup> integer denotes **P<sub>i</sub>**, power of fighter **i**\n\n### Output\n- For each testcase, print 2 lines of output\n- First line contains single integer **k**. (number of winners in the tournament)\n- Second line contains **k** space seperated integers - Powers of the winners of the tournaments in decreasing order of their power.\n\n### Constraints\n- 1 \u2264 **T** \u2264 10\n- 1 \u2264 **N** \u2264 10 <sup>5</sup>\n- 0 \u2264 **P<sub>i</sub>** \u2264 10<sup>18</sup>\n\n### Example Inputs\n2\n\n5 \n\n3 4 5 6 7 \n\n4 \n\n3 4 5 6 \n\n### Example Outputs\n1\n\n7 \n\n3\n\n6 5 3 ",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "CodeAthon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1534060800,
+        "end_date": 1534075200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1534075200,
+        "submit_start_date": 1534060800,
+        "current": 1537432166
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>herambpatil98</span>",
+    "problem_name": "Sword Fight",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/herambpatil98'>herambpatil98</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "herambpatil98",
+    "contest_code": "COAT2018",
+    "max_timelimit": "1",
+    "problem_code": "SWORDFIG"
+}

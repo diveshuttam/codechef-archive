@@ -1,0 +1,33 @@
+{
+    "problem_code": "THESAV",
+    "problem_author": "kaushambi",
+    "contest_name": "BITFLIT",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>kaushambi</span>",
+    "problem_name": "The Saviours",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "BITF2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bitf2016'>bitf2016</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/kaushambi'>kaushambi</a>, <a class='problem-tag-small ' href='/tags/problems/stack'>stack</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><b>PROBLEM STATEMENT</b>\n<p>Due to some calamity, all the roads near Banasthali University got damaged. The villages situated near-by began experiencing a shortage of food.</p>\n<p>Since nobody else was able to help them immediately, Banasthali University took the initiative to supply them with sufficient food till some external help reached the village.\nBanasthali has it's own flying club which decided to drop food packages to the houses.</p>\n\n<p>All the houses in the village are in a straight line. Our pilot, Drishti, was given the responsibility to drop the packages.\nConsider that all the houses have equal number of members and that one food package can feed two houses.\nTo maintain decorum in the village while dropping the packages, a rule was made. According to this rule, only the next two houses from the position where the package is dropped\ncan feed on that package. Note that, the basic motive is to feed all the houses.</p>\n<p>Given the way the packages are dropped, can you tell if Drishti was able to distribute food for every house or not?</p>\n\n\n<b>INPUT FORMAT</b>\n<p>The first line of each input contains <b>'t'</b>- the number of test cases. For each test case, you will be given a string of size<b> 'n'</b>.\nIn the string, <b>'*'</b> represents a package and <b>'0'</b> represents a house.</p>\n \n<b>OUTPUT FORMAT</b>\n<p>For every test case, print <b>'YES'</b> if all the dropped packages will be able to feed all the houses; else print <b>'NO'</b>.</p>\n\n<b>CONSTRAINTS</b>\n<p>1<=t<=20</br>\n1<=n<=10^5</p>\n\n<p><b>SAMPLE INPUT</b>\n<br>2<br>\n0*0*00<br>\n*00*00</p>\n\n<p><b>SAMPLE OUTPUT</b>\n<br>NO<br>\nYES<br></p>\n\n<p><b>EXPLANATION</b>\n<p>In the first case, the package dropped is not received by the first house.<br>\nIn the second case, every 2 houses share a package.</p></p>",
+    "category_name": "main",
+    "date_added": "18-12-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/THESAV",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1482762600,
+        "end_date": 1482775200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1482775200,
+        "submit_start_date": 1482762600,
+        "current": 1537434277
+    },
+    "user": {
+        "username": ""
+    }
+}

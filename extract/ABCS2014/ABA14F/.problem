@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>Statement</b><br /><br />\n                    Mario is one the most famous video games ever. In this problem, we will be helping Mario save the princess(again :P). In this game of mario, each world will be represented by a 2-D rectangular grid. There are multiple worlds and all the worlds are of size RxC. The world contains many objects each covering exactly one cell. <br /><br />\nThe cell with \u2018S\u2019 denotes Mario\u2019s starting position. A cell with \u2018.\u2019 denotes an empty cell over which Mario can walk safely. From that cell he can move to any of its 4 adjacent cells (which share an edge with it). A cell with \u2018D\u2019 denotes a pipe that leads to the world below. A cell with \u2018U\u2019 denotes a pipe that leads to the world above. If Mario enters a cell containing a pipe, he must enter the pipe. A cell with \u2018C\u2019 represents a coin and Mario collects these. After collecting the coin, the cell becomes an empty cell. A cell with \u2018#\u2019 denotes bricks and Mario can\u2019t enter this cell no matter what. A cell with \u2018M\u2019 denotes the monster(Bowser), Mario has to defeat Bowser to save the princess. Mario initially start from an empty cell. <br /><br />\nOur Mario is very determined and so he will be always able to defeat Bowser on a 1 on 1 battle. But he is greedy and will always want to collect all the coins before going to save the princess. If he is not able to collect all the coins, he won\u2019t save the princess! Help Mario to find the minimum number of steps to do this feat. <br /><br /></p>\n<p><b>Note:</b><br />\n\tIf \u2018U\u2019 is present in topmost world or \u2018D\u2019 is present in the bottommost world, Mario can\u2019t enter the cell. <br /><br /></p>\n<p><b>Input format:</b><br /><br />\n\tInput contains multiple test cases. <br /><br />\n        First line of each test case will have 3 integers R, C and W.<br /><br />\n\u2018R X C\u2019 represents Grid dimension and \u2018W\u2019 represents number of worlds.<br />\nIt will be followed by R X W lines. Each line will have \u2018C\u2019 characters.<br /><br />\nFirst R lines describe the first world, second R lines describe the second world and so on upto W worlds.<br /><br />\n\tInput ends by the line, \u201c0 0 0\u201d.<br /><br /></p>\n<p><b>Output format:</b><br /><br />\n\tFor each test case, print a single line \u201cMario saved the princess in K steps\u201d where K is the minimum number of steps if he defeat the monster else Print \u201cMario failed to save princess\u201d.<br /><br /></p>\n<p><b>constraints:</b><br /><br />\n\t1&lt;=R,C&lt;=15<br /><br />\n\t1&lt;=W&lt;=9<br /><br />\n\t0&lt;=C&lt;=10<br /><br />\n\tAll characters in the grid will be from the set {\u2018S\u2019, \u2018.\u2019, \u2018M\u2019, \u2018C\u2019, \u2018D\u2019, \u2018U\u2019, \u2018#\u2019 } <br /><br /><br />\n<b>INPUT:</b><br /><br />\n       \t3 3 2<br /><br />\n        S.M<br /><br />\n        C#.<br /><br />\n        D..<br /><br />\n        ###<br /><br />\n        C.C<br /><br />\n        C.U<br /><br />\n\t0 0 0<br /><br /></p>\n<p><b>SAMPLE OUTPUT:</b><br /><br />\n      \tMario saved the princess in 8 steps<br /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-03-2014",
+    "is_direct_submittable": false,
+    "contest_name": "aBaCUS'14",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1394893800,
+        "end_date": 1394906400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1394906400,
+        "submit_start_date": 1394893800,
+        "current": 1537437702
+    },
+    "problem_author_html_handle": "abacus_opc",
+    "problem_name": "Super Mario",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abacus_opc'>abacus_opc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abacus_opc",
+    "contest_code": "ABCS2014",
+    "max_timelimit": "0.5",
+    "problem_code": "ABA14F"
+}

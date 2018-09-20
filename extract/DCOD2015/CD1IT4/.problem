@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A robot is designed to move on a rectangular grid of <b>M</b> rows and <b>N</b> columns. The robot is initially positioned at <b>(1, 1)</b>, i.e., the top-left cell. The robot has to reach the <b>(M, N)</b> grid cell. In a single step, robot can move only to the cells to its immediate east and south directions. That means if the robot is currently at <b>(i, j)</b>, it can move to either <b>(i + 1, j)</b> or <b>(i, j + 1)</b> cell, provided the robot does not leave the grid.</p>\n<p>Now somebody has placed several obstacles in random positions on the grid, through which the robot cannot pass. Given the positions of the blocked cells, your task is to count the number of paths that the robot can take to move from <b>(1, 1)</b> to <b>(M, N)</b>.</p>\n<p>Since the answer can get very large, output the answer modulo 1000000007.</p>\n<h3>Input</h3>\n<p>The first line contains 3 integers <b>M</b>, <b>N</b> and <b>P</b> denoting the number of rows, number of columns and number of blocked cells respectively.<br />\nIn the next <b>P</b> lines, each line has exactly 2 integers <b>i</b> and <b>j</b> denoting that the cell <b>(i, j)</b> is blocked.</p>\n<h3>Output</h3>\n<p>Output should contain a single integer, the <b>number of paths modulo 1000000007</b>.</p>\n<h3>Constraints</h3>\n<ul>\n<li>1 &lt;= <b>M, N</b> &lt;= 10<sup>3</sup></li>\n<li>0 &lt;= <b>P</b> &lt;= <b>M * N</b></li>\n<li>1 &lt;= <b>i</b> &lt;= <b>M</b></li>\n<li>1 &lt;= <b>j</b> &lt;= <b>N</b></li>\n</ul>\n<h3>Example</h3>\n<pre>\n<b>Input</b>\n4 3 2\n3 3\n3 1\n\n<b>Output</b>\n2\n\n</pre><h3>Explanation</h3>\n<p>The only 2 possible paths are<br />\n<b>(1, 1) -> (1, 2) -> (2, 2) -> (3, 2) -> (4, 2) -> (4, 3)</b> and<br />\n<b>(1, 1) -> (2, 1) -> (2, 2) -> (3, 2) -> (4, 2) -> (4, 3)</b>\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-01-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Code.IT(101)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1422545400,
+        "end_date": 1422556200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1422556200,
+        "submit_start_date": 1422545400,
+        "current": 1537436902
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>shail.shah2</span>",
+    "problem_name": "Robot and Paths",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shail.shah2'>shail.shah2</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shail.shah2",
+    "contest_code": "DCOD2015",
+    "max_timelimit": "1",
+    "problem_code": "CD1IT4"
+}

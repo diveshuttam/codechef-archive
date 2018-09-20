@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><font size=2></font></p>\n<p> Recently Abhilash came across a game called DOTS. It is a single player game. The rules of the game are as follows :</p>\n<ul>\n<li>\n<b> N </b> * <b> M </b> dots of various colours are arranged in a <b> N </b> x <b> M </b> grid. See <a href = \"http://home.iitk.ac.in/~triveni/dots1.jpg\"> here </a> for example.\n</li>\n<li>\nYou can draw a <b> rectilinear </b> curve over dots of same colour by moving your finger over the dots. See <a href = \"http://home.iitk.ac.in/~triveni/dots3.jpg\"> here</a> for better understanding. As soon as you lift your finger from the screen of your phone, all the dots that you joined to form the curve vanishes. Let's say <b> X </b> dots vanished in this step. This means that you earned <b> X </b> points in this step. In the example, <b> X </b> = 6 dots vanishes in the current step.\n</li>\n<li>\nThe aim of the game is to maximize your score in certain number of moves (in his phone it is 30).\n</li>\n<li>\nHowever, if you are able to draw a curve which forms a loop then all the dots of that colour vanish from the board. See <a href=\"http://home.iitk.ac.in/~triveni/dots2.jpg\"> here </a> for example. In the example all the green dots will disappear. Let's say <b> X </b> dots vanished in this step (in the example <b>X</b> = 9). This means you have earned <b> X </b> points in this step.\n</li>\n</ul>\n\n<p>\nAbhilash's claim is  that greedy strategy is the best strategy to get high scores as you don't know what dots will come up in next step of your game. Using his strategy, he recently broke my highest record !<br />\n\u00a0</p>\n<p>\nTo break his record, I am planning to write a program. Will you help me ?\n</p>\n<p>\nIn this problem, configuration of the grid will be given and you are required to print the maximum points that you can earn in the current move. There are <b> K </b> different available colours denoted by integers ranging from 1 to<b> K </b>.\n</p>\n<h3>Input</h3>\n<p>First line of the input contains two space separated integers <b>N</b> and <b> M </b>. <b>N </b> lines follow, each containing <b> M </b> space separated integers. The integers represent the colour of the corresponding dot.</p>\n<h3>Output</h3>\n<p>Print one Integer containing the answer to the problem. That is, maximum points that you can earn in the current step.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>K</b> \u2264 <b>1000000</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5 6\n1 6 3 6 6 6\n5 4 3 6 1 6\n7 6 2 6 6 6\n4 2 2 1 4 6\n6 6 6 2 6 1\n\n<b>Output:</b>\n15\n</pre><h3>Explanation</h3>\n<p>\nWe can form a loop of colour 6. Which will result in vanish of all 15 dots of colour 6. And this is the maximum score that can be earned in the current step.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-01-2015",
+    "is_direct_submittable": false,
+    "contest_name": "IIT Kanpur, Monthly Programming Contest 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1421847000,
+        "end_date": 1421868600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1421868600,
+        "submit_start_date": 1421847000,
+        "current": 1537436957
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>triveni</span>",
+    "problem_name": "DOTS Player",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/triveni'>triveni</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "triveni",
+    "contest_code": "WPC1501",
+    "max_timelimit": "2",
+    "problem_code": "IITK2P04"
+}

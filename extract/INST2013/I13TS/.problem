@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Two good friends M.H. and S.K.M. like to play with digits....<br />\nOne fine morning another friend A.D. gave them a huge stream of digits and asked some rather 'simple' questions.<br /> <br />\nThe two good friends M.H. and S.K.M. scrathed their heads and could not come up with an efficient solution.<br /><b>Can you help them?</b></p>\n<p><br/><br />\nThe <b>digit stream presented</b> was 0123456789101112131415161718.........</br/></p>\n<p>\nA.D.'s rather simple questions went like this: he gave q the number of questions he would ask and then asked those questions as<br />\nwhat is the 100 th digit in the sequence?<br />\nwhat is the 112322th digit in the sequence? and so on...\n</p>\n<p></p>\n<p>\nFormally speaking,<br />\nYou will be given q queries and each query will be a positive integer which denotes the position(starting with 0) who's digit you are required to find.<br />\n<br/><br />\n<b>Input format:</b><br />\n<br />\nInput starts with q the number of queries.Each query is presented in a new line.</br/></p>\n<p><b>Output format:</b><br />\n<br />\nThe digit in the required position in the <b>above stream</b> in a new line.</p>\n<p><b>Constraints:</b><br />\n1&lt;=q&lt;=10^6<br />\nand each query will be a positive integer<br />\n<br/><br/></br/></br/></p>\n<p><b>Sample input:</b><br />\n<br />\n4<br/><br />\n0<br/><br />\n3<br/><br />\n10<br/><br />\n11<br/></br/></br/></br/></br/></br/></p>\n<p><b>Sample Output:</b><br />\n<br />\n0<br/><br />\n3<br/><br />\n1<br/><br />\n0<br/></br/></br/></br/></br/></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-03-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Instruo 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1364054400,
+        "end_date": 1364061600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1364061600,
+        "submit_start_date": 1364054400,
+        "current": 1537438381
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>sibashis</span>",
+    "problem_name": "The Sequence",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sibashis'>sibashis</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sibashis",
+    "contest_code": "INST2013",
+    "max_timelimit": "1",
+    "problem_code": "I13TS"
+}

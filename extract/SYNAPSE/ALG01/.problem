@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Dan Parker possesses a deck of N cards numbered 1...N and are arranged in random order. Danny decided to throw a challenge towards his friends and promised to give away 100$ as a prize money to the winner. At first, Dan shows the order in which the cards are arranged in the deck to all of his friends. The challenge is to come up with an algorithm that can help him select maximum number of cards from the deck if he is repeatedly allowed to pick a card until the deck is empty and provided that he can only choose the cards in either increasing or decreasing fashion based on the numbers on the cards. Make sure that being one of his friends, you get to be the winner.\n\n<h3>Input</h3>\n<p>1st line contains number of test cases.</p>\n<p>1st line of each test case will contain number of cards (N) in the deck.</p>\n<p>2nd line of each test case will contain N integers denoting the card numbers in the order in which they are kept. (the first element is at the top of the deck)</p>\n\n\n<h3>Output</h3>\n<p>Output the maximum number of cards that can be chosen.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n10\n3 2 6 7 4 1 9 10 8 5\n8\n8 2 1 6 4 7 5 3\n\n<b>Output:</b>\n5\n4\n</pre>\n\n\n<p> Explaination : For the first test case the cards which we can select are 2 6 7 9 10 and for second test case 8 6 5 3 or 8 7 5 3 </p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "DA-IICT - Algorythmus, Synapse",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298124000,
+        "end_date": 1298210400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298210400,
+        "submit_start_date": 1298124000,
+        "current": 1537439357
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>illume</span>",
+    "problem_name": "Cards",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/illume'>illume</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "illume",
+    "contest_code": "SYNAPSE",
+    "max_timelimit": "0.242424",
+    "problem_code": "ALG01"
+}

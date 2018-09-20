@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Tomek and his numerous friends are standing in a circle. They are all numbered with consecutive identifiers, from 1 to 1337 in the clockwise direction. Starting from person 1, who says \"1\", successive people read out successive positive integers. The starting direction is clockwise, and there is rule, that whenever integer is divisible by 7 or contains digit 7, the direction is reversed.</p>\n<p>So, the identifiers of the persons who read-out successive numbers, are: 1,2,3,4,5,6,7 (person 7 has just read \"7\" and reversed the direction),6,5,4,3,2,1,1337 (person 1337 has just read \"14\" and reversed the direction),1,2,3 (person 3 has just read \"17\" and reversed the direction),2,1,1337,1336, and so on. Tomek has his favorite number, and he wants to calculate where in the circle he should stand to read that number out loud. Even though he is skilled programmer, he is a bit little lazy and would like you to help him out.</p>\n<h3>Input</h3>\n<p>First, 1 &#8804; <var>t</var> &#8804; 1000, the number of test cases. Each test case is in a separate line, and contains a positive integer smaller than 10<sup>100</sup>, representing Tomek's favorite number.</p>\n<h3>Output</h3>\n<p>For each testcase, output one integer, the identifier which Tomek should choose in the circle to read his favorite integer loud.</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong>\n3\n10\n100\n1000\n\n<strong>Output:</strong>\n4\n2\n1311\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-07-2009",
+    "is_direct_submittable": false,
+    "contest_name": "September 2009 (Contest VIII)",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1251797400,
+        "end_date": 1252661400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1252661400,
+        "submit_start_date": 1251797400,
+        "current": 1537439911
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Se7en",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "SEP09",
+    "max_timelimit": "0.229545",
+    "problem_code": "F4"
+}

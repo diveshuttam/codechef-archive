@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Protection of the Delhi Girls from R**** became tough. Delhi govt decided to increase no. of checkpoints. However they need some information about the protection status and the distance between checkpoints. The protected length can be viewed as the real x-axis. Along the axis, Delhi police has N checkpoints for lookout. <br /><br /><br />\nWe know that each checkpoint is located at an integer location x<sub>i</sub>. Each checkpoint must have a fleet of armed men which are responsible for guarding the neighboring areas of the checkpoint and provide assistance of all kinds. The size of the fleet is based on the location of the checkpoint and how active the region is for criminal activities.<br />\n<br /><br /><br />\nGiven the number of armed men assigned at the i<sup>th</sup> checkpoint, as p<sub>i</sub>, this information is available for all checkpoints. <br /><br />\nWith the skills of the armed men, it is known that if for the i<sup>th</sup> checkpoint, the length on the x axis that they can defend is a closed interval [x<sub>i</sub>-p<sub>i</sub>, x<sub>i</sub>+p<sub>i</sub>].<br /><br /><br />\nNow, your task is to transport some guns from position S to the end position E on the x-axis.<br />\n<br /></p>\n<p><b>Input:</b><br /><br />\nFirst line of the input contains 3 integers N, S and E. N is the number of checkpoints that the delhi police has on the border.<br /><br />\nThen N lines follow. i<sup>th</sup> line contains 2 integers, x<sub>i</sub> and p<sub>i</sub>.<br /></p>\n<p><b>Output:</b><br /><br />\nPrint the total distance of the x-axis from S to E, that is not protected by the armed forces.</p>\n<p><b>Constraints:</b><br /><br />\n1 \u2264 N \u2264 10<sup>5</sup><br /><br />\n1 \u2264 x<sub>i</sub>, p<sub>i</sub> \u2264 10<sup>18</sup><br /><br />\nx<sub>i</sub> + p<sub>i</sub> \u2264 10<sup>18</sup><br /><br />\n1 \u2264 S \u2264 E \u2264 10<sup>18</sup><br /></p>\n<p><br /><br /><b>Sample Input:</b></p>\n<div class=\"less-margin\">\n<pre>5 229 8419\n1795 95\n4873 720\n3149 81\n6101 2325\n3674 629\n</pre></div>\n<div style=\"float:left\">\n<br /><br /><b> Sample Output:</b><br />\n<br />2626\n</div>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeERA",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426162761,
+        "end_date": 1426314600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426314600,
+        "submit_start_date": 1426162761,
+        "current": 1537436595
+    },
+    "problem_author_html_handle": "akhil62",
+    "problem_name": "HELP DELHI",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/akhil62'>akhil62</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "akhil62",
+    "contest_code": "CDER2015",
+    "max_timelimit": "1",
+    "problem_code": "HELPND"
+}

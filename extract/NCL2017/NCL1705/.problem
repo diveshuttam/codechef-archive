@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n<p>HBTU's Director tenure got over in 2016.He moved to the city of Pasadena where there are <b>N</b> banks and each bank is assigned with bank number. Due to demonetization, he decided to deposit money in parts in all the <b>N</b> banks. He starts from his house and goes to each bank in the city such that it takes minimum number of steps from his house to each bank. House is at index <b>0</b> and banks start from index <b>1</b> and go till index <b>N</b>.It takes <b>0</b> number of steps to reach bank indexed <b>1</b> from his house indexed <b>0</b>.<br/><br/>\nProfessor can either move to the next bank or can jump <b>K-1</b> banks, where <b>K</b> denotes the bank number of the current bank.\n Each forward move or jump will be counted as a <b>single</b> step. As Professor goes to each bank he deposits <b>X</b> amount of money where <b>X</b> denotes the minimum number of steps required to reach a particular bank from his house.\nAs Professor is old so he decided to write his will. He decided to give all of his money either to Ram or Shayam. So he proposed a game with the following conditions-<br/><br/>\nBoth the son move in alternating turns. During each move the current player can remove exactly one unit of money from any bank indexed <b>i</b> to any bank indexed <b>j</b> (if and only if<b> j < i</b>) or at his home. The game will end when all the money is at his home and nobody can make a move. The first player having no available move loses the game. Assuming that both the sons play the game optimally and Ram always starts the Game tell which son gets all the money.\t \n</p>\n<p> </p>\n\n\n<h3>Input</h3>\n<p>First line of the input contains an integer T denoting number of test cases. The description of T test cases follows. The first line of each test cases contains an integer N denoting the number of banks in the city and the second line contains <b>N</b> space separated integers B<sub>i</sub> denoting the bank number.</p>\n\n<h3>Output</h3>\n<p>For each test case output the <b>Name</b> of the son who will win when both of them will play optimally </p>\n\n<h3>Constraints</h3>\n<br/>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>2</b> \u2264 <b>N</b> \u2264 <b>100000</b></li>\n</ul>\n<p> </p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3\n1 2 3\n7\n1 3 5 1 1 1 1\n\n<b>Output:</b>\nRam\nShayam\n</pre>\n<p> </p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> </p>\nMinimum number of steps to reach each bank will be<br/>\n0 1 2<br/>\nThe same array will represent the money deposited by the professor in each bank.<br/>\nNow, if both the sons play optimally and Ram starts the Game, Ram will get all the money.<br/><br/>\n<p><b>Example case 2.</b> </p>\nMinimum number of steps to reach each bank will be<br/>\n0 1 2 3 2 3 4<br/>\nThe same array will represent the money deposited by the professor in each bank.<br/>\nNow, if both the sons play optimally and Ram starts the Game, Shayam will get all the money.\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-02-2017",
+    "is_direct_submittable": false,
+    "contest_name": "National Computing League",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1488382200,
+        "end_date": 1488393000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1488393000,
+        "submit_start_date": 1488382200,
+        "current": 1537434070
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>studyonline</span>",
+    "problem_name": "Father money and sons",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/studyonline'>studyonline</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "studyonline",
+    "contest_code": "NCL2017",
+    "max_timelimit": "1",
+    "problem_code": "NCL1705"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<h3>Problem description.</h3>\n<p>\nYou are a mathematics student living in Flatland.Unlike Earth, the people in Flatland still believe that their planet is a flat circle(2 Diemensional) and not a sphere as Earth is.<br />\nAlso, the only curve they are aware of is the Circle.They have zero knowledge about the existence of other curves like elliptical, straight line, etc.Everything on flatland is circle<br />\nbased.</p>\n<p>\nne fine day, you attend the birthday party of your friend Bill.You witness a large cake in front of you, circular in shape.The cakes are cut in circular shape and served to<br />\neveryone.However, the radii of the cake pieces is different.You find out that the first piece of the cake is reserved for the man of the hour,Bill, and that he gets a cake piece<br />\nof radius Rb for him.(Note that the circles with radii Rb fit well within the cake.).Bill, being mathematician himself,is smart and cuts the cake in such a way that it his portion<br />\ntouches the boundary of the cake(to make sure there are enough left for others too).The remaining cake is left in open for everyone to cut a piece of it and enjoy.\n</p>\n<p>\n\tIn Flatland,people show their wishes to the birthday boy by cutting a circular piece of the cake in such a way that their piece of cake and that of Bill makes a contact at<br />\ncircumference.Everyone, being greedy, tries to cut the largest possible circular piece for them.Also,everyone being in hurry, cut their piece of cake in the region where the<br />\nprevious guy took his cake from.\n</p>\n<p>\n\tIn short, your circular piece of cake should touch the circumference of Bill and your immediate predecessor.<br />\nYou find out that there are 'K' people in front of you.(Excluding the birthday boy).Given the radius of the cake, Rb, K calculate the largest radius you can get.\n</p>\n<p>\nNote:Bill gets the cake with largest radii for obvious reasons.Bill's best friend accompanies him and takes the largest piece available ahead of the K people waiting.\n</p>\n<h3>Input</h3>\n<p>Input description.</p>\n<ul>\n<li>The first line of input contains <b>T</b>, the number of testcases.Then <b>T</b>lines follow.Each line of the input consists of 3 space separated integers <b>Rc</b> <b>Rb</b> and <b>K</b>, indicating the radius of the cake, the radius of the piece your friend Bill, is about to get and the number of people before you.\n</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Output description.</p>\n<ul>\n<li>For each testcase, print <b>K</b> lines, where line <b>i</b> contains the largest radii ith person can get.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>Rb</b> \u2264 <b>Rc</b>\u2264<b>10000</b></li>\n<li><b>1</b> \u2264 <b>K </b>\u2264<b> 1000</b></li>\n</ul>\n<p>The answer will be accepted if the absolute or relative error of the answer should not exceed 10e-5.\n</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n4 2 2\n\n<b>Output:</b>\n1.333333\n0.666667\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ByteCode 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1456498800,
+        "end_date": 1456516800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1456516800,
+        "submit_start_date": 1456498800,
+        "current": 1537435321
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>bkarthikeyan28</span>",
+    "problem_name": "John and Circles",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bkarthikeyan28'>bkarthikeyan28</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bkarthikeyan28",
+    "contest_code": "BYCO2016",
+    "max_timelimit": "1",
+    "problem_code": "BYCD1601"
+}

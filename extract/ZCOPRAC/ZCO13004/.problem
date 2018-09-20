@@ -1,0 +1,31 @@
+{
+    "status": "success",
+    "problem_tester": null,
+    "body": "<h2>Zonal Computing Olympiad 2013, 10 Nov 2012</h2>\n\n<br>\n<p>Spaceman Spiff has crash landed on Planet Quorg. He has to reach his ship quickly. But the evil Yukbarfs have stolen many Death Ray Blasters and have placed them along the way. You'll have to help him out!</p>\n\n<br>\n<p>Spaceman Spiff is initially at the top left corner (1,1) of a rectangular <em>N \u00d7 M</em> grid . He needs to reach the bottom right corner <em>(N,M)</em>. He can only move down or right. He moves at the speed of 1 cell per second. He has to move every second\u2014that is, he cannot stop and wait at any cell.</p>\n\n<br>\n<p>There are <em>K</em> special cells that contain the Death Ray Blasters planted by the Yukbarfs. Each Blaster has a starting time <em>t</em> and a frequency <em>f</em>.  It first fires at time <em>t</em> seconds, followed by another round at time <em>t+f</em> seconds, then at time <em>t+2f</em> seconds \u2026.  When a Blaster fires, it simultaneously emits four pulses, one in each of the four directions: up, down, left and right.  The pulses travel at 1 cell per second.\n\n<br>\n<p>Suppose a blaster is located at <em>(x,y)</em> with starting time <em>t</em> and frequency <em>f</em>.  At time <em>t</em> seconds, it shoots its first set of pulses. The pulse travelling upwards will be at the cell <em>(x,y-s)</em> at time <em>t+s</em> seconds.  At this time, the pulse travelling left will be at cell <em>(x-s,y)</em>, the pulse travelling right will be at cell <em>(x+s,y)</em> and the pulse travelling down will be at cell <em>(x,y+s)</em>.  It will fire next at time <em>t+f</em> seconds.  If a pulse crosses an edge of the grid, it disappears. Pulses do not affect each other if they meet. They continue along their original path. At any time, if Spaceman Spiff and a pulse are in the same cell, he dies. That is the only way pulses interact with Spaceman Spiff. Given these, you should find the least time (in seconds) in which Spaceman Spiff can reach his ship safely.  </p>\n\n\n<br>\n<p> As an example consider a 4\u00d74 grid that has only one Blaster, at (3,2), with starting time 1 and frequency 3.  In the grids below, <tt>S</tt> denotes Spaceman Spiff, <tt>B</tt> denotes the blaster and <tt>P</tt> denotes a pulse.  The sequence of grids describes a successful attempt to reach his ship that takes 6 seconds.</p>\n\n<pre>\n   t=0                t=1                t=2                t=3  \nS  .  .  .         .  S  .  .         .  .  S  .         .  P  .  S\n.  .  .  .         .  .  .  .         .  P  .  .         .  .  .  .\n.  B  .  .         .  P  .  .         P  B  P  .         .  B  .  P\n.  .  .  .         .  .  .  .         .  P  .  .         .  .  .  .\n</pre>\n\n<br><br>\n\n<pre>\n   t=4                t=5                t=6\n.  .  .  .         .  .  .  .         .  P  .  .\n.  .  .  S         .  P  .  .         .  .  .  .\n.  P  .  .         P  B  P  S         .  B  .  P\n.  .  .  .         .  P  .  .         .  .  .  S\n</pre>\n\n<br>\n<h3>Input format</h3>\n\n<p>Line 1: Three space separated integers <em>N</em>, <em>M</em> and <em>K</em>, describing the number of rows and columns in the grid and the number of Blasters, respectively.</p>\n\n<br>\n<p>Lines 2 to <em>K</em>+1: These lines describe the <em>K</em> blasters.  Each line has four space separated integers. The first two integers on the line denote the row and column where the Blaster is located, the third integer is its starting time, and the fourth integer is its frequency.</p>\n\n<br>\n<h3>Output format</h3>\n<p> The first line of output must either consist of the word <tt>YES</tt>, if Spaceman Spiff can reach his ship safely, or the word <tt>NO</tt>, if he cannot do so. If the output on the first line is <tt>YES</tt> then the second line should contain a single integer giving the least time, in seconds, that it takes him to reach his ship safely.</p>\n\n<br>\n<h3>Sample Input 1</h3>\n\n<pre>\n4 4 1\n3 2 1 3\n</pre>\n\n<br>\n<h3>Sample Output 1</h3>\n<pre>\nYES\n6\n</pre>\n\n\n<br>\n<h3>Sample Input 2</h3>\n\n<pre>\n5 5 2\n5 1 1 2\n4 4 1 2\n</pre>\n\n<br>\n<h3>Sample Output 2</h3>\n<pre>\nYES\n8\n</pre>\n\n<br>\n<h3>Test data</h3>\n<p>In all subtasks, you may assume that:</p>\n  \n<ul>\n<li><p>2 \u2264 <em>N</em>,<em>M</em> \u2264 2500. </p>\n<li><p>All the frequencies are guaranteed to be integers between 1 and 3000, inclusive.</p>\n<li><p>All the starting times are guaranteed to be integers between 0 and 3000, inclusive.</p>\n<li><p>All the coordinates of the Blasters are guaranteed to be valid cells in the <em>N\u00d7M</em> grid. No two Blasters will be on the same cell.</p>\n</ul>\n\n<br>\n<ul>\n<li><b>Subtask 1 (30 marks)</b> : <em>K</em> = 1.</li>\n<li><b>Subtask 2 (70 marks)</b> : 1 \u2264 <em>K</em> \u2264 2500.</li>\n</ul>\n\n<br>\n<h3>Live evaluation data</h3>\n<ul>\n<li><b>Subtask 1</b>: Testcases 0,1.</li>\n<li><b>Subtask 2</b>: Testcases 2,3,4,5.</li>\n</ul>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-11-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ZCO Practice Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1446661800,
+        "end_date": 1578162600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1578162600,
+        "submit_start_date": 1446661800,
+        "current": 1537431958
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Save Spaceman Spiff",
+    "source_sizelimit": "50000",
+    "problem_status": "unattempted",
+    "problem_tester_html_handle": null,
+    "problem_author": "admin3",
+    "contest_code": "ZCOPRAC",
+    "max_timelimit": "1",
+    "problem_code": "ZCO13004"
+}

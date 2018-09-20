@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h2> Lazy Puzzle</h2>\n<p>Aashish was sitting in a park with Chirag. Aashish wanted to prove Chirag about his </p>\n<p>puzzle solving skills and asks Chirag to give him a puzzle.<br />\n Chirag being a lazy person gives Aashish a lazy puzzle to solve. He gives him a sequence of n digits and asks him </p>\n<p>to make a number from these digits with each of the digit d used exactly once and all of </p>\n<p>the digits in the sequence should be used. The number should be such that it should have the smallest number of </p>\n<p>factors among all the numbers which can be generated using these digits.</p>\n<p>Leading zeros can be skipped and should not be printed in the output.</p>\n<p>If there is a tie among the numbers then give the smallest number among them. Help </p>\n<p>Aashish solve the puzzle.</p>\n<h3>CONSTRAINTS : </h3>\n<ul>\n<li> 1&lt;=n&lt;=5 </li>\n<li> 0&lt;=d&lt;=9 </li>\n<li> There will be at least one non zero digit in the sequence </li>\n</ul>\n<h3>SAMPLE TESTS:</h3>\n<h5>INPUT1:<br />\n<h5>\n<p>\n\t2 4\n\t</p>\n<h5>OUTPUT1:</h5>\n<p>24</p>\n<p> Note for INPUT1: Among 24 and 42, 24 has the least number of factors(1,2,3,4,6,8,12,24).</p>\n<h5>INPUT2:<br />\n<h5>\n<p>\n\t0 5\n\t</p>\n<h5>OUTPUT2:</h5>\n<p>5</p>\n<h5>INPUT3:<br />\n<h5>\n<p>\n\t8 1\n\t</p>\n<h5>OUTPUT3:</h5>\n<p>81</p>\n<h5>INPUT4:<br />\n<h5>\n<p>\n\t1 1 2\n\t</p>\n<h5>OUTPUT4:</h5>\n<p>211</p>\n<p>Note for INPUT4:- Although digit 1 is repeated but since it occurs twice, so it </p>\n<p>should be used twice in the output</p>\n</h5></h5></h5></h5></h5></h5></h5></h5>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-03-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Coder 2014",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1395502200,
+        "end_date": 1395520200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1395520200,
+        "submit_start_date": 1395502200,
+        "current": 1537437669
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>arvchamp</span>",
+    "problem_name": "Lazy Puzzle",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/arvchamp'>arvchamp</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "arvchamp",
+    "contest_code": "CDR2014",
+    "max_timelimit": "2",
+    "problem_code": "COD07"
+}

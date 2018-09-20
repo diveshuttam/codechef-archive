@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>There are n players out of which atmost k players are chosen to form the team squad. Out of those players, some subset of them are selected to form a team, and a player of the selected team is appointed as the captain of the team. Given n and k, determine how many possible configurations exist. Two configurations differ if either the players in the team squad differ, or if the number of players in the team differ, or the players in the team differ, or if the captain differs.\n\n<p>For example,the possible configurations for n = 2 and k = 2 are :\n<p>1) Team squad : {1}, Team : {1}, Captain : 1\n<p>2) Team squad : {2}, Team : {2}, Captain : 2\n<p>3) Team squad : {1,2}, Team : {1}, Captain : 1\n<p>4) Team squad : {1,2}, Team : {2}, Captain : 2\n<p>5) Team squad : {1,2}, Team : {1,2}, Captain : 1\n<p>6) Team squad : {1,2}, Team : {1,2}, Captain : 2\n\n<h3>Input :</h3>\nThe first line contains T the number of test cases. Each of the next T lines contain 2 integers : n,k\n\n<h3>Output :</h3>\nOutput T lines, one for each test case, containing the required total number of configurations. Since the answers can get very big, output the answer modulo 8388608.\n\n<h3>Sample Input :</h3>\n<pre>3\n2 2\n7 1\n5 3\n</pre>\n<h3>Sample Output :</h3>\n<pre>6\n7\n165\n</pre>\n<h3>Constraints :</h3>\n<p>1 <= T <= 10000\n<p>1 <= k <= n <= 100000\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-12-2009",
+    "is_direct_submittable": false,
+    "contest_name": "Online Team Contest",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1264348800,
+        "end_date": 1264366800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180165,
+        "submit_start_date": 1264348800,
+        "current": 1537439787
+    },
+    "problem_author_html_handle": "fctrl",
+    "problem_name": "Selecting Teams",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/fctrl'>fctrl</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "fctrl",
+    "contest_code": "SNONLINE",
+    "max_timelimit": "0.995",
+    "problem_code": "SNON04"
+}

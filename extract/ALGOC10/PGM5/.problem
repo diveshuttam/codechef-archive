@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Write the shortest C function that takes a data type of length 8 bit as argument and returns a same type of same length with all the bits of the argument reversed, i.e. the ith bit of the result is the (w-i)th bit of the argument, where w is the width of the data  type in bits.\n\n<h3>Input</h3>\n</p><p>Arbitrary values of 8bit length (1 2 3 4\u2026)\n\n<h3>Output</h3>\n</p><p>Integer value of corresponding input value with all its bits reversed. \n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\nA\n\n<b>Output:</b>\n-126\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-02-2010",
+    "is_direct_submittable": false,
+    "contest_name": "CTRLF9 2010",
+    "languages_supported": "C, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1267677000,
+        "end_date": 1267684200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1267684200,
+        "submit_start_date": 1267677000,
+        "current": 1537439701
+    },
+    "problem_author_html_handle": "mariojuana",
+    "problem_name": "BitEasy",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/mariojuana'>mariojuana</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "mariojuana",
+    "contest_code": "ALGOC10",
+    "max_timelimit": "0.2",
+    "problem_code": "PGM5"
+}

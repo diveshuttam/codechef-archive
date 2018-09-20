@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n\n<p> Tejas has invited the Clash Team for a Dinner Party. He places <b>V</b> empty plates (numbered from 1 to V inclusive) in a straight line on a table. He has prepared 2 kinds of Delicious Dishes named dish <b>A</b> and dish <b>B</b>.\n<br>He has exactly <b>V</b> servings of Dish <b>A</b> and <b>W</b> servings of dish <b>B</b>. \n<br>Now he wants to serve the dishes in such a way that if the<b>i<sub>th</sub></b> plate has serving of Dish <b>A</b> then <b>(i-1)<sub>th</sub></b> plate should not have serving of Dish<b> B</b>. Assuming all the Dishes are identical find number of ways Tejas can serve the Clash Team.\n</p>\n\n\n<h3>Input</h3>\n\n<ul>\n\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases . The description of <b>T</b> testcases follow.\n</li>\n<li>The first line of each test case contains two space seperated integers <b>V W</b> .\n</li>\n</ul>\n<p> </p>\n\n<h3>Output</h3>\n<p>For each test case, output the number of ways Tejas can serve the Clash Team.<br>\n\n</p>\n<p></p>\n<p> </p>\n\n\n<h3>Constraints</h3>\n<p></p>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b>\n</li>\n<li><b>1</b> \u2264 <b>V</b> \u2264 <b>1000</b>\n</li>\n<li><b>1</b> \u2264 <b>W</b> \u2264 <b>1000</b>\n</li>\n\n</ul>\n\n<p> </p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<br>\n1<br>\n3 3 <br>\n\n\n<b>Output:</b>\n<br>4\n\n\n</pre>\n\n\n<p> </p>\n<h3>Explanation</h3>\n<p>\nIn the above example the 4 ways are:<br>\nAAA<br>\nAAB<br>\nABB<br>\nBBB<br>\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-09-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Clash Credenz 2018 Wildcard",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, PYP3, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1537111800,
+        "end_date": 1537122600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1537122600,
+        "submit_start_date": 1537111800,
+        "current": 1537431995
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>sagar_b</span>",
+    "problem_name": "Bon App\u00e9tit",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sagar_b'>sagar_b</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sagar_b",
+    "contest_code": "CCWC2018",
+    "max_timelimit": "1",
+    "problem_code": "BONAPP"
+}

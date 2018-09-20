@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nImagine a n-sided regular polygon. At each vertex of the polygon lies a particle 'x'. Now, in a hypothetical experiment, starting at time \n\n= 0s, each particle 'x' travels on the sides of polygon in clockwise manner with a constant speed. Therefore, a square with vertices A, \n\nB, C, D ( in clock-wise direction) , a particle 'x' starting at 'A' would move along side 'AB' and reach 'B', then travel along 'BC' and \n\nreach 'C' and so on.  \n</p>\n<p>\nEach particle has same properties except that they may or may not start with the same constant speed. Thus, a particle with a \n\nhigher speed would ultimately collide into the particle in front of it when going in clockwise manner. Collision of two or more particles \n\nat a given time instant results in a fusion, thus giving rise to a single particle with same properties except that its speed is the average \n\nof the speeds of the colliding particles. The experiment stops at time = t, when a stability point is reached i.e. when there is no \n\nchance of further fusion.\n</p>\n<p>\nNow given the total sides, length of the side of the regular polygon and speeds of different particles, you have to find 't' i.e. the time \n\ntaken to reach to the stability point and the final speed of the particle(s).\n</p>\n<p>\n<b>Notes</b><br />\n-\tIf the distance between two particles is less that 0.0000001 mts i.e. 1e-7 or 10 ^ -7, collision occurs.<br />\n-\tParticles follow the general kinematics rule( except for the collision rules stated above ).<br />\n-\tAssume there is no friction or air resistance.<br />\n-\tAssume that the time taken at edges and the time taken for fusion is negligible.<br />\n</p>\n<p>\n<b>Constraints</b><br />\n- \tAll calculations are to be done in meters and seconds.<br />\n-\tUse maximum precision wherever possible.<br />\n</p>\n\n<h3>Input</h3>\n<p>\n1. Number of test cases = 'T' ( 1 &lt;= T &lt;= 500 ).<br />\n2. For each test case, first line contains number of sides in regular polygon = 'D' ( 3 &lt;= D &lt;= 50 ).<br />\n3. Next line contains length of a side = 'L' ( integer ) ( 5 &lt;= L &lt;= 10000 ) in meters.<br />\n4. Next input contains speed of all D particles ( in clockwise direction, each speed on new line ) = 'S' ( integer ) ( 5 &lt;= S \n\n&lt;= 1000 ) in meters per second.<br />\n</p>\n\n<h3>Output</h3>\n<p>\n1. Each line of output contains total time 't' taken for the experiment to reach the stability point followed by a space and the final \n\nspeed of the particle(s). Give your answer up to 6 decimal places.\n</p>\n\n<h3>Example</h3>\n\n<pre><b>Input:</b>\n2\n\n4\n100\n500\n200\n300\n400\n\n3\n100\n200\n200\n200\n\n<b>Output:</b>\n3.000000\u00a0 350.000000\n0.000000\u00a0 200.000000\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Icoder 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1269162000,
+        "end_date": 1269181800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1269181800,
+        "submit_start_date": 1269162000,
+        "current": 1537439647
+    },
+    "problem_author_html_handle": "csirubix",
+    "problem_name": "Fusing Particles",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/csirubix'>csirubix</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "csirubix",
+    "contest_code": "ICODER10",
+    "max_timelimit": "1",
+    "problem_code": "ICODER2"
+}

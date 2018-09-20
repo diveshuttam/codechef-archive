@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\u00a0</p>\n<p>Pikachu has <b>N</b> number of PokeEggs with him.\nAs we already know ,every city in PokeLand has a Pokemon Center headed by a Nurse Joy.\n<b>M</b> of those nurses have arrived at Pikachu's house,to collect PokeEggs so that they can take care of them.\nSince Pikachu found those PokeEggs,he has been given the task of giving\nthe PokeEggs to the nurses in such a way that no nurse gets more than <b>C</b> PokeEggs.\nA nurse can get zero PokeEggs. Now Pikachu is wondering about the number of ways of giving the PokeEggs to the nurses.\nTwo ways are different if atleast one nurse receives different number of PokeEggs.\nSince Pikachu is very busy in preparing for the Pokemon League help him in finding the number of ways.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>The first line of input contains <b>T</b> denoting the number of test cases\nThe only line of input for each test case contains three space separated integers <b>N, M</b> and<b> C</b>.</p>\n\n\n<h3>Output</h3>\n<p>Output one integer per line per test case, since the number of ways can be pretty huge, output is <b>modulo 10<sup>9</sup>+7<b>.\n\n</p>\n\n\n<h3>Constraints</h3>\n<p></p>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>C</b> \u2264 <b>100</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n4 2 3\n\n<b>Output:</b>\n3\n</pre>\n<p>\u00a0</p>\n<h3></h3>\n<p><b></b></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-11-2016",
+    "is_direct_submittable": false,
+    "contest_name": "SIMPLEX",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1478361600,
+        "end_date": 1478372400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1789365724,
+        "submit_start_date": 1478361600,
+        "current": 1537434401
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>somesh1995</span>",
+    "problem_name": "PokeEggs",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/somesh1995'>somesh1995</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "somesh1995",
+    "contest_code": "SMPX2016",
+    "max_timelimit": "1",
+    "problem_code": "SMP161"
+}

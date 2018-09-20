@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><html>\n<body>\n<p>\nMario has stopped playing games and has started coding. While solving a few problems he realized <br>\nthat he is not good with strings and is stuck on a problem which he wants you to solve for him.<br>\nThe problem is as follows:<br> </p>\n\n<p>\nGiven a string S consisting of small English alphabets, your job is to find the longest <strong>\"weird\"</strong> sub-sequence. The subsequence is said to be <strong>\"weird\"</strong> if it consists of two characters in an alternating sequence.<br>\nFor Eg. \u201cxcxcxcxcx\u201d is a weird string of size 9. <br>\nPrint the size of the longest weird sub-sequence in the given string.<br>\n</p>\n\n<h3>Input:</h3>\n<p>\nFirst line contains an integer T denoting the number of test cases. <br>\nThe first line of every test case contains a string.\n</p>\n\n<h3>Output:</h3>\n\n<p>\nFor each test case output the size of the longest <strong>\"weird\"</strong> sub-sequence.\n</p>\n\n<h3>Constraints:</h3>\n\n<p>\t1 \u2264 T \u2264 10^2\t</p>\n<p>\t1 \u2264 |S| \u2264 10^3\t</p>\n\n<h3>Example:</h3>\n\n<h4>Input:</h4>\n<p>\n2</p>\n<p>acghjacdgsca</p>\n<p>aaaa</p>\n<h4>Output:</h4>\n\n<p>5</p>\n<p>0</p>\n\n\n<h3>Explanation:</h3>\n<p>\nCase 1: In the given string \"acaca\" is the longest weird subsequence.<br>\nCase 2: In the given string no weird sub-sequence exists.<br>\nNote: \"a\" and \"aa\" are not weird sequences.\n<p>\n\n\n\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-08-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Clash Credenz 2016 Wildcard Round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1471707000,
+        "end_date": 1471717800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1471717800,
+        "submit_start_date": 1471707000,
+        "current": 1537434670
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rohit1996</span>",
+    "problem_name": "Mario and Strings",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rohit1996'>rohit1996</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rohit1996",
+    "contest_code": "CCWR2016",
+    "max_timelimit": "1",
+    "problem_code": "CCWR05"
+}

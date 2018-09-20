@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> \nInput file : stdin<br />\nOutput file: stdout<br />\n\n</p>\n\n<p>Mim is a high school algebra teacher. Just last week, she taught her students how to evaluate an expression. For example, if<br />\n<pre>r = a &times; (b + c) &#8722; d &times; e<br /></pre></p>\n<p>Given the values of a, b, c, d and e, they can evaluate r.<br />\nNow, to test how well her students are able to do these arithmetic, she has to prepare some test. But, she do this every year, and each time she has to make same type of questions. That made her a little bored. She thinks that evaluating an expression only depends on the position of operators and variables, not the variables itself. For example in the expression above, for all possible values of a, b, c, d and e, they will all be equally hard to evaluate.</p>\n<p>She has made some generic expressions, and a set of values, which she may use in any order (e.g. one time she may use a = 2, b = 5, another time she may use a = 5, b = 2). Now, she wants to know, the number of possible ways to assign these values, so that, the value of the expression lies within a specified limit.</p>\n\n<h3>Input</h3>\n<p>First line contains T, the number of test cases.</p>\n<p>Each test case starts with three integers N(2 &#8804; N &#8804; 12), l, h (&#8722;1012 &#8804; l &#8804; h &#8804; 1012), the number of variables, lower limit and the upper limit of the acceptable expression values.</p>\n<p>Next line contains N integers ai(0 &#8804; ai &#8804; 9), the value of the variables she will be using in the exam.</p>\n<p>Next line contains the expression, where each variable is represented as &lsquo;x&rsquo;. The expression will be well formed, and will contain only the symbols &lsquo;+&rsquo;, &lsquo;-&rsquo;, &lsquo;*&rsquo;,&lsquo;(&rsquo;,&lsquo;)&rsquo; and &lsquo;x&rsquo;.</p>\n\n<h3>Output</h3>\n<p>For each test case, output the number of different assignments, that produce results within the limit [l, h].</p>\n<p>Note that, you will be replacing each &lsquo;x&rsquo; with a value aj(1 &#8804; j &#8804; N). Each aj have to be used exactly once. Two assignments are considered the same, if, after replacing all &lsquo;x&rsquo;, the expressions look the same.</p>\n\n<h3>Sample input and output</h3>\n\n<table>\n<tr>\n <td>stdin</td>\n  <td>stdout</td>\n</tr>\n<tr>\n  <td>3</td>\n  <td>4</td> \n</tr>\n<tr>\n  <td>3 1 10</td>\n  <td>4</td> \n</tr>\n<tr>\n  <td>1 2 5</td>\n  <td>0</td> \n</tr>\n<tr>\n  <td>x+x*x</td>\n  <td></td> \n</tr>\n<tr>\n  <td>4 1 10</td>\n  <td></td> \n</tr>\n<tr>\n  <td>1 2 2 5</td>\n  <td></td> \n</tr>\n<tr>\n  <td>(x+x)*(x-x)</td>\n  <td></td> \n</tr>\n<tr>\n  <td>4 1 100</td>\n  <td></td> \n</tr>\n<tr>\n  <td>1 1 1 1</td>\n  <td></td> \n</tr>\n<tr>\n  <td>x*(x-(x*x)</td>\n  <td></td> \n</tr>\n</table>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-10-2010",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Kanpur Site First Round Online Contest ",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1288429200,
+        "end_date": 1288440000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1288440000,
+        "submit_start_date": 1288429200,
+        "current": 1537439466
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Algebra Express",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "ACMKAN10",
+    "max_timelimit": "2.76431",
+    "problem_code": "ACMKANPE"
+}

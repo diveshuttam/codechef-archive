@@ -1,0 +1,127 @@
+{
+    "announcements": "All the users are requested not to HARD CODE the problems, any user found following such bad practices would be disqualified without prior notice and would not be entitled to claim any award \r\n<p>\r\n<sub>*For any queries please mail us at algothika[dot]algochallenge[at]gmail[dot]com</sub>\r\n\r\n<p><p>\r\n<h2>Updates</h2>\r\n<h3>\r\n<ul>\r\n<li><i>[2012-03-04 00:00:00 IST]</i> The contest is now open in all Languages as requested by the users. Code freely.</li>\r\n<li><i>[2012-03-04 23:59:00 IST]</i> The Solutions for <a href=\"http://www.codechef.com/AGTK2012/problems/ALG2N\">Powerful 2 (ALG2N) </a>  and The Solutions for <a href=\"http://www.codechef.com/AGTK2012/problems/ALGRIV\"> River! River! Take Me Home (ALGRIV)</a> has been be re-judged</li>\r\n<li>New problems have been added to ALGOTHIKA 2012 : <br/><a href=\"http://www.codechef.com/AGTK2012/problems/ALGBBQ\">Barbeque sticks (SET II)</a> and <a href=\"http://www.codechef.com/AGTK2012/problems/ALGHLY\">HAPPY HOLI (SET II)</a>\r\n</li>\r\n<li><i>[2012-03-16 15:52:10 IST]</i>New TIE-BREAKER problems have been added to ALGOTHIKA 2012 : <br/><a href=\"http://www.codechef.com/AGTK2012/problems/ALGBON\">Grandson of Bonacci(TIEBREAKER)</a> \r\n</li>\r\n</ul>\r\n</h3>\r\n",
+    "ip": "149.129.135.113",
+    "code": "AGTK2012",
+    "duration": "19740",
+    "name": "ALGOTHIKA 2012",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p> <p><b>The Contest has ended!</b></p> <p><b>All problems have been added to the practice section.</b></p> <p><b> </b></p> <p><b>Solutions are public for all problems.</b></p> <p><b>The rankings can be viewed\u00a0<a href=\"/rankings/AGTK2012\">here</a>.</b></p> </p> <p><b>Rules and Regulations:</b></p> <p>1. All problems will be posted on Saturday, 3rd March 2012 at 1700 hours - Indian Standard Time (GMT +5:30) and the competition closes on Saturday, 17th March 2012 at 1000 hours IST.</p> <p>2. It will be open for all STUDENTS, no professional will be allowed.</p> <p>3. The contest is for individuals. No teams are allowed.</p> <p>4.\u00a0\u00a0There is no restriction on the programming language to be used. Almost all languages are supported by Codechef.</p> <p>\u00a0</p> <p><b>Judging Criteria:</b></p> <p>1. You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</p> <p>2. Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</p> <p>3. The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</p> <p>4. Any participant found to be indulging in any form of malpractice will be immediately disqualified.</p> <p>5. The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/AGTK2012/1424957645.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "ALGHLY": {
+            "allow_submission": false,
+            "name": "HAPPY HOLI (SET II)",
+            "category_name": "main",
+            "accuracy": 34.5,
+            "successful_submissions": "56",
+            "code": "ALGHLY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ALGPRX": {
+            "allow_submission": false,
+            "name": "PrimePlusPlus",
+            "category_name": "main",
+            "accuracy": 10.24,
+            "successful_submissions": "165",
+            "code": "ALGPRX",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ALGFACT": {
+            "allow_submission": false,
+            "name": "Factorial Pizza",
+            "category_name": "main",
+            "accuracy": 38.53,
+            "successful_submissions": "408",
+            "code": "ALGFACT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ALGRIV": {
+            "allow_submission": false,
+            "name": "River! River! Take Me Home",
+            "category_name": "main",
+            "accuracy": 31.29,
+            "successful_submissions": "86",
+            "code": "ALGRIV",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ALGBON": {
+            "allow_submission": false,
+            "name": "Grand son of Bonacci (TIEBREAKER)",
+            "category_name": "main",
+            "accuracy": 42.86,
+            "successful_submissions": "6",
+            "code": "ALGBON",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ALG2N": {
+            "allow_submission": false,
+            "name": "The powerful 2",
+            "category_name": "main",
+            "accuracy": 34.35,
+            "successful_submissions": "338",
+            "code": "ALG2N",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ALGPAN": {
+            "allow_submission": false,
+            "name": "Chef at GYM",
+            "category_name": "main",
+            "accuracy": 38.78,
+            "successful_submissions": "54",
+            "code": "ALGPAN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ALGBBQ": {
+            "allow_submission": false,
+            "name": "Barbeque sticks (SET II)",
+            "category_name": "main",
+            "accuracy": 13.49,
+            "successful_submissions": "26",
+            "code": "ALGBBQ",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ALGINT": {
+            "allow_submission": false,
+            "name": "Save The Planet",
+            "category_name": "main",
+            "accuracy": 34.17,
+            "successful_submissions": "119",
+            "code": "ALGINT",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1331958600,
+        "current": 1537438865,
+        "freezing": 0,
+        "start": 1330774200
+    },
+    "user": {
+        "username": ""
+    }
+}

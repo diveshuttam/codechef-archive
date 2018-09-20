@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nDr Doom, master of Destruction, is conducting research on extraterrestrial psychosomatic cells, the results of which he plans to use in creating an extraterrestrial-human hybrid clone army.\nHe has found that the extraterrestrial psychosomatic cell is composed of two kind of fluids: xenoplasm and hominoplasm.\nAfter further studies and constant interruption by sundry superheroes trying in vain to stop his destructive juggernaut, he discovers that for a living cell, hominoplasm is always found within the xenoplasm and when a cell dies, the hominoplasm oozes out of the xenoplasm.\nXenoplasm can be identified by the presence of \"a\" granules and hominoplasm by \"b\" granules.\nDr Doom, unable to find time for his favourite pastime of snapping superhero limbs, soon gets bored of manually checking if the cell is dead or alive.\nHe wants to automate the process.\nFortunately for him (and unfortunately for Atomigirl, his latest captive) he has a very powerful false colour electron-scanning microscope using which he can find the co-ordinates of  \"a\" granules and \"b\" granules.\nYou are Master Mayhem, Doctor Doom's faithful sidekick.\nOut of a deep-seated hatred of the world stemming from being constantly picked upon and bullied from kindergarten to grad school, you must help Dr Doom to identify living and dead cells and get that much closer to the attack of the alien-hybrid clones!\n\n<h3>Input</h3>\n</p><p>\nFirst line gives <i>t</i> , the number of testcases ( t \u2264 20). Then t test cases follow.<br />\n\nFor each testcase:<br />\nThe first line gives two integers <i>n</i> and <i>k</i>, (3 \u2264 <i>n</i> \u2264 10<sup>6</sup> , 3 \u2264 <i>k</i> \u2264 10<sup>6</sup>)\nwhere <i>n</i> is the number of granules of type \"a\" \nand <i>k</i> is the number of granules of type \"b\".<br />\n\nThe next n lines give 2  integers <i>x y</i> each, where <i>x</i> and <i>y</i> are the coordinates of granules  \"a\".<br />\nNext k lines give the coordinates of granules \"b\" (like for granules a).<br />\n(-3000 \u2264 <i>x</i> \u2264 3000 and -3000 \u2264 <i>y</i> \u2264 3000)\n\n<h3>Output</h3>\n</p><p>\nFor each test case output a single line. <br />\n\"Yes\" if the cell is a living cell\nand output \"No\" if the cell is dead.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n3 3\n0 0\n4 0\n0 4\n1 0\n3 0\n1 3\n\n<b>Output:</b>\nYes\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-10-2009",
+    "is_direct_submittable": false,
+    "contest_name": "Inscription 2009",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1256461200,
+        "end_date": 1256479200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180156,
+        "submit_start_date": 1256461200,
+        "current": 1537439889
+    },
+    "problem_author_html_handle": "fctrl",
+    "problem_name": "ALIEN CELL",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/fctrl'>fctrl</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "fctrl",
+    "contest_code": "INS09",
+    "max_timelimit": "0.391402",
+    "problem_code": "INS0901"
+}

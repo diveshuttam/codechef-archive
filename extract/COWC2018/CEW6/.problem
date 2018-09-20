@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n<p>Problem description.</p>\n<p> Linkin Park had a problem in their music system which generated <b>2</b> rhythms of only <b>1</b>s and <b>0</b>s.\nBut multiplying those 2 rhythms wasn\u2019t that melodious!\nSo they challenged people to make this rhythm more melodious and the person who does this will become the lead Rockstar for their band.\n\n<p>Nilakshi dreams to be a Rockstar one day. So, she decides to solve this.\nShe figures out that by accepting only <b>1</b>s of both rhythms and multiplying those rhythms give the most mathematical melodious rhythm ever made.\n<p>But, Nilakshi has problem multiplying these rhythm.Help her do the same.\n\n<h3>Input Format :</h3>\n\n<ul>\n\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases \n</li>\n<li>Next T lines contain <b>2</b> space separated rhythms consisting of only <b>1</b>s and <b>0</b>s\n</li>\n<p></p>\n<h3>Constraints :</h3>\n<p></p>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b>\n</li>\n<li><b>1</b> \u2264 <b>Length of the rhythm</b> \u2264 <b>10<sup>5</sup></b>\n</li>\n\n</ul>\n<p> </p>\n\n\n</ul>\n<p> </p>\n\n<h3>Output Format : </h3>\n<br>For each test case, output a single line containing the final rhythm<br>\n<p> </p>\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n<br>2<br>\n010 101<br>\n11 11<br>\n\n<b>Output:</b>\n<br>11<br>\n121<br>\n\n</pre>\n\n\n<p> </p>\n<h3>Explanation</h3>\nIn the first testcase, excluding 0s, rhythms formed will be 1 and 11. After multiplying those rhythms we get the final rhythm which is 11.\n</p>\n\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Codexact Wildcard",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1534347000,
+        "end_date": 1534356000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1534356000,
+        "submit_start_date": 1534347000,
+        "current": 1537432108
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>vector_99</span>",
+    "problem_name": "Nilakshi The Rockstar",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vector_99'>vector_99</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vector_99",
+    "contest_code": "COWC2018",
+    "max_timelimit": "1",
+    "problem_code": "CEW6"
+}

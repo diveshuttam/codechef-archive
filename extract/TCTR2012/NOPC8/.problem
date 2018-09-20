@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>It is known that space exploration is very expensive. Human has never steeped foot to another planet other than moon. But with the help of &ldquo;Autobots&rdquo; they are designing an aircraft which would take them to the planet-&ldquo; Cybertron&rdquo;- the planet of Autobots. But they are facing problem in payload which can be placed on aircraft. They can take only limited resources because they each resource posses some weight which adds up to the weight of permissible payload. However the resources are to be taken on the basis of cost and the permissible weight. So, they need to make a choice by selecting the product by its cost. They must also carry as much load as permitted by payload.\nGiven a set S of n resources such that each item i has a positive cost ci and a positive weight wi and we have to find the maximum benefit subset that does not exceed the given weight W.  It is allowed to break resources into fractions arbitrary. The whole process is done so as to maximize the cost level of the total payload.\nTotal cost of the selected payload should be calculated.\n\n<h3>Input</h3>\n<p>First line contains the total number of resources. Second line of input contains the maximum permissible load (payload) of the spacecraft. Next line contains the weight of 1st item followed by the cost of that resource. Similarly, the next consecutive lines will contain the weight and cost depending upon the number of resources entered.\n<h3>Output</h3>\n<p>It should contain the total cost of the selected items. This is calculated by adding the products of the selected weights and the unit costs respectively of the resource. The output should be set to 6 digit of precision float type. \n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n5\n1 2\n2 3\n4 1\n\n<b>Output:</b>\n5.500000\n<b>Input:</b>\n4\n8\n3 8\n4 7\n2 4\n2 3\n<b>Output:</b>\n17.250000\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "TechTrishna 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1331706600,
+        "end_date": 1331760600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1331760600,
+        "submit_start_date": 1331706600,
+        "current": 1537438886
+    },
+    "problem_author_html_handle": "bestankur007",
+    "problem_name": "Payload for spacecraft",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bestankur007'>bestankur007</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bestankur007",
+    "contest_code": "TCTR2012",
+    "max_timelimit": "0.2",
+    "problem_code": "NOPC8"
+}

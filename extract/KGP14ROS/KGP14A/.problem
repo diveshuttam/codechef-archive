@@ -1,0 +1,33 @@
+{
+    "problem_code": "KGP14A",
+    "problem_author": "admin3",
+    "contest_name": "ACM-ICPC Asia-Kharagpur Onsite Contest 2014, Replay",
+    "todo": false,
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Drawing Contest",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "KGP14ROS",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ad-hoc'>ad-hoc</a>, <a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>, <a class='problem-tag-small ' href='/tags/problems/cakewalk'>cakewalk</a>, <a class='problem-tag-small ' href='/tags/problems/kgp14ros'>kgp14ros</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Liliputs are holding a drawing competition for K kids, but with K human-sized pencils stolen from humans. In order to make life easier for the kids, the organizers want to give a pencil to each kid in a way such that the sum of the absolute differences of the height of a kid and the length of the pencil assigned to him/her is minimized. What is the minimum sum of absolute differences that can be achieved?<p>\n\n<h3>Input</h3>\n<p>The first line contains the number of test cases <b>N (0 < N \u2264 3)</b>. </p>\n\n<p>For each test case, the first line contains the number of kids and pencils K (0 < K \u2264 100). The second line contains K positive integers, each containing the height in millimeter of a kid. The third line contains K positive integers, each containing the length in millimeter of a pencil.</p>\n\n<h3>Output</h3>\n\n<p>For each test case, print the case number, followed by a colon, followed by a single space, followed by a single integer indicating the minimum sum of absolute differences achieved (in millimeter).</p>\n\n<h3>Sample Input</h3>\n<pre>\n2\n5\n51 60 51 72 70 \n65 60 88 72 88 \n4 \n123 234 188 175 \n219 334 122 233\n</pre>\n\n\n<h3>Sample Output</h3>\n<pre>\nCase 1: 69 \nCase 2: 190\n</pre>",
+    "category_name": "main",
+    "date_added": "12-12-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/KGP14A",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1419424200,
+        "end_date": 1419442200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1419442200,
+        "submit_start_date": 1419424200,
+        "current": 1537437046
+    },
+    "user": {
+        "username": ""
+    }
+}

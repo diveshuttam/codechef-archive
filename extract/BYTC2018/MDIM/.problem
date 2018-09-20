@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Matt Damon wants to escape Mars!! Desperately!!<br><br>\nWhile he was collecting an award for his performance in \"The Martian\", Matt Damon found himself teleported all of a sudden to Mars. And now he has no means to get back to earth. <br><br>\nHowever, Matt Damon has a unique Force Tree to help him with  his esacpe attempts. A force tree has the following properties:<br>\n  - It's a tree where each vertex is numbered from 1 to n and vertex 1 always denotes the root. Each edge has a length of 1, so a node has a distance of 1 from its parent, a distance of  2 from its grandparent, and so on.<br>\n  - Some vertex, v , can be turned on, which results in all vertices (including v) of the subtree rooted at v beginning to attract the tree's other vertices. The attractive forces exerted on some vertex , u , is equal to the summation of squared distances between vertex u and all vertices that are currently switched on (i.e., all nodes in the subtree rooted at v ). <br>For example, if two nodes are switched on that have distances of  1 and 2 from node u, then the forces exerted on u would be 1*1 + 2*2 =5.<br><br>\nMatt wants to test the tree by carrying out a series of experiments on pairs of vertices, u and v. In each experiment, he turns on vertex v and measures the forces acting on vertex  u before immediately turning v back off. To avoid undesirable consequences, he wants to know the value of this attractive forces in advance.<br><br>\nGiven the definition of his force tree and  q experiments, print the value of the attractive forces between vertices u and v for each experiment on a new line. Note that each experiment is independent and no experiment will affect the subsequent experiments.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>The first line contains a single integer n, denoting the number of vertices in the tree.<br>\nThe second line contains n-1 space-separated integers where k<sup>th</sup> the integer denotes the parent vertex of vertex k+1. <br>\nThe next line contains an integer q, denoting the number of experiments he plans to perform.<br>\nEach of the q subsequent lines contains two space-separated integers denoting the respective values of u and v for an experiment. \n</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>On a new line for each experiment, print a single integer denoting the expected value of the forces acting on vertex u from all the nodes in the subtree rooted at vertex v.</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>n, q</b> \u2264 <b>10^5</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n5\n1 2 2 4\n2\n2 1\n1 4\n\n<b>Output:</b>\n7\n13\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>Let d<sub>i,u</sub> be the shortest distance from some vertex i to vertex u, where i is a turned on vertex in the subtree rooted at v. Matt will perform the following q=2 experiments:\n<ol>\n   <li>Turn on vertex 1 and measure the forces acting on vertex 2. When vertex 1 is on, all the vertices in the tree (i.e., 1, 2, 3, 4 and 5) generate attractive forces. We then calculate the forces acting on vertex 2 as:<br>\n(d<sub>1,2</sub>)<sup>2</sup> + (d<sub>2,2</sub>)<sup>2</sup> + (d<sub>3,2</sub>)<sup>2</sup> + (d<sub>4,2</sub>)<sup>2</sup> + (d<sub>5,2</sub>)<sup>2</sup> = 1<sup>2</sup> + 0<sup>2</sup> + 1<sup>2</sup> + 1<sup>2</sup> + 2<sup>2</sup> = 7<br>\n    Thus, we print 7 on a new line.</li>\n   <li>Turn on vertex 4 and measure the forces acting on vertex 1. When vertex 4 is on, the vertices in the subtree rooted at 4 (i.e., 4 and 5) generate attractive forces. We then calculate the forces acting on vertex 1 as:<br>\n     (d<sub>4,1</sub>)<sup>2</sup> + (d<sub>5,1</sub>)<sup>2</sup> = 2<sup>2</sup> + 3<sup>2</sup> = 13\n    Thus, we print 13 on a new line.</li>\n</ol>\n </p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-02-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Bytecode 2018",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1519486200,
+        "end_date": 1519504200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1519504200,
+        "submit_start_date": 1519486200,
+        "current": 1537432927
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>rohith_balaji</span>",
+    "problem_name": "Matt Damon in Mars",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rohith_balaji'>rohith_balaji</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rohith_balaji",
+    "contest_code": "BYTC2018",
+    "max_timelimit": "1",
+    "problem_code": "MDIM"
+}

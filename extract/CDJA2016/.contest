@@ -1,0 +1,132 @@
+{
+    "announcements": "Due to a very large number of requests the contest has been extended by 1 hr.It will now end at 00:00:00 AM IST.",
+    "ip": "149.129.135.113",
+    "code": "CDJA2016",
+    "duration": "360",
+    "name": "Codejam",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "CJ01": [
+            {
+                "score": "20",
+                "count": "119"
+            },
+            {
+                "score": "100",
+                "count": "142"
+            }
+        ],
+        "IN01": [
+            {
+                "score": "5",
+                "count": "21"
+            },
+            {
+                "score": "15",
+                "count": "48"
+            },
+            {
+                "score": "100",
+                "count": "57"
+            }
+        ],
+        "BST01": [
+            {
+                "score": "5",
+                "count": "5"
+            },
+            {
+                "score": "100",
+                "count": "22"
+            }
+        ]
+    },
+    "rules": " <p><strong class=\"rules-heading\">About the Contest:</strong></p> <div class=\"rules-body\"> <ul class=\"\"> <li><strong>Organiser: </strong> The contest is hosted by the students Salik,Raghav Kapoor and Rohit Jain of NSIT,Delhi.</li> <li><strong>Prizes: Exciting Prizes for top 3 winners !!</strong></li> <li><strong>Registrations for prizes: </strong>NA</li> </ul> </div> <p><strong class=\"rules-heading\">Contest Details:</strong></p> <div class=\"rules-body\"> <ul class=\"\"> <li><strong>Duration: 5 hours</strong></li> <li><strong>Start time: </strong>10th Aug 2016, 1800 hrs IST</li> <li><strong>End time: </strong>10th Aug 2016, 2300 hrs IST<br />You may check your timezone <a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+CDJA2016&amp;iso=20160810T20&amp;p1=44&amp;ah=3\">here</a>.</li> </ul> </div> <p><strong class=\"rules-heading\">Registration:</strong></p> <div class=\"rules-body\"> <p>You just need to have a CodeChef username to participate. No seperate registration is required. If you do not have a CodeChef ID create one <a target=\"_blank\" href=\"/user/register\"> here</a>.</p> </div> <p><br /> <strong class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</strong></p> <div class=\"rules-body\"> <p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct.</a></p> </div> <p><br /> <strong class=\"rules-heading\">Rules and Regulations:</strong></p> <ul class=\"\"> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\"> feedback@codechef.com </a>.</li> <li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li> <li>Please contact <a target=\"_blank\" href=\"mailto:raghavkapoor16@hotmail.com\">raghavkapoor16@hotmail.com</a> for any queries during the contest.</li> </ul> <p><strong class=\"rules-heading\">Judging Criteria:</strong></p> <ul class=\"\"> <li><strong>All the problems will be partially graded and you will get score for passing certain test data . You will receive hundred (100) point for solving a problem (passing all test cases).</strong></li> <li><strong>The details of the failed test cases will also be visible on your solution page.</strong></li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> </ul> <div class=\"\"><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a target=\"_blank\" href=\"/ide\">Online IDE</a>.</strong><br />However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/sites/default/files/uploads/landing_page_banners/banner-compete.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CJ01": {
+            "allow_submission": false,
+            "name": "Dancing pokemons",
+            "category_name": "main",
+            "accuracy": 11.12,
+            "successful_submissions": "142",
+            "code": "CJ01",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "IN01": {
+            "allow_submission": false,
+            "name": "Intelligent Pairs",
+            "category_name": "main",
+            "accuracy": 9.82,
+            "successful_submissions": "57",
+            "code": "IN01",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "MRXCHOC": {
+            "allow_submission": false,
+            "name": "MrX and the chocolates",
+            "category_name": "main",
+            "accuracy": 10.42,
+            "successful_submissions": "4",
+            "code": "MRXCHOC",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "KM01": {
+            "allow_submission": false,
+            "name": "Kaps and his wife",
+            "category_name": "main",
+            "accuracy": 20.69,
+            "successful_submissions": "71",
+            "code": "KM01",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "RC01": {
+            "allow_submission": false,
+            "name": "The romantic couple",
+            "category_name": "main",
+            "accuracy": 13.55,
+            "successful_submissions": "21",
+            "code": "RC01",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BST01": {
+            "allow_submission": false,
+            "name": "Best Friends",
+            "category_name": "main",
+            "accuracy": 30.38,
+            "successful_submissions": "22",
+            "code": "BST01",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1470853800,
+        "current": 1537434686,
+        "freezing": 0,
+        "start": 1470832200
+    },
+    "user": {
+        "username": ""
+    }
+}

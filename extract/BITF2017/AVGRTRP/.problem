@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p><b><h2>Problem description</h2></b></p>\n<p>Argo-natia is a linear, street-like Illusion land of traps set up by Stoneman for Captain America. By linear, we mean all the cages in the street-like Illusion land are placed on a single straight line i.e. the x-axis. Thus every cage\u2019s position can be defined by a single coordinate, the distance from the left borderline of the street like structure. All cages can be treated as single points.<br><br>\nWhen Captain America comes to know that the Avengers have been lured into these traps, he decides to help them. When he comes to Argo-natia , he realizes that all of them are not trapped in the same cage but are randomly distributed. He gets very sad as he could think of no plan at that moment and he is running out of time. Seeing his misery, Stoneman\u2019s stone heart melts and he informs him that he knew that he would not be able to help them all. So to be fair, he devised a system of networking between each of the cages. But, because his brain has turned into a stone, he wasn\u2019t able to remember any concept of networking or any of its model. So he made a new concept in which if Ki avengers are trapped in cage i, then there should be atleast Ki cables from cage i to every other cage of the Illusion land.<br><br>\nSo, now  Captain America needs to find out how much cable he needs to get all the avengers in different cages connected, given the no. of avengers in each cage.The connection between the cages can be shared. Once he get them all connected they can together fight the Stoneman and save themselves. \n</p>\n\n<hr/>\n<h3>Input</h3>\n<p>A number T is given in the first line and then comes T blocks, each representing a scenario.\nEach scenario consists of three lines. The first line indicates the number of cages (N). The second line indicates the coordinates of the N cages. The third line contains the no of avengers in each of the cages. The cages needn't be in increasing order in the input.\n</p>\n<hr/>\n\n<h3>Output</h3>\n<p>For each scenario of the input, write the length of cable needed in a single line modulo 1,000,000,007.</p>\n<hr/>\n<h3>Constraints</h3>\n<p>1<=<b>T</b><=20<br>\n1<=<b>N</b><=20,000<br>\n<b>K<sub>i</sub></b><=10,000<br>\nBorder to border length of the cages<=1000,000,000\n</p>\n<hr/>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2  \n3  \n1 3 6  \n10 20 30  \n5  \n5 55 555 55555 555555  \n3333 333 333 33 35\n\n\n<b>Output:</b>\n280  \n463055586\n\n<p>\u00a0</p>\n<hr/>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b>For the first test case, having 3 cages requires 3 sets of cable connections.\nBetween cage 1 and 2, which has a population of 10 and 20, respectively Captain America\n realizes that at least 10 cables should come out of city 1 for this connection,\n and at least 20 cables should come out of city 2 for this connection.<br>\nThus, the connection between city 1 and city 2 will require 20 cables, \neach crossing a distance of 3-1=2 km. \nApplying this funny logic to connection 2,3 and 1,3, we have\n[1,2]=> 20 connections* 2 km=40 km of cable.\n[2,3]=> 30 connections*3 km=90 km of cable.\n[1,3]=>50 connections*3 km=150km  of cable.\nFor a total of  280 , Output is 280 km of cable.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-12-2017",
+    "is_direct_submittable": false,
+    "contest_name": "BITFLIT v.02",
+    "languages_supported": "C, CPP14, JAVA, CS2, PAS fpc, PAS gpc, GO, NODEJS, HASK, D, PERL, FORT, ADA, CAML, ICK, BF, ASM, CLPS, ICON, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, JS, ERL, kotlin, PERL6, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1514385000,
+        "end_date": 1514397600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1514397600,
+        "submit_start_date": 1514385000,
+        "current": 1537433261
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>vidhika_30</span>",
+    "problem_name": "Avengers Trapped",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vidhika_30'>vidhika_30</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vidhika_30",
+    "contest_code": "BITF2017",
+    "max_timelimit": "1",
+    "problem_code": "AVGRTRP"
+}

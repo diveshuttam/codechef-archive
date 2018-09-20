@@ -1,0 +1,157 @@
+{
+    "announcements": "<p><b>28/05/2012, 20:50 PM</b> : The rankings can be viewed <a target=\"_blank\" href=\"/rankings/ADR2012/\">here</a>.</p>",
+    "ip": "149.129.135.113",
+    "code": "ADR2012",
+    "duration": "2880",
+    "name": "Android Hack Camp v.02",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p>\u00a0</p> <p><b>The Contest has ended!</b></p> <p><b>Solutions are public for all problems.</b></p> <p>\u00a0</p> <p><b>Rules and Regulations:</b></p> <p>1. All problems will be posted on Monday, 28th May2012 at 2000 hours - Indian Standard Time (GMT +530) and the competition closes on Wednesday, 30th May 2012 at 2000 hours IST. Check your\u00a0<a target=\"_blank\" href=\"http://timeanddate.com/worldclock/fixedtime.html?msg=Android+Hack+Camp+v.02&amp;iso=20120528T20&amp;p1=44\">timezone</a>.</p> <p>2. It will be open for all STUDENTS, no professional will be allowed.</p> <p>3. The contest is for individuals. No teams are allowed.</p> <p><span>4.\u00a0There is no restriction on the programming language to be used. Almost all languages are supported by Codechef.</span></p> <p><br /><b>Judging Criteria:</b></p> <p>1. You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</p> <p>2. Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</p> <p>3. The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</p> <p>4. Any participant found to be indulging in any form of malpractice will be immediately disqualified.</p> <p>5. The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/ADR2012/1424957670.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "A106": {
+            "allow_submission": false,
+            "name": "Airstrike",
+            "category_name": "main",
+            "accuracy": 1.46,
+            "successful_submissions": "3",
+            "code": "A106",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "A108": {
+            "allow_submission": false,
+            "name": "The Mad Calulation",
+            "category_name": "main",
+            "accuracy": 5.96,
+            "successful_submissions": "11",
+            "code": "A108",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "A103": {
+            "allow_submission": false,
+            "name": "The D Problem",
+            "category_name": "main",
+            "accuracy": 58.24,
+            "successful_submissions": "36",
+            "code": "A103",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "A112": {
+            "allow_submission": false,
+            "name": "Simple problem",
+            "category_name": "main",
+            "accuracy": 60.2,
+            "successful_submissions": "233",
+            "code": "A112",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "A109": {
+            "allow_submission": false,
+            "name": "Pin Latin",
+            "category_name": "main",
+            "accuracy": 29.13,
+            "successful_submissions": "99",
+            "code": "A109",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "A111": {
+            "allow_submission": false,
+            "name": "Decoder",
+            "category_name": "main",
+            "accuracy": 14.23,
+            "successful_submissions": "37",
+            "code": "A111",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "A104": {
+            "allow_submission": false,
+            "name": "The Lazy Bones",
+            "category_name": "main",
+            "accuracy": 13.46,
+            "successful_submissions": "11",
+            "code": "A104",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "A102": {
+            "allow_submission": false,
+            "name": "Basic Divison",
+            "category_name": "main",
+            "accuracy": 61.4,
+            "successful_submissions": "129",
+            "code": "A102",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "A105": {
+            "allow_submission": false,
+            "name": "The Parallel Art",
+            "category_name": "main",
+            "accuracy": 45.53,
+            "successful_submissions": "159",
+            "code": "A105",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "A107": {
+            "allow_submission": false,
+            "name": "Family Tree",
+            "category_name": "main",
+            "accuracy": 69.52,
+            "successful_submissions": "67",
+            "code": "A107",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "A101": {
+            "allow_submission": false,
+            "name": "Jinga-La-La",
+            "category_name": "main",
+            "accuracy": 26.22,
+            "successful_submissions": "70",
+            "code": "A101",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "A110": {
+            "allow_submission": false,
+            "name": "Voting",
+            "category_name": "main",
+            "accuracy": 61.09,
+            "successful_submissions": "179",
+            "code": "A110",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1338388200,
+        "current": 1537438784,
+        "freezing": 0,
+        "start": 1338215400
+    },
+    "user": {
+        "username": ""
+    }
+}

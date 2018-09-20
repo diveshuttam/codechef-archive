@@ -1,0 +1,130 @@
+{
+    "announcements": "<div style=\"font-size: 13px;\"><b>The June LunchTime 2015 has ended!</b></div>\r\n<div style=\"font-size: 13px;\"><b>The editorials for the contest can be found\u00a0<a href=\"http://discuss.codechef.com/tags/ltime25\" target=\"_blank\">here</a>.</b></div>\r\n<div style=\"font-size: 13px;\"><b>The problems have been moved to practice section.</b></div>\r\n<div style=\"font-size: 13px;\"><b>Solutions are public for all problems.</b></div>\r\n<div style=\"font-size: 13px;\"><b>Winners Blog Post can be found <a href=\"https://blog.codechef.com/2015/07/21/meet-the-new-kid-on-top-of-the-rank-table/\">here</a>.</b></div>\r\n<div style=\"font-size: 13px;\"><b>The ratings for the contest will be calculated soon.</b></div>",
+    "ip": "149.129.135.113",
+    "code": "LTIME25",
+    "duration": "180",
+    "name": "June Lunchtime 2015",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "CHEFAOR": [
+            {
+                "score": "15",
+                "count": "24"
+            },
+            {
+                "score": "50",
+                "count": "7"
+            },
+            {
+                "score": "100",
+                "count": "24"
+            }
+        ],
+        "CHEFAXR": [
+            {
+                "score": "40",
+                "count": "115"
+            },
+            {
+                "score": "100",
+                "count": "220"
+            }
+        ],
+        "CHEFDTRE": [
+            {
+                "score": "35",
+                "count": "310"
+            },
+            {
+                "score": "100",
+                "count": "31"
+            }
+        ],
+        "CHEFSTLT": [
+            {
+                "score": "10",
+                "count": "1"
+            },
+            {
+                "score": "25",
+                "count": "2"
+            },
+            {
+                "score": "35",
+                "count": "23"
+            },
+            {
+                "score": "100",
+                "count": "1108"
+            }
+        ]
+    },
+    "rules": "<div><b>Rules and Regulations:</b></div> <p>\u00a0</p> <p>This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test data.</p> <p>\u00a0</p> <p><b>Contest Details:</b></p> <ul> <li><b>Problem Setters: </b><a href=\"/users/furko\">Roman Furko</a></li> <li><b>Problem Tester: </b><a href=\"/users/xcwgf666\">Sergey Kulik</a></li> <li><b>Editorialist: </b><a href=\"/users/pkacprzak\">Pavel Kacprzak</a></li> <li><b>Russian Translator: </b><a href=\"/users/xcwgf666\">Sergey Kulik</a></li> <li><b>Mandarin Translator: </b><a href=\"/users/stzgd\">Gedi Zheng</a></li> <li><b>Contest Admin: </b><a href=\"/users/dpraveen\">Praveen Dhinwa</a></li> <li><b>Contest Contributor / Observer:</b> <a href=\"/users/pushkarmishra\">Pushkar Mishra</a></li> <li><b>Proof Reader:</b> Rahul Arora</li> </ul> <ul> <li>The details of the failed test cases will also be visible on your solution page.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The contest is meant for students of high school and middle school though everyone is invited to participate.</li> <li>There will be separate ranking page for school students. The school students will be identified by the inistitution that they have enetered in their profile.</li> <li><b>We have removed all the Institutions that we could not identify from our database. We request you to update your institutions once again by going to your profile page.</b></li> <li>You can also send in your queries in an email to <a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a>, during the contest.</li> <li>Contest problems will become visible on June 28th, 2015 at 11:00 am (IST) to 2:00 pm (IST). There will be 4 problems in all. Check your time zone <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+June+Lunchtime+2015&amp;iso=20150628T11&amp;p1=44&amp;ah=3\" target=\"_self\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></li> <li>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>All participants are expected to abide by the <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a>.</li> </ul> <p><b>Note: You can now \u201cCode, Compile, and Run\u201d your codes on our newly launched IDE <a href=\"/ide\">here</a>. <br /> <br /> However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use <a target=\"_blank\" href=\"http://ideone.com/\">Ideone</a>, make sure to mark your submission \"private\" (not secret)\".</b></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/LTIME25/1435468421.png",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CHEFAOR": {
+            "allow_submission": false,
+            "name": "Chef and Bitwise OR Operation",
+            "category_name": "main",
+            "accuracy": 7.67,
+            "successful_submissions": "24",
+            "code": "CHEFAOR",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHEFAXR": {
+            "allow_submission": false,
+            "name": "Chef and Submatrix",
+            "category_name": "main",
+            "accuracy": 13.07,
+            "successful_submissions": "220",
+            "code": "CHEFAXR",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHEFDTRE": {
+            "allow_submission": false,
+            "name": "Chef and Sets",
+            "category_name": "main",
+            "accuracy": 3.33,
+            "successful_submissions": "31",
+            "code": "CHEFDTRE",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CHEFSTLT": {
+            "allow_submission": false,
+            "name": "Chef and Two Strings",
+            "category_name": "main",
+            "accuracy": 74.37,
+            "successful_submissions": "1108",
+            "code": "CHEFSTLT",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1435480200,
+        "current": 1537436215,
+        "freezing": 0,
+        "start": 1435469400
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A pipeline consists of m distinct tasks numbered from 1 to m. Each cycle of the pipeline completes in time equal to the time taken by maximum duration task in that cycle of the pipeline. Given that total number of cycles are n (numbered from 1 to n), find the total time for the completion of all the cycles.<br/></br/></p>\n<p>For (i+1)<sup>th</sup> cycle, time taken to complete the first task is the cycle completion time of the previous cycle and the time taken to complete k<sup>th</sup> task is w<sub>i</sub> more than the duration of (k-1)<sup>th</sup> task of previous cycle (2&lt;=k&lt;=m).<br />\n<br/><br />\nAlso, in first cycle, duration of all tasks = 5 sec except the first task which takes time 0 sec to complete.</br/></p>\n<h3>Input</h3>\n<p>First line of input contains two space separated integers, n and m.<br />\nSecond line contains n-1 space separated integers w<sub>1</sub>, .. , w<sub>n-1</sub>. <br/><br />\n1 &lt;= n &lt;= 100000 <br/><br />\n1 &lt;= m &lt;= 100000 <br/><br />\n1 &lt;= w<sub>i</sub> &lt;= 10</br/></br/></br/></p>\n<h3>Output</h3>\n<p>A single integer which is the total completion time. (This value might not fit in a 32 bit integer but will fit in 64 bit integer).</p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n2 2\n2\n\n<b>Output:</b>\n10\n</pre><p><br/></br/></p>\n<p><b>Explanation:</b> First cycle takes 5 seconds to complete. For the next cycle, first task takes 5 seconds to complete (cycle completion time of previous cycle) while next task takes 2 seconds to complete. So overall, second cycle takes 5 seconds to complete. Total time = 10 seconds.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-11-2012",
+    "is_direct_submittable": false,
+    "contest_name": "ZERO1",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1353061800,
+        "end_date": 1353148200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1353148200,
+        "submit_start_date": 1353061800,
+        "current": 1537438632
+    },
+    "problem_author_html_handle": "shivamagarwal",
+    "problem_name": "Pipeline",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shivamagarwal'>shivamagarwal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shivamagarwal",
+    "contest_code": "ZERO1",
+    "max_timelimit": "0.22",
+    "problem_code": "TF04"
+}

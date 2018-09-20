@@ -1,0 +1,97 @@
+{
+    "announcements": "<ul>\r\n<li/>So,  the contest has ended. On the basis of number of problems solved and time taken for the same, 15 students from NIT Jalandhar and 30 from other colleges will be selected for next round, which is to be held onsite at NIT Jalandhar. Details will be mailed to selected students.\r\n<li/>Only registered students will be considered.\r\n<li/>Onsite round will be a 3 hour coding competition in which you will be given a certain number of coding problems and participants will be judged on the basis of number of test cases satisfied and time taken.\r\n<li/>Only Indian University students will be eligible for onsite round and the prizes.\r\n<li/>Editorials:\r\n<ul>\r\n<li/><a href=\"http://discuss.codechef.com/questions/26808/pree01-editorial\">PREE01</a>\r\n<li/><a href=\"http://discuss.codechef.com/questions/26817/pree02-editorial\">PREE02</a>\r\n<li/><a href=\"http://discuss.codechef.com/questions/26814/pree03-editorial\">PREE03</a>\r\n<li/><a href=\"http://discuss.codechef.com/questions/26819/pree04-editorial\">PREE04</a>\r\n<li/><a href=\"http://discuss.codechef.com/questions/26822/pree05-editorial\">PREE05</a>\r\n<li/><a href=\"http://discuss.codechef.com/questions/26824/pree06-editorial\">PREE06</a>\r\n</ul>\r\n</ul>",
+    "ip": "149.129.135.113",
+    "code": "DSEC2013",
+    "duration": "2880",
+    "name": "./ Execute 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>Rules and Regulations:</b></p> <p><b><br /></b></p> <ol> <li>Contest problems will become visible on Monday, 14th October 2013 at 21:00 hours IST and contest will end at 16th October 21:00 IST.</li> <li>It is an Individual contest (not a team contest).</li> <li>This competition will be open for all.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided. All white space characters in the output may not be ignored.</li> <li>Please contact\u00a0<a href=\"mailto:ratishb22@gmail.com\" target=\"_blank\">ratishb22@gmail.com</a> for any queries during the contest.</li> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a>.</li> </ol> <p>\u00a0</p> <h3><b>Judging Criteria:</b></h3> <ol> <li>User will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run. There is no time consumed for a problem that is not solved.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> </ol>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/DSEC2013/1424957818.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "PREE01": {
+            "allow_submission": false,
+            "name": "Tree Boundary",
+            "category_name": "main",
+            "accuracy": 5.88,
+            "successful_submissions": "13",
+            "code": "PREE01",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PREE02": {
+            "allow_submission": false,
+            "name": "Special Digit",
+            "category_name": "main",
+            "accuracy": 53.82,
+            "successful_submissions": "622",
+            "code": "PREE02",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PREE03": {
+            "allow_submission": false,
+            "name": "Shop Associations",
+            "category_name": "main",
+            "accuracy": 30.83,
+            "successful_submissions": "236",
+            "code": "PREE03",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PREE04": {
+            "allow_submission": false,
+            "name": "Coding Skills",
+            "category_name": "main",
+            "accuracy": 2.17,
+            "successful_submissions": "8",
+            "code": "PREE04",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PREE06": {
+            "allow_submission": false,
+            "name": "Dexter and his Blood Slides",
+            "category_name": "main",
+            "accuracy": 27.1,
+            "successful_submissions": "28",
+            "code": "PREE06",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PREE05": {
+            "allow_submission": false,
+            "name": "Sum of Values",
+            "category_name": "main",
+            "accuracy": 34.2,
+            "successful_submissions": "71",
+            "code": "PREE05",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1381937400,
+        "current": 1537438108,
+        "freezing": 0,
+        "start": 1381764600
+    },
+    "user": {
+        "username": ""
+    }
+}

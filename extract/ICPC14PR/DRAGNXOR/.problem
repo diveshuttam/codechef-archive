@@ -1,0 +1,33 @@
+{
+    "problem_code": "DRAGNXOR",
+    "problem_author": "flying_ant",
+    "contest_name": "ACM-ICPC Practice round 2014",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>flying_ant</span>",
+    "problem_name": "Open the Dragon Scroll",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>masked_zorro</span>",
+    "contest_code": "ICPC14PR",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cook13'>cook13</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/flying_ant'>flying_ant</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">Did you ever hear about 'Dragon Food' ? Its used to refer to the chocolates bought for your loved ones :). Po offers dragon food to master Shifu, who is a famous cook in the valley of food. In return, Shifu hands over the dragon scroll to Po, which is said to hold the ingredients of the secret recipe. To open the dragon scroll, one has to solve the following puzzle. <br /><br />\n1. Consider a N-bit integer A. We call an integer A' as shuffle-A, if A' can be obtained by shuffling the bits of A in its binary representation. For eg. if N = 5 and A = 6 = (00110)<sub>2</sub>,  A' can be any 5-bit integer having exactly two 1s in it i.e., any of (00011)<sub>2</sub>, (00101)<sub>2</sub>, (00110)<sub>2</sub>, (01010)<sub>2</sub>, ...., (11000)<sub>2</sub>.<br /><br />\n2. Given two N-bit integers A and B, find the maximum possible value of (A' xor B') where A' is a shuffle-A, B' is a shuffle-B and xor is the bit-wise xor operator.<br /><br />\nGiven N, A and B, please help Po in opening the dragon scroll.<br /><br />\n<b>Notes</b>\n1. xor operator takes two bit strings of equal length and performs the logical XOR operation on each pair of corresponding bits. The result in each position is 1 if only the first bit is 1 OR only the second bit is 1, but will be 0 if both are 1 or both are 0. For eg: 5 (0101) xor 3(0011) = 6(0110). In most languages it is represented using ^ symbol. 5 ^ 3 = 6.<br />\n2. If the integer actually needs less than N bits to represent in binary, append sufficient number of leading 0 bits. For eg. as shown in the problem statement for N = 5, A = 6 = (00110)<sub>2</sub><br /><br />\n<h3>Input</h3>\n</p><p align=\"justify\">First line contains an integer T ( number of test cases, around 100 ). T cases follow, each having N A B in a single line, separated by a space. ( 1 &lt;= N &lt;= 30, 0 &lt;= A,B &lt; 2<sup>N</sup> )\n\n<h3>Output</h3>\n</p><p align=\"justify\">For each case, output the maximum possible value of (shuffle-A xor shuffle-B) in a separate line.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n3 5 4\n5 0 1\n4 3 7\n\n\n<b>Output:</b>\n7\n16\n14\n</pre>\n<br />\n<b>Explanation:</b><br />\n</p><p align=\"justify\">\nCase 1: 5 and 4 as 3-bit binary strings are (101)<sub>2</sub> and (100)<sub>2</sub> respectively. After shuffling, xor can be maximum for (110)<sub>2</sub> ^ (001)<sub>2</sub> = (111)<sub>2</sub> = 7<br />\nCase 2: Maximum Possible result can be for (00000)<sub>2</sub> ^ (10000)<sub>2</sub> = (10000)<sub>2</sub> = 16<br />\nCase 3: Maximum Possible result can be for (0011)<sub>2</sub> ^ (1101)<sub>2</sub> = (1110)<sub>2</sub> = 14<br /></p>",
+    "category_name": "main",
+    "date_added": "2-08-2011",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.898401",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/DRAGNXOR",
+    "problem_tester": "masked_zorro",
+    "time": {
+        "view_start_date": 1417372200,
+        "end_date": 1418837400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1418837400,
+        "submit_start_date": 1417372200,
+        "current": 1537437079
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>TREASURE QUEST</b></p>\n<p>Chef is playing a treasure quest where he has to find some things from a list, with each item having certain points. He goes to the town square where all the items for the quest can be found. There are K locations all around him, numbered from 1 to K in clockwise order. All the locations have one item each, and the same item might be repeated in certain shops. </p>\n<p>The Chef selects an index X (1\u2264I\u2264K) and Y and then goes to Y locations from index X to gather the items for the quest. Help Chef find out how many points he will score in the quest!\n</p>\n<p><b>Input</b><br/></br/></p>\n<p>First mention N, the number of items to be found. Next line should contain N space separated integers, where Xth value denotes the points alloted to the Xth item of the treasure quest.<br/><br />\nAfter that write integer K which denotes the number of locations around the Chef where items can be found. Next line should contain K space separated values, where ith value denotes the item found at the ith location. <br/><br />\nAfter that mention A, which is the number of attempts made by Chef.<br/><br />\nThe next A lines contain one pair of integers (X, Y) each, where X denotes the starting index, and Y denotes the number of locations he can visit.\n</br/></br/></br/></p>\n<p><b>Output</b><br/></br/></p>\n<p>For every attempt print a single integer which is the points scored by Chef in that attempt.\n</p>\n<p><b>Constraints</b><br/><br />\n\t1 \u2264 N \u2264 5000 <br/><br />\n\t1 \u2264 K \u2264 20000 <br/><br />\n\t1 \u2264 A \u2264 500 <br/><br />\n\t1 \u2264 X,Y \u2264 N <br/>\n\t</br/></br/></br/></br/></br/></p>\n<p>\t<b>Example:</b><br/></br/></p>\n<p><b>Sample Input</b><br/><br />\n\t3 <br/><br />\n\t1 2 4 <br/><br />\n\t4 <br/><br />\n\t1 2 1 3<br/><br />\n\t2 <br/><br />\n\t1 3 <br/><br />\n\t2 3 <br/>\n\t</br/></br/></br/></br/></br/></br/></br/></br/></p>\n<p><b>Sample Output</b><br/><br />\n3 <br/><br />\n7<br/></br/></br/></br/></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-08-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeWars, Aaruush 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1440937800,
+        "end_date": 1441110600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1441110600,
+        "submit_start_date": 1440937800,
+        "current": 1537436081
+    },
+    "problem_author_html_handle": "aaruush15",
+    "problem_name": "TREASURE QUEST",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aaruush15'>aaruush15</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "aaruush15",
+    "contest_code": "CODEWARS",
+    "max_timelimit": "1",
+    "problem_code": "CW008"
+}

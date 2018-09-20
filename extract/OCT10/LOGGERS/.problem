@@ -1,0 +1,33 @@
+{
+    "problem_code": "LOGGERS",
+    "problem_author": "pieguy",
+    "contest_name": "October 2010 Challenge",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>pieguy</span>",
+    "problem_name": "Logging Game",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>anshuman_singh</span>",
+    "contest_code": "OCT10",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/oct10'>oct10</a>, <a class='problem-tag-small ' href='/tags/problems/pieguy'>pieguy</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Logging can be a very mundane job, but Alice and Bob have devised a game to help them\npass the time.  They take turns choosing a log, and cutting it into 2 smaller logs.\nThe sum of the lengths of the 2 logs equals the length of the original log.  The only\nrestriction is that neither of the resulting logs may be shorter than 1 meter in length (but\nexactly 1 meter is fine).  In other words, non-integer lengths are allowed.  Alice makes the first cut, and the first logger who cannot\nmake a legal cut loses.</p>\n\n<h3>Input</h3>\n<p>Input begins with an integer T, the number of test cases (less than 450).  T test cases\nfollow, each on its own line.  Each test case begins with an integer N, the number of\nlogs at the start of the game.  N integers follow, giving the initial lengths of the logs.\nThere are at most 7 logs, and the total length of the logs will not exceed 250 meters.\nNote that the initial lengths of the logs are integers, but logs may be cut to non-integer lengths.</p>\n\n<h3>Output</h3>\n<p>For each test case, output a single line containing the name of the winner of the game,\nassuming both loggers choose their cuts optimally.</p>\n\n<h3>Sample Input</h3>\n<pre>3\n1 2\n2 3 4\n3 7 8 9\n</pre>\n\n<h3>Sample Output</h3>\n<pre>Alice\nAlice\nBob\n</pre>",
+    "category_name": "main",
+    "date_added": "18-07-2010",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "max_timelimit": "0.1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/LOGGERS",
+    "problem_tester": "anshuman_singh",
+    "time": {
+        "view_start_date": 1285925400,
+        "end_date": 1286789400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1286789400,
+        "submit_start_date": 1285925400,
+        "current": 1537439486
+    },
+    "user": {
+        "username": ""
+    }
+}

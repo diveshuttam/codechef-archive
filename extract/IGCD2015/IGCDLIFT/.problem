@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Infiniator is a researcher at BYTE Labs Inc., one of the major firms situated in Algoland. The research lab that Infiniator works in is situated on the <b>I<sup>th</sup></b> floor of a building comprising of <b>N</b> floors. The floors have been numbered from 1 (ground floor) to <b>N</b> (top floor). Infiniator, being the super active person that he is, wants to minimize his time to reach his lab from the floor he currently is standing at. Now, he is faster than humans and can and can ascend or descend a single floor in <b>S</b> seconds, taking the stairs. There is also a lift facility in the building and it takes <b>L</b> seconds to ascend or descend one floor. The lift is currently on the <b>X<sup>th</sup></b> floor. Infiniator is very busy right now, so he needs your help in deciding whether he should take the stairs or the lift. Help him out.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first line of each test case contains four space separated integers <b>N</b> <b>H</b> <b>X</b> <b>I</b> denoting the number of floors in the building, the floor Infiniator is currently standing on, the floor at which Lift is currently waiting, and the destination floor respectively.</li>\n<li>The second line contains two space-separated integers <b>L</b> <b>S</b> denoting the time taken by the lift and the time taken by Infiniator, respectively, to ascend or descend one floor.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n\n<p>For each test case, output a single line containing either \"LIFT\" or \"STAIRS\", without quotes, corresponding to the way Infiniator should take.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10<sup>3</sup></b></li>\n<li><b>1</b> \u2264 <b>N, X, H, I</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>L, S</b> \u2264 <b>100</b></li>\n<li>The lift is stationary at the beginning of every test case</li>\n<li>You can only have the full journey in the lift or by the stairs, combination is not allowed</li>\n<li>If both journeys take equal amount of time, print LIFT, we wouldn't want to wear out Infiniator, would we?</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n10 2 9 10\n3 4\n5 1 2 3\n2 4\n6 3 6 6\n6 12\n\n<b>Output:</b>.\nSTAIRS\nLIFT\nLIFT\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-09-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Ignited Coders",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1442727000,
+        "end_date": 1442737800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1442737800,
+        "submit_start_date": 1442727000,
+        "current": 1537436032
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>pratik2512</span>",
+    "problem_name": "Stairs and Lifts",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pratik2512'>pratik2512</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pratik2512",
+    "contest_code": "IGCD2015",
+    "max_timelimit": "1",
+    "problem_code": "IGCDLIFT"
+}

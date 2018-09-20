@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p> <b>N</b> teams are playing in this cricket world cup, numbered from <b>1 .. N</b>. Each team plays every other team exactly once in the World Cup. No match ever results in a draw. Team <b>x</b> is said to directly win over team <b>y</b> if in the match between <b>x</b> and <b>y</b>, x wins. Team <b>x</b> is said to indirectly win over <b>y</b> if there exists a sequence of teams <b>a<sub>1</sub>, a<sub>2</sub>, ...., a<sub>k</sub></b> where <b>a<sub>1</sub> = x, a<sub>k</sub> = y, k >= 2</b> and for each <b>1 \u2264 i \u2264 k - 1</b>, <b>a<sub>i</sub></b> defeats <b>a<sub>i + 1</sub></b>. <br /><b>Team <b>x</b> is said to completely win over team <b>y</b> if <b>x</b> indirectly defeats <b>y</b> and <b>y</b> does not indirectly defeat <b>x</b>.<br />\n</b></p>\n<p>The organisers of the world cup wants to make the world cup weird. World Cup will be weird if no team completely wins over another team. For making the cup weird he is ready to change the result of some matches so that the world cup becomes weird. Your task is to help him accomplish this by changing the result of minimum number of matches.\n</p>\n<h3>Input</h3>\n<ul>\n<li>First line contains <b>N</b>, the number of teams in the world cup. <b>N * (N - 1) / 2</b> lines follow, each containing a pair <b>i j</b> meaning team <b>i</b> defeated team <b>j</b> in their match</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>If it is not possible to make the world cup weird by changing some results, print -1.<br />\nIf it is possible, print the smallest number of matches changing whose result will make the world cup weird. Then print each match (represented by the pair of team number) in a new line. If there are multiple answers possible, print any one of them. Pair <b>u v</b>  and <b>v u</b>  are the same. </li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>4</b> \u2264 <b>N</b> \u2264 <b>10^3</b></li>\n<li>Each pair <b>i j</b> appears exactly once in the input </li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n1 2\n1 3\n4 1\n2 3\n4 2\n4 3\n\n<b>Output:</b>\n1\n3 4\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426336200,
+        "end_date": 1426422600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426422600,
+        "submit_start_date": 1426336200,
+        "current": 1537436563
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>triveni</span>",
+    "problem_name": "Weird World Cup",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/triveni'>triveni</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "triveni",
+    "contest_code": "IOPC2015",
+    "max_timelimit": "1",
+    "problem_code": "IOPC15R"
+}

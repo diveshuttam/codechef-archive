@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Nikesh,Jyoti and Surya are good friends. One evening, they started playing game of cards named \"3-2-5\" in some different manner not as usual.</p>\n<p>\nThey have two secret pattern strings of same length, so, Nikesh states that total count of \"3\" is equal to number of characters in the first string which exactly matches with the second string by position and character both. Now, after removing all the chracters from first and second string which belongs to Nikesh statement, Jyoti states that total count of \"2\" is equal to number of characters in first string which exactly matches with second string but with difference in position.Now, after removing all the chracters from first and second string which belongs to Nikesh and Jyoti statement, At  last, Surya concludes that total count of \"5\" is equal to number  of characters in first string which<br />\ndoesn't  match at all. </p>\n<p>So, help them to find out total number of \"3-2-5\". and answer should be in the form  countof\"3\"Ncountof\"2\"Jcountof\"5\"S . like (1N2J2S).</p>\n<p>Note: String contains only lower case alphabets.</p>\n<h3>Input format</h3>\n<p>First line contains T total  test cases. For each T, there are two strings S1 and S2 of same length in separate lines which contains letters only (a....z).</p>\n<h3>Output format </h3>\n<p>For each test case, one line contains the answer in required form.</p>\n<h3>Constraints :</h3>\n<ul>\n<li>1&lt;=T&lt;=1000</li>\n<li>1&lt;=lengthof S1 and S2 &lt;= 10<sup>5</sup></li>\n</ul>\n<h3>Subtasks</h3>\n<p>1: 1&lt;=T&lt;=100,1&lt;=length of string&lt;=100   : 40 points</p>\n<p>2: original constraints                  : 60 points</p>\n<pre><b>Sample Input</b>\n2\ninfotrek\nckfltiko\nabcd\ndcfa\n\n<b>Sample Output</b>\n2N3J3S\n0N3J1S\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "I-CODE 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455625800,
+        "end_date": 1455885000,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1455885000,
+        "submit_start_date": 1455625800,
+        "current": 1537435411
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>manu4056</span>",
+    "problem_name": "Cards Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/manu4056'>manu4056</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "manu4056",
+    "contest_code": "ICOD2016",
+    "max_timelimit": "1",
+    "problem_code": "ICODE16B"
+}

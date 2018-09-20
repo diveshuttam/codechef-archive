@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nThe \"He-Man\" Gymnasium, Jabalpur wants to organise a weight-lifting competition.\nThe weight discs will be placed on the ends of a single long weight lifting bar.\nThe competitor lifts the weight bar by holding it in the middle ( like on the practice problems page of Codechef ! ).\nThe problem is, the Gymnasium does not have weight discs of  equal weight in equal numbers.\nManager Monnu wants to determine the maximum weight that can be used in the competition. Obviously the weight has to be equal on both sides of the bar!  \n\nGiven a list of the weights of the discs available in the gymnasium, find the maximum weight that a participant may have to lift. \n\n\n<h3>Input</h3>\n</p><p>\nThe first line gives <i>t</i> the number of test cases (<i>t</i> \u2264 100).\nThen <i>t</i> test cases follow.<br />\n\nFor each test Case:<br />\nThe first line gives <i>n</i>, the number of weight discs in the gym. (2 \u2264 n \u2264 60)<br />\nThe next line contains <i>n</i> integers which give the weights of the <i>n</i> discs. The total weight of the weight discs in the gymnasium is less than 600000 \n\n<h3>Output</h3>\n</p><p>\nFor each test case output a single line, giving the maximum amount of weights the can be put on both sides of the bar\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n5         \n10 7 8 2 4 \n\n<b>Output:</b>\n12\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-10-2009",
+    "is_direct_submittable": false,
+    "contest_name": "Inscription 2009",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1256461200,
+        "end_date": 1256479200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180156,
+        "submit_start_date": 1256461200,
+        "current": 1537439887
+    },
+    "problem_author_html_handle": "fctrl",
+    "problem_name": "WEIGHTS",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/fctrl'>fctrl</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "fctrl",
+    "contest_code": "INS09",
+    "max_timelimit": "12.8052",
+    "problem_code": "INS0903"
+}

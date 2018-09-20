@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Vikas is the chief interior designer incharge of the Taj Palace, Mumbai. He wants to make an impressive and colourful pattern in the courtyard. Importing exotic tiles has become very difficult after the Mumbai terror attacks, and therefore Vikas has only 4 kinds of tiles to choose from:\n<pre>\nA      B      C       D\n==    ==    ==    ==\nXX    X     X      X\nXX    X     XX\n\n</pre>\n<p>Any rotation of above tiles is also permitted.\n\n<p>Each tile is available in 'k' different colors, and there's an infinite supply of all tiles. The courtyard has dimensions 2 * 'n'. Vikas wants to tile the courtyard in such a way that no two adjacent tiles have the same color. Two tiles are considered adjacent if they share a common side. Two tilings are considered different if:\n<p>1) The arrangement of tiles is different.\n<br/>2) There is atleast 1 position (1*1 square) which has different colors in the two arrangements.\n\n<p>Can you help Vikas find the number of different ways in which he can tile the courtyard, subject to the above conditions?\n\n\n<h3>Input</h3>\n<p>\nThe first line of input contains a single integer 't', denoting the number of test cases.\n<br/>Each of the next 't' lines contains 2 space separated integers 'n' and 'k'.\n\n<h3>Output</h3>\n<p>For each test case output one integer, denoting the number of different ways in which the courtyard can be tiled.\n<p>Two tiles are considered adjacent if they share an edge. Two tiles which just share a common point are not considered adjacent.\n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n1 1\n1 2\n\n<b>Output:</b>\n1\n4\n\n<b>Constraints:</b>\nt <= 1000\n1 <= n <= 10^9\n1 <= k <= 1000\n\n</pre>\n<b>Explanation:</b>\n<p>Test case 1: There is only 1 way to tile the courtyard, by using a 2*1 tile.\n<br/>Test case 2: Let '1' and '2' be the available colors. The grid can be tiled in 4 ways - 1) place one 2*1 tile of color '1', 2) place one 2*1 tile of color '2', 3) Place two 1*1 tiles (color '1' above and color '2' below), 4) Place two 1*1 tiles (color '2' above and color '1' below)",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "NIT Trichy ByteCode 2011",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298192400,
+        "end_date": 1298214000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298214000,
+        "submit_start_date": 1298192400,
+        "current": 1537439344
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>suh_ash2008</span>",
+    "problem_name": "Grid Tiling",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/suh_ash2008'>suh_ash2008</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "suh_ash2008",
+    "contest_code": "BYTCDE11",
+    "max_timelimit": "0.446774",
+    "problem_code": "BTCODE_J"
+}

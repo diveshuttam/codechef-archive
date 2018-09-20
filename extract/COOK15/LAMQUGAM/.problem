@@ -1,0 +1,33 @@
+{
+    "problem_code": "LAMQUGAM",
+    "problem_author": "anton_lunyov",
+    "contest_name": "October Cook-off",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>anton_lunyov</span>",
+    "problem_name": "Lame Queen Game",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>pieguy</span>",
+    "contest_code": "COOK15",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anton_lunyov'>anton_lunyov</a>, <a class='problem-tag-small ' href='/tags/problems/cook15'>cook15</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nCode and Chef play a game on the set of all points with positive integer coordinates of the usual coordinate plane. Initially the lame queen stands in the point with coordinates <b>(x<sub>0</sub>, y<sub>0</sub>)</b> or shortly: in the point <b>(x<sub>0</sub>, y<sub>0</sub>)</b>. Players alternate moves. <b>Code moves first.</b> During each move the player can move the queen from the point <b>(x, y)</b> to the point <b>(x - a, y)</b>, <b>(x, y - a)</b> or <b>(x - a, y - a)</b> for some positive integer <b>a</b>, provided that the new point has positive coordinates. But since the queen is lame she possibly can't make all diagonal moves. Namely she can move from the point <b>(x, y)</b> to the point <b>(x - a, y - a)</b> only if <b>a</b> is divisible by <b>d</b>, where <b>d</b> is some positive integer that is called the queen lameness. So if <b>d = 2</b> the queen can move diagonally from the point <b>(x, y)</b> only to the points <b>(x - 2, y - 2), (x - 4, y - 4), (x - 6, y - 6)</b> and so on. However if <b>d = 1</b> then the queen becomes the usual chess queen. <b> The first player who can't make a valid move loses the game. </b> Both players play optimally in their respective moves.\n<br /><br />\nAfter playing this game for some time Chef realizes that he loses almost always. Now he wants to know what is the probability that he wins if initial point <b>(x<sub>0</sub>, y<sub>0</sub>)</b> is chosen randomly from the rectangle <b>x<sub>1</sub> &lt;= x<sub>0</sub> &lt;= x<sub>2</sub>, y<sub>1</sub> &lt;= y<sub>0</sub> &lt;= y<sub>2</sub></b>. But I should warn that he wants to know this for a large number of rectangles.\n</p>\n\n<h3>Input</h3>\n\n<p>\nThe first line contains two space separated positive integers <b>d</b> and <b>T</b>, the queen lameness and the number of rectangles for which Chef wants to know the answer. Each of the next <b>T</b> lines contains four space separated positive integers <b>x<sub>1</sub>, y<sub>1</sub>, x<sub>2</sub>, y<sub>2</sub> </b> the coordinates of rectangle corners.\n</p>\n\n<h3>Output</h3>\n<p> For each rectangle from the input file, output a single line containing the probability in the form of an irreducible fraction that Chef wins if the initial cell is chosen randomly from this rectangle.\n\n<h3>Constraints</h3>\n</p><p><b>\n1 &lt;= d &lt;= 20\n<br />\n1 &lt;= T &lt;= 100000\n<br />\n1 &lt;= x<sub>1</sub> &lt;= x<sub>2</sub> &lt;= 200000\n<br />\n1 &lt;= y<sub>1</sub> &lt;= y<sub>2</sub> &lt;= 200000\n</b></p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1 4\n1 1 4 4\n2 4 5 8\n3 7 10 10\n5 8 5 8\n\n<b>Output:</b>\n3/16\n1/10\n1/32\n1/1\n</pre>\n\n<h3>Explanation</h3>\nFor the first rectangle Chef wins in three cases out of 16. Namely when the starting point is <b>(1,1), (2,3)</b> or <b>(3,2)</b>.\n<br />\nThe fourth rectangle is lucky. It contains only one point and this one is winning for Chef.",
+    "category_name": "main",
+    "date_added": "13-10-2011",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.567887",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/LAMQUGAM",
+    "problem_tester": "pieguy",
+    "time": {
+        "view_start_date": 1319385600,
+        "end_date": 1319395500,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1319395500,
+        "submit_start_date": 1319385600,
+        "current": 1537439109
+    },
+    "user": {
+        "username": ""
+    }
+}

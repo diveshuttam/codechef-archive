@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Everyone in NIIT University knows that Yash loves coding but hates math! While Yash is totally fine with his complicated relationship with mathematics, the field of computer science was not having any of it, with multiple software projects coming up which required him to dig deep into maths, Yash was in deep dilemma. So he turned to his evergreen friend Harshit to ask for assistance, who was a Math Wiz! Harshit, upon seeing his friend in dilemma tells him to start from basics! (Oh so genius!) He tells him to start by solving powers of 2.<br>\nInitially he gives him an array of N Numbers A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub>, \u2026 An. Now, he asks Yash to tell him the sum of the squares of all numbers in any subarray ranging from A<sub>x</sub> to A<sub>y</sub>.<br>\ni.e. A<sup>2</sup><sub>x</sub> +  A<sup>2</sup><sub>x+1</sub> +  \u2026\u2026 A<sup>2</sup><sub>y</sub><br>\nAs a twist he updates the numbers in the subarray A<sub>x</sub> to A<sub>y</sub> from time to time. The update is performed by:<br>\n1) Multiplying all numbers in the subarray by 2.<br>\n2) Dividing all multiples of 2048 in the subarray by 2048.<br>\n\nNow Yash doesn\u2019t want to let him down but is unable to solve the problems and needs your help!<br>\n</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>The first line contains T, the number of test cases.<br>\n\nFor each test case, the first line of input contains 2 integers N and Q (number of queries).<br>\n\nNext line contains N space separated integers A<sub>1</sub> A<sub>2</sub> A<sub>3</sub> \u2026 A<sub>n</sub>.\nNext Q lines each defines a query-<br>\n\n0 x y - Update all the numbers in the subarray from A<sub>x</sub> to A<sub>y</sub> as defined above.<br>\n\n1 x y - Output the sum of squares of all numbers in the subarray from A<sub>x</sub> to A<sub>y</sub><br>\n</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>For each query of the form 1 x y, output 1 line containing the answer to the problem.</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<p></p>\n<ul>\n<li>T<=5</li>\n<li>1<=N<=10^5</li>\n<li>1<=Q<=10^5</li>\n<li>1<=A<sub>i</sub><=1000</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n3 3\n1 2 3\n0 1 2                                                                                                                  \n0 2 3                                                                                                                   \n1 2 3                                                                                                                   \n1 3                                                                                                                     \n2\n0 10 10\n0 10 10\n1 1 1                                                                                                                   \n5 1                                                                                                                     \n1 2 3 4 5                                                                                                               \n1 2 3  \n\n<b>Output:</b>\n100                                                                                                                  \n4\n13  \n</pre>\n<p>\u00a0</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "siNUsoid`17 CodeJam",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2",
+    "todo": false,
+    "time": {
+        "view_start_date": 1507315500,
+        "end_date": 1507326300,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1507326300,
+        "submit_start_date": 1507315500,
+        "current": 1537433512
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>yashs</span>",
+    "problem_name": "Love Code Hate Maths",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/yashs'>yashs</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "yashs",
+    "contest_code": "SICJ2017",
+    "max_timelimit": "1",
+    "problem_code": "CODE"
+}

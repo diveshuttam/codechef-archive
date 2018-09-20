@@ -1,0 +1,33 @@
+{
+    "problem_code": "CDVA1601",
+    "problem_author": "adi28galaxyak",
+    "contest_name": "CodeVaitam 2.0",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>adi28galaxyak</span>",
+    "problem_name": "A Riddle V2",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CDVA16",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/adi28galaxyak'>adi28galaxyak</a>, <a class='problem-tag-small ' href='/tags/problems/cakewalk'>cakewalk</a>, <a class='problem-tag-small ' href='/tags/problems/cdva16'>cdva16</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>There were four friends who used to live together in 19th century in South California. Each of them knew to solve only one kind of mathematical operator. One day, walking by a temple, they found a metal piece with <b>N</b> numbers engraved on it. When they showed it to the priest, he suggested that it might be an indication of the coordinates of a treasure. He also suggested that it can be cracked by performing the basic mathematical operators (/, *, +, -) in such a fashion that the operators be inserted between the numbers in the order given above and after the operators are inserted in one iteration, in the next iteration the start of the next insertion starts from the next operator from which it was inserted in previous iteration. For eg. after +, -, *, / have been inserted, in next iteration insertion starts from -, *, /, + and so goes on till one operator has been inserted between every numbers.<br />\nHelp these friends to find the treasure.</p>\n<h3>Input</h3>\n<ul>\n<li>First line contains <b>T</b> the number of test cases.</li>\n<li>First line of each test case contains <b>N</b>.</li>\n<li>Next line of each test case contains <b>A[i]</b> the numbers they found on the metal pieces.</li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>For each test case solve the problem expression sequentially(in the order of the operator as they are seen from left to right) and print the required answer.</li>\n</ul>\n<h3>Constraints and Subtasks</h3>\n<ul>\n<li>1&lt;=<b>T</b>&lt;=10</li>\n<li>1&lt;=<b>A[i]</b>&lt;=100</li>\n</ul>\n<p><b>Subtask 1: 10 points</b></p>\n<ul>\n<li>1&lt;=<b>N</b>&lt;=100</li>\n</ul>\n<p><b>Subtask 2: 90 points</b></p>\n<ul>\n<li>1&lt;=<b>N</b>&lt;=10000</li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n6\n4 2 6 7 2 8\n<b>Output:</b>\n136\n</pre><h3>Explanation:</h3>\n<ul>\n<li>Given integer are 4 2 6 7 2 8 after solving it becomes 4/2*6+7-2*8= 136.</li>\n</ul>\n",
+    "category_name": "main",
+    "date_added": "30-01-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CDVA1601",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1454509800,
+        "end_date": 1454783460,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454783460,
+        "submit_start_date": 1454509800,
+        "current": 1537435534
+    },
+    "user": {
+        "username": ""
+    }
+}

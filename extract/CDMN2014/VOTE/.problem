@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>Problem Description</b></p>\n<p>And it is the day of the election. The Election Commission has set up a unique voting system this time to enhance security and complete the proceedings in a timely manner. There are <i>N</i> voters in the country and all of them assemble in a large queue. The queue has polling booths at each of its end. Now each voter needs some time to think about his precious vote. The <i>ith</i> voter takes exactly <i>think[i]</i> seconds inside the polling booth to cast his vote. Obviously he cannot think while he is in queue because the people have grown very smart and can figure out what is going in each others mind by just looking at the faces.</p>\n<p>At any given second, a person can do the following activities :</p>\n<ul>\n<li>He may move to one of the adjacent cells in the queue(left or right) provided the cell exist and it is unoccupied then. No two people can stand on the same cell of the queue at the same time.</li>\n<li>He may enter the polling booth and start to think.</li>\n<li>He may leave the polling booth and go to his home.</li>\n</ul>\n<p>Note that people walk simultaneously, so a person can enter any cell or the booth at the same time another person leaves it.\n</p>\n<p>Given the array <i>think[ ]</i>, you need to determine the shortest possible time in which all people have cast their votes.</p>\n<p><b>Input</b></p>\n<p>The first line of the input consists of the number of cases (T). T test cases follows. Each test case begins with line with the number of people (N). Next line contains N numbers which constitute the array think. 0th index is the leftmost person and (N - 1)th index is the rightmost.</p>\n<p><b>Output</b></p>\n<p>For each test case, output one number which is the shortest time in which election is completed and all people go back to their homes.</p>\n<p><b>Constraints</b></p>\n<pre>\nT \u2264 50<br/>\n1 \u2264 N \u2264 10<sup>5</sup><br/>\n0 \u2264 think[i] \u2264 10<sup>3</sup><br/>\n</br/></br/></br/></pre><p><b>Sample Cases</b></p>\n<pre>\n2\n3\n3 4 2\n2\n4 0\n</pre><p><b>Output</b></p>\n<pre>\n9\n6\n</pre><p><b>Explanations</b></p>\n<p>In the first test case, things happen in the following manner: Let person A be on cell 0, B be on cell 1 and C be on cell 2 initially. Also lets denote left polling booth as L and right polling booth as R.</p>\n<ul>\n<li>Time 0 : A on 0, B on 1, C on 2. L and R empty</li>\n<li>Time 1 : A in L, C in R, B on 2.</li>\n<li>Time 3 : C casts its vote</li>\n<li>Time 4 : C leaves R, B enters R.</li>\n<li>Time 5 : A leaves L and goes home.</li>\n<li>Time 8 : B gives vote</li>\n<li>Time 9 : B leaves for home</li>\n</ul>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeMania 2014",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1392737400,
+        "end_date": 1392748200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1392748200,
+        "submit_start_date": 1392737400,
+        "current": 1537437808
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>phantom11</span>",
+    "problem_name": "The Election Day",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/phantom11'>phantom11</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "phantom11",
+    "contest_code": "CDMN2014",
+    "max_timelimit": "2",
+    "problem_code": "VOTE"
+}

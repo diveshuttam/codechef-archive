@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Being in a possession of an information so valuable, Irene Adler decides to lock it up in her safe. Sherlock using his detective and charming skills, finds out the place where Irene has hid the data. Irene knew that this day would come, so she had locked the safe up with a secret pass phrase. Since she wanted to be extra secure she had used  a sequence of <strong>N</strong> passwords of length <strong>M</strong> each. In order to unlock the safe, one has to type in all <strong>N</strong> passwords in the exact sequential order. However the lock has a major security flaw - it can accept a password or any of its anagrams.  </p>\n<p> The lock has a display and a keypad that contains only lower case alphabet keys and a backspace button. When Sherlock hits the keys, the text is shown in the display and when he fills the display with M characters, the lock will automatically check if the typed in text is an anagram of the expected password. Then, Sherlock may proceed to type in the next password by removing the last character/characters he has pressed by using the backspace key. When Sherlock has typed in the last password, the lock will release and the safe will open. <br/>  <br />Even if 2 adjacent passwords in the sequence is the same, Sherlock has to hit the backspace key and retype the last character again to make the lock accept both the passwords. </br/></p>\n<p> Sherlock finds this job too tedious for him and he wants to get this done as soon as possible. Can you help him find the minimum number of keystrokes(includes backspaces also) needed to type in all the passwords in the given sequential order?</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of the input has 2 integers N and M denoting the number of password strings and the length of each. <br /> N lines follow, each having a string of M characters. The strings are given in the exact order in which they have to be typed in the keypad.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Print a single integer denoting the minimum number of keys that Sherlock has to press to type in all the pass phrases in the given sequential order.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><strong>1</strong> \u2264 <strong>N</strong> \u2264 <strong>700</strong></li>\n<li><strong>1</strong> \u2264 <strong>M</strong> \u2264 <strong>700</strong></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong>\n3 3 \naab\naac\nbde\n\n<strong>Output:</strong>\n11\n</pre><p>\u00a0</p>\n<pre><strong>Input:</strong>\n2 3\nabc\ncba\n\n<strong>Output:</strong>\n5<br />\n</pre><p><span style=\"font-size: 12px; font-weight: bold;\">Explanation</span></p>\n<p>For the first test case, Sherlock has to type in the following sequence of characters a, a, b, &lt;-, c, &lt;-, &lt;-, &lt;-, b, d, e thereby typing in 11 characters.(&lt;- denotes the backspace key)</p>\n<p>In the second test case, Sherlock can follow the sequence a, b, c, &lt;-, c to type in all the pass phrases.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-03-2014",
+    "is_direct_submittable": false,
+    "contest_name": "ByteCode 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1394290800,
+        "end_date": 1394308800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1394308800,
+        "submit_start_date": 1394290800,
+        "current": 1537437720
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>vshriram93</span>",
+    "problem_name": "Crack the Safe",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vshriram93'>vshriram93</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vshriram93",
+    "contest_code": "BTCD2014",
+    "max_timelimit": "4",
+    "problem_code": "BTCD14H"
+}

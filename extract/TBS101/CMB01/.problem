@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nReversed number is a number written in arabic numerals but the order of digits is reversed.\n\nThe first digit becomes last and vice versa. For example, if the number is 1245,it will become\n\n5421 .Note that all the leading zeros are omitted. That means if the number ends with a zero, \n\nthe zero is lost by reversing (e.g. 1200 gives 21). Also note that the reversed number never has\n\nany trailing zeros. Your task is to add two reversed numbers and output their reversed sum. Of \n\ncourse, the result is not unique because any particular number is a reversed form of several \n\nnumbers (e.g. 21 could be 12, 120 or 1200 before reversing). Thus we must assume that no zeros \n\nwere lost by reversing (e.g. assume that the original number was 12).\n\n\n<h3>Input</h3>\n<p>\nThe input consists of N cases (equal to about 10000). The first line of the input contains \n\nonly positive integer N. Then follow the cases. Each case consists of exactly one line with \n\ntwo positive integers separated by space. These are the reversed numbers you are to add.\n\n\n\n<h3>Output</h3>\n<p>\nFor each case, print exactly one line containing only one integer - the reversed sum of \n\ntwo reversed numbers. Omit any leading zeros in the output.\n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n24 1\n\n<b>Output:</b>\n34\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Technical Blitzschlag",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1264876200,
+        "end_date": 1264962600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180169,
+        "submit_start_date": 1264876200,
+        "current": 1537439766
+    },
+    "problem_author_html_handle": "vishesh_sigma",
+    "problem_name": "Problem 1",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vishesh_sigma'>vishesh_sigma</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vishesh_sigma",
+    "contest_code": "TBS101",
+    "max_timelimit": "50",
+    "problem_code": "CMB01"
+}

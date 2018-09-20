@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Alex, Will, Joel, Neha, and George are having a poker night to celebrate a successful hackathon.  However, the last poker night they had was ruined when one of their guests cheated making his hands the best, regardless of what the rules actually said.  In other words, he said that his pair of 2s beat Will's royal flush.  This time, they have decided to let a computer decide who wins.  Write a program that will take a person's name and their hand, and output who wins.<br />\n.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>A list of Ids and their hands terminating with -1.<br />\nEach id will be an int.  Each hand will have 5 cards.  Each card will be represented with a letter and number.  H1 = Ace of hearts, D5 = 5 diamonds, C10 = Club Jack, etc</p>\n<h3>Output</h3>\n<p>The id of the winner.</p>\n<p>Tips:</p>\n<ul>\n<li><a href = http://www.wsop.com/poker-hands/>Here  </a> is a website that lists all the poker hands .</li>\n<li>You don't need to check to see if two people have the same cards</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1 H1 D1 S1 C1 D6\n2 H1 D3 C5 D7 S8\n3 H1 D1 S1 D8 C8\n4 H3 H4 H5 H6 H7\n-1\n\n<b>Output:</b>\n4\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> ...</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Replay of Pitt CSC - University of Pittsburgh ",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1427301000,
+        "end_date": 1427311800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1427311800,
+        "submit_start_date": 1427301000,
+        "current": 1537436494
+    },
+    "problem_author_html_handle": "pwf7",
+    "problem_name": "Poker Night",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pwf7'>pwf7</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pwf7",
+    "contest_code": "PITTCS15",
+    "max_timelimit": "10",
+    "problem_code": "PCSC5"
+}

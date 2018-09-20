@@ -1,0 +1,33 @@
+{
+    "problem_code": "MOUSCH01",
+    "problem_author": "bhawnamait",
+    "contest_name": "Infinite Loop",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>bhawnamait</span>",
+    "problem_name": "Magical Transformation",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "INLO2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bhawnamait'>bhawnamait</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Irfan and his brother Yusuf were looking at photographs of their vacation to Hawaii. Irfan noticed something interesting. He noticed that if their aunt Mansi had a big beard and a moustache she would resemble their uncle Amit. He tried to modify the people in other photographs in such a way so that they would resemble someone else. Yusuf who was into programming decided to do something similar with strings. He wrote down 2 words and tried to transform one word into another.</p>\n<p>He decided that the operations that maybe performed on the strings could be: Inserting a character at any position, removing an existing character, modifying an existing character and swapping 2 adjacent characters. Each operation is counted as one move. While doing this he noticed that there is more than one way to complete this transformation. He wants your help to write a program that can find out the minimum number of moves required transform a given word into another given word.</p>\n<h3>Input</h3>\n<ul>\n<li>The first line contains a single integer\u00a0T , the number of test cases.\u00a0T\u00a0test cases follow.</li>\n<li>The only line of each test case contains 2 strings (contains only lower case letters), separated by a single space.</li>\n</ul>\n<h3>Output</h3>\n<p>For each test case, output a single line containing an integer which denotes the minimum number of moves required transform a given word into another given word.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>|S|</b> \u2264 <b>100</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\nsmatr smart\n\n<b>Output:</b>\n1\n</pre>",
+    "category_name": "main",
+    "date_added": "7-04-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/MOUSCH01",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1429767000,
+        "end_date": 1429983000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1429983000,
+        "submit_start_date": 1429767000,
+        "current": 1537436353
+    },
+    "user": {
+        "username": ""
+    }
+}

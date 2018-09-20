@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Sonu , Titu and Sweety were three friends in which  sonu is mutual friend to both Titu and Sweety.<br>From very Beginning of their friendship titu as well sweety use to like eachother alot but both didn't have any courage to confess their love.<br>\nTitu always used to write some encrypted letter and thought to give her at right moment.<br>\nI.e he XOR each letter of the msg with its index value . seeing this sonu made a plan of uniting both the lovers.<br>\nSonu was found of polynomial functions and he further more wants to encrypt the message so that only sweety could decrypt it. <br>\nSo he took a polynomial function i.e Ax+Bx+C where A,B,C are key values and x is the secret message need to be read only by sweety.<br>\nSweety knew something was going on. So she decided to talk to sonu as he being mutual of both.<br>\nOn having conversation he just gave him a key value 'A' saying its a encrypted value which will be decrypted only If you put your value ' C'  with titu value 'B' in the function with each character of message which could be a repetitive process for getting complete message.<br>\nTo make that message clear to her she invited titu for a date where she...<br>Somehow managed to convenience titu to give her the key value 'B' along with the encrypted letters.<br>\nHelp Sweety to decrypt and encrypt messages  <br>\n<br>\nInput Format<br><br>\nFirst line of input contains t i.e no of test cases<br>\nSecond line contains \"case\" either 1 (for encription )\nor 0 (for Description)<br>\nThird line of input contains values of  A,B,C and if case is 0 then it also contains N (i.e no  of encrypted numbers)<br>\nForth line contains message for case 1 and encrypted numbers for case 0<br><br>\nOutput Format <br><br>\nPrint Encrypted/Decrypted message depending on case<br><br>\n\nSample input<br><br>\n\n2<br>\n1<br>\n23 15 62<br>\nAvenir<br>\n0<br>\n11 35 15 10<br>\n3556 4479 5256 5447 4656 4977 3972 5297 3150 3091<br>\n<br><br>\nSample Output<br>\n<br>\n2533 4544 3903 4246 4049 4396<br>\nMarvelVsDC<br>\n<br>\nExplanation Test Case 1:<br><br> Putting each character of message in function f(x)=Ax+By+C and getting 1st level of encryption .<br><br>\nDoing XOR with each f(x) to get next level of encryption <br><br>\n23 * ( 'A') + 15 * ( 'A' ) + 62 = 2532<br>\n2532 XOR 1 = 2533<br><br>\n23 * ( 'v') + 15 * ( 'v' ) + 62 = 4546<br>\n4546 XOR 2 = 4544<br>\n23 * ( 'e') + 15 * ( 'e' ) + 62 = 3900<br>\n3900 XOR 3 = 3903 ... <br><br>\n\nExplanation Test Case 2:<br><br> Performing XOR with each number of encrypted message <br>\nPutting each character of message in function f(x)=Ax+By+C and getting decrypted msg<br><br>\n\n3556  XOR 1 = 3557<br>\n11 * x + 35 * x + 15 = 3557<br>\n x =  'M'<br>\n<br>\n4479  XOR 2 = 4477<br>\n11 * x + 35 * x + 15 = 4477<br>\n x =  'a'<br>\n<br>\n5256  XOR 3 = 5259<br>\n11 * x + 35 * x + 15 = 5259<br>\n x =  'r'<br>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "9-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "AVENIR-ENCODING",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1523691000,
+        "end_date": 1523701800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1523701800,
+        "submit_start_date": 1523691000,
+        "current": 1537432623
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>pro_vipul</span>",
+    "problem_name": "Encoded Message",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pro_vipul'>pro_vipul</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pro_vipul",
+    "contest_code": "AVEN2018",
+    "max_timelimit": "1",
+    "problem_code": "AVN18ENC"
+}

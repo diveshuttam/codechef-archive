@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The Dystopian government has installed a giant fountain in front of the parliament building. The fountain consists of N levels stacked one on top of the other and is situated on top of a large tank of infinite capacity. The levels of the fountain are numbered 1 to N from top to bottom. The top l<sub>1</sub> levels are identical with capacity c<sub>1</sub>, the next l<sub>2</sub> levels identical with capacity c<sub>2</sub>,... the final l<sub>K</sub> levels with capacity c<sub>K</sub>. Here l<sub>1</sub> + l<sub>2</sub> + ... l<sub>K</sub> = N.\n\n</p><p>When water is added to level i beyond its capacity, the excess water overflows to level i+1. Water overflowing from level N is collected in the tank. Water is added to the levels in the following fashion. First, w<sub>1</sub> amount of water is added to each level i such that s<sub>1</sub> \u2264 i \u2264 e<sub>1</sub>. Then w<sub>2</sub> amount of water is added to each s<sub>2</sub> \u2264 i \u2264 e<sub>2</sub>... Finally w<sub>M</sub> amount is added to s<sub>M</sub> \u2264 i \u2264 e<sub>M</sub>. Note that water might be added to the same level multiple times in this fashion.\n\nYou have to find out the amount of water that has overflowed to the tank at the bottom, and the total number of levels of the fountain that are completely filled\n\n<h3>Input</h3>\n</p><p>The first line of the input contains T (\u226410), the number of test cases. Following this are the descriptions of the test cases.\n</p><p>The first line of the description of a test case contains space separated integers N (\u22642x10<sup>8</sup>), K (\u22642000) and M (\u226410<sup>4</sup>). Following this are K lines, each containing a space separated pair of integers. These are the (l<sub>i</sub>,c<sub>i</sub>) pair as explained in the problem statement. Here l<sub>1</sub> + l<sub>2</sub> + ... l<sub>K</sub> = N and c<sub>i</sub> \u2264 10<sup>8</sup>. This is followed by M lines, each containing a space separated triplet of integers. These are (s<sub>i</sub>,e<sub>i</sub>,w<sub>i</sub>) as explained in the problem statement. 1 \u2264 s<sub>i</sub> \u2264 e<sub>i</sub> \u2264 N and w<sub>i</sub> \u2264 10<sup>6</sup>\n\n<h3>Output</h3>\n</p><p>For each test case output a space separated pair of integers : The total amount of water that has overflowed to the tank and the number of levels of the fountain that are completely filled.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n10 2 1\n5 6\n5 3\n3 9 5\n\n<b>Output:</b>\n5 5\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "IIT Kanpur IOPC 2011",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1297492200,
+        "end_date": 1297578600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1297578600,
+        "submit_start_date": 1297492200,
+        "current": 1537439374
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>razimantv</span>",
+    "problem_name": "Giant fountain",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/razimantv'>razimantv</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "razimantv",
+    "contest_code": "IOPC2011",
+    "max_timelimit": "0.30303",
+    "problem_code": "IOPC1111"
+}

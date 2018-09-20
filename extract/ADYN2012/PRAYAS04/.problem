@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Vicky plans to visit Vickyland. Vickyland is a strange state where a city can be connected either by roads to one or more cities(including itself) or can be completely isolated from other cities. While examining the map of Vickyland a very strange and interesting idea came to his mind. He defines 2 cities <b>A</b> and <b>B</b> to form an exclusive pair of cities if and only if for every other vertex <b>C</b>, either <b>A</b> and <b>B</b> both are connected to <b>C</b> or none of them are connected to <b>C</b>. By connected Vicky means that two cities a and b are connected if there exist a sequence of roads from a to b.  Now Vicky hopes to determine the number of pairs of exclusive cities in Vickyland. Help him calculate the number of such pairs mod <b>10^9 + 7</b>.\n\n<h3>Input</h3>\n<p>The first line consists of the number of test cases <b>T</b>, followed by a blank line followed by <b>T</b> test cases. Each test case is separated from the previous one by a blank line.\nThe first line of each test case contains two space separated integers, <b>n</b> &ndash; the number of cities in Vickyland and <b>m</b> &ndash; the number of roads in Vickyland. Next follows <b>m</b> lines, the <b>i</b>th of these lines containing two space separated integers <b>xi</b> and <b>yi</b>, specifying that the <b>i</b>th road connects <b>xi</b> to <b>yi</b>. The cities are numbered from <b>0</b> to <b>(n &ndash; 1)</b>.\nIt is guaranteed that each unordered pair of cities <b>(xi, yi)</b> occurs no more than once.\n\n\n<h3>Output</h3>\n<p>For each test case print the single integer - the number of unordered pairs of cities that are exclusive mod 10^9 + 7, on a separate line.\n\n<h3>Constraints</h3>\n<pre>\nT <= 10\n1 <= n <= 500\n0 <= m <= n(n-1)/2\n</pre>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n\n3  0\n\n4 1\n1 3\n\n<b>Output:</b>\n3\n2\n\n</pre>\n<b>Explanation:</b>\n<p>For the second test case, the pairs of cities that are exclusive are (1,3) and (0,2). So a total of 2 pairs.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-03-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Adhyayan 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1332333000,
+        "end_date": 1332354600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1332354600,
+        "submit_start_date": 1332333000,
+        "current": 1537438855
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>the123abhishek</span>",
+    "problem_name": "Exclusive Cities",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/the123abhishek'>the123abhishek</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "the123abhishek",
+    "contest_code": "ADYN2012",
+    "max_timelimit": "0.17341",
+    "problem_code": "PRAYAS04"
+}

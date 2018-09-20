@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0It's a rainy day and Vignesh and Aravind are stuck inside watching the rain. They decide to invent a game, the rules for which are described below.</p>\n<p>Given array A containing <b>n</b> integers, they take turns making a single move. Both players are moving optimally (playing to win and making no mistakes).</p>\n<p>During each move, the current player chooses one element from A, adds it to their own score, and deletes the element from A; because the size of A decreases by 1 after each move, A's size will be 0 after n moves and the game ends (as all elements were deleted from A). We refer to Vignesh's score as <b>Sv</b> and Aravind's score as <b>Sa</b>. Aravind wins the game if <b>|Sa-Sv|</b> is divisible by <b>7</b>; otherwise Vignesh wins.</p>\n<p><b>Given A, determine the winner.</b>\n</p>\n<h3>Input</h3>\n<p>The first line contains an integer, <b>T</b>, denoting the number of test cases.<br />\nEach test case is comprised of two lines; the first line has an integer n, and the second line has n space-separated integers a0,a1,\u2026,an\u22122,an\u22121 describing array a.\n</p>\n<p>Note:Sa+Sv=a0+a1+...+an\u22122+an\u22121.\n</p>\n<h3>Output</h3>\n<p>For each test case, print the winner's name on a single line; if Vignesh wins print Vignesh, otherwise print Aravind.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>a[i]</b> \u2264 <b>2000</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>200</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2 \n3\n7 6 18\n1\n7\n\n<b>Output:</b>\nVignesh\nAravind\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>(Assuming Vignesh plays first, without loss of generality)<br />\n<br /><br />\n<b>Test Case 1</b></p>\n<p>Array A={7,6,18}. The possible play scenarios are:</p>\n<p>Sv=13, Sa=18, |Sv\u2212Sa|=5, and 5%7\u22600.</p>\n<p>Sv=24, Sa=7, |Sv\u2212Sa|=17, and 17%7\u22600.</p>\n<p>Sv=25, Sa=6, |Sv-Sa|=19, and 19%7\u22600.</p>\n<p>In this case, it doesn't matter what Vignesh chooses because the difference between their scores isn't divisible by 7. Thus, Vignesh wins.<br />\n<br /><br />\n<b>Test Case 2</b></p>\n<p>Array a={7}. Vignesh must choose that element, the first move ends the game.</p>\n<p>Sv=7, S=0, |Sa\u2212Sv|=7, and 7%7=0. Thus, Aravind wins.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "SOPC 2.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1452699000,
+        "end_date": 1452706200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1452706200,
+        "submit_start_date": 1452699000,
+        "current": 1537435649
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>venkatchandran</span>",
+    "problem_name": "Rainy Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/venkatchandran'>venkatchandran</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "venkatchandran",
+    "contest_code": "SOPC1602",
+    "max_timelimit": "0.001",
+    "problem_code": "OPC1601"
+}

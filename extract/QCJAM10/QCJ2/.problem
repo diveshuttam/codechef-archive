@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>There is a war going on between two countries and the enemy of your country depends heavily on the transportation of Weapons between two strategic points A and B. Point A and point B along with other points (C,D, etc... ) are connected by a network of roads. Disrupting all traffic between points A and B will give your country sufficient time to gather valuable resources. Since your country has only one bomb left you can only destroy one road. Your Mission should you choose to accept it is to identify all roads that may be destroyed in order to restrict all traffic between the points A and B. The Enemy has nearly destroyed us and hence if we are to win this war then finding that road is critical.\n\n<h3>Input</h3>\n<p>In the input each point is identified by a single upper-case alphabet ( maximum of 26 ).Each line of input identifies a pair of points connected by a road. Input ends with the line containing the string \"END\" (quotes for clarity). All roads are bi-directional and more over there is at most one road between any two points.\n\n<h3>Output</h3>\n<p>Output all roads such that blowing any one of them will halt all traffic between points A and B. Note that the roads should be sorted according to order in which they are listed in the input (Check sample test case).\nIf no such road exists then output should be \"Too Bad, We Lose\" (quotes for clarity).\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\nAC\nAD\nAE\nCE\nCF\nED\nGF\nBG\nHB\nGH\nEND\n\n\n<b>Output:</b>\nCF\nGF\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Quark 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1264926600,
+        "end_date": 1264947300,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180171,
+        "submit_start_date": 1264926600,
+        "current": 1537439779
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>abhijith</span>",
+    "problem_name": "ROAD BOMBING",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhijith'>abhijith</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abhijith",
+    "contest_code": "QCJAM10",
+    "max_timelimit": "0.43",
+    "problem_code": "QCJ2"
+}

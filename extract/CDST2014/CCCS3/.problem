@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><big></big></p>\n<p>There is an infinite binary tree which has following structure:</p>\n<pre>\n                                        3\n                         /                              \\\n                     6\t   \t\t                  8\n               /          \\                        /           \\\n        11\t\t   13\t             15\t          17\n     /      \\            /      \\          /       \\             /     \\\n20\t   22\t    24         26\t 28  \t    30       32    34\n...</pre><p>This tree has a formula to get each node\u2019s value. Base of the formula is even binary tree which is infinite tree made of even numbers with root node 2.<br />\nRoot node\u2019s level is 1 and level of its child nodes is 2 and so on.<br />\nBased on value of node in even tree and its level; above tree is formed</p>\n<p></p>\n<h3>Input</h3>\n<p><big></big></p>\n<p>First line of input contains a number T, which is total number of test cases.<br />\nFollowing T lines contains a number N.</p>\n<p></p>\n<h3>Output</h3>\n<p><big></big></p>\n<p>For every test case, output a single line containing either NO, LEFT or RIGHT.<br />\nOutput NO if the number N is not in the tree.<br />\nOutput LEFT if the number is in the tree and its left child of its parent node.<br />\nOutput RIGHT if the number N is in the tree and its right child of its parent node.</p>\n<p></p>\n<h3>Constraints</h3>\n<p><big></big></p>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>4</b> \u2264 <b>N</b> \u2264 <b>10^7</b></li>\n</ul>\n<p></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<big>\n3\n39\n16\n70\n</big>\n<b>Output:</b>\nRIGHT\nNO\nLEFT\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><big></big></p>\n<p><b>For 34, Its in the tree and its right child of 20.</b></p>\n<p>16 is not in the tree, hence output is NO.</p>\n<p>70 is left child of 37, so output is LEFT.</p>\n<p></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-09-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeStrike 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, PIKE, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, JS, ERL, PERL6, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1411462800,
+        "end_date": 1411468200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1411468200,
+        "submit_start_date": 1411462800,
+        "current": 1537437419
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>aagg</span>",
+    "problem_name": "Not So Even Tree",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aagg'>aagg</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "aagg",
+    "contest_code": "CDST2014",
+    "max_timelimit": "0.1",
+    "problem_code": "CCCS3"
+}

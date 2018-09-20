@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Gurprem and crackers </p>\n<p>Problem description.</p>\n<p>Gurprem has <b>N</b> packets, and each packet contains certain non zero number of crackers. The packets are numbered from 1 to N.<br />\nGurprem is planning to go to his cousins house to burst these crackers on the day of Diwali. He loves bursting crackers and wants to burst maximum number of crackers. But Gurprem\u2019s mother tells him that he cannot burst more than <b>K</b> crackers as they cause a lot of air and noise pollution. So now he can carry exactly K number of crackers in total and he can carry only 2 packets (1 packet in each hand). So he wants to know the number of ways in which he can select 2 packets such that total number of crackers in them is <b>K</b>.\n </p>\n<h3>Input</h3>\n<p>Input description.</p>\n\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li> First line contains the number of packets <b>N</b></li>\n<li>The next line has <b>N</b> space separated integers where the i th integer is the number of crackers in the i th packet</li>\n<li>Next line contains the value of <b>K</b>.\n</li>\n</ul>\n\n<h3>Output</h3>\n<p>Output description.</p>\n<p>Tips:</p>\n<ul>\n<li>For each test case, output a single line containing the number of ways in which he can select the packets.<br />\n.</li>\n</ul>\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>Number of crackers in i th packet</b> \u2264 <b>100</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n5\n1 2 3 4 3\n6\n5\n1 1 1 1 1\n2\n5\n1 5 3 3 3\n6\n\n\n<b>Output:</b>\n2\n10\n4\n\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-11-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Codetrix II",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1417014000,
+        "end_date": 1417021200,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1417021200,
+        "submit_start_date": 1417014000,
+        "current": 1537437207
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>harsimran_hs4</span>",
+    "problem_name": "Gurprem and crackers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/harsimran_hs4'>harsimran_hs4</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "harsimran_hs4",
+    "contest_code": "CDTR2014",
+    "max_timelimit": "1",
+    "problem_code": "CDTR04"
+}

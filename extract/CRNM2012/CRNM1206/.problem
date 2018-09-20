@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">\n<b>Note: This is a partial problem.The shortest source code length will receive 1 point and all others will receive relative points. </b>\n<br /><br />\nPeepu and Sudu had a fight over coffee for who is going to donate how much land so that Uncle Sam can do farming. Actually, Uncle Sam is facing financial crunch, and so he had to sell his farming land in order to pay his debts. Uncle Sam needs X sq. units of area to do farming. It can either be single big farms of area X sq. units or it can be two disjoint square farms of side P and S such that combined area of these two farms is equal to X. Now Peepu and Sudu are not able to decide because they don\u2019t know what possibilities they have. Can you please help them find the number of ways they can select P (side of Square Farm land taken from Peepu\u2019s Farm land for donation) and S (side of Square Farm land taken from Sudu\u2019s Farm land for donation) such that the farm land they donate have a combined area of X sq. units. Since Peepu is Sudu\u2019s girlfriend, Sudu does not want Peepu\u2019s donation (P) to be greater than Sudu\u2019s donation (S).\n\nAssume that \"X\" will always be a product of numbers &lt;= 20.\n\n<h3>Input</h3>\n</p><p>First line contains <b>T</b>, the number of test cases.\nNext <b>T</b> lines contain <b>T</b> integers, one per line, and each representing the requirement of Uncle Sam <b>X</b>.\n\n\n<h3>Output</h3>\n</p><p>Output T lines each containing the number of pairs of (P,S) such that their square adds up to X keeping in mind that Peepu\u2019s donation (P) cannot be greater than Sudu\u2019s donation (S). If they cannot donate square Farm lands, then output 0.\nNote that Peepu\u2019s minimum donation can be 0.\n\n<h3>Constraints</h3>\n</p><p>\nT&lt;=100<br />\n1&lt;=X&lt;=10^30\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n5\n6\n25\n\n<b>Output:</b>\n1\n0\n2\n</pre>\n<br />\n<pre>\n<b>Explanation</b>\nFor TestCase 3:\nThere are two possible pairs of (P,S) i.e (15,20) and (7,24).\n\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Cranium Contest 2012",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1329831900,
+        "end_date": 1329860700,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1329860700,
+        "submit_start_date": 1329831900,
+        "current": 1537438967
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>abhidce2013</span>",
+    "problem_name": "The FarmLand Ways",
+    "source_sizelimit": "2000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhidce2013'>abhidce2013</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abhidce2013",
+    "contest_code": "CRNM2012",
+    "max_timelimit": "0.264",
+    "problem_code": "CRNM1206"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": "laycurse",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Read problems statements in <a href=\"/download/translated/FEB14/mandarin/LMATRIX.pdf\" target=\"_blank\">Mandarin Chinese </a> and <a href=\"/download/translated/FEB14/russian/LMATRIX.pdf\" target=\"_blank\">Russian</a>.</h3>\r\n<p>Aleksandra is the most popular girl in the city. Each boy can only dream about dating with her. Other girls want to be like she.</p>\r\n<p>Aleksandra is going to find boyfriend. Of course such a beauty needs someone special. That's why she is going to announce a quiz. Even you can try your chances. Apart from boys, girl loves math. That's why this quiz is going to be mathematical.</p>\r\n<p>Girl has a matrix with <b>N</b> rows and <b>M</b> columns whose each element is from <b>0</b> to <b>4</b> inclusive. Let <b>A<sub>i,j</sub></b> be the <b>j</b><sup>th</sup> element of the <b>i</b><sup>th</sup> row. She likes <b>0</b>, so she is going to get rid of all non zero numbers. In each turn she'll choose four integers:</p>\r\n<ul>\r\n<li><b>1 \u2264 x<sub>1</sub> \u2264 x<sub>2</sub> \u2264 N</b></li>\r\n<li><b>1 \u2264 y<sub>1</sub> \u2264 y<sub>2</sub> \u2264 M</b></li>\r\n</ul>\r\n<p>and after for all pairs <b>(i,j)</b> such that:</p>\r\n<ul>\r\n<li><b>x<sub>1</sub> \u2264 i \u2264 x<sub>2</sub></b></li>\r\n<li><b>y<sub>1</sub> \u2264 j \u2264 y<sub>2</sub></b></li>\r\n</ul>\r\n<p>do the following:</p>\r\n<ul>\r\n<li><b>A<sub>i,j</sub> = (1 + A<sub>i,j</sub>) modulo 5</b></li>\r\n</ul>\r\n<p>It takes she a lot of moves to do this. That's why she gives this problem to all boys in the city and promise to go for a date with the one who will solve this task with fewest number of moves.</p>\r\n<p>It is your chance to walk with such a wonderful girl. Just use it!</p>\r\n<h3>Input</h3>\r\n<p>The first line contains two space-separated integers <b>N</b> and <b>M</b>, denoting the size of the matrix. Then the <b>i</b><sup>th</sup> line of the next <b>N</b> lines contains <b>M</b> space-separated integers <b>A<sub>i,1</sub></b>, <b>A<sub>i,2</sub></b>, ..., <b>A<sub>i,M</sub></b>.</p>\r\n<h3>Output</h3>\r\n<p>In the first line, print the integer <b>Q (0 \u2264 Q \u2264 5 * N * M)</b>, denoting the number of the moves for erasing all non zero numbers from the matrix. In the <b>i</b> th line of the next <b>Q</b> lines, print <b>4</b> space-separated integers <b>x<sub>1</sub></b>, <b>y<sub>1</sub></b>, <b>x<sub>2</sub></b>, <b>y<sub>2</sub></b>, denoting the submatrix chosen by the <b>i</b><sup>th</sup> move.</p>\r\n<p><b>Note: </b>Your solution will be judged as <i>wrong answer</i> if <b>Q</b> is larger then <b>5*N*M</b>.</p>\r\n<h3>Constraints for the official judge data</h3>\r\n<ul>\r\n<li><b>111 \u2264 N, M \u2264 222</b></li>\r\n<li><b>0 &lt;=</b> <b>A<sub>i,j</sub> &lt;= 4 </b></li>\r\n</ul>\r\n<h3>Example</h3>\r\n<pre><b>Input:</b>\r\n2 2\r\n4 4\r\n0 4\r\n\r\n<b>Output:</b>\r\n5\r\n2 1 2 1\r\n2 1 2 1\r\n2 1 2 1\r\n2 1 2 1\r\n1 1 2 2\r\n\r\n</pre>\r\n<h3>Scoring</h3>\r\n<p>For each test file, your score is calculated as <b>100 \u00d7 Q / (N \u00d7 M)</b>. Then the total your score is defined as the average of your score for the test files (see the next paragraph, for more details). The aim for this problem is to minimize the total your score.</p>\r\n<p>We have <b>40</b> official test files. You must correctly solve all test files to receive <i>accepted</i>. During the contest, the scores of the last <b>30</b> test files are <b>0</b>, that is, the total your score is calculated by only  the first <b>10</b> tests. After the contest, all solutions will be rescored by the average of the scores of the all <b>40</b> test files, and it will be the final score.</p>\r\n<h3>Test generation</h3>\r\n<p>In the official test file, <b>N</b> and <b>M</b> are choosing uniformly and randomly from <b>[111, 222]</b>. Each <b>A<sub>i,j</sub></b> is chosen randomly from <b>0</b> to <b>4</b> inclusive.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-09-2013",
+    "is_direct_submittable": false,
+    "contest_name": "February Challenge 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1391765400,
+        "end_date": 1391967000,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1392629400,
+        "submit_start_date": 1391765400,
+        "current": 1537437814
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>ballon_ziq</span>",
+    "problem_name": "Make It Zero",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ballon_ziq'>ballon_ziq</a>",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>laycurse</span>",
+    "problem_author": "ballon_ziq",
+    "contest_code": "FEB14",
+    "max_timelimit": "1",
+    "problem_code": "LMATRIX"
+}

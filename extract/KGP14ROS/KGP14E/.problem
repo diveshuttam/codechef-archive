@@ -1,0 +1,33 @@
+{
+    "problem_code": "KGP14E",
+    "problem_author": "admin3",
+    "contest_name": "ACM-ICPC Asia-Kharagpur Onsite Contest 2014, Replay",
+    "todo": false,
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Robot Movement",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "KGP14ROS",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>, <a class='problem-tag-small ' href='/tags/problems/kgp14ros'>kgp14ros</a>, <a class='problem-tag-small ' href='/tags/problems/maths'>maths</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Consider a <b>K</b>&times;<b>K</b> square made of <b>K<sup>2</sup></b> unit squares. The center of the lowermost, leftmost unit square has coordinates (0, 0) and the center of the rightmost, uppermost unit square has coordinates ((<b>K</b>-1), (<b>K</b>-1)). Consider a robot that can move only in a straight line and cannot change its direction once it starts moving. If the robot starts from the center (p,q) of a unit square to retrieve an object from the center (r,s) of another unit square, what is the number of unit squares it has to pass through? Note that touching any boundary point on a unit square also counts as passing through that unit square.</p>\n    \n\n<h3>Input</h3>\n<p>The first line contains the number of test cases <b>N</b> (0 &lt; <b>N</b> &le; 3).</p>\n<p>For each test case, the first line contains <b>K</b> (1 &lt; <b>K</b> &le; 10000), the dimension of the grid. The second line contains the x and y coordinates (in that order, separated by one or more spaces) of the starting point of the robot. The third line contains the x and y coordinates (in that order, separated by one or more spaces) of the destination point of the robot.</p>\n\n<h3>Output</h3>\n<p>For each test case, in the first line, print the case number, followed by a colon, followed by a single space, followed by a single integer indicating estimated minimum travel time.</p>\n\n\n<h3>Sample Input</h3>\n<pre>\n3 \n8 \n0 7 \n3 0 \n8 \n1 0 \n7 1 \n8 \n3 3 \n7 7\n</pre>\n\n\n<h3>Sample Output</h3>\n<pre>\nCase 1: 12\nCase 2: 8\nCase 3: 13\n</pre>",
+    "category_name": "main",
+    "date_added": "18-12-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/KGP14E",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1419424200,
+        "end_date": 1419442200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1419442200,
+        "submit_start_date": 1419424200,
+        "current": 1537437041
+    },
+    "user": {
+        "username": ""
+    }
+}

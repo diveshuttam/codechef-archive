@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Little Rohu from Pluto is the best bomb defusor on the entire planet. She has saved the planet from getting destruced multiple times now. Of course, she's proud of her achievments. But, to prepare herself for more complicated situations, she keeps challenging herself to handle tricky tasks.</p>\n\n\n<p>Her current challenge involves the following things:</p>\n\n<ul>\n  <li>A square matrix of the form <b>N*N</b>.  </li>\n  <li><b>B</b> bombs planted at various cells of the square matrix.</li>\n  <li>There can be multiple bombs at a given cell. </li>\n  <li>Only the four corners of the square matrix have a bomb defusor, so if a bomb is moved to any one of the four corners, it will be defused.</li>\n</ul>\n\nFrom a given cell, any bomb can be moved in all the four directions, North, South, East, West respectively.\n\nRohu is given the number of bombs and the dimensions of the square matrix she's going to be dealing with, you've to help her figure out the <b>minimum</b> number of moves required to defuse all the bombs.\n<br><br>\n\n<p><b>Note-1:</b> She's not going to enter the matrix, she's just going to move the bombs from outside. </p>\n\n<p><b>Note-2:</b> The matrix is 1-indexed. </p>\n\n\n<h3>Input</h3>\n<ul>\n<li>The first line of each test case contains two integers <b>N</b>, denoting the dimension of the square matrix, and <b>B</b> denoting the number of bombs. This will be followed by two lines, where the first line will denote the x-coordinate of all the bombs, and the second line will denote the y-coordinate of all the bombs. x[0], y[0] will be the position of the first bomb, ... , x[B-1], y[B-1] will be the position of the <b>B</b>th bomb.</li>\n</ul>\n\n\n<h3>Output</h3>\n<ul>\n<li>Output a single line containing the minimum number of moves required.</li>\n</ul>\n\n<h3>Subtasks</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N, B</b> \u2264 <b>100000</b></li>: 50 points\n<li><b>1</b> \u2264 <b>N, B</b> \u2264 <b>1000</b></li>: 30 points\n<li><b>1</b> \u2264 <b>N, B</b> \u2264 <b>10</b></li>: 20 points\n</ul>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N, B</b> \u2264 <b>100000</b></li>\n</ul>\n\n<h3>Example 1</h3>\n<pre><b>Input:</b>\n3 3\n1 2 3\n3 2 1\n\n<b>Output:</b>\n2\n</pre>\n<h3>Example 2</h3>\n<pre><b>Input:</b>\n2 1\n1\n1\n\n<b>Output:</b>\n0\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1:</b>Only the bomb at {2,2} needs to be moved in two steps.</p>\n<p><b>Example case 2:</b>No bomb needs to be moved anywhere.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "August LoC Competitive Programming Marathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1472794252,
+        "end_date": 1473100140,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1473100140,
+        "submit_start_date": 1472794252,
+        "current": 1537434640
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>belowthebelt</span>",
+    "problem_name": "Moves like a jagger",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/belowthebelt'>belowthebelt</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "belowthebelt",
+    "contest_code": "LOCAUG16",
+    "max_timelimit": "1",
+    "problem_code": "MINMO"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Mr Lathi likes to play with primes.He asked a range,<b>R=[L,U]</b> of numbers from which firstly find the prime numbers,P,that fall in that range.<b>L</b> is the<br />\nlower limit of <b>R</b> and <b>U</b> the upper limit.Then from those prime numbers find all the 5 digit palindrome numbers. 5 digit palindrome numbers can also be created<br />\nby combining <b>N</b> prime numbers which are found previously.The value of N is 2.The palindrome numbers that are formed or are present should also fall within<br />\nthe given range,R.<br />\n\u00a0</p>\n<h3>Input</h3>\n<p>There should be 2 lines of input . </p>\n<p>The 2nd line should be the upper value of the range,U.<br />\nUntill all the constraints are not fulfilled it should ask for the new value for U.\n</p>\n<h3>Output</h3>\n<p>There shoule be one line in the output giving the number of palindromes found.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>width of R</b> \u2264 <b>500000</b></li>\n<li><b>L</b> > <b> -1</b>\n</li><li><b>L</b> \u2264 <b>U</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n999\n200999\n\n<b>Output:</b>\n93\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "CODE BLOODED",
+    "languages_supported": "C, CPP14",
+    "todo": false,
+    "time": {
+        "view_start_date": 1458453600,
+        "end_date": 1458469800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1458469800,
+        "submit_start_date": 1458453600,
+        "current": 1537435065
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rohanraj7316</span>",
+    "problem_name": "Mr Lathi and his Numbers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rohanraj7316'>rohanraj7316</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rohanraj7316",
+    "contest_code": "CLDB2016",
+    "max_timelimit": "1 - 1.57",
+    "problem_code": "CB20Q4"
+}

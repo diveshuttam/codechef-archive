@@ -1,0 +1,147 @@
+{
+    "announcements": "<p><span style=\"font-weight: bold;\">13/02/2014, 02:42 IST : </span><span style=\"color: #333333; font-family: 'Lucida Grande', Arial, sans-serif; font-size: 13px; line-height: 20px; white-space: pre-wrap;\">The test data of problem <a href=\"/FEB14/problems/TWODOGS\">TWODOGS</a> has been updated and the submisisons have been rejudged.</span></p>\r\n<p><span style=\"font-weight: bold;\">10/02/2014, 03:00 IST : </span><span style=\"color: #333333; font-family: 'Lucida Grande', Arial, sans-serif; font-size: 13px; line-height: 20px; white-space: pre-wrap;\">We have added another problem <a href=\"/FEB14/problems/LMATRIX2\" target=\"_blank\">LMATRIX2</a> in place of </span><span style=\"color: #333333; font-family: 'Lucida Grande', Arial, sans-serif; font-size: 13px; line-height: 20px; white-space: pre-wrap;\">LMATRIX. The submissions to </span><span style=\"color: #333333; font-family: 'Lucida Grande', Arial, sans-serif; font-size: 13px; line-height: 20px; white-space: pre-wrap;\">LMATRIX have been stopped. The submissions made towards solving </span><span style=\"color: #333333; font-family: 'Lucida Grande', Arial, sans-serif; font-size: 13px; line-height: 20px; white-space: pre-wrap;\">LMATRIX will not be considered in the contest. The ranks will be adjusted in a few days to not reflect the submissions made to </span><span style=\"color: #333333; font-family: 'Lucida Grande', Arial, sans-serif; font-size: 13px; line-height: 20px; white-space: pre-wrap;\">LMATRIX. </span></p>\r\n<p><span style=\"font-weight: bold;\">09/02/2014, 23:15 IST : </span><span style=\"color: #333333; font-family: 'Lucida Grande', Arial, sans-serif; font-size: 13px; line-height: 20px; white-space: pre-wrap;\">We have stopped the submissions to the problem LMATRIX. We are updating the problem with new test data and problem statement. This problem has been found to be very similar to another problem used in one of our previous long contests. It is very unfortunate that this has happened. We deeply regret the inconvenience caused. Please wait for our further announcements.</span></p>",
+    "ip": "149.129.135.113",
+    "code": "FEB14",
+    "duration": "14400",
+    "name": "February Challenge 2014",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div> <div><span><span><b>The February Challenge 2014 has ended!</b></span></span></div> <div><span><span><b>The editorials can be found <a target=\"_blank\" href=\"http://discuss.codechef.com/tags/feb14/\">here</a>.</b></span></span></div> <div><span><span><b>All problems have been added to the practice section.</b></span></span></div> <div><span><span><b>Solutions are public for all problems.</b></span></span></div> <div><span><span><b>Winners Blog Post can be found <a href=\"http://blog.codechef.com/2014/04/05/the-long-challenge-of-the-short-month/\">here</a>.</b></span></span></div> <div><span><span><b> </b></span><span><b>All the submissions to the challenge problem will be rejudged.</b></span></span></div> <div><span><span><b><br /></b></span></span></div> </div> <div><b>Rules and Regulations:</b></div> <div> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\">feedback@codechef.com </a>.</li> <li> Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.. Contest problems will become visible on Friday, 7th February 2014 at 15:00 hours IST. Check your timezone <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+February+Challenge+2014&amp;iso=20140207T15&amp;p1=44\">here</a>.</li> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li> Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution</li> <li>You shall not possess more than one account on CodeChef. If you have, then do let us know, so that we can deactivate the insignificant one. If you do not report it and we come to know about it, we may deactivate both the accounts permanently.</li> <li>The score that you will see during the contest will only be partial (obtained on 20% of the test data).</li> <li>The submissions will be re-judged at the end of the contest to get full score (obtained on the whole test data).</li> <li>The number of submissions that one can make during the contest on the problem will be limited to 500.</li> <li>All participants are expected to abide by the\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a></li> <li>Comments during this contest will go for moderation before being published. Only relevant comments will be posted and replied to. We will try and respond to every single comment that seem relevant and unique. Please read the <a href=\"http://discuss.codechef.com/questions/855/what-kind-of-comment-should-i-post-on-the-problem-page\" target=\"_blank\">guidelines</a> before posting your comment.</li> <p><b>Note: As a contestant, you are responsible for making sure others don't access the code that you submit. If you're on a network or shared computer, or using an online development environment, make sure that other contestants don't have access to your code. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</b></p> </ul> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/FEB14/1424957870.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "LMATRIX2": {
+            "allow_submission": false,
+            "name": "Make It Zero 2",
+            "category_name": "main",
+            "accuracy": 56.35,
+            "successful_submissions": "591",
+            "code": "LMATRIX2",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "LMATRIX": {
+            "allow_submission": false,
+            "name": "Make It Zero",
+            "category_name": "main",
+            "accuracy": 60,
+            "successful_submissions": "1",
+            "code": "LMATRIX",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "LCPESY": {
+            "allow_submission": false,
+            "name": "Longest Common Pattern",
+            "category_name": "main",
+            "accuracy": 29.02,
+            "successful_submissions": "3697",
+            "code": "LCPESY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DRGHTS": {
+            "allow_submission": false,
+            "name": "Draughts",
+            "category_name": "main",
+            "accuracy": 16.56,
+            "successful_submissions": "904",
+            "code": "DRGHTS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SUBMIN": {
+            "allow_submission": false,
+            "name": "Little Elephant and Subarrays",
+            "category_name": "main",
+            "accuracy": 50.92,
+            "successful_submissions": "2877",
+            "code": "SUBMIN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DAGCH": {
+            "allow_submission": false,
+            "name": "Graph Challenge",
+            "category_name": "main",
+            "accuracy": 7.27,
+            "successful_submissions": "36",
+            "code": "DAGCH",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COLARR": {
+            "allow_submission": false,
+            "name": "Colored Array",
+            "category_name": "main",
+            "accuracy": 20.74,
+            "successful_submissions": "1448",
+            "code": "COLARR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COT5": {
+            "allow_submission": false,
+            "name": "Count on a Treap",
+            "category_name": "main",
+            "accuracy": 3.01,
+            "successful_submissions": "12",
+            "code": "COT5",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TWODOGS": {
+            "allow_submission": false,
+            "name": "Make Him Happy",
+            "category_name": "main",
+            "accuracy": 15.36,
+            "successful_submissions": "1999",
+            "code": "TWODOGS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHSEQ22": {
+            "allow_submission": false,
+            "name": "Chef and Favourite Sequence",
+            "category_name": "main",
+            "accuracy": 19.66,
+            "successful_submissions": "186",
+            "code": "CHSEQ22",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LEMOVIE": {
+            "allow_submission": false,
+            "name": "Little Elephant and Movies",
+            "category_name": "main",
+            "accuracy": 22.02,
+            "successful_submissions": "258",
+            "code": "LEMOVIE",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1392629400,
+        "current": 1537437811,
+        "freezing": 0,
+        "start": 1391765400
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "ICL1805",
+    "problem_author": "likecs",
+    "contest_name": "International Coding League (Rated)",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>likecs</span>",
+    "problem_name": "Raid Systems",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ICL2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/binary-search'>binary-search</a>, <a class='problem-tag-small ' href='/tags/problems/icl2018'>icl2018</a>, <a class='problem-tag-small ' href='/tags/problems/likecs'>likecs</a>, <a class='problem-tag-small ' href='/tags/problems/likecs'>likecs</a>, <a class='problem-tag-small ' href='/tags/problems/medium-hard'>medium-hard</a>, <a class='problem-tag-small ' href='/tags/problems/observations'>observations</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h2>Problem Statement</h2>\n<p>Geneo loves operating sysytems the most in computer science. While going to one of his lectures, he came accross the following problem.</p>\n\n<p>Most of you must be familiar with RAID systems which are used to store data in hard disk in redudant form so as to recover data in case of loses. Chosing which RAID to use depends on use case like memory available, frequency of data loses etc. Some RAID use complete duplication, some use parity and so on. In this problem, we consider our own way to store redundant data of hard disks.</p>\n\n<p>You are provided with <b>N</b> hard disk and <b>N</b> files, each labelled from <b>1</b> to <b>N</b>. Initailly each hard disk <b>i</b> contains the corresponding file <b>i</b> stored in it. After every one hour, the hard disk take backup as follows:</p>\n\n<p>Every hard disk <b>i</b> copies all the files from hard disks (state as in last hour) which have id greater than or equal to it. i.e. from <b>i</b> to <b>N</b>.After this copying, some files might occur multiple times in this hard disk. It deletes all the files which occur even number of times and stores only the files which occurs odd number of times. An example of the above process is below:</p>\n\n<table border=\"1\">\n<tr>\n<td>Time</td> <td>Hard Disk 1</td> <td>Hard Disk 2</td> <td>Hard Disk 3</td> <td>Hard Disk 4</td> <td>Hard Disk 5</td>\n</tr>\n<tr>\n<td>0</td> <td>f1</td> <td>f2</td> <td>f3</td> <td>f4</td> <td>f5</td>\n</tr>\n<tr>\n<td>1</td> <td>f1,f2,f3,f4,f5</td> <td>f2,f3,f4,f5</td> <td>f3,f4,f5</td> <td>f4,f5</td> <td>f5</td>\n</tr>\n<tr>\n<td>2</td> <td>f1,f3,f5</td> <td>f2,f4</td> <td>f3,f5</td> <td>f4</td> <td>f5</td>\n</tr>\n<tr>\n<td>3</td> <td>f1,f2,f5</td> <td>f2,f3</td> <td>f3,f4</td> <td>f4,f5</td> <td>f5</td>\n</tr>\n<tr>\n<td>4</td> <td>f1,f5</td> <td>f2</td> <td>f3</td> <td>f4</td> <td>f5</td>\n</tr>\n</table>\n\n<br />\n\n<p>and so on, where <b>fi</b> denotes that <b>file i</b> was stored in hard disk. Also, assume that files are stored in hard disk in sorted order of their file number.</p>\n\n<p>You need to support 2 type of operations:</p>\n\n<ul>\n<li>Assume every hard disk has initially <b>N</b> slots, where each slot can store one file each. In this space consious world, we would like to know how many slots are available in hard disk <b>x</b> during the <b>y<sup>th</sup></b> hour, so that we can utilise this space for some other storage.</li>\n\n<li>Retrieval of files in efficient manner is also very important. So, we would like to know, which file would be stored in the <b>k<sup>th</sup></b> slot in hard disk <b>x</b> during the <b>y<sup>th</sup></b> hour. In case, that slot is empty, report <b>-1</b> as your answer. This will help us develop a quick mechanism to index files in the memory, an important aspect taken care by the operating system</li>\n</ul>\n\n<h3>Input section</h3>\n<p>The first line contains 2 integers, <b>N</b> and <b>Q</b>, denoting the number of hard disks (or equivalently files) and the number of queries to process.</p>\n\n<p>Each of the next <b>Q</b> lines if one of the following type.</p>\n\n<ul>\n<li><b>1 x y</b>: Query of type 1, asking us to print the number of empty slots in hard disk <b>x</b> during the <b>y<sup>th</sup></b> hour.</li>\n<li><b>2 x y k</b>: Query of type 2, asking us to find the file number stored in the <b>k<sup>th</sup></b> slot in hard disk <b>x</b> during the <b>y<sup>th</sup></b> hour.</li>\n</ul>\n\n<h3>Output section</h3>\n<p>For query of type 1, print number of slots which are empty in hard disk <b>x</b> during the <b>y<sup>th</sup></b> hour.</p>\n\n<p>For query of type 1, print the file number stored in the <b>k<sup>th</sup></b> slot in hard disk <b>x</b> during the <b>y<sup>th</sup></b> hour. In case, that slot is empty, report <b>-1</b> as your answer.</p>\n\n<h3>Input constraints</h3>\n<ul>\n<li>1 \u2264 N \u2264 50000</li>\n<li>1 \u2264 Q \u2264 300000</li>\n<li>1 \u2264 x, k \u2264 N</li>\n<li>0 \u2264 y \u2264 10<sup>9</sup></li>\n</ul>\n\n<h3>Sample Input</h3>\n<pre>\n5 6\n1 3 4\n1 2 1\n1 1 4\n2 4 2 3\n2 4 2 1\n2 3 5 3\n</pre>\n\n<h3>Sample Output</h3>\n<pre>\n4\n1\n3\n-1\n4\n5\n</pre>\n\n<h3>Explanation</h3>\n<p>For details, refer to the table mentioned in the statement above.</p>\n",
+    "category_name": "main",
+    "date_added": "11-02-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/ICL1805",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1519741800,
+        "end_date": 1519750800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1519750800,
+        "submit_start_date": 1519741800,
+        "current": 1537432900
+    },
+    "user": {
+        "username": ""
+    }
+}

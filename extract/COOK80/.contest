@@ -1,0 +1,87 @@
+{
+    "announcements": "<ul>\r\n<li><b>March Cook-Off 2017 has been made unrated.</b></li>\r\n<li><b>The March Cook-Off 2017 has ended!</b></li>\r\n<li>\r\n<p><b>The editorials for the contest can be found\u00a0<a target=\"_blank\" href=\"https://discuss.codechef.com/tags/cook80/\">here</a>.</b></p>\r\n</li>\r\n<li>\r\n<p><b>The problems have been moved to practice section.</b></p>\r\n</li>\r\n<li>\r\n<p><b>Solutions are public for all the problems.</b></p>\r\n</li>\r\n<li>\r\n<p><b>The winners blog will be updated soon.</b></p>\r\n</li>\r\n</ul>\r\n<p><b>22.03.17 12:44 IST</b>: We regret to inform that the March Cook-Off will be unrated. The issue with the testdata in RAINBOW had affected a significant number of the participants, and we feel that this is the least unfair way forward. We are taking steps to make sure that such situations are avoided in the future.</p>\r\n<p><b>00:36 IST</b>: We apologize profusely for the issue in RAINBOW's testdata. We are looking into ways in which we can keep the contest rated as well as fair. We will let you know by tomorrow.</p>\r\n<p><b>00:00 IST</b>: There was an issue with test data of problem RAINBOW, there were some (i, j) such that i != j and c_i, j = 0. It has been corrected. All non-AC submissions have been put to rejudge.</p>\r\n<p><b>23:58 IST</b>: Contest has been extended by 15 minutes.</p>\r\n<p><b>21:58 IST</b>: There were some trailing whitespaces in the testdata of ROBOTG. It has been fixed now. The previous submissions will be re-evaluated after the contest ends. The inconvenience is regretted.</p>",
+    "ip": "149.129.135.113",
+    "code": "COOK80",
+    "duration": "165",
+    "name": "March Cook-Off 2017",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b class=\"rules-heading\">CodeChef: A Platform for Aspiring Programmers</b></p>\r\n<div class=\"rules-body\">\r\n<p>CodeChef was created as a platform to help programmers make it big in the world of algorithms, computer programming and programming contests. At CodeChef, we work hard to revive the geek in you by hosting a programming contest at the start of the month and another smaller programming challenge in the middle of the month.</p>\r\n</div>\r\n<p><br /> <b class=\"rules-heading\">About CodeChef March Cook-Off:</b></p>\r\n<div class=\"rules-body\">\r\n<p>CodeChef Cook-Off is a two hand half hour coding contest where you can show off your computer programming skills.</p>\r\n</div>\r\n<p><br /><b class=\"rules-heading\">Contest Details:</b></p>\r\n<p><b class=\"rules-heading\"> </b><b>Duration: </b><span>2.5 hrs</span></p>\r\n<p><span></span><b>Start Date: </b><span> Sunday, 19th </span>March,<span> 2017 at 21:30 HRS (IST)</span></p>\r\n<p><span></span><b>End Date: </b><span> Monday, 20th </span>March,<span> 2017 at 00:00 HRS (IST)</span></p>\r\n<p><span>Check your timezone </span><a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=March+Cook-Off+2017&amp;iso=20170319T2130&amp;p1=44&amp;ah=2&amp;am=30\" target=\"_blank\">here</a><span>.</span></p>\r\n<p><br /> <b class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</b></p>\r\n<div class=\"rules-body\">\r\n<p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"https://discuss.codechef.com/questions/18662/does-  codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a>.</p>\r\n</div>\r\n<p><br /> <b class=\"rules-heading\">What is it for you?</b></p>\r\n<div class=\"rules-body\">\r\n<p>The idea behind these programming contests is that we want you to learn while competing. Also we believe that it is alright to refer to tutorials, books and other materials, learn a concept and then apply the same to solve a problem during a contest. But it is <b>not alright to copy other people's solutions or seek other people's help to solve a problem without understanding it.</b> The dividing line may seem to be thin but it can be captured by the spirit of learning. If whatever you are doing is making you learn while you do so, we tend to believe that it is alright.</p>\r\n<p>Not just that, as a token of motivation we also give away cash prizes and goodies to the winners of the contest. However, our sole intention lies in making our users learn new concepts while competing.</p>\r\n<b class=\"rules-heading\">For Indians:</b> \r\n<ul>\r\n<li>Top 10 from ranklist will get CodeChef laddus<br /><br /></li>\r\n</ul>\r\n<b class=\"rules-heading\">For Rest of World:</b> \r\n<ul>\r\n<li>Top 10 from ranklist will get CodeChef laddus<br /><br /></li>\r\n</ul>\r\n<div class=\"rules-body\">\r\n<p>With CodeChef laddus, the winners can claim cool CodeChef goodies. Know more here: <a href=\"/laddu\" target=\"_blank\">https://www.codechef.com/laddu</a>.</p>\r\n</div>\r\n<p><br /> <b class=\"rules-heading\">Rules and Regulations:</b></p>\r\n<ul>\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\"> feedback@codechef.com </a>.</li>\r\n<li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li>\r\n<li>You can also send in your queries in an email to contest- admin@codechef.com, during the contest.</li>\r\n<li><b>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</b></li>\r\n<li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li>\r\n<li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li>\r\n<li>You shall not possess more than one account on CodeChef. If you have, then do let us know, so that we can deactivate the insignificant one. If you do not report it and we come to know about it, we may deactivate both the accounts permanently.</li>\r\n<li>If anyone is using code from some other source in his submission, he should provide proper attribution. Failing this, it may be considered plagiarism and the submission will be subject to disqualification.</li>\r\n<li>The number of submissions that one can make during the contest on the problem will be limited to 200 for Tie breaker problem and 500 for rest.</li>\r\n<div class=\"rules-body\"><b>However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</b></div>\r\n</ul>\r\n</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COOK80/1489742352.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "RAINBOW": {
+            "allow_submission": false,
+            "name": "Rainbow Graph",
+            "category_name": "main",
+            "accuracy": 55.44,
+            "successful_submissions": "264",
+            "code": "RAINBOW",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MEETUP": {
+            "allow_submission": false,
+            "name": "Meeting location",
+            "category_name": "main",
+            "accuracy": 20,
+            "successful_submissions": "10",
+            "code": "MEETUP",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ROBOTG": {
+            "allow_submission": false,
+            "name": "Safe Robot",
+            "category_name": "main",
+            "accuracy": 27.83,
+            "successful_submissions": "1040",
+            "code": "ROBOTG",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CARDS777": {
+            "allow_submission": false,
+            "name": "Yet Another Card Game",
+            "category_name": "main",
+            "accuracy": 49.78,
+            "successful_submissions": "219",
+            "code": "CARDS777",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "INCXOR": {
+            "allow_submission": false,
+            "name": "Increasing Xor Sequence",
+            "category_name": "main",
+            "accuracy": 71.7,
+            "successful_submissions": "37",
+            "code": "INCXOR",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1489949100,
+        "current": 1537433983,
+        "freezing": 0,
+        "start": 1489939200
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nOur friend Hannibal from NITK Surathkal was one of the k participants in the elite tournament Micapokalebe. The rules of the game to decide the ranking of the players for the tournament are as follows. There are n stacks of coins. The <i>i</i><sup>th</sup> stack  has <i>x(i)</i> coins. Each player gets to choose any one stack and pick any available number of coins greater than zero from that stack. The player who  is unable to pick any coin from any stack during his move is the last(worst) ranked player. The players following him in order by turn will be considered second last ranked player, third last ranked player etc. Hannibal is asked to play first. Hannibal decides that he will not protest unless his tournament rank is bound to be the worst. Assuming all players in the tournament are rational and want to achieve the best rank possible, your job is to advice Hannibal with a simple \"Yes\" or \"No\" answer asking to protest or not to protest respectively given a configuration of the stacks.\n\n<h3>Input</h3>\n</p><p>\nThe first line give <i>t</i>, the number of test cases (<i>t</i> \u2264 250), \nThen <i>t</i> test cases follow. <br />\n\nFor each test case:<br />\nThe first line gives 2 integers <i>n k</i>, denoting the number of stacks and number of participants respectively.<br />\nThe next line gives <i>n</i> integers <i>x(1) x(2) x(3) .... x(n)</i> denoting the number of coins in each stack.<br />\n\n\n(1 \u2264 <i>k</i> \u2264 <i>n</i> \u2264 10<sup>5</sup>)<br />\n(1\u2264 <i>x(i)</i> \u226410<sup>9</sup>)<br />\n\n\n<h3>Output:</h3>\nFor each test case output a single line.<br />\n\"Yes\" if he has to protest , \"No\"  if he shouldn't\n\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n2\n5 4\n6 4 2 1 2\n5 2\n5 6 3 1 6\n\n<b>Output:</b>\nNo\nYes\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-10-2009",
+    "is_direct_submittable": false,
+    "contest_name": "Inscription 2009",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1256461200,
+        "end_date": 1256479200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180156,
+        "submit_start_date": 1256461200,
+        "current": 1537439890
+    },
+    "problem_author_html_handle": "fctrl",
+    "problem_name": "MICAPOKALEBE",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/fctrl'>fctrl</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "fctrl",
+    "contest_code": "INS09",
+    "max_timelimit": "0.12",
+    "problem_code": "INS0904"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p class=\"MsoNormal\" align=\"center\"><b><u><span>R D SHARMA</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>A New\nEdition of \u201cObjective Mathematics by R D Sharma\u201d has been planned. However the\npublisher has demanded to get the material ready within a month. The publisher\nalso insists that new questions should be added to the Exercises. Given the deadline,\nit\u2019s difficult for R D Sharma and his team to solve the Exercise Questions and\nget the answers.</span></p>\n\n<p class=\"MsoNormal\"><span>You need to\nhelp R D Sharma by writing a program that produces answer for the following\nquestion:</span></p>\n\n<p class=\"MsoNormal\"><span>\u201cRotate a\npoint P(<span class=\"SpellE\">x<span class=\"GramE\">,y</span></span>) through an\nangle a, b, c (in the form or TRIPLE) about a point Q(<span class=\"SpellE\">r,s</span>),\nand determine the New Co-ordinates P\u2019(X,Y). \u201d<b></b></span></p>\n\n<p class=\"MsoNormal\"><b><span>Your task is to print the New\nCo-ordinates.</span></b></p>\n\n<p class=\"MsoNormal\"><span>\u00a9 Vishal Gupta</span></p>\n\n<p class=\"MsoNormal\"><b><span>\u00a0</span></b></p>\n\n<p class=\"MsoNormal\"><b><u><span>Input:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>Input contains a number of test\ncases. Each test case consists of 4 lines.<b><u></u></b></span></p>\n\n<p class=\"MsoNormal\"><span>First line contains 0 or 1. 0 implies\nanti-clock wise rotation and 1 implies clockwise rotation. </span></p>\n\n<p class=\"MsoNormal\"><span>Second line contains <span class=\"SpellE\">x<span class=\"GramE\">,y</span></span> (Integers), the co-ordinates\nof P.</span></p>\n\n<p class=\"MsoNormal\"><span>Third line contains the angle in the\nform of triples <span class=\"SpellE\">a<span class=\"GramE\">,b,c</span></span></span></p>\n\n<p class=\"MsoNormal\"><span>Fourth line contains <span class=\"SpellE\">r<span class=\"GramE\">,s</span></span>(Integers) co-ordinates of\npoint Q.</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Output:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span class=\"GramE\"><span>Print X Y the new\nco-ordinates of P after rotation.</span></span><span></span></p>\n\n<p class=\"MsoNormal\">\u00a0</p>\n\n<p class=\"MsoNormal\"><b><u><span>Sample Input:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>0<br />7 3<br />0 1 1<br />0 0<br />0<br />4 7<br />3 4 5<br />2 3</span></p>\n\n\n<p class=\"MsoNormal\">\u00a0</p>\n\n<p class=\"MsoNormal\"><b><u><span>Sample Output:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>-3 7<br />0 7</span></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "DreamSpark Contest 3",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1272112200,
+        "end_date": 1272306540,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1272306540,
+        "submit_start_date": 1272112200,
+        "current": 1537439587
+    },
+    "problem_author_html_handle": "ganesha",
+    "problem_name": "R D SHARMA",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ganesha'>ganesha</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ganesha",
+    "contest_code": "DSPC30",
+    "max_timelimit": "2",
+    "problem_code": "DSPC305"
+}

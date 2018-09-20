@@ -1,0 +1,87 @@
+{
+    "announcements": "<p>\r\n<meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\" />\r\n<p><span style=\"color: #444444; font-family: Arial, sans-serif; font-size: 12px; line-height: 18px; \"><b>12:30am: </b>We had a problem with the JAVA compiler on our judge and hence we are rejuding all the submissiond of\u00c2\u00a0\u00c2\u00a0<a href=\"/COOK10/problems/CKSCHOOL/\">CKSCHOOL</a>. Rankings may get affected. Please bear with us.</span></p>\r\n</p>\r\n<p><span style=\"color: #444444; font-family: Arial, sans-serif; font-size: 12px; line-height: 18px; \"><b>10:25pm: </b>There has been a change in the problem <a href=\"/COOK10/problems/PACKBAND\">PACKBAND</a>. The value of L has been changed from 10 to 20. Regret the inconvenience caused.<b><br /></b></span></p>\r\n<p><span style=\"color: #444444; font-family: Arial, sans-serif; font-size: 12px; line-height: 18px; \"><b>9:40pm: </b>O<span style=\"color: #454545; font-family: 'Lucida Grande', arial, sans-serif;\">ur comment system is not working. Please send in your queries to</span> <a href=\"http://mce_host/contest-admin@codechef.com\">contest-admin@codechef.com</a><br /><br /><b>09:30pm:</b></span><span style=\"color: #444444; font-family: Arial, sans-serif; font-size: 12px; line-height: 18px; \"> The Rank List for the CodeChef May Cook Off is available here: </span><span style=\"color: #444444; font-family: Arial, sans-serif; font-size: 12px; line-height: 18px; \"><a href=\"/rankings/COOK10\">http://www.codechef.com/rankings/COOK10</a></span></p>",
+    "ip": "149.129.135.113",
+    "code": "COOK10",
+    "duration": "150",
+    "name": "May Cook-off 2011",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><span><b> The May Cook-off has ended!</b></span></p> <p><span><b> </b></span><span><b><span> </span></b></span></p> <p><b><b>Problems have been transferred to the\u00a0<a target=\"_blank\" href=\"/problems/easy\">practice section</a>.</b></b></p> <p><b><b>Solutions to all the problems have been made visible.</b></b></p> <p><b> </b></p> <p><b><b>Check out the editorials\u00a0<a href=\"/wiki/may-cookoff%C2%A0contest-problem-editorials\" target=\"_blank\">here</a>.</b></b></p> <p><b><b>Check out the winners Blog post <a href=\"http://blog.codechef.com/2011/06/01/the-may-cookoff-has-ended/\" target=\"_blank\">here</a>.</b></b></p> <p><b><b><br /></b></b></p> <p><span><b>Rules:</b></span></p> <p><b><span><b> </b></span></b></p> <p class=\"MsoNoSpacing\"><b><b><b>In case you are a new user, you will need to first register for a CodeChef ID\u00a0<a href=\"/user/register/\">here</a>.</b></b></b></p> <p><b><b> </b></b></p> <p><b><span> </span></b></p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\" target=\"_blank\">feedback@codechef.com</a></li> <br /> <li>You can also send in your queries in an email to\u00a0<a href=\"mailto:contest-admin@codechef.com\" target=\"_blank\">contest-admin@codechef.com</a>, during the contest.</li> <br /> <li>Contest problems will become visible on May 29th, 2011 at 21:30 (IST). There will be 5 problems in all.</li> <br /> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <br /> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <br /> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COOK10/1424957570.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "TIDRICE": {
+            "allow_submission": false,
+            "name": "Popular Rice Recipe",
+            "category_name": "main",
+            "accuracy": 59.9,
+            "successful_submissions": "348",
+            "code": "TIDRICE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "EQIDLIS": {
+            "allow_submission": false,
+            "name": "Distribute idlis Equally",
+            "category_name": "main",
+            "accuracy": 20.88,
+            "successful_submissions": "136",
+            "code": "EQIDLIS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CKSCHOOL": {
+            "allow_submission": false,
+            "name": "Preferred Cooking Schools",
+            "category_name": "main",
+            "accuracy": 9.68,
+            "successful_submissions": "3",
+            "code": "CKSCHOOL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BIGPIZA": {
+            "allow_submission": false,
+            "name": "Socializing Game around Pizza",
+            "category_name": "main",
+            "accuracy": 10.19,
+            "successful_submissions": "65",
+            "code": "BIGPIZA",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PACKBAND": {
+            "allow_submission": false,
+            "name": "Packing the Golden Triangles",
+            "category_name": "main",
+            "accuracy": 14.84,
+            "successful_submissions": "44",
+            "code": "PACKBAND",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1306693800,
+        "current": 1537439200,
+        "freezing": 0,
+        "start": 1306684800
+    },
+    "user": {
+        "username": ""
+    }
+}

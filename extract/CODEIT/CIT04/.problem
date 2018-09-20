@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Morse code is the cheapest and most popular way of message communitcation. In Morse code, each letter of the alphabet is represented by a sequence of dots and dashes. Traditionally, dots were transmitted by a short note and dashes by a longer note, with pauses between different letters.\n\nMorse code representation of each letter of the english alphabet are as follows<br>\na .- <br>\nb -...<br>\nc -.-.<br>\nd -..<br>\ne .<br>\nf ..-.<br>\ng --.<br>\nh ....<br>\ni ..<br>\nj .---<br>\nk -.-<br>\nl .-..<br>\nm --<br>\nn -.<br>\no ---<br>\np .--.<br>\nq --.- <br>\nr .-.<br>\ns ...<br>\nt -<br>\nu ..-<br>\nv ...-<br>\nw .--<br>\nx -..-<br>\ny -.--<br>\nz --..<br>\n\nFor example dog is written as -..<gap>---<gap>--.\n\nNote that every combination of between 1 and 4 dots and dashes is used, except for<br>\n..--<br>\n.-.-<br>\n---.<br>\n----<br>\n\nInterestingly incoming message tone of many mobile phones make the sound ... -- ... when receiving a SMS. Because this is the Morse Code for 'SMS'.\n\nMain problem with Morse Code is the gaps between letters. If gaps are absent by mistake then the message becomes ambiguous.\n\nFor example, let the message is -..-----. and it is made up of three letters, it might mean njg, dog, xmg or xon.\nAgain, let the message is -...----.--. and it is also made up of three letters. It might mean boy or djy.\n\nWrite a program which reads in a message (between 1 and 10 letters all, both inclusive) and determines how many messages, with the same number of letters as the input, it might represent. Your program should output all possible messages. You have to consider small case letters only (a-z). Consider only 'dog', not 'DOG' or 'Dog'.\n\n<h3>Input</h3>\n<p>First line of the input file will specify the number of test cases. In the following line you have to specify that many test cases, one at each line. \n\n<h3>Output</h3>\n<p>For each test case the output file must have all possible messages, one message per line. At the end it should have-\ntotal<white space>n\nWhere 'n' is the total number of messages possible. For a wrong input (like 'Code' in above sample file), output file should contain the entry 'error' and in the following line it should mention 'total 0'.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\ndog\nman\nCode\n\n<b>Output:</b>\ndog\n\nnjg\n\nxmg\n\nxon\n\ntotal 4\n\ngme\n\ngtn\n\nman\n\nmeg\n\nmwe\n\nqte\n\ntkn\n\ntng\n\nttp\n\ntye\n\ntotal 10\n\nerror\n\ntotal 0\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-01-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Indian Statistical Institute - CodeIT",
+    "languages_supported": "C, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1295749800,
+        "end_date": 1295793000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180208,
+        "submit_start_date": 1295749800,
+        "current": 1537439404
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>bst0602</span>",
+    "problem_name": "Morse code",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bst0602'>bst0602</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bst0602",
+    "contest_code": "CODEIT",
+    "max_timelimit": "0.133846",
+    "problem_code": "CIT04"
+}

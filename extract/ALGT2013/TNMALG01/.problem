@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Our lovely chef once won a free holiday to the amazing Maldives. But after reaching there he found out that the island which was next to him was better than his current, but unfortunately there was no bridge through which he can go to that island. Since he was very creative he found out a way to create a bridge between  the two islands </p>\n<p>There were infinite wooden plank of mass M and length L on the chef's island. Now you have to calculate at least how many planks he will require to create a bridge between two island if the distance between those two island is W.</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer T denoting the number of test cases, for each test case input L i.e. length of planks and W distance between islands.</p>\n<h3>Output</h3>\n<p>For each test case, output a single line with minimum number of planks required to make bridge.</p>\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>L</b> \u2264 <b>60</b></li>\n<li><b>1</b> \u2264 <b>W</b> \u2264 <b>50</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n4 5\n10 9\n<b>Output:</b>\n7\n1\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Case 1 : </b> for L = 4m and W = 5m , bridge can be constructed using minimum of 7 planks.</p>\n<p><b>Case 2 : </b> for L = 10m and W = 9m , bridge can be constructed using only single planks.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Algothika 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, D, PERL, FORT, ADA, CAML, ICK, BF, ASM, CLPS, ICON, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, JS, ERL, PERL6, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1363023000,
+        "end_date": 1363282200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1363282200,
+        "submit_start_date": 1363023000,
+        "current": 1537438415
+    },
+    "problem_author_html_handle": "paramjeet",
+    "problem_name": "BRIDGING THE GAP",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/paramjeet'>paramjeet</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "paramjeet",
+    "contest_code": "ALGT2013",
+    "max_timelimit": "0.198",
+    "problem_code": "TNMALG01"
+}

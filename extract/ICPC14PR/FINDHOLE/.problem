@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><html> <body><br />\n<h1 style=\"font-family: Arial;\"><small>ACM International Collegiate     Programming Contest, Asia-Amritapuri Site, 2012</small></h1>\n<h2>The Black Riders<br /> </h2>\n<p> <i>'Hush!' said Frodo. 'I think I hear hoofs again.'<br />     They stopped suddenly and stood as silent as tree-shadows, listening. There was a sound of hoofs in the lane, some way behind, but coming slow and clear down the wind. Quickly and quietly they slipped off the path, and ran into the deeper shade under the oak-trees.<br />     The hoofs drew nearer. They had no time to find any hiding-place better than the general darkness under the trees.</i> <br /> - Frodo, Sam and Pippin, when they encounter a Black Rider.<br /> <br /> Indeed, the Black Riders are in the Shire, and they are looking for the One Ring. There are <b>N</b> hobbits out in their fields, but when they hear the Riders approaching, or feel the fear cast by their presence, they immediately wish to run and hide in <b>M</b> holes located nearby.<br /> <br /> Now, each hole has space for just 1 hobbit; however, once a hobbit reaches a hole, he is able to make room for one more hobbit by digging away at the earth. The time required to make enough space for a second hobbit is <b>C</b> units. Also, each hole CANNOT hold more than 2 hobbits, even after digging. Also note that a hobbit can begin making space for the next hobbit only after he reaches the hole.<br /> <br /> You are given the time required to travel from each hobbit's current location to each hole. Find the minimum amount of time it will take before at least <b>K</b> of the hobbits are hiding safely.<br /> <br /><br />\n<h3>Input (STDIN):</h3>\n</p><p> The first line contains <b>T</b>, the number of test cases.<br /> The first line of each test case contains 4 integers - <b>N</b> (no of hobbits), <b>M</b> (no of holes), <b>K</b> (minimum number of hobbits to hide) and <b>C</b> (time taken to expand a hole).<br /> The next <b>N</b> lines contain <b>M</b> integers each, denoting the time taken for each hobbit to each hole.<br /> <br /><br />\n<h3>Output (STDOUT):</h3>\n</p><p> Output one line per test case which contains the minimum time. <br /> <br /><br />\n<h3>Constraints:</h3>\n</p><p><b> 1 &lt;= T &lt;= 6<br /> 1 &lt;= N, M &lt;= 100<br /> 1 &lt;= K &lt;= min(N, 2 * M)<br /> 0 &lt; C &lt; 10,000,000<br /> 0 &lt; Time taken by the hobbits to the holes &lt; 10,000,000</b><br /> <br /><br />\n<h3>Sample Input:</h3>\n</p><p> <span style=\"font-family: Courier New,Courier,monospace;\"> 2<br /> 3 3 2 10<br /> 9 11 13<br /> 2 10 14<br /> 12 15 12<br /> 4 3 3 8<br /> 1 10 100<br /> 1 10 100<br /> 100 100 6<br /> 12 10 10<br /> </span><br /><br />\n<h3>Sample Output:</h3>\n</p><p> <span style=\"font-family: Courier New,Courier,monospace;\"> 10<br /> 9<br /> </span><br /><br />\n<h3>Notes/Explanation of Sample Input:</h3>\n</p><p> <br /> For the first test case, there are 3 hobbits and 3 holes, and we need to get atleast 2 of them to safety. We can send the first hobbit to the first hole, and the second hobbit to the second hole, thereby taking 10 time units.<br /> For the second test case, we can make hobbit #1 reach hole 1 at time 1, hobbit #2 reach hole 1 at time 9 (by when hobbit #1 would have finished digging the hole), and hobbit #3 reach hole 3 at time 6.<br /> <br /> </p></body> </html> </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-01-2013",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Practice round 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1417372200,
+        "end_date": 1418837400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1418837400,
+        "submit_start_date": 1417372200,
+        "current": 1537437150
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "The Black Riders",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acmamr12'>acmamr12</a>, <a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "ICPC14PR",
+    "max_timelimit": "2",
+    "problem_code": "FINDHOLE"
+}

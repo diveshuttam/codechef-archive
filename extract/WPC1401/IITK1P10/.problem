@@ -1,0 +1,33 @@
+{
+    "problem_code": "IITK1P10",
+    "problem_author": "admin2",
+    "contest_name": "IIT Kanpur, Monthly Programming Contest-1",
+    "todo": false,
+    "problem_author_html_handle": "admin2",
+    "problem_name": "Tree and Queries",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "WPC1401",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin2'>admin2</a>, <a class='problem-tag-small ' href='/tags/problems/dfs-order'>dfs-order</a>, <a class='problem-tag-small ' href='/tags/problems/iitk'>iitk</a>, <a class='problem-tag-small ' href='/tags/problems/tree'>tree</a>, <a class='problem-tag-small ' href='/tags/problems/wpc1'>wpc1</a>, <a class='problem-tag-small ' href='/tags/problems/wpc1401'>wpc1401</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>\nYou are given a rooted tree with <b>N</b> nodes. Tree is rooted at node 1. Each node of the tree contains some value. Initially value of each node will be given.\n</p>\n<p>\nYou are given <b>Q</b> queries. Queries can be of two types, type U and type Q.</p>\n<ul>\n<li> Type U: This query is represented by U x v, which means that you<br />\n\thave to add value v to node x. </li>\n<li> Type Q: This query is represented by Q x, which means that you<br />\n\thave to output number of nodes in the subtree rooted at node x having value equal to zero. </li>\n</ul>\n\n<h3>Input</h3>\n<p>\nFirst line of the input contains two space separated integers <b>N</b> and <b>Q</b>.\n</p>\n<p>\nFor next N - 1 lines, each line contains two space separated integers u, v<br />\ndenoting that there is an edge between u and v in the tree. It is guaranteed that 1 \u2264 u, v \u2264 N, u != v.<br />\nIt is also guaranteed that no edge is repeated in the input.\n</p>\n<p>\nNext line contains N space separated integers denoting the initial weight of each node in order, 1 to N. Weights will be between -10^9 to 10^9 (both inclusive).\n</p>\n<p>\nFor next Q lines, each line contains a query of either type U or type Q.\n</p>\n<h3>Output</h3>\n<p>\nFor each query of type Q, output a single line containing an integer corresponding to answer of the query.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N, Q</b> \u2264 <b>10^5</b></li>\n<li>For query of type U, <b>-10^9</b> \u2264 <b>v</b> \u2264 <b>10^9</b></li>\n<li>For query of type U and V, <b>1</b> \u2264 <b>x</b> \u2264 <b>N</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4 3                                                                                                      \n1 2\n1 3\n2 4\n5 -2 0 3\nQ 1\nU 3 1\nQ 1\n\n<b>Output:</b>\n1\n0\n\n</pre>",
+    "category_name": "main",
+    "date_added": "30-09-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/IITK1P10",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1412083800,
+        "end_date": 1412101800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1412101800,
+        "submit_start_date": 1412083800,
+        "current": 1537437390
+    },
+    "user": {
+        "username": ""
+    }
+}

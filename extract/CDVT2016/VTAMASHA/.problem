@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>So, the story goes like this. Remember <b> Gagan </b> is the hero.Being a hero , he always does crazy stuff and there is nobody\nto challenge him. But in our wonderland, there comes <b>dj </b> .<b>  Dj </b> and  <b>Gagan </b> were once great friends but now the everything has \nchanged between them. In order to challenge Gagan's heroism , dj made a trap for gagan.\nTrap consist of <b> several segments  </b>of electricty. In order to trap gagan , dj ensure that <b> each circuit is fully connected </b>\nand <b> every machinery in a segment has electricity. </b>\nBut somehow dj's friend 'Akash' knows that gagan is the real hero. So, he locate Gagan via android device manager and tell him\nabout the trap.\nGagan is now fully aware of the trap and he now walks everywhere with a<b> chainsaw to cut the wires and open the circuit. </b>\nDj on the other hand has completely setup his trap. Whole wonderland knows that gagan is big fan of beautiful girls and\nas usual he is  watching birds.Dj somehow has spotted and trapped gagan.Before Gagan loses his heroism and fame in \nwonderland, he has <b>q  seconds  </b> to ask questions from you. As you were also there  watching birds, you decide to help gagan.\n<b>After each second , gagan asks you a question </b> and you have to guide him..\nMachines are  <b> numbered as 1 to n </b> </p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p></p>\n<ul>\n\n<li>First line conatins two integer <b> n </b> and <b>m </b> where<b> n </b> denotes total number of machines in the whole trap while <b> m </b> denotes the \ntotal number of wirings between them.</li>\n\n<li> Next <b>m </b> line conatins two integer <b> Ai </b> and  <b> Bi </b>, representing that a wire exists between the machines <b> Ai </b> and  <b>Bi. </b> </li>\n<li> Next line conatins  <b>Q  </b> as described in the question.</li>\n<li>Next <b>Q </b> lines contains a single integer  <b>x </b>, which means gagan is asking whether he would cut the wire between <b> Ax </b> and <b> Bx </b> or not.  </li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>For each of the <b> Q  </b> questions, you have to tell him whether that cut would destroy the trap or not.If trap is destroyed then\nprint <b> 'Gagan Rocks' </b> (without quotes) else print <b> ' Dj Rocks' </b> (without quotes).</p>\n\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1</b> <= <b>n,m</b> <= <b>100000</b></li>\n<li> <b>1</b>  <=  <b> x </b>  <= <b>  m </b>   </li>\n<li> <b> 1  </b>  <=  <b> Q </b> <= <b> 100000 </b> </li>\n<li> <b>1 </b>  <= <b> Ai,Bi  </b> <= <b>  n </b> </li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n6 6\n1 2\n3 4\n2 3\n4 5\n5 6\n5 3\n2\n1\n2 \n\n<p> </p>\n<b>Output:</b>\nGagan Rocks\nDj Rocks\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Query 1:</b> Index 1 denotes that wiring between 1 and 2 is cut , this would make the\nmachinery 1 disconnected , hence \"Gagan Rocks\" </p>\n<p><b>Query 2:</b> Index 2 denotes that wiring between 3 and 4 is cut , this won't make any machinery disconnected as there is still a way 3 -5 -4 that connects 3-4 , hence \"Dj Rocks</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-10-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Codester veteran",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, NODEJS, PERL, WSPC, BASH, JS, PERL6, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1477198800,
+        "end_date": 1477207800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1477207800,
+        "submit_start_date": 1477198800,
+        "current": 1537434427
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>gagan86nagpal</span>",
+    "problem_name": "Tamasha",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/gagan86nagpal'>gagan86nagpal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "gagan86nagpal",
+    "contest_code": "CDVT2016",
+    "max_timelimit": "1",
+    "problem_code": "VTAMASHA"
+}

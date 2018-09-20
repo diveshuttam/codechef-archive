@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\n<b>Area resolution</b><br /><br />\nIn some distant 2D world, there was a cold war going on as to whose team has more strong candidates if randomly a fixed number of members are chosen from each team. These two teams were those of a 'Triangle's and 'Circle's. Both teams have <b>N</b> candidates each. In direction of resolving this, both teams have provided you with their data for just finding out the areas of each team members.<br />\n<br /><br />\n</p>\n<p>\n<b>Input</b><br /><br />\nFirst line contains a single integer N which represents the number of candidates present each team.<br />\nEach of the next N lines contain 10 space separated integers, which are x1, y1, x2, y2, x3, y3, x4, y4, x5, y5 respectively. The first six integers (x1, y1), (x2, y2), (x3, y3) represent the vertices of triangle of a candidate of Triangle\u2019s team. The next four integers (x4, y4) and (x5, y5) represent the center of the circle and one of the points on the circumference of the circle of a candidate of Circle\u2019s team.\n</p>\n<p>\n<b>Output</b><br/><br />\nPrint N lines, each containing two floating point values truncated exactly after two decimal points, the first being the area of the triangle and the second being the area of the circle of the respective candidates corresponding to the respective line in the input.\n</br/></p>\n<p>\n<b>Example Input:</b></p>\n<pre>\n1\n-41 27 88 4 -50 -81 -71 -21 -72 10\n</pre><p><b>Example Output</b></p>\n<pre>\n7069.49 3022.21\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-09-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Apttus Code-A-Thon",
+    "languages_supported": "JAVA, CS2",
+    "todo": false,
+    "time": {
+        "view_start_date": 1441985400,
+        "end_date": 1441996200,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1441996200,
+        "submit_start_date": 1441985400,
+        "current": 1537436061
+    },
+    "problem_author_html_handle": "vijayshah",
+    "problem_name": "Apttus Code a thon",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vijayshah'>vijayshah</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vijayshah",
+    "contest_code": "APTT2015",
+    "max_timelimit": "1",
+    "problem_code": "APTT0001"
+}

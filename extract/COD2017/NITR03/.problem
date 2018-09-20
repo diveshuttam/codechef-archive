@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Presently Lucky is in a friend circle at NIT Rourkela where everybody makes fun of him because of his short height. So he asked his friend Debasish to help him. Debasish left him in a room containing N * M grid where each cell (i, j) contains height increasing capsule H(i, j). Lucky starts at (0, 0) and he can move to any of it's adjacent cell in east, south and south - east direction only with a jump cost of 1. But he can move to any adjacent cell where i should increase and j should decrease or vice - versa with no jump cost. Can you help him in finding the minimum cost at which he can increase his height by at least K.</p>\n\n<p>Note:</p>\n<li>Once he visits a cell (i, j) then H(i, j) becomes 0.</li>\n\n\n<h3>Input</h3>\n<ul>First line contains T denoting the number of test cases.</ul>\n<ul>First line contains number N, M, K.</ul>\n<ul>Next N lines contains M numbers for grid H.</ul>\n\n<h3>Output</h3>\n<p>A number representing minimum cost to increase height by K. If it is not possible print -1.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> <= <b>T</b> <= <b>10</b></li>\n<li><b>2</b> <= <b>N, M</b> <= <b>50</b></li>\n<li><b>1</b> <= <b>K</b> <= <b>10000</b></li>\n<li><b>0</b> <= <b>i</b> < <b>N</b></li>\n<li><b>0</b> <= <b>j</b> < <b>M</b></li>\n<li><b>0</b> <= <b>H(i, j)</b> <= <b>100</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n4 4 28\n0 1 2 3\n1 2 3 4\n2 3 4 5\n3 4 5 6\n\n<b>Output:</b>\n3\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Codex",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1510414200,
+        "end_date": 1510507800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1510507800,
+        "submit_start_date": 1510414200,
+        "current": 1537433361
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>sunnyaks_1997</span>",
+    "problem_name": "Lucky And Growth",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sunnyaks_1997'>sunnyaks_1997</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sunnyaks_1997",
+    "contest_code": "COD2017",
+    "max_timelimit": "1",
+    "problem_code": "NITR03"
+}

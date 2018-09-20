@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A new highway called Highway 1 has just been built in the Kingdom of Byteland. Ingoo, the largest CPU manufacturer in Byteland, would like to build a new chipset plant along the highway.</p>\n<p>Ingoo currently has N warehouses in the kingdom. None of these warehouses are near the new highway. Chipsets manufactured from the new plant must be delivered to the warehouses. Thus, the further the distances from the new plant to the warehouses, the more the delivery cost Ingoo needs to bear.</p>\n<p>Therefore, the CEO of Ingoo would like to find a place on Highway 1 to build the new plant in such a way that the total distance from the plant to all the warehouses is minimized.</p>\n<p>You are visiting Byteland on December vacation and have decided to help Ingoo to locate the new plant!</p>\n\n<h3>Input</h3>\n<p>The first line contains T (about 20), the number of test cases. Then T test cases follow. Each test case has the following form:</p>\n<p>The first line contains a number N (1 <= N <= 2000), the number of Ingoo's warehouses.</p>\n<p>The second line contains three integers A, B, C which describe the line equation (Ax+By+C=0) of Highway 1 (|A|, |B|, |C| <= 5000).</p>\n<p>The next N lines contains the coordinates (x, y) of the warehouses (|x|, |y| <= 5000).</p>\n<p>You are guaranteed that A, B, C form a valid line equation (i.e. A and B are not both 0) and no warehouses lie on Highway 1.</p>\n\n<h3>Output</h3>\n<p>For each test case, print in a single line the minimum total distance between the new plant and all the warehouses, rounded to 6 decimal places. If there is no optimum distance, print \"NO\" instead.</p>\n\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n1\n5\n3 -5 -7\t\n1 3\n-2 4\n4 -7\n7 6\n3 3\n\n<b>Output:</b>\n26.232349\n</pre>\n<h3>Output details</h3>\n<p>The line equation of Highway 1 is 3x-5x-7=0. Ingoo have 5 warehouses: A(1,3), B(-2,4), C(4,-7), D(7,6), and E(3,3). The optimum location of the new plant is P as shown in the figure below:</p>\n<img src='http://www.codechef.com/download/plant.png' />",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "30-11--0001",
+    "is_direct_submittable": false,
+    "contest_name": "December 2009 (Contest XI)",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1259659800,
+        "end_date": 1260523800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1260523800,
+        "submit_start_date": 1259659800,
+        "current": 1537439854
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Plant Location",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "DEC09",
+    "max_timelimit": "0.283",
+    "problem_code": "K1"
+}

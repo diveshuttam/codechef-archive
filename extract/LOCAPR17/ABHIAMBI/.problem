@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Two friends Abhi and Ambi are playing a game. The game is played over <b>N</b> piles of coins with each pile having <b>A</b> coins. It is given that <b>A</b> is <b>Prime</b>. The game is played according to some rules.\n<br>\n<br>\n1. Each player in his turn can choose a pile of coins and remove some <b>X>0</b> number of coins from the chosen pile.\n<br>\n<br>\n2. The number <b>X</b> chosen should be such that <b>X</b> number of coins were not removed in any of the previous moves from any of the piles . For example , if a player removes 3 coins from a certain pile in his turn , no player can remove 3 coins from any pile in any of the successive turns.\n<br>\n<br>\n3. <b>Abhi</b> always goes first.The players play in alternating turns. It is given that both players play optimally. The player who can't move in his turn loses. For every test case , print <b>\u201cAbhi\u201d</b> if Abhi wins and <b>\u201cAmbi\u201d</b> otherwise.\n<br>\n</p>\n\n<h3>Input</h3>\n<p>The first line contains an integer <b>T</b>, total number of testcases. Then follow T lines, each line contains <b>N</b> and <b>A</b> respectively as described above.</p>\n\n<h3>Output</h3>\n<p>For every test case print the winner's name in a new line.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^5</b></li>\n<li><b>2</b> \u2264 <b>A</b> \u2264 <b>10^9</b> (<b>A</b> wiil be prime)</li>\n</ul>\n<p>\u00a0</p>\n<h3>Subtasks</h3>\n<b>Subtask #1 (20 points), Time limit : 1 sec<br>\n1 \u2264 T \u2264 100000, 1 \u2264 N \u2264 10^5 , 2 \u2264 A \u2264 N (A is prime)</b><br><br><br>\n<b>Subtask #2 (80 points), Time limit : 1 sec<br>\n1 \u2264 T \u2264 100000, 1 \u2264 N \u2264 10^5, 2 \u2264 A \u2264 10^9 (A is prime) </b>\n<h3>Example</h3>\n<pre><b>Input:</b> \n\n2\n1 2\n2 2\n\n<b>Output:</b>\n\nAbhi\nAmbi\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p> In the sample input 1, there is a single pile of 2 coins. Abhi removes both the coins from the pile in his move. Now 0 coins are left and hence Ambi can't remove any coins in his move. So Abhi wins the game.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "11-03-2017",
+    "is_direct_submittable": false,
+    "contest_name": "April LoC Competitive Programming Marathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1493317800,
+        "end_date": 1493576940,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1493576940,
+        "submit_start_date": 1493317800,
+        "current": 1537433903
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>shivamtanay</span>",
+    "problem_name": "Abhi And Ambi play a game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shivamtanay'>shivamtanay</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shivamtanay",
+    "contest_code": "LOCAPR17",
+    "max_timelimit": "1",
+    "problem_code": "ABHIAMBI"
+}

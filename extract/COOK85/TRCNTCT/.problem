@@ -1,0 +1,33 @@
+{
+    "problem_code": "TRCNTCT",
+    "problem_author": "melnik",
+    "contest_name": "August Cook-Off 2017",
+    "todo": false,
+    "problem_author_html_handle": "melnik",
+    "problem_name": "Tree Connectivity",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>kingofnumbers</span>",
+    "contest_code": "COOK85",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cook85'>cook85</a>, <a class='problem-tag-small ' href='/tags/problems/dfs'>dfs</a>, <a class='problem-tag-small ' href='/tags/problems/divide-and-conq'>divide-and-conq</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>, <a class='problem-tag-small ' href='/tags/problems/melnik'>melnik</a>, <a class='problem-tag-small ' href='/tags/problems/segment-tree'>segment-tree</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Read problems statements in <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/COOK85/mandarin/TRCNTCT.pdf\">mandarin chinese</a>, <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/COOK85/russian/TRCNTCT.pdf\">russian</a> and <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/COOK85/vietnamese/TRCNTCT.pdf\">vietnamese</a> as well.</h3>\n\n<p>Chef recently got influenced by the Joker and loves to carve things up with his new collection of knives. </p> \n\n<p>One afternoon Chef decides to cut off some vertices from a tree that has <b>N </b> vertices. Chef creates the following plan for cutting the vertices :  \n<ul>\n <li> He chooses a pair of integers (<b>L, R</b>) such that (<b>1</b>\u2264<b>L</b>\u2264<b>R</b>\u2264<b>N</b>) and cuts off all vertices whose indices do not belong in the interval [<b>L, R</b>].</li>\n<li>He also cuts off all edges that don\u2019t connect any two vertices belonging to the interval [<b>L, R</b>].</li>\n</ul> \n</p>\n\n<p>A pair of integers [<b>L, R</b>] is said to be valid if the remaining graph after cutting the vertices according to Chef's plan is still connected.</p>\n\n<p>The Chef wants to know the number of such valid pairs (<b>L, R</b>) for his tree. However, duty calls for the Chef and he has to rush back to the kitchen to cook. Can you help him to calculate the number of such valid pairs? </p>\n\t\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows. The description of each test case starts with the number of vertices <b>N</b>. Each of the following <b>N - 1</b> lines contains two integers - indices of vertices connected by an edge. It is guaranteed that each test case defines a valid tree.</p>\n\n<h3>Output</h3>\n<p>For each test case, output a single line containing the number Chef is interested in.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>6</sup></b></li>\n<li>The sum of <b>N</b> over all testcases does not exceed <b>10<sup>6</sup></b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2\n2 1\n4\n3 4\n1 4\n4 2\n\n<b>Output:</b>\n3\n7\n\n</pre>\n\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> Intervals [<b>1</b>,<b>1</b>], [<b>1</b>,<b>2</b>] and [<b>2</b>,<b>2</b>] are valid.</p>\n<p><b>Example case 2.</b> Intervals [<b>1</b>,<b>1</b>], [<b>1</b>,<b>4</b>], [<b>2</b>,<b>2</b>], [<b>2</b>,<b>4</b>], [<b>3</b>,<b>3</b>], [<b>3</b>,<b>4</b>] and [<b>4</b>,<b>4</b>] are valid.</p>",
+    "category_name": "main",
+    "date_added": "16-08-2017",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "3",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/TRCNTCT",
+    "problem_tester": "kingofnumbers",
+    "time": {
+        "view_start_date": 1503244800,
+        "end_date": 1503253800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1503253800,
+        "submit_start_date": 1503244800,
+        "current": 1537433631
+    },
+    "user": {
+        "username": ""
+    }
+}

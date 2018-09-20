@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "\n<h3>Problem description</h3>\n<p>You are given a black box (an executable), which when given an input<br />\nproduces an output. You have to write a program which has the same input<br />\nand output format as the black box and for any given input produces the same<br />\noutput as the black box.</p>\n<p>The executables can be downloaded from <a<br />\n  href=\"https://www.dropbox.com/sh/15ap14txs3v0rcn/AABNhxcthzmG75Btr09O17mVa?dl=0\"><br />\n  shared dropbox folder </a<br></p>\n<p>If you solving problem 2 the executable name is box2.\n</p>\n<h3>Input</h3>\n<p>A single line of string</p>\n<h3>Output</h3>\n<p>A single number</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\nWhat?\n\n<b>Output:</b>\n1\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-12-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Code-O-Shuffle",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1451230200,
+        "end_date": 1451242800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1769639734,
+        "submit_start_date": 1451230200,
+        "current": 1537435682
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>sunil_t</span>",
+    "problem_name": "Problem 4",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sunil_t'>sunil_t</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sunil_t",
+    "contest_code": "COSH2015",
+    "max_timelimit": "1",
+    "problem_code": "COSH1504"
+}

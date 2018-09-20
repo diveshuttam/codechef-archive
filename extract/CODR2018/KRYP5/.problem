@@ -1,0 +1,33 @@
+{
+    "problem_code": "KRYP5",
+    "problem_author": "shivamg_isc",
+    "contest_name": "CodeRed",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>shivamg_isc</span>",
+    "problem_name": "Fight Against Rebellion",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CODR2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/codr2018'>codr2018</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/medium-hard'>medium-hard</a>, <a class='problem-tag-small ' href='/tags/problems/merge-sort-tree'>merge-sort-tree</a>, <a class='problem-tag-small ' href='/tags/problems/shivamg_isc'>shivamg_isc</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n<p><b>\"This cape belongs to your son. He will become the greatest hero of the universe.\"</b></p>\n<p> The rebellion group on Krypton have decided to destroy the House of El. There are two rebellion groups on Krypton, and person of each rebellion group has a unique <b>String ID</b> associated with him/her .</p>\n<p> The first group is of size <b>N</b>, and the second group is of size <b>M</b>. </p>  \n<p> Let the array of String IDs of <b>first group</b> be denoted by <b>A [ ]</b>, and that of <b>second group</b> be denoted by <br/><p><b> B [ ] </b>. </p>\n<p> Seg-El has decoded the pattern of these rebellion groups, and has decided to stop the chaos. </p> \n<p> He will choose an <b>equal size subarray</b> from both the arrays.</p>\n<p>Let the chosen size be <b>X</b>.</p> \n<p>So, let the subarray from the first group array A [ ] be <b>A<sub>i</sub>, A<sub>i+1</sub>, \u2026. A<sub>i+X-1</sub>.</b> </p> \n<p>And, let the subarray from the second array B [ ] be <b>B<sub>j</sub>, B<sub>j+1</sub>, \u2026.B<sub>j+X-1</sub>.</b> </p>\n<p>for <b>1 \u2264 i \u2264 N-X+1</b> and <b>1 \u2264 j \u2264 M-X+1</b> , where <b>i</b> is an index of <b>A[ ]</b> and <b>j</b> is an index of array <b>B[ ]</b> </p> \n<p> He decided to carry out the following operations - </p>\n<ul>\n<li>Find Longest Common substring (LCS) of <b>A<sub>i+u</sub> and B<sub>j+X-1-u</sub> , where 0<=u<=X-1.</b> </li>\n<li>Find LCS of <b>A<sub>i</sub> with all of these- B<sub>j</sub>, B<sub>j+1</sub>,\u2026..B<sub>j+X-1</sub></b> </li>\n<li>Find LCS of <b>A<sub>i+X-1</sub> with all of these- B<sub>j</sub>, B<sub>j+1</sub>,\u2026..B<sub>j+X-1</sub></b></li>\n<li>Find LCS of <b>B<sub>j</sub> with all of these- A<sub>i</sub>, A<sub>i+1</sub>,\u2026..A<sub>i+X-1</sub>.</b></li>\n<li>Find LCS of <b>B<sub>j+X-1</sub> with all of these- A<sub>i</sub>, A<sub>i+1</sub>, \u2026\u2026A<sub>i+X-1</sub>.</b></li>\n</ul>\n<p></p>\n<p>Seg-El has got to know a magical integer <b>K</b></p>\n<p>All of the above mentioned <b>LCS values</b> must be <b>greater than or equal to K.</b></p>\n<p>You need to help Seg-El in <b>finding all possible number of combinations of equal sized subarrays in A [ ] and B[ ] which are satisfying the above mentioned condition.</b></p>\n<p>Two combinations are <b>different if they are of different size, or in case atleast one constituent index is different.</b></p>\n<p> </p>\n\n\n<h3>Input</h3>\n<p>First line contains 2 space separated integers <b>N</b> and <b>M</b>, denoting the size of two arrays A[ ] and B [ ] respectively. </p>\n<p>Second line contains an integer <b>K</b> denoting the magical integer. </p>\n<p> <b>N</b> lines follow. </p> \n<p>Each of the <b>N</b> lines comprises a <b>String ID</b> of group A [ ].</p>\n<p> <b>M</b> lines follow. </p>\n<p>Each of the <b>M</b> lines comprises a <b>String ID</b> of group B[ ] </p>\n<p> </p>\n\n<h3>Output</h3>\n<p> Print the number of possible combinations as explained above.</p> \n<p> </p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N,M</b> \u2264 <b>2000</b></li>\n<li><b>1</b> \u2264 <b>| A<sub>i</sub> |</b> \u2264 <b>5000</b></li>\n<li><b>1</b> \u2264 <b>| B<sub>i</sub> |</b> \u2264 <b>5000</b></li>\n<li><b>Summation of length of all strings in A [ ] \u2264 5000</b></li>\n<li><b>Summation of length of all strings in B [ ] \u2264 5000</b></li>\n<li>All strings contain lowercase alphabets.</li>\n<li><b>1</b> \u2264 <b>K</b> \u2264 <b>5000</b></li>\n</ul>\n<p> </p>\n<h3>Example</h3>\n<p><b>Input:</b></p>\n3 3<br/>\n1<br/>\naab<br/>\naba<br/>\njgh<br/>\nbad<br/>\ndea<br/>\ncef<br/>\n<p><b>Output:</b></p>\n5<br/>\n<p> </p>\n\n<p><b>Explanation</b></p> \n<p>First way is to choose <b>aab</b> and <b>bad</b>.</p>\n<p>Second way is to choose <b>aab</b> and <b>dea</b>.</p>\n<p>Third way is to choose <b>aba</b> and <b>bad</b>.</p>\n<p>Fourth way is to choose <b>aba</b> and <b>dea</b>.</p>\n<p>Fifth way is to choose subarray <b>aab,aba</b> and <b>bad,dea</b>.</p>\n",
+    "category_name": "main",
+    "date_added": "7-02-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/KRYP5",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1518881400,
+        "end_date": 1518899400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1518899400,
+        "submit_start_date": 1518881400,
+        "current": 1537432981
+    },
+    "user": {
+        "username": ""
+    }
+}

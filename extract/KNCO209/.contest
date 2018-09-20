@@ -1,0 +1,87 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "KNCO209",
+    "duration": "1440",
+    "name": "Knight Coders Round 2",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>Rules</b><br /><br />1) The submissions should be only from one member per team.<br />2) One team can make as many attempts/submissions as possible. However, only the result of the last submitted solution will be taken into account.<br />3) The I/O FORMAT should strictly match to that specified in the problem statement.. <br />4) There should be no empty/new lines between inputs and outputs unless mentioned in the problem statement.<br />5) DONOT include the header file conio.h.(getch and fflush are not allowed)<br />6) Use \u201c#include&lt;iostream&gt; using namespace std; \u201d and NOT #include&lt;iostream.h&gt; for C++ headers.<br />7) Submission of same codes by more than one team will lead to their disqualification .<br /><br />For hints and any other queries, check our <a href=\"http://www.aranyatech.com/forum\">Forums</a>.</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/KNCO209/1424957434.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "KC202": {
+            "allow_submission": false,
+            "name": "Gathering of the Great",
+            "category_name": "main",
+            "accuracy": 13.33,
+            "successful_submissions": "10",
+            "code": "KC202",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "KC205": {
+            "allow_submission": false,
+            "name": "The Templar Test",
+            "category_name": "main",
+            "accuracy": 20.9,
+            "successful_submissions": "14",
+            "code": "KC205",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "KC201": {
+            "allow_submission": false,
+            "name": "BOB Gaming",
+            "category_name": "main",
+            "accuracy": 11.67,
+            "successful_submissions": "24",
+            "code": "KC201",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "KC204": {
+            "allow_submission": false,
+            "name": "The Legend Lives On!",
+            "category_name": "main",
+            "accuracy": 4.86,
+            "successful_submissions": "9",
+            "code": "KC204",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "KC203": {
+            "allow_submission": false,
+            "name": "Thou Last , Thou Loseth",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "KC203",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1256484600,
+        "current": 1537439878,
+        "freezing": 0,
+        "start": 1256398200
+    },
+    "user": {
+        "username": ""
+    }
+}

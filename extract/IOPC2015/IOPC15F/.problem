@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><font size=2></font></p>\n<p>Bitcity has two large (disjoint) playgrounds, named, quite appropriately, <b>Ground 0</b> and <b>Ground 1</b>. Naturally, bitzens like convexity, and both these playgrounds are convex polygons. </p>\n<p>It's evening and lots of bitkids are playing on these grounds, some on ground 0, some on ground 1. There are also some bitguards watching over the bitkids. The bitguards are standing on vertices of the playground.\n</p>\n<p>You have access to the location (x-y coordinates) of <b>N</b> bitzens, which includes <b>ALL</b> the bitguards and some (may be none!) of the bitkids, along with the playground that they are in. However, your system is unable to differentiate between bitguards, and bitkids; it just sees coordinates and playground number. </p>\n<p>\u00a0</p>\n<p>Now, you get more coordinates for <b>Q</b> new bitzens, and must ascertain whether each of the bitzens is in Ground 0, or Ground 1.\n</p>\n<h3>Input</h3>\n<p>\nThere is single test case.<br />\n<br />\n<ul>\n<li>First line contains a single integer, <b>N</b>.\n</li><li>N lines follow, each containing 3 space separated numbers : 2 real numbers (C++ float) denoting <b>x</b> and <b>y</b>, and a third number, 0 or 1, denoting the playground number. These are the coordinates of the bitzens whose playground you know.\n</li><li>Then follows a line containing a single integer, <b>Q</b>.\n</li><li>Q lines follow, each containing 2 space separated real numbers (C++ float) denoting <b>x</b> and <b>y</b>. These are your queries.\n</li></ul>\n</p>\n<p><b>Note : Be careful while reading inputs as there are very large number of inputs.</b> </p>\n<p><b>Note : There is a stringent time-limit for this problem. Be careful.</b> </p>\n<h3>Output</h3>\n<p>Output Q lines, each containing 0 or 1, the answer for the corresponding query coordinate. </p>\n<h3>Constraints</h3>\n<ul>\n<li><b> N </b> \u2264 <b> 10^5 </b>\n</li><li><b> Q </b> \u2264 <b> 4*10^5 </b>\n</li><li><b> 10^(-7) </b> \u2264 <b> x, y </b> \u2264 <b> 10^7 </b>\n</li><li>All x and y coordinates will be specified to the third decimal point.\n</li></ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n8\n0.000 1.000 0\n1.000 0.000 0\n1.000 1.000 0\n0.700 0.700 0\n0.000 -1.000 1\n-1.000 0.000 1\n-1.000 -1.000 1\n-0.700 -0.700 1\n3\n0.600 0.600\n-0.600 -0.600\n0.800 0.800\n\n<b>Output:</b>\n0\n1\n0\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426336200,
+        "end_date": 1426422600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426422600,
+        "submit_start_date": 1426336200,
+        "current": 1537436565
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>triveni</span>",
+    "problem_name": "Playground",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/triveni'>triveni</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "triveni",
+    "contest_code": "IOPC2015",
+    "max_timelimit": "0.5 - 2",
+    "problem_code": "IOPC15F"
+}

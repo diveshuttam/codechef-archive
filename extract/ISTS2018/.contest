@@ -1,0 +1,97 @@
+{
+    "announcements": "- In the question \"Power of Power\", the order of arguments for each test case is n1,k1,n2,k2,n  .\r\n\r\n\r\n- In \"Knowledge is fun\", Minimum value of N is 5.\r\n\r\n\r\n- In \"Chocolate Pairs\", minimum value of Ci is 1.\r\n\r\n\r\n- In case of TLE, try using fast input/output",
+    "ip": "149.129.135.113",
+    "code": "ISTS2018",
+    "duration": "180",
+    "name": "IsquareTsquare",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<h4>About the Contest:</h4>\r\n<ul class=\"last\">\r\n<li> <strong>Organiser: </strong> The contest is hosted by       <span style=\"font-family: arial, sans, sans-serif; white-space: pre-wrap;\">IIT, Tirupati</span>. </li>\r\n<li> <strong>Prizes: </strong>Not declared</li>\r\n<li> <strong>Registrations for prizes: </strong>NA </li>\r\n</ul>\r\n<h4>Contest Details:</h4>\r\n<ul class=\"last\">\r\n<li> <strong>Duration: </strong>3 hours </li>\r\n<li> <strong>Start time: </strong>22nd August 2018, 15:00 hrs IST </li>\r\n<li> <strong>End time: </strong>22nd August 2018, 18:00 hrs IST <br />You may check your timezone       <a target=\"_blank\" href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+IsquareTsquare&amp;iso=20180822T15&amp;p1=44&amp;ah=3\">here</a>.</li>\r\n</ul>\r\n<h4>Registration:</h4>\r\n<p class=\"last\">You just need to have a CodeChef username to participate. No seperate registration is required. If you do not have a CodeChef    ID create one    <a target=\"_blank\" href=\"/user/register\"> here</a>.</p>\r\n<h4>Eligibility Criteria: Anyone with a knack for Programming :P</h4>\r\n<p class=\"last\">Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to    <a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct.</a></p>\r\n<h4>Rules and Regulations:</h4>\r\n<ul class=\"last\">\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying       the problem statement is ok. If you are unsure, email us at       <a target=\"_blank\" href=\"mailto:feedback@codechef.com\"> feedback@codechef.com </a>. </li>\r\n<li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead       to disabling of respective account and banning from the community. </li>\r\n<li>Almost all languages supported on CodeChef are allowed.</li>\r\n<li>Each program will be tested based on our critical test data. However output and input should be exactly as specified       in the samples provided </li>\r\n<li>Please contact <span style=\"font-family: arial, sans, sans-serif; white-space: pre-wrap;\"><a target=\"_blank\" href=\"mailto:cs16b026@iittp.ac.in\">cs16b026@iittp.ac.in</a></span> for any queries during the contest. </li>\r\n</ul>\r\n<h4>Judging Criteria:</h4>\r\n<ul>\r\n<li> <strong>All the problems have same points alloted to them.</strong> </li>\r\n<li> <strong>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending       order of time</strong> </li>\r\n<li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the       time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes       for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error). There is no       time consumed for a problem that is not solved. </li>\r\n<li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li>\r\n<li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li>\r\n</ul>\r\n<p><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched    <a target=\"_blank\" href=\"/ide\">Online IDE</a>.</strong> However, if you are using any other online development environment, make sure that other contestants don't have access to    your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you    use Ideone, make sure to mark your submission \"private\" (not secret)\". Online documentation of C++,C,Java,Python 2 and Python 3 are provided below:</p>\r\n<p><a target=\"_blank\" href=\"https://docs.python.org/3/\">https://docs.python.org/3/</a></p>\r\n<p><a target=\"_blank\" href=\"https://docs.oracle.com/javase/8/docs/\">https://docs.oracle.com/javase/8/docs/</a></p>\r\n<p><a target=\"_blank\" href=\"https://docs.python.org/2/index.html\">https://docs.python.org/2/index.html</a></p>\r\n<p><a target=\"_blank\" href=\"http://devdocs.io/cpp/\">http://devdocs.io/cpp/</a></p>\r\n<p><a target=\"_blank\" href=\"http://devdocs.io/c/\">http://devdocs.io/c/</a></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/ISTS2018/1534928831.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "DECODE": {
+            "allow_submission": false,
+            "name": "Reverse Coding",
+            "category_name": "main",
+            "accuracy": 42.62,
+            "successful_submissions": "78",
+            "code": "DECODE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "TOURNEY": {
+            "allow_submission": false,
+            "name": "Big Tournament",
+            "category_name": "main",
+            "accuracy": 21.48,
+            "successful_submissions": "435",
+            "code": "TOURNEY",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FUNKNOW": {
+            "allow_submission": false,
+            "name": "Knowledge is Fun",
+            "category_name": "main",
+            "accuracy": 23.45,
+            "successful_submissions": "34",
+            "code": "FUNKNOW",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "POWOFPOW": {
+            "allow_submission": false,
+            "name": "Power of Power",
+            "category_name": "main",
+            "accuracy": 0.4,
+            "successful_submissions": "2",
+            "code": "POWOFPOW",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DIGITSUM": {
+            "allow_submission": false,
+            "name": "Sum of Digits",
+            "category_name": "main",
+            "accuracy": 12.44,
+            "successful_submissions": "188",
+            "code": "DIGITSUM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHOCPAIR": {
+            "allow_submission": false,
+            "name": "Chocolate Pairs",
+            "category_name": "main",
+            "accuracy": 7.53,
+            "successful_submissions": "83",
+            "code": "CHOCPAIR",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1534941000,
+        "current": 1537432066,
+        "freezing": 0,
+        "start": 1534930200
+    },
+    "user": {
+        "username": ""
+    }
+}

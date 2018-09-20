@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n<p>\n\nAnmol always comes to class when the class is about to end. Frustrated by this behaviour of Anmol, his teacher has given him a special question as his homework. We all know that Anmol is very weak at computer science thus he came to you for help. Help Anmol in order to solve the problem.\n<br>\nYou are given an array <b>A</b> of length <b>N(1 indexed)</b>. \nYou have to process <b>Q</b> queries of two different types: <br>\n\n    1 x \u2014 print func(x) <br>\n    2 x y\u2014 change the value of A[x] to y. \n<br>\nfunc(x) is defined as :: <br>\n<b>\n\n<pre>\nfunc(x)\n{\n\tsum = 0 ;\n\tfor(i=x;i<=N;i+=x)\n\t\tsum = (sum + A[i]*A[i]) ;\n\treturn sum ;\n}\n\n</pre>\n</b>\nFor each query of type 1 print the value of func(x) in a new line. \n\n</p>\n\n\n<h3>Input</h3>\n<p>The first line contains a single integer T, the number of test cases. <br>Each test case is described as follows :\n<br>\nThe first line contains two numbers N and Q.\n<br>\nIn the next line  N space separated numbers denoting the values of the array A.\n<br>\nEach of the following Q lines contains a query of one of the above mentioned two types.\n<br>\n<b>Note :: Since the test files are large use scanf/printf for I/O. </b>\n\n</p>\n<p> </p>\n\n<h3>Output</h3>\n<p> For each test case, For each query of type 1 print the required answer.</p>\n<br>\nSince the answer can be very large, output it modulo <b>1000000007 </b>\n<br>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>A[i]</b> \u2264 <b>1e9</b></li>\n\n<li><b>1</b> \u2264 <b>x</b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>y</b> \u2264 <b>1e9</b></li>\n\n</ul>\n<br>\n<p><h3><b>Subtasks</b></h3> <br> \n<pre>\n<b>Subtask #1 (20 points), Time limit : 1 sec\n1 \u2264 T<=10, N<=100 \n<br>\nSubtask #2 (80 points), Time limit : 1 sec\n1 \u2264 T<=10, N<=100000\n</b>\n </pre>\n </p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n5 3\n1 2 3 4 5\n1 1\n2 2 1\n1 2\n<b>Output:</b>\n55\n17\n</pre>\n<p> </p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b>For first query A[1]*A[1] + A[2]*A[2] + A[3]*A[3] + A[4]*A[4] + A[5]*A[5] = 55\n<br>\nIn the second query the array becomes : 1 1 3 4 5\n<br>\nIn the third query answer = A[2]*A[2] + A[4]*A[4] = 17   \n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-08-2017",
+    "is_direct_submittable": false,
+    "contest_name": "LoC Aug 2017",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1503599400,
+        "end_date": 1503944999,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1503944999,
+        "submit_start_date": 1503599400,
+        "current": 1537433610
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>abhi_1595</span>",
+    "problem_name": "Always Late",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhi_1595'>abhi_1595</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abhi_1595",
+    "contest_code": "LOCAUG17",
+    "max_timelimit": "1",
+    "problem_code": "ALATE"
+}

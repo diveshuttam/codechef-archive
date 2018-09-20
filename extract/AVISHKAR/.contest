@@ -1,0 +1,87 @@
+{
+    "announcements": "<p>Congrats to all winners:</p>\r\n<p>1. Anton Lunyov</p>\r\n<p>2. Egork</p>\r\n<p>3. Pratik Tandel</p>\r\n<p>\u00c2\u00a0</p>\r\n<p>Thanks for participating. Hope you enjoyed it.</p>\r\n<p>Mail your feedbacks at: <a href=\"mailto:iopc.avishkar2k10@gmail.com\">iopc.avishkar2k10@gmail.com</a></p>\r\n<table style=\"width: 100%;\" class=\"problems\" cellpadding=\"0\" cellspacing=\"0\">\r\n<tbody>\r\n<tr class=\"row\">\r\n<td></td>\r\n<td class=\"slang\" align=\"right\"></td>\r\n</tr>\r\n<tr class=\"row\">\r\n<td></td>\r\n<td></td>\r\n<td></td>\r\n<td class=\"slang\" align=\"right\"></td>\r\n</tr>\r\n<tr class=\"row\">\r\n<td></td>\r\n<td></td>\r\n<td><a href=\"../../users/pr0ton\"></a></td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p>\u00c2\u00a0</p>\r\n<p>\u00c2\u00a0</p>\r\n<p>\u00c2\u00a0</p>\r\n<p>\u00c2\u00a0</p>\r\n<p>Point distribution:</p>\r\n<p><b><a href=\"/AVISHKAR/problems/AVISKR03/\"><b>Building Ports </b></a><b> : 2 points<br /></b></b></p>\r\n<p><b><a href=\"/AVISHKAR/problems/AVISKR02/\"><b>Flibonakki</b></a><b> : 1 point<br /></b></b></p>\r\n<p><b><a href=\"/AVISHKAR/problems/AVISKR01/\"><b>LCM GCD Love</b></a><b> : 2 points<br /></b></b></p>\r\n<p><b><a href=\"/AVISHKAR/problems/AVISKR05/\"><b>Shoppers</b></a><b> : 2 points<br /></b></b></p>\r\n<p><b><a href=\"/AVISHKAR/problems/AVISKR04/\"><b>Slow Growing Bacteria</b></a><b> : 1 point</b></b></p>\r\n<p><b><b><br /></b></b></p>\r\n<p><b><b>Correction in input format of Building ports:<br /><br />The first line of each test case contains (N-1) and Y\u00c2\u00a0 , not N and Y<br /><br />We apologise for the inconvenience caused.<br /></b></b></p>",
+    "ip": "149.129.135.113",
+    "code": "AVISHKAR",
+    "duration": "300",
+    "name": "MNIT - Avishkar 2010",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<h1><b>IOPC 2010</b>.</h1> <h3>Prizes worth <b>10000(INR)</b> to be won.</h3> <p>1. All teams should register at: <a href=\"http://tinyurl.com/IOPC2010\">http://tinyurl.com/IOPC2010</a></p> <p><a href=\"http://tinyurl.com/IOPC2010\"></a>2. Event start at <b>1700 hours (+5:30 GMT) on 3rd October 2010</b>.</p> <p>3. Only the submission through registered Codechef handles will be considered for prizes.</p> <p>4. Problems are of varing level of difficulty. Points for each problem is according to its hardness.</p> <p>5. Please do not discuss strategy, suggestions or tips in the comments during a live contest. If you are unsure, email us at <a href=\"mailto:iopc.avishkar2k10@gmail.com\">iopc.avishkar2k10@gmail.com</a></p> <p><a href=\"mailto:iopc.avishkar2k10@gmail.com\"></a>6. There are no penalties for incorrect submissions. You can sumbit as many times as you want.</p> <p>7. Any sort of malicious activity will lead to immediate disqualification of the team in question.</p> <p>8. For any further queries, send a mail to <a href=\"mailto:iopc.avishkar2k10@gmail.com\">iopc.avishkar2k10@gmail.com</a> .</p> <p>9. For updates join the google group: <a href=\"http://groups.google.co.in/group/cyberquest2k10\">http://groups.google.co.in/group/cyberquest2k10</a></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/AVISHKAR/1424957500.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "AVISKR01": {
+            "allow_submission": false,
+            "name": "LCM GCD Love",
+            "category_name": "main",
+            "accuracy": 8.33,
+            "successful_submissions": "3",
+            "code": "AVISKR01",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "AVISKR02": {
+            "allow_submission": false,
+            "name": "Flibonakki",
+            "category_name": "main",
+            "accuracy": 5.42,
+            "successful_submissions": "14",
+            "code": "AVISKR02",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "AVISKR03": {
+            "allow_submission": false,
+            "name": "Building Ports",
+            "category_name": "main",
+            "accuracy": 4.88,
+            "successful_submissions": "2",
+            "code": "AVISKR03",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "AVISKR04": {
+            "allow_submission": false,
+            "name": "Slow Growing Bacteria",
+            "category_name": "main",
+            "accuracy": 2.27,
+            "successful_submissions": "1",
+            "code": "AVISKR04",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "AVISKR05": {
+            "allow_submission": false,
+            "name": "Shoppers",
+            "category_name": "main",
+            "accuracy": 28.57,
+            "successful_submissions": "21",
+            "code": "AVISKR05",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1286123400,
+        "current": 1537439495,
+        "freezing": 0,
+        "start": 1286105400
+    },
+    "user": {
+        "username": ""
+    }
+}

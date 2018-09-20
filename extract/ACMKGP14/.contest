@@ -1,0 +1,93 @@
+{
+    "teamsCount": "446",
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "ACMKGP14",
+    "duration": "180",
+    "name": "ACM-ICPC Asia-Kharagpur Site First Round Online Contest 2014",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p>\u00a0</p> <div><b>For any queries or issues during contest, participants can call us\u00a0at 022-30797709</b></div> <p>\u00a0</p> <div><b>About Preliminary Contest:</b> <ul> <li>A Preliminary Online Contest for the ACM-ICPC Asia Kharagpur Site is scheduled on Saturday, 18th October 2014. The contest is organized to select teams for participation in the ACM-ICPC Regional Contest (Kharagpur Site) to be held at IIT Kharagpur on 6th &amp; 7th December 2014.</li> <li>Only the teams registered and accepted in Baylor Site are eligible to participate in this contest. Only those teams that qualify in this round will advance to the Onsite Contest to be held at\u00a0IIT Kharagpur\u00a0on 6th &amp; 7th December 2014.</li> </ul> <div><b>Rules and Regulations:</b> <div> <ul> <li>To be able to submit solutions to the problems, please do not forget to login with your the team credentials for this contest sent on your email.</li> <li>The contest will be conducted over the Internet. It is a team event. A team consists of 3 contestants.</li> <li>Teams whose registration formalities are cleared are only eligible to participate in the contest.</li> <li>You have to login with the team login id and password that has been sent to you by via email.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok</li> <li>You can also send your queries in an email to <a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a>, during the contest.</li> <li>Contest problems will become visible on the contest landing page on CodeChef on Saturday, 18th October 2014 at 1400 HRS. (IST). The contest is of 3 hours.</li> <li>Organizing Institute will not be responsible in case your program does not work at our environment, so try to use one of the mentioned compiler versions.\u00a0<b>For more info on the environment, you are advised to read\u00a0<a target=\"_blank\" href=\"/wiki/environment-details\">environment details</a>,\u00a0<a target=\"_blank\" href=\"/wiki/list-compilers\">compilers list</a> and our\u00a0<a target=\"_blank\" href=\"/wiki/faq\">FAQ</a></b></li> <li>Judge's decision will be treated as final. No correspondence in this regard will be entertained.</li> <li>Regional Site will not be responsible for any internet failure during the online contest at the contestant's site.</li> <li>Each participating team must submit solutions within 3 hours from the contest start time as mentioned in the submission procedure.</li> <li><b>Any type of plagarism activity during the contest may lead to disqualification of not only the team but also all teams of the same Institute from all the three ACM-ICPC sites</b></li> <li>All participants are expected to abide by the\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">Code Of Conduct</a></li> </ul> </div> <div><b>Judging criteria:</b> <ul> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <li>Teams are ranked according to the most problems solved. Ties will be broken by the total time for each team in ascending order of time.</li> <li>Compilation error will not count towards the penalty.</li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> <li>Each program will be tested based on our critical test data. A program will be considered as correct if its output matches with our output against our critical test data.</li> <li>Selection of Teams may or may not reflect the Ranking of the Teams. For selection of the team procedure read below.</li> </ul> </div> <div><b>Selection Procedure:</b> <ul> <li>There are 100 slots available for the on-site contest.</li> <li>The teams which could not solve even a single problem in the preliminary contest are eliminated. The remaining teams are ranked according to performance.</li> <li>Assuming there are N number of problems in the preliminary contest, selection of teams for onsite contest is done as follows, subject to the constraint that maximum number of teams from a single institute can not exceed three.</li> <li>Teams solving all the N problems are selected first.</li> <li>The remaining slots will be filled by selecting top ranking team from each institute according to the rank after removal of the teams selected in Step 1.</li> <li>If slots are still available, the second ranking team from each institute will be selected according to rank. This procedure will continue to third ranking teams in each institute (subject to above constraint), if vacancy exists.</li> <li>If number of teams selected thus exceeds number of slots at any stage, the lowest ranking teams will be removed.</li> </ul> </div> </div> <div><b>Programming Environment:</b> <ul> <li>Programs are to be written in C, C++ or Java. You can find about the compiler options in each language here.</li> <li>For C/C++ programs use GNU C/ GNU C++ (Command: gcc/g++ file.c) compilers. (For C use gcc-4.8.1 compiler, for C++ use gcc-4.8.1 compiler, for C++ 11, use\u00a0gcc-4.8.1 compiler with\u00a0\"-std=gnu++0x\" option)</li> <li>For Java programs, use JDK 1.7.0_25. Use the usual commands: javac for compilation and java for running the program.</li> </ul> </div> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/ACMKGP14/1424957977.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "ACM14KP4": {
+            "allow_submission": false,
+            "name": "Determine the Maximum Sum of Weights",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "ACM14KP4",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ACM14KP2": {
+            "allow_submission": false,
+            "name": "Bye, inversions!",
+            "category_name": "main",
+            "accuracy": 14.54,
+            "successful_submissions": "204",
+            "code": "ACM14KP2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ACM14KP3": {
+            "allow_submission": false,
+            "name": "Cyclic Prefix",
+            "category_name": "main",
+            "accuracy": 4.4,
+            "successful_submissions": "10",
+            "code": "ACM14KP3",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ACM14KP5": {
+            "allow_submission": false,
+            "name": "Three elements",
+            "category_name": "main",
+            "accuracy": 49.71,
+            "successful_submissions": "414",
+            "code": "ACM14KP5",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ACM14KP1": {
+            "allow_submission": false,
+            "name": "A Magical Length",
+            "category_name": "main",
+            "accuracy": 14.93,
+            "successful_submissions": "97",
+            "code": "ACM14KP1",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537437312,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

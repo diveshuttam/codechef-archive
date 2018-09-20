@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nAt BITS Pilani, Goa Campus there was a  conference on coding and cryptography during Quark. The following theorem needed a proof or a counterexample: Suppose we are given a set of words of equal length; each word consisting of 0's, 1's and/or *'s. Also suppose that the pattern of *'s is different for all words in the set.<br /><br />\nThe claim is: if you the *'s are replaced by 0's and 1's in all possible ways, then you obtain a set that is at least as big as the set you started with initially.<br /><br /><br />\nExample:<br /><br />\n{ 10*, *0*, *00 } produces { 100, 101, 000, 001 }<br /><br />\n{ 100, 101, 10* } produces { 100, 101 }<br /><br /><br />\nNotice that the set in the latter example does not satisfy the condidtion mentioned above, so it does<br />\nnot provide a counterexample.<br /><br /><br />\nWrite a program which has to check for a number of cases:<br /><br />\n1. Whether the pattern of *'s is different for all words in the set and:<br /><br />\n2. Compute the number of words obtained by replacing the *'s by 0's and 1's.<br /><br /><br />\nThe words will not be longer than 15 symbols(containing 0's,1's and *'s).<br />\n</p>\n<p><br /><br />\n<h3>\nInput</h3>\n</p><p>\nThe input is of the format of a text-file that represents a sequence of sets. Each set is described as follows. The first line<br />\ngives only two non negative integers: the length of the words and the number of the words. Then follow the words, one word<br />\non a separate line. The end of the sequence of sets is indicated by a set with wordlength 0 and number of words equal to 0. </p>\n<h3>Output</h3>\n<p>\nThe output is a textfile that has one line for each set. if the pattern of *'s is different for all the<br />\nwords in this set this line should contain YES (in uppercase), followed by a space and the number of<br />\nobtained words, otherwise it should contain NO (uppercase) only.\n</p>\n<p>\n<b>Sample Input</b><br />\n3 3<br />\n10*<br />\n*0*<br />\n*00<br /></p>\n<p>\n<b>Sample Output</b><br />\nYES 4</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Quark Codejam '16 ",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1454747400,
+        "end_date": 1454758200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454758200,
+        "submit_start_date": 1454747400,
+        "current": 1537435544
+    },
+    "problem_author_html_handle": "dhwanitquark",
+    "problem_name": "Starring the unknowns",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dhwanitquark'>dhwanitquark</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dhwanitquark",
+    "contest_code": "COJA2016",
+    "max_timelimit": "1",
+    "problem_code": "CODEJAM5"
+}

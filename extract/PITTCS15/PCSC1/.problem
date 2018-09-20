@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>George is getting tired of the decimal number system.  He intends to switch and use the septenary (base 7) number system for his future needs.  Write a program to help George start his transformation into the septenary number system by taking in a list of decimal numbers and print out the corresponding septenary number.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>A list of numbers in decimal format ending with -1.</p>\n<h3>Output</h3>\n<p>A list of numbers in septenary.</p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1 2 88 42 99 -1\n\n<b>Output:</b>\n1 2 154 60 201\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Replay of Pitt CSC - University of Pittsburgh ",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1427301000,
+        "end_date": 1427311800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1427311800,
+        "submit_start_date": 1427301000,
+        "current": 1537436495
+    },
+    "problem_author_html_handle": "pwf7",
+    "problem_name": "Septenary conversion",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pwf7'>pwf7</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pwf7",
+    "contest_code": "PITTCS15",
+    "max_timelimit": "1",
+    "problem_code": "PCSC1"
+}

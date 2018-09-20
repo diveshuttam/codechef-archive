@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Munish is leading an army to save the princess of his kingdom \"Lifex\". The princess has been made a prisoner by the neighbouring kingdom \"Thuvax\". Thuvax is a magical land and full of challenges. The king of Thuvax offers a challenge to save his princess without war.<br />\nThe kingdom of Thuvax has prisoned princess in a cell on the roof top of a building. The access on the roof top is done by climbing stairs that spiral around the building until it ends on the roof of the building where cell door is located. The door can only be unlocked by a password. The favourite number base on Thuvax is <b>base 2</b>. Munish knows that the password is related to the way he climbs the stairs and with the number of stairs itself.<br />\nHe can only climb one or two steps at a time. Munish knows that the password to the door is closely related with the way he climbs the stairs. Suppose the number of stairs he has to climb is <b>N</b>. Also let the number of ways he climbs those <b>N</b> stairs is <b>M</b>. Now, the password of the door is equal to the number of <b>1's</b> in the <b>base-2</b> representation of (<b>M</b> module <b>1000000007</b>).<br />\nThe kingdom of Thuvax has given only one chance to unlock the door. In any wrong attempt the door will be locked and then it will be impossible to unlock in future. Munish is sure he will climb the stairs but being sad he is so depressed that he will not be able to properly calculate the number of ways he can climb those <b>N</b> stairs as well as the password. Munish does not want to fail in any case as she is the princess of his Lifex. So, to do this calculation he is seeking your help.Now it's your responsibility to calculate the password so that he can save the princess of his Lifex.</p>\n<h3>Input</h3>\n<p>First line represents an integer <b>T</b>, the number of test cases.<br />\nNext <b>T</b> lines contains a number denoting the number of stairs that building has.\n</p>\n<h3>Output</h3>\n<p>\nPrint the password on a single line, as explained above on the problem statement.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b> 1 </b> \u2264 <b> T </b> \u2264 <b> 10<sup>5</sup> </b></li>\n<li><b> 1 </b> \u2264 <b> N </b> \u2264 <b> 10<sup>5</sup> </b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<p>\n4\n1\n3\n7\n8\n</p>\n\n<b>Output:</b>\n<p>\n1\n2\n3\n2\n</p>\n</pre>",
+    "category_name": "extcontest",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-08-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Codebuster",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1439901000,
+        "end_date": 1439965800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1439965800,
+        "submit_start_date": 1439901000,
+        "current": 1537436113
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>vikasnitt</span>",
+    "problem_name": "Save the Princess",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vikasnitt'>vikasnitt</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vikasnitt",
+    "contest_code": "CDBU2015",
+    "max_timelimit": "1",
+    "problem_code": "CDBSTR02"
+}

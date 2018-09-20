@@ -1,0 +1,33 @@
+{
+    "problem_code": "BTREEKK",
+    "problem_author": "blunderspride",
+    "contest_name": "ICPC Preparatory Series by Team BlundersPride",
+    "todo": false,
+    "problem_author_html_handle": "blunderspride",
+    "problem_name": "Alice and the Rainforest",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "IPC15P1B",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/binary-tree'>binary-tree</a>, <a class='problem-tag-small ' href='/tags/problems/blunderspride'>blunderspride</a>, <a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/ipc151b'>ipc151b</a>, <a class='problem-tag-small ' href='/tags/problems/maths'>maths</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> </p>\n\n<p>Alice is lost in a binary tree in the rain forests. The binary tree in this discussion is a complete binary tree. A complete binary tree is a binary tree in which every level, except possibly the last, is completely filled, and all nodes are as far left as possible. Alice knows that the binary tree has <b>N</b> nodes.</p>\n\n<p>Luckily a monkey in the same tree informs her that she is, in the worst case, <b>X</b> steps away from the outside world if she starts going in the direction she is facing. According to the monkey, reaching the outside world means reaching either the root of the tree or reaching one of the leaves of the tree. But Alice forgot to ask the monkey if she is facing up towards the root of the tree or down towards the leaves.</p>\n\n<p>You have to tell Alice the number of nodes she could be in if:</p>\n<p>a) she is facing towards the root, and\n<p>b) she is facing towards the leaves.\n<br>\n<img src=\"https://www.codechef.com/download/IPC/BTREEKK/btree.gif\" alt=\"Image\" style=\"width:380px;height:280px;\">\n<br> <br>\n\n<h3>Input:</h3>\n<p>The first line contains a single integer <b>T</b>, the number of test cases.</p>\n<p>Each of the following <b>T</b> lines contains 2 integers <b>N</b> and <b>X</b> indicating the number of nodes in the tree and the \"worst-case\" number of steps to the outside world from her position.</p>\n\n\n<h3>Output</h3>\n<p>Output will have <b>T</b> lines.</p>\n<p>For each test case, output 2 integers separated by a single space. </p>\n<p>First integer is the number of possible nodes she could be on, given that she is facing towards the root.</p>\n<p>The second integer is the number of possible nodes she could be on given that she is facing the leaves.</p>\n\n\n<h3>Constraints:</h3>\n<ul>\n<li>1 \u2264 <b>T</b> \u2264 100000</li>\n<li>1 \u2264 <b>N</b> \u2264 10<sup>15</sup></li>\n<li>0 \u2264 <b>X</b> \u2264 100</li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n10 0\n10 2\n\n<b>Output:</b>\n1 5\n4 1\n</pre>\n\n<h3>Explanation:</h3>\n<p>Refer to the figure above. </p>\n\n<p>Test case 1: node A has height 0 from top, and nodes H, I, J, F, G have \nheight 0 from bottom.</p>\n\n<p>Test case 2: nodes D, E, F, G have height 2 from the top, and node B has depth 2 from below.</p>\n\n<p><b>Note:</b> We are only concerned about worst-case number of steps to reach any of the leaves. So from node A, worst-case distance to any leaf is 3 and thus it is not counted.</p>",
+    "category_name": "main",
+    "date_added": "25-11-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/BTREEKK",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1448724600,
+        "end_date": 1448746200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1448746200,
+        "submit_start_date": 1448724600,
+        "current": 1537435790
+    },
+    "user": {
+        "username": ""
+    }
+}

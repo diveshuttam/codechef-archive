@@ -1,0 +1,243 @@
+{
+    "teamsCount": "1075",
+    "announcements": "<ul>\r\n<li>Editorials for the problems can be found <a href = \"http://praveendhinwacoding.blogspot.in/2014/03/iopc-editorials.html\">here</a></li>\r\n<li> 12:30 PM:\r\nThe contest has ended. Congrats to all the winners and thank you all for participating. The winners will be separately contacted by the IOPC team later. We will re-publish the rankings after we rejudge IOPC14O. </li>\r\n<li> 11:50 AM:\r\nThe IOPC 2014 problems would be added to SPOJ within 24 hours for practice. Keep checking last page in the classical list.<br>\r\nWe would be disqualifying the IOPC14O solutions which were wrong because of <strong>our </strong> i/o format error after the contest.<br></li>\r\n<li>7:43 AM : \r\nBefore leaving the contest, please spare some time to give your <a href=\"https://docs.google.com/forms/d/1q13itzSRB4-Wnixu0sJ_LuF4Ko2j7R9YdPTEsUf7UnI/viewform\">feedback</a> to this year's edition of IOPC.\r\n</li> \r\n<li>4:08 AM :\r\n<strong>\r\nFor problem IOPC14B, the statement was misinterpreted by some people. We are explaining the problem more for clarification of this. For the input of hierarchal structure in the N-1 lines, each line contains 2 integers, such that one is under the direct command of other. Who commands whom is decided by the hierarchal path to the king. It is NOT necessary that first integer numbered solider commands second integer numbered soldier.\r\n</strong>\r\n</li>\r\n<li>3:56 A.M. IST:\r\nProblem Statements for IOPC14T has been modified for better clarity. Some more problems are updated , so please read the problems once again.Sorry for the inconvinience caused.\r\n</li>\r\n<li>1:14 AM IST:\r\nThere was a constraint error in one of the test files of Power Tower (IOPC14P). The test data has been updated and all solutions are rejudged. We are extremely sorry to all the participants, especially mikhailOK, for our mistake. \r\n</li>\r\n<li>10:41 PM IST:\r\nAll solutions of IOPC14C are now rejudged. Some WA solutions are now ACC. Sorry for the inconvenience caused.</li>\r\n<li>10:06 PM IST : \r\nThere was a issue of colinearity in a testcase of IOPC14C. Some solutions would be rejudged. The test data is now corrected.</li>\r\n<li>Regarding problem IOPC14O : <br>\r\nThose who submitted their solutions with old sample output format and got WA, please resubmit with the correct ones. Their previous submissions will be disqualified and no penalty will be imposed on them. Thanks for bearing with us :( </li>\r\n<br>\r\n<li>Rankings available at  http://codechef.com/rankings/IOPC2014 </li>\r\n</ul>",
+    "ip": "149.129.135.113",
+    "code": "IOPC2014",
+    "duration": "1440",
+    "name": "IOPC 2014",
+    "is_contest_elements_visible": true,
+    "rank_and_score": {
+        "rank": "NA",
+        "score": "NA"
+    },
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div>The editorials can be found <a target=\"_blank\" href=\"https://docs.google.com/file/d/0B8cc7eHcqRVNd240QklvTE1kLU0/edit\">here</a>.</div> <div></div> <div><b>Registration: </b></div> <div> <ul> <div><b> </b> <b>This is a team contest, so a seperate registration is needed for the team to participate. Please do the registration before the contest starts. </b></div> <li>Login with your normal CodeChef user ID</li> <li>Click on the <a target=\"_blank\" href=\"/teams/register/IOPC2014\"><b>Team Registration Link</b></a> to register your team for the contest. The registrations will be open during the contest as well.<span> </span></li> <li>Click logout in the top right corner and login using the Team Name and password you registered with.</li> <li>You can get more information about team contests <a target=\"_blank\" href=\"/wiki/team-contests\">here</a>.</li> </ul> </div> <div><b>Rules and Regulations:</b> <div> <ul> <li>It is an 24 hour online event based on ACM-ICPC format.</li> <li>The event does not require the participants to be present at IITK for participation. And hence, no registration fee is required.</li> <li>Contest problems will become visible on 1st March, 2014 at 1200 HRS (IST) and end at 2nd March, 2014 at 1200 HRS (IST). Check your timezome <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+IOPC+2014&amp;iso=20140301T12&amp;p1=44\" target=\"_blank\">here</a>.</li> <li>To be eligible for prizes, teams and members have to register on the <b><a href=\"http://techkriti.org/Competitions/competition.php#iopc\" target=\"_blank\">IOPC page</a></b> as well.</li> <li>Only teams of which all members are students currently registered in a university shall be eligible for prizes. However, non-students are also welcome to participate.</li> <li> This is a TEAM CONTEST. A team can consist of atmost 3 members. One person can\u2019t be part of more than one team.</li> <li> Permissible languages to send solutions in are C, C++, and Java. Compilers to be used: gcc-4.3.2 for <b>C</b>, g++-4.3.2 for <b>C++</b> and javac-1.6.0_12 for <b>Java</b>.</li> <li>If you do not have a CodeChef ID create one <a href=\"http://codechef.com/user/register\" target=\"_blank\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. </li> <li> Almost all languages supported on CodeChef are allowed. </li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided. </li> <li>All participants are expected to abide by the\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a></li> <li>Please contact\u00a0<span><a href=\"mailto:swcorner@techkriti.org\" target=\"_blank\">swcorner@techkriti.org</a></span> for any queries during the contest. </li> </ul> </div> <div><b>Judging criteria : </b> <ul> <li>All the problems have same points alloted to them. </li> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time. </li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained. </li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified. </li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved.<span> </span></li> <li> Find more about the Cube judge <a href=\"http://webcache.googleusercontent.com/search?q=cache:http://www.spoj.pl/clusters/\" target=\"_blank\">here</a>. </li> </ul> </div> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/IOPC2014/1424957911.jpg",
+    "isTeamContest": true,
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": true,
+    "show_register_button": false,
+    "problems": {
+        "IOPC14N": {
+            "allow_submission": false,
+            "name": "Swap and Explore",
+            "category_name": "main",
+            "accuracy": 19.78,
+            "successful_submissions": "316",
+            "code": "IOPC14N",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC14H": {
+            "allow_submission": false,
+            "name": "Catering Services",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "IOPC14H",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC14I": {
+            "allow_submission": false,
+            "name": "Joker and the Arkham Asylum",
+            "category_name": "main",
+            "accuracy": 8.33,
+            "successful_submissions": "1",
+            "code": "IOPC14I",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC14M": {
+            "allow_submission": false,
+            "name": "Number Transform",
+            "category_name": "main",
+            "accuracy": 7.78,
+            "successful_submissions": "43",
+            "code": "IOPC14M",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC14S": {
+            "allow_submission": false,
+            "name": "Saying Hello",
+            "category_name": "main",
+            "accuracy": 22,
+            "successful_submissions": "11",
+            "code": "IOPC14S",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC14K": {
+            "allow_submission": false,
+            "name": "Three substrings",
+            "category_name": "main",
+            "accuracy": 26.15,
+            "successful_submissions": "34",
+            "code": "IOPC14K",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC14T": {
+            "allow_submission": false,
+            "name": "A Study in Combinatorics",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "IOPC14T",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC14C": {
+            "allow_submission": false,
+            "name": "Super Line Segments",
+            "category_name": "main",
+            "accuracy": 26.32,
+            "successful_submissions": "14",
+            "code": "IOPC14C",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC14B": {
+            "allow_submission": false,
+            "name": "Add and Compute Path",
+            "category_name": "main",
+            "accuracy": 8.1,
+            "successful_submissions": "16",
+            "code": "IOPC14B",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC14P": {
+            "allow_submission": false,
+            "name": "Power Tower",
+            "category_name": "main",
+            "accuracy": 13.33,
+            "successful_submissions": "6",
+            "code": "IOPC14P",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC14O": {
+            "allow_submission": false,
+            "name": "Infinite GP in Infinite GP",
+            "category_name": "main",
+            "accuracy": 14.76,
+            "successful_submissions": "232",
+            "code": "IOPC14O",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC14L": {
+            "allow_submission": false,
+            "name": "Sweets Problem",
+            "category_name": "main",
+            "accuracy": 5.13,
+            "successful_submissions": "2",
+            "code": "IOPC14L",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC14Q": {
+            "allow_submission": false,
+            "name": "Counting Trees",
+            "category_name": "main",
+            "accuracy": 11.11,
+            "successful_submissions": "22",
+            "code": "IOPC14Q",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC14D": {
+            "allow_submission": false,
+            "name": "The Incredible Machine",
+            "category_name": "main",
+            "accuracy": 8.7,
+            "successful_submissions": "2",
+            "code": "IOPC14D",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC14E": {
+            "allow_submission": false,
+            "name": "Easy Airthmetic Geometric Progression",
+            "category_name": "main",
+            "accuracy": 28.57,
+            "successful_submissions": "2",
+            "code": "IOPC14E",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC14F": {
+            "allow_submission": false,
+            "name": "Fibonacci Returns",
+            "category_name": "main",
+            "accuracy": 5.68,
+            "successful_submissions": "24",
+            "code": "IOPC14F",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC14A": {
+            "allow_submission": false,
+            "name": "Fun with flooring factorial",
+            "category_name": "main",
+            "accuracy": 4.76,
+            "successful_submissions": "71",
+            "code": "IOPC14A",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC14J": {
+            "allow_submission": false,
+            "name": "Bomberman and the attack of Emperor Terrorin",
+            "category_name": "main",
+            "accuracy": 25.71,
+            "successful_submissions": "18",
+            "code": "IOPC14J",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC14G": {
+            "allow_submission": false,
+            "name": "Copy and Paste",
+            "category_name": "main",
+            "accuracy": 13.73,
+            "successful_submissions": "7",
+            "code": "IOPC14G",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "IOPC14R": {
+            "allow_submission": false,
+            "name": "LCS Returns",
+            "category_name": "main",
+            "accuracy": 17.03,
+            "successful_submissions": "93",
+            "code": "IOPC14R",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1104517800,
+        "current": 1537437735,
+        "freezing": 0,
+        "start": 1104517800
+    },
+    "user": {
+        "username": ""
+    }
+}

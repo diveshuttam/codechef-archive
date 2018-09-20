@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Tower of Hanoi problem is a classical recurrence problem that is often used to teach recurrence relations to computer science students. In the classical 3-Peg Tower of Hanoi problem initially the peg A contains all disks top to bottom in a strictly small to big order. This tower of disks is to be moved to peg C using peg B as intermediate. The rule of the game is that in every move the top disk from one of the towers can be moved to the top of another tower. Never ever can we put a large disk on top of a smaller one. In this problem, in order to move a tower of <b>n</b> disks, we must shift the top sub-tower of <b>n</b> - 1 disks to the only intermediate peg, then shift the largest to peg C and then the sub-tower of size <b>n</b> - 1 from intermediate to destination peg. Whatever the value of <b>n</b> may be exactly <b>n</b> - 1 disks have to be shifted to the only intermediate peg. We have no choice of fewer or more disks, and no choice for the intermediate peg. </p>\n<p>In multi-Peg Tower of Hanoi problem we have <b>p</b> >= 3 pegs (<b>P<sub>1</sub>, P<sub>2</sub>, ..., P<sub>p</sub></b>) and <b>n</b> disks to move from <b>P<sub>1</sub></b> to <b>P<sub>p</sub></b> using minimum number of moves. We refer to this as (<b>n, p</b>) system. Now we have <b>p</b> - 2 intermediate pegs and not all of <b>n</b> - 1 disks need to be shifted to one intermediate peg. However, before the largest disk moves to the destination peg, all top <b>n</b> - 1 disks have to be distributed among all intermediate pegs. While the optimal strategy still baffles algorithm designers, many believe that in the optimal solution, certain optimal number n1 disks have to be shifted to an intermediate peg. Then the remaining <b>n - n<sub>1</sub></b> disks must reach destination, while the disks in the intermediate peg will remain untouched. Then the disks in the intermediate peg must reach destination. In transferring any sub-tower to any peg, this strategy will be followed recursively. Let <b>M(n, p)</b> be the minimum number of moves required to shift a tower of n disks in p peg system. This strategy satisfies the following recurrence relations: <b>M(n,p) = min(2M(n<sub>1</sub>,p)+M(n-n<sub>1</sub>,p-1))</b> for all 0 &lt; <b>n<sub>1</sub></b> &lt; <b>n</b>.\n</p>\n<p>\nAssume further that, if multiple strategies result in minimum number of moves, then the strategy for which <b>n<sub>1</sub></b> is the smallest is chosen. Your job is to find out the move number at which a particular disk <b>D</b> moves ultimately to the destination peg in an <b>(n, p)</b> system.\n</p>\n<h3>Input</h3>\n<p>The first line of input will be an integer <b>T</b>, denoting the number of test cases. Each test case is represented by a triple of integers <b>N</b>, <b>P</b> and <b>K</b> in the same line separated by space. <b>N</b> denotes the number of disks. <b>P</b> denotes the number of pegs. <b>K</b> denotes the index (1-based from the top) of the disk, whose move number need to be found out.</p>\n<h3>Output</h3>\n<p>For each test case, there should be a single line of output. The line should contain \u201cCase <case_number>: \u201d, followed by an integer representing the move number at which disk <b>K</b> moves ultimately to the destination peg. Refer to the sample input and output for exact formatting.</case_number></p>\n<h3>Constraints</h3>\n<p>1 &lt;= <b>T</b> &lt;= 10000</p>\n<p>1 &lt;= <b>N</b> &lt;= 50</p>\n<p>3 &lt;= <b>P</b> &lt;= 50\n</p><p>1 &lt;= <b>K</b> &lt;= <b>N</b><br />\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n3 3 2\n50 3 1\n50 50 1\n\n<b>Output:</b>\nCase 1: 6\nCase 2: 1125899906842623\nCase 3: 101\n\n</pre></p>\n<p><b>\n<p>Problem Setter : Dr. M. Kaykobad</p>\n<p></p></b></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-12-2013",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Kanpur onsite regionals 2013 : Replay",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1387027800,
+        "end_date": 1387045800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1387045800,
+        "submit_start_date": 1387027800,
+        "current": 1537437981
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>shangjingbo</span>",
+    "problem_name": "Multi-Peg Tower of Hanoi",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/kan13acm'>kan13acm</a>, <a class='problem-tag-small ' href='/tags/problems/shangjingbo'>shangjingbo</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shangjingbo",
+    "contest_code": "KAN13ACM",
+    "max_timelimit": "6.75",
+    "problem_code": "KAN13H"
+}

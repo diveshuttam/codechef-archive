@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\n<b>\u201cTom Riddle: [in Parseltongue] Kill him! [to Harry] Parseltongue won't save you now, Potter! It only obeys me!\u201d</b>\n</p>\n\n<p>\nHarry was in the Chamber of Secrets. Fawkes blinded the Basilisk and the Sorting Hat eventually produced a sword with which Harry can finally kill the Basilisk. But for Harry to use the Godric Gryffindor's sword he has to prove that he is worth it. The hat poses following problem for Harry to solve.\n</p>\n\n<p>\nLet <b>A</b> and <b>B</b> be <b>2</b> matrices of size <b>U</b> * <b>V</b> and <b>W</b> * <b>X</b> respectively.</p>\n\n<p>\nLet <b>P</b> be a <a href = \"http://mathworld.wolfram.com/Submatrix.html\">submatrix</a> of matrix <b>A</b> and <b>Q</b> be a submatrix of matrix <b>B</b>, each of size <b>K</b> * <b>K</b>.</p>\n\n<p>In how many ways can you select a pair of <b>P</b> and <b>Q</b> such that they are identical? As Harry doesn't have much time. Help him save Hogwarts.</p>\n\n<h3>Input</h3>\n<ul>\n<li>First line contains <b>5</b> integers <b>U</b>, <b>V</b>, <b>W</b>, <b>X</b> and <b>k</b>.</li>\n<li>Next <b>U</b> lines contains <b>V</b> integers each, denoting matrix <b>A</b>.</li>\n<li>Next <b>W</b> lines contains <b>X</b> integers each, denoting matrix <b>B</b>. </li>\n</ul>\n</br>\n\n<h3>Output</h3>\n<ul>\n<li>It contains a single line containing the count of such pairs.</li>\n</ul>\n</br>\n\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 <b>U, V, W, X</b> \u2264 2000</li>\n<li>1 \u2264 <b>K</b> \u2264 min(<b>U</b>,<b>V</b>,<b>W</b>,<b>X</b>)</li>\n<li>1 \u2264 <b>A<sub>i,j</sub>, B<sub>i,j</sub></b> \u2264 500</li>\n</ul>\n</br>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n3 3 3 3 2\n1 2 1\n2 1 2\n1 2 1\n1 2 1\n2 1 2\n1 2 1\n\n<b>Output:</b>\n8\n</pre>\n</br>\n\n<h3>Explanation</h3>\n<p>Following pairs of size <b>2</b> * <b>2</b> submatrices are identical to each other in given Matrix <b>A</b> and <b>B</b>.</br>\n<b>M(TL, BR)</b> denotes a submatrix of Matrix <b>M</b> with top left corner <b>TL</b> and bottom right corner <b>BR</b>.</br>\n<ul>\n<li><b>A</b>((1,1),(2,2)) and <b>B</b>((1,1),(2,2))</li>\n\n<li><b>A</b>((1,1),(2,2)) and <b>B</b>((2,2),(3,3))</li>\n\n<li><b>A</b>((2,2),(3,3)) and <b>B</b>((1,1),(2,2))</li>\n\n<li><b>A</b>((2,2),(3,3)) and <b>B</b>((2,2),(3,3))</li>\n\n<li><b>A</b>((2,1),(3,2)) and <b>B</b>((2,1),(3,2))</li>\n\n<li><b>A</b>((2,1),(3,2)) and <b>B</b>((1,2),(2,3))</li>\n\n<li><b>A</b>((1,2),(2,3)) and <b>B</b>((2,1),(3,2))</li>\n\n<li><b>A</b>((1,2),(2,3)) and <b>B</b>((1,2),(2,3))</li>\n</ul>\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "ALKHWARIZM (Rated)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1521214200,
+        "end_date": 1521232200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1521232200,
+        "submit_start_date": 1521214200,
+        "current": 1537432816
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>priyanshukm</span>",
+    "problem_name": "Harry in the Chamber of Secrets",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/priyanshukm'>priyanshukm</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "priyanshukm",
+    "contest_code": "ALKH2018",
+    "max_timelimit": "2",
+    "problem_code": "HARRYCOS"
+}

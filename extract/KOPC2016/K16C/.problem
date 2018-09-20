@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\u00a0</p>\n<p align = \"justify\">Eobard Thawne, \"The Reverse Flash\" finally figured out what time period \"The Flash\" is from. He also figured out a way to get back to his time by using the tachyon particles. But Flash stopped him and locked him up in the meta-human cell. But when Flash captured the Reverse Flash, he ruptured the timeline because of which Cisco Ramon is affected. Harrison Wells said that the only way to save Cisco is to restore the timeline. So, Flash has to send Reverse Flash back to the future as quickly as possible.<br><br>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\t\t\n\tFlash's speed coupled with Thawne's speed will be enough to catapault Thawne through the time continuum. The only thing Flash has to do is to provide Thawne with \"enough momentum\" to get him past the space-time barrier. Momentum here is proportional to the maximum sum subarray. The more the maximum sum, the more is the momentum. Enough momentum here means the maximum possible value of the maximum sum sub array. Harrison Wells found that the maximum sum subarray of any array may increase if we rearrange the elements of the array. So, to achieve enough momentum, they have to try all the possible re-arrangements of the array and find the maximum possible value of the maximum sum sub array.<br><br>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\tNow Flash needs your help. He wants you to find the maximum possible value of the maximum sum subarray. He also wants the arrangement of the array which yields that maximum value. If more than one arrangement exists, print the number of such arrangements (modulo 1000000007) and also print the lexicographically smallest arrangement.<br><br>\n<b> Note: </b> \u00a0\n1) For clarification on what is maximum sum subarray, please refer this <a href = \"https://en.wikipedia.org/wiki/Maximum_subarray_problem\">link</a><br>\n2) Even if the number of arrangements possible is 1, print that.\n</p>\n\n<h3><b>Input</b></h3>\n<p>The first line consists of 't', the number of test cases. <br>\nEach test case has two lines, the first line being 'n', the array size and the second line consists of the array.</p>\n\n<h3><b>Constraints</b></h3>\n<p>\n1 <= t <= 1000<br>\n1 <= n <= 10^5<br>\n1 <= | a[i] | <= 10^3 ( | a[i] | = Absolute value of a[i]).\n</p>\n\n\n<h3><b>Output</b></h3>\n<p>For each test case, print the required output. (Refer example for clarity). </p>\n\n<h3><b>Example</b></h3>\n<pre><b>Input:</b>\n2\n2\n-10 11\n3\n3 2 1\n\n<b>Output:</b>\n11\n2\n-10 11\n6\n6\n1 2 3\n</pre>\n<br>\n<h3>Explanation</h3>\n<p align = \"justify\"><b>Example case 1:</b><br><br>\nThe given array is [-10, 11]. There are 2 different arrangements of this array. <br>\n1) [-10, 11]<br>\n2) [11, -10]<br>\nThe maximum sum subarray of both the above arrangements is 11. This value corresponds to the o/p line 1.<br>\nThe number of arrangements which has the maximum subarray is 2. This value corresponds to the o/p line 2.<br>\nThe lexicographically smallest arrangement among the two is [-10, 11] which is printed in the o/p line 3.</p>\n<p><b>Example case 2:</b><br><br>\nThe given array is [3, 2, 1]. There are 6 different arrangements of this array. <br>\n1) [3, 2, 1]<br>\n2) [3, 1, 2]<br>\n3) [2, 1, 3]<br>\n4) [2, 3, 1]<br>\n5) [1, 2, 3]<br>\n6) [1, 3, 2]<br>\nThe maximum sum subarray of all the above arrangements is 6. This value corresponds to the o/p line 4.<br>\nThe number of arrangements which has the maximum subarray is 6. This value corresponds to the o/p line 5.<br>\nThe lexicographically smallest arrangement among the two is [1, 2, 3] which is printed in the o/p line 6.<br>\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Kurukshetra Online Programming Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYPY, CS2, PAS fpc, PAS gpc, RUBY, D, PERL, FORT, ADA, ASM, ICON, PIKE, ST, NICE, LUA, BASH, NEM, TCL, SCM chicken",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455370200,
+        "end_date": 1455388200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1839201978,
+        "submit_start_date": 1455370200,
+        "current": 1537435474
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>lakshmi8</span>",
+    "problem_name": "The Return of the Reverse Flash",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/lakshmi8'>lakshmi8</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "lakshmi8",
+    "contest_code": "KOPC2016",
+    "max_timelimit": "1 - 1.5",
+    "problem_code": "K16C"
+}

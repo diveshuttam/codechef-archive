@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>You are an astronaut living in the International Space Station.You send data to the Houston Space Center regarding some observations you made.However due to communication<br />\nrestrictions you are instructed to reduce the length of the data by using the following algorithm.<br />\nSuppose you have 2 strings to be sent, Si and Sj, you construct a new string Sk,which is the smallest possible string such that Si \u2208 P1(Sk) and Sj  \u2208 P1(Sk)<br />\n.Lets call this step as Packet compression.\n</p>\n<p>\nP1(Sk) denotes the prefix set of Sk.<br />\nP2(Sk) denotes the suffix set of Sk.\n</p>\n<p>However if you have 'N' strings to be transmitted, you construct a single final string as follows:<br />\nfor i=2 to N<br />\n\tTi = result of Packet Compression on Si and Si-1<br />\n\tSi=Ti.\n</p>\n<p>\nFor Example,<br />\nConsider the following strings<br />\naa,ab,bb<br />\nThe result of this string is Packet Compression(Packet Compression(aa,ab),bb) = Packet Compression(aab,bb) = aabb\n</p>\n<p>\nHowever you find that the length of the final string is even reduced if the given sequence of strings S, is divided into 2 disjoint subsequences S1 and S2 and Packet Compression<br />\nis performed on S1 and S2 to get two final strings.The total length associated with it is the sum of lengths of the 2 strings produced.<br />\nGiven a set of strings, write a program to find the minimum possible length that can be obtained using the given method.\n</p>\n<p>\n<b>Note</b>:All input strings are of same length.The string consists of only <b>a</b> and <b>b</b>\n</p>\n<h3>Input</h3>\n\n<ul>\n<li>The first line of input contains N, the number of strings.Next N lines follow,each line containing a single string.\n</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>Output a single line, containing the minimal length possible.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100000</b></li>\n<li>1&lt;=Length of each string&lt;=20</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<p>Example 1:</p>\n<pre><b>Input:</b>\n4\naa\nbb\nab\nba\n<b>Output:</b>\n6\n\nExample 2:\n<b>Input:</b>\n2\nab\nba\n\n<b>Output:</b>\n3\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>In the first case,the subsequences are {aa,ab} and {bb,ba}. The results are aab and bba.Thus total length is 3+3=6.</p>\n<p><br /></p>\n<p>In the second case,one of the subsequences is left empty.Thus the result is aba.Total length=3+0=3.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ByteCode 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1456498800,
+        "end_date": 1456516800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1456516800,
+        "submit_start_date": 1456498800,
+        "current": 1537435327
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>bkarthikeyan28</span>",
+    "problem_name": "ISS and Strings",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bkarthikeyan28'>bkarthikeyan28</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bkarthikeyan28",
+    "contest_code": "BYCO2016",
+    "max_timelimit": "3",
+    "problem_code": "BYCO1612"
+}

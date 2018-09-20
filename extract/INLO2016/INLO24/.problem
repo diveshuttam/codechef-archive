@@ -1,0 +1,33 @@
+{
+    "problem_code": "INLO24",
+    "problem_author": "ravit0001",
+    "contest_name": "Infinite Loop",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>ravit0001</span>",
+    "problem_name": "Quiz",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "INLO2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/complexity'>complexity</a>, <a class='problem-tag-small ' href='/tags/problems/inlo2016'>inlo2016</a>, <a class='problem-tag-small ' href='/tags/problems/medium-hard'>medium-hard</a>, <a class='problem-tag-small ' href='/tags/problems/number-theory'>number-theory</a>, <a class='problem-tag-small ' href='/tags/problems/ravit0001'>ravit0001</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n\n<p><b>1</b> . \u00a0We have a list of pairs [(\"Tariq\",71),(\"Brinda\",85),(\"Shweta\",71),(\"Sunita\",85),(\"Salma\",72),(\"Uday\",60)], where each pair consists of a student's name and his/her marks in a course. We sort these pairs in ascending order of marks. Which of the folllowing corresponds to a stable sort of this input?<br />\n<b>A</b>. [(\"Uday\",60),(\"Tariq\",71),(\"Shweta\",71),(\"Salma\",72),(\"Brinda\",85),(\"Sunita\",85)]<br />\n<b>B</b>. [(\"Brinda\",85),(\"Salma\",72),(\"Shweta\",71),(\"Sunita\",85)(\"Tariq\",71),(\"Uday\",60)]<br />\n <b>C</b>. [(\"Uday\",60),(\"Shweta\",71),(\"Tariq\",71),(\"Salma\",72),(\"Brinda\",85),(\"Sunita\",85)]<br />\n<b>D</b>. [(\"Uday\",60),(\"Tariq\",71),(\"Shweta\",71),(\"Salma\",72),(\"Sunita\",85),(\"Brinda\",85)]</p>\n<p></p>\n<p><b>2 </b>.Let f(n) = 560n<sup>4</sup> + 3651n<sup>3</sup> + 3n+107 and g(n) = 3n<sup>4 </sup>+ 15n<sup>2</sup>. Which of the following is true?<br />\n<b>A </b>. f(n) is O(g(n)), but g(n) is not O(f(n))<br />\n<b>B </b>. g(n) is O(f(n)), but f(n) is not O(g(n))<br />\n<b>C </b>. f(n) is not O(g(n)) and g(n) is not O(f(n))<br />\n<b>D </b>. f(n) is O(g(n)) and g(n) is O(f(n))</p>\n<p></p>\n<p><b>3</b>. Rajnikant has to complete 12 courses for his degree. There are six compulsory courses: Basic and Advanced Mathematics, Basic and Advanced Physics and Basic and Advanced Electronics. He also has to complete six Optional Courses. Each course takes one semester to complete. There are some constraints because of prerequisites.<br />\nFor Mathematics, Physics and Electronics, the Basic course must be completed before starting the Advanced course.<br />\nAdvanced Physics must be completed before starting Basic Electronics. <br />\nAdvanced Mathematics must be completed before starting Advanced Physics.<br />\nThe Optional Courses can be done in any order, but no more than two Optional Courses can be taken in a semester.<br />\nGiven these constraints, what is the minimum number of semesters that Rajnikant needs to complete his course requirements.<br />\n<b>A</b>. 3<br />\n<b>B</b>. 5<br />\n<b>C</b>. 6<br />\n<b>D</b>. 7</p>\n<p></p>\n<p><b>4</b>.Find the unit digit of the expresssion<br />\n374<sup>123</sup> + 42<sup>14444</sup> + 57<sup>226</sup> +  33<sup>128</sup> + 52<sup>5!</sup><br />\nWhich of the following is  correct.<br />\n<b>A</b>. 5 <br />\n<b>B</b>. 6<br />\n<b>C</b>. 7<br />\n<b>D</b>. 0 </p>\n<p>.<br />\n</p>\n<h3>Output</h3>\n<p>Output should be a pure text file. Answers must be serially, i.e<br />\nA <br />\nB<br />\nC<br />\nD<br />\nif answer of 1st question is A ,<br />\nif answer of 2nd question is B ,<br />\nif answer of 3rd question is C ,<br />\nif answer of 4th question is D ,  </p>\n",
+    "category_name": "main",
+    "date_added": "9-03-2016",
+    "status": "success",
+    "languages_supported": "TEXT",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/INLO24",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1457757000,
+        "end_date": 1457978400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457978400,
+        "submit_start_date": 1457757000,
+        "current": 1537435124
+    },
+    "user": {
+        "username": ""
+    }
+}

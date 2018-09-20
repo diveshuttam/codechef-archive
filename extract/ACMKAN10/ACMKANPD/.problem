@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>As we know, in an n-based number system, there are n different types of digits. In this way, a 1-based number system has only 1 type of digit, the &lsquo;0&rsquo;. Here are the rules to interpret 1-based numbers. Each number consists of some space separated blocks of 0. A block may have 1, 2 or more 0s. There is a &lsquo;flag&rsquo; variable associated with each number \n    \n    <ul>\n        <li>A block with a single 0 sets &lsquo;flag&rsquo; variable to 1 </li>\n        <li>A block with two 0s sets the &lsquo;flag&rsquo; to 0 </li>\n        <li>If there are n (n &gt; 2) 0s in a block, &quot;cmmi-10x-x-109&quot;&gt;n-2 binary digits with the current value of flag is appended to your number.</li>\n    </ul>\n        </p>\n\n\n\n<p>Note that, the first block of every number will have at most 2 0s. For example, the 1-base number 0 0000 00 000 0 0000 is equivalent to binary 11011. \n    <ul>\n        <li>1st block sets the flag to 1. </li>\n        <li>2nd block has 4 0s. So append flag(= 1) 42 = 2 times (11).</li>\n        <li>3rd block has 2 0s. Set the flag to 0. </li>\n        <li>4th block has 3 0s. Append flag(= 0) 3 &quot;cmsy-10x-x-109&quot;&gt;&#8722; 2 = 1 time (110). </li>\n        <li>5th block has a single 0. Set flag = 1. </li>\n        <li>6th and block has 4 0s. Append flag(= 0) 4 &quot;cmsy-10x-x-109&quot;&gt;&#8722; 2 = 2 times (11011). </li>\n    </ul>\n</p>\n            \n        <p>The final binary number wont have more than 30 digits. Once, youve completed the process, convert the binary value to decimal &amp; print, youre done! </p>\n            \n            \n<h3>Input</h3> \n           <p>Input will have at most 100 test cases. Each case consists of a 1-based number as described above. A number may be spanned to multiple lines but a single block will always be in a single line. Termination of a case will be indicated by a single &lsquo;#&rsquo; char which will be space-separated from the last digit of your input number. The last case in the input is followed by a &lsquo; &quot;cmsy-10x-x-109&quot;&gt;&#8764;&rsquo; character indicating, end of input. \n               \n<h3>Output </h3>\n    </p><p>For each test case, output a single line with the decimal equivalent value of your given 1-based number.</p>\n    \n<h3>Sample input and output</h3>\n    <pre>\n    stdin\n    0 \"cmtt-10x-x-109\"&gt;0000 00\n    000 \"cmtt-10x-x-109\"&gt;0 0000\n    #\n    0 \"cmtt-10x-x-109\"&gt;000 #\n    ~\n    </pre>\n    <pre>\n    stdout\n    27\n    1\n    </pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-10-2010",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Kanpur Site First Round Online Contest ",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1288429200,
+        "end_date": 1288440000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1288440000,
+        "submit_start_date": 1288429200,
+        "current": 1537439469
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "A New Number System",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "ACMKAN10",
+    "max_timelimit": "10",
+    "problem_code": "ACMKANPD"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "ACM14KP1",
+    "problem_author": "admin",
+    "contest_name": "ACM-ICPC Asia-Kharagpur Round 1, Online Contest 2014, Replay",
+    "todo": false,
+    "problem_author_html_handle": "admin",
+    "problem_name": "A Magical Length",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "KG14ROL2",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acmkgp14'>acmkgp14</a>, <a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>, <a class='problem-tag-small ' href='/tags/problems/divide-and-conq'>divide-and-conq</a>, <a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Given <b>n</b> points <b>A[1..n]</b> in the 2-D plane, where <b>i</b>-th point has two attributes <b>A[i].x</b> and <b>A[i].y</b> representing x-coordinate and y-coordinate.</br>\n\nFind 3 points <b>A[i]</b>, <b>A[j]</b>, <b>A[k]</b> (i, j, k are distinct) such that <b>distance(A[i], A[j]) + distance(A[j], A[k]) + distance(A[k], A[i])</b> is minimized. Here <b>distance(A[i], A[j])</b> means the Euclid Distance, which is equals to <b>sqrt( (A[i].x - A[j].x)^2 + (A[i].y - A[j].y)^2)</b></br>\nYou need to output the minimum possible distance.</p>\n\n<h3>Input</h3>\n<p>The first line contains an integer <b>T</b> indicating the number of test cases.</p>\n<p>Each test case starts with a positive integer <b>n</b> indicating the number of points.</p>\n<p>The following <b>n</b> lines contain two real numbers <b>A[i].x</b> and <b>A[i].y</b> with at-most 6 digits after decimal point describing the coordinates of the point.</p>\n\n<h3>Output</h3>\n<p>Output <b>T</b> lines in total. Each line starts with \"Case #: \" and followed by minimum length. Here \"#\" is the number of the test case starting from 1.</p>\n<p>Answers within an absolute or relative error of 10^-6 will be accepted</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b>\n<li><b>3</b> \u2264 <b>n</b> \u2264 <b>100000</b>\n<li><b>0</b> \u2264 <b>A[i].x, A[i].y</b> \u2264 <b>10000</b>\n<li><b>A[i].x, A[i].y are real numbers with atmost 6 digits after decimal position.</b>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n4\n0.0 0.0\n2.0 2.0\n2.0 0.0\n1.0 1.0\n\n<b>Output:</b>\nCase 1: 4.8284271247\n</pre>\n\n<h3>Explanation</h3>\n<p>One possible solution is to select these 3 points (0, 0), (2, 0), (1, 1), the length is <b>sqrt(2) + sqrt(2) + 2</b></p>",
+    "category_name": "main",
+    "date_added": "18-09-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "max_timelimit": "4",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/ACM14KP1",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1417350600,
+        "end_date": 1417361400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1417361400,
+        "submit_start_date": 1417350600,
+        "current": 1537437188
+    },
+    "user": {
+        "username": ""
+    }
+}

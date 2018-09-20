@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Statement</h3>\n<p>In a TV show called Jabardasth there is very hyperactive person named Adi. He make comedy punches very often but only targets persons whose name contain <b>vowels</b> ('<i>aeiou</i>') in any order, any number of times. So Rocket Raghava being very addictive to his comedy asks you help him to find such persons among other participants.</p>\n<p> </p>\n\n\n<h3>Input</h3>\n<p>First Line consists of <b>N</b> value<br>\nNext <b>N</b> Lines consists <b>N</b> Strings (<b>lowercase only</b>), each in a single line.\n</p>\n<p> </p>\n\n<h3>Output</h3>\n<p>Output only those Strings containing 'aeiou'</p>\n<p> </p>\n\n<h3>Constraints</h3>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>String Length</b> \u2264 <b>20</b></li>\n</ul>\n<p> </p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\nfunctionality\nhamdard\neukaryotic\n\n<b>Output:</b>\neukaryotic\n</pre>\n<p> </p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b>String functionality has all vowels in it.</p>\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "COUT-2K18",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1520409600,
+        "end_date": 1520510400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1520510400,
+        "submit_start_date": 1520409600,
+        "current": 1537432874
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>surya_code</span>",
+    "problem_name": "HYPER ADI",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/surya_code'>surya_code</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "surya_code",
+    "contest_code": "COUT2018",
+    "max_timelimit": "1",
+    "problem_code": "ADI"
+}

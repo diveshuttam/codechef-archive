@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nWatan likes the game of Dominoes where a series of rectangular wooden pieces are placed on a line, hitting the right piece makes the rest of the pieces fall. In original version of the game, all the pieces are identical. But unfortunately the pieces that Watan has, have different heights. So, whether the pieces will fall or not becomes more difficult to predict. Watan is good at mathematics. He devised his own formula to predict the outcome. In his formula, he requires to find for each pieces, how many pieces appearing before it are smaller than it. This part is tedious and he doesn't want to spend a lot of time on it. So he comes to you to write a program to find this for him.\n</p>\n<h3>Input</h3>\n<p>The first line of the input contains a single integer <b>T</b> denoting the number of test cases. Each test case <b>T</b> has two lines. First line contains a single integer <b>N</b> denoting number of pieces present. Next line contains <b>N</b> space separated integers <b>A<sub>i</sub></b> denoting height of each piece.</p>\n<h3>Output</h3>\n<p>For each test case, output <b>N</b> space separated integers <b>B<sub>i</sub></b> where <b>B<sub>i</sub></b> is the number of elements <b>A<sub>j</sub></b> (1&lt;=j&lt;=i-1) which are less than <b>A<sub>i</sub></b>.</p>\n<h3>Constraints</h3>\n<ul><b>\n<li>1 &lt;= T &lt;= 1000\n</li><li>1 &lt;= A<sub>i</sub> &lt;= 10^6\n</li><li>1 &lt;= N &lt;= 10^6</li></b>\n</ul>\n<h3>Sample Cases</h3>\n<p><b>Input</b><br />\n1<br />\n5<br />\n1 2 3 4 5<br /><br />\n<b>Output</b><br />\n0 1 2 3 4</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "11-04-2016",
+    "is_direct_submittable": false,
+    "contest_name": "BIG-O v2.0",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1460809800,
+        "end_date": 1460820600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1460820600,
+        "submit_start_date": 1460809800,
+        "current": 1537434959
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>bigo_admin</span>",
+    "problem_name": "Watan And Dominoes",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bigo_admin'>bigo_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bigo_admin",
+    "contest_code": "BIGO2016",
+    "max_timelimit": "1",
+    "problem_code": "WATSY"
+}

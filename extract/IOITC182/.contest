@@ -1,0 +1,102 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "IOITC182",
+    "duration": "300",
+    "name": "Replay of Indian IOITC 2018 #2 (Rated)",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "CHANGNUM": [
+            {
+                "score": "16",
+                "count": "21"
+            },
+            {
+                "score": "100",
+                "count": "31"
+            }
+        ],
+        "EXACTWAL": [
+            {
+                "score": "5",
+                "count": "8"
+            },
+            {
+                "score": "24",
+                "count": "7"
+            },
+            {
+                "score": "100",
+                "count": "13"
+            }
+        ],
+        "COINDENO": [
+            {
+                "score": "12",
+                "count": "20"
+            },
+            {
+                "score": "100",
+                "count": "15"
+            }
+        ]
+    },
+    "rules": "<h4>About the Contest:</h4>\r\n<p class=\"last\"><strong>Organiser: </strong> The contest is hosted by CodeChef.</p>\r\n<h4>Prizes:</h4>\r\n<ul>\r\n<li> <b>For Indians:</b> Top 10 from the Indian ranklist will win CodeChef laddus.</li>\r\n<li> <b>For Rest of World:</b> Top 10 from ranklist will win CodeChef laddus</li>\r\n</ul>\r\n<p class=\"last\"><b>Note: </b>With CodeChef laddus, the winners can claim cool CodeChef goodies. Know more here:     <a target=\"_blank\" href=\"https://goodies.codechef.com\">https://goodies.codechef.com</a>. However, our sole intention lies in making our users learn new concepts while competing.</p>\r\n<h4>Contest Details:</h4>\r\n<ul class=\"last\">\r\n<li>This is an         <a target=\"_blank\" href=\"https://blog.codechef.com/2017/03/09/a-star-studded-rating-system/\">Internal Rated Contest</a> (Division 1 + Division 2).</li>\r\n<li> <strong>Duration: </strong>5 hours</li>\r\n<li> <strong>Start time: </strong>21st July 2018, 19:00 hrs IST</li>\r\n<li> <strong>End time: </strong>22nd July 2018, 00:00 hrs IST         <br /> You may check your timezone         <a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+Replay+of+Indian+IOI+Training+Camp+%28IOITC%29+%232+%28Rated%29++++++&amp;iso=20180721T19&amp;p1=44&amp;ah=5\" target=\"_blank\">here</a>. </li>\r\n</ul>\r\n<h4>Registration:</h4>\r\n<p class=\"last\">You just need to have a CodeChef username to participate. No seperate registration is required. If you do not have a CodeChef     ID create one     <a target=\"_blank\" href=\"/user/register\"> here</a>.</p>\r\n<h4>Eligibility Criteria: Anyone with a knack for Programming :P</h4>\r\n<p class=\"last\">Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to     <a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct.</a></p>\r\n<h4>Rules and Regulations:</h4>\r\n<ul class=\"last\">\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying         the problem statement is ok. If you are unsure, email us at         <a target=\"_blank\" href=\"mailto:feedback@codechef.com\"> feedback@codechef.com </a>.</li>\r\n<li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead         to disabling of respective account and banning from the community.</li>\r\n<li>Almost all languages supported on CodeChef are allowed.</li>\r\n<li>Each program will be tested based on our critical test data. However output and input should be exactly as specified         in the samples provided</li>\r\n</ul>\r\n<h4>Judging Criteria:</h4>\r\n<ul>\r\n<li> <strong>All the problems will be partially graded and you will get score for passing certain test data . You will receive             hundred (100) points for solving a problem (passing all test cases).</strong> </li>\r\n<li> <strong>The details of the failed test cases will also be visible on your solution page.</strong> </li>\r\n<li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best         correct submission will be considered.</li>\r\n<li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li>\r\n<li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li>\r\n<li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li>\r\n</ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/IOITC182/1531927243.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "CHANGNUM": {
+            "allow_submission": false,
+            "name": "Changing Numbers",
+            "category_name": "main",
+            "accuracy": 5.73,
+            "successful_submissions": "31",
+            "code": "CHANGNUM",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "EXACTWAL": {
+            "allow_submission": false,
+            "name": "Exact Walks",
+            "category_name": "main",
+            "accuracy": 8.61,
+            "successful_submissions": "13",
+            "code": "EXACTWAL",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "COINDENO": {
+            "allow_submission": false,
+            "name": "Coin Denominations",
+            "category_name": "main",
+            "accuracy": 5.24,
+            "successful_submissions": "15",
+            "code": "COINDENO",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1532197800,
+        "current": 1537432264,
+        "freezing": 0,
+        "start": 1532179800
+    },
+    "user": {
+        "username": ""
+    }
+}

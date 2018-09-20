@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Tom and Jerry are living in a country with **N** cities numbered from **1 to N**. Each city in the country has a integer code assigned to it. These cities are connected by a system of **N-1** roads. **The city 1 is the capital city. In other words the country is a tree rooted at 1**. Tom lives in city **u** and Jerry in city **v**. One day Tom and Jerry planned to have a business deal at city **w** which is the **common ancestor  of cities u and v farthest from the Capital.**\nThe cost of reaching the **city w** by a person is the **XOR** value of the integer codes of cities visited by that person. So the total cost of the business deal is the **XOR** value of cost of Tom and Jerry reaching **city w**.\n\nYou are given **Q** queries. Each query will have **u and v** and you have to say the final cost of the business deal.\n\n###Input:\n\n- First line will contain **N**, number of cities. \n- Next **N-1** lines contains the details of roads in the city. Each line will have two integers **a and b**, which means city a is connected to b. \n- Next line contains **N** integers, integer **Ai** represents the integer code of city **i**.\n- Next line contains **Q**.\n- Next **Q** lines contains two integers **u and v**.\n\n###Output:\nFor each query output the answer in newline.\n\n###Constraints \n- $1 \\leq N \\leq 10^6$\n- $1 \\leq a,b,u,v \\leq N$\n- $1 \\leq Ai \\leq 10^6$\n- $1 \\leq Q \\leq 10^6$\n\n###Subtasks\n- 30 points : $1 \\leq N,Q \\leq 100$\n- 70 points : $1 \\leq N,Q \\leq 10^6$\n\n\n###Sample Input:\n\t5\n\t1 2\n\t2 3\n\t1 4\n\t4 5\n\t1 2 3 4 5\n\t1\n\t3 5\n###Sample Output:\n\t0",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-07-2018",
+    "is_direct_submittable": false,
+    "contest_name": "LoC July 2018",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1532716200,
+        "end_date": 1532889000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1532889000,
+        "submit_start_date": 1532716200,
+        "current": 1537432203
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>aswinashok44</span>",
+    "problem_name": "Tom And Jerry",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aswinashok44'>aswinashok44</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "aswinashok44",
+    "contest_code": "LOCJUL18",
+    "max_timelimit": "1",
+    "problem_code": "TAJ"
+}

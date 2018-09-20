@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0You will be given a rooted tree consisting of <b>n</b>  nodes. All the nodes are numbered from <b>0</b> to <b>n-1</b>. Root of the tree is always 0.<br /><br />\nEach node contains the value of factorial of its node number mod 10 <sup>9</sup> +7. For example,if node number is 3, then it will contain 3!=6 mod  10 <sup>9</sup> +7 which is equal to 6.<br /><br />\nYou will be given <b>q</b> queries consisting of two space separated integers <b>a</b> and <b>b</b>, both denoting the node number.<br /><br />\nYour task is to count the number of nodes on the path from <b>a</b> to <b>b</b> whose value is divisible by 3.  </p>\n<h3>Input</h3>\n<li>The first line of the input contains an integer <b>n</b> denoting the number of nodes in tree. </li>\n<li>Then, n-1 lines follows each consisting of two space separated integers denoting the edge of the tree.</li>\n<li>Next line contains an integer <b>q</b> denoting the number of queries.</li>\n<li>Then <b>q</b> lines follows each consisting of two space separated integers <b>a</b> and <b>b</b>.\n\n<h3>Output</h3>\n<p>For each test case output the required answer.\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>q</b> \u2264 <b>100000</b></li>\n<li><b>0</b> \u2264 <b>a,b</b> \u2264 <b>n-1</b>\n</li></ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n6\n0 1\n0 2\n1 5\n2 3\n2 4\n3\n0 4\n1 2\n3 4\n\n<b>Output:</b>\n1\n0\n2\n</pre><h3>Explanation</h3>\n<p><b>Example case 1.</b> For the first query, the path is 0->2->4 of which only 4!=24 is divisible by 3, so output is 1.<br /> For the second query,the path is 1->0->2 of which none is divisible by 3,so the output is 0.<br />For the third query,the path is 3->2->4 of which 3!=6 and 4!=24 are divisible by 3,so the output is 2.  </p>\n</li>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Codigo 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426608000,
+        "end_date": 1426618200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426618200,
+        "submit_start_date": 1426608000,
+        "current": 1537436526
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>rohanagarwal</span>",
+    "problem_name": "Query on Tree",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rohanagarwal'>rohanagarwal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rohanagarwal",
+    "contest_code": "CDGO2015",
+    "max_timelimit": "1",
+    "problem_code": "RTREE"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Now Chef is a pro in handling a katana. So he again decides to play a game with <strong>N</strong> sticks each having a particular height, his aim is to finish all the sticks he has. Now he does this in a particular way! <strong>He selects the largest continuous subsegment of sticks in which every stick has non zero height</strong> and then selects a non zero height and then swing the katana in the selected segment and removes the lower cut part and the leftover upper part comes down with reduced height. He does this untill no sticks are left. Now since the Chef is a pro the order of the sticks wont change \n\n<strong>This reduced height can be zero for example if you have only one stick of length 5 then you swing the katana at height 5 then remove the lower part which is the entire stick and then nothing is left</strong>  \n\n<strong>Also the height you select should not be greater than the smallest stick in the subsegment you selected!</strong>\n\nSince Chef still hasn't completed the cupboard, he asks for help!   \n\nHe asks you to calculate the minimum number of swings needed to finish all the sticks so he can come back later and finish the task quickly!\n\n###Input:\n\n- First line will contain $N$, number of Sticks.  \n- Next line contains $N$ integers representing the height of each stick and also in the order in which they are placed.   \n<strong>The order of the sticks can't be changed.</strong>   \n<strong>NOTE: </strong>Use faster I/O methods.\n\n###Output:\nFor each testcase, output in a single line the minimum steps needed.\n\n###Constraints \n- $1 \\leq N \\leq 10^6$\n- $1 \\leq Height \\leq 10^4$\n\n###Subtasks\n- 10 points : $1 \\leq height \\leq 2$\n- 20 points : $1 \\leq N \\leq 10^3$\n- 70 points : $Original Constraints$\n\n###Sample Input:\n\t5\n\t1 2 3 2 1\n\n###Sample Output:\n\t3\n\t\n###EXPLANATION:\nSwing 1: Segment(1,5) and height(1)  \n<strong>The sticks now look like 0 1 2 1 0</strong>  \nSwing 1: Segment(2,4) and height(1)  \n<strong>The sticks now look like 0 0 1 0 0</strong>  \nSwing 1: Segment(3,3) and height(1)  \n<strong>The sticks now look like 0 0 0 0 0</strong>  \n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-06-2018",
+    "is_direct_submittable": false,
+    "contest_name": "LoC June 2018",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1530297000,
+        "end_date": 1530469800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1530469800,
+        "submit_start_date": 1530297000,
+        "current": 1537432317
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>katana_handler</span>",
+    "problem_name": "Pro Chef And Katana",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/katana_handler'>katana_handler</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "katana_handler",
+    "contest_code": "LOCJUN18",
+    "max_timelimit": "1",
+    "problem_code": "KATANA"
+}

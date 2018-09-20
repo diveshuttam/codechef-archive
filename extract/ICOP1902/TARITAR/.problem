@@ -1,0 +1,33 @@
+{
+    "problem_code": "TARITAR",
+    "problem_author": "vijju123",
+    "contest_name": "ICO Preparatory Contest 2019 #2",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>vijju123</span>",
+    "problem_name": "Taran and Tarini",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ICOP1902",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/euler-tour'>euler-tour</a>, <a class='problem-tag-small ' href='/tags/problems/icop1902'>icop1902</a>, <a class='problem-tag-small ' href='/tags/problems/taran_1407'>taran_1407</a>, <a class='problem-tag-small ' href='/tags/problems/vijju123'>vijju123</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>In a far away Galaxy of Tilky Way, there was a planet Tarth where the sport of Tompetitive Toding was very popular. According to legends, there lived a very random setter known for his short and crispy problem statements.\n\nOften I ask, \"What does a city truly look like?\" - and the answer is obvious, it looks like a Graph with $N$ nodes connected by edges :). For sake of simplicity, let us further assume the city to be represented by a tree with $N-1$ edges.\n\nNow, it was a special day for Tarini, who was waiting for Taran at Node $X$. They were going to out and were about to have some fun :). But Taran didnt arrive there yet, so she had nothing much to do right now. Hence, in acccordance to the holy verdict of God, and as decreed by the basic fundamentals of human nature (especially feminine), she started to *think*.\n\n\"What are the chances that I will *really* enjoy today?\"\n\nNow, everybody knew (except you!) that there are great shops at Node $U$ from where Taran might bring Tarini lots and lots of gift, making her happy and enjoy the day. And now thinking about that, Tarini felt how miserable it'd be if Taran came empty handed! Also, Tarini knows that Taran is very lazy and frugal and he will buy gifts from shop only if it falls on his way to Tarini (because **WHO** would want to reach as soon as possible to his waiting girl friend and hence come by shortest path? Boys? Never!).\n\nNow, Tarini is very self-less and rational. Hence, logically she predicted how miserable and unhappy they'd be $60$ years from now on because Taran didn't bring him a gift. She must not let such miseries happen! So she decided, that if Taran wouldn't be bringing her the gift, better cancel the plans and go surf memes all day with her friend Sakub-Jafin (whose meme-game is immortal!) so that not only could she enjoy herself, but prevent all miseries she and Taran might face (even after $60$ years) because Taran didn't bring her a gift.\n\nNow, Tarini kind of forgot where the shop, and Taran were. Hence she will ask you $Q$ queries - each one will give $2$ nodes, $U$ (location of shop) and $V$ (location of Taran) and you mus tell her if she should spend the day with Taran, or Sakub-Jafin. Also, obviously, if the shop is also on Node $X$( i.e. where Tarini is) she will make Taran buy a gift and spend day with him :)   \n\n*(PS: Looking at Taran's condition, Vijju was very very VERY happy about his loneliness and aloofness from the momentary ties of this perishable, illusionary world.)*\n\n<hr></hr>     \n\n###Input:\n\n- First line will contain $T$, number of testcases. Then the testcases follow. \n- Each testcase the first line contains $3$ integers, $N$, $Q$ and $X$, i.e. Number of Nodes, Number of Queries and Location of Tarini.\n- Next $N-1$ lines will have $2$ integers describing the tree.  In other words, each of these lines with have $2$ integers $U$ $V$ representing \"There is an edge between Node $U$ and Node $V$\".\n- Next $Q$ lines describe Tarini's queries. Each line with again ahve $2$ integers $A$ $B$, where $A$ is the node in which shop is located and $B$ is location of Taran.\n\n<hr></hr>    \n\n###Output:\nFor every query in each test case, output who she should spend the day with, i.e. output either `Taran` or `Sakub-Jafin` in EXACT same spelling.\n\n<hr></hr>          \n\n###Constraints \n- $1 \\leq T \\leq 10$\n- $1 \\leq N,Q,X \\leq 10^5$\n- $1 \\leq U,V,A,B \\leq N$\n\n<hr></hr>             \n\n###Subtasks\n**Sub-Task #1 - 20 points :**   \n- $T=10$\n- $1 \\leq N,Q \\leq 1000$        \n\n**Sub-Task #2 - 20 points :**\n- The given Graph is a Binary Tree of height $O(LogN)$.\n- $X=1$           \n\n**Sub-Task #3 - 20 Points :**\n- The given Graph is a linear chain.            \n\n**Sub-Task #4 - 40 Points :**\n\n- Original Constraints.\n\n<hr></hr>          \n\n###Sample Input:\n\t1\n\t3 2 1\n\t1 2\n\t1 3\n\t2 3\n\t2 2\n\n###Sample Output:\n\tSakub-Jafin\n\tTaran\n\n<hr></hr>\n                 \n###EXPLANATION:\nTarini is at Node $1$. In first query, Taran will go from Node $3$ to Node $1$ without going to Node $2$ where shop is located, and hence wont buy a gift. In next query, Taran and Shop both are at Node $2$, hence he will buy her a gift.\n",
+    "category_name": "main",
+    "date_added": "15-08-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/TARITAR",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1535290200,
+        "end_date": 1535304600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1535304600,
+        "submit_start_date": 1535290200,
+        "current": 1537432042
+    },
+    "user": {
+        "username": ""
+    }
+}

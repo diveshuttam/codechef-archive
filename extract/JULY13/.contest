@@ -1,0 +1,137 @@
+{
+    "announcements": "<p><b>05/08/2013, 22:10 IST: </b>The statement and testdata for the problem\u00c2\u00a0<a target=\"_blank\" href=\"/JULY13/problems/PROB\">PROB</a> has been updated. All the solutions have been rejudged.</p>\r\n<p><b>05/07/2013, 15:30 IST: </b>The last problem\u00c2\u00a0<a target=\"_blank\" href=\"/JULY13/problems/SEASOR\">SEASOR</a> has been added on the contest page.</p>\r\n<p><b>05/07/2013, 15:11 IST:</b> Only 9 problems have been added as of now. The tenth one will be added soon.</p>",
+    "ip": "149.129.135.113",
+    "code": "JULY13",
+    "duration": "14400",
+    "name": "July Challenge 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": " <div class=\"applyall\"><b> The July Contest has ended! </b></div> <div class=\"applyall\"><b>The editorials for the contest can be found <a href=\"http://discuss.codechef.com/tags/july13\" target=\"_blank\">here</a>. </b></div> <div class=\"applyall\"><b>All problems will be added to the practice section and solutions have been made public. </b></div> <div class=\"applyall\"><b>Winners Blog Post can be found <a href=\"http://blog.codechef.com/2013/08/05/the-short-story-of-long-july-challenge-2013/\">here</a>.</b></div> <div class=\"applyall\"><b><br /></b></div> <div class=\"applyall\"> <div><b>Rules: </b></div> <div><b><br /></b></div> <ul> <li><span>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a>.</span></li> <li>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community..</li> <li>Contest problems will become visible on July 5th 2013 at 15:00 hours IST. Check your timezone <a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+July+Challenge+2013&amp;iso=20130705T15&amp;p1=44\">here</a>. </li> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution</li> <li>You shall not possess more than one account on CodeChef. If you have, then do let us know, so that we can deactivate the insignificant one. If you do not report it and we come to know about it, we may deactivate both the accounts permanently. </li> </ul> <br /> <div></div> <b> Note: As a contestant, you are responsible for making sure others don't access the code that you submit. If you're on a network or shared computer, or using an online development environment, make sure that other contestants don't have access to your code. If you use <a target=\"_blank\" href=\"http://ideone.com/\">Ideone</a>, make sure to mark your submission \"user\" (not private). </b></div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/JULY13/1424957773.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "NPIN": {
+            "allow_submission": false,
+            "name": "Needles and Pins",
+            "category_name": "main",
+            "accuracy": 2.97,
+            "successful_submissions": "12",
+            "code": "NPIN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CIRKILL": {
+            "allow_submission": false,
+            "name": "Circle of death",
+            "category_name": "main",
+            "accuracy": 12.15,
+            "successful_submissions": "728",
+            "code": "CIRKILL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "KPRIME": {
+            "allow_submission": false,
+            "name": "Count K-Primes",
+            "category_name": "main",
+            "accuracy": 18.39,
+            "successful_submissions": "1532",
+            "code": "KPRIME",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "RIVPILE": {
+            "allow_submission": false,
+            "name": "Across the River",
+            "category_name": "main",
+            "accuracy": 10.89,
+            "successful_submissions": "80",
+            "code": "RIVPILE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GALACTIK": {
+            "allow_submission": false,
+            "name": "Galactik Football",
+            "category_name": "main",
+            "accuracy": 15,
+            "successful_submissions": "720",
+            "code": "GALACTIK",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHRECT": {
+            "allow_submission": false,
+            "name": "Chef and Walking on the rectangle ",
+            "category_name": "main",
+            "accuracy": 29.14,
+            "successful_submissions": "1850",
+            "code": "CHRECT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PROB": {
+            "allow_submission": false,
+            "name": "The Probability Of Winning",
+            "category_name": "main",
+            "accuracy": 59.25,
+            "successful_submissions": "926",
+            "code": "PROB",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SEASOR": {
+            "allow_submission": false,
+            "name": "Sereja and Sorting",
+            "category_name": "main",
+            "accuracy": 63.49,
+            "successful_submissions": "393",
+            "code": "SEASOR",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "FARASA": {
+            "allow_submission": false,
+            "name": "Furik and Rubik and Sub Array",
+            "category_name": "main",
+            "accuracy": 6.92,
+            "successful_submissions": "112",
+            "code": "FARASA",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MOU1H": {
+            "allow_submission": false,
+            "name": "Mountain Holidays",
+            "category_name": "main",
+            "accuracy": 16.21,
+            "successful_submissions": "311",
+            "code": "MOU1H",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1373880600,
+        "current": 1537438265,
+        "freezing": 0,
+        "start": 1373016600
+    },
+    "user": {
+        "username": ""
+    }
+}

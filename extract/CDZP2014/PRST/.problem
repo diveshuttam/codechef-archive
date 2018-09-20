@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Joe has found a strange stone on his way back home.<br />\nAt night he had a strange dream. He was on a mountain,<br />\non front of his were rows and columns of strange stones, in sequence<br />\nsmaller to bigger both along row and columns in a square.A mystic voice called out<br />\n'Can you find out the stone of the same size as yours, if you do<br />\nyour's is a powerful magic Pair Stone!! Joe was standing in the<br />\ncorner where the stone was the smallest.<br />\nFind out if Joe has the Pair Stone or not.Time is running out !!!\n</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>M contains the rows(integer)</p>\n<p>\nN is the size of the stone Joe has and is integral in value<br />\n.</p>\n<p>\nInput the square found in the mountain\n</p>\n<h3>Output</h3>\n<p>A single line giving the output 'YES' or 'NO' without any inverted commas</p>\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^7</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n56\n3 19 29 31 \n46 53 63 78 \n82 92 107 119 \n121 134 147 157 \n\n\n<b>Output:</b>\nNO\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-11-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Code Zip 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1414931400,
+        "end_date": 1414942200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1414942200,
+        "submit_start_date": 1414931400,
+        "current": 1537437270
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>ram2691</span>",
+    "problem_name": "Pair Stones",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ram2691'>ram2691</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ram2691",
+    "contest_code": "CDZP2014",
+    "max_timelimit": "1",
+    "problem_code": "PRST"
+}

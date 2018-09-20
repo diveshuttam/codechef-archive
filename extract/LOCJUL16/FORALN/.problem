@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Little Bipin, from ChefLand has fallen in love 1729 times in life, and every single time his heart has been broken by the person he loved. This has created a huge barrier in his mind regarding love. He is also appalled by people who're in love and are a couple, since he finds himself as the only forever alone person in any place he visits. </p>\n\n<p>Little Bipin knows the pattern of couples, their nomenclature, their habits, and other details in every place he visits. Importantly, he knows the name of every single person in places he goes to.</p>\n\n<p>Now Bipin knows that every single couple in ChefLand follows a special naming culture:</p>\n\n<ul>\n  <li>Every couple consists of two people. </li>\n  <li>The name of the first person ends with the suffix <i>ka</i> and the second person's name ends with the suffix <i>ki.</i></li>\n  <li>The prefix of the name <b>must</b> be similar for both people in the couple. That is: arjitki and arjitka can be a couple; bipinkiiii and bipin cannot be a couple. </li>\n</ul>\n\nYou're given the number of people and the names of all of them, you've to help Bipin figure out the number of couples over there!\n<br><br>\n <b>Note:</b> All the names will be in lowercase letters. The names may or may not have a valid suffix for people to form a couple.\n\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<ul>\n<li>The first line of each test case contains a single integer <b>N</b> denoting the number of people in the place Bipin is visiting. The second line contains <b>N</b> space-separated integers <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b> denoting the names of the people. </li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<ul>\n<li>Output a single line containing the number of couples.</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Subtasks</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100</b></li>: 70 points\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000</b></li>: 30 points\n</ul>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000</b></li>\n<li><b>3 \u2264 Length of the name \u2264 100 </li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Example 1</h3>\n<pre><b>Input:</b>\n5<br>\narjitki arjitka beti bipin betika\n\n<b>Output:</b>\n1\n</pre>\n<h3>Example 2</h3>\n<pre><b>Input:</b>\n6<br>\nbipinki bipinka bipinka bipinka betiki betika\n\n<b>Output:</b>\n2\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1:</b>arjitki and arjitka can only form a couple.</p>\n<p><b>Example case 2:</b>bipinki and bipinka can form a couple, betiki and betika form a couple. The rest of the bipinkas remain lonely.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-07-2016",
+    "is_direct_submittable": false,
+    "contest_name": "July LoC Competitive Programming Marathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1469730600,
+        "end_date": 1470076140,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1470076140,
+        "submit_start_date": 1469730600,
+        "current": 1537434716
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>belowthebelt</span>",
+    "problem_name": "Forever alone",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/belowthebelt'>belowthebelt</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "belowthebelt",
+    "contest_code": "LOCJUL16",
+    "max_timelimit": "1",
+    "problem_code": "FORALN"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Central City is special type of city which has grid like structure of towers.Zoom is villan who can run as fast as flash and is creating problems for the people of Central city.Flash is trying to stop Zoom from destroying the Central City.Now Flash is at location (1,1) and Zoom is at some Loaction (X,Y).Now Flash has to reach at Zoom's location to stop him.But there is problem that Flash can't jump between the towers if  difference in their height is Greater than some value D.Find a way for Flash to reach Zoom by crossing minimum number of towers and kill  Zoom and save Central City.\n</br>\n</br>\n<b>Input</b>\n</br>\nInput contains multiple test cases.</br> First Line is a integer T, representing the number of test cases to follow.</br>\n\nFirst line of each test case has 4 numbers \u2013 M, N, X, Y, D. Here MxN is the dimension of the city grid. (X,Y) is location of Zoom.</br>\n\nThis is followed by M lines. Each line consist of N space separated positive integers corresponding to tower heights. D is the maximum difference between heights of tower that Flash can cross.</br>\n</br>\n<b>Output</b>\n</br>\nOne line for each test case containing a single integer, denoting the minimum number of towers Flash needs to cross. Return -1 if its not not possible.\n</br>\n</br>\n<b>Constraints</b></br>\n1 <= T<=60</br>\n1<= M, N, X, Y <= 100</br>\n1 <= D <= 10<sup>5</sup></br>\nEach building height will be less than 10<sup>5</sup></br>\n</br>\n<b>Sample Input Output</b></br>\n</br>\n<b>Input:</b>\n</br>\n2</br>\n3 3 3 3 2</br>\n1 2 3</br>\n6 9 4</br>\n7 8 5</br>\n3 3 3 3 1</br>\n1 8 3</br>\n9 5 6</br>\n7 2 4</br>\n</br>\n<b>Output:</b></br>\n3</br>\n-1</br>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "HACK NITJ",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1474104600,
+        "end_date": 1474115400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1474115400,
+        "submit_start_date": 1474104600,
+        "current": 1537434608
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rahul_sethi</span>",
+    "problem_name": "Flash and his Race ",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rahul_sethi'>rahul_sethi</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rahul_sethi",
+    "contest_code": "SIC2016",
+    "max_timelimit": "0.5",
+    "problem_code": "SPEC"
+}

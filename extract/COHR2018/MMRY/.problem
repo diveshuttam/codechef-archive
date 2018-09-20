@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Chef is very fond of playing with numbers and his memorizing power is immensely high. Chef is very popular among his $Q$ friends for his memorizing power so his friends decided to put his memorizing power to test.  \nThey decided to play a game in which Chef is given  $N$ numbers, then each friend recalls a number $X$ and asks Chef to find the occurrence of $X$ in given $N$ numbers.  \nSince Chef is little lost in his research work, so he comes to know about this game little bit later from one of his best friends. Chef decides to write a program in order to calculate the occurrence of $X$ in given $N$ numbers.  \nSo within half an hour he's done with the program, accidentally power supply vanishes, and Chef had unfortunately forgot to turn auto save on, so his code vanished.\nBy this time Chef is frustrated doing this stuff, so he seeks for your help to rewrite the program.\n\n###Input:\n\n- First line will contain $N$, total given numbers. \n- Next $N$ line contain a number $A$.\n- Next line contain $Q$ total number of queries.\n- Next $Q$ line contain a number $X$.\n\n###Output:\nFor each query print the desired output.\n\n###Constraints \n- $1 \\leq N \\leq 10^5$\n- $1 \\leq A \\leq 10^{18}$\n- $1 \\leq Q \\leq 10^5$\n- $1 \\leq X \\leq 10^{18}$\n\n###Subtasks\n\n### 20 points : \n- $1 \\leq N \\leq 10^3$\n- $1 \\leq Q \\leq 10^3$\n### 80 points : \n- $1 \\leq N \\leq 10^5$\n- $1 \\leq Q \\leq 10^5$\n\n\n###Sample Input:\n\t5\n\t1111\n\t1234\n\t234\n\t5\n\t59764\n\t3\n\t11\n\t23\n\t45\n\n###Sample Output:\n\t3\n\t2\n\t0\n\t\n###EXPLANATION:\nIn first query : occurrence of 11 is  \n **11**11  \n11**11**  \n1**11**1 \nequal to 3",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Coding Hours",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1533310200,
+        "end_date": 1533483000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1533483000,
+        "submit_start_date": 1533310200,
+        "current": 1537432190
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>admin5</span>",
+    "problem_name": "Chef And His Memory Power",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin5'>admin5</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin5",
+    "contest_code": "COHR2018",
+    "max_timelimit": "1 - 3",
+    "problem_code": "MMRY"
+}

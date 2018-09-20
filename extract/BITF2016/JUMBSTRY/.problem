@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>PROBLEM STATEMENT</b>\n\n<p>Yesterday, I was visiting the stalls which were arranged by the Mathematics department in the university. The one which caught my attention had a bright banner which said <b>\"The Jumbo Mystery Box\"</b>. I could infer it was a tricky game that the stall had to offer. I went closer, and heard intently.</p>\n\n<p>There were <b>'n'</b> 3-D boxes of specified dimensions. A player had to create a stack of boxes which is as tall as possible, but there was a condition which I found a little too obvious. One could only stack a box on top of another box if the dimensions of the 2-D base of the lower box are each strictly larger than those of the 2-D base of the higher box.</p>\n<p> Also, one could rotate a box so that any side functions as its base. There was also an option to use multiple instances of the same box. Eventually, one would get \"The Jumbo Mystery Box\" which I have been referring to as the 'stack' in the earlier few lines. It must be noted that there could only be one combination to make up the tallest stack. Once done with constructing \"The Jumbo Mystery Box\", one could open it only to disclose an exciting goodie.</p>\n\n<p>First, it looked like a tough job, but later I thought you might help me with this, wouldn't you?</p></p>\n\n<p><b>INPUT FORMAT </b>\n<p>The first line contains <b>'n'</b> the number of boxes. This is followed by <b>'n'</b> lines which contain the dimensions of each box . For every box, the dimension would consist of <b>height, width, </b>and <b>depth.</b></p></p>\n\n<p><b>OUTPUT FORMAT</b> \n<p>Output the <b>maximum height</b> which can be attained to attain \"The Jumbo Mystery Box\".</p></p>\n\n<p><b>CONSTRAINTS</b>\n<br>1<=n<=50\n<br>1<=height,width and depth<=10^5\n<p>\n\n\n<p><b>SAMPLE INPUT</b> \n<br>4 \n<br>4 6 7 \n<br>1 2 3 \n<br>4 5 6 \n<br>10 12 32\n</p>\n\n<p><b>SAMPLE OUTPUT</b> \n<br>60</p>\n\n<p><b>EXPLANATION</b> \n<p>In the above case, we have been given 4 boxes. Following are all rotations of the boxes in decreasing order of base area. </p>\n10 x 12 x 32 \n<br>12 x 10 x 32 \n<br>32 x 10 x 12 \n<br>4 x 6 x 7 \n<br>4 x 5 x 6 \n<br>6 x 4 x 7 \n<br>5 x 4 x 6 \n<br>7 x 4 x 6 \n<br>6 x 4 x 5 \n<br>1 x 2 x 3 \n<br>2 x 1 x 3 \n<br>3 x 1 x 2 \n<br>\n<br><p>As we can easily use multiple instances of the same box, therefore, we use the following arrangement of boxes \n<br>{ {3 x 1 x 2}, {1 x 2 x 3}, {6 x 4 x 5}, {4 x 5 x 6}, {4 x 6 x 7}, {32 x 10 x 12}, {10 x 12 x 32}} \n<br>3 + 1 + 6 + 4 + 4 + 32 + 10 = 60,<br> which is the required height of \"The Jumbo Mystery Box\".</p></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "BITFLIT",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1482762600,
+        "end_date": 1482775200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1482775200,
+        "submit_start_date": 1482762600,
+        "current": 1537434275
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>kaushambi</span>",
+    "problem_name": "Jumbo Mystery",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bitf2016'>bitf2016</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/kaushambi'>kaushambi</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/stacks'>stacks</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kaushambi",
+    "contest_code": "BITF2016",
+    "max_timelimit": "0.2",
+    "problem_code": "JUMBSTRY"
+}

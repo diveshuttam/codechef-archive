@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\u00a0</p>\n<p>.There are  N towers in a city  named as 1,2,3......N . To send signal from one tower to another tower we have to set up some instruments ,but the problem with the instrument is that they can only connect two towers .Therfore, we uses N-1 instruments to connect all the towers such that  there is only one unique path to transfer signals from one tower to another.\n\n\nThe speed of transfering the signal is depend upon the height of tower ,so to increase the transfer speed Tower Cheif decided to increase  the height of towers between some  selected path. Let the initial height of tower  i be denoted by Ai. The Cheif selects Q pairs of towers and for every pair L and R, he approves to increase the height of each tower falling on a simple path from L to R by x.\n\nYou have to print the final height of all cities.\n<br><br>\n<b>Input:</b> \nFirst line of input is two integers N and Q representing total number of tower and total number of queries respectively. \n\nNext N-1 lines have two integers U and V representing tower U and tower V are directly connected by a bi-directional link.\n\nNext line contains N integers representing initial height of towers i.e., Ai (1 <= i <= N).\n\nNext Q line contains 3 integers L R x meaning you have to add value x to height of all the towers lying on simple path from L to R ( both including ). \n<br><br>\n<b>Output : </b>\nPrint N integers representing height of towers. \n<b>\n<br><br>\nConstraints : </b>\n1 <= N, Ai, x, Q <= 105\n</p>\n<p>\u00a0</p>\n\n\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n\n5 3\n3 4\n2 3\n5 3\n1 3\n2 1 2 1 2\n1 2 3\n2 3 1\n3 4 3\n\n\n<b>Output:</b>\n5 5 9 4 2\n</pre>\n<p>\u00a0</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Code-In-Sight 4.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2",
+    "todo": false,
+    "time": {
+        "view_start_date": 1507351500,
+        "end_date": 1507360500,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1818399039,
+        "submit_start_date": 1507351500,
+        "current": 1537433501
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>code_buster123</span>",
+    "problem_name": "Tower tower",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/code_buster123'>code_buster123</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "code_buster123",
+    "contest_code": "COIS2017",
+    "max_timelimit": "1",
+    "problem_code": "CDSI17"
+}

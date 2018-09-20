@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem</h3>\n<p>\n\t\t\tOnce THANMAY met PK who is from a different planet visiting earth. THANMAY was very fascinate to learn PK's language. The language contains only lowercase English letters and is based on a simple logic that only certain characters can follow a particular character.<br />\n\t\t<br /><br /><br />\n\t\t\tNow he is interested in calculating the number of possible words of length L and ending at a particular character C. Help THANMAY to calculate this value. </p>\n<h3>Input</h3>\n<p>\n\t\t\tThe input begins with 26 lines, each containing 26 space-separated integers. The integers can be either 0 or 1. The j<sup>th</sup> integer at i<sup>th</sup> line depicts whether j<sup>th</sup> English alphabet can follow i<sup>th</sup> English alphabet or not.<br />\n\t\t\t<br /><br /><br />\n\t\t\t Next line contains an integer T. T is the number of queries.<br />\n\t\t\t Next T lines contains a character C and an integer L.</p>\n<h3>Output</h3>\n<p>\n\t\t\tFor each query output the count of words of length L ending with the character C. Answer to each query must be followed by newline character.<br />\n\t\t\t<br /><br /><br />\n\t\t\tThe answer may be very large so print it modulo 1000000007.</p>\n<h3>Constraints</h3>\n<li>\n<ol>\n<p>\t\t\t\t\t1 \u2264 T \u2264 100</p>\n</ol>\n</li>\n<li>\n<ol>\nC is lowercase English alphabet.\n</ol>\n</li>\n<li>\n<ol>\n<p>\t\t\t\t\t2 \u2264 L \u2264 10000000\n\t\t</p></ol>\n</li>\n<h3>Sample Input</h3>\n<p>0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0<br /><br />\n2<br /><br />\nc 3<br /><br />\nb 2<br /></p>\n<h3>Sample Output</h3>\n<p>1<br /><br />\n2</p>\n<h3>Explanation</h3>\n<p>\n\t\t\tFor query 1, Words of length 3 are: aba, acb, bab, bac, cba. The only word ending with 'c' is bac.\n\t\t</p>\n<style> p { text-align:justify } </style>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "CODE MARATHON",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457872200,
+        "end_date": 1457893800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457893800,
+        "submit_start_date": 1457872200,
+        "current": 1537435133
+    },
+    "problem_author_html_handle": "sivasaibellala",
+    "problem_name": "PK and THANMAY",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sivasaibellala'>sivasaibellala</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sivasaibellala",
+    "contest_code": "COMN2016",
+    "max_timelimit": "1",
+    "problem_code": "THANPK"
+}

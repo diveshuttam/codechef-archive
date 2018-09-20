@@ -1,0 +1,33 @@
+{
+    "problem_code": "ACMICL1",
+    "problem_author": "f2012086",
+    "contest_name": "ACM-ICL Prelims 2015",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>f2012086</span>",
+    "problem_name": "Mice and Food Consumption",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ICL2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/f2012086'>f2012086</a>, <a class='problem-tag-small ' href='/tags/problems/icl2015'>icl2015</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<h2>Problem description.</h2>\n<p> Dr. Aditi in The Department of Biological Sciences in BITS Pilani decides to do an experiment and find what mutation in the genes of mice can help reduce their speed of food consumption and also the gene responsible for the growth rate of mice. Since she is a genius she successfully finds the gene responsible for it. Now she has a task to create a mutation so as to decrease the food consumption rate. She creates one mutation each in various identical genes and needs to have various trials to find which mutations works. She now implants a single mutant gene in each mice. For conducting trials, she uses cupcakes that will determine the food consumption rates. If there are N types of mutations, what is the minimum number of cupcakes required to find the mutation that works correctly? Assume that all other mutations except one are useless and all mice except one eat cupcakes with the same speed and there is at least one mutation that will be successful. The same cupcake cannot be used more than once. </p>\n<h3>Input</h3>\n<p>The first line contains a single integer T, denoting the number of test cases.<br />\nThe next T lines contains one integer N, the total number of mutations.</p>\n<h3>Output</h3>\n<p>For each test case, output a single integer containing minimum number of cupcakes required.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b> 100 </b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b> 10^5 </b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n2\n6\n12\n\n<b>Output:</b>\n2\n4\n5\n\n</pre>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> If there are 2 mutations, 1 in each mice,<br />\nthen both of them can be given a cupcake and the mice which eats less will be the correct mutation. </p>\n<p><b>Example case 2.</b> If there are 6 mutations, then divide 6 mice in two groups of 3.<br />\nGive each group a cupcake. The group which eats less cupcake i.e finishes later contains the mutant mice.<br />\nLet's assume \"abc\" is that group. Now you will require only 2 more cupcakes to find the mutant mice.<br />\nSo total number of cupcakes required are 4.</p>\n",
+    "category_name": "main",
+    "date_added": "14-02-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/ACMICL1",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1428925733,
+        "end_date": 1424637000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1428925733,
+        "submit_start_date": 1428925733,
+        "current": 1537436744
+    },
+    "user": {
+        "username": ""
+    }
+}

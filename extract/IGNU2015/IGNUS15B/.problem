@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Description\u00a0</h3>\n<p>\nYou are an army personnel in the great army of the Zorin race, where you are a part of a team of n people.<br /><br />\nUnfortunately, your army has lost a war to an intergalactic species, genetically much advanced than yours.<br /><br />\nTheir captain Bruno have kept all your men (including you) as hostages, and now they are trying to have some fun.<br /><br />\nHe asks each of the n people to choose any integer from 1 to n that is not taken by someone else. i.e. no two persons can have the same chosen number. Then he arranges all the n people in a circle sequentially<br />\nand starts with person number 1.<br />\nHe leaves 1, shoots 2, leaves 3, shoots 4 .... and goes on shooting people alternately until only one person remains.<br />\nHe then offers the lucky man to restart his own kingdom and grants him all his looted resources.<br />\nIt is you who is asked first to choose your number k. What will you choose as your lucky number?\n</p>\n<h3>Input</h3>\n<p>\nFirst line contains <b>T</b>, the number of test cases.<br />\nEach test case has the number <b>n</b> in a single line, denoting the number of people captured by Captain Bruno.\n</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each test case, print the value of <b>k</b> in a single line.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>1000000000000000000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n6\n6\n125\n32\n46\n98\n156\n\n\n<b>Output:</b>\n5\n123\n1\n29\n69\n57\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>\n<b>Case 1:</b> n = 6. In the first round 2, 4, 6 are killed, 1, 3, 5 remain. In next round 3 is killed. Then 1 is killed,<br />\ntherefore leaving 5. So answer = 5.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "IGNUS",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1424269800,
+        "end_date": 1424280600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1424280600,
+        "submit_start_date": 1424269800,
+        "current": 1537436778
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>bewithaman</span>",
+    "problem_name": "Lucky Number",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bewithaman'>bewithaman</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bewithaman",
+    "contest_code": "IGNU2015",
+    "max_timelimit": "1",
+    "problem_code": "IGNUS15B"
+}

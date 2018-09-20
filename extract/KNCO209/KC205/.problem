@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><h2>Points:10</h2>\n</p><p>\nThe greatest enemies of the Brotherhood of Brom in their days were the Templar Knights, a band of highly skilled assassins originally established in 1118 to protect pilgrims and the Holy Sepulcher. Like the Brotherhood\u2019s game of testing each other\u2019s wits, the Knights too had a game of their own.</p>\n<p>The game was played on a board with squares arranged on rows and columns. The pieces used in the game attacked  pieces that were  either (a) two rows and one column away from its position, or (b) one row and two columns away from its position. </p>\nThis is exactly the nature of the problem you have been presented with at the finals of the global race in Rio de Janeiro. I n order to develop an unbeatable algorithm for the game, you are to determine the largest number of game pieces  that can be placed on a board with M rows and N columns so that no piece is attacking any other. M and N will each be no larger than 500. \n\n<h3>Input</h3>\nThe first line of input consists of no of test cases T(&lt;100).The next T lines consist of  pairs of integers giving values for M and N.(M,N&lt;=500)\n\n<h3>Output</h3>\nFor each input pair, display  the number of pieces that can be appropriately placed.\n<p><h3>\nExample\n</h3>\n<b>Input:</b>\n<pre>\n3\n2 3\n5 5\n4 7\n</pre>\n<b>\nOutput:</b>\n<pre>\n4\n13\n14\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-10-2009",
+    "is_direct_submittable": false,
+    "contest_name": "Knight Coders Round 2",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1256398200,
+        "end_date": 1256484600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1256484600,
+        "submit_start_date": 1256398200,
+        "current": 1537439881
+    },
+    "problem_author_html_handle": "ankitbabbar",
+    "problem_name": "The Templar Test",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ankitbabbar'>ankitbabbar</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ankitbabbar",
+    "contest_code": "KNCO209",
+    "max_timelimit": "1.14286",
+    "problem_code": "KC205"
+}

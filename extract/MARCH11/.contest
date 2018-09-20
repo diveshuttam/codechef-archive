@@ -1,0 +1,97 @@
+{
+    "announcements": "<p>\r\n<meta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\" />\r\n13/03/2011 19:40 (IST): The editorials for the March Challenge will published tommorow.</p>\r\n<p><br />12/03/2011 15:00 (IST): The March Challenge will start again at 12/03 18:00 (IST). The contest is scheduled for 24 hours till 13/03 18:00 (IST).</p>\r\n<p><br /> 12/03/2011 14:20 (IST): CodeChef judge is back up again and running smoothly.\u00c2\u00a0We will let you know the extension of March contest shortly. \u00c2\u00a0We sincerely regret the inconvenience caused.<br /><br /><br /> 11/03/2011 15:00 (IST): Contest will end temporarily and will be restarted for 24 hours as soon as we have our Judge up and running.\u00c2\u00a0We sincerely regret the inconvenience caused.<br /><br /><br />11/03/2011 13:05 (IST): We are yet facing problem with the Judge, the contest will be extended by 24hours. We will keep you posted once we have our services resumed. Sorry for the inconvenience caused.</p>\r\n<p><br />11/03/2011 00:30 (IST): We are back again. The CodeChef judge is up and working now. You can continue making your submissions. We will keep you updated on the extension of the contest. We sincerely regret the inconvenience caused.<br /><br /><br />10/03/2011 23:45 (IST): We got a network breakdown due to a digger on a construction site damaging the network fiber cable of the network on which our judge resides. We have been informed by the ISP provider that the removal of the damage may take several hours. In the worst case we expect it to be 6-7 hours.<br /><br /><br />10/03/2011 23:30 (IST): Due to reasons beyond our control we have got a network breakdown and our judge has gone offline. Please bear with us till the judge is back, we regret the inconvenience caused. The running contests will be extended and we will keep you updated when the judge will be back online.</p>",
+    "ip": "149.129.135.113",
+    "code": "MARCH11",
+    "duration": "1440",
+    "name": "March 2011 Challenge",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b> </b></p> <p class=\"MsoNoSpacing\"><b><span>The March Long Contest has ended!</span></b></p> <p class=\"MsoNoSpacing\"><b><span>Check out the editorial <a target=\"_blank\" href=\"/wiki/march-2011-contest-problem-editorials\">here</a>.</span></b></p> <p class=\"MsoNoSpacing\"><b><span>All problem solutions have been made visible and have also been moved to the <a target=\"_blank\" href=\"/problems/easy\">practice section</a>.</span></b></p> <p class=\"MsoNoSpacing\"><b><span>Check out the Winners Blog-post <a target=\"_blank\" href=\"http://blog.codechef.com/2011/03/17/march-2011-challenge-winners/\">here</a>.</span></b></p> <p class=\"MsoNoSpacing\">\u00a0</p> <p class=\"MsoNoSpacing\"><b><b>Rules:</b></b></p> <p><b> </b></p> <p class=\"MsoNoSpacing\">In case you are a new user, you will need to first register for a CodeChef ID\u00a0<a href=\"/user/register/\">here</a>.</p> <p><b> </b></p> <p class=\"MsoNoSpacing\"><span>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0 <a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a><br /><br />Contest problems will become visible on March 1st 2011 at 15:00 hours IST.<br /></span><span><b> </b></span></p> <p class=\"MsoNoSpacing\"><span><br />You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</span></p> <p><b> </b></p> <p class=\"MsoNoSpacing\"><b><span>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</span></b></p> <p><b> </b></p> <p>\u00a0</p> <p><b> </b></p> <p class=\"MsoNoSpacing\"><b><span><br /><o:p></o:p></span></b></p> <p><b> </b></p> <p class=\"MsoNormal\"><b><span>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</span></b></p> <p><b> </b></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/MARCH11/1424957541.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "ALLINONE": {
+            "allow_submission": false,
+            "name": "The Amazing All-In-One Cooking Machine - Challenge",
+            "category_name": "main",
+            "accuracy": 78.31,
+            "successful_submissions": "82",
+            "code": "ALLINONE",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "KUNIQUE": {
+            "allow_submission": false,
+            "name": "K-Unique Sequence",
+            "category_name": "main",
+            "accuracy": 4.72,
+            "successful_submissions": "84",
+            "code": "KUNIQUE",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BUYLAND": {
+            "allow_submission": false,
+            "name": "Buying Land",
+            "category_name": "main",
+            "accuracy": 3.2,
+            "successful_submissions": "13",
+            "code": "BUYLAND",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SQUAGAME": {
+            "allow_submission": false,
+            "name": "Squares Game",
+            "category_name": "main",
+            "accuracy": 8.28,
+            "successful_submissions": "30",
+            "code": "SQUAGAME",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SKIRES": {
+            "allow_submission": false,
+            "name": "Ski Resort",
+            "category_name": "main",
+            "accuracy": 5.58,
+            "successful_submissions": "12",
+            "code": "SKIRES",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "OMAX": {
+            "allow_submission": false,
+            "name": "Omax",
+            "category_name": "main",
+            "accuracy": 15.01,
+            "successful_submissions": "72",
+            "code": "OMAX",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1300019400,
+        "current": 1537439272,
+        "freezing": 0,
+        "start": 1299933000
+    },
+    "user": {
+        "username": ""
+    }
+}

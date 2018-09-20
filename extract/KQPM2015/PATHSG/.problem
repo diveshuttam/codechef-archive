@@ -1,0 +1,33 @@
+{
+    "problem_code": "PATHSG",
+    "problem_author": "chandubaba",
+    "contest_name": "Keteki Quick Power Match",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>chandubaba</span>",
+    "problem_name": "GRAPH - Total paths",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "KQPM2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/chandubaba'>chandubaba</a>, <a class='problem-tag-small ' href='/tags/problems/chandubaba'>chandubaba</a>, <a class='problem-tag-small ' href='/tags/problems/keteki'>keteki</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>There is a man standing in front of a market, 1 represent filled area and 0 represents road. In how many ways can he visit all roads (0s), you have to print that. He cannot move through 1s, but he can move through 0s. There won't be any loops in the paths of 0s. Two paths are different if at any of the point of intersection of two roads he takes a different direction. He can revisit a road (0 or 0s) as many times as needed only when it is needed to make the path complete, that is he can retrace a path if its needed to complete the path. Also, he cannot move diagonally. See example for more clarity.\n</p>\n<p>\nHis original position is on the first row of the matrix with a 0 in it and the first column of that row which is a 0. It will be possible for him to visit all 0s, roads in the market are like that, that is all the paths in the road would be traceable.</p>\n<p>Hint can be found in these gifs:<br/><br/><br />\n<a href=\"https://imgflip.com/gif/w1aie\"><img src=\"https://i.imgflip.com/w1aie.gif\" title=\"made at imgflip.com\" /></a><br/><br/><br />\n<a href=\"https://imgflip.com/gif/w1al1\"><img src=\"https://i.imgflip.com/w1al1.gif\" title=\"made at imgflip.com\" /></a>\n</br/></br/></br/></br/></p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>Test cases will start with an integer T the count of test cases. Each test case will have two space separated integers on a newline x and y, x denoting the number of rows in the array and y denoting the number of columns. Each test case will be followed by x rows of y integers, either 0 or 1.\n</p>\n<h3>Output</h3>\n<p>\u00a0<br />\nOutput an integer for each input, each on a newline.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>x</b> \u2264 <b>20</b></li>\n<li><b>1</b> \u2264 <b>y</b> \u2264 <b>20</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n5 13\n0000000000000\n1111111111110\n0000000000000\n1111111111101\n0000000000000\n\n<b>Output:</b>\n4\n\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> he can go like this.. where 2 represents visited (these are incomplete paths, but shows the possibilities)\n\n2222222222222\n1111111111112\n2222222222222\n1111111111101\n0000000000000\nHe has to come back to that point where he can go further down.\n\n\n\nor like this\n\n2222222222222\n1111111111112\n0000000000022\n1111111111121\n2222222222220\n\nAgain he has to come back from the left most 2 in the bottom row to visit the univisited 0s.\n\nRemember he has to complete visiting all 0s. Visiting all 0s gives 4 possible path configurations in the above array.\n</p></pre>",
+    "category_name": "main",
+    "date_added": "11-12-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/PATHSG",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1450621800,
+        "end_date": 1450625400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1450625400,
+        "submit_start_date": 1450621800,
+        "current": 1537435733
+    },
+    "user": {
+        "username": ""
+    }
+}

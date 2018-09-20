@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The sudden outburst of dust particles in the universe is causing serious concerns as they are moving towards our planet. The responsibility to save the planet is bestowed upon the local chef. The chef has to his disposal a destroyer missile which has the capacity to destroy a certain number of dust particles. The universe is divided into zones and a destroyer can attack a zone atmost once.</p>\n<p>However the destroyer works in a peculiar manner. Every time the destroyer is used to destroy certain number of dust particles it needs certain amount of time to regain its full capacity which is determined by a function 'f'. Where the capacity of the destroyer at time 'j', given that it was triggered last at time 'i' (j > i) is given by f(j-i), which essentially represents the number of dust particles that can be destroyed given this scenario.</p>\n<p>Every zone can only be attacked at a particular time instant 'i'. If the chef were to attack zone 'i' then the total number of dust particles destroyed will be the min(dust_particles_in_zone_j, f(j-i)), where time 'i' is the last time the destroyer was used. </p>\n<p>The local chef has reached out to you for help. Given the number of dust particles in every zone along with the function 'f', your task is to identify the maximum number of dust particles that can be destroyed by the local chef.\u00a0</p>\n<h3>Input</h3>\n<p>The first line of the input consists of an integer <b>T</b>, representing the total number of test cases.</p>\n<p>Every test case consists of 3 lines. The first line contains a number <b>N</b>, representing the total number of zones.</p>\n<p>The following line contains <b>N</b> integers<b>s_1, s_2, ..., s_N</b>, where <b>s_i</b> represents the number of dust particles in the <b>i_th</b> zone.</p>\n<p>The next line also contains <b>N</b> integers <b>f_1, f_2, ..., f_N</b>, where <b>f</b> represents the destroyer missile and <b>f_i</b> represents the total capacity of destruction, the number of dust particles that can be destroyed by the destroyer being triggered after <b>'i'</b> seconds of the destroyer's previous use.</p>\n<h3>Output</h3>\n<p>For every test case output a number, i.e., the maximum number of dust particles that can be destroyed by using the destroyer optimally.</p>\n<h3>Constraints</h3>\n<p><b>1</b> &lt;= <b>T</b> &lt;= <b>50</b></p>\n<p><b>1</b> &lt;= <b>N</b> &lt;= <b>2000</b></p>\n<p><b>1</b> &lt;= <b>s_i</b> &lt;= <b>1000</b></p>\n<p><b>1</b> &lt;= <b>f_i</b> &lt;= <b>1000</b></p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n\n2\n4\n10 20 4 2\n1 8 1 12\n1\n4\n10\n\n<b>Output:</b>\n\n10\n4\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>In the first test case the optimal scenario is when the destroyer is triggered at time=2 and time=4, as then the destroyer's capacity is 10, as min(8, 20)=8 and min(2,12)=2, 8+2=10 dust particles can be destroyed. Any other sequence of triggers results in the number of dust particles destroyed less than 10. </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-11-2013",
+    "is_direct_submittable": false,
+    "contest_name": "CodeCzar 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1384065000,
+        "end_date": 1384075800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1384075800,
+        "submit_start_date": 1384065000,
+        "current": 1537438035
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>kushagra_om</span>",
+    "problem_name": "Optimal Destruction",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kushagra_om'>kushagra_om</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kushagra_om",
+    "contest_code": "CDCZ2013",
+    "max_timelimit": "0.185185",
+    "problem_code": "OPDES"
+}

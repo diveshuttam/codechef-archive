@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<h3>Problem Statement</h3>\n<p>Humpty and Dumpty are very close friends. Humpty has recently performed exceptionally well in the End semester exams, so he has gained a lot of confidence. He challenges Dumpty for a Nim game. But Dumpty, as we all know, completely outwitting him, challenges him for a unique game of its own kind. Humpty settles after the argument that they will use following function somewhere in the game.</p>\n<p><pre>\n<b>def check( x, y, k):</b>\n    if y> x:\n        return 0\n    p = k\n    while x>0 and y>0:\n        if (y%k) > (x%k):\n            return 0\n        x = x/p\n        y = y/p\n    return 1\n</pre></p>\n<p><b>Here % is the modulus operator.</b></p>\n<p><b>The Game is as follows:</b></p>\n<p>\n<b>N</b> positive integers are given, let them be represented by <b>A[1] to A[N]</b>. Before the first turn, players decide a positive integer <b>k (k>1)</b>. The two players take turns. Now, in each turn the player should choose one positive integer <b>x</b> among the given <b>N</b> integers, and he can reduce the integer by an amount <b>y</b> (y is also a positive integer) if <b>check( x, y, k) returns TRUE</b>. The game ends when no move can be made.<b> And obviously the player who makes the last move wins.</b></p>\n<p>Can you find who will win the game, if both players play optimally, given the <b>N</b> integer numbers and an integer <b>k</b>, considering that <b>Humpty</b> always takes the first move.</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.<br /><br />\nThe first line of each test case contains space separated integer values <b>N and k</b>. Second line of each test case consists of <b>N</b> space separated integers.</p>\n<h3>Output</h3>\n<p>Output T lines, each representing the winner. <b>Output 1 if Humpty wins and 2 if Dumpty wins.</b></p>\n<h3>Constraints</h3>\n<p><b>1</b> \u2264 <b>T</b> \u2264 <b>10<sup>5</sup></b><br /><br />\n<b>1</b> \u2264 <b>N</b> \u2264 <b>10</b><sup>5</sup><br /><br />\n<b>2</b> \u2264 <b>k</b> \u2264 <b>10<sup>5</sup></b><br /><br />\n<b>1</b> \u2264 <b>A[i]</b> \u2264 <b>10<sup>18</sup></b> for <b>1</b> \u2264 <b>i</b> \u2264 <b>N</b></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3 4\n5 6 9\n3 3\n1 5 2\n<b>Output:</b>\n1\n2\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Prayaas 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1425112200,
+        "end_date": 1425130200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1736123817,
+        "submit_start_date": 1425112200,
+        "current": 1537436700
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>savy1</span>",
+    "problem_name": "Humpty-Dumpty and the Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/savy1'>savy1</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "savy1",
+    "contest_code": "PRYS2015",
+    "max_timelimit": "1",
+    "problem_code": "PRYS05"
+}

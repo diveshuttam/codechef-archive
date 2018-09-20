@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>On the planet of Zorg, scientists have conquered the limitations of space-time and designed\na cellular jail in which the cells are organized as an n-dimensional hypercube with upto 10 8\nprison cells along each dimension. A clever system of connected corridors makes it possible\nto walk from any cell in the jail to any other cell. Each corridor runs parallel to one of the\naxes, so all paths from one cell to another are grid paths.\nTwo desperate criminals have just been sentenced to life imprisonment in this jail. The\njail authorities have a list of the cells in the jail that are currently empty. To prevent any\npossibility of the new prisoners colluding to create trouble, the authorities want to place\nthem in two empty cells that are as far apart as possible with respect to the distance to be\ntravelled along the jail corridors.\nFor instance, suppose we have a simple two dimen-\nsional jail with empty cells at positions (2,1), (1,4), (4,5)\nand (5,3). Then, the pair of empty cells that are fur-\nthest apart are (1,2) and (4,5), which are separated by\na corridor path of length 6. <br>\n<a>https://imgur.com/a/hfTDJ</a>\n</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>The first line of input contains two integers, N and D, where N is the number of empty cells\nin the jail and D is the number of dimensions of the cellular jail. This is followed by N lines\nof input describing the locations of the empty cells. Each line consists of D integers, giving\nthe D coordinates of the cell.</p>\n<h3>Output</h3>\n<p>Two lines, each containing D integers. Each line gives the D coordinates of one of the two\nempty cells to be used for the new prisoners.If\nthere is more than one valid solution, print the one with least index in ascending orde. For example, if distance between 1 and 4 cell number is same as that of 2 and 3 output the coordinates of 1 and 4 in sorted order.\nSorted order means that if cell[1] > cell[4]  output cell[4] first in its original order then cell[1].\n</p>\n\n<h3>Constraints</h3>\n<p>You may assume that N \u2264 10^6 and D \u2264 5. and N*D \u2264 2*10^6 <br>\n<b>Subtask 1 (60 points) - <b> D = 2 <br>\n<b>Subtask 2 (40 points) - <b> original constraints\n\n</p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4 2\n2 1\n1 4\n4 5\n5 3\n\n<b>Output:</b>\n2 1\n4 5\n</pre>\n<p>\u00a0</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "11-12-2017",
+    "is_direct_submittable": false,
+    "contest_name": "ICO 2018 Preparatory Series - Contest 5",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1513348200,
+        "end_date": 1513359000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1513359000,
+        "submit_start_date": 1513348200,
+        "current": 1537433292
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>mathecodician</span>",
+    "problem_name": "Zorgian Cellular Jail",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/mathecodician'>mathecodician</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "mathecodician",
+    "contest_code": "ICOP1805",
+    "max_timelimit": "1",
+    "problem_code": "ZORG"
+}

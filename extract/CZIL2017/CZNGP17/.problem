@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Naruto had a dream the previous night that he will get a chance to visit Goa during his college life if he is able to solve a task which goes as follows.<br><br>\nThere exists a bidirected tree with <b>N</b> nodes. Each node <b>i</b> of the tree has a value <b>A<sub>i</sub></b> associated with it.<br>\nNaruto has to perform 3 types of operations :-\n<ol>\n<li><b>1 i Val</b> - Update the value associated with node <b>i</b> to <b>Val</b>.</li>\n<li><b>2 U V</b> - Print the number of factors of the product of value at odd positioned nodes in the path from node <b>U</b> to <b>V</b>.</li>\n<li><b>3 U V</b> - Print the number of factors of the product of value at even positioned nodes in the path from node <b>U</b> to <b>V</b>.</li>\n</ol>\nLet's say we consider the path from node <b>U</b> to node <b>V</b> and the order in which they occur in the path in tree is as follows:-<br>\n<b>U</b>, <b>X<sub>1</sub></b>, <b>X<sub>2</sub></b>, <b>X<sub>3</sub></b>, ........, <b>V</b>, then<br>\nthe odd positioned nodes are <b>U</b>, <b>X<sub>2</sub></b>, ..... and<br>\nthe even positioned nodes are <b>X<sub>1</sub></b>, <b>X<sub>3</sub></b>, ......<br>\nNaruto has to perform <b>Q</b> such operations. Every one knows that he can perform this task himself, but being busy with his Goa planning, he wants your help in solving this task. As the answer can be very large, print the answer modulo <b>10<sup>9</sup>+7</b>.<br><br><br>\n<b>Input Format</b><br>\nThe first line of input contains a single integer <b>N</b> denoting the number of nodes in the tree.<br>\nThe next line contains <b>N</b> space separated integers, <b>i<sub>th</sub></b> of which denotes the value associated with the <b>i<sub>th</sub></b> node i.e. <b>A<sub>i</sub></b>.<br>\nThis is followed by <b>N</b>-<b>1</b> lines each of which contains <b>2</b> space separated integers <b>U</b> and <b>V</b> which describes an undirected edge from node <b>U</b> to node <b>V</b>.<br>\nThe next line contains a single integer <b>Q</b> which denotes the number of operations that Naruto has to perform.<br>\nThis is followed by <b>Q</b> each of which contains the description of a query in the format described above.<br><br><br>\n<b>Output Format</b><br>\nPrint the answer to each query of the <b>2<sub>nd</sub></b> and <b>3<sub>rd</sub></b> type on a new line. If there are no nodes in the required path, print <b>1</b> as output.<br><br><br>\n<b>Constraints</b>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>10000</b></li>\n<li><b>1</b> \u2264 <b>Val</b>,<b>A<sub>i</sub></b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>U</b>,<b>V</b> \u2264 <b>N</b></li>\n</ul><br><br><br>\n<b>Sample Input</b><br>\n5<br>\n1 5 9 2 3<br>\n1 2<br>\n1 3<br>\n2 4<br>\n3 5<br>\n3<br>\n1 2 6<br>\n2 1 5<br>\n3 5 4<br><br><br>\n<b>Sample Output</b><br>\n2<br>\n8<br>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "CodeZilla",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1507374000,
+        "end_date": 1507386600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1507386600,
+        "submit_start_date": 1507374000,
+        "current": 1537433493
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>mohitbindal644</span>",
+    "problem_name": "Naruto And His Goa Plans",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/mohitbindal644'>mohitbindal644</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "mohitbindal644",
+    "contest_code": "CZIL2017",
+    "max_timelimit": "1.5",
+    "problem_code": "CZNGP17"
+}

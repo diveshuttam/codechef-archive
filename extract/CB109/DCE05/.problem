@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>The captain of the ship TITANIC is a little .... off the track. He needs to select the crew for the ship. But everyone seems to be eligible. So to test their intelligence, he plays a game. <br />\n\nThe contestants have to stand in a line. They are given the numbers in the order in which they stand, starting from 1. The captain then removes all the contestants that are standing at an odd position. <br />\n\nInitially, standing people have numbers - 1,2,3,4,5...<br />\nAfter first pass, people left are - 2,4,...<br />\nAfter second pass - 4,....<br />\nAnd so on.<br />\n\nYou want to board the ship as a crew member. Given the total number of applicants for a position, find the best place to stand in the line so that you are selected.<br />\n\n\n<h3>Input</h3>\n<p>First line contains the number of test cases t (t<=10^5). The next t lines contain integer n, the number of applicants for that case. (n<=10^9)\n\n<h3>Output</h3>\n<p>Display t lines, each containg a single integer, the place where you would stand to win a place at TITANIC.<br />\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n5\n12\n\n\n<b>Output:</b>\n4\n8\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-10-2009",
+    "is_direct_submittable": false,
+    "contest_name": "Code Baker",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1256646600,
+        "end_date": 1256733000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180157,
+        "submit_start_date": 1256646600,
+        "current": 1537439876
+    },
+    "problem_author_html_handle": "uploader0",
+    "problem_name": "Odd",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/uploader0'>uploader0</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "uploader0",
+    "contest_code": "CB109",
+    "max_timelimit": "0.67",
+    "problem_code": "DCE05"
+}

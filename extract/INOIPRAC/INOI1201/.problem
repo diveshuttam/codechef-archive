@@ -1,0 +1,31 @@
+{
+    "status": "success",
+    "problem_tester": null,
+    "body": "<h2>Indian National Olympiad in Informatics 2012</h2>\n<div title=\"Page 1\">\n<div>\n<p>The Republic of Tutaria is celebrating its 37th year of independence. To mark the occasion, the nation is organising a contest where all its N citizens take part. The event has three tracks, a COBOL programming competition, pole vault, and a doughnut-eating competition. Each citizen takes part in these three tracks in the same order\u2014a citizen starts with the programming competition, continues with the pole vault as soon as his or her COBOL masterpiece is ready, and then starts gorging on doughnuts as soon as the pole vault is done.</p>\n<p>The Supreme Leader of Tutaria closely monitors all citizens and knows the exact amount of time each citizen will take in each of the three tracks. She wants to schedule the event so that it will finish as early as possible. However, the Republic of Tutaria has only one computer, and, as a result, only one person can participate in the COBOL programming event at a time. However, any number of people may simultaneously participate in the pole vault and doughnut-eating competitions.</p>\n<p>The event works as follows. The Supreme Leader fixes the order in which contestants get access to the computer. At time 0, the first citizen in the list starts writing his or her COBOL program, while the remaining citizens wait for the computer to be free. As soon as the first citizen is done, he or she proceeds to the pole vault, and the second citizen gets the computer for the programming round. In general whenever the computer becomes free, the next citizen gets to use it. Whenever a citizen is done using the computer, he or she proceeds to the pole vault immediately, regardless of what the other citizens are doing. Similarly, whenever a citizen is done with the pole vault, he or she proceeds to the doughnut- eating track immediately, independently of the others. The event ends as soon as all the citizens have finished all the three tracks of the event.</p>\n<p>For example, suppose N = 3, and the time they need for the three tracks are as follows:</p>\n<table>\n<tbody>\n<tr>\n<td>\n<div>\n<div>\n<p>Citizen id</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>COBOL</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>Pole vault</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>Doughnut-eating</p>\n</div>\n</div>\n</td>\n</tr>\n<tr>\n<td>\n<div>\n<div>\n<p>1</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>18</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>7</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>6</p>\n</div>\n</div>\n</td>\n</tr>\n<tr>\n<td>\n<div>\n<div>\n<p>2</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>23</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>10</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>27</p>\n</div>\n</div>\n</td>\n</tr>\n<tr>\n<td>\n<div>\n<div>\n<p>3</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>20</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>9</p>\n</div>\n</div>\n</td>\n<td>\n<div>\n<div>\n<p>14</p>\n</div>\n</div>\n</td>\n</tr>\n</tbody>\n</table>\n<p>\u00a0</p>\n<p>If the citizens start at time 0 and proceed in the order 1,2,3, then citizen 1 will finish at time 18+7+6 = 31, citizen 2 will finish at time 18+23+10+27 = 78, and citizen 3 will finishattime18+23+20+9+14=84. Theeventendsattimemax(31,78,84)=84.</p>\n<p>On the other hand, if the citizens proceed in the order 2,3,1, you can check that the event ends at max(60, 66, 74) = 74. The Supreme Leader of Tutaria wants to fix the order in which the citizens proceed so that the event ends as early as possible. You can check that in this case 74 is the earliest time at which the event can end.</p>\n<h3>Input format</h3>\n<p>The first line of input has a single integer, N, the number of citizens of the Republic of Tutaria. The next N lines contain 3 space-separated integers each: line i gives the time taken by the citizen i for COBOL programming, pole vault, and doughnut-eating respectively.</p>\n</div>\n</div>\n<div title=\"Page 2\">\n<h3>Output format</h3>\n<p>The output should have a single line with a single integer, the earliest time at which the event can end.</p>\n<h3>Test Data</h3>\n<p>The testdata is grouped into two subtasks with the following constraints on the inputs.</p>\n<p>\u2022 <strong>Subtask 1</strong> [30 points] : 1 \u2264 N \u2264 3000.</p>\n<p>\u2022 <strong>Subtask 2</strong> [70 points] : 1 \u2264 N \u2264 200000.</p>\n<p>In both the subtasks, all the numbers in the input (except possibly N) are in the range 1 to 10000, inclusive.</p>\n<h3>Example</h3>\n<p>Here is the sample input and output corresponding to the example above.</p>\n<h3>Sample input</h3>\n <pre>\n3\n18 7 6 \n23 10 27\n20 9 14\n</pre>\n<h3>Sample output</h3>\n<pre>\n74\n</pre>\n<br>\n<h3>Note:</h3> Your program should not print anything other than what is specified in the output format. Please remove all diagnostic print statements before making your final submission. A program with extraneous output will be treated as incorrect!</p>\n<p>\u00a0</p>\n</div>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "INOI Practice Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1451932200,
+        "end_date": 1578162600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1578162600,
+        "submit_start_date": 1451932200,
+        "current": 1537431943
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Triathlon",
+    "source_sizelimit": "50000",
+    "problem_status": "unattempted",
+    "problem_tester_html_handle": null,
+    "problem_author": "admin3",
+    "contest_code": "INOIPRAC",
+    "max_timelimit": "2",
+    "problem_code": "INOI1201"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "ALTRTREE",
+    "problem_author": "avastpulkit",
+    "contest_name": "Kodeathon 15.2 - Rapid fire",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>avastpulkit</span>",
+    "problem_name": "Alternating Trees",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "KOAT2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/avastpulkit'>avastpulkit</a>, <a class='problem-tag-small ' href='/tags/problems/koat2015'>koat2015</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>The following conditions must hold true for all nodes in a tree to be an alternating tree <br /><br />\n</p>\n<p>Let the current node be <b>X</b>, and array <b>Val</b> represent the value stored at a node. Node <b>i</b> 's value = Val[i]<br /></p>\n<p><img src=\"/download/extimages/f574fe3df760b051e2f2cbaf5ffdab1a.png\" align = \"left\" /><br /><br /><br /><br /><br /></p>\n<p>Now Consider a path from the root to some leaf in an alternating tree.<br /></p>\n<p>The following are the values encountered : <br /><br /></p>\n<p>\t1 \t5\t2\t 4\t 2<br /><br /></p>\n<p>Lets represent the numbers the following way:<br /><br /></p>\n<p><img src=\"/download/extimages/7c7f4b3a46d4ead3809219c27b1f6de2.png\" align = \"left\" /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />\n<img src=\"/download/extimages/30719a4f6614ed6395406766e31f9b37.png\" align = \"left\" /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></p>\n<p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />\nAs can be seen, the peaks form a kind of Hilly Pattern , There are 2 mountains in the above picture. <br /><br />\n\t1st from index 0 to index 2 , with peak at index 1<br /><br />\n\t2nd from index 2 to index 4 , with peak at index 3<br /><br /></p>\n<p>Since, the tree is an alternating tree AND the path starts with a mountain , therefore the above path represents the path of<br /><br />\na Mountain alternating tree. <br /></p>\n<p>Similarly, Valley Alternating Tree can be deduced.<br /></p>\n<p><b>It should be noted that, the last Mountain or Valley might be incomplete.</b><br /></p>\n<p>Now you are given a Tree as an input, and you have to tell whether the tree is a Mountain Alternating Tree (MAT) or a Valley Alternating Tree(VAT) or Not an Alternating Tree (NAT).<br />\n</p>\n<h3>Input</h3>\n<p>\nFirst line indicates <b>T</b> , the number of test-cases.<br /><br />\nThen <b>T</b> test cases follow.<br /><br />\nEach test case's first line contains <b>N</b>, the number of nodes in the tree.<br /><br />\nThe next line contains <b>N</b> integers , where <b>i</b>th value represent the value of node <b>i</b> (0-based indexing).<br /><br />\nThen there are <b>N</b> lines.<br /><br />\nthe <b>i</b>th line contains <b>D</b>, the number of immediate children of node <b>i</b> . Followed by <b>D</b> integers, representing the indices of the nodes connected to node <b>i</b>.</p>\n<p><br /></p>\n<h3>Output</h3>\n<p>\nFor each test-case, print \"MAT\" or \"VAT\" or \"NAT\" , accordingly.<br />\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> &lt;= <b>T</b> &lt;= <b>100</b></li>\n<li><b>2</b> &lt;= <b>N</b> &lt;= <b>10000</b></li>\n<li><b>-2000</b> &lt;= <b>Val[i]</b> &lt;= <b>2000</b></li>\n<li><b>0</b> &lt;= <b>i</b> &lt; <b>N</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<p>\n3\n8\n5 2 2 3 5 5 5 1\n3 1 2 3\n1 4\n1 5\n1 6\n0\n1 7\n0\n0\n3\n1 5 10\n2 1 2\n0\n0\n4\n1 5 10 11\n2 1 2\n0\n1 3\n0\n</p>\n\n<b>Output:</b>\n<p>VAT\nMAT\nNAT</p>\n</pre>",
+    "category_name": "main",
+    "date_added": "12-05-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/ALTRTREE",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1431617400,
+        "end_date": 1431628200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1431628200,
+        "submit_start_date": 1431617400,
+        "current": 1537436315
+    },
+    "user": {
+        "username": ""
+    }
+}

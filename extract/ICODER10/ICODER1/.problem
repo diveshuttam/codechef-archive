@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Two kids John and Matthew are playing a game involving a grid of numbers where John must guess the number chosen by Matthew. The numbers are arranged in a grid. Now, inorder to predict the correct number, John asks Matthew to tell him the column number of the grid where his number lies. John then, keeping the same grid size, starts re-arranging the grid row-wise and keeps repeating the process of asking and arranging till he gets to the number. For example:\n</p>\n<p>\nIf the initial grid of numbers was:\n</p>\n<p>\n\u00a0 9\u00a0\u00a0\u00a0\u00a0 1\u00a0\u00a0\u00a0\u00a0\u00a0 5<br />\n\u00a0 2\u00a0\u00a0\u00a0\u00a0 3\u00a0\u00a0\u00a0\u00a0\u00a0 6<br />\n\u00a0 7\u00a0\u00a0\u00a0 17\u00a0\u00a0\u00a0 10<br />\n13\u00a0\u00a0\u00a0 20\u00a0\u00a0\u00a0\u00a0 4<br />\n\u00a0 8\u00a0\u00a0\u00a0 11\u00a0\u00a0\u00a0 15<br />\n18\u00a0\u00a0\u00a0 21\u00a0\u00a0\u00a0 12<br />\n14\u00a0\u00a0\u00a0 16\u00a0\u00a0\u00a0 19<br />\n</p>\n<p>\nAssuming that Matthew chose '15', which corresponds to the third column, implying that the number could be in the set { 5, 6, 10, 4, 15, 12, 19 }. To narrow down his result to one number, John arranges the numbers row-wise:\n</p>\n<p>\n\u00a0 9\u00a0\u00a0\u00a0\u00a0  2\u00a0\u00a0\u00a0\u00a0  7<br />\n13\u00a0\u00a0\u00a0\u00a0 8\u00a0\u00a0\u00a0  18<br />\n14\u00a0\u00a0\u00a0\u00a0 1\u00a0\u00a0\u00a0\u00a0  3<br />\n17\u00a0\u00a0\u00a0 20\u00a0\u00a0\u00a0 11<br />\n21\u00a0\u00a0\u00a0 16\u00a0\u00a0\u00a0\u00a0 5<br />\n\u00a0 6\u00a0\u00a0\u00a0  10\u00a0\u00a0\u00a0\u00a0 4<br />\n15\u00a0\u00a0\u00a0 12\u00a0\u00a0\u00a0 19<br />\n</p>\n<p>\nHe again asks Matthew about the column his number corresponds to, i.e. the first column this time, this allows John to narrow down his result further to the set { 6, 15 }. He continues this column asking and row-wise arranging till he gets to the number.\n</p>\n<p>\nGiven rows and columns, what must be the number of column-asking that would assure that John is able to guess the number assuming that the initial position of the number was not known. Incase an answer is not possible print -1. \n</p>\n<p>\n<b>\nNotes</b><br />\n\n-\tYou must consider the worst position of the number i.e. the position which would require maximum number of steps.\n</p>\t \n<p>\n<b>\nConstraints</b><br />\n\n- \tConsider that the grid consists of all distinct numbers.\n</p>\n\n<h3>Input</h3>\n<p>\n\n1. Number of test cases = 'T' ( 1 &lt;= T &lt;= 1000 ). T lines follow, one line for each test case.\n<br />\n2. Each line( representing the size of the grid ) would contain rows = 'R' followed by columns = 'C'  (  1 &lt;= R &lt;= 10<sup>5</sup>, 1 &lt;= C &lt;= 10<sup>5</sup> ).\n</p>\n\n<h3>Output</h3>\n<p>\n1. Return the column-asking required, in order to get to the number, on a new line.\n</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n\n7 3\n8 10\n\n<b>Output:</b>\n3\n2\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Icoder 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1269162000,
+        "end_date": 1269181800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1269181800,
+        "submit_start_date": 1269162000,
+        "current": 1537439648
+    },
+    "problem_author_html_handle": "csirubix",
+    "problem_name": "A Numbers Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/csirubix'>csirubix</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "csirubix",
+    "contest_code": "ICODER10",
+    "max_timelimit": "0.234127",
+    "problem_code": "ICODER1"
+}

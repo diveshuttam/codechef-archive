@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\n\nIn poker, you have 5 cards. There are 10 kinds of poker hands (from highest to lowest):\n<ul>\n<li> royal flush - ace, king, queen, jack and ten, all in the same suit\n<li> straight flush - five cards of the same suit in sequence, such\nas 10,9,8,7,6 of clubs; ace can be counted both as the highest card or as the\nlowest card - A,2,3,4,5 of hearts is a straight flush. But 4,3,2,A,K of hearts is not a straight flush - it's just a flush.\n<li> four of a kind - four cards of the same rank, such as four kings.\n<li> full house - three cards of one rank plus two cards of another rank\n<li> flush - five cards of the same suit (but not a straight flush)\n<li> straight - five cards in order - just like the straight flush, but mixed suits\n<li> three of a kind - three cards of one rank and two other cards\n<li> two pairs - two cards of one rank, two cards of another rank, and one more card\n<li> pair - two cards of the same rank\n<li> high card - none of the above\n</ul>\n\nWrite a program that will help you play poker by telling you what kind of hand you have.\n\n<h3>Input</h3>\n<p>\nThe first line of input contains the number of test cases (no more than 20). Each test case consists of one line - five space separated cards. Each card is represented by a two-letter (or digit) word. The first character is the rank (A,K,Q,J,T,9,8,7,6,5,4,3 or 2), the second character is the suit (S,H,D,C standing for spades, hearts, diamonds and clubs). The cards can be in any order (but they will not repeat).\n\n<h3>Output</h3>\n<p>\nFor each test case output one line describing the type of a hand, exactly like in the list above.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\nAH KH QH TH JH\nKH 5S 3C 5C 7D\nQH QD 2S QC 2C\n\n<b>Output:</b>\nroyal flush\npair\nfull house\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-12-2008",
+    "is_direct_submittable": false,
+    "contest_name": "Mindbend 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1268364600,
+        "end_date": 1268451000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1733529479,
+        "submit_start_date": 1268364600,
+        "current": 1537439688
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Poker",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "MINDB10",
+    "max_timelimit": "1.145",
+    "problem_code": "POKER"
+}

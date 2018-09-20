@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p class=\"MsoNormal\" align=\"center\"><b><u><span>IIT ASPIRANT</span></u></b></p>\n\n<p class=\"MsoNormal\"><span class=\"SpellE\"><span>Shekhar</span></span><span>\nGupta is an IIT aspirant. He has been advised by his teachers to focus on\nCo-ordinate Geometry. He has a manual which contains questions on Co-ordinate\nGeometry. However, solutions and answers for the questions are not available.\nHence, he has no means of verifying the answers.</span></p>\n\n<p class=\"MsoNormal\"><span>Currently he\u2019s solving the following\nProblem:</span></p>\n\n<p class=\"MsoNormal\"><b><span>\u201cGiven equations for two straight lines <span class=\"SpellE\">ax+by+c</span>=0\nand <span class=\"SpellE\">lx+my+n</span>=0, find the triple representing the angle\nbetween the lines.\u201d</span></b></p>\n\n<p class=\"MsoNormal\"><b><span>\u00a0</span></b></p>\n\n<p class=\"MsoNormal\"><span>You need to help <span class=\"SpellE\">Shekhar</span>\nby writing a program which produces the TRIPLES for the <b>angle of intersection of the two lines</b>. </span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><span>Note: Triple is defined by <span class=\"SpellE\">a<span class=\"GramE\">,b,c</span></span> where a is base, b is height\nand c is hypotenuse of a triangle. Each triple corresponds to an angle given by\n<span class=\"SpellE\">cosA</span>= a/c</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a9 Vishal Gupta</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Input:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>Input contains several test cases.\nEach test contains two lines. The first line contains co-<span class=\"SpellE\">efficients</span>\nfor the first <span class=\"GramE\">line ,</span> i.e., <span class=\"SpellE\">a,b,c</span>\nsimilarly the second line contains the co-<span class=\"SpellE\">efficients</span>\nfor the second-line <span class=\"SpellE\">l,m,n</span>. Where <span class=\"SpellE\">a<span class=\"GramE\">,b,c,l,m,n</span></span> are integers.</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Output:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>Output should produce the <span class=\"GramE\"><b>Triple(</b></span><b>Floating points <span class=\"SpellE\">upto</span>\n2 decimal places); however if all Triples turn out to be Integers, print the\nPrime Triples </b>for the angle of intersection between the two lines.</span></p>\n\n<p class=\"MsoNormal\"><b><u><span><span>\u00a0</span></span></u></b></p>\n\n<p class=\"MsoNormal\"><b><u><span>Sample Input:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>4 -3 -12<br />1 -1 10<br />1 2 4<br />2 -1 9</span></p>\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Sample Output:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>7 1 7.07<br />0 1 1</span></p>\n\n\n<p class=\"MsoNormal\"><span>\u00a0</span></p>\n\n<p class=\"MsoNormal\"><b><u><span>Explanation:</span></u></b></p>\n\n<p class=\"MsoNormal\"><span>For the first set of triples, one\nelement is Irrational, so we print the Floating value <span class=\"SpellE\">upto</span>\n2 decimal places. For the second set of triples, all the Triple Elements comes\nout to be rational and hence we output the Prime Triples.</span><b><u><span></span></u></b></p>\n\n<p class=\"MsoNormal\">\u00a0</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "DreamSpark Contest 3",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1272112200,
+        "end_date": 1272306540,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1272306540,
+        "submit_start_date": 1272112200,
+        "current": 1537439592
+    },
+    "problem_author_html_handle": "ganesha",
+    "problem_name": "IIT ASPIRANT",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ganesha'>ganesha</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ganesha",
+    "contest_code": "DSPC30",
+    "max_timelimit": "1",
+    "problem_code": "DSPC303"
+}

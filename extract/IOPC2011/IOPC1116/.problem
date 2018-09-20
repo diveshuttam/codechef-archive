@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The teacher in the Dystopian School for Politics and other Dirty Games (DSPDG) is training students in group activities. She feels that to really understand group behavior, students need to practice working in groups of different sizes. This is how she groups the students:\n\n</p><p>There are N students in the class, with roll numbers from 1 to N(2\u2264N\u226410<sup>12</sup>). The teacher generates using her laptop a random permutation of the roll numbers. The student with the roll number equal to the i<sup>th</sup> number in the permutation is assigned as a \"target\" to the student with roll number as i (Note that \"targetship\" is not mutual. If 1 is the target for 2, 2 need not be the target for 1). If any student is assigned himself as the target, the teacher generates another permutation till no student is assigned himself.\n\n</p><p>The N students stand far from each other. Now student 1 goes and joins his target. After this, student 2 (and any student who is with him) joins 2's target. At the i<sup>th</sup> step, student i and anyone who is already with him joins i's target. In case i's target is already with him, nothing is done.\n\n</p><p>By following this procedure, when all students have joined their targets, the class gets split into some groups. For example, assume that there are 6 students in the class and the permutation that has been generated is {2,4,5,6,3,1}. First, 1 goes and joins 2. Then 1 and 2 join 4. Then 3 joins 5. Then 1, 2 and 4 join 6. 5 is already with 3 and hence does not move. Similarly 6 is already with 1 and does not move. In the end, we have 2 teams : {1,2,4,6} and {3,5}\n\n</p><p>Given N, find out the expectation value of the number of teams that will be formed when the teacher groups the class in this fashion.\n\n<h3>Input</h3>\n</p><p>First line of the input contains T(\u2264100), the number of test cases. Following this are T lines, each containing an integer N(2\u2264N\u226410<sup>12</sup>).\n\n<h3>Output</h3>\n</p><p>For each N, output the expectation value of the number of groups formed. Output 6 digits after the decimal point while printing the expectation value\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n3\n4\n\n<b>Output:</b>\n1.000000\n1.333333\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "IIT Kanpur IOPC 2011",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1297492200,
+        "end_date": 1297578600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1297578600,
+        "submit_start_date": 1297492200,
+        "current": 1537439379
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>razimantv</span>",
+    "problem_name": "Counting the teams",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/razimantv'>razimantv</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "razimantv",
+    "contest_code": "IOPC2011",
+    "max_timelimit": "4",
+    "problem_code": "IOPC1116"
+}

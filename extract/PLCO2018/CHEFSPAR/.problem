@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Problem description.</p>\n<p>\nChef is tired of completing the customers orders. Now, he want some rest. But his manager Pradyumn don't want to make it easy for Chef.</br>\nHe asked a question to Chef \"You are given three arrays of size <b>N</b> denoted by <b>A</b>, <b>B</b> and <b>C</b>. You need to output the number of indexes such that <b>B<sub>i</sub></b> numbers before <b>i<sup>th</sup></b> index are <b>greater than or equal to</b> <b>A<sub>i</sub></b> (i.e. subarray <b>A[k...i]</b> such that i - k = B[i] for each index <b>i</b> and value of k \u2208 [1, i]) and <b>C<sub>i</sub></b> numbers after <b>i<sup>th</sup></b> index are <b>smaller than or equal to</b> <b>A<sub>i</sub></b> (i.e. subarray <b>A[i...p]</b> such that p - i  = C[i] for each index <b>i</b> and value of p \u2208 [i, N])\"</br>\n\nHelp Chef to find answer.\n</p>\n\n<h3>Input</h3>\n\n<p>\nFirst line consist of single integers <b>N</b> where N is number number of integers in the array <b>A</b>, <b>B</b> and <b>C</b></br>\nSecond line consist of N space - separated integers denoting the array <b>A</b></br>\nThird line consist of N space - separated integers denoting the array <b>B</b></br>\nFourth line consist of N space - separated integers denoting the array <b>C</b></br>\n</p>\n\n<h3>Output</h3>\n<p>In first line print a single integer (say <b>K</b>) denoting the count of the indexes which follows the above conditions.</br>\nIn second line print K space seperated intgers in increasing order. </p>\n(Output is in 1 - indexed form).</br>\n<h3>Constraints</h3>\n<p>\n<ul>\n<li> 1 \u2264 <b>N</b> \u2264 10<sup>6</sup> </li>\n<li> 1 \u2264 <b>A<sub>i</sub></b> \u2264 10<sup>9</sup> </li>\n<li> 0 \u2264 <b>B<sub>i</sub></b> \u2264 10<sup>9</sup> </li>\n<li> 0 \u2264 <b>C<sub>i</sub></b> \u2264 10<sup>9</sup> </li>\n</ul>\n</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n4 3 2 1\n2 2 2 2\n1 1 1 1\n\n<b>Output:</b>\n1\n3\n\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b></p>\nOnly index 3 will satisfy the above conditions.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-01-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Enigma - Plinth Codesprint",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1516030200,
+        "end_date": 1516041900,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1516041900,
+        "submit_start_date": 1516030200,
+        "current": 1537433182
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>killjee</span>",
+    "problem_name": "Chef and Special Array",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/killjee'>killjee</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "killjee",
+    "contest_code": "PLCO2018",
+    "max_timelimit": "1",
+    "problem_code": "CHEFSPAR"
+}

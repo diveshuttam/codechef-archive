@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>The reverse and add function starts with a number, reverses its digits, and adds the\nreverse to the original. If the sum is not a palindrome (meaning it does not give the\nsame number read from left to right and right to left), we repeat this procedure until\nit does.\nFor example, if we start with 195 as the initial number, we get 9,339 as the resulting\npalindrome after the fourth addition:\n195 786 1,473 5,214\n591 687 3,741 4,125\n+ \u2014\u2013 +\u2014\u2014 + \u2014\u2014 +\u2014\u2014\n786 1,473 5,214 9,339\nThis method leads to palindromes in a few steps for almost all of the integers. But\nthere are interesting exceptions. 196 is the first number for which no palindrome has\nbeen found. It has never been proven, however, that no such palindrome exists.\nYou must write a program that takes a given number and gives the resulting\npalindrome (if one exists) and the number of iterations/additions it took to find it.\nYou may assume that all the numbers used as test data will terminate in an answer\nwith less than 1,000 iterations (additions), and yield a palindrome that is not greater\nthan 4,294,967,295.\n\n\n<h3>Input</h3>\n</p><p>The first line will contain an integer N (0 &lt; N \u2264 100), giving the number of test cases,\nwhile the next N lines each contain a single integer P whose palindrome you are to\ncompute.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-03-2010",
+    "is_direct_submittable": false,
+    "contest_name": "CYW Round 2",
+    "languages_supported": "C, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1269855000,
+        "end_date": 1269858600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180185,
+        "submit_start_date": 1269855000,
+        "current": 1537439632
+    },
+    "problem_author_html_handle": "arnavch",
+    "problem_name": "Inside Out",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/arnavch'>arnavch</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "arnavch",
+    "contest_code": "CYWSL2",
+    "max_timelimit": "1",
+    "problem_code": "CYW12"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0Shil has a undirected graph consisting of <strong>N</strong> nodes and <strong>M</strong> edges. Each edge of this graph has a label ('<strong>a</strong>'-'<strong>z</strong>') and weight\u00a0<strong>1</strong>. Shil is interested in all shortest paths from <strong>1</strong> to <strong>N</strong>.\u00a0Any shortest path can be represented as a string formed by concatenating label of all the edges in order they are appearing in shortest path . Out of all shortest path strings , Shil wants <strong>lexicographical K<sup>th</sup> </strong>strings.</p>\n<p>Lexicographic <strong>K<sup>th</sup></strong> string is defined as <strong>K<sup>th</sup></strong> string present in the multiset consisting of all the shortest path strings.For example multiset is {aaa,aaa,aaa,aba} , the lexicographic 2<sup>nd</sup> string is aaa and lexicographic 4<sup>nd</sup> string is aba </p>\n<h3>Input</h3>\n<p>First Line of input consists of three integers <strong>N </strong>, and <strong>K </strong>.Next <strong>M</strong> lines consists of two integers u and v and a character <strong>c</strong> denoting an edge between <strong>u </strong>and <strong>v</strong> with label <strong>c</strong> .</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Print <strong>lexicographical\u00a0K<sup>th</sup></strong>\u00a0string . If total number of strings are less than\u00a0<strong>K</strong>\u00a0, print -1 in that cases.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><strong>2</strong> \u2264<strong>\u00a0N</strong>\u00a0\u2264 10<sup>5</sup></li>\n<li><strong>1</strong> \u2264<strong>\u00a0K</strong>\u00a0\u2264 10<sup>18</sup></li>\n<li><strong>N-1</strong>\u00a0\u2264\u00a0<strong>M</strong>\u00a0\u2264 10<sup>6</sup></li>\n<li><strong>1</strong> \u2264\u00a0<strong>u,v</strong>\u00a0\u2264\u00a0<strong>N</strong></li>\n<li>c will be a lower case alphabet ('<strong>a</strong>'-'<strong>z</strong>')</li>\n<li>It will be guaranteed that 1 and N will lie in the same connected component.Graph will not contain self loops and multiple edges.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre>\n<strong>Input:</strong>\n8 10 3\n1 2 a\n1 3 a\n2 4 b\n2 5 c\n4 8 a\n5 8 a\n3 7 b\n3 6 c\n6 8 a\n7 8 a\n\n<strong>Output:</strong>\naca\n</pre><pre>\n<strong>Input:</strong>\n7 8 4\n1 2 a\n1 3 a\n2 4 a\n3 4 a\n4 5 a\n4 6 a\n5 7 b\n6 7 c\n\n<strong>Output:</strong>\naaac\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><strong>Example case 1.Multiset of all shortest path strings is {aba,aba,aca,aca}</strong>\u00a0</p>\n<p><strong>Example case 2.Multiset of all shortest path strings is {aaab,aaab,aaac,aaac}</strong></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Divide by zero",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1454167800,
+        "end_date": 1454185800,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1454185800,
+        "submit_start_date": 1454167800,
+        "current": 1537435587
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>ruchirgarg05</span>",
+    "problem_name": "Shil and Shortest path",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ruchirgarg05'>ruchirgarg05</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ruchirgarg05",
+    "contest_code": "DIBZ2016",
+    "max_timelimit": "1 - 2",
+    "problem_code": "DBZ16SP"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "NICENESS",
+    "problem_author": "admin2",
+    "contest_name": "CodeChef Snackdown 2015 Finale ",
+    "todo": false,
+    "problem_author_html_handle": "admin2",
+    "problem_name": "Niceness of a tree",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "SNCK15FL",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin2'>admin2</a>, <a class='problem-tag-small ' href='/tags/problems/greedy'>greedy</a>, <a class='problem-tag-small ' href='/tags/problems/snck15fl'>snck15fl</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3> Read problems statements in <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/SNCK15FL/mandarin/NICENESS.pdf\">Mandarin Chinese </a> , <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/SNCK15FL/russian/NICENESS.pdf\">Russian</a> and <a target=\"_blank\" href=\"http://www.codechef.com/download/translated/SNCK15FL/vietnamese/NICENESS.pdf\">Vietnamese</a></h3>\n<p>\nIn a tree, a node having degree \u2265 3 is said to be a <i>nice</i> node. <br />\nFor tree <b>T</b>, it's <i>niceness</i> is defined by the pseudo code given below.</p>\n<p><code></code></p>\n<pre>\nint niceness(Tree T):\n\tans = 0;\n\twhile (T is not empty):\n\t\tIdentify all the <i>nice</i> nodes.\n\t\tRemove all nodes of T which have a path to \n\t\ta leaf not passing through any nice node.\n\t\tans++;\n\treturn ans;\t\t\n</pre><p>\n</p>\n<p>\ne.g. <i>niceness</i> of the below given tree is 2. In the first iteration of while loop, the nodes marked with green color will be removed. In the second iteration remaining blue marked nodes will be removed. Now, tree will be empty.</p>\n<p><img src=\"/download/extimages/08c1ee10967511969dbfc60f8143516c.png\" height=\"150\" />\n</p>\n<p>\nGiven two integers <b>N</b> and <b>\u03bc</b>. Find out whether there exists a tree of <b>N</b> nodes having <i>niceness</i> <b>\u03bc</b>. Output your answer as \"Yes\" or \"No\" (without quotes).\n</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</p>\n<p>The only line of each test case contains two space separated integers denoting <b>N</b> and <b>\u03bc</b> respectively.</p>\n<h3>Output</h3>\n<p>For each test case, output \"Yes\" or \"No\" (without quotes).</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T, N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>\u03bc</b> \u2264 <b>N</b></li>\n<li>Sum of <b>N</b> over all the test cases in a single file will not exceed <b>10<sup>6</sup></b>.</li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n4 1\n5 2\n2 2\n8 2\n\n<b>Output:</b>\nYes\nYes\nNo\nYes\n</pre><h3>Explanation</h3>\n<p><b>In the first example</b>, consider the tree which is just a path. It will have <i>niceness</i> of 1.</p>\n<p><b>In the second example</b>, following given star graph will have <i>niceness</i> equal to 2.<br />\n<img src=\"/download/extimages/27531a8fc38630b544f310851fdb6c3d.png\" height=\"150\"</p />\n</p><p><b>In the third example</b>, there is only one tree of 2 nodes and it has a <i>niceness</i> of 1, so there does not exist a tree of 2 nodes with <i>niceness</i> equal to 2.</p>\n<p><b>In the last example</b>, tree image given in the problem gives one such tree with <i>niceness</i> of 2.</p>\n<h3>Note</h3>\n<p>An empty tree is one which has no nodes.</p>\n",
+    "category_name": "main",
+    "date_added": "22-06-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/NICENESS",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1435390200,
+        "end_date": 1435408200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1435408200,
+        "submit_start_date": 1435390200,
+        "current": 1537436229
+    },
+    "user": {
+        "username": ""
+    }
+}

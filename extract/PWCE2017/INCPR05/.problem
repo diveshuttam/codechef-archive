@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Alice and Bob are playing <b> Skip Game</b>, which consists of a one dimensional board of N\ncells numbered as 1,2,3\u2026.N.</br></br>\nThe i<sup>th</sup> cell on the board contains a number a<sub>i</sub>.</br></br>\nIn the game, Alice and Bob take turns. If a player is at a cell indexed i, then in the next\nstep, the player moves forward by a<sub>i</sub> cells, ie the new position of the player will now be i +\na<sub>i</sub>. Each player can start at any cell they want. </br></br>\nThe player who reaches position N first will win.</br></br>\nAlice always plays first. Bob wants to win the game and thus he wants to start at a cell\nsuch that he will win the game. If Alice starts at a cell indexed x, then Bob wants to find out\nthe number of cells from where he can start, such that he will win. Let\u2019s say this number is\nb<sub>x</sub>.</br></br>\nBut Bob does not know Alice\u2019s initial position, so he wants to find the number of winning\npositions for all possible starting positions for Alice.</br></br>\nFind b<sub>x</sub> for every possible values of x from 1 to N.</br></br>\nNote that players can start at any cell indexed 1 to N inclusive</p>\n\n\n\n<h3>Input</h3>\n<p>First line contains the integer N.</p>\n<p>Second line contains N spaced integers, a<sub>i</sub>.</p>\n\n\n<h3>Output</h3>\n<p>Print N spaced integers, b<sub>i</sub>, i.e the number of winning positions for Bob if Alice starts at\nindex i.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1 \u2264 N \u2264 10^5</b></li>\n<li><b>1 \u2264 a<sub>i</sub> \u2264 10^5</b></li>\n<li><b>(i+a<sub>i</sub>) \u2264 N for all 1 \u2264 i \u2264 N</b></li>\n\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n2 2 1 0\n\n<b>Output:</b>\n3 1 1 0\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p> If Alice starts from the 1st cell, she would take 2 moves to reach the 4th square. Therefore, Bob has to start from a cell which would take him to 4 in less than 2 moves. There are 3 such cells (2nd, 3rd and 4th), hence the answer. Similar method can be used for other starting positions of Alice.</p>\n<p></p>\n<h3>Authored By: Aditya Sarode</h3>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-03-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Pradnya Wild Card Entry Round",
+    "languages_supported": "C, CPP14",
+    "todo": false,
+    "time": {
+        "view_start_date": 1489926600,
+        "end_date": 1489937400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1489937400,
+        "submit_start_date": 1489926600,
+        "current": 1537433995
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>shreyashtatia</span>",
+    "problem_name": "Skip Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shreyashtatia'>shreyashtatia</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shreyashtatia",
+    "contest_code": "PWCE2017",
+    "max_timelimit": "1",
+    "problem_code": "INCPR05"
+}

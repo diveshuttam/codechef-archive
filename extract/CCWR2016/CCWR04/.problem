@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><html>\n<body>\n<p>\nProfessor X of LMNTriX University is training his students for the various programming events. He found that the students can\u2019t solve problems based on trees and graphs and so to improve their skills he has come up with a series of problems. The easiest of them is being given to you to solve. \n\n</p>\n\n<p>\n\nThe problem is as follows:\nYou are given a 1-indexed tree consisting of N nodes. Each node has a colour associated with it. Your job is to find the subtree of this tree such that it is a Mono tree and consists of max number of nodes. A tree is said to be a Mono tree if all its nodes are of the same colour.\n\n</p>\n\n<p>\nFind out the number of the nodes in the maximum Mono subtree of the given tree.\n</p>\n\n\n<h3>Input:</h3>\n<p>\n\nFirst line contains an integer T denoting the number of test cases.<br>\nFirst line of every test case contains an integer N denoting the number of nodes in the tree.<br>\nThe second line of every test case contains N space separated integers denoting the colour associated with the i<sup>th</sup> node.<br> \nThe following N-1 lines contain 2 space separated integers denoting the N-1 edges of the tree. E.g. x y implies there exists an edge from node indexed x to node indexed y and that x is the parent of y.\n<br>\n</p>\n\n<h3>Output:</h3>\n\n<p>\nFor every test case, print the number of nodes in the maximum Mono subtree of the given tree in a single line.\n\n</p>\n\n<h3>Constraints:</h3>\n\n<p>1 \u2264 T \u2264 500</p>\n<p>1 \u2264 N\u00a0\u2264 100</p>\n\n<h3>Example:</h3>\n\n<h4>Input:</h4>\n\n<p>1</p>\n<p>6</p>\n<p>1 1 1 1 2 2</p>\n<p>1 2</p>\n<p>2 3</p>\n<p>2 4</p>\n<p>1 5</p>\n<p>1 6</p>\n\n<h4>Output:</h4>\n\n<p>3</p>\n\n<h3>Explanation: </h3>\n<p>The given tree is as shown in the figure below : <br>\n\n <img src=\"https://s3.postimg.io/ggdpro0tf/monotree.jpg\"  height=\"242\" width=\"242\">   \n\n<br>\n\n\n\n</body>\n\n</html>\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-08-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Clash Credenz 2016 Wildcard Round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1471707000,
+        "end_date": 1471717800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1471717800,
+        "submit_start_date": 1471707000,
+        "current": 1537434665
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rohit1996</span>",
+    "problem_name": "Mono Tree",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rohit1996'>rohit1996</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rohit1996",
+    "contest_code": "CCWR2016",
+    "max_timelimit": "1",
+    "problem_code": "CCWR04"
+}

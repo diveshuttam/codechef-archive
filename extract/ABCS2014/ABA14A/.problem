@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\n<a href=\"https://www.facebook.com/ramkumar.sundaravadivel?fref=ts&amp;ref=br_tf\">Ramkumar</a> loves to solve riddles one day <a href=\"http://www.spoj.com/users/sathyaceg/\">SpojSathya</a>gave him a riddle to solve.<br />\n<a href=\"https://www.facebook.com/sathyanarayanan.ganesan.37?fref=ts&amp;ref=br_tf\">Sathya</a>  will give him pair of integers a and b. Ramkumar has to find the largest<br />\nnumber in the range [a,b] inclusive which can be represented as product of atleast two prime numbers. But ramkumar is busy in watching \"Arrow\" he is asking your help. Help him to find the largest such number in that range. </p>\n<p><br /><br />\n<b>Input format</b>:<br />\n<br /></p>\n<p>\tThe first line will have a integer T. <br /><br />\n\tNext T lines will have a pair of numbers a and b. <br /><br /></p>\n<p><b>Output format:</b> <br /></p>\n<p>\tFor each testcase print in a single line the largest number in the range that<br />\nsatisfies the above condition else if you can't find such number print \"-1\".<br />\n<br /><br /><br />\n<b>Constraints: </b><br /></p>\n<p>\t1&lt;=T&lt;=100 (for each testcase file) <br /><br />\n\t2&lt;=a&lt;=b&lt;=10^12 <br /><br /></p>\n<p><b>Sample Input:</b> <br /></p>\n<p>\t2<br /><br />\n\t5 11<br /><br />\n\t7 35<br /><br /><br />\n<b>Sample Output:</b><br /><br />\n\t10 <br /><br />\n\t35<br /></p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-03-2014",
+    "is_direct_submittable": false,
+    "contest_name": "aBaCUS'14",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1394893800,
+        "end_date": 1394906400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1394906400,
+        "submit_start_date": 1394893800,
+        "current": 1537437700
+    },
+    "problem_author_html_handle": "abacus_opc",
+    "problem_name": "Help Ram",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abacus_opc'>abacus_opc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abacus_opc",
+    "contest_code": "ABCS2014",
+    "max_timelimit": "1",
+    "problem_code": "ABA14A"
+}

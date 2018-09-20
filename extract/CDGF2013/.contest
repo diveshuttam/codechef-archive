@@ -1,0 +1,87 @@
+{
+    "announcements": "<p>Rankings are available <a href=\"http://www.codechef.com/rankings/CDGF2013\">here</a>   </p>\r\n\r\n<br>\r\n<p>Please ignore the first two points of the \"Judging Criteria\" since it could appear misleading. Let me rephrase what it is intended to mean: <br>\r\n\r\n1. Your solution can be either right or wrong. Among the correct solutions the ones with least number of key strokes will get the best score i.e \"1\" and all other solutions will receive a fraction based how close they come to the best solution. <br>\r\n\r\n2. Users are ranked according to total points acquired from all accepted solutions. Ties will be broken by the total time for each user in ascending order of time. <br>\r\n\r\nApologies, for the inconvenience. </p>",
+    "ip": "149.129.135.113",
+    "code": "CDGF2013",
+    "duration": "5760",
+    "name": "Code Zip 2013",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>Rules and Regulations:</b></p> <p><b><br /></b></p> <p>1.\u00a0Contest problems will become visible on Wednesday, 25 September 2013 at 15:00 hours IST and contest will end at 29th September 15:00 IST.. Check your time zone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef%3A+Technoshine+X.3%3A+CodeZip&amp;iso=20130925T15&amp;p1=1993\" target=\"_blank\">here</a>.</p> <p>2. This is a not a Team Contest. It\u2019s an Individual contest.</p> <p>3.\u00a0This competition will be open globally. Anybody can participate and win prizes. But to claim the prizes, one should register\u00a0<a href=\"http://cadnitd.co.in/register.php\" target=\"_blank\">here</a>. \u00a0(There will be one on campus (NIT Durgapur) and one off campus winner.</p> <p>4. Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided. All white space characters in the output may not be ignored.</p> <p>5. Each problem will be judged on the length of the source code where the best solution (i.e the shortest solution) will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</p> <p>6. While calculating the size of the source code, all white spaces are not ignored.</p> <p>7. Almost all languages supported on CodeChef are allowed. (Some problems may have language restrictions)</p> <div>8. Please contact\u00a0<a href=\"mailto:debanjanochanda@gmail.com\" target=\"_blank\">debanjanochanda@gmail.com</a> for any queries during the contest.</div> <p>9.\u00a0All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a>.</p> <p>\u00a0</p> <p><b>Judging Criteria:</b></p> <p>1. User will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</p> <p>2. Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</p> <p>3. You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</p> <p>4. The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run. There is no time consumed for a problem that is not solved.</p> <p>5. Any participant found to be indulging in any form of malpractice will be immediately disqualified.</p> <p>6. The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/CDGF2013/1424957802.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "TOTAREA": {
+            "allow_submission": false,
+            "name": "Summing up the Areas",
+            "category_name": "main",
+            "accuracy": 43.51,
+            "successful_submissions": "111",
+            "code": "TOTAREA",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "FCTRIZE": {
+            "allow_submission": false,
+            "name": "Factorization",
+            "category_name": "main",
+            "accuracy": 39.23,
+            "successful_submissions": "12",
+            "code": "FCTRIZE",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "PRQUIN": {
+            "allow_submission": false,
+            "name": "PRIME-QUINE",
+            "category_name": "main",
+            "accuracy": 23.57,
+            "successful_submissions": "35",
+            "code": "PRQUIN",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "BINGCD": {
+            "allow_submission": false,
+            "name": "The Easiest Problem",
+            "category_name": "main",
+            "accuracy": 48.94,
+            "successful_submissions": "231",
+            "code": "BINGCD",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "MTRANS": {
+            "allow_submission": false,
+            "name": "Matrix Tranpose",
+            "category_name": "main",
+            "accuracy": 39.19,
+            "successful_submissions": "95",
+            "code": "MTRANS",
+            "type": "1",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1380447000,
+        "current": 1537438149,
+        "freezing": 0,
+        "start": 1380101400
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Ash &amp; Pikachu are ready to face the battle frontier. There are \u2018N\u2019 battle facilities, each headed by a frontier brain whom Ash has to face. He can approach the battle facilities for a battle one at a time. Even if he loses at any of the battle facilities he has the option to approach any other facility or compete at the same facility continuously until he wins. Once he has visited a facility, the facility is considered open for him represented by \u201c[\u201d and is closed only after he wins it, represented by \u201c]\u201d. The only restriction is that if he has visited the next facility after losing at a previous one then he has to win the current one in order to compete again in the previous facility. You have to help Ash &amp; Pikachu to find out in how many ways they can approach \u2018N\u2019 battle facilities in order to conquer the battle frontier.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line contains a single integer T, the number of test cases. T test cases follow. Each testcase consists of a single line consisting of a single number N.</p>\n<h3>Output</h3>\n<p>For each test case, output a single line consisting of the number of different ways possible for the respective test case..</p>\n<h3>Constraints</h3>\n\n<ul>\n<li><b>1 \u2264 T \u2264100 </b><br /></li>\n<li><b>0 \u2264 N\u2264100</b><br />\n</li></ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2\n3\n\n\n<b>Output:</b>\n2\n5\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>For the N=2 , the solutions is 2 because in the following ways:<br /><br />\n\tAsh approaches the first facility, loses their and then moves to the next facility and fights there. Now as he cannot return to the first facility without winning the current one, he wins the second one after a few tries and then returns to the first one and wins there.<br /><br />\n\tAsh approaches the first facility, competes there until he wins and then goes to the next facility and wins there.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-11-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Xception 2.0",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, RUBY, PHP, SCALA, PERL, LISP sbcl, LISP clisp, JS, PERL6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1422718200,
+        "end_date": 1422730800,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1422730800,
+        "submit_start_date": 1422718200,
+        "current": 1537436875
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>ashishrko</span>",
+    "problem_name": "The Battle Frontier",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ashishrko'>ashishrko</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ashishrko",
+    "contest_code": "XCPT2015",
+    "max_timelimit": "1",
+    "problem_code": "XC103"
+}

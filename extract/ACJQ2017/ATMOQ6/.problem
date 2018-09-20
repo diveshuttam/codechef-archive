@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem Statement:</h3>\n\n<p>Addy is organising games in a birthday party. There are <strong>N</strong> kids and each of them initially has a ball.<br><br>\nEvery second, each kid throws the ball from his hand to a specific kid. Also it is assured that every kid will receive a ball from some specific kid, every second.<br><br>\nAddy is bored, so he wants to calculate the minimum number of seconds before which every kid will have the ball which he originally had at the beginning of the game.<br><br>\nSince this number can be huge, he wants to find the number of seconds modulo <strong>10<sup>9</sup>+7</strong>. Help him find this value.</p>\n\n<h3>Input:</h3>\n<ul>\n<li>The first line of input contains one integer <strong>T</strong> denoting the number of test cases.<br>\n<li>This is followed by 2 lines per test case.<br>\n<ul><li>The first line in each test case contains <strong>N</strong> - the number of kids in the test case.<br>\n<li>Second line contains p1, p2, ... , pn, where <strong>p<sub>i</sub></strong> = the kid to which the <strong>i<sup>th</sup></strong> kid passes the ball every second.</ul> </p></ul>\n\n<h3>Output:</h3>\n<ul><li><strong>T</strong> lines, where the <strong>i<sup>th</sup></strong> line contains the answer of the <strong>i<sup>th</sup></strong> test case.</li></ul>\n\n\n<h3>Constraints:</h3>\n<ul>\n<li><strong>1</strong> \u2264 <strong>T</strong> \u2264 <strong>5</strong><br>\n<li><strong>1</strong> \u2264 <strong>N</strong> \u2264 <strong>10^5</strong><br>\n<li><strong>1</strong> \u2264 <strong>P<sub>i</sub></strong> \u2264 <strong>10^5</strong>\n</ul>\n\n<h3>Sample case:</h3>\n<pre>\n<b>Input: </b>\n3\n5\n3 4 5 2 1\n3\n2 3 1\n14\n2 1 5 4 3 9 8 7 6 14 13 12 11 10\n\n<b>Output:</b>\n6\n3\n2\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Atmos CodeJam Qualifiers",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1508079600,
+        "end_date": 1508090400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1508090400,
+        "submit_start_date": 1508079600,
+        "current": 1537433454
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>rock7lee</span>",
+    "problem_name": "The Birthday Party",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rock7lee'>rock7lee</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rock7lee",
+    "contest_code": "ACJQ2017",
+    "max_timelimit": "4",
+    "problem_code": "ATMOQ6"
+}

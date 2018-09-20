@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nJohn likes playing the game Permutation Jumping. First he writes down a permutation A of the first n numbers. Then, he chooses any cell to start on. If he is currently at cell x and hasnt visited the cell A[x], he jumps to cell A[x]. He keeps doing this till he cannot move to the cell A[x], because he has already visited it. In the end, he counts all the cells that he visited during the game, including the cell on which he started.\n\n\n<p>\nHe does not want the game to go on for too long, and thus he wishes that irrespective of the choice of his starting cell, he does not ever have to visit more than K cells. On the other hand, he does not want the game to be too short either. Thus, irrespective of the choice of his starting cell, he should be able to visit atleast two cells.\n\n\n<p>\nNow he wonders how many permutations could he have chosen in the first place which would allow him to have the game duration as above. i.e. He should visit atleast 2 cells and atmost K cells, no matter which cell he started on.\n\n<h3>Input</h3>\n<p>\nThe first line contains the number of test cases T (T <= 1000). The next T lines contain 2 space seperated integers N and K. (2 <= K <= N <= 100)\n<h3>Output</h3>\n<p>\nOutput T lines, one corresponding to each test case. For each test case output a single integer which is the answer for the corresponding test case. Since the answer can be very large, output the answer modulo 1000000007.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n4 2\n6 4\n\n<b>Output:</b>\n3\n145\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-12-2009",
+    "is_direct_submittable": false,
+    "contest_name": "Codechef Campus ReSnackdown",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1261305000,
+        "end_date": 1261315800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1261315800,
+        "submit_start_date": 1261305000,
+        "current": 1537439847
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Permutation Jumping",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "RESNKDWN",
+    "max_timelimit": "0.755814",
+    "problem_code": "RESN03"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>\u00a0Problem Description</h3>\n<p>The T20 Cricket Tournament, Indian League of Premiers is just around the corner\u2026.and as usual the favorites are the Coding Super Kings.The team managers are working very hard and the players are also preparing day in and day out.<br />\n<br /><br />\nOne such player is Ash. He is an off-spinner, with plenty of experience to his name in T20 cricket. But Ash this time wants to perform much better than how he did in his previous years. He feels that apart from regular training, he should also look into his previous stats to check where and how he can improve his game. He makes a list of all T20 games he has bowled in. Let this number be <b>\u2018N\u2019</b>. He then writes down the result of each and every ball he has bowled in all the games. The result can only be a  <b>\u20180\u2019</b> or a <b>\u20181\u2019</b>. \u20180\u2019 implies a wicket or no(zero) run. \u20181\u2019 implies he has conceded runs. The number of balls in each game can be taken as the variable \u2018L\u2019.<br />\n<br /><br /><br />\nFor example:-<br />\n<br /><br />\nIf he has bowled in 2 games, with 5 and 6 balls respectively in each game, he would have made something like this.. 10101, 011010<br />\nIf some ball has not been specified, like the 6th ball in the former case, then assume it to be \u20180\u2019. The extra ball should be added to the extreme left end.<br />\n<br /><br /><br />\nUsing these details, he wants to find the following\u2026<br />\nFor each game X in the list of \u2018N\u2019 games, if there exists some other game Y such that at the same ball(for all balls in the game) in both X and Y, runs have not been scored off, that is both TOGETHER should NOT be a 1(that is either one of them can be a 1 or none of them can be a 1), then count it. If no such game Y exists for a given X, then do not count it. Now ash wants to count the number of games for which the above condition holds good.</p>\n<p><br /><br /><br />\nSince Ash is highly experienced, he has bowled a large number of games, he cannot find the answers manually. So he requests you to help him. But Ash also has another condition. He will give you the decimal notation for the balls in each game. For example\u2026 10101 would be represented as 21.</p>\n<p><br /><br /><br />\n<b>Example 1:</b><br />\n<br />For 2 games, 10 and 4. The binary equivalents are 1010 and 100. For the game 10, 4 satisfies the rule that no two balls have got 1 at the same instance. Hence for 10 the answer is 4. Similar explanation can be given for 4 whose answer is 10. So the count will be 2.<br />\n<br /><br /><br />\n<b>Example 2:</b><br />\n<br /><br />\nFor the case 4, 2, 3 \u2026<br /><br />\n4 -> 100 <br /><br />\n2 -> 010(Add extra ball to the extreme left)<br /><br />\n3 -> 011(Add extra ball to the extreme left)<br /><br />\n(4,2) -> satisfies the rule that at no two balls for 4 and 2 exists two 1s.<br /><br />\n(4,3) -> satisfies the rule.<br /><br />\n(2,4) -> satisfies<br /><br />\n(2,3) -> does not satisfy. The 2nd ball from the right are 1s in both the games.<br /><br />\n(3,4) -> satisfies<br /><br />\n(3,2) -> does not satisfy<br /><br />\nSince 4,2 and 3 all satisfy the condition, the answer for this case is 3.</p>\n<p><br /><br /><br />\nIn T20 cricket, the maximum number of balls bowled by a bowler in each game is limited to 24.<br />\nCould you solve the above problem for him\u2026?\u00a0</p>\n<h3>Input</h3>\n<p>The first line consists of T, the number of testcases. This is then followed by N, the number of games for each testcase. This is then followed by N space separated numbers denoting the decimal equivalent of the score of each game.</p>\n<h3>Output</h3>\n<p>The Output consists of 1 line representing the answer for each testcase followed by a new line.\u00a0</p>\n<h3>Constraints</h3>\n<p>\n<br />1 &lt;= T &lt;= 100<br />\n<br />1 &lt;= N &lt;= 1,000,000<br />\n<br />1 &lt;= L &lt;= 24\n</p>\n<p><b>Input:</b><br /><br />\n3<br /><br />\n2<br /><br />\n10 4<br /><br />\n3<br /><br />\n1 2 3<br /><br />\n4<br /><br />\n2 3 4 5<br /><br /></p>\n<p>\u00a0</p>\n<p><b>Output:</b><br /><br />\n2<br /><br />\n2<br /><br />\n4<br /></p>\n<p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-04-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Tux Coder 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1396884600,
+        "end_date": 1396895400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1396895400,
+        "submit_start_date": 1396884600,
+        "current": 1537437628
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>tusharmakkar08</span>",
+    "problem_name": "Run Or No Run",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/tusharmakkar08'>tusharmakkar08</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "tusharmakkar08",
+    "contest_code": "TUXO2014",
+    "max_timelimit": "3",
+    "problem_code": "RONR"
+}

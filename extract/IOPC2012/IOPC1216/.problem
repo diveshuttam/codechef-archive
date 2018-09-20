@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">After the first series of protests disrupted the road traffic in Dystopia, the government decided to take counter measures. It chose a few of the roads as high priority roads and sent military vehicles to patrol them. The roads were chosen in a way that it was possible to move from any junction to any other junction just using the patrolled roads. Also, the number of roads chosen was the minimum possible (N-1, where N is the number of junctions).</p>\n\n<p align=\"justify\">After this, people were able to travel without hindrance from the protestors and the protest wasn't taken seriously anymore. Hence the leader of the protest decided to take things to the next level. He decided that he would personally lead the group which blocks one of the patrolled roads - The military would not dare to touch the group then.</p>\n\n<p align=\"justify\">Blocking a patrolled road would divide the road network into two parts A and B such that it would be possible to travel between every pair of junctions in A (and every pair of junctions in B) using patrolled roads alone but it would not be possible to move from a junction in A to a junction in B using patrolled roads alone. People then have to take unpatrolled roads with one junction in A and the other in B. The leader terms the number of such inter-part roads as the inconvinence factor for the patrolled road being blocked.</p>\n\n<p align=\"justify\">Given the road network, find out the maximum inconvenience factor achievable by choosing the patrolled road to block.</p>\n\n<h3>Input</h3>\n<p align=\"justify\">The first line of the input contains T, the number of test cases (T \u2264 5). Following this are the descriptions of the T test cases. The first line of each test case contains two space separated integers N and M - The number of junctions and <b>unpatrolled</b> roads in the network(1 \u2264 N \u2264 10000; 0 \u2264 M \u2264 30000). Following this are N-1 lines, describing the patrolled roads in the network. Each line will contain two space separated integers i and j, denoting that there is a patrolled road between i and j. This is followed by M lines describing the unpatrolled roads in a similar fashion. You are assured that there is not more than one direct road between any pair of junctions.</p>\n\n<h3>Output</h3>\n<p align=\"justify\">For each test case, print the maximum value of inconvenience factor achievable among all the possible choices of the patrolled road to be blocked.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n6 3\n0 1\n1 2\n1 3\n3 4\n3 5\n0 2\n0 4\n4 5\n\n<b>Output:</b>\n2\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-01-2012",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC Techkriti 2012 - IIT Kanpur",
+    "languages_supported": "JAVA, PYTH, PYTH 3.6, PAS fpc, PAS gpc, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1326522600,
+        "end_date": 1326609000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1326609000,
+        "submit_start_date": 1326522600,
+        "current": 1537439039
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>razimantv</span>",
+    "problem_name": "Corruption again",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/razimantv'>razimantv</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "razimantv",
+    "contest_code": "IOPC2012",
+    "max_timelimit": "0.130625",
+    "problem_code": "IOPC1216"
+}

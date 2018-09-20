@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>You have two arrays A and B of equal size N containing positive numbers. You have to maximize the following expression where S is a non-empty subset of the set {0, 1, 2, ..., N-1}: </p>\n<p><img src=\"http://s22.postimg.org/yzs29y9u5/image.png\"  alt=\"Smiley face\" /></p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of each test case contains a single integer <b>N</b> denoting the size of the two arrays. The second line contains <b>N</b> space-separated integers <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b> denoting the numbers of array A. The third line also contains <b>N</b> space-separated integers <b>B<sub>1</sub></b>, <b>B<sub>2</sub></b>, ..., <b>B<sub>N</sub></b> denoting the numbers of array B.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Output what is asked in the problem with an error of not more than 10^(-6).</p>\n<p>\u00a0</p>\n<h3>Subtask 1 (40 points)</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>20</b></li>\n<li><b>1</b> \u2264 <b>A[i], B[i]</b> \u2264 <b>2*(10^9)</b></li>\n</ul>\n\n<h3>Subtask 2 (60 points)</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000000</b></li>\n<li><b>1</b> \u2264 <b>A[i], B[i]</b> \u2264 <b>2*(10^9)</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n1 2\n1 1\n\n<b>Output:</b>\n2\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>There will be three non-empty, A[0]/B[0] = 1, (A[0]+A[1])/(B[0]+B[1])=1.5, A[1]/B[1]=2 and hence the output will be the maximum among them all, that is 2.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "March LoC Competitive Programming Marathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1458844200,
+        "end_date": 1459240140,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1459240140,
+        "submit_start_date": 1458844200,
+        "current": 1537435022
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>cs1120him</span>",
+    "problem_name": "Fraction",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cs1120him'>cs1120him</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "cs1120him",
+    "contest_code": "LOCMAR16",
+    "max_timelimit": "1",
+    "problem_code": "FRAC"
+}

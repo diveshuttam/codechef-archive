@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Again we have an event designed by our robotic group of our college. In this contest the participants are expected to collect balls from source buckets and dump it into the target bucket. There are <b>K</b> number of source buckets numbered from <b>1</b> to <b>K</b> and only one target bucket. The bucket \u2018<b>i</b>\u2019 contains infinite number of balls of colour \u2018<b>i</b>\u2019 only. All the balls used in the event are of the same diameter \u2018<b>d</b>\u2019.</p>\n<p>The participating team needs to design a robot which has a cylindrical container of diameter \u2018<b>d</b>\u2019 such that ball just fits into the container. The container is of infinite length. The container operates in LIFO style. It is used to hold the ball temporarily before being dumped into the target bucket.</p>\n<p>The robots are remote controlled and the team gives a sequence of command \u2018<b>S</b>\u2019 according to which the robot performs the action. The command is of two type</p>\n<p><b>P<sub>i</sub></b> \u2013 picks the \u2018<b>i</b>\u2019 coloured ball and stores it into the cylindrical container</p>\n<p><b>D<sub>i</sub></b> \u2013 drops the top most ball from the container which is of colour \u2018<b>i</b>\u2019 into the target bucket.</p>\n<p>Now due to some problem few of the commands from the sequence is lost. You are given an incomplete sequence where the missing command is represented by \u2018<b>?</b>\u2019, your task is to find out how many valid sequence can be generated from the given incomplete sequence.</p>\n<p>A valid sequence means for every \u2018<b>D<sub>i</sub></b>\u2019 command the robot drops the top most ball from the container which is of colour \u2018<b>i</b>\u2019.</p>\n<p><b>Note:</b> The cylindrical container is operated in \u2018Last-In-First-Out\u2019 more often we say it to be LIFO style.</p>\n<p>\n<h3><b>Input</b></h3>\n</p>\n<p>The first line of input consist of two space separated integers <b>N</b> and <b>K</b>, where <b>N</b> is the number of the command in sequence \u2018<b>S</b>\u2019, followed by the sequence \u2018<b>S</b>\u2019 in the next line which is command separated by single space. Every \u2018<b>P</b>\u2019, \u2018<b>D</b>\u2019, is followed by the colour of the ball on which the operation is to be performed.</p>\n<p>\n<h3><b>Output</b></h3>\n</p>\n<p>Output the total number of valid sequence that can be constructed. The output can be very large so print answer modulo <b>1000000007</b>.</p>\n<p>\n<h3><b>Constraints:</b></h3>\n</p>\n<p><b>1 \u2264 K \u2264 9</b></p>\n<p><b>2 \u2264 N \u2264 100</b></p>\n<p>\n<h3><b>Example</b></h3>\n</p>\n<p><b>Input:</b></p>\n<p>4 2</p>\n<p>P1 P2 D2 ?</p>\n<p><b>Output:</b></p>\n<p>1</p>\n<p><b>Input:</b></p>\n<p>2 1</p>\n<p>P1 D1</p>\n<p><b>Output:</b></p>\n<p>1</p>\n<p>\n<h3><b>Explanation of first input</b></h3>\n</p>\n<p>The robot first picks the \u2018<b>1</b>\u2019 coloured ball and puts it into the cylindrical container then puts the \u2018<b>2</b>\u2019 coloured ball into the container then dumps the \u2018<b>2</b>\u2019 coloured ball into the target bucket and then dumps the \u2018<b>1</b>\u2019 coloured ball into the target bucket. No other valid sequence is possible.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeCracker 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1425130200,
+        "end_date": 1425148200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1425148200,
+        "submit_start_date": 1425130200,
+        "current": 1537436693
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>harshitasia</span>",
+    "problem_name": "Robotics Event - 2",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/harshitasia'>harshitasia</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "harshitasia",
+    "contest_code": "COCR2015",
+    "max_timelimit": "1",
+    "problem_code": "COCR06"
+}

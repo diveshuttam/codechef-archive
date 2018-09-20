@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Vishal loves running. He often visits his favourite Nehru Park and runs for very long distances. On one such visit he found that the number of girls in the park was unusually high. Now he wants to use this as an opportunity to impress a large number of girls with his awesome speed. \n\nThe track on which he runs is an $\\text{N}$ kilometres long straight path. There are $\\mathbf{a_i}$ girls standing within the $\\text{ith}$ kilometre of this path. A girl will be impressed only if Vishal is running at his maximum speed when he passes by her. But he can run at his best speed only for a single continuous stretch of $\\text{K}$ kilometres. Now Vishal wants to know what is the maximum number of girls that he can impress.\n\n###Input\nFirst line of the input contains the number of testcases $\\text{T}$.\n\n\nFor each test case,\n\nFirst line contains two space-separated integers $\\text{N}$ and $\\text{K}$, the length of the track and the maximum distance he can run at his best speed.\n\nSecond line contains N space-separated integers, the number of girls within each kilometre of the track.\n\n###Output\nFor each test case print one line containing an integer, denoting the maximum number of girls Vishal can impress.\n\n###Constraints \n$1 \\leq \\text{T} \\leq 10$\n\n$1 \\leq \\text{K} \\leq \\text{N} \\leq 100$ \n\n$1 \\leq \\mathbf{a_i} \\leq 100$ \n\n###Sample Input\n\t1\n\t7 2\n\t2 4 8 1 2 1 8\n\n###Sample Output\n12\n\n###Explanation\nHe can impress 4+8=12 girls if he runs at his best speed between the 2nd and the 3rd kilometre, inclusive.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "ProCon 2018 (Rated for all)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1534433400,
+        "end_date": 1534442400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1534442400,
+        "submit_start_date": 1534433400,
+        "current": 1537432099
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>meetsid20</span>",
+    "problem_name": "The Great Run",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/meetsid20'>meetsid20</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "meetsid20",
+    "contest_code": "PROC2018",
+    "max_timelimit": "0.5",
+    "problem_code": "PROC18A"
+}

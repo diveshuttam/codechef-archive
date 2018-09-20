@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Boruto and Sarada both desperately wanted to become Hokage. The Academy in the Leaf Village seeing their desperation decided to conduct a test, just to keep them motivated for their goal.</p>\n<p>In the test, they were given\u00a0<strong>2</strong> integers\u00a0<strong>X\u00a0</strong>and\u00a0<strong>Y</strong>, and the task was to check if\u00a0it is possible to express\u00a0<strong>X</strong> as a sum of\u00a0<strong>Y</strong> distinct positive integers (i.e. as the sum of integers greater than <strong>0</strong>). Both were intelligent enough to answer this question within a few seconds. Are you ?</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer <strong>T</strong> denoting the number of test cases. The description of <strong>T</strong> test cases follows.<br />Each test case consists of a single line of input containing\u00a0<strong>2</strong>\u00a0space-separated integers\u00a0<strong>X\u00a0</strong>and\u00a0<strong>Y\u00a0</strong>as described in the problem statement.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each test case, output a single line containing either <strong>YES\u00a0</strong>or\u00a0<strong>NO\u00a0</strong>denoting the answer to the problem.</p>\n<p>\u00a0</p>\n<h3>Information to Score Partial Points</h3>\n<ul>\n<li>For 5% of the score, it is guaranteed that <strong>T</strong>,<strong>X</strong>,<strong>Y</strong><strong>\u00a0</strong>\u2264 10.</li>\n<li>For further 10% of the score, it is guaranteed that <strong>T\u00a0</strong>\u2264 10<sup>5</sup>, <strong>X,Y</strong>\u2264 10.</li>\n<li>For the rest of the 85% of the score, no extra guarantees. That is, <strong>T\u00a0</strong>\u2264 10<sup>5</sup>,\u00a0<strong>X,Y\u00a0</strong>\u2264 10<sup>9</sup>.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><strong>1</strong> \u2264 <strong>T</strong> \u2264\u00a0<strong>10</strong><sup><strong>5</strong></sup></li>\n<li><strong>1\u00a0</strong>\u2264\u00a0<strong>X</strong>,<strong>Y</strong>\u00a0\u2264\u00a0<strong>10<sup>9</sup></strong></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong>\n1<br />5 2\n\n<strong>Output:</strong>\nYES</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><strong>Example case 1.</strong>\u00a05 can be expressed as the sum of 2 integers in many ways as follows :- 1+4 or 2+3.</p>\n<p>\u00a0</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-02-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Overnite Coding",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1518886800,
+        "end_date": 1518897600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1518897600,
+        "submit_start_date": 1518886800,
+        "current": 1537432990
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>mohitbindal644</span>",
+    "problem_name": "Boruto and Sarada",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/mohitbindal644'>mohitbindal644</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "mohitbindal644",
+    "contest_code": "OVEC2018",
+    "max_timelimit": "1",
+    "problem_code": "BIT_BS"
+}

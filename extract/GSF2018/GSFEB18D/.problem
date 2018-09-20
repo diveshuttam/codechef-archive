@@ -1,0 +1,33 @@
+{
+    "problem_code": "GSFEB18D",
+    "problem_author": "janeadsouza",
+    "contest_name": "GST February SRM",
+    "todo": false,
+    "problem_author_html_handle": "janeadsouza",
+    "problem_name": "Lie Detector",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "GSF2018",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/gsf2018'>gsf2018</a>, <a class='problem-tag-small ' href='/tags/problems/janeadsouza'>janeadsouza</a>, <a class='problem-tag-small ' href='/tags/problems/janeadsouza'>janeadsouza</a>, <a class='problem-tag-small ' href='/tags/problems/simple'>simple</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Jane recently saw a lie detector. She wanted to give it a try. Jane and Mean-akshi are best friends. They tell each other every secret. But, Mean-akshi has a BFF which Jane doesn't know about.\n Mean-akshi tells her other BFF everything, sometimes more than Jane.</p>\n<p>Jane wanted to test their friendship, so here's the scene: </p>\n<p>Question to Mean-akshi will be given as string S and a string M will be the answer of the question given by her. If the number of vowels <i>(a, e, i, o, u)</i> in both the question and her answer is same then Mean-akshi is telling the truth else she is lying. Mean-akshi will be asked question for N continuous times. If she is telling truth more than or equal to number of times she lied print <b>jane</b> else print <b>secretbff</b> (without spaces between secret and bff).\n\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases.<br>\nThe subsequent lines contain integer <b>N</b> denoting the number of questions.<br> \nEach <b>N</b> will have 2N lines in total i.e. the first line will be the question <b>S</b> followed by the second line which will be it's answer <b>M</b>.Thus, there'll be N pairs of Question and Answer.\n</p>\n\n<h3>Output</h3>\n<p>For each test case, output the answer as given below.</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10</b>. N is always even.</li>\n<li><b>1</b> \u2264 <b>|S|, |M|</b> \u2264 <b>64</b>. All characters of strings are lowercase.</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n2\n4\nkoko\nnako\nhaha \nokay\nlmao\nnai\nbata\nnaibataungi\n4\nkoko\nnakk\nsiesgsta\nhaha\nlmao\nnaire\nbata\nbatadiya\n\n<b>Output:</b>\njane\nsecretbff\n</pre>\n<p>\u00a0</p>\n",
+    "category_name": "main",
+    "date_added": "21-02-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/GSFEB18D",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1519479000,
+        "end_date": 1519486200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1519486200,
+        "submit_start_date": 1519479000,
+        "current": 1537432944
+    },
+    "user": {
+        "username": ""
+    }
+}

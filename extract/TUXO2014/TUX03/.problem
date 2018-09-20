@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem description</h3>\n<p>\u00a0The IPL Auctions are finally over and cricket legend Rahul Dravid now wants to find the most balanced team in the league.<br />\nEach player is bought at some price X in the auction. Dravid defines the balance of each team as the largest price difference between<br />\nany 2 players in that team. The most balanced team is the one with the smallest price difference i.e. smallest value of balance . There are a total of 10 teams, numbered 1 to 10, in the IPL this season and each team has exactly 15 players.\n</p>\n<p> Your job is to print the index of the most balanced team and it's balance value . If more than 1 team has the least balance, then print the index of the team with highest index value among these teams and it's balance. Give the answer for T such queries.\n</p>\n<h3><b> Input </b>:</h3>\n<p>First line contains T, the total number of queries. Each query consists of 10 lines. Each of the next 10 lines contains 15 space separated integers , not necessarily in sorted order , denoting the price of each player bought by the i'th team (1 \u2264 i \u2264 10).\n</p>\n<h3>Output</h3>\n<p>For each query, print 2 space separated integers denoting the index and balance of the most balanced team .</p>\n<h3>Constraints</h3>\n<p> 1 \u2264 T \u2264 100 <br/><br />\n    Price of each player is a positive number less or equal to 10^6 (1,000,000).</br/></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n\n<p>1 <br/>\n3 6 9 12 15 18 21 24 27 30 33 36 39 42 45 <br/>\n2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 <br/>\n4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 <br/>\n5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 <br/>\n6 12 18 24 30 36 42 48 54 60 66 72 78 84 90 <br/>\n7 14 21 28 35 42 49 56 63 70 77 84 91 98 105 <br/>\n8 16 24 32 40 48 56 64 72 80 88 96 104 112 120 <br/>\n9 18 27 36 45 54 63 72 81 90 99 108 117 126 135 <br/>\n10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 <br/>\n11 22 33 44 55 66 77 88 99 110 121 132 143 154 165 <br/>\n </br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></p>\n<b>Output:</b>\n</pre><p>\u00a02 28 </p>\n<h3>Explanation</h3>\n<p>The second team , with index 2, has balance equal to 30 - 2 = 28 which is lowest among all the 10 teams.\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-04-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Tux Coder 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1396884600,
+        "end_date": 1396895400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1396895400,
+        "submit_start_date": 1396884600,
+        "current": 1537437629
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>tusharmakkar08</span>",
+    "problem_name": "Balanced Team",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/tusharmakkar08'>tusharmakkar08</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "tusharmakkar08",
+    "contest_code": "TUXO2014",
+    "max_timelimit": "1",
+    "problem_code": "TUX03"
+}

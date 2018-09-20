@@ -1,0 +1,137 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "SEPT14",
+    "duration": "14400",
+    "name": "September Challenge 2014",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div> <div> <div><b>The September Challenge 2014 has ended!</b></div> <div><b>The editorials for the contest can be found <a target=\"_blank\" href=\"http://discuss.codechef.com/tags/sept14/\">here</a>.</b></div> <div><b>The problems have been moved to practice section.</b></div> <div><b>Solutions are public for all problems.</b></div> <div><b>Winners Blog Post can be found <a href=\"http://blog.codechef.com/2014/12/12/a-quick-look-back-at-september-challenge-2014/\">here</a>.</b></div> <div><b>All the submissions to the challenge problem have been put to rejudge.</b></div> </div> <div></div> <div><b>Rules and Regulations:</b></div> <div> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\">feedback@codechef.com </a>.</li> <li> Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.. Contest problems will become visible on Friday, 5th September 2014 at 15:00 hours IST. Check your timezone <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+September+Challenge+2014&amp;iso=20140905T15&amp;p1=44\">here</a>.</li> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li> Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution</li> <li>You shall not possess more than one account on CodeChef. If you have, then do let us know, so that we can deactivate the insignificant one. If you do not report it and we come to know about it, we may deactivate both the accounts permanently.</li> <li>The score that you will see during the contest will only be partial (obtained on 20% of the test data).</li> <li>The submissions will be re-judged at the end of the contest to get full score (obtained on the whole test data).</li> <li>The number of submissions that one can make during the contest on the problem will be limited to 500.</li> <li>All participants are expected to abide by the\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a></li> <p><b>Note: As a contestant, you are responsible for making sure others don't access the code that you submit. If you're on a network or shared computer, or using an online development environment, make sure that other contestants don't have access to your code. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</b></p> </ul> </div> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/SEPT14/1424957880.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "ROTATION": {
+            "allow_submission": false,
+            "name": "Fun with Rotation",
+            "category_name": "main",
+            "accuracy": 25.16,
+            "successful_submissions": "4053",
+            "code": "ROTATION",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "RAINBOWB": {
+            "allow_submission": false,
+            "name": "Chef and Rainbow Array - 2",
+            "category_name": "main",
+            "accuracy": 23.94,
+            "successful_submissions": "2638",
+            "code": "RAINBOWB",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FLOORI4": {
+            "allow_submission": false,
+            "name": "Flooring",
+            "category_name": "main",
+            "accuracy": 8.05,
+            "successful_submissions": "696",
+            "code": "FLOORI4",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "UASEQ": {
+            "allow_submission": false,
+            "name": "Chef and sequence",
+            "category_name": "main",
+            "accuracy": 36,
+            "successful_submissions": "1333",
+            "code": "UASEQ",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FACTORIZ": {
+            "allow_submission": false,
+            "name": "Factorisation",
+            "category_name": "main",
+            "accuracy": 39.72,
+            "successful_submissions": "1529",
+            "code": "FACTORIZ",
+            "type": "2",
+            "is_direct_submittable": false
+        },
+        "CHEFINV": {
+            "allow_submission": false,
+            "name": "Chef and Swaps",
+            "category_name": "main",
+            "accuracy": 7.65,
+            "successful_submissions": "314",
+            "code": "CHEFINV",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "QRECT": {
+            "allow_submission": false,
+            "name": "Rectangle Query",
+            "category_name": "main",
+            "accuracy": 3.55,
+            "successful_submissions": "47",
+            "code": "QRECT",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SEABUB": {
+            "allow_submission": false,
+            "name": "Sereja and Bubble Sort",
+            "category_name": "main",
+            "accuracy": 8.74,
+            "successful_submissions": "127",
+            "code": "SEABUB",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHEFLR": {
+            "allow_submission": false,
+            "name": "Chef and Left-Right",
+            "category_name": "main",
+            "accuracy": 23.56,
+            "successful_submissions": "4365",
+            "code": "CHEFLR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FIBTREE": {
+            "allow_submission": false,
+            "name": "Fibonacci Numbers on Tree",
+            "category_name": "main",
+            "accuracy": 5.48,
+            "successful_submissions": "17",
+            "code": "FIBTREE",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1410773400,
+        "current": 1537437430,
+        "freezing": 0,
+        "start": 1409909400
+    },
+    "user": {
+        "username": ""
+    }
+}

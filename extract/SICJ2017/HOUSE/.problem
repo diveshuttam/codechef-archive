@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Alex a bank manager from Canada just got placed in a VDFC Bank in New York. As, he has to relocate from Canada to New York, he decided to buy a house. The price of houses has decreased after Arnold Trump became President of USA. He decided to buy a house in a locality which has stores at each corner. As the streets are only one way there is a heavy traffic jam and it take time to Alex to reach store. Trump just declared that he will convert some streets connecting these stores to two way roads. Some conversion cost is associated with each street. It will cost lot of money to convert all streets to two way streets so Trump wanted these conversions in such a way that total cost of conversion is minimized keeping in mind that all stores are connected with two way roads. Alex after coming to know about this idea decided to buy a house in a two-way street. But not all streets will be two ways. So, he asks you to tell him if he should buy house in a particular street or not. As there can be more than one conversion plan, help Alex to decide if he should buy house in that street or not. You will be given a number of query. Your task is to find, for how many queries will the ans. be \u2018yes\u2019. Return ans in the form of \u201ca/b\u201d where a is the no. of queries for which ans is \u2018yes\u2019 and b is total number of queries. <br>\n<b>Note</b>: gcd(a, b) should be 1.<br>\nThere will be n stores and k streets joining them. \n</p>\n<p>\u00a0</p>\n\n<h3>Input</h3>\n<p>First line of input contains an integer t denoting number of test cases.<br>\nNext line of input will contain 2 positive integers n and k where n is the number of stores and k is the number of streets connecting them.<br>\nStores are numbered 1 to n.<br>\nNext k line contain 3 positive integers p,q,co each denoting street between p and q and co is the cost associated with that street.<br>\nNext line contains 1 integer m denoting number of queries.\nNext m line contains 2 integers c,d.<br>\n</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>Output answer in the form as specified in question</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<p></p>\n<ul>\n<li>1<=t<=15</li>\n<li>1<=n<=1000</li>\n<li>1<=co<=100</li>\n<li>1<=q<=k</li>\n<li>k=min(1001, (n*(n-1)/2)) - n) + n</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n7\n10\n1 2 5\n1 4 3\n1 5 12\n1 6 5\n4 5 1\n5 6 2\n5 3 1\n3 6 16\n4 7 1\n2 4 1\n5\n1 6\n2 4\n3 5\n3 6\n1 2\n\n<b>Output:</b>\n2/5\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>For the queries 2 and 3 there can be a two way road. Hence, total number of yes are 2 and total queries are 5 and hence the answer is 2/5.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "siNUsoid`17 CodeJam",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1507315500,
+        "end_date": 1507326300,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1507326300,
+        "submit_start_date": 1507315500,
+        "current": 1537433511
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>yashs</span>",
+    "problem_name": "Buy House Where",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/yashs'>yashs</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "yashs",
+    "contest_code": "SICJ2017",
+    "max_timelimit": "1",
+    "problem_code": "HOUSE"
+}

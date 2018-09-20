@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Naresh loves to read books a lot. One day he decided to read a book which contains $N$ pages. Out of the $N$ pages, each page contributes a different amout to his knowledge, that is, the $i$th page contributes $Xi$ knowledge. He has to select 5 pages among them such that he gains maximum knowledge. The knowledge gained is calculated as followes:\n\n$K = A*Xm \u2013 B*Xl + C*Xk \u2013 D*Xj + E*Xi$ \n\nsuch that $i < j < k < l < m$ and $A, B, C, D, E$ are given to you. \n\nCan you help him select those 5 pages?\n\n###Input:\n\n- The first line of input contains a single integer $T$ denoting the number of test cases. Then $T$ test cases follow. \n- Each test case consist of three lines. The first line of each test case consists of an integer $N$, where $N$ is the size of the book.\n- The second line contains $N$ space separated integers denoting the knowledge of each page $Xi$.\n- The third line contains the value of $A, B, C, D, E$.\n\n###Output:\nFor each test case, print the maximum knowledge that Naresh can gain.\n\n###Constraints \n- $1 \\leq T \\leq 100$\n- $5 \\leq N \\leq 500$\n- $1 \\leq Xi \\leq 1000$\n- $1 \\leq A,B,C,D,E \\leq 1000$\n\n###Sample Input:\n\t1\n    5\n    4 8 9 2 20\n    2 8 9 2 1\n\n\n###Sample Output:\n\t93\n\t\n###EXPLANATION:\nSince there are only 5 pages, there is only one possible solution:\n\n$20*2 - 2*8 +9*9 - 8*2 + 4*1 = 93$\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "IsquareTsquare",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1534930200,
+        "end_date": 1534941000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1534941000,
+        "submit_start_date": 1534930200,
+        "current": 1537432069
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>worldfinal</span>",
+    "problem_name": "Knowledge is Fun",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/worldfinal'>worldfinal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "worldfinal",
+    "contest_code": "ISTS2018",
+    "max_timelimit": "1",
+    "problem_code": "FUNKNOW"
+}

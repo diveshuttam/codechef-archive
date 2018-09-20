@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Set <strong>A</strong> is a collection of <strong>M</strong> words and set <strong>B</strong> is a collection of <strong>N</strong> words. The problem is to find a set of words <strong>C</strong>, such that for each word in <strong>A </strong>atleast one substring of the word is in <strong>C</strong>. And for each word in <strong>B</strong>, there is no substring of the word in <strong>C</strong>. <br /> Your objective is to minimize the sum of length of the words in C.\u00a0</p>\n<h3>Input</h3>\n<p>The first line contains an integer M. <br /> The next M lines contains a single word that is in set A.<br /> The next line contains an integer N.<br /> The next N lines contains a single word that is in set B.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Output the minimum sum of the length of the words in C. If no solution exists print -1</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><strong>1</strong> \u2264 <strong>M,N</strong> \u2264 <strong> 12 </strong></li>\n<li>Sum of length of words in set A &lt;= 500000</li>\n<li>Sum of length of words in set B &lt;= 500000</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong>\n3\naaa\nbbb\nbbc\n3\naab\nbcb\nccc\n\n<strong>Output:</strong>\n5\n</pre><h3>Explanation:</h3>\n<p>A = {aaa, bbb, bbc}\u00a0<br />B = {aab, bcb, ccc}\u00a0<br />C = {aaa, bb}</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-03-2014",
+    "is_direct_submittable": false,
+    "contest_name": "ByteCode 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1394290800,
+        "end_date": 1394308800,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1394308800,
+        "submit_start_date": 1394290800,
+        "current": 1537437721
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>vshriram93</span>",
+    "problem_name": "Regex Golf",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vshriram93'>vshriram93</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vshriram93",
+    "contest_code": "BTCD2014",
+    "max_timelimit": "10 - 18",
+    "problem_code": "BTCD14J"
+}

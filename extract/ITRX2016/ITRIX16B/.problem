@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align = \"justify\">\nThe legends Firestorm (Martin Stein), Heatwave(Mick rory) and Atom (Ray Palmer) are caught by Vandal Savage's men. Vandal Savage decides to torture Heatwave and Atom because by doing so, Stien can be forced to create the Soviet Firestorm. Rip Hunter being the Captain of the mission has to do something to save them. Somehow with the help of Gideon, Rip Hunter got the map of the prison. Hunter plans for a way to help all three. Unfortunately, Martin Stein is under tight security. So, Hunter decides to rescue Atom and Heatwave first and then with the help of the full team, he can save Stein. <br /><br /></p>\n<p>The prison looks like a \"n x m\" matrix from top. It consists of n * m cells with each cell being one of the following:<br /><br /></p>\n<p>i) A wall through which one cannot walk through. It is indicated by '*'<br /><br />\nii) Empty space through with one can walk through. It is indicated by '.'<br /><br />\niii) One of the two members (Atom/Heatwave) who needs to be saved. It is indicated by '$'<br /><br />\niv) Vandal Savage's man (Enemies). It is indicated by '#'<br /><br /></p>\n<p>\tRecently Chay Ara was becoming unstable. She couldnt control the anger on people who fought against her. She started killing them. Rip asks Black Canary to train Chay Ara. Now that Chay Ara is well trained. So, Rip Hunter sends Chay Ara to the rescue mission advising her not to kill anyone unless it is actually required. Chay Ara accepts the mission. Chay Ara doesn't know where to enter the building. And also, from a cell (x1, y1), Chay Ara can move to the cell (x2, y2) iff abs(x2 - x1) + abs(y2 - y1) == 1 and 1 &lt;= x2 &lt;= n and 1 &lt;= y2 &lt;= m. Now you are the Gideon. Keeping the two things in mind, Set a course such that Chay Ara saves both of them killing minimum number of enemies.<br /><br /><br />\n<b>Note: </b> Your route must include the path Chay Ara uses to enter the building, pick both of them and leave the building.\n</p>\n<h3><b>Input</b></h3>\n<p>\nThe first line consists of 't', the number of test cases.<br /><br />\nThe first line of each test case consists of two integers 'n' and 'm', the dimensions of n x m prison.<br /><br />\nNext 'n' lines each consisting of 'm' characters represent the prison.<br /><br />\nIt is always guaranteed that there is a way from outside which leads to both of them.\n</p>\n<h3><b>Constraints</b></h3>\n<p>\n1 &lt;= t &lt;= 100<br /><br />\n2 &lt;= n, m &lt;= 100<br />\n</p>\n<h3><b>Output</b></h3>\n<p>\nFor each testcase, output the minimum number of enemies Chay Ara kills while saving both of them.\n</p>\n<h3><b>Example</b></h3>\n<pre>\n<b>Input:</b>\n\n1\n5 10\n<b>****#*****\n*..#.#..**\n****.*****\n*$#.#.#$**\n**********</b>\n\n<b>Output:</b>\n\n4\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ITRIX Online Programming Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455976800,
+        "end_date": 1455985800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1455985800,
+        "submit_start_date": 1455976800,
+        "current": 1537435363
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>lakshmi8</span>",
+    "problem_name": "Escape Plan",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/lakshmi8'>lakshmi8</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "lakshmi8",
+    "contest_code": "ITRX2016",
+    "max_timelimit": "1",
+    "problem_code": "ITRIX16B"
+}

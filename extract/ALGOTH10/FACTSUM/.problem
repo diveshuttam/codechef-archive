@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><pre>\nGiven a positive integer K > 2, with prime\nfactorization:\n\nK = p1^a1 * p2^a2 ... * pn^an\n\nCompute the following:\n\nS = a1*p1 + a2*p2 ... + an*pn.\n</pre>\n<h3>Input</h3>\n<p>A list of <100 integers, one on each line,\nall less than 2*10^19.\n<h3>Output</h3>\n<p>For each integer compute the super factor\nsum and output it on a single line.\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n6\n7\n<b>Output:</b>\n5\n7\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-12-2008",
+    "is_direct_submittable": false,
+    "contest_name": "Algothika 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1267705800,
+        "end_date": 1268397000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1268397000,
+        "submit_start_date": 1267705800,
+        "current": 1537439694
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Super Factor Sum",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "ALGOTH10",
+    "max_timelimit": "27.84",
+    "problem_code": "FACTSUM"
+}

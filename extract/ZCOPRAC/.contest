@@ -1,0 +1,784 @@
+{
+    "announcements": "<p>24/01/2018, 20:15 hrs IST: The editorials for ZCO 2013, 2014,2015 and 2016 are here - <a href=\"https://discuss.codechef.com/tags/zcoprac%2Ceditorial/\">Link to ZCOPRAC editorials</a></p>\r\n<p>10/03/2017, 15:32 hrs IST: The testdata for Save Spaceman Spiff (ZCO13004) has been updated, and all submissions re-evaluated. The inconvenience is regretted.</p>\r\n<p>20/10/2016, 16:20 hrs IST: You can now make submissions to the contest problems in Java and Python.</p>\r\n<p>14/11/2015, 13:35 hrs IST:\u00a0The solutions of all the problems are made visible/public as the editorials are not available for these problems. This is done upon the request of the students who are competing for tomorrow's Zonal Computing Olympiad.</p>",
+    "ip": "149.129.135.113",
+    "code": "ZCOPRAC",
+    "duration": "2191680",
+    "name": "ZCO Practice Contest",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "problems_data": {
+        "ZCO12001": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<h2>Zonal Computing Olympiad 2012, 26 Nov 2011</h2>\n\n<br>\n<p>A sequence of opening and closing brackets is <em>well-bracketed</em> if we can pair up each opening bracket with a matching closing bracket in the usual sense.  For instance, the sequences <tt>()</tt>, <tt>(())</tt> and <tt>()(())</tt> are well-bracketed, while <tt>(</tt>, <tt>())</tt>, <tt>(()()</tt>, and <tt>)(</tt>  are not well-bracketed.</p>\n\n<br>\n<p> The <em>nesting depth</em> of a well-bracketed sequence tells us the maximum number of levels of inner matched brackets enclosed within outer matched brackets.  For instance, the nesting depth of <tt>()</tt> and <tt>()()()</tt> is 1, the nesting depth of <tt>(())</tt> and <tt>()(())</tt> is 2, the nesting depth of <tt>((()))</tt> is 3, and so on.  </p>\n\n<br>\n<p> Given a well-bracketed sequence, we are interested in computing the following: </p>\n\n<ul>\n<li> <p>The nesting depth, and the first position where it occurs\u2013this will be the position of the first opening bracket at this nesting depth, where the positions are numbered starting with 1.</p></li>\n  \n<li> <p>The maximum number of symbols between any pair of matched  brackets, including both the outer brackets, and the first position where this occurs\u2013that is, the position of the first opening bracket of this segment<p></li>\n</ul>\n\n\n<br>\n<p>For instance, the nesting depth of <tt>()(())()(()())(()())</tt> is 2 and the first position where this occurs is 4.  The opening bracket at position 10 is also at nesting depth 2 but we have to report the first position where this occurs, which is 4.</p>\n\n\n<br>\n<p>In this sequence, the maximum number of symbols between a pair of matched bracket is 6, starting at position 9. There is another such sequence of length 6 starting at position 15, but this is not the first such position.</p>\n\n<br>\n<h3>Input format</h3>\n\n<p>The input consists of two lines. The first line is a single integer <em>N</em>, the length of the bracket sequence. Positions in the sequence are numbered 1,2,\u2026,<em>N</em>. The second line is a sequence of <em>N</em> space-separated integers that encode the bracket expression as follows: 1 denotes an opening bracket <tt>(</tt> and 2 denotes a closing bracket <tt>)</tt>.  Nothing other than 1 or 2 appears in the second line of input and the corresponding expression is guaranteed to be well-bracketed.</p>\n\n<br>\n<h3>Output format</h3>\n\n<p> Your program should print 4 space-separated integers in a line, denoting the four quantities asked for in the following order: nesting depth, first position that achieves the nesting depth, length of the maximum sequence between matching brackets and the first position where such a maximum length sequence occurs.  </p>\n\n<br>\n<h3>Testdata</h3>\n\n<p>\nYou may assume that 2\u00a0\u2264\u00a0<em>N</em>\u00a0\u2264\u00a010<sup>5</sup>.  In 30% of the test cases, 2\u00a0\u2264\u00a0<em>N</em>\u00a0\u2264\u00a010<sup>3</sup>.\n\n<br>\n<ul>\n<li><b>Subtask 1 (30 marks)</b></li>\n<li><b>Subtask 2 (70 marks)</b></li>\n</ul>\n</p>\n\n<br>\n<h3>Sample Input</h3>\n<pre>\n20\n1 2 1 1 2 2 1 2 1 1 2 1 2 2 1 1 2 1 2 2\n</pre>\n\n<br>\n<h3>Sample Output</h3>\n<pre>\n2 4 6 9\n</pre>\n",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "2-11-2015",
+            "is_direct_submittable": false,
+            "contest_name": "ZCO Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1446661800,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1446661800,
+                "current": 1537431944
+            },
+            "problem_author_html_handle": "admin3",
+            "problem_name": "Matched Brackets",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "admin3",
+            "contest_code": "ZCOPRAC",
+            "max_timelimit": "1",
+            "problem_code": "ZCO12001"
+        },
+        "ZCO13003": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<h2>Zonal Computing Olympiad 2013, 10 Nov 2012</h2>\n\n<br>\n\n<p>Hobbes has challenged Calvin to display his chewing skills and\nchew two different types of <em>Chewing Magazine</em>'s Diabolic\nJawlockers chewing gum at the same time. Being a generous sort of\ntiger, Hobbes allows Calvin to pick the two types of gum he will\nchew.</p>\n\n<br>\n<p>Each type of chewing gum has a hardness quotient, given by a\nnon-negative integer.  If Calvin chews two pieces of gum at the\nsame time, the total hardness quotient is the sum of the\nindividual hardness quotients of the two pieces of gum.</p>\n\n<br>\n<p>Calvin knows that he cannot chew any gum combination whose\nhardness quotient is <em>K</em> or more. He is given a list with\nthe hardness quotient of each type of gum in the Diabolic\nJawlockers collection.  How many different pairs of chewing gum\ncan Calvin choose from so that the total hardness quotient\nremains strictly below his hardness limit <em>K</em>?</p>\n\n<br>\n<p>For instance, suppose there are 7 types of chewing gum as\nfollows:\n\n<br>\n<p>\n<table border=\"1\">\n<tr> <td align=center>\u00a0Chewing gum type\u00a0</td>\n     <td align=center>\u00a01\u00a0</td>\n     <td align=center>\u00a02\u00a0</td>\n     <td align=center>\u00a03\u00a0</td>\n     <td align=center>\u00a04\u00a0</td>\n     <td align=center>\u00a05\u00a0</td>\n     <td align=center>\u00a06\u00a0</td>\n     <td align=center>\u00a07\u00a0</td>\n</tr>\n<tr> <td align=center>\u00a0Hardness quotient\u00a0</td>\n     <td align=center>\u00a010\u00a0</td>\n     <td align=center>\u00a01\u00a0</td>\n     <td align=center>\u00a03\u00a0</td>\n     <td align=center>\u00a01\u00a0</td>\n     <td align=center>\u00a05\u00a0</td>\n     <td align=center>\u00a05\u00a0</td>\n     <td align=center>\u00a00\u00a0</td>\n</tr>\n</table>\n</p>\n\n<br>\n<p> If Calvin's hardness limit is 4, there are 4 possible pairs he can choose: type 2 and 7 (1+0 &lt; 4), type 3 and 7 (3+0 &lt; 4), type 2 and 4 (1+1 &lt; 4) and type 4 and 7 (1+0 &lt; 4). </p>\n\n<br>\n<h3>Input format</h3>\n<p>Line 1 : Two space separated integers <em>N</em> and <em>K</em>, where <em>N</em> is the number of different types of chewing gum and <em>K</em> is Calvin's hardness limit.</p>\n<p>Line 2: <em>N</em> space separated non-negative integers, which are the hardness quotients of each of the <em>N</em> types of chewing gum.</p>\n\n<br>\n<h3>Output format</h3>\n<p> The output consists of a single non-negative integer, the number of pairs of chewing gum with total hardness quotient strictly less than <em>K</em>.  </p>\n\n<br>\n<h3>Sample Input</h3>\n\n<pre>\n7 4\n10 1 3 1 5 5 0\n</pre>\n\n<br>\n<h3>Sample Output</h3>\n<pre>\n4\n</pre>\n\n\n<br>\n<h3>Test data</h3>\n<p>In all subtasks, you may assume that all the hardness quotients as well as the hardness limit <em>K</em> are between 0 and 1,000,000, inclusive.</p>\n<ul>\n<li><b>Subtask 1 (30 marks)</b> : 2 \u2264 <em>N</em> \u2264 2,000.</li>\n<li><b>Subtask 2 (70 marks)</b> : 2 \u2264 <em>N</em> \u2264 100,000.</li>\n</ul>\n\n<br>\n<h3>Live evaluation data</h3>\n<ul>\n<li><b>Subtask 1</b>: Testcases 0,1,2,3.</li>\n<li><b>Subtask 2</b>: Testcases 4,5,6.</li>\n</ul>\n\n<br>\n<h3>Note</h3>\n<p>The answer might not fit in a variable of type <tt>int</tt>. We recommend that type <tt>long\u00a0long</tt> be used for computing the answer.  If you use <tt>printf</tt> and <tt>scanf</tt>, you can use <tt>%lld</tt> for <tt>long\u00a0long</tt>. </p>",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "2-11-2015",
+            "is_direct_submittable": false,
+            "contest_name": "ZCO Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1446661800,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1446661800,
+                "current": 1537431944
+            },
+            "problem_author_html_handle": "admin3",
+            "problem_name": "Chewing",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "admin3",
+            "contest_code": "ZCOPRAC",
+            "max_timelimit": "1",
+            "problem_code": "ZCO13003"
+        },
+        "ZCO12002": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<h2>Zonal Computing Olympiad 2012, 26 Nov 2011</h2>\n\n<br>\n<p> The year is 2102 and today is the day of ZCO. This year there are <em>N</em> contests and the starting and ending times of each contest is known to you. You have to participate in exactly one of these contests. Different contests may overlap. The duration of different contests might be different. </p>\n\n<br>\n<p>There is only one examination centre. There is a wormhole <em>V</em> that transports you from your house to the examination centre and another wormhole <em>W</em> that transports you from the examination centre back to your house. Obviously, transportation through a wormhole does not take any time; it is instantaneous. But the wormholes can be used at only certain fixed times, and these are known to you.</p>\n\n<br>\n<p>So, you use a <em>V</em> wormhole to reach the exam centre, possibly wait for some time before the next contest begins, take part in the contest, possibly wait for some more time and then use a <em>W</em> wormhole to return back home. If you leave through a <em>V</em> wormhole at time <em>t</em><sub>1</sub> and come back through a <em>W</em> wormhole at time <em>t</em><sub>2</sub>, then the total time you have spent is (<em>t</em><sub>2</sub>\u00a0-\u00a0<em>t</em><sub>1</sub>\u00a0+\u00a01). Your aim is to spend as little time as possible overall while ensuring\nthat you take part in one of the contests.</p>\n\n<br>\n<p>You can reach the centre exactly at the starting time of the contest, if possible. And you can leave the examination centre the very second the contest ends, if possible. You can assume that you will always be able to attend at least one contest\u2013that is, there will always be a contest such that there is a <em>V</em> wormhole before it and a <em>W</em> wormhole after it.</p>\n\n<br>\n<p> For instance, suppose there are 3 contests with (start,end) times (15,21), (5,10), and (7,25), respectively.  Suppose the <em>V</em> wormhole is available at times 4, 14, 25, 2 and the <em>W</em> wormhole is available at times 13 and 21.  In this case, you can leave by the <em>V</em> wormhole at time 14, take part in the contest from time 15 to 21, and then use the <em>W</em> wormhole at time 21 to get back home.  Therefore the time you have spent is (21\u00a0-\u00a014\u00a0+\u00a01) = 8. You can check that you cannot do better than this.</p>\n\n<br>\n<h3>Input format</h3>\n\n<p>The first line contains 3 space separated integers <em>N</em>, <em>X</em>, and <em>Y</em>, where <em>N</em> is the number of contests, <em>X</em> is the number of time instances when wormhole <em>V</em> can be used and <em>Y</em> is the number of time instances when wormhole <em>W</em> can be used.  The next <em>N</em> lines describe each contest.  Each of these <em>N</em> lines contains two space separated integers <em>S</em> and <em>E</em>, where <em>S</em> is the starting time of the particular contest and <em>E</em> is the ending time of that contest, with <em>S</em> &lt; <em>E</em>.  The next line contains <em>X</em> space separated integers which are the time instances when the wormhole <em>V</em> can be used.  The next line contains <em>Y</em> space separated integers which are the time instances when the wormhole <em>W</em> can be used.</p>\n\n<br>\n<h3>Output format</h3>\n\n<p>Print a single line that contains a single integer, the minimum time needed to be spent to take part in a contest.</p>\n\n<br>\n<h3>Testdata</h3>\n\n<p> All the starting and ending times of contests are distinct and no contest starts at the same time as another contest ends. The time instances when wormholes are available are all distinct, but may coincide with starting and ending times of contests. All the time instances (the contest timings and the wormhole timings) will be integers between 1 and 1000000 (inclusive).\n\n<br>\n<ul>\n<li><b>Subtask 1 (30 marks)</b></li>\n<li><b>Subtask 2 (70 marks)</b></li>\n</ul>\n</p>\n\n<br>\n<p>You may assume that \n1\u00a0\u2264\u00a0<em>N</em>\u00a0\u2264\u00a010<sup>5</sup>,\n1\u00a0\u2264\u00a0<em>X</em>\u00a0\u2264\u00a010<sup>5</sup>, and\n1\u00a0\u2264\u00a0<em>Y</em>\u00a0\u2264\u00a010<sup>5</sup>.\n</p>\n\n<br>\n<p>In 30% of the cases, \n1\u00a0\u2264\u00a0<em>N</em>\u00a0\u2264\u00a010<sup>3</sup>,\n1\u00a0\u2264\u00a0<em>X</em>\u00a0\u2264\u00a010<sup>3</sup>, and\n1\u00a0\u2264\u00a0<em>Y</em>\u00a0\u2264\u00a010<sup>3</sup>.\n</p>\n\n<br>\n<h3>Sample Input</h3>\n\n<pre>\n3 4 2\n15 21\n5 10\n7 25\n4 14 25 2\n13 21\n</pre>\n\n<br>\n<h3>Sample Output</h3>\n\n<pre>\n8\n</pre>\n",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "2-11-2015",
+            "is_direct_submittable": false,
+            "contest_name": "ZCO Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1446661800,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1446661800,
+                "current": 1537431944
+            },
+            "problem_author_html_handle": "admin3",
+            "problem_name": "Wormholes",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "admin3",
+            "contest_code": "ZCOPRAC",
+            "max_timelimit": "1",
+            "problem_code": "ZCO12002"
+        },
+        "ZCO14001": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<h2>Zonal Computing Olympiad 2014, 30 Nov 2013</h2>\n<br>\n\n<p>You are playing a video game in which several stacks of boxes\nare lined up on the floor, with a crane on top to rearrange the\nboxes, as shown in the picture below.</p>\n\n<br>\n\n<img align=center width=300 src=\"https://www.codechef.com/download/ZCO14001.png\"/>\n\n <br>\n <p> The crane supports the following commands: </p>\n\n<br>\n<p> \u2022 Move one position left (does nothing if already at the\n  leftmost position)</p>\n\n <br>\n <p> \u2022 Move one position right (does nothing if already at the\nrightmost position)</p>\n\n<br>\n  <p> \u2022 Pick up a box from the current stack (does nothing if the\ncrane already has a box)</p>\n\n<br>\n  <p> \u2022 Drop a box on the current stack (does nothing if the\ncrane doesn't already have a box)</p>\n\n<br>\n<p> Further, there is a limit <em>H</em> on the number of boxes\non each stack. If a 'drop' command would result in a stack having\nmore than <em>H</em> boxes, the crane ignores this drop command.\nIf the current stack has no boxes, a 'pick up' command is ignored.\n</p>\n\n<br>\n<p>You are given the initial number of boxes in each stack and\nthe sequence of operations performed by the crane.  You have to\ncompute the final number of boxes in each stack.  </p>\n\n<br>\n<p>For example, suppose the initial configuration of the game is\nas shown in the figure above, with 7 stacks and <em>H</em>=4.\nThen, after the following sequence of instructions,</p>\n\n<br>\n\n  1. Pick up box<br>\n  2. Move right<br>\n  3. Move right<br>\n  4. Move right<br>\n  5. Move right<br>\n  6. Drop box<br>\n  7. Move left<br>\n  8. Pick up box<br>\n  9. Move left<br>\n  10. Drop box<br><br>\n\n<br>\n<p>the number of boxes in each stack from left to right would be 2,1,3,1,4,0,1.</p>\n   \n<br>\n<h3>Input format</h3>\n\n  <p> \u2022 Line 1 : The width of the game (the number of stacks\n  of boxes), <em>N</em>, followed by the max height <em>H</em> of\n  each stack.</p>\n\n<br>\n  <p> \u2022 Line 2 : <em>N</em> integers, the initial number of\n  boxes in each stack, from left to right. Each number is \u2264\n  <em>H</em>.</p>\n\n<br>\n  <p> \u2022 Line 3 : A sequence of integers, each encoding a\n  command to the crane.</p>\n\n  <ul>\n      <p> \u00a0\u00a0\u00a0 The commands are encoded as follows:</b></p>\n      <p> \u00a0\u00a0\u00a0 1 : Move left</p>\n      <p> \u00a0\u00a0\u00a0 2 : Move right</p>\n      <p> \u00a0\u00a0\u00a0 3 : Pick up box</p>\n      <p> \u00a0\u00a0\u00a0 4 : Drop box</p>\n      <p> \u00a0\u00a0\u00a0 0 : Quit</p>\n  </ul>\n\n<br>\n  <p> \u2022 The command Quit (0) appears exactly once, and is the last\n  command.</p>\n  <p> \u2022 The initial position of the crane is above the\n  leftmost stack, with the crane not holding any box.</p>\n\n<br>\n<h3>Output format</h3>\n\n<p>A single line with <em>N</em> integers,\nthe number of boxes in each stack, from left to right.</p>\n \n\n<br>\n<h3>Sample input 1</h3>\n<pre>\n7 4\n3 1 2 1 4 0 1\n3 2 2 2 2 4 1 3 1 4 0\n</pre>\n\n<br>\n<h3>Sample output 1</h3>\n<pre>\n2 1 3 1 4 0 1\n</pre>\n\n<br>\n<h3>Sample input 2</h3>\n<pre>\n3 5\n2 5 2\n3 2 4 2 2 2 1 4 1 1 1 1 0\n</pre>\n\n<br>\n<h3>Sample output 2</h3>\n<pre>\n1 5 2 \n</pre>\n\n<br>\n<h3>Test data</h3>\n\n<br>\n<p>There is only one subtask worth 100 marks.  In all inputs:\n\n\n<p> \u2022 The number of commands is between 1 and 10<sup>5</sup>, inclusive.</p>\n<p> \u2022 1 \u2264 <em>N</em> \u2264 10<sup>5</sup></p>\n<p> \u2022 1 \u2264 <em>H</em> \u2264 10<sup>8</sup>.</p>\n\n<br>\n<h3>Live evaluation data</h3>\n\n<p>There are 18 test inputs on the server during the exam.</p>\n",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "2-11-2015",
+            "is_direct_submittable": false,
+            "contest_name": "ZCO Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1446661800,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1446661800,
+                "current": 1537431944
+            },
+            "problem_author_html_handle": "admin3",
+            "problem_name": "Video Game",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "admin3",
+            "contest_code": "ZCOPRAC",
+            "max_timelimit": "1",
+            "problem_code": "ZCO14001"
+        },
+        "ZCO12003": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<h2>Zonal Computing Olympiad 2012, 26 Nov 2011</h2>\n\n<br>\n<p> We consider sequences of opening and closing brackets with two types of brackets, <tt>()</tt> and <tt>[]</tt>.  A bracket sequence is <em>well-bracketed</em> if we can pair up each opening bracket with a matching closing bracket in the usual sense.  For instance, the sequences <tt>()</tt>, <tt>[]</tt> <tt>([])</tt> and <tt>[]([])</tt> are well-bracketed, while <tt>(</tt>, <tt>()]</tt>, <tt>(]</tt>, <tt>)(</tt> and <tt>[(])</tt> are not well-bracketed.  In the last case, each opening bracket has a matching closing bracket and vice versa, but the intervals spanned by the different types of brackets intersect each other instead of being contained one within the other.</p>\n\n<br>\n<p> The <em>alternating depth</em> of a well-bracketed sequence tells us the maximum number of times we switch between the two types of brackets when we have inner matched brackets enclosed within outer matched brackets.  For instance, the alternating depth of <tt>()</tt>, <tt>[[[]]]</tt> and <tt>()[][]</tt> is 1, the alternating depth of <tt>[()]</tt> and <tt>()([])</tt> is 2, the alternating depth of <tt>([()])</tt> and <tt>[()][(([]))]</tt> is 3, and so on.</p>\n\n<br>\n<p> Given a well-bracketed sequence, we are interested in computing three quantities.</p>\n\n<ul>\n<li>The alternating depth of the sequence.</li>\n<li>The maximum number of symbols between any pair of matched brackets of the type <tt>(</tt> and <tt>)</tt>, including both the outer brackets.</li>\n<li>The maximum number of symbols between any pair of matched brackets of the type <tt>[</tt> and <tt>]</tt>, including both the outer brackets.</li>\n </ul>\n\n<br>\n<p>For instance, the alternating depth of <tt>(([]))[[[()]]]</tt> is 2, the maximum number of symbols between a matched pair <tt>()</tt> is 6 and the maximum number of symbols between a matched pair <tt>[]</tt> is 8.\n\n\n<br>\n<h3>Input format</h3>\n\n<p>The input consists of two lines.  The first line is a single integer <em>N</em>, the length of the bracket sequence. Positions in the sequence are numbered 1,2,\u2026,<em>N</em>. The second line is a sequence of <em>N</em> space-separated integers that encode the bracket expression as follows: 1 denotes an opening bracket <tt>(</tt>, 2 denotes a closing bracket <tt>)</tt>, 3 denotes an opening bracket <tt>[</tt> and 4 denotes a closing bracket <tt>]</tt>.  Nothing other than 1, 2, 3 or 4 appears in the second line of input and the corresponding expression is guaranteed to be well-bracketed.</p>\n\n<br>\n<h3>Output format</h3>\n\n<p> Your program should print 3 space-separated integers in a line, denoting the three quantities asked for in the following order: alternating depth, length of the maximum sequence between matching <tt>()</tt> brackets and length of the maximum sequence between matching <tt>[]</tt> brackets.  </p>\n\n<br>\n<h3>Testdata</h3>\n\n<p> You may assume that 2\u00a0\u2264\u00a0<em>N</em>\u00a0\u2264\u00a010<sup>5</sup>.  In 30% of the test cases, 2\u00a0\u2264\u00a0<em>N</em>\u00a0\u2264\u00a010<sup>3</sup>.\n\n<br>\n<ul>\n<li><b>Subtask 1 (30 marks)</b></li>\n<li><b>Subtask 2 (70 marks)</b></li>\n</ul>\n</p>\n\n<br>\n<h3>Sample Input</h3>\n<pre>\n14\n1 1 3 4 2 2 3 3 3 1 2 4 4 4\n</pre>\n\n<br>\n<h3>Sample Output</h3>\n<pre>\n2 6 8\n</pre>",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "2-11-2015",
+            "is_direct_submittable": false,
+            "contest_name": "ZCO Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1446661800,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1446661800,
+                "current": 1537431944
+            },
+            "problem_author_html_handle": "admin3",
+            "problem_name": "Matched Brackets 2",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "admin3",
+            "contest_code": "ZCOPRAC",
+            "max_timelimit": "1",
+            "problem_code": "ZCO12003"
+        },
+        "ZCO14002": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<h2>Zonal Computing Olympiad 2014, 30 Nov 2013</h2>\n\n<br>\n<p> In ICO School, all students have to participate regularly in SUPW.  There is a different SUPW activity each day, and each activity has its own duration.  The SUPW schedule for the next term has been announced, including information about the number of minutes taken by each activity.</p>\n\n<br>\n<p> Nikhil has been designated SUPW coordinator.  His task is to assign SUPW duties to students, including himself.  The school's rules say that no student can go three days in a row without any SUPW duty.</p>\n\n<br>\n<p> Nikhil wants to find an assignment of SUPW duty for himself that minimizes the number of minutes he spends overall on SUPW.</p>\n\n<br>\n<h3>Input format</h3>\n\n<p>Line 1: A single integer <em>N</em>, the number of days in the future for which SUPW data is available.</p>\n\n<p>Line 2: <em>N</em> non-negative integers, where the integer in position <em>i</em> represents the number of minutes required for SUPW work on day <em>i</em>.</p>\n\n<br>\n<h3>Output format</h3>\n\n<p> The output consists of a single non-negative integer, the minimum number of minutes that Nikhil needs to spend on SUPW duties this term </p>\n\n<br>\n<h3>Sample Input 1</h3>\n\n<pre>\n10\n3 2 1 1 2 3 1 3 2 1\n</pre>\n\n<br>\n<h3>Sample Output 1</h3>\n\n<pre>\n4\n</pre>\n\n<br>\n<p>(Explanation: 1+1+1+1)</p>\n\n<br>\n<h3>Sample Input 2</h3>\n\n<pre>\n8\n3 2 3 2 3 5 1 3\n</pre>\n\n<br>\n<h3>Sample Output 2</h3>\n<pre>\n5\n</pre>\n\n<br>\n<p>(Explanation: 2+2+1)</p>\n\n<br>\n<h3>Test data</h3>\n\n<p>There is only one subtask worth 100 marks.  In all inputs:\n<p> \u2022 1 \u2264 <em>N</em> \u2264 2\u00d710<sup>5</sup></p>\n<p> \u2022 The number of minutes of SUPW each day is between 0 and\n  10<sup>4</sup>, inclusive.</p> \n\n<br>\n<h3>Live evaluation data</h3>\n\n<p>There are 12 test inputs on the server during the exam.</p>\n",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "2-11-2015",
+            "is_direct_submittable": false,
+            "contest_name": "ZCO Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1446661800,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1446661800,
+                "current": 1537431944
+            },
+            "problem_author_html_handle": "admin3",
+            "problem_name": "SUPW",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "admin3",
+            "contest_code": "ZCOPRAC",
+            "max_timelimit": "1",
+            "problem_code": "ZCO14002"
+        },
+        "ZCO13004": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<h2>Zonal Computing Olympiad 2013, 10 Nov 2012</h2>\n\n<br>\n<p>Spaceman Spiff has crash landed on Planet Quorg. He has to reach his ship quickly. But the evil Yukbarfs have stolen many Death Ray Blasters and have placed them along the way. You'll have to help him out!</p>\n\n<br>\n<p>Spaceman Spiff is initially at the top left corner (1,1) of a rectangular <em>N \u00d7 M</em> grid . He needs to reach the bottom right corner <em>(N,M)</em>. He can only move down or right. He moves at the speed of 1 cell per second. He has to move every second\u2014that is, he cannot stop and wait at any cell.</p>\n\n<br>\n<p>There are <em>K</em> special cells that contain the Death Ray Blasters planted by the Yukbarfs. Each Blaster has a starting time <em>t</em> and a frequency <em>f</em>.  It first fires at time <em>t</em> seconds, followed by another round at time <em>t+f</em> seconds, then at time <em>t+2f</em> seconds \u2026.  When a Blaster fires, it simultaneously emits four pulses, one in each of the four directions: up, down, left and right.  The pulses travel at 1 cell per second.\n\n<br>\n<p>Suppose a blaster is located at <em>(x,y)</em> with starting time <em>t</em> and frequency <em>f</em>.  At time <em>t</em> seconds, it shoots its first set of pulses. The pulse travelling upwards will be at the cell <em>(x,y-s)</em> at time <em>t+s</em> seconds.  At this time, the pulse travelling left will be at cell <em>(x-s,y)</em>, the pulse travelling right will be at cell <em>(x+s,y)</em> and the pulse travelling down will be at cell <em>(x,y+s)</em>.  It will fire next at time <em>t+f</em> seconds.  If a pulse crosses an edge of the grid, it disappears. Pulses do not affect each other if they meet. They continue along their original path. At any time, if Spaceman Spiff and a pulse are in the same cell, he dies. That is the only way pulses interact with Spaceman Spiff. Given these, you should find the least time (in seconds) in which Spaceman Spiff can reach his ship safely.  </p>\n\n\n<br>\n<p> As an example consider a 4\u00d74 grid that has only one Blaster, at (3,2), with starting time 1 and frequency 3.  In the grids below, <tt>S</tt> denotes Spaceman Spiff, <tt>B</tt> denotes the blaster and <tt>P</tt> denotes a pulse.  The sequence of grids describes a successful attempt to reach his ship that takes 6 seconds.</p>\n\n<pre>\n   t=0                t=1                t=2                t=3  \nS  .  .  .         .  S  .  .         .  .  S  .         .  P  .  S\n.  .  .  .         .  .  .  .         .  P  .  .         .  .  .  .\n.  B  .  .         .  P  .  .         P  B  P  .         .  B  .  P\n.  .  .  .         .  .  .  .         .  P  .  .         .  .  .  .\n</pre>\n\n<br><br>\n\n<pre>\n   t=4                t=5                t=6\n.  .  .  .         .  .  .  .         .  P  .  .\n.  .  .  S         .  P  .  .         .  .  .  .\n.  P  .  .         P  B  P  S         .  B  .  P\n.  .  .  .         .  P  .  .         .  .  .  S\n</pre>\n\n<br>\n<h3>Input format</h3>\n\n<p>Line 1: Three space separated integers <em>N</em>, <em>M</em> and <em>K</em>, describing the number of rows and columns in the grid and the number of Blasters, respectively.</p>\n\n<br>\n<p>Lines 2 to <em>K</em>+1: These lines describe the <em>K</em> blasters.  Each line has four space separated integers. The first two integers on the line denote the row and column where the Blaster is located, the third integer is its starting time, and the fourth integer is its frequency.</p>\n\n<br>\n<h3>Output format</h3>\n<p> The first line of output must either consist of the word <tt>YES</tt>, if Spaceman Spiff can reach his ship safely, or the word <tt>NO</tt>, if he cannot do so. If the output on the first line is <tt>YES</tt> then the second line should contain a single integer giving the least time, in seconds, that it takes him to reach his ship safely.</p>\n\n<br>\n<h3>Sample Input 1</h3>\n\n<pre>\n4 4 1\n3 2 1 3\n</pre>\n\n<br>\n<h3>Sample Output 1</h3>\n<pre>\nYES\n6\n</pre>\n\n\n<br>\n<h3>Sample Input 2</h3>\n\n<pre>\n5 5 2\n5 1 1 2\n4 4 1 2\n</pre>\n\n<br>\n<h3>Sample Output 2</h3>\n<pre>\nYES\n8\n</pre>\n\n<br>\n<h3>Test data</h3>\n<p>In all subtasks, you may assume that:</p>\n  \n<ul>\n<li><p>2 \u2264 <em>N</em>,<em>M</em> \u2264 2500. </p>\n<li><p>All the frequencies are guaranteed to be integers between 1 and 3000, inclusive.</p>\n<li><p>All the starting times are guaranteed to be integers between 0 and 3000, inclusive.</p>\n<li><p>All the coordinates of the Blasters are guaranteed to be valid cells in the <em>N\u00d7M</em> grid. No two Blasters will be on the same cell.</p>\n</ul>\n\n<br>\n<ul>\n<li><b>Subtask 1 (30 marks)</b> : <em>K</em> = 1.</li>\n<li><b>Subtask 2 (70 marks)</b> : 1 \u2264 <em>K</em> \u2264 2500.</li>\n</ul>\n\n<br>\n<h3>Live evaluation data</h3>\n<ul>\n<li><b>Subtask 1</b>: Testcases 0,1.</li>\n<li><b>Subtask 2</b>: Testcases 2,3,4,5.</li>\n</ul>",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "2-11-2015",
+            "is_direct_submittable": false,
+            "contest_name": "ZCO Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1446661800,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1446661800,
+                "current": 1537431944
+            },
+            "problem_author_html_handle": "admin3",
+            "problem_name": "Save Spaceman Spiff",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "admin3",
+            "contest_code": "ZCOPRAC",
+            "max_timelimit": "1",
+            "problem_code": "ZCO13004"
+        },
+        "ZCO13001": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<h2>Zonal Computing Olympiad 2013, 10 Nov 2012</h2>\n\n<p><em>N</em> teams participate in a league cricket tournament on Mars, where each pair of distinct teams plays each other exactly once. Thus, there are a total of <em>(N \u00d7 (N-1))/2</em> matches. An expert has assigned a strength to each team, a positive integer. Strangely, the Martian crowds love one-sided matches and the advertising revenue earned from a match is the absolute value of the difference between the strengths of the two matches. Given the strengths of the <em>N</em> teams, find the total advertising revenue earned from all the matches.</p>\n\n<br>\n<p>For example, suppose <em>N</em> is 4 and the team strengths for teams 1, 2, 3, and 4 are 3, 10, 3, and 5 respectively. Then the advertising revenues from the 6 matches are as follows:</p>\n\n<br>\n<p>\n<table border=\"1\">\n<tr>\n<th>Match</th> <th>Team A</th> <th>Team B</th> <th>Ad revenue</th>\n</tr>\n<tr> <td align=center>1</td>  <td align=center>1</td>  <td align=center>2</td>   <td align=center>7</td>  </tr>\n<tr> <td align=center>2</td>  <td align=center>1</td>  <td align=center>3</td>   <td align=center>0</td>  </tr>\n<tr> <td align=center>3</td>  <td align=center>1</td>  <td align=center>4</td>   <td align=center>2</td>  </tr>\n<tr> <td align=center>4</td>  <td align=center>2</td>  <td align=center>3</td>   <td align=center>7</td>  </tr>\n<tr> <td align=center>5</td>  <td align=center>2</td>  <td align=center>4</td>   <td align=center>5</td>  </tr>\n<tr> <td align=center>6</td>  <td align=center>3</td>  <td align=center>4</td>   <td align=center>2</td>  </tr>\n</table>\n</p>\n\n<br>\n<p>Thus the total advertising revenue is 23.</p>\n\n<br>\n<h3>Input format</h3>\n<p>Line 1 : A single integer, <em>N</em>.</p>\n<p>Line 2 : <em>N</em> space-separated integers, the strengths of the <em>N</em> teams.</p>\n\n<br>\n<h3>Output format</h3>\n<p>A single integer, the total advertising revenue from the tournament.</p>\n\n<br>\n<h3>Sample input</h3>\n<pre>\n4\n3 10 3 5\n</pre>\n\n<br>\n<h3>Sample output</h3>\n<pre>\n23\n</pre>\n\n<br>\n<h3>Test data</h3>\n\n<p>In all subtasks, the strength of each team is an integer between 1 and 1,000 inclusive.</p> \n<ul>\n<li><b>Subtask 1 (30 marks)</b> : 2 \u2264 <em>N</em> \u2264 1,000.</li>\n<li><b>Subtask 2 (70 marks)</b> : 2 \u2264 <em>N</em> \u2264 200,000.</li>\n</ul>\n\n<br>\n<h3>Live evaluation data</h3>\n<ul>\n<li><b>Subtask 1</b>: Testcases 0,1,2.</li>\n<li><b>Subtask 2</b>: Testcases 3,4,5.</li>\n</ul>\n\n<br>\n<h3>Note</h3>\n\n<p>The answer might not fit in a variable of type <tt>int</tt>. We recommend that type <tt>long\u00a0long</tt> be used for computing all advertising revenues. If you use <tt>printf</tt> and <tt>scanf</tt>, you can use <tt>%lld</tt> for <tt>long\u00a0long</tt>. </p>\n",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "2-11-2015",
+            "is_direct_submittable": false,
+            "contest_name": "ZCO Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1446661800,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1446661800,
+                "current": 1537431944
+            },
+            "problem_author_html_handle": "admin3",
+            "problem_name": "Tournament",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "admin3",
+            "contest_code": "ZCOPRAC",
+            "max_timelimit": "1",
+            "problem_code": "ZCO13001"
+        },
+        "ZCO13002": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<h2>Zonal Computing Olympiad 2013, 10 Nov 2012</h2>\n\n<br>\n<p>Little Red Riding Hood is carrying a basket with berries through the forest to her grandmother's house.  The forest is arranged in the form of a square <em>N \u00d7 N</em> grid of cells.  The top left corner cell, where Little Red Riding Hood starts her journey, is numbered (1,1) and the bottom right corner cell, where her grandmother lives, is numbered <em>(N,N)</em>.  In each step, she can move either one position right or one position down.</p>\n\n<br>\n<p> The forest is full of dangerous wolves and she is looking for a safe path to reach her destination.  Little Red Riding Hood's fairy godmother has placed some special anti-wolf magical charms in some of the cells in the grid.  Each charm has a strength.  If the charm in cell <em>(i,j)</em> has strength <em>k</em> then its zone of influence is all the cells within <em>k</em> steps of <em>(i,j)</em>; that is, all cells <em>(i',j')</em> such that |<em>i</em> - <em>i'</em>| + |<em>j</em> - <em>j'</em>| \u2264 <em>k</em>.  A cell within the zone of influence of a charm is safe from wolves.  A safe path from (1,1) to <em>(N,N)</em> is one in which every cell along the path is safe.</p>\n\n<br>\n<p>Little Red Riding Hood is carrying a basket with berries. In each cell, she drops some berries while pushing her way through the thick forest.  However, sometimes she is also able to pick up fresh berries.  Each cell is labelled with an integer that indicates the net change in the number of berries in her basket on passing through the cell; that is, the number of berries she picks up in that cell minus the number of berries she drops.  You can assume that there are enough berries in her basket to start with so that the basket never becomes empty.</p>\n\n<br>\n<p>Little Red Riding Hood knows the positions and strengths of all the magic charms and is looking for a safe path along which the number of berries she has in the basket when she reaches her grandmother's house is maximized.</p>\n\n<br>\nAs an example consider the following grid:\n<pre>\n 3  3  2  4  3 \n 2  1 -1 -2  2  \n-1  2  4  3 -3  \n-2  2  3  2  1  \n 3 -1  2 -1  2  \n</pre>\n\n<br>\n<p> Suppose there are 3 magic charms, at position (1,2) with strength 2, at position (4,5) with strength 2 and one at position (4,2) with strength 1.  The positions within the zone of influence of these three charms are indicated in the three grids below using <tt>X</tt>'s.  </p>\n\n<br>\n<pre>\nX  X  X  X  .         .  .  .  .  .         .  .  .  .  .\nX  X  X  .  .         .  .  .  .  X         .  .  .  .  .\n.  X  .  .  .         .  .  .  X  X         .  X  .  .  .\n.  .  .  .  .         .  .  X  X  X         X  X  X  .  .\n.  .  .  .  .         .  .  .  X  X         .  X  .  .  .\n</pre>\n\n<br>\n<p> Putting these together, the cells that are under the zone of influence of at least one charm are marked with <tt>X</tt> below.</p>\n\n<br>\n<pre>\nX  X  X  X  .\nX  X  X  .  X\n.  X  .  X  X\nX  X  X  X  X\n.  X  .  X  X\n</pre>\n\n<br>\n<p> Here are two examples of safe paths in this grid, marked using <tt>Y</tt>'s.  </p>\n\n<br>\n<pre>\nY  Y  X  X  .          Y  X  X  X  .\nX  Y  X  .  X          Y  Y  X  .  X\n.  Y  .  X  X          .  Y  .  X  X\nX  Y  Y  Y  Y          X  Y  Y  Y  X\n.  X  .  X  Y          .  X  .  Y  Y\n</pre>\n\n<br>\n<p> Along the first path, she accumulates 19 berries while on the second path she collects 16 berries.  You can verify that among all safe paths, the maximum number of berries she can collect is 19. </p>\n\n<br>\n<p> Your task is to help Little Red Riding Hood find out if there is at least one safe path and, if so, compute the maximum number of berries she can collect among all safe paths (which may be a negative number, in which case it is the minimum number of berries she will lose among all safe paths).</p>\n\n<br>\n<h3>Input format</h3>\n\n<p>Line 1: Two space separated integers <em>N</em> and <em>M</em>, giving the dimension of the grid and the number of magic charms, respectively\n<br>\n<p>Lines 2 to <em>N</em>+1: These <em>N</em> lines desribe the grid.  Line <em>i</em>+1 contains <em>N</em> space separated integers, describing the net change in berries in the <em>N</em> cells along row <em>i</em> of the grid.</p>\n<br>\n<p>Lines <em>N</em>+2 to <em>N</em>+<em>M</em>+1: These <em>M</em> lines describe the magic charms.  Each of these lines has 3 integers: the first two integers describe the position of the charm in the grid and the third integer describes its strength.</p>\n\n<br>\n<h3>Output format</h3>\n\n<p> The first line of output must either consist of the word <tt>YES</tt>, if there are safe paths, or the word <tt>NO</tt>, if there are no safe paths. If the output on the first line is <tt>YES</tt> then the second line should contain a single integer giving the maximum number of berries Little Red Riding Hood can collect among all safe paths.  </p>\n\n<br>\n<h3>Sample Input</h3>\n\n<pre>\n5 3\n3 3 2 4 3 \n2 1 -1 -2 2  \n-1 2 4 3 -3  \n-2 2 3 2 1  \n3 -1 2 -1 2  \n1 2 2\n4 5 2\n4 2 1\n</pre>\n\n<br>\n<h3>Sample Output</h3>\n<pre>\nYES\n19\n</pre>\n\n<br>\n<h3>Test data</h3>\n\n<p>In all subtasks, you may assume that 2 \u2264 <em>N</em> \u2264 500.  Each value on the grid is guaranteed to have absolute value not more than 1000. </p>\n<p>Let <em>K</em> denote the maximum strength among all the magic charms.</p>\n<ul>\n<li><b>Subtask 1 (30 marks)</b> : 1 \u2264 <em>M</em> \u2264 10, 1 \u2264 <em>K</em> \u2264 1,000.</li>\n<li><b>Subtask 2 (70 marks)</b> : 1 \u2264 <em>M</em> \u2264 10,000, 1 \u2264 <em>K</em> \u2264 10.</li>\n</ul>\n\n<br>\n<h3>Live evaluation data</h3>\n<ul>\n<li><b>Subtask 1</b>: Testcases 0,1,2,3,4.</li>\n<li><b>Subtask 2</b>: Testcases 5,6,7,8.</li>\n</ul>",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "2-11-2015",
+            "is_direct_submittable": false,
+            "contest_name": "ZCO Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1446661800,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1446661800,
+                "current": 1537431944
+            },
+            "problem_author_html_handle": "admin3",
+            "problem_name": "Little Red Riding Hood",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "admin3",
+            "contest_code": "ZCOPRAC",
+            "max_timelimit": "1",
+            "problem_code": "ZCO13002"
+        },
+        "ZCO12004": {
+            "status": "success",
+            "problem_tester": null,
+            "body": "<h2>Zonal Computing Olympiad 2012, 26 Nov 2011</h2>\n\n<br>\n<p> It's dinner time in Castle Camelot, and the fearsome Knights of the Round Table are clamouring for dessert. You, the chef, are in a soup.  There are <em>N</em> knights, including King Arthur, each with a different preference for dessert, but you cannot afford to make desserts for all of them.</p>\n\n<br>\n<p>You are given the cost of manufacturing each Knight's preferred dessert\u2013since it is a round table, the list starts with the cost of King Arthur's dessert, and goes counter-clockwise.</p>\n\n<br>\n<p>You decide to pick the cheapest desserts to make, such that for every pair of adjacent Knights, at least one gets his dessert. This will ensure that the Knights do not protest.</p>\n\n&lt;!--<p>A strange feature of the Knights is that they will not complain about not getting dessert unless they get support from both their neighbours.  So, you decide to pick the cheapest desserts to make, such that for every pair of adjacent Knights, at least one gets his dessert.</p>--&gt;\n\n<br>\n<p>What is the minimum cost of tonight's dinner, given this condition?</p>\n\n<br>\n<p>For instance, suppose there are 5 Knights and their desserts cost 1, 2, 1, 2 and 2.  In this case, the minimum cost is 4, which you can achieve by feeding the first, third and fourth (or fifth) Knights.  </p>\n\n\n<br>\n<h3>Input format</h3>\n\n<p>There are 2 lines of input.  The first line contains a single integer <em>N</em>, the number of seats at the table. The next line contains <em>N</em> space separated integers, each being the cost of the dessert of a Knight, listed in counterclockwise order around the table, starting with King Arthur.</p>\n\n<br>\n<h3>Output format</h3>\n\n<p>The output should be a single line containing a single integer, the minimum possible cost for you, the chef.</p>\n\n\n<br>\n<h3>Testdata</h3>\n\n<p>Each Knight's dessert costs strictly more than 0 and strictly less than 1000.  You may assume that 1\u00a0\u2264\u00a0<em>N</em>\u00a0\u2264\u00a010<sup>6</sup>.  In 30% of the test cases, 1\u00a0\u2264\u00a0<em>N</em>\u00a0\u2264\u00a010<sup>3</sup>.\n\n<br>\n<ul>\n<li><b>Subtask 1 (30 marks)</b></li>\n<li><b>Subtask 2 (70 marks)</b></li>\n</ul>\n</p>\n\n<br>\n<h3>Sample Input</h3>\n\n<pre>\n5\n1 2 1 2 2\n</pre>\n\n<br>\n<h3>Sample Output</h3>\n\n<pre>\n4\n</pre>\n",
+            "category_name": "main",
+            "user": {
+                "username": ""
+            },
+            "date_added": "2-11-2015",
+            "is_direct_submittable": false,
+            "contest_name": "ZCO Practice Contest",
+            "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+            "todo": false,
+            "time": {
+                "view_start_date": 1446661800,
+                "end_date": 1578162600,
+                "practice_submission_allowed": false,
+                "visible_start_date": 1578162600,
+                "submit_start_date": 1446661800,
+                "current": 1537431944
+            },
+            "problem_author_html_handle": "admin3",
+            "problem_name": "Round Table",
+            "source_sizelimit": "50000",
+            "problem_status": "unattempted",
+            "problem_tester_html_handle": null,
+            "problem_author": "admin3",
+            "contest_code": "ZCOPRAC",
+            "max_timelimit": "1",
+            "problem_code": "ZCO12004"
+        }
+    },
+    "partial_scores": {
+        "ZCO15002": [
+            {
+                "score": "40",
+                "count": "1070"
+            },
+            {
+                "score": "60",
+                "count": "7"
+            },
+            {
+                "score": "100",
+                "count": "2852"
+            }
+        ],
+        "ZCO14004": [
+            {
+                "score": "100",
+                "count": "1360"
+            }
+        ],
+        "ZCO12002": [
+            {
+                "score": "30",
+                "count": "89"
+            },
+            {
+                "score": "70",
+                "count": "59"
+            },
+            {
+                "score": "100",
+                "count": "903"
+            }
+        ],
+        "ZCO16001": [
+            {
+                "score": "30",
+                "count": "125"
+            },
+            {
+                "score": "100",
+                "count": "589"
+            }
+        ],
+        "ZCO12003": [
+            {
+                "score": "30",
+                "count": "3"
+            },
+            {
+                "score": "100",
+                "count": "260"
+            }
+        ],
+        "ZCO14003": [
+            {
+                "score": "30",
+                "count": "959"
+            },
+            {
+                "score": "70",
+                "count": "7"
+            },
+            {
+                "score": "100",
+                "count": "5724"
+            }
+        ],
+        "ZCO13002": [
+            {
+                "score": "30",
+                "count": "22"
+            },
+            {
+                "score": "70",
+                "count": "8"
+            },
+            {
+                "score": "100",
+                "count": "327"
+            }
+        ],
+        "ZCO14001": [
+            {
+                "score": "100",
+                "count": "5315"
+            }
+        ],
+        "ZCO16002": [
+            {
+                "score": "40",
+                "count": "36"
+            },
+            {
+                "score": "60",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "325"
+            }
+        ],
+        "ZCO12001": [
+            {
+                "score": "30",
+                "count": "18"
+            },
+            {
+                "score": "70",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "2455"
+            }
+        ],
+        "ZCO14002": [
+            {
+                "score": "100",
+                "count": "1835"
+            }
+        ],
+        "ZCO13003": [
+            {
+                "score": "30",
+                "count": "1239"
+            },
+            {
+                "score": "70",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "1960"
+            }
+        ],
+        "ZCO12004": [
+            {
+                "score": "30",
+                "count": "50"
+            },
+            {
+                "score": "70",
+                "count": "29"
+            },
+            {
+                "score": "100",
+                "count": "1022"
+            }
+        ],
+        "ZCO15001": [
+            {
+                "score": "100",
+                "count": "605"
+            }
+        ],
+        "ZCO13001": [
+            {
+                "score": "30",
+                "count": "1507"
+            },
+            {
+                "score": "100",
+                "count": "3121"
+            }
+        ],
+        "ZCO13004": [
+            {
+                "score": "30",
+                "count": "57"
+            },
+            {
+                "score": "70",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "115"
+            }
+        ],
+        "ZCO15004": [
+            {
+                "score": "40",
+                "count": "21"
+            },
+            {
+                "score": "60",
+                "count": "11"
+            },
+            {
+                "score": "100",
+                "count": "190"
+            }
+        ],
+        "ZCO15003": [
+            {
+                "score": "100",
+                "count": "512"
+            }
+        ]
+    },
+    "rules": "<p><b class=\"rules-heading\">Rules and Regulations:</b></p>\r\n<div class=\"rules-body\">\r\n<ul>\r\n<li>The contest is open to all. There are no prizes for this contest. </li>\r\n<li>This is a practice contest for ZCO/IOI aspirants.</li>\r\n<li>This is an unrated contest.</li>\r\n<li>Submissions can only be made in <b>C, C++, Java and Python</b></li>\r\n<li>The problems belong to previous years' ZCO contests.</li>\r\n<li>The problems may have multiple subtasks with each subtask having different test cases.</li>\r\n</ul>\r\n</div>\r\n<p><b class=\"rules-heading\">Judging Criteria:</b></p>\r\n<div class=\"rules-body\">\r\n<ul>\r\n<li>All the problems have same points alloted to them.</li>\r\n<li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li>\r\n<li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem (Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved.</li>\r\n</ul>\r\n</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/ZCOPRAC/1474286365.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "ZCO15002": {
+            "allow_submission": true,
+            "name": "Variation",
+            "problem_url": "/problems/ZCO15002",
+            "category_name": "main",
+            "accuracy": 28.63,
+            "successful_submissions": "2852",
+            "code": "ZCO15002",
+            "status_url": "/status/ZCO15002",
+            "type": "3",
+            "submit_url": "/submit/ZCO15002",
+            "is_direct_submittable": false
+        },
+        "ZCO14004": {
+            "allow_submission": true,
+            "name": "IPL",
+            "problem_url": "/problems/ZCO14004",
+            "category_name": "main",
+            "accuracy": 39.99,
+            "successful_submissions": "1360",
+            "code": "ZCO14004",
+            "status_url": "/status/ZCO14004",
+            "type": "3",
+            "submit_url": "/submit/ZCO14004",
+            "is_direct_submittable": false
+        },
+        "ZCO12002": {
+            "allow_submission": true,
+            "name": "Wormholes",
+            "problem_url": "/problems/ZCO12002",
+            "category_name": "main",
+            "accuracy": 17.57,
+            "successful_submissions": "903",
+            "code": "ZCO12002",
+            "status_url": "/status/ZCO12002",
+            "type": "3",
+            "submit_url": "/submit/ZCO12002",
+            "is_direct_submittable": false
+        },
+        "ZCO16001": {
+            "allow_submission": true,
+            "name": "Bookshelves",
+            "problem_url": "/problems/ZCO16001",
+            "category_name": "main",
+            "accuracy": 11.77,
+            "successful_submissions": "589",
+            "code": "ZCO16001",
+            "status_url": "/status/ZCO16001",
+            "type": "3",
+            "submit_url": "/submit/ZCO16001",
+            "is_direct_submittable": false
+        },
+        "ZCO12003": {
+            "allow_submission": true,
+            "name": "Matched Brackets 2",
+            "problem_url": "/problems/ZCO12003",
+            "category_name": "main",
+            "accuracy": 18.34,
+            "successful_submissions": "260",
+            "code": "ZCO12003",
+            "status_url": "/status/ZCO12003",
+            "type": "3",
+            "submit_url": "/submit/ZCO12003",
+            "is_direct_submittable": false
+        },
+        "ZCO14003": {
+            "allow_submission": true,
+            "name": "Smart Phone",
+            "problem_url": "/problems/ZCO14003",
+            "category_name": "main",
+            "accuracy": 24.73,
+            "successful_submissions": "5724",
+            "code": "ZCO14003",
+            "status_url": "/status/ZCO14003",
+            "type": "3",
+            "submit_url": "/submit/ZCO14003",
+            "is_direct_submittable": false
+        },
+        "ZCO13002": {
+            "allow_submission": true,
+            "name": "Little Red Riding Hood",
+            "problem_url": "/problems/ZCO13002",
+            "category_name": "main",
+            "accuracy": 20.56,
+            "successful_submissions": "327",
+            "code": "ZCO13002",
+            "status_url": "/status/ZCO13002",
+            "type": "3",
+            "submit_url": "/submit/ZCO13002",
+            "is_direct_submittable": false
+        },
+        "ZCO14001": {
+            "allow_submission": true,
+            "name": "Video Game",
+            "problem_url": "/problems/ZCO14001",
+            "category_name": "main",
+            "accuracy": 40.42,
+            "successful_submissions": "5315",
+            "code": "ZCO14001",
+            "status_url": "/status/ZCO14001",
+            "type": "3",
+            "submit_url": "/submit/ZCO14001",
+            "is_direct_submittable": false
+        },
+        "ZCO16002": {
+            "allow_submission": true,
+            "name": "Bamboo Art",
+            "problem_url": "/problems/ZCO16002",
+            "category_name": "main",
+            "accuracy": 23.74,
+            "successful_submissions": "325",
+            "code": "ZCO16002",
+            "status_url": "/status/ZCO16002",
+            "type": "3",
+            "submit_url": "/submit/ZCO16002",
+            "is_direct_submittable": false
+        },
+        "ZCO12001": {
+            "allow_submission": true,
+            "name": "Matched Brackets",
+            "problem_url": "/problems/ZCO12001",
+            "category_name": "main",
+            "accuracy": 42.01,
+            "successful_submissions": "2455",
+            "code": "ZCO12001",
+            "status_url": "/status/ZCO12001",
+            "type": "3",
+            "submit_url": "/submit/ZCO12001",
+            "is_direct_submittable": false
+        },
+        "ZCO14002": {
+            "allow_submission": true,
+            "name": "SUPW",
+            "problem_url": "/problems/ZCO14002",
+            "category_name": "main",
+            "accuracy": 24.3,
+            "successful_submissions": "1835",
+            "code": "ZCO14002",
+            "status_url": "/status/ZCO14002",
+            "type": "3",
+            "submit_url": "/submit/ZCO14002",
+            "is_direct_submittable": false
+        },
+        "ZCO13003": {
+            "allow_submission": true,
+            "name": "Chewing",
+            "problem_url": "/problems/ZCO13003",
+            "category_name": "main",
+            "accuracy": 15.13,
+            "successful_submissions": "1960",
+            "code": "ZCO13003",
+            "status_url": "/status/ZCO13003",
+            "type": "3",
+            "submit_url": "/submit/ZCO13003",
+            "is_direct_submittable": false
+        },
+        "ZCO12004": {
+            "allow_submission": true,
+            "name": "Round Table",
+            "problem_url": "/problems/ZCO12004",
+            "category_name": "main",
+            "accuracy": 18.5,
+            "successful_submissions": "1022",
+            "code": "ZCO12004",
+            "status_url": "/status/ZCO12004",
+            "type": "3",
+            "submit_url": "/submit/ZCO12004",
+            "is_direct_submittable": false
+        },
+        "ZCO15001": {
+            "allow_submission": true,
+            "name": "Break Up",
+            "problem_url": "/problems/ZCO15001",
+            "category_name": "main",
+            "accuracy": 31.18,
+            "successful_submissions": "605",
+            "code": "ZCO15001",
+            "status_url": "/status/ZCO15001",
+            "type": "3",
+            "submit_url": "/submit/ZCO15001",
+            "is_direct_submittable": false
+        },
+        "ZCO13001": {
+            "allow_submission": true,
+            "name": "Tournament",
+            "problem_url": "/problems/ZCO13001",
+            "category_name": "main",
+            "accuracy": 22.15,
+            "successful_submissions": "3121",
+            "code": "ZCO13001",
+            "status_url": "/status/ZCO13001",
+            "type": "3",
+            "submit_url": "/submit/ZCO13001",
+            "is_direct_submittable": false
+        },
+        "ZCO13004": {
+            "allow_submission": true,
+            "name": "Save Spaceman Spiff",
+            "problem_url": "/problems/ZCO13004",
+            "category_name": "main",
+            "accuracy": 13.32,
+            "successful_submissions": "115",
+            "code": "ZCO13004",
+            "status_url": "/status/ZCO13004",
+            "type": "3",
+            "submit_url": "/submit/ZCO13004",
+            "is_direct_submittable": false
+        },
+        "ZCO15004": {
+            "allow_submission": true,
+            "name": "Rectangle",
+            "problem_url": "/problems/ZCO15004",
+            "category_name": "main",
+            "accuracy": 14.38,
+            "successful_submissions": "190",
+            "code": "ZCO15004",
+            "status_url": "/status/ZCO15004",
+            "type": "3",
+            "submit_url": "/submit/ZCO15004",
+            "is_direct_submittable": false
+        },
+        "ZCO15003": {
+            "allow_submission": true,
+            "name": "Covering",
+            "problem_url": "/problems/ZCO15003",
+            "category_name": "main",
+            "accuracy": 31.98,
+            "successful_submissions": "512",
+            "code": "ZCO15003",
+            "status_url": "/status/ZCO15003",
+            "type": "3",
+            "submit_url": "/submit/ZCO15003",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1578162600,
+        "current": 1537431944,
+        "freezing": 0,
+        "start": 1446661800
+    },
+    "user": {
+        "username": ""
+    }
+}

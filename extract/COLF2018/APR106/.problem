@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>You are given an array with n elements.\nA given array is a special array if the absolute difference of consecutive elements is less than equal to 2.You have to find if on deleting any one element the resulting array can be  a special array.\n\n\n###Input:\n\n- The first line contains the number n which is the size of the array where $3 \\leq n \\leq 10000$ \n- The next n lines contain the numbers in the array which lie between [-100000,100000]\n\n###Output:\nIf the array can be converted into a special array print \u201cTrue\u201d.\nIf the array can\u2019t be converted into a special array print \u201cFalse\u201d\n\n\n###Sample Input:\n\t5\n\t1 2 6 4 6\n\n###Sample Output\n        True\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Code-Golf",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1523194200,
+        "end_date": 1523205000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1523205000,
+        "submit_start_date": 1523194200,
+        "current": 1537432653
+    },
+    "problem_author_html_handle": "adityarohan14",
+    "problem_name": "SPECIAL ARRAY",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/adityarohan14'>adityarohan14</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "adityarohan14",
+    "contest_code": "COLF2018",
+    "max_timelimit": "1",
+    "problem_code": "APR106"
+}

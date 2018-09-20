@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Pintu is a undergraduate student from India. This semester he is taking a Linear algebra course.\u00a0 Today, Professor X gave a lecture on <a href=\"http://en.wikipedia.org/wiki/Transpose\">Matrix transpose</a>. \u00a0Being a straight-A student Pintu, already knew this topic (very well) and was able to answer all the questions during the class. Impressed by Pintu\u2019s performance Professor X decided to give him some programming assignment: Given <strong>T</strong> two dimensional matrices (<strong> M<sub>1</sub>,M<sub>2</sub>,M<sub>3</sub>, ... , M<sub>T</sub> </strong>), Pintu needs to transpose each of them.</p>\n<p>Of course, Pintu doesn\u2019t know anything about programming so he needed your help.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of input contains a positive integer\u00a0<strong>T</strong>, the number of test cases. After that\u00a0<strong>T</strong>\u00a0test cases follows.\u00a0The first line of each test case contains two space separated integers\u00a0<strong>R<sub>i</sub></strong>\u00a0and\u00a0<strong>C<sub>i</sub></strong>, the number of rows and the number of columns of the matrix\u00a0<strong>M<sub>i</sub></strong>\u00a0respectively. The next line will contain the actual matrix <strong>M<sub>i</sub></strong> in this format:</p>\n<p>\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 <strong><span style=\"font-size: small;\">[(<strong>A<sub>11</sub></strong>, <strong>A<sub>12</sub></strong>, <strong>A<sub>13</sub></strong>,\u2026,\u00a0<strong>A<sub>1C<sub>i</sub></sub></strong>), (A<sub>21</sub>,A<sub>22</sub>,A<sub>23</sub>,\u2026,A<sub>2C</sub>), \u2026 ,(A<sub>R<sub>i</sub>1</sub>,A<sub>R<sub>i</sub>2</sub>,A<sub>R<sub>i</sub>3</sub>,\u2026,A<sub>R<sub>i</sub>C<sub>i</sub></sub>)]</span></strong></p>\n<p><strong>where</strong> <strong> A</strong><sub><strong>ef<span style=\"font-size: x-small;\">\u00a0</span></strong><span style=\"font-size: small;\">indicates the element of the <strong>e</strong>th row and <strong>f</strong>th column of the matrix <strong>M<sub>i</sub></strong>, where <strong>1</strong> \u2264 <strong>e</strong> \u2264 <strong>R<sub>i</sub></strong> and <strong>1</strong> \u2264 <strong>f</strong> \u2264 <strong>C<sub>i</sub></strong> </span></sub></p>\n<h3>Output</h3>\n<p>The transpose of the matrix in the same format as the input. See examples for more explanation.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><strong>1</strong> \u2264 <strong>T</strong> \u2264 <strong>100</strong></li>\n<li><strong>1 \u2264 R<sub>i</sub>,C<sub>i</sub> \u2264 10</strong></li>\n<li><strong>-128 \u2264 A<sub>ij</sub> \u2264 128</strong></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong></pre><pre>3\n2 2\n[(-125, 67),(23,-23)]\n6 2\n[(1, -4), (2, 56), (3, 6),(1, 4), (2, -56), (3, 6)]\n4 2\n[(-125, 67),(23,-23),(99,100),(34,56)]\n</pre><pre></pre><pre><strong><br /></strong></pre><pre><strong>Output:</strong></pre><pre>[(-125, 23), (67, -23)]\n[(1, 2, 3, 1, 2, 3), (-4, 56, 6, 4, -56, 6)]\n[(-125, 23, 99, 34), (67, -23, 100, 56)]\n</pre><p>\u00a0</p>\n<h3>Scoring</h3>\n<p>Length of your source.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "20-09-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Code Zip 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1380101400,
+        "end_date": 1380447000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1380447000,
+        "submit_start_date": 1380101400,
+        "current": 1537438156
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>Debanjan</span>",
+    "problem_name": "Matrix Tranpose",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/Debanjan'>Debanjan</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "Debanjan",
+    "contest_code": "CDGF2013",
+    "max_timelimit": "0.87",
+    "problem_code": "MTRANS"
+}

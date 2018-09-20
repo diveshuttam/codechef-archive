@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A triangle is one of the basic shapes of geometry and in terms of definition</p>\n<p>\n\"it is a polygon with three corners or vertices and three sides or edges which are line segments\"\n</p>\n<p>\nNow, one day cody bought a wire and decided to make triangles with it such that each triangle has all integral sides,with at least one integral angle. Cody as usual \nwant to skip calculations and need your help to make it possible.</p>\n<p>\nGiven the value of n(1<=n<=10^8), calculate all the possible triangles with the above condition such that the perimeter does\nnot exceed n.\n</p>\n\n<h3>Input</h3>\n<p>The first line contains t, the number of test cases (1<=t<=10000).\nFollowed by t lines it contains various values of n.\n\n\n<h3>Output</h3>\n<p>For every test case, print the number of triangles possible\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n12\n102\n256\n\n<b>Output:</b>\n4\n34\n85  \n\n<b>Warning</b>\nThe time limit is strict......\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-02-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Algothika 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1267705800,
+        "end_date": 1268397000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1268397000,
+        "submit_start_date": 1267705800,
+        "current": 1537439691
+    },
+    "problem_author_html_handle": "killer17",
+    "problem_name": "Triangles",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/killer17'>killer17</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "killer17",
+    "contest_code": "ALGOTH10",
+    "max_timelimit": "0.333333",
+    "problem_code": "AD2"
+}

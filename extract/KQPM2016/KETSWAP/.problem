@@ -1,0 +1,33 @@
+{
+    "problem_code": "KETSWAP",
+    "problem_author": "chandubaba",
+    "contest_name": "Keteki Quick Match 2",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>chandubaba</span>",
+    "problem_name": "Bubble Swap Count",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "KQPM2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cakewalk'>cakewalk</a>, <a class='problem-tag-small ' href='/tags/problems/chandubaba'>chandubaba</a>, <a class='problem-tag-small ' href='/tags/problems/keteki'>keteki</a>, <a class='problem-tag-small ' href='/tags/problems/kqpm2016'>kqpm2016</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>You need to shuffle a series of numbers from 1 To <b>T</b>, inclusive. The numbers are in ascending order, you have to shuffle them using bubble sort algorithm, that is swap every time a number is greater than another in the given list in the input. A number is greater than another in the list if the number appears later than the other in the list, check example for more clarity.</p>\n<p>Print the count of swaps done while you run the algorithm to shuffle them.</p>\n<p>\nFollowing is the bubble sort algorithm<br />\nprocedure bubbleSort( A : list of items )<br />\n<br/><br />\n\u00a0   n = length(A)-1<br/><br />\n\u00a0\u00a0   for j=0 to n inclusive do<br/><br />\n\u00a0\u00a0\u00a0     for i = 0 to n-1 inclusive do<br/><br />\n\u00a0\u00a0\u00a0\u00a0       /* if this pair is out of order */<br/><br />\n\u00a0\u00a0\u00a0\u00a0       if A[i] > A[i+1] then<br/><br />\n\u00a0\u00a0\u00a0\u00a0\u00a0         /* swap them and remember something changed */<br/><br />\n\u00a0\u00a0\u00a0\u00a0\u00a0         swap( A[i], A[i+1] )<br/><br />\n\u00a0\u00a0\u00a0\u00a0       end if<br/><br />\n\u00a0\u00a0\u00a0     end for<br/><br />\n\u00a0\u00a0   end for<br/><br />\n\u00a0   end procedure<br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></br/></p>\n<h3>Input</h3>\n<p>Input description.</p>\n<p>Input will start will an integer <b>N</b> on newline representing the count of test case. Each case will contain a number <b>T</b> on a newline, representing total count of numbers. Next line of each test case will contain <b>T</b> integers representing the final shuffled series of numbers.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each test case print the desired output, each on a newline.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>20</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n3\n2 1 3\nabac\n<b>Output:</b>\n</pre><p>1\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> One swap between 1 and 2, because 1 appears later than 2, so 1 is greater than 2.</p>\n",
+    "category_name": "main",
+    "date_added": "6-01-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/KETSWAP",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1452400200,
+        "end_date": 1452402000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1452402000,
+        "submit_start_date": 1452400200,
+        "current": 1537435676
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p><b>Problem description.</b></p>\n<p>All the chefs live in the town of Chefpur.Chefpur consist of various localities with each locality having  some number of houses in which the chefs and their families live.Each locality in Chefpur is represented by a decimal number.Number of houses in each locality is given by the number of bits in the binary representation of that locality number.All the chef families are either good neighbours or bad neighbours.If in the binary representation of locality number, a bit is '1' then the corresponding family is a good neighbour and if the bit is '0' then the family is a bad neighbour.For example if a locality number is <b>5</b> then it can be represented in binary as <b>101</b>.Thus the number of houses are <b>3</b>(no of bits).Number of good neighbours are <b>2</b>(as 2 bits are equal to '1') and the number of bad neighbours are <b>1</b>(as only 1 bit is equal to '0').<br />\n<br /><br />\nChefs in the chefpur wants to have increase harmony among themselves.<b>Harmony is defined by the number of good neighbours which are present together  i.e the number consequtives '1' bits.</b><br />\n<br /><br /><br />\nYou are given two numbers <b>l</b> and <b>r</b>.All the localities in Chefpur are between <b>l</b> and <b>r</b>.Your task is to find an arrangement of localities so that the harmony is maximum in Chefpur.For eg if <b>l=2,r=4</b> then the possible arrangements of localities are <b>234,243,324,343,432,423.</b><br />\n<br /><br /><br />\nHelp the chefs to find the value of maximium harmony that can exist in Chefpur.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line contains a single integer <b>T</b>, denoting the number of test cases to follow.<br />\n<br /><br />\nEach of the test cases have exactly two space separated integers,  <b>l</b> and <b>r</b> representing the starting and ending values for localities in Chefpur.</p>\n<h3>Output</h3>\n<p>\nOutput exactly <b>T</b> lines i.e 1 line per test case representing the <b>max harmony</b>.</p>\n<h3>Constraints</h3>\n<p>\n<br /><b>1\u2009\u2264\u2009T\u2009\u2264\u2009100</b><br />\n<br /><b>1\u2009\u2264\u2009l\u2009\u2264\u2009r \u2264 10^5</b>\n</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n1 4\n\n<b>Output:</b>\n4\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>1 can be represented as 1<br />\n<br />2 can be represented as 10<br />\n<br />3 can be represented as 11<br />\n<br />4 can be represented as 100<br />\n<br />Arrangement 1 2 3 4- 11011100(harmony is equal to 3)<br />\n<br />Arrangement 1 3 2 4- 11110100(harmony is equal to 4)<br />\n<br />Arrangement 1 2 4 3- 11010011(harmony is equal to 2)<br />\n<br />Arrangement 1 3 4 2- 11110010(harmony is equal to 4)<br />\n<br />etc.<br />\n<br />Max harmony obtained is 4.<br />\n</b>...</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-06-2015",
+    "is_direct_submittable": false,
+    "contest_name": "DTU Programming Mania - 2",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1435939200,
+        "end_date": 1435950000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1435950000,
+        "submit_start_date": 1435939200,
+        "current": 1537436206
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>arpitdec5</span>",
+    "problem_name": "Chefpur and Harmony",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/arpitdec5'>arpitdec5</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "arpitdec5",
+    "contest_code": "DTMA2015",
+    "max_timelimit": "1",
+    "problem_code": "CHEFHAR"
+}

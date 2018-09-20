@@ -1,0 +1,138 @@
+{
+    "announcements": "<p><b>30/03/2014, 11:12 IST: </b>The official school rankings for the contest can be found\u00c2\u00a0<a target=\"_blank\" href=\"/rankings/inst/school/LTIME10\">here</a>. Overall rankings can be viewed\u00c2\u00a0<a target=\"_blank\" href=\"/rankings/inst/LTIME10\">here</a>.</p>",
+    "ip": "149.129.135.113",
+    "code": "LTIME10",
+    "duration": "180",
+    "name": "March Lunchtime 2014",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "SUBSGM": [
+            {
+                "score": "20",
+                "count": "53"
+            },
+            {
+                "score": "26",
+                "count": "7"
+            },
+            {
+                "score": "46",
+                "count": "261"
+            },
+            {
+                "score": "100",
+                "count": "24"
+            }
+        ],
+        "CORRCHK": [
+            {
+                "score": "50",
+                "count": "25"
+            },
+            {
+                "score": "100",
+                "count": "50"
+            }
+        ],
+        "SHGAME": [
+            {
+                "score": "25",
+                "count": "3"
+            },
+            {
+                "score": "61",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "9"
+            }
+        ],
+        "SEQCOUNT": [
+            {
+                "score": "17",
+                "count": "20"
+            },
+            {
+                "score": "40",
+                "count": "7"
+            },
+            {
+                "score": "60",
+                "count": "3"
+            },
+            {
+                "score": "100",
+                "count": "4"
+            }
+        ]
+    },
+    "rules": "<div> <div><b>All the solutions for the problem set are public and the problems have been moved to\u00a0practice section.</b><br style=\"color: #444444; font-family: Arial, sans-serif; line-height: 18px;\" /> <div></div> <div><b>The editorials for the contest will can be found <a href=\"http://discuss.codechef.com/tags/ltime10/\">here</a>.</b><br /> <div></div> <div><b>The winners blog can be found <a href=\"http://blog.codechef.com/2014/05/08/the-story-of-a-meteoric-rise/\">here</a>.</b></div> </div> </div> <div></div> <div><b>Rules and Regulations:</b></div> <div><b><br /></b></div> </div> <div></div> <div>This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test data.</div> <div> <div> <ul> <li>The details of the failed test cases will also be visible on your solution page.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The contest is meant for students of high school and middle school though everyone is invited to participate.</li> <li>There will be separate ranking page for school students. The school students will be identified by the inistitution that they have enetered in their profile.</li> <li><b>We have removed all the Institutions that we could not identify from our database. We request you to update your institutions once again by going to your profile page.</b></li> <li>You can also send in your queries in an email to <a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a>, during the contest.</li> <li>Contest problems will become visible on March 30th, 2014 at 11:00 am (IST) to 2:00 pm (IST). There will be 4 problems in all. Check your time zone <a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+March+Lunch+Time+2014&amp;iso=20140330T11&amp;p1=44&amp;ah=3\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a target=\"_blank\" href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></li> <li>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a>.</li> </ul> </div> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/LTIME10/1424957924.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "SUBSGM": {
+            "allow_submission": false,
+            "name": "Nice SubSegments",
+            "category_name": "main",
+            "accuracy": 2.2,
+            "successful_submissions": "24",
+            "code": "SUBSGM",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "CORRCHK": {
+            "allow_submission": false,
+            "name": "Statements Checking",
+            "category_name": "main",
+            "accuracy": 14.2,
+            "successful_submissions": "50",
+            "code": "CORRCHK",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "SHGAME": {
+            "allow_submission": false,
+            "name": "A Game With a Sheet of Paper",
+            "category_name": "main",
+            "accuracy": 5.77,
+            "successful_submissions": "9",
+            "code": "SHGAME",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "SEQCOUNT": {
+            "allow_submission": false,
+            "name": "How many sequences",
+            "category_name": "main",
+            "accuracy": 0.61,
+            "successful_submissions": "4",
+            "code": "SEQCOUNT",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1396168200,
+        "current": 1537437640,
+        "freezing": 0,
+        "start": 1396157400
+    },
+    "user": {
+        "username": ""
+    }
+}

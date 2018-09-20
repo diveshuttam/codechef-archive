@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Mortal Kombat is the ultimate stage for warriors. Here teams from around the world come and compete against each other to find out who is the best!\n\nEach team consists of <strong>N</strong> players numbered from <strong>1 to N</strong>, each player $i$ has a power <strong>A<sub>i</strong>. In order for a team to win against another team, the challenging team must win $K$ matches. In one match only one player from each team participates, and a player cannot play more than one match!\nThe winner of the match is the one with <strong>strictly</strong> more power (Obviously! XD)\n\nChef has prepared his team to fight against the best team of Mortal Kombat.\nHe has to prove that his team is now the best but he is not sure so he asks your help to figure out if he can win in at least $K$ valid fights, chef also has an advantage, <strong>he can fix all the $K$ fights (ie he can select warriors from each team for every match)</strong>. So now you have say whether chef can fix such K fights so that his team wins! \n\n\n###INPUT\nFirst line contains <strong>T</strong> the number of test cases.  \nEach test case is as follows  \nThe first line contains <strong>N,K</strong> number of players in a team and number of matches required to win for the team to win.  \nNext line contains <strong>N</strong> space separated integers which is the power of $N$ players of the best team of Mortal Kombat.  \nNext line also contains <strong>N</strong> space separated integers which is the power of $N$ players of the chef's team.\n\n###OUTPUT\nFor each testcase output \"YES\" if chef's team can win or \"NO\" if the team can't win.  \n\n###CONSTRAINS\n\n- $1 \\leq$ <strong>T</strong> $\\leq 100$\n- $1 \\leq$ <strong>K</strong> $\\leq$ <strong>N</strong> $\\leq 10^5$\n- Sum of N over all testcases is less than 10^6\n- $1 \\leq$ <strong>A<sub>i</sub></strong> $\\leq 10^5$\n\n###SUBTASKS\n- 30 points :  <strong>T</strong> $\\leq$ 10 , <strong>N</strong> $\\leq$ 10^3 overall testcases  \n- 70 points : original constrains\t\n\n\n###SAMPLE INPUT  \n1  \n5 3  \n6 2 3 5 4  \n5 4 7 2 3\n\n\n###SAMPLE OUTPUT  \nYES  \n  \n###EXPLANATION  \nthe three matches would be:  \n<strong>chef's team\u00a0\u00a0\u00a0\u00a0    best team</strong>  \nwarrior 1\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0\u00a0warrior 5  \nwarrior 2\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0\u00a0warrior 2  \nwarrior 3\u00a0\u00a0\u00a0\u00a0\u00a0 \u00a0 \u00a0\u00a0warrior 4  \n  ",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-07-2018",
+    "is_direct_submittable": false,
+    "contest_name": "LoC July 2018",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1532716200,
+        "end_date": 1532889000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1532889000,
+        "submit_start_date": 1532716200,
+        "current": 1537432204
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>katana_handler</span>",
+    "problem_name": "Chef and Mortal Kombat",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/katana_handler'>katana_handler</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "katana_handler",
+    "contest_code": "LOCJUL18",
+    "max_timelimit": "0.5",
+    "problem_code": "CMK"
+}

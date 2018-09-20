@@ -1,0 +1,33 @@
+{
+    "problem_code": "NPLELA",
+    "problem_author": "npl_nitw",
+    "contest_name": "NPL Elimination Round",
+    "todo": false,
+    "problem_author_html_handle": "npl_nitw",
+    "problem_name": "Monica and toys",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "NPLQ1601",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/basic-prog'>basic-prog</a>, <a class='problem-tag-small ' href='/tags/problems/npl_nitw'>npl_nitw</a>, <a class='problem-tag-small ' href='/tags/problems/sorting'>sorting</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nMonica has many toys and she has a weird obsession of arranging all the toys in a line such that their heights are in non-decreasing order. If the order is messed then she gets angry. You know the number of toys and their current arrangement, can you tell if she is angry or not?\n</p>\n\n<h3>Input</h3>\n<p>First line will contain <b>n</b> the number of toys Monica has.<br>\nNext line contains <b>n</b> integers, denoting the heights of the toys in line.<br>\n</p>\n\n<h3>Output</h3>\n<p>\nIf Monica is angry print <b>\"Angry\"</b> (without quotes) else print <b>\"Happy\"</b>.\n</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>A<sub>i</sub></b> \u2264 <b>10<sup>6</sup></b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input 1:</b>\n5\n1 3 5 5 10\n\n<b>Output 1:</b>\nHappy\n</pre>\n\n<pre><b>Input 2:</b>\n5\n1 5 12 7 10\n\n<b>Output 2:</b>\nAngry\n</pre>\n\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> <br>\nAll the toys are arranged in non-decreasing order hence Monica is \"Happy\".<br>\n<b>Example case 2.</b> <br>\nThe toys are not arranged in non-decreasing order hence Monica is \"Angry\".\n</p>",
+    "category_name": "main",
+    "date_added": "10-10-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/NPLELA",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1476793800,
+        "end_date": 1476802800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1476802800,
+        "submit_start_date": 1476793800,
+        "current": 1537434467
+    },
+    "user": {
+        "username": ""
+    }
+}

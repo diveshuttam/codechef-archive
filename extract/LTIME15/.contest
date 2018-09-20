@@ -1,0 +1,138 @@
+{
+    "announcements": "<p><b>31/08/2014, 12:00 IST: </b>The link to the Mandarin translation of WALL has been updated on the problem page <a href=\"/LTIME15/problems/WALL\">here</a>.</p>\r\n<p><b>31/08/2014, 11:00 IST: </b>The official school rankings for the contest can be found\u00a0<a href=\"/rankings/inst/school/LTIME15\" target=\"_blank\">here</a>. Overall rankings can be viewed\u00a0<a href=\"/rankings/inst/LTIME15\" target=\"_blank\">here</a>.</p>",
+    "ip": "149.129.135.113",
+    "code": "LTIME15",
+    "duration": "180",
+    "name": "August Lunchtime 2014",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "DRAGONST": [
+            {
+                "score": "15",
+                "count": "3"
+            },
+            {
+                "score": "30",
+                "count": "8"
+            },
+            {
+                "score": "50",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "1"
+            }
+        ],
+        "WALL": [
+            {
+                "score": "34",
+                "count": "334"
+            },
+            {
+                "score": "67",
+                "count": "2"
+            },
+            {
+                "score": "100",
+                "count": "49"
+            }
+        ],
+        "IRONISL": [
+            {
+                "score": "20",
+                "count": "27"
+            },
+            {
+                "score": "50",
+                "count": "91"
+            },
+            {
+                "score": "100",
+                "count": "3"
+            }
+        ],
+        "HHAL": [
+            {
+                "score": "30",
+                "count": "154"
+            },
+            {
+                "score": "70",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "661"
+            }
+        ]
+    },
+    "rules": "<div> <div><b>All the solutions for the problem set are public and the problems have been moved to practice section.<br /></b><b>The editorials for the contest will can be found\u00a0<a href=\"http://discuss.codechef.com/tags/ltime15/\">here</a>.<br /></b><b>The winners blog post can be found <a href=\"http://blog.codechef.com/2014/12/11/small-tale-of-august-lunchtime-2014/\">here</a>.</b></div> <div><b><br /></b></div> <div></div> <div><b>Rules and Regulations:</b></div> </div> <div></div> <div>This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test data.</div> <div> <ul> <li>The details of the failed test cases will also be visible on your solution page.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li> <li>Those who achieve the score first will be placed higher in the ranklist in case of a tie.</li> <li>The contest is meant for students of high school and middle school though everyone is invited to participate.</li> <li>There will be separate ranking page for school students. The school students will be identified by the inistitution that they have enetered in their profile.</li> <li><b>We have removed all the Institutions that we could not identify from our database. We request you to update your institutions once again by going to your profile page.</b></li> <li>You can also send in your queries in an email to\u00a0<a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a>, during the contest.</li> <li>Contest problems will become visible on August 31st, 2014 at 11:00 am (IST) to 2:00 pm (IST). There will be 4 problems in all. Check your time zone\u00a0<a href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+Agust+Lunch+Time+2014&amp;iso=20140831T11&amp;p1=44&amp;ah=3\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a target=\"_blank\" href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></li> <li>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a>.</li> </ul> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/LTIME15/1424957943.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "DRAGONST": {
+            "allow_submission": false,
+            "name": "Dragonstone",
+            "category_name": "main",
+            "accuracy": 0.69,
+            "successful_submissions": "1",
+            "code": "DRAGONST",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "WALL": {
+            "allow_submission": false,
+            "name": "Wall",
+            "category_name": "main",
+            "accuracy": 2.01,
+            "successful_submissions": "49",
+            "code": "WALL",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "IRONISL": {
+            "allow_submission": false,
+            "name": "Iron Islands",
+            "category_name": "main",
+            "accuracy": 0.99,
+            "successful_submissions": "3",
+            "code": "IRONISL",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "HHAL": {
+            "allow_submission": false,
+            "name": "Harrenhal",
+            "category_name": "main",
+            "accuracy": 32.8,
+            "successful_submissions": "661",
+            "code": "HHAL",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1409473800,
+        "current": 1537437455,
+        "freezing": 0,
+        "start": 1409463000
+    },
+    "user": {
+        "username": ""
+    }
+}

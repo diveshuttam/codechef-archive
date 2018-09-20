@@ -1,0 +1,33 @@
+{
+    "problem_code": "QUAD",
+    "problem_author": "wittyceaser",
+    "contest_name": "National Computing Contest 2014",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>wittyceaser</span>",
+    "problem_name": "Quad Numbers",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": null,
+    "contest_code": "NCC2014",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/binary'>binary</a>, <a class='problem-tag-small ' href='/tags/problems/implementation'>implementation</a>, <a class='problem-tag-small ' href='/tags/problems/ncc2014'>ncc2014</a>, <a class='problem-tag-small ' href='/tags/problems/wittyceaser'>wittyceaser</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nA Quad is a data container that consists of 4 bits, represented by a hexadecimal number. It has 2 halves - the upper half and the lower half.<br /><br />\nConsider a binary number with digits <b>B<sub>1</sub>,B<sub>2</sub>,B<sub>3</sub>,B<sub>4</sub></b> where <b>B<sub>1</sub></b> is the most significant digit and <b>B<sub>4</sub></b> is the least significant digit. The upper half consists of bits <b>B<sub>1</sub></b> and <b>B<sub>2</sub></b>, and the lower half consists of bits <b>B<sub>3</sub></b> and <b>B<sub>4</sub></b>.<br /><br />\n<b>Upper half:   \u202b      B<sub>1</sub> B<sub>2</sub><br /><br />\nLower half:   B<sub>3</sub> B<sub>4</sub><br /></b><br />\nMultiple Quads are placed together, contiguously, from left to right.<br /><br />\nLet the binary number formed by contiguously-placed upper halves of Quads be <b>N<sub>1</sub></b>.<br /><br />\nLet the binary number formed by contiguously-placed lower halves of Quads be <b>N<sub>2</sub></b>.<br /><br />\nFor both <b>N<sub>1</sub></b> and <b>N<sub>2</sub></b>, the rightmost digit is least significant and leftmost digit is most significant.<br /><br />\nA <b>QuadNumber</b> is the sum of numbers <b>N<sub>1</sub></b> and <b>N<sub>2</sub></b>.<br /><br />\nIf carry is obtained finally, it is to be ignored. Hence, print only <b>2*N</b> least significant binary digits of the QuadNumber.<br /></p>\n<p>Given a set of contiguously placed Quads, find the <b>QuadNumber</b> (binary) formed by it.\n </p>\n<h3>Input</h3>\n<p>Input consists of 2 lines<br /><br />\nThe first line contains a single integer <b>N</b>, representing the number of digits in the Hexadecimal number.<br /><br />\nThe second line contains a contiguous set of Quads (hexadecimal numbers)<br /></p>\n<p><b>N</b><br /><br />\n<b>Q<sub>1</sub> Q<sub>2</sub> Q<sub>3</sub> Q<sub>4</sub> ... Q<sub>N</sub></b></p>\n<h3>Output</h3>\n<p>Print a single line containing the <b>QuadNumber</b> in binary.</p>\n<h3>Constraints</h3>\n<p><br /><br />\n<b>1</b> \u2264 <b>N</b> \u2264 <b>100000</b></p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n1A\n\n<b>Output:</b>\n1000\n\n<b>Input:</b>\n2\n11\n\n<b>Output:</b>\n0101\n\n</pre>\n",
+    "category_name": "main",
+    "date_added": "12-05-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, GO, HASK, SCALA, PERL, CAML, PERL6",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/QUAD",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1400167800,
+        "end_date": 1400178600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1400178600,
+        "submit_start_date": 1400167800,
+        "current": 1537437555
+    },
+    "user": {
+        "username": ""
+    }
+}

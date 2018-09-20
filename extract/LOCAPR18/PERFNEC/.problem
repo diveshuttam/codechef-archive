@@ -1,0 +1,33 @@
+{
+    "problem_code": "PERFNEC",
+    "problem_author": "katana_handler",
+    "contest_name": "LoC April 2018 (Rated for Division 2)",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>katana_handler</span>",
+    "problem_name": "Perfect Necklace",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "LOCAPR18",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/katana_handler'>katana_handler</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Chef wants to gift his girlfriend a necklace made of beads. The beads can be made of either Stone, Glass, Quartz, Ruby or Diamond <strong>(he need not use all five types of beads)</strong> .\n\n\n\nEach bead has a value associated with its beauty as follows\n\n- -2 for Stone\n- -1 for Glass\n-  0 for Quartz \n- 1 for Ruby\n- 2 for Diamond\n\n\nEach bead also has a cost given by <strong> S, G, Q, R</strong> and <strong>D </strong>for the respective bead.\n\nThere are <strong>q</strong> queries for you. In each query chef wants to know the minimum cost for creating a necklace using <strong>exactly X</strong> beads and overall beauty of <strong>Y</strong>.\n\nOverall beauty Y is defined as the sum of beauty of each bead used in the necklace.\n\nSince you\u2019re a great programmer, he wants you to answer each query as soon as possible.\n\n###<strong>Input</strong>\n\nFirst line contains 5 space separated integers <strong>S, G, Q, R, D</strong>, the respective cost of beads.\nNext line contains <strong>q</strong> the number of queries\nnext q lines had two integers <strong>X</strong> and <strong>Y</strong> , the number of beads to be used and the overall beauty\n\n\n###<strong>Output</strong>\n\nfor each query output the answer in a new line\noutput the minimum cost if it exists otherwise print -1\n\n\n\n###Constrains\n\n- $1 \\leq q \\leq 5*10^5$\n- $0 \\leq S, G, Q, R, D \\leq 10^6$\n- $0 \\leq X \\leq 100$\n- $-200 \\leq Y \\leq 200$\n\n\n\n\n###Subtasks\n- 10 points : $0 \\leq X \\leq 2$\n- 20 points : $ q=1 $\n- 70 points : original constrains\t\n\n\n\n###Sample Input\n\n1 2 2 3 4\n\n3\n\n2 0\n\n1 -2\n\n3 6\n\n\n###Sample Output\n\n4\n\n1\n\n12\n\n\n###Explanation\n\nin the first query we can take (stone,diamond), (glass,ruby), (quarts,quarts)\nbut the minimum cost would be if we took quarts and quarts which is <strong>4</strong>\n\nsecond query there is only one way that is to take one stone and the cost is <strong>1</strong>\n\nthird query also there is only one way to take three diamonds and the cost is <strong>12</strong>\n\n",
+    "category_name": "main",
+    "date_added": "11-04-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/PERFNEC",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1524853800,
+        "end_date": 1525026600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1525026600,
+        "submit_start_date": 1524853800,
+        "current": 1537432491
+    },
+    "user": {
+        "username": ""
+    }
+}

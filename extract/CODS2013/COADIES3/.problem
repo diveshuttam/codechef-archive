@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><pre>\n<p><b>Problem description :</b>\nRaghu gives Rannvijay a task.There are infinite number of members in Rannvijay,s Team.\nHe also has a blackboard.He write <b>N</b> natural numbers on a blackboard.\nHis first team member come and erase all the numbers which are squares of a natural\nnumber.Then, 2nd one comes and erase all the cubes.The 3rd one erase all the fourth \npower of numbers and so on.\nBoth of them are watching this.\nRannvijay wants Raghu to tell him the number of his teammates that will get a chance\nto erase a number.But Raghu wants you to help him.So, go ahead.  \n</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b>&lt;=T&lt;= <b>10</b>.</li>\n<li> <b>1</b>&lt;=<b>L</b>&lt;=<b>1026</b>.</li>\n </ul>\n<p>\u00a0</p>\n\n<h3>Input</h3>\n<p>Input description.</p>\n<ul>\n<li>The first line contains a single positive integer <b>T</b> , the number of test cases. <b>T</b> \nEach test cases consists of following: </li>\n<li>First line contains <b>L</b> i.e. the length of number N i.e. the number of digits in it.</li>\n<li>As <b>N</b>can be as large as 10^1024 we will enter it in array digit by digit</li>\n</ul>\nExample:\nIf L=5 and N=63430, we will enter it like this:\n6 3 4 3 0.\n\n<h3>Output</h3>\n<p>Output description.</p>\n<ul>\n<li>For each test case, output a single line containing the answer for the corresponding test case....\".</li>\n</ul>\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n1\n2\n1\n9\n10\n2 3 0 3 2 5 1 7 9 2\n<b>Output:</b>\n1\n2\n11\n\nExplanation\nIn the first test case :1 and 2 are written on board.As 1 is perfect square so ans is 1.\n</pre></pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-03-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Codies 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1365345000,
+        "end_date": 1365359400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1365359400,
+        "submit_start_date": 1365345000,
+        "current": 1537438369
+    },
+    "problem_author_html_handle": "teamcoadies10",
+    "problem_name": "Erase The Powers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/teamcoadies10'>teamcoadies10</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "teamcoadies10",
+    "contest_code": "CODS2013",
+    "max_timelimit": "0.5",
+    "problem_code": "COADIES3"
+}

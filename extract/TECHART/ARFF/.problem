@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p> Farhan has a standard football that is made of 32 pieces of leather: 12 black pentagons and 20 white hexagons. Each pentagon adjoins 5 hexagons and each hexagon adjoins 3 pentagons and 3 hexagons. Farhan drew a polygon (i.e. a closed line without intersections) along the edges of the pieces. The polygon divided the ball into two parts and Farhan painted one of them green.\n<br /><br />\n\n<img src=\"http://www.mgmarete.com/arfb.png\" alt=\"Football Explantion\" title=\"Football Explanation\" />\n<br /><br />\nHe is curious if given a description of the polygon you are able to compute the number of black, white and green pieces?\n<h3> Task </h3>\nWrite a program that:\n<ul>\n<li>\nreads the description of a polygon</li>\n<li>\ncomputes the number of black, white and green pieces</li>\n<li>\nwrites the result</li>\n</ul>\n<br /><br />\n\n<h3>Input</h3>\n</p><p>\nThe input has two test cases.\n<br /><br />\nFor each test case, the first line of the input contains one integer n being the number of vertices of the polygon. The second line of the input contains n integers a1, a2,..., an separated by single spaces. Integer ai (equal 1 or 2) is the number of green pieces adjoining the i-th vertex of the polygon. The side of the polygon connecting the n-th and the first vertex always lies between two hexagons.<br />\n\n<h3>Output</h3>\n</p><p>\nFor each test case the first and only line of the output contains three integers b, w and g - the numbers of black, white and green pieces respectively.\n\n<h3>Example</h3> \n<pre><b>Sample input:</b> \n21 \n1 2 1 2 1 2 1 1 1 2 2 1 1 1 1 2 2 2 1 1 1 \n21 \n1 2 1 2 1 2 1 1 1 2 2 1 1 1 1 2 2 2 1 1 1 \n<b>Sample output:</b> \n11 15 6 \n11 15 6 \n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-09-2010",
+    "is_direct_submittable": false,
+    "contest_name": "MGM - Tech Arete",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1286217000,
+        "end_date": 1286821800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1286821800,
+        "submit_start_date": 1286217000,
+        "current": 1537439479
+    },
+    "problem_author_html_handle": "iamsurya",
+    "problem_name": "Farhans Football",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/iamsurya'>iamsurya</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "iamsurya",
+    "contest_code": "TECHART",
+    "max_timelimit": "1",
+    "problem_code": "ARFF"
+}

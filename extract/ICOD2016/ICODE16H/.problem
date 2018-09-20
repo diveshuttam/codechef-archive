@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>King Indravarma of Dholakpur has invited all the trick players from the near villages ,the competition being very high among them.<br />\nA very cunning trick player (Kartar) defeats all the other participants in the competition and challenges the people of Dholakpur to defeat him.<br />\nAs usual ,King Indravarma looks for Chota Bheem.Kartar encloses Jaggu (a monkey) in a cage and locks it using a secret key and asks Chota Bheem to<br />\nunlock it.Having carefully studied the Key, Chota Bheem came to the conclusion that the secret key can be obtained if he<br />\nproperly cuts the key into two parts.</p>\n<p>Chota Bheem needs to cut the key into two non-empty sub parts such<br />\nthat the first (left) part is divisible by <b>a</b> as a separate number, and the second (right) by <b>b</b> as a<br />\nseparate number. </p>\n<p>Both parts should be positive integers that have no leading zeroes.Chota Bheem knows values of a and b.</p>\n<h3>Input Format </h3>\n<p>First line contains an integer T ,number of test cases. For each test case ,the first line of the input contains the key of the cage.<br />\nand second line contains two integers a and b.</p>\n<h3>Output Format </h3>\n<p>For each test case  - In the first line, print \"YES\" (without the quotes), if the method satisfies above existing conditions.<br />\nIn this case, next print two lines \u2014 the left and the right parts after the cut.<br />\nThese two parts, being concatenated, must be exactly identical to the key.<br />\nThe left part must be divisible by a, and the right part must be divisible by b.<br />\nThe two parts must be positive integers having no leading zeros.<br />\nIf there are several answers, print the answer which has  minimum left part.<br />\nIf no such answer exists , print in a single line \"NO\" (without the quotes).</p>\n<h3>Constraints :</h3>\n<ul>\n<li><b>1&lt;=T&lt;=10<sup>4</sup></b></li>\n<li>1&lt;=Length of Key &lt;= 10<sup>6</sup> Digits</li>\n<li>1&lt;=a,b&lt;=10<sup>18</sup></li>\n</ul>\n<h3>Subtasks</h3>\n<p><b>Subtasks - 10 Points </b></p>\n<ul>\n<li>1&lt;=T&lt;=10</li>\n<li>1&lt;=Length of Key &lt;= 10<sup>2</sup> Digits</li>\n<li>1&lt;=a,b&lt;=10<sup>5</sup></li>\n</ul>\n\n<p><b>Subtasks - 30 Points </b></p>\n<ul>\n<li>1&lt;=T&lt;=100</li>\n<li>1&lt;=Length of Key &lt;= 10<sup>3</sup> Digits</li>\n<li>1&lt;=a,b&lt;=10<sup>9</sup></li>\n</ul>\n\n<p><b>Subtasks - 60 Points </b></p>\n<p>Original Constraints</p>\n<pre><b>Input Format</b>\n2\n116401024\n97 1024\n12\n1 3\n<b>Output Format</b>\nYES\n11640\n1024\nNO\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "11-01-2016",
+    "is_direct_submittable": false,
+    "contest_name": "I-CODE 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455625800,
+        "end_date": 1455885000,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1455885000,
+        "submit_start_date": 1455625800,
+        "current": 1537435408
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>manu4056</span>",
+    "problem_name": "Chota Bheem",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/manu4056'>manu4056</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "manu4056",
+    "contest_code": "ICOD2016",
+    "max_timelimit": "1",
+    "problem_code": "ICODE16H"
+}

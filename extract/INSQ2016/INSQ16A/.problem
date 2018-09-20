@@ -1,0 +1,33 @@
+{
+    "problem_code": "INSQ16A",
+    "problem_author": "aaijmrt",
+    "contest_name": "Insomnia 2016 Qualifier",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>aaijmrt</span>",
+    "problem_name": "Naruto and Sakura",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "INSQ2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aaijmrt'>aaijmrt</a>, <a class='problem-tag-small ' href='/tags/problems/ad-hoc'>ad-hoc</a>, <a class='problem-tag-small ' href='/tags/problems/insomnia'>insomnia</a>, <a class='problem-tag-small ' href='/tags/problems/mnnit'>mnnit</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Naruto's dream is to become the hokage of Hidden Leaf Village. To achieve this he has recently joined the Ninja Academy. On the first day at academy he developed a crush on Sakura. He asks Sakura to have dinner with him at Ramen Ichiraku. But Sakura instead of giving a straight forward answer, asked a puzzle and told him that the answer to the puzzle and her answer for his proposal are same. But Naruto is not good with puzzles, so he asked you to help him out. As Naruto is a very persistent ninja, he didn't her ask only once but multiple times to increase his chances.<br><br>\n\nThe puzzle which she gave him is : She gave him an integer N and Naruto has to answer whether or not a continuous sequence of natural numbers with each number less than N exists such that the sum of the sequence is equal to N.<br><br>\n\n<b>Note : Large test data. Use faster I/O methods</b>\n<br><br>\n\n<font size = 3 > <b>Input</b> </font> <br><br>\nThe first line contains an integer <b>T</b>, the number of times Naruto asks Sakura out.\nThen follows T lines each containing an integer <b>N</b>.<br><br>\n\n<font size = 3 > <b>Output</b> </font> <br><br>\nOutput <b>N</b> lines containing <b>\"Yes\"</b> or <b>\"No\"</b> (without quotes) depending on whether such a sequence exists or not for the corresponding N.<br><br>\n\n<font size = 3 > <b>Constraints</b> </font> <br><br>\n1 &le; T,N &le; 1000000<br><br>\n\n<font size = 3><b>Example</b> </font> <br><br>\n\n<font size = 2><b>Input:</b> </font><br>\n4<br>\n3<br>\n4<br>\n5<br>\n12<br>\n<br>\n<font size = 2><b>Output:</b> </font><br>\nYes<br>\nNo<br>\nYes<br>\nYes<br>\n<br>\n<font size = 3><b>Explanation</b></font> <br>\nProposal 1 : N = 3. Since 1 + 2 = 3 therefore a continuous sequence of natural numbers exist with sum 3. So answer is Yes.<br>\nProposal 2 : N = 4. The possible continuous sequences are (1), (1,2), (1,2,3), (2), (2,3), (3) and the sum of none of these is equal to 4. So answer is No.<br>\nProposal 3 : N = 5. Since 2 + 3 = 5 therefore a continuous sequence of natural numbers exist with sum 5. So answer is Yes.<br>\nProposal 4 : N = 12. Since 3 + 4 + 5 = 3 therefore a continuous sequence of natural numbers exist with sum 12. So answer is Yes.<br><br>",
+    "category_name": "main",
+    "date_added": "31-08-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/INSQ16A",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1473004800,
+        "end_date": 1473015600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1473015600,
+        "submit_start_date": 1473004800,
+        "current": 1537434644
+    },
+    "user": {
+        "username": ""
+    }
+}

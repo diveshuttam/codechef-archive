@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Government has a secret system, which spies you on every hour of every day. The system is built by **Semcrack** to detect terror activities for government.  \nThis system classifies people into two categories **Innocent person** and **Dangerous person**, but they built their system to save everyone's life whether he is an innocent or dangerous person. **Innocent person** might become **Dangerous person** and vice versa.  \nBut according to government a **Dangerous person** might be threat for others because they recognize a pattern that who has highest connection with **Dangerous person** gonna die, hence government asked **Semcrack** to build this system according to them, but **Semcrack** refused to do it.  \nBut the government only wants to save **Innocent people** not **Dangerous people** , so government is seeking for your help to manipulate the system to save only **Innocent people** .\n\n###Input:\n\n- First line will contain $T$, number of testcases. Then the testcases follow. \n- Next line contains two integers $N$,$ M$, number of people (from $1$ to $N$) and number of relations between them.\n- Next $M$ line contain two integers and two characters $A,B,C,D$ denoting $A$ first person, $B$ second person ($A$ connected to $B$), $C$ status of person $A$ (Innocent or Dangerous), $D$ status of person $B$ .\n\n###Output:\nFor each testcase, output the person who is gonna die, if there are multiple persons gonna die print all of them in increasing order.\n\n###Constraints \n- $1 \\leq T \\leq 10^3$\n- $2 \\leq N \\leq 10^3$\n- $2 \\leq M \\leq 10^6$\n\n###Subtasks\n### 30 points : \n- $1 \\leq T \\leq 10^2$\n- $2 \\leq N \\leq 4*10^2$\n- $2 \\leq M \\leq 10^4$\n### 70 points : \n- $1 \\leq T \\leq 10^3$\n- $2 \\leq N \\leq 10^3$\n- $2 \\leq M \\leq 10^6$\n\n###Sample Input:\n\t2\n\t5 12\n\t4 4 d d\n\t4 3 i i\n\t2 1 i i\n\t1 4 d i\n\t3 4 d i\n\t2 1 i d\n\t4 2 i d\n\t4 4 i d\n\t2 3 d i\n\t4 4 i i\n\t3 3 i i\n\t3 3 d i\n\t5 18\n\t1 1 d d\n\t3 3 i i\n\t2 2 d i\n\t1 3 d i\n\t2 1 d d\n\t1 2 d d\n\t3 3 i d\n\t3 3 d i\n\t2 3 d d\n\t4 3 i i\n\t3 1 d d\n\t3 4 d i\n\t3 3 d i\n\t1 4 d i\n\t4 2 d d\n\t2 2 i d\n\t4 3 d i\n\t1 1 d d\n\n###Sample Output:\n\t4\n\t1 2\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Coding Hours",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1533310200,
+        "end_date": 1533483000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1533483000,
+        "submit_start_date": 1533310200,
+        "current": 1537432192
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>admin5</span>",
+    "problem_name": "The Machine",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin5'>admin5</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin5",
+    "contest_code": "COHR2018",
+    "max_timelimit": "0.8",
+    "problem_code": "MCHN"
+}

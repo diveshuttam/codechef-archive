@@ -1,0 +1,33 @@
+{
+    "problem_code": "DSERIES",
+    "problem_author": "abhi_1595",
+    "contest_name": "LoC May 2018",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>abhi_1595</span>",
+    "problem_name": "Direct Series",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "LOCMAY18",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhi_1595'>abhi_1595</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/locmay18'>locmay18</a>, <a class='problem-tag-small ' href='/tags/problems/math'>math</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><center>\n$sum$ = $\\sum_{ i = 1 }^{ i = N } \\prod_{ k = 1 }^{ k = T }( i + k )$\n</center>\n<br>\nGiven <b>Q</b> queries in each query two numbers <b>N</b> and <b>T</b> is given, You have to  print the value of  $sum$ . Since $sum$ can be large, output it modulo<b> 1000000007 ($10^9 + 7$) </b> .\n<br>\n\n<h3>Input</h3>\n<p>The first line of input contains an integer <b>Q</b> denoting the number of queries. \n<br>\nThe next Q lines contains two space separated integers,<b>N</b> and <b>T</b> denoting the parameters of the summation above.\n<br>\n</p>\n\n\n<h3>Output</h3>\n<p>\nFor each query print the value of $sum$ in  a new line . \n  \n</p>\n</ul>\n<p> </p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10000000000</b></li>\n\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>1000</b></li>\n</ul>\n<br>\n<p><h3><b>Subtasks</b></h3> <br> \n<pre>\n<b>Subtask #1 (20 points), Time limit : 2 sec\nQ<=100\nN<=100\nT<=100\n<br>\nSubtask #2 (80 points), Time limit : 2 sec\nQ<=100000\nN<=10000000000\nT<=1000<br>\n</b>\n </pre>\n<p> </p>\n<pre><b>Input:</b>\n1\n3 2\n<b>Output:</b>\n38\n</pre>\n<p> </p>\n<h3>Explanation</h3>\nN = 3 and T = 2\n<br> \n2*3 + 3*4 + 4*5 = 38 \n<br>\n</b>\n</p>",
+    "category_name": "main",
+    "date_added": "24-05-2018",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, kotlin, TEXT, SCM chicken, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/DSERIES",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1527359400,
+        "end_date": 1527532200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1527532200,
+        "submit_start_date": 1527359400,
+        "current": 1537432417
+    },
+    "user": {
+        "username": ""
+    }
+}

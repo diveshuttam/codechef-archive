@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Shibu is playing a game in which she will be given two strings $A$ and $B$.\n\nIn order to win the game, she needs to count the number of substrings of $A$ which are also present in $B$. She manages to win the game for smaller strings but it becomes difficult for her as the string size increases.\n\nTo help her, write a program for her where she can input two strings $A$ and $B$ and get the desired result as output.\n\n###Input:\n\n- First line contains a string $A$.\n- Second line contains another string $B$\n\n###Output: \n- Output the number of substrings of $A$ which are present in $B$.\n\n###Constraints \n- $1 \\leq \\text{length  of  A, B} \\leq 300$\n\n###Sample Input:\n\tabcd\nspaebct\n\n###Sample Output:\n\t4\n\t\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-09-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Code Incognito",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, PYP3, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1537371000,
+        "end_date": 1537378200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1537378200,
+        "submit_start_date": 1537371000,
+        "current": 1537431963
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>priyanshi_</span>",
+    "problem_name": "Shibu and String Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/priyanshi_'>priyanshi_</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "priyanshi_",
+    "contest_code": "INCC2018",
+    "max_timelimit": "2",
+    "problem_code": "PRISTG"
+}

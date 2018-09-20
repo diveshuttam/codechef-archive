@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">You are given the coordinates of the vertices of a square in the 2-d plane. All vertex coordinates will be integers.</p>\n\n<p align=\"justify\">Now consider all convex quadrilaterals which also have integer coordinates for their vertices such that the midpoints of their edges are the vertices of the original square. Find the sum of areas of all such quadrilaterals.</p>\n\n<h3>Input</h3>\n<p align=\"justify\">The first line of input gives T, the number of test cases (1\u2264T\u226425000). Following this are the descriptions of the individual testcases. Each testcase consists of four lines, each line containing two space separated integers - the x and y coordinates of a distinct vertex of the square. The coordinate limits are -1000000000\u2264x<sub>i</sub>,y<sub>i</sub>\u22641000000000. It is assured that the four vertices will correspond to a square.</p>\n\n\n<h3>Output</h3>\n<p align=\"justify\">For each testcase output the total area of quadrilaterals with the given property. Since the answer could be very large, give the answer modulo 100000007.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n0 0\n1 1\n1 0\n0 1\n0 1\n1 0\n0 -1\n-1 0\n\n<b>Output:</b>\n0\n4\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-01-2012",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC Techkriti 2012 - IIT Kanpur",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, PAS fpc, PAS gpc, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1326522600,
+        "end_date": 1326609000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1326609000,
+        "submit_start_date": 1326522600,
+        "current": 1537439042
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>razimantv</span>",
+    "problem_name": "Quadrilaterals",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/razimantv'>razimantv</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "razimantv",
+    "contest_code": "IOPC2012",
+    "max_timelimit": "0.1263",
+    "problem_code": "IOPC1202"
+}

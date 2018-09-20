@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Today, we will be unraveling the mysteries of one of the most twisted and curly beasts in all existence knots! The problem here is simple: given the picture of a string laid out curled on a table, you are to determine if it will curl up into a knot when the ends are pulled out.</p>\n\n<pre>\n...............  \n...+------+....  \n...|......|....  \n...|...+--H----  \n...|...|..|....  \n---I---H--+....  \n...|...|.......  \n...+---+.......  \n...............\n</pre>\n\n<p>The input will consist of a diagram of one single continuous string described in a two-dimensional grid of characters such as shown above. The &lsquo;&#8722;&rsquo; and &lsquo;|&rsquo; characters represent a horizontal and vertical segment of the string, respectively. &lsquo;+&rsquo; characters represent corners where the string turns at right angles on the table. &lsquo;I&rsquo; or &lsquo;H&rsquo; characters represent locations where parts of the strings cross:\n<ul>\n<li>&lsquo;H&rsquo; represents locations where the horizontal string passes over the vertical string</li>\n<li>&lsquo;I&rsquo; represents locations where the horizontal string passes under the vertical string</li>\n</ul> </p>\n\n<p>The dot character, &lsquo;.&rsquo;, obviously, represents empty spaces of the table unoccupied by the string. Two horizontally adjacent non-empty spaces of the table are connected by the string iff neither of them are &lsquo;|&rsquo; characters. Similarly, vertically adjacent non-empty spaces are connected by the string iff neither of them are &lsquo;-&rsquo; characters. Inputs will be such that every &lsquo;+&rsquo; character will represent a proper corner where the string turns at a unambiguously at a right angle: formally, every &lsquo;+&rsquo; character will be connected to exactly one vertically adjacent and exactly one horizontally adjacent space. Moreover, to further simplify matters, you can assume that the only characters along the border of the given diagram, other than dots, will represent endpoints of the string. In short, the input will unambiguously specify a valid piece of string starting and ending at the border of the input diagram. Finally, assume that the string has negligible width and is made of a very smooth material, so that parts of the string can easily slide over each other with negligible friction.</p>\n\n\n<h3>Input</h3>\n<p> The input will consist of at most 80 test cases. Each test case will start with a single line containing two integers, r and c, indicating that the size of the diagram for that case is of r rows and c columns. This line will be followed by r more lines, each with exactly c characters, with characters in each line representing a row of the diagram. You may assume that 2 &#8804; r,c &#8804; 120.</p>\n\n<h3>Output</h3>\n<p>The output should consist of exactly one line for each test case in the format Case c: Response, where c is the test case serial number, starting from 1, and Response is either the string straightened or knotted (without the quotes) depending on whether the string will straighten out or coil up into a knot, respectively. See the sample for further clarifications.</p>\n\n<h3>Sample input and output</h3>\n\n\n\n<table>\n<tr>\n <td>stdin</td>\n  <td>stdout</td>\n</tr>\n\n<tr>\n  <td>9 15</td>\n  <td>Case 1: knotted</td>\n</tr>\n\n<tr>\n  <td>...............</td>\n  <td>Case 2: straightened</td> \n</tr>\n\n<tr>\n  <td>...+------+....</td>\n  <td></td> \n</tr>\n\n<tr>\n  <td>...|......|....</td>\n  <td></td> \n</tr>\n\n<tr>\n  <td>...|...+--H----</td>\n  <td></td> \n</tr>\n\n<tr>\n  <td>...|...|..|....</td>\n  <td></td> \n</tr>\n\n<tr>\n  <td>---I---H--+....</td>\n  <td></td> \n</tr>\n\n<tr>\n  <td>...|...|.......</td>\n  <td></td> \n</tr>\n\n<tr>\n  <td>...+---+.......</td>\n  <td></td> \n</tr>\n\n<tr>\n  <td>...............</td>\n  <td></td> \n</tr>\n\n\n\n<tr>\n  <td>9 15</td>\n  <td></td>\n</tr>\n\n<tr>\n  <td>...............</td>\n  <td></td> \n</tr>\n\n<tr>\n  <td>...+------+....</td>\n  <td></td> \n</tr>\n\n<tr>\n  <td>...|......|....</td>\n  <td></td> \n</tr>\n\n<tr>\n  <td>...|...+--I----</td>\n  <td></td> \n</tr>\n\n<tr>\n  <td>...|...|..|....</td>\n  <td></td> \n</tr>\n\n<tr>\n  <td>---I---H--+....</td>\n  <td></td> \n</tr>\n\n<tr>\n  <td>...|...|.......</td>\n  <td></td> \n</tr>\n\n<tr>\n  <td>...+---+.......</td>\n  <td></td> \n</tr>\n\n<tr>\n  <td>...............</td>\n  <td></td> \n</tr>\n\n</table>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-10-2010",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Kanpur Site First Round Online Contest ",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1288429200,
+        "end_date": 1288440000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1288440000,
+        "submit_start_date": 1288429200,
+        "current": 1537439465
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Problem With Strings",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "ACMKAN10",
+    "max_timelimit": "0.689655",
+    "problem_code": "ACMKANPA"
+}

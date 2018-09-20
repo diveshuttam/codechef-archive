@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Chef wanted to paint a wall in his house, but he did not like the way ordinary people paint walls. So he invented a new machine that can do so. Consider the wall to be a rectangular grid of height <b>N</b> and width <b>M</b> such that the top-left corner is <b>(1, 1)</b> and the bottom-right corner is <b>(N, M)</b>. Chef can input the coordinates of the top-left corner and the bottom-right corner of any rectangle on this grid along with a colour into the machine, and the machine almost miraculously paints the specified portion of the wall with the specified colour. Repainting any grid cell completely overwrites the previous colour of that cell. Now Chef's favourite colours are <b>white</b>, <b>red</b>, <b>blue</b> and <b>black</b>, so he will be using these 4 colours only. The wall has been recently whitewashed, so initially the whole wall is white.</p>\n<p>Given a sequence of inputs to Chef's painting machine, can you predict correctly how many grid cells will be coloured white, red, blue and black at the end?</p>\n\n<h3>Input</h3>\n<p>The first line of the input contains the height <b>N</b> and the width <b>M</b> of the grid that represents Chef's wall.</p>\n<p>The second line contains <b>U</b>, the number of inputs to Chef's machine.</p>\n<p>The next <b>U</b> lines each contain 4 integers <b>x<sub>1</sub></b>, <b>y<sub>1</sub></b>, <b>x<sub>2</sub></b>, <b>y<sub>2</sub></b>, and a character <b>C</b> separated by spaces.<br>\n<b>(x<sub>1</sub>, y<sub>1</sub>)</b> and <b>(x<sub>2</sub>, y<sub>2</sub>)</b> are the top-left and bottom-right corners of the rectangle to be painted color <b>C</b>.<br>\n<b>C</b> may be <b>W</b>, <b>R</b>, <b>B</b> or <b>K</b> representing white, red, blue and black.</p>\n<b>Note: Please trim trailing whitespaces</b>\n<p> </p>\n\n<h3>Output</h3>\n<p>Output 4 space separated integers denoting the number of grid cells coloured white, red, blue and black in correct order after the sequence of inputs.</p>\n\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N, M</b> \u2264 <b>10<sup>6</sup></b></li>\n<li><b>N\u00d7M</b> \u2264 <b>4\u00d710<sup>6</sup></b></li>\n<li><b>1</b> \u2264 <b>U</b> \u2264 <b>10000</b></li>\n<li><b>1</b> \u2264 <b>x<sub>1</sub></b> \u2264 <b>x<sub>2</sub></b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>y<sub>1</sub></b> \u2264 <b>y<sub>2</sub></b> \u2264 <b>M</b></li>\n<li><b>C</b> is either <b>W</b>, <b>R</b>, <b>B</b> or <b>K</b>.\n</ul>\n\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n5 5\n3\n1 1 3 3 R\n3 3 5 5 B\n2 2 4 4 K\n\n<b>Output:</b>\n6 5 5 9\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>After painting, the wall will look like<br>\n<code>RRRWW<br>\nRKKKW<br>\nRKKKB<br>\nWKKKB<br>\nWWBBB\n</code><br>\nThere are 6 white cells, 5 red cells, 5 blue cells and 9 black cells.\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-02-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Coders' Legacy 2017A",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1488087000,
+        "end_date": 1488130200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1488130200,
+        "submit_start_date": 1488087000,
+        "current": 1537434091
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>subham_75</span>",
+    "problem_name": "Wall Painting",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/subham_75'>subham_75</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "subham_75",
+    "contest_code": "COLG2017",
+    "max_timelimit": "1.25",
+    "problem_code": "CLWALL"
+}

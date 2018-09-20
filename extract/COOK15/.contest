@@ -1,0 +1,87 @@
+{
+    "announcements": "<p><b>09:30pm</b>: We apologise for problems not appearing on the scheduled time. The contest has been extended by 15 minutes.</p>\r\n<p><b>09:55pm</b>: The Rank List for the CodeChef October Cook Off is available\u00c2\u00a0<br />here:\u00c2\u00a0<a href=\"/rankings/COOK15\">http://www.codechef.com/rankings/COOK15</a></p>\r\n<p><b>10:10pm</b>: All contestants that see a strange sign =/ in the problem statement of GENARSEQ please update pages with all the problems. Problem statements was changed several times during the beginning of the contest.",
+    "ip": "149.129.135.113",
+    "code": "COOK15",
+    "duration": "165",
+    "name": "October Cook-off",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>The October Cook-off has ended.</b></p> <p><b> </b><b>You can view the ediotrials for the contest\u00a0<a href=\"/wiki/october-2011-cook-problem-editorials\">here</a>.</b></p> <p><b> </b><b>The Winners blog is up, and can be viewed\u00a0<a href=\"http://blog.codechef.com/2011/10/24/the-october-2011-cook-off-first-words/\">here</a>.</b></p> <p><b> </b><b>------------------------------------------------------------</b></p> <p><b><br /></b></p> <p><span><b>Rules:</b></span></p> <p><b><span><b> </b></span></b></p> <p class=\"MsoNoSpacing\"><b><b><b>In case you are a new user, you will need to first register for a CodeChef ID\u00a0<a href=\"/user/register/\">here</a>.</b></b></b></p> <p><b><b> </b></b></p> <p><b><span> </span></b></p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at\u00a0<a href=\"mailto:feedback@codechef.com\" target=\"_blank\">feedback@codechef.com</a></li> <br /> <li>You can also send in your queries in an email to\u00a0<a href=\"mailto:contest-admin@codechef.com\" target=\"_blank\">contest-admin@codechef.com</a>, during the contest.</li> <br /> <li>Contest problems will become visible on October 23rd, 2011 at 21:30 (IST). There will be 5 problems in all.</li> <br /> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <br /> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <br /> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> </ul> <ul> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COOK15/1424964326.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "TRAVELER": {
+            "allow_submission": false,
+            "name": "Chef Travel Routes",
+            "category_name": "main",
+            "accuracy": 35.12,
+            "successful_submissions": "192",
+            "code": "TRAVELER",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PERMDIG": {
+            "allow_submission": false,
+            "name": "Permute Digits",
+            "category_name": "main",
+            "accuracy": 17.86,
+            "successful_submissions": "10",
+            "code": "PERMDIG",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GENARSEQ": {
+            "allow_submission": false,
+            "name": "Generalized Arithmetic Progression Free Sequence",
+            "category_name": "main",
+            "accuracy": 11.72,
+            "successful_submissions": "99",
+            "code": "GENARSEQ",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "NONPALIN": {
+            "allow_submission": false,
+            "name": "First non-Palindrome",
+            "category_name": "main",
+            "accuracy": 20.78,
+            "successful_submissions": "16",
+            "code": "NONPALIN",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LAMQUGAM": {
+            "allow_submission": false,
+            "name": "Lame Queen Game",
+            "category_name": "main",
+            "accuracy": 15,
+            "successful_submissions": "3",
+            "code": "LAMQUGAM",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1319395500,
+        "current": 1537439103,
+        "freezing": 0,
+        "start": 1319385600
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "FINDSEQ",
+    "problem_author": "rustinpiece",
+    "contest_name": "February 2012 Challenge",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rustinpiece</span>",
+    "problem_name": "Find a Subsequence",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>anton_lunyov</span>",
+    "contest_code": "FEB12",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/feb12'>feb12</a>, <a class='problem-tag-small ' href='/tags/problems/hard'>hard</a>, <a class='problem-tag-small ' href='/tags/problems/rustinpiece'>rustinpiece</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Given an array <b>A</b> of <b>N</b> integers <b>A[0], A[1], ..., A[N-1]</b> and a string <b>B</b> which is a permutation of <b>\"12345\"</b>.\n<br />You have to find a subsequence of 5 elements from <b>A</b> having <b>distinct values</b> such that their relative order is same as <b>B</b>.\n<br />\nMeaning that, if <b>(i<sub>0</sub>, i<sub>1</sub>, i<sub>2</sub>, i<sub>3</sub>, i<sub>4</sub>)</b> are the indexes of such a subsequence\n<b> (0 &lt;= i<sub>0</sub> &lt; i<sub>1</sub> &lt; i<sub>2</sub> &lt; i<sub>3</sub> &lt; i<sub>4</sub> &lt; N)</b> then:\n\n<li>\nA[i<sub>0</sub>] is the B[0]-th smallest element among the 5 numbers.</li>\n<li>\nA[i<sub>1</sub>] is the B[1]-th smallest element among the 5 numbers.</li>\n<li>\nA[i<sub>2</sub>] is the B[2]-th smallest element among the 5 numbers.</li>\n<li>\nA[i<sub>3</sub>] is the B[3]-th smallest element among the 5 numbers.</li>\n<li>\nA[i<sub>4</sub>] is the B[4]-th smallest element among the 5 numbers.\n</li>\n\n\n<h3>Input</h3>\n<p>The first line of input contains <b>T(&lt;=60)</b> which is the number of tests cases.  The first line of each test case will be an integer <b>N (5&lt;=N&lt;=1000)</b> and a string<b> B</b> containing a permutation of<b> \"12345\"</b>. Next line will contain <b>N</b> integers <b>A[0], A[1], ..., A[N-1]</b>.  Each of them will be between <b>-10<sup>9</sup> and +10<sup>9</sup></b> (inclusive). </p>\n\n<h3>Output</h3>\n<p>For each test case output five space separated integers in ascending order which are the indexes <b>(i<sub>0</sub>, i<sub>1</sub>, i<sub>2</sub>, i<sub>3</sub>, i<sub>4</sub>)</b> of a five length subsequence described before. You may output any solution. If there is no solution just output \"-1\" without quotes. </p>\n\n<h3>Example</h3>\n\n<pre><b>Input:</b>\n2\n7 32145\n6 17 5 3 13 8 10\n7 12345\n10 20 30 40 40 20 10\n\n<b>Output:</b>\n0 2 3 5 6\n-1\n</pre>\n\n<br /><br />\n<b>Explanation of 1st sample:</b> {0, 2, 3, 5, 6} is a valid solution because the values of those indexes {6, 5, 3, 8, 10} will have ranks {3, 2, 1, 4, 5} after sorting. But {0, 2, 3, 4, 5} is not a solution as the values {6, 5, 3, 13, 8} will have ranks {3, 2, 1, 5, 4} after sorting.\n<br />\n<b>Explanation of 2nd sample:</b> There is no five length subsequence in the array that will have ranks {1, 2, 3, 4, 5}  after sorting.",
+    "category_name": "main",
+    "date_added": "7-12-2011",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1.32192 - 2.05633",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/FINDSEQ",
+    "problem_tester": "anton_lunyov",
+    "time": {
+        "view_start_date": 1328088600,
+        "end_date": 1328952600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1328952600,
+        "submit_start_date": 1328088600,
+        "current": 1537439016
+    },
+    "user": {
+        "username": ""
+    }
+}

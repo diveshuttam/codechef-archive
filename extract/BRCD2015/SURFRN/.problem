@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Suruchi's friend arrived to her state and called her up.She became very happy and wanted to meet her as soon as possible. But her friend arrived in city B while Suruchi lived in city A. Suruchi's state have N cities and any two city that are connected are bidirectional and have the same distance. She wants to reach her friend as soon as possible so she wants your help in finding out the smallest distance possible.</p>\n<p>Capital of city is always numbered 1. </p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first line of each test case contains three space-separated integers <b>N</b> <b>A</b> <b>B</b> denoting number of cities in her state , Suruchi's city and her friend's city respectively.\n</li>\n<li>Next <b>N-1</b> lines show the connection between the cities.\n</li>\n</ul>\n<h3>Output</h3>\n<p>Print the shortest distance between city A and city B.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>A</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>B</b> \u2264 <b>100</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n15 2 7\n1 2\n1 3\n2 4\n2 5\n3 6\n3 7\n4 8\n4 9\n5 10\n5 11\n6 12\n6 13\n7 14\n7 15\n<b>Output:</b>\n3\n</pre><h3>Explanation</h3>\n<p><b>Example case 1.</b> She travels 2->1,1->3,3->7. Therefore answer is 3</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "BreakTheCode 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1425303000,
+        "end_date": 1425364200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1425364200,
+        "submit_start_date": 1425303000,
+        "current": 1537436665
+    },
+    "problem_author_html_handle": "aditya0903",
+    "problem_name": "Happy Suruchi",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aditya0903'>aditya0903</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "aditya0903",
+    "contest_code": "BRCD2015",
+    "max_timelimit": "0.5",
+    "problem_code": "SURFRN"
+}

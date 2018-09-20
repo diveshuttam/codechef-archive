@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Given a string check if it\u2019s perfect.\n\nThe given string contains only letters in lowercase.A perfect string contains alternating consonants and vowels where the number of consonants is one whereas the number of vowels can be more than 1.Also the string starts with a consonant.\n\nIf a string is perfect print \u201cTrue\u201d otherwise print \u201cFalse\u201d.\n\n###Input:\nThe first line of the input contains a single string. \n\n###Output:\nA single line containing the answer.\n\n###Constraints \n- $1 \\leq length of string \\leq 1000$\n\n###Sample Input 1:\n\tbaajoukil\n###Sample Output 1:\n\tTrue\n\n\n###Sample Input 2:\n\tbkohep\n###Sample Output 2:\n\tFalse",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Code-Golf",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1523194200,
+        "end_date": 1523205000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1523205000,
+        "submit_start_date": 1523194200,
+        "current": 1537432655
+    },
+    "problem_author_html_handle": "adityarohan14",
+    "problem_name": "PERFECT STRING",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/adityarohan14'>adityarohan14</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "adityarohan14",
+    "contest_code": "COLF2018",
+    "max_timelimit": "1",
+    "problem_code": "APR104"
+}

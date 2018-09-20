@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Two friends Naman and Prayank are too bored by their studies.\nSo decided to play a game.They called their juniors too. There is a grid of dimension <b>M * N</b>. They will ask any junior to stand in the grid with one of his leg in one cell and another in another adjacent cell (may be horizontal or vertical only). No two juniors can have any leg in the same cell and it\u2019s not necessary that each cell is covered by leg of any student. </p>\n<p>Now Naman is thinking if size of the grid is large then how many final junior configurations they can get? Since the answer can be large, you should print  \nit modulo 1000000007(10<sup>9</sup> + 7).\n</p>\n<p><b>Note - Do not count permutations of juniors.</b>\n<br>\nNaman being a talented guy has already solved this problem.\nCan you solve it as well?\n</p>\n\n<h3>Input</h3>\n<p>The first line contains single integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows: Each containing 2 positive integers <b>M</b> and <b>N</b> - dimensions of the grid.</p>\n\n<h3>Output</h3>\n\n<p>For each test case, output a single line number of final configurations.Since the answer can be large, you should print it modulo 1000000007(10<sup>9</sup> + 7).\n</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>6</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n<b>2\n2 3\n6 1000\n</b>\n<b>Output:</b>\n<b>22\n337435553\n</b>\n</pre>\n<p>\u00a0</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Googol",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1481297400,
+        "end_date": 1481310000,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1481310000,
+        "submit_start_date": 1481297400,
+        "current": 1537434348
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>kunnu96</span>",
+    "problem_name": "Grid Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kunnu96'>kunnu96</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kunnu96",
+    "contest_code": "GOGL2016",
+    "max_timelimit": "1 - 5",
+    "problem_code": "GOGL16T8"
+}

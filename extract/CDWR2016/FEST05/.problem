@@ -1,0 +1,33 @@
+{
+    "problem_code": "FEST05",
+    "problem_author": "vipinkhushu",
+    "contest_name": "CodeWars",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>vipinkhushu</span>",
+    "problem_name": "Frustrated Vipin",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CDWR2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cdwr2016'>cdwr2016</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/vipinkhushu'>vipinkhushu</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Vipin gets frustrated with mathematical numbers.After studying a alot of Engineering Mathematics from last three sem's he found a feeling of relief as he is thinking of not getting faced by mathematical numbers.But while coding he has to write some numbers at some places.He get irritated of it.You are a good friend of Vipin.You wanted to surprise him with a gadget which changes mathematical numbers into alphabets.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n\n<ul>\n<li>The first line contains <b>T</b> i.e. the number of test cases.<br />\n.</li>\n<li><b>T</b> lines follow, each line containing an integer <b>N</b>.</li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>For each testcase, print  integer <b>N</b> into english.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10^9</b></li>\n<li><b>0</b> \u2264 <b>N</b> \u2264 <b>99</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n1\n33\n\n<b>Output:</b>\none\nthirty-three\n</pre><hr />\n<h3>Solution</h3>\n<pre>\n#include&lt;bits/stdc++.h>\nusing namespace std;\nint main()\n{\nint n;\nscanf(\"%d\",&n);\n    string ret=\"\";\n    int first = n / 10;\n    int second = n/100;\n    if(first > 10){\n        if(first == 2){ ret += \"twenty\"; }\n        else if(first == 3){ ret += \"thirty\"; }\n        else if(first == 4){ ret += \"forty\"; }\n        else if(first == 5){ ret += \"fifty\"; }\n        else if(first == 6){ ret += \"sixty\"; }\n        else if(first == 7){ ret += \"seventy\"; }\n        else if(first == 8){ ret += \"eighty\"; }\n        else if(first == 9){ ret += \"ninety\"; }\n        if(second > 0){ ret += \"+\"; }\n    }\n    else if(first == 1){\n        if(second == 0){ ret += \"ten\"; }\n        else if(second == 1){ ret += \"eleven\"; }\n        else if(second == 2){ ret += \"twelve\"; }\n        else if(second == 3){ ret += \"thirteen\"; }\n        else if(second == 4){ ret += \"fourteen\"; }\n        else if(second == 5){ ret += \"fifteen\"; }\n        else if(second == 6){ ret += \"fifteen\"; }\n        else if(second == 7){ ret += \"seventeen\"; }\n        else if(second == 8){ ret += \"eighteen\"; }\n        else if(second == 9){ ret += \"nineteen\"; }\n    }\n    if(first == 1){\n        if(first == 0 && second == 0){ ret += \"zero\"; }\n        if(second == 1){ ret += \"one\"; }\n        else if(second == 2){ ret += \"two\"; }\n        else if(second == 3){ ret += \"three\"; }\n        else if(second == 4){ ret += \"four\"; }\n        else if(second == 5){ ret += \"five\"; }\n        else if(second == 6){ ret += \"six\"; }\n        else if(second == 7){ ret += \"seven\"; }\n        else if(second == 8){ ret += \"eight\"; }\n        else if(second == 9){ ret += \"nine\"; }\n    }\n    cout&lt;&lt;ret&lt;&lt;endl;\n    return 0;\n}\n\n</pre><hr />\n<h3>Steps to be followed</h3>\n<p>    1. Read the given description carefully and understand the problem.<br /><br /></p>\n<p>    2. Analyze the code given in the problem and find bugs(errors) in these codes..<br /><br /></p>\n<p>    3. The given code can be copied and compiled in an online compiler (Eg. ideone.com).<br /><br /></p>\n<p>    4. Once the bugs are eliminated from the code, the clean code can be submitted as the solution to the problem..<br /><br /></p>\n<p>    5. The solution should be a debugged version of the code provided and must satisfy the test cases to be accepted..<br /><br /></p>\n<p><b>All the best!!</b></p>\n",
+    "category_name": "main",
+    "date_added": "9-03-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, PYTH, PYTH 3.6, PYPY",
+    "max_timelimit": "1 - 4",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/FEST05",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1457686800,
+        "end_date": 1457694000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457694000,
+        "submit_start_date": 1457686800,
+        "current": 1537435185
+    },
+    "user": {
+        "username": ""
+    }
+}

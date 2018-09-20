@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0Peter and Ivan, being programmers, love brackets. One day Peter challenged Ivan to solve a problem to see whose love is greater. The problem is to efficiently perform the following task.<br />\n<br /><br /><br />\nGiven a sequence of brackets \u2018(\u2018 and \u2018)\u2019 of length <b>N</b> and <b>Q</b> queries. Each of the query is the following form.<br />\n<br /><br /><br />\n<b>1 p x: </b> insert a bracket <b>x</b> at position <b>p</b>. <b>x</b> is either \u2018(\u2019 or \u2018)\u2019<br />\n<br /><br /><br />\n<b> 2 l r: </b> reverse the bracket sequence from position <b>[l, r]</b> i.e <b>A[l+k] becomes A[r-k]</b>  for all k in range <b>[0, r-l]</b><br />\n<br /><br /><br />\n<b> 3 l r: </b> Count the number of distinct balanced bracket sequences that can be formed by using brackets from <b>l</b> to <b>r</b> (possibly not all) mod 10^9+7. <b> Remember: </b> A balanced bracket sequence is one where number of opening brackets is equal to the number of closing brackets and  for every prefix of the sequence the no of opening brackets is greater than or equal to the number of closing brackets.<br />\n<br /><br /><br />\n<b>Note:</b> You can rearrange the brackets for query of type 3 for forming sequences. However the array has to be left unchanged by this query.<br />\n<br /><br /><br /><br />\nDespite all his skills, Ivan finds himself unable to solve the problem efficiently. Ivan hates loosing.  Therefore he asks you for your help. Help Ivan solve it otherwise he will loose the bet.\n</p>\n<h3>Input</h3>\n<p>\u00a0<br />\nThe first line will consist of string S containing a bracket sequence and an positive integer Q. It is followed by Q queries as mentioned in the problem. All indices are <b>1-based</b>.\n</p>\n<h3>Output</h3>\n<p>\nFor each query of type 3, print the number of balanced bracket sequences that can be formed using the brackets.<br />\n\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li> 1 &lt;= <b>|S|</b> &lt;= 10<sup>5</sup></li>\n<li> 1 &lt;= <b>Q</b> &lt;= 10<sup>5</sup></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<p>\n()(<br /><br />\n6<br /><br />\n3 1 2<br /><br />\n3 1 3<br /><br />\n1 1 )<br /><br />\n3 1 4<br /><br />\n2 1 3<br /><br />\n3 1 2</p>\n<p><b>Output:</b></p>\n<p>\n1<br /><br />\n1<br /><br />\n3<br /><br />\n1<br />\n</p>\n<h3>Explanation</h3>\n<p>\n<b>Query #1:</b> The only balanced sequence is \u2018()\u2019<br /><br />\n<b>Query #2: </b> The only balanced sequence is \u2018()\u2019<br /><br />\nAfter the insertion operation the bracket sequence becomes )()(<br /><br />\n<b> Query #3: </b> The only balanced sequence is \u2018()\u2019, \u2018(())\u2019, \u2018()()\u2019 <br /><br />\nAfter the reverse operation  the bracket sequence becomes )()( <br /><br />\n<b> Query #4: </b> The only balanced sequence is \u2018()\u2019 <br />\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "8-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Apocalypse",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457533800,
+        "end_date": 1457551800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457551800,
+        "submit_start_date": 1457533800,
+        "current": 1537435223
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>dragonslayerx</span>",
+    "problem_name": "Peter and Bracket Matching",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/dragonslayerx'>dragonslayerx</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "dragonslayerx",
+    "contest_code": "IPC15P3C",
+    "max_timelimit": " - 1",
+    "problem_code": "BRCKMT"
+}

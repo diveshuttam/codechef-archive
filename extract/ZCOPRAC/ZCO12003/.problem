@@ -1,0 +1,31 @@
+{
+    "status": "success",
+    "problem_tester": null,
+    "body": "<h2>Zonal Computing Olympiad 2012, 26 Nov 2011</h2>\n\n<br>\n<p> We consider sequences of opening and closing brackets with two types of brackets, <tt>()</tt> and <tt>[]</tt>.  A bracket sequence is <em>well-bracketed</em> if we can pair up each opening bracket with a matching closing bracket in the usual sense.  For instance, the sequences <tt>()</tt>, <tt>[]</tt> <tt>([])</tt> and <tt>[]([])</tt> are well-bracketed, while <tt>(</tt>, <tt>()]</tt>, <tt>(]</tt>, <tt>)(</tt> and <tt>[(])</tt> are not well-bracketed.  In the last case, each opening bracket has a matching closing bracket and vice versa, but the intervals spanned by the different types of brackets intersect each other instead of being contained one within the other.</p>\n\n<br>\n<p> The <em>alternating depth</em> of a well-bracketed sequence tells us the maximum number of times we switch between the two types of brackets when we have inner matched brackets enclosed within outer matched brackets.  For instance, the alternating depth of <tt>()</tt>, <tt>[[[]]]</tt> and <tt>()[][]</tt> is 1, the alternating depth of <tt>[()]</tt> and <tt>()([])</tt> is 2, the alternating depth of <tt>([()])</tt> and <tt>[()][(([]))]</tt> is 3, and so on.</p>\n\n<br>\n<p> Given a well-bracketed sequence, we are interested in computing three quantities.</p>\n\n<ul>\n<li>The alternating depth of the sequence.</li>\n<li>The maximum number of symbols between any pair of matched brackets of the type <tt>(</tt> and <tt>)</tt>, including both the outer brackets.</li>\n<li>The maximum number of symbols between any pair of matched brackets of the type <tt>[</tt> and <tt>]</tt>, including both the outer brackets.</li>\n </ul>\n\n<br>\n<p>For instance, the alternating depth of <tt>(([]))[[[()]]]</tt> is 2, the maximum number of symbols between a matched pair <tt>()</tt> is 6 and the maximum number of symbols between a matched pair <tt>[]</tt> is 8.\n\n\n<br>\n<h3>Input format</h3>\n\n<p>The input consists of two lines.  The first line is a single integer <em>N</em>, the length of the bracket sequence. Positions in the sequence are numbered 1,2,\u2026,<em>N</em>. The second line is a sequence of <em>N</em> space-separated integers that encode the bracket expression as follows: 1 denotes an opening bracket <tt>(</tt>, 2 denotes a closing bracket <tt>)</tt>, 3 denotes an opening bracket <tt>[</tt> and 4 denotes a closing bracket <tt>]</tt>.  Nothing other than 1, 2, 3 or 4 appears in the second line of input and the corresponding expression is guaranteed to be well-bracketed.</p>\n\n<br>\n<h3>Output format</h3>\n\n<p> Your program should print 3 space-separated integers in a line, denoting the three quantities asked for in the following order: alternating depth, length of the maximum sequence between matching <tt>()</tt> brackets and length of the maximum sequence between matching <tt>[]</tt> brackets.  </p>\n\n<br>\n<h3>Testdata</h3>\n\n<p> You may assume that 2\u00a0\u2264\u00a0<em>N</em>\u00a0\u2264\u00a010<sup>5</sup>.  In 30% of the test cases, 2\u00a0\u2264\u00a0<em>N</em>\u00a0\u2264\u00a010<sup>3</sup>.\n\n<br>\n<ul>\n<li><b>Subtask 1 (30 marks)</b></li>\n<li><b>Subtask 2 (70 marks)</b></li>\n</ul>\n</p>\n\n<br>\n<h3>Sample Input</h3>\n<pre>\n14\n1 1 3 4 2 2 3 3 3 1 2 4 4 4\n</pre>\n\n<br>\n<h3>Sample Output</h3>\n<pre>\n2 6 8\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "2-11-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ZCO Practice Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1446661800,
+        "end_date": 1578162600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1578162600,
+        "submit_start_date": 1446661800,
+        "current": 1537431948
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Matched Brackets 2",
+    "source_sizelimit": "50000",
+    "problem_status": "unattempted",
+    "problem_tester_html_handle": null,
+    "problem_author": "admin3",
+    "contest_code": "ZCOPRAC",
+    "max_timelimit": "1",
+    "problem_code": "ZCO12003"
+}

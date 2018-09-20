@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Darko is a social engineer looking to break into a huge company's private records!</p>\n<p>He has with him a list of security transgressions committed by various employees in the last year. Looking for the softest target, Darko would like to find out on which employee he should employ his malevolent tactics.</p>\n<p>Can you help him out?</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases.</li>\n<li>The first line of each test case contains a single integer <b>N</b> denoting the total number of transgressions. The second line contains <b>N</b> space-separated integers <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b> denoting the employee code for the employee who committed that transgression.</li>\n</ul>\n\n<h3>Output</h3>\n<p>For each test case output the employee code for the target employee. If there is more than one possible answer, print the smallest one.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b> 10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b> 10<sup>3</sup></b></li>\n<li><b>1</b> \u2264 <b>A<sub>i</sub></b> \u2264 <b> 10<sup>9</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n10\n89 89 10 14 89 2 2 2 11 11\n5\n3 4 2 3 2\n\n<b>Output:</b>\n2\n2\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-01-2018",
+    "is_direct_submittable": false,
+    "contest_name": "C-Benders",
+    "languages_supported": "C, CPP14",
+    "todo": false,
+    "time": {
+        "view_start_date": 1517585400,
+        "end_date": 1517596200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1517596200,
+        "submit_start_date": 1517585400,
+        "current": 1537433089
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>metafity</span>",
+    "problem_name": "The Social Engineer",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/metafity'>metafity</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "metafity",
+    "contest_code": "CBEN2018",
+    "max_timelimit": "1",
+    "problem_code": "DARKO"
+}

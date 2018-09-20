@@ -1,0 +1,33 @@
+{
+    "problem_code": "CRANGIRL",
+    "problem_author": "apoorv_j",
+    "contest_name": "Cranium 2014",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>apoorv_j</span>",
+    "problem_name": "Crazy Girl",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CRNM2014",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/apoorv_j'>apoorv_j</a>, <a class='problem-tag-small ' href='/tags/problems/cranium2014'>cranium2014</a>, <a class='problem-tag-small ' href='/tags/problems/medium-hard'>medium-hard</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A string X is a multiple of string Y if X consists of one or more copies of Y concatenated together. For e.g. 'abab' and 'ab' are multiples of 'ab'. Crazy Girl is interested in some specific properties of strings and needs to find multiples of a smaller string in a bigger string, but it is getting too cumbersome to do for large texts. Given two strings B and A, she wants to find all the substrings of string A which are multiples of string B and cannot be extended further to the left or right and are of maximal length. Help her by writing a program to automate the task. Output the location of the multiples of string B in the form of pairs (a, b) where a denotes the starting position of the multiple in string A (1 - based) and b denotes the number of times string B is repeated in the multiple.</p>\n<h3>Input</h3>\n<p>The first line contains the string A and the second line contains the string B.</p>\n<h3>Output</h3>\n<p>Output the required pairs (a, b) in decreasing order of a and output -1 if string B is not a substring of string A.</p>\n<h3>Constraints</h3>\n<p>1 &lt;= |A| &lt;= 10^6</p>\n<p>1 &lt;= |B| &lt;= |A|</p>\n<p> The strings A and B consist only of lowercase letters 'a' - 'z'</p>\n<h3>Example</h3>\n<pre><strong>Input:</strong>\naabaabaaaba</pre><pre>aaba\n<strong>Output:</strong>\n4 2</pre><pre>1 1</pre><pre><strong>Explanation:</strong></pre><p>The pairs (8, 1) and (4, 1) are not reported because they can be extended further to the left and right respectively to form a multiple with two copies of string B.</p>\n",
+    "category_name": "main",
+    "date_added": "7-02-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CRANGIRL",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1391873400,
+        "end_date": 1391884200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1391884200,
+        "submit_start_date": 1391873400,
+        "current": 1537437858
+    },
+    "user": {
+        "username": ""
+    }
+}

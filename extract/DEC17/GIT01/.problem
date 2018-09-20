@@ -1,0 +1,33 @@
+{
+    "problem_code": "GIT01",
+    "problem_author": "gitesh18",
+    "contest_name": "December Challenge 2017",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>gitesh18</span>",
+    "problem_name": "Chef And his Cake",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "DEC17",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cakewalk'>cakewalk</a>, <a class='problem-tag-small ' href='/tags/problems/dec17'>dec17</a>, <a class='problem-tag-small ' href='/tags/problems/gitesh18'>gitesh18</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Read problems statements in <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/DEC17/mandarin/GIT01.pdf\">Mandarin chinese</a>, <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/DEC17/russian/GIT01.pdf\">Russian</a> and <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/DEC17/vietnamese/GIT01.pdf\">Vietnamese</a> as well.</h3>\n\n<p>Chef\u2019s girlfriend's birthday is near, so he wants to surprise her by making a special cake for her. Chef knows that his girlfriend likes cherries on the cake, so he puts cherries on the top of the cake, but he was not satisfied. Therefore, he decided to replace some of the cherries to make a beautiful pattern. However, Chef has a lot of other work to do so he decided to ask for your help.</p>\n\n<p>The cherries are of two colors <b>red</b> and <b>green</b>. Now Chef wants the cherries to be placed in such a way that each cherry of one color must be adjacent to only cherries of the other color, two cherries are adjacent if they share a side. Now Chef has asked for your help in making that pattern on the cake.</p>\n\n<p>You can replace any cherry of given color with the other color. But there is a cost for each replacement: if you replace a red cherry with a green one, the cost is <b>5</b> units and if you replace a green cherry with a red one, the cost is <b>3</b> units.</p>\n\n<p>Help your friend Chef by making the cake special with minimum cost.</p>\n\n\n<h3>Input</h3>\n<p><ul>\n<li>The first line of the input contains a single integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first line of each test case contains two space-separated integers <b>N</b> and <b>M</b>, where <b>N</b> \u00d7 <b>M</b> are the dimensions of the cake.</li>\n<li>Each of the next <b>N</b> lines contains a string of length <b>M</b>.</li>\n</ul></p>\n\n<h3>Output</h3>\n<p>For each test case, output the minimum cost required to make the cake special.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 <b>T</b> \u2264 100</li>\n<li>1 \u2264 <b>N, M</b> \u2264 100</li>\n<li>each string consists only of letters 'R' and 'G' denoting red and green cherries respectively\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n\n2\n4 5\nRGRGR\nGRGRG\nRGRGR\nGRGRG\n2 3\nRRG\nGGR\n\n<b>Output:</b>\n\n0\n8\n</pre>\n<p>\u00a0</p>\n",
+    "category_name": "main",
+    "date_added": "23-11-2017",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/GIT01",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1512120600,
+        "end_date": 1512984600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1512984600,
+        "submit_start_date": 1512120600,
+        "current": 1537433300
+    },
+    "user": {
+        "username": ""
+    }
+}

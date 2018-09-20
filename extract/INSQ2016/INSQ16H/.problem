@@ -1,0 +1,33 @@
+{
+    "problem_code": "INSQ16H",
+    "problem_author": "aaijmrt",
+    "contest_name": "Insomnia 2016 Qualifier",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>aaijmrt</span>",
+    "problem_name": "Power of Rinnegan",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "INSQ2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aaijmrt'>aaijmrt</a>, <a class='problem-tag-small ' href='/tags/problems/insomnia'>insomnia</a>, <a class='problem-tag-small ' href='/tags/problems/min-cost-flow'>min-cost-flow</a>, <a class='problem-tag-small ' href='/tags/problems/mnnit'>mnnit</a>, <a class='problem-tag-small ' href='/tags/problems/number-theory'>number-theory</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Sasuke has awakened Rinnegan in his left eye. Now he has many supernatural abilities. One of the many special abilities of Sasuke's Rinnegan is to shift spaces within a certain distance from himself. He can also carry other persons with him while shifting, but there is a limit to the number of persons he can carry at a time. He is going from a point 1 to a point N in space following a certain path that is pre decided. There are certain points where he stops during his journey as he can shift upto a certain distance from himself. These points are also pre decided. There are many people waiting at each of these points to be carried using his Rinnegan to some point ahead in his path. The people whom he carries give him some of their energy so that he can work continuously. The transfer of energy takes place as per the following rule<br><br>\n\nThere is an array ARR of <b>distinct</b> integers following one based indexing. A function f(i) is defined on this array as the number of permutations of (ARR[1], ARR[2] .. , ARR[i]) except the ones in which the condition <b>(ARR[a] < ARR[b] < ARR[c])</b> is satisfied for any a,b,c such that <b>1 &le; a < b < c &le; i.</b><br><br>\n\nAnother function <b>F(i) = f(i) modulo 1009</b><br><br>\n\nThe energy an individual travelling from a point A to a point B transfers to Sasuke is equal to <b>[F(B) - F(A)] modulo 1009</b><br><br>\n\nIf the number of points Sasuke stops is <b>N (including 1 and N)</b>, then his path is 1 -> 2 -> 3 -> .. -> N. This path is fixed.<br><br>\n\nGiven the number of points Sasuke stops <b>N</b>, the number of persons who are waiting at point x and want to go to point y [1 &le; x < y &le; N] <b>C<sub>xy</sub></b> and the number of persons he can carry with him at a time <b>P</b>, find the <b>maximum amount of energy</b> that he can gain during the journey. You don't have to take modulo while calculating energy here.<br><br>\n\nNote : Sasuke will not travel backward. i.e. Once he reaches a point i, he will not go to any point less than i. The only point that he moves next is i+1(if i is not equal to N) and not any other point.<br><br>\n\n<font size = 3 > <b>Input</b> </font> <br><br>\n\nThe first line contains two integers, the number of points Sasuke stops <b>N</b> and the number of persons he can carry at a time <b>P</b>.<br>\nThe next line contains N integers representing the array <b>ARR</b>.<br>\nThe next N-1 lines contains the description of number of people waiting at each point.<br>\nThe i<sup>th</sup> line contains N-i integers, one integer for each point where Sasuke stops after i.<br>\nThe j<sup>th</sup> integer in the i<sup>th</sup> line is the number of persons who are waiting at point i and want to go to point k <b>C<sub>ik</sub></b> where <b>k = i+j</b><br>\nMore formally <b>for every i, k = i + 1 to N</b>\n<br><br>\n\n<font size = 3 > <b>Output</b> </font> <br><br>\n\nOutput a single integer, the <b>maximum energy that Sasuke can gain</b> during the journey.<br><br>\n\n<font size = 3 > <b>Constraints</b> </font> <br>\n<ul>\n<li> <b>1 &le; N &le; 50</li><br>\n<li> 1 &le; P &le; 100</li><br>\n<li> 1 &le; ARR[i] &le; 10^5</li><br>\n<li> 1 &le; C<sub>ik</sub> &le; 100 for all i, k such that 1 &le; i < k &le; N</b></li><br>\n</ul>\n<br>\n\n<font size = 3 > <b>Sample</b> </font> <br><br>\n<font size = 2 > <b>Input</b> </font> <br><br>\n\n3 2<br>\n1 2 3<br>\n1 1<br>\n1<br><br>\n\n<font size = 2 > <b>Output</b> </font> <br><br>\n\n8<br><br>\n\n<font size = 2 > <b>Input</b> </font> <br><br>\n1 61<br>\n1<br><br>\n\n<font size = 2 > <b>Output</b> </font> <br><br>\n0<br><br>\n\n<font size = 2 > <b>Explanation</b> </font> <br><br>\nIn first sample<br>\nThe path is 1 -> 2 -> 3<br>\nThe number of persons who have to go from 1->2 = 1<br>\nThe number of persons who have to go from 1->3 = 1<br>\nThe number of persons who have to go from 2->3 = 1<br>\nF(1) = 1<br>\nF(2) = 2<br>\nF(3) = 5 (every permutation except [1,2,3])<br>\nThe energy that a person travelling from 1->2 can transfer = 1<br>\nThe energy that a person travelling from 1->3 can transfer = 4<br>\nThe energy that a person travelling from 2->3 can transfer = 3<br>\nHe can carry both the persons waiting at 1 till 2. One of them had to tavell till 2 so he gets off. The person waiting at 2 gets on with Sasuke so now he again has 2 persons to carry. Both of them have to go till 3.<br>\nSo the total gain in energy = 1*1 + 1*4 + 1*3 = 8<br><br>",
+    "category_name": "main",
+    "date_added": "1-09-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/INSQ16H",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1473004800,
+        "end_date": 1473015600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1473015600,
+        "submit_start_date": 1473004800,
+        "current": 1537434645
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "announcements": "<h1>Notice:</h1>\r\n<address>The user\u00c2\u00a0<b>grait(ajit766)</b> has been banned from the contest for posting code as part of a comment.</address>",
+    "ip": "149.129.135.113",
+    "code": "CODER11",
+    "duration": "300",
+    "name": "BITS Pilani, Apogee 2011 - CODER",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>NOTE: </b>Participants should register on the <a href=\"http://www.bits-apogee.org/2011#Code_&amp;_Simulate/C.O.D.E.R./\">APOGEE 2011 website</a> in order to be eligible for prizes. The first line of the submitted code should contain the participant's Apogee username as comments.<b> </b></p> <p><b>Rules:</b></p> <p><b><span> </span></b></p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at <b>rishabh@bits-apogee.org and mayank@bits-apogee.org</b></li> <br /> <li>Contest problems will become visible on March 5th 2011 at 20:00 (IST). There will be 5 problems in all.<br /><br /></li> <li>The contest will end on March 6th 2011 at 01:00 (IST).</li> <br /> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <br /> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <br /> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> </ul> <p><b> </b></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/CODER11/1424957547.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "AVATAR": {
+            "allow_submission": false,
+            "name": "Avatar",
+            "category_name": "main",
+            "accuracy": 37.27,
+            "successful_submissions": "101",
+            "code": "AVATAR",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LOCATION": {
+            "allow_submission": false,
+            "name": "Location",
+            "category_name": "main",
+            "accuracy": 6.59,
+            "successful_submissions": "5",
+            "code": "LOCATION",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "MODULO": {
+            "allow_submission": false,
+            "name": "Modulo",
+            "category_name": "main",
+            "accuracy": 4.55,
+            "successful_submissions": "12",
+            "code": "MODULO",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "SLADDERS": {
+            "allow_submission": false,
+            "name": "Snakes and Ladders",
+            "category_name": "main",
+            "accuracy": 23.81,
+            "successful_submissions": "9",
+            "code": "SLADDERS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "UFOL": {
+            "allow_submission": false,
+            "name": "UFO Landing",
+            "category_name": "main",
+            "accuracy": 29.03,
+            "successful_submissions": "7",
+            "code": "UFOL",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1299353400,
+        "current": 1537439287,
+        "freezing": 0,
+        "start": 1299335400
+    },
+    "user": {
+        "username": ""
+    }
+}

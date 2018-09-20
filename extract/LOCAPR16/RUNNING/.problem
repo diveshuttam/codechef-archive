@@ -1,0 +1,33 @@
+{
+    "problem_code": "RUNNING",
+    "problem_author": "anuraganand",
+    "contest_name": "April LoC Competitive Programming Marathon",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>anuraganand</span>",
+    "problem_name": "Anmol and Running",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "LOCAPR16",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anuraganand'>anuraganand</a>, <a class='problem-tag-small ' href='/tags/problems/kmp'>kmp</a>, <a class='problem-tag-small ' href='/tags/problems/locapr16'>locapr16</a>, <a class='problem-tag-small ' href='/tags/problems/rabin-karp'>rabin-karp</a>, <a class='problem-tag-small ' href='/tags/problems/z-algorithm'>z-algorithm</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Anmol gained a lot of weight last semester. So this semester, he decided to run everyday. There is a very long straight road starting at his hostel. There are <b>N</b> poles on the road - <b>P<sub>1</sub></b>, <b>P<sub>2</sub></b>, <b>P<sub>3</sub></b>,..., <b>P<sub>N</sub></b> on the road. All the poles lie on the same side of his hostel. The distance between <b>P<sub>i</sub></b> and his hostel is <b>D<sub>i</sub></b>.</p>\n<p>For <b>1 \u2264 i, j \u2264 N, i &lt; j</b> implies <b>D<sub>i</sub> &lt; <b>D<sub>j</sub></b></b></p>\n<p align = 'justify'>Everyday, Anmol chooses a pole <b>P<sub>i</sub></b> to start running from. He keeps on running until he reaches <b>P<sub>i+K</sub></b>. Whenever he reaches a pole (other than the starting pole), he records the distance traveled since the last pole.\n</p>\n<p>\nYou are given the distances recorded by him today. Your task is to find the number of distinct values of <b>i</b> such that <b>i + K \u2264 N</b> and if he starts at <b>P<sub>i</sub></b> and end at <b>P<sub>i+K</sub></b>, he would end up having exactly the same record of distances (in the same order).\n</p>\n\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases.</li>\n<li>The first line of each test case contains two space separated integers <b>N</b> and <b>K</b>.</li>\n<li>The next line contains <b>N</b> space separated integers <b>D<sub>1</sub></b>, <b>D<sub>2</sub></b>,..., <b>D<sub>N</sub></b>.</li>\n<li>The next line contains <b>K</b> space separated integers representing the distances recorded by Anmol in the same order.</li>\n<p>.\n</p></ul>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing the answer for that test case.</li>\n</ul>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>2</b> \u2264 <b>N</b> \u2264 <b>5 x 10<sup>4</sup></b></li>\n<li><b>1</b> \u2264 <b>K</b> &lt; <b>N</b></li>\n<li><b>1</b> \u2264 <b>D<sub>i</sub></b> \u2264 <b>10<sup>6</sup></b></li>\n</ul>\n<h3>Subtasks</h3>\n<h3>Subtask #1 (20 points)</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>1000</b></li>\n</ul>\n<h3>Subtask #2 (80 points)</h3>\n<ul>\n<li><b>Original constraints</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n5 1\n1 5 10 12 14\n5\n5 2\n5 8 13 16 21\n3 5\n5 3\n2 6 8 11 16\n2 3 5\n\n<b>Output:</b>\n1\n2\n1\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> If he runs from P<sub>2</sub> to P<sub>3</sub>, he will record (5)</p>\n<p><b>Example case 2.</b> He can start at P<sub>1</sub> or P<sub>3</sub></p>\n<p><b>Example case 3.</b> He can start at P<sub>2</sub></p>\n",
+    "category_name": "main",
+    "date_added": "26-04-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/RUNNING",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1461868200,
+        "end_date": 1462213740,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1462213740,
+        "submit_start_date": 1461868200,
+        "current": 1537434911
+    },
+    "user": {
+        "username": ""
+    }
+}

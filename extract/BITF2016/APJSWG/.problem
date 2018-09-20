@@ -1,0 +1,33 @@
+{
+    "problem_code": "APJSWG",
+    "problem_author": "kaushambi",
+    "contest_name": "BITFLIT",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>kaushambi</span>",
+    "problem_name": "Apaji Swings",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "BITF2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bitf2016'>bitf2016</a>, <a class='problem-tag-small ' href='/tags/problems/bubblesort'>bubblesort</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/kaushambi'>kaushambi</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b>PROBLEM STATEMENT</b>\n<p>We, at Banasthali, celebrate Apaji's birth anniversary every year at the end of November. The biggest highlight of the entire celebration is the fair, and its swings.\nAmong those swings too, the most popular is the columbo ride (we all love it!).</p> \n<p>So, there are <b>'n'</b> girls standing with a ticket in a queue, waiting for their chance to get a ride. Each ticket has a sequence number written on it, indicating that who goes first.\nThe normal sequence goes like 1,2,3...n-1,n.</p>\n\n<p>Some girls are really excited about the rides and want to go before their actual turn comes. They might be standing at the end of the queue, but are thinking to bribe the person standing \njust infront of them. After the bribe, the positions get swapped. Given the sequence of the queue after the bribe, can you tell what is the number of bribes performed? </p>\n<p>Note that, any girl cannot bribe more than 2 other girls, so in a case where this isn't taken care of, print \"Not Allowed\" (perhaps, the other girls standing in the queue might beat \nher up!).</p></p>\n\n\n<p><b>INPUT FORMAT</b>\n<p>The first line contains <b>'t'</b>- the number of test cases. Next, we have <b>'n' </b>- the number of girls followed by the sequence of the girls after the bribes.</p></p>\n\n<p><b>OUTPUT FORMAT</b>\n<p>Print <b>\"Not Allowed\"</b> if the bribes are not allowed, otherwise print the number of bribes that have taken place.</p></p>\n\n<p><b>CONSTRAINTS</b>\n<br>1<=t<=100\n<br>1<=n<=10^5</p>\n\n<p><b>SAMPLE INPUT</b>\n<br>2\n<br>5\n<br>1 5 2 3 4\n<br>5\n<br>2 1 5 3 4\n</p>\n\n<p><b>SAMPLE OUTPUT</b>\n<br>Not Allowed\n<br>3</p>\n\n<p><b>EXPLANATION</b>\n<br>In the first case, the original sequence would have been: 1,2,3,4,5\n<br>The swaps performed would have been like: \n<br>-(5,4) 1,2,3,5,4\n<br>-(5,3) 1,2,5,3,4\n<br>-(5,2) 1,5,2,3,4\n<br>Here, the girl standing on the 5th position bribed three people. Now that isn't allowed.\n<br><br>In case two, The original sequence 1,2,3,4,5 has been changed with the following swaps:\n<br>-(5,4) 1,2,3,5,4\n<br>-(5,3) 1,2,5,3,4\n<br>-(2,1) 2,1,5,3,4\n<br>Thus 3 swaps were performed.</p>",
+    "category_name": "main",
+    "date_added": "18-12-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "0.5",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/APJSWG",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1482762600,
+        "end_date": 1482775200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1482775200,
+        "submit_start_date": 1482762600,
+        "current": 1537434274
+    },
+    "user": {
+        "username": ""
+    }
+}

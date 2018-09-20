@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Ram is the new head-coach in a the local sports training facility.He has to manage the 26 </p>\n<p>athletic clubs. The name of each club is denoted by a single alphabet.<br />\nEach club is ranked according to their name.<br />\nAs the athletics day is near,he has to choose a sequence for the parade formed by the clubs.<br />\nTo do so he take a random number <b>M</b> he has generated from </p>\n<p>\"http://www.random.org/integers/\".<br />\nHow many different formations can he choose from the given random number, such that its </p>\n<p>characters actually denotes the ranks of the clubs and the whole number is used ?.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line contains <b>T</b> the number of test cases.<br />\nThe following T lines each contain a random number <b>M</b>.</p>\n<h3>Output</h3>\n<p>For each test case, output a single line containing the integral output of the problem</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10^4</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>10^10</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre>\n\n<b>Input:</b>\n3\n291\n111\n257\n\n\n\n<b>Output:</b>\n1\n3\n2\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p>For the number 291 the answer will be \"BIA\" i.e the only 1 way. For the number 111 the answer </p>\n<p>will be \"AAA \",\"KA\",\"AK\",i.e there  are 3 ways and so on</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "31-10-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Code Zip 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1414931400,
+        "end_date": 1414942200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1414942200,
+        "submit_start_date": 1414931400,
+        "current": 1537437271
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>ram2691</span>",
+    "problem_name": "Random Ram",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ram2691'>ram2691</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ram2691",
+    "contest_code": "CDZP2014",
+    "max_timelimit": "1",
+    "problem_code": "RADRAM"
+}

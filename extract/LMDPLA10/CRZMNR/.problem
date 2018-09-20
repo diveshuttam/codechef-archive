@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p style=\"text-align:justify;\">\nBruce the miner works as a slave in a diamond mine, and now the mine is starting to fall apart. After helping his friends evacuate the mine, he thinks it is the perfect time to make some profit and escape from his oppressive masters.</p>\n\n<p style=\"text-align:justify;\">\nHis plan is to re-enter the mine with the excuse of helping more people, take as much diamonds as he can and exit the mine before it falls apart without being seen. Then, he will escape far away and live peacefully in a Caribbean island with all his diamonds. However, the mine will fall apart in L minutes, so he needs help in determining the maximum number of diamonds he can take and return to the entrance before the mine falls apart.</p>\n\n<p style=\"text-align:justify;\">\nThe mine is structured as N chambers connected by N-1 corridors. Each corridor connects two different chambers and takes a specific number of minutes to be traversed. Also, it is known that there is exactly one path between each pair of chambers in the mine. The chamber 0 represents the entrance to the mine. Miner Bruce can take as much diamonds as he wants from the chamber where he is instantly.</p>\n\n<h3>Input</h3>\n<p style=\"text-align:justify;\">\nThe first line contains an integer T, which specifies the number of test cases. Then, T test case descriptions will follow.</p>\n\n<p style=\"text-align:justify;\">\nEach test case will start with a line with two positive integers, N and L, whose meanings were described previously. The next line will contain N integers D<sub>i</sub>, specifying the number of diamonds on each chamber. The next N - 1 lines will contain three integers A<sub>i</sub>, B<sub>i</sub> and C<sub>i</sub> each, which indicates that the chambers A<sub>i</sub> and B<sub>i</sub> are connected by a corridor that takes C<sub>i</sub> minutes to be traversed.</p>\n\n<h3>Output</h3>\n<p style=\"text-align:justify;\">\nFor each input case you must print the string \"Case #i: \", where i is the test case number, starting from 1, followed by the maximum number that Bruce the miner can recover without being trapped inside the mine.\n</p>\n\n<h3>Example</h3>\n<pre>\n<b>Input</b>\n2\n5 7\n7 3 7 8 6\n0 1 1\n0 2 1\n0 3 1\n0 4 1\n6 25\n5 8 3 3 10 7\n0 1 4\n3 0 3\n2 3 2\n5 2 3\n4 5 4\n\n<b>Output</b>\nCase #1: 28\nCase #2: 28\n</pre>\n\n<h3>Constraints</h3>\n<ul>\n<li> 1 <= T <=100 </li>\n<li> 2 <= N <=100 </li>\n<li> 1 <= L <=200 </li>\n<li>C<sub>i</sub> will be between 1 and 100, inclusive, for each i between 1 and N-1, inclusive.</li>\n<li>D<sub>i</sub> will be between 0 and 1000, inclusive, for each i between 1 and N, inclusive A<sub>i</sub> will be between 0 and N-1, inclusive, for each i between 1 and N-1, inclusive.</li>\n<li>B<sub>i</sub> will be between 0 and N-1, inclusive, for each i between 1 and N-1, inclusive.</li>\n<li>There will be exactly one path between each pair of different chambers.</li>\n</ul>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-09-2010",
+    "is_direct_submittable": false,
+    "contest_name": "IIIT - A , Limit-de-Plazo 2010",
+    "languages_supported": "C",
+    "todo": false,
+    "time": {
+        "view_start_date": 1286026200,
+        "end_date": 1286044200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1286044200,
+        "submit_start_date": 1286026200,
+        "current": 1537439508
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>divij</span>",
+    "problem_name": "Crazy Miner",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/divij'>divij</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "divij",
+    "contest_code": "LMDPLA10",
+    "max_timelimit": "0.126615",
+    "problem_code": "CRZMNR"
+}

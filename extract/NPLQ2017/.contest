@@ -1,0 +1,97 @@
+{
+    "announcements": "Those who are willing to participate in onsite round of NPL should fill the google form, whose link is given in Prize section.",
+    "ip": "149.129.135.113",
+    "code": "NPLQ2017",
+    "duration": "180",
+    "name": "NPL Qualifier",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<!-- .rules-heading { color: #444444;  font-family: Arial, sans-serif;  font-size: 13px; font-family: Arial, sans-serif;  line-height: 23px; } .rules-body p { line-height: 23px;  font-size: 13px; }  .rules-body-ul { line-height: 23px;  list-style-position: initial;  list-style-image: initial;  margin: 10px 15px;  font-size: 13px;         } .rules-body-ul li { padding-left: 3px; } -->\r\n<p><strong class=\"rules-heading\">About the Contest:</strong></p>\r\n<div class=\"rules-body\">\r\n<ul class=\"rules-body-ul\">\r\n<li><strong>Organiser: </strong> The contest is hosted by ACM Student Chapter NIT Warangal.&nbsp;This is the qualifying round for South India's second largest technical fest <a href=\"http://www.technozion.org/\">Technozion</a>'s National Programming League. Next round will be held onsite at NIT Warangal. This contest will be open for all.</li>\r\n<li><strong>Prizes: </strong>Prizes worth 50K for onsite round. &nbsp;Please fill <a href=\"http://bit.ly/nplonsite\">this</a> form if you are willing to come for onsite round of NPL.</li>\r\n<li><strong>Registrations for prizes: </strong>If you are willing to join us for the on-site round please register <a href=\"http://www.technozion.org/\">here</a>.</li>\r\n</ul>\r\n</div>\r\n<p><strong class=\"rules-heading\">Contest Details:</strong></p>\r\n<div class=\"rules-body\">\r\n<ul class=\"rules-body-ul\">\r\n<li><strong>Duration: </strong>3 hours</li>\r\n<li><strong>Start time: </strong>21st October 2017, 20:00 hrs IST</li>\r\n<li><strong>End time: </strong>21st October 2017, 23:00 hrs IST<br />Check your timezone&nbsp;<a href=\"https://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+-+NPL+Qualifier&amp;iso=20171021T20&amp;p1=44&amp;ah=3\" target=\"_blank\">here</a>.</li>\r\n</ul>\r\n</div>\r\n<p><strong class=\"rules-heading\">Registration:</strong></p>\r\n<div class=\"rules-body\">\r\n<p>You just need to have a CodeChef username to participate. No seperate registration is required. If you do not have a CodeChef ID create one <a href=\"../user/register\" target=\"_blank\"> here</a>.</p>\r\n</div>\r\n<p><br /> <strong class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</strong></p>\r\n<div class=\"rules-body\">\r\n<p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to <a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct.</a></p>\r\n</div>\r\n<p><br /> <strong class=\"rules-heading\">Rules and Regulations:</strong></p>\r\n<ul class=\"rules-body-ul\">\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at <a href=\"mailto:feedback@codechef.com\" target=\"_blank\"> feedback@codechef.com </a>.</li>\r\n<li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li>\r\n<li>Almost all languages supported on CodeChef are allowed.</li>\r\n<li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li>\r\n<li>Please contact <a href=\"mailto:vinod10choudhary@gmail.com\" target=\"_blank\">vinod10choudhary@gmail.com</a> for any queries during the contest.</li>\r\n</ul>\r\n<p><strong class=\"rules-heading\">Judging Criteria:</strong></p>\r\n<ul class=\"rules-body-ul\">\r\n<li><strong>All the problems have same points alloted to them.</strong></li>\r\n<li><strong>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time</strong></li>\r\n<li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error). There is no time consumed for a problem that is not solved.</li>\r\n<li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li>\r\n<li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li>\r\n</ul>\r\n<div class=\"rules-body-ul\"><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched <a href=\"../ide\" target=\"_blank\">Online IDE</a>.</strong><br /> However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/NPLQ2017/1508177714.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "NPL1701D": {
+            "allow_submission": false,
+            "name": "Compatible Sequences",
+            "category_name": "main",
+            "accuracy": 10.53,
+            "successful_submissions": "31",
+            "code": "NPL1701D",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "NPL1701C": {
+            "allow_submission": false,
+            "name": "Game of Factors",
+            "category_name": "main",
+            "accuracy": 10.86,
+            "successful_submissions": "192",
+            "code": "NPL1701C",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "NPL1701B": {
+            "allow_submission": false,
+            "name": "Count The Valleys",
+            "category_name": "main",
+            "accuracy": 55.18,
+            "successful_submissions": "768",
+            "code": "NPL1701B",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "NPL1701A": {
+            "allow_submission": false,
+            "name": "Group of Socks",
+            "category_name": "main",
+            "accuracy": 63.38,
+            "successful_submissions": "844",
+            "code": "NPL1701A",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "NPL1701F": {
+            "allow_submission": false,
+            "name": "Cheap Thrills",
+            "category_name": "main",
+            "accuracy": 7.55,
+            "successful_submissions": "4",
+            "code": "NPL1701F",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "NPL1701E": {
+            "allow_submission": false,
+            "name": "The Ultimate Game",
+            "category_name": "main",
+            "accuracy": 37.04,
+            "successful_submissions": "10",
+            "code": "NPL1701E",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1508607000,
+        "current": 1537433429,
+        "freezing": 0,
+        "start": 1508596200
+    },
+    "user": {
+        "username": ""
+    }
+}

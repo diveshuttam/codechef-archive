@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Zoom has once again planned to bring havoc on the Central City. This time he has planted some bombs in the city which contain virus which will spread once the bomb goes off.<br><br>\n\nIt's too late and the bombs have gone off. Flash reaches the city to help the people. Cisco has to guide Flash, and he has asked Flash to run around the affected regions to contain the spread of virus.<br><br>\n\nCisco has the coordinates of the points which are the corners of the affected regions and he has sent these coordinates to Flash. Flash needs to make calculations so as to attain the perfect speed. For this he needs to know the total perimeter and area of the affected region. In this moment of emergency, they ask you for help.<br><br>\n\nGiven a set of points which are the corners of the affected regions, you have to tell Flash the total area and total perimeter of the affected regions.<br><br>\n\n\nSince Central City is planned, you can assume that all the sides of the affected regions are parallel to either X-axis or Y-axis and also none of the affected regions intersect.<br><br>\n\nIf you can't find regions such that all the points are the only corners and regions are closed, print \"Impossible\"<br><br>\n\n<h3>Input : </h3>\n<ul>\n<li>First line of the input contains <b>N</b>, number of corners given by Cisco.</li>\n<li>Following <b>N</b> lines contains coordinates of i<sup>th</sup> corner (x, y).</li>\n</ul>\n<h3>Output : </h3>\n<ul>\n<li>A single line containing two values, Area and Perimeter of the  closed region. If no closed region can be formed using given corners, print \"Impossible\" (without quotes).</li>\n</ul>\n\n<h3>Constraints : </h3>\n<ul>\n<li>1 <= N <= 100</li>\n<li>0 <= X<sub>i</sub>, Y<sub>i</sub> <= 10^6</li>\n</ul>\n\n<h3>Example</h3>\n<b>Input:</b><br>\n12<br>\n15 7<br>\n0 15<br>\n5 2<br>\n10 15<br>\n5 7<br>\n10 10<br>\n7 10<br>\n0 10<br>\n20 15<br>\n7 15<br>\n15 2<br>\n20 10<br><br>\n<b>Output:</b><br>\n135 84<br>\n<br>\n\n<h3>Explanation : </h3>\nWith given corners, there are 3 rectangles.<br>\n<iframe src=\"https://drive.google.com/file/d/0B552IEO05-jBUWtTcE5yUlkxY3M/preview\" width=\"100%\" height=\"200%\"></iframe><br>\nSo the area is 135 and perimeter is 84.<br>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Insomnia 2016 Qualifier",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1473004800,
+        "end_date": 1473015600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1473015600,
+        "submit_start_date": 1473004800,
+        "current": 1537434649
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>mmaks</span>",
+    "problem_name": "Flash and Zoom",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/geometry'>geometry</a>, <a class='problem-tag-small ' href='/tags/problems/insomnia'>insomnia</a>, <a class='problem-tag-small ' href='/tags/problems/line-sweep'>line-sweep</a>, <a class='problem-tag-small ' href='/tags/problems/mmaks'>mmaks</a>, <a class='problem-tag-small ' href='/tags/problems/mnnit'>mnnit</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "mmaks",
+    "contest_code": "INSQ2016",
+    "max_timelimit": "1",
+    "problem_code": "INSQ16G"
+}

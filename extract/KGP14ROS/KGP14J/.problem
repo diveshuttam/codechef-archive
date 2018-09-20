@@ -1,0 +1,33 @@
+{
+    "problem_code": "KGP14J",
+    "problem_author": "admin3",
+    "contest_name": "ACM-ICPC Asia-Kharagpur Onsite Contest 2014, Replay",
+    "todo": false,
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Finding Exponent",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "KGP14ROS",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>, <a class='problem-tag-small ' href='/tags/problems/easy-medium'>easy-medium</a>, <a class='problem-tag-small ' href='/tags/problems/kgp14ros'>kgp14ros</a>, <a class='problem-tag-small ' href='/tags/problems/maths'>maths</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Professor Calculus gives the following problem to his students: given two integers <b>X</b> (\u2265 2) and <b>Y</b> (\u2265 2), find the smallest positive integral exponent E such that the decimal expansion of <b>X<sup>E</sup></b> begins with <b>Y</b>. For example, if <b>X</b> = 8 and <b>Y</b> = 51, then <b>X<sup>3</sup></b> = 512 begins with <b>Y</b> = 51, so <b>E</b> = 3. It is easy to see that neither <b>E</b> = 1 nor <b>E</b> = 2 will satisfy this property, so 3 is the smallest possible value of <b>E</b> in this case. Professor Calculus has also announced that he is only interested in values of <b>X</b> such that <b>X</b> is not a power of 10. The professor has a proof that in this case, at least one value of <b>E</b> exists for any <b>Y</b>.</p>\n    \n<p>The students set out to write a program for this, and run it on their department's server. However, they quickly find out that even though <b>X</b>, <b>Y</b>, and <b>E</b> will fit into a single integer, <b>X<sup>E</sup></b> may be too large to fit into any single data type of any language they can program in. Can you help the students to find the value of the exponent <b>E</b>?</p>\n\n<h3>Input</h3>\n<p>The first line contains the number of test cases <b>N</b> (0 &lt; <b>N</b> \u2264 3).</p>\n<p>For each test case, there is a single line containing the integers <b>X</b> and <b>Y</b>.</p>\n\n<h3>Output</h3>\n<p>For each test case, in the first line, print the case number, followed by a colon, followed by a single space, followed by a single integer indicating estimated minimum travel time.</p>\n\n<h3>Constraints:</h3>\n<p>1 \u2264 <b>X</b>, <b>E</b> \u2264 1000</p>\n\n<h3>Sample Input</h3>\n<pre>\n2 \n5 156 \n16 4\n</pre>\n\n\n<h3>Sample Output</h3>\n<pre>\nCase 1: 6\nCase 2: 3\n</pre>",
+    "category_name": "main",
+    "date_added": "20-12-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/KGP14J",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1419424200,
+        "end_date": 1419442200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1419442200,
+        "submit_start_date": 1419424200,
+        "current": 1537437044
+    },
+    "user": {
+        "username": ""
+    }
+}

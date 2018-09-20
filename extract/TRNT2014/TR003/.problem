@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>\nProblem Statement<br />\n</h3>\n<p>\nYou all know that how much Chef Diablo likes <i>Modaks</i>. So with the aim of increasing the production of <i>Modaks</i> he is automating his <i>Modak</i> production unit. For this purpose he has ordered several machines (M). There are several workstations(N). Each machine is connected between 2 workstations. Each machine makes some part of the <i>Modak</i> and passes it to its destination workstation. Now there can be various ways of making <i>Modaks</i> and they can also be of various flavors, so there may be more than one links from the starting workstation (0) to the ending workstation (N-1), i.e. the production starts at a workstation and it follows different paths to converge at a single workstation. Each machine has a corresponding throughput associated with it. Chef Diablo wants to know the total throughput of the system. But the number of machines can be very large and he is a very busy person hence he appoints his junior, Chef Suri, to do the honours. Now Chef Suri tries to calculate it manually but then he keeps on committing mistakes and gets frustrated. He turns to you all for help. Given the number of workstations (N), the number of machines (M) and their corresponding throughputs (thpt) per day, help Chef Suri calculate the  throughput of the whole system per day.\n</p>\n<h3>\nInput:<br />\n</h3>\n<p>\nThe first line consists of 2 space seperated numbers N and M. Then M lines follow consisting of 3 space seperated numbers, x y thpt, x and y indicate a machine between nodes x and y and thpt indicates the throughput of that machine. It is guaranteed that there is only 1 machine between any 2 workstations.\n</p>\n<h3>\nOutput:<br />\n</h3>\n<p>\nOutput a single line indicating the total throughput.\n</p>\n<h3>\nConstraints:<br />\n</h3>\n<p>\n1&lt;=N&lt;=10^3\n</p>\n<p>\n1&lt;=M&lt;=10^4\n</p>\n<p>\n1&lt;=thpt&lt;=10^3\n</p>\n<h3>\nSample Input:<br />\n</h3>\n<p>\n4 4<br/><br />\n0 1 4<br/><br />\n0 2 9<br/><br />\n1 2 2<br/><br />\n2 3 3\n</br/></br/></br/></br/></p>\n<h3>\nSample Output:<br />\n</h3>\n<p>\n3\n</p>\n<h3>\nWARNING: LARGE INPUT FILES....PLS USE FASTER I/O METHODS!!!!<br />\n</h3>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Trinity 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1393776000,
+        "end_date": 1393785000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1393785000,
+        "submit_start_date": 1393776000,
+        "current": 1537437734
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>aadesh_99</span>",
+    "problem_name": "Modak Automation",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aadesh_99'>aadesh_99</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "aadesh_99",
+    "contest_code": "TRNT2014",
+    "max_timelimit": "1",
+    "problem_code": "TR003"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Chef is a brilliant student. He is very fond of solving problems. His teacher gave him an assignment to design an algorithm for his project. The algorithm is almost complete but Chef's semester exams are approaching near and as usual he has not prepared for his semester exams, but this time he doesn't want to fail in his exams, so he seeks for your help. You have to help him to complete his pending function.  \n\nChef has to design a function in which user is given a string $S$ ($1 \\leq$ length of $S$ $\\leq 26$ ) and assume that all the characters in $S$ are unique, the objective of the function is to compute the minimum length of a resulting string which consists of all the permutations of the given string in any order. \n\n###Input:\n\n- First line will contain $N$, number of strings.\n- Next $N$ line contain a string $S$.\n\n###Output:\nOuput the minimum length of resulting string.\n\n###Constraints \n- $1 \\leq N \\leq 10^5$\n- $1 \\leq S \\leq 26$\n- each string contains only lowercase English letters\n###Subtasks\n- 30 points : $1 \\leq N \\leq 10^3$\n- 70 points : $1 \\leq N \\leq 10^5$\n\n###Sample Input:\n\t1\n\tab\n\n###Sample Output:\n\t3\n\t\n###EXPLANATION:\nSample Test 1 : **aba** contain all permutation of input string **ab**.\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-08-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Coding Hours",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1533310200,
+        "end_date": 1533483000,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1533483000,
+        "submit_start_date": 1533310200,
+        "current": 1537432184
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>admin5</span>",
+    "problem_name": "Chef And His Algorithm",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin5'>admin5</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin5",
+    "contest_code": "COHR2018",
+    "max_timelimit": "0.3",
+    "problem_code": "ALGO"
+}

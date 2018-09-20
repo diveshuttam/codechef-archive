@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><h3>Problem description</h3></p>\n<p>Being a geek is too hard. It applies to our Geek Sundaram as well. One day he lost his cool and decided to organize the files in his laptop. So he first listed out all the files and put them in a fashion similar to a tree. Assume that each node (file) in the tree is labeled from 1 to N. He looked at the tree and felt something odd. He realized that\u00a0</p>\n\n<p>A pair of files (i, j) is almost similar if both of the following conditions are true:\n </p>\n<ul>\n<li><b>File i is the ancestor of File j.</b> </li>\n<li> <b>abs (i - j) \u2264 some arbitrary value K.</b>\n</li>\n</ul>\n<p/>\n<p>So help him figure out the logic for finding out the total number of such pairs.</p>\n\n\n<h3>Input</h3>\n\n<ul>\n<li>The first line has two space-separated integers  <b>N </b>(the number of files) and <b>K</b>.</li>\n<li> <b>N - 1</b> lines follow that. Each line has two space-separated integers <b>F1</b> and <b>F2</b> defining an edge between F1 and F2 where F1 is a <b>parent</b> to F2.</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<ul>\n<li>Print the required answer denoting the number of almost similar files.\n</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>0</b> \u2264 <b>K</b> \u2264 <b>N</b></li>\n<li><b>1</b> \u2264 <b>F1, F2</b> \u2264 <b>N</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n\n5 2\n3 2\n3 1\n2 4\n2 5\n\n<b>Output:</b>\n\n5\n\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><center> <img src = \"http://cs.annauniv.edu/img/Illustration-1.jpg\" /> </center> </p>\n\n<p> In the above tree, the almost similar pairs are <b> (3,1), (3, 2), (3, 4), (3, 5), (2, 4) </b>. </p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-03-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Abacus'17 - OLPC",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1489764600,
+        "end_date": 1489775400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1489775400,
+        "submit_start_date": 1489764600,
+        "current": 1537434024
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>bharath96</span>",
+    "problem_name": "Geek Tree",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bharath96'>bharath96</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bharath96",
+    "contest_code": "ABCS2017",
+    "max_timelimit": "0.2",
+    "problem_code": "ABCS01"
+}

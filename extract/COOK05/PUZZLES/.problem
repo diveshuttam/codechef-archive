@@ -1,0 +1,33 @@
+{
+    "problem_code": "PUZZLES",
+    "problem_author": "friggstad",
+    "contest_name": "The December 2010 Cook-Off",
+    "todo": false,
+    "problem_author_html_handle": "friggstad",
+    "problem_name": "Newspaper Puzzle",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>rajivka</span>",
+    "contest_code": "COOK05",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cook05'>cook05</a>, <a class='problem-tag-small ' href='/tags/problems/friggstad'>friggstad</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nWhen things slow down in the kitchen, the Chef likes to do puzzles he finds in the newspaper until more orders arrive. Today, a new type of puzzle has been featured and the Chef needs help solving it.\n\n</p><p>\nIn this puzzle, a series of groups of non-zero integers are given where each group has exactly three integers. Furthermore, for each positive integer k, the number of groups including k plus the number of groups including -k does not exceed 3. The goal is to assign, for each positive integer k, either the character 'T' or 'F' so that every group of three integers has\n<ul>\n<li>at least one negative integer k such that |k| is assigned 'F', or</li>\n<li>at least one positive integer k such that k is assigned 'T'</li>\n</ul>\n\n</p><p>\n\n</p><p>\nFinally, you are guaranteed that the absolute values the three integers in any particular group are all distinct. Now, newspaper puzzles are only fun if they are solvable so you are guaranteed that there is a solution. Your task is to find such an assignment of 'T' or 'F' values to the positive integers meeting the above requirements.\n\n<h3>Input</h3>\n</p><p>\nThe first line consists of a single integer denoting the number of test cases (at most 30). The first line for each test case consists of two integers C and V. Following this are C lines, one per group of integers in the puzzle. Each such line consisting of 3 non-zero integers between -V and V. Furthermore, the absolute values of these three integers are distinct.\n\n</p><p>\nFinally, the input is such that for every integer k, the total number of groups containing either k or -k is at most 3.\n\n</p><p>\nBounds: 1 \u2264 C \u2264 1000 and 3 \u2264 V \u2264 3000.\n\n<h3>Output</h3>\n</p><p>\nThe output for each test case is a single line consisting of V characters 'T' or 'F'. These characters should appear consecutively with no spaces between. The i'th such character is what positive integer i is assigned. This should be done so that each group of three integers has the property described above.\n\n</p><p>\nIf an integer k between 1 and V does not have either k or -k appearing in a group of three integers then you should still assign it a character 'T' or 'F'. Finally, if there are multiple solutions then any will do.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n3 3\n1 2 3\n1 -2 -3\n-1 2 -3\n2 7\n5 -2 1\n3 -1 2\n\n<b>Output:</b>\nTFF\nTFTFFTF\n</pre>\n\n<h3>Explanation of Output</h3>\nIn the first case, the first two groups include 1 which is assigned 'T', and the last group contains -3 and 3 is assigned 'F' so all groups meet the criteria. In the second case, the first group has 1 which is assigned 'T' and the second group has 3 which is also assigned 'T' so all groups in this test case also meet the criteria.</p>",
+    "category_name": "main",
+    "date_added": "3-12-2010",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.506494",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/PUZZLES",
+    "problem_tester": "rajivka",
+    "time": {
+        "view_start_date": 1292774400,
+        "end_date": 1292783400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1292783400,
+        "submit_start_date": 1292774400,
+        "current": 1537439419
+    },
+    "user": {
+        "username": ""
+    }
+}

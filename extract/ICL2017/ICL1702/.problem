@@ -1,0 +1,33 @@
+{
+    "problem_code": "ICL1702",
+    "problem_author": "likecs",
+    "contest_name": "International Coding League (Rated)",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>likecs</span>",
+    "problem_name": "Watermelon Farmer",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "ICL2017",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/icl2017'>icl2017</a>, <a class='problem-tag-small ' href='/tags/problems/likecs'>likecs</a>, <a class='problem-tag-small ' href='/tags/problems/matrix-expo'>matrix-expo</a>, <a class='problem-tag-small ' href='/tags/problems/modular-arith'>modular-arith</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Greeny, a watermelon farmer, has land of dimensions <b>m</b> units by <b>n</b> units. The farm can be divided into <b>m*n</b> cells, each of dimension <b>1 unit by 1 unit</b>. The cell at row i and column j is denoted by <b>(i, j)</b>. Rows are numbered from 1 to m and columns are numbered from 1 to n.</p>\n\n<p>Watermelon plants here grow in a strange way. Each plant's lifespan is exactly 1 week.\nBy the middle of the week, a plant bears exactly one ripe watermelon. At the end of the week the plant dies. Before a plant dies, its watermelon explodes. Each watermelon has exactly <b>9 seeds</b> and when a watermelon explodes in cell (i, j) one of its seeds remains in cell (i, j) and the remaining 8 seeds fly off to different adjacent cells. In other words, each of the 8 cells adjacent to the cell (i, j) receive exactly one seed from (i, j).If the watermelon is at an edge or a corner of the farm, some seeds fly outside the farm. Soil outside the farm is not fertile, so seeds which fly out of the farm don't germinate. The seeds which land on the farm germinate immediately.</p>\n\n<p>In the middle of each week, Greeny collects watermelons from each cell so that she can sell them in the market. She collects watermelons in groups of <b>P</b> from each cell. If the number of watermelons in a cell is not a multiple of <b>P</b>, she leaves the remainder in the field so that they can explode and multiply.</p>\n\n<p>Greeny initially plants <b>x</b> seeds in the cell <b>(1, 1)</b>, <b>y</b> seeds in the cell <b>(m, n)</b> and <b>0</b> seeds in the rest of the cells. (The seeds sown by her immediately germinate into little plants.) She wants to know how her farm will look like after <b>W</b> weeks, i.e. she wants to know the number of plants in each cell. Can you help her?</p>\n\n<h3>Input</h3>\n\n<p>The first line of input consists of a single integer <b>T</b>, the number of test cases. <b>T</b> test cases follow.</p>\n\n<p>Each test case consists of 6 space-separated integers m, n, W, P, x, y.</p>\n\n<h3>Output</h3>\n\n<p>Output the configurations of the farm for all test cases separated by an empty line. For each test case, output <b>m</b> lines. In each line, output <b>n</b> space separated integers. <br /> The j<sup>th</sup> integer of the i<sup>th</sup> line should be equal to the number of plants in the cell (i, j) after <b>W</b> weeks.</p>\n\n<h3>Constraints</h3>\n\n<p>1 \u2264 T \u2264 20 <br />\n2 \u2264 m, n \u2264 50 <br />\n0 \u2264 w \u2264 10<sup>8</sup> <br />\n2 \u2264 p \u2264 10<sup>8</sup> <br />\n0 \u2264 x, y &lt; p</p>\n\n<h3>Sample input</h3>\n\n<pre>3\n3 3 0 20 4 5\n3 3 1 20 4 5\n3 3 2 20 4 5\n</pre>\n\n<h3>Sample output</h3>\n\n<pre>4 0 0\n0 0 0\n0 0 5\n\n4 4 0\n4 9 5\n0 5 5\n\n1 6 18\n6 16 8\n18 8 4\n</pre>\n\n<h3>Explanation</h3>\n\n<p>Initial configuration:</p>\n\n<pre>4 0 0\n0 0 0\n0 0 5\n</pre>\n\n<p>This is the answer to the first test case.</p>\n\n<p>1 week later:</p>\n\n<pre>4 4 0\n4 9 5\n0 5 5\n</pre>\n\n<p>Since all cells have less than <b>P</b> watermelons, there's nothing to harvest. This is the answer for the second test case.</p>\n\n<p>Another week later:</p>\n\n<pre>21 26 18\n26 36 28\n18 28 24\n</pre>\n\n<p>Since some cells have more than <b>P</b> watermelons, Greeny harvests those cells and then the field looks like this:</p>\n\n<pre>1 6 18\n6 16 8\n18 8 4\n</pre>\n\n<p>This is the answer for the third test case.</p>",
+    "category_name": "main",
+    "date_added": "26-03-2017",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "2",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/ICL1702",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1490542200,
+        "end_date": 1490553000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1490553000,
+        "submit_start_date": 1490542200,
+        "current": 1537433964
+    },
+    "user": {
+        "username": ""
+    }
+}

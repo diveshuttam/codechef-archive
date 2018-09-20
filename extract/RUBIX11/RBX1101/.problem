@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nOne day while roaming the lands of Greece, Rubixius came across a strange arrangement of glasses. He saw <b>N</b> glasses kept randomly with a cloud hovering over a glass n<sub>i</sub> for a certain period of time pouring 1 drop of rain per second. After the time was up it would go to another glass and start dripping water in that glass. <br/><br/>\nThe strange thing about these glasses was that, if at any time a glass was filled to the brim it would spill into the next glass and the last glass would spill into the First glass. The thing that he found stranger was that each glass could only hold up to c<sub>i</sub> drops of overflow water after which the overflow water would vanish if the glass was not full.<br/><br/>\nHelp Rubixius figure out how many drops of water all the glasses hold after time T.\n\n\n<h3>Input</h3>\n<p> The input starts with an integer S specifying the number of test cases. Each case will start with N and T which will specify the number of glasses and the total time respectively. The next line will contain the capacity n<sub>i</sub> of each glass. The following line will have the overflow limit c<sub>i</sub> for each glass. The last line of the case will have pairs of integers which will be in the form - g<sub>i</sub> t<sub>i</sub> - indicating the glass over which the cloud is hovering and for the period which it hovers. The input for each case is such that the total of all the time periods indicated on the last line of the test case will equal the total time <b>T</b>.<br/><br/>\n<b>Constraints</b><br/>\n0&lt;N&lt;50<br/>\n0&lt;N&lt;10000<br/>\n0&lt;T&lt;100000000<br/>\n\n<h3>Output</h3>\n<p>Output a single line for each case containing the maximum drops that are accumulated after time T.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n5 8\n1 1 1 1 1\n1 1 1 1 1\n0 8\n5 8\n2 1 1 1 1\n1 1 1 1 1\n0 8\n\n<b>Output:</b>\n5\n6\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Thadomal Shahani Engineering College - RUBIX - Codezilla",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1297949400,
+        "end_date": 1297967400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1297967400,
+        "submit_start_date": 1297949400,
+        "current": 1537439366
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>virai</span>",
+    "problem_name": "The Enchanted Glasses",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/virai'>virai</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "virai",
+    "contest_code": "RUBIX11",
+    "max_timelimit": "0.230769",
+    "problem_code": "RBX1101"
+}

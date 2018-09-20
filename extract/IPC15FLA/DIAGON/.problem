@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Aseem is from a wizarding family. His girlfriend (I forgot her name again :/ ), got selected for attending Hogwarts school of Witchcraft and Wizardry. Now its his duty (and pleasure ;) ) to accompany her though diagon alley while she picks up all the items needed for her first year at school. The diagon alley is a straight street (a single lane) with shops lined up at integer distances from the entrance. They enter the diagon alley through the Leaky couldron and in the end, after picking up all the required items, he plans to take her to Florean Fortesque's ice cream parlour for a date.</p>\n<p>To pick up all the items, there are <b>N</b> shops they need to visit. You are given an array <b>dist[]</b>(array is 1-indexed) of size <b>N</b> denoting the distance of the <b>ith</b> shop from the entrance. The elements of this array are strictly increasing, i.e., <b>dist[i]</b> < <b>dist[j]</b> (<b>i</b> < <b>j</b>).</p>\n<p>There are some dependencies on the order in which the shops can be visited. You have to visit the shop with index <b>a</b> before the shop with index <b>b</b> (<b>a</b> > <b>b</b>, remember shops are 1-indexed). Finally,after all the items have been picked, Aseem takes her to Florean Fortesque's, which is at a distance, <b>D</b> from the entrance.\n<p>Aseem wants to minimise the total distance travelled so that they can spend more time on their date.</p>\n\n<h3>Input</h3>\n<p>The first line contains 3 space- separated integers, <b>N</b>, <b>M</b> and <b>D</b>.<br>\nThe next line contains <b>N</b> space-separated integers denoting the array dist[]. It is guaranteed that this array is sorted in strictly increasing order.<br>\nThe next <b>M</b> lines contain 2 integers each, <b>a</b> and <b>b</b>. The shop with index <b>a</b> must be visited before the shop with index <b>b</b>. It is guaranteed that <b>a</b> is strictly greater than <b>b</b>.</p>\n\n<h3>Output</h3>\n<p>Output a single integer, denoting the minimum distance travelled.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li>1 <= <b>N</b>  <= 10^5</li>\n<li>0 <= <b>M</b> <= 10^5</li>\n<li>1 <= each element of <b>dist[]</b>, <b>D</b> <= 10^9</li>\n\n\n<h3>Example</h3>\n<pre><b>Input1:</b>\n10 3 100\n9 14 16 21 34 45 56 64 75 98\n9 6\n5 2\n5 4\n\n<b>Output1:</b>\n200\n\n<b>Input2:</b>\n1 0 5\n10\n\n<b>Output2:</b>\n15\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Akatsuki",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1474813800,
+        "end_date": 1474832400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1474832400,
+        "submit_start_date": 1474813800,
+        "current": 1537434557
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>deathsurgeon</span>",
+    "problem_name": "Diagon Alley",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/deathsurgeon'>deathsurgeon</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/implementation'>implementation</a>, <a class='problem-tag-small ' href='/tags/problems/ipc15amr'>ipc15amr</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "deathsurgeon",
+    "contest_code": "IPC15FLA",
+    "max_timelimit": "1",
+    "problem_code": "DIAGON"
+}

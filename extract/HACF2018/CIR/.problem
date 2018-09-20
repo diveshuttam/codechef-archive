@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p><h3>Problem description.</h3></p>\n<p>Raju has two circles with their centres and radii, if the area of C1 is A1 and that of C2 is A2, <br>\nHelp Raju calculate the area of union of the circles U , area of intersection I and if<br>\n1: U is A1 and I is A2 print C1CC2<br>\n2: U is A2 and I is A1 print C2CC1<br>\n3: U is A2 or A1 and I is A2 or A1 print c2~c1<br>\n else print NOT SATISFIED\n\u00a0</p>\n<h3>Input</h3>\n<p>Input description.</p>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows. <br>For each test case there will be two lines,first will contain centre (x1,y1) and R1 radii of first circle , and second line contains centre (x2,y2) and R2 radii of second circle.</p>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>Output description.</p>\n<p>if A1 UNION A2 = A1 and A1 INTERSECTION A2 =A2 ,print \"C1CC2\" <br> \nif A1 UNION A2 = A2 and A1 INTERSECTION A2 =A1 ,print \"C2CC1\"<br>\nif A1 UNION A2 = A2(or A1) and A1 INTERSECTION A2 =A1(or A2) ,print \"C2~C1\"<br>\nOtherwise print \"NOT SATISFIED\" <br>\nPrint without quotes(\" \")</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>Y</b>\u2264 <b>100</b></li>\n<li><b>1</b> \u2264<b>X</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>Radius</b> \u2264 <b>100</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4       \n0 0 1   \n0 0 2   \n1 2 2   \n2 2 2\n2 3 5\n3 3 1\n1 1 1\n1 1 1\n\n<b>Output:</b>\nC2CC1\nNOT SATISFIED\nC1CC2\nC2~C1\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Hackon Feb",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, kotlin, TEXT, SCM chicken, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1518805800,
+        "end_date": 1518978540,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1518978540,
+        "submit_start_date": 1518805800,
+        "current": 1537432971
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>akshaj</span>",
+    "problem_name": "Circles",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/akshaj'>akshaj</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "akshaj",
+    "contest_code": "HACF2018",
+    "max_timelimit": "1",
+    "problem_code": "CIR"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Problem description.</p>\n<p>Bob is moving on a train. He wants to note the speed of the train, however he has no clue about it. Thus, he decides to count the number of pillars encountered in a time <b>T</b>. Assuming <b> N</b> pillars are separated by a distance of  <b>K</b>. Return the train's speed.</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.The first line of each test case contains an integer <b>N</b>,\n representing the number of pillars. The second line of each test case contains an integer <b>K</b>, representing the constant distance between each pillar (In metres).</p>\n\n<p>\u00a0For your convenience, <b>T</b> is given as 1 minute. </p>\n\n<h3>Output</h3>\n<p>\nFor each test case, output a single line containing the speed of the train in float. (kilometre per hour).\n</p>\n<h3>Constraints</h3>\n<b>1</b> \u2264 <b>T</b> \u2264 <b>100</b>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n51\n50\n<b>Output:</b>\n150\netc.\n</pre>\n<p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-02-2018",
+    "is_direct_submittable": false,
+    "contest_name": "MNM Online Programming Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH 3.6, PYPY, CS2, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, WSPC, ADA, CAML, ICK, BF, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, kotlin, TEXT, SCM chicken",
+    "todo": false,
+    "time": {
+        "view_start_date": 1519792200,
+        "end_date": 1519810200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1519810200,
+        "submit_start_date": 1519792200,
+        "current": 1537432895
+    },
+    "problem_author_html_handle": "vijaykumarakv",
+    "problem_name": "Speed of train",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vijaykumarakv'>vijaykumarakv</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vijaykumarakv",
+    "contest_code": "MOPC2018",
+    "max_timelimit": "1",
+    "problem_code": "TMS"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p style=\"text-align:justify;\">\nThe current year is 2210, and the humanity is in great danger. An alien race has discovered us and wants to cleanse this planet from our presence, so they can take all our natural resources to their planet. However, they are physically weak, so their plan consists in infecting one human with the T-virus, which is highly contagious but not deadly. If at any point of time, one person is at a distance not greater than R from a person infected with the T-virus, then he/she will\nbe infected with the B-virus, which will kill him/her instantly.</p>\n\n<p style=\"text-align:justify;\">\nThe Terra Disease Control Center (TDCC) has discovered the aliens' plan, and they are determined to stop it. The first step is to create a simulation program that given the position of some static uninfected persons and the trajectory of a person infected with the T-virus, determines how many persons will be killed by the B-virus.</p>\n\n<p style=\"text-align:justify;\">\nThe trajectory followed by the infected person will be a polyline. A polyline is defined by M points P<sub>i</sub>, and consists of the line segments between P<sub>1</sub> and P<sub>2</sub>, P<sub>2</sub> and P<sub>3</sub>, and so on. It is possible for a polyline to only have one point; in the simulator this will represent a static infected person.</p>\n\n<h3>Input</h3>\n<p style=\"text-align:justify;\">\nThe first line contains an integer T, which species the number of test cases. Then, T test case descriptions will follow.</p>\n\n<p style=\"text-align:justify;\">\nEach test case will start with a line with three positive integers, N, M and R, which specify the number of static uninfected persons, the number of points in the polyline that defines the movement of the infected person and the infection radius, respectively. The next N lines will contain two integers X<sub>i</sub> and Y<sub>i</sub>, specifying the position of the uninfected person i. The next M lines will contain two integers Px<sub>j</sub> and Py<sub>j</sub> , specifying the point j that defines the trajectory of the infected person.</p>\n\n<h3>Output</h3>\n<p style=\"text-align:justify;\">\nFor each input case you must print the string \"Case #i: \", where i is the test case number, starting from 1, followed by the number of uninfected persons killed by the B-virus.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n4 1 4\n2 2\n1 5\n-2 3\n7 0\n3 0\n5 3 4\n2 2\n1 5\n-2 3\n-4 4\n7 0\n-3 0\n3 0\n0 3\n\n<b>Output:</b>\nCase #1: 2\nCase #2: 4\n</pre>\n\n<h3>Constraints:</h3>\n<p style=\"text-align:justify;\">\n<ul>\n<li>T will be between 1 and 200, inclusive.</li>\n<li>N will be between 1 and 100, inclusive.</li>\n<li>M will be between 1 and 100, inclusive.</li>\n<li>R will be between 1 and 1000, inclusive.</li>\n<li>X<sub>i</sub> will be between -1000 and 1000, inclusive, for all i between 1 and N, inclusive.</li>\n<li>Y<sub>i</sub> will be between -1000 and 1000, inclusive, for all i between 1 and N, inclusive.</li>\n<li>Px<sub>j</sub> will be between -1000 and 1000, inclusive, for all j between 1 and M, inclusive.</li>\n<li>Py<sub>j</sub> will be between -1000 and 1000, inclusive, for all j between 1 and M, inclusive.</li>\n<li>No pair of points in each test case will be equal.</li>\n</p>\n</ul>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "29-09-2010",
+    "is_direct_submittable": false,
+    "contest_name": "IIIT - A , Limit-de-Plazo 2010",
+    "languages_supported": "C",
+    "todo": false,
+    "time": {
+        "view_start_date": 1286026200,
+        "end_date": 1286044200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1286044200,
+        "submit_start_date": 1286026200,
+        "current": 1537439512
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>divij</span>",
+    "problem_name": "Alien Pandemia",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/divij'>divij</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "divij",
+    "contest_code": "LMDPLA10",
+    "max_timelimit": "0.188",
+    "problem_code": "ALNPD"
+}

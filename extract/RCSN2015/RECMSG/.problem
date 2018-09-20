@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem description</h3>\n<p>Ravi has fallen in love with Riya. As he is my best friend, I am the only person who knows it and of course I am not going to tell you how this happened :D<br/>He starts messaging Riya as everyone does and soon realizes that his fingers are unable to type any more. He decides to reduce his work from the next day. He got an idea about how to calculate the overhead required to type a particular message. His mobile contains only one button and he needs to press the button based on the rank of a letter (only lower case letters are used) i.e. if he wants to type the letter \u2018c\u2019 he needs to press the button 3 times. Ravi wants your help to decide the total overhead of typing a particular string.</br/></p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows. The only line of each test case contains a string <b>S</b>.</p>\n<h3>Output</h3>\n<p>For each test case, output only line containing the total overhead.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10000</b></li>\n<li><b>1</b> \u2264 <b>|S|</b> \u2264 <b>1000</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\nacd\nabcde\n\n<b>Output:</b>\n8\n15\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-01-2015",
+    "is_direct_submittable": false,
+    "contest_name": "RECursion Challenge-I",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1422199800,
+        "end_date": 1422212400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1422212400,
+        "submit_start_date": 1422199800,
+        "current": 1537436921
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>saanc</span>",
+    "problem_name": "Message Typing",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/saanc'>saanc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "saanc",
+    "contest_code": "RCSN2015",
+    "max_timelimit": "1",
+    "problem_code": "RECMSG"
+}

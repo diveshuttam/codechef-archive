@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>Students\u2019 Gymkhana, IIT Kanpur has started horse-racing games as a refreshment activity in the campus where the students can take part in horse racing on evenings and weekends. But since everyone is very busy with their academics and upcoming Techkriti, they have decided to outsource the organisational responsibilities of the races to a company.</p>\n<p>But unfortunately, the company people are very corrupt. The take bribes from people to place their horses already ahead of the starting line before the start of the race.</p>\n<p>As a neutral observer, you are given the task to find out which of the <b>N</b> horses<br />\ntaking part in the race would be leading at a given time in the contest. The horses are indexed  from <b>0</b> to <b>N-1</b>.</p>\n\n<h3>Input</h3>\n<p>The first of the input contains <b>T</b>, the number of test cases.</p>\n<p>The description of each test case begins on a new line and is as follows: </p>\n<ul>\n<li>two space separated integers <b>N</b>, the number of horses and <b>Q</b>, the number of queries. </li>\n<li><b>N</b> lines for the horses indexed from <b>0</b> to <b>N-1</b> in order, each containing 2 space separated integers <b>D</b> and <b>S</b>; where, <b>D</b> is the initial distance of the horse from the starting line and <b>S</b> is its speed. All the horses run uniformly at their individual speeds.</li>\n<li><b>Q</b> lines each containing an integer <b>t</b>, which is the query time.</li>\n</ul>\n\n<h3>Output</h3>\n<p>For each query time <b>t</b>, output a line containing a single integer which is the index of the horse leading at that instant of time. If two horses are leading together at that time, print the index of the horse which will be ahead a split second later.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>T</b> \u2264 <b>5 </b> </li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b> </li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264  <b>5*10<sup>5</sup></b></li>\n<li><b>0</b> \u2264 <b>D</b> \u2264  <b>10<sup>12</sup></b></li>\n<li><b>1</b> \u2264 <b>S</b> \u2264  <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>t</b> \u2264  <b>5*10<sup>5</sup></b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n3 3\n0 2\n0 1\n1 2\n5\n1\n2\n\n<b>Output:</b>\n2\n2\n2\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "7-03-2013",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2013",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1362810600,
+        "end_date": 1362897000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1362897000,
+        "submit_start_date": 1362810600,
+        "current": 1537438446
+    },
+    "problem_author_html_handle": "iopc_admin",
+    "problem_name": "Corrupt Horse Racing",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/iopc_admin'>iopc_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "iopc_admin",
+    "contest_code": "IOPC2013",
+    "max_timelimit": "0.1 - 0.631075",
+    "problem_code": "IOPC13Q"
+}

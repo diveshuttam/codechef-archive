@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><strong>The following a tie breaker problem.  The best answer will receive one point.  All other successful answers will be scored on a curve and receive a fraction of a point based on how close they come to the best answer.</strong></p>\n\n<p>You are given a large square area with an edge length of 2<sup><var>n</var></sup>, subdivided into unit squares (fields). Some mines have already been planted on certain fields, and we would like to plant as few more mines as possible, so as to destroy all of the fields of the area (assuming all the mines explode simultaneously). For each mine, the fields it destroys are given as follows. For any <var> k </var>,  0 <= <var> k </var> <= <var>n</var>, we can partition the considered area into 2<sup><var>n</var></sup> rectangles of size 2<sup><var>k</var></sup> x 2<sup><var>n-k</var></sup>. The mine is assumed to destroy a square if and only if the mine and the square belong to the same rectangle in the considered partition, for some value of <var>k</var>.\n<p>For example, if <var>n</var>=3, the mine \"*\" placed on the square at position (1,1) will destroy all the fields which are not marked with dots below:\n\n<pre><tt>\n.#......\n.#......\n.#......\n.#......\n##......\n##......\n#*######\n####....\n</tt></pre>\n\n<h3>Input</h3>\n<p>The first line will contain integer 8<=<var>n</var><=16, (where 2<sup><var>n</var></sup> is the size of the area). The second line will contain 0<=m<2<sup><var>n</var></sup>, the number of already planted mines.\nThe next <var>m</var> lines will contain the 0-based x and y coordinates of the existing mines.\n\n<h3>Output</h3>\n<p>The first line should contain <var>t</var> - the number of mines to be added.\nThe next <var>t</var> lines should contain the coordinates of the added mines.\n\n<h3>Scoring</h3>\nFor each test case, you will receive (2<sup><var>n</var></sup>-<var>m</var>)/<var>t</var>-1 points, provided you destroy all the fields of the area.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n1\n3 3\n\n<b>Output:</b>\n2\n0 1\n2 2\n</pre>\n<p>\nYou will receive (4-1)/2 - 1 = 0.5 pts for such a mine placement.  \n\n<p><b>Note:</b>\nThere will be some tests with no initially placed mines, and some tests with initial placements covering most of the area pretty well. Good luck!",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-12-2008",
+    "is_direct_submittable": false,
+    "contest_name": "March 2009 (Contest I)",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1235838600,
+        "end_date": 1237055400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1237055400,
+        "submit_start_date": 1235838600,
+        "current": 1537439983
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Place the mines!",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "MARCH09",
+    "max_timelimit": "0.845528",
+    "problem_code": "AX"
+}

@@ -1,0 +1,33 @@
+{
+    "problem_code": "MEANMEDI",
+    "problem_author": "gamabunta",
+    "contest_name": "July Cook-off 2011",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>gamabunta</span>",
+    "problem_name": "Mean Mean Medians",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>anton_lunyov</span>",
+    "contest_code": "COOK12",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cook12'>cook12</a>, <a class='problem-tag-small ' href='/tags/problems/gamabunta'>gamabunta</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\"Medians can't be very mean!\", retorted Chef's brother. One would wish Chef's ego wouldn't\n\tcome in the way, but Chef has taken up the challenge to prove otherwise. He asks for your help. Given N numbers, select\n\tK out of them, such that, the absolute difference between the mean and the median of the selected numbers, is as low\n\tas possible.</p>\n<p>Mean of K numbers is defined as the sum of the numbers divided by K.</p>\n<p>Median of K numbers is defined as the number that appears at the order index, floor((K+1)/2);\n\tthat is, the I'th element in the sorted order of the K numbers (where numbering starts from 1),\n\twhere I = floor((K+1)/2). Note that, if K is even, the median would be the smaller value among the two values that\n\tlie in the center.</p>\n<p>Input format</p>\n<p>The first line contains the number T, the number of test cases. In the following lines,\n\tT test cases follow (without any newlines between them.)\nEach case consists of only 2 lines.\nThe first line of each test case contains N and K, separated by a single space.\nThe second line contains N positive integers, separated by a single space.</p>\n<p>Output format</p>\n<p>For each test case, print the minimum absolute difference between the mean and the median\n\tthat you can get, by selecting any K numbers, from the N numbers. Output the result rounded to 3 digits of precision\n\tafter the decimal.</p>\n\n<p>Constraints</p>\n<p>1 \u2264 T \u2264 20<br />\n1 \u2264 N \u2264 60<br />\n1 \u2264 K \u2264 N<br />\n1 \u2264 numbers \u2264 1200</p>\n\n<p>Sample input</p>\n<pre>2\n8 2\n4 9 1 3 5 9 4 10\n5 4\n10 7 4 5 9\n\n</pre>\n<p>Sample output</p>\n<pre>0.000\n0.500\n\n</pre>\n<p>Explanation</p>\n<p>In the first case, you can select [4, 4].</p>\n<p>In the second case, you can select [10, 7, 4, 9]. The mean would be 7.500, where as\n\tmedian would be 7.</p>",
+    "category_name": "main",
+    "date_added": "14-07-2011",
+    "status": "success",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "0.492585",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/MEANMEDI",
+    "problem_tester": "anton_lunyov",
+    "time": {
+        "view_start_date": 1311523200,
+        "end_date": 1311532200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1311532200,
+        "submit_start_date": 1311523200,
+        "current": 1537439174
+    },
+    "user": {
+        "username": ""
+    }
+}

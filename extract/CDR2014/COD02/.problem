@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h2>Jaime and his numbers</h2>\n<p>Jaime Lannister is an intelligent guy .He likes to play with numbers . He made an interesting sequence of numbers in which the first two numbers are 1 and 2 and the other numbers are generated according to following rule :\n   </p>\n<p>\"If A[i] is the i<sup>th</sup> (for i>2) element in the sequence then ' i ' occurs A[i] times in the sequence and A[1]=1 and A[2]=2\" .</p>\n<p>First few terms in sequence are {1, 2, 2, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7...}. Note that 3 occurs 2 times in the sequence, (because A[3] = 2).</p>\n<p>You have to find the n<sup>th</sup> number in the sequence.</p>\n<h3>INPUT:</h3>\n<p><br /></p>\n<p>First line contains t, the number of test cases. Each of the next t lines contains a number n.</p>\n<h3>CONSTRAINTS:</h3>\n<p><br /></p>\n<ul>\n<li>0 &lt; <b> n </b> &lt;= 10<sup>13</sup>\n</li><li>  1&lt;= <b> t </b> &lt;100\n     </li></ul>\n<h3>OUTPUT:</h3>\n<p><br /></p>\n<p>For every case, print the n<sup>th</sup> term of the sequence.</p>\n<h3>SAMPLE TEST CASES:</h3>\n<p><br /></p>\n<h5>Input:</h5>\n<p> </p>\n<pre>\n       2\n       6\n       16    \n    </pre><h5>Output:</h5>\n<p><br /></p>\n<pre>\n       4\n       7\n    </pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-03-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Coder 2014",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1395502200,
+        "end_date": 1395520200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1395520200,
+        "submit_start_date": 1395502200,
+        "current": 1537437668
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>arvchamp</span>",
+    "problem_name": "Jaime and his numbers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/arvchamp'>arvchamp</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "arvchamp",
+    "contest_code": "CDR2014",
+    "max_timelimit": "1",
+    "problem_code": "COD02"
+}

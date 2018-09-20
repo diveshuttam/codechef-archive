@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The Field Limitary Effective Implosion Armament (F.L.E.I.J.A.) is a \"Heavy Strategic Anti-strongpoint Neutralize Warhead\" developed by In Vogue under the leadership of Nina Einstein. It is pronounced \"Freyja\", in reference to the Norse goddess of love and magic.Nina Einstein was also able to develop a countermeasure for the F.L.E.I.J.A. known as the F.L.E.I.J.A. Eliminator.\n</p>\n<p>\nThe F.L.E.I.J.A. is with Sneizel. To stop the F.L.E.I.J.A , Lelouch has to gather all his soldiers. But, due to strategical benefits, currently his soldiers are scattered. The Battle Field can be visualised as a single dimensional line. There are <b>A<sub>i</sub></b> soldiers at Point i which is located at <b>X<sub>i</sub></b>. All of them should be gathered at point <b>X</b>.  There are bridges connecting Point i and i+1, and also between point <b>N</b> and <b>X</b>.\n</p>\n<p>\nThe width of the bridge is rather limited. The ith bridge has capacity <b>C<sub>i</sub></b> which denotes the maximum number of soldiers that can be present in any unit of the bridge at a particular time. The soldiers can travel 1 unit distance in 1 sec.They move discretely. i.e. in a particular unit time, a solider moves 1 unit or does not move at all. There are no movements for time periods not multiple of unit time. Find the minimum time in which all the soldiers can reach <b>X</b>. Please refer to the sample input output to get better understanding. </p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>The first line of the input contains <b>N</b> denoting the number of points at which soldiers are situated. Next line contains <b>N</b> space separated integers <b>A<sub>i</sub></b> denoting the number of soldiers at each point.<br />\nNext line contains <b>N</b> space separated integers <b>X<sub>i</sub></b> denoting the location of ith point. It is guaranteed that <b>X<sub>i</sub></b> &lt; <b>X<sub>(i+1)</sub></b> and <b>X<sub>n</sub></b> &lt; <b>X</b>. Next line contains <b>N</b> space separated integers denoting <b>C<sub>i</sub></b> the capacity of bridge between ith bridge. The <b>N</b>th  bridge is the one between point <b>N</b> and <b>X</b>.<br />\nNext line contains a single integer denoting location of <b>X</b>. </p>\n<h3>Output</h3>\n<p>Output single integer denoting the minimum time in which all the soldiers can reach X. It is guaranteed that the output fits in a 64 bit integer.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>C<sub>i</sub>,X<sub>i</sub>,A<sub>i</sub>,X</b> \u2264 <b>10<sup>9</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre>\n<b>Input 1 :</b>\n1\n9 \n1\n2\n3\n\n<b>Input 2 :</b>\n2\n16 9\n1 4\n8 3\n9\n\n<b>Output 1 :</b>\n6\n\n<b>Output 2 :</b>\n13\n</pre><p>\u00a0</p>\n<h3>Explanation for test 1</h3>\n<p>The number of soldiers at locations 1,2,3 are as follows <br /><br />\nt =0 : (9,0,0)<br />\n<br /><br />\nt =1 : (7,2,0)<br />\n<br /><br />\nt = 2 : (5,2,2)<br />\n<br /><br />\nt = 3 : (3,2,4)<br />\n<br /><br />\nt = 4 : (1,2,6)<br />\n<br /><br />\nt = 5 : (0,1,8)<br />\n<br /><br />\nt = 6 : (0,0,9)<br />\n<br /> </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Akatsuki",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457274600,
+        "end_date": 1457292600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457292600,
+        "submit_start_date": 1457274600,
+        "current": 1537435256
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>harrypotter192</span>",
+    "problem_name": "War for Britannia",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/harrypotter192'>harrypotter192</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "harrypotter192",
+    "contest_code": "IPC15P3B",
+    "max_timelimit": "1",
+    "problem_code": "FLEIJA"
+}

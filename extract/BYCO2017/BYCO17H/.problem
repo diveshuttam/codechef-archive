@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>\nYou are given <b>m</b> ranges, <b>[a<sub><i>i</i></sub>, b<sub><i>i</i></sub>]</b>. From each range you need to pick a number <b>k<sub><i>i</i></sub></b> such that the minimum distance <b><i>l</i></b> between any two such <b>k<sub><i>i</i></sub></b> and <b>k<sub><i>j</i></sub></b> is maximum. Once you determine <b><i>l</i></b>, you need to maximize <b>G(<i>x</i>)</b> for a given <b><i>x</i></b> which is defined as:\n</p>\n\n<p>\n<b>G(<i>x</i>) = k<sub>j1</sub>G(<i>x</i>-1) + k<sub>j2</sub>G(<i>x</i>-2) + k<sub>j3</sub>G(<i>x</i>-3) + ... + k<sub>jm</sub>G(<i>x</i>-m) </b>\n</p>\n\n<p>\nThe <b>k<sub>j1</sub>, k<sub>j2</sub> ...</b> in the above expression are chosen by you, subject to the constraint that the minimum distance between any two of them is <b><i>l</i></b> (determined by you earlier). They needn't be in the same order as the given ranges. Note that <b>G(1), G(2),...G(m)</b> are all given to be <b>1</b>.\n</p>\n\n\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first line of each test case contains a single integer <b>m</b> denoting the number of ranges. The second line contains <b>m</b> space-separated integers <b>a<sub>1</sub></b>, <b>a<sub>2</sub></b>, ..., <b>a<sub>m</sub></b> denoting the start of each of the range. The third line contains <b>m</b> space-separated integers <b>b<sub>1</sub></b>, <b>b<sub>2</sub></b>, ..., <b>b<sub>m</sub></b> denoting the end of each of the range.</li><li>The fourth line contains <b><i>x</i></b>.\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line containing 2 space separated integers <b><i>l</i></b> and the maximum value of <b>G(<i>x</i>) mod 10<sup>9</sup>+7</b>.</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10</b></li>\n<li><b>1</b> \u2264 <b>m</b> \u2264 <b>10</b></li>\n<li><b>0</b> \u2264 <b>a<sub><i>i</i></sub></b> \u2264 <b>b<sub><i>i</i></sub></b> \u2264 <b>10<sup>6</sup></b></li>\n<li><b>1</b> \u2264 <b><i>x</i></b> \u2264 <b>10<sup>6</sup></b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2\n1 1\n1 1\n20\n2\n0 0\n2 2\n10\n\n<b>Output:</b>\n0 6765\n2 256\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b>Here <b>m=2</b>, so our <b>G(<i>x</i>)</b> is a second order recursive function. The ranges of the parameters given are <b>[1,1]</b> and <b>[1,1]</b>, so we don't have much of a choice, and both parameters have to be <b>1</b>. Therefore <b>G(x) = 1.G(x-1) + 1.G(x-2)</b>. Since <b>x=20</b>, we have <b>G(20)</b> is the 20th Fibonacci number (starting the numbers from 1,1,2... instead of 0,1,1,2...)</p>\n<p><b>Example case 2.</b>Here <b>m=2</b> again, so our <b>G(<i>x</i>)</b> is again a second order recursive function. The ranges of the parameters given are <b>[0,2]</b> and <b>[0,2]</b>, so we can only have our parameters as <b>0</b> and <b>2</b>. Therefore <b>G(x)</b> can be <b>G(x) = 0.G(x-1) + 2.G(x-2)</b> or <b>G(x) = 2.G(x-1) + 0.G(x-2)</b>. But since we want to maximize <b>G(x)</b>, we'll choose the latter. Since <b>x=10</b>, we have <b>G(10)=256</b>.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-03-2017",
+    "is_direct_submittable": false,
+    "contest_name": "Bytecode 2017",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1488641400,
+        "end_date": 1488659400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1488659400,
+        "submit_start_date": 1488641400,
+        "current": 1537434062
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>rvns03</span>",
+    "problem_name": "FiberNazi Numbers",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rvns03'>rvns03</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rvns03",
+    "contest_code": "BYCO2017",
+    "max_timelimit": "1",
+    "problem_code": "BYCO17H"
+}

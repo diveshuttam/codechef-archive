@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0Problem Description</p>\n<p><b>Deoria</b> is a great city with Big malls. The city is full of intelligent people. The head of them is a boy named <b>KOOL</b>. He is very fond of roaming. He has a girlfriend named <b>KOOLER</b>. One day <b>KOOL</b> and <b>KOOLER </b>decided to visit the biggest mall of city but the mall has very weird entry criteria. A person cannot enter the mall without solving the puzzle. </p>\n<p>\nThe puzzle is as follows:\n</p>\n<p>\nYou are given a balanced binary tree of height <b>H</b> and infinite number of stones. </p>\n<p>You have to tell the minimum number of stones needed to visit the whole tree.</p>\n<p>Move the stones on the tree such that </p>\n<ul>\n<li> whole tree is traversed.</li>\n<li>No nodes of the tree can be visited twice.</li>\n<li>Stone can be moved only along the edges between the nodes.</li>\n<li><b>Only one stone can be used for one traversing.</b></li>\n</ul>\n\n<p>\nHelp KOOL and KOOLER.\n</p>\n<h3>Input</h3>\n<ul>\nThe first line of the input contains an integer <b>T</b> denoting the number of test cases. Then, T lines follow. Each line contains an integer H( Height of the tree).</ul>\n<h3>Output</h3>\n<p>For each test case, output a single integer indicating the minimum number of stones needed  As answer can be very large so output number of stones % 1000000007 .</p>\n<h3>Constraints</h3>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100000</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>100000000 (10<sup>9</sup>)</b></li>\n<h3>Example</h3>\n<pre><b>Sample Input:</b>\n1\n1\n<p></p>\n<b>Sample Output:</b>\n1\n</pre><pre><b>Sample Input:</b>\n1\n2\n<p></p>\n<b>Sample Output:</b>\n1\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Ignus 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1393335000,
+        "end_date": 1393347600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1393347600,
+        "submit_start_date": 1393335000,
+        "current": 1537437765
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>cdev</span>",
+    "problem_name": "DeoriaTheGreatMall",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/cdev'>cdev</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "cdev",
+    "contest_code": "IGNS2014",
+    "max_timelimit": "3",
+    "problem_code": "IGNUS14C"
+}

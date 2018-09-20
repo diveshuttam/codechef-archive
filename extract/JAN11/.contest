@@ -1,0 +1,97 @@
+{
+    "announcements": "<div><b>17:30 hrs, 5th January, 2011 (IST):</b> Due to a caching issue with our contest judge, the <b>time and memory usage</b> for all <b>submission</b>s were <b>initially showing as 0</b>. This has now been <b>fixed</b>. Due to this, <b>certain submissions</b> have been <b>rejudged</b>. Apologies for any inconvenience caused.</div>\r\n<p>\u00c2\u00a0</p>\r\n<div><b>17:30 hrs, 5th January, 2011 (IST):</b> The time limits for all <b>test cases</b> in the <b>contest problem <a href=\"/JAN11/problems/WINDOW\">WINDOW</a></b> are <b>now set to 5 seconds.</b></div>\r\n<p>\u00c2\u00a0</p>\r\n<div><b>14:00 hrs, 4th January, 2011 (IST):</b> The <b>problem statement</b> for the contest problem <a href=\"/JAN11/problems/SPLIT\"><b>SPLIT</b></a> has been <b>updated</b>.</div>\r\n<p>\u00c2\u00a0</p>\r\n<div><b>11:00 hrs, 2nd January, 2011 (IST):</b> We have added a new problem 'CHESSGM', we are sorry for the delay.</div>\r\n<p>\u00c2\u00a0</p>\r\n<div><b>15:00 hrs, 1st January, 2011 (IST):</b> One of the Problems will be uploaded shortly, we are currently facing some technical issue. Sorry for the Delay.</div>\r\n<div>Best of Luck!</div>\r\n<div></div>",
+    "ip": "149.129.135.113",
+    "code": "JAN11",
+    "duration": "14400",
+    "name": "January 2011 Challenge",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p> <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /> </p> <p class=\"MsoNoSpacing\"><span> </span></p> <p class=\"MsoNoSpacing\"><span><b>NOTE:</b></span></p> <p class=\"MsoNoSpacing\"><span><b>The January 2011 Contest has ended.</b></span></p> <p class=\"MsoNoSpacing\"><b>Problems have been transferred to the <a href=\"/problems/easy\" target=\"_blank\">practice section</a>.</b></p> <p class=\"MsoNoSpacing\"><b>You can check the' editorials'\u00a0<a target=\"_blank\" href=\"/wiki/january-2011-contest-problem-editorials\">here</a>.</b></p> <p class=\"MsoNoSpacing\"><b>Check out the 'winners blog'\u00a0<a href=\"http://blog.codechef.com/2011/01/11/january-2011-challenge-winners/\" target=\"_blank\">here</a>.</b></p> <p>\u00a0</p> <p class=\"MsoNoSpacing\"><b>Rules:</b><span><b> </b></span></p> <p class=\"MsoNoSpacing\"><span><br />Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<span> </span><a href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a><br /><br /><o:p></o:p></span></p> <p class=\"MsoNoSpacing\"><span><span>Contest problems will become visible on January 1st 2011 at 15:00 hours IST.</span><br /><br /><o:p></o:p></span></p> <p class=\"MsoNoSpacing\"><span>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.<br /><br /><o:p></o:p></span></p> <p class=\"MsoNoSpacing\"><span>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.<br /><br /><o:p></o:p></span></p> <p class=\"MsoNormal\"><span>Each contest will have one min/max tie breaker problem, where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution.</span></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/JAN11/1424957522.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "SPLIT": {
+            "allow_submission": false,
+            "name": "Splitting Giant Subs",
+            "category_name": "main",
+            "accuracy": 58.09,
+            "successful_submissions": "141",
+            "code": "SPLIT",
+            "type": "1",
+            "is_direct_submittable": false
+        },
+        "WINDOW": {
+            "allow_submission": false,
+            "name": "Chef attic window",
+            "category_name": "main",
+            "accuracy": 1.03,
+            "successful_submissions": "3",
+            "code": "WINDOW",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CHESSGM": {
+            "allow_submission": false,
+            "name": "Chess Pushing Game",
+            "category_name": "main",
+            "accuracy": 27,
+            "successful_submissions": "90",
+            "code": "CHESSGM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "COUNTREL": {
+            "allow_submission": false,
+            "name": "Count Relations",
+            "category_name": "main",
+            "accuracy": 23.84,
+            "successful_submissions": "190",
+            "code": "COUNTREL",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "RESTEXP": {
+            "allow_submission": false,
+            "name": "Restaurant Expansion",
+            "category_name": "main",
+            "accuracy": 16.46,
+            "successful_submissions": "69",
+            "code": "RESTEXP",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FLUSHOT": {
+            "allow_submission": false,
+            "name": "Flu Shot Lineup",
+            "category_name": "main",
+            "accuracy": 15.97,
+            "successful_submissions": "157",
+            "code": "FLUSHOT",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1294738200,
+        "current": 1537439408,
+        "freezing": 0,
+        "start": 1293874200
+    },
+    "user": {
+        "username": ""
+    }
+}

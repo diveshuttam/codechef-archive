@@ -1,0 +1,33 @@
+{
+    "problem_code": "PALHAM",
+    "problem_author": "kingofnumbers",
+    "contest_name": "November Cook-Off 2017",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>kingofnumbers</span>",
+    "problem_name": "Hasan and boring classes",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>amrmahmoud</span>",
+    "contest_code": "COOK88",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/combinatorics'>combinatorics</a>, <a class='problem-tag-small ' href='/tags/problems/cook88'>cook88</a>, <a class='problem-tag-small ' href='/tags/problems/kingofnumbers'>kingofnumbers</a>, <a class='problem-tag-small ' href='/tags/problems/kingofnumbers'>kingofnumbers</a>, <a class='problem-tag-small ' href='/tags/problems/likecs'>likecs</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Read problems statements in  <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/COOK88/mandarin/PALHAM.pdf\">Mandarin chinese</a>, <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/COOK88/russian/PALHAM.pdf\">Russian</a> and <a target=\"_blank\" \nhref=\"http://www.codechef.com/download/translated/COOK88/vietnamese/PALHAM.pdf\">Vietnamese</a> as well.</h3>\n<p>\nHasan is a computer science student, he likes his study field, especially programming and algorithms, but he doesn\u2019t like attending classes at all since they are very boring, especially that the quality of education in his college is extremely low, but sometimes he is forced to attend in order to maintain his attendance rate otherwise he will be prevented from doing final exams!<br> <br>\n\nCurrently Hasan is attending `communication skills` class and he is now feeling very bored especially that he thinks such course should not belong to a computer science program, luckily he remembered a problem that one of his friends has given him so he decided to spend the time thinking about it, the problem states:<br><br>\n\nGiven a string S of length N of lower English letters, find how many strings T exists of length N of lower English letters such that T is palindrome and hamming distance between T and S is at most K. since the answer is large find the remainder modulo 10<sup>9</sup> + 7<br><br>\n\nSince you also don\u2019t like `communication skills` classes you decided to solve this problem too.\n\n\n</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases.<br><br>\n\neach test-case is described with two lines, the first line of each test-case contains two integers <b>N</b> and <b>K</b>.<br><br>\n\nThe second line of each test-case will contains the string S of length N.</p>\n\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>For each test case, output a single line containing the answer to the test-case.</p>\n\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10,000</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>300,000</b></li>\n<li><b>1</b> \u2264 sum of <b>N</b> in all test-cases \u2264 <b>1,000,000</b></li>\n<li><b>0</b> \u2264 <b>K</b> \u2264 <b>N</b></li>\n<li>String S will consist of English lower letters.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3 2\nabc\n3 1\nabc\n\n<b>Output:</b>\n76\n2\n\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p>in second test-case the only possible strings are \"aba\" and \"cbc\"</p>",
+    "category_name": "main",
+    "date_added": "26-05-2017",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "https://discuss.codechef.com/problems/PALHAM",
+    "problem_tester": "amrmahmoud",
+    "time": {
+        "view_start_date": 1511107200,
+        "end_date": 1511116200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1511116200,
+        "submit_start_date": 1511107200,
+        "current": 1537433336
+    },
+    "user": {
+        "username": ""
+    }
+}

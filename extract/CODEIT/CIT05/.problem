@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>The goal is to factor a given 127/128-bit integer N of the form N = P*Q, where P and Q are two 64 bit primes. It is well-known that factorization is a hard problem, and hence you are provided with partial information about the bit-pattern of the primes P and Q. In particular, you are given about 50% of the bits of both P and Q, at random. The goal is to factor N by reconstructing the missing bits of the primes.\n\n<h3>Input</h3>\n<p>The first line specifies the number of test cases, followed by a blank line.\n<br /><br />\nEach test case consists of the following:\n<br /><br />\nN_hex = < 32 HEX characters ><br />\nP_bit = [< 64 characters, separated by a comma and a white space >] <br />\nQ_bit = [< 64 characters, separated by a comma and a white space >] <br />\n<br />\nThe test cases are separated by blank lines as well.\n<br /><br />\nNote: <br />\n1. The 32 Hex characters in the first line specifies N, the number you have to factor. <br />\n2. Each of the 64 characters in P_bit and Q_bit may either be 0, 1 or x. <br />\n3. The known bits are 0 or 1 and are at random locations.<br />\n4. The unknown bits are denoted by x.<br />\n5. Ordering of hex characters: N = < most significant hex > < all other hex > < least significant hex > <br />\n6. Ordering of bits: P_bit = [ < least significant bit > < all other bits > < most significant bit > ] <br />\n\n\n<h3>Output</h3>\n<p>Your output must contain the primes P and Q for each of the test cases, in HEX format, as specified below.<br /><br />\n\nP_hex = < 16 HEX characters > <br />\nQ_hex = < 16 HEX characters > <br />\n<br />\nThe different test case outputs should be separated by blank lines.\n<br /><br />\nNote: <br />\n1. All test cases MUST have an output each. <br />\n2. Each of the outputs is UNIQUE as well.<br />\n3. Ordering of hex characters: P_hex = < most significant hex > < all other hex > < least significant hex > <br />\n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\nThe input file will contain everything within the dashed lines (including spaces, delimeters, and line breaks):\n\n-------------------------------------------\n5\n\nN_hex = 8749d9be4bfd74973b31a79e247e765f\nP_bit = [x, 1, 0, 1, x, x, 0, x, x, 1, 0, 0, 0, 1, x, 1, x, x, 0, x, 0, x, 1, x, x, 0, 1, 0, x, 0, 1, x, x, 1, x, x, 0, x, 1, x, 0, x, 1, x, x, 0, 0, x, x, x, 0, 1, x, x, 1, 0, x, 0, x, x, x, 0, x, x]\nQ_bit = [1, x, 1, x, 1, 1, x, x, x, x, x, 1, x, 0, 1, x, x, x, 0, x, 0, 0, x, 0, x, x, 1, x, x, x, 1, x, x, 1, 0, x, x, 0, x, x, 0, x, x, x, x, x, x, x, 1, 0, x, 0, x, 1, 1, x, 0, x, 1, 1, 0, x, 1, 1]\n\nN_hex = 806e763db47bbb6295171b44776c71c3\nP_bit = [x, 0, 0, 0, x, 0, 0, 0, x, 1, 1, x, x, x, x, x, x, 1, x, 1, 1, x, 0, 1, x, 1, 0, 0, 1, 1, x, x, 0, 0, 1, x, 0, x, 0, 0, x, x, x, 1, x, 1, 0, 0, x, 0, x, x, x, 1, 0, 1, x, x, 1, x, x, x, x, 1]\nQ_bit = [1, x, 0, 0, 1, 0, 0, 1, x, x, x, 1, x, x, x, x, x, x, x, x, 1, 1, x, x, x, x, x, x, 1, 1, 1, x, 1, x, x, 0, 0, x, x, x, x, 1, 1, 0, x, 0, 1, 0, x, 1, x, 1, 0, 1, 0, 1, x, x, 0, x, 1, 0, 1, 1]\n\nN_hex = 7593211d38b631a6c140b6983e40016b\nP_bit = [x, x, 0, 0, 1, 1, 1, x, x, x, 1, x, x, 0, 0, x, 0, x, x, 0, x, 1, 0, 0, 1, x, x, x, x, 0, 0, x, 1, x, 1, x, 0, 1, 0, x, x, x, 1, 1, x, 1, 1, x, 1, 0, 1, 1, 1, 1, 0, x, 1, x, 0, 0, 1, x, x, 1]\nQ_bit = [x, x, x, x, x, 0, x, 1, 0, 0, 0, x, 0, 0, 0, x, 1, x, 1, 0, x, x, x, x, 0, 1, 1, 0, x, x, x, x, 0, 0, 0, 0, x, x, x, x, 0, 0, x, x, 1, 1, 0, 1, 0, x, 1, x, 1, x, x, 0, 1, x, x, 1, 0, 0, x, x]\n\nN_hex = 87dd37c7451f77336d5926253ee3560f\nP_bit = [1, x, x, x, 1, x, 0, 1, x, 0, 1, x, 1, 1, x, 1, 0, x, 1, x, x, x, x, 1, x, 0, 1, x, x, x, 0, 1, 0, x, x, x, x, 1, 0, x, 0, x, x, 1, x, x, x, 1, 1, x, x, x, x, x, 1, 0, x, x, x, 1, x, x, 0, 1]\nQ_bit = [1, x, 1, x, x, x, 0, 1, x, 1, x, x, 1, x, x, x, 0, x, 1, 0, x, 1, x, x, 0, 1, x, x, 0, 0, x, x, x, 1, x, x, x, 1, x, x, 0, 1, 0, x, 0, x, 1, 1, 0, 0, x, 0, x, x, x, x, 0, x, x, 1, x, 1, 1, x]\n\nN_hex = 4f743382568e0e15dc2ab5d520763a13\nP_bit = [1, x, 0, x, x, x, x, 0, 0, 1, 1, x, 1, x, 1, x, 0, 0, x, 0, x, 0, x, 0, x, 1, x, x, x, 1, x, x, x, 1, 1, 1, 1, 1, 1, x, x, x, x, 1, x, 0, 1, x, x, 0, x, 0, 1, 1, x, x, x, 0, 0, 0, 0, 0, x, x]\nQ_bit = [1, x, x, 1, x, 0, 1, 1, x, x, x, 1, x, x, 0, 1, x, x, 1, 1, x, x, 1, x, 1, 0, x, 0, x, 0, x, 0, 0, 1, x, 1, x, 1, 1, 1, x, x, x, 1, 0, x, 1, x, 0, 0, 1, 1, x, 0, x, 0, x, 1, 1, 1, 1, x, 0, 1]\n\n-------------------------------------------\n\n<b>Output:</b>\nThe output file should contain everything within the dashed lines (including spaces, delimeters, and line breaks):\n\n-------------------------------------------\nP_hex = 914986cbd440a28b\nQ_hex = ee61c81aed42d9fd\n\nP_hex = 95ac2c04329b2f11\nQ_hex = dbab56837bffbb93\n\nP_hex = 913d6da795340771\nQ_hex = cf3cbcb016f7809b\n\nP_hex = 897fbc22ade6b5b1\nQ_hex = fcf4caa206b4f7bf\n\nP_hex = 80b1d87e3f147629\nQ_hex = 9e0ccdfe554e9ddb\n\n-------------------------------------------\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-01-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Indian Statistical Institute - CodeIT",
+    "languages_supported": "C, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1295749800,
+        "end_date": 1295793000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180209,
+        "submit_start_date": 1295749800,
+        "current": 1537439402
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>bst0602</span>",
+    "problem_name": "Factoring Challenge",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bst0602'>bst0602</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "bst0602",
+    "contest_code": "CODEIT",
+    "max_timelimit": "0.738994",
+    "problem_code": "CIT05"
+}

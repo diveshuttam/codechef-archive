@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>\n<p>The University results for the exams have just been declared. The colleges have received marks of <b>N</b> students. Now the teachers want to form groups of students for a seminar. However they do not want students having same marks in one group. They decide to pick random sub-arrays from the array of marks of <b>N</b> students. The teacher wants to find the number of students having different marks in that sub-array.\n</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>N</b> denoting the number of students.\n</li><li>The second line contains <b>N</b> space-separated integers <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b> denoting the marks of each student. </li>\n<li>The third line contains <b>M</b> , the number of sub-arrays picked by the teacher</li>\n<li> The next <b>M</b> lines each contain two integers denoting the range of the sub-array.</li>\n</ul>\n\n<h3>Output</h3>\n<ul>\n<li>Output <b>M</b> lines containing the answer for each sub-array given by the teacher.</li>\n</ul>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>30000</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>50000</b></li>\n<li><b>1</b> \u2264 <b>A<sub>i</sub></b> \u2264 <b>100000</b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n6\n2 4 5 4 3 7\n3\n1 3\n2 4\n6 6\n\n<b>Output:</b>\n3\n2\n1\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Pradnya'15",
+    "languages_supported": "C, CPP14",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426519800,
+        "end_date": 1426527000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426527000,
+        "submit_start_date": 1426519800,
+        "current": 1537436535
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>akshaykolte_17</span>",
+    "problem_name": "University Exams",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/akshaykolte_17'>akshaykolte_17</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "akshaykolte_17",
+    "contest_code": "PRDN2015",
+    "max_timelimit": "1",
+    "problem_code": "INC4"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Problem description.</p>\n<p>The evil Lex Luthor wants to separate Batman from Superman while he attacks Superman with his Kryptonie suit. But Batman, who is always 27 steps ahead of everyone, predicts that Luthor will blow up one of the bidirectional roads on the shortest path from Gotham to Metropolis. Each road is between 2 cities. Some cities may not have roads between them. To be able to help Superman in time, Batman will have to find out what will be the new shortest path if one of the roads on the original one will be blown up. There is a unique path from Gotham to Metropolis. Help Batman make his plan.\n</p>\n<h3>Input</h3>\n<p>First line contains number of test cases</p>\n<p>The first line contains 4 integers, the number of cities, n, and the number of roads, m, the city number of Gotham s, and\n</p>\n<ul>\n<li>m lines follow, with 3 integers, u, v and w, denoting a road of length w miles between the cities numbered u and v.\n</li>\n<h3>Output</h3>\n<p>Let the number of edges on the path from u to v be k.\n</p>\n<ul>\n<li>Print k integers, the kth integer being the length of the shortest path from Gotham to Metropolis when the kth edge on the shortest<br />\npath is blown up.\n</li>\n</ul>\n<h3>Constraints</h3>\n<ul>\n<li><b>n</b> &lt;= <b>1e5</b></li>\n<li>Sum of n over all test cases &lt;= 1e5+1000</li>\n<li>Sum of m over all test cases &lt;= 2e5+1000</li>\n<li><b>w</b>&lt;= 1e9</li>\n<li>1&lt;= u,v,s,t &lt;= n </li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n5 5 1 5\n1 2 1\n2 3 1\n3 4 1\n4 5 1\n1 4 9\n\n<b>Output:</b>\n10\n10\n10\n-1\n\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1 :</b> The edge not in the path, of weight 9 units can be used for all the first 3 edges. Since the final edge is a bridge edge, deleting it disconnects 1 and 5.</p>\n</ul>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "IOPC 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457789400,
+        "end_date": 1457875800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457875800,
+        "submit_start_date": 1457789400,
+        "current": 1537435136
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>shinigami_ryuk</span>",
+    "problem_name": "Bombs On Roads",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shinigami_ryuk'>shinigami_ryuk</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shinigami_ryuk",
+    "contest_code": "IOPC2016",
+    "max_timelimit": "1",
+    "problem_code": "IOPC16K"
+}

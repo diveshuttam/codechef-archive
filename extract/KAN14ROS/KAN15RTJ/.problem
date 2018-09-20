@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><head><br />\n<meta charset=\"UTF-8\" /><br />\n</head> </p>\n<p>War is inevitable now that the King has refused to fulfill the demands of the enemy neighbour.<br />\nThe King has sought Da Vinci's help in devising a strategy to not lose to the barbarous enemy<br />\nneighbour. Leonardo assured him that he can produce chemical explosives (yes chemical explosives!! Leonardo has always been generations ahead of the people) which have the potential to<br />\ndestroy the enemy army within seconds.</p>\n<p>The chemical explosives need to be handled with care. Leonardo has developed K different<br />\ntypes of explosives. He has a very large number of explosives of each type so that there is no<br />\nshortage during war. Most of these explosives are kept far from the city in Leonardo's lab among<br />\nthe mountains near the Sienne river. The King suspects an attack in a few days and he wants<br />\nsome explosives to be stored near the palace. Leonardo knows that storing these explosives in<br />\nthe city can be quite dangerous. But due to the urgent requirements put up during this war,<br />\nhe has to bring some of the explosives in the city.</p>\n<p>Leonardo thinks that the dungeons is the safest place inside the city to store these explosives.<br />\nThere are two major pathways A and B inside the dungeons which run parallel to each other<br />\nand are 1 metre apart. There are N cross pathways which intersect A and B perpendicularly.<br />\nThese N cross pathways are spread evenly over the lengths of A and B with the adjacent cross<br />\npathways being 1 metre apart from each other. Each cross pathway intersects with both the<br />\nmajor pathways A and B. The point of intersection of a pathway and a cross pathway is called<br />\na junction point. In this way, there are J(= 2N) junction points inside the dungeons.</p>\n<p>See the figure below to have a clear picture of the structure of the dungeons.</p>\n<p><img src=\"//www.codechef.com/download/KAN14ROS/J.PNG\" /></p>\n<p>The explosives made by Leonardo are made of a special infammable material. For safety puroses, explosives of the same type have to be placed at least<br />\n\u221a<span style=\"text-decoration: overline\">2</span> metres apart, otherwise they<br />\nwill explode. Whereas, the explosives of different types need to be placed only 1 metre apart<br />\nto prevent their self explosion.</p>\n<p>Leonardo plans on putting these explosives at the junction points only. He doesn't want any of<br />\nthe explosives to explode on its own and thus wants to keep them at adequate distance from<br />\neach other. It is not necessary to bring every type of explosive from the lab among the mountains. Leonardo will only bring those explosives which he can arrange safely. Your task is to<br />\nfigure out the number of ways in which it is safe to arrange 2N explosives on the junction points.</p>\n<h3>Input</h3>\n<ul>\n<li>Input contains a number of test cases. The first line of input contains an integer T.\n</li><li>Next T lines follow, each containing two space separated integers N and K.\n</li></ul>\n\n<h3>Output</h3>\n<ul>\n<li>For each test case, output in a separate line the total number of ways in which Leonardo can arrange the explosives. The answer can be very big so output it modulo 1000000007.\n</li></ul>\n\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 T \u2264 60000\n</li><li>1 \u2264 N \u2264 10<sup>18</sup>\n</li><li>2 \u2264 K \u2264 10<sup>9</sup>\n</li></ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n1 2\n1 3\n2 4\n\n<b>Output:</b>\n2\n6\n84\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-04-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Kanpur Onsite Contest 2014, Replay",
+    "languages_supported": "C, CPP14, JAVA, PYTH",
+    "todo": false,
+    "time": {
+        "view_start_date": 1427981400,
+        "end_date": 1427999400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1427999400,
+        "submit_start_date": 1427981400,
+        "current": 1537436450
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>piyushkumar</span>",
+    "problem_name": "Handling the explosives",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/piyushkumar'>piyushkumar</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "piyushkumar",
+    "contest_code": "KAN14ROS",
+    "max_timelimit": "2",
+    "problem_code": "KAN15RTJ"
+}

@@ -1,0 +1,117 @@
+{
+    "announcements": "No announcement",
+    "ip": "149.129.135.113",
+    "code": "JUNE09",
+    "duration": "14400",
+    "name": "June 2009 (Contest IV)",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>Updates:</b></p> <ul> <li>June 8th - 3:15pm - There was an issue with the test data for D4, this has been fixed, rejudge in progress.</li> <li>June 8th - 12:30pm - D3 constraints updated from 1 = K = N-2 to 0 = K = N-2.</li> <li>June 4th - 3:00pm - D3 constraints updated from 3&lt;=N&lt;=1000 to 3&lt;=N&lt;=2000.</li> <li>June 3rd - 2:00pm - DX time limit increased to 5sec. Rejudge in progress.</li> <li>June 1st - 6:00pm - D1 constraints updated from 2&lt;=N&lt;=500,000 to 1&lt;=N&lt;=500,000.</li> </ul> <p><br /> <b>Rules:</b></p> <ul> <li>Contest problems will become visible on June 1st 15:00 IST.</li> <li>The contest will consist of 8 problems of varying difficulty.</li> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <li>You can submit solutions as many times as you'd like, there are no penalties for incorrect submissions.</li> <li>Each contest will have one min/max tie breaker problem (i.e. <a href=\"http://www.codechef.com/JUNE09/problems/DX/\">Pack the balls in a box</a>), where the best solution will receive one point and all other solutions will receive a fraction based how close they come to the best solution</li> <li>In the unlikely case of an overall tie (including the same score on the tie-breaker) a winner will be randomly chosen from the top scorers.</li> </ul> <p><br /> <em>Prizes are only available to users within India</em></p>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/JUNE09/1424957400.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "D2": {
+            "allow_submission": false,
+            "name": "The Lucky Draw",
+            "category_name": "main",
+            "accuracy": 11.44,
+            "successful_submissions": "29",
+            "code": "D2",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "A8": {
+            "allow_submission": false,
+            "name": "The Bytelandian Union",
+            "category_name": "main",
+            "accuracy": 5.97,
+            "successful_submissions": "2",
+            "code": "A8",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "D6": {
+            "allow_submission": false,
+            "name": "Count the squares",
+            "category_name": "main",
+            "accuracy": 23.86,
+            "successful_submissions": "70",
+            "code": "D6",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "D1": {
+            "allow_submission": false,
+            "name": "Product of divisors",
+            "category_name": "main",
+            "accuracy": 6.43,
+            "successful_submissions": "72",
+            "code": "D1",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "DX": {
+            "allow_submission": false,
+            "name": "Pack the balls in a box!",
+            "category_name": "main",
+            "accuracy": 46.55,
+            "successful_submissions": "13",
+            "code": "DX",
+            "type": "2",
+            "is_direct_submittable": false
+        },
+        "D3": {
+            "allow_submission": false,
+            "name": "The battlefield",
+            "category_name": "main",
+            "accuracy": 28.57,
+            "successful_submissions": "21",
+            "code": "D3",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "D7": {
+            "allow_submission": false,
+            "name": "Alien Clock",
+            "category_name": "main",
+            "accuracy": 2.87,
+            "successful_submissions": "6",
+            "code": "D7",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "D4": {
+            "allow_submission": false,
+            "name": "Primes in the GCD table",
+            "category_name": "main",
+            "accuracy": 2.62,
+            "successful_submissions": "9",
+            "code": "D4",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1244712600,
+        "current": 1537439934,
+        "freezing": 0,
+        "start": 1243848600
+    },
+    "user": {
+        "username": ""
+    }
+}

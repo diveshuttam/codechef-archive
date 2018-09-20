@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span>Frieza wants to become immortal. In order to do that he must acquire all the seven dragon balls. In a legendary fight, he is able to defeat Kami, the Guardian of the dragon balls. Now he has come across a case that contains the dragon balls and he needs your help to open it. \n\nThe case requires a pin number to be unlocked. And the clever Kami has left a puzzle on the case which must be cracked to unlock the case.\n\nOn the case, is displayed a string, $S$ of length $N$ consisting of lowercase alphabets. To unlock, he needs to convert this string into a pin number $R$. \n\nThe trick to creating that pin lies in his name $[f, r, i, e, z, a]$. Every character in $S$ is either $good$ or $bad$. It is $good$, if it is a part of the letter set $[f, r, i, e, z, a]$. It is $bad$ otherwise. He'll have to traverse $S$ one by one and count consecutive letters that are $good$ or $bad$ and then store these corresponding counts in the same order in $R$. Thus the pin number, $R$ will be a concatenation of the counts of these letters. See Sample Input for more details.\n\nYou have to help him find out $R$.\n\n###Input:\n\n- The first line of the input contains a single integer $T$ denoting the number of test cases. The description of $T$ test cases follows. \n- Each test case contains a single string $S$ consisting of lowercase characters $[a-z]$.\n\n###Output:\nFor each test case, output in a single line answer denoting the decoded string which Frieza can use to attain immortality.\n\n###Constraints \n- $1 \\leq T \\leq 5$\n- $1 \\leq N \\leq 10^5$\n- $S$ consists of only lower case alphabets.\n\n###Sample Input:\n\t2\n\tkrillinisdead\nfuturetrunks\n\n###Sample Output:\n\t122111221\n\t132114\n\n###EXPLANATION:\n*Example case 1:* The string $S$ is \"krillinisdead\". The letter, \"k\" does not belong to the set $[f, r, i, e, z, a]$ and hence it's count, i.e., 1 is appended to the string $R$. \"ri\" belongs to the set $[f, r, i, e, z, a]$ and hence 2 is appended to $R$. \"ll\" doesn't belong to the set $[f, r, i, e, z, a]$, so it's count 2 is appended to the string $R$. The string $R$ keeps getting updated and the final answer is returned when the input string has been completely traversed.",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "9-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "Quick Code (Rated for Division 2)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1528817400,
+        "end_date": 1528826400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1528826400,
+        "submit_start_date": 1528817400,
+        "current": 1537432374
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #666666;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>1&#9733;</span><span>anmolrishi</span>",
+    "problem_name": "Immortal Frieza",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anmolrishi'>anmolrishi</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "anmolrishi",
+    "contest_code": "QUCO2018",
+    "max_timelimit": "1",
+    "problem_code": "FRIEZA"
+}

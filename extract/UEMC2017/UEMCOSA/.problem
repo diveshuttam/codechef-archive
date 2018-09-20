@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p class=\"p1\"><span class=\"s1\">There are 'n' cars on a 'n+1' length parking track. The cars are numbered from '1' to 'n' and are initially placed at positions starting from position 1 till position n.</span></p>\n<p class=\"p1\"><span class=\"s1\">They are moving either in the left direction (denoted by '-1') or in the right direction (denoted by '1'). Whenever an car crosses the boundary of the parking track it goes out of the parking track. You are given the initial direction of the cars. Now, whenever two cars collide their direction switches, i.e. the car going in the left direction ('-1) changes its direction towards the right ('1') and the car going in the right direction ('1') changes its direction towards left ('-1'). Find the last car to fall off or go out of the parking track. </span></p>\n<p class=\"p1\"><span class=\"s1\">Note: In case two cars are going out simultaneously in the end print the index of the lower indexed car. </span></p>\n<p class=\"p1\"><span class=\"s1\"><strong>Input Format:</strong></span></p>\n<p class=\"p1\"><span class=\"s1\">First line contains the integer 'n' denoting the total number of cars.</span></p>\n<p class=\"p1\"><span class=\"s1\">The second line contains 'n' space separated numbers (either '1' or '-1') denoting the initial directions of the cars. </span></p>\n<p class=\"p1\"><span class=\"s1\"><strong>Output Format:</strong></span></p>\n<p class=\"p1\"><span class=\"s1\">Output a single integer which is the index (lower index in case two cars are going out simultaneously in the end) of the last car to fall off the parking track.</span></p>\n<p class=\"p1\"><span class=\"s1\"><strong>Constraints</strong>:</span></p>\n<p class=\"p1\"><span class=\"s1\">1 &lt;= n &lt;= 1000<br /><br /><br /><strong>Sample Input 1</strong>:<br />2<br />1 1</span></p>\n<p class=\"p1\"><span class=\"s1\"><strong>Sample Output 1</strong>:<br />1</span></p>\n<p class=\"p1\"><span class=\"s1\"><strong>Sample Input 2</strong>:<br />3<br />1 -1 -1</span></p>\n<p class=\"p1\"><span class=\"s1\"><strong>Sample Output 2</strong>:</span></p>\n<p class=\"p1\">&nbsp;2</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-10-2017",
+    "is_direct_submittable": false,
+    "contest_name": "UEMCO",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1509287400,
+        "end_date": 1509298200,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1509298200,
+        "submit_start_date": 1509287400,
+        "current": 1537433393
+    },
+    "problem_author_html_handle": "uemco2017",
+    "problem_name": "PARKING PROBLEM",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/uemco2017'>uemco2017</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "uemco2017",
+    "contest_code": "UEMC2017",
+    "max_timelimit": "1",
+    "problem_code": "UEMCOSA"
+}

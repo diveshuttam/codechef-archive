@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Given a function f(x) = a<sub>n</sub>x<sup>n</sup> + a<sub>n-1</sub>x<sup>n-1</sup> + .... + a<sub>1</sub>x<sup>1</sup> + a<sub>0</sub>, find SUM<sub>x=0</sub><sup>x=m</sup> f(x) mod 1009 (a prime number) for given n and m.</p>\n<h3>Input</h3>\n<p>First line contains two space separated integers n and m. Next line contains n+1 space separated integers (each non negative and less than 100) which are the co-efficients a<sub>n</sub>, a<sub>n-1</sub>, ... , a<sub>0</sub>. <br/></br/></p>\n<p>0 &lt; m &lt; = 100000000 <br/><br />\n0 &lt; n &lt;= 100</br/></p>\n<h3>Output</h3>\n<p>Output a single integer which is the sum mod 1009.</p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n1 100\n10 1\n\n<b>Output:</b>\n151\n\n<b>Explanation:</b>\nThe function is 10x+1. The sum is 10(50)(101) + 101 = 50601 mod 1009 = 151\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-11-2012",
+    "is_direct_submittable": false,
+    "contest_name": "ZERO1",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1353061800,
+        "end_date": 1353148200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1353148200,
+        "submit_start_date": 1353061800,
+        "current": 1537438633
+    },
+    "problem_author_html_handle": "shivamagarwal",
+    "problem_name": "Sum of Series",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/shivamagarwal'>shivamagarwal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "shivamagarwal",
+    "contest_code": "ZERO1",
+    "max_timelimit": "0.1",
+    "problem_code": "TF02"
+}

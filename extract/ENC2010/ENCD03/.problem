@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>The Problem is simple. You will be given n integers .Find an arrangement of these n integers so that summation of the absolute differences between adjacent elements is maximized. Suppose n = 4 and the given integers are &lt;4 2 1 5&gt;. The re-arrangement &lt;2 5 1 4&gt; yields the maximum summation.\nFor this arrangement, sum = abs(2-5) + abs(5-1) + abs(1-4) = 3+4+3 = 10.\nOf all the 24 different arrangements of the above list, you won\u2019t get any summation whose value exceeds 10. We will call this value, 10, the \"Interesting list sum\".\n\n\n<h3>Input</h3>\n</p><p>The Input will consist of number of test cases. Each case consists of a line that starts with n. n will be greater than 1 and smaller than 51, followed by n non-negative integers separated by a single space. None of the elements of the given list will exceed 1000. Terminate the input with n=0.\n<br />\n<h3>Output</h3>\n</p><p>For each case, output the \"Interesting list sum\".\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n4 4 2 1 5\n4 1 1 1 1\n2 10 1\n0\n<b>Output:</b>\n10\n0\n9\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "19-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Encoder 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1264321800,
+        "end_date": 1264350600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180167,
+        "submit_start_date": 1264321800,
+        "current": 1537439805
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rscrbv</span>",
+    "problem_name": "Interesting List",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rscrbv'>rscrbv</a>",
+    "problem_tester_html_handle": null,
+    "problem_author": "rscrbv",
+    "contest_code": "ENC2010",
+    "max_timelimit": "0.58",
+    "problem_code": "ENCD03"
+}

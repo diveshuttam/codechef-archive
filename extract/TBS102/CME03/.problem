@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Louie, Douie and Huie want to open a lemonade stall so that they can earn their pocket money. However, Uncle Scrooge being a skinflint miser, has refused to invest a single dime in their business. That\u2019s the trouble with you young scalawags of today...you expect to start in the top instead of working up from the bottom, like I did!' was what Uncle Scrooge had to say on hearing of their brilliant plan.\nThe nephews start discussing alternative ways of obtaining the necessary capital.\nLouie tells that he heard Gyro discussing the safety scheme of Scrooge's new piggy bank. The piggy bank has two locks which need to be supplied with positive numbers a  and b with a &lt; b which satisfy the condition a^ 2 + b^2- ab = the number on the safe.\nDouie knows that Gyro issued a book on prime numbers from McDuck Library and checking with the book finds that the number on the safe is prime. He also finds out from the book that only primes of the form 3t+1 can be written in this form. Now it is up to you to help Huie to put a and b together and crack the safe to start the lemonade business.\n\n<h3>Input</h3>\n</p><p>Number of primes\n\nThe primes can have at most 10 digits.\n\n<h3>Output</h3>\n</p><p>Numbers a b (values separated by a single space and each line ends with a new line character)\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n7\n\n<b>Output:</b>\n7 2 3\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Technical Blitzschlag",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1264876200,
+        "end_date": 1264962600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180170,
+        "submit_start_date": 1264876200,
+        "current": 1537439756
+    },
+    "problem_author_html_handle": "vishesh_sigma",
+    "problem_name": "Problem 3",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vishesh_sigma'>vishesh_sigma</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vishesh_sigma",
+    "contest_code": "TBS102",
+    "max_timelimit": "50",
+    "problem_code": "CME03"
+}

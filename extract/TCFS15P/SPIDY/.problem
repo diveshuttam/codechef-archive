@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The colony of ants is in big trouble! They have noticed that their food supplies are decreasing more than expected. They fear that some spiders might have infiltrated their colony. So they set about to confirm this the only way they know how : <i>by counting legs!</i> The queen ant counts the legs of all creatures present in the nest (apart from herself), and it totals to N. Now she wonders if it is possible to have the leg-count to be N with some spiders in the nest. Help her out.</p>\n<h3>INPUT</h3>\n<p>First line contains T, number of test cases.<br />Each of the next T lines contain a single integer N denoting the leg count that the queen ant obtained.</p>\n<h3>OUTPUT</h3>\n<p>Print T lines, i<sup>th</sup> line being answer to the i<sup>th</sup> test case. Print \"YES\" if it is possible, \"NO\" if it is not possible and \"RIDICULOUS\" if this leg-count can never be obtained. <b>Note</b> that ants have 6 legs and spiders have 8 legs.</p>\n<h3>CONSTRAINTS</h3>\n<p>1\u2264T\u226410000<br />1\u2264N\u22641000000</p>\n<h3>SAMPLE INPUT</h3>\n<pre>2<br />24<br />8</pre><h3>SAMPLE OUTPUT</h3>\n<pre>YES<br />YES</pre><h3>EXPLANATION</h3>\n<p>In the first sample case there are three spiders. Note that having 4 ants could have given the same leg-count, but question asks if it is possible to have spiders in the colony and still have this leg-count.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-09-2014",
+    "is_direct_submittable": false,
+    "contest_name": "TechFest 2015, Portal round",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1412868600,
+        "end_date": 1413059400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1413059400,
+        "submit_start_date": 1412868600,
+        "current": 1537437359
+    },
+    "problem_author_html_handle": "techfest2k15",
+    "problem_name": "Spider Infiltration",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/techfest2k15'>techfest2k15</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "techfest2k15",
+    "contest_code": "TCFS15P",
+    "max_timelimit": "1",
+    "problem_code": "SPIDY"
+}

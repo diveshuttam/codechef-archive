@@ -1,0 +1,33 @@
+{
+    "problem_code": "CYCENCR",
+    "problem_author": "avastpulkit",
+    "contest_name": "Kodeathon 15.2 - Rapid fire",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>avastpulkit</span>",
+    "problem_name": "Cyclic Encryption",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "KOAT2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/avastpulkit'>avastpulkit</a>, <a class='problem-tag-small ' href='/tags/problems/koat2015'>koat2015</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><pre>\nLet us see what is Cyclic encryption.\nConsider a an array of unique integers <b>A</b> , which has to be encrypted.\nCyclic encryption uses Rotation factors for encryption.\n\n<b>Rotation factor(RF)</b> for an index '<b>i</b>' is one less then the length of the subarray (ending at index 'i')<br /> which needs to be right rotated(circular shift).\nRotation Factor can never be greater then i (because that will exceed the array's length).\n\nLet <b>A = {3,4,5,2,1}</b>\n\nIf RF for index <b>3</b> (0-based indexing) is <b>2</b> , after rotation the array will be  <b>{3,2,4,5,1}</b>\nSimilarly if, RF for index <b>4</b> is <b>1</b> ,after rotation of the original array, the result will be <b>{3,4,5,1,2}</b>\nAs most of the encryptions , Cyclic Encryption also contains a key value. <br />But instead of being a value, <b>it is an array</b>.\n\nSo, here the keyvalue(array) is an array of length equal to the original message's length (Length of A).\nThe keyvalue is in infact an <b>array of Rotation Factors</b>. <br />The keyvalue[i] is the Rotation Factor applied on the index i.\nThe RFs are applied in sequential order , from left to right ( and on the resultant array of the previous RFs).\n\nLets see an example\nconsider : <b>\n\tA \t = \t{2,3,4,1,5}\n\tkeyvalue =\t{0,1,2,1,3}\n\t\n\tApplying keyvalue[0] = 0\n\tA = {2,3,4,1,5}\n\t\n\tApplying keyvalue[1]=1 on previous result\n\tA = {3,2,4,1,5}\n\t\n\tThen for keyvalue[2] = 2\n\tA = {4,3,2,1,5}\n\t\t\n\tThen for  keyvalue[3] = 1\n\tA = {4,3,1,2,5}\n\t\t\t\n\tFinally the keyvalue[4] = 3\n\tA = {4,5,3,1,2}\n</b>\nNow, the final array is the encrypted array.\n\nLets review what we did ,\n<b>on applying the keyvalue = {0,1,2,1,3} on the array {2,3,4,1,5}, Cyclic Encryption produced {4,5,3,1,2}.</b>\n\nWe have a very large message along with the keyvalue,<br /> can you help in its decryption and retrieve the original message ? \n</pre></p>\n<h3>Input</h3>\n<p><pre>\nFirst line contains N , the length of the encrypted message.\nThe next line contains N integers providing the encrypted message.\nThe next line contains N integers providing the keyvalue array.\n</pre></p>\n<p><br /></p>\n<h3>Output</h3>\n<p><pre>\nPrint the N integers of the Decrypted/Original Message.\n</pre></p>\n<p><br /></p>\n<h3>Constraints</h3>\n<p><pre>\n1 &lt;= N &lt;= 10<sup>6</sup>\nOriginal Message consists of numbers less than 10<sup>6</sup>\n</pre></p>\n<p><br /></p>\n<h3>Example</h3>\n<h3>Input</h3>\n<p><pre>\n5\n4 5 3 1 2\n0 1 2 1 3\n</pre></p>\n<p><br /></p>\n<h3>Output</h3>\n<p><pre>\n2 3 4 1 5\n</pre></p>\n<p><br /></p>\n",
+    "category_name": "main",
+    "date_added": "12-05-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1.5",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/CYCENCR",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1431617400,
+        "end_date": 1431628200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1431628200,
+        "submit_start_date": 1431617400,
+        "current": 1537436313
+    },
+    "user": {
+        "username": ""
+    }
+}

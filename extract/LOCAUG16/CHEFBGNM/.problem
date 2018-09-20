@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nHari, Shyam and Anu are three chefs living in Cheftown. They are very close friends too. They have heard that a group of <b>3</b> friends is always special, so all of them like the number <b>3</b> very much.\n</p>\n<p>\nOne day while playing in the garden, Hari found a very big number. He showed the number to his friends, Shyam and Anu. They decided to make a game around this big number.\n</p>\n<p>\nThe game is as follows: First of all, they wrote the number on a large piece of paper (yeah, I know it's hard, but those guys can do anything). Now, they want to know how many substrings of this number are divisible by <b>3</b>. All three of the friends are competing to get the answer as fast as possible. Can you get the answer before them ?\n</p>\n<p>\nFor example, if the big number is <b>1234</b>, the substrings of this number are <b>1, 2, 3, 4, 12, 23, 34, 123, 234, 1234</b>. Out of these substrings, only <b>3, 12, 123, 234</b> are divisible by <b>3</b>. So, the answer is <b>4</b> for big number <b>1234</b>.\n</p>\n<p>\n<b>Notes:</b>\n<ul>\n<li>The big number is formed only using digits <b>[1-9]</b>. It does not contain digit <b>0</b> anywhere.</li>\n<li>Since the number is really big (it may have <b>10<sup>9</sup></b> digits), so in the input, the number will be given in <a href = \"https://en.wikipedia.org/wiki/Run-length_encoding\">Run-length Encoding</a> format.</li>\n</ul>\n</p>\n\n<h3>Input</h3>\n<p>\nFirst line of the input contains <b>T</b>, the number of test cases. The description of each test case is as following:\n</p>\n<p>\nFirst line of each test case contains <b>N</b>, the number of entries in run-length encoding of the big number.\n</p>\n<p>\nEach of the next <b>N</b> lines contains two integers <b>F<sub>i</sub></b> and <b>D<sub>i</sub></b>, denoting that digit <b>D<sub>i</sub></b> appears for <b>F<sub>i</sub></b> times at the <b>i-th</b> entry out of <b>N</b> entries of run-length encoding.\n</p>\n<p>\nThe big number can be formed by writing digit <b>D<sub>1</sub></b> for <b>F<sub>1</sub></b> times, then digit <b>D<sub>2</sub></b> for <b>F<sub>2</sub></b> times, then digit <b>D<sub>3</sub></b> for <b>F<sub>3</sub></b> times, ............., then digit <b>D<sub>N</sub></b> for <b>F<sub>N</sub></b> times.\n</p>\n\n<h3>Output</h3>\n<p>\nFor each test case, output a single line containing the count of those substrings of the big number which are divisible by <b>3</b>.\n</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>5</b></li>\n<li><b>1</b> \u2264 <b>D<sub>i</sub></b> \u2264 <b>9</b></li>\n</ul>\n\n<h3>Subtasks</h3>\n<p>\n<b>Subtask#1: 10 points</b>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>2</sup></b></li>\n<li><b>1</b> \u2264 <b>F<sub>i</sub></b> \u2264 <b>10</b></li>\n</ul>\n</p>\n\n<p>\n<b>Subtask#2: 20 points</b>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>4</sup></b></li>\n<li><b>1</b> \u2264 <b>F<sub>i</sub></b> \u2264 <b>10<sup>2</sup></b></li>\n</ul>\n</p>\n\n<p>\n<b>Subtask#3: 70 points</b>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>F<sub>i</sub></b> \u2264 <b>10<sup>4</sup></b></li>\n</ul>\n</p>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n4\n1 1\n1 2\n1 3\n1 4\n3\n1 1\n1 2\n2 3\n2\n6 3\n7 1\n\n<b>Output:</b>\n4\n6\n40\n</pre>\n\n\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> In the first case, the formed big number will be <b>1234</b>, and <b>4</b> of its substrings are divisible by <b>3</b>. In the second case, the formed big number will be <b>1233</b>, and <b>6</b> of its substrings are divisible by <b>3</b>. In the third case, the formed big number will be <b>3333331111111</b> and <b>40</b> of its substrings are divisible by <b>3</b>.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "31-08-2016",
+    "is_direct_submittable": false,
+    "contest_name": "August LoC Competitive Programming Marathon",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1472754600,
+        "end_date": 1473100140,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1473100140,
+        "submit_start_date": 1472754600,
+        "current": 1537434638
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>m_17</span>",
+    "problem_name": "Three Chefs and a Big Number",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/m_17'>m_17</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "m_17",
+    "contest_code": "LOCAUG16",
+    "max_timelimit": "1",
+    "problem_code": "CHEFBGNM"
+}

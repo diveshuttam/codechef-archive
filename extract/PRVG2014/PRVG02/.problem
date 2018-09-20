@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem description</h3>\n<p>Sampada is making questions for the Pravega event Crypto. While working on encryption, she has discovered that any cipher (which is a positive integer) which has any substring not divisible by 2 is bad and can be cracked. She has also discovered that any cipher which has a substring divisible by 11 is also bad and can be cracked easily. She believes all other ciphers are good.\n</p><p>Help Sampada find the kth cipher, in ascending order, which is good.</p>\n<p>In a good cipher, every substring is divisible by 2 and none are divisible by 11.</p>\n<h3>Input format</h3>\n<p>The first line of input has a single integer T, the total number of test cases. The next T lines each have an integer k on them.</p>\n<h3>Output Format</h3>\n<p>The output should contain T integers on T different lines, the kth good cipher.</p>\n<h3>Sample Input</h3>\n<div style=\"font-family:monospace;\">\n2<br /><br />\n1<br /><br />\n136\n</div>\n<p><br /></p>\n<h3>Sample Output</h3>\n<div style=\"font-family:monospace;\">\n2<br /><br />\n4008\n</div>\n<p><br /></p>\n<h3>Input constraints</h3>\n<p>1 \u2264 T \u2264 50000<br /><br />\n1 \u2264 k \u2264 1500000 </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "9-11-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Pravega 2014",
+    "languages_supported": "C, CPP14, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1384011000,
+        "end_date": 1384018200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1384018200,
+        "submit_start_date": 1384011000,
+        "current": 1537438040
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>pravega_opc</span>",
+    "problem_name": "Crypto",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pravega_opc'>pravega_opc</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pravega_opc",
+    "contest_code": "PRVG2014",
+    "max_timelimit": "1",
+    "problem_code": "PRVG02"
+}

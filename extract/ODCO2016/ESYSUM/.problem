@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Given the values of A,D,N and X.<br />\nFind the value of the following expression:</p>\n<p><img src=\"https://latex.codecogs.com/gif.latex?\\sum_{i=0}^{n}(A+i*D)*(X^{N-i})\" title=\"\\sum_{i=1}^{n}(A+i*d)*(x^{N-i})\" /></p>\n<p>Since the answer can be very large,output the final answer % 274877906944.</p>\n<h3>Input</h3>\n<pre>First line will contain T,the no of test cases.\nThe next T lines will contain the values of A,D,N,X.</pre><p><b>Note: For this problem submissions are allowed only in C/C++</b></p>\n<h3>Output</h3>\n<p>For each test case output the required answer in a single line.</p>\n<h3>Constraints</h3>\n<p>1&lt;=T&lt;=100</p>\n<p>0&lt;=A,D,X&lt;=10^5</p>\n<p>0&lt;=N&lt;=10^6</p>\n<h3>Example</h3>\n<pre><b>Input: \n</b>\n2\n1 1 1 1\n2 2 2 2\n\n<b>Output:</b>\n3\n22\n\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-03-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Ode to Code 2016 prelims",
+    "languages_supported": "C, CPP14",
+    "todo": false,
+    "time": {
+        "view_start_date": 1458142200,
+        "end_date": 1458155400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1458155400,
+        "submit_start_date": 1458142200,
+        "current": 1537435079
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>diptanshu</span>",
+    "problem_name": "SIMPLE EQUATION",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/diptanshu'>diptanshu</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "diptanshu",
+    "contest_code": "ODCO2016",
+    "max_timelimit": "2",
+    "problem_code": "ESYSUM"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>In the Mathematical world of Dr. Ramanujam, every new student must have to pass a exam to take the classes of Advance mathematics from Dr. Ramanujam. <br />One day Ram wants to have classes of Advance mathematics, so he arrived at class of Dr. Ramanujam. He asked Ram to solve a given mathematical expression then only he will be eligible to take classes. Mathematical expression is in a string form of numbers(0-9) and operators(+,-,*). Dr. Ramanujam asked him to find the answer of the expression but there is a twist that, he does not want him to follow \"Operator precedence rule\", rather he have his own precedence rule in which he need to operate operations from right to left.<br /><br />\n<br /><br />\nFor eg: Given string <b>2 + 3 * 5</b>, So <b>3 * 5</b> will be operated first then<b> +2</b> will be performed in result of <b>3 * 5.</b><br />\n<br /><br /><br />\nHe asked him to solve as fast as possible. So Ram needs your help to solve the expression.<br /><br />\n<br /><b><br />\nINPUT:</b><br />\n<br /><br />\nFirst line contain test cases T. Next T lines contain one string.<br />\n<br /><br />\n1&lt;=T&lt;=100<br />\n<br /><br />\n1&lt;=Length of the String(L)&lt;=31<br />\n<br /><br />\n<br /><br /><br />\n<b><br />\nOUTPUT:<br />\n</b><br /><br />\nAnswer of the given expression.<br />\n<br /><br /><b><br />\nSample Input:</b><br /> 2<br /> 2+3*5 <br />1*2*3 <br /><b>Sample Output:</b><br /> 17<br /> 6</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "3-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeERA",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1425839400,
+        "end_date": 1426314600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426314600,
+        "submit_start_date": 1425839400,
+        "current": 1537436600
+    },
+    "problem_author_html_handle": "akhil62",
+    "problem_name": "Mathematics Genius",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/akhil62'>akhil62</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "akhil62",
+    "contest_code": "CDER2015",
+    "max_timelimit": "2",
+    "problem_code": "MATHS"
+}

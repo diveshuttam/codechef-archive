@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Its the time of the Ojass\u201915 the technical fest of NIT Jamshedpur. Guys are busy decorating the arenas for various events. They need several colorful ribbons of different sizes for the decoration and for this they want to buy ribbons of a fixed size and then join them to form the ribbons of required sizes.<br />\n<br /><br />\nGiven sizes of <b>N</b> required ribbons. Help them to buy the longest sized ribbon which they can use to form the required ribbons by joining the purchased ribbons.<br />\n<br /><br />\nNote: They can't cut the ribbons in any way.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<ul>\n<li>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.</li>\n<li>The first line of each test case contains a single integer <b>N</b> denoting the number of required ribbons. The second line contains <b>N</b> space-separated integers <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>N</sub></b> denoting the sizes of required ribbons.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Output</h3>\n<ul>\n<li>For each test case, output a single line denoting the size of the longest ribbon that should be bought.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>A<sub>i</sub></b> \u2264 <b>10^18</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n3\n4 6 8\n\n<b>Output:</b>\n2\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-03-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Code Mania 2015",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1426692600,
+        "end_date": 1426704600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1426704600,
+        "submit_start_date": 1426692600,
+        "current": 1537436521
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>code_dreamer</span>",
+    "problem_name": "Join the Ribbons",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/code_dreamer'>code_dreamer</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "code_dreamer",
+    "contest_code": "CDMN2015",
+    "max_timelimit": "1",
+    "problem_code": "CDMN01"
+}

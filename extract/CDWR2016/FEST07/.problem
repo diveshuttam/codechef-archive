@@ -1,0 +1,33 @@
+{
+    "problem_code": "FEST07",
+    "problem_author": "vipinkhushu",
+    "contest_name": "CodeWars",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>vipinkhushu</span>",
+    "problem_name": "In and Out",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CDWR2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/bit'>bit</a>, <a class='problem-tag-small ' href='/tags/problems/cdwr2016'>cdwr2016</a>, <a class='problem-tag-small ' href='/tags/problems/easy'>easy</a>, <a class='problem-tag-small ' href='/tags/problems/vipinkhushu'>vipinkhushu</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Mathematics Teacher asked <b>Sam </b>to look after the class for a while and do not let anyone leave the class as <b>\"CR Nandu\"</b> is absent.Teacher is taking a lot of time into his work and students are getting impatient.So <b>Sam </b> allows students to go one by one out of class to get refreshed.But students are not listening to <b>Sam </b> and going in and out from the class.<br /><br />\nSo <b>Sam </b> started noticing the Roll Numbers of Students crossing the door.After a while when teacher came he noticed that one of the student is missing.So he asks <b>Sam </b> for the missing student.<br /><br />\nHelp <b>Sam </b> to solve this problem so that he can answer which student is missing.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<ul>\n<li>The first line contains <b>T</b> i.e. the number of test cases.<br />\n.</li>\n<li><b>T</b> test case where each follow, an integer <b>N</b> and next  line containing  space seperated N roll numbers,<b></b></li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>For each testcase, print  the Student number.</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10^9</b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10^15</b></li>\n<li><b>1</b> \u2264 <b>a</b> \u2264 <b>10^15</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n6\n10 15 15 20 10 \n\n<b>Output:</b>\n20\n</pre><hr />\n<h3>Solution</h3>\n<pre>\n\n#include&lt;stdio.h>\n\nint main()\n{\n float t;\nscanf(\"% d\",&t);\nwhile(t--)\n{\n\tlong  int a[100000],n,s=1,i;\n\tscanf(\"%lld\",&t);\n\tfor(i=0;i&lt;n;i++)\n\t{\n\tscanf(\" %lld \",&a);\n\t\n\t}\n\tfor(i=0;i&lt;n;j++)\n\t{\n\ts+=j*i;\n\t}\n\tprintf(\"%lld\\n\",s);\n}\nreturn 0;\n}\n\n</pre><hr />\n<h3>Steps to be followed</h3>\n<p>    1. Read the given description carefully and understand the problem.<br /><br /></p>\n<p>    2. Analyze the code given in the problem and find bugs(errors) in these codes..<br /><br /></p>\n<p>    3. The given code can be copied and compiled in an online compiler (Eg. ideone.com).<br /><br /></p>\n<p>    4. Once the bugs are eliminated from the code, the clean code can be submitted as the solution to the problem..<br /><br /></p>\n<p>    5. The solution should be a debugged version of the code provided and must satisfy the test cases to be accepted..<br /><br /></p>\n<p><b>All the best!!</b></p>\n",
+    "category_name": "main",
+    "date_added": "9-03-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, PYTH, PYTH 3.6, PYPY",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/FEST07",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1457686800,
+        "end_date": 1457694000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457694000,
+        "submit_start_date": 1457686800,
+        "current": 1537435183
+    },
+    "user": {
+        "username": ""
+    }
+}

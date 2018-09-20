@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Richard loves Geometry. One day he was playing with a rectangle and a cylinder and came up with a problem.</p>\n<p>There is a rectangle with sharp edges, kept in an x-y coordinate system. And there is also a cylinder of height 2 units (One unit above the x-y plane and one unit below x-y plane) placed vertically in the same x-y coordinate system.</p>\n<p>Richard is going to insert a pin in any of the four corners of the rectangle and rotate the rectangle about that pin.</p>\n<p>Rotation of the rectangle will be along the x-y plane.</p>\n<p>He wants to know whether he can cut the cylinder fully into two parts.</p>\n<p>\n</p><p><b>Note</b></p>\n<p>Input rectangle will be a standard rectangle; i.e., their sides are parallel to the coordinate axis.</p>\n<p>\n<h3><b>Input</b></h3>\n</p>\n<p>First four lines will contain two space separated integers each <b>x</b> and <b>y</b>, which represents the corners of the rectangle.</p>\n\n<p>Fifth line will contain an integer <b>Q</b>, number of queries.</p>\n<p>Each query will contain five space separated integers (<b>x y p q r</b>), where <b>x</b> and <b>y</b> represents one of the four corners of the rectangle where the pin has to be inserted. <b>p</b> and <b>q</b> represents the centre of the cylinder. <b>r</b> represents the radius of the cylinder.</p>\n<p>\n<h3><b>Output</b></h3>\n</p>\n<p>For Each Query Print <b>YES</b>, if the cylinder can be fully cut into two parts, else print <b>NO</b>.</p>\n<p>\n<h3><b>Constraints</b></h3>\n</p>\n<p><b>-10^7 \u2264 x, y \u2264 10^7</b></p>\n<p><b>-10^7 \u2264 p, q \u2264 10^7</b></p>\n<p><b>-10^7 \u2264 r \u2264 10^7</b></p>\n<p><b>1 \u2264 Q \u2264 10^3</b></p>\n<p>\n<h3><b>Example</b></h3>\n</p>\n<p><b>Input:</b></p>\n<p>3 1</p>\n<p>3 3</p>\n<p>7 1</p>\n<p>7 3</p>\n<p>3</p>\n<p>3 3 5 2 2</p>\n<p>3 1 6 2 1</p>\n<p>3 3 7 2 2</p>\n<p><b>Output:</b></p>\n<p>YES</p>\n<p>YES</p>\n<p>NO</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-02-2015",
+    "is_direct_submittable": false,
+    "contest_name": "CodeCracker 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1425130200,
+        "end_date": 1425148200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1425148200,
+        "submit_start_date": 1425130200,
+        "current": 1537436692
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>harshitasia</span>",
+    "problem_name": "Richard and Cylinder",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/harshitasia'>harshitasia</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "harshitasia",
+    "contest_code": "COCR2015",
+    "max_timelimit": "1",
+    "problem_code": "COCR08"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u201c<b>Avada Kedavra</b>\u201d </p> \n\n<p> The Killing Curse was cast. Harry never expected this from Snape. </p>\n<p> He wanted to save DumbleDore. He suddenly remembers a line from the Half Blood Prince's book about defeating the Killing curse. </p>\n<p>It said \"Calculate the power of the curse and use the exact same amount of the potion <b>Elixir of Life</b> to cure the affected\". Next was the process of calculating the power of curse.\n</p>\n\n<p> The Curse is combination of <b>N</b> mini curses arranged in the form of a weighted tree. Each node represents a mini curse and the weight of an edge between two mini curses defines the amount of dependency of these curses on each other. Power <b>P</b> of the curse is given by :  </p>\n\n<img src=\"https://codechef_shared.s3.amazonaws.com/download/upload/ALKHWARIZM2018/Equation.png\">\n<p>\nWhere,</br>\n<b>S<sub>nodes</sub></b> = Set of all nodes of the Tree.</br>\n<b>X(u, v)</b> = Minimum dependency of <b>2</b> adjacent mini curses present in the path from <b>u</b> to <b>v</b>.</br>\n<b>Y(u, v)</b> = Maximum dependency of <b>2</b> adjacent mini curses present in the path from <b>u</b> to <b>v</b>.</br>\n</p>\n\n<p> Help Harry to calculate the Power <b>P</b> of the Killing curse, so that he can save DumbleDore. Since the Value of power can be arbitrarily large. Print <b>P modulo (10<sup>9</sup> + 7)</b>. </p>\n\n<h3>Input</h3>\n<ul>\n<li>First line contains <b>N</b> number of nodes in the curse tree.</li>\n<li>Next <b>N - 1</b> lines contains three integers each <b>u</b>, <b>v</b>, <b>k</b> denoting an edge of weight <b>k</b> between nodes <b>u</b> and <b>v</b>.\n</li>\n</ul>\n</br>\n\n<h3>Output</h3>\n<ul>\n<li>It contains a single line, the value of <b>P modulo (10<sup>9</sup> + 7)</b>.</li>\n</ul>\n</br>\n\n<h3>Constraints</h3>\n<ul>\n<li>1 \u2264 <b>N</b> \u2264 10<sup>5</sup></li>\n<li>1 \u2264 <b>u, v</b> \u2264 N</li>\n<li>1 \u2264 <b>k</b> \u2264 10<sup>5</sup></li>\n</ul>\n</br>\n\n<h3>Example 1</h3>\n<pre><b>Input:</b>\n3\n1 2 3\n1 3 5\n\n<b>Output:</b>\n49\n</pre>\n</br>\n\n<h3>Explanation</h3>\n<p> For the given tree in Example, values <b>X(u, v) </b> and <b>Y(u, v)</b> for all possible pairs is listed below. </br>\n<ul>\n<li>X(1,2) = 3 and Y(1,2) = 3</li>\n<li>X(1,3) = 5 and Y(1,3) = 5</li>\n<li>X(2,1) = 3 and Y(2,1) = 3</li>\n<li>X(2,3) = 3 and Y(2,3) = 5</li>\n<li>X(3,1) = 5 and Y(3,1) = 5</li>\n<li>X(3,2) = 3 and Y(3,2) = 5</li>\n</ul>\n</br>\nP = (3*3 + 5*5 + 3*3 + 3*5 + 5*5 + 3*5)/2 = 49\n</br>\n</p>\n</br>\n\n<h3>Example 2</h3>\n<pre><b>Input:</b>\n5\n1 2 3\n1 3 5\n2 4 7\n2 5 2\n\n<b>Output:</b>\n174\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "ALKHWARIZM (Rated)",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1521214200,
+        "end_date": 1521232200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1521232200,
+        "submit_start_date": 1521214200,
+        "current": 1537432823
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>priyanshukm</span>",
+    "problem_name": "Harry Potter and the Killing Curse",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/priyanshukm'>priyanshukm</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "priyanshukm",
+    "contest_code": "ALKH2018",
+    "max_timelimit": "1",
+    "problem_code": "HARRYHBP"
+}

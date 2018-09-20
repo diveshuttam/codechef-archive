@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><b></h>Problem Statement:</h></b></p>\n<b>DuckHunt</b> is a computer game and is played in <b>2D Cartesian plane.</b>\n</br></br>\nAt the beginning of the game there are some points in the plane. \n</br></br>\nYou are given their coordinates in the int[ ]s <b>x</b> and<b> y</b>.\n</br></br>\nThe <i>objective of the game is to make a single shot that will eliminate as many of these points as possible.</i> \n</br></br>\nWhen <i>You takes the shot, it will eliminate all points that (at that moment) lie on the <b>x-axis</b> and also all points that lie on the <b>y-axis</b></i>.\n</br></br>\nBefore You takes the shot,  you may perform a sequence of zero or more actions. \n</br></br>\nEach action can be of either of the following two types:\n\n        </br></br>\n<ul style=\"margin-left:20px;\"><p>  He may translate all points by any vector (the same for every point).</br>In other words, he may shift all points in the same direction by the same distance.</p>    \n\n          He may rotate all points around the origin by any angle (the same for every point).\n</ul>\n</br>\n<b>Note:  \"It is possible that after an action some points will have non-integer coordinates.\"</b>\n</p></br>\n</br>\nFind and return the <b>maximum number of points</b> YOU can eliminate in one shot.\n</br>\n</br>\n<p><b><h>Constraints:</h></b><p>\n   <ul>\n       <p><b>SubTask#1</b></p>  \n          1<=x,y<=50\n\t</br></br>-150000<=x[i] ,y[i]<=150000.\n</br></br>No two points will have the same coordinates.\n         <p><b>SubTask#2</b></p>\n          1<=x,y<=50\n\t</br></br>-10^6<=x[i] ,y[i]<=10^6.\n\t</br></br>No two points will have the same coordinates.\n        <p><b>SubTask#3</b></p>\n           1<=x,y<=50\n\t</br></br>-10^6<=x[i] ,y[i]<=10^6.\n        </br></br>\n</ul>\n<p><b><h>Input Format:</h></b></p>\n  First line contains T i.e number of testcases.\n  </br></br>Following T lines contains,\n        <ul style=\"margin-left:20px;\"> \n         <li>N i.e Number of points in the plane.</li>\n         <li>a[i]...upto N points i.e x-coordinates of points.</li>\n         <li>b[i]...upto N points i.e y-coordinates of points.</li>\n</ul>\n</br>\n<p><b><h>Output Format:</h></b></p>\nFor every testcase T, \n     </br>Print Maximum number of points that YOU can eliminate.\n</br> </br>\n<p><b><h>Sample Input:</h></b></p>\n2\n</br>2    \t\n</br>0 5\n</br>0 5\t\n</br>5    \t\n</br>0 -1 1 1 -1\n</br>0 -1 -1 1 1\n</br></br>\n<p><b><h>Sample Output:</h></b></p>\n2\n</br>5\n</br>\n</br>\n<p><b><h>Explanation:</h></b></p>\n<b>For First Testcase,</b>\n\n    </br>At the beginning of the game there are two points: one at (0, 0) and the other at (5, 5). \n\n    </br>You can shift both points by 5 in the negative y direction. This will move the points to (0, -5) and (5, 0).\n \n    </br>Then You can take the shot and eliminate both points. \n    \n    </br>So, Output is 2.\n</br></br>\n<b>For Second Testcase,</b>\n    </br>There is no need for moving any points as they are already rightly aligned.\n    \n    </br>Then, You can take the shot and eliminate all the points.\n    \n    </br>So, Output is 5.  ",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "18-09-2016",
+    "is_direct_submittable": false,
+    "contest_name": "CODE_WAR",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1474468200,
+        "end_date": 1474554600,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1474554600,
+        "submit_start_date": 1474468200,
+        "current": 1537434584
+    },
+    "problem_author_html_handle": "acesprime",
+    "problem_name": "DuckHunt",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/acesprime'>acesprime</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "acesprime",
+    "contest_code": "COWS2016",
+    "max_timelimit": "1",
+    "problem_code": "DCKHNT"
+}

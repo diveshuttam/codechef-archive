@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\nIn this problem, you are given two strings S1 and S2, your task is to determine whether one string is an anagram of the other. An anagram of a string is a string obtained by permuting the letters of a string. For example aaba and aaab are anagrams, while abcd and deba are not.\n</p>\n\n<h3>Input</h3>\n<p>\nThe first line would consist of the number of test cases 'T'. This would be followed by 'T' lines consisting of two space separated strings. The strings would consist of only letters 'a'-'z'. Each string would consist of no more than 20 characters.\n</p>\n\n<h3>Output</h3>\n<p>\nYou have to print \"YES\" if one string is an anagram of the other or \"NO\" otherwise.\n</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\naaba aaab\nabcd deba\n\n<b>Output:</b>\nYES\nNO\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Technovanza 2010 Round 1",
+    "languages_supported": "C, JAVA, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1263396600,
+        "end_date": 1263403800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180166,
+        "submit_start_date": 1263396600,
+        "current": 1537439829
+    },
+    "problem_author_html_handle": "technovanza10",
+    "problem_name": "Anagram",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/technovanza10'>technovanza10</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "technovanza10",
+    "contest_code": "TV10CAT1",
+    "max_timelimit": "0.4875",
+    "problem_code": "TECH04"
+}

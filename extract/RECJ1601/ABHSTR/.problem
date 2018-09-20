@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Abhi and his friends (Shanky,Anku and Pandey) love to play with strings. Abhi invented a simple game. He will give a string S to his friends. Shanky and Anku will play the game while Pandey is just a spectator. Shanky will traverse the string from beginning (left to right) while Anku will traverse from last (right to left). Both have to find the first character they encounter during their traversal,that appears only once in the entire string. Winner will be one whose character is alphabetically more superior(has higher ASCII value). When it is not possible to decide the winner by comparing their characters, Pandey will be the winner.</p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.<br />\nEach test case contains a string <b>S</b> having <b>only lowercase alphabets</b> ( a..z ).</p>\n<h3>Output</h3>\n<p>For each test case, output a single line containing \"SHANKY\" if Shanky is the winner or \"ANKU\" if Anku is the winner or \"PANDEY\" if the winner is Pandey. Output your answer <b>without</b> quotes.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> &lt; <b>|S|</b> \u2264 <b>10^5</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\ngoogle\nbreakraekb\naman\n\n<b>Output:</b>\nSHANKY\nPANDEY\nANKU\n\n</pre><h3>Explanation</h3>\n<p><b>Example case 2.</b> Both Shanky and Anku can not find any such character. Hence it is not possible to decide the winner between these two. So Pandey is the winner.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-04-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Recursion Junior Challenge-II ",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1461254400,
+        "end_date": 1461265200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1461265200,
+        "submit_start_date": 1461254400,
+        "current": 1537434939
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>saurabhnit</span>",
+    "problem_name": "Friends with Strings",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/saurabhnit'>saurabhnit</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "saurabhnit",
+    "contest_code": "RECJ1601",
+    "max_timelimit": "1",
+    "problem_code": "ABHSTR"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>\u00a0</p>\n<p align = \"justify\">Kaushik owns a factory. He always wants his employees to consume as less electricity as possible. So, he advices them to turn off the devices when not in use. In the production department of his factory, there are 'n' machines arranged in a line from 0 to n - 1. During production period, all the machines will be in operating mode (switched on). When a particular machine finishes its work, it is immediately switched off (It is switched on when needed again). The company maintains a log which consists of the machine operating times. It has every details about when a particular machine is switched on/off. <br><br>\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\n\tVery soon, Kaushik found that the productivity of his factory started declining gradually. This is because many machines which are turned off after use remained idle for a long time. Kaushik thought that if those machines are used to do someother jobs, he can improve the productivity. For that, he needs to know the machines which are idle. As Kaushik is busy with his programming stuff which he loves to do, he hires you to solve this problem for him. Now, it is production period and you are given the real time log entries (which gives you the information about switching on/off as and when it occurs) along with some queries to find an idle machine. You need to store the log entries and also process the query as and when it occurs.\n</p>\n\n<h3><b>Input</h3></b>\n<p>The first line of the input consists of two numbers 'n', the number of machines and 'q', the number of commands you have to process.<br>\nThe next 'q' lines consists of the commands.<br>\nEach command will be in one of the following two forms,<br><br>\n\ni) C x<br>\nChange the state of the xth machine, i.e., if the machine is on, switch it off and vice versa.<br><br>\n\nii) I x<br>\nFrom those machines which are after xth machine (xth machine inclusive), return the index of the first machine which is idle (switched off). If no idle machines can be found, print -1.<br><br>\n\n<b>Note:</b> x => 0-based indexing.<br></p>\n\n<h3><b>Constraints</h3></b>\n<p>\n1 <= n <= 10^5<br>\n1 <= q <= 10^5<br>\n0 <= x < n<br>\n</p>\n\n<h3><b>Output</h3></b>\n<p>For each \"type 2\" query, output the required answer (Refer the examples for clarity). </p>\n\n<h3><b>Example</h3></b>\n\n<pre><b>Input:</b>\n10 5\nC 7\nC 6\nI 5\nI 6\nI 8\n\n<b>Output:</b>\n6\n6\n-1\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "12-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Kurukshetra Online Programming Contest",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYPY, CS2, PAS fpc, PAS gpc, RUBY, D, PERL, FORT, ADA, ASM, ICON, PIKE, ST, NICE, LUA, BASH, NEM, TCL, SCM chicken",
+    "todo": false,
+    "time": {
+        "view_start_date": 1455370200,
+        "end_date": 1455388200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1839201979,
+        "submit_start_date": 1455370200,
+        "current": 1537435476
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>lakshmi8</span>",
+    "problem_name": "Kaushik and his company",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/lakshmi8'>lakshmi8</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "lakshmi8",
+    "contest_code": "KOPC2016",
+    "max_timelimit": "1",
+    "problem_code": "K16I"
+}

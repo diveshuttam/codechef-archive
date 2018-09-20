@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p align=\"justify\">Baloo and Mowgli<br />\nBoth got bored of their games and decided to find a new game. Both are at start (0)  initially. Shanti being Mowgli\u2019s girlfriend has an upper hand and decides to make them play to her tunes.<br />\nShe speaks out 2 numbers <b>k1</b> and <b>k2</b> for baloo and <b>c1</b> and <b>c2</b> for Mowgli.  Baloo can jump from his position <b>k1</b> units ahead or <b>k2</b> units ahead. Mowgli being someone special enjoys the privilege of either jumping from his position <b>c1</b> units ahead or <b>c2</b> units ahead.Mowgli can also change his moves(c1 and c2) with the moves of Baloo (k1 and k2) at each step once in the game and then he wont be able to use his moves (c1 and c2) again.Find the number of ways that Mowgli can jump to a given distance considering all the possible moves.Since the output can be really large , print it modulo 10^9+7\n\n\n<h3>Input</h3>\n</p><p>\nThe First line consist of T \u2013 No of testcases, followed by 4 lines of each testcase. The 1st line gives the value of <b>N</b> (Distance to be moved).The 2nd line gives <b>c1</b> and <b>c2</b> of Mowgli.The 3rd line gives <b>k1</b> and <b>k2</b> for Baloo. \n\n<h3>Output</h3>\n</p><p>Print T lines each having a number M modulo 10^9+7 giving the total ways of reaching postion <b>N</b>\n\n<h3>Constraints</h3>\n</p><p>\nN&lt;=10^18<br />\nT&lt;=10<br />\n1&lt;=c1,c2,k1,k2&lt;=7<br />\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n1\n5\n1 2\n2 3\n\n<b>Output:</b>\n16\n</pre></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Cranium Contest 2012",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1329831900,
+        "end_date": 1329860700,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1329860700,
+        "submit_start_date": 1329831900,
+        "current": 1537438965
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>abhidce2013</span>",
+    "problem_name": "Jungle Book",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhidce2013'>abhidce2013</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abhidce2013",
+    "contest_code": "CRNM2012",
+    "max_timelimit": "3",
+    "problem_code": "CRNM1204"
+}

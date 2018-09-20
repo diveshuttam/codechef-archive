@@ -1,0 +1,87 @@
+{
+    "announcements": "<ul>\r\n<li>The contest has been extended by 1 hour and 30 minutes </li>\r\n<li>To be eligible to qualify to the Final round of Techfest International Coding Challenge, ensure you are registering at www.techfest.org/ticc and submitting your Team ID and Codechef ID at tinyurl.com/ticcreg </li>\r\n</ul>",
+    "ip": "149.129.135.113",
+    "code": "TCFS15S",
+    "duration": "270",
+    "name": "TechFest 2015, Screening round",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<div> <div><b>Rules and Regulations:</b></div> <div> <ul> <li>This is Screening round for TechFest 2015.\u00a0The top 30 participants on the leaderboard will get a direct entry into the Finale.</li> <li>Contest problems will become visible on 12th October, 2014 at 2000 HRS (IST) and end at 2300 HRS (IST). Check your timezone\u00a0<a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+TechFest+2014%2C+Screening+round&amp;iso=20141012T20&amp;p1=44\">here</a>.</li> <li>There will be five problems hosted on the site in the screening round which need to be solved within the stipulated time of three hours.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at feedback@codechef.com.</li> <li>Discussing problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li> <li>If you do not have a CodeChef ID create one\u00a0<a target=\"_blank\" href=\"http://codechef.com/user/register\">here</a>.</li> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok.</li> <li>Almost all languages supported on CodeChef are allowed.</li> <li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided.</li> <li>All participants are expected to abide by the\u00a0<a href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\" target=\"_blank\">CodeChef Code Of Conduct</a></li> <li>Please contact\u00a0<a href=\"mailto:jeffyjahfar@techfest.org\" target=\"_blank\">jeffyjahfar@techfest.org</a> for any queries during the contest.</li> </ul> </div> <div><b>Judging Criteria:</b> <ul> <li>All the problems have same points alloted to them.</li> <li>There will be a limitation on the running time of the codes submitted by the participants.</li> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <li>The decision of the organizers in declaring the results will be final. No queries in this regard will be entertained.</li> <li>Any participant found to be indulging in any form of malpractice will be immediately disqualified.</li> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submission of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem(Wrong answer, Time limit exceeded, Runtime Error, Compilation Error). There is no time consumed for a problem that is not solved.</li> </ul> </div> </div> <div> <ul> </ul> </div>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/TCFS15S/1424957989.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "SUMMAND": {
+            "allow_submission": false,
+            "name": "Summand",
+            "category_name": "main",
+            "accuracy": 66.81,
+            "successful_submissions": "151",
+            "code": "SUMMAND",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "BITWO": {
+            "allow_submission": false,
+            "name": "BITWO",
+            "category_name": "main",
+            "accuracy": 5.71,
+            "successful_submissions": "4",
+            "code": "BITWO",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "FARET": {
+            "allow_submission": false,
+            "name": "Faulty Retention",
+            "category_name": "main",
+            "accuracy": 0,
+            "successful_submissions": 0,
+            "code": "FARET",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "LIZARDS": {
+            "allow_submission": false,
+            "name": "Weird Lizards",
+            "category_name": "main",
+            "accuracy": 1.62,
+            "successful_submissions": "15",
+            "code": "LIZARDS",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "PERM": {
+            "allow_submission": false,
+            "name": "Permutations",
+            "category_name": "main",
+            "accuracy": 5.21,
+            "successful_submissions": "10",
+            "code": "PERM",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1413140400,
+        "current": 1537437343,
+        "freezing": 0,
+        "start": 1413124200
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p style=\"margin: 0px; padding: 0px 0px 10px; font-family: Arial, Helvetica, sans-serif; line-height: 1.4; color: #444444; font-size: 12px;\">Sherlock has recently started playing DOTA - the most addictive strategy game of all time. His favorite attack in the game is the \"LVL-Death\" spell of a hero called Doom Bringer.\u00a0</p>\n<p>Every time he upgrades this spell the chance that it deals additional damage changes. Suppose\u00a0<strong>K\u00a0</strong>is the power of the spell, Sherlock noticed that the spell deals additional damage to enemy heroes whose level is\u00a0<strong>NOT\u00a0</strong>a\u00a0<strong>K-Prime</strong>* number. An enemy hero's level can be between 1 and 10^7.</p>\n<p><strong>*A K-Prime number is a positive integer that is not divisible by first K prime numbers.\u00a0</strong></p>\n<p>Sherlock wanted to know how effective his spell can be. He wants to know the probability(as an irreducible fraction) of the spell with a power level of\u00a0<strong>K\u00a0</strong>dealing additional damage to an enemy hero whose level could be between <strong>L</strong> and <strong>R</strong> (both inclusive).</p>\n<h3 style=\"margin: 8px 0px 12px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #656565;\">Input</h3>\n<p style=\"margin: 0px; padding: 0px 0px 10px; font-family: Arial, Helvetica, sans-serif; line-height: 1.4; color: #444444; font-size: 12px;\">First line will contain a number Q.\u00a0<br />Next Q lines will contain 3 space separated integers L, R and K</p>\n<h3 style=\"margin: 8px 0px 12px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #656565;\">Output</h3>\n<p style=\"margin: 0px; padding: 0px 0px 10px; font-family: Arial, Helvetica, sans-serif; line-height: 1.4; color: #444444; font-size: 12px;\">Your output should contain exactly Q lines where i-th line is the answer to the i-th query.\u00a0<br />For every query print the required probability as an irreducible fraction of the form numerator/denominator.</p>\n<p style=\"margin: 0px; padding: 0px 0px 10px; font-family: Arial, Helvetica, sans-serif; line-height: 1.4; color: #444444; font-size: 12px;\">\u00a0</p>\n<h3 style=\"margin: 8px 0px 12px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #656565;\">Constraints</h3>\n<ul style=\"margin: 0px; padding: 0px 0px 0px 10px; font-family: Arial, Helvetica, sans-serif; list-style-position: inside; list-style-type: square; color: #444444; font-size: 12px;\">\n<li style=\"margin: 0px; padding: 0px 0px 0px 10px; list-style-position: inside; list-style-type: square;\"><strong>1</strong>\u00a0&lt;=<strong>\u00a0<strong>Q</strong>\u00a0</strong>&lt;=\u00a0<strong>10^5</strong></li>\n<li style=\"margin: 0px; padding: 0px 0px 0px 10px; list-style-position: inside; list-style-type: square;\"><strong>1 &lt;=<strong>L, R</strong>&lt;=10^7\u00a0</strong></li>\n<li style=\"margin: 0px; padding: 0px 0px 0px 10px; list-style-position: inside; list-style-type: square;\"><strong>1 &lt;=K\u00a0&lt;=10^6</strong></li>\n</ul>\n<p style=\"margin: 0px; padding: 0px 0px 10px; font-family: Arial, Helvetica, sans-serif; line-height: 1.4; color: #444444; font-size: 12px;\">\u00a0</p>\n<h3 style=\"margin: 8px 0px 12px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #656565;\">Example</h3>\n<pre style=\"margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: #444444; font-size: 12px;\"><strong>Input:</strong>\n3\n1 10 1\n1 20 5\n10 20 3\n\n<strong>Output:</strong>\n1/2\n4/5\n7/11</pre><h3 style=\"margin: 8px 0px 12px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; color: #656565;\">Explanation:</h3>\n<p style=\"margin: 0px; padding: 0px 0px 10px; font-family: Arial, Helvetica, sans-serif; line-height: 1.4; color: #444444; font-size: 12px;\">For the first test case, the numbers {1,3,5,7,9} are not divisible by the first prime number(K=1) - 2 in the range between 1 and 10(L and R). Hence the probability is 5/10 = 1/2</p>\n<p><strong>Warning: Large I/O, be careful with certain languages.</strong><span style=\"color: #444444; font-family: Arial, Helvetica, sans-serif; font-size: 12px;\">\u00a0</span></p>\n<div><strong><br /></strong></div>\n<p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "6-03-2014",
+    "is_direct_submittable": false,
+    "contest_name": "ByteCode 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1394290800,
+        "end_date": 1394308800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1394308800,
+        "submit_start_date": 1394290800,
+        "current": 1537437712
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>vshriram93</span>",
+    "problem_name": "Sherlock and DOTA",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vshriram93'>vshriram93</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "vshriram93",
+    "contest_code": "BTCD2014",
+    "max_timelimit": "2",
+    "problem_code": "BTCD14C"
+}

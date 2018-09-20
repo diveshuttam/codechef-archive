@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Johnny has gone on a short excursion to the island of Bitland, and found himself with plenty of time to spare for sight-seeing. As a matter of fact, he does really have any itinerary at hand. All he would like to do is to walk around a bit, without spending too much money in the process. \n\n<p>The cities of Bitland are connected by a network of one way streets. If there exists a road leading directly from city A to city B, then there also exists a road directly from city B to city A. There maybe any number (possibly zero) of parallel roads between any two cities. However, it is possible to reach any city starting from any other city (possibly indirectly, going through other cities on the way).\n\n<p> Now, the trouble is that all of the roads in Bitland are privately owned, and toll trolls have been hired to guard them and collect the dues. What's worse, the trolls are moody and will in some circumstances change the sum of the toll charged for using a road...\n\n<p>Johnny starts his sight-seeing tour from the capital of Bitland. He always leaves each city by the cheapest outgoing road, i.e. the one which currently has the lowest toll. However, as soon as Johnny has used the road from A to B, the toll troll in charge of it increases the toll for the road, setting it at exactly 1 Bitlandian dinar more than the toll currently being charged on the <i>most expensive</i> of the roads leaving city A. \n\n<p>Johnny has been walking around the towns of Bitland for a while, and he is getting a little bored. Help him answer the following question: what is the toll he is going to pay when traversing the <i>k</i>-th road of his tour?\n\n<h3>Input</h3>\n<p>The first line of input contains two integers: <i>n</i>, the number of towns in Bitland and <i>m</i>, the number of pairs of roads connecting them  (1 <= <i>n</i> <= 10<sup>5</sup>, 0<= <i>m</i> <=10<sup>5</sup>). Each of the <i>m</i> following lines contains four integers A B <i>c</i><sub>AB</sub> <i>c</i><sub>BA</sub>, denoting the identifier of city A, the identifier of city B, the initial toll on the road from A to B, and the initial toll on the road from B to A (1 <= A < B<= <i>n</i>, 1 <= <i>c</i><sub>AB</sub>, <i>c</i><sub>BA</sub> <= 10<sup>9</sup>). All tolls are expressed in dinars. You may assume that the initial toll values for all of the roads are different, and that the city labeled 1 is the capital of Bitland.\n<p>The next line of input contains the number <i>t</i> of queries asked by Johnny, <i>t</i> <= 10<sup>4</sup>. Each of the following <i>t</i> lines contains a single integer <i>k</i> (1 <= <i>k</i> <= 10<sup>12</sup>).\n\n<h3>Output</h3>\n<p>For each of the values of <i>k</i> given at input, print a line containing the toll paid by Johnny when traversing the  <i>k</i>-th road along his route.\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3 2\n1 2 5 10\n1 3 11 7\n4\n1\n2\n3\n5\n\n<b>Output:</b>\n5\n10\n11\n12\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "February 2010 Contest",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1265016600,
+        "end_date": 1265880600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1265880600,
+        "submit_start_date": 1265016600,
+        "current": 1537439743
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "Toll Trolls",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "FEB10",
+    "max_timelimit": "0.1 - 0.208696",
+    "problem_code": "M4"
+}

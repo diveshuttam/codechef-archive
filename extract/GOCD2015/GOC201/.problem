@@ -1,0 +1,33 @@
+{
+    "problem_code": "GOC201",
+    "problem_author": "giriraj",
+    "contest_name": "Game of Codes 2.0",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>giriraj</span>",
+    "problem_name": "Digvijay vs Supriya",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "GOCD2015",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/giriraj'>giriraj</a>, <a class='problem-tag-small ' href='/tags/problems/mathematics'>mathematics</a>, <a class='problem-tag-small ' href='/tags/problems/modulo'>modulo</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Digvijay singh recently learned base conversion of numbers and he challenged Supriya to ask him any question related to base conversion. Supriya came up with a problem:<br /><br />\nGiven a base <b>K</b> and a number <b>M</b>, Digvijay gets a string of numbers from Supriya which has all its element in the range <b>[0,K-1]</b>.<br />\nNow Digvijay has to convert this string moving from left to right and output the result at every step which contains the modulus <b>M</b><br />\nof decimal representation of the substring encountered till now.</p>\n<h3>Input</h3>\n<p>Input starts with an integer<b> T</b> denoting the number of test cases. Each test case contains two integers <b>K</b> and <b>M</b> respectively followed by another line which contains the Base <b>K</b> representation.</p>\n<h5>Note: Length of the string would not be more than <b>1000</b></h5>\n\n<h3>Output</h3>\n<p>For each test case of input print the string corresponding to the result.</p>\n<h3>Constraints</h3>\n<p>1&lt;=<b>T</b>&lt;=10000<br />\n<br /><br />\n2&lt;=<b>K</b>&lt;=10<br />\n<br /><br />\n1&lt;=<b>M</b>&lt;=10000</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2 3\n1010\n3 5\n1021\n\n<b>Output:</b>\n1 2 2 1\n1 3 1 4\n\n<b>Explanation</b>\nSample case 1:\nThe value as we go from left to right becomes \n1 for (1) ,\n2 for (10) ,\n5 for (101) , \n10 for (1010) and\nwhen taken mod with 3 it outputs 1 2 2 1.\n</pre>",
+    "category_name": "main",
+    "date_added": "26-03-2015",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/GOC201",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1428247800,
+        "end_date": 1428258600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1428258600,
+        "submit_start_date": 1428247800,
+        "current": 1537436415
+    },
+    "user": {
+        "username": ""
+    }
+}

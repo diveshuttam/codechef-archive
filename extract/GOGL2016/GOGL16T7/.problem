@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>President Prime Minister Supreme Leader Admiral General Haffaz Aladeen is the dictator of the greatest country on Earth - Wadiya. The country is full of happy citizens living in 'N' number of small cities. The cities are connected by 'M' number of roads with starting point s1, s2...sM and ending points e1,e2... eM.\u00a0</p>\n<p>\nEveryone knows how much Aladeen is fond of his name. He keeps renaming things around him as 'Aladeen' causing massive confusion all around. This time he combined various small cities into groups of larger cities and named them Aladeen#1, Aladeen#2 ... Aladeen#k. Two cities c1 and c2 will be in same group if there exist a road from c1 to c2 as well as from c2 to c1. Consequently if any smaller city belonging to Aladeen#i has an edge to any smaller city belonging to Aladeen#j then there is only ONE road from Aladeen#i -> Aladeen#j.</p>\n\n<p>\nThis move has not gone well with many, including 'Nucleur' Nadal who is now confused how to reach back his home. Consequently he owes to destroy whole of Wadiya. He uses a latest missile with 'Round' end which he drops on any random city - say Aladeen#i. As a consequence every path that was travelling through that city becomes unusable. Also, considering our missile doesn't have a pointy end, once it destroys a city it is free to take any ONE road and bounce off to the next city. This may continue till there is no city for the missile to bounce off to or may stop at any point of time.</p>\n\n<p>\nSince Nucleur Nadal was given a death sentence by General Aladeen, he now lives in hiding and is a little short on money. Can you help him in destroying Wadiya in the minimum number of missiles possible?</p>\n\n\n<h3>Input</h3>\n<p>Input description.</p>\n<ul>\n<li>First line of input contains N and M, initial number of small city and road b/w them respectively.</li>\n<li>Next M lines contains two integer (id of smaller city), represents roads b/w the city. </li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>Output description.</p>\n<ul>\n<li>Print one line two space separated integer k and b. where k represents number of city after compression of smaller city and b minimum no of bomb required to blast all the compressed city.</li>\n</ul>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<p>Should contain all the constraints on the input data that you may have. Format it like:</p>\n<ul>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10000</b></li>\n<li><b>1</b> \u2264 <b>M</b> \u2264 <b>20000</b></li>\n<li><b>1</b> \u2264 <b>u, v</b> \u2264 <b>N</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n12 16\n1 2\n1 3\n3 1\n3 2\n2 8\n3 4\n8 9\n8 10\n9 11\n9 12\n10 12\n4 5\n5 6\n6 4\n6 7\n7 4\n\n<b>Output:</b>\n8 3\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> Here 12 small cities will be compressed to 8 large cities with following set of groups...<br>\n{(1, 3), (2), (4, 5, 6, 7), (8), (9), (10), (12), (11)}\n<ul>\n<li> Large city 1 will be combination of small city 1 and 2...</li>\n<li> Large city 2 will be combination of small city 3..</li>\n<li>Large city 3 will be combination of small city 4, 5, 6, 7...</li>\n<li> .... </li>\n<li> Large city 8 will be combination of small city 11. </li>\n</ul>\n <pre> </pre>\n<b>Note :</b> Label of large city won't affect the solution. i.e., we can assign any permutation to group of smaller city.\n</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Googol",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1481297400,
+        "end_date": 1481310000,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1481310000,
+        "submit_start_date": 1481297400,
+        "current": 1537434351
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #684273;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>4&#9733;</span><span>kunnu96</span>",
+    "problem_name": "General Aladeen",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/kunnu96'>kunnu96</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "kunnu96",
+    "contest_code": "GOGL2016",
+    "max_timelimit": "1",
+    "problem_code": "GOGL16T7"
+}

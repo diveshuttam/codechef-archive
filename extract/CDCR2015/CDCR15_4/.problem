@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p><b>Problem description.</b></p>\n<p>\u00a0Anayat is a Tall and Handsome guy. One day , he decided to make a girl friend. So he announced  about being single and  interested to be in a relationship. Of course, every  girl in college is fond of her and wants to be her girl friend. So they turned out in large number and were all dressed up nicely to impress Anayat. As the girls were large in number and Anayat  is also a lazy guy, he decided to skip  girls while watching them .He is also a nice guy by heart so he can\u2019t skip more than one girl as it would hurt their ego. To be clear, he will watch the first girl for sure. After watching the girl<b> i</b> , he must either move to <b> i+1 </b>girl or skip ahead to <b>i+2 </b> girl. There is also measure called likeness of each girl which denotes the likeness of Anayat for that girl. We all know that he is lazy so he will stop watching the girls once he encounters his threshold fun level which is denoted by integer <b> \u2018d\u2019</b>. Specifically ,he can stop if  the difference of the maximum and minimum likeness of girls which he has watched is greater than equal to the threshold level. If this never happens , then he must watch all girls. Later all got to know that he already has a girl friend who was busy that day. So he did all this just to pass his time (wicked guy ;) ).So he just wants to know the minimum number of girls to be watched for him to reach the threshold level.\n</p>\n<h3>Input</h3>\n<p>Input description.<br />\nThe first line of the input contains integer \u2018T\u2019 denoting the number of test cases. The second line contains 2 integers \u2018n\u2019 and \u2018d\u2019 denoting the number of girls and the threshold level. The third line follows n integers denoting the likeness of Anayat for girl i.\n</p>\n<h3>Output</h3>\n<p>Output description.<br />\nOutput the minimum number of girls which he needs to watch.\n</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>n</b> \u2264 <b>100</b></li>\n<li><b>0</b> \u2264 <b>likeness[i]</b> \u2264 <b>1000</b></li>\n<li><b>1</b> \u2264 <b>d</b> \u2264 <b>1000</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n3\n3  2\n1 2 3\n5 4\n1 2 3 4 5\n4 100\n10 1 12 101\n\n<b>Output:</b>\n\n</pre><p>\u00a02<br />\n3<br />\n3\n</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b> He will choose the first 2 girls </p>\n<p><b>Example case 2.</b> He will choose the first three girls </p>\n<p><b>Example case 1.</b> He will choose the first 2 girls,skip the third girl and then choose the fourth girl. </p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "26-01-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Code Currents 2015",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1422694800,
+        "end_date": 1422703800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1422703800,
+        "submit_start_date": 1422694800,
+        "current": 1537436884
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>varunsekar94</span>",
+    "problem_name": "Anayat And His Girl Friend",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/varunsekar94'>varunsekar94</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "varunsekar94",
+    "contest_code": "CDCR2015",
+    "max_timelimit": "1",
+    "problem_code": "CDCR15_4"
+}

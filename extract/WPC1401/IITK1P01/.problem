@@ -1,0 +1,33 @@
+{
+    "problem_code": "IITK1P01",
+    "problem_author": "admin2",
+    "contest_name": "IIT Kanpur, Monthly Programming Contest-1",
+    "todo": false,
+    "problem_author_html_handle": "admin2",
+    "problem_name": "Clash of Kings",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "WPC1401",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin2'>admin2</a>, <a class='problem-tag-small ' href='/tags/problems/dynamic-programming'>dynamic-programming</a>, <a class='problem-tag-small ' href='/tags/problems/medium'>medium</a>, <a class='problem-tag-small ' href='/tags/problems/wpc1'>wpc1</a>, <a class='problem-tag-small ' href='/tags/problems/wpc1401'>wpc1401</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nA country has V cities. Certain pairs of cities are connected by undirected transport roads between them. There are E such transport roads. There exists a sequence of roads connecting every city in the the country to every other city.<br />\nAmong the V cities, K of the cities are good cities.\n</p>\n<p>\nInitially all the cities are free. The country is ruled by two kings. The first king wants no friendship with the second king, while the other king wants friendship with the first king. They now play a game of conquering cities.\n</p>\n<p>\nThe first king selects a good city, then the second king selects a good city and so on; until all the good cities are over.<br />\nSuppose at the end some good cities belong to kingdom A and others to B. Distance value between the two kingdoms is defined as the sum of shortest distances between each pair of good cities X and Y such that X belongs to A and Y belongs to B.\n</p>\n<p>\nThe first king wants to maximize the distance value and other king wants to minimize this. Assuming that both play optimally, find out the distance value after the end of the game.\n</p>\n<h3>Input</h3>\n<p>\nFirst line contain three space separated integers denoting V, E, and  K respectively.\n</p>\n<p>\nFor next E lines, each line contain 3 space separated integers, u v w, denoting that there is an edge from u to v of length w.\n</p>\n<p>\nThe following line contains K space separated integers denoting the indices of the good cities. Indices are given by using 1 based indexation.\n</p>\n<h3>Output</h3>\n<p>\nA single integer, the maximum possible distance that can be achieved if both kings play optimally.</p>\n<h3>Constraints</h3>\n<ul>\n<li>2 \u2264 V \u2264  200</li>\n<li>No constraint on E</li>\n<li>2 \u2264 K \u2264  12</li>\n<li>0 \u2264 w \u2264  100</li>\n<li>1 \u2264 u, v \u2264  V</li>\n<li>No two u, v pairs repeat in input.</li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4 5 3\n1 2 5\n1 3 2\n1 4 3\n2 4 2\n3 4 2\n1 2 4\n\n\n<b>Output:</b>\n7\n</pre>",
+    "category_name": "main",
+    "date_added": "30-09-2014",
+    "status": "success",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "max_timelimit": "1",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/IITK1P01",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1412083800,
+        "end_date": 1412101800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1412101800,
+        "submit_start_date": 1412083800,
+        "current": 1537437397
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Alice and Bob are playing a game. Alice gives Bob a string <b>S</b>. Then, she asks him <b>Q</b> queries. The positions in the string are labelled as <b>1, 2, 3, ..., |S|</b> (<b>|S|</b> denotes the length of <b>S</b>). Each query is of the form <b>[l, r]</b>. Bob has to form a palindromic string using some of the characters at positions that lie in the range <b>[l, r]</b>. More formally, he can pick characters at position <b>i</b> such that <b> l \u2264 i \u2264 r </b>. He can rearrange them the way he wants.  </p>\n<p>Now, for each query Alice wants to know what is the <b>maximum</b> length of the string Bob can form.</p>\n\n<p><b>Note</b>: A string is said to be <b>palindromic</b> if it reads same forward or backward. For example, <b>aa, bab</b> are palindromic while <b>ab, abc</b> are not.\n\n<h3>Input</h3>\n<p>First line of the input contains the string <b>S</b>. Next line contains a single integer <b>Q</b> which denotes the number of queries. Each of the next <b>Q</b> lines have two space separated integers <b>l</b> and <b>r</b>.</p>\n\n<h3>Output</h3>\n<p>For each test case, output a single integer which is the maximum length of a palindromic string that Bob can form in that case.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>|S|</b> \u2264 <b>2 \u00d7 10<sup>5</sup></b></li>\n<li><b>1</b> \u2264 <b>Q</b> \u2264 <b>2 \u00d7 10<sup>5</sup></b></li>\n<li><b>S</b> contains only lower case English alphabets (<b>'a'</b>-<b>'z'</b>)</li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\naabb\n3\n1 3\n1 4\n3 3\n\n<b>Output:</b>\n3\n4\n1\n</pre>\n<p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1. </b>Bob can form <b>aba</b></p>\n<p><b>Example case 2. </b>Bob can form <b>abba</b> or <b>baab</b></p>\n<p><b>Example case 3. </b>Bob can form <b>b</b></p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "1-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team ForTheWatch",
+    "languages_supported": "C, CPP14, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1454833800,
+        "end_date": 1454851800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1454851800,
+        "submit_start_date": 1454833800,
+        "current": 1537435517
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>anuraganand</span>",
+    "problem_name": "Palindrome Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/anuraganand'>anuraganand</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "anuraganand",
+    "contest_code": "IPC15P2C",
+    "max_timelimit": "1.5",
+    "problem_code": "PALGAME"
+}

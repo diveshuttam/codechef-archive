@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>The journey was a long and arduous one. And most of them started getting bored, sitting on their horses all day with nothing to do. Some of them (read Fili and Kili) were even beginning to be vocal about it. To shut them up, Gandalf decided to give them a puzzle to keep them occupied. Fili and Kili were really good with numbers (so they said), so Gandalf decided to make the problem a little more difficult for them. </p>\n<p>Gandalf has an even number of gold coins in his pocket \u2013 \u2018p\u2019 pairs to be precise and he would provide some clues to Fili and Kili so that they can come up the right answer as to what the value of \u2018p\u2019 is.</p>\n<p>If there is another number \u2018x\u2019 which is divisible by both \u2018a\u2019 and \u2018b\u2019 such that the product \u2018ab\u2019 is equal to \u2018x\u2019 itself and a<sup>\u1d60(b)</sup>\u2261 1 (mod b) where \u1d60(b) gives the number of positive integers (&lt;=b) that are relatively prime to \u2018b\u2019. \u2018p\u2019 is equal to the sum of integers present in all such unique pairs. Find \u2018p\u2019.<br />\n<b>\n<p>By unique pairs we mean that (a,b) and (b,a) are same so must be considered only once for computation of p.</p>\n<p>For eg:<br />\nFor a number x let\u2019s say that (a,b,c,d) are it\u2019s factors and (a,b) and (c,d) satisfy the above condition then you have to output a+b+c+d<br />\n</p></b></p>\n<h3>Input</h3>\n<p>The first line of the input contains an integer t denoting the number of testcases.</p>\n<p>Each testcase contains a single line containing the value of integer x.</p>\n<h3>Output</h3>\n<p>For each testcase output a single line containing the value of p.</p>\n<h3>Constraints</h3>\n<p>1&lt;=t&lt;=30000</p>\n<p>2&lt;=x&lt;=10<sup>7</sup>\t\t</p>\n<h3>Example</h3>\n<pre>\n<b>Input:</b>\n3\n41\n18467\n6334\n\n\n<b>Output:</b>\n42\n18840\n9504\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "5-02-2013",
+    "is_direct_submittable": false,
+    "contest_name": "Bytes 2013",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1360506600,
+        "end_date": 1360524600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1360524600,
+        "submit_start_date": 1360506600,
+        "current": 1537438545
+    },
+    "problem_author_html_handle": "troika_bytes13",
+    "problem_name": "Memoirs of Fili and Kili",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/troika_bytes13'>troika_bytes13</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "troika_bytes13",
+    "contest_code": "BYTS2013",
+    "max_timelimit": "1",
+    "problem_code": "BYTESF"
+}

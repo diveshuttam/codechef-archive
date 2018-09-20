@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><pre>\n<div style=\"text-align:justify\">\nRam and Shyam are two brothers. It&rsquo;s the summer time now and they are getting bored at home. \nSo they decided to play an interesting game called &lsquo;Everything Goes Around&rsquo;.\nIn this game, Ram has a 2-Dimensional square matrix of integers, and converts it to another 2-\nDimesnional square matrix by some legal sequence of moves. Shyam&rsquo;s job is to check if the\nsecond matrix can be obtained from the first by any legal sequence of moves.\n\nThere are two kinds of moves:\n\n<b>Column Move</b>: You may pick any column of the array and rotate it up or down by one step.\n\nFor example, consider the following array:\n12 29 40  3\n39 25 14 12\n14 71 9 61\n47 21 53 11\n\nRotating the fourth column of this array up by one step gives\n12 29 40 12\n39 25 14 61\n14 71 9 11\n47 21 53 3\n\n<b>Row Move</b>: You may pick any row of the array and rotate it to the right or left by one step.\n\nFor example, rotating the third row of the array above to the left by one results in\n12 29 40 12\n39 25 14 61\n71 9 11 14\n47 21 53 3\n\nContinuing, we could now rotate the first row to the right by one and get\n\n12 12 29 40\n39 25 14 61\n71 9 11 14\n47 21 53 3\n\nA <b><i>legal sequence of moves</i></b> consists of a single column move followed by any sequence of\nrow moves. Thus, the sequence of moves carried out above is a legal sequence of moves.\n\nGiven, two arrays, your task is to help Shyam to find if the second one can be obtained from\nthe first by any legal sequence of moves.\n\n<b>Input format</b>\n\nThe first line of the input contains a single integer N indicating the number of rows (and columns) \nin the two arrays. The next N lines (lines 2,...,N+1) contain N integers each and describe the first array.\nThe next N+1 lines (linesN+2,..., 2N + 1) contain N integers each and describe the second array.\n\n<b>Output format</b>\n\nIf the second array cannot be obtained from the first by any legal sequence of moves,\nsimply output the word \"NO\". If the second array can be obtained by any legal sequence of\nmoves then the first line of the output must contain the word \"YES\".\n\n<b>Test data</b>\n\nYou may assume that N &le; 8.\n\n<b>Example</b>\n\nWe now illustrate the input and output formats using the above example:\n\n<b>Sample input:</b>\n4\n12 29 40 3\n39 25 14 12\n14 71 9 61\n47 21 53 11\n12 12 29 40\n39 25 14 61\n71 9 11 14\n47 21 53 3\n\n<b>Sample output:</b>\nYES\n\n<b>Explanation:</b> By moving 4th column up ,1st row to right and 3rd row to left by one position.\n</div>\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "17-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "Encoder 2012",
+    "languages_supported": "C, JAVA, CS2, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1330083000,
+        "end_date": 1330101000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1330101000,
+        "submit_start_date": 1330083000,
+        "current": 1537438960
+    },
+    "problem_author_html_handle": "pc_chawla",
+    "problem_name": "Everything Goes Around",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/pc_chawla'>pc_chawla</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "pc_chawla",
+    "contest_code": "ENCD2012",
+    "max_timelimit": "0.398058",
+    "problem_code": "EN05"
+}

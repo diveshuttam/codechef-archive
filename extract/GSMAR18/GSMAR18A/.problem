@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Chef is ready for Summer. His family wants to eat alot of ice creams.\nHis family consists of N people including Chef. There are total B types of ice creams in the shop from where Chef buys.\nI<sub>i</sub>th ice cream's one box can satisfy X<sub>i</sub> people at once. Unfortunately Chef can only buy atmost one box of each type of ice cream.\nEach member of family wants some different type of ice cream as given below. Tell whether Chef will be able to satisfy all the family members or not.</p>\n<p>\u00a0</p>\n\n\n<h3>Input</h3>\n<p>The first line of the input contains an integer <b>T</b> denoting the number of test cases. The description of <b>T</b> test cases follows.\n<br>\nThe first line of each test case contains a single integer <b>N</b> denoting the number of family members and B the number of ice cream types. The second line contains <b>B</b> space-separated integers <b>A<sub>1</sub></b>, <b>A<sub>2</sub></b>, ..., <b>A<sub>B</sub></b> denoting the number of people each ice cream can satisfy.<br>\nNext N line consists of following information: <br>\nEach line will start with integer X - denoting the number of types of ice cream N<sub>i</sub>th family member needs followed by X different type of ice cream types.\n<p>\u00a0</p>\n\n<h3>Output</h3>\n<p>For each test case, output a single line containing yes or no if Chef can satisfy by buying or not.\n</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N, B</b> \u2264 <b>10000</b></li>\n<li><b>1</b> \u2264 <b>B<sub>i</sub></b> \u2264 <b>10000</b></li>\n<li><b>1</b> \u2264 <b>X</b> \u2264 <b>B</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n2 4\n1 1 1 1 \n2 1 2\n3 1 2 3 \n2 4\n1 1 1 1 \n2 1 2\n2 3 4\n\n<b>Output:</b>\nno\nyes\n\n</pre>\n<p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "23-03-2018",
+    "is_direct_submittable": false,
+    "contest_name": "GST March SRM",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1521898200,
+        "end_date": 1521906600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1521906600,
+        "submit_start_date": 1521898200,
+        "current": 1537432751
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nerdyninja</span>",
+    "problem_name": "Chef And Summer 2018",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nerdyninja'>nerdyninja</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nerdyninja",
+    "contest_code": "GSMAR18",
+    "max_timelimit": "1",
+    "problem_code": "GSMAR18A"
+}

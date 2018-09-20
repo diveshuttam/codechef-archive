@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\nYou are given an array of length N.You are to perform certain operations on this array, these operations are of two types:</p>\n<p><ul>\n<li>\nUpdate a range <b>[x...y]</b>: In which you must divide each number in the given range <b>[x...y]</b> by 2.This division is integer division i.e 7/2 = 3</li>\n</ul></p>\n<p><li>\nQuery a range <b>[x...y]</b>: In which you must output the sum of all the numbers presently in range <b>[x...y]</b>.</li>\n</p>\n<p>\n<b>Note:</b>The range <b>[x...y]</b> mentioned above is inclusive of both index x and y.\n</p>\n<h3>Input</h3>\n<p>The input starts with a single line containing N (1&lt;=N&lt;=10<sup>5</sup>) the number of elements in the array. The next line contains N space separated integers which are the elements of the array.The elements of the array will be between 0 and 1000.</p>\n<p>\nThe next line will contain Q (1&lt;=Q&lt;=10<sup>5</sup>) the number of operations to be applied.Each of the next Q lines contains the specification of a query.Each of these lines contains 3 integers, the first being 1 or 2 denoting that the operation is an update or query respectively. The next two integers X and Y which represent the range on which to update or query [X...Y]. It is guaranteed that X&lt;=Y and that X,Y&lt;=N.</p>\n<h3>Output</h3>\n<p>The output should consist of exactly that many lines as the number of Operations of type 2.Where each line consists of the answer of the corresponding query.</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n\n5\n1 1 1 1 5\n5\n2 1 5\n1 1 2\n2 1 5\n1 5 5\n2 1 5\n\n<b>Output:</b>\n9\n7\n4\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "14-01-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeX 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1390570200,
+        "end_date": 1390656600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1390656600,
+        "submit_start_date": 1390570200,
+        "current": 1537437900
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>amitrc17</span>",
+    "problem_name": "Spec Ops",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/amitrc17'>amitrc17</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "amitrc17",
+    "contest_code": "CODX2014",
+    "max_timelimit": "0.1275",
+    "problem_code": "REN2013J"
+}

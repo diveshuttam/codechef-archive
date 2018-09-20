@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Steffi wants to give a treat her <b>N</b> friends with some delicious pizzas on her birthday. She is currently deciding on how many pizzas she should buy. Each pizza has <b>A</b> equal sized pieces/slices in it. She wants to treat all her friends fairly, so she would like them to have an equal number of slices (could possibly be zero too, no treat at all :P). Additionally, she would like to have exactly one slice of the pizza for herself too. She does not like to waste food, so she doesn't see any slice of pizza getting wasted. She is not a rich girl and would like to buy minimum number of pizzas that can satisfy these conditions. If it is possible to buy pizzas satisfying the above given conditions, output what is the minimum number of pizzas she should buy? Otherwise output -1.</p>\n\n<h3>Input</h3>\n<p>The first line contains an integer <b>T</b> which specifies the total number of test cases. <b>T</b> test cases follow.</p>\n<p>Each of the next <b>T</b> lines contain two space separated integers, <b>A</b>, <b>N</b> where <b>A</b> is the number of slices in a pizza, and <b>N</b> denotes number of friends of Steffi.</p>\n\n<h3>Output</h3>\n<p>For each case, output the minimum number of pizzas she should buy if it is possible to buy pizzas with satisfying the conditions mentioned in the problem statement. Otherwise output <b>-1</b>.</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100,000</b></li>\n<li><b>1</b> \u2264 <b>A</b> \u2264 <b>10<sup>12</sup></b></li>\n<li><b>1</b> \u2264 <b>N</b> \u2264 <b>10<sup>12</sup></b></li>\n</ul>\n\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n2 3\n\n<b>Output:</b>\n2\n</pre>\n\n<h3>Explanation</h3>\n<p><b>Example case 1.</b></p>\n<p>As we see <b>A = 2</b>. It means that each pizza has 2 slices. </p>\n<p>If she buys one pizza, she will get 1 slice for herself, it is not possible to distribute remaining 1 slice among three of her friends. </p>\n<p>If she buys 2 pizzas, she will get 4 slices, she takes 1 of the slices and remaining three can be equally distributed among her three friends (one slice per friend). So, the answer is 2.</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-12-2016",
+    "is_direct_submittable": false,
+    "contest_name": "ACM-ICPC Asia-Chennai Onsite Mirror Contest 2016",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6",
+    "todo": false,
+    "time": {
+        "view_start_date": 1482211800,
+        "end_date": 1482229800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1793254704,
+        "submit_start_date": 1482211800,
+        "current": 1537434304
+    },
+    "problem_author_html_handle": "admin3",
+    "problem_name": "Birthday Pizza Party",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin3'>admin3</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin3",
+    "contest_code": "CHN16MOS",
+    "max_timelimit": "1",
+    "problem_code": "CHN16C"
+}

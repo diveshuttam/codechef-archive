@@ -1,0 +1,33 @@
+{
+    "problem_code": "FEST06",
+    "problem_author": "vipinkhushu",
+    "contest_name": "CodeWars",
+    "todo": false,
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>vipinkhushu</span>",
+    "problem_name": "integer-string-sum",
+    "source_sizelimit": "50000",
+    "problem_tester_html_handle": "",
+    "contest_code": "CDWR2016",
+    "is_direct_submittable": false,
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/vipinkhushu'>vipinkhushu</a>",
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Tom and Bob are good friends.Tom is fond of solving problems.Bob gave a problem to Tom.He gave him a string of numbers and alphabets.He wants Tom to find the sum of all integers that occurs in the given string . As Tom is a bad programmer he needs your help to solve this problem.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n\n<ul>\n<li>The first line contains <b>T</b> i.e. the number of test cases.<br />\n.</li>\n<li><b>T</b> lines follow, each line containing a string,<b></b></li>\n</ul>\n<h3>Output</h3>\n<ul>\n<li>For each testcase, output a single line containing the sum of integers that occure in string</li>\n</ul>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>10^9</b></li>\n<li><b>1</b> \u2264 <b>|s|</b> \u2264 <b>10^5</b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\nabc12def4gh\n\n<b>Output:</b>\n16\n</pre><hr />\n<h3>Solution</h3>\n<pre>\n#include&lt;bits/stdc++.h>\nusing namespace std;\nint main()\n{\n\t int t;\n\tcin>>t;\n\twhile(t--)\n\t{\n\t\tstring a;\n\t\tcin>>a;\n\t\tlong long int i,j,k=0,l,b[100000],c[100000],n,m;\n\t\tn=a.size();\n\t\tk=n-1;\n\t\tfor(i=0;i&lt;n;i++)\n\t\t{\n\t\t\tif('0'&lt;=a[i] && a[i]&lt; '9')\n\t\t\t{\n\t\t\t\tb[k--]=int(a[i])- int('0');\n\t\t\t}\n\t\t\telse\n\t\t\t{\n\t\t\t\tfor(j=k;j&lt;n;j++)\n\t\t\t\t{\n\t\t\t\t\tc[m]+=b[j];\n\t\t\t\t\tb[j]=0;\n\t\t\t\t\tif(c[m]>9)\n\t\t\t\t\t{\n\t\t\t\t\t\tc[m+1]+=1;\n\t\t\t\t\t\tc[m]%=10;\n\t\t\t\t\t}\n\t\t\t\t\tm+=1;\t\n\t\t\t\t}\n\t\t\t\tk=n-1;\n\t\t\t\tm=0;\t\n\t\t\t}\n\t\t}\n\t\tm=0;\n\t\tfor(j=k;j&lt;n;j++)\n\t\t\t\t{\n\t\t\t\t\tc[m]+=b[j];\n\t\t\t\t\tb[j]=0;\n\t\t\t\t\tif(c[m]>9)\n\t\t\t\t\t{\n\t\t\t\t\t\tc[m+1]+=1;\n\t\t\t\t\t\tc[m]%=10;\n\t\t\t\t\t}\n\t\t\t\t\tm+=1;\t\n\t\t\t\t}\n\t\t\t\tk=-1;\n\t\t\t\tfor(i=n-1;i>0;i--)\n\t\t\t\t{\n\t\t\t\t\tif(c[i]!=0 )\n\t\t\t\t\t{\n\t\t\t\t\t\tk=i;\n\t\t\t\t\t\tbreak;\n\t\t\t\t\t}\n\t\t\t\t\n\t\t\t\t}\n\t\t\t\tif(k=-1)\n\t\t\t\tcout&lt;&lt;\"-1\";\n\t\t\t\telse\n\t\t\t\t{\n\t\t\t\t\tfor(i=k-1;i>0;i--)\n\t\t\t\t\tcout&lt;&lt;c[i];\n\t\t\t\t}\n\t\t\t\tcout&lt;&lt;endl;\n\t\t\n\t}\n\treturn 0;\n}\n\n</pre><hr />\n<h3>Steps to be followed</h3>\n<p>    1. Read the given description carefully and understand the problem.<br /><br /></p>\n<p>    2. Analyze the code given in the problem and find bugs(errors) in these codes..<br /><br /></p>\n<p>    3. The given code can be copied and compiled in an online compiler (Eg. ideone.com).<br /><br /></p>\n<p>    4. Once the bugs are eliminated from the code, the clean code can be submitted as the solution to the problem..<br /><br /></p>\n<p>    5. The solution should be a debugged version of the code provided and must satisfy the test cases to be accepted..<br /><br /></p>\n<p><b>All the best!!</b></p>\n",
+    "category_name": "main",
+    "date_added": "9-03-2016",
+    "status": "success",
+    "languages_supported": "C, CPP14, PYTH, PYTH 3.6, PYPY",
+    "max_timelimit": "1 - 20",
+    "problem_status": "unattempted",
+    "editorial_url": "http://discuss.codechef.com/problems/FEST06",
+    "problem_tester": null,
+    "time": {
+        "view_start_date": 1457686800,
+        "end_date": 1457694000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457694000,
+        "submit_start_date": 1457686800,
+        "current": 1537435188
+    },
+    "user": {
+        "username": ""
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><font style=\"font-size:17px\">\nSpecial Agent Smart Ansel works in a secret research department of CTOPA. He's been working there for a long time and is satisfied with his job, as it allows him to eat out in the best restaurants and order the most expensive and exotic wood types there.\n<br>\n<br>\n\nThe content special agent has got an important task: to get the latest research by American scientists on the English Language. These developments are encoded and stored in a large safe. Ansel's teeth are strong enough, so the authorities assured that upon arriving at the place the Ansel won't have any problems with opening the safe.\n<br>\n<br>\n\nAfter he finishes his Mocktail,  he leaves for this important task. Of course, the Ansel arrived at the location without any problems, but alas. He can't open the safe with his strong and big teeth. At this point, the Smart Ansel get a call from the headquarters and learns that opening the safe with the teeth is not necessary, as a reliable source has sent the following information: the safe code consists of digits and has no leading zeroes. There also is a special hint, which can be used to open the safe. The hint is string s with the following structure:\n<br>\n<br>\n\n\n\n1. if <strong>s<sub>i</sub></strong> = \"?\", then the digit that goes i-th in the safe code can be anything (between 0 to 9, inclusively);\n   <br>\n <br>\n2. if <strong>s<sub>i</sub></strong> is a digit (between 0 to 9, inclusively), then it means that there is digit si on position i in code;\n<br><br>\n\n3. if the string contains letters from <strong>\"A\"</strong> to <strong>\"J\"</strong>, then all positions with the same letters must contain the same digits and the positions with distinct letters must contain distinct digits.\n<br><br>\n\n    The length of the safe code coincides with the length of the hint. \n<br>\n<br>\n\nFor example, hint <em>\"?JGJ9\"</em> has such matching safe code variants: <em>\"51919\"</em>, <em>\"55959\"</em>, <em>\"12329\"</em>, <em>\"93539\"</em> and so on, and has wrong variants such as: <em>\"56669\"</em>, <em>\"00111\"</em>, <em>\"03539\"</em> and <em>\"13666\"</em>.\n<br>\n<br>\n\nAfter receiving such information, the authorities change the plan and ask the special agents to work quietly and gently and not to try to open the safe by mechanical means, and try to find the password using the given hint.\n<br>\n<br>\n\nAt a special agent school the Smart Ansel was the fastest in his platoon finding codes for such safes, but now he is not in that shape: the years take their toll ... Help him to determine the number of possible variants of the code to the safe, matching the given hint. After receiving this information, and knowing his own speed of entering codes, the Smart Ansel will be able to determine whether he will have time for tonight's show \"Ansels are on the trail\" on his favorite TV channel, or he should work for a sleepless night...\n<br>\n<br>\n\n<em><strong>Input</strong></em>\n\n<br><br>\n\nThe first line contains string s \u2014 the hint to the safe code. String s consists of the following characters: ?, 0-9, A-J. It is guaranteed that the first character of string s doesn't equal to character 0.\n<br>\n\nThe input limits for the problem:\n<br>\n\n    1\u2009\u2264\u2009|s|\u2009\u2264\u20095. \n<br>\n<br>\n\n\nHere |s| means the length of string s.\n\n\n\t\n<br><br>\n\n<em><strong>Output</strong></em>\n\n<br><br>\n\nPrint the number of codes that match the given hint.\n\n<br>\n<br>\n\n<strong>Examples</strong>\n<hr>\n\n\n<strong>Input</strong>\n\n<br>\n\nAJ\n\n<br>\n\n<strong>Output</strong>\n\n<br>\n\n81\n\n<br>\n\n<hr>\n\n\n<strong>Input</strong>\n\n<br>\n1?AA\n<br>\n\n<strong>Output</strong>\n\n<br>\n\n100\n\n<br>\n\n\n\n</font>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-04-2018",
+    "is_direct_submittable": false,
+    "contest_name": "CODEX_X",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1525012200,
+        "end_date": 1525023000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1525023000,
+        "submit_start_date": 1525012200,
+        "current": 1537432497
+    },
+    "problem_author_html_handle": "futurzclub",
+    "problem_name": "Special Assignment",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/futurzclub'>futurzclub</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "futurzclub",
+    "contest_code": "COX2018",
+    "max_timelimit": "1",
+    "problem_code": "COX01"
+}

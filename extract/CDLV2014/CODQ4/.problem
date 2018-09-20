@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h1></h1>\n\n<p>The people living on the magnificient island of </p>\n<p>Holumba have their native language as Hoozli.<br />\nThe interesting thing about this language is that </p>\n<p>its read backwards !<br />\nYou are required to write a program to sort the </p>\n<p>numbers inputted in the order of their names</p>\n<p>(alphabetically),keeping their native language in </p>\n<p>mind .\n</p>\n\n<h3>Input</h3>\n<p>The user must ensure that their program can sort </p>\n<p>upto 10 numbers.</p>\n<ul>\n<li>Refer the constraints.</li>\n</ul>\n\n<h3>Output</h3>\n<p>Display the output of sorted numbers as shown in </p>\n<p>example. </p>\n\n<h3>Constraints</h3>\n\n<ul>\n<li>The input numbers should be between 0 and 50\n<p>both included.</p></li>\n</ul>\n<h3>Example</h3>\n<ul>\n<li>Input<br />1 2 3 4 5<br />Output<br />3 1 5 2 4</li>\n<li>Input<br />9 6 20 15 7<br />Output<br />9 15 7 6\n<p>20</p></li>\n</ul>\n<h3>Explanation</h3>\n<p>For input 1 2 3 4 5 the sorting algo should </p>\n<p>consider one,two,three four and five.<br />\n<br /><br />\nThe sorting must be done based on the condition </p>\n<p>mentioned in the problem definition.<br />\n<br />\n</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "9-02-2014",
+    "is_direct_submittable": false,
+    "contest_name": "CodeLive 2014",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1392186600,
+        "end_date": 1392229800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1392229800,
+        "submit_start_date": 1392186600,
+        "current": 1537437839
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>aranta</span>",
+    "problem_name": "Sort Me !",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/aranta'>aranta</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "aranta",
+    "contest_code": "CDLV2014",
+    "max_timelimit": "0.165563",
+    "problem_code": "CODQ4"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>It's time to plan for your next great vacation. There are <b>N</b> cities in the world (numbered from <b>1</b> to <b>N</b>). You live and work in city <b>1</b> and you need to choose another city for your vacation. There are <b>M</b> uni-directional flights available between the cities. As a loyal frequent flyer of your favorite airline, you may enjoy the special offer with your <i>bonus mileage</i>:</p>\n<ul>\n<li>You may purchase a flight ticket at a special discount price if you spend 1000 bonus mileage on the ticket.</li>\n<li>For every 1000 miles traveled in a single flight, you will earn 1000 bonus mileage. </li>\n</ul>\n<p></p>\n<p>Bonus mileage is accumulative and you may spend it at any time you like. Bonus mileage is calculated for each flight separately. If you take two flights of 1500 miles and 2500 miles, you will earn 3000 bonus mileage. Besides, you only earn bonus mileage after you actually complete the flight.</p>\n<p>You currently have <b>B</b> bonus mileage from your past trips. If you plan wisely, what is the minimum cost to travel from city <b>1</b> to another city <b>C</b>? As you have not decided your vacation city yet, you would like to compute the minimum flight expense for every <b>C</b> from <b>2</b> to <b>N</b>.</p>\n<p>Note that you do NOT have to minimize the total distance traveled and you may even take a flight multiple times if necessary.</p>\n<h3>Input</h3>\n<p>Each input file contains a single test case.</p>\n<p>The first line has two integers <b>N, M</b>.</p>\n<p>The next <b>M</b> lines describe the flights. Each line has five integers <b>a, b, d, p, q</b>. <b>a</b> is the departure city of the flight and <b>b</b> is the destination city. <b>d</b> is the distance in miles of this flight. <b>p</b> is the regular price of the ticket and <b>q</b> is the discounted price you may enjoy if you spend 1000 bonus mileage on this flight.</p>\n<h3>Output</h3>\n<p>For each case, output <b>N - 1</b> lines. The <b>i</b>-th line contains a single integer, the minimum flight expense to travel from city <b>1</b> to city <b>i + 1</b>, or \"-1\" if city <b>i + 1</b> cannot be reached from city <b>1</b> via flights.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>2 \u2264 N \u2264 2000</b></li>\n<li><b>0 \u2264 M \u2264 5000</b></li>\n<li><b>0 \u2264 B \u2264 10<sup>9</sup></b></li>\n<li>For every flight <b>1 \u2264 a, b \u2264 N, a \u2260 b, 1 \u2264 d \u2264 10<sup>9</sup>, 1 \u2264 q \u2264 p \u2264 10<sup>5</sup></b></li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4 4 0\n1 2 1200 100 50\n2 3 2000 200 175\n1 3 2500 300 200\n2 1 1250 100 100\n\n<b>Output:</b>\n100\n275\n-1\n</pre><h3>Explanation</h3>\n<p><b>Example:</b> To go to city 2 you may just take the first flight at the regular price. To go to city 3 you may take the first flight to city 2 and earn 1000 bonus mileage. Spend those bonus mileage to take the flight from city 2 to city 3 at a price of 175. No flights go to city 4.</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "24-09-2015",
+    "is_direct_submittable": false,
+    "contest_name": "Mirror of 1st NYU ProgNova",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1444658400,
+        "end_date": 1444669200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1444669200,
+        "submit_start_date": 1444658400,
+        "current": 1537435909
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FF7F00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>6&#9733;</span><span>yubowenok</span>",
+    "problem_name": "Frequent Flyer",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/yubowenok'>yubowenok</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "yubowenok",
+    "contest_code": "NUPNMR15",
+    "max_timelimit": "3",
+    "problem_code": "NYUFQFLY"
+}

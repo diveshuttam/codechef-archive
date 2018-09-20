@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>A mall has <b>N</b> chocolate multiplier machine numbered as <b>1</b>, <b>2</b>, <b>3</b>, . . . <b>N</b> . Each machine has a multiplier number associated with it. <b>A<sub>i</sub></b> is the multiplier for the <b>i<sup>th</sup></b> machine. If one chocolate is put into machine <b>i</b>, then it produces <b>A<sub>i</sub></b> chocolates. Now, Rob has <b>X</b> chocolates but his friend wants exactly <b>Y</b> chocolates on his birthday. Help Rob to guess if he can obtain exactly <b>Y</b> chocolates from <b>X</b> chocolates using the multiplier machines.</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line contains a single integer <b>N</b>, the number of multiplier machines. <br />\nNext line contains two space separated integers <b>X</b> and <b>Y</b>.<br />\nNext line contains <b>N</b> spaced integers, <b>A<sub>1</sub>A<sub>2</sub> . . A<sub>N</sub></b></p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>Print \"POSSIBLE\" if Rob can obtain exactly Y chocolates from X chocolates using the multiplier machines.<br/> Otherwise print \"IMPOSSIBLE\"</br/></p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<p><b>1</b> \u2264 <b>N</b> \u2264 <b>10^5</b><br />\n<b>1</b> \u2264 <b>Ai</b> \u2264 <b>10^9</b><br/><br />\n<b><b>0</b> &lt; <b>X</b> &lt; <b>Y</b> \u2264 <b>10^9</b><br/><br />\n<b>1</b> \u2264 <b>Y - X</b> \u2264 <b>10^4</b></br/></b></br/></p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n4\n3 6\n5 6 7 8\n\n<b>Output:</b>\nIMPOSSIBLE\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "28-08-2014",
+    "is_direct_submittable": false,
+    "contest_name": "Clash Credenz 2014 Wild Card Round",
+    "languages_supported": "C",
+    "todo": false,
+    "time": {
+        "view_start_date": 1409499000,
+        "end_date": 1409585400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1409585400,
+        "submit_start_date": 1409499000,
+        "current": 1537437454
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>wittyceaser</span>",
+    "problem_name": "Chocolate Multiplier",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/wittyceaser'>wittyceaser</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "wittyceaser",
+    "contest_code": "CLASH14",
+    "max_timelimit": "1",
+    "problem_code": "CREDCHOC"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>The state of Otahar is an agricultural nation. It consists of F farms connected by R roads. Farms in Otahar are famous for UFO sightings. Every day there are U cases of UFO sightings which are reported. When an UFO lands in a farm it leaves crop circles. After an UFO sighting is reported people flock to that particular farm to see the crop circles.\n\nThis sudden interest of people in a farm makes it very difficult for the government of Otahar to manage the traffic. One solution being tried out by the government is allowing only unidirectional traffic on roads in Otahar.\n\nBut this creates another problem. Management of essential services like Fire Fighting, Police, Hospitals etc. The Government of Otahar wants to deploy essential services at strategic locations in the nation, so as to have maximum reach.\n\nTo find the maximum reach, the policy makers have identified vital farms. A vital farm is one from where people can visit atleast one farm with an UFO sighting reported. Further the policy makers have identified strategic locations as those farms from which roads lead only to vital farms. \n\nAs a member of the policy making team of the government of Otahar your job is to find out the strategic locations in Otahar, given description of any day's map of Otahar.\n\n<h3>Input Format:</h3>\n\n</p><p>The first line of input will contain three space separated integers, F U R\nThe next R lines will contain two space separated integers each, x y which denote a road starting from farm #x and ending at farm #y.\nConsider the first U farms to have reported UFO sightings today.\n\n<h3>Output Format:</h3>\n\n</p><p>A single line containing all strategic locations in Otahar arranged in increasing order.\n\n<h3>Constraints:</h3>\n1&lt;=F&lt;=100000\n<br />1&lt;=U&lt;=F\n<br />1&lt;=R&lt;=1000000\n\n\n<h3>Sample Input:</h3>\n4 1 4\n<br />1 1\n<br />2 1\n<br />3 1\n<br />3 4\n\n<br /><h3>Sample Output:</h3>\n1 2</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "22-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "BITS Pilani, Apogee 2011 - CODER",
+    "languages_supported": "C, JAVA, GO",
+    "todo": false,
+    "time": {
+        "view_start_date": 1299335400,
+        "end_date": 1299353400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180222,
+        "submit_start_date": 1299335400,
+        "current": 1537439290
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>rahulsingal14</span>",
+    "problem_name": "Location",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/rahulsingal14'>rahulsingal14</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "rahulsingal14",
+    "contest_code": "CODER11",
+    "max_timelimit": "5",
+    "problem_code": "LOCATION"
+}

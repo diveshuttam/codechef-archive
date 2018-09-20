@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><h2>Points:10</h2></p><p>\nOne of the favourite games of the Brotherhoood of Brom went by the name of \u201cThou Last , Thou Loseth\u201d. The game was played on a 5 by 5 board. Initially every array cell had a piece in it. Two players removed pieces alternatively from the board. The player could remove any number of consecutive pieces in a row or column. For example, in the configuration depicted below where one indicates a piece, the player could either remove one piece (A1, A2, or B1), or remove two pieces (A1 and A2, or A1and B1) simultaneously. The game would end when one player was forced to take the last piece, making the other player win the game. \n<pre>\n  \t1\t2\t3\t4\t5\nA\t1\t1\t0\t0\t0\nB\t1\t0\t0\t0\t0\nC\t0\t0\t0\t0\t0\nD\t0\t0\t0\t0\t0\nE\t0\t0\t0\t0\t0\n</pre>\n\nYou think this game would make a wonderful summer project at college. But wait, why not go one step ahead in the spirit of your greatest grandfather\u2019s genius.  You will create a program that evaluates board configurations from this game. The program must output ``winning'' when there exists a winning move that no matter how the opponent responds, it will force the opponent to take the\nlast piece. Otherwise, the program must output ``losing''. <br />\nNote that during the game tree evaluation, if the current configuration has a winning move, then it is not necessary to search any further because the configuration is guaranteed to be winning. This can greatly reduce the game tree search time.\n<br />\n\n<h3>\nInput:</h3>\n\n</p><p>\nThe first line consists of total no of test cases T(&lt;50).The next 5T lines will consist of the configuration of each test case.\n</p>\n<h3>\n\nOutput:\n</h3>\n\n<p>\n\nOutput is a string \"winning\" OR \"losing\"\n</p>\n\n\n<p>\n<h3>\nExample:</h3></p>\n<b>Input:</b>\n<pre>\n3\n1 1 0 0 0\n1 0 0 0 0\n0 0 0 0 0\n0 0 0 0 0\n0 0 0 0 0\n1 1 0 0 0\n0 0 0 0 0\n1 1 0 0 0\n0 0 0 0 0\n0 0 0 0 0\n1 1 1 0 0\n1 0 0 0 0\n0 0 0 0 0\n0 0 0 0 0\n0 0 0 0 0\n</pre>\n<b>\nOutput:</b>\n<pre>\nwinning\nlosing\nwinning\n</pre>\n<h3></h3>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-10-2009",
+    "is_direct_submittable": false,
+    "contest_name": "Knight Coders Round 2",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1256398200,
+        "end_date": 1256484600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1256484600,
+        "submit_start_date": 1256398200,
+        "current": 1537439884
+    },
+    "problem_author_html_handle": "ankitbabbar",
+    "problem_name": "Thou Last , Thou Loseth",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ankitbabbar'>ankitbabbar</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ankitbabbar",
+    "contest_code": "KNCO209",
+    "max_timelimit": "5",
+    "problem_code": "KC203"
+}

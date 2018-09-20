@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<p>Alice and Bob are returning home from their math class. The teacher was discussing Pythagoras' Theorem in class. All of a suddden Alice came up with an intriguing question. He asked Alice what would be the hypotenuse of least length of exactly N distinct right triangles. Alice who was not quite as sharp as Bob said, \"I don't quite understand the question. What do you mean by N distinct triangles?\" Bob explained, \"Suppose N = 2 and you choose a certain hypotenuse. You should be able to construct exactly 2 distinct right triangles with that hypotenuse such that all sides(including hypotenuse) are integral. The answer you must give me is the smallest length the hypotenuse can have. In this case it turns out to be 25 and the sides are (7,24) (15,20)\".\n<p>\nNow As usual your task is to help Alice with the solution.\n\n\n<h3>Input</h3>\n<p>First line will contain T, the number of test cases. Then T( T<1000) lines follow on each line the number N (1<=N<=3000) will be given.\n\n<h3>Output</h3>\n<p>Output must contain exactly T lines, the minimum length of the hypotenuse for each test case. Note: Output may not fit in a 64 bit integer\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n1\n2\n\n\n<b>Output:</b>\n5\n25\n\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "27-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "Quark 2010",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1264926600,
+        "end_date": 1264947300,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1654180172,
+        "submit_start_date": 1264926600,
+        "current": 1537439780
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>abhijith</span>",
+    "problem_name": "FIND HYPOTENUSE",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/abhijith'>abhijith</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "abhijith",
+    "contest_code": "QCJAM10",
+    "max_timelimit": "5",
+    "problem_code": "QCJ4"
+}

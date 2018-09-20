@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>A robot named as Maestro, works on right most digit of number. For eg. 123456 is a number. Maestro would work with 6. But now, if number is 12345600. It will work with  6.  </p>\n\n<h3>Input Specification</h3>\n<p>\nInput a variable t which is the number of test cases. Then input a string having alternate integers and multiplication characters. Your job is to calculate the last non zero digit in that mathematical expression.\nNumber can be as large as 10^19.\n                         0 < t<100 \n</p>\n\n<h3>Output Specification</h3>\n<p>Output consists of a single number which is the last non zero digit of the value of the expression.\nIf the expression evaluates to be zero, output should be &ldquo;Robot hanged.&rdquo;\n</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Sample Input:</b>\n2\n2X3X7X5\n2X0X4X25\n\n\n<b>Sample Output:</b>\n1\nRobot hanged.\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "13-02-2012",
+    "is_direct_submittable": false,
+    "contest_name": "CodeZilla contest 2012",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1329489000,
+        "end_date": 1329499800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1329489000,
+        "submit_start_date": 1329489000,
+        "current": 1537438990
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>jasleenkb</span>",
+    "problem_name": "No Zeroes please!",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/jasleenkb'>jasleenkb</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "jasleenkb",
+    "contest_code": "CDZL2012",
+    "max_timelimit": "0.11",
+    "problem_code": "TESTTT5"
+}

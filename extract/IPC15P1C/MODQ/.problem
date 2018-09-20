@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>You are given an array A of N numbers and M queries<br />\nof the form L R M and you need to output a<sub>L</sub> %M +<br />\na<sub>L+1</sub> %M + .... + a<sub>R</sub> %M for each of these queries.</p>\n<h3>Input</h3>\n<p>1 st line contains no. of test cases T.<br /><br />\nFor each test case <br /><br />\n1st line contains an integer N  <br /><br />\nNext line contains N integers representing the array A. <br /><br />\n3rd line contains M the no. of queries  <br /><br />\nNext M lines contain queries of the form<br />\nL R MOD( find answer from L to R with modulo MOD) </p>\n<h3>Output</h3>\n<p>For each query of each testcase print the answer in a new line. </p>\n<h3>Constraints</h3>\n<ul>\n<li>N &lt;= 10000</li>\n<li>For all queries, MOD &lt;= 100000</li>\n<li>M &lt;= 10000</li>\n<li>1 &lt;= L &lt;= R &lt;= N </li>\n<li>T &lt;= 20 </li>\n<li> A[i] &lt;= 10<sup>4</sup>\n</li></ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1 \n4 \n100 150 200 300 \n1 \n1 4 150 <br />\n<b>Output:</b>\n150\n</pre><p>\u00a0</p>\n<h3>Explanation</h3>\n<p><b>Example case 1.</b><br />\nAnswer for the query is 100 + 0 + 50+ 0 = 150</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "4-11-2015",
+    "is_direct_submittable": false,
+    "contest_name": "ICPC Preparatory Series by Team Enigma",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1449070200,
+        "end_date": 1449088200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1449088200,
+        "submit_start_date": 1449070200,
+        "current": 1537435775
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #FFBF00;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>5&#9733;</span><span>lonerunner</span>",
+    "problem_name": "MOD-Queries",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/lonerunner'>lonerunner</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "lonerunner",
+    "contest_code": "IPC15P1C",
+    "max_timelimit": "3",
+    "problem_code": "MODQ"
+}

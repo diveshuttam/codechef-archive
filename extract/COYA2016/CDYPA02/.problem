@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>Kevin is a very obedient student,One day during his maths class his teacher Francis asked him to bring some chalks from the staff room of there department.So when Kevin went to the staff room he saw there were N boxes of chalks kept on the table as he was told to pick the chalks only from two boxes so he is  confused that from which two boxes he can pick the chalks such that the product of chalks present in both the boxes is equal to K which is the number of chalks which Francis has told him to bring in the class.As you are already there in the staff room so Kevin came to you and asked for your help in finding out the number of ways in which he can select the boxes. </p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line of the input is the number of test cases T. It is followed by T test cases. Each test case has 3 lines. First line is the number of boxes N and the next line has N space separated integers where the ith integer is the number of chalks in the ith box and 3rd line of each test case contains value of K.</p>\n<h3>Output</h3>\n<p>For each test case, output a single number, the number of ways in which he can select the boxes.</p>\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N</b> &lt; <b>10^5</b></li>\n<li><b>1</b> \u2264 <b>Number of chalks in ith     box</b>\u2264<b>1000</b>\n</li>\n</ul>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n5\n1 2 3 4 3\n6\n5\n10 20 10 5 50 \n100\n\n<b>Output:</b>\n2\n2\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-02-2016",
+    "is_direct_submittable": false,
+    "contest_name": "Codiyapa",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, SCM chicken, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1457170200,
+        "end_date": 1457515800,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1457515800,
+        "submit_start_date": 1457170200,
+        "current": 1537435236
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>sumit_kap</span>",
+    "problem_name": "chalks and box",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/sumit_kap'>sumit_kap</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "sumit_kap",
+    "contest_code": "COYA2016",
+    "max_timelimit": "0.5",
+    "problem_code": "CDYPA02"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Krishna and Arjuna are to play an unusual game before the battle of Kurukshetra because they wanted to get a bit relaxed before the war. This game is played this way: both players chose a non-negative number and they alternate turns until there are no more possible moves. The player who can't make a move is considered the loser, and the other one the winner. A turn consists of chosing one or two non-adjacent digits of one of the numbers on play (initially there is only one number) and removing those digits, leaving exactly two or three new numbers, respectively. And for the next turn, all these numbers will be on the game.\n\nFor example, if the chosen number is 12345712, a turn would be to remove the first 2 and the last 1, leaving 3 new numbers: 1, 3457 and 2. It is not valid to remove the first 1, the last 2 or to remove two adjacent digits (remove 3 and 5 is invalid).\n\nKrishna thought that this game was quite simple for him, so he added a new restriction: if at some point of the game there is a prime number, that number is taken out of the game. For example, we had 12345100000007 and after making a move we have 1, 34 and 100000007. 1 will be part of the game, as well as 34, but 100000007 is out of the game. Also, for this game 0007 is not reduced to 7.\n\nArjuna, as a mortal, knew that Krishna, a god, was far better than him with prime numbers, but not with game theory, a field developed by humans, so he added a new restriction to the game in order to have a chance to win. If a number is split in 2 new numbers, he will put on the game A copies of the first number and B copies of the second, instead of just one copy of each one. And if a number is split in 3 new numbers, he will put on the game A copies of the first number, B copies of the second and C copies of the third.\n\nSadly, Arjuna realized that this game was very complicated for him, so he secretly asked for your help. So, you, as a great programmer, have to help Arjuna by giving him information about the game. He will give you the first number on play and he also said you that he was the first to play.\nIf the game is winnable for Arjuna, you have to say to him \"WIN\", and also give the indices (0-indexed) of the two or three digits of the number that are going to be removed in the first turn in order to win. These two or three numbers should be preceded by 1 or 2, according to the number of chosen digits. If there are several possible options to win, you should give the one that minimizes the number of digits that are going to me removed, and if now there are several options, you should give the one that comes first lexicographically. If the game is not winnable for Arjuna, you should say \"AT LEAST YOU WILL WIN THE WAR :)\".\nDon't forget that Krishna always plays perfectly!\n\n\n<h3>Input</h3>\n<p>\nYou will be given a number T in the first line representing the number of test cases. After that, there are T lines, each one consisting of a number X, the first number on play, and after that A, B and C.\n\n\n\n<h3>Output</h3>\n<p>For each test case output a single line containing first the number of digits to remove, and after that the digit(s).\n\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n3\n150 111 111 111\n395233716872471639 1192467086 1412716779 1223932479\n554122894796788090 1369132585 1582995723 1775301948\n\n<b>Output:</b>\n1 1\nAT LEAST YOU WILL WIN THE WAR :)\n2 1 3 \n<h3>CONSTRAINTS:</h3>\n0 <= A, B, C <= 1000000001\n1 <= X <= 10^20, and X doesn't contain leading zeroes.\n\n</pre>\n\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "21-02-2011",
+    "is_direct_submittable": false,
+    "contest_name": "IEM - Kolkata - FESTRONIX - Encoded",
+    "languages_supported": "C, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, D, PERL, FORT, ADA, ASM, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, SCM guile, TCL, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1298799000,
+        "end_date": 1298831400,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1298831400,
+        "submit_start_date": 1298799000,
+        "current": 1537439302
+    },
+    "problem_author_html_handle": "encoded_admin",
+    "problem_name": "Before Kurukshetra",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/encoded_admin'>encoded_admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "encoded_admin",
+    "contest_code": "ENCODED",
+    "max_timelimit": "1.80282",
+    "problem_code": "ENCODE10"
+}

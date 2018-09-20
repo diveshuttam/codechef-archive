@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>It's 2012. The times of peace are over. The Trojan Kingdom has just declared war on Byteland! As part of a massive defense plan against the Trojans, the Bytelandian Ministry of Defense  (BMoD) wants to lay mines on a field near the borderline of the country.</p>\n<p>The field has the form of a MxN rectangular grid divided into MxN unit-square cells. It is only possible to plant mines on some cells, and the number of mines on a cell cannot exceed one.</p>\n<p>The objective is obviously to lay as many mines as possible. However, the BMoD does not want any two adjacent cells to both have mines, because such a situation would be dangerous: one mine being triggered could lead to a chain of explosions! Two cells are adjacent if they share a common edge.</p>\n<p>Johnny, the most renowned computer scientist in Byteland, needs to compute the maximum number of mines that could be planted on the field, and the number of different ways in which these mines could be planted.</p>\n<p>Hurry up and help Johnny save his beloved country!</p>\n\n<h3>Input</h3>\n<p>The first line contains T (about 15), the number of test cases. Then T test cases follow. Each test case has the following form.</p>\n<p>The first line contains two numbers M and N representing the size of the field (1 \u2264 M, N \u2264 20).</p>\n<p>Each line in the next M lines contains N characters. Each character is either '.' or '*' representing the status of a cell in the field. A character '.' represents an empty cell (i.e. it is possible to lay a mine on that cell), while a character '*' represents a blocked cell (i.e. there are obstacles on that cell which prevent mines from being laid on it).\n</p>\n<p>Input for successive test case is separated by a blank line.</p>\n\n<h3>Output</h3>\n<p>For each test case, print two numbers on a line. The first number is the maximum number of mines that could be planted on the field. The second number is the number of ways to plant the maximum number of mines on the field, modulo 151109.</p>\n\n<h3>Example</h3>\n\n<pre>\n<b>Input:</b>\n2\n2 3\n...\n.*.\n\n3 3\n...\n.*.\n...\n\n<b>Output:</b>\n3 1\n4 2\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "15-01-2010",
+    "is_direct_submittable": false,
+    "contest_name": "February 2010 Contest",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1265016600,
+        "end_date": 1265880600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1265880600,
+        "submit_start_date": 1265016600,
+        "current": 1537439746
+    },
+    "problem_author_html_handle": "admin",
+    "problem_name": "The Mine Field",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/admin'>admin</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "admin",
+    "contest_code": "FEB10",
+    "max_timelimit": "0.51",
+    "problem_code": "M1"
+}

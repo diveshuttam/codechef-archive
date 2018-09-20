@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p><h2>Points:10</h2></p><p>\nEvading the agents of the church was of prime importance for the Brotherhood of Brom, for if caught they would hanged, or burnt at the stake, or worse... Instead of having just a single meeting place they had multiple spots so that if one location was somehow compromised, they could use the other. Hence they needed to chose their meeting spots very carefully in the city. They chose them in such a manner that each meeting place was always connected to all the other alternate meeting spots.\nLast night as you were going through the junk in your attic, you came across an ancient manuscript. Turns out that it is actually a map drawn by your greatest grandfather himself of the whole city as it was at that time. You could probably track down their meeting locations by finding sets of spots on the map that were always completely interconnected. It would be easier to visualise the map as a graph with the roads as the edges and the possible meeting locations as the nodes.\n<br/>\nConsider a graph  G formed from a large number of nodes connected by edges.\nG is said to be connected if a path can be found in 0 or more steps between any pair of nodes in G. For example, the graph below is not connected because there is no path from A to C.\n<br/>\nThis graph contains, however, a number of subgraphs that are connected, one for each of the following sets of nodes: {A}, {B}, {C}, {D}, {E},\n{A,B}, {B,D}, {C,E}, {A,B,D}\n<br/>\nA connected subgraph is  maximal if there are no nodes and edges in the original graph that could be added to the subgraph and still leave it connected. There are two maximal connected subgraphs above, one associated\nwith the nodes {A, B, D} and the other with the nodes {C,  E}.\n<br/>\nWrite a program to find the number of maximal connected subsections(subgraphs) of the city(graph).\n</p>\n\n<p>\n<h3>\nInput:</h3>\n\n<p>\nThe first line contains the number of test cases T. T<=100\nThe first line of each input set contains a single uppercase alphabetic character. This character represents the largest node name in the graph. Each successive line contains a pair of uppercase alphabetic characters denoting an edge in the graph.\nInput is terminated by #.\n<h3>\n\nOutput:\n</h3>\n\n<p>For each test case, the output the number of maximal connected subgraphs. \n</p>\n\n<p><h3>\nExample:</p></h3>\n<b>Input:</b>\n<pre>\n1\nE\nAB\nCE\nDB\nEC\n</pre>\n<b>\nOutput:</b>\n<pre>\n2\n</pre>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "16-10-2009",
+    "is_direct_submittable": false,
+    "contest_name": "Knight Coders Round 2",
+    "languages_supported": "C, JAVA, PYTH, CS2, PAS fpc, PAS gpc, RUBY, PHP, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, TEXT",
+    "todo": false,
+    "time": {
+        "view_start_date": 1256398200,
+        "end_date": 1256484600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1256484600,
+        "submit_start_date": 1256398200,
+        "current": 1537439880
+    },
+    "problem_author_html_handle": "ankitbabbar",
+    "problem_name": "Gathering of the Great",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/ankitbabbar'>ankitbabbar</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "ankitbabbar",
+    "contest_code": "KNCO209",
+    "max_timelimit": "5",
+    "problem_code": "KC202"
+}

@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><h3>Problem statement</h3>\n<p>\n\tGopal is conducting an conducting an experiment to test his awesome theory.\n</p>\n<h3>Experiment Setup</h3>\n<p><img src=\"/download/extimages/ed4888c1a8895154a66ec4505d36af98.jpg\" alt=\"Experimental setup\" /></p>\n<p>Initially there are 3 containers <strong>C<sub>1</sub></strong>, <strong>C<sub>2</sub></strong>, <strong>C<sub>3</sub></strong> with equal volume of water in each container. All containers  will change their volume during the experiment and all containers are required to be filled throughout the experiment. Volume of <strong>C<sub>1</sub></strong> and <strong>C<sub>3</sub></strong> at any time <strong>t</strong> depends on external conditions like pressure, temperature etc. Volume of <strong>C<sub>2</sub></strong> depends on the volume of <strong>C<sub>1</sub></strong> and <strong>C<sub>3</sub></strong>.\n</p>\n<p>\n\tAt any time <strong>t</strong>, <strong>C<sub>1</sub></strong> and <strong>C<sub>3</sub></strong> may expand or shrink. If any one or both the containers  (<strong>C<sub>1</sub></strong> and <strong>C<sub>3</sub></strong>) shrink, <strong>C<sub>2</sub></strong> will expand to accommodate the water received from the shrunken container/s. If any one or both the containers  (<strong>C<sub>1</sub></strong> and <strong>C<sub>3</sub></strong>) expand, <strong>C<sub>2</sub></strong> will shrink by giving water to the container/s which was expanded. Containers never shrink to negative volumes. So when volume of <strong>C<sub>2</sub></strong> becomes <strong>0</strong> and if any one the containers <strong>C<sub>1</sub></strong> and <strong>C<sub>3</sub></strong> is not yet filled then external water source is used.\n</p>\n<p>\nNow Gopal defines his awesome theory on <strong>Gopalency</strong> of water as,</p>\n<ul>\n<li><strong>Gopalency</strong> exists between time <strong>T<sub>1</sub></strong> and <strong>T<sub>2</sub></strong> if and only if <strong>T<sub>2</sub></strong> >= <strong>T<sub>1</sub></strong> and volume of <strong>C<sub>2</sub></strong> should not be <strong>0</strong> at any time between <strong>T<sub>1</sub></strong> and <strong>T<sub>2</sub></strong> inclusive.</li>\n<li>For a time <strong>T<sub>1</sub></strong> and <strong>T<sub>2</sub></strong> if <strong>Gopalency</strong> exists, it is defined as<br />\n<pre> Gopalency = Vol. of water in C<sub>2</sub> at <strong>T<sub>2</sub></strong> - Vol. of water in C<sub>2</sub> at <strong>T<sub>1</sub></strong> \n</pre></li>\n</ul>\n\t\n<p>\n\tNow Gopal is tired after conducting lot of experiments, he needs your help to find the maximum <strong>Gopalency</strong> in each experiment conducted by him, using his observations.  \n</p>\n\n\n<h3>NOTE</h3>\n<ul>\n<li>Water in the pipes is negligible.</li>\n</ul>\n<h3>INPUT</h3> \n<p>\t\nFirst line of the input contains the <strong>T</strong>, number of experiments conducted by Gopal.\nIn observations of each experiment <br/>\nFirst line contains <strong>N</strong>, No. of seconds for which experiment was conducted starting from 0.\nNext <strong>N+1</strong> lines contains 2 integers <strong>V1<sub>i</sub></strong> and <strong>V3</strong><sub>i</sub>, Volume of water in <strong>C<sub>1</sub></strong> and <strong>C<sub>3</sub></strong> respectively in <strong>i</strong>th second.\n</br/></p>\n<h3>OUTPUT</h3>\n<p>\nOutput should contain <strong>T</strong> lines containing single integers <strong>MAX</strong>. where <strong>MAX</strong> is maximum Goaplency for <strong>i</strong>th experiment.\n</p>\n<h3>\nCONSTRAINTS</h3>\n<ul>\n<li>1 \u2264 <strong>T</strong> \u2264 10</li>\n<li>0 \u2264 <strong>N</strong> \u2264 10<sup>6</sup></li>\n<li>0 \u2264 <strong>V<sub>1</sub>,V<sub>3</sub></strong> \u2264 10<sup>6</sup></li>\n</ul>\n<h3>EXAMPLE</h3>\n<pre>\n<b>Input</b>\n2\n3\n3 3\n2 2\n1 1\n0 0\n3\n10 10\n5 12\n6 13\n11 11\n<b>Output</b>\n6\n3\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "10-11-2013",
+    "is_direct_submittable": false,
+    "contest_name": "UVCE N-Code November 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, JAR, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1384529400,
+        "end_date": 1384713000,
+        "practice_submission_allowed": false,
+        "visible_start_date": 1384713000,
+        "submit_start_date": 1384529400,
+        "current": 1537437994
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>hkbharath</span>",
+    "problem_name": "Gopalency",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/hkbharath'>hkbharath</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "hkbharath",
+    "contest_code": "NCDRN13",
+    "max_timelimit": "0.104651",
+    "problem_code": "GPNY"
+}

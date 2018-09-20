@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>Alice and Bob are playing a game of moving coin on a N x N grid of 0s and 1s. Rows are numbered 1 to N from top to bottom and Columns are\nnumbered 1 to N from left to right. Starting from a cell in the 1st row, they take turns alternately each time moving the coin to the next \nrow. From a cell (i,j) they can move the coin to any of the cells (i+1,j-1), (i+1,j), (i+1,j+1) as long as it lies inside the grid.\nThe game halts when the coin reaches the last row. Alice wants to collect as many 1s as possible along the path, while Bob wants to collect\nas many 0s as possible.</p>\n\n<p>The game starts with Alice placing the coin in a cell in the 1st row, then Bob moving it from the 1st row to the 2nd row and then Alice\nmoving it to the 3rd row and so on. In how many cells in the 1st row can Alice place the coin initially, such that the number of 1s\nencountered along the path from top to bottom is at least K, if both play optimally. Note that such a path covers exactly N cells, including\na cell in the 1st Row.</p>\n\n<h3>Input</h3>\n<p>The first line contains the number of test cases T. T cases follow. Each test case consists of N K in the first line followed by the\ndescription of the grid in the next N lines. Each row of the grid is given as a string of 0s and 1s, without spaces in between. A blank\nline precedes each test case.</p>\n\n<h3>Output</h3>\n<p>Output T lines, one for each case containing the required answer.</p>\n\n<pre>\n<h3>Constraints</h3>\n1 <= T <= 10\n3 <= N <= 1000\n1 <= K <= N\n\n<h3>Example</h3>\n<b>Input:</b>\n2\n\n3 2\n010\n100\n101\n\n4 2\n1100\n0000\n0010\n1101\n\n<b>Output:</b>\n1\n2\n</pre>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "30-11-2011",
+    "is_direct_submittable": false,
+    "contest_name": "Amritapuri ICPC Warmup 2011",
+    "languages_supported": "C, JAVA",
+    "todo": false,
+    "time": {
+        "view_start_date": 1322902800,
+        "end_date": 1322910000,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1322910000,
+        "submit_start_date": 1322902800,
+        "current": 1537439081
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>flying_ant</span>",
+    "problem_name": "Collect Game",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/flying_ant'>flying_ant</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "flying_ant",
+    "contest_code": "AMRITA11",
+    "max_timelimit": "0.24065",
+    "problem_code": "CLTGAME"
+}

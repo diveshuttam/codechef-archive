@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p></p>\n<p>Pranav is a very cheerful\nguy. Recently, he started running to problems in studies, relationships and everything else. He decided, he won't let little things ruin his life. So he decided to visit Northern India in the search of true himself.</p>\n<p>There are <b>N</b> cities from 1,2,...,N according to his map. There are <b>M</b> bi-directional roads connecting these cities, which are mentioned as well. Now, Pranav decides to start his journey from an arbitrary city <b>S</b> and finish his journey at the city <b>E</b>.</p>\n<p>Pranav just wanted to explore as many cities as he can. But, he wanted to know the minimum number of cities, required to reach from <b>S</b> to <b>E</b> (excluding S & E) or whether there is a path which connects <b>S</b> and <b>E</b>.</p>\n<p>If Pranav reaches, city E from S, he will find his true himself. And will continue to live his life happily! If Pranav has no other option i.e S == E he will find some paths which will lead from S to E and make himself happy. That is for such cases he will always be happy.</p>\n\n<h3>Input</h3>\n<p>First line of input contains T - the number of test cases. Each test case consists of N, M, S, E - as mentioned above. Next M lines will have A and B denoting road/path between cities A and B.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>If Pranav is successful in finding his true himself, print <b>YES</b> and <b>minimum number of cities</b> required to travel from S to E.If he cannot, then print <b>NO</b>.</p>\n<p>\u00a0</p>\n\n<h3>Constraints</h3>\n<ul>\n<li><b>1</b> \u2264 <b>T</b> \u2264 <b>100</b></li>\n<li><b>1</b> \u2264 <b>N, M</b> \u2264 <b>10000</b></li>\n<li><b>1</b> \u2264 <b>S, E, A, B</b> \u2264 <b>N</b></li>\n</ul>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n2\n3 3 1 3\n1 2\n2 3\n1 3\n5 4 1 3\n1 2\n2 5\n3 4\n1 5\n\n<b>Output:</b>\nYES 0\nNO\n</pre>\n<p>\u00a0</p>",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "11-01-2018",
+    "is_direct_submittable": false,
+    "contest_name": "GST January SRM",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, PYPY, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, rust, SCALA, swift, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, kotlin, PERL6, TEXT, SCM chicken, CLOJ, COB, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1516455000,
+        "end_date": 1516462200,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1516462200,
+        "submit_start_date": 1516455000,
+        "current": 1537433157
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #1E7D22;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>2&#9733;</span><span>nerdyninja</span>",
+    "problem_name": "Self Discovery",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/nerdyninja'>nerdyninja</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "nerdyninja",
+    "contest_code": "GSJAN18",
+    "max_timelimit": "1",
+    "problem_code": "GSJANC"
+}

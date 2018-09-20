@@ -1,0 +1,130 @@
+{
+    "announcements": "The sample input for KFIB and LNGHW was wrong. It has been corrected now. Sorry for the inconvenience. \r\n\r\nWe have increased test cases for the problem KFIB. All solutions will be rejudged. ",
+    "ip": "149.129.135.113",
+    "code": "ICOP1803",
+    "duration": "180",
+    "name": "ICO 2018 Preparatory Series - Contest 3",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": {
+        "BRKTREE": [
+            {
+                "score": "20",
+                "count": "1"
+            },
+            {
+                "score": "40",
+                "count": "1"
+            },
+            {
+                "score": "80",
+                "count": "3"
+            },
+            {
+                "score": "100",
+                "count": "10"
+            }
+        ],
+        "PIZPAR": [
+            {
+                "score": "20",
+                "count": "4"
+            },
+            {
+                "score": "30",
+                "count": "1"
+            },
+            {
+                "score": "100",
+                "count": "24"
+            }
+        ],
+        "LNGHW": [
+            {
+                "score": "20",
+                "count": "16"
+            },
+            {
+                "score": "100",
+                "count": "22"
+            }
+        ],
+        "KFIB": [
+            {
+                "score": "20",
+                "count": "3"
+            },
+            {
+                "score": "100",
+                "count": "30"
+            }
+        ]
+    },
+    "rules": "<h1 style=\"box-sizing: border-box; margin: 0px 0px 0.5rem; padding: 0px 0px 5px; font-family: Helvetica, sans-serif; color: #535353; text-rendering: optimizeLegibility; font-stretch: normal; line-height: 1.6 !important; font-size: 20px !important;\">\r\n<p style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\"><strong class=\"rules-heading\">About Contest:</strong></p>\r\n<div class=\"rules-body\" style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\">\r\n<p>The contest is hosted as a practice for the upcoming ZCO, INOI and ICPC for those who are aspiring to be a part of the ICO and ICPC. This is unrated and is hosted just for the sake of problem solving practice. The problems will be set by a group of students who have qualified for IOITC or have had the pain of not clearing it in INOI. More details\u00a0<a target=\"_blank\" href=\"/ioi/2018/prep-series\" title=\"ICO Prep Series\">here</a>.</p>\r\n</div>\r\n<div class=\"rules-body\" style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\">\r\n<p><strong class=\"rules-heading\">Contest Details:</strong></p>\r\n<div class=\"rules-body\">\r\n<ul>\r\n<li><span style=\"font-weight: bold;\">Contest starting time</span>: 19:00 hrs IST</li>\r\n<li><span style=\"font-weight: bold;\">Duration</span><span>: 2 hours</span></li>\r\n<li><span style=\"font-weight: bold;\">Ranking format</span><span>: IOI type</span></li>\r\n<li><strong>Prizes: </strong><span>We will reimburse the Indian Computing Olympiad registration fees for 5 random Indian school students</span><span> </span></li>\r\n</ul>\r\n</div>\r\n</div>\r\n<p style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\"><strong class=\"rules-heading\">About International Olympiad in Informatics<br /></strong></p>\r\n<p>The IOI is one of five international science olympiads. The primary goal of the IOI is to stimulate interest in informatics (computing science) and information technology. Another important goal is to bring together exceptionally talented pupils from various countries and to have them share scientific and cultural experiences.<br />The IOI is organized annually in and by one of the participating countries. Each participating country typically sends a delegation of four contestants and two accompanying adults. Students compete individually and try to maximize their score by solving a set of informatics problems during two competition days. Cultural and recreational events are organized on the remaining days.</p>\r\n<p style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\"><strong class=\"rules-heading\">About Indian Computing Olympiad<br /></strong></p>\r\n<p>The Indian Computing Olympaid consists of Zonal Computing Olympiad, Zonal Informatics Olympiad, Indian National Olympiad in Informatics and IOI Training Camp which is conducted by the Indian Association for Research in Computing Science(IARCS) as procedure of selection to the IOI.</p>\r\n<p style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\"><strong class=\"rules-heading\">Eligibility Criteria: Anyone with a knack for Programming :P</strong></p>\r\n<div class=\"rules-body\" style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\">\r\n<p>Our contests are open to all the programmers across the globe. However, all the participants are expected to abide to\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct.</a></p>\r\n</div>\r\n<p style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\"><br /><strong class=\"rules-heading\">Rules and Regulations:</strong></p>\r\n<ul style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\">\r\n<li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. If you are unsure, email us at\u00a0<a target=\"_blank\" href=\"mailto:feedback@codechef.com\">feedback@codechef.com </a>.</li>\r\n<li>Discussing CodeChef's problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</li>\r\n<li>Each program will be tested based on our critical test data. However output and input should be exactly as specified in the samples provided</li>\r\n</ul>\r\n<p style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\"><strong class=\"rules-heading\">Judging Criteria:</strong></p>\r\n<ul style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\">\r\n<li><strong>All the problems have same points alloted to them.</strong></li>\r\n<li><strong>Users are ranked according to the IOI ranking style.</strong></li>\r\n</ul>\r\n<div style=\"color: #000000; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: normal;\"><strong>Note: You can now \"Code, Compile, and Run\" your codes on our newly launched\u00a0<a target=\"_blank\" href=\"/ide\">Online IDE</a>.</strong><br />\r\n<p>However, if you are using any other online development environment, make sure that other contestants don't have access to your code. As a contestant, you are responsible for making sure others don't access the code that you submit. If you use Ideone, make sure to mark your submission \"private\" (not secret)\".</p>\r\n</div>\r\n</h1>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/sites/default/files/uploads/landing_page_banners/banner-compete.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "BRKTREE": {
+            "allow_submission": false,
+            "name": "Breaking the Tree",
+            "category_name": "main",
+            "accuracy": 22,
+            "successful_submissions": "10",
+            "code": "BRKTREE",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "LNGHW": {
+            "allow_submission": false,
+            "name": "Long Homework",
+            "category_name": "main",
+            "accuracy": 13.84,
+            "successful_submissions": "22",
+            "code": "LNGHW",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "PIZPAR": {
+            "allow_submission": false,
+            "name": "Pizza Party",
+            "category_name": "main",
+            "accuracy": 31.33,
+            "successful_submissions": "24",
+            "code": "PIZPAR",
+            "type": "3",
+            "is_direct_submittable": false
+        },
+        "KFIB": {
+            "allow_submission": false,
+            "name": "K Fibonnaci",
+            "category_name": "main",
+            "accuracy": 17.37,
+            "successful_submissions": "30",
+            "code": "KFIB",
+            "type": "3",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1510331400,
+        "current": 1537433365,
+        "freezing": 0,
+        "start": 1510320600
+    },
+    "user": {
+        "username": ""
+    }
+}

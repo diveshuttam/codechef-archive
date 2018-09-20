@@ -1,0 +1,87 @@
+{
+    "announcements": "<p><b>20/01/2014, 00:40 IST: </b>Initially we had correct tests for problem CAKE2AM. But there was some misunderstanding between us, and we've got a decision that our tests are wrong. Now, we sure that our initial tests were correct. Regret the confusion.</p>\r\n<p><b>20/01/2014, 00:30 IST: </b>The contest has been further extended by 15 minutes more. It will now end at 00:45 hrs IST</p>\r\n<p><b>20/01/2014, 00:13 IST:</b> The test data for the problem CAKE2AM has been fixed and all the solutions have been rejudged. Regret the inconvenience.</p>\r\n<p>\u00c2\u00a0</p>\r\n<p><b>19/01/2014, 23:55 IST: </b>There is problem in the test data for problem CAKE2AM. It is under investigation and hence we are extending the January Cook-Off 2014 by half an hour. Keep watching this space for further update.</p>\r\n<p>\u00c2\u00a0</p>\r\n<p><b>19/01/2014, 21:45 IST: </b>The ranking for the contest can be found\u00c2\u00a0<a target=\"_blank\" href=\"/rankings/COOK42\">here</a>.</p>",
+    "ip": "149.129.135.113",
+    "code": "COOK42",
+    "duration": "195",
+    "name": "January Cook-off 2014",
+    "is_contest_elements_visible": true,
+    "rank_and_score": null,
+    "is_flexi_time_contest": false,
+    "partial_scores": [],
+    "rules": "<p><b>The January Cook-Off 2014 has ended.</b></p> <p><b>The solutions for the problem set are public and the problems have been moved to practice section.</b></p> <p><b>The editorials for the contest\u00a0<b>can be found <a href=\"http://discuss.codechef.com/tags/cook42/\">here</a></b>.</b></p> <p><b>The ratings for the contest have been calculated.</b></p> <p><b>The Winners blog post can be found <a href=\"http://blog.codechef.com/2014/01/29/the-big-story-of-a-small-confusion/\">here</a>.</b></p> <p>\u00a0</p> <p><span>In case you are a new user, you will need to first register for a CodeChef ID </span><a href=\"/user/register/\">here</a><span>.</span></p> <p><b><br /></b></p> <ul> <li>Please do not discuss strategy, suggestions or tips in the comments during a live contest. Posting questions clarifying the problem statement is ok. Comments will be published only after admin approval during the contest. If you are unsure, email us at\u00a0<a target=\"_blank\" href=\"mailto:feedback@codechef.com\">feedback@codechef.com</a></li> </ul> <div><span><span><br /></span></span></div> <div></div> <ul> <li><span>Discussing CodeChef\u2019s problems or any aspect of problem, on any other platform on web, on identification, could lead to disabling of respective account and banning from the community.</span> <ul> <br /> </ul> </li> <li>You can also send in your queries in an email to\u00a0<a target=\"_blank\" href=\"mailto:contest-admin@codechef.com\">contest-admin@codechef.com</a>, during the contest.</li> <br /> <li>Contest problems will become visible on January 19th, 2014 at 21:30 (IST). There will be 5 problems in all.\u00a0Check your timezone\u00a0<span><a target=\"_blank\" href=\"http://www.timeanddate.com/worldclock/fixedtime.html?msg=CodeChef+%3A+January+Cook-Off+2014&amp;iso=20140119T2130&amp;p1=44&amp;ah=2&amp;am=30\">here</a></span>.</li> <br /> <li>You will receive one point for solving a problem (passing all test cases - no partial credit), regardless of the level of difficulty of that problem.</li> <br /> <li>Users are ranked according to the most problems solved. Ties will be broken by the total time for each user in ascending order of time.</li> <br /> <li>The total time is the sum of the time consumed for each problem solved. The time consumed for a solved problem is the time elapsed from the beginning of the contest to the submittal of the first accepted run plus 20 penalty minutes for every previously rejected run for that problem. There is no time consumed for a problem that is not solved.</li> </ul> <div><span><span><br /></span></span></div> <div></div> <ul> <li>You shall not possess more than one account on CodeChef. If you have, then do let us know, so that we can deactivate the insignificant one. If you do not report it and we come to know about it, we may deactivate both the accounts permanently.</li> </ul> <div><span><span><br /></span></span></div> <div></div> <ul> <li>If anyone is using code from some other source in his submission, he should provide proper proper attribution. Failing this, it may be considered plagiarism and the submission will be subject to disqualification.</li> </ul> <div><span><span><br /></span></span></div> <div></div> <ul> <li>All participants are expected to abide by the\u00a0<a target=\"_blank\" href=\"http://discuss.codechef.com/questions/18662/does-codechef-have-any-code-of-conduct\">CodeChef Code Of Conduct</a>.</li> <br style=\"font-family: Arial, sans-serif; line-height: 18px;\" /> <div></div> <b>Note: As a contestant, you are responsible for making sure others don't access the code that you submit. If you're on a network or shared computer, or using an online development environment, make sure that other contestants don't have access to your code.</b><b> If you use\u00a0<a target=\"_blank\" href=\"http://ideone.com/\">Ideone</a>, make sure to mark your submission \"private\" (not secret)\".</b> </ul>",
+    "problemsstats": {
+        "partially_solved": [],
+        "solved": [],
+        "attempted": []
+    },
+    "is_OTP_required": false,
+    "banner": "/download/small-banner/COOK42/1424957849.jpg",
+    "isRanklistFrozen": false,
+    "todos": [],
+    "autoRefresh": true,
+    "status": "success",
+    "is_registration_enabled_contest": false,
+    "problems": {
+        "GANGAAM": {
+            "allow_submission": false,
+            "name": "Interrogating Gangsters",
+            "category_name": "main",
+            "accuracy": 23.4,
+            "successful_submissions": "55",
+            "code": "GANGAAM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "ORDERAAM": {
+            "allow_submission": false,
+            "name": "Chef and the Orders",
+            "category_name": "main",
+            "accuracy": 2.42,
+            "successful_submissions": "3",
+            "code": "ORDERAAM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "GAMEAAM": {
+            "allow_submission": false,
+            "name": "Subtraction Game",
+            "category_name": "main",
+            "accuracy": 5.61,
+            "successful_submissions": "74",
+            "code": "GAMEAAM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CAKE1AM": {
+            "allow_submission": false,
+            "name": "Chef and the Cake I",
+            "category_name": "main",
+            "accuracy": 24.59,
+            "successful_submissions": "864",
+            "code": "CAKE1AM",
+            "type": "0",
+            "is_direct_submittable": false
+        },
+        "CAKE2AM": {
+            "allow_submission": false,
+            "name": "Chef and the Cake II",
+            "category_name": "main",
+            "accuracy": 4.76,
+            "successful_submissions": "1",
+            "code": "CAKE2AM",
+            "type": "0",
+            "is_direct_submittable": false
+        }
+    },
+    "stats": null,
+    "is_a_parent_contest": false,
+    "time": {
+        "end": 1390158900,
+        "current": 1537437908,
+        "freezing": 0,
+        "start": 1390147200
+    },
+    "user": {
+        "username": ""
+    }
+}

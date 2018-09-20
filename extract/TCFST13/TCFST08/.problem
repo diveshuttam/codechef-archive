@@ -1,0 +1,32 @@
+{
+    "status": "success",
+    "problem_status": "unattempted",
+    "problem_tester": null,
+    "body": "<span class=\"solution-visible-txt\">All submissions for this problem are available.</span><p>\u00a0</p>\n<p>There is a magician who can transform Iron objects to Gold replicas and vice versa. The King decides to experiment the claims of the magician by putting forward an sequence of such objects. A Gold object is represented by a + and an iron object is represented by a - </p>\n<p>The condition of play put forward by the king is as follows: </p>\n<p>1. If the first object of the sequence is Gold then the last object must change its type (gold should change to iron and vice versa) <br />\n2. The leftmost object in the sequence is removed, and is added into the sequence from the right side after undergoing transformation(gold should change to iron and vice versa). </p>\n<p>After applying these two protocols on the sequence, the King counts up by 1. The King wants to know, the state of his objects after a given number of counts. At count 0, sequence is in its original state</p>\n<p>\u00a0</p>\n<h3>Input</h3>\n<p>First line will consist of an integer h which denotes the no. of experiments conducted by King.<br />\nNext line consists of m and n where m represents the length of the sequence and  n represents the no. of queries asked by the king.<br />\nNext line consists a string of length m composed of '+' and '-' where '+' represents the gold and '-' represents the iron. This sequence will be the initial state (count 0).<br />\nThen, there will be n lines with an integer n(i), representing the count no. at which king wants to know the state of the sequence.</p>\n<p>\u00a0</p>\n<h3>Output</h3>\n<p>For each experiment one line containing \"Experiment #j\" , being j the j<sup>th</sup> experiment magician is conducting.<br />\nThen, n strings in each new line, representing the sequence at that time.</p>\n<p>\u00a0</p>\n<h3>Constraints</h3>\n<p>1 \u2264 h \u2264 15<br />\n1 \u2264 m \u2264 14<br />\n1 \u2264 n \u22641000<br />\n0 \u2264 n(i) \u2264 10<sup>9</sup></p>\n<p>\u00a0</p>\n<h3>Example</h3>\n<pre><b>Input:</b>\n1\n4 6\n+--+\n0\n2\n3\n5\n7\n10\n<b>Output:</b>\nExperiment #1:\n+--+\n---+\n--++\n++++\n+-+-\n+---\n</pre><p>\u00a0</p>\n",
+    "category_name": "main",
+    "user": {
+        "username": ""
+    },
+    "date_added": "25-10-2013",
+    "is_direct_submittable": false,
+    "contest_name": "TechFest 2013",
+    "languages_supported": "C, CPP14, JAVA, PYTH, PYTH 3.6, CS2, PAS fpc, PAS gpc, RUBY, PHP, GO, NODEJS, HASK, SCALA, D, PERL, FORT, WSPC, ADA, CAML, ICK, BF, ASM, CLPS, PRLG, ICON, SCM qobi, PIKE, ST, NICE, LUA, BASH, NEM, LISP sbcl, LISP clisp, SCM guile, JS, ERL, TCL, PERL6, TEXT, CLOJ, FS",
+    "todo": false,
+    "time": {
+        "view_start_date": 1382801400,
+        "end_date": 1382898600,
+        "practice_submission_allowed": true,
+        "visible_start_date": 1382898600,
+        "submit_start_date": 1382801400,
+        "current": 1537438058
+    },
+    "problem_author_html_handle": "<span \n            class='rating' \n            style='display: inline-block; \n                    font-size: 10px; \n                    background: #3366CC;\n                    padding: 0 3px; \n                    line-height: 1.3; \n                    color: white;\n                    margin-right: 2px;'>3&#9733;</span><span>divyambansal</span>",
+    "problem_name": "King and Magician",
+    "source_sizelimit": "50000",
+    "tags": "<a class='problem-tag-small ' href='/tags/problems/divyambansal'>divyambansal</a>",
+    "problem_tester_html_handle": "",
+    "problem_author": "divyambansal",
+    "contest_code": "TCFST13",
+    "max_timelimit": "1 - 2",
+    "problem_code": "TCFST08"
+}
