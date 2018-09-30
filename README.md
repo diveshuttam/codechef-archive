@@ -10,3 +10,8 @@ pip3 install -r requirement.txt
 cd extract
 python3 extract.py | tee codechef_logs.txt
 ```
+
+## NOTE
+The scripts in this repo doesn't use the actual oauth based api: https://api.codechef.com/...
+instead this uses https://www.codechef.com/api/... as later does not
+require authentication and doesn't have limits so quite easy to archive data.
