@@ -4,7 +4,7 @@ Helpful for personal experimentation without going over the wire.
 This contains most of the contests/problems till SEPT18 except some for which there was network error.  
 For details refer to [extract/codechef_logs.txt](./extract/codechef_logs.txt)
 
-## Usage
+## Generating archive
 ```bash
 pip3 install -r requirement.txt
 cd extract
