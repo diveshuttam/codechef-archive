@@ -15,3 +15,4 @@ python3 extract.py | tee codechef_logs.txt
 The scripts in this repo don't use the actual oauth based api: `https://api.codechef.com/`
 instead they use `https://www.codechef.com/api/` as later does not
 require authentication and doesn't have limits so quite easy to archive data.
+The output of the two api endpoints is quite same, there are suttle differenes in keys and data provided.
